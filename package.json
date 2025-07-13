@@ -1,0 +1,31 @@
+{
+  "name": "ast-analysis",
+  "version": "1.0.0",
+  "description": "A tool to analyze JavaScript/TypeScript AST nodes using oxc-parser",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "analyze": "node src/index.js",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:watch": "vitest --watch",
+    "test:coverage": "vitest run --coverage"
+  },
+  "keywords": [
+    "ast",
+    "analysis",
+    "javascript",
+    "typescript",
+    "oxc"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^10.3.10",
+    "oxc-parser": "^0.77.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  }
+}
