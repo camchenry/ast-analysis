@@ -1,0 +1,386 @@
+AST Analysis Report for redux
+Generated on: 2025-07-13T03:17:30.392Z
+Repository: sample-repos/redux
+================================================================================
+
+🔍 Analyzing JavaScript/TypeScript files in: /Users/camchenry/workspace/ast-analysis/sample-repos/redux
+
+📁 Found 173 files to analyze...
+
+
+============================================================
+📊 AST ANALYSIS RESULTS
+============================================================
+
+📁 FILE STATISTICS:
+   Total files found: 173
+   Successfully parsed: 173
+   Failed to parse: 0
+   Total file size: 216.5 KB
+
+🌳 NODE STATISTICS:
+   Total nodes: 14,350
+   Average nodes per file: 83
+   Average file size: 1.3 KB
+
+📋 ALL NODE TYPES (BY FILE PRESENCE):
+   Program                         173 files (100.0%) -      173 total (1.21%)
+   Literal                         100 files ( 57.8%) -    1,275 total (8.89%)
+   Identifier                       99 files ( 57.2%) -    5,006 total (34.89%)
+   CallExpression                   78 files ( 45.1%) -      640 total (4.46%)
+   VariableDeclaration              73 files ( 42.2%) -      323 total (2.25%)
+   VariableDeclarator               73 files ( 42.2%) -      323 total (2.25%)
+   ImportDeclaration                70 files ( 40.5%) -      184 total (1.28%)
+   MemberExpression                 70 files ( 40.5%) -      570 total (3.97%)
+   Property                         66 files ( 38.2%) -      906 total (6.31%)
+   ArrowFunctionExpression          65 files ( 37.6%) -      301 total (2.10%)
+   ObjectExpression                 63 files ( 36.4%) -      412 total (2.87%)
+   BlockStatement                   62 files ( 35.8%) -      289 total (2.01%)
+   ImportSpecifier                  56 files ( 32.4%) -      171 total (1.19%)
+   ExportDefaultDeclaration         49 files ( 28.3%) -       68 total (0.47%)
+   ExpressionStatement              46 files ( 26.6%) -      242 total (1.69%)
+   ImportDefaultSpecifier           44 files ( 25.4%) -       67 total (0.47%)
+   ReturnStatement                  42 files ( 24.3%) -      163 total (1.14%)
+   BinaryExpression                 41 files ( 23.7%) -      150 total (1.05%)
+   ExportNamedDeclaration           34 files ( 19.7%) -      149 total (1.04%)
+   ParenthesizedExpression          32 files ( 18.5%) -       73 total (0.51%)
+   IfStatement                      28 files ( 16.2%) -       88 total (0.61%)
+   ArrayExpression                  25 files ( 14.5%) -      150 total (1.05%)
+   TSTypeAnnotation                 21 files ( 12.1%) -      246 total (1.71%)
+   UnaryExpression                  20 files ( 11.6%) -       75 total (0.52%)
+   LogicalExpression                20 files ( 11.6%) -       44 total (0.31%)
+   AssignmentExpression             19 files ( 11.0%) -       49 total (0.34%)
+   AssignmentPattern                19 files ( 11.0%) -       31 total (0.22%)
+   NewExpression                    18 files ( 10.4%) -       42 total (0.29%)
+   TSTypeReference                  17 files (  9.8%) -      459 total (3.20%)
+   ObjectPattern                    17 files (  9.8%) -       19 total (0.13%)
+   FunctionDeclaration              16 files (  9.2%) -       31 total (0.22%)
+   SwitchStatement                  16 files (  9.2%) -       26 total (0.18%)
+   SwitchCase                       16 files (  9.2%) -       88 total (0.61%)
+   Unknown                          14 files (  8.1%) -       92 total (0.64%)
+   TSTypeParameterInstantiation     14 files (  8.1%) -      122 total (0.85%)
+   SpreadElement                    13 files (  7.5%) -       41 total (0.29%)
+   ImportNamespaceSpecifier         12 files (  6.9%) -       14 total (0.10%)
+   ThrowStatement                   12 files (  6.9%) -       33 total (0.23%)
+   TemplateLiteral                  11 files (  6.4%) -       46 total (0.32%)
+   TemplateElement                  11 files (  6.4%) -       84 total (0.59%)
+   TSAnyKeyword                     11 files (  6.4%) -       81 total (0.56%)
+   TSTypeParameterDeclaration       10 files (  5.8%) -       53 total (0.37%)
+   TSTypeParameter                  10 files (  5.8%) -      131 total (0.91%)
+   TSStringKeyword                   7 files (  4.0%) -       18 total (0.13%)
+   TSTypeLiteral                     7 files (  4.0%) -       61 total (0.43%)
+   TSUnionType                       7 files (  4.0%) -       18 total (0.13%)
+   TSUnknownKeyword                  7 files (  4.0%) -       15 total (0.10%)
+   TSPropertySignature               7 files (  4.0%) -       17 total (0.12%)
+   TSArrayType                       6 files (  3.5%) -       18 total (0.13%)
+   TSTypeAliasDeclaration            6 files (  3.5%) -       19 total (0.13%)
+   UpdateExpression                  6 files (  3.5%) -        7 total (0.05%)
+   ConditionalExpression             6 files (  3.5%) -       10 total (0.07%)
+   TSLiteralType                     5 files (  2.9%) -        8 total (0.06%)
+   TSDeclareFunction                 5 files (  2.9%) -       23 total (0.16%)
+   TSFunctionType                    5 files (  2.9%) -       22 total (0.15%)
+   RestElement                       5 files (  2.9%) -       13 total (0.09%)
+   TSInterfaceDeclaration            5 files (  2.9%) -       13 total (0.09%)
+   TSInterfaceBody                   5 files (  2.9%) -       13 total (0.09%)
+   JSXElement                        5 files (  2.9%) -       33 total (0.23%)
+   JSXOpeningElement                 5 files (  2.9%) -       33 total (0.23%)
+   JSXIdentifier                     5 files (  2.9%) -      106 total (0.74%)
+   JSXAttribute                      5 files (  2.9%) -       43 total (0.30%)
+   JSXText                           5 files (  2.9%) -       55 total (0.38%)
+   JSXExpressionContainer            5 files (  2.9%) -       22 total (0.15%)
+   JSXClosingElement                 5 files (  2.9%) -       28 total (0.20%)
+   TSIndexedAccessType               4 files (  2.3%) -       11 total (0.08%)
+   FunctionExpression                4 files (  2.3%) -        6 total (0.04%)
+   TryStatement                      4 files (  2.3%) -        4 total (0.03%)
+   TSConditionalType                 4 files (  2.3%) -       11 total (0.08%)
+   TSUndefinedKeyword                4 files (  2.3%) -       14 total (0.10%)
+   TSNumberKeyword                   4 files (  2.3%) -        7 total (0.05%)
+   TSVoidKeyword                     4 files (  2.3%) -        8 total (0.06%)
+   AwaitExpression                   3 files (  1.7%) -        3 total (0.02%)
+   CatchClause                       3 files (  1.7%) -        3 total (0.02%)
+   TSNeverKeyword                    3 files (  1.7%) -       10 total (0.07%)
+   TSIntersectionType                3 files (  1.7%) -       18 total (0.13%)
+   TSTypeQuery                       3 files (  1.7%) -        5 total (0.03%)
+   TSCallSignatureDeclaration        3 files (  1.7%) -        6 total (0.04%)
+   ArrayPattern                      3 files (  1.7%) -        3 total (0.02%)
+   TSSatisfiesExpression             2 files (  1.2%) -        5 total (0.03%)
+   TSNonNullExpression               2 files (  1.2%) -        3 total (0.02%)
+   TSAsExpression                    2 files (  1.2%) -       14 total (0.10%)
+   TSNullKeyword                     2 files (  1.2%) -        2 total (0.01%)
+   ThisExpression                    2 files (  1.2%) -        2 total (0.01%)
+   TSObjectKeyword                   2 files (  1.2%) -        2 total (0.01%)
+   TSIndexSignature                  2 files (  1.2%) -        9 total (0.06%)
+   TSTypeOperator                    2 files (  1.2%) -       11 total (0.08%)
+   ForStatement                      2 files (  1.2%) -        3 total (0.02%)
+   TSModuleDeclaration               2 files (  1.2%) -        2 total (0.01%)
+   TSModuleBlock                     2 files (  1.2%) -        2 total (0.01%)
+   TSSymbolKeyword                   2 files (  1.2%) -        2 total (0.01%)
+   TSTypePredicate                   2 files (  1.2%) -        2 total (0.01%)
+   ImportExpression                  2 files (  1.2%) -        2 total (0.01%)
+   ExportSpecifier                   1 files (  0.6%) -       31 total (0.22%)
+   TSTupleType                       1 files (  0.6%) -        1 total (0.01%)
+   ForInStatement                    1 files (  0.6%) -        1 total (0.01%)
+   ForOfStatement                    1 files (  0.6%) -        2 total (0.01%)
+   ContinueStatement                 1 files (  0.6%) -        1 total (0.01%)
+   WhileStatement                    1 files (  0.6%) -        1 total (0.01%)
+   TSMethodSignature                 1 files (  0.6%) -        6 total (0.04%)
+   TSMappedType                      1 files (  0.6%) -        3 total (0.02%)
+   TSInferType                       1 files (  0.6%) -        3 total (0.02%)
+   TSInterfaceHeritage               1 files (  0.6%) -        2 total (0.01%)
+   JSXMemberExpression               1 files (  0.6%) -        2 total (0.01%)
+   TSQualifiedName                   1 files (  0.6%) -        2 total (0.01%)
+
+📝 ALL NODE TYPES (BY TOTAL COUNT):
+   Identifier                        5,006 (34.89%) in 99 files (57.2%)
+   Literal                           1,275 (8.89%) in 100 files (57.8%)
+   Property                            906 (6.31%) in 66 files (38.2%)
+   CallExpression                      640 (4.46%) in 78 files (45.1%)
+   MemberExpression                    570 (3.97%) in 70 files (40.5%)
+   TSTypeReference                     459 (3.20%) in 17 files (9.8%)
+   ObjectExpression                    412 (2.87%) in 63 files (36.4%)
+   VariableDeclaration                 323 (2.25%) in 73 files (42.2%)
+   VariableDeclarator                  323 (2.25%) in 73 files (42.2%)
+   ArrowFunctionExpression             301 (2.10%) in 65 files (37.6%)
+   BlockStatement                      289 (2.01%) in 62 files (35.8%)
+   TSTypeAnnotation                    246 (1.71%) in 21 files (12.1%)
+   ExpressionStatement                 242 (1.69%) in 46 files (26.6%)
+   ImportDeclaration                   184 (1.28%) in 70 files (40.5%)
+   Program                             173 (1.21%) in 173 files (100.0%)
+   ImportSpecifier                     171 (1.19%) in 56 files (32.4%)
+   ReturnStatement                     163 (1.14%) in 42 files (24.3%)
+   ArrayExpression                     150 (1.05%) in 25 files (14.5%)
+   BinaryExpression                    150 (1.05%) in 41 files (23.7%)
+   ExportNamedDeclaration              149 (1.04%) in 34 files (19.7%)
+   TSTypeParameter                     131 (0.91%) in 10 files (5.8%)
+   TSTypeParameterInstantiation        122 (0.85%) in 14 files (8.1%)
+   JSXIdentifier                       106 (0.74%) in 5 files (2.9%)
+   Unknown                              92 (0.64%) in 14 files (8.1%)
+   IfStatement                          88 (0.61%) in 28 files (16.2%)
+   SwitchCase                           88 (0.61%) in 16 files (9.2%)
+   TemplateElement                      84 (0.59%) in 11 files (6.4%)
+   TSAnyKeyword                         81 (0.56%) in 11 files (6.4%)
+   UnaryExpression                      75 (0.52%) in 20 files (11.6%)
+   ParenthesizedExpression              73 (0.51%) in 32 files (18.5%)
+   ExportDefaultDeclaration             68 (0.47%) in 49 files (28.3%)
+   ImportDefaultSpecifier               67 (0.47%) in 44 files (25.4%)
+   TSTypeLiteral                        61 (0.43%) in 7 files (4.0%)
+   JSXText                              55 (0.38%) in 5 files (2.9%)
+   TSTypeParameterDeclaration           53 (0.37%) in 10 files (5.8%)
+   AssignmentExpression                 49 (0.34%) in 19 files (11.0%)
+   TemplateLiteral                      46 (0.32%) in 11 files (6.4%)
+   LogicalExpression                    44 (0.31%) in 20 files (11.6%)
+   JSXAttribute                         43 (0.30%) in 5 files (2.9%)
+   NewExpression                        42 (0.29%) in 18 files (10.4%)
+   SpreadElement                        41 (0.29%) in 13 files (7.5%)
+   ThrowStatement                       33 (0.23%) in 12 files (6.9%)
+   JSXElement                           33 (0.23%) in 5 files (2.9%)
+   JSXOpeningElement                    33 (0.23%) in 5 files (2.9%)
+   ExportSpecifier                      31 (0.22%) in 1 files (0.6%)
+   FunctionDeclaration                  31 (0.22%) in 16 files (9.2%)
+   AssignmentPattern                    31 (0.22%) in 19 files (11.0%)
+   JSXClosingElement                    28 (0.20%) in 5 files (2.9%)
+   SwitchStatement                      26 (0.18%) in 16 files (9.2%)
+   TSDeclareFunction                    23 (0.16%) in 5 files (2.9%)
+   TSFunctionType                       22 (0.15%) in 5 files (2.9%)
+   JSXExpressionContainer               22 (0.15%) in 5 files (2.9%)
+   ObjectPattern                        19 (0.13%) in 17 files (9.8%)
+   TSTypeAliasDeclaration               19 (0.13%) in 6 files (3.5%)
+   TSArrayType                          18 (0.13%) in 6 files (3.5%)
+   TSStringKeyword                      18 (0.13%) in 7 files (4.0%)
+   TSIntersectionType                   18 (0.13%) in 3 files (1.7%)
+   TSUnionType                          18 (0.13%) in 7 files (4.0%)
+   TSPropertySignature                  17 (0.12%) in 7 files (4.0%)
+   TSUnknownKeyword                     15 (0.10%) in 7 files (4.0%)
+   ImportNamespaceSpecifier             14 (0.10%) in 12 files (6.9%)
+   TSUndefinedKeyword                   14 (0.10%) in 4 files (2.3%)
+   TSAsExpression                       14 (0.10%) in 2 files (1.2%)
+   RestElement                          13 (0.09%) in 5 files (2.9%)
+   TSInterfaceDeclaration               13 (0.09%) in 5 files (2.9%)
+   TSInterfaceBody                      13 (0.09%) in 5 files (2.9%)
+   TSIndexedAccessType                  11 (0.08%) in 4 files (2.3%)
+   TSConditionalType                    11 (0.08%) in 4 files (2.3%)
+   TSTypeOperator                       11 (0.08%) in 2 files (1.2%)
+   TSNeverKeyword                       10 (0.07%) in 3 files (1.7%)
+   ConditionalExpression                10 (0.07%) in 6 files (3.5%)
+   TSIndexSignature                      9 (0.06%) in 2 files (1.2%)
+   TSLiteralType                         8 (0.06%) in 5 files (2.9%)
+   TSVoidKeyword                         8 (0.06%) in 4 files (2.3%)
+   TSNumberKeyword                       7 (0.05%) in 4 files (2.3%)
+   UpdateExpression                      7 (0.05%) in 6 files (3.5%)
+   FunctionExpression                    6 (0.04%) in 4 files (2.3%)
+   TSCallSignatureDeclaration            6 (0.04%) in 3 files (1.7%)
+   TSMethodSignature                     6 (0.04%) in 1 files (0.6%)
+   TSSatisfiesExpression                 5 (0.03%) in 2 files (1.2%)
+   TSTypeQuery                           5 (0.03%) in 3 files (1.7%)
+   TryStatement                          4 (0.03%) in 4 files (2.3%)
+   AwaitExpression                       3 (0.02%) in 3 files (1.7%)
+   TSNonNullExpression                   3 (0.02%) in 2 files (1.2%)
+   CatchClause                           3 (0.02%) in 3 files (1.7%)
+   ForStatement                          3 (0.02%) in 2 files (1.2%)
+   TSMappedType                          3 (0.02%) in 1 files (0.6%)
+   TSInferType                           3 (0.02%) in 1 files (0.6%)
+   ArrayPattern                          3 (0.02%) in 3 files (1.7%)
+   TSNullKeyword                         2 (0.01%) in 2 files (1.2%)
+   ThisExpression                        2 (0.01%) in 2 files (1.2%)
+   TSObjectKeyword                       2 (0.01%) in 2 files (1.2%)
+   ForOfStatement                        2 (0.01%) in 1 files (0.6%)
+   TSModuleDeclaration                   2 (0.01%) in 2 files (1.2%)
+   TSModuleBlock                         2 (0.01%) in 2 files (1.2%)
+   TSSymbolKeyword                       2 (0.01%) in 2 files (1.2%)
+   TSTypePredicate                       2 (0.01%) in 2 files (1.2%)
+   TSInterfaceHeritage                   2 (0.01%) in 1 files (0.6%)
+   ImportExpression                      2 (0.01%) in 2 files (1.2%)
+   JSXMemberExpression                   2 (0.01%) in 1 files (0.6%)
+   TSQualifiedName                       2 (0.01%) in 1 files (0.6%)
+   TSTupleType                           1 (0.01%) in 1 files (0.6%)
+   ForInStatement                        1 (0.01%) in 1 files (0.6%)
+   ContinueStatement                     1 (0.01%) in 1 files (0.6%)
+   WhileStatement                        1 (0.01%) in 1 files (0.6%)
+
+============================================================
+✅ Analysis complete!
+
+
+Warnings/Errors:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/website/src/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/website/src/pages/errors.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/universal/server/server.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/universal/client/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/tree-view/src/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/todos-with-undo/src/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/todos/src/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/todomvc/src/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/shopping-cart/src/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/real-world/src/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/counter/src/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/counter/src/App.test.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/counter/src/App.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/async/src/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/universal/common/components/Counter.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/tree-view/src/containers/Node.spec.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/tree-view/src/containers/Node.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/todos-with-undo/src/containers/UndoRedo.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/todos-with-undo/src/containers/AddTodo.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/todos-with-undo/src/components/TodoList.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/todos-with-undo/src/components/Todo.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/todos-with-undo/src/components/Link.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/todos-with-undo/src/components/Footer.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/todos-with-undo/src/components/App.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/todos/src/containers/AddTodo.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/todos/src/components/TodoList.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/todos/src/components/Todo.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/todos/src/components/Link.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/todos/src/components/Footer.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/todos/src/components/App.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/todomvc/src/components/TodoTextInput.spec.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/todomvc/src/components/TodoTextInput.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/todomvc/src/components/TodoList.spec.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/todomvc/src/components/TodoList.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/todomvc/src/components/TodoItem.spec.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/todomvc/src/components/TodoItem.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/todomvc/src/components/MainSection.spec.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/todomvc/src/components/MainSection.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/todomvc/src/components/Link.spec.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/todomvc/src/components/Link.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/todomvc/src/components/Header.spec.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/todomvc/src/components/Header.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/todomvc/src/components/Footer.spec.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/todomvc/src/components/Footer.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/todomvc/src/components/App.spec.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/todomvc/src/components/App.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/shopping-cart/src/containers/ProductsContainer.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/shopping-cart/src/containers/CartContainer.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/shopping-cart/src/containers/App.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/shopping-cart/src/components/ProductsList.spec.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/shopping-cart/src/components/ProductsList.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/shopping-cart/src/components/ProductItem.spec.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/shopping-cart/src/components/ProductItem.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/shopping-cart/src/components/Product.spec.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/shopping-cart/src/components/Product.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/shopping-cart/src/components/Cart.spec.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/shopping-cart/src/components/Cart.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/real-world/src/containers/UserPage.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/real-world/src/containers/Root.prod.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/real-world/src/containers/Root.dev.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/real-world/src/containers/RepoPage.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/real-world/src/containers/DevTools.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/real-world/src/containers/App.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/real-world/src/components/User.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/real-world/src/components/Repo.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/real-world/src/components/List.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/real-world/src/components/Explore.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/async/src/containers/App.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/async/src/components/Posts.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/async/src/components/Picker.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/redux/examples/counter/src/features/counter/Counter.js:
+   Unexpected token

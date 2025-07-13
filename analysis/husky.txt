@@ -1,0 +1,109 @@
+AST Analysis Report for husky
+Generated on: 2025-07-13T03:17:12.596Z
+Repository: sample-repos/husky
+================================================================================
+
+🔍 Analyzing JavaScript/TypeScript files in: /Users/camchenry/workspace/ast-analysis/sample-repos/husky
+
+📁 Found 4 files to analyze...
+
+
+============================================================
+📊 AST ANALYSIS RESULTS
+============================================================
+
+📁 FILE STATISTICS:
+   Total files found: 4
+   Successfully parsed: 4
+   Failed to parse: 0
+   Total file size: 2.7 KB
+
+🌳 NODE STATISTICS:
+   Total nodes: 506
+   Average nodes per file: 127
+   Average file size: 697.0 B
+
+📋 ALL NODE TYPES (BY FILE PRESENCE):
+   Program                           4 files (100.0%) -        4 total (0.79%)
+   Identifier                        4 files (100.0%) -      171 total (33.79%)
+   ImportDeclaration                 3 files ( 75.0%) -        6 total (1.19%)
+   Literal                           3 files ( 75.0%) -       77 total (15.22%)
+   ImportSpecifier                   3 files ( 75.0%) -        5 total (0.99%)
+   ArrayExpression                   3 files ( 75.0%) -        4 total (0.79%)
+   ExportDefaultDeclaration          3 files ( 75.0%) -        3 total (0.59%)
+   ArrowFunctionExpression           3 files ( 75.0%) -        5 total (0.99%)
+   BlockStatement                    3 files ( 75.0%) -        6 total (1.19%)
+   MemberExpression                  3 files ( 75.0%) -       39 total (7.71%)
+   CallExpression                    3 files ( 75.0%) -       37 total (7.31%)
+   ExpressionStatement               3 files ( 75.0%) -       23 total (4.55%)
+   ObjectExpression                  3 files ( 75.0%) -       11 total (2.17%)
+   ImportDefaultSpecifier            2 files ( 50.0%) -        5 total (0.99%)
+   VariableDeclaration               2 files ( 50.0%) -        4 total (0.79%)
+   VariableDeclarator                2 files ( 50.0%) -       10 total (1.98%)
+   TemplateLiteral                   2 files ( 50.0%) -        5 total (0.99%)
+   TemplateElement                   2 files ( 50.0%) -        7 total (1.38%)
+   Unknown                           2 files ( 50.0%) -        9 total (1.78%)
+   IfStatement                       2 files ( 50.0%) -        8 total (1.58%)
+   BinaryExpression                  2 files ( 50.0%) -        8 total (1.58%)
+   UnaryExpression                   2 files ( 50.0%) -        2 total (0.40%)
+   Property                          2 files ( 50.0%) -       24 total (4.74%)
+   AssignmentPattern                 1 files ( 25.0%) -        2 total (0.40%)
+   ReturnStatement                   1 files ( 25.0%) -        6 total (1.19%)
+   ObjectPattern                     1 files ( 25.0%) -        1 total (0.20%)
+   NewExpression                     1 files ( 25.0%) -        1 total (0.20%)
+   MetaProperty                      1 files ( 25.0%) -        1 total (0.20%)
+   TSDeclareFunction                 1 files ( 25.0%) -        1 total (0.20%)
+   TSTypeAnnotation                  1 files ( 25.0%) -        2 total (0.40%)
+   TSStringKeyword                   1 files ( 25.0%) -        2 total (0.40%)
+   AssignmentExpression              1 files ( 25.0%) -        8 total (1.58%)
+   ParenthesizedExpression           1 files ( 25.0%) -        2 total (0.40%)
+   ConditionalExpression             1 files ( 25.0%) -        2 total (0.40%)
+   TryStatement                      1 files ( 25.0%) -        1 total (0.20%)
+   CatchClause                       1 files ( 25.0%) -        1 total (0.20%)
+   LogicalExpression                 1 files ( 25.0%) -        1 total (0.20%)
+   ChainExpression                   1 files ( 25.0%) -        1 total (0.20%)
+   Hashbang                          1 files ( 25.0%) -        1 total (0.20%)
+
+📝 ALL NODE TYPES (BY TOTAL COUNT):
+   Identifier                          171 (33.79%) in 4 files (100.0%)
+   Literal                              77 (15.22%) in 3 files (75.0%)
+   MemberExpression                     39 (7.71%) in 3 files (75.0%)
+   CallExpression                       37 (7.31%) in 3 files (75.0%)
+   Property                             24 (4.74%) in 2 files (50.0%)
+   ExpressionStatement                  23 (4.55%) in 3 files (75.0%)
+   ObjectExpression                     11 (2.17%) in 3 files (75.0%)
+   VariableDeclarator                   10 (1.98%) in 2 files (50.0%)
+   Unknown                               9 (1.78%) in 2 files (50.0%)
+   IfStatement                           8 (1.58%) in 2 files (50.0%)
+   BinaryExpression                      8 (1.58%) in 2 files (50.0%)
+   AssignmentExpression                  8 (1.58%) in 1 files (25.0%)
+   TemplateElement                       7 (1.38%) in 2 files (50.0%)
+   ImportDeclaration                     6 (1.19%) in 3 files (75.0%)
+   BlockStatement                        6 (1.19%) in 3 files (75.0%)
+   ReturnStatement                       6 (1.19%) in 1 files (25.0%)
+   ImportDefaultSpecifier                5 (0.99%) in 2 files (50.0%)
+   ImportSpecifier                       5 (0.99%) in 3 files (75.0%)
+   TemplateLiteral                       5 (0.99%) in 2 files (50.0%)
+   ArrowFunctionExpression               5 (0.99%) in 3 files (75.0%)
+   Program                               4 (0.79%) in 4 files (100.0%)
+   VariableDeclaration                   4 (0.79%) in 2 files (50.0%)
+   ArrayExpression                       4 (0.79%) in 3 files (75.0%)
+   ExportDefaultDeclaration              3 (0.59%) in 3 files (75.0%)
+   AssignmentPattern                     2 (0.40%) in 1 files (25.0%)
+   UnaryExpression                       2 (0.40%) in 2 files (50.0%)
+   TSTypeAnnotation                      2 (0.40%) in 1 files (25.0%)
+   TSStringKeyword                       2 (0.40%) in 1 files (25.0%)
+   ParenthesizedExpression               2 (0.40%) in 1 files (25.0%)
+   ConditionalExpression                 2 (0.40%) in 1 files (25.0%)
+   ObjectPattern                         1 (0.20%) in 1 files (25.0%)
+   NewExpression                         1 (0.20%) in 1 files (25.0%)
+   MetaProperty                          1 (0.20%) in 1 files (25.0%)
+   TSDeclareFunction                     1 (0.20%) in 1 files (25.0%)
+   TryStatement                          1 (0.20%) in 1 files (25.0%)
+   CatchClause                           1 (0.20%) in 1 files (25.0%)
+   LogicalExpression                     1 (0.20%) in 1 files (25.0%)
+   ChainExpression                       1 (0.20%) in 1 files (25.0%)
+   Hashbang                              1 (0.20%) in 1 files (25.0%)
+
+============================================================
+✅ Analysis complete!

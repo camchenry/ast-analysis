@@ -1,0 +1,115 @@
+AST Analysis Report for express
+Generated on: 2025-07-13T03:17:12.419Z
+Repository: sample-repos/express
+================================================================================
+
+🔍 Analyzing JavaScript/TypeScript files in: /Users/camchenry/workspace/ast-analysis/sample-repos/express
+
+📁 Found 51 files to analyze...
+
+
+============================================================
+📊 AST ANALYSIS RESULTS
+============================================================
+
+📁 FILE STATISTICS:
+   Total files found: 51
+   Successfully parsed: 51
+   Failed to parse: 0
+   Total file size: 107.6 KB
+
+🌳 NODE STATISTICS:
+   Total nodes: 13,126
+   Average nodes per file: 257
+   Average file size: 2.1 KB
+
+📋 ALL NODE TYPES (BY FILE PRESENCE):
+   Program                          51 files (100.0%) -       51 total (0.39%)
+   ExpressionStatement              50 files ( 98.0%) -      867 total (6.61%)
+   Literal                          50 files ( 98.0%) -    1,215 total (9.26%)
+   MemberExpression                 50 files ( 98.0%) -    1,485 total (11.31%)
+   Identifier                       50 files ( 98.0%) -    4,919 total (37.48%)
+   CallExpression                   50 files ( 98.0%) -    1,095 total (8.34%)
+   AssignmentExpression             47 files ( 92.2%) -      313 total (2.38%)
+   VariableDeclaration              47 files ( 92.2%) -      422 total (3.21%)
+   VariableDeclarator               47 files ( 92.2%) -      422 total (3.21%)
+   BlockStatement                   46 files ( 90.2%) -      445 total (3.39%)
+   FunctionExpression               45 files ( 88.2%) -      239 total (1.82%)
+   IfStatement                      36 files ( 70.6%) -      192 total (1.46%)
+   ObjectExpression                 34 files ( 66.7%) -      122 total (0.93%)
+   UnaryExpression                  33 files ( 64.7%) -      131 total (1.00%)
+   Property                         33 files ( 64.7%) -      205 total (1.56%)
+   BinaryExpression                 30 files ( 58.8%) -      251 total (1.91%)
+   ReturnStatement                  24 files ( 47.1%) -      152 total (1.16%)
+   LogicalExpression                19 files ( 37.3%) -       73 total (0.56%)
+   ArrayExpression                  16 files ( 31.4%) -       31 total (0.24%)
+   FunctionDeclaration              15 files ( 29.4%) -       34 total (0.26%)
+   NewExpression                    14 files ( 27.5%) -       41 total (0.31%)
+   ThisExpression                    8 files ( 15.7%) -      230 total (1.75%)
+   ThrowStatement                    8 files ( 15.7%) -       18 total (0.14%)
+   UpdateExpression                  7 files ( 13.7%) -       10 total (0.08%)
+   SwitchStatement                   7 files ( 13.7%) -        9 total (0.07%)
+   SwitchCase                        7 files ( 13.7%) -       36 total (0.27%)
+   ConditionalExpression             6 files ( 11.8%) -       22 total (0.17%)
+   BreakStatement                    6 files ( 11.8%) -       22 total (0.17%)
+   ForStatement                      4 files (  7.8%) -        7 total (0.05%)
+   ParenthesizedExpression           4 files (  7.8%) -        6 total (0.05%)
+   TryStatement                      3 files (  5.9%) -        3 total (0.02%)
+   CatchClause                       3 files (  5.9%) -        3 total (0.02%)
+   WhileStatement                    3 files (  5.9%) -        3 total (0.02%)
+   Unknown                           3 files (  5.9%) -       22 total (0.17%)
+   ForInStatement                    3 files (  5.9%) -        3 total (0.02%)
+   SpreadElement                     3 files (  5.9%) -        6 total (0.05%)
+   ObjectPattern                     2 files (  3.9%) -        3 total (0.02%)
+   ContinueStatement                 2 files (  3.9%) -        2 total (0.02%)
+   ArrowFunctionExpression           1 files (  2.0%) -        1 total (0.01%)
+   TemplateLiteral                   1 files (  2.0%) -        4 total (0.03%)
+   TemplateElement                   1 files (  2.0%) -       10 total (0.08%)
+   RestElement                       1 files (  2.0%) -        1 total (0.01%)
+
+📝 ALL NODE TYPES (BY TOTAL COUNT):
+   Identifier                        4,919 (37.48%) in 50 files (98.0%)
+   MemberExpression                  1,485 (11.31%) in 50 files (98.0%)
+   Literal                           1,215 (9.26%) in 50 files (98.0%)
+   CallExpression                    1,095 (8.34%) in 50 files (98.0%)
+   ExpressionStatement                 867 (6.61%) in 50 files (98.0%)
+   BlockStatement                      445 (3.39%) in 46 files (90.2%)
+   VariableDeclaration                 422 (3.21%) in 47 files (92.2%)
+   VariableDeclarator                  422 (3.21%) in 47 files (92.2%)
+   AssignmentExpression                313 (2.38%) in 47 files (92.2%)
+   BinaryExpression                    251 (1.91%) in 30 files (58.8%)
+   FunctionExpression                  239 (1.82%) in 45 files (88.2%)
+   ThisExpression                      230 (1.75%) in 8 files (15.7%)
+   Property                            205 (1.56%) in 33 files (64.7%)
+   IfStatement                         192 (1.46%) in 36 files (70.6%)
+   ReturnStatement                     152 (1.16%) in 24 files (47.1%)
+   UnaryExpression                     131 (1.00%) in 33 files (64.7%)
+   ObjectExpression                    122 (0.93%) in 34 files (66.7%)
+   LogicalExpression                    73 (0.56%) in 19 files (37.3%)
+   Program                              51 (0.39%) in 51 files (100.0%)
+   NewExpression                        41 (0.31%) in 14 files (27.5%)
+   SwitchCase                           36 (0.27%) in 7 files (13.7%)
+   FunctionDeclaration                  34 (0.26%) in 15 files (29.4%)
+   ArrayExpression                      31 (0.24%) in 16 files (31.4%)
+   ConditionalExpression                22 (0.17%) in 6 files (11.8%)
+   BreakStatement                       22 (0.17%) in 6 files (11.8%)
+   Unknown                              22 (0.17%) in 3 files (5.9%)
+   ThrowStatement                       18 (0.14%) in 8 files (15.7%)
+   UpdateExpression                     10 (0.08%) in 7 files (13.7%)
+   TemplateElement                      10 (0.08%) in 1 files (2.0%)
+   SwitchStatement                       9 (0.07%) in 7 files (13.7%)
+   ForStatement                          7 (0.05%) in 4 files (7.8%)
+   ParenthesizedExpression               6 (0.05%) in 4 files (7.8%)
+   SpreadElement                         6 (0.05%) in 3 files (5.9%)
+   TemplateLiteral                       4 (0.03%) in 1 files (2.0%)
+   TryStatement                          3 (0.02%) in 3 files (5.9%)
+   CatchClause                           3 (0.02%) in 3 files (5.9%)
+   ObjectPattern                         3 (0.02%) in 2 files (3.9%)
+   WhileStatement                        3 (0.02%) in 3 files (5.9%)
+   ForInStatement                        3 (0.02%) in 3 files (5.9%)
+   ContinueStatement                     2 (0.02%) in 2 files (3.9%)
+   ArrowFunctionExpression               1 (0.01%) in 1 files (2.0%)
+   RestElement                           1 (0.01%) in 1 files (2.0%)
+
+============================================================
+✅ Analysis complete!

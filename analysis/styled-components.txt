@@ -1,0 +1,326 @@
+AST Analysis Report for styled-components
+Generated on: 2025-07-13T03:17:32.714Z
+Repository: sample-repos/styled-components
+================================================================================
+
+🔍 Analyzing JavaScript/TypeScript files in: /Users/camchenry/workspace/ast-analysis/sample-repos/styled-components
+
+📁 Found 151 files to analyze...
+
+
+============================================================
+📊 AST ANALYSIS RESULTS
+============================================================
+
+📁 FILE STATISTICS:
+   Total files found: 151
+   Successfully parsed: 151
+   Failed to parse: 0
+   Total file size: 187.7 KB
+
+🌳 NODE STATISTICS:
+   Total nodes: 20,247
+   Average nodes per file: 134
+   Average file size: 1.2 KB
+
+📋 ALL NODE TYPES (BY FILE PRESENCE):
+   Program                         151 files (100.0%) -      151 total (0.75%)
+   Literal                         128 files ( 84.8%) -    1,463 total (7.23%)
+   Identifier                      127 files ( 84.1%) -    7,054 total (34.84%)
+   ImportDeclaration                98 files ( 64.9%) -      328 total (1.62%)
+   MemberExpression                 91 files ( 60.3%) -    1,036 total (5.12%)
+   ExportDefaultDeclaration         89 files ( 58.9%) -       91 total (0.45%)
+   CallExpression                   81 files ( 53.6%) -      664 total (3.28%)
+   ImportDefaultSpecifier           78 files ( 51.7%) -      212 total (1.05%)
+   VariableDeclaration              75 files ( 49.7%) -      456 total (2.25%)
+   VariableDeclarator               75 files ( 49.7%) -      463 total (2.29%)
+   BlockStatement                   69 files ( 45.7%) -      394 total (1.95%)
+   BinaryExpression                 67 files ( 44.4%) -      310 total (1.53%)
+   ObjectExpression                 62 files ( 41.1%) -      198 total (0.98%)
+   ImportSpecifier                  61 files ( 40.4%) -      249 total (1.23%)
+   Property                         60 files ( 39.7%) -      538 total (2.66%)
+   ReturnStatement                  60 files ( 39.7%) -      188 total (0.93%)
+   TSTypeAnnotation                 59 files ( 39.1%) -      553 total (2.73%)
+   ExpressionStatement              57 files ( 37.7%) -      325 total (1.61%)
+   ArrowFunctionExpression          55 files ( 36.4%) -      176 total (0.87%)
+   Unknown                          50 files ( 33.1%) -      320 total (1.58%)
+   AssignmentExpression             49 files ( 32.5%) -      169 total (0.83%)
+   LogicalExpression                49 files ( 32.5%) -      170 total (0.84%)
+   TSTypeReference                  48 files ( 31.8%) -      824 total (4.07%)
+   TemplateElement                  45 files ( 29.8%) -      284 total (1.40%)
+   ParenthesizedExpression          44 files ( 29.1%) -       85 total (0.42%)
+   TemplateLiteral                  44 files ( 29.1%) -      122 total (0.60%)
+   IfStatement                      41 files ( 27.2%) -      161 total (0.80%)
+   FunctionDeclaration              38 files ( 25.2%) -       59 total (0.29%)
+   UnaryExpression                  36 files ( 23.8%) -       94 total (0.46%)
+   ExportNamedDeclaration           36 files ( 23.8%) -      137 total (0.68%)
+   TSTypeParameterInstantiation     36 files ( 23.8%) -      273 total (1.35%)
+   TSStringKeyword                  36 files ( 23.8%) -      168 total (0.83%)
+   TSAnyKeyword                     31 files ( 20.5%) -       76 total (0.38%)
+   ArrayExpression                  29 files ( 19.2%) -       75 total (0.37%)
+   ConditionalExpression            26 files ( 17.2%) -       62 total (0.31%)
+   TSArrayType                      26 files ( 17.2%) -       56 total (0.28%)
+   TSAsExpression                   26 files ( 17.2%) -       83 total (0.41%)
+   TSUnionType                      22 files ( 14.6%) -       94 total (0.46%)
+   TSNumberKeyword                  20 files ( 13.2%) -       63 total (0.31%)
+   NewExpression                    19 files ( 12.6%) -       32 total (0.16%)
+   ObjectPattern                    18 files ( 11.9%) -       24 total (0.12%)
+   TSUndefinedKeyword               18 files ( 11.9%) -       63 total (0.31%)
+   TSTypeParameterDeclaration       17 files ( 11.3%) -       63 total (0.31%)
+   TSTypeParameter                  17 files ( 11.3%) -      109 total (0.54%)
+   TSObjectKeyword                  17 files ( 11.3%) -       76 total (0.38%)
+   TSQualifiedName                  17 files ( 11.3%) -       56 total (0.28%)
+   SpreadElement                    16 files ( 10.6%) -       42 total (0.21%)
+   TSTypeLiteral                    16 files ( 10.6%) -       37 total (0.18%)
+   ForStatement                     15 files (  9.9%) -       22 total (0.11%)
+   TSPropertySignature              15 files (  9.9%) -       87 total (0.43%)
+   TaggedTemplateExpression         14 files (  9.3%) -       22 total (0.11%)
+   FunctionExpression               13 files (  8.6%) -       50 total (0.25%)
+   UpdateExpression                 13 files (  8.6%) -       28 total (0.14%)
+   TSLiteralType                    13 files (  8.6%) -       49 total (0.24%)
+   TSTypeAliasDeclaration           13 files (  8.6%) -       52 total (0.26%)
+   TSIntersectionType               13 files (  8.6%) -       38 total (0.19%)
+   TSBooleanKeyword                 13 files (  8.6%) -       23 total (0.11%)
+   TSVoidKeyword                    11 files (  7.3%) -       26 total (0.13%)
+   JSXElement                       10 files (  6.6%) -       37 total (0.18%)
+   JSXOpeningElement                10 files (  6.6%) -       37 total (0.18%)
+   JSXIdentifier                    10 files (  6.6%) -      112 total (0.55%)
+   AssignmentPattern                10 files (  6.6%) -       25 total (0.12%)
+   ThisExpression                   10 files (  6.6%) -      151 total (0.75%)
+   ThrowStatement                    9 files (  6.0%) -       17 total (0.08%)
+   ExportSpecifier                   9 files (  6.0%) -       82 total (0.40%)
+   ClassBody                         9 files (  6.0%) -       11 total (0.05%)
+   MethodDefinition                  9 files (  6.0%) -       43 total (0.21%)
+   TSTypeOperator                    8 files (  5.3%) -       20 total (0.10%)
+   TSTypeQuery                       8 files (  5.3%) -       24 total (0.12%)
+   JSXAttribute                      8 files (  5.3%) -       45 total (0.22%)
+   JSXExpressionContainer            8 files (  5.3%) -       48 total (0.24%)
+   JSXClosingElement                 8 files (  5.3%) -       22 total (0.11%)
+   RestElement                       8 files (  5.3%) -       13 total (0.06%)
+   PropertyDefinition                8 files (  5.3%) -       36 total (0.18%)
+   TSInterfaceDeclaration            7 files (  4.6%) -       26 total (0.13%)
+   TSInterfaceBody                   7 files (  4.6%) -       26 total (0.13%)
+   TSTypePredicate                   7 files (  4.6%) -        7 total (0.03%)
+   TSMappedType                      6 files (  4.0%) -        9 total (0.04%)
+   TSIndexedAccessType               6 files (  4.0%) -       13 total (0.06%)
+   TSParenthesizedType               6 files (  4.0%) -       15 total (0.07%)
+   TSFunctionType                    6 files (  4.0%) -       10 total (0.05%)
+   JSXText                           6 files (  4.0%) -       35 total (0.17%)
+   ClassDeclaration                  6 files (  4.0%) -        6 total (0.03%)
+   TSUnknownKeyword                  6 files (  4.0%) -        9 total (0.04%)
+   SwitchStatement                   6 files (  4.0%) -        6 total (0.03%)
+   SwitchCase                        6 files (  4.0%) -       39 total (0.19%)
+   ImportNamespaceSpecifier          5 files (  3.3%) -        5 total (0.02%)
+   TSConditionalType                 5 files (  3.3%) -       28 total (0.14%)
+   TSIndexSignature                  5 files (  3.3%) -       10 total (0.05%)
+   TSNullKeyword                     5 files (  3.3%) -        7 total (0.03%)
+   TSTupleType                       5 files (  3.3%) -        5 total (0.02%)
+   ForInStatement                    5 files (  3.3%) -        7 total (0.03%)
+   TSClassImplements                 5 files (  3.3%) -        7 total (0.03%)
+   ArrayPattern                      4 files (  2.6%) -        4 total (0.02%)
+   TryStatement                      4 files (  2.6%) -        4 total (0.02%)
+   TSInterfaceHeritage               3 files (  2.0%) -       11 total (0.05%)
+   TSNeverKeyword                    3 files (  2.0%) -       14 total (0.07%)
+   JSXSpreadAttribute                3 files (  2.0%) -        3 total (0.01%)
+   CatchClause                       3 files (  2.0%) -        3 total (0.01%)
+   WhileStatement                    3 files (  2.0%) -        3 total (0.01%)
+   ContinueStatement                 3 files (  2.0%) -        5 total (0.02%)
+   ClassExpression                   3 files (  2.0%) -        5 total (0.02%)
+   JSXMemberExpression               3 files (  2.0%) -        8 total (0.04%)
+   AwaitExpression                   2 files (  1.3%) -       12 total (0.06%)
+   TSCallSignatureDeclaration        2 files (  1.3%) -        7 total (0.03%)
+   TSMethodSignature                 2 files (  1.3%) -       17 total (0.08%)
+   ExportAllDeclaration              2 files (  1.3%) -        2 total (0.01%)
+   TSDeclareFunction                 2 files (  1.3%) -        8 total (0.04%)
+   MetaProperty                      1 files (  0.7%) -        1 total (0.00%)
+   ChainExpression                   1 files (  0.7%) -        1 total (0.00%)
+   TSSymbolKeyword                   1 files (  0.7%) -        2 total (0.01%)
+   TSTemplateLiteralType             1 files (  0.7%) -        1 total (0.00%)
+   TSConstructSignatureDeclaration    1 files (  0.7%) -        1 total (0.00%)
+   TSModuleDeclaration               1 files (  0.7%) -        4 total (0.02%)
+   TSModuleBlock                     1 files (  0.7%) -        4 total (0.02%)
+   JSXFragment                       1 files (  0.7%) -        1 total (0.00%)
+   JSXOpeningFragment                1 files (  0.7%) -        1 total (0.00%)
+   JSXClosingFragment                1 files (  0.7%) -        1 total (0.00%)
+   ForOfStatement                    1 files (  0.7%) -        1 total (0.00%)
+   TSNonNullExpression               1 files (  0.7%) -        1 total (0.00%)
+   TSRestType                        1 files (  0.7%) -        1 total (0.00%)
+   TSImportType                      1 files (  0.7%) -        1 total (0.00%)
+   TSInferType                       1 files (  0.7%) -        2 total (0.01%)
+   BreakStatement                    1 files (  0.7%) -        2 total (0.01%)
+
+📝 ALL NODE TYPES (BY TOTAL COUNT):
+   Identifier                        7,054 (34.84%) in 127 files (84.1%)
+   Literal                           1,463 (7.23%) in 128 files (84.8%)
+   MemberExpression                  1,036 (5.12%) in 91 files (60.3%)
+   TSTypeReference                     824 (4.07%) in 48 files (31.8%)
+   CallExpression                      664 (3.28%) in 81 files (53.6%)
+   TSTypeAnnotation                    553 (2.73%) in 59 files (39.1%)
+   Property                            538 (2.66%) in 60 files (39.7%)
+   VariableDeclarator                  463 (2.29%) in 75 files (49.7%)
+   VariableDeclaration                 456 (2.25%) in 75 files (49.7%)
+   BlockStatement                      394 (1.95%) in 69 files (45.7%)
+   ImportDeclaration                   328 (1.62%) in 98 files (64.9%)
+   ExpressionStatement                 325 (1.61%) in 57 files (37.7%)
+   Unknown                             320 (1.58%) in 50 files (33.1%)
+   BinaryExpression                    310 (1.53%) in 67 files (44.4%)
+   TemplateElement                     284 (1.40%) in 45 files (29.8%)
+   TSTypeParameterInstantiation        273 (1.35%) in 36 files (23.8%)
+   ImportSpecifier                     249 (1.23%) in 61 files (40.4%)
+   ImportDefaultSpecifier              212 (1.05%) in 78 files (51.7%)
+   ObjectExpression                    198 (0.98%) in 62 files (41.1%)
+   ReturnStatement                     188 (0.93%) in 60 files (39.7%)
+   ArrowFunctionExpression             176 (0.87%) in 55 files (36.4%)
+   LogicalExpression                   170 (0.84%) in 49 files (32.5%)
+   AssignmentExpression                169 (0.83%) in 49 files (32.5%)
+   TSStringKeyword                     168 (0.83%) in 36 files (23.8%)
+   IfStatement                         161 (0.80%) in 41 files (27.2%)
+   Program                             151 (0.75%) in 151 files (100.0%)
+   ThisExpression                      151 (0.75%) in 10 files (6.6%)
+   ExportNamedDeclaration              137 (0.68%) in 36 files (23.8%)
+   TemplateLiteral                     122 (0.60%) in 44 files (29.1%)
+   JSXIdentifier                       112 (0.55%) in 10 files (6.6%)
+   TSTypeParameter                     109 (0.54%) in 17 files (11.3%)
+   UnaryExpression                      94 (0.46%) in 36 files (23.8%)
+   TSUnionType                          94 (0.46%) in 22 files (14.6%)
+   ExportDefaultDeclaration             91 (0.45%) in 89 files (58.9%)
+   TSPropertySignature                  87 (0.43%) in 15 files (9.9%)
+   ParenthesizedExpression              85 (0.42%) in 44 files (29.1%)
+   TSAsExpression                       83 (0.41%) in 26 files (17.2%)
+   ExportSpecifier                      82 (0.40%) in 9 files (6.0%)
+   TSAnyKeyword                         76 (0.38%) in 31 files (20.5%)
+   TSObjectKeyword                      76 (0.38%) in 17 files (11.3%)
+   ArrayExpression                      75 (0.37%) in 29 files (19.2%)
+   TSTypeParameterDeclaration           63 (0.31%) in 17 files (11.3%)
+   TSUndefinedKeyword                   63 (0.31%) in 18 files (11.9%)
+   TSNumberKeyword                      63 (0.31%) in 20 files (13.2%)
+   ConditionalExpression                62 (0.31%) in 26 files (17.2%)
+   FunctionDeclaration                  59 (0.29%) in 38 files (25.2%)
+   TSQualifiedName                      56 (0.28%) in 17 files (11.3%)
+   TSArrayType                          56 (0.28%) in 26 files (17.2%)
+   TSTypeAliasDeclaration               52 (0.26%) in 13 files (8.6%)
+   FunctionExpression                   50 (0.25%) in 13 files (8.6%)
+   TSLiteralType                        49 (0.24%) in 13 files (8.6%)
+   JSXExpressionContainer               48 (0.24%) in 8 files (5.3%)
+   JSXAttribute                         45 (0.22%) in 8 files (5.3%)
+   MethodDefinition                     43 (0.21%) in 9 files (6.0%)
+   SpreadElement                        42 (0.21%) in 16 files (10.6%)
+   SwitchCase                           39 (0.19%) in 6 files (4.0%)
+   TSIntersectionType                   38 (0.19%) in 13 files (8.6%)
+   TSTypeLiteral                        37 (0.18%) in 16 files (10.6%)
+   JSXElement                           37 (0.18%) in 10 files (6.6%)
+   JSXOpeningElement                    37 (0.18%) in 10 files (6.6%)
+   PropertyDefinition                   36 (0.18%) in 8 files (5.3%)
+   JSXText                              35 (0.17%) in 6 files (4.0%)
+   NewExpression                        32 (0.16%) in 19 files (12.6%)
+   UpdateExpression                     28 (0.14%) in 13 files (8.6%)
+   TSConditionalType                    28 (0.14%) in 5 files (3.3%)
+   TSInterfaceDeclaration               26 (0.13%) in 7 files (4.6%)
+   TSInterfaceBody                      26 (0.13%) in 7 files (4.6%)
+   TSVoidKeyword                        26 (0.13%) in 11 files (7.3%)
+   AssignmentPattern                    25 (0.12%) in 10 files (6.6%)
+   ObjectPattern                        24 (0.12%) in 18 files (11.9%)
+   TSTypeQuery                          24 (0.12%) in 8 files (5.3%)
+   TSBooleanKeyword                     23 (0.11%) in 13 files (8.6%)
+   ForStatement                         22 (0.11%) in 15 files (9.9%)
+   TaggedTemplateExpression             22 (0.11%) in 14 files (9.3%)
+   JSXClosingElement                    22 (0.11%) in 8 files (5.3%)
+   TSTypeOperator                       20 (0.10%) in 8 files (5.3%)
+   ThrowStatement                       17 (0.08%) in 9 files (6.0%)
+   TSMethodSignature                    17 (0.08%) in 2 files (1.3%)
+   TSParenthesizedType                  15 (0.07%) in 6 files (4.0%)
+   TSNeverKeyword                       14 (0.07%) in 3 files (2.0%)
+   TSIndexedAccessType                  13 (0.06%) in 6 files (4.0%)
+   RestElement                          13 (0.06%) in 8 files (5.3%)
+   AwaitExpression                      12 (0.06%) in 2 files (1.3%)
+   TSInterfaceHeritage                  11 (0.05%) in 3 files (2.0%)
+   ClassBody                            11 (0.05%) in 9 files (6.0%)
+   TSIndexSignature                     10 (0.05%) in 5 files (3.3%)
+   TSFunctionType                       10 (0.05%) in 6 files (4.0%)
+   TSMappedType                          9 (0.04%) in 6 files (4.0%)
+   TSUnknownKeyword                      9 (0.04%) in 6 files (4.0%)
+   TSDeclareFunction                     8 (0.04%) in 2 files (1.3%)
+   JSXMemberExpression                   8 (0.04%) in 3 files (2.0%)
+   TSCallSignatureDeclaration            7 (0.03%) in 2 files (1.3%)
+   TSNullKeyword                         7 (0.03%) in 5 files (3.3%)
+   ForInStatement                        7 (0.03%) in 5 files (3.3%)
+   TSTypePredicate                       7 (0.03%) in 7 files (4.6%)
+   TSClassImplements                     7 (0.03%) in 5 files (3.3%)
+   ClassDeclaration                      6 (0.03%) in 6 files (4.0%)
+   SwitchStatement                       6 (0.03%) in 6 files (4.0%)
+   ImportNamespaceSpecifier              5 (0.02%) in 5 files (3.3%)
+   TSTupleType                           5 (0.02%) in 5 files (3.3%)
+   ContinueStatement                     5 (0.02%) in 3 files (2.0%)
+   ClassExpression                       5 (0.02%) in 3 files (2.0%)
+   TSModuleDeclaration                   4 (0.02%) in 1 files (0.7%)
+   TSModuleBlock                         4 (0.02%) in 1 files (0.7%)
+   ArrayPattern                          4 (0.02%) in 4 files (2.6%)
+   TryStatement                          4 (0.02%) in 4 files (2.6%)
+   JSXSpreadAttribute                    3 (0.01%) in 3 files (2.0%)
+   CatchClause                           3 (0.01%) in 3 files (2.0%)
+   WhileStatement                        3 (0.01%) in 3 files (2.0%)
+   TSSymbolKeyword                       2 (0.01%) in 1 files (0.7%)
+   ExportAllDeclaration                  2 (0.01%) in 2 files (1.3%)
+   TSInferType                           2 (0.01%) in 1 files (0.7%)
+   BreakStatement                        2 (0.01%) in 1 files (0.7%)
+   MetaProperty                          1 (0.00%) in 1 files (0.7%)
+   ChainExpression                       1 (0.00%) in 1 files (0.7%)
+   TSTemplateLiteralType                 1 (0.00%) in 1 files (0.7%)
+   TSConstructSignatureDeclaration        1 (0.00%) in 1 files (0.7%)
+   JSXFragment                           1 (0.00%) in 1 files (0.7%)
+   JSXOpeningFragment                    1 (0.00%) in 1 files (0.7%)
+   JSXClosingFragment                    1 (0.00%) in 1 files (0.7%)
+   ForOfStatement                        1 (0.00%) in 1 files (0.7%)
+   TSNonNullExpression                   1 (0.00%) in 1 files (0.7%)
+   TSRestType                            1 (0.00%) in 1 files (0.7%)
+   TSImportType                          1 (0.00%) in 1 files (0.7%)
+
+============================================================
+✅ Analysis complete!
+
+
+Warnings/Errors:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/styled-components/packages/benchmarks/src/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/styled-components/packages/benchmarks/src/app/Text.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/styled-components/packages/benchmarks/src/app/ReportCard.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/styled-components/packages/benchmarks/src/app/Layout.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/styled-components/packages/benchmarks/src/app/Icons.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/styled-components/packages/benchmarks/src/app/Button.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/styled-components/packages/benchmarks/src/app/App.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/styled-components/packages/benchmarks/src/implementations/styled-jsx/View.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/styled-components/packages/benchmarks/src/implementations/styled-jsx/Dot.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/styled-components/packages/benchmarks/src/implementations/styled-jsx/Box.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/styled-components/packages/benchmarks/src/implementations/styletron-react/Provider.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/styled-components/packages/benchmarks/src/implementations/react-native-web/Box.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/styled-components/packages/benchmarks/src/implementations/inline-styles/View.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/styled-components/packages/benchmarks/src/implementations/inline-styles/Dot.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/styled-components/packages/benchmarks/src/implementations/inline-styles/Box.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/styled-components/packages/benchmarks/src/implementations/emotion/Dot.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/styled-components/packages/benchmarks/src/implementations/css-modules/View.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/styled-components/packages/benchmarks/src/implementations/css-modules/Box.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/styled-components/packages/benchmarks/src/implementations/aphrodite/View.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/styled-components/packages/benchmarks/src/implementations/aphrodite/Dot.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/styled-components/packages/benchmarks/src/implementations/aphrodite/Box.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/styled-components/packages/benchmarks/src/app/Benchmark/index.js:
+   Unexpected token

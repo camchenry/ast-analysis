@@ -168,11 +168,11 @@ async function analyzeDirectory(targetDirectory) {
 
   for (let i = 0; i < files.length; i++) {
     const file = files[i];
-    process.stdout.write(
-      `\r📊 Analyzing... ${i + 1}/${files.length} (${Math.round(
-        ((i + 1) / files.length) * 100
-      )}%)`
-    );
+    // process.stdout.write(
+    //   `\r📊 Analyzing... ${i + 1}/${files.length} (${Math.round(
+    //     ((i + 1) / files.length) * 100
+    //   )}%)`
+    // );
 
     try {
       const stats = statSync(file);

@@ -1,0 +1,1460 @@
+AST Analysis Report for next.js
+Generated on: 2025-07-13T03:17:26.865Z
+Repository: sample-repos/next.js
+================================================================================
+
+🔍 Analyzing JavaScript/TypeScript files in: /Users/camchenry/workspace/ast-analysis/sample-repos/next.js
+
+📁 Found 5120 files to analyze...
+
+
+============================================================
+📊 AST ANALYSIS RESULTS
+============================================================
+
+📁 FILE STATISTICS:
+   Total files found: 5120
+   Successfully parsed: 5120
+   Failed to parse: 0
+   Total file size: 49.4 MB
+
+🌳 NODE STATISTICS:
+   Total nodes: 6,702,079
+   Average nodes per file: 1,309
+   Average file size: 9.9 KB
+
+📋 ALL NODE TYPES (BY FILE PRESENCE):
+   Program                        5120 files (100.0%) -    5,120 total (0.08%)
+   Identifier                     4472 files ( 87.3%) - 2,541,179 total (37.92%)
+   Literal                        4238 files ( 82.8%) -  597,731 total (8.92%)
+   BlockStatement                 3449 files ( 67.4%) -  184,712 total (2.76%)
+   MemberExpression               3252 files ( 63.5%) -  598,322 total (8.93%)
+   CallExpression                 3072 files ( 60.0%) -  335,820 total (5.01%)
+   VariableDeclaration            2989 files ( 58.4%) -  129,305 total (1.93%)
+   VariableDeclarator             2989 files ( 58.4%) -  161,191 total (2.41%)
+   ReturnStatement                2841 files ( 55.5%) -   90,641 total (1.35%)
+   ImportDeclaration              2681 files ( 52.4%) -    9,466 total (0.14%)
+   Property                       2680 files ( 52.3%) -  147,464 total (2.20%)
+   FunctionDeclaration            2600 files ( 50.8%) -   37,462 total (0.56%)
+   ExpressionStatement            2568 files ( 50.2%) -  261,102 total (3.90%)
+   ObjectExpression               2316 files ( 45.2%) -   47,445 total (0.71%)
+   ImportSpecifier                2202 files ( 43.0%) -    9,846 total (0.15%)
+   TSTypeAnnotation               2097 files ( 41.0%) -   41,949 total (0.63%)
+   ExportNamedDeclaration         2024 files ( 39.5%) -    6,750 total (0.10%)
+   ParenthesizedExpression        1905 files ( 37.2%) -   95,500 total (1.42%)
+   TSTypeReference                1862 files ( 36.4%) -   32,757 total (0.49%)
+   AssignmentExpression           1735 files ( 33.9%) -  201,195 total (3.00%)
+   IfStatement                    1649 files ( 32.2%) -   98,875 total (1.48%)
+   BinaryExpression               1632 files ( 31.9%) -  223,513 total (3.33%)
+   ArrowFunctionExpression        1558 files ( 30.4%) -   19,164 total (0.29%)
+   ExportDefaultDeclaration       1506 files ( 29.4%) -    1,521 total (0.02%)
+   UnaryExpression                1373 files ( 26.8%) -   85,508 total (1.28%)
+   ObjectPattern                  1325 files ( 25.9%) -    7,820 total (0.12%)
+   LogicalExpression              1322 files ( 25.8%) -   98,859 total (1.48%)
+   ArrayExpression                1285 files ( 25.1%) -   35,489 total (0.53%)
+   Unknown                        1245 files ( 24.3%) -   30,926 total (0.46%)
+   JSXElement                     1214 files ( 23.7%) -    7,262 total (0.11%)
+   JSXOpeningElement              1214 files ( 23.7%) -    7,262 total (0.11%)
+   JSXIdentifier                  1214 files ( 23.7%) -   22,242 total (0.33%)
+   TSStringKeyword                1202 files ( 23.5%) -    8,786 total (0.13%)
+   ImportDefaultSpecifier         1181 files ( 23.1%) -    2,285 total (0.03%)
+   NewExpression                  1180 files ( 23.0%) -   20,350 total (0.30%)
+   TSPropertySignature            1078 files ( 21.1%) -   23,250 total (0.35%)
+   JSXClosingElement              1058 files ( 20.7%) -    5,065 total (0.08%)
+   ConditionalExpression          1052 files ( 20.5%) -   38,894 total (0.58%)
+   TemplateElement                1043 files ( 20.4%) -   22,372 total (0.33%)
+   TemplateLiteral                1035 files ( 20.2%) -    9,559 total (0.14%)
+   JSXText                        1026 files ( 20.0%) -   11,236 total (0.17%)
+   TSTypeLiteral                  1003 files ( 19.6%) -    4,346 total (0.06%)
+   JSXAttribute                    990 files ( 19.3%) -    9,611 total (0.14%)
+   TSTypeParameterInstantiation    988 files ( 19.3%) -    9,969 total (0.15%)
+   JSXExpressionContainer          914 files ( 17.9%) -    5,679 total (0.08%)
+   FunctionExpression              801 files ( 15.6%) -   36,934 total (0.55%)
+   ThrowStatement                  721 files ( 14.1%) -   11,104 total (0.17%)
+   TSUnionType                     682 files ( 13.3%) -   11,618 total (0.17%)
+   AwaitExpression                 681 files ( 13.3%) -    3,988 total (0.06%)
+   TSTypeAliasDeclaration          638 files ( 12.5%) -    1,547 total (0.02%)
+   TryStatement                    629 files ( 12.3%) -    4,843 total (0.07%)
+   CatchClause                     534 files ( 10.4%) -    3,826 total (0.06%)
+   TSAsExpression                  526 files ( 10.3%) -    1,519 total (0.02%)
+   TSArrayType                     505 files (  9.9%) -    3,376 total (0.05%)
+   TSBooleanKeyword                493 files (  9.6%) -    5,365 total (0.08%)
+   TSLiteralType                   481 files (  9.4%) -   24,088 total (0.36%)
+   TSQualifiedName                 469 files (  9.2%) -    1,180 total (0.02%)
+   SpreadElement                   448 files (  8.8%) -    2,974 total (0.04%)
+   ThisExpression                  436 files (  8.5%) -   68,402 total (1.02%)
+   TSAnyKeyword                    412 files (  8.0%) -    1,458 total (0.02%)
+   ChainExpression                 399 files (  7.8%) -    1,798 total (0.03%)
+   UpdateExpression                395 files (  7.7%) -   17,047 total (0.25%)
+   ForStatement                    369 files (  7.2%) -    9,271 total (0.14%)
+   SequenceExpression              366 files (  7.1%) -   32,721 total (0.49%)
+   ArrayPattern                    349 files (  6.8%) -    1,406 total (0.02%)
+   TSNumberKeyword                 343 files (  6.7%) -    1,112 total (0.02%)
+   TSNullKeyword                   342 files (  6.7%) -    1,180 total (0.02%)
+   ForOfStatement                  334 files (  6.5%) -    3,407 total (0.05%)
+   TSUndefinedKeyword              330 files (  6.4%) -    6,862 total (0.10%)
+   SwitchStatement                 329 files (  6.4%) -    5,245 total (0.08%)
+   SwitchCase                      329 files (  6.4%) -   37,614 total (0.56%)
+   TSVoidKeyword                   327 files (  6.4%) -    1,088 total (0.02%)
+   TSTypeQuery                     325 files (  6.3%) -      786 total (0.01%)
+   BreakStatement                  320 files (  6.3%) -   12,342 total (0.18%)
+   TSFunctionType                  300 files (  5.9%) -      894 total (0.01%)
+   TSInterfaceDeclaration          297 files (  5.8%) -      542 total (0.01%)
+   TSInterfaceBody                 297 files (  5.8%) -      542 total (0.01%)
+   AssignmentPattern               295 files (  5.8%) -    2,357 total (0.04%)
+   ClassBody                       286 files (  5.6%) -    1,745 total (0.03%)
+   ExportSpecifier                 281 files (  5.5%) -      621 total (0.01%)
+   MethodDefinition                270 files (  5.3%) -    9,478 total (0.14%)
+   ClassDeclaration                259 files (  5.1%) -    1,261 total (0.02%)
+   ContinueStatement               212 files (  4.1%) -    2,017 total (0.03%)
+   ForInStatement                  211 files (  4.1%) -    1,901 total (0.03%)
+   RestElement                     208 files (  4.1%) -      736 total (0.01%)
+   JSXSpreadAttribute              198 files (  3.9%) -      287 total (0.00%)
+   JSXFragment                     193 files (  3.8%) -      252 total (0.00%)
+   JSXOpeningFragment              193 files (  3.8%) -      252 total (0.00%)
+   JSXClosingFragment              193 files (  3.8%) -      252 total (0.00%)
+   TSUnknownKeyword                174 files (  3.4%) -      390 total (0.01%)
+   TSTypeParameterDeclaration      171 files (  3.3%) -    2,236 total (0.03%)
+   TSTypeParameter                 171 files (  3.3%) -    2,331 total (0.03%)
+   TSIndexedAccessType             171 files (  3.3%) -      522 total (0.01%)
+   TSImportType                    168 files (  3.3%) -      401 total (0.01%)
+   ImportNamespaceSpecifier        154 files (  3.0%) -      211 total (0.00%)
+   TSNonNullExpression             153 files (  3.0%) -      324 total (0.00%)
+   TSIntersectionType              150 files (  2.9%) -      292 total (0.00%)
+   PropertyDefinition              138 files (  2.7%) -      650 total (0.01%)
+   WhileStatement                  127 files (  2.5%) -    1,717 total (0.03%)
+   Super                           107 files (  2.1%) -    1,292 total (0.02%)
+   TSIndexSignature                103 files (  2.0%) -      190 total (0.00%)
+   TSParenthesizedType             103 files (  2.0%) -      191 total (0.00%)
+   LabeledStatement                 94 files (  1.8%) -      799 total (0.01%)
+   ExportAllDeclaration             76 files (  1.5%) -      130 total (0.00%)
+   TSTupleType                      76 files (  1.5%) -      162 total (0.00%)
+   DoWhileStatement                 75 files (  1.5%) -      606 total (0.01%)
+   TSTypeOperator                   74 files (  1.4%) -      158 total (0.00%)
+   EmptyStatement                   73 files (  1.4%) -      186 total (0.00%)
+   TSInterfaceHeritage              62 files (  1.2%) -       88 total (0.00%)
+   TaggedTemplateExpression         60 files (  1.2%) -      256 total (0.00%)
+   TSModuleDeclaration              57 files (  1.1%) -      245 total (0.00%)
+   TSMethodSignature                54 files (  1.1%) -      183 total (0.00%)
+   TSModuleBlock                    52 files (  1.0%) -      177 total (0.00%)
+   TSNeverKeyword                   49 files (  1.0%) -      105 total (0.00%)
+   JSXMemberExpression              48 files (  0.9%) -      304 total (0.00%)
+   TSTypePredicate                  47 files (  0.9%) -       62 total (0.00%)
+   TSClassImplements                46 files (  0.9%) -       48 total (0.00%)
+   ImportExpression                 40 files (  0.8%) -       85 total (0.00%)
+   TSDeclareFunction                39 files (  0.8%) -    1,966 total (0.03%)
+   JSXEmptyExpression               39 files (  0.8%) -       69 total (0.00%)
+   ClassExpression                  34 files (  0.7%) -      484 total (0.01%)
+   MetaProperty                     32 files (  0.6%) -       36 total (0.00%)
+   TSSatisfiesExpression            32 files (  0.6%) -       57 total (0.00%)
+   TSParameterProperty              32 files (  0.6%) -       52 total (0.00%)
+   TSEnumDeclaration                30 files (  0.6%) -       46 total (0.00%)
+   TSEnumBody                       30 files (  0.6%) -       46 total (0.00%)
+   TSEnumMember                     30 files (  0.6%) -      180 total (0.00%)
+   YieldExpression                  27 files (  0.5%) -      229 total (0.00%)
+   TSExportAssignment               26 files (  0.5%) -       92 total (0.00%)
+   TSObjectKeyword                  24 files (  0.5%) -       46 total (0.00%)
+   TSMappedType                     21 files (  0.4%) -       27 total (0.00%)
+   TSEmptyBodyFunctionExpression    20 files (  0.4%) -      140 total (0.00%)
+   Hashbang                         19 files (  0.4%) -       19 total (0.00%)
+   TSConditionalType                19 files (  0.4%) -    1,883 total (0.03%)
+   TSTemplateLiteralType            15 files (  0.3%) -       35 total (0.00%)
+   TSNamedTupleMember               15 files (  0.3%) -       75 total (0.00%)
+   TSInferType                      11 files (  0.2%) -       15 total (0.00%)
+   TSCallSignatureDeclaration        8 files (  0.2%) -        9 total (0.00%)
+   TSSymbolKeyword                   8 files (  0.2%) -       22 total (0.00%)
+   TSThisType                        6 files (  0.1%) -       30 total (0.00%)
+   ImportAttribute                   6 files (  0.1%) -        6 total (0.00%)
+   TSBigIntKeyword                   5 files (  0.1%) -       11 total (0.00%)
+   TSAbstractMethodDefinition        4 files (  0.1%) -       36 total (0.00%)
+   TSImportEqualsDeclaration         3 files (  0.1%) -        4 total (0.00%)
+   PrivateIdentifier                 3 files (  0.1%) -       63 total (0.00%)
+   TSExternalModuleReference         2 files (  0.0%) -        2 total (0.00%)
+   Decorator                         2 files (  0.0%) -        9 total (0.00%)
+   TSRestType                        2 files (  0.0%) -        4 total (0.00%)
+   TSConstructSignatureDeclaration    2 files (  0.0%) -        2 total (0.00%)
+   DebuggerStatement                 1 files (  0.0%) -        1 total (0.00%)
+   TSAbstractPropertyDefinition      1 files (  0.0%) -        4 total (0.00%)
+
+📝 ALL NODE TYPES (BY TOTAL COUNT):
+   Identifier                     2,541,179 (37.92%) in 4472 files (87.3%)
+   MemberExpression                598,322 (8.93%) in 3252 files (63.5%)
+   Literal                         597,731 (8.92%) in 4238 files (82.8%)
+   CallExpression                  335,820 (5.01%) in 3072 files (60.0%)
+   ExpressionStatement             261,102 (3.90%) in 2568 files (50.2%)
+   BinaryExpression                223,513 (3.33%) in 1632 files (31.9%)
+   AssignmentExpression            201,195 (3.00%) in 1735 files (33.9%)
+   BlockStatement                  184,712 (2.76%) in 3449 files (67.4%)
+   VariableDeclarator              161,191 (2.41%) in 2989 files (58.4%)
+   Property                        147,464 (2.20%) in 2680 files (52.3%)
+   VariableDeclaration             129,305 (1.93%) in 2989 files (58.4%)
+   IfStatement                      98,875 (1.48%) in 1649 files (32.2%)
+   LogicalExpression                98,859 (1.48%) in 1322 files (25.8%)
+   ParenthesizedExpression          95,500 (1.42%) in 1905 files (37.2%)
+   ReturnStatement                  90,641 (1.35%) in 2841 files (55.5%)
+   UnaryExpression                  85,508 (1.28%) in 1373 files (26.8%)
+   ThisExpression                   68,402 (1.02%) in 436 files (8.5%)
+   ObjectExpression                 47,445 (0.71%) in 2316 files (45.2%)
+   TSTypeAnnotation                 41,949 (0.63%) in 2097 files (41.0%)
+   ConditionalExpression            38,894 (0.58%) in 1052 files (20.5%)
+   SwitchCase                       37,614 (0.56%) in 329 files (6.4%)
+   FunctionDeclaration              37,462 (0.56%) in 2600 files (50.8%)
+   FunctionExpression               36,934 (0.55%) in 801 files (15.6%)
+   ArrayExpression                  35,489 (0.53%) in 1285 files (25.1%)
+   TSTypeReference                  32,757 (0.49%) in 1862 files (36.4%)
+   SequenceExpression               32,721 (0.49%) in 366 files (7.1%)
+   Unknown                          30,926 (0.46%) in 1245 files (24.3%)
+   TSLiteralType                    24,088 (0.36%) in 481 files (9.4%)
+   TSPropertySignature              23,250 (0.35%) in 1078 files (21.1%)
+   TemplateElement                  22,372 (0.33%) in 1043 files (20.4%)
+   JSXIdentifier                    22,242 (0.33%) in 1214 files (23.7%)
+   NewExpression                    20,350 (0.30%) in 1180 files (23.0%)
+   ArrowFunctionExpression          19,164 (0.29%) in 1558 files (30.4%)
+   UpdateExpression                 17,047 (0.25%) in 395 files (7.7%)
+   BreakStatement                   12,342 (0.18%) in 320 files (6.3%)
+   TSUnionType                      11,618 (0.17%) in 682 files (13.3%)
+   JSXText                          11,236 (0.17%) in 1026 files (20.0%)
+   ThrowStatement                   11,104 (0.17%) in 721 files (14.1%)
+   TSTypeParameterInstantiation      9,969 (0.15%) in 988 files (19.3%)
+   ImportSpecifier                   9,846 (0.15%) in 2202 files (43.0%)
+   JSXAttribute                      9,611 (0.14%) in 990 files (19.3%)
+   TemplateLiteral                   9,559 (0.14%) in 1035 files (20.2%)
+   MethodDefinition                  9,478 (0.14%) in 270 files (5.3%)
+   ImportDeclaration                 9,466 (0.14%) in 2681 files (52.4%)
+   ForStatement                      9,271 (0.14%) in 369 files (7.2%)
+   TSStringKeyword                   8,786 (0.13%) in 1202 files (23.5%)
+   ObjectPattern                     7,820 (0.12%) in 1325 files (25.9%)
+   JSXElement                        7,262 (0.11%) in 1214 files (23.7%)
+   JSXOpeningElement                 7,262 (0.11%) in 1214 files (23.7%)
+   TSUndefinedKeyword                6,862 (0.10%) in 330 files (6.4%)
+   ExportNamedDeclaration            6,750 (0.10%) in 2024 files (39.5%)
+   JSXExpressionContainer            5,679 (0.08%) in 914 files (17.9%)
+   TSBooleanKeyword                  5,365 (0.08%) in 493 files (9.6%)
+   SwitchStatement                   5,245 (0.08%) in 329 files (6.4%)
+   Program                           5,120 (0.08%) in 5120 files (100.0%)
+   JSXClosingElement                 5,065 (0.08%) in 1058 files (20.7%)
+   TryStatement                      4,843 (0.07%) in 629 files (12.3%)
+   TSTypeLiteral                     4,346 (0.06%) in 1003 files (19.6%)
+   AwaitExpression                   3,988 (0.06%) in 681 files (13.3%)
+   CatchClause                       3,826 (0.06%) in 534 files (10.4%)
+   ForOfStatement                    3,407 (0.05%) in 334 files (6.5%)
+   TSArrayType                       3,376 (0.05%) in 505 files (9.9%)
+   SpreadElement                     2,974 (0.04%) in 448 files (8.8%)
+   AssignmentPattern                 2,357 (0.04%) in 295 files (5.8%)
+   TSTypeParameter                   2,331 (0.03%) in 171 files (3.3%)
+   ImportDefaultSpecifier            2,285 (0.03%) in 1181 files (23.1%)
+   TSTypeParameterDeclaration        2,236 (0.03%) in 171 files (3.3%)
+   ContinueStatement                 2,017 (0.03%) in 212 files (4.1%)
+   TSDeclareFunction                 1,966 (0.03%) in 39 files (0.8%)
+   ForInStatement                    1,901 (0.03%) in 211 files (4.1%)
+   TSConditionalType                 1,883 (0.03%) in 19 files (0.4%)
+   ChainExpression                   1,798 (0.03%) in 399 files (7.8%)
+   ClassBody                         1,745 (0.03%) in 286 files (5.6%)
+   WhileStatement                    1,717 (0.03%) in 127 files (2.5%)
+   TSTypeAliasDeclaration            1,547 (0.02%) in 638 files (12.5%)
+   ExportDefaultDeclaration          1,521 (0.02%) in 1506 files (29.4%)
+   TSAsExpression                    1,519 (0.02%) in 526 files (10.3%)
+   TSAnyKeyword                      1,458 (0.02%) in 412 files (8.0%)
+   ArrayPattern                      1,406 (0.02%) in 349 files (6.8%)
+   Super                             1,292 (0.02%) in 107 files (2.1%)
+   ClassDeclaration                  1,261 (0.02%) in 259 files (5.1%)
+   TSQualifiedName                   1,180 (0.02%) in 469 files (9.2%)
+   TSNullKeyword                     1,180 (0.02%) in 342 files (6.7%)
+   TSNumberKeyword                   1,112 (0.02%) in 343 files (6.7%)
+   TSVoidKeyword                     1,088 (0.02%) in 327 files (6.4%)
+   TSFunctionType                      894 (0.01%) in 300 files (5.9%)
+   LabeledStatement                    799 (0.01%) in 94 files (1.8%)
+   TSTypeQuery                         786 (0.01%) in 325 files (6.3%)
+   RestElement                         736 (0.01%) in 208 files (4.1%)
+   PropertyDefinition                  650 (0.01%) in 138 files (2.7%)
+   ExportSpecifier                     621 (0.01%) in 281 files (5.5%)
+   DoWhileStatement                    606 (0.01%) in 75 files (1.5%)
+   TSInterfaceDeclaration              542 (0.01%) in 297 files (5.8%)
+   TSInterfaceBody                     542 (0.01%) in 297 files (5.8%)
+   TSIndexedAccessType                 522 (0.01%) in 171 files (3.3%)
+   ClassExpression                     484 (0.01%) in 34 files (0.7%)
+   TSImportType                        401 (0.01%) in 168 files (3.3%)
+   TSUnknownKeyword                    390 (0.01%) in 174 files (3.4%)
+   TSNonNullExpression                 324 (0.00%) in 153 files (3.0%)
+   JSXMemberExpression                 304 (0.00%) in 48 files (0.9%)
+   TSIntersectionType                  292 (0.00%) in 150 files (2.9%)
+   JSXSpreadAttribute                  287 (0.00%) in 198 files (3.9%)
+   TaggedTemplateExpression            256 (0.00%) in 60 files (1.2%)
+   JSXFragment                         252 (0.00%) in 193 files (3.8%)
+   JSXOpeningFragment                  252 (0.00%) in 193 files (3.8%)
+   JSXClosingFragment                  252 (0.00%) in 193 files (3.8%)
+   TSModuleDeclaration                 245 (0.00%) in 57 files (1.1%)
+   YieldExpression                     229 (0.00%) in 27 files (0.5%)
+   ImportNamespaceSpecifier            211 (0.00%) in 154 files (3.0%)
+   TSParenthesizedType                 191 (0.00%) in 103 files (2.0%)
+   TSIndexSignature                    190 (0.00%) in 103 files (2.0%)
+   EmptyStatement                      186 (0.00%) in 73 files (1.4%)
+   TSMethodSignature                   183 (0.00%) in 54 files (1.1%)
+   TSEnumMember                        180 (0.00%) in 30 files (0.6%)
+   TSModuleBlock                       177 (0.00%) in 52 files (1.0%)
+   TSTupleType                         162 (0.00%) in 76 files (1.5%)
+   TSTypeOperator                      158 (0.00%) in 74 files (1.4%)
+   TSEmptyBodyFunctionExpression       140 (0.00%) in 20 files (0.4%)
+   ExportAllDeclaration                130 (0.00%) in 76 files (1.5%)
+   TSNeverKeyword                      105 (0.00%) in 49 files (1.0%)
+   TSExportAssignment                   92 (0.00%) in 26 files (0.5%)
+   TSInterfaceHeritage                  88 (0.00%) in 62 files (1.2%)
+   ImportExpression                     85 (0.00%) in 40 files (0.8%)
+   TSNamedTupleMember                   75 (0.00%) in 15 files (0.3%)
+   JSXEmptyExpression                   69 (0.00%) in 39 files (0.8%)
+   PrivateIdentifier                    63 (0.00%) in 3 files (0.1%)
+   TSTypePredicate                      62 (0.00%) in 47 files (0.9%)
+   TSSatisfiesExpression                57 (0.00%) in 32 files (0.6%)
+   TSParameterProperty                  52 (0.00%) in 32 files (0.6%)
+   TSClassImplements                    48 (0.00%) in 46 files (0.9%)
+   TSObjectKeyword                      46 (0.00%) in 24 files (0.5%)
+   TSEnumDeclaration                    46 (0.00%) in 30 files (0.6%)
+   TSEnumBody                           46 (0.00%) in 30 files (0.6%)
+   MetaProperty                         36 (0.00%) in 32 files (0.6%)
+   TSAbstractMethodDefinition           36 (0.00%) in 4 files (0.1%)
+   TSTemplateLiteralType                35 (0.00%) in 15 files (0.3%)
+   TSThisType                           30 (0.00%) in 6 files (0.1%)
+   TSMappedType                         27 (0.00%) in 21 files (0.4%)
+   TSSymbolKeyword                      22 (0.00%) in 8 files (0.2%)
+   Hashbang                             19 (0.00%) in 19 files (0.4%)
+   TSInferType                          15 (0.00%) in 11 files (0.2%)
+   TSBigIntKeyword                      11 (0.00%) in 5 files (0.1%)
+   TSCallSignatureDeclaration            9 (0.00%) in 8 files (0.2%)
+   Decorator                             9 (0.00%) in 2 files (0.0%)
+   ImportAttribute                       6 (0.00%) in 6 files (0.1%)
+   TSImportEqualsDeclaration             4 (0.00%) in 3 files (0.1%)
+   TSAbstractPropertyDefinition          4 (0.00%) in 1 files (0.0%)
+   TSRestType                            4 (0.00%) in 2 files (0.0%)
+   TSExternalModuleReference             2 (0.00%) in 2 files (0.0%)
+   TSConstructSignatureDeclaration        2 (0.00%) in 2 files (0.0%)
+   DebuggerStatement                     1 (0.00%) in 1 files (0.0%)
+
+============================================================
+✅ Analysis complete!
+
+
+Warnings/Errors:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-fela/FelaProvider.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/blog/theme.config.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-userbase/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-userbase/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-unsplash/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-turbopack-loaders/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-strict-csp/app/page.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-strict-csp/app/layout.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-shallow-routing/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-shallow-routing/pages/about.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-route-as-modal/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-route-as-modal/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-route-as-modal/components/Post.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-route-as-modal/components/Grid.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-route-as-modal/components/Article.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-relay-modern/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-relay-modern/pages/about.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-relay-modern/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-rematch/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-rematch/pages/github-users.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-rematch/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-relay-modern/components/BlogPosts.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-relay-modern/components/BlogPostPreview.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-reflux/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-rebass/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-recoil/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-recoil/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-recoil/components/counter.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-realm-web/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-react-toolbox/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-react-native-web/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-react-native-web/pages/alternate.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-react-native-web/pages/_document.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-react-native-web/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-react-ga4/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-react-ga4/pages/about.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-react-ga4/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-rbx-bulma-pro/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-rbx-bulma-pro/pages/contact.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-rbx-bulma-pro/pages/about.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-rbx-bulma-pro/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-rbx-bulma-pro/components/Layout.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-quill-js/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-quill-js/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-portals-ssr/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-portals-ssr/pages/_document.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-portals-ssr/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-portals/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-portals/pages/_document.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-portals/components/Modal.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-passport-and-next-connect/pages/signup.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-passport-and-next-connect/pages/profile.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-passport-and-next-connect/pages/login.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-passport-and-next-connect/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-passport-and-next-connect/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-passport-and-next-connect/components/Navbar.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-passport/pages/signup.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-passport/pages/profile.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-passport/pages/login.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-passport/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-passport/components/layout.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-passport/components/header.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-passport/components/form.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-overmind/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-overmind/pages/about.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-overmind/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-overmind/components/Items.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-overmind/components/Header.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-nhost-auth-realtime-graphql/pages/register.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-nhost-auth-realtime-graphql/pages/login.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-nhost-auth-realtime-graphql/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-nhost-auth-realtime-graphql/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-nhost-auth-realtime-graphql/components/private-route.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-next-translate/app/layout.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-next-page-transitions/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-next-page-transitions/pages/about.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-next-page-transitions/pages/_document.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-next-page-transitions/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-next-page-transitions/components/Loader.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-next-seo/pages/jsonld.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-next-seo/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-next-seo/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-neo4j/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-neo4j/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-neo4j/components/header.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-neo4j/components/footer.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-mysql/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-mysql/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-mysql/components/Product.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-mobx/pages/ssr.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-mobx/pages/ssg.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-mobx/pages/other.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-mobx/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-mobx/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-mobx/components/StoreProvider.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-mobx/components/Page.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-mobx/components/Clock.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-mocha/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-mdbreact/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-mdbreact/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-magic/pages/profile.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-magic/pages/login.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-magic/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-magic/components/layout.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-magic/components/header.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-magic/components/form.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-lingui/pages/two.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-lingui/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-lingui/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-lingui/components/LangSwitcher.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-knex/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-kea/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-kea/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-i18n-rosetta/pages/dashboard.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-i18n-rosetta/pages/_document.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-i18n-rosetta/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-i18n-rosetta/lib/i18n.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-i18n-rosetta/components/title.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-i18n-next-intl/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-i18n-next-intl/pages/about.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-i18n-next-intl/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-i18n-next-intl/components/PageLayout.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-i18n-next-intl/components/Navigation.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-i18n-next-intl/components/Code.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-http2/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-http2/pages/about.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-hls-js/components/video-player.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-graphql-react/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-graphql-react/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-hls-js/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-framer-motion/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-framer-motion/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-framer-motion/components/SingleImage.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-framer-motion/components/Gallery.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-formspree/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-formspree/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-formspree/components/contact-form.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-flow/pages/index.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-flow/pages/contact.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-flow/pages/about.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-flow/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-flow/components/Page.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-firebase-cloud-messaging/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-firebase/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-firebase/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-firebase/context/userContext.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-filbert/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-filbert/pages/_document.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-fela/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-fela/pages/_document.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-fela/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-facebook-pixel/app/page.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-facebook-pixel/app/layout.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-facebook-pixel/_pages/navigation.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-facebook-pixel/_pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-facebook-pixel/_pages/_document.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-facebook-pixel/_pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-docker-multi-env/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-docker-multi-env/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-docker/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-docker/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-couchbase/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-couchbase/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-custom-babel-config/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-contentlayer/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-contentlayer/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-compiled-css/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-compiled-css/components/class-names-box.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-apollo-and-redux/pages/redux.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-apollo-and-redux/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-apollo-and-redux/pages/apollo.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-apollo-and-redux/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-apollo-and-redux/components/Submit.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-apollo-and-redux/components/PostUpvoter.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-apollo-and-redux/components/PostList.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-apollo-and-redux/components/Nav.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-apollo-and-redux/components/Layout.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-apollo-and-redux/components/ErrorMessage.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-apollo-and-redux/components/Counter.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-apollo-and-redux/components/Clock.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/mdx-pages/components/button.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-tina/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-tina/pages/_document.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-tina/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-tina/components/section-separator.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-tina/components/post-title.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-tina/components/post-preview.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-tina/components/post-header.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-tina/components/post-body.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-tina/components/more-stories.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-tina/components/meta.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-tina/components/layout.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-tina/components/intro.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-tina/components/hero-post.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-tina/components/header.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-tina/components/footer.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-tina/components/date-formatter.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-tina/components/cover-image.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-tina/components/container.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-tina/components/avatar.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-tina/components/alert.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-storyblok/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-storyblok/pages/_document.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-storyblok/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-storyblok/components/section-separator.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-storyblok/components/post-title.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-storyblok/components/post-preview.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-storyblok/components/post-header.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-storyblok/components/post-body.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-storyblok/components/more-stories.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-storyblok/components/meta.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-storyblok/components/layout.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-storyblok/components/intro.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-storyblok/components/hero-post.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-storyblok/components/header.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-storyblok/components/footer.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-storyblok/components/date.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-storyblok/components/cover-image.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-storyblok/components/container.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-storyblok/components/avatar.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-storyblok/components/alert.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-takeshape/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-takeshape/pages/_document.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-takeshape/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-takeshape/components/section-separator.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-takeshape/components/post-title.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-takeshape/components/post-preview.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-takeshape/components/post-header.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-takeshape/components/post-body.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-takeshape/components/more-stories.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-takeshape/components/meta.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-takeshape/components/layout.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-takeshape/components/intro.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-takeshape/components/hero-post.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-takeshape/components/header.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-takeshape/components/footer.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-takeshape/components/date.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-takeshape/components/cover-image.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-takeshape/components/container.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-takeshape/components/avatar.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-takeshape/components/alert.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-prepr/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-prepr/pages/_document.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-prepr/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-prepr/components/section-separator.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-prepr/components/post-title.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-prepr/components/post-preview.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-prepr/components/post-header.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-prepr/components/post-body.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-prepr/components/more-stories.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-prepr/components/meta.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-prepr/components/layout.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-prepr/components/intro.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-prepr/components/hero-post.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-prepr/components/header.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-prepr/components/footer.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-prepr/components/date.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-prepr/components/cover-image.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-prepr/components/container.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-prepr/components/avatar.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-prepr/components/alert.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-plasmic/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-ghost/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-ghost/pages/_document.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-ghost/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-ghost/components/section-separator.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-ghost/components/post-title.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-ghost/components/post-preview.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-ghost/components/post-header.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-ghost/components/post-body.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-ghost/components/more-stories.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-ghost/components/meta.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-ghost/components/layout.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-ghost/components/intro.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-ghost/components/hero-post.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-ghost/components/header.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-ghost/components/footer.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-ghost/components/date.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-ghost/components/cover-image.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-ghost/components/container.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-ghost/components/avatar.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-ghost/components/alert.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-drupal/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-drupal/pages/_document.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-drupal/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-drupal/pages/[...slug].js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-drupal/components/tags.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-drupal/components/section-separator.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-drupal/components/post-title.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-drupal/components/post-preview.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-drupal/components/post-header.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-drupal/components/post-body.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-drupal/components/more-stories.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-drupal/components/meta.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-drupal/components/layout.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-drupal/components/intro.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-drupal/components/hero-post.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-drupal/components/header.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-drupal/components/footer.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-drupal/components/date.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-drupal/components/cover-image.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-drupal/components/container.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-drupal/components/categories.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-drupal/components/avatar.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-drupal/components/alert.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-datocms/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-datocms/pages/_document.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-datocms/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-datocms/components/section-separator.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-datocms/components/post-title.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-datocms/components/post-preview.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-datocms/components/post-header.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-datocms/components/post-body.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-datocms/components/more-stories.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-datocms/components/meta.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-datocms/components/layout.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-datocms/components/intro.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-datocms/components/hero-post.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-datocms/components/header.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-datocms/components/footer.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-datocms/components/date.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-datocms/components/cover-image.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-datocms/components/container.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-datocms/components/avatar.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-datocms/components/alert.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-graphcms/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-graphcms/pages/_document.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-graphcms/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-graphcms/components/section-separator.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-graphcms/components/post-title.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-graphcms/components/post-preview.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-graphcms/components/post-header.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-graphcms/components/post-body.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-graphcms/components/more-stories.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-graphcms/components/meta.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-graphcms/components/layout.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-graphcms/components/intro.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-graphcms/components/hero-post.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-graphcms/components/header.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-graphcms/components/footer.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-graphcms/components/date.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-graphcms/components/cover-image.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-graphcms/components/container.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-graphcms/components/avatar.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-graphcms/components/alert.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-umbraco-heartcore/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-umbraco-heartcore/pages/_document.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-umbraco-heartcore/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-umbraco-heartcore/pages/[...slug].js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-umbraco-heartcore/components/section-separator.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-umbraco-heartcore/components/post-title.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-umbraco-heartcore/components/post-preview.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-umbraco-heartcore/components/post-header.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-umbraco-heartcore/components/post-body.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-umbraco-heartcore/components/more-stories.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-umbraco-heartcore/components/meta.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-umbraco-heartcore/components/layout.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-umbraco-heartcore/components/intro.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-umbraco-heartcore/components/hero-post.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-umbraco-heartcore/components/header.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-umbraco-heartcore/components/footer.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-umbraco-heartcore/components/date.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-umbraco-heartcore/components/cover-image.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-umbraco-heartcore/components/container.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-umbraco-heartcore/components/avatar.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-umbraco-heartcore/components/alert.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-builder-io/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-builder-io/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-builder-io/components/section-separator.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-builder-io/components/post-title.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-builder-io/components/post-preview.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-builder-io/components/post-header.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-builder-io/components/post-body.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-builder-io/components/more-stories.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-builder-io/components/meta.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-builder-io/components/layout.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-builder-io/components/intro.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-builder-io/components/hero-post.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-builder-io/components/header.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-builder-io/components/footer.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-builder-io/components/date.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-builder-io/components/cover-image.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-builder-io/components/container.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-builder-io/components/builder-image.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-builder-io/components/avatar.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-builder-io/components/alert.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-buttercms/pages/missing-token.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-buttercms/pages/blog.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-buttercms/pages/_document.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-buttercms/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-buttercms/components/scroll-to-top-button.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-buttercms/components/preloader.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-buttercms/components/missing-token-section.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-buttercms/components/human-date.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-buttercms/components/header-section.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-buttercms/components/footer-section.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-buttercms/components/author-card.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/bench/rendering/pages/stateless.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/bench/rendering/pages/stateless-big.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/bench/nested-deps-app-router-many-pages/template/root-layout.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/bench/nested-deps-app-router-many-pages/template/layout.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/bench/nested-deps-app-router/app/layout.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/bench/module-cost/components/client.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/bench/module-cost/app/layout.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/bench/heavy-npm-deps/components/mermaid.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/bench/heavy-npm-deps/components/mantine.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/bench/heavy-npm-deps/components/lodash.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/bench/heavy-npm-deps/app/page.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/bench/heavy-npm-deps/app/layout.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/bench/basic-app/app/page.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/bench/basic-app/app/layout.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/bench/app-router-server/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/bench/app-router-server/app/layout.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-yarn-workspaces/packages/bar/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-userbase/components/todo-form/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-userbase/components/modal/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-userbase/components/nav/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-userbase/components/layout/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-three-js/app/_components/Box.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-three-js/app/_components/Bird.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-route-as-modal/pages/post/[postId].js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-route-as-modal/pages/article/[articleId].js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-rematch/shared/components/header.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-rematch/shared/components/counter-display.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-next-translate/app/[lang]/page.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-neo4j/pages/actor/[name].js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-neo4j/pages/movie/[title].js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-meilisearch/src/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-i18n-rosetta/pages/[lng]/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-framer-motion/pages/image/[index].js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-firebase/pages/profile/[username].js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-facebook-pixel/app/components/FacebookPixel.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-facebook-pixel/app/about/page.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-electron/renderer/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-contentlayer/pages/posts/[id].js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-tina/pages/posts/[slug].js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-storyblok/pages/posts/[slug].js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-takeshape/pages/posts/[slug].js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-prepr/pages/posts/[slug].js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-ghost/pages/posts/[slug].js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-datocms/pages/posts/[slug].js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-graphcms/pages/posts/[slug].js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-builder-io/pages/posts/[slug].js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-buttercms/pages/landing-page/[slug].js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-buttercms/pages/blog/search.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-buttercms/pages/blog/[slug].js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-buttercms/components/main-menu/main-menu.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-buttercms/components/main-menu/main-menu-link.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-buttercms/components/landing-page-sections/two-column-with-image.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-buttercms/components/landing-page-sections/testimonials.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-buttercms/components/landing-page-sections/testimonial.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-buttercms/components/landing-page-sections/missing-section.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-buttercms/components/landing-page-sections/landing-page-section.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-buttercms/components/landing-page-sections/hero.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-buttercms/components/landing-page-sections/features.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-buttercms/components/landing-page-sections/feature.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-buttercms/components/blog/search-widget.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-buttercms/components/blog/posts-list.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-buttercms/components/blog/post-preview.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-buttercms/components/blog/post-preview-condensed.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-buttercms/components/blog/categories-widget.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-buttercms/components/blog/blog.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/crates/next-core/src/assets/layout.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/bench/vercel/benchmark-app/app/layout.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/bench/nested-deps-app-router-many-pages/template/server-components-only/page.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/bench/nested-deps-app-router-many-pages/template/server-and-client-components/page.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/bench/nested-deps-app-router-many-pages/template/server-and-client-components/client-component.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/bench/nested-deps-app-router-many-pages/template/client-components-only/page.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/bench/nested-deps-app-router/app/server-components-only/page.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/bench/nested-deps-app-router/app/server-and-client-components/page.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/bench/nested-deps-app-router/app/server-and-client-components/client-component.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/bench/nested-deps-app-router/app/client-components-only/page.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/bench/module-cost/app/app/page.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/bench/app-router-server/app/rsc/page.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/withamp-to-config/hybrid-amp.output.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/withamp-to-config/hybrid-amp.input.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/withamp-to-config/hybrid-amp-with-config.output.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/withamp-to-config/hybrid-amp-with-config.input.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/withamp-to-config/full-amp.output.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/withamp-to-config/full-amp.input.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/withamp-to-config/full-amp-with-config.output.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/withamp-to-config/full-amp-with-config.input.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/withamp-to-config/full-amp-with-config-var.output.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/withamp-to-config/full-amp-with-config-var.input.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/withamp-to-config/full-amp-with-config-dupe.output.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/withamp-to-config/full-amp-with-config-dupe.input.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/withamp-to-config/full-amp-inline.output.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/withamp-to-config/full-amp-inline.input.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/url-to-withrouter/with-nested-arrow-function.output.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/url-to-withrouter/with-nested-arrow-function.input.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/url-to-withrouter/url-property-not-part-of-this-props.output.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/url-to-withrouter/url-property-not-part-of-this-props.input.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/url-to-withrouter/first-parameter-hoc.output.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/url-to-withrouter/first-parameter-hoc.input.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/url-to-withrouter/destructuring-this-props.output.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/url-to-withrouter/destructuring-this-props.input.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/url-to-withrouter/destructuring-this-props-nested.output.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/url-to-withrouter/destructuring-this-props-nested.input.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/new-link/styled-jsx.output.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/new-link/styled-jsx.input.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/new-link/spread-props.output.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/new-link/spread-props.input.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/new-link/move-props.output.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/new-link/move-props.input.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/new-link/link-string.output.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/new-link/link-string.input.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/new-link/link-a.output.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/new-link/link-a.input.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/new-link/handle-duplicate-props.output.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/new-link/handle-duplicate-props.input.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/new-link/excludes-links-with-legacybehavior-prop.output.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/new-link/excludes-links-with-legacybehavior-prop.input.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/new-link/children-interpolation.output.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/new-link/children-interpolation.input.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/new-link/add-legacy-behavior.output.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/new-link/add-legacy-behavior.input.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/next-async-request-api-dynamic-apis/async-api-type-cast-02.output.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/next-async-request-api-dynamic-apis/async-api-type-cast-02.input.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/add-missing-react-import/class-component.output.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/add-missing-react-import/class-component.input.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/name-default-component/special-ch@racter.input.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/name-default-component/function-expression.output.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/name-default-component/function-expression.input.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/name-default-component/function-expression-ignore.input.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/name-default-component/function-component.output.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/name-default-component/function-component.input.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/name-default-component/function-component-2.output.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/name-default-component/function-component-2.input.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/name-default-component/existing-name.output.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/name-default-component/existing-name.input.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/name-default-component/existing-name-ignore.input.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/name-default-component/existing-name-3.output.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/name-default-component/existing-name-3.input.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/name-default-component/existing-name-2.output.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/name-default-component/existing-name-2.input.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/next-codemod/transforms/__testfixtures__/name-default-component/1-starts-with-number.input.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-yarn-workspaces/packages/web-app/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-stencil/packages/web-app/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/with-stencil/packages/web-app/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-buttercms/pages/blog/tag/[slug].js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/examples/cms-buttercms/pages/blog/category/[slug].js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/bench/vercel/benchmark-app/app/rsc/page.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/create-next-app/templates/default-tw-empty/js/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/create-next-app/templates/default-tw-empty/js/pages/_document.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/create-next-app/templates/default-tw-empty/js/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/create-next-app/templates/default-tw/js/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/create-next-app/templates/default-tw/js/pages/_document.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/create-next-app/templates/default-tw/js/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/create-next-app/templates/default-empty/js/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/create-next-app/templates/default-empty/js/pages/_document.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/create-next-app/templates/default-empty/js/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/create-next-app/templates/default/js/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/create-next-app/templates/default/js/pages/_document.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/create-next-app/templates/default/js/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/create-next-app/templates/app-tw-empty/js/app/page.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/create-next-app/templates/app-tw-empty/js/app/layout.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/create-next-app/templates/app-tw/js/app/page.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/create-next-app/templates/app-tw/js/app/layout.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/create-next-app/templates/app-empty/js/app/page.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/create-next-app/templates/app-empty/js/app/layout.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/create-next-app/templates/app/js/app/page.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/next.js/packages/create-next-app/templates/app/js/app/layout.js:
+   Unexpected token
