@@ -230,37 +230,6 @@ async function analyzeDirectory(targetDirectory) {
     }`
   );
 
-  // Top node types
-  console.log("\n🏆 TOP NODE TYPES:");
-  const sortedNodeTypes = Object.entries(globalNodeCounts)
-    .sort(([, a], [, b]) => b - a)
-    .slice(0, 15);
-
-  sortedNodeTypes.forEach(([nodeType, count], index) => {
-    const percentage = ((count / totalNodes) * 100).toFixed(1);
-    console.log(
-      `   ${(index + 1).toString().padStart(2)}.  ${nodeType.padEnd(25)} ${count
-        .toLocaleString()
-        .padStart(8)} (${percentage}%)`
-    );
-  });
-
-  // File presence statistics
-  console.log("\n📈 FILE PRESENCE BY NODE TYPE:");
-  const sortedByFilePresence = Object.entries(nodeFilePresence)
-    .map(([nodeType, fileSet]) => [nodeType, fileSet.size])
-    .sort(([, a], [, b]) => b - a)
-    .slice(0, 15);
-
-  sortedByFilePresence.forEach(([nodeType, fileCount], index) => {
-    const percentage = ((fileCount / successfulFiles) * 100).toFixed(1);
-    console.log(
-      `   ${(index + 1).toString().padStart(2)}.  ${nodeType.padEnd(
-        25
-      )} ${fileCount.toString().padStart(4)} files (${percentage}%)`
-    );
-  });
-
   // All node types ordered by file presence
   console.log("\n📋 ALL NODE TYPES (BY FILE PRESENCE):");
   const allNodeTypesByFilePresence = Object.entries(nodeFilePresence)
