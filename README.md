@@ -1,6 +1,6 @@
 # AST Analysis Tool
 
-Copilot wrote basically of this code because I was feeling lazy and I just wanted to know about the frequency of AST node types in typical S codebases. This information will help inform the development in `oxc`, as we can optimize around which node types are the most common.
+Copilot wrote basically of this code because I was feeling lazy and I just wanted to know about the frequency of AST node types in typical JS codebases. There is nothing special about this code really, it's just a quick analysis on node frequencies. This information will help inform the development in `oxc`, as we can optimize around which node types are the most common.
 
 To install and use:
 
