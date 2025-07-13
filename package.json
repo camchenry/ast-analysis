@@ -5,20 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node src/index.js",
     "analyze": "node src/index.js",
-    "test": "vitest",
-    "test:run": "vitest run",
-    "test:watch": "vitest --watch",
-    "test:coverage": "vitest run --coverage"
+    "download-repos": "node scripts/download-repos.js"
   },
-  "keywords": [
-    "ast",
-    "analysis",
-    "javascript",
-    "typescript",
-    "oxc"
-  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
