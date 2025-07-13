@@ -161,6 +161,7 @@ async function analyzeDirectory(targetDirectory) {
   // Analyze each file
   const results = [];
   const globalNodeCounts = {};
+  const nodeFilePresence = {}; // Track which files contain each node type
   let totalNodes = 0;
   let successfulFiles = 0;
   let totalSize = 0;
@@ -190,6 +191,12 @@ async function analyzeDirectory(targetDirectory) {
       // Aggregate node counts
       for (const [nodeType, count] of Object.entries(result.nodeCounts)) {
         globalNodeCounts[nodeType] = (globalNodeCounts[nodeType] || 0) + count;
+
+        // Track file presence for this node type
+        if (!nodeFilePresence[nodeType]) {
+          nodeFilePresence[nodeType] = new Set();
+        }
+        nodeFilePresence[nodeType].add(file);
       }
     }
   }
@@ -238,18 +245,60 @@ async function analyzeDirectory(targetDirectory) {
     );
   });
 
+  // File presence statistics
+  console.log("\n📈 FILE PRESENCE BY NODE TYPE:");
+  const sortedByFilePresence = Object.entries(nodeFilePresence)
+    .map(([nodeType, fileSet]) => [nodeType, fileSet.size])
+    .sort(([, a], [, b]) => b - a)
+    .slice(0, 15);
+
+  sortedByFilePresence.forEach(([nodeType, fileCount], index) => {
+    const percentage = ((fileCount / successfulFiles) * 100).toFixed(1);
+    console.log(
+      `   ${(index + 1).toString().padStart(2)}.  ${nodeType.padEnd(
+        25
+      )} ${fileCount.toString().padStart(4)} files (${percentage}%)`
+    );
+  });
+
+  // All node types ordered by file presence
+  console.log("\n📋 ALL NODE TYPES (BY FILE PRESENCE):");
+  const allNodeTypesByFilePresence = Object.entries(nodeFilePresence)
+    .map(([nodeType, fileSet]) => [
+      nodeType,
+      fileSet.size,
+      globalNodeCounts[nodeType] || 0,
+    ])
+    .sort(([, a], [, b]) => b - a);
+
+  allNodeTypesByFilePresence.forEach(([nodeType, fileCount, totalCount]) => {
+    const filePercentage = ((fileCount / successfulFiles) * 100).toFixed(1);
+    const countPercentage = ((totalCount / totalNodes) * 100).toFixed(2);
+    console.log(
+      `   ${nodeType.padEnd(30)} ${fileCount
+        .toString()
+        .padStart(4)} files (${filePercentage.padStart(5)}%) - ${totalCount
+        .toLocaleString()
+        .padStart(8)} total (${countPercentage}%)`
+    );
+  });
+
   // All node types (if requested)
-  console.log("\n📝 ALL NODE TYPES:");
+  console.log("\n📝 ALL NODE TYPES (BY TOTAL COUNT):");
   const allNodeTypes = Object.entries(globalNodeCounts).sort(
     ([, a], [, b]) => b - a
   );
 
   allNodeTypes.forEach(([nodeType, count]) => {
-    const percentage = ((count / totalNodes) * 100).toFixed(2);
+    const countPercentage = ((count / totalNodes) * 100).toFixed(2);
+    const fileCount = nodeFilePresence[nodeType]?.size || 0;
+    const filePercentage = ((fileCount / successfulFiles) * 100).toFixed(1);
     console.log(
       `   ${nodeType.padEnd(30)} ${count
         .toLocaleString()
-        .padStart(8)} (${percentage}%)`
+        .padStart(
+          8
+        )} (${countPercentage}%) in ${fileCount} files (${filePercentage}%)`
     );
   });
 
