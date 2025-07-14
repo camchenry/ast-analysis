@@ -271,9 +271,9 @@ async function analyzeDirectory(targetDirectory, options = {}) {
     console.log(
       `   ${nodeType.padEnd(30)} ${fileCount
         .toString()
-        .padStart(4)} files (${filePercentage.padStart(5)}%) - ${totalCount
+        .padStart(6)} files (${filePercentage.padStart(5)}%) - ${totalCount
         .toLocaleString()
-        .padStart(8)} total (${countPercentage}%)`
+        .padStart(13)} total (${countPercentage.padStart(5)}%)`
     );
   });
 
@@ -290,9 +290,9 @@ async function analyzeDirectory(targetDirectory, options = {}) {
     console.log(
       `   ${nodeType.padEnd(30)} ${count
         .toLocaleString()
-        .padStart(
-          8
-        )} (${countPercentage}%) in ${fileCount} files (${filePercentage}%)`
+        .padStart(13)} (${countPercentage.padStart(5)}%) in ${fileCount
+        .toString()
+        .padStart(6)} files (${filePercentage.padStart(5)}%)`
     );
   });
 
