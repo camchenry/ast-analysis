@@ -1,5 +1,5 @@
 AST Analysis Report for node
-Generated on: 2025-07-14T01:42:23.385Z
+Generated on: 2025-07-14T01:56:48.925Z
 Repository: sample-repos/node
 ================================================================================
 
@@ -380,19 +380,19 @@ Repository: sample-repos/node
        • tools/license2rtf.mjs
        • tools/find-inactive-tsc.mjs
        • tools/find-inactive-collaborators.mjs
-       • benchmark/scatter.js
-       • benchmark/run.js
+       • lib/zlib.js
+       • lib/wasi.js
      📄 Files WITHOUT BinaryExpression (showing 10):
        • eslint.config.mjs
        • typings/primordials.d.ts
        • typings/globals.d.ts
        • tools/update-timezone.mjs
        • tools/merge-wpt-reports.mjs
-       • doc/eslint.config_partial.mjs
        • test/eslint.config_partial.mjs
-       • benchmark/eslint.config_partial.mjs
+       • doc/eslint.config_partial.mjs
        • lib/worker_threads.js
        • lib/sys.js
+       • lib/sqlite.js
 
    ExpressionStatement:
      📄 Files WITH ExpressionStatement (showing 10):
@@ -409,10 +409,10 @@ Repository: sample-repos/node
      📄 Files WITHOUT ExpressionStatement (showing 10):
        • typings/primordials.d.ts
        • typings/globals.d.ts
-       • doc/eslint.config_partial.mjs
        • test/eslint.config_partial.mjs
-       • benchmark/eslint.config_partial.mjs
+       • doc/eslint.config_partial.mjs
        • lib/eslint.config_partial.mjs
+       • benchmark/eslint.config_partial.mjs
        • typings/internalBinding/zlib.d.ts
        • typings/internalBinding/worker.d.ts
        • typings/internalBinding/wasi.d.ts
@@ -434,9 +434,9 @@ Repository: sample-repos/node
        • typings/primordials.d.ts
        • typings/globals.d.ts
        • test/eslint.config_partial.mjs
-       • benchmark/eslint.config_partial.mjs
        • lib/process.js
        • lib/eslint.config_partial.mjs
+       • benchmark/eslint.config_partial.mjs
        • typings/internalBinding/zlib.d.ts
        • typings/internalBinding/worker.d.ts
        • typings/internalBinding/wasi.d.ts
@@ -458,11 +458,11 @@ Repository: sample-repos/node
        • typings/primordials.d.ts
        • typings/globals.d.ts
        • tools/update-timezone.mjs
-       • doc/eslint.config_partial.mjs
        • test/eslint.config_partial.mjs
-       • benchmark/eslint.config_partial.mjs
+       • doc/eslint.config_partial.mjs
        • lib/eslint.config_partial.mjs
        • lib/constants.js
+       • benchmark/eslint.config_partial.mjs
        • typings/internalBinding/zlib.d.ts
        • typings/internalBinding/worker.d.ts
 
@@ -481,14 +481,14 @@ Repository: sample-repos/node
      📄 Files WITHOUT BlockStatement (showing 10):
        • typings/primordials.d.ts
        • typings/globals.d.ts
-       • doc/eslint.config_partial.mjs
        • test/eslint.config_partial.mjs
-       • benchmark/eslint.config_partial.mjs
+       • doc/eslint.config_partial.mjs
        • lib/worker_threads.js
        • lib/sys.js
        • lib/sqlite.js
        • lib/quic.js
        • lib/process.js
+       • lib/perf_hooks.js
 
    VariableDeclarator:
      📄 Files WITH VariableDeclarator (showing 10):
@@ -505,7 +505,6 @@ Repository: sample-repos/node
      📄 Files WITHOUT VariableDeclarator (showing 10):
        • typings/globals.d.ts
        • test/eslint.config_partial.mjs
-       • benchmark/eslint.config_partial.mjs
        • lib/sys.js
        • lib/process.js
        • lib/console.js
@@ -513,6 +512,7 @@ Repository: sample-repos/node
        • lib/_stream_wrap.js
        • lib/_stream_transform.js
        • lib/_stream_readable.js
+       • lib/_stream_passthrough.js
 
    Property:
      📄 Files WITH Property (showing 10):
@@ -529,14 +529,14 @@ Repository: sample-repos/node
      📄 Files WITHOUT Property (showing 10):
        • typings/primordials.d.ts
        • typings/globals.d.ts
-       • benchmark/_cli.js
-       • benchmark/_benchmark_progress.js
        • lib/sys.js
        • lib/process.js
        • lib/console.js
        • lib/_stream_writable.js
        • lib/_stream_wrap.js
        • lib/_stream_transform.js
+       • lib/_stream_readable.js
+       • lib/_stream_passthrough.js
 
    VariableDeclaration:
      📄 Files WITH VariableDeclaration (showing 10):
@@ -553,7 +553,6 @@ Repository: sample-repos/node
      📄 Files WITHOUT VariableDeclaration (showing 10):
        • typings/globals.d.ts
        • test/eslint.config_partial.mjs
-       • benchmark/eslint.config_partial.mjs
        • lib/sys.js
        • lib/process.js
        • lib/console.js
@@ -561,19 +560,20 @@ Repository: sample-repos/node
        • lib/_stream_wrap.js
        • lib/_stream_transform.js
        • lib/_stream_readable.js
+       • lib/_stream_passthrough.js
 
    ParenthesizedExpression:
      📄 Files WITH ParenthesizedExpression (showing 10):
        • tools/lint-sh.mjs
        • tools/lint-readme-lists.mjs
        • tools/license2rtf.mjs
-       • benchmark/scatter.js
-       • benchmark/run.js
-       • benchmark/compare.js
-       • benchmark/common.js
-       • benchmark/_http-benchmarkers.js
-       • benchmark/_benchmark_progress.js
        • lib/zlib.js
+       • lib/wasi.js
+       • lib/vm.js
+       • lib/util.js
+       • lib/url.js
+       • lib/tty.js
+       • lib/tls.js
      📄 Files WITHOUT ParenthesizedExpression (showing 10):
        • eslint.config.mjs
        • typings/primordials.d.ts
@@ -597,18 +597,18 @@ Repository: sample-repos/node
        • tools/license2rtf.mjs
        • tools/find-inactive-tsc.mjs
        • tools/find-inactive-collaborators.mjs
-       • benchmark/scatter.js
+       • lib/zlib.js
      📄 Files WITHOUT IfStatement (showing 10):
        • typings/primordials.d.ts
        • typings/globals.d.ts
        • tools/update-timezone.mjs
        • tools/merge-wpt-reports.mjs
-       • doc/eslint.config_partial.mjs
        • test/eslint.config_partial.mjs
-       • benchmark/eslint.config_partial.mjs
+       • doc/eslint.config_partial.mjs
        • lib/worker_threads.js
        • lib/sys.js
        • lib/sqlite.js
+       • lib/quic.js
 
    UnaryExpression:
      📄 Files WITH UnaryExpression (showing 10):
@@ -628,11 +628,11 @@ Repository: sample-repos/node
        • typings/globals.d.ts
        • tools/merge-wpt-reports.mjs
        • test/eslint.config_partial.mjs
-       • benchmark/eslint.config_partial.mjs
        • lib/worker_threads.js
        • lib/test.js
        • lib/sys.js
        • lib/stream.js
+       • lib/sqlite.js
 
    ObjectExpression:
      📄 Files WITH ObjectExpression (showing 10):
@@ -650,13 +650,13 @@ Repository: sample-repos/node
        • typings/primordials.d.ts
        • typings/globals.d.ts
        • tools/run-worker.js
-       • benchmark/_benchmark_progress.js
        • lib/sys.js
        • lib/sqlite.js
        • lib/process.js
        • lib/module.js
        • lib/constants.js
        • lib/console.js
+       • lib/cluster.js
 
    ArrowFunctionExpression:
      📄 Files WITH ArrowFunctionExpression (showing 10):
@@ -674,13 +674,13 @@ Repository: sample-repos/node
        • typings/primordials.d.ts
        • typings/globals.d.ts
        • test/eslint.config_partial.mjs
-       • benchmark/eslint.config_partial.mjs
        • lib/worker_threads.js
        • lib/v8.js
        • lib/tty.js
        • lib/trace_events.js
        • lib/test.js
        • lib/sys.js
+       • lib/string_decoder.js
 
    Unknown:
      📄 Files WITH Unknown (showing 10):
@@ -700,11 +700,11 @@ Repository: sample-repos/node
        • tools/run-worker.js
        • tools/merge-wpt-reports.mjs
        • test/eslint.config_partial.mjs
-       • benchmark/eslint.config_partial.mjs
        • lib/worker_threads.js
        • lib/tty.js
        • lib/timers.js
        • lib/test.js
+       • lib/sys.js
 
    ArrayExpression:
      📄 Files WITH ArrayExpression (showing 10):
@@ -716,19 +716,19 @@ Repository: sample-repos/node
        • tools/license2rtf.mjs
        • tools/find-inactive-tsc.mjs
        • tools/find-inactive-collaborators.mjs
-       • doc/eslint.config_partial.mjs
        • test/eslint.config_partial.mjs
+       • doc/eslint.config_partial.mjs
      📄 Files WITHOUT ArrayExpression (showing 10):
        • typings/primordials.d.ts
        • typings/globals.d.ts
        • tools/run-worker.js
        • tools/lint-readme-lists.mjs
        • tools/lint-pr-url.mjs
-       • benchmark/_benchmark_progress.js
        • lib/worker_threads.js
        • lib/trace_events.js
        • lib/timers.js
        • lib/test.js
+       • lib/sys.js
 
    ReturnStatement:
      📄 Files WITH ReturnStatement (showing 10):
@@ -738,10 +738,10 @@ Repository: sample-repos/node
        • tools/license2rtf.mjs
        • tools/find-inactive-tsc.mjs
        • tools/find-inactive-collaborators.mjs
-       • benchmark/scatter.js
-       • benchmark/run.js
-       • benchmark/compare.js
-       • benchmark/common.js
+       • lib/zlib.js
+       • lib/wasi.js
+       • lib/vm.js
+       • lib/v8.js
      📄 Files WITHOUT ReturnStatement (showing 10):
        • typings/primordials.d.ts
        • typings/globals.d.ts
@@ -750,22 +750,22 @@ Repository: sample-repos/node
        • tools/merge-wpt-reports.mjs
        • tools/lint-readme-lists.mjs
        • tools/lint-pr-url.mjs
-       • doc/eslint.config_partial.mjs
        • test/eslint.config_partial.mjs
-       • benchmark/eslint.config_partial.mjs
+       • doc/eslint.config_partial.mjs
+       • lib/worker_threads.js
 
    FunctionExpression:
      📄 Files WITH FunctionExpression (showing 10):
        • tools/license2rtf.mjs
-       • benchmark/scatter.js
-       • benchmark/compare.js
-       • benchmark/common.js
-       • benchmark/_http-benchmarkers.js
-       • benchmark/_cli.js
-       • benchmark/_benchmark_progress.js
        • lib/zlib.js
        • lib/wasi.js
        • lib/vm.js
+       • lib/v8.js
+       • lib/util.js
+       • lib/url.js
+       • lib/tty.js
+       • lib/trace_events.js
+       • lib/tls.js
      📄 Files WITHOUT FunctionExpression (showing 10):
        • eslint.config.mjs
        • typings/primordials.d.ts
@@ -781,15 +781,15 @@ Repository: sample-repos/node
    ThisExpression:
      📄 Files WITH ThisExpression (showing 10):
        • tools/license2rtf.mjs
-       • benchmark/common.js
-       • benchmark/_http-benchmarkers.js
-       • benchmark/_cli.js
-       • benchmark/_benchmark_progress.js
        • lib/zlib.js
        • lib/wasi.js
        • lib/vm.js
        • lib/v8.js
        • lib/util.js
+       • lib/url.js
+       • lib/tty.js
+       • lib/trace_events.js
+       • lib/timers.js
      📄 Files WITHOUT ThisExpression (showing 10):
        • eslint.config.mjs
        • typings/primordials.d.ts
@@ -812,19 +812,19 @@ Repository: sample-repos/node
        • tools/license2rtf.mjs
        • tools/find-inactive-tsc.mjs
        • tools/find-inactive-collaborators.mjs
-       • benchmark/scatter.js
-       • benchmark/run.js
+       • lib/zlib.js
+       • lib/wasi.js
      📄 Files WITHOUT NewExpression (showing 10):
        • typings/primordials.d.ts
        • typings/globals.d.ts
        • tools/update-timezone.mjs
        • tools/merge-wpt-reports.mjs
        • tools/lint-pr-url.mjs
-       • doc/eslint.config_partial.mjs
        • test/eslint.config_partial.mjs
-       • benchmark/eslint.config_partial.mjs
-       • benchmark/_benchmark_progress.js
+       • doc/eslint.config_partial.mjs
        • lib/worker_threads.js
+       • lib/sys.js
+       • lib/sqlite.js
 
    TemplateElement:
      📄 Files WITH TemplateElement (showing 10):
@@ -844,11 +844,11 @@ Repository: sample-repos/node
        • tools/run-worker.js
        • tools/merge-wpt-reports.mjs
        • test/eslint.config_partial.mjs
-       • benchmark/eslint.config_partial.mjs
        • lib/worker_threads.js
        • lib/tty.js
        • lib/timers.js
        • lib/test.js
+       • lib/sys.js
 
    FunctionDeclaration:
      📄 Files WITH FunctionDeclaration (showing 10):
@@ -858,10 +858,10 @@ Repository: sample-repos/node
        • tools/license2rtf.mjs
        • tools/find-inactive-tsc.mjs
        • tools/find-inactive-collaborators.mjs
-       • benchmark/scatter.js
-       • benchmark/run.js
-       • benchmark/common.js
-       • benchmark/_test-double-benchmarker.js
+       • lib/zlib.js
+       • lib/wasi.js
+       • lib/vm.js
+       • lib/v8.js
      📄 Files WITHOUT FunctionDeclaration (showing 10):
        • typings/primordials.d.ts
        • typings/globals.d.ts
@@ -870,9 +870,9 @@ Repository: sample-repos/node
        • tools/merge-wpt-reports.mjs
        • tools/lint-readme-lists.mjs
        • tools/lint-pr-url.mjs
-       • doc/eslint.config_partial.mjs
        • test/eslint.config_partial.mjs
-       • benchmark/eslint.config_partial.mjs
+       • doc/eslint.config_partial.mjs
+       • lib/worker_threads.js
 
    Program:
      📄 Files WITH Program (showing 10):
@@ -919,11 +919,11 @@ Repository: sample-repos/node
        • tools/run-worker.js
        • tools/lint-sh.mjs
        • tools/license2rtf.mjs
-       • benchmark/run.js
-       • benchmark/compare.js
-       • benchmark/common.js
        • lib/zlib.js
        • lib/worker_threads.js
+       • lib/wasi.js
+       • lib/vm.js
+       • lib/v8.js
      📄 Files WITHOUT ObjectPattern (showing 10):
        • typings/primordials.d.ts
        • typings/globals.d.ts
@@ -933,8 +933,8 @@ Repository: sample-repos/node
        • tools/lint-pr-url.mjs
        • tools/find-inactive-tsc.mjs
        • tools/find-inactive-collaborators.mjs
-       • doc/eslint.config_partial.mjs
        • test/eslint.config_partial.mjs
+       • doc/eslint.config_partial.mjs
 
    LogicalExpression:
      📄 Files WITH LogicalExpression (showing 10):
@@ -946,19 +946,19 @@ Repository: sample-repos/node
        • tools/license2rtf.mjs
        • tools/find-inactive-tsc.mjs
        • tools/find-inactive-collaborators.mjs
-       • benchmark/run.js
-       • benchmark/compare.js
+       • lib/zlib.js
+       • lib/wasi.js
      📄 Files WITHOUT LogicalExpression (showing 10):
        • typings/primordials.d.ts
        • typings/globals.d.ts
        • tools/update-timezone.mjs
        • tools/test-npm-package.js
        • tools/merge-wpt-reports.mjs
-       • doc/eslint.config_partial.mjs
        • test/eslint.config_partial.mjs
-       • benchmark/scatter.js
-       • benchmark/eslint.config_partial.mjs
-       • benchmark/_test-double-benchmarker.js
+       • doc/eslint.config_partial.mjs
+       • lib/worker_threads.js
+       • lib/test.js
+       • lib/sys.js
 
    TemplateLiteral:
      📄 Files WITH TemplateLiteral (showing 10):
@@ -978,11 +978,11 @@ Repository: sample-repos/node
        • tools/run-worker.js
        • tools/merge-wpt-reports.mjs
        • test/eslint.config_partial.mjs
-       • benchmark/eslint.config_partial.mjs
        • lib/worker_threads.js
        • lib/tty.js
        • lib/timers.js
        • lib/test.js
+       • lib/sys.js
 
    AwaitExpression:
      📄 Files WITH AwaitExpression (showing 10):
@@ -992,10 +992,10 @@ Repository: sample-repos/node
        • tools/license2rtf.mjs
        • tools/find-inactive-tsc.mjs
        • tools/find-inactive-collaborators.mjs
-       • benchmark/run.js
        • lib/repl.js
        • lib/net.js
        • lib/https.js
+       • lib/dgram.js
      📄 Files WITHOUT AwaitExpression (showing 10):
        • typings/primordials.d.ts
        • typings/globals.d.ts
@@ -1004,9 +1004,9 @@ Repository: sample-repos/node
        • tools/run-worker.js
        • tools/merge-wpt-reports.mjs
        • tools/lint-pr-url.mjs
-       • doc/eslint.config_partial.mjs
        • test/eslint.config_partial.mjs
-       • benchmark/scatter.js
+       • doc/eslint.config_partial.mjs
+       • lib/zlib.js
 
    UpdateExpression:
      📄 Files WITH UpdateExpression (showing 10):
@@ -1014,12 +1014,12 @@ Repository: sample-repos/node
        • tools/lint-pr-url.mjs
        • tools/license2rtf.mjs
        • tools/find-inactive-tsc.mjs
-       • benchmark/run.js
-       • benchmark/compare.js
-       • benchmark/common.js
-       • benchmark/_test-double-benchmarker.js
-       • benchmark/_benchmark_progress.js
        • lib/zlib.js
+       • lib/vm.js
+       • lib/v8.js
+       • lib/util.js
+       • lib/url.js
+       • lib/tls.js
      📄 Files WITHOUT UpdateExpression (showing 10):
        • eslint.config.mjs
        • typings/primordials.d.ts
@@ -1030,20 +1030,20 @@ Repository: sample-repos/node
        • tools/merge-wpt-reports.mjs
        • tools/lint-sh.mjs
        • tools/find-inactive-collaborators.mjs
-       • doc/eslint.config_partial.mjs
+       • test/eslint.config_partial.mjs
 
    MethodDefinition:
      📄 Files WITH MethodDefinition (showing 10):
        • tools/license2rtf.mjs
-       • benchmark/common.js
-       • benchmark/_http-benchmarkers.js
-       • benchmark/_benchmark_progress.js
        • lib/zlib.js
        • lib/wasi.js
        • lib/vm.js
        • lib/v8.js
        • lib/trace_events.js
        • lib/inspector.js
+       • lib/events.js
+       • lib/domain.js
+       • lib/diagnostics_channel.js
      📄 Files WITHOUT MethodDefinition (showing 10):
        • eslint.config.mjs
        • typings/primordials.d.ts
@@ -1086,12 +1086,12 @@ Repository: sample-repos/node
        • tools/lint-readme-lists.mjs
        • tools/find-inactive-tsc.mjs
        • tools/find-inactive-collaborators.mjs
-       • benchmark/scatter.js
-       • benchmark/run.js
-       • benchmark/compare.js
-       • benchmark/common.js
-       • benchmark/_http-benchmarkers.js
-       • benchmark/_benchmark_progress.js
+       • lib/zlib.js
+       • lib/util.js
+       • lib/url.js
+       • lib/tls.js
+       • lib/timers.js
+       • lib/string_decoder.js
      📄 Files WITHOUT ConditionalExpression (showing 10):
        • eslint.config.mjs
        • typings/primordials.d.ts
@@ -1102,7 +1102,7 @@ Repository: sample-repos/node
        • tools/merge-wpt-reports.mjs
        • tools/lint-pr-url.mjs
        • tools/license2rtf.mjs
-       • doc/eslint.config_partial.mjs
+       • test/eslint.config_partial.mjs
 
    TSTypeAnnotation:
      📄 Files WITH TSTypeAnnotation (showing 10):
@@ -1134,12 +1134,12 @@ Repository: sample-repos/node
        • tools/lint-readme-lists.mjs
        • tools/find-inactive-tsc.mjs
        • tools/find-inactive-collaborators.mjs
-       • benchmark/common.js
-       • benchmark/_test-double-benchmarker.js
-       • benchmark/_cli.js
        • lib/zlib.js
        • lib/wasi.js
        • lib/vm.js
+       • lib/v8.js
+       • lib/util.js
+       • lib/url.js
      📄 Files WITHOUT ThrowStatement (showing 10):
        • eslint.config.mjs
        • typings/primordials.d.ts
@@ -1150,20 +1150,20 @@ Repository: sample-repos/node
        • tools/lint-sh.mjs
        • tools/lint-pr-url.mjs
        • tools/license2rtf.mjs
-       • doc/eslint.config_partial.mjs
+       • test/eslint.config_partial.mjs
 
    ForStatement:
      📄 Files WITH ForStatement (showing 10):
        • tools/license2rtf.mjs
-       • benchmark/run.js
-       • benchmark/compare.js
-       • benchmark/common.js
        • lib/zlib.js
        • lib/v8.js
        • lib/util.js
        • lib/url.js
        • lib/tls.js
        • lib/stream.js
+       • lib/repl.js
+       • lib/querystring.js
+       • lib/punycode.js
      📄 Files WITHOUT ForStatement (showing 10):
        • eslint.config.mjs
        • typings/primordials.d.ts
@@ -1187,7 +1187,7 @@ Repository: sample-repos/node
        • deps/cjs-module-lexer/src/lexer.js
        • lib/internal/source_map/source_map_cache.js
        • lib/internal/modules/typescript.js
-       • deps/v8/test/intl/regress-9788.js
+       • deps/v8/test/webkit/toString-prefix-postfix-preserve-parens.js
      📄 Files WITHOUT SequenceExpression (showing 10):
        • eslint.config.mjs
        • typings/primordials.d.ts
@@ -1208,10 +1208,10 @@ Repository: sample-repos/node
        • test/pummel/test-vm-race.js
        • test/common/tls.js
        • test/common/inspector-helper.js
-       • benchmark/fs/read-stream-throughput.js
        • deps/undici/undici.js
        • deps/minimatch/index.js
        • deps/cjs-module-lexer/lexer.js
+       • test/parallel/test-worker-messaging.js
      📄 Files WITHOUT DoWhileStatement (showing 10):
        • eslint.config.mjs
        • typings/primordials.d.ts
@@ -1274,8 +1274,6 @@ Repository: sample-repos/node
 
    TryStatement:
      📄 Files WITH TryStatement (showing 10):
-       • benchmark/common.js
-       • benchmark/_http-benchmarkers.js
        • lib/wasi.js
        • lib/vm.js
        • lib/repl.js
@@ -1284,6 +1282,8 @@ Repository: sample-repos/node
        • lib/inspector.js
        • lib/fs.js
        • lib/events.js
+       • lib/domain.js
+       • lib/diagnostics_channel.js
      📄 Files WITHOUT TryStatement (showing 10):
        • eslint.config.mjs
        • typings/primordials.d.ts
@@ -1300,7 +1300,6 @@ Repository: sample-repos/node
      📄 Files WITH WhileStatement (showing 10):
        • tools/find-inactive-tsc.mjs
        • tools/find-inactive-collaborators.mjs
-       • benchmark/run.js
        • lib/zlib.js
        • lib/util.js
        • lib/url.js
@@ -1308,6 +1307,7 @@ Repository: sample-repos/node
        • lib/repl.js
        • lib/querystring.js
        • lib/punycode.js
+       • lib/path.js
      📄 Files WITHOUT WhileStatement (showing 10):
        • eslint.config.mjs
        • typings/primordials.d.ts
@@ -1327,11 +1327,11 @@ Repository: sample-repos/node
        • tools/merge-wpt-reports.mjs
        • tools/lint-sh.mjs
        • tools/lint-readme-lists.mjs
-       • doc/eslint.config_partial.mjs
        • test/eslint.config_partial.mjs
-       • benchmark/run.js
-       • benchmark/eslint.config_partial.mjs
-       • benchmark/compare.js
+       • doc/eslint.config_partial.mjs
+       • lib/zlib.js
+       • lib/vm.js
+       • lib/util.js
      📄 Files WITHOUT SpreadElement (showing 10):
        • typings/primordials.d.ts
        • typings/globals.d.ts
@@ -1341,13 +1341,11 @@ Repository: sample-repos/node
        • tools/license2rtf.mjs
        • tools/find-inactive-tsc.mjs
        • tools/find-inactive-collaborators.mjs
-       • benchmark/scatter.js
-       • benchmark/_test-double-benchmarker.js
+       • lib/worker_threads.js
+       • lib/wasi.js
 
    CatchClause:
      📄 Files WITH CatchClause (showing 10):
-       • benchmark/common.js
-       • benchmark/_http-benchmarkers.js
        • lib/wasi.js
        • lib/vm.js
        • lib/repl.js
@@ -1356,6 +1354,8 @@ Repository: sample-repos/node
        • lib/inspector.js
        • lib/fs.js
        • lib/events.js
+       • lib/domain.js
+       • lib/diagnostics_channel.js
      📄 Files WITHOUT CatchClause (showing 10):
        • eslint.config.mjs
        • typings/primordials.d.ts
@@ -1400,10 +1400,10 @@ Repository: sample-repos/node
        • tools/lint-pr-url.mjs
        • tools/find-inactive-tsc.mjs
        • tools/find-inactive-collaborators.mjs
-       • benchmark/run.js
-       • benchmark/compare.js
-       • benchmark/common.js
-       • benchmark/_cli.js
+       • lib/zlib.js
+       • lib/util.js
+       • lib/repl.js
+       • lib/punycode.js
      📄 Files WITHOUT ForOfStatement (showing 10):
        • eslint.config.mjs
        • typings/primordials.d.ts
@@ -1412,19 +1412,19 @@ Repository: sample-repos/node
        • tools/test-npm-package.js
        • tools/run-worker.js
        • tools/license2rtf.mjs
-       • doc/eslint.config_partial.mjs
        • test/eslint.config_partial.mjs
-       • benchmark/scatter.js
+       • doc/eslint.config_partial.mjs
+       • lib/worker_threads.js
 
    EmptyStatement:
      📄 Files WITH EmptyStatement (showing 10):
        • lib/util.js
        • lib/url.js
-       • test/pseudo-tty/test-trace-sigint.js
-       • test/pummel/test-process-hrtime.js
-       • test/pummel/test-process-cpuUsage.js
        • test/sequential/test-worker-eventlooputil.js
        • test/sequential/test-net-response-size.js
+       • test/pummel/test-process-hrtime.js
+       • test/pummel/test-process-cpuUsage.js
+       • test/pseudo-tty/test-trace-sigint.js
        • test/common/inspector-helper.js
        • test/common/index.js
        • test/es-module/test-wasm-web-api.js
@@ -1443,15 +1443,15 @@ Repository: sample-repos/node
    ClassBody:
      📄 Files WITH ClassBody (showing 10):
        • tools/license2rtf.mjs
-       • benchmark/common.js
-       • benchmark/_http-benchmarkers.js
-       • benchmark/_benchmark_progress.js
        • lib/zlib.js
        • lib/wasi.js
        • lib/vm.js
        • lib/v8.js
        • lib/trace_events.js
        • lib/inspector.js
+       • lib/events.js
+       • lib/domain.js
+       • lib/diagnostics_channel.js
      📄 Files WITHOUT ClassBody (showing 10):
        • eslint.config.mjs
        • typings/primordials.d.ts
@@ -1491,7 +1491,6 @@ Repository: sample-repos/node
    AssignmentPattern:
      📄 Files WITH AssignmentPattern (showing 10):
        • tools/find-inactive-tsc.mjs
-       • benchmark/common.js
        • lib/zlib.js
        • lib/wasi.js
        • lib/vm.js
@@ -1500,6 +1499,7 @@ Repository: sample-repos/node
        • lib/tls.js
        • lib/repl.js
        • lib/net.js
+       • lib/inspector.js
      📄 Files WITHOUT AssignmentPattern (showing 10):
        • eslint.config.mjs
        • typings/primordials.d.ts
@@ -1515,15 +1515,15 @@ Repository: sample-repos/node
    ClassDeclaration:
      📄 Files WITH ClassDeclaration (showing 10):
        • tools/license2rtf.mjs
-       • benchmark/common.js
-       • benchmark/_http-benchmarkers.js
-       • benchmark/_benchmark_progress.js
        • lib/zlib.js
        • lib/wasi.js
        • lib/vm.js
        • lib/v8.js
        • lib/trace_events.js
        • lib/inspector.js
+       • lib/events.js
+       • lib/domain.js
+       • lib/diagnostics_channel.js
      📄 Files WITHOUT ClassDeclaration (showing 10):
        • eslint.config.mjs
        • typings/primordials.d.ts
@@ -1552,13 +1552,13 @@ Repository: sample-repos/node
        • typings/primordials.d.ts
        • tools/test-npm-package.js
        • tools/run-worker.js
-       • benchmark/scatter.js
-       • benchmark/run.js
-       • benchmark/compare.js
-       • benchmark/common.js
-       • benchmark/_test-double-benchmarker.js
-       • benchmark/_http-benchmarkers.js
-       • benchmark/_cli.js
+       • lib/zlib.js
+       • lib/worker_threads.js
+       • lib/wasi.js
+       • lib/vm.js
+       • lib/v8.js
+       • lib/util.js
+       • lib/url.js
 
    LabeledStatement:
      📄 Files WITH LabeledStatement (showing 10):
@@ -1594,19 +1594,19 @@ Repository: sample-repos/node
        • tools/license2rtf.mjs
        • tools/find-inactive-tsc.mjs
        • tools/find-inactive-collaborators.mjs
-       • doc/eslint.config_partial.mjs
        • test/eslint.config_partial.mjs
+       • doc/eslint.config_partial.mjs
      📄 Files WITHOUT ImportSpecifier (showing 10):
        • typings/primordials.d.ts
        • tools/test-npm-package.js
        • tools/run-worker.js
        • tools/merge-wpt-reports.mjs
        • tools/lint-pr-url.mjs
-       • benchmark/scatter.js
-       • benchmark/run.js
-       • benchmark/compare.js
-       • benchmark/common.js
-       • benchmark/_test-double-benchmarker.js
+       • lib/zlib.js
+       • lib/worker_threads.js
+       • lib/wasi.js
+       • lib/vm.js
+       • lib/v8.js
 
    ArrayPattern:
      📄 Files WITH ArrayPattern (showing 10):
@@ -1638,12 +1638,12 @@ Repository: sample-repos/node
        • tools/lint-pr-url.mjs
        • tools/find-inactive-tsc.mjs
        • tools/find-inactive-collaborators.mjs
-       • benchmark/common.js
        • lib/zlib.js
        • lib/wasi.js
        • lib/util.js
        • lib/tty.js
        • lib/tls.js
+       • lib/timers.js
      📄 Files WITHOUT ChainExpression (showing 10):
        • eslint.config.mjs
        • typings/primordials.d.ts
@@ -1654,7 +1654,7 @@ Repository: sample-repos/node
        • tools/merge-wpt-reports.mjs
        • tools/lint-readme-lists.mjs
        • tools/license2rtf.mjs
-       • doc/eslint.config_partial.mjs
+       • test/eslint.config_partial.mjs
 
    TSPropertySignature:
      📄 Files WITH TSPropertySignature (showing 10):
@@ -1707,8 +1707,6 @@ Repository: sample-repos/node
    ContinueStatement:
      📄 Files WITH ContinueStatement (showing 10):
        • tools/find-inactive-tsc.mjs
-       • benchmark/common.js
-       • benchmark/_cli.js
        • lib/zlib.js
        • lib/util.js
        • lib/url.js
@@ -1716,6 +1714,8 @@ Repository: sample-repos/node
        • lib/querystring.js
        • lib/path.js
        • lib/fs.js
+       • lib/events.js
+       • lib/diagnostics_channel.js
      📄 Files WITHOUT ContinueStatement (showing 10):
        • eslint.config.mjs
        • typings/primordials.d.ts
@@ -1761,8 +1761,8 @@ Repository: sample-repos/node
        • lib/events.js
        • lib/domain.js
        • lib/diagnostics_channel.js
-       • test/pummel/test-tls-server-large-request.js
        • test/sequential/test-stream2-fs.js
+       • test/pummel/test-tls-server-large-request.js
        • test/known_issues/test-stream-writable-sync-error.js
      📄 Files WITHOUT Super (showing 10):
        • eslint.config.mjs
@@ -1900,7 +1900,6 @@ Repository: sample-repos/node
      📄 Files WITH YieldExpression (showing 10):
        • tools/lint-sh.mjs
        • test/common/test-error-reporter.js
-       • benchmark/streams/readable-from.js
        • deps/undici/undici.js
        • test/parallel/test-worker-message-port.js
        • test/parallel/test-webstreams-pipeline.js
@@ -1908,6 +1907,7 @@ Repository: sample-repos/node
        • test/parallel/test-structuredClone-global.js
        • test/parallel/test-stream3-pipeline-async-iterator.js
        • test/parallel/test-stream-readable-next-no-null.js
+       • test/parallel/test-stream-readable-async-iterators.js
      📄 Files WITHOUT YieldExpression (showing 10):
        • eslint.config.mjs
        • typings/primordials.d.ts
@@ -1971,10 +1971,10 @@ Repository: sample-repos/node
    ForInStatement:
      📄 Files WITH ForInStatement (showing 10):
        • tools/find-inactive-tsc.mjs
-       • benchmark/_http-benchmarkers.js
        • lib/wasi.js
        • lib/child_process.js
        • lib/_http_outgoing.js
+       • benchmark/_http-benchmarkers.js
        • tools/doc/json.mjs
        • tools/doc/alljson.mjs
        • test/pummel/test-crypto-dh-hash.js
@@ -2059,10 +2059,10 @@ Repository: sample-repos/node
        • tools/test-npm-package.js
        • tools/run-worker.js
        • tools/merge-wpt-reports.mjs
-       • doc/eslint.config_partial.mjs
        • test/eslint.config_partial.mjs
-       • benchmark/scatter.js
-       • benchmark/run.js
+       • doc/eslint.config_partial.mjs
+       • lib/zlib.js
+       • lib/worker_threads.js
 
    TaggedTemplateExpression:
      📄 Files WITH TaggedTemplateExpression (showing 10):
@@ -2075,7 +2075,7 @@ Repository: sample-repos/node
        • test/sequential/test-child-process-emfile.js
        • test/common/tmpdir.js
        • test/common/index.js
-       • test/abort/test-abort-fatal-error.js
+       • test/async-hooks/test-callback-error.js
      📄 Files WITHOUT TaggedTemplateExpression (showing 10):
        • eslint.config.mjs
        • typings/primordials.d.ts
@@ -2141,13 +2141,13 @@ Repository: sample-repos/node
        • test/parallel/test-worker-debug.js
        • deps/v8/test/webkit/ignored-result-ref-crash.js
        • deps/v8/test/webkit/debugger.js
-       • deps/v8/test/debugger/wrapper/break-on-debugger-stmt.js
-       • deps/v8/test/debugger/regress/regress-crbug-760225.js
-       • deps/v8/test/debugger/regress/regress-crbug-724858.js
-       • deps/v8/test/debugger/regress/regress-crbug-10132.js
-       • deps/v8/test/debugger/regress/regress-9482.js
-       • deps/v8/test/debugger/regress/regress-6085.js
-       • deps/v8/test/debugger/regress/regress-5610.js
+       • deps/v8/test/inspector/debugger/wasm-unnamed-function-names.js
+       • deps/v8/test/inspector/debugger/wasm-stack.js
+       • deps/v8/test/inspector/debugger/wasm-source.js
+       • deps/v8/test/inspector/debugger/wasm-jspi-async-stack.js
+       • deps/v8/test/inspector/debugger/stepping-with-skiplist.js
+       • deps/v8/test/inspector/debugger/set-breakpoint-muting.js
+       • deps/v8/test/inspector/debugger/ignore-anonymous-and-content-script.js
      📄 Files WITHOUT DebuggerStatement (showing 10):
        • eslint.config.mjs
        • typings/primordials.d.ts
@@ -2162,7 +2162,6 @@ Repository: sample-repos/node
 
    WithStatement:
      📄 Files WITH WithStatement (showing 10):
-       • deps/v8/test/message/nonstrict-with.js
        • deps/v8/test/webkit/vardecl-blocks-init.js
        • deps/v8/test/webkit/invalid-callframe-during-unwind.js
        • deps/v8/test/webkit/exception-with-handler-inside-eval-with-dynamic-scope.js
@@ -2170,6 +2169,7 @@ Repository: sample-repos/node
        • deps/v8/test/webkit/exception-propagate-from-dfg-to-llint.js
        • deps/v8/test/webkit/eval-cache-crash.js
        • deps/v8/test/webkit/eval-and-with.js
+       • deps/v8/test/message/nonstrict-with.js
        • deps/v8/test/mjsunit/with-value.js
        • deps/v8/test/mjsunit/with-readonly.js
      📄 Files WITHOUT WithStatement (showing 10):
@@ -2387,7 +2387,7 @@ Repository: sample-repos/node
        • lib/events.js
        • tools/lint-md/list-released-versions-from-changelogs.mjs
        • tools/icu/update-test-data.mjs
-       • tools/dep_updaters/update-root-certs.mjs
+       • tools/eslint/eslint.config_utils.mjs
      📄 Files WITHOUT MetaProperty (showing 10):
        • typings/primordials.d.ts
        • typings/globals.d.ts
@@ -2397,8 +2397,8 @@ Repository: sample-repos/node
        • tools/lint-sh.mjs
        • tools/lint-pr-url.mjs
        • tools/license2rtf.mjs
-       • doc/eslint.config_partial.mjs
        • test/eslint.config_partial.mjs
+       • doc/eslint.config_partial.mjs
 
    TSInterfaceDeclaration:
      📄 Files WITH TSInterfaceDeclaration (showing 10):
@@ -2481,9 +2481,9 @@ Repository: sample-repos/node
        • deps/v8/tools/turbolizer/src/phases/turboshaft-custom-data-phase.ts
        • deps/v8/tools/turbolizer/src/phases/phase.ts
        • deps/v8/tools/turbolizer/src/phases/instructions-phase.ts
+       • deps/v8/tools/turbolizer/src/phases/graph-phase/graph-phase.ts
        • deps/v8/tools/turbolizer/src/phases/turboshaft-graph-phase/turboshaft-graph-operation.ts
        • deps/v8/tools/turbolizer/src/phases/turboshaft-graph-phase/turboshaft-graph-block.ts
-       • deps/v8/tools/turbolizer/src/phases/graph-phase/graph-phase.ts
      📄 Files WITHOUT TSEnumMember (showing 10):
        • eslint.config.mjs
        • typings/primordials.d.ts
@@ -2713,10 +2713,10 @@ Repository: sample-repos/node
    ExportDefaultDeclaration:
      📄 Files WITH ExportDefaultDeclaration (showing 10):
        • eslint.config.mjs
-       • doc/eslint.config_partial.mjs
        • test/eslint.config_partial.mjs
-       • benchmark/eslint.config_partial.mjs
+       • doc/eslint.config_partial.mjs
        • lib/eslint.config_partial.mjs
+       • benchmark/eslint.config_partial.mjs
        • tools/eslint/eslint.config_partial.mjs
        • tools/doc/buildCSSForFlavoredJS.mjs
        • test/es-module/test-esm-shebang.mjs
@@ -2857,8 +2857,8 @@ Repository: sample-repos/node
        • deps/undici/src/types/connector.d.ts
        • deps/undici/src/types/api.d.ts
        • deps/undici/src/types/agent.d.ts
-       • deps/v8/tools/turbolizer/src/selection/selection-broker.ts
        • deps/v8/tools/turbolizer/src/views/turboshaft-graph-view.ts
+       • deps/v8/tools/turbolizer/src/views/text-view.ts
      📄 Files WITHOUT TSIntersectionType (showing 10):
        • eslint.config.mjs
        • typings/primordials.d.ts
@@ -2875,7 +2875,6 @@ Repository: sample-repos/node
      📄 Files WITH ExportAllDeclaration (showing 10):
        • deps/undici/src/index.d.ts
        • deps/v8/tools/system-analyzer/helper.mjs
-       • deps/undici/src/types/index.d.ts
        • deps/v8/test/mjsunit/modules-skip-star-exports-cycle.mjs
        • deps/v8/test/mjsunit/modules-skip-star-exports-conflict.mjs
        • deps/v8/test/mjsunit/modules-skip-namespace.mjs
@@ -2883,6 +2882,7 @@ Repository: sample-repos/node
        • deps/v8/test/mjsunit/modules-skip-8.mjs
        • deps/v8/test/mjsunit/modules-skip-7.mjs
        • deps/v8/test/mjsunit/modules-skip-6.mjs
+       • deps/v8/test/mjsunit/modules-skip-4.mjs
      📄 Files WITHOUT ExportAllDeclaration (showing 10):
        • eslint.config.mjs
        • typings/primordials.d.ts
@@ -3025,9 +3025,9 @@ Repository: sample-repos/node
        • deps/v8/tools/turbolizer/src/phases/turboshaft-custom-data-phase.ts
        • deps/v8/tools/turbolizer/src/phases/phase.ts
        • deps/v8/tools/turbolizer/src/phases/instructions-phase.ts
+       • deps/v8/tools/turbolizer/src/phases/graph-phase/graph-phase.ts
        • deps/v8/tools/turbolizer/src/phases/turboshaft-graph-phase/turboshaft-graph-operation.ts
        • deps/v8/tools/turbolizer/src/phases/turboshaft-graph-phase/turboshaft-graph-block.ts
-       • deps/v8/tools/turbolizer/src/phases/graph-phase/graph-phase.ts
      📄 Files WITHOUT TSEnumDeclaration (showing 10):
        • eslint.config.mjs
        • typings/primordials.d.ts
@@ -3049,9 +3049,9 @@ Repository: sample-repos/node
        • deps/v8/tools/turbolizer/src/phases/turboshaft-custom-data-phase.ts
        • deps/v8/tools/turbolizer/src/phases/phase.ts
        • deps/v8/tools/turbolizer/src/phases/instructions-phase.ts
+       • deps/v8/tools/turbolizer/src/phases/graph-phase/graph-phase.ts
        • deps/v8/tools/turbolizer/src/phases/turboshaft-graph-phase/turboshaft-graph-operation.ts
        • deps/v8/tools/turbolizer/src/phases/turboshaft-graph-phase/turboshaft-graph-block.ts
-       • deps/v8/tools/turbolizer/src/phases/graph-phase/graph-phase.ts
      📄 Files WITHOUT TSEnumBody (showing 10):
        • eslint.config.mjs
        • typings/primordials.d.ts
@@ -3140,10 +3140,10 @@ Repository: sample-repos/node
        • tools/run-worker.js
        • tools/merge-wpt-reports.mjs
        • tools/license2rtf.mjs
-       • doc/eslint.config_partial.mjs
        • test/eslint.config_partial.mjs
-       • benchmark/scatter.js
-       • benchmark/run.js
+       • doc/eslint.config_partial.mjs
+       • lib/zlib.js
+       • lib/worker_threads.js
 
    TSBigIntKeyword:
      📄 Files WITH TSBigIntKeyword (showing 2):
@@ -3380,8 +3380,6 @@ Warnings/Errors:
    A 'return' statement can only be used within a function body.
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/benchmark/compare.js:
    A 'return' statement can only be used within a function body.
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/test/report/test-report-signal.js:
-   A 'return' statement can only be used within a function body.
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/test/sequential/test-write-heapsnapshot-options.js:
    A 'return' statement can only be used within a function body.
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/test/sequential/test-worker-eventlooputil.js:
@@ -3406,6 +3404,8 @@ Warnings/Errors:
    A 'return' statement can only be used within a function body.
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/test/sequential/test-child-process-emfile.js:
    A 'return' statement can only be used within a function body.
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/test/report/test-report-signal.js:
+   A 'return' statement can only be used within a function body.
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/test/known_issues/test-stdin-is-always-net.socket.js:
    A 'return' statement can only be used within a function body.
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/test/internet/test-dgram-multicast-set-interface-lo.js:
@@ -3414,15 +3414,13 @@ Warnings/Errors:
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/test/common/require-as.js:
    A 'return' statement can only be used within a function body.
    A 'return' statement can only be used within a function body.
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/test/abort/test-worker-abort-uncaught-exception.js:
-   A 'return' statement can only be used within a function body.
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/test/async-hooks/test-ttywrap.readstream.js:
    A 'return' statement can only be used within a function body.
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/test/async-hooks/test-callback-error.js:
    A 'return' statement can only be used within a function body.
    A 'return' statement can only be used within a function body.
    A 'return' statement can only be used within a function body.
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/benchmark/worker/bench-eventlooputil.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/test/abort/test-worker-abort-uncaught-exception.js:
    A 'return' statement can only be used within a function body.
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/test/parallel/test-worker-terminate-source-map.js:
    A 'return' statement can only be used within a function body.
@@ -3638,6 +3636,8 @@ Warnings/Errors:
    A 'return' statement can only be used within a function body.
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/lib/internal/v8_prof_polyfill.js:
    A 'return' statement can only be used within a function body.
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/benchmark/worker/bench-eventlooputil.js:
+   A 'return' statement can only be used within a function body.
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/test/node-api/test_threadsafe_function/test.js:
    A 'return' statement can only be used within a function body.
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/test/node-api/test_fatal/test2.js:
@@ -3699,12 +3699,6 @@ Warnings/Errors:
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/intl/string-localecompare.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/intl/regress-903566.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/filecheck/wasm-deopt-max-limit.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/filecheck/wasm-deopt-max-input-count.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/filecheck/deopt-too-much-feedback.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/test-api.js:
    Unexpected token
@@ -4553,6 +4547,12 @@ Warnings/Errors:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/accessor-map-sharing.js:
    Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/filecheck/wasm-deopt-max-limit.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/filecheck/wasm-deopt-max-input-count.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/filecheck/deopt-too-much-feedback.js:
+   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/tools/clusterfuzz/foozzie/v8_smoke_tests.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/SuperIC/compare-super-and-normal-property-access.js:
@@ -4562,62 +4562,6 @@ Warnings/Errors:
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/StackTrace/serialize.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/StackTrace/capture.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Parsing/strings.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Parsing/comments.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/ManyClosures/create-many-closures.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Modules/run.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Inspector/debugger.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Compiler/small.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Compiler/medium.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Compiler/large.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/ClassFields/initialize-instance.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/ClassFields/evaluate-class.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/BigInt/bigint-util.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/AsyncAwait/native.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/AsyncAwait/baseline-naive-promises.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/AsyncAwait/baseline-babel-es2017.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/ArraySort/sort-cmpfn-kindchange.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/ArraySort/sort-base.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Array/some.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Array/slice.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Array/run.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Array/reduce.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Array/reduce-right.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Array/map.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Array/for-each.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Array/find.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Array/find-index.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Array/filter.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Array/every.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Array/at.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/message/fail/var-prior-conflict.js:
    Expected a semicolon or an implicit semicolon after a statement, but found none
@@ -4777,23 +4721,61 @@ Warnings/Errors:
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/message/fail/array-binding-pattern-await1.js:
    Cannot use `await` as an identifier in an async context
    Expected `,` but found `Identifier`
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/regress/regress-crbug-835973.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Parsing/strings.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/regress/regress-crbug-736758.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Parsing/comments.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/regress/regress-crbug-1199681.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Modules/run.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/regress/regress-7421.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/ManyClosures/create-many-closures.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/regress/regress-6526.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Inspector/debugger.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/regress/regress-5950.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Compiler/small.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/regress/regress-5901-2.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Compiler/medium.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/regress/regress-5901-1.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Compiler/large.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/regress/deopt-regression.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/ClassFields/initialize-instance.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/ClassFields/evaluate-class.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/BigInt/bigint-util.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/AsyncAwait/native.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/AsyncAwait/baseline-naive-promises.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/AsyncAwait/baseline-babel-es2017.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/ArraySort/sort-cmpfn-kindchange.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/ArraySort/sort-base.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Array/some.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Array/slice.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Array/run.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Array/reduce.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Array/reduce-right.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Array/map.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Array/for-each.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Array/find.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Array/find-index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Array/filter.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Array/every.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/js-perf-test/Array/at.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/debug/lazy-deopt-then-flush-bytecode.js:
    Unexpected token
@@ -4857,6 +4839,24 @@ Warnings/Errors:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/debug/debug-break-class-fields.js:
    Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/regress/regress-crbug-835973.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/regress/regress-crbug-736758.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/regress/regress-crbug-1199681.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/regress/regress-7421.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/regress/regress-6526.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/regress/regress-5950.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/regress/regress-5901-2.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/regress/regress-5901-1.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/regress/deopt-regression.js:
+   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/turbolev/regress-412741826.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/turbolev/regress-409354662.js:
@@ -4888,6 +4888,12 @@ Warnings/Errors:
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/turbolev/constant-typed-array-load-deopt-oob.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/turbolev/constant-typed-array-load-deopt-detach.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/tools/log-ic.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/tools/foozzie.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/tools/compiler-trace-flags.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/turboshaft/typed-optimizations.js:
    Unexpected token
@@ -4938,18 +4944,6 @@ Warnings/Errors:
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/turboshaft/checkmaps-with-migration-and-deopt-mono2.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/turboshaft/checkmaps-with-migration-and-deopt-mono.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/tools/log-ic.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/tools/foozzie.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/tools/compiler-trace-flags.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/sandbox/wasm-table-wasmjsfunction.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/sandbox/wasm-table-sigcheck.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/sandbox/wasm-inlining-sigcheck.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/shared-memory/shared-value-barrier-optimization.js:
    Unexpected token
@@ -5018,6 +5012,12 @@ Warnings/Errors:
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/shared-memory/condition-async-wait-no-await.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/shared-memory/async-synchronization-workers-terminated.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/sandbox/wasm-table-wasmjsfunction.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/sandbox/wasm-table-sigcheck.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/sandbox/wasm-inlining-sigcheck.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/protector-cell/uint8Array-species.js:
    Unexpected token
@@ -5206,206 +5206,6 @@ Warnings/Errors:
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/protector-cell/array-constructor.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/protector-cell/array-constructor-2.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/wrapper-inlining-lazy-deopt.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/wrapper-compilation.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/wasm-wrapper-inlining.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/wasm-to-js-tierup.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/wasm-null-intrinsic.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/wasm-js-inlining-code-reloc.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/wasm-interpreter.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/wasm-interpreter-memory64.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/wasm-inlining-catch-unreachable.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/wasm-gc-inlining.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/wasm-gc-inlining-typeguard.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/wasm-gc-inlining-stacktrace-api.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/wasm-gc-inlining-nested.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/wasm-gc-inlining-load-elimination.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/wasm-dynamic-tiering.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/tier-up-testing-flag.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/test-serialization-with-lazy-compilation.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/test-partial-serialization.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/stringrefs-regressions.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/stackwalk.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/stack-switching.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/stack-switching-no-stress.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/stack-switching-generic-wrapper.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/stack-switching-export.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/speculative-inlining.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/simd-relaxed-lane-select.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/serialize-lazy-module.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/serialization-with-compilation-hints.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/runtime-gc-objects.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/regress-367818758.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/recognize-imports.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/print-code.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/origin-trial-flags.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/nan-constant.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/multiple-code-spaces.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/module-source.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/module-memory.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/memory-resizable-buffer-array-slice.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/memory-resizable-buffer-array-push-unshift-splice.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/memory-resizable-buffer-array-pop-shift.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/memory-resizable-buffer-array-from-grows-detaches.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/memory-resizable-buffer-array-foreach-reduce.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/memory-resizable-buffer-array-flatmap-grows-detaches.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/memory-resizable-buffer-array-flat-grows-detaches.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/memory-resizable-buffer-array-flat-flatmap-from.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/memory-resizable-buffer-array-filter.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/memory-resizable-buffer-array-concat.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/memory-resizable-buffer-array-concat-dictionary-mode.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/memory-huge-constant-index.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/liftoff.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/liftoff-debug.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/lazy-compilation.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/inlining.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/inlining-mutable-instance-fields.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/inlining-multi-instance.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/imported-strings.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/imported-dataview.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/generic-wrapper.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/generate-random-module.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/generate-random-module-no-staging.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/gc-js-interop-helpers.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/futex.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/ffi.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/externref.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/exnref.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/exceptions.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/exceptions-utils.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/errors.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/enter-debug-state.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/enter-and-leave-debug-state.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/disallow-codegen.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/disable-trap-handler.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/denormals.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/compiled-module-serialization.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/compiled-module-management.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/compilation-limits.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/compilation-limits-asm.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/code-flushing.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/code-flushing-single-isolate.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/bounds-check-turbofan.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/bit-shift-right.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/bigint-rematerialize.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/bigint-opt.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/atomics-memory64.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/asm-with-wasm-off.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/asm-wasm.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/asm-wasm-u32.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/asm-wasm-switch.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/asm-wasm-stdlib.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/asm-wasm-stack.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/asm-wasm-memory.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/asm-wasm-math-intrinsic.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/asm-wasm-literals.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/asm-wasm-imports.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/asm-wasm-i32.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/asm-wasm-heap.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/asm-wasm-f64.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/asm-wasm-f32.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/asm-wasm-expr.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/asm-wasm-deopt.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/lithium/StoreKeyedExternal.js:
    Unexpected token
@@ -6006,6 +5806,206 @@ Warnings/Errors:
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/maglev/01.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/maglev/00.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/wrapper-inlining-lazy-deopt.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/wrapper-compilation.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/wasm-wrapper-inlining.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/wasm-to-js-tierup.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/wasm-null-intrinsic.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/wasm-js-inlining-code-reloc.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/wasm-interpreter.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/wasm-interpreter-memory64.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/wasm-inlining-catch-unreachable.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/wasm-gc-inlining.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/wasm-gc-inlining-typeguard.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/wasm-gc-inlining-stacktrace-api.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/wasm-gc-inlining-nested.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/wasm-gc-inlining-load-elimination.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/wasm-dynamic-tiering.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/tier-up-testing-flag.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/test-serialization-with-lazy-compilation.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/test-partial-serialization.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/stringrefs-regressions.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/stackwalk.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/stack-switching.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/stack-switching-no-stress.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/stack-switching-generic-wrapper.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/stack-switching-export.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/speculative-inlining.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/simd-relaxed-lane-select.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/serialize-lazy-module.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/serialization-with-compilation-hints.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/runtime-gc-objects.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/regress-367818758.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/recognize-imports.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/print-code.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/origin-trial-flags.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/nan-constant.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/multiple-code-spaces.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/module-source.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/module-memory.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/memory-resizable-buffer-array-slice.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/memory-resizable-buffer-array-push-unshift-splice.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/memory-resizable-buffer-array-pop-shift.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/memory-resizable-buffer-array-from-grows-detaches.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/memory-resizable-buffer-array-foreach-reduce.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/memory-resizable-buffer-array-flatmap-grows-detaches.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/memory-resizable-buffer-array-flat-grows-detaches.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/memory-resizable-buffer-array-flat-flatmap-from.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/memory-resizable-buffer-array-filter.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/memory-resizable-buffer-array-concat.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/memory-resizable-buffer-array-concat-dictionary-mode.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/memory-huge-constant-index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/liftoff.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/liftoff-debug.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/lazy-compilation.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/inlining.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/inlining-mutable-instance-fields.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/inlining-multi-instance.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/imported-strings.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/imported-dataview.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/generic-wrapper.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/generate-random-module.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/generate-random-module-no-staging.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/gc-js-interop-helpers.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/futex.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/ffi.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/externref.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/exnref.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/exceptions.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/exceptions-utils.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/errors.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/enter-debug-state.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/enter-and-leave-debug-state.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/disallow-codegen.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/disable-trap-handler.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/denormals.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/compiled-module-serialization.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/compiled-module-management.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/compilation-limits.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/compilation-limits-asm.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/code-flushing.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/code-flushing-single-isolate.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/bounds-check-turbofan.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/bit-shift-right.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/bigint-rematerialize.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/bigint-opt.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/atomics-memory64.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/asm-with-wasm-off.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/asm-wasm.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/asm-wasm-u32.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/asm-wasm-switch.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/asm-wasm-stdlib.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/asm-wasm-stack.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/asm-wasm-memory.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/asm-wasm-math-intrinsic.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/asm-wasm-literals.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/asm-wasm-imports.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/asm-wasm-i32.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/asm-wasm-heap.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/asm-wasm-f64.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/asm-wasm-f32.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/asm-wasm-expr.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/asm-wasm-deopt.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/ignition/throw-super-not-called.js:
    Unexpected token
@@ -10293,6 +10293,10 @@ Warnings/Errors:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/regress/binop-in-effect-context-deopt.js:
    Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/tools/clusterfuzz/foozzie/testdata/fuzz-wasm-struct-123.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/tools/clusterfuzz/foozzie/testdata/fuzz-123.js:
+   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/tools/clusterfuzz/js_fuzzer/test_data/simple_test_expected.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/tools/clusterfuzz/js_fuzzer/test_data/simple_test.js:
@@ -10307,10 +10311,6 @@ Warnings/Errors:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/tools/clusterfuzz/js_fuzzer/test_data/large_loops_expected.js:
    Expected a semicolon or an implicit semicolon after a statement, but found none
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/tools/clusterfuzz/foozzie/testdata/fuzz-wasm-struct-123.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/tools/clusterfuzz/foozzie/testdata/fuzz-123.js:
-   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/message/regress/fail/regress-crbug-669017.js:
    Invalid characters after number
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/message/regress/fail/regress-9603.js:
@@ -10367,17 +10367,9 @@ Warnings/Errors:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/debug/regress/debug-prepare-step-in.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/debug/ignition/optimized-debug-frame.js:
-   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/debug/harmony/modules-debug-scopes1.mjs:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/debug/compiler/regress-354005322.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/debug/compiler/osr-typing-debug-change.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/debug/compiler/loop-interrupt-check.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/debug/compiler/debug-catch-prediction.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/debug/ignition/optimized-debug-frame.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/debug/es8/promise-finally.js:
    Unexpected token
@@ -10408,6 +10400,14 @@ Warnings/Errors:
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/debug/es8/async-debug-caught-exception-cases.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/debug/es8/async-debug-builtin-predictions.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/debug/compiler/regress-354005322.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/debug/compiler/osr-typing-debug-change.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/debug/compiler/loop-interrupt-check.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/debug/compiler/debug-catch-prediction.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/debug/es6/debug-stepin-microtasks.js:
    Unexpected token
@@ -10911,94 +10911,6 @@ Warnings/Errors:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/lower_limits_mode/regress/regress-crbug-400504688.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/shared-everything/wrapper-type-checks.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/shared-everything/basic.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/embenchen/zlib.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/embenchen/primes.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/embenchen/memops.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/embenchen/lua_binarytrees.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/embenchen/fasta.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/embenchen/fannkuch.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/embenchen/corrections.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/embenchen/copy.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/embenchen/box2d.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/esm/module-import-source.mjs:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/esm/module-import-source-dynamic.mjs:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-value-types.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-untagged-parameters.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-untagged-parameters-s128.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-too-much-feedback.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-tail-call-parent-frame.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-signal-handler.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-serialized-module.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-non-inlined-target.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-non-inlineable-target.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-nan.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-multiple.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-multi-instance.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-multi-instance-inlined.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-multi-instance-different-callee.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-multi-instance-call-indirect.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-minimal.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-metrics.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-memory-access.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-many-results.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-many-params.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-many-params-tagged.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-many-params-many-locals-s128.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-large-i31ref-constant.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-int64-values.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-inlined.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-inlined-stacktrace.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-inlined-param-stack-slots.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-feedback-states.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-dynamic-tierup.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-debugging.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-call-indirect.js:
-   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/maglev/regress/regress-v8-13289.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/maglev/regress/regress-crbug-1513626.js:
@@ -11106,6 +11018,94 @@ Warnings/Errors:
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/maglev/regress/regress-1359723.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/maglev/regress/regress-1359382.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/esm/module-import-source.mjs:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/esm/module-import-source-dynamic.mjs:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/shared-everything/wrapper-type-checks.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/shared-everything/basic.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/embenchen/zlib.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/embenchen/primes.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/embenchen/memops.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/embenchen/lua_binarytrees.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/embenchen/fasta.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/embenchen/fannkuch.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/embenchen/corrections.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/embenchen/copy.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/embenchen/box2d.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-value-types.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-untagged-parameters.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-untagged-parameters-s128.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-too-much-feedback.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-tail-call-parent-frame.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-signal-handler.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-serialized-module.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-non-inlined-target.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-non-inlineable-target.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-nan.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-multiple.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-multi-instance.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-multi-instance-inlined.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-multi-instance-different-callee.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-multi-instance-call-indirect.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-minimal.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-metrics.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-memory-access.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-many-results.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-many-params.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-many-params-tagged.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-many-params-many-locals-s128.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-large-i31ref-constant.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-int64-values.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-inlined.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-inlined-stacktrace.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-inlined-param-stack-slots.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-feedback-states.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-dynamic-tierup.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-debugging.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/wasm/deopt/deopt-call-indirect.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/mjsunit/es9/regress/regress-866727.js:
    Unexpected token
@@ -11381,6 +11381,10 @@ Warnings/Errors:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/tools/clusterfuzz/js_fuzzer/test_data/differential_fuzz_fuzzilli/expected_code_2.js:
    Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/webkit/fast/js/kde/j-comment-4.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/webkit/fast/js/kde/j-comment-3.js:
+   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/message/mjsunit/fail/regress/regress-1267172.js:
    Expected function name
    Empty parenthesized expression
@@ -11443,10 +11447,6 @@ Warnings/Errors:
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/debug/es6/debug-promises/promise-all-caught.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/debugger/debug/es6/debug-promises/evaluate-across-microtasks.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/webkit/fast/js/kde/j-comment-4.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/webkit/fast/js/kde/j-comment-3.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/node/deps/v8/test/test262/local-tests/test/language/module-code/comment-single-line-html-close-comment-newline-before-function.js:
    Unexpected token

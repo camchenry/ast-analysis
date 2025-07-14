@@ -1,0 +1,3060 @@
+AST Analysis Report for ts-morph
+Generated on: 2025-07-14T01:57:14.418Z
+Repository: sample-repos/ts-morph
+================================================================================
+
+🔍 Analyzing JavaScript/TypeScript files in: /Users/camchenry/workspace/ast-analysis/sample-repos/ts-morph
+
+📁 Found 1170 files to analyze...
+
+
+
+============================================================
+📊 AST ANALYSIS RESULTS
+============================================================
+
+📁 FILE STATISTICS:
+   Total files found: 1170
+   Successfully parsed: 1170
+   Failed to parse: 0
+   Total file size: 6.4 MB
+
+🌳 NODE STATISTICS:
+   Total nodes: 554,269
+   Average nodes per file: 474
+   Average file size: 5.6 KB
+
+📋 ALL NODE TYPES (BY FILE PRESENCE):
+   Program                        1170 files (100.0%) -    1,170 total (0.21%)
+   Literal                        1133 files ( 96.8%) -   33,610 total (6.06%)
+   Identifier                     1052 files ( 89.9%) -  194,472 total (35.09%)
+   ImportDeclaration               981 files ( 83.8%) -    4,050 total (0.73%)
+   ImportSpecifier                 976 files ( 83.4%) -    6,488 total (1.17%)
+   TSTypeReference                 898 files ( 76.8%) -   27,802 total (5.02%)
+   CallExpression                  855 files ( 73.1%) -   41,343 total (7.46%)
+   BlockStatement                  827 files ( 70.7%) -   13,033 total (2.35%)
+   TSTypeAnnotation                817 files ( 69.8%) -   28,327 total (5.11%)
+   MemberExpression                815 files ( 69.7%) -   39,263 total (7.08%)
+   TSTypeParameterInstantiation    749 files ( 64.0%) -    7,422 total (1.34%)
+   VariableDeclaration             746 files ( 63.8%) -    7,796 total (1.41%)
+   VariableDeclarator              746 files ( 63.8%) -    7,844 total (1.42%)
+   ExportNamedDeclaration          705 files ( 60.3%) -    2,372 total (0.43%)
+   ExpressionStatement             699 files ( 59.7%) -   19,048 total (3.44%)
+   ReturnStatement                 577 files ( 49.3%) -    4,199 total (0.76%)
+   ArrowFunctionExpression         555 files ( 47.4%) -    8,820 total (1.59%)
+   TSStringKeyword                 525 files ( 44.9%) -    6,504 total (1.17%)
+   Property                        494 files ( 42.2%) -    9,577 total (1.73%)
+   FunctionDeclaration             492 files ( 42.1%) -    2,014 total (0.36%)
+   ClassBody                       461 files ( 39.4%) -      806 total (0.15%)
+   TSQualifiedName                 437 files ( 37.4%) -    4,302 total (0.78%)
+   BinaryExpression                416 files ( 35.6%) -    3,051 total (0.55%)
+   ClassDeclaration                407 files ( 34.8%) -      752 total (0.14%)
+   ObjectExpression                399 files ( 34.1%) -    3,418 total (0.62%)
+   MethodDefinition                369 files ( 31.5%) -    5,251 total (0.95%)
+   FunctionExpression              367 files ( 31.4%) -    2,864 total (0.52%)
+   IfStatement                     361 files ( 30.9%) -    1,989 total (0.36%)
+   ThisExpression                  342 files ( 29.2%) -    5,533 total (1.00%)
+   TSUnionType                     322 files ( 27.5%) -    4,451 total (0.80%)
+   Unknown                         309 files ( 26.4%) -    2,303 total (0.42%)
+   TemplateLiteral                 300 files ( 25.6%) -    1,747 total (0.32%)
+   TemplateElement                 300 files ( 25.6%) -    2,175 total (0.39%)
+   ObjectPattern                   291 files ( 24.9%) -    1,863 total (0.34%)
+   ArrayExpression                 283 files ( 24.2%) -    2,578 total (0.47%)
+   LogicalExpression               265 files ( 22.6%) -    1,084 total (0.20%)
+   TSArrayType                     255 files ( 21.8%) -    2,119 total (0.38%)
+   NewExpression                   237 files ( 20.3%) -      973 total (0.18%)
+   TSInterfaceDeclaration          230 files ( 19.7%) -    1,421 total (0.26%)
+   TSInterfaceBody                 230 files ( 19.7%) -    1,421 total (0.26%)
+   TSPropertySignature             226 files ( 19.3%) -    3,898 total (0.70%)
+   TSUndefinedKeyword              226 files ( 19.3%) -    2,539 total (0.46%)
+   AssignmentExpression            203 files ( 17.4%) -      741 total (0.13%)
+   TSBooleanKeyword                198 files ( 16.9%) -    1,693 total (0.31%)
+   TSTypeParameterDeclaration      193 files ( 16.5%) -      901 total (0.16%)
+   TSTypeParameter                 193 files ( 16.5%) -      961 total (0.17%)
+   UnaryExpression                 189 files ( 16.2%) -      540 total (0.10%)
+   TSAsExpression                  177 files ( 15.1%) -      721 total (0.13%)
+   TSNumberKeyword                 174 files ( 14.9%) -    1,396 total (0.25%)
+   TSFunctionType                  141 files ( 12.1%) -    1,725 total (0.31%)
+   ParenthesizedExpression         137 files ( 11.7%) -      443 total (0.08%)
+   TSNonNullExpression             135 files ( 11.5%) -      453 total (0.08%)
+   PropertyDefinition              131 files ( 11.2%) -    1,134 total (0.20%)
+   PrivateIdentifier               128 files ( 10.9%) -    1,923 total (0.35%)
+   ExportAllDeclaration            124 files ( 10.6%) -      761 total (0.14%)
+   ConditionalExpression           121 files ( 10.3%) -      282 total (0.05%)
+   TSParenthesizedType             115 files (  9.8%) -      790 total (0.14%)
+   ForOfStatement                  114 files (  9.7%) -      322 total (0.06%)
+   TSTypeLiteral                   112 files (  9.6%) -      362 total (0.07%)
+   ThrowStatement                  104 files (  8.9%) -      199 total (0.04%)
+   SpreadElement                   103 files (  8.8%) -      223 total (0.04%)
+   TSIntersectionType              103 files (  8.8%) -      670 total (0.12%)
+   TSTypeAliasDeclaration          101 files (  8.6%) -      580 total (0.10%)
+   TSAnyKeyword                     96 files (  8.2%) -      416 total (0.08%)
+   TSClassImplements                91 files (  7.8%) -      115 total (0.02%)
+   UpdateExpression                 80 files (  6.8%) -      134 total (0.02%)
+   ChainExpression                  80 files (  6.8%) -      340 total (0.06%)
+   TSMethodSignature                79 files (  6.8%) -    2,262 total (0.41%)
+   TSInterfaceHeritage              73 files (  6.2%) -    1,393 total (0.25%)
+   TSTypeQuery                      60 files (  5.1%) -      261 total (0.05%)
+   AssignmentPattern                56 files (  4.8%) -      130 total (0.02%)
+   ForStatement                     56 files (  4.8%) -       74 total (0.01%)
+   ClassExpression                  54 files (  4.6%) -       54 total (0.01%)
+   TSVoidKeyword                    52 files (  4.4%) -      565 total (0.10%)
+   TSThisType                       47 files (  4.0%) -      353 total (0.06%)
+   Super                            45 files (  3.8%) -       70 total (0.01%)
+   TSLiteralType                    36 files (  3.1%) -      299 total (0.05%)
+   ContinueStatement                34 files (  2.9%) -       56 total (0.01%)
+   WhileStatement                   32 files (  2.7%) -       61 total (0.01%)
+   TSEmptyBodyFunctionExpression    31 files (  2.6%) -    2,483 total (0.45%)
+   SwitchStatement                  28 files (  2.4%) -      130 total (0.02%)
+   SwitchCase                       28 files (  2.4%) -    1,352 total (0.24%)
+   AwaitExpression                  26 files (  2.2%) -      180 total (0.03%)
+   TSIndexedAccessType              26 files (  2.2%) -      173 total (0.03%)
+   Decorator                        25 files (  2.1%) -      106 total (0.02%)
+   TryStatement                     25 files (  2.1%) -       71 total (0.01%)
+   ImportNamespaceSpecifier         22 files (  1.9%) -       32 total (0.01%)
+   TSTupleType                      22 files (  1.9%) -       64 total (0.01%)
+   CatchClause                      21 files (  1.8%) -       67 total (0.01%)
+   TSTypePredicate                  19 files (  1.6%) -    1,140 total (0.21%)
+   YieldExpression                  19 files (  1.6%) -       67 total (0.01%)
+   BreakStatement                   19 files (  1.6%) -       61 total (0.01%)
+   ArrayPattern                     18 files (  1.5%) -       22 total (0.00%)
+   TSUnknownKeyword                 17 files (  1.5%) -      124 total (0.02%)
+   TSTypeOperator                   16 files (  1.4%) -      449 total (0.08%)
+   RestElement                      14 files (  1.2%) -       35 total (0.01%)
+   TSEnumDeclaration                13 files (  1.1%) -       92 total (0.02%)
+   TSEnumBody                       13 files (  1.1%) -       92 total (0.02%)
+   TSEnumMember                     13 files (  1.1%) -    1,414 total (0.26%)
+   TSParameterProperty              12 files (  1.0%) -       20 total (0.00%)
+   TSNeverKeyword                   12 files (  1.0%) -       25 total (0.00%)
+   TSIndexSignature                 12 files (  1.0%) -       23 total (0.00%)
+   ExportSpecifier                  11 files (  0.9%) -      111 total (0.02%)
+   TSObjectKeyword                   9 files (  0.8%) -       14 total (0.00%)
+   TSDeclareFunction                 9 files (  0.8%) -      639 total (0.12%)
+   TSConditionalType                 8 files (  0.7%) -       81 total (0.01%)
+   ImportDefaultSpecifier            6 files (  0.5%) -        6 total (0.00%)
+   TSModuleDeclaration               5 files (  0.4%) -       11 total (0.00%)
+   TSModuleBlock                     5 files (  0.4%) -       11 total (0.00%)
+   TSInferType                       5 files (  0.4%) -       10 total (0.00%)
+   TSAbstractMethodDefinition        4 files (  0.3%) -        6 total (0.00%)
+   MetaProperty                      3 files (  0.3%) -        4 total (0.00%)
+   ExportDefaultDeclaration          3 files (  0.3%) -        3 total (0.00%)
+   TSImportEqualsDeclaration         2 files (  0.2%) -       35 total (0.01%)
+   TSMappedType                      2 files (  0.2%) -        6 total (0.00%)
+   TSAbstractPropertyDefinition      2 files (  0.2%) -        2 total (0.00%)
+   TSConstructorType                 2 files (  0.2%) -        4 total (0.00%)
+   DoWhileStatement                  2 files (  0.2%) -        3 total (0.00%)
+   TSExportAssignment                1 files (  0.1%) -        1 total (0.00%)
+   TSNullKeyword                     1 files (  0.1%) -        1 total (0.00%)
+   TSCallSignatureDeclaration        1 files (  0.1%) -        4 total (0.00%)
+
+📝 ALL NODE TYPES (BY TOTAL COUNT):
+   Identifier                      194,472 (35.09%) in 1052 files (89.9%)
+   CallExpression                   41,343 (7.46%) in 855 files (73.1%)
+   MemberExpression                 39,263 (7.08%) in 815 files (69.7%)
+   Literal                          33,610 (6.06%) in 1133 files (96.8%)
+   TSTypeAnnotation                 28,327 (5.11%) in 817 files (69.8%)
+   TSTypeReference                  27,802 (5.02%) in 898 files (76.8%)
+   ExpressionStatement              19,048 (3.44%) in 699 files (59.7%)
+   BlockStatement                   13,033 (2.35%) in 827 files (70.7%)
+   Property                          9,577 (1.73%) in 494 files (42.2%)
+   ArrowFunctionExpression           8,820 (1.59%) in 555 files (47.4%)
+   VariableDeclarator                7,844 (1.42%) in 746 files (63.8%)
+   VariableDeclaration               7,796 (1.41%) in 746 files (63.8%)
+   TSTypeParameterInstantiation      7,422 (1.34%) in 749 files (64.0%)
+   TSStringKeyword                   6,504 (1.17%) in 525 files (44.9%)
+   ImportSpecifier                   6,488 (1.17%) in 976 files (83.4%)
+   ThisExpression                    5,533 (1.00%) in 342 files (29.2%)
+   MethodDefinition                  5,251 (0.95%) in 369 files (31.5%)
+   TSUnionType                       4,451 (0.80%) in 322 files (27.5%)
+   TSQualifiedName                   4,302 (0.78%) in 437 files (37.4%)
+   ReturnStatement                   4,199 (0.76%) in 577 files (49.3%)
+   ImportDeclaration                 4,050 (0.73%) in 981 files (83.8%)
+   TSPropertySignature               3,898 (0.70%) in 226 files (19.3%)
+   ObjectExpression                  3,418 (0.62%) in 399 files (34.1%)
+   BinaryExpression                  3,051 (0.55%) in 416 files (35.6%)
+   FunctionExpression                2,864 (0.52%) in 367 files (31.4%)
+   ArrayExpression                   2,578 (0.47%) in 283 files (24.2%)
+   TSUndefinedKeyword                2,539 (0.46%) in 226 files (19.3%)
+   TSEmptyBodyFunctionExpression     2,483 (0.45%) in 31 files (2.6%)
+   ExportNamedDeclaration            2,372 (0.43%) in 705 files (60.3%)
+   Unknown                           2,303 (0.42%) in 309 files (26.4%)
+   TSMethodSignature                 2,262 (0.41%) in 79 files (6.8%)
+   TemplateElement                   2,175 (0.39%) in 300 files (25.6%)
+   TSArrayType                       2,119 (0.38%) in 255 files (21.8%)
+   FunctionDeclaration               2,014 (0.36%) in 492 files (42.1%)
+   IfStatement                       1,989 (0.36%) in 361 files (30.9%)
+   PrivateIdentifier                 1,923 (0.35%) in 128 files (10.9%)
+   ObjectPattern                     1,863 (0.34%) in 291 files (24.9%)
+   TemplateLiteral                   1,747 (0.32%) in 300 files (25.6%)
+   TSFunctionType                    1,725 (0.31%) in 141 files (12.1%)
+   TSBooleanKeyword                  1,693 (0.31%) in 198 files (16.9%)
+   TSInterfaceDeclaration            1,421 (0.26%) in 230 files (19.7%)
+   TSInterfaceBody                   1,421 (0.26%) in 230 files (19.7%)
+   TSEnumMember                      1,414 (0.26%) in 13 files (1.1%)
+   TSNumberKeyword                   1,396 (0.25%) in 174 files (14.9%)
+   TSInterfaceHeritage               1,393 (0.25%) in 73 files (6.2%)
+   SwitchCase                        1,352 (0.24%) in 28 files (2.4%)
+   Program                           1,170 (0.21%) in 1170 files (100.0%)
+   TSTypePredicate                   1,140 (0.21%) in 19 files (1.6%)
+   PropertyDefinition                1,134 (0.20%) in 131 files (11.2%)
+   LogicalExpression                 1,084 (0.20%) in 265 files (22.6%)
+   NewExpression                       973 (0.18%) in 237 files (20.3%)
+   TSTypeParameter                     961 (0.17%) in 193 files (16.5%)
+   TSTypeParameterDeclaration          901 (0.16%) in 193 files (16.5%)
+   ClassBody                           806 (0.15%) in 461 files (39.4%)
+   TSParenthesizedType                 790 (0.14%) in 115 files (9.8%)
+   ExportAllDeclaration                761 (0.14%) in 124 files (10.6%)
+   ClassDeclaration                    752 (0.14%) in 407 files (34.8%)
+   AssignmentExpression                741 (0.13%) in 203 files (17.4%)
+   TSAsExpression                      721 (0.13%) in 177 files (15.1%)
+   TSIntersectionType                  670 (0.12%) in 103 files (8.8%)
+   TSDeclareFunction                   639 (0.12%) in 9 files (0.8%)
+   TSTypeAliasDeclaration              580 (0.10%) in 101 files (8.6%)
+   TSVoidKeyword                       565 (0.10%) in 52 files (4.4%)
+   UnaryExpression                     540 (0.10%) in 189 files (16.2%)
+   TSNonNullExpression                 453 (0.08%) in 135 files (11.5%)
+   TSTypeOperator                      449 (0.08%) in 16 files (1.4%)
+   ParenthesizedExpression             443 (0.08%) in 137 files (11.7%)
+   TSAnyKeyword                        416 (0.08%) in 96 files (8.2%)
+   TSTypeLiteral                       362 (0.07%) in 112 files (9.6%)
+   TSThisType                          353 (0.06%) in 47 files (4.0%)
+   ChainExpression                     340 (0.06%) in 80 files (6.8%)
+   ForOfStatement                      322 (0.06%) in 114 files (9.7%)
+   TSLiteralType                       299 (0.05%) in 36 files (3.1%)
+   ConditionalExpression               282 (0.05%) in 121 files (10.3%)
+   TSTypeQuery                         261 (0.05%) in 60 files (5.1%)
+   SpreadElement                       223 (0.04%) in 103 files (8.8%)
+   ThrowStatement                      199 (0.04%) in 104 files (8.9%)
+   AwaitExpression                     180 (0.03%) in 26 files (2.2%)
+   TSIndexedAccessType                 173 (0.03%) in 26 files (2.2%)
+   UpdateExpression                    134 (0.02%) in 80 files (6.8%)
+   AssignmentPattern                   130 (0.02%) in 56 files (4.8%)
+   SwitchStatement                     130 (0.02%) in 28 files (2.4%)
+   TSUnknownKeyword                    124 (0.02%) in 17 files (1.5%)
+   TSClassImplements                   115 (0.02%) in 91 files (7.8%)
+   ExportSpecifier                     111 (0.02%) in 11 files (0.9%)
+   Decorator                           106 (0.02%) in 25 files (2.1%)
+   TSEnumDeclaration                    92 (0.02%) in 13 files (1.1%)
+   TSEnumBody                           92 (0.02%) in 13 files (1.1%)
+   TSConditionalType                    81 (0.01%) in 8 files (0.7%)
+   ForStatement                         74 (0.01%) in 56 files (4.8%)
+   TryStatement                         71 (0.01%) in 25 files (2.1%)
+   Super                                70 (0.01%) in 45 files (3.8%)
+   YieldExpression                      67 (0.01%) in 19 files (1.6%)
+   CatchClause                          67 (0.01%) in 21 files (1.8%)
+   TSTupleType                          64 (0.01%) in 22 files (1.9%)
+   WhileStatement                       61 (0.01%) in 32 files (2.7%)
+   BreakStatement                       61 (0.01%) in 19 files (1.6%)
+   ContinueStatement                    56 (0.01%) in 34 files (2.9%)
+   ClassExpression                      54 (0.01%) in 54 files (4.6%)
+   RestElement                          35 (0.01%) in 14 files (1.2%)
+   TSImportEqualsDeclaration            35 (0.01%) in 2 files (0.2%)
+   ImportNamespaceSpecifier             32 (0.01%) in 22 files (1.9%)
+   TSNeverKeyword                       25 (0.00%) in 12 files (1.0%)
+   TSIndexSignature                     23 (0.00%) in 12 files (1.0%)
+   ArrayPattern                         22 (0.00%) in 18 files (1.5%)
+   TSParameterProperty                  20 (0.00%) in 12 files (1.0%)
+   TSObjectKeyword                      14 (0.00%) in 9 files (0.8%)
+   TSModuleDeclaration                  11 (0.00%) in 5 files (0.4%)
+   TSModuleBlock                        11 (0.00%) in 5 files (0.4%)
+   TSInferType                          10 (0.00%) in 5 files (0.4%)
+   ImportDefaultSpecifier                6 (0.00%) in 6 files (0.5%)
+   TSMappedType                          6 (0.00%) in 2 files (0.2%)
+   TSAbstractMethodDefinition            6 (0.00%) in 4 files (0.3%)
+   MetaProperty                          4 (0.00%) in 3 files (0.3%)
+   TSCallSignatureDeclaration            4 (0.00%) in 1 files (0.1%)
+   TSConstructorType                     4 (0.00%) in 2 files (0.2%)
+   ExportDefaultDeclaration              3 (0.00%) in 3 files (0.3%)
+   DoWhileStatement                      3 (0.00%) in 2 files (0.2%)
+   TSAbstractPropertyDefinition          2 (0.00%) in 2 files (0.2%)
+   TSExportAssignment                    1 (0.00%) in 1 files (0.1%)
+   TSNullKeyword                         1 (0.00%) in 1 files (0.1%)
+
+📁 FILE EXAMPLES BY NODE TYPE:
+
+   Identifier:
+     📄 Files WITH Identifier (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+     📄 Files WITHOUT Identifier (showing 10):
+       • packages/scripts/utils/mod.ts
+       • packages/bootstrap/scripts/deps.ts
+       • packages/ts-morph/scripts/deps.ts
+       • packages/common/src/utils/index.ts
+       • packages/common/src/typescript/index.ts
+       • packages/common/src/tsconfig/index.ts
+       • packages/common/src/runtimes/index.ts
+       • packages/common/src/options/index.ts
+       • packages/common/src/helpers/index.ts
+       • packages/common/src/fileSystem/index.ts
+
+   CallExpression:
+     📄 Files WITH CallExpression (showing 10):
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+       • packages/scripts/utils/printDiagnostics.ts
+       • packages/scripts/utils/makeConstructorsPrivate.ts
+     📄 Files WITHOUT CallExpression (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/utils/mod.ts
+       • packages/common/src/types.d.ts
+       • packages/common/src/index.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/common/scripts/deps.ts
+       • packages/bootstrap/src/index.ts
+
+   MemberExpression:
+     📄 Files WITH MemberExpression (showing 10):
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+       • packages/scripts/utils/printDiagnostics.ts
+       • packages/scripts/utils/makeConstructorsPrivate.ts
+     📄 Files WITHOUT MemberExpression (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/utils/mod.ts
+       • packages/common/src/types.d.ts
+       • packages/common/src/index.ts
+       • packages/common/scripts/deps.ts
+       • packages/bootstrap/src/index.ts
+       • packages/bootstrap/scripts/deps.ts
+       • packages/bootstrap/lib/ts-morph-bootstrap.d.ts
+
+   Literal:
+     📄 Files WITH Literal (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+     📄 Files WITHOUT Literal (showing 10):
+       • packages/ts-morph/src/typings.ts
+       • packages/common/src/utils/nameof.ts
+       • packages/common/src/utils/IterableUtils.ts
+       • packages/common/src/runtimes/Runtime.ts
+       • packages/common/src/fileSystem/StandardizedFilePath.ts
+       • packages/common/src/comparers/StoredComparer.ts
+       • packages/common/src/comparers/Comparer.ts
+       • packages/ts-morph/src/structures/StructureKind.ts
+       • packages/ts-morph/scripts/verification/Problem.ts
+       • packages/ts-morph/src/utils/logging/Logger.ts
+
+   TSTypeAnnotation:
+     📄 Files WITH TSTypeAnnotation (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/scripts/utils/printDiagnostics.ts
+       • packages/scripts/utils/makeConstructorsPrivate.ts
+       • packages/scripts/utils/forEachTypeText.ts
+       • packages/scripts/utils/Memoize.ts
+       • packages/common/src/getLibFiles.ts
+     📄 Files WITHOUT TSTypeAnnotation (showing 10):
+       • packages/scripts/mod.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/deps.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+       • packages/scripts/utils/mod.ts
+       • packages/common/src/types.d.ts
+       • packages/common/src/index.ts
+       • packages/common/scripts/deps.ts
+
+   TSTypeReference:
+     📄 Files WITH TSTypeReference (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/utils/printDiagnostics.ts
+       • packages/scripts/utils/makeConstructorsPrivate.ts
+       • packages/scripts/utils/forEachTypeText.ts
+       • packages/scripts/utils/Memoize.ts
+       • packages/common/src/getLibFiles.ts
+       • packages/common/src/errors.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+     📄 Files WITHOUT TSTypeReference (showing 10):
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+       • packages/scripts/utils/mod.ts
+
+   ExpressionStatement:
+     📄 Files WITH ExpressionStatement (showing 10):
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/scripts/utils/printDiagnostics.ts
+       • packages/scripts/utils/makeConstructorsPrivate.ts
+       • packages/scripts/utils/forEachTypeText.ts
+       • packages/scripts/utils/Memoize.ts
+       • packages/common/src/errors.ts
+       • packages/common/scripts/createLibFile.ts
+     📄 Files WITHOUT ExpressionStatement (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/deps.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+       • packages/scripts/utils/mod.ts
+       • packages/common/src/types.d.ts
+       • packages/common/src/index.ts
+
+   BlockStatement:
+     📄 Files WITH BlockStatement (showing 10):
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/scripts/utils/printDiagnostics.ts
+       • packages/scripts/utils/makeConstructorsPrivate.ts
+       • packages/scripts/utils/forEachTypeText.ts
+       • packages/scripts/utils/Memoize.ts
+       • packages/common/src/getLibFiles.ts
+       • packages/common/src/errors.ts
+     📄 Files WITHOUT BlockStatement (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/deps.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+       • packages/scripts/utils/mod.ts
+       • packages/common/src/types.d.ts
+       • packages/common/src/index.ts
+
+   Property:
+     📄 Files WITH Property (showing 10):
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+       • packages/scripts/utils/printDiagnostics.ts
+       • packages/common/src/errors.ts
+     📄 Files WITHOUT Property (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/utils/mod.ts
+       • packages/scripts/utils/makeConstructorsPrivate.ts
+       • packages/scripts/utils/forEachTypeText.ts
+       • packages/scripts/utils/Memoize.ts
+       • packages/common/src/types.d.ts
+       • packages/common/src/index.ts
+       • packages/common/src/getLibFiles.ts
+
+   ArrowFunctionExpression:
+     📄 Files WITH ArrowFunctionExpression (showing 10):
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/scripts/utils/printDiagnostics.ts
+       • packages/scripts/utils/makeConstructorsPrivate.ts
+       • packages/common/scripts/bundleLocalTs.ts
+       • packages/common/scripts/buildDeno.ts
+       • packages/common/scripts/buildDeclarations.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/bootstrap/scripts/buildDeclarations.ts
+       • packages/ts-morph/src/ProjectContext.ts
+     📄 Files WITHOUT ArrowFunctionExpression (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+       • packages/scripts/utils/mod.ts
+
+   VariableDeclarator:
+     📄 Files WITH VariableDeclarator (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+       • packages/scripts/utils/makeConstructorsPrivate.ts
+     📄 Files WITHOUT VariableDeclarator (showing 10):
+       • packages/scripts/mod.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/utils/printDiagnostics.ts
+       • packages/scripts/utils/mod.ts
+       • packages/scripts/utils/forEachTypeText.ts
+       • packages/common/src/types.d.ts
+       • packages/common/src/index.ts
+       • packages/common/scripts/deps.ts
+       • packages/bootstrap/src/index.ts
+       • packages/bootstrap/scripts/deps.ts
+
+   VariableDeclaration:
+     📄 Files WITH VariableDeclaration (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+       • packages/scripts/utils/makeConstructorsPrivate.ts
+     📄 Files WITHOUT VariableDeclaration (showing 10):
+       • packages/scripts/mod.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/utils/printDiagnostics.ts
+       • packages/scripts/utils/mod.ts
+       • packages/scripts/utils/forEachTypeText.ts
+       • packages/common/src/types.d.ts
+       • packages/common/src/index.ts
+       • packages/common/scripts/deps.ts
+       • packages/bootstrap/src/index.ts
+       • packages/bootstrap/scripts/deps.ts
+
+   TSTypeParameterInstantiation:
+     📄 Files WITH TSTypeParameterInstantiation (showing 10):
+       • packages/scripts/utils/Memoize.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/common/scripts/buildDeno.ts
+       • packages/bootstrap/src/SourceFileCache.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/bootstrap/lib/ts-morph-bootstrap.d.ts
+       • packages/ts-morph/src/typings.ts
+       • packages/ts-morph/src/Project.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+     📄 Files WITHOUT TSTypeParameterInstantiation (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TSStringKeyword:
+     📄 Files WITH TSStringKeyword (showing 10):
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/scripts/utils/forEachTypeText.ts
+       • packages/scripts/utils/Memoize.ts
+       • packages/common/src/getLibFiles.ts
+       • packages/common/src/errors.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+     📄 Files WITHOUT TSStringKeyword (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/deps.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+       • packages/scripts/utils/printDiagnostics.ts
+       • packages/scripts/utils/mod.ts
+       • packages/scripts/utils/makeConstructorsPrivate.ts
+
+   ImportSpecifier:
+     📄 Files WITH ImportSpecifier (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/scripts/utils/printDiagnostics.ts
+       • packages/scripts/utils/makeConstructorsPrivate.ts
+       • packages/scripts/utils/forEachTypeText.ts
+       • packages/common/src/getLibFiles.ts
+       • packages/common/src/errors.ts
+     📄 Files WITHOUT ImportSpecifier (showing 10):
+       • packages/scripts/mod.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+       • packages/scripts/utils/mod.ts
+       • packages/scripts/utils/Memoize.ts
+       • packages/common/src/types.d.ts
+       • packages/common/src/index.ts
+
+   ThisExpression:
+     📄 Files WITH ThisExpression (showing 10):
+       • packages/scripts/utils/Memoize.ts
+       • packages/common/src/errors.ts
+       • packages/bootstrap/src/SourceFileCache.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/ts-morph/src/ProjectContext.ts
+       • packages/ts-morph/src/Project.ts
+       • packages/common/src/utils/EventContainer.ts
+       • packages/common/src/typescript/tsInternal.ts
+       • packages/common/src/tsconfig/TsConfigResolver.ts
+       • packages/common/src/runtimes/NodeRuntime.ts
+     📄 Files WITHOUT ThisExpression (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   MethodDefinition:
+     📄 Files WITH MethodDefinition (showing 10):
+       • packages/common/src/errors.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/bootstrap/src/SourceFileCache.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/bootstrap/lib/ts-morph-bootstrap.d.ts
+       • packages/ts-morph/src/ProjectContext.ts
+       • packages/ts-morph/src/Project.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/common/src/utils/StringUtils.ts
+     📄 Files WITHOUT MethodDefinition (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TSUnionType:
+     📄 Files WITH TSUnionType (showing 10):
+       • packages/scripts/utils/forEachTypeText.ts
+       • packages/common/src/errors.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/bootstrap/src/SourceFileCache.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/bootstrap/lib/ts-morph-bootstrap.d.ts
+       • packages/ts-morph/src/typings.ts
+       • packages/ts-morph/src/ProjectContext.ts
+       • packages/ts-morph/src/Project.ts
+     📄 Files WITHOUT TSUnionType (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TSQualifiedName:
+     📄 Files WITH TSQualifiedName (showing 10):
+       • packages/scripts/utils/printDiagnostics.ts
+       • packages/scripts/utils/makeConstructorsPrivate.ts
+       • packages/scripts/utils/forEachTypeText.ts
+       • packages/common/src/errors.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/common/scripts/buildDeno.ts
+       • packages/bootstrap/src/SourceFileCache.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/bootstrap/lib/ts-morph-bootstrap.d.ts
+     📄 Files WITHOUT TSQualifiedName (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   ReturnStatement:
+     📄 Files WITH ReturnStatement (showing 10):
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/utils/forEachTypeText.ts
+       • packages/scripts/utils/Memoize.ts
+       • packages/common/src/getLibFiles.ts
+       • packages/common/src/errors.ts
+       • packages/common/scripts/buildDeno.ts
+       • packages/bootstrap/src/SourceFileCache.ts
+       • packages/bootstrap/src/Project.ts
+     📄 Files WITHOUT ReturnStatement (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+       • packages/scripts/utils/printDiagnostics.ts
+       • packages/scripts/utils/mod.ts
+
+   ImportDeclaration:
+     📄 Files WITH ImportDeclaration (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+       • packages/scripts/utils/printDiagnostics.ts
+       • packages/scripts/utils/makeConstructorsPrivate.ts
+     📄 Files WITHOUT ImportDeclaration (showing 10):
+       • packages/scripts/mod.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/utils/mod.ts
+       • packages/scripts/utils/Memoize.ts
+       • packages/common/src/index.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/scripts/deps.ts
+       • packages/bootstrap/src/index.ts
+       • packages/bootstrap/scripts/deps.ts
+
+   TSPropertySignature:
+     📄 Files WITH TSPropertySignature (showing 10):
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/common/src/getLibFiles.ts
+       • packages/common/src/errors.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/common/scripts/buildDeno.ts
+       • packages/bootstrap/src/SourceFileCache.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/bootstrap/lib/ts-morph-bootstrap.d.ts
+     📄 Files WITHOUT TSPropertySignature (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+       • packages/scripts/utils/printDiagnostics.ts
+
+   ObjectExpression:
+     📄 Files WITH ObjectExpression (showing 10):
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+       • packages/scripts/utils/printDiagnostics.ts
+       • packages/common/src/errors.ts
+       • packages/common/scripts/bundleLocalTs.ts
+     📄 Files WITHOUT ObjectExpression (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/scripts/utils/mod.ts
+       • packages/scripts/utils/makeConstructorsPrivate.ts
+       • packages/scripts/utils/forEachTypeText.ts
+       • packages/scripts/utils/Memoize.ts
+       • packages/common/src/types.d.ts
+       • packages/common/src/index.ts
+
+   BinaryExpression:
+     📄 Files WITH BinaryExpression (showing 10):
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+       • packages/scripts/utils/makeConstructorsPrivate.ts
+       • packages/scripts/utils/forEachTypeText.ts
+       • packages/scripts/utils/Memoize.ts
+       • packages/common/src/getLibFiles.ts
+       • packages/common/src/errors.ts
+     📄 Files WITHOUT BinaryExpression (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/scripts/utils/printDiagnostics.ts
+       • packages/scripts/utils/mod.ts
+       • packages/common/src/types.d.ts
+       • packages/common/src/index.ts
+
+   FunctionExpression:
+     📄 Files WITH FunctionExpression (showing 10):
+       • packages/common/src/errors.ts
+       • packages/bootstrap/src/SourceFileCache.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/ts-morph/src/ProjectContext.ts
+       • packages/ts-morph/src/Project.ts
+       • packages/common/src/utils/StringUtils.ts
+       • packages/common/src/utils/ObjectUtils.ts
+       • packages/common/src/utils/IterableUtils.ts
+       • packages/common/src/utils/EventContainer.ts
+       • packages/common/src/utils/ArrayUtils.ts
+     📄 Files WITHOUT FunctionExpression (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   ArrayExpression:
+     📄 Files WITH ArrayExpression (showing 10):
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+       • packages/common/scripts/buildDeno.ts
+       • packages/common/scripts/buildDeclarations.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/bootstrap/scripts/buildDeno.ts
+     📄 Files WITHOUT ArrayExpression (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/utils/printDiagnostics.ts
+       • packages/scripts/utils/mod.ts
+       • packages/scripts/utils/makeConstructorsPrivate.ts
+       • packages/scripts/utils/forEachTypeText.ts
+       • packages/scripts/utils/Memoize.ts
+
+   TSUndefinedKeyword:
+     📄 Files WITH TSUndefinedKeyword (showing 10):
+       • packages/common/src/errors.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/bootstrap/src/SourceFileCache.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/bootstrap/lib/ts-morph-bootstrap.d.ts
+       • packages/ts-morph/src/typings.ts
+       • packages/ts-morph/src/ProjectContext.ts
+       • packages/ts-morph/src/Project.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+     📄 Files WITHOUT TSUndefinedKeyword (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TSEmptyBodyFunctionExpression:
+     📄 Files WITH TSEmptyBodyFunctionExpression (showing 10):
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/bootstrap/lib/ts-morph-bootstrap.d.ts
+       • packages/ts-morph/src/Project.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/ts-morph/src/structurePrinters/Printer.ts
+       • packages/ts-morph/src/structurePrinters/NodePrinter.ts
+       • packages/ts-morph/src/fileSystem/Directory.ts
+       • packages/ts-morph/src/factories/CompilerFactory.ts
+     📄 Files WITHOUT TSEmptyBodyFunctionExpression (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   ExportNamedDeclaration:
+     📄 Files WITH ExportNamedDeclaration (showing 10):
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/scripts/utils/printDiagnostics.ts
+       • packages/scripts/utils/makeConstructorsPrivate.ts
+       • packages/scripts/utils/forEachTypeText.ts
+       • packages/scripts/utils/Memoize.ts
+     📄 Files WITHOUT ExportNamedDeclaration (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/deps.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+       • packages/scripts/utils/mod.ts
+       • packages/common/src/types.d.ts
+       • packages/common/scripts/createLibFile.ts
+       • packages/common/scripts/bundleLocalTs.ts
+       • packages/common/scripts/buildDeno.ts
+
+   Unknown:
+     📄 Files WITH Unknown (showing 10):
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/scripts/utils/Memoize.ts
+       • packages/common/src/getLibFiles.ts
+       • packages/common/src/errors.ts
+       • packages/common/scripts/createLibFile.ts
+       • packages/common/scripts/bundleLocalTs.ts
+       • packages/common/scripts/buildDeno.ts
+       • packages/common/scripts/buildDeclarations.ts
+     📄 Files WITHOUT Unknown (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+       • packages/scripts/utils/printDiagnostics.ts
+       • packages/scripts/utils/mod.ts
+
+   TSMethodSignature:
+     📄 Files WITH TSMethodSignature (showing 10):
+       • packages/common/src/errors.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/bootstrap/lib/ts-morph-bootstrap.d.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/common/src/tsconfig/getTsParseConfigHost.ts
+       • packages/common/src/runtimes/Runtime.ts
+       • packages/common/src/fileSystem/FileSystemHost.ts
+       • packages/common/src/compiler/createModuleResolutionHost.ts
+       • packages/common/src/compiler/createDocumentCache.ts
+     📄 Files WITHOUT TSMethodSignature (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TemplateElement:
+     📄 Files WITH TemplateElement (showing 10):
+       • packages/scripts/execScript.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/scripts/utils/Memoize.ts
+       • packages/common/src/getLibFiles.ts
+       • packages/common/src/errors.ts
+       • packages/common/scripts/createLibFile.ts
+       • packages/common/scripts/bundleLocalTs.ts
+       • packages/common/scripts/buildDeno.ts
+       • packages/common/scripts/buildDeclarations.ts
+       • packages/bootstrap/src/Project.ts
+     📄 Files WITHOUT TemplateElement (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+       • packages/scripts/utils/printDiagnostics.ts
+
+   TSArrayType:
+     📄 Files WITH TSArrayType (showing 10):
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/utils/printDiagnostics.ts
+       • packages/scripts/utils/Memoize.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/common/scripts/buildDeclarations.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/bootstrap/lib/ts-morph-bootstrap.d.ts
+       • packages/ts-morph/src/typings.ts
+     📄 Files WITHOUT TSArrayType (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+       • packages/scripts/utils/mod.ts
+
+   FunctionDeclaration:
+     📄 Files WITH FunctionDeclaration (showing 10):
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/scripts/utils/printDiagnostics.ts
+       • packages/scripts/utils/makeConstructorsPrivate.ts
+       • packages/scripts/utils/forEachTypeText.ts
+       • packages/scripts/utils/Memoize.ts
+       • packages/common/src/getLibFiles.ts
+       • packages/common/src/errors.ts
+     📄 Files WITHOUT FunctionDeclaration (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/deps.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+       • packages/scripts/utils/mod.ts
+       • packages/common/src/types.d.ts
+       • packages/common/src/index.ts
+
+   IfStatement:
+     📄 Files WITH IfStatement (showing 10):
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/scripts/utils/makeConstructorsPrivate.ts
+       • packages/scripts/utils/forEachTypeText.ts
+       • packages/scripts/utils/Memoize.ts
+       • packages/common/src/getLibFiles.ts
+       • packages/common/src/errors.ts
+       • packages/common/scripts/createLibFile.ts
+     📄 Files WITHOUT IfStatement (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/deps.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+       • packages/scripts/utils/printDiagnostics.ts
+       • packages/scripts/utils/mod.ts
+       • packages/common/src/types.d.ts
+
+   PrivateIdentifier:
+     📄 Files WITH PrivateIdentifier (showing 10):
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/bootstrap/src/SourceFileCache.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/bootstrap/lib/ts-morph-bootstrap.d.ts
+       • packages/ts-morph/src/ProjectContext.ts
+       • packages/ts-morph/src/Project.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/common/src/utils/EventContainer.ts
+       • packages/common/src/tsconfig/TsConfigResolver.ts
+       • packages/common/src/runtimes/DenoRuntime.ts
+     📄 Files WITHOUT PrivateIdentifier (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   ObjectPattern:
+     📄 Files WITH ObjectPattern (showing 10):
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/scripts/createLibFile.ts
+       • packages/common/scripts/bundleLocalTs.ts
+       • packages/common/scripts/buildDeno.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/bootstrap/scripts/buildDeno.ts
+       • packages/ts-morph/src/main.ts
+       • packages/ts-morph/src/Project.ts
+     📄 Files WITHOUT ObjectPattern (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+       • packages/scripts/utils/printDiagnostics.ts
+
+   TemplateLiteral:
+     📄 Files WITH TemplateLiteral (showing 10):
+       • packages/scripts/execScript.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/scripts/utils/Memoize.ts
+       • packages/common/src/getLibFiles.ts
+       • packages/common/src/errors.ts
+       • packages/common/scripts/createLibFile.ts
+       • packages/common/scripts/bundleLocalTs.ts
+       • packages/common/scripts/buildDeno.ts
+       • packages/common/scripts/buildDeclarations.ts
+       • packages/bootstrap/src/Project.ts
+     📄 Files WITHOUT TemplateLiteral (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+       • packages/scripts/utils/printDiagnostics.ts
+
+   TSFunctionType:
+     📄 Files WITH TSFunctionType (showing 10):
+       • packages/scripts/utils/forEachTypeText.ts
+       • packages/common/src/errors.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/bootstrap/lib/ts-morph-bootstrap.d.ts
+       • packages/ts-morph/src/types.ts
+       • packages/ts-morph/src/Project.ts
+       • packages/ts-morph/scripts/typeCheckDocumentation.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+     📄 Files WITHOUT TSFunctionType (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TSBooleanKeyword:
+     📄 Files WITH TSBooleanKeyword (showing 10):
+       • packages/common/src/getLibFiles.ts
+       • packages/common/src/errors.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/bootstrap/lib/ts-morph-bootstrap.d.ts
+       • packages/ts-morph/src/ProjectContext.ts
+       • packages/ts-morph/src/Project.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/common/src/utils/StringUtils.ts
+     📄 Files WITHOUT TSBooleanKeyword (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TSInterfaceDeclaration:
+     📄 Files WITH TSInterfaceDeclaration (showing 10):
+       • packages/scripts/createDeclarationProject.ts
+       • packages/common/src/errors.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/bootstrap/lib/ts-morph-bootstrap.d.ts
+       • packages/ts-morph/src/ProjectContext.ts
+       • packages/ts-morph/src/Project.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/common/src/typescript/tsInternal.ts
+     📄 Files WITHOUT TSInterfaceDeclaration (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+
+   TSInterfaceBody:
+     📄 Files WITH TSInterfaceBody (showing 10):
+       • packages/scripts/createDeclarationProject.ts
+       • packages/common/src/errors.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/bootstrap/lib/ts-morph-bootstrap.d.ts
+       • packages/ts-morph/src/ProjectContext.ts
+       • packages/ts-morph/src/Project.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/common/src/typescript/tsInternal.ts
+     📄 Files WITHOUT TSInterfaceBody (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+
+   TSEnumMember:
+     📄 Files WITH TSEnumMember (showing 10):
+       • packages/common/lib/typescript.d.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/ts-morph/src/options/ManipulationSettingsContainer.ts
+       • packages/ts-morph/src/structures/StructureKind.ts
+       • packages/ts-morph/src/manipulation/formatting/FormattingKind.ts
+       • packages/ts-morph/src/compiler/ast/utils/CommentNodeParser.ts
+       • packages/ts-morph/src/compiler/ast/variable/VariableDeclarationKind.ts
+       • packages/ts-morph/src/compiler/ast/type/TypeParameterDeclaration.ts
+       • packages/ts-morph/src/compiler/ast/literal/QuoteKind.ts
+       • packages/ts-morph/src/compiler/ast/common/Scope.ts
+     📄 Files WITHOUT TSEnumMember (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TSNumberKeyword:
+     📄 Files WITH TSNumberKeyword (showing 10):
+       • packages/common/src/errors.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/common/src/utils/StringUtils.ts
+       • packages/common/src/utils/ArrayUtils.ts
+       • packages/common/src/typescript/tsInternal.ts
+       • packages/common/src/tsconfig/readDirectory.ts
+       • packages/common/src/helpers/getSyntaxKindName.ts
+       • packages/common/src/fileSystem/TransactionalFileSystem.ts
+     📄 Files WITHOUT TSNumberKeyword (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TSInterfaceHeritage:
+     📄 Files WITH TSInterfaceHeritage (showing 10):
+       • packages/common/lib/typescript.d.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/common/src/tsconfig/getTsParseConfigHost.ts
+       • packages/common/src/fileSystem/TransactionalFileSystem.ts
+       • packages/ts-morph/src/fileSystem/Directory.ts
+       • packages/ts-morph/src/options/ManipulationSettingsContainer.ts
+       • packages/ts-morph/src/compiler/tools/Program.ts
+       • packages/ts-morph/src/compiler/ast/kindToNodeMappings.generated.ts
+       • packages/ts-morph/src/compiler/ast/aliases.ts
+       • packages/ts-morph/src/structures/type/TypeParameterDeclarationStructure.ts
+     📄 Files WITHOUT TSInterfaceHeritage (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   SwitchCase:
+     📄 Files WITH SwitchCase (showing 10):
+       • packages/common/src/fileSystem/TransactionalFileSystem.ts
+       • packages/ts-morph/src/utils/newLineKindToString.ts
+       • packages/ts-morph/src/fileSystem/Directory.ts
+       • packages/ts-morph/src/options/ManipulationSettingsContainer.ts
+       • packages/ts-morph/src/structures/Structure.generated.ts
+       • packages/ts-morph/scripts/verification/validatePublicApiClassMemberNames.ts
+       • packages/ts-morph/scripts/verification/ensureOverloadStructuresMatch.ts
+       • packages/ts-morph/scripts/generation/outputWrappedNodesInfo.ts
+       • packages/ts-morph/scripts/generation/createStructurePrinterFactory.ts
+       • packages/ts-morph/scripts/generation/createNodeTypeGuards.ts
+     📄 Files WITHOUT SwitchCase (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   Program:
+     📄 Files WITH Program (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+     📄 Files WITHOUT Program: (all files contain this node type)
+
+   TSTypePredicate:
+     📄 Files WITH TSTypePredicate (showing 10):
+       • packages/common/src/errors.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/ts-morph/src/Project.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/common/src/utils/StringUtils.ts
+       • packages/common/src/utils/ArrayUtils.ts
+       • packages/ts-morph/src/fileSystem/Directory.ts
+       • packages/ts-morph/src/factories/CompilerFactory.ts
+     📄 Files WITHOUT TSTypePredicate (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   PropertyDefinition:
+     📄 Files WITH PropertyDefinition (showing 10):
+       • packages/common/src/errors.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/bootstrap/src/SourceFileCache.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/bootstrap/lib/ts-morph-bootstrap.d.ts
+       • packages/ts-morph/src/ProjectContext.ts
+       • packages/ts-morph/src/Project.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/common/src/utils/EventContainer.ts
+     📄 Files WITHOUT PropertyDefinition (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   LogicalExpression:
+     📄 Files WITH LogicalExpression (showing 10):
+       • packages/scripts/utils/forEachTypeText.ts
+       • packages/scripts/utils/Memoize.ts
+       • packages/common/src/errors.ts
+       • packages/common/scripts/createLibFile.ts
+       • packages/common/scripts/bundleLocalTs.ts
+       • packages/common/scripts/buildDeno.ts
+       • packages/common/scripts/buildDeclarations.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/ts-morph/src/ProjectContext.ts
+       • packages/ts-morph/src/Project.ts
+     📄 Files WITHOUT LogicalExpression (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   NewExpression:
+     📄 Files WITH NewExpression (showing 10):
+       • packages/scripts/execScript.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/scripts/utils/forEachTypeText.ts
+       • packages/scripts/utils/Memoize.ts
+       • packages/common/src/getLibFiles.ts
+       • packages/common/src/errors.ts
+       • packages/common/scripts/bundleLocalTs.ts
+       • packages/common/scripts/buildDeno.ts
+       • packages/common/scripts/buildDeclarations.ts
+     📄 Files WITHOUT NewExpression (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/deps.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+       • packages/scripts/utils/printDiagnostics.ts
+       • packages/scripts/utils/mod.ts
+
+   TSTypeParameter:
+     📄 Files WITH TSTypeParameter (showing 10):
+       • packages/common/src/errors.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/bootstrap/lib/ts-morph-bootstrap.d.ts
+       • packages/ts-morph/src/typings.ts
+       • packages/ts-morph/src/types.ts
+       • packages/ts-morph/src/Project.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/common/src/utils/nameof.ts
+       • packages/common/src/utils/deepClone.ts
+     📄 Files WITHOUT TSTypeParameter (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TSTypeParameterDeclaration:
+     📄 Files WITH TSTypeParameterDeclaration (showing 10):
+       • packages/common/src/errors.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/bootstrap/lib/ts-morph-bootstrap.d.ts
+       • packages/ts-morph/src/typings.ts
+       • packages/ts-morph/src/types.ts
+       • packages/ts-morph/src/Project.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/common/src/utils/nameof.ts
+       • packages/common/src/utils/deepClone.ts
+     📄 Files WITHOUT TSTypeParameterDeclaration (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   ClassBody:
+     📄 Files WITH ClassBody (showing 10):
+       • packages/common/src/errors.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/bootstrap/src/SourceFileCache.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/bootstrap/lib/ts-morph-bootstrap.d.ts
+       • packages/ts-morph/src/ProjectContext.ts
+       • packages/ts-morph/src/Project.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/common/src/utils/StringUtils.ts
+     📄 Files WITHOUT ClassBody (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TSParenthesizedType:
+     📄 Files WITH TSParenthesizedType (showing 10):
+       • packages/common/src/errors.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/ts-morph/src/typings.ts
+       • packages/ts-morph/src/Project.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/common/src/fileSystem/TransactionalFileSystem.ts
+       • packages/ts-morph/src/utils/AdvancedIterator.ts
+       • packages/ts-morph/src/fileSystem/Directory.ts
+     📄 Files WITHOUT TSParenthesizedType (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   ExportAllDeclaration:
+     📄 Files WITH ExportAllDeclaration (showing 10):
+       • packages/scripts/mod.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/utils/mod.ts
+       • packages/common/src/index.ts
+       • packages/common/scripts/deps.ts
+       • packages/bootstrap/src/index.ts
+       • packages/bootstrap/scripts/deps.ts
+       • packages/ts-morph/src/main.ts
+       • packages/ts-morph/scripts/deps.ts
+       • packages/common/src/utils/index.ts
+     📄 Files WITHOUT ExportAllDeclaration (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+       • packages/scripts/utils/printDiagnostics.ts
+
+   ClassDeclaration:
+     📄 Files WITH ClassDeclaration (showing 10):
+       • packages/common/src/errors.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/bootstrap/src/SourceFileCache.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/bootstrap/lib/ts-morph-bootstrap.d.ts
+       • packages/ts-morph/src/ProjectContext.ts
+       • packages/ts-morph/src/Project.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/common/src/utils/StringUtils.ts
+     📄 Files WITHOUT ClassDeclaration (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   AssignmentExpression:
+     📄 Files WITH AssignmentExpression (showing 10):
+       • packages/scripts/utils/forEachTypeText.ts
+       • packages/scripts/utils/Memoize.ts
+       • packages/common/src/errors.ts
+       • packages/common/scripts/createLibFile.ts
+       • packages/bootstrap/src/SourceFileCache.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/ts-morph/src/ProjectContext.ts
+       • packages/ts-morph/src/Project.ts
+       • packages/ts-morph/scripts/typeCheckDocumentation.ts
+       • packages/common/src/utils/deepClone.ts
+     📄 Files WITHOUT AssignmentExpression (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TSAsExpression:
+     📄 Files WITH TSAsExpression (showing 10):
+       • packages/common/src/getLibFiles.ts
+       • packages/common/src/errors.ts
+       • packages/bootstrap/src/SourceFileCache.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/ts-morph/src/Project.ts
+       • packages/common/src/utils/deepClone.ts
+       • packages/common/src/utils/ObjectUtils.ts
+       • packages/common/src/typescript/tsInternal.ts
+       • packages/common/src/tests/errorsTests.ts
+       • packages/common/src/runtimes/NodeRuntime.ts
+     📄 Files WITHOUT TSAsExpression (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TSIntersectionType:
+     📄 Files WITH TSIntersectionType (showing 10):
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/ts-morph/src/typings.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/common/src/fileSystem/StandardizedFilePath.ts
+       • packages/common/src/compiler/createDocumentCache.ts
+       • packages/ts-morph/src/fileSystem/DirectoryCoordinator.ts
+       • packages/ts-morph/src/factories/CompilerFactory.ts
+       • packages/ts-morph/src/structures/types.ts
+       • packages/ts-morph/src/structures/Structure.generated.ts
+     📄 Files WITHOUT TSIntersectionType (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TSDeclareFunction:
+     📄 Files WITH TSDeclareFunction (showing 9):
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/bootstrap/lib/ts-morph-bootstrap.d.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/common/src/utils/nameof.ts
+       • packages/ts-morph/src/utils/compiler/printNode.ts
+       • packages/ts-morph/src/structures/utils/forEachStructureChild.ts
+       • packages/ts-morph/src/compiler/ast/literal/BigIntLiteral.ts
+       • packages/ts-morph/src/tests/compiler/ast/literal/bigIntLiteralTests.ts
+     📄 Files WITHOUT TSDeclareFunction (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TSTypeAliasDeclaration:
+     📄 Files WITH TSTypeAliasDeclaration (showing 10):
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/bootstrap/lib/ts-morph-bootstrap.d.ts
+       • packages/ts-morph/src/typings.ts
+       • packages/ts-morph/src/types.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/common/src/utils/EventContainer.ts
+       • packages/common/src/fileSystem/TransactionalFileSystem.ts
+       • packages/common/src/fileSystem/StandardizedFilePath.ts
+       • packages/common/src/compiler/createDocumentCache.ts
+     📄 Files WITHOUT TSTypeAliasDeclaration (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TSVoidKeyword:
+     📄 Files WITH TSVoidKeyword (showing 10):
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/bootstrap/lib/ts-morph-bootstrap.d.ts
+       • packages/ts-morph/src/types.ts
+       • packages/ts-morph/src/Project.ts
+       • packages/ts-morph/scripts/typeCheckDocumentation.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/common/src/utils/EventContainer.ts
+       • packages/common/src/tsconfig/getTsParseConfigHost.ts
+     📄 Files WITHOUT TSVoidKeyword (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   UnaryExpression:
+     📄 Files WITH UnaryExpression (showing 10):
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/utils/makeConstructorsPrivate.ts
+       • packages/scripts/utils/forEachTypeText.ts
+       • packages/common/src/errors.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/common/scripts/createLibFile.ts
+       • packages/common/scripts/buildDeno.ts
+       • packages/common/scripts/buildDeclarations.ts
+     📄 Files WITHOUT UnaryExpression (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+       • packages/scripts/utils/printDiagnostics.ts
+
+   TSNonNullExpression:
+     📄 Files WITH TSNonNullExpression (showing 10):
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/common/scripts/bundleLocalTs.ts
+       • packages/ts-morph/src/ProjectContext.ts
+       • packages/ts-morph/src/Project.ts
+       • packages/common/src/utils/StringUtils.ts
+       • packages/common/src/fileSystem/InMemoryFileSystemHost.ts
+       • packages/common/src/compiler/createHosts.ts
+       • packages/common/src/collections/KeyValueCache.ts
+       • packages/bootstrap/src/tests/projectTests.ts
+       • packages/ts-morph/src/utils/AdvancedIterator.ts
+     📄 Files WITHOUT TSNonNullExpression (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+
+   TSTypeOperator:
+     📄 Files WITH TSTypeOperator (showing 10):
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/ts-morph/src/typings.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/common/src/utils/nameof.ts
+       • packages/bootstrap/src/tests/projectTests.ts
+       • packages/ts-morph/src/utils/setValueIfUndefined.ts
+       • packages/ts-morph/src/structures/types.ts
+       • packages/ts-morph/src/manipulation/nodeHandlers/NodeHandlerHelper.ts
+       • packages/ts-morph/src/manipulation/nodeHandlers/ChangeChildOrderParentHandler.ts
+     📄 Files WITHOUT TSTypeOperator (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   ParenthesizedExpression:
+     📄 Files WITH ParenthesizedExpression (showing 10):
+       • packages/common/src/errors.ts
+       • packages/bootstrap/src/SourceFileCache.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/ts-morph/src/Project.ts
+       • packages/ts-morph/scripts/typeCheckDocumentation.ts
+       • packages/common/src/utils/deepClone.ts
+       • packages/common/src/utils/ArrayUtils.ts
+       • packages/common/src/typescript/tsInternal.ts
+       • packages/common/src/tsconfig/readDirectory.ts
+       • packages/common/src/runtimes/NodeRuntime.ts
+     📄 Files WITHOUT ParenthesizedExpression (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TSAnyKeyword:
+     📄 Files WITH TSAnyKeyword (showing 10):
+       • packages/scripts/utils/Memoize.ts
+       • packages/common/src/errors.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/bootstrap/src/SourceFileCache.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/ts-morph/src/typings.ts
+       • packages/ts-morph/src/types.ts
+       • packages/ts-morph/src/Project.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+     📄 Files WITHOUT TSAnyKeyword (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TSTypeLiteral:
+     📄 Files WITH TSTypeLiteral (showing 10):
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/common/src/getLibFiles.ts
+       • packages/common/src/errors.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/common/scripts/buildDeno.ts
+       • packages/bootstrap/src/SourceFileCache.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/bootstrap/lib/ts-morph-bootstrap.d.ts
+       • packages/ts-morph/src/Project.ts
+     📄 Files WITHOUT TSTypeLiteral (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+
+   TSThisType:
+     📄 Files WITH TSThisType (showing 10):
+       • packages/common/lib/typescript.d.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/ts-morph/src/compiler/types/Type.ts
+       • packages/ts-morph/src/compiler/ast/literal/RegularExpressionLiteral.ts
+       • packages/ts-morph/src/compiler/ast/literal/BooleanLiterals.ts
+       • packages/ts-morph/src/compiler/ast/jsx/JsxAttribute.ts
+       • packages/ts-morph/src/compiler/ast/general/HeritageClause.ts
+       • packages/ts-morph/src/compiler/ast/statement/StatementedNode.ts
+       • packages/ts-morph/src/compiler/ast/function/OverloadableNode.ts
+       • packages/ts-morph/src/compiler/ast/decorator/Decorator.ts
+     📄 Files WITHOUT TSThisType (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   ChainExpression:
+     📄 Files WITH ChainExpression (showing 10):
+       • packages/common/scripts/bundleLocalTs.ts
+       • packages/common/scripts/buildDeno.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/bootstrap/scripts/buildDeclarations.ts
+       • packages/ts-morph/src/ProjectContext.ts
+       • packages/ts-morph/src/Project.ts
+       • packages/common/src/utils/StringUtils.ts
+       • packages/common/src/runtimes/NodeRuntime.ts
+       • packages/common/src/fileSystem/RealFileSystemHost.ts
+       • packages/common/src/fileSystem/FileUtils.ts
+     📄 Files WITHOUT ChainExpression (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   ForOfStatement:
+     📄 Files WITH ForOfStatement (showing 10):
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/scripts/utils/makeConstructorsPrivate.ts
+       • packages/common/scripts/createLibFile.ts
+       • packages/common/scripts/bundleLocalTs.ts
+       • packages/common/scripts/buildDeno.ts
+       • packages/common/scripts/buildDeclarations.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/bootstrap/scripts/buildDeclarations.ts
+     📄 Files WITHOUT ForOfStatement (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+       • packages/scripts/utils/printDiagnostics.ts
+       • packages/scripts/utils/mod.ts
+
+   TSLiteralType:
+     📄 Files WITH TSLiteralType (showing 10):
+       • packages/common/src/errors.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/bootstrap/lib/ts-morph-bootstrap.d.ts
+       • packages/ts-morph/src/Project.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/common/src/utils/StringUtils.ts
+       • packages/common/src/runtimes/NodeRuntime.ts
+       • packages/common/src/fileSystem/TransactionalFileSystem.ts
+     📄 Files WITHOUT TSLiteralType (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   ConditionalExpression:
+     📄 Files WITH ConditionalExpression (showing 10):
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+       • packages/scripts/utils/makeConstructorsPrivate.ts
+       • packages/common/src/errors.ts
+       • packages/common/scripts/bundleLocalTs.ts
+       • packages/common/scripts/buildDeno.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/ts-morph/src/ProjectContext.ts
+     📄 Files WITHOUT ConditionalExpression (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/scripts/utils/printDiagnostics.ts
+       • packages/scripts/utils/mod.ts
+       • packages/scripts/utils/forEachTypeText.ts
+
+   TSTypeQuery:
+     📄 Files WITH TSTypeQuery (showing 10):
+       • packages/common/lib/typescript.d.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/ts-morph/src/tests/projectTests.ts
+       • packages/ts-morph/src/factories/CompilerFactory.ts
+       • packages/ts-morph/src/tests/structurePrinters/writersTests.ts
+       • packages/ts-morph/src/tests/structures/utils/structureTypeGuardTests.ts
+       • packages/ts-morph/src/tests/structures/utils/forEachStructureChildTests.ts
+       • packages/ts-morph/src/compiler/ast/variable/VariableDeclaration.ts
+       • packages/ts-morph/src/compiler/ast/type/TypeParameterDeclaration.ts
+       • packages/ts-morph/src/compiler/ast/type/TypeAliasDeclaration.ts
+     📄 Files WITHOUT TSTypeQuery (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   SpreadElement:
+     📄 Files WITH SpreadElement (showing 10):
+       • packages/scripts/execScript.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/ts-morph/src/Project.ts
+       • packages/ts-morph/scripts/typeCheckDocumentation.ts
+       • packages/common/src/tsconfig/getTsParseConfigHost.ts
+       • packages/common/src/tsconfig/TsConfigResolver.ts
+       • packages/common/src/runtimes/NodeRuntime.ts
+       • packages/common/src/runtimes/DenoRuntime.ts
+       • packages/common/src/runtimes/BrowserRuntime.ts
+       • packages/common/src/fileSystem/TransactionalFileSystem.ts
+     📄 Files WITHOUT SpreadElement (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+
+   ThrowStatement:
+     📄 Files WITH ThrowStatement (showing 10):
+       • packages/scripts/execScript.ts
+       • packages/scripts/utils/forEachTypeText.ts
+       • packages/scripts/utils/Memoize.ts
+       • packages/common/src/getLibFiles.ts
+       • packages/common/src/errors.ts
+       • packages/common/scripts/buildDeclarations.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/bootstrap/scripts/buildDeclarations.ts
+       • packages/ts-morph/src/ProjectContext.ts
+       • packages/ts-morph/src/Project.ts
+     📄 Files WITHOUT ThrowStatement (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+
+   AwaitExpression:
+     📄 Files WITH AwaitExpression (showing 10):
+       • packages/scripts/execScript.ts
+       • packages/bootstrap/src/SourceFileCache.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/ts-morph/src/Project.ts
+       • packages/common/src/runtimes/NodeRuntime.ts
+       • packages/common/src/runtimes/DenoRuntime.ts
+       • packages/common/src/fileSystem/TransactionalFileSystem.ts
+       • packages/common/src/fileSystem/RealFileSystemHost.ts
+       • packages/common/src/fileSystem/FileUtils.ts
+       • packages/bootstrap/src/tests/projectTests.ts
+     📄 Files WITHOUT AwaitExpression (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+
+   TSIndexedAccessType:
+     📄 Files WITH TSIndexedAccessType (showing 10):
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/bootstrap/lib/ts-morph-bootstrap.d.ts
+       • packages/ts-morph/src/typings.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/common/src/compiler/createHosts.ts
+       • packages/common/src/compiler/ResolutionHost.ts
+       • packages/ts-morph/src/utils/setValueIfUndefined.ts
+       • packages/ts-morph/src/structurePrinters/NodePrinter.ts
+     📄 Files WITHOUT TSIndexedAccessType (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   UpdateExpression:
+     📄 Files WITH UpdateExpression (showing 10):
+       • packages/scripts/utils/Memoize.ts
+       • packages/bootstrap/src/SourceFileCache.ts
+       • packages/common/src/utils/StringUtils.ts
+       • packages/common/src/utils/ArrayUtils.ts
+       • packages/common/src/tests/errorsTests.ts
+       • packages/common/src/fileSystem/TransactionalFileSystem.ts
+       • packages/common/src/fileSystem/FileUtils.ts
+       • packages/common/src/decorators/Memoize.ts
+       • packages/common/src/compiler/createHosts.ts
+       • packages/bootstrap/scripts/test/testTypeScriptVersions.ts
+     📄 Files WITHOUT UpdateExpression (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   AssignmentPattern:
+     📄 Files WITH AssignmentPattern (showing 10):
+       • packages/common/src/errors.ts
+       • packages/bootstrap/src/Project.ts
+       • packages/ts-morph/src/Project.ts
+       • packages/common/src/tsconfig/getCompilerOptionsFromTsConfig.ts
+       • packages/common/src/runtimes/NodeRuntime.ts
+       • packages/common/src/runtimes/DenoRuntime.ts
+       • packages/common/src/options/CompilerOptionsContainer.ts
+       • packages/common/src/fileSystem/RealFileSystemHost.ts
+       • packages/common/src/fileSystem/InMemoryFileSystemHost.ts
+       • packages/bootstrap/src/tests/projectTests.ts
+     📄 Files WITHOUT AssignmentPattern (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   SwitchStatement:
+     📄 Files WITH SwitchStatement (showing 10):
+       • packages/common/src/fileSystem/TransactionalFileSystem.ts
+       • packages/ts-morph/src/utils/newLineKindToString.ts
+       • packages/ts-morph/src/fileSystem/Directory.ts
+       • packages/ts-morph/src/options/ManipulationSettingsContainer.ts
+       • packages/ts-morph/src/structures/Structure.generated.ts
+       • packages/ts-morph/scripts/verification/validatePublicApiClassMemberNames.ts
+       • packages/ts-morph/scripts/verification/ensureOverloadStructuresMatch.ts
+       • packages/ts-morph/scripts/generation/outputWrappedNodesInfo.ts
+       • packages/ts-morph/scripts/generation/createStructurePrinterFactory.ts
+       • packages/ts-morph/scripts/generation/createNodeTypeGuards.ts
+     📄 Files WITHOUT SwitchStatement (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TSUnknownKeyword:
+     📄 Files WITH TSUnknownKeyword (showing 10):
+       • packages/scripts/utils/Memoize.ts
+       • packages/common/src/errors.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/common/src/utils/deepClone.ts
+       • packages/common/src/utils/ArrayUtils.ts
+       • packages/common/src/decorators/Memoize.ts
+       • packages/ts-morph/src/structurePrinters/NodePrinter.ts
+       • packages/ts-morph/src/factories/kindToWrapperMappings.ts
+     📄 Files WITHOUT TSUnknownKeyword (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TSClassImplements:
+     📄 Files WITH TSClassImplements (showing 10):
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/bootstrap/src/SourceFileCache.ts
+       • packages/bootstrap/lib/ts-morph-bootstrap.d.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/common/src/runtimes/NodeRuntime.ts
+       • packages/common/src/runtimes/BrowserRuntime.ts
+       • packages/common/src/fileSystem/RealFileSystemHost.ts
+       • packages/common/src/fileSystem/InMemoryFileSystemHost.ts
+       • packages/common/src/compiler/createDocumentCache.ts
+     📄 Files WITHOUT TSClassImplements (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   ExportSpecifier:
+     📄 Files WITH ExportSpecifier (showing 10):
+       • packages/scripts/mod.ts
+       • packages/common/src/index.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/common/scripts/deps.ts
+       • packages/bootstrap/src/index.ts
+       • packages/bootstrap/lib/ts-morph-bootstrap.d.ts
+       • packages/ts-morph/src/main.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/common/src/typescript/public.ts
+     📄 Files WITHOUT ExportSpecifier (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+
+   Decorator:
+     📄 Files WITH Decorator (showing 10):
+       • packages/bootstrap/src/Project.ts
+       • packages/ts-morph/src/ProjectContext.ts
+       • packages/common/src/tsconfig/TsConfigResolver.ts
+       • packages/ts-morph/src/factories/StructurePrinterFactory.ts
+       • packages/ts-morph/scripts/inspectors/TsMorphInspector.ts
+       • packages/ts-morph/scripts/inspectors/TsInspector.ts
+       • packages/common/src/tests/decorators/memoizeTests.ts
+       • packages/ts-morph/scripts/inspectors/tsMorph/WrappedNode.ts
+       • packages/ts-morph/scripts/inspectors/tsMorph/Structure.ts
+       • packages/ts-morph/scripts/inspectors/tsMorph/Mixin.ts
+     📄 Files WITHOUT Decorator (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TSEnumDeclaration:
+     📄 Files WITH TSEnumDeclaration (showing 10):
+       • packages/common/lib/typescript.d.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/ts-morph/src/options/ManipulationSettingsContainer.ts
+       • packages/ts-morph/src/structures/StructureKind.ts
+       • packages/ts-morph/src/manipulation/formatting/FormattingKind.ts
+       • packages/ts-morph/src/compiler/ast/utils/CommentNodeParser.ts
+       • packages/ts-morph/src/compiler/ast/variable/VariableDeclarationKind.ts
+       • packages/ts-morph/src/compiler/ast/type/TypeParameterDeclaration.ts
+       • packages/ts-morph/src/compiler/ast/literal/QuoteKind.ts
+       • packages/ts-morph/src/compiler/ast/common/Scope.ts
+     📄 Files WITHOUT TSEnumDeclaration (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TSEnumBody:
+     📄 Files WITH TSEnumBody (showing 10):
+       • packages/common/lib/typescript.d.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/ts-morph/src/options/ManipulationSettingsContainer.ts
+       • packages/ts-morph/src/structures/StructureKind.ts
+       • packages/ts-morph/src/manipulation/formatting/FormattingKind.ts
+       • packages/ts-morph/src/compiler/ast/utils/CommentNodeParser.ts
+       • packages/ts-morph/src/compiler/ast/variable/VariableDeclarationKind.ts
+       • packages/ts-morph/src/compiler/ast/type/TypeParameterDeclaration.ts
+       • packages/ts-morph/src/compiler/ast/literal/QuoteKind.ts
+       • packages/ts-morph/src/compiler/ast/common/Scope.ts
+     📄 Files WITHOUT TSEnumBody (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TSConditionalType:
+     📄 Files WITH TSConditionalType (showing 8):
+       • packages/common/lib/typescript.d.ts
+       • packages/ts-morph/src/typings.ts
+       • packages/ts-morph/src/types.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/ts-morph/src/compiler/ast/aliases.ts
+       • packages/ts-morph/src/compiler/ast/CompilerNodeToWrappedType.ts
+       • packages/ts-morph/src/tests/compiler/testHelpers/getInfoFromText.ts
+       • packages/ts-morph/src/compiler/ast/common/Node.ts
+     📄 Files WITHOUT TSConditionalType (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   ForStatement:
+     📄 Files WITH ForStatement (showing 10):
+       • packages/common/src/utils/StringUtils.ts
+       • packages/common/src/utils/ArrayUtils.ts
+       • packages/common/src/tests/errorsTests.ts
+       • packages/common/src/fileSystem/FileUtils.ts
+       • packages/bootstrap/scripts/test/testTypeScriptVersions.ts
+       • packages/ts-morph/src/utils/namingValidator.ts
+       • packages/ts-morph/src/utils/getTextFromStringOrWriter.ts
+       • packages/ts-morph/src/structurePrinters/Writers.ts
+       • packages/ts-morph/src/structurePrinters/NodePrinter.ts
+       • packages/ts-morph/src/manipulation/textChecks.ts
+     📄 Files WITHOUT ForStatement (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TryStatement:
+     📄 Files WITH TryStatement (showing 10):
+       • packages/ts-morph/src/Project.ts
+       • packages/common/src/tsconfig/readDirectory.ts
+       • packages/common/src/tests/errorsTests.ts
+       • packages/common/src/runtimes/DenoRuntime.ts
+       • packages/common/src/fileSystem/TransactionalFileSystem.ts
+       • packages/common/src/fileSystem/RealFileSystemHost.ts
+       • packages/common/src/fileSystem/InMemoryFileSystemHost.ts
+       • packages/common/src/fileSystem/FileUtils.ts
+       • packages/common/src/compiler/createModuleResolutionHost.ts
+       • packages/bootstrap/src/tests/projectTests.ts
+     📄 Files WITHOUT TryStatement (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   Super:
+     📄 Files WITH Super (showing 10):
+       • packages/common/src/errors.ts
+       • packages/common/src/options/CompilerOptionsContainer.ts
+       • packages/ts-morph/src/structurePrinters/NodePrinter.ts
+       • packages/ts-morph/src/factories/ForgetfulNodeCache.ts
+       • packages/ts-morph/src/options/ManipulationSettingsContainer.ts
+       • packages/ts-morph/src/tests/testHelpers/fileSystemHostHelpers.ts
+       • packages/ts-morph/src/structurePrinters/statement/StatementedNodeStructurePrinter.ts
+       • packages/ts-morph/src/structurePrinters/statement/StatementStructurePrinter.ts
+       • packages/ts-morph/src/structurePrinters/module/SourceFileStructurePrinter.ts
+       • packages/ts-morph/src/structurePrinters/module/ModuleDeclarationStructurePrinter.ts
+     📄 Files WITHOUT Super (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   YieldExpression:
+     📄 Files WITH YieldExpression (showing 10):
+       • packages/bootstrap/src/Project.ts
+       • packages/ts-morph/src/Project.ts
+       • packages/common/src/utils/ArrayUtils.ts
+       • packages/common/src/fileSystem/TransactionalFileSystem.ts
+       • packages/common/src/fileSystem/InMemoryFileSystemHost.ts
+       • packages/common/src/fileSystem/FileUtils.ts
+       • packages/common/src/collections/SortedKeyValueArray.ts
+       • packages/ts-morph/src/utils/AdvancedIterator.ts
+       • packages/ts-morph/src/fileSystem/Directory.ts
+       • packages/ts-morph/src/factories/InProjectCoordinator.ts
+     📄 Files WITHOUT YieldExpression (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   CatchClause:
+     📄 Files WITH CatchClause (showing 10):
+       • packages/common/src/tsconfig/readDirectory.ts
+       • packages/common/src/tests/errorsTests.ts
+       • packages/common/src/runtimes/DenoRuntime.ts
+       • packages/common/src/fileSystem/TransactionalFileSystem.ts
+       • packages/common/src/fileSystem/RealFileSystemHost.ts
+       • packages/common/src/fileSystem/InMemoryFileSystemHost.ts
+       • packages/common/src/fileSystem/FileUtils.ts
+       • packages/common/src/compiler/createModuleResolutionHost.ts
+       • packages/bootstrap/src/tests/projectTests.ts
+       • packages/bootstrap/scripts/test/testTypeScriptVersions.ts
+     📄 Files WITHOUT CatchClause (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TSTupleType:
+     📄 Files WITH TSTupleType (showing 10):
+       • packages/common/src/errors.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/common/src/utils/StringUtils.ts
+       • packages/ts-morph/src/manipulation/textChecks.ts
+       • packages/common/src/tests/fileSystem/transactionalFileSystemTests.ts
+       • packages/ts-morph/src/tests/testHelpers/fileSystemHostHelpers.ts
+       • packages/ts-morph/src/manipulation/nodeHandlers/NodeHandlerHelper.ts
+       • packages/ts-morph/src/compiler/tools/LanguageService.ts
+     📄 Files WITHOUT TSTupleType (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   WhileStatement:
+     📄 Files WITH WhileStatement (showing 10):
+       • packages/common/src/utils/StringUtils.ts
+       • packages/common/src/utils/ArrayUtils.ts
+       • packages/common/src/fileSystem/TransactionalFileSystem.ts
+       • packages/ts-morph/src/utils/AdvancedIterator.ts
+       • packages/ts-morph/src/factories/InProjectCoordinator.ts
+       • packages/ts-morph/src/factories/DirectoryCache.ts
+       • packages/ts-morph/src/factories/CompilerFactory.ts
+       • packages/ts-morph/scripts/markdown/parseMarkDown.ts
+       • packages/ts-morph/src/utils/compiler/printNode.ts
+       • packages/ts-morph/src/utils/compiler/createWrappedNode.ts
+     📄 Files WITHOUT WhileStatement (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   BreakStatement:
+     📄 Files WITH BreakStatement (showing 10):
+       • packages/common/src/utils/StringUtils.ts
+       • packages/common/src/fileSystem/TransactionalFileSystem.ts
+       • packages/ts-morph/src/factories/ForgetfulNodeCache.ts
+       • packages/ts-morph/src/factories/DirectoryCache.ts
+       • packages/ts-morph/src/structurePrinters/statement/StatementStructurePrinter.ts
+       • packages/ts-morph/src/structurePrinters/interface/TypeElementMemberStructurePrinter.ts
+       • packages/ts-morph/src/structurePrinters/class/ClassMemberStructurePrinter.ts
+       • packages/ts-morph/src/manipulation/textSeek/getPreviousMatchingPos.ts
+       • packages/ts-morph/src/manipulation/textSeek/getNextMatchingPos.ts
+       • packages/ts-morph/src/manipulation/manipulations/insertion.ts
+     📄 Files WITHOUT BreakStatement (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   ContinueStatement:
+     📄 Files WITH ContinueStatement (showing 10):
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/common/scripts/createLibFile.ts
+       • packages/common/scripts/buildDeno.ts
+       • packages/common/scripts/buildDeclarations.ts
+       • packages/bootstrap/scripts/buildDeclarations.ts
+       • packages/common/src/utils/StringUtils.ts
+       • packages/common/src/fileSystem/FileUtils.ts
+       • packages/ts-morph/src/structurePrinters/Writers.ts
+       • packages/ts-morph/src/manipulation/textChecks.ts
+       • packages/ts-morph/src/fileSystem/Directory.ts
+     📄 Files WITHOUT ContinueStatement (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+
+   ClassExpression:
+     📄 Files WITH ClassExpression (showing 10):
+       • packages/ts-morph/src/compiler/ast/statement/StatementedNode.ts
+       • packages/ts-morph/src/compiler/ast/function/OverloadableNode.ts
+       • packages/ts-morph/src/compiler/ast/module/ModuleChildableNode.ts
+       • packages/ts-morph/src/compiler/ast/base/UnwrappableNode.ts
+       • packages/ts-morph/src/compiler/ast/base/TypedNode.ts
+       • packages/ts-morph/src/compiler/ast/base/TypeParameteredNode.ts
+       • packages/ts-morph/src/compiler/ast/base/TypeElementMemberedNode.ts
+       • packages/ts-morph/src/compiler/ast/base/TypeArgumentedNode.ts
+       • packages/ts-morph/src/compiler/ast/base/TextInsertableNode.ts
+       • packages/ts-morph/src/compiler/ast/base/StaticableNode.ts
+     📄 Files WITHOUT ClassExpression (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   RestElement:
+     📄 Files WITH RestElement (showing 10):
+       • packages/scripts/utils/Memoize.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/ts-morph/src/types.ts
+       • packages/ts-morph/src/Project.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/common/src/runtimes/Runtime.ts
+       • packages/common/src/runtimes/NodeRuntime.ts
+       • packages/common/src/runtimes/DenoRuntime.ts
+       • packages/common/src/runtimes/BrowserRuntime.ts
+     📄 Files WITHOUT RestElement (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TSImportEqualsDeclaration:
+     📄 Files WITH TSImportEqualsDeclaration (showing 2):
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+     📄 Files WITHOUT TSImportEqualsDeclaration (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   ImportNamespaceSpecifier:
+     📄 Files WITH ImportNamespaceSpecifier (showing 10):
+       • packages/common/src/types.d.ts
+       • packages/common/src/typescript/public.ts
+       • packages/common/src/runtimes/NodeRuntime.ts
+       • packages/common/src/runtimes/DenoRuntime.ts
+       • packages/common/src/runtimes/BrowserRuntime.ts
+       • packages/ts-morph/src/tests/projectTests.ts
+       • packages/ts-morph/src/factories/kindToWrapperMappings.ts
+       • packages/ts-morph/src/factories/StructurePrinterFactory.ts
+       • packages/ts-morph/src/tests/manipulation/getMixinStructureFunctionsTests.ts
+       • packages/ts-morph/src/manipulation/helpers/getStructureFunctions.ts
+     📄 Files WITHOUT ImportNamespaceSpecifier (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TSNeverKeyword:
+     📄 Files WITH TSNeverKeyword (showing 10):
+       • packages/common/src/errors.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/ts-morph/src/typings.ts
+       • packages/ts-morph/src/types.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/common/src/fileSystem/TransactionalFileSystem.ts
+       • packages/ts-morph/src/manipulation/manipulations/doManipulation.ts
+       • packages/ts-morph/src/compiler/ast/utils/CommentNodeParser.ts
+       • packages/ts-morph/src/compiler/ast/type/NamedTupleMember.ts
+     📄 Files WITHOUT TSNeverKeyword (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TSIndexSignature:
+     📄 Files WITH TSIndexSignature (showing 10):
+       • packages/common/lib/typescript.d.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/common/src/utils/ArrayUtils.ts
+       • packages/common/src/helpers/getSyntaxKindName.ts
+       • packages/ts-morph/src/structurePrinters/Writers.ts
+       • packages/ts-morph/src/factories/kindToWrapperMappings.ts
+       • packages/ts-morph/scripts/inspectors/TsMorphInspector.ts
+       • packages/ts-morph/scripts/inspectors/TsInspector.ts
+       • packages/ts-morph/src/tests/structurePrinters/writersTests.ts
+       • packages/ts-morph/src/compiler/ast/kindToNodeMappings.generated.ts
+     📄 Files WITHOUT TSIndexSignature (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   ArrayPattern:
+     📄 Files WITH ArrayPattern (showing 10):
+       • packages/scripts/execScript.ts
+       • packages/common/scripts/buildDeclarations.ts
+       • packages/bootstrap/scripts/buildDeclarations.ts
+       • packages/common/src/utils/StringUtils.ts
+       • packages/common/src/fileSystem/InMemoryFileSystemHost.ts
+       • packages/ts-morph/src/utils/TypeScriptVersionChecker.ts
+       • packages/ts-morph/scripts/inspectors/TsMorphInspector.ts
+       • packages/ts-morph/src/utils/references/SourceFileReferenceContainer.ts
+       • packages/ts-morph/src/manipulation/nodeHandlers/UnwrapParentHandler.ts
+       • packages/ts-morph/src/manipulation/nodeHandlers/StraightReplacementNodeHandler.ts
+     📄 Files WITHOUT ArrayPattern (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+
+   TSParameterProperty:
+     📄 Files WITH TSParameterProperty (showing 10):
+       • packages/common/src/errors.ts
+       • packages/common/src/fileSystem/TransactionalFileSystem.ts
+       • packages/ts-morph/src/structurePrinters/NodePrinter.ts
+       • packages/ts-morph/src/factories/StructurePrinterFactory.ts
+       • packages/ts-morph/scripts/markdown/MarkDownFile.ts
+       • packages/ts-morph/scripts/markdown/CodeBlock.ts
+       • packages/ts-morph/src/manipulation/nodeHandlers/StraightReplacementNodeHandler.ts
+       • packages/ts-morph/src/manipulation/manipulations/ManipulationError.ts
+       • packages/ts-morph/scripts/inspectors/tsMorph/WrappedNode.ts
+       • packages/ts-morph/scripts/inspectors/tsMorph/Structure.ts
+     📄 Files WITHOUT TSParameterProperty (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TSObjectKeyword:
+     📄 Files WITH TSObjectKeyword (showing 9):
+       • packages/scripts/utils/Memoize.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/bootstrap/lib/ts-morph-bootstrap.d.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/common/src/utils/deepClone.ts
+       • packages/common/src/options/SettingsContainer.ts
+       • packages/common/src/decorators/Memoize.ts
+       • packages/common/src/collections/WeakCache.ts
+     📄 Files WITHOUT TSObjectKeyword (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TSModuleDeclaration:
+     📄 Files WITH TSModuleDeclaration (showing 5):
+       • packages/common/src/types.d.ts
+       • packages/common/src/errors.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/ts-morph/src/tests/compiler/testHelpers/fillStructureWithDefaults.ts
+     📄 Files WITHOUT TSModuleDeclaration (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TSModuleBlock:
+     📄 Files WITH TSModuleBlock (showing 5):
+       • packages/common/src/types.d.ts
+       • packages/common/src/errors.ts
+       • packages/common/lib/typescript.d.ts
+       • packages/common/lib/ts-morph-common.d.ts
+       • packages/ts-morph/src/tests/compiler/testHelpers/fillStructureWithDefaults.ts
+     📄 Files WITHOUT TSModuleBlock (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TSInferType:
+     📄 Files WITH TSInferType (showing 5):
+       • packages/ts-morph/src/typings.ts
+       • packages/ts-morph/src/types.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+       • packages/ts-morph/src/compiler/ast/CompilerNodeToWrappedType.ts
+       • packages/ts-morph/src/compiler/ast/common/Node.ts
+     📄 Files WITHOUT TSInferType (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   ImportDefaultSpecifier:
+     📄 Files WITH ImportDefaultSpecifier (showing 6):
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+       • packages/common/src/runtimes/NodeRuntime.ts
+       • packages/common/src/runtimes/BrowserRuntime.ts
+       • packages/ts-morph/src/codeBlockWriter/code-block-writer.ts
+     📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/scripts/utils/printDiagnostics.ts
+       • packages/scripts/utils/mod.ts
+
+   TSMappedType:
+     📄 Files WITH TSMappedType (showing 2):
+       • packages/common/lib/typescript.d.ts
+       • packages/ts-morph/src/typings.ts
+     📄 Files WITHOUT TSMappedType (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TSAbstractMethodDefinition:
+     📄 Files WITH TSAbstractMethodDefinition (showing 4):
+       • packages/common/lib/typescript.d.ts
+       • packages/ts-morph/src/structurePrinters/Printer.ts
+       • packages/ts-morph/src/structurePrinters/NodePrinter.ts
+       • packages/ts-morph/src/utils/logging/EnableableLogger.ts
+     📄 Files WITHOUT TSAbstractMethodDefinition (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   MetaProperty:
+     📄 Files WITH MetaProperty (showing 3):
+       • packages/scripts/folders.ts
+       • packages/ts-morph/src/tests/projectTests.ts
+       • packages/common/src/tests/fileSystem/realFileSystemHostTests.ts
+     📄 Files WITHOUT MetaProperty (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+
+   TSCallSignatureDeclaration:
+     📄 Files WITH TSCallSignatureDeclaration (showing 1):
+       • packages/common/lib/typescript.d.ts
+     📄 Files WITHOUT TSCallSignatureDeclaration (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TSConstructorType:
+     📄 Files WITH TSConstructorType (showing 2):
+       • packages/ts-morph/src/types.ts
+       • packages/ts-morph/lib/ts-morph.d.ts
+     📄 Files WITHOUT TSConstructorType (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   ExportDefaultDeclaration:
+     📄 Files WITH ExportDefaultDeclaration (showing 3):
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+       • packages/ts-morph/rollup.config.mjs
+     📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/scripts/utils/printDiagnostics.ts
+       • packages/scripts/utils/mod.ts
+
+   DoWhileStatement:
+     📄 Files WITH DoWhileStatement (showing 2):
+       • packages/ts-morph/src/compiler/ast/common/Node.ts
+       • packages/ts-morph/src/compiler/ast/module/ModuleDeclaration.ts
+     📄 Files WITHOUT DoWhileStatement (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TSAbstractPropertyDefinition:
+     📄 Files WITH TSAbstractPropertyDefinition (showing 2):
+       • packages/common/lib/typescript.d.ts
+       • packages/ts-morph/src/compiler/ast/comment/CompilerComments.ts
+     📄 Files WITHOUT TSAbstractPropertyDefinition (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TSExportAssignment:
+     📄 Files WITH TSExportAssignment (showing 1):
+       • packages/common/src/types.d.ts
+     📄 Files WITHOUT TSExportAssignment (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+   TSNullKeyword:
+     📄 Files WITH TSNullKeyword (showing 1):
+       • packages/common/lib/typescript.d.ts
+     📄 Files WITHOUT TSNullKeyword (showing 10):
+       • docs/_script-templates/main.ts
+       • packages/scripts/mod.ts
+       • packages/scripts/getDevCompilerVersions.ts
+       • packages/scripts/folders.ts
+       • packages/scripts/execScript.ts
+       • packages/scripts/deps.ts
+       • packages/scripts/createDeclarationProject.ts
+       • packages/scripts/changeTypeScriptVersion.ts
+       • packages/common/rollup.config.mjs
+       • packages/bootstrap/rollup.config.mjs
+
+============================================================
+✅ Analysis complete!

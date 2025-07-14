@@ -1,5 +1,5 @@
 AST Analysis Report for mocha
-Generated on: 2025-07-14T01:42:05.742Z
+Generated on: 2025-07-14T01:56:31.974Z
 Repository: sample-repos/mocha
 ================================================================================
 
@@ -167,11 +167,11 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • scripts/karma-rollup-plugin.js
+       • test/setup.js
      📄 Files WITHOUT Identifier (showing 1):
        • docs-next/src/env.d.ts
 
@@ -182,11 +182,11 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • scripts/karma-rollup-plugin.js
+       • test/setup.js
      📄 Files WITHOUT Literal (showing 1):
        • docs-next/src/env.d.ts
 
@@ -197,11 +197,11 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • scripts/karma-rollup-plugin.js
+       • test/setup.js
      📄 Files WITHOUT CallExpression (showing 2):
        • lib/pending.js
        • docs-next/src/env.d.ts
@@ -213,22 +213,22 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • scripts/karma-rollup-plugin.js
+       • test/setup.js
      📄 Files WITHOUT MemberExpression (showing 10):
        • docs-next/astro.config.ts
        • test/unit/parse-query.spec.js
        • test/unit/overspecified-async.spec.js
        • test/unit/hook-timeout.spec.js
        • test/unit/duration.spec.js
+       • test/interfaces/qunit.spec.js
        • test/compiler-esm/test.js
        • test/compiler-esm/test-tla.js
        • test/compiler-cjs/test.ts
        • test/compiler-cjs/test.js
-       • test/interfaces/qunit.spec.js
 
    ExpressionStatement:
      📄 Files WITH ExpressionStatement (showing 10):
@@ -237,11 +237,11 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • scripts/karma-rollup-plugin.js
+       • test/setup.js
      📄 Files WITHOUT ExpressionStatement (showing 5):
        • docs-next/astro.config.ts
        • test/compiler-fixtures/esm-loader.fixture.mjs
@@ -254,30 +254,30 @@ Repository: sample-repos/mocha
        • rollup.config.js
        • karma.conf.js
        • browser-entry.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/karma-rollup-plugin.js
+       • test/assertions.js
        • lib/utils.js
        • lib/test.js
        • lib/suite.js
      📄 Files WITHOUT BlockStatement (showing 10):
        • index.js
        • eslint.config.js
-       • test/setup.js
        • scripts/linkify-changelog.mjs
+       • test/setup.js
        • docs-next/astro.config.ts
        • test/require/c.js
        • test/require/a.js
        • test/compiler-fixtures/esm.fixture.js
        • test/browser-specific/setup.js
-       • lib/reporters/index.js
+       • lib/cli/index.js
 
    FunctionExpression:
      📄 Files WITH FunctionExpression (showing 10):
        • browser-entry.js
-       • test/assertions.js
        • scripts/karma-rollup-plugin.js
+       • test/assertions.js
        • lib/utils.js
        • lib/test.js
        • lib/suite.js
@@ -290,10 +290,10 @@ Repository: sample-repos/mocha
        • karma.conf.js
        • index.js
        • eslint.config.js
-       • test/setup.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • test/setup.js
        • lib/pending.js
        • docs-next/astro.config.ts
 
@@ -303,12 +303,12 @@ Repository: sample-repos/mocha
        • karma.conf.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
        • scripts/karma-rollup-plugin.js
+       • test/setup.js
+       • test/assertions.js
      📄 Files WITHOUT VariableDeclarator (showing 10):
        • index.js
        • lib/pending.js
@@ -327,12 +327,12 @@ Repository: sample-repos/mocha
        • karma.conf.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
        • scripts/karma-rollup-plugin.js
+       • test/setup.js
+       • test/assertions.js
      📄 Files WITHOUT VariableDeclaration (showing 10):
        • index.js
        • lib/pending.js
@@ -351,11 +351,11 @@ Repository: sample-repos/mocha
        • karma.conf.js
        • eslint.config.js
        • browser-entry.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
        • scripts/karma-rollup-plugin.js
+       • test/assertions.js
        • lib/utils.js
      📄 Files WITHOUT Property (showing 10):
        • index.js
@@ -375,11 +375,11 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/karma-rollup-plugin.js
+       • test/setup.js
+       • test/assertions.js
        • lib/utils.js
      📄 Files WITHOUT AssignmentExpression (showing 10):
        • rollup.config.js
@@ -399,11 +399,11 @@ Repository: sample-repos/mocha
        • karma.conf.js
        • eslint.config.js
        • browser-entry.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
        • scripts/karma-rollup-plugin.js
+       • test/assertions.js
        • lib/utils.js
      📄 Files WITHOUT ObjectExpression (showing 10):
        • index.js
@@ -422,8 +422,8 @@ Repository: sample-repos/mocha
        • rollup.config.js
        • karma.conf.js
        • browser-entry.js
-       • test/assertions.js
        • scripts/karma-rollup-plugin.js
+       • test/assertions.js
        • lib/utils.js
        • lib/test.js
        • lib/suite.js
@@ -432,10 +432,10 @@ Repository: sample-repos/mocha
      📄 Files WITHOUT BinaryExpression (showing 10):
        • index.js
        • eslint.config.js
-       • test/setup.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • test/setup.js
        • lib/pending.js
        • lib/hook.js
        • lib/context.js
@@ -455,9 +455,9 @@ Repository: sample-repos/mocha
        • lib/runner.js
      📄 Files WITHOUT ArrayExpression (showing 10):
        • index.js
+       • scripts/pick-from-package-json.js
        • test/setup.js
        • test/assertions.js
-       • scripts/pick-from-package-json.js
        • lib/test.js
        • lib/stats-collector.js
        • lib/pending.js
@@ -482,11 +482,11 @@ Repository: sample-repos/mocha
        • karma.conf.js
        • index.js
        • eslint.config.js
-       • test/setup.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
        • scripts/karma-rollup-plugin.js
+       • test/setup.js
        • lib/utils.js
 
    ReturnStatement:
@@ -494,18 +494,18 @@ Repository: sample-repos/mocha
        • rollup.config.js
        • karma.conf.js
        • browser-entry.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/karma-rollup-plugin.js
+       • test/assertions.js
        • lib/utils.js
        • lib/test.js
        • lib/suite.js
      📄 Files WITHOUT ReturnStatement (showing 10):
        • index.js
        • eslint.config.js
-       • test/setup.js
        • scripts/linkify-changelog.mjs
+       • test/setup.js
        • lib/stats-collector.js
        • lib/pending.js
        • docs-next/astro.config.ts
@@ -529,10 +529,10 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • test/setup.js
+       • test/assertions.js
        • lib/test.js
        • lib/suite.js
        • lib/stats-collector.js
@@ -542,18 +542,18 @@ Repository: sample-repos/mocha
        • rollup.config.js
        • karma.conf.js
        • browser-entry.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/karma-rollup-plugin.js
+       • test/assertions.js
        • lib/utils.js
        • lib/test.js
        • lib/suite.js
      📄 Files WITHOUT IfStatement (showing 10):
        • index.js
        • eslint.config.js
-       • test/setup.js
        • scripts/linkify-changelog.mjs
+       • test/setup.js
        • lib/pending.js
        • docs-next/astro.config.ts
        • test/unit/timeout.spec.js
@@ -564,10 +564,10 @@ Repository: sample-repos/mocha
    NewExpression:
      📄 Files WITH NewExpression (showing 10):
        • browser-entry.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/linkify-changelog.mjs
        • scripts/karma-rollup-plugin.js
+       • test/assertions.js
        • lib/utils.js
        • lib/test.js
        • lib/suite.js
@@ -578,8 +578,8 @@ Repository: sample-repos/mocha
        • karma.conf.js
        • index.js
        • eslint.config.js
-       • test/setup.js
        • scripts/pick-from-package-json.js
+       • test/setup.js
        • lib/pending.js
        • lib/hook.js
        • lib/context.js
@@ -589,10 +589,10 @@ Repository: sample-repos/mocha
      📄 Files WITH ArrowFunctionExpression (showing 10):
        • rollup.config.js
        • karma.conf.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/karma-rollup-plugin.js
+       • test/assertions.js
        • lib/utils.js
        • lib/runner.js
        • lib/plugin-loader.js
@@ -601,8 +601,8 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
        • scripts/linkify-changelog.mjs
+       • test/setup.js
        • lib/test.js
        • lib/suite.js
        • lib/stats-collector.js
@@ -613,9 +613,9 @@ Repository: sample-repos/mocha
      📄 Files WITH UnaryExpression (showing 10):
        • rollup.config.js
        • browser-entry.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/karma-rollup-plugin.js
+       • test/assertions.js
        • lib/utils.js
        • lib/test.js
        • lib/suite.js
@@ -625,9 +625,9 @@ Repository: sample-repos/mocha
        • karma.conf.js
        • index.js
        • eslint.config.js
-       • test/setup.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • test/setup.js
        • lib/pending.js
        • docs-next/astro.config.ts
        • test/unit/timeout.spec.js
@@ -637,9 +637,9 @@ Repository: sample-repos/mocha
      📄 Files WITH LogicalExpression (showing 10):
        • karma.conf.js
        • browser-entry.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/karma-rollup-plugin.js
+       • test/assertions.js
        • lib/utils.js
        • lib/test.js
        • lib/suite.js
@@ -649,9 +649,9 @@ Repository: sample-repos/mocha
        • rollup.config.js
        • index.js
        • eslint.config.js
-       • test/setup.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • test/setup.js
        • lib/pending.js
        • lib/context.js
        • docs-next/astro.config.ts
@@ -673,10 +673,10 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • test/setup.js
+       • test/assertions.js
        • lib/utils.js
        • lib/test.js
        • lib/suite.js
@@ -688,11 +688,11 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • scripts/karma-rollup-plugin.js
+       • test/setup.js
      📄 Files WITHOUT Program: (all files contain this node type)
 
    FunctionDeclaration:
@@ -712,19 +712,19 @@ Repository: sample-repos/mocha
        • karma.conf.js
        • index.js
        • eslint.config.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/linkify-changelog.mjs
+       • test/setup.js
+       • test/assertions.js
        • lib/plugin-loader.js
        • docs-next/astro.config.ts
 
    ObjectPattern:
      📄 Files WITH ObjectPattern (showing 10):
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/karma-rollup-plugin.js
+       • test/assertions.js
        • lib/test.js
        • lib/suite.js
        • lib/runner.js
@@ -737,8 +737,8 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
        • scripts/linkify-changelog.mjs
+       • test/setup.js
        • lib/utils.js
        • lib/stats-collector.js
        • lib/pending.js
@@ -746,8 +746,8 @@ Repository: sample-repos/mocha
    ParenthesizedExpression:
      📄 Files WITH ParenthesizedExpression (showing 10):
        • karma.conf.js
-       • test/assertions.js
        • scripts/karma-rollup-plugin.js
+       • test/assertions.js
        • lib/utils.js
        • lib/suite.js
        • lib/runner.js
@@ -760,10 +760,10 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • test/setup.js
        • lib/test.js
        • lib/stats-collector.js
 
@@ -783,10 +783,10 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • test/setup.js
+       • test/assertions.js
        • lib/utils.js
        • lib/test.js
        • lib/suite.js
@@ -809,11 +809,11 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • test/setup.js
+       • test/assertions.js
 
    ThrowStatement:
      📄 Files WITH ThrowStatement (showing 10):
@@ -832,18 +832,18 @@ Repository: sample-repos/mocha
        • karma.conf.js
        • index.js
        • eslint.config.js
-       • test/setup.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
        • scripts/karma-rollup-plugin.js
+       • test/setup.js
        • lib/pending.js
 
    ConditionalExpression:
      📄 Files WITH ConditionalExpression (showing 10):
        • karma.conf.js
-       • test/assertions.js
        • scripts/karma-rollup-plugin.js
+       • test/assertions.js
        • lib/utils.js
        • lib/suite.js
        • lib/runner.js
@@ -856,10 +856,10 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • test/setup.js
        • lib/test.js
        • lib/stats-collector.js
 
@@ -874,16 +874,16 @@ Repository: sample-repos/mocha
        • test/unit/mocha.spec.js
        • test/node-unit/parallel-buffered-runner.spec.js
        • test/integration/helpers.js
-       • lib/nodejs/serializer.js
+       • lib/cli/watch-run.js
      📄 Files WITHOUT SpreadElement (showing 10):
        • rollup.config.js
        • index.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • test/setup.js
+       • test/assertions.js
        • lib/utils.js
        • lib/test.js
 
@@ -895,21 +895,21 @@ Repository: sample-repos/mocha
        • lib/mocha.js
        • lib/errors.js
        • test/integration/helpers.js
-       • lib/reporters/json.js
-       • lib/nodejs/worker.js
-       • lib/nodejs/serializer.js
-       • lib/nodejs/parallel-buffered-runner.js
+       • lib/cli/watch-run.js
+       • lib/cli/run-helpers.js
+       • lib/cli/options.js
+       • lib/cli/node-flags.js
      📄 Files WITHOUT AssignmentPattern (showing 10):
        • rollup.config.js
        • karma.conf.js
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • test/setup.js
+       • test/assertions.js
 
    TryStatement:
      📄 Files WITH TryStatement (showing 10):
@@ -928,12 +928,12 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
        • scripts/karma-rollup-plugin.js
+       • test/setup.js
+       • test/assertions.js
 
    UpdateExpression:
      📄 Files WITH UpdateExpression (showing 10):
@@ -946,18 +946,18 @@ Repository: sample-repos/mocha
        • test/reporters/xunit.spec.js
        • test/reporters/helpers.js
        • test/reporters/base.spec.js
-       • test/integration/reporters.spec.js
+       • test/interfaces/qunit.spec.js
      📄 Files WITHOUT UpdateExpression (showing 10):
        • rollup.config.js
        • karma.conf.js
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • scripts/karma-rollup-plugin.js
+       • test/setup.js
 
    SwitchCase:
      📄 Files WITH SwitchCase (showing 7):
@@ -966,19 +966,19 @@ Repository: sample-repos/mocha
        • lib/errors.js
        • test/reporters/helpers.js
        • lib/reporters/html.js
-       • lib/interfaces/exports.js
        • lib/nodejs/serializer.js
+       • lib/interfaces/exports.js
      📄 Files WITHOUT SwitchCase (showing 10):
        • rollup.config.js
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
        • scripts/karma-rollup-plugin.js
+       • test/setup.js
+       • test/assertions.js
 
    CatchClause:
      📄 Files WITH CatchClause (showing 10):
@@ -997,21 +997,21 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
        • scripts/karma-rollup-plugin.js
+       • test/setup.js
+       • test/assertions.js
 
    MethodDefinition:
      📄 Files WITH MethodDefinition (showing 7):
        • lib/runner.js
        • lib/plugin-loader.js
+       • lib/cli/watch-run.js
        • lib/nodejs/serializer.js
        • lib/nodejs/parallel-buffered-runner.js
        • lib/nodejs/buffered-worker-pool.js
-       • lib/cli/watch-run.js
        • lib/nodejs/reporters/parallel-buffered.js
      📄 Files WITHOUT MethodDefinition (showing 10):
        • rollup.config.js
@@ -1019,32 +1019,32 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • scripts/karma-rollup-plugin.js
+       • test/setup.js
 
    RestElement:
      📄 Files WITH RestElement (showing 7):
        • test/assertions.js
        • lib/mocha.js
        • lib/errors.js
+       • lib/cli/options.js
        • lib/nodejs/serializer.js
        • lib/nodejs/parallel-buffered-runner.js
        • lib/nodejs/buffered-worker-pool.js
-       • lib/cli/options.js
      📄 Files WITHOUT RestElement (showing 10):
        • rollup.config.js
        • karma.conf.js
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
        • scripts/karma-rollup-plugin.js
+       • test/setup.js
 
    ImportDeclaration:
      📄 Files WITH ImportDeclaration (showing 8):
@@ -1061,11 +1061,11 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/karma-rollup-plugin.js
+       • test/setup.js
+       • test/assertions.js
        • lib/utils.js
 
    ForStatement:
@@ -1086,28 +1086,28 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • scripts/karma-rollup-plugin.js
+       • test/setup.js
 
    BreakStatement:
      📄 Files WITH BreakStatement (showing 3):
        • lib/utils.js
-       • lib/interfaces/exports.js
        • lib/nodejs/serializer.js
+       • lib/interfaces/exports.js
      📄 Files WITHOUT BreakStatement (showing 10):
        • rollup.config.js
        • karma.conf.js
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • scripts/karma-rollup-plugin.js
+       • test/setup.js
 
    WhileStatement:
      📄 Files WITH WhileStatement (showing 8):
@@ -1124,12 +1124,12 @@ Repository: sample-repos/mocha
        • karma.conf.js
        • index.js
        • eslint.config.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
        • scripts/karma-rollup-plugin.js
+       • test/setup.js
+       • test/assertions.js
 
    ImportDefaultSpecifier:
      📄 Files WITH ImportDefaultSpecifier (showing 6):
@@ -1144,11 +1144,11 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/karma-rollup-plugin.js
+       • test/setup.js
+       • test/assertions.js
        • lib/utils.js
 
    ImportSpecifier:
@@ -1164,11 +1164,11 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/karma-rollup-plugin.js
+       • test/setup.js
+       • test/assertions.js
        • lib/utils.js
 
    ArrayPattern:
@@ -1185,12 +1185,12 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
        • scripts/karma-rollup-plugin.js
+       • test/setup.js
+       • test/assertions.js
 
    ForOfStatement:
      📄 Files WITH ForOfStatement (showing 9):
@@ -1198,9 +1198,9 @@ Repository: sample-repos/mocha
        • scripts/karma-rollup-plugin.js
        • lib/plugin-loader.js
        • lib/mocha.js
-       • lib/nodejs/esm-utils.js
        • lib/cli/watch-run.js
        • lib/cli/run-helpers.js
+       • lib/nodejs/esm-utils.js
        • docs/_data/files.js
        • test/integration/options/watch.spec.js
      📄 Files WITHOUT ForOfStatement (showing 10):
@@ -1209,10 +1209,10 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/linkify-changelog.mjs
+       • test/setup.js
+       • test/assertions.js
        • lib/utils.js
 
    SwitchStatement:
@@ -1222,28 +1222,28 @@ Repository: sample-repos/mocha
        • lib/errors.js
        • test/reporters/helpers.js
        • lib/reporters/html.js
-       • lib/interfaces/exports.js
        • lib/nodejs/serializer.js
+       • lib/interfaces/exports.js
      📄 Files WITHOUT SwitchStatement (showing 10):
        • rollup.config.js
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
        • scripts/karma-rollup-plugin.js
+       • test/setup.js
+       • test/assertions.js
 
    ClassBody:
      📄 Files WITH ClassBody (showing 8):
        • lib/runner.js
        • lib/plugin-loader.js
+       • lib/cli/watch-run.js
        • lib/nodejs/serializer.js
        • lib/nodejs/parallel-buffered-runner.js
        • lib/nodejs/buffered-worker-pool.js
-       • lib/cli/watch-run.js
        • test/node-unit/reporters/parallel-buffered.spec.js
        • lib/nodejs/reporters/parallel-buffered.js
      📄 Files WITHOUT ClassBody (showing 10):
@@ -1252,11 +1252,11 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • scripts/karma-rollup-plugin.js
+       • test/setup.js
 
    ExportNamedDeclaration:
      📄 Files WITH ExportNamedDeclaration (showing 9):
@@ -1275,20 +1275,20 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • scripts/karma-rollup-plugin.js
+       • test/setup.js
 
    ClassDeclaration:
      📄 Files WITH ClassDeclaration (showing 7):
        • lib/runner.js
        • lib/plugin-loader.js
+       • lib/cli/watch-run.js
        • lib/nodejs/serializer.js
        • lib/nodejs/parallel-buffered-runner.js
        • lib/nodejs/buffered-worker-pool.js
-       • lib/cli/watch-run.js
        • lib/nodejs/reporters/parallel-buffered.js
      📄 Files WITHOUT ClassDeclaration (showing 10):
        • rollup.config.js
@@ -1296,11 +1296,11 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • scripts/karma-rollup-plugin.js
+       • test/setup.js
 
    ForInStatement:
      📄 Files WITH ForInStatement (showing 4):
@@ -1314,11 +1314,11 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • scripts/karma-rollup-plugin.js
+       • test/setup.js
 
    ContinueStatement:
      📄 Files WITH ContinueStatement (showing 4):
@@ -1332,11 +1332,11 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • scripts/karma-rollup-plugin.js
+       • test/setup.js
 
    Super:
      📄 Files WITH Super (showing 3):
@@ -1349,11 +1349,11 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • scripts/karma-rollup-plugin.js
+       • test/setup.js
 
    ExportDefaultDeclaration:
      📄 Files WITH ExportDefaultDeclaration (showing 3):
@@ -1365,11 +1365,11 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/linkify-changelog.mjs
        • scripts/karma-rollup-plugin.js
+       • test/setup.js
+       • test/assertions.js
        • lib/utils.js
 
    TSTypeAnnotation:
@@ -1383,11 +1383,11 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • scripts/karma-rollup-plugin.js
+       • test/setup.js
 
    TSUnknownKeyword:
      📄 Files WITH TSUnknownKeyword (showing 3):
@@ -1400,11 +1400,11 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • scripts/karma-rollup-plugin.js
+       • test/setup.js
 
    MetaProperty:
      📄 Files WITH MetaProperty (showing 2):
@@ -1416,11 +1416,11 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/karma-rollup-plugin.js
+       • test/setup.js
+       • test/assertions.js
 
    TSEnumDeclaration:
      📄 Files WITH TSEnumDeclaration (showing 2):
@@ -1432,11 +1432,11 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • scripts/karma-rollup-plugin.js
+       • test/setup.js
 
    TSEnumBody:
      📄 Files WITH TSEnumBody (showing 2):
@@ -1448,11 +1448,11 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • scripts/karma-rollup-plugin.js
+       • test/setup.js
 
    TSEnumMember:
      📄 Files WITH TSEnumMember (showing 2):
@@ -1464,11 +1464,11 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • scripts/karma-rollup-plugin.js
+       • test/setup.js
 
    Hashbang:
      📄 Files WITH Hashbang (showing 1):
@@ -1479,11 +1479,11 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • scripts/karma-rollup-plugin.js
+       • test/setup.js
 
    EmptyStatement:
      📄 Files WITH EmptyStatement (showing 1):
@@ -1494,11 +1494,11 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • scripts/karma-rollup-plugin.js
+       • test/setup.js
 
    ImportExpression:
      📄 Files WITH ImportExpression (showing 1):
@@ -1509,11 +1509,11 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • scripts/karma-rollup-plugin.js
+       • test/setup.js
 
    ClassExpression:
      📄 Files WITH ClassExpression (showing 1):
@@ -1524,11 +1524,11 @@ Repository: sample-repos/mocha
        • index.js
        • eslint.config.js
        • browser-entry.js
-       • test/setup.js
-       • test/assertions.js
        • scripts/update-authors.js
        • scripts/pick-from-package-json.js
        • scripts/linkify-changelog.mjs
+       • scripts/karma-rollup-plugin.js
+       • test/setup.js
 
 ============================================================
 ✅ Analysis complete!

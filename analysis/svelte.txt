@@ -1,5 +1,5 @@
 AST Analysis Report for svelte
-Generated on: 2025-07-14T01:42:32.741Z
+Generated on: 2025-07-14T01:57:02.306Z
 Repository: sample-repos/svelte
 ================================================================================
 
@@ -276,12 +276,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
+       • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
      📄 Files WITHOUT Identifier (showing 10):
        • packages/svelte/src/compiler/private.d.ts
        • packages/svelte/tests/validator/samples/anonymous-declarations/function.svelte.js
@@ -289,8 +289,8 @@ Repository: sample-repos/svelte
        • packages/svelte/tests/server-side-rendering/samples/import-non-component/problems.js
        • packages/svelte/tests/server-side-rendering/samples/import-non-component/answer.js
        • packages/svelte/tests/runtime-legacy/samples/onmount-sibling-order/result.js
-       • packages/svelte/tests/runtime-legacy/samples/lifecycle-render-order/order.js
        • packages/svelte/tests/runtime-legacy/samples/lifecycle-render-order-for-children/order.js
+       • packages/svelte/tests/runtime-legacy/samples/lifecycle-render-order/order.js
        • packages/svelte/tests/snapshot/samples/imports-in-modules/_expected/server/export.js
        • packages/svelte/tests/snapshot/samples/imports-in-modules/_expected/client/export.js
 
@@ -300,17 +300,17 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
        • benchmarking/compare/runner.js
        • benchmarking/compare/index.js
      📄 Files WITHOUT MemberExpression (showing 10):
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
+       • packages/svelte/rollup.config.js
+       • packages/svelte/elements.d.ts
        • packages/svelte/types/index.d.ts
        • packages/svelte/src/version.js
        • packages/svelte/src/index.d.ts
@@ -324,12 +324,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
+       • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
      📄 Files WITHOUT Literal (showing 10):
        • packages/svelte/src/motion/private.d.ts
        • packages/svelte/src/internal/types.d.ts
@@ -348,16 +348,16 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
        • benchmarking/compare/runner.js
      📄 Files WITHOUT CallExpression (showing 10):
+       • playgrounds/sandbox/svelte.config.js
        • packages/svelte/svelte-html.d.ts
        • packages/svelte/elements.d.ts
-       • playgrounds/sandbox/svelte.config.js
        • packages/svelte/types/index.d.ts
        • packages/svelte/src/version.js
        • packages/svelte/src/index.d.ts
@@ -372,23 +372,23 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
      📄 Files WITHOUT Property (showing 10):
        • packages/svelte/svelte-html.d.ts
        • packages/svelte/elements.d.ts
        • benchmarking/compare/runner.js
+       • playgrounds/sandbox/scripts/create-app-svelte.js
+       • packages/svelte/scripts/generate-version.js
        • packages/svelte/src/version.js
        • packages/svelte/src/index.d.ts
        • packages/svelte/src/index-server.js
        • packages/svelte/src/escaping.js
        • packages/svelte/src/constants.js
-       • packages/svelte/src/ambient.d.ts
-       • packages/svelte/scripts/generate-version.js
 
    ExpressionStatement:
      📄 Files WITH ExpressionStatement (showing 10):
@@ -400,15 +400,15 @@ Repository: sample-repos/svelte
        • playgrounds/sandbox/run.js
        • benchmarking/compare/runner.js
        • benchmarking/compare/index.js
-       • packages/svelte/src/utils.js
-       • packages/svelte/src/index-server.js
+       • playgrounds/sandbox/scripts/hash.js
+       • playgrounds/sandbox/scripts/download.js
      📄 Files WITHOUT ExpressionStatement (showing 10):
        • vitest.config.js
+       • playgrounds/sandbox/vite.config.js
+       • playgrounds/sandbox/svelte.config.js
        • packages/svelte/svelte-html.d.ts
        • packages/svelte/rollup.config.js
        • packages/svelte/elements.d.ts
-       • playgrounds/sandbox/vite.config.js
-       • playgrounds/sandbox/svelte.config.js
        • packages/svelte/types/index.d.ts
        • packages/svelte/src/version.js
        • packages/svelte/src/index.d.ts
@@ -425,18 +425,18 @@ Repository: sample-repos/svelte
        • playgrounds/sandbox/run.js
        • benchmarking/compare/runner.js
        • benchmarking/compare/index.js
-       • packages/svelte/src/utils.js
+       • playgrounds/sandbox/scripts/hash.js
      📄 Files WITHOUT BlockStatement (showing 10):
+       • playgrounds/sandbox/vite.config.js
+       • playgrounds/sandbox/svelte.config.js
        • packages/svelte/svelte-html.d.ts
        • packages/svelte/rollup.config.js
        • packages/svelte/elements.d.ts
-       • playgrounds/sandbox/vite.config.js
-       • playgrounds/sandbox/svelte.config.js
        • packages/svelte/types/index.d.ts
+       • packages/svelte/scripts/generate-version.js
        • packages/svelte/src/version.js
        • packages/svelte/src/index.d.ts
        • packages/svelte/src/constants.js
-       • packages/svelte/src/ambient.d.ts
 
    VariableDeclarator:
      📄 Files WITH VariableDeclarator (showing 10):
@@ -449,13 +449,13 @@ Repository: sample-repos/svelte
        • playgrounds/sandbox/run.js
        • benchmarking/compare/runner.js
        • benchmarking/compare/index.js
-       • packages/svelte/types/index.d.ts
+       • playgrounds/sandbox/scripts/hash.js
      📄 Files WITHOUT VariableDeclarator (showing 10):
+       • playgrounds/sandbox/vite.config.js
+       • playgrounds/sandbox/svelte.config.js
        • packages/svelte/svelte-html.d.ts
        • packages/svelte/rollup.config.js
        • packages/svelte/elements.d.ts
-       • playgrounds/sandbox/vite.config.js
-       • playgrounds/sandbox/svelte.config.js
        • packages/svelte/src/transition/public.d.ts
        • packages/svelte/src/store/public.d.ts
        • packages/svelte/src/store/private.d.ts
@@ -473,13 +473,13 @@ Repository: sample-repos/svelte
        • playgrounds/sandbox/run.js
        • benchmarking/compare/runner.js
        • benchmarking/compare/index.js
-       • packages/svelte/types/index.d.ts
+       • playgrounds/sandbox/scripts/hash.js
      📄 Files WITHOUT VariableDeclaration (showing 10):
+       • playgrounds/sandbox/vite.config.js
+       • playgrounds/sandbox/svelte.config.js
        • packages/svelte/svelte-html.d.ts
        • packages/svelte/rollup.config.js
        • packages/svelte/elements.d.ts
-       • playgrounds/sandbox/vite.config.js
-       • playgrounds/sandbox/svelte.config.js
        • packages/svelte/src/transition/public.d.ts
        • packages/svelte/src/store/public.d.ts
        • packages/svelte/src/store/private.d.ts
@@ -492,47 +492,47 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
      📄 Files WITHOUT ObjectExpression (showing 10):
        • packages/svelte/svelte-html.d.ts
        • packages/svelte/elements.d.ts
        • benchmarking/compare/runner.js
+       • playgrounds/sandbox/scripts/create-app-svelte.js
        • packages/svelte/types/index.d.ts
+       • packages/svelte/scripts/generate-version.js
        • packages/svelte/src/version.js
        • packages/svelte/src/index.d.ts
        • packages/svelte/src/index-server.js
        • packages/svelte/src/escaping.js
-       • packages/svelte/src/ambient.d.ts
-       • packages/svelte/scripts/generate-version.js
 
    ImportSpecifier:
      📄 Files WITH ImportSpecifier (showing 10):
        • vitest.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
+       • packages/svelte/elements.d.ts
        • benchmarking/compare/runner.js
      📄 Files WITHOUT ImportSpecifier (showing 10):
        • eslint.config.js
-       • packages/svelte/svelte-html.d.ts
        • playgrounds/sandbox/svelte.config.js
+       • packages/svelte/svelte-html.d.ts
+       • playgrounds/sandbox/scripts/hash.js
+       • playgrounds/sandbox/scripts/download.js
+       • playgrounds/sandbox/scripts/create-app-svelte.js
+       • packages/svelte/scripts/generate-version.js
        • packages/svelte/src/version.js
        • packages/svelte/src/utils.js
        • packages/svelte/src/index.d.ts
-       • packages/svelte/src/html-tree-validation.js
-       • packages/svelte/src/escaping.js
-       • packages/svelte/src/constants.js
-       • packages/svelte/scripts/generate-version.js
 
    BinaryExpression:
      📄 Files WITH BinaryExpression (showing 10):
@@ -542,45 +542,45 @@ Repository: sample-repos/svelte
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/run.js
        • benchmarking/compare/index.js
-       • packages/svelte/src/utils.js
-       • packages/svelte/src/index-client.js
-       • packages/svelte/src/html-tree-validation.js
-       • packages/svelte/src/escaping.js
+       • playgrounds/sandbox/scripts/hash.js
+       • playgrounds/sandbox/scripts/download.js
+       • packages/svelte/scripts/generate-types.js
+       • packages/svelte/scripts/check-treeshakeability.js
      📄 Files WITHOUT BinaryExpression (showing 10):
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-dev.js
+       • packages/svelte/svelte-html.d.ts
+       • packages/svelte/rollup.config.js
+       • packages/svelte/elements.d.ts
        • benchmarking/compare/runner.js
+       • playgrounds/sandbox/scripts/create-app-svelte.js
        • packages/svelte/types/index.d.ts
-       • packages/svelte/src/version.js
 
    Unknown:
      📄 Files WITH Unknown (showing 10):
        • vitest.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/elements.d.ts
        • benchmarking/compare/index.js
-       • packages/svelte/src/utils.js
-       • packages/svelte/src/html-tree-validation.js
+       • playgrounds/sandbox/scripts/hash.js
+       • playgrounds/sandbox/scripts/download.js
      📄 Files WITHOUT Unknown (showing 10):
        • eslint.config.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
+       • packages/svelte/svelte-html.d.ts
+       • packages/svelte/rollup.config.js
        • benchmarking/compare/runner.js
+       • playgrounds/sandbox/scripts/create-app-svelte.js
        • packages/svelte/types/index.d.ts
        • packages/svelte/src/version.js
        • packages/svelte/src/index.d.ts
-       • packages/svelte/src/index-server.js
 
    ImportDeclaration:
      📄 Files WITH ImportDeclaration (showing 10):
@@ -588,12 +588,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
+       • packages/svelte/rollup.config.js
      📄 Files WITHOUT ImportDeclaration (showing 10):
        • playgrounds/sandbox/svelte.config.js
        • packages/svelte/src/version.js
@@ -609,26 +609,26 @@ Repository: sample-repos/svelte
    TemplateElement:
      📄 Files WITH TemplateElement (showing 10):
        • benchmarking/run.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/elements.d.ts
        • benchmarking/compare/index.js
-       • packages/svelte/src/html-tree-validation.js
+       • playgrounds/sandbox/scripts/hash.js
+       • playgrounds/sandbox/scripts/download.js
        • packages/svelte/scripts/generate-version.js
        • packages/svelte/scripts/generate-types.js
-       • packages/svelte/scripts/check-treeshakeability.js
      📄 Files WITHOUT TemplateElement (showing 10):
        • vitest.config.js
        • eslint.config.js
        • benchmarking/utils.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
+       • packages/svelte/svelte-html.d.ts
+       • packages/svelte/rollup.config.js
        • benchmarking/compare/runner.js
+       • playgrounds/sandbox/scripts/create-app-svelte.js
        • packages/svelte/types/index.d.ts
-       • packages/svelte/src/version.js
 
    TSTypeAnnotation:
      📄 Files WITH TSTypeAnnotation (showing 10):
@@ -647,36 +647,36 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
 
    AssignmentExpression:
      📄 Files WITH AssignmentExpression (showing 10):
        • benchmarking/run.js
        • playgrounds/sandbox/ssr-dev.js
        • benchmarking/compare/index.js
+       • playgrounds/sandbox/scripts/hash.js
+       • playgrounds/sandbox/scripts/download.js
+       • packages/svelte/scripts/check-treeshakeability.js
        • packages/svelte/src/utils.js
        • packages/svelte/src/index-server.js
        • packages/svelte/src/index-client.js
        • packages/svelte/src/escaping.js
-       • packages/svelte/scripts/check-treeshakeability.js
-       • packages/svelte/tests/suite.ts
-       • packages/svelte/tests/html_equal.js
      📄 Files WITHOUT AssignmentExpression (showing 10):
        • vitest.config.js
        • eslint.config.js
        • benchmarking/utils.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
+       • packages/svelte/rollup.config.js
+       • packages/svelte/elements.d.ts
 
    TSTypeReference:
      📄 Files WITH TSTypeReference (showing 10):
@@ -695,12 +695,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
 
    IfStatement:
      📄 Files WITH IfStatement (showing 10):
@@ -710,21 +710,21 @@ Repository: sample-repos/svelte
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/run.js
        • benchmarking/compare/index.js
-       • packages/svelte/src/index-client.js
-       • packages/svelte/src/html-tree-validation.js
+       • playgrounds/sandbox/scripts/hash.js
+       • playgrounds/sandbox/scripts/download.js
+       • playgrounds/sandbox/scripts/create-app-svelte.js
        • packages/svelte/scripts/generate-types.js
-       • packages/svelte/scripts/check-treeshakeability.js
      📄 Files WITHOUT IfStatement (showing 10):
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-dev.js
+       • packages/svelte/svelte-html.d.ts
+       • packages/svelte/rollup.config.js
+       • packages/svelte/elements.d.ts
        • benchmarking/compare/runner.js
        • packages/svelte/types/index.d.ts
-       • packages/svelte/src/version.js
+       • packages/svelte/scripts/generate-version.js
 
    TemplateLiteral:
      📄 Files WITH TemplateLiteral (showing 10):
@@ -733,22 +733,22 @@ Repository: sample-repos/svelte
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
        • benchmarking/compare/index.js
-       • packages/svelte/src/html-tree-validation.js
+       • playgrounds/sandbox/scripts/hash.js
+       • playgrounds/sandbox/scripts/download.js
        • packages/svelte/scripts/generate-version.js
        • packages/svelte/scripts/generate-types.js
        • packages/svelte/scripts/check-treeshakeability.js
-       • packages/svelte/tests/suite.ts
      📄 Files WITHOUT TemplateLiteral (showing 10):
        • vitest.config.js
        • eslint.config.js
        • benchmarking/utils.js
+       • playgrounds/sandbox/vite.config.js
+       • playgrounds/sandbox/svelte.config.js
        • packages/svelte/svelte-html.d.ts
        • packages/svelte/rollup.config.js
        • packages/svelte/elements.d.ts
-       • playgrounds/sandbox/vite.config.js
-       • playgrounds/sandbox/svelte.config.js
        • benchmarking/compare/runner.js
-       • packages/svelte/types/index.d.ts
+       • playgrounds/sandbox/scripts/create-app-svelte.js
 
    Program:
      📄 Files WITH Program (showing 10):
@@ -756,12 +756,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
+       • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
      📄 Files WITHOUT Program: (all files contain this node type)
 
    TSPropertySignature:
@@ -781,12 +781,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
 
    ArrowFunctionExpression:
      📄 Files WITH ArrowFunctionExpression (showing 10):
@@ -797,20 +797,20 @@ Repository: sample-repos/svelte
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
        • benchmarking/compare/index.js
-       • packages/svelte/src/index-client.js
-       • packages/svelte/src/html-tree-validation.js
+       • playgrounds/sandbox/scripts/download.js
        • packages/svelte/scripts/generate-types.js
+       • packages/svelte/scripts/check-treeshakeability.js
      📄 Files WITHOUT ArrowFunctionExpression (showing 10):
        • benchmarking/run.js
+       • playgrounds/sandbox/vite.config.js
+       • playgrounds/sandbox/svelte.config.js
        • packages/svelte/svelte-html.d.ts
        • packages/svelte/rollup.config.js
        • packages/svelte/elements.d.ts
-       • playgrounds/sandbox/vite.config.js
-       • playgrounds/sandbox/svelte.config.js
        • benchmarking/compare/runner.js
+       • playgrounds/sandbox/scripts/hash.js
+       • playgrounds/sandbox/scripts/create-app-svelte.js
        • packages/svelte/types/index.d.ts
-       • packages/svelte/src/version.js
-       • packages/svelte/src/utils.js
 
    ArrayExpression:
      📄 Files WITH ArrayExpression (showing 10):
@@ -818,23 +818,23 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
        • benchmarking/compare/runner.js
        • benchmarking/compare/index.js
-       • packages/svelte/src/utils.js
+       • playgrounds/sandbox/scripts/hash.js
      📄 Files WITHOUT ArrayExpression (showing 10):
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
+       • packages/svelte/svelte-html.d.ts
+       • packages/svelte/elements.d.ts
+       • playgrounds/sandbox/scripts/create-app-svelte.js
        • packages/svelte/types/index.d.ts
+       • packages/svelte/scripts/generate-version.js
        • packages/svelte/src/version.js
        • packages/svelte/src/index.d.ts
-       • packages/svelte/src/escaping.js
-       • packages/svelte/src/ambient.d.ts
 
    ReturnStatement:
      📄 Files WITH ReturnStatement (showing 10):
@@ -843,22 +843,22 @@ Repository: sample-repos/svelte
        • benchmarking/utils.js
        • playgrounds/sandbox/ssr-prod.js
        • benchmarking/compare/index.js
+       • playgrounds/sandbox/scripts/hash.js
+       • playgrounds/sandbox/scripts/download.js
+       • packages/svelte/scripts/generate-types.js
+       • packages/svelte/scripts/check-treeshakeability.js
        • packages/svelte/src/utils.js
-       • packages/svelte/src/index-server.js
-       • packages/svelte/src/index-client.js
-       • packages/svelte/src/html-tree-validation.js
-       • packages/svelte/src/escaping.js
      📄 Files WITHOUT ReturnStatement (showing 10):
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
+       • packages/svelte/rollup.config.js
+       • packages/svelte/elements.d.ts
        • benchmarking/compare/runner.js
-       • packages/svelte/types/index.d.ts
+       • playgrounds/sandbox/scripts/create-app-svelte.js
 
    LogicalExpression:
      📄 Files WITH LogicalExpression (showing 10):
@@ -866,21 +866,21 @@ Repository: sample-repos/svelte
        • benchmarking/utils.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/scripts/download.js
+       • packages/svelte/scripts/generate-types.js
+       • packages/svelte/scripts/check-treeshakeability.js
        • packages/svelte/src/utils.js
        • packages/svelte/src/index-client.js
        • packages/svelte/src/html-tree-validation.js
-       • packages/svelte/src/escaping.js
-       • packages/svelte/scripts/generate-types.js
-       • packages/svelte/scripts/check-treeshakeability.js
      📄 Files WITHOUT LogicalExpression (showing 10):
        • eslint.config.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
+       • packages/svelte/rollup.config.js
+       • packages/svelte/elements.d.ts
        • benchmarking/compare/runner.js
        • benchmarking/compare/index.js
 
@@ -891,30 +891,30 @@ Repository: sample-repos/svelte
        • packages/svelte/scripts/check-treeshakeability.js
        • packages/svelte/tests/animation-helpers.js
        • benchmarking/benchmarks/reactivity/mol_bench.js
+       • packages/svelte/scripts/process-messages/index.js
        • packages/svelte/src/store/index-server.js
        • packages/svelte/src/store/index-client.js
        • packages/svelte/src/reactivity/url.js
        • packages/svelte/src/reactivity/url-search-params.js
-       • packages/svelte/src/reactivity/set.js
      📄 Files WITHOUT FunctionExpression (showing 10):
        • vitest.config.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
+       • packages/svelte/rollup.config.js
+       • packages/svelte/elements.d.ts
 
    ExportDefaultDeclaration:
      📄 Files WITH ExportDefaultDeclaration (showing 10):
        • vitest.config.js
        • eslint.config.js
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
+       • packages/svelte/rollup.config.js
        • packages/svelte/types/index.d.ts
        • packages/svelte/src/ambient.d.ts
        • packages/svelte/tests/runtime-browser/driver.js
@@ -923,14 +923,14 @@ Repository: sample-repos/svelte
      📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
+       • packages/svelte/elements.d.ts
        • benchmarking/compare/runner.js
        • benchmarking/compare/index.js
-       • packages/svelte/src/version.js
+       • playgrounds/sandbox/scripts/hash.js
 
    ExportNamedDeclaration:
      📄 Files WITH ExportNamedDeclaration (showing 10):
@@ -948,13 +948,13 @@ Repository: sample-repos/svelte
        • vitest.config.js
        • eslint.config.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
+       • packages/svelte/rollup.config.js
 
    ParenthesizedExpression:
      📄 Files WITH ParenthesizedExpression (showing 10):
@@ -962,22 +962,22 @@ Repository: sample-repos/svelte
        • benchmarking/utils.js
        • playgrounds/sandbox/run.js
        • benchmarking/compare/index.js
+       • playgrounds/sandbox/scripts/download.js
+       • packages/svelte/scripts/check-treeshakeability.js
        • packages/svelte/src/utils.js
        • packages/svelte/src/index-server.js
        • packages/svelte/src/index-client.js
        • packages/svelte/src/html-tree-validation.js
-       • packages/svelte/src/escaping.js
-       • packages/svelte/src/constants.js
      📄 Files WITHOUT ParenthesizedExpression (showing 10):
        • vitest.config.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
+       • packages/svelte/svelte-html.d.ts
+       • packages/svelte/rollup.config.js
+       • packages/svelte/elements.d.ts
        • benchmarking/compare/runner.js
 
    ObjectPattern:
@@ -986,21 +986,21 @@ Repository: sample-repos/svelte
        • benchmarking/run.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/scripts/hash.js
        • packages/svelte/types/index.d.ts
-       • packages/svelte/src/index-client.js
        • packages/svelte/scripts/check-treeshakeability.js
+       • packages/svelte/src/index-client.js
        • packages/svelte/tests/html_equal.js
        • packages/svelte/tests/animation-helpers.js
-       • playgrounds/sandbox/scripts/hash.js
      📄 Files WITHOUT ObjectPattern (showing 10):
        • vitest.config.js
        • eslint.config.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
+       • packages/svelte/rollup.config.js
+       • packages/svelte/elements.d.ts
        • benchmarking/compare/runner.js
        • benchmarking/compare/index.js
 
@@ -1009,24 +1009,24 @@ Repository: sample-repos/svelte
        • benchmarking/utils.js
        • playgrounds/sandbox/run.js
        • benchmarking/compare/index.js
+       • playgrounds/sandbox/scripts/hash.js
+       • packages/svelte/scripts/check-treeshakeability.js
        • packages/svelte/src/utils.js
        • packages/svelte/src/index-server.js
        • packages/svelte/src/index-client.js
        • packages/svelte/src/html-tree-validation.js
        • packages/svelte/src/escaping.js
-       • packages/svelte/scripts/check-treeshakeability.js
-       • packages/svelte/tests/suite.ts
      📄 Files WITHOUT FunctionDeclaration (showing 10):
        • vitest.config.js
        • eslint.config.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
+       • packages/svelte/svelte-html.d.ts
+       • packages/svelte/rollup.config.js
+       • packages/svelte/elements.d.ts
 
    TSUnionType:
      📄 Files WITH TSUnionType (showing 10):
@@ -1045,12 +1045,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
 
    UnaryExpression:
      📄 Files WITH UnaryExpression (showing 10):
@@ -1059,22 +1059,22 @@ Repository: sample-repos/svelte
        • benchmarking/utils.js
        • playgrounds/sandbox/run.js
        • benchmarking/compare/index.js
+       • playgrounds/sandbox/scripts/download.js
+       • playgrounds/sandbox/scripts/create-app-svelte.js
+       • packages/svelte/scripts/check-treeshakeability.js
        • packages/svelte/src/index-client.js
        • packages/svelte/src/html-tree-validation.js
-       • packages/svelte/scripts/check-treeshakeability.js
-       • packages/svelte/tests/suite.ts
-       • packages/svelte/tests/html_equal.js
      📄 Files WITHOUT UnaryExpression (showing 10):
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
+       • packages/svelte/svelte-html.d.ts
+       • packages/svelte/rollup.config.js
+       • packages/svelte/elements.d.ts
        • benchmarking/compare/runner.js
-       • packages/svelte/types/index.d.ts
+       • playgrounds/sandbox/scripts/hash.js
 
    TSTypeParameterInstantiation:
      📄 Files WITH TSTypeParameterInstantiation (showing 10):
@@ -1093,12 +1093,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
 
    ChainExpression:
      📄 Files WITH ChainExpression (showing 10):
@@ -1116,13 +1116,13 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
+       • packages/svelte/rollup.config.js
 
    TSNullKeyword:
      📄 Files WITH TSNullKeyword (showing 10):
@@ -1131,8 +1131,8 @@ Repository: sample-repos/svelte
        • packages/svelte/types/index.d.ts
        • packages/svelte/src/index.d.ts
        • packages/svelte/src/ambient.d.ts
-       • packages/svelte/tests/sourcemaps/test.ts
        • packages/svelte/tests/types/create-event-dispatcher.ts
+       • packages/svelte/tests/sourcemaps/test.ts
        • packages/svelte/tests/signals/test.ts
        • packages/svelte/tests/runtime-legacy/shared.ts
        • packages/svelte/src/internal/server/types.d.ts
@@ -1141,12 +1141,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
 
    TSUndefinedKeyword:
      📄 Files WITH TSUndefinedKeyword (showing 10):
@@ -1165,12 +1165,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
 
    TSLiteralType:
      📄 Files WITH TSLiteralType (showing 10):
@@ -1183,18 +1183,18 @@ Repository: sample-repos/svelte
        • packages/svelte/src/transition/public.d.ts
        • packages/svelte/src/server/index.d.ts
        • packages/svelte/tests/validator/test.ts
-       • packages/svelte/tests/sourcemaps/test.ts
+       • packages/svelte/tests/types/snippet.ts
      📄 Files WITHOUT TSLiteralType (showing 10):
        • vitest.config.js
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
 
    TSStringKeyword:
      📄 Files WITH TSStringKeyword (showing 10):
@@ -1213,36 +1213,36 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
 
    NewExpression:
      📄 Files WITH NewExpression (showing 10):
        • benchmarking/utils.js
        • playgrounds/sandbox/run.js
        • benchmarking/compare/index.js
-       • packages/svelte/src/index-client.js
+       • playgrounds/sandbox/scripts/hash.js
+       • playgrounds/sandbox/scripts/download.js
+       • playgrounds/sandbox/scripts/create-app-svelte.js
        • packages/svelte/scripts/generate-types.js
        • packages/svelte/scripts/check-treeshakeability.js
+       • packages/svelte/src/index-client.js
        • packages/svelte/tests/suite.ts
-       • packages/svelte/tests/html_equal.js
-       • packages/svelte/tests/helpers.js
-       • packages/svelte/tests/animation-helpers.js
      📄 Files WITHOUT NewExpression (showing 10):
        • vitest.config.js
        • eslint.config.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
+       • packages/svelte/svelte-html.d.ts
+       • packages/svelte/rollup.config.js
+       • packages/svelte/elements.d.ts
 
    ThisExpression:
      📄 Files WITH ThisExpression (showing 10):
@@ -1260,36 +1260,36 @@ Repository: sample-repos/svelte
        • vitest.config.js
        • eslint.config.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
+       • packages/svelte/rollup.config.js
 
    ConditionalExpression:
      📄 Files WITH ConditionalExpression (showing 10):
        • vitest.config.js
        • benchmarking/utils.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/scripts/check-treeshakeability.js
        • packages/svelte/src/index-client.js
        • packages/svelte/src/html-tree-validation.js
        • packages/svelte/src/escaping.js
-       • packages/svelte/scripts/check-treeshakeability.js
        • packages/svelte/tests/suite.ts
        • packages/svelte/tests/html_equal.js
        • packages/svelte/tests/helpers.js
      📄 Files WITHOUT ConditionalExpression (showing 10):
        • eslint.config.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
+       • packages/svelte/svelte-html.d.ts
+       • packages/svelte/rollup.config.js
+       • packages/svelte/elements.d.ts
        • benchmarking/compare/runner.js
 
    TSNumberKeyword:
@@ -1302,19 +1302,19 @@ Repository: sample-repos/svelte
        • packages/svelte/src/motion/public.d.ts
        • packages/svelte/src/motion/private.d.ts
        • packages/svelte/src/animate/public.d.ts
-       • packages/svelte/tests/sourcemaps/test.ts
-       • packages/svelte/tests/store/test.ts
+       • packages/svelte/tests/types/snippet.ts
+       • packages/svelte/tests/types/create-event-dispatcher.ts
      📄 Files WITHOUT TSNumberKeyword (showing 10):
        • vitest.config.js
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
 
    AwaitExpression:
      📄 Files WITH AwaitExpression (showing 10):
@@ -1323,22 +1323,22 @@ Repository: sample-repos/svelte
        • playgrounds/sandbox/ssr-dev.js
        • benchmarking/compare/runner.js
        • benchmarking/compare/index.js
+       • playgrounds/sandbox/scripts/hash.js
+       • playgrounds/sandbox/scripts/download.js
        • packages/svelte/scripts/generate-types.js
        • packages/svelte/scripts/check-treeshakeability.js
        • packages/svelte/tests/suite.ts
-       • packages/svelte/tests/helpers.js
-       • playgrounds/sandbox/scripts/hash.js
      📄 Files WITHOUT AwaitExpression (showing 10):
        • vitest.config.js
        • eslint.config.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/run.js
-       • packages/svelte/types/index.d.ts
+       • packages/svelte/svelte-html.d.ts
+       • packages/svelte/rollup.config.js
+       • packages/svelte/elements.d.ts
+       • playgrounds/sandbox/scripts/create-app-svelte.js
 
    PrivateIdentifier:
      📄 Files WITH PrivateIdentifier (showing 10):
@@ -1357,35 +1357,35 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
+       • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
 
    SpreadElement:
      📄 Files WITH SpreadElement (showing 10):
        • vitest.config.js
        • eslint.config.js
        • benchmarking/utils.js
+       • packages/svelte/scripts/generate-types.js
        • packages/svelte/src/utils.js
        • packages/svelte/src/html-tree-validation.js
-       • packages/svelte/scripts/generate-types.js
        • packages/svelte/tests/html_equal.js
        • packages/svelte/tests/helpers.js
+       • packages/svelte/scripts/process-messages/index.js
        • packages/svelte/src/reactivity/url-search-params.js
-       • packages/svelte/src/reactivity/map.test.ts
      📄 Files WITHOUT SpreadElement (showing 10):
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
+       • packages/svelte/rollup.config.js
+       • packages/svelte/elements.d.ts
        • benchmarking/compare/runner.js
 
    ForOfStatement:
@@ -1394,47 +1394,47 @@ Repository: sample-repos/svelte
        • playgrounds/sandbox/run.js
        • benchmarking/compare/runner.js
        • benchmarking/compare/index.js
-       • packages/svelte/src/index-client.js
+       • playgrounds/sandbox/scripts/hash.js
+       • playgrounds/sandbox/scripts/download.js
        • packages/svelte/scripts/generate-types.js
        • packages/svelte/scripts/check-treeshakeability.js
+       • packages/svelte/src/index-client.js
        • packages/svelte/tests/suite.ts
-       • packages/svelte/tests/html_equal.js
-       • packages/svelte/tests/helpers.js
      📄 Files WITHOUT ForOfStatement (showing 10):
        • vitest.config.js
        • eslint.config.js
        • benchmarking/utils.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
+       • packages/svelte/svelte-html.d.ts
+       • packages/svelte/rollup.config.js
+       • packages/svelte/elements.d.ts
 
    ArrayPattern:
      📄 Files WITH ArrayPattern (showing 10):
        • packages/svelte/types/index.d.ts
        • packages/svelte/scripts/generate-types.js
+       • packages/svelte/scripts/process-messages/index.js
        • packages/svelte/src/transition/index.js
        • packages/svelte/src/reactivity/url-search-params.js
        • packages/svelte/src/reactivity/map.js
        • packages/svelte/src/animate/index.js
-       • packages/svelte/scripts/process-messages/index.js
-       • packages/svelte/tests/store/test.ts
        • packages/svelte/tests/types/store.ts
+       • packages/svelte/tests/store/test.ts
        • packages/svelte/src/internal/client/validate.js
      📄 Files WITHOUT ArrayPattern (showing 10):
        • vitest.config.js
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
+       • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
 
    TSAnyKeyword:
      📄 Files WITH TSAnyKeyword (showing 10):
@@ -1453,12 +1453,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
 
    TSInterfaceDeclaration:
      📄 Files WITH TSInterfaceDeclaration (showing 10):
@@ -1477,12 +1477,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
 
    TSInterfaceBody:
      📄 Files WITH TSInterfaceBody (showing 10):
@@ -1501,12 +1501,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
 
    ExportSpecifier:
      📄 Files WITH ExportSpecifier (showing 10):
@@ -1525,20 +1525,20 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
+       • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
 
    ImportNamespaceSpecifier:
      📄 Files WITH ImportNamespaceSpecifier (showing 10):
        • vitest.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
        • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
        • packages/svelte/src/index-server.js
        • packages/svelte/src/index-client.js
        • packages/svelte/tests/helpers.js
@@ -1546,23 +1546,23 @@ Repository: sample-repos/svelte
        • benchmarking/benchmarks/reactivity/mol_bench.js
      📄 Files WITHOUT ImportNamespaceSpecifier (showing 10):
        • eslint.config.js
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
+       • packages/svelte/rollup.config.js
+       • packages/svelte/elements.d.ts
        • benchmarking/compare/runner.js
        • benchmarking/compare/index.js
-       • packages/svelte/types/index.d.ts
+       • playgrounds/sandbox/scripts/hash.js
 
    UpdateExpression:
      📄 Files WITH UpdateExpression (showing 10):
        • benchmarking/utils.js
-       • packages/svelte/src/utils.js
-       • packages/svelte/src/html-tree-validation.js
        • playgrounds/sandbox/scripts/hash.js
        • playgrounds/sandbox/scripts/download.js
+       • packages/svelte/src/utils.js
+       • packages/svelte/src/html-tree-validation.js
        • benchmarking/benchmarks/reactivity/sbench.js
        • benchmarking/benchmarks/reactivity/mol_bench.js
        • packages/svelte/src/easing/index.js
@@ -1572,13 +1572,13 @@ Repository: sample-repos/svelte
        • vitest.config.js
        • eslint.config.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
+       • packages/svelte/rollup.config.js
 
    TSBooleanKeyword:
      📄 Files WITH TSBooleanKeyword (showing 10):
@@ -1597,12 +1597,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
 
    TSTypeParameter:
      📄 Files WITH TSTypeParameter (showing 10):
@@ -1621,12 +1621,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
 
    TSFunctionType:
      📄 Files WITH TSFunctionType (showing 10):
@@ -1645,12 +1645,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
 
    MethodDefinition:
      📄 Files WITH MethodDefinition (showing 10):
@@ -1668,13 +1668,13 @@ Repository: sample-repos/svelte
        • vitest.config.js
        • eslint.config.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
+       • packages/svelte/rollup.config.js
 
    AssignmentPattern:
      📄 Files WITH AssignmentPattern (showing 10):
@@ -1692,13 +1692,13 @@ Repository: sample-repos/svelte
        • vitest.config.js
        • eslint.config.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
+       • packages/svelte/rollup.config.js
 
    TSInterfaceHeritage:
      📄 Files WITH TSInterfaceHeritage (showing 10):
@@ -1717,36 +1717,36 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
 
    SwitchCase:
      📄 Files WITH SwitchCase (showing 10):
        • packages/svelte/src/html-tree-validation.js
        • packages/svelte/src/compiler/utils/ast.js
        • packages/svelte/src/compiler/phases/scope.js
+       • packages/svelte/src/internal/client/dom/elements/custom-element.js
        • packages/svelte/src/compiler/phases/2-analyze/css/css-prune.js
        • packages/svelte/src/compiler/phases/2-analyze/visitors/CallExpression.js
-       • packages/svelte/src/internal/client/dom/elements/custom-element.js
+       • packages/svelte/src/compiler/phases/1-parse/utils/bracket.js
        • packages/svelte/src/compiler/phases/1-parse/state/tag.js
        • packages/svelte/src/compiler/phases/1-parse/read/options.js
-       • packages/svelte/src/compiler/phases/1-parse/utils/bracket.js
        • packages/svelte/src/compiler/phases/3-transform/client/visitors/RegularElement.js
      📄 Files WITHOUT SwitchCase (showing 10):
        • vitest.config.js
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
+       • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
 
    TSVoidKeyword:
      📄 Files WITH TSVoidKeyword (showing 10):
@@ -1765,12 +1765,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
 
    TSTypeLiteral:
      📄 Files WITH TSTypeLiteral (showing 10):
@@ -1782,28 +1782,28 @@ Repository: sample-repos/svelte
        • packages/svelte/src/server/index.d.ts
        • packages/svelte/src/motion/private.d.ts
        • packages/svelte/tests/validator/test.ts
-       • packages/svelte/tests/sourcemaps/test.ts
        • packages/svelte/tests/types/snippet.ts
+       • packages/svelte/tests/types/create-event-dispatcher.ts
      📄 Files WITHOUT TSTypeLiteral (showing 10):
        • vitest.config.js
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
 
    ForStatement:
      📄 Files WITH ForStatement (showing 10):
        • benchmarking/utils.js
        • benchmarking/compare/index.js
-       • packages/svelte/src/html-tree-validation.js
-       • packages/svelte/tests/animation-helpers.js
        • playgrounds/sandbox/scripts/hash.js
        • playgrounds/sandbox/scripts/download.js
+       • packages/svelte/src/html-tree-validation.js
+       • packages/svelte/tests/animation-helpers.js
        • benchmarking/benchmarks/reactivity/sbench.js
        • benchmarking/benchmarks/reactivity/mol_bench.js
        • packages/svelte/scripts/process-messages/index.js
@@ -1812,13 +1812,13 @@ Repository: sample-repos/svelte
        • vitest.config.js
        • eslint.config.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
+       • packages/svelte/rollup.config.js
 
    PropertyDefinition:
      📄 Files WITH PropertyDefinition (showing 10):
@@ -1836,13 +1836,13 @@ Repository: sample-repos/svelte
        • vitest.config.js
        • eslint.config.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
+       • packages/svelte/rollup.config.js
 
    TSTypeParameterDeclaration:
      📄 Files WITH TSTypeParameterDeclaration (showing 10):
@@ -1861,12 +1861,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
 
    BreakStatement:
      📄 Files WITH BreakStatement (showing 10):
@@ -1876,8 +1876,8 @@ Repository: sample-repos/svelte
        • packages/svelte/src/internal/client/runtime.js
        • packages/svelte/src/compiler/utils/extract_svelte_ignore.js
        • packages/svelte/src/compiler/utils/ast.js
-       • packages/svelte/src/compiler/phases/scope.js
        • packages/svelte/src/compiler/migrate/index.js
+       • packages/svelte/src/compiler/phases/scope.js
        • packages/svelte/src/internal/client/dev/equality.js
        • packages/svelte/src/compiler/phases/2-analyze/index.js
      📄 Files WITHOUT BreakStatement (showing 10):
@@ -1885,36 +1885,36 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
+       • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
 
    ContinueStatement:
      📄 Files WITH ContinueStatement (showing 10):
        • playgrounds/sandbox/run.js
        • benchmarking/compare/index.js
+       • playgrounds/sandbox/scripts/hash.js
        • packages/svelte/scripts/check-treeshakeability.js
        • packages/svelte/tests/suite.ts
        • packages/svelte/tests/html_equal.js
        • packages/svelte/tests/helpers.js
-       • playgrounds/sandbox/scripts/hash.js
-       • packages/svelte/src/legacy/legacy-client.js
        • packages/svelte/scripts/process-messages/index.js
+       • packages/svelte/src/legacy/legacy-client.js
        • packages/svelte/tests/sourcemaps/test.ts
      📄 Files WITHOUT ContinueStatement (showing 10):
        • vitest.config.js
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
+       • playgrounds/sandbox/ssr-dev.js
+       • packages/svelte/svelte-html.d.ts
+       • packages/svelte/rollup.config.js
 
    TSTypeAliasDeclaration:
      📄 Files WITH TSTypeAliasDeclaration (showing 10):
@@ -1933,12 +1933,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
 
    TSArrayType:
      📄 Files WITH TSArrayType (showing 10):
@@ -1947,8 +1947,8 @@ Repository: sample-repos/svelte
        • packages/svelte/src/index.d.ts
        • packages/svelte/src/ambient.d.ts
        • packages/svelte/tests/suite.ts
-       • packages/svelte/tests/sourcemaps/test.ts
        • packages/svelte/tests/store/test.ts
+       • packages/svelte/tests/sourcemaps/test.ts
        • packages/svelte/tests/signals/test.ts
        • packages/svelte/tests/server-side-rendering/test.ts
        • packages/svelte/tests/runtime-legacy/shared.ts
@@ -1957,21 +1957,21 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
 
    WhileStatement:
      📄 Files WITH WhileStatement (showing 10):
        • packages/svelte/src/utils.js
        • packages/svelte/src/escaping.js
        • packages/svelte/tests/helpers.js
+       • packages/svelte/scripts/process-messages/index.js
        • packages/svelte/src/compiler/legacy.js
        • packages/svelte/src/animate/index.js
-       • packages/svelte/scripts/process-messages/index.js
        • packages/svelte/tests/sourcemaps/test.ts
        • packages/svelte/tests/signals/test.ts
        • packages/svelte/tests/runtime-legacy/shared.ts
@@ -1981,12 +1981,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
+       • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
 
    ThrowStatement:
      📄 Files WITH ThrowStatement (showing 10):
@@ -1995,22 +1995,22 @@ Repository: sample-repos/svelte
        • packages/svelte/tests/suite.ts
        • packages/svelte/tests/html_equal.js
        • packages/svelte/tests/helpers.js
+       • packages/svelte/scripts/process-messages/index.js
        • packages/svelte/src/motion/tweened.js
        • packages/svelte/src/motion/spring.js
        • packages/svelte/src/legacy/legacy-client.js
        • packages/svelte/src/internal/index.js
-       • packages/svelte/src/compiler/index.js
      📄 Files WITHOUT ThrowStatement (showing 10):
        • vitest.config.js
        • eslint.config.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
+       • packages/svelte/rollup.config.js
 
    TSNeverKeyword:
      📄 Files WITH TSNeverKeyword (showing 6):
@@ -2025,12 +2025,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
+       • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
 
    TSDeclareFunction:
      📄 Files WITH TSDeclareFunction (showing 5):
@@ -2044,12 +2044,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
 
    TSQualifiedName:
      📄 Files WITH TSQualifiedName (showing 10):
@@ -2068,12 +2068,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
 
    Super:
      📄 Files WITH Super (showing 10):
@@ -2086,62 +2086,62 @@ Repository: sample-repos/svelte
        • packages/svelte/src/legacy/legacy-client.js
        • packages/svelte/src/compiler/warnings.js
        • packages/svelte/src/compiler/errors.js
-       • packages/svelte/src/internal/shared/clone.test.ts
+       • packages/svelte/scripts/process-messages/templates/compile-warnings.js
      📄 Files WITHOUT Super (showing 10):
        • vitest.config.js
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
+       • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
 
    TryStatement:
      📄 Files WITH TryStatement (showing 10):
        • benchmarking/utils.js
        • benchmarking/run.js
        • playgrounds/sandbox/run.js
-       • packages/svelte/tests/html_equal.js
-       • packages/svelte/tests/helpers.js
        • playgrounds/sandbox/scripts/download.js
        • playgrounds/sandbox/scripts/create-app-svelte.js
+       • packages/svelte/tests/html_equal.js
+       • packages/svelte/tests/helpers.js
        • packages/svelte/src/store/index-client.js
        • packages/svelte/src/legacy/legacy-client.js
        • packages/svelte/tests/validator/test.ts
      📄 Files WITHOUT TryStatement (showing 10):
        • vitest.config.js
        • eslint.config.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
+       • packages/svelte/svelte-html.d.ts
+       • packages/svelte/rollup.config.js
+       • packages/svelte/elements.d.ts
        • benchmarking/compare/runner.js
 
    ImportDefaultSpecifier:
      📄 Files WITH ImportDefaultSpecifier (showing 10):
        • eslint.config.js
        • benchmarking/utils.js
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
+       • packages/svelte/rollup.config.js
        • benchmarking/compare/index.js
-       • packages/svelte/scripts/generate-version.js
-       • packages/svelte/scripts/generate-types.js
-       • packages/svelte/scripts/check-treeshakeability.js
+       • playgrounds/sandbox/scripts/hash.js
+       • playgrounds/sandbox/scripts/download.js
+       • playgrounds/sandbox/scripts/create-app-svelte.js
      📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
        • vitest.config.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
+       • packages/svelte/elements.d.ts
        • benchmarking/compare/runner.js
        • packages/svelte/types/index.d.ts
        • packages/svelte/src/version.js
@@ -2150,9 +2150,9 @@ Repository: sample-repos/svelte
    RestElement:
      📄 Files WITH RestElement (showing 10):
        • packages/svelte/types/index.d.ts
+       • packages/svelte/scripts/check-treeshakeability.js
        • packages/svelte/src/index.d.ts
        • packages/svelte/src/ambient.d.ts
-       • packages/svelte/scripts/check-treeshakeability.js
        • packages/svelte/src/transition/index.js
        • packages/svelte/src/server/index.d.ts
        • packages/svelte/src/reactivity/set.js
@@ -2164,36 +2164,36 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
+       • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
 
    TSAsExpression:
      📄 Files WITH TSAsExpression (showing 10):
        • packages/svelte/tests/suite.ts
        • packages/svelte/src/reactivity/date.test.ts
        • packages/svelte/tests/validator/test.ts
-       • packages/svelte/tests/store/test.ts
        • packages/svelte/tests/types/snippet.ts
        • packages/svelte/tests/types/on-mount.ts
        • packages/svelte/tests/types/component.ts
        • packages/svelte/tests/types/actions.ts
+       • packages/svelte/tests/store/test.ts
        • packages/svelte/tests/runtime-legacy/shared.ts
-       • packages/svelte/tests/preprocess/test.ts
+       • packages/svelte/tests/runtime-browser/test.ts
      📄 Files WITHOUT TSAsExpression (showing 10):
        • vitest.config.js
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
+       • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
 
    ClassBody:
      📄 Files WITH ClassBody (showing 10):
@@ -2211,36 +2211,36 @@ Repository: sample-repos/svelte
        • vitest.config.js
        • eslint.config.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
+       • packages/svelte/rollup.config.js
 
    CatchClause:
      📄 Files WITH CatchClause (showing 10):
        • benchmarking/utils.js
        • benchmarking/run.js
        • playgrounds/sandbox/run.js
-       • packages/svelte/tests/html_equal.js
-       • packages/svelte/tests/helpers.js
        • playgrounds/sandbox/scripts/download.js
        • playgrounds/sandbox/scripts/create-app-svelte.js
+       • packages/svelte/tests/html_equal.js
+       • packages/svelte/tests/helpers.js
        • packages/svelte/src/legacy/legacy-client.js
        • packages/svelte/tests/validator/test.ts
        • packages/svelte/tests/sourcemaps/test.ts
      📄 Files WITHOUT CatchClause (showing 10):
        • vitest.config.js
        • eslint.config.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
+       • packages/svelte/svelte-html.d.ts
+       • packages/svelte/rollup.config.js
+       • packages/svelte/elements.d.ts
        • benchmarking/compare/runner.js
 
    ClassDeclaration:
@@ -2259,13 +2259,13 @@ Repository: sample-repos/svelte
        • vitest.config.js
        • eslint.config.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
+       • packages/svelte/rollup.config.js
 
    TSIndexedAccessType:
      📄 Files WITH TSIndexedAccessType (showing 10):
@@ -2284,12 +2284,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
 
    TSConditionalType:
      📄 Files WITH TSConditionalType (showing 8):
@@ -2306,12 +2306,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
 
    TSNamedTupleMember:
      📄 Files WITH TSNamedTupleMember (showing 8):
@@ -2328,12 +2328,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
 
    TSUnknownKeyword:
      📄 Files WITH TSUnknownKeyword (showing 10):
@@ -2342,8 +2342,8 @@ Repository: sample-repos/svelte
        • packages/svelte/types/index.d.ts
        • packages/svelte/src/index.d.ts
        • packages/svelte/src/reactivity/map.test.ts
-       • packages/svelte/tests/store/test.ts
        • packages/svelte/tests/types/component.ts
+       • packages/svelte/tests/store/test.ts
        • packages/svelte/tests/signals/test.ts
        • packages/svelte/tests/motion/test.ts
        • packages/svelte/src/internal/server/types.d.ts
@@ -2352,12 +2352,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
 
    TSParenthesizedType:
      📄 Files WITH TSParenthesizedType (showing 10):
@@ -2376,21 +2376,21 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
 
    ForInStatement:
      📄 Files WITH ForInStatement (showing 10):
        • packages/svelte/scripts/check-treeshakeability.js
        • packages/svelte/tests/animation-helpers.js
+       • packages/svelte/scripts/process-messages/index.js
        • packages/svelte/src/transition/index.js
        • packages/svelte/src/motion/spring.js
        • packages/svelte/src/compiler/validate-options.js
-       • packages/svelte/scripts/process-messages/index.js
        • packages/svelte/tests/hydration/test.ts
        • packages/svelte/src/internal/shared/clone.js
        • packages/svelte/src/internal/shared/attributes.js
@@ -2400,12 +2400,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
+       • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
 
    TSIntersectionType:
      📄 Files WITH TSIntersectionType (showing 9):
@@ -2423,12 +2423,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
 
    TSTypeOperator:
      📄 Files WITH TSTypeOperator (showing 10):
@@ -2447,12 +2447,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
 
    TSModuleDeclaration:
      📄 Files WITH TSModuleDeclaration (showing 7):
@@ -2468,12 +2468,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
 
    TSModuleBlock:
      📄 Files WITH TSModuleBlock (showing 7):
@@ -2489,12 +2489,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
 
    TSTupleType:
      📄 Files WITH TSTupleType (showing 10):
@@ -2513,12 +2513,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
 
    TSEmptyBodyFunctionExpression:
      📄 Files WITH TSEmptyBodyFunctionExpression (showing 3):
@@ -2530,12 +2530,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
+       • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
 
    TSImportType:
      📄 Files WITH TSImportType (showing 10):
@@ -2545,29 +2545,29 @@ Repository: sample-repos/svelte
        • packages/svelte/tests/sourcemaps/test.ts
        • packages/svelte/tests/snapshot/test.ts
        • packages/svelte/tests/runtime-legacy/shared.ts
-       • packages/svelte/tests/preprocess/test.ts
        • packages/svelte/tests/runtime-browser/test.ts
        • packages/svelte/tests/runtime-browser/test-ssr.ts
+       • packages/svelte/tests/preprocess/test.ts
        • packages/svelte/tests/hydration/test.ts
      📄 Files WITHOUT TSImportType (showing 10):
        • vitest.config.js
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
 
    TSTypeQuery:
      📄 Files WITH TSTypeQuery (showing 10):
        • packages/svelte/types/index.d.ts
        • packages/svelte/src/index.d.ts
        • packages/svelte/src/reactivity/date.test.ts
-       • packages/svelte/tests/sourcemaps/test.ts
        • packages/svelte/tests/types/component.ts
+       • packages/svelte/tests/sourcemaps/test.ts
        • packages/svelte/tests/runtime-legacy/shared.ts
        • packages/svelte/tests/runtime-browser/test.ts
        • packages/svelte/tests/runtime-browser/test-ssr.ts
@@ -2578,12 +2578,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
+       • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
 
    TSMethodSignature:
      📄 Files WITH TSMethodSignature (showing 9):
@@ -2601,12 +2601,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
+       • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
 
    TSInferType:
      📄 Files WITH TSInferType (showing 4):
@@ -2619,36 +2619,36 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
+       • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
 
    SwitchStatement:
      📄 Files WITH SwitchStatement (showing 10):
        • packages/svelte/src/html-tree-validation.js
        • packages/svelte/src/compiler/utils/ast.js
        • packages/svelte/src/compiler/phases/scope.js
+       • packages/svelte/src/internal/client/dom/elements/custom-element.js
        • packages/svelte/src/compiler/phases/2-analyze/css/css-prune.js
        • packages/svelte/src/compiler/phases/2-analyze/visitors/CallExpression.js
-       • packages/svelte/src/internal/client/dom/elements/custom-element.js
+       • packages/svelte/src/compiler/phases/1-parse/utils/bracket.js
        • packages/svelte/src/compiler/phases/1-parse/state/tag.js
        • packages/svelte/src/compiler/phases/1-parse/read/options.js
-       • packages/svelte/src/compiler/phases/1-parse/utils/bracket.js
        • packages/svelte/src/compiler/phases/3-transform/client/visitors/RegularElement.js
      📄 Files WITHOUT SwitchStatement (showing 10):
        • vitest.config.js
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
+       • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
 
    TSNonNullExpression:
      📄 Files WITH TSNonNullExpression (showing 4):
@@ -2661,12 +2661,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
+       • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
 
    TSIndexSignature:
      📄 Files WITH TSIndexSignature (showing 6):
@@ -2681,12 +2681,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
+       • packages/svelte/rollup.config.js
 
    TSCallSignatureDeclaration:
      📄 Files WITH TSCallSignatureDeclaration (showing 5):
@@ -2700,12 +2700,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
+       • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
 
    ExportAllDeclaration:
      📄 Files WITH ExportAllDeclaration (showing 10):
@@ -2724,12 +2724,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
+       • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
 
    MetaProperty:
      📄 Files WITH MetaProperty (showing 9):
@@ -2737,8 +2737,8 @@ Repository: sample-repos/svelte
        • playgrounds/sandbox/ssr-dev.js
        • playgrounds/sandbox/run.js
        • benchmarking/compare/index.js
-       • packages/svelte/scripts/generate-types.js
        • playgrounds/sandbox/scripts/create-app-svelte.js
+       • packages/svelte/scripts/generate-types.js
        • packages/svelte/scripts/process-messages/index.js
        • packages/svelte/src/internal/client/dev/hmr.js
        • packages/svelte/tests/snapshot/samples/hmr/_expected/client/index.svelte.js
@@ -2746,12 +2746,12 @@ Repository: sample-repos/svelte
        • vitest.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
+       • packages/svelte/svelte-html.d.ts
+       • packages/svelte/rollup.config.js
+       • packages/svelte/elements.d.ts
        • benchmarking/compare/runner.js
 
    ImportExpression:
@@ -2761,19 +2761,19 @@ Repository: sample-repos/svelte
        • packages/svelte/tests/runtime-legacy/shared.ts
        • packages/svelte/tests/runtime-browser/test-ssr.ts
        • packages/svelte/tests/hydration/test.ts
-       • benchmarking/benchmarks/ssr/wrapper/wrapper_bench.js
        • packages/svelte/tests/css/test.ts
+       • benchmarking/benchmarks/ssr/wrapper/wrapper_bench.js
      📄 Files WITHOUT ImportExpression (showing 10):
        • vitest.config.js
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
+       • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
 
    TSSymbolKeyword:
      📄 Files WITH TSSymbolKeyword (showing 4):
@@ -2786,12 +2786,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
 
    TSObjectKeyword:
      📄 Files WITH TSObjectKeyword (showing 4):
@@ -2804,12 +2804,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
+       • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
 
    TSMappedType:
      📄 Files WITH TSMappedType (showing 4):
@@ -2822,12 +2822,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
+       • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
 
    SequenceExpression:
      📄 Files WITH SequenceExpression (showing 4):
@@ -2840,12 +2840,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
+       • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
 
    ClassExpression:
      📄 Files WITH ClassExpression (showing 4):
@@ -2858,12 +2858,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
+       • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
 
    TSConstructorType:
      📄 Files WITH TSConstructorType (showing 3):
@@ -2875,12 +2875,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
 
    DoWhileStatement:
      📄 Files WITH DoWhileStatement (showing 4):
@@ -2893,12 +2893,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
+       • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
 
    LabeledStatement:
      📄 Files WITH LabeledStatement (showing 2):
@@ -2909,12 +2909,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
+       • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
 
    TSTemplateLiteralType:
      📄 Files WITH TSTemplateLiteralType (showing 1):
@@ -2924,12 +2924,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
        • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
 
    TSRestType:
      📄 Files WITH TSRestType (showing 3):
@@ -2941,12 +2941,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
+       • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
 
    TSThisType:
      📄 Files WITH TSThisType (showing 1):
@@ -2956,12 +2956,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
+       • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
 
    TSTypePredicate:
      📄 Files WITH TSTypePredicate (showing 2):
@@ -2972,12 +2972,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
+       • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
 
    TSConstructSignatureDeclaration:
      📄 Files WITH TSConstructSignatureDeclaration (showing 1):
@@ -2987,12 +2987,12 @@ Repository: sample-repos/svelte
        • eslint.config.js
        • benchmarking/utils.js
        • benchmarking/run.js
-       • packages/svelte/svelte-html.d.ts
-       • packages/svelte/rollup.config.js
-       • packages/svelte/elements.d.ts
        • playgrounds/sandbox/vite.config.js
        • playgrounds/sandbox/svelte.config.js
        • playgrounds/sandbox/ssr-prod.js
+       • playgrounds/sandbox/ssr-dev.js
+       • playgrounds/sandbox/run.js
+       • packages/svelte/svelte-html.d.ts
 
 ============================================================
 ✅ Analysis complete!

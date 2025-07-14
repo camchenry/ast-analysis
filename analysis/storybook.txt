@@ -1,5 +1,5 @@
 AST Analysis Report for storybook
-Generated on: 2025-07-14T01:42:31.709Z
+Generated on: 2025-07-14T01:57:00.949Z
 Repository: sample-repos/storybook
 ================================================================================
 
@@ -140,8 +140,8 @@ Repository: sample-repos/storybook
    TSConditionalType                30 files (  1.1%) -       94 total (0.01%)
    TSParameterProperty              30 files (  1.1%) -       95 total (0.01%)
    ForStatement                     29 files (  1.0%) -      380 total (0.03%)
-   BreakStatement                   28 files (  1.0%) -      161 total (0.01%)
    TSObjectKeyword                  28 files (  1.0%) -       33 total (0.00%)
+   BreakStatement                   28 files (  1.0%) -      161 total (0.01%)
    TSExportAssignment               26 files (  0.9%) -       26 total (0.00%)
    JSXEmptyExpression               26 files (  0.9%) -       55 total (0.00%)
    TSModuleBlock                    25 files (  0.9%) -       36 total (0.00%)
@@ -157,8 +157,8 @@ Repository: sample-repos/storybook
    TSTemplateLiteralType             7 files (  0.2%) -       10 total (0.00%)
    ForInStatement                    7 files (  0.2%) -       53 total (0.00%)
    TSEmptyBodyFunctionExpression     6 files (  0.2%) -       26 total (0.00%)
-   TSThisType                        6 files (  0.2%) -       21 total (0.00%)
    TSSymbolKeyword                   6 files (  0.2%) -        7 total (0.00%)
+   TSThisType                        6 files (  0.2%) -       21 total (0.00%)
    SequenceExpression                5 files (  0.2%) -    2,134 total (0.18%)
    Hashbang                          4 files (  0.1%) -        4 total (0.00%)
    DoWhileStatement                  4 files (  0.1%) -       11 total (0.00%)
@@ -345,14 +345,14 @@ Repository: sample-repos/storybook
      📄 Files WITHOUT Identifier (showing 10):
        • test-storybooks/external-docs/theme.config.js
        • test-storybooks/external-docs/next-env.d.ts
-       • test-storybooks/portable-stories-kitchen-sink/nextjs/typings.d.ts
        • test-storybooks/external-docs/pages/_app.js
+       • test-storybooks/portable-stories-kitchen-sink/nextjs/typings.d.ts
        • code/frameworks/angular/renderer.d.ts
        • code/builders/builder-webpack5/typings.d.ts
-       • code/addons/pseudo-states/preview.js
-       • code/addons/pseudo-states/manager.js
-       • code/addons/links/react.d.ts
-       • code/addons/links/preview.js
+       • code/addons/vitest/preset.mjs
+       • code/addons/vitest/postinstall.mjs
+       • code/addons/vitest/manager.mjs
+       • code/addons/themes/preview.js
 
    Literal:
      📄 Files WITH Literal (showing 10):
@@ -374,8 +374,8 @@ Repository: sample-repos/storybook
        • code/__mocks__/styleMock.js
        • test-storybooks/external-docs/pages/_app.js
        • scripts/sandbox/utils/types.ts
-       • code/presets/react-webpack/src/requirer.ts
        • code/presets/server-webpack/src/typings.d.ts
+       • code/presets/react-webpack/src/requirer.ts
        • code/lib/create-storybook/src/typings.d.ts
 
    Property:
@@ -400,7 +400,7 @@ Repository: sample-repos/storybook
        • test-storybooks/standalone-preview/addPreview.ts
        • test-storybooks/external-docs/theme.config.js
        • test-storybooks/external-docs/next-env.d.ts
-       • scripts/release/pick-patches.ts
+       • scripts/utils/touch.ts
 
    MemberExpression:
      📄 Files WITH MemberExpression (showing 10):
@@ -422,9 +422,9 @@ Repository: sample-repos/storybook
        • test-storybooks/standalone-preview/storybook.ts
        • test-storybooks/external-docs/theme.config.js
        • test-storybooks/external-docs/next-env.d.ts
-       • scripts/tasks/test-runner-dev.ts
-       • scripts/tasks/publish.ts
-       • scripts/tasks/install.ts
+       • scripts/utils/paths.ts
+       • scripts/utils/constants.ts
+       • scripts/prepare/tools-esm.ts
 
    CallExpression:
      📄 Files WITH CallExpression (showing 10):
@@ -441,14 +441,14 @@ Repository: sample-repos/storybook
      📄 Files WITHOUT CallExpression (showing 10):
        • prettier.config.mjs
        • scripts/prettier.config.js
-       • code/prettier.config.mjs
        • docs/frameworks.js
+       • code/prettier.config.mjs
        • test-storybooks/standalone-preview/addPreview.ts
        • test-storybooks/external-docs/theme.config.js
        • test-storybooks/external-docs/next-env.d.ts
-       • scripts/tasks/test-runner-dev.ts
-       • scripts/tasks/e2e-tests-dev.ts
        • scripts/utils/touch.ts
+       • scripts/prepare/tools-esm.ts
+       • scripts/tasks/test-runner-dev.ts
 
    ExpressionStatement:
      📄 Files WITH ExpressionStatement (showing 10):
@@ -472,7 +472,7 @@ Repository: sample-repos/storybook
        • code/playwright.config.ts
        • test-storybooks/external-docs/theme.config.js
        • test-storybooks/external-docs/next-env.d.ts
-       • scripts/tasks/test-runner-dev.ts
+       • scripts/utils/workspace.ts
 
    ObjectExpression:
      📄 Files WITH ObjectExpression (showing 10):
@@ -495,8 +495,8 @@ Repository: sample-repos/storybook
        • code/prettier.config.mjs
        • test-storybooks/standalone-preview/storybook.ts
        • test-storybooks/standalone-preview/addPreview.ts
+       • test-storybooks/server-kitchen-sink/server.js
        • test-storybooks/external-docs/theme.config.js
-       • test-storybooks/external-docs/next-env.d.ts
 
    VariableDeclarator:
      📄 Files WITH VariableDeclarator (showing 10):
@@ -513,10 +513,10 @@ Repository: sample-repos/storybook
      📄 Files WITHOUT VariableDeclarator (showing 10):
        • prettier.config.mjs
        • scripts/prettier.config.js
+       • docs/frameworks.js
        • code/vitest.config.ts
        • code/prettier.config.mjs
        • code/playwright.config.ts
-       • docs/frameworks.js
        • test-storybooks/standalone-preview/storybook.ts
        • test-storybooks/standalone-preview/addPreview.ts
        • test-storybooks/external-docs/theme.config.js
@@ -537,10 +537,10 @@ Repository: sample-repos/storybook
      📄 Files WITHOUT VariableDeclaration (showing 10):
        • prettier.config.mjs
        • scripts/prettier.config.js
+       • docs/frameworks.js
        • code/vitest.config.ts
        • code/prettier.config.mjs
        • code/playwright.config.ts
-       • docs/frameworks.js
        • test-storybooks/standalone-preview/storybook.ts
        • test-storybooks/standalone-preview/addPreview.ts
        • test-storybooks/external-docs/theme.config.js
@@ -562,11 +562,11 @@ Repository: sample-repos/storybook
        • prettier.config.mjs
        • scripts/vitest.config.ts
        • scripts/prettier.config.js
+       • docs/frameworks.js
        • code/vitest.workspace.ts
        • code/vitest.config.ts
        • code/prettier.config.mjs
        • code/playwright.config.ts
-       • docs/frameworks.js
        • test-storybooks/standalone-preview/storybook.ts
        • test-storybooks/standalone-preview/addPreview.ts
 
@@ -589,10 +589,10 @@ Repository: sample-repos/storybook
        • scripts/reset.js
        • scripts/prettier.config.js
        • scripts/check-dependencies.js
+       • docs/frameworks.js
        • code/vitest.workspace.ts
        • code/vitest.config.ts
        • code/prettier.config.mjs
-       • code/playwright.config.ts
 
    TSTypeReference:
      📄 Files WITH TSTypeReference (showing 10):
@@ -615,8 +615,8 @@ Repository: sample-repos/storybook
        • scripts/dangerfile.ts
        • scripts/create-nx-sandbox-projects.ts
        • scripts/check-dependencies.js
+       • docs/frameworks.js
        • code/vitest.workspace.ts
-       • code/vitest.config.ts
 
    ArrowFunctionExpression:
      📄 Files WITH ArrowFunctionExpression (showing 10):
@@ -634,11 +634,11 @@ Repository: sample-repos/storybook
        • prettier.config.mjs
        • scripts/vitest.config.ts
        • scripts/prettier.config.js
+       • docs/frameworks.js
        • code/vitest.workspace.ts
        • code/vitest.config.ts
        • code/prettier.config.mjs
        • code/playwright.config.ts
-       • docs/frameworks.js
        • test-storybooks/standalone-preview/addPreview.ts
        • test-storybooks/external-docs/theme.config.js
 
@@ -657,13 +657,13 @@ Repository: sample-repos/storybook
      📄 Files WITHOUT ImportSpecifier (showing 10):
        • prettier.config.mjs
        • scripts/prettier.config.js
-       • code/prettier.config.mjs
        • docs/frameworks.js
+       • code/prettier.config.mjs
        • test-storybooks/standalone-preview/addPreview.ts
+       • test-storybooks/server-kitchen-sink/server.js
        • test-storybooks/external-docs/theme.config.js
        • test-storybooks/external-docs/next.config.js
        • test-storybooks/external-docs/next-env.d.ts
-       • test-storybooks/server-kitchen-sink/server.js
        • test-storybooks/ember-cli/ember-cli-build.js
 
    JSXIdentifier:
@@ -675,9 +675,9 @@ Repository: sample-repos/storybook
        • test-storybooks/external-docs/components/button.tsx
        • test-storybooks/external-docs/components/button.stories.tsx
        • test-storybooks/external-docs/components/AccountForm.tsx
-       • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/dynamic-component.tsx
-       • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/StyledJsx.stories.tsx
-       • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/Router.stories.tsx
+       • test-storybooks/portable-stories-kitchen-sink/vue3/stories/Button.playwright.tsx
+       • test-storybooks/portable-stories-kitchen-sink/nextjs/pages/index.tsx
+       • test-storybooks/portable-stories-kitchen-sink/nextjs/pages/_document.tsx
      📄 Files WITHOUT JSXIdentifier (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -710,9 +710,9 @@ Repository: sample-repos/storybook
        • scripts/get-sandbox-dir.ts
        • scripts/create-nx-sandbox-projects.ts
        • scripts/check-dependencies.js
+       • docs/frameworks.js
        • code/vitest.workspace.ts
        • code/vitest.helpers.ts
-       • code/vitest.config.ts
 
    ReturnStatement:
      📄 Files WITH ReturnStatement (showing 10):
@@ -736,7 +736,7 @@ Repository: sample-repos/storybook
        • scripts/event-log-checker.ts
        • scripts/dangerfile.ts
        • scripts/check-dependencies.js
-       • code/vitest.workspace.ts
+       • docs/frameworks.js
 
    BinaryExpression:
      📄 Files WITH BinaryExpression (showing 10):
@@ -757,10 +757,10 @@ Repository: sample-repos/storybook
        • scripts/get-sandbox-dir.ts
        • scripts/event-log-collector.ts
        • scripts/combine-compodoc.ts
+       • docs/frameworks.js
        • code/vitest.config.ts
        • code/vitest-setup.ts
        • code/prettier.config.mjs
-       • docs/frameworks.js
 
    ImportDeclaration:
      📄 Files WITH ImportDeclaration (showing 10):
@@ -778,10 +778,10 @@ Repository: sample-repos/storybook
        • scripts/prettier.config.js
        • docs/frameworks.js
        • test-storybooks/standalone-preview/addPreview.ts
+       • test-storybooks/server-kitchen-sink/server.js
        • test-storybooks/external-docs/theme.config.js
        • test-storybooks/external-docs/next.config.js
        • test-storybooks/external-docs/next-env.d.ts
-       • test-storybooks/server-kitchen-sink/server.js
        • test-storybooks/ember-cli/ember-cli-build.js
        • scripts/utils/touch.ts
        • scripts/utils/githubClient.ts
@@ -796,8 +796,8 @@ Repository: sample-repos/storybook
        • scripts/event-log-checker.ts
        • scripts/check-package.ts
        • scripts/build-package.ts
-       • code/vitest.helpers.ts
        • docs/frameworks.js
+       • code/vitest.helpers.ts
      📄 Files WITHOUT AssignmentExpression (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -831,8 +831,8 @@ Repository: sample-repos/storybook
        • scripts/get-sandbox-dir.ts
        • scripts/create-nx-sandbox-projects.ts
        • scripts/check-dependencies.js
+       • docs/frameworks.js
        • code/vitest.workspace.ts
-       • code/vitest.helpers.ts
 
    ArrayExpression:
      📄 Files WITH ArrayExpression (showing 10):
@@ -855,8 +855,8 @@ Repository: sample-repos/storybook
        • code/vitest.helpers.ts
        • code/prettier.config.mjs
        • test-storybooks/standalone-preview/addPreview.ts
+       • test-storybooks/server-kitchen-sink/server.js
        • test-storybooks/external-docs/theme.config.js
-       • test-storybooks/external-docs/next-env.d.ts
 
    IfStatement:
      📄 Files WITH IfStatement (showing 10):
@@ -875,11 +875,11 @@ Repository: sample-repos/storybook
        • scripts/vitest.config.ts
        • scripts/prettier.config.js
        • scripts/event-log-collector.ts
+       • docs/frameworks.js
        • code/vitest.workspace.ts
        • code/vitest.config.ts
        • code/prettier.config.mjs
        • code/playwright.config.ts
-       • docs/frameworks.js
        • test-storybooks/standalone-preview/storybook.ts
 
    ThisExpression:
@@ -928,7 +928,7 @@ Repository: sample-repos/storybook
        • scripts/get-report-message.ts
        • scripts/event-log-collector.ts
        • scripts/check-dependencies.js
-       • code/vitest.helpers.ts
+       • docs/frameworks.js
 
    LogicalExpression:
      📄 Files WITH LogicalExpression (showing 10):
@@ -949,10 +949,10 @@ Repository: sample-repos/storybook
        • scripts/get-sandbox-dir.ts
        • scripts/combine-compodoc.ts
        • scripts/check-dependencies.js
+       • docs/frameworks.js
        • code/vitest.workspace.ts
        • code/vitest.helpers.ts
        • code/vitest.config.ts
-       • code/prettier.config.mjs
 
    JSXText:
      📄 Files WITH JSXText (showing 10):
@@ -962,10 +962,10 @@ Repository: sample-repos/storybook
        • test-storybooks/external-docs/components/button.tsx
        • test-storybooks/external-docs/components/button.stories.tsx
        • test-storybooks/external-docs/components/AccountForm.tsx
+       • test-storybooks/portable-stories-kitchen-sink/nextjs/pages/index.tsx
+       • test-storybooks/portable-stories-kitchen-sink/nextjs/pages/_document.tsx
        • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/dynamic-component.tsx
        • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/StyledJsx.stories.tsx
-       • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/Router.stories.tsx
-       • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/NextHeader.tsx
      📄 Files WITHOUT JSXText (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -989,7 +989,7 @@ Repository: sample-repos/storybook
        • scripts/build-package.ts
        • scripts/sandbox/publish.ts
        • scripts/sandbox/generate.ts
-       • scripts/release/write-changelog.ts
+       • scripts/utils/yarn.ts
      📄 Files WITHOUT TSPropertySignature (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -1013,7 +1013,7 @@ Repository: sample-repos/storybook
        • test-storybooks/standalone-preview/addPreview.ts
        • scripts/sandbox/publish.ts
        • scripts/sandbox/generate.ts
-       • scripts/release/write-changelog.ts
+       • scripts/utils/yarn.ts
      📄 Files WITHOUT ExportNamedDeclaration (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -1033,11 +1033,11 @@ Repository: sample-repos/storybook
        • test-storybooks/external-docs/components/button.tsx
        • test-storybooks/external-docs/components/button.stories.tsx
        • test-storybooks/external-docs/components/AccountForm.tsx
+       • test-storybooks/portable-stories-kitchen-sink/vue3/stories/Button.playwright.tsx
+       • test-storybooks/portable-stories-kitchen-sink/nextjs/pages/index.tsx
+       • test-storybooks/portable-stories-kitchen-sink/nextjs/pages/_document.tsx
        • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/StyledJsx.stories.tsx
        • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/Router.stories.tsx
-       • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/NextHeader.tsx
-       • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/Navigation.stories.tsx
-       • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/Link.stories.tsx
      📄 Files WITHOUT JSXAttribute (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -1070,9 +1070,9 @@ Repository: sample-repos/storybook
        • scripts/get-sandbox-dir.ts
        • scripts/event-log-collector.ts
        • scripts/combine-compodoc.ts
+       • docs/frameworks.js
        • code/vitest.workspace.ts
        • code/vitest.config.ts
-       • code/prettier.config.mjs
 
    AwaitExpression:
      📄 Files WITH AwaitExpression (showing 10):
@@ -1096,7 +1096,7 @@ Repository: sample-repos/storybook
        • scripts/event-log-collector.ts
        • scripts/dangerfile.ts
        • scripts/create-nx-sandbox-projects.ts
-       • code/vitest.workspace.ts
+       • docs/frameworks.js
 
    TSTypeParameterInstantiation:
      📄 Files WITH TSTypeParameterInstantiation (showing 10):
@@ -1143,8 +1143,8 @@ Repository: sample-repos/storybook
        • scripts/get-sandbox-dir.ts
        • scripts/create-nx-sandbox-projects.ts
        • scripts/check-dependencies.js
+       • docs/frameworks.js
        • code/vitest.workspace.ts
-       • code/vitest.helpers.ts
 
    TSStringKeyword:
      📄 Files WITH TSStringKeyword (showing 10):
@@ -1165,10 +1165,10 @@ Repository: sample-repos/storybook
        • scripts/reset.js
        • scripts/prettier.config.js
        • scripts/check-dependencies.js
+       • docs/frameworks.js
        • code/vitest.workspace.ts
        • code/vitest.helpers.ts
        • code/vitest.config.ts
-       • code/prettier.config.mjs
 
    JSXElement:
      📄 Files WITH JSXElement (showing 10):
@@ -1179,9 +1179,9 @@ Repository: sample-repos/storybook
        • test-storybooks/external-docs/components/button.tsx
        • test-storybooks/external-docs/components/button.stories.tsx
        • test-storybooks/external-docs/components/AccountForm.tsx
-       • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/dynamic-component.tsx
-       • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/StyledJsx.stories.tsx
-       • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/Router.stories.tsx
+       • test-storybooks/portable-stories-kitchen-sink/vue3/stories/Button.playwright.tsx
+       • test-storybooks/portable-stories-kitchen-sink/nextjs/pages/index.tsx
+       • test-storybooks/portable-stories-kitchen-sink/nextjs/pages/_document.tsx
      📄 Files WITHOUT JSXElement (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -1203,9 +1203,9 @@ Repository: sample-repos/storybook
        • test-storybooks/external-docs/components/button.tsx
        • test-storybooks/external-docs/components/button.stories.tsx
        • test-storybooks/external-docs/components/AccountForm.tsx
-       • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/dynamic-component.tsx
-       • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/StyledJsx.stories.tsx
-       • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/Router.stories.tsx
+       • test-storybooks/portable-stories-kitchen-sink/vue3/stories/Button.playwright.tsx
+       • test-storybooks/portable-stories-kitchen-sink/nextjs/pages/index.tsx
+       • test-storybooks/portable-stories-kitchen-sink/nextjs/pages/_document.tsx
      📄 Files WITHOUT JSXOpeningElement (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -1224,12 +1224,12 @@ Repository: sample-repos/storybook
        • code/vitest-setup.ts
        • test-storybooks/external-docs/next.config.js
        • test-storybooks/ember-cli/ember-cli-build.js
+       • scripts/eslint-plugin-local-rules/storybook-monorepo-imports.js
+       • scripts/eslint-plugin-local-rules/no-uncategorized-errors.js
+       • scripts/eslint-plugin-local-rules/no-duplicated-error-codes.js
        • scripts/tasks/vitest-test.ts
        • scripts/tasks/test-runner-build.ts
        • scripts/tasks/sync-docs.ts
-       • scripts/tasks/smoke-test.ts
-       • scripts/tasks/serve.ts
-       • scripts/tasks/sandbox.ts
      📄 Files WITHOUT FunctionExpression (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -1247,13 +1247,13 @@ Repository: sample-repos/storybook
        • test-storybooks/external-docs/components/emoji-button.tsx
        • test-storybooks/external-docs/components/button.tsx
        • test-storybooks/external-docs/components/AccountForm.tsx
+       • test-storybooks/portable-stories-kitchen-sink/vue3/stories/Button.playwright.tsx
+       • test-storybooks/portable-stories-kitchen-sink/nextjs/pages/index.tsx
        • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/StyledJsx.stories.tsx
        • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/Router.stories.tsx
        • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/NextHeader.tsx
        • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/Navigation.stories.tsx
        • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/Link.stories.tsx
-       • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/Image.stories.tsx
-       • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/GetImageProps.stories.tsx
      📄 Files WITHOUT JSXExpressionContainer (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -1297,11 +1297,11 @@ Repository: sample-repos/storybook
        • test-storybooks/external-docs/components/emoji-button.tsx
        • test-storybooks/external-docs/components/button.tsx
        • test-storybooks/external-docs/components/AccountForm.tsx
+       • test-storybooks/portable-stories-kitchen-sink/nextjs/pages/index.tsx
+       • test-storybooks/portable-stories-kitchen-sink/nextjs/pages/_document.tsx
        • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/dynamic-component.tsx
        • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/StyledJsx.stories.tsx
        • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/Router.stories.tsx
-       • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/NextHeader.tsx
-       • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/Navigation.stories.tsx
      📄 Files WITHOUT JSXClosingElement (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -1339,7 +1339,7 @@ Repository: sample-repos/storybook
        • scripts/build-package.ts
        • code/vitest-setup.ts
        • scripts/sandbox/generate.ts
-       • scripts/release/write-changelog.ts
+       • scripts/utils/options.ts
      📄 Files WITHOUT TSAnyKeyword (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -1421,8 +1421,8 @@ Repository: sample-repos/storybook
        • scripts/event-log-collector.ts
        • scripts/dangerfile.ts
        • scripts/check-dependencies.js
+       • docs/frameworks.js
        • code/vitest.workspace.ts
-       • code/vitest.helpers.ts
 
    NewExpression:
      📄 Files WITH NewExpression (showing 10):
@@ -1470,7 +1470,7 @@ Repository: sample-repos/storybook
        • scripts/event-log-collector.ts
        • scripts/combine-compodoc.ts
        • scripts/check-dependencies.js
-       • code/vitest.helpers.ts
+       • docs/frameworks.js
 
    SequenceExpression:
      📄 Files WITH SequenceExpression (showing 5):
@@ -1498,11 +1498,11 @@ Repository: sample-repos/storybook
        • scripts/get-report-message.ts
        • scripts/event-log-checker.ts
        • code/vitest-setup.ts
-       • scripts/tasks/sandbox-parts.ts
-       • scripts/tasks/e2e-tests-build.ts
        • scripts/utils/options.ts
        • scripts/utils/command.ts
        • scripts/prepare/tools.ts
+       • scripts/prepare/bundle.ts
+       • scripts/prepare/addon-bundle.ts
      📄 Files WITHOUT TSLiteralType (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -1525,8 +1525,8 @@ Repository: sample-repos/storybook
        • scripts/event-log-checker.ts
        • scripts/check-package.ts
        • scripts/build-package.ts
-       • scripts/release/label-patches.ts
-       • scripts/release/is-pr-frozen.ts
+       • scripts/utils/options.ts
+       • scripts/prepare/check-scripts.ts
      📄 Files WITHOUT ChainExpression (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -1550,7 +1550,7 @@ Repository: sample-repos/storybook
        • scripts/build-package.ts
        • scripts/sandbox/publish.ts
        • scripts/sandbox/generate.ts
-       • scripts/release/write-changelog.ts
+       • scripts/utils/yarn.ts
      📄 Files WITHOUT TSTypeLiteral (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -1593,12 +1593,12 @@ Repository: sample-repos/storybook
        • scripts/get-template.ts
        • scripts/get-report-message.ts
        • scripts/event-log-checker.ts
-       • scripts/release/version.ts
-       • scripts/tasks/e2e-tests-build.ts
        • scripts/utils/options.ts
        • scripts/utils/exec.ts
-       • scripts/bench/bench-packages.ts
        • scripts/prepare/tools.ts
+       • scripts/prepare/bundle.ts
+       • scripts/prepare/addon-bundle.ts
+       • scripts/release/version.ts
      📄 Files WITHOUT TSUnionType (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -1619,10 +1619,10 @@ Repository: sample-repos/storybook
        • scripts/get-report-message.ts
        • scripts/event-log-checker.ts
        • scripts/sandbox/generate.ts
-       • scripts/release/write-changelog.ts
-       • scripts/release/version.ts
-       • scripts/release/unreleased-changes-exists.ts
-       • scripts/release/publish.ts
+       • scripts/utils/yarn.ts
+       • scripts/utils/workspace.ts
+       • scripts/utils/options.ts
+       • scripts/utils/exec.ts
      📄 Files WITHOUT TSTypeAliasDeclaration (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -1657,7 +1657,7 @@ Repository: sample-repos/storybook
        • scripts/create-nx-sandbox-projects.ts
        • scripts/combine-compodoc.ts
        • scripts/check-dependencies.js
-       • code/vitest.workspace.ts
+       • docs/frameworks.js
 
    TSBooleanKeyword:
      📄 Files WITH TSBooleanKeyword (showing 10):
@@ -1669,8 +1669,8 @@ Repository: sample-repos/storybook
        • scripts/build-package.ts
        • scripts/sandbox/publish.ts
        • scripts/sandbox/generate.ts
-       • scripts/release/write-changelog.ts
-       • scripts/release/version.ts
+       • scripts/utils/yarn.ts
+       • scripts/utils/options.ts
      📄 Files WITHOUT TSBooleanKeyword (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -1692,9 +1692,9 @@ Repository: sample-repos/storybook
        • scripts/create-nx-sandbox-projects.ts
        • code/vitest-setup.ts
        • scripts/sandbox/generate.ts
+       • scripts/utils/options.ts
+       • scripts/utils/command.ts
        • scripts/release/generate-pr-description.ts
-       • scripts/tasks/test-runner-dev.ts
-       • scripts/tasks/sandbox-parts.ts
      📄 Files WITHOUT TSTypeQuery (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -1714,8 +1714,8 @@ Repository: sample-repos/storybook
        • scripts/bench/utils.ts
        • scripts/bench/types.ts
        • scripts/bench/browse.ts
-       • code/e2e-tests/storybook-hooks.spec.ts
        • code/core/vitest.d.ts
+       • code/e2e-tests/storybook-hooks.spec.ts
        • test-storybooks/external-docs/components/button.tsx
        • test-storybooks/external-docs/components/AccountForm.tsx
        • scripts/sandbox/utils/yarn.ts
@@ -1738,8 +1738,8 @@ Repository: sample-repos/storybook
        • scripts/bench/utils.ts
        • scripts/bench/types.ts
        • scripts/bench/browse.ts
-       • code/e2e-tests/storybook-hooks.spec.ts
        • code/core/vitest.d.ts
+       • code/e2e-tests/storybook-hooks.spec.ts
        • test-storybooks/external-docs/components/button.tsx
        • test-storybooks/external-docs/components/AccountForm.tsx
        • scripts/sandbox/utils/yarn.ts
@@ -1766,7 +1766,7 @@ Repository: sample-repos/storybook
        • code/e2e-tests/util.ts
        • test-storybooks/external-docs/components/AccountForm.tsx
        • code/core/src/typings.d.ts
-       • test-storybooks/portable-stories-kitchen-sink/svelte/stories/Button.stories.ts
+       • test-storybooks/portable-stories-kitchen-sink/vue3/stories/Button.stories.ts
      📄 Files WITHOUT TSFunctionType (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -1788,9 +1788,9 @@ Repository: sample-repos/storybook
        • code/core/src/preview-errors.ts
        • code/core/src/manager-errors.ts
        • code/lib/eslint-plugin/src/test-utils.ts
-       • code/renderers/react/src/renderToCanvas.tsx
-       • code/addons/docs/src/DocsRenderer.tsx
-       • code/core/src/test/spy.test.ts
+       • code/core/src/manager-api/store.ts
+       • code/core/src/manager-api/root.tsx
+       • code/core/src/manager/runtime.tsx
      📄 Files WITHOUT MethodDefinition (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -1808,13 +1808,13 @@ Repository: sample-repos/storybook
        • scripts/get-template.ts
        • scripts/get-report-message.ts
        • scripts/sandbox/generate.ts
-       • scripts/tasks/sandbox-parts.ts
        • scripts/utils/workspace.ts
        • scripts/utils/exec.ts
        • scripts/utils/command.ts
-       • scripts/bench/bench-packages.ts
        • scripts/prepare/tsc.ts
        • scripts/prepare/tools.ts
+       • scripts/prepare/check.ts
+       • scripts/prepare/bundle.ts
      📄 Files WITHOUT AssignmentPattern (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -1833,12 +1833,12 @@ Repository: sample-repos/storybook
        • scripts/get-template.ts
        • code/vitest-setup.ts
        • scripts/sandbox/generate.ts
+       • scripts/utils/options.ts
+       • scripts/prepare/bundle.ts
+       • scripts/prepare/addon-bundle.ts
        • scripts/release/publish.ts
        • scripts/release/get-changelog-from-file.ts
        • scripts/release/generate-pr-description.ts
-       • scripts/release/cancel-preparation-runs.ts
-       • scripts/tasks/sandbox-parts.ts
-       • scripts/tasks/e2e-tests-build.ts
      📄 Files WITHOUT TaggedTemplateExpression (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -1886,7 +1886,7 @@ Repository: sample-repos/storybook
        • code/prettier.config.mjs
        • code/playwright.config.ts
        • scripts/utils/touch.ts
-       • code/__mocks__/fs.ts
+       • code/core/vitest.config.ts
      📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
        • scripts/upload-bench.ts
        • scripts/task.ts
@@ -1903,10 +1903,10 @@ Repository: sample-repos/storybook
      📄 Files WITH TSQualifiedName (showing 10):
        • scripts/run-registry.ts
        • code/vitest.helpers.ts
-       • scripts/release/version.ts
        • scripts/prepare/tools.ts
        • scripts/prepare/check.ts
        • scripts/prepare/check-scripts.ts
+       • scripts/release/version.ts
        • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/Link.stories.tsx
        • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/GetImageProps.stories.tsx
        • test-storybooks/portable-stories-kitchen-sink/react/stories/Button.tsx
@@ -1932,9 +1932,9 @@ Repository: sample-repos/storybook
        • code/core/vitest.d.ts
        • code/presets/react-webpack/src/types.ts
        • code/lib/react-dom-shim/src/react-18.tsx
-       • code/lib/create-storybook/src/initiate.ts
-       • code/lib/core-webpack/src/types.ts
        • code/lib/eslint-plugin/src/test-utils.ts
+       • code/lib/eslint-plugin/scripts/update-rules-list.ts
+       • code/lib/create-storybook/src/initiate.ts
      📄 Files WITHOUT TSTypeParameter (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -1949,16 +1949,16 @@ Repository: sample-repos/storybook
 
    TSIndexedAccessType:
      📄 Files WITH TSIndexedAccessType (showing 10):
-       • scripts/tasks/sandbox-parts.ts
        • scripts/utils/options.ts
        • scripts/utils/command.ts
        • scripts/prepare/bundle.ts
        • scripts/prepare/addon-bundle.ts
+       • scripts/tasks/sandbox-parts.ts
        • code/core/scripts/prep.ts
        • code/core/src/typings.d.ts
        • code/core/src/storybook-error.ts
+       • code/presets/server-webpack/src/index.ts
        • code/presets/react-webpack/src/framework-preset-react-docs.ts
-       • code/presets/react-webpack/src/framework-preset-cra.ts
      📄 Files WITHOUT TSIndexedAccessType (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -1999,14 +1999,14 @@ Repository: sample-repos/storybook
      📄 Files WITH SwitchCase (showing 10):
        • scripts/tasks/sandbox-parts.ts
        • scripts/release/__tests__/cancel-preparation-runs.test.ts
-       • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/Font.tsx
-       • test-storybooks/portable-stories-kitchen-sink/svelte/stories/Button.stories.ts
-       • test-storybooks/portable-stories-kitchen-sink/react/stories/Button.stories.tsx
-       • test-storybooks/portable-stories-kitchen-sink/vue3/stories/Button.stories.ts
        • test-storybooks/ember-cli/ember-output/assets/vendor.js
+       • test-storybooks/portable-stories-kitchen-sink/vue3/stories/Button.stories.ts
+       • test-storybooks/portable-stories-kitchen-sink/svelte/stories/Button.stories.ts
+       • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/Font.tsx
+       • test-storybooks/portable-stories-kitchen-sink/react/stories/Button.stories.tsx
        • code/lib/create-storybook/src/scaffold-new-project.ts
        • code/lib/create-storybook/src/initiate.ts
-       • code/renderers/svelte/src/extractArgTypes.ts
+       • code/core/src/router/utils.ts
      📄 Files WITHOUT SwitchCase (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -2048,13 +2048,13 @@ Repository: sample-repos/storybook
        • scripts/prepare/tools.ts
        • scripts/prepare/tools-esm.ts
        • test-storybooks/ember-cli/app/resolver.js
+       • code/presets/server-webpack/src/types.ts
        • code/presets/react-webpack/src/types.ts
        • code/presets/create-react-app/src/index.ts
-       • code/presets/server-webpack/src/types.ts
        • code/lib/create-storybook/src/index.ts
        • code/lib/core-webpack/src/types.ts
-       • code/frameworks/react-webpack5/src/index.ts
-       • code/frameworks/react-vite/src/index.ts
+       • code/core/src/viewport/preview.ts
+       • code/core/src/telemetry/index.ts
      📄 Files WITHOUT ExportSpecifier (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -2070,11 +2070,11 @@ Repository: sample-repos/storybook
    TSNumberKeyword:
      📄 Files WITH TSNumberKeyword (showing 10):
        • scripts/get-template.ts
+       • scripts/utils/options.ts
+       • scripts/utils/cli-utils.ts
        • scripts/release/pick-patches.ts
        • scripts/tasks/test-runner-build.ts
        • scripts/tasks/e2e-tests-build.ts
-       • scripts/utils/options.ts
-       • scripts/utils/cli-utils.ts
        • scripts/bench/types.ts
        • scripts/bench/browse.ts
        • scripts/bench/bench-packages.ts
@@ -2096,13 +2096,13 @@ Repository: sample-repos/storybook
        • code/e2e-tests/util.ts
        • code/core/src/typings.d.ts
        • code/core/src/storybook-error.ts
-       • code/renderers/react/src/renderToCanvas.tsx
-       • code/addons/docs/src/DocsRenderer.tsx
-       • code/core/src/test/spy.test.ts
-       • code/core/src/manager/runtime.tsx
-       • code/core/src/instrumenter/instrumenter.ts
        • code/core/src/manager-api/store.ts
        • code/core/src/manager-api/root.tsx
+       • code/core/src/manager/runtime.tsx
+       • code/core/src/instrumenter/instrumenter.ts
+       • code/core/src/test/spy.test.ts
+       • code/core/src/csf-tools/CsfFile.ts
+       • code/core/src/csf-tools/ConfigFile.ts
      📄 Files WITHOUT PropertyDefinition (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -2124,9 +2124,9 @@ Repository: sample-repos/storybook
        • code/core/vitest.d.ts
        • code/presets/react-webpack/src/types.ts
        • code/lib/react-dom-shim/src/react-18.tsx
+       • code/lib/eslint-plugin/src/test-utils.ts
        • code/lib/create-storybook/src/initiate.ts
        • code/lib/core-webpack/src/types.ts
-       • code/lib/eslint-plugin/src/test-utils.ts
      📄 Files WITHOUT TSTypeParameterDeclaration (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -2148,9 +2148,9 @@ Repository: sample-repos/storybook
        • test-storybooks/ember-cli/ember-output/assets/vendor.js
        • code/lib/cli-storybook/src/util.ts
        • code/lib/cli-storybook/src/upgrade.ts
-       • code/addons/links/src/utils.ts
-       • code/core/src/test/preview.ts
        • code/core/src/node-logger/wrap-utils.ts
+       • code/core/src/node-logger/wrap-utils.test.ts
+       • code/core/src/instrumenter/instrumenter.ts
      📄 Files WITHOUT UpdateExpression (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -2170,11 +2170,11 @@ Repository: sample-repos/storybook
        • test-storybooks/external-docs/components/button.tsx
        • test-storybooks/external-docs/components/button.stories.tsx
        • test-storybooks/external-docs/components/AccountForm.tsx
-       • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/GetImageProps.stories.tsx
        • test-storybooks/portable-stories-kitchen-sink/nextjs/pages/_app.tsx
+       • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/GetImageProps.stories.tsx
        • test-storybooks/portable-stories-kitchen-sink/react/stories/Button.tsx
        • test-storybooks/portable-stories-kitchen-sink/react/stories/Button.stories.tsx
-       • code/renderers/react/src/renderToCanvas.tsx
+       • code/core/src/router/router.tsx
      📄 Files WITHOUT JSXSpreadAttribute (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -2191,14 +2191,14 @@ Repository: sample-repos/storybook
      📄 Files WITH TSIntersectionType (showing 10):
        • scripts/sandbox/publish.ts
        • scripts/sandbox/generate.ts
-       • scripts/release/version.ts
-       • scripts/tasks/test-runner-build.ts
-       • scripts/tasks/e2e-tests-build.ts
        • scripts/utils/yarn.ts
        • scripts/utils/options.ts
        • scripts/prepare/tools.ts
        • scripts/prepare/bundle.ts
        • scripts/prepare/addon-bundle.ts
+       • scripts/release/version.ts
+       • scripts/tasks/test-runner-build.ts
+       • scripts/tasks/e2e-tests-build.ts
      📄 Files WITHOUT TSIntersectionType (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -2214,9 +2214,9 @@ Repository: sample-repos/storybook
    RestElement:
      📄 Files WITH RestElement (showing 10):
        • scripts/task.ts
-       • scripts/release/generate-pr-description.ts
        • scripts/utils/options.ts
        • scripts/prepare/tools.ts
+       • scripts/release/generate-pr-description.ts
        • test-storybooks/external-docs/components/emoji-button.tsx
        • test-storybooks/external-docs/components/button.tsx
        • scripts/release/utils/get-github-info.ts
@@ -2241,12 +2241,12 @@ Repository: sample-repos/storybook
        • scripts/event-log-checker.ts
        • scripts/combine-compodoc.ts
        • scripts/sandbox/generate.ts
+       • scripts/utils/exec.ts
        • scripts/release/pick-patches.ts
        • scripts/release/label-patches.ts
        • scripts/release/is-pr-frozen.ts
        • scripts/tasks/compile.ts
        • scripts/tasks/bench.ts
-       • scripts/utils/exec.ts
      📄 Files WITHOUT TryStatement (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -2263,14 +2263,14 @@ Repository: sample-repos/storybook
      📄 Files WITH TSUnknownKeyword (showing 10):
        • scripts/event-log-collector.ts
        • scripts/sandbox/generate.ts
+       • scripts/prepare/tsc.ts
+       • scripts/prepare/check.ts
+       • scripts/prepare/check-scripts.ts
+       • scripts/prepare/bundle.ts
+       • scripts/prepare/addon-bundle.ts
        • scripts/release/write-changelog.ts
        • scripts/release/version.ts
        • scripts/release/unreleased-changes-exists.ts
-       • scripts/release/publish.ts
-       • scripts/release/pick-patches.ts
-       • scripts/release/label-patches.ts
-       • scripts/release/is-version-published.ts
-       • scripts/release/is-pr-frozen.ts
      📄 Files WITHOUT TSUnknownKeyword (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -2291,10 +2291,10 @@ Repository: sample-repos/storybook
        • code/e2e-tests/module-mocking.spec.ts
        • code/e2e-tests/addon-docs.spec.ts
        • test-storybooks/ember-cli/ember-output/assets/vendor.js
-       • code/addons/links/src/utils.ts
-       • code/core/src/test/preview.ts
        • code/core/src/node-logger/wrap-utils.ts
        • code/core/src/node-logger/wrap-utils.test.ts
+       • code/core/src/test/preview.ts
+       • code/core/src/client-logger/index.ts
      📄 Files WITHOUT ForStatement (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -2313,12 +2313,12 @@ Repository: sample-repos/storybook
        • scripts/event-log-checker.ts
        • scripts/combine-compodoc.ts
        • scripts/sandbox/generate.ts
+       • scripts/utils/exec.ts
        • scripts/release/pick-patches.ts
        • scripts/release/label-patches.ts
        • scripts/release/is-pr-frozen.ts
        • scripts/tasks/compile.ts
        • scripts/tasks/bench.ts
-       • scripts/utils/exec.ts
      📄 Files WITHOUT CatchClause (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -2358,15 +2358,15 @@ Repository: sample-repos/storybook
    ExportAllDeclaration:
      📄 Files WITH ExportAllDeclaration (showing 10):
        • code/frameworks/angular/renderer.d.ts
-       • code/addons/pseudo-states/preview.js
-       • code/addons/links/react.d.ts
-       • code/addons/links/preview.js
-       • code/addons/a11y/preview.js
-       • code/addons/themes/preview.js
        • code/addons/vitest/preset.mjs
        • code/addons/vitest/postinstall.mjs
+       • code/addons/themes/preview.js
+       • code/addons/pseudo-states/preview.js
        • code/addons/docs/preview.js
        • code/addons/docs/manager.js
+       • code/addons/a11y/preview.js
+       • code/addons/links/react.d.ts
+       • code/addons/links/preview.js
      📄 Files WITHOUT ExportAllDeclaration (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -2389,8 +2389,8 @@ Repository: sample-repos/storybook
        • code/core/src/preview-errors.ts
        • code/core/src/manager-errors.ts
        • code/lib/eslint-plugin/src/test-utils.ts
-       • code/renderers/svelte/src/public-types.test.ts
-       • code/renderers/react/src/renderToCanvas.tsx
+       • code/core/src/manager-api/store.ts
+       • code/core/src/manager-api/root.tsx
      📄 Files WITHOUT ClassBody (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -2413,8 +2413,8 @@ Repository: sample-repos/storybook
        • code/core/src/preview-errors.ts
        • code/core/src/manager-errors.ts
        • code/lib/eslint-plugin/src/test-utils.ts
-       • code/renderers/svelte/src/public-types.test.ts
-       • code/renderers/react/src/renderToCanvas.tsx
+       • code/core/src/manager-api/store.ts
+       • code/core/src/manager-api/root.tsx
      📄 Files WITHOUT ClassDeclaration (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -2436,9 +2436,9 @@ Repository: sample-repos/storybook
        • code/core/src/docs-tools/shared.ts
        • code/core/src/core-events/index.ts
        • code/core/src/cli/project_types.ts
+       • code/lib/eslint-plugin/src/utils/constants.ts
        • code/lib/cli-storybook/src/doctor/types.ts
        • code/lib/cli-storybook/src/automigrate/types.ts
-       • code/lib/eslint-plugin/src/utils/constants.ts
      📄 Files WITHOUT TSEnumMember (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -2484,9 +2484,9 @@ Repository: sample-repos/storybook
        • test-storybooks/portable-stories-kitchen-sink/react/stories/Button.stories.tsx
        • code/lib/cli-storybook/src/util.ts
        • code/lib/cli-storybook/src/sandbox-templates.ts
-       • code/frameworks/react-native-web-vite/src/preset.ts
-       • code/renderers/react/src/public-types.test.tsx
-       • code/renderers/vue3/src/public-types.test.ts
+       • code/core/src/cli/eslintPlugin.test.ts
+       • code/core/src/backgrounds/preview.ts
+       • code/core/template/stories/expect.stories.tsx
      📄 Files WITHOUT TSSatisfiesExpression (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -2509,8 +2509,8 @@ Repository: sample-repos/storybook
        • test-storybooks/portable-stories-kitchen-sink/react/stories/UnhandledErrors.stories.tsx
        • code/lib/react-dom-shim/src/react-16.tsx
        • code/lib/react-dom-shim/src/preset.ts
+       • code/lib/csf-plugin/src/webpack-loader.ts
        • code/lib/cli-storybook/src/util.ts
-       • code/lib/cli-storybook/src/sandbox.ts
      📄 Files WITHOUT TSNullKeyword (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -2527,9 +2527,9 @@ Repository: sample-repos/storybook
      📄 Files WITH TSNonNullExpression (showing 10):
        • scripts/release/utils/get-changes.ts
        • scripts/release/__tests__/label-patches.test.ts
+       • test-storybooks/portable-stories-kitchen-sink/vue3/stories/Button.cy.tsx
        • test-storybooks/portable-stories-kitchen-sink/svelte/stories/Button.test.ts
        • test-storybooks/portable-stories-kitchen-sink/react/e2e-tests/component-testing.spec.ts
-       • test-storybooks/portable-stories-kitchen-sink/vue3/stories/Button.cy.tsx
        • code/lib/react-dom-shim/src/react-18.tsx
        • code/lib/create-storybook/src/initiate.ts
        • code/lib/cli-storybook/src/util.ts
@@ -2549,16 +2549,16 @@ Repository: sample-repos/storybook
 
    JSXMemberExpression:
      📄 Files WITH JSXMemberExpression (showing 10):
-       • test-storybooks/portable-stories-kitchen-sink/react/stories/Button.playwright.tsx
        • test-storybooks/portable-stories-kitchen-sink/vue3/stories/Button.playwright.tsx
-       • code/renderers/react/src/entry-preview.tsx
-       • code/addons/vitest/src/manager.tsx
+       • test-storybooks/portable-stories-kitchen-sink/react/stories/Button.playwright.tsx
        • code/core/src/router/router.tsx
        • code/core/src/manager-api/root.tsx
-       • code/frameworks/nextjs-vite/src/routing/page-router-provider.tsx
-       • code/frameworks/nextjs-vite/src/routing/app-router-provider.tsx
-       • code/frameworks/nextjs-vite/src/images/decorator.tsx
-       • code/frameworks/nextjs-vite/src/head-manager/head-manager-provider.tsx
+       • code/renderers/react/src/entry-preview.tsx
+       • code/addons/vitest/src/manager.tsx
+       • code/core/src/controls/components/SaveStory.tsx
+       • code/core/src/component-testing/components/TestDiscrepancyMessage.stories.tsx
+       • code/core/src/component-testing/components/InteractionsPanel.stories.tsx
+       • code/renderers/react/template/stories/decorators.stories.tsx
      📄 Files WITHOUT JSXMemberExpression (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -2599,14 +2599,14 @@ Repository: sample-repos/storybook
      📄 Files WITH JSXFragment (showing 10):
        • test-storybooks/external-docs/components/button.stories.tsx
        • test-storybooks/external-docs/components/AccountForm.tsx
+       • test-storybooks/portable-stories-kitchen-sink/nextjs/pages/index.tsx
        • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/NextHeader.tsx
        • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/Image.stories.tsx
-       • test-storybooks/portable-stories-kitchen-sink/nextjs/pages/index.tsx
        • test-storybooks/portable-stories-kitchen-sink/react/stories/Button.stories.tsx
-       • code/renderers/react/src/public-types.test.tsx
-       • code/renderers/react/src/csf-factories.test.tsx
-       • code/addons/onboarding/src/Onboarding.tsx
-       • code/addons/docs/src/DocsRenderer.tsx
+       • code/core/src/router/router.tsx
+       • code/core/src/manager/App.tsx
+       • code/core/src/highlight/StoryContent.tsx
+       • code/core/src/controls/manager.tsx
      📄 Files WITHOUT JSXFragment (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -2623,14 +2623,14 @@ Repository: sample-repos/storybook
      📄 Files WITH JSXOpeningFragment (showing 10):
        • test-storybooks/external-docs/components/button.stories.tsx
        • test-storybooks/external-docs/components/AccountForm.tsx
+       • test-storybooks/portable-stories-kitchen-sink/nextjs/pages/index.tsx
        • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/NextHeader.tsx
        • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/Image.stories.tsx
-       • test-storybooks/portable-stories-kitchen-sink/nextjs/pages/index.tsx
        • test-storybooks/portable-stories-kitchen-sink/react/stories/Button.stories.tsx
-       • code/renderers/react/src/public-types.test.tsx
-       • code/renderers/react/src/csf-factories.test.tsx
-       • code/addons/onboarding/src/Onboarding.tsx
-       • code/addons/docs/src/DocsRenderer.tsx
+       • code/core/src/router/router.tsx
+       • code/core/src/manager/App.tsx
+       • code/core/src/highlight/StoryContent.tsx
+       • code/core/src/controls/manager.tsx
      📄 Files WITHOUT JSXOpeningFragment (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -2647,14 +2647,14 @@ Repository: sample-repos/storybook
      📄 Files WITH JSXClosingFragment (showing 10):
        • test-storybooks/external-docs/components/button.stories.tsx
        • test-storybooks/external-docs/components/AccountForm.tsx
+       • test-storybooks/portable-stories-kitchen-sink/nextjs/pages/index.tsx
        • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/NextHeader.tsx
        • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/Image.stories.tsx
-       • test-storybooks/portable-stories-kitchen-sink/nextjs/pages/index.tsx
        • test-storybooks/portable-stories-kitchen-sink/react/stories/Button.stories.tsx
-       • code/renderers/react/src/public-types.test.tsx
-       • code/renderers/react/src/csf-factories.test.tsx
-       • code/addons/onboarding/src/Onboarding.tsx
-       • code/addons/docs/src/DocsRenderer.tsx
+       • code/core/src/router/router.tsx
+       • code/core/src/manager/App.tsx
+       • code/core/src/highlight/StoryContent.tsx
+       • code/core/src/controls/manager.tsx
      📄 Files WITHOUT JSXClosingFragment (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -2673,8 +2673,8 @@ Repository: sample-repos/storybook
        • scripts/task.ts
        • scripts/get-template.ts
        • scripts/event-log-checker.ts
-       • scripts/release/generate-pr-description.ts
        • scripts/utils/options.ts
+       • scripts/release/generate-pr-description.ts
        • scripts/bench/bench-packages.ts
        • code/e2e-tests/util.ts
        • scripts/sandbox/utils/template.ts
@@ -2695,14 +2695,14 @@ Repository: sample-repos/storybook
      📄 Files WITH BreakStatement (showing 10):
        • scripts/tasks/sandbox-parts.ts
        • test-storybooks/ember-cli/ember-output/assets/vendor.js
-       • code/renderers/server/src/render.ts
        • code/core/src/node-logger/wrap-utils.ts
+       • code/renderers/server/src/render.ts
        • code/presets/react-webpack/src/loaders/docgen-resolver.ts
        • code/lib/cli-storybook/src/automigrate/index.ts
        • code/lib/cli-storybook/src/autoblock/block-webpack5-frameworks.ts
-       • code/frameworks/react-vite/src/plugins/docgen-resolver.ts
-       • code/renderers/web-components/src/docs/custom-elements.ts
-       • code/renderers/vue3/src/docs/sourceDecorator.ts
+       • code/core/src/shared/universal-store/index.ts
+       • code/core/src/manager-api/modules/shortcuts.ts
+       • code/core/src/docs-tools/argTypes/jsdocParser.ts
      📄 Files WITHOUT BreakStatement (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -2770,11 +2770,11 @@ Repository: sample-repos/storybook
        • test-storybooks/external-docs/components/AccountForm.tsx
        • code/presets/create-react-app/src/types.ts
        • code/lib/cli-storybook/src/util.ts
-       • code/frameworks/nextjs-vite/src/index.ts
-       • code/frameworks/nextjs/src/index.ts
-       • code/renderers/web-components/src/types.ts
-       • code/renderers/svelte/src/types.ts
-       • code/renderers/react/src/types.ts
+       • code/core/src/telemetry/types.ts
+       • code/core/src/router/types.ts
+       • code/core/src/theming/types.ts
+       • code/core/src/theming/emotionAugmentation.d.ts
+       • code/core/src/measure/util-types.ts
      📄 Files WITHOUT TSInterfaceHeritage (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -2794,8 +2794,8 @@ Repository: sample-repos/storybook
        • code/core/src/preview-errors.ts
        • code/core/src/manager-errors.ts
        • code/lib/eslint-plugin/src/test-utils.ts
-       • code/core/src/manager/runtime.tsx
        • code/core/src/manager-api/root.tsx
+       • code/core/src/manager/runtime.tsx
        • code/core/src/csf-tools/CsfFile.ts
        • code/core/src/__tests/storybook-error.test.ts
        • code/presets/react-webpack/src/loaders/docgen-resolver.ts
@@ -2815,14 +2815,14 @@ Repository: sample-repos/storybook
      📄 Files WITH SwitchStatement (showing 10):
        • scripts/tasks/sandbox-parts.ts
        • scripts/release/__tests__/cancel-preparation-runs.test.ts
-       • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/Font.tsx
-       • test-storybooks/portable-stories-kitchen-sink/svelte/stories/Button.stories.ts
-       • test-storybooks/portable-stories-kitchen-sink/react/stories/Button.stories.tsx
-       • test-storybooks/portable-stories-kitchen-sink/vue3/stories/Button.stories.ts
        • test-storybooks/ember-cli/ember-output/assets/vendor.js
+       • test-storybooks/portable-stories-kitchen-sink/vue3/stories/Button.stories.ts
+       • test-storybooks/portable-stories-kitchen-sink/svelte/stories/Button.stories.ts
+       • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/Font.tsx
+       • test-storybooks/portable-stories-kitchen-sink/react/stories/Button.stories.tsx
        • code/lib/create-storybook/src/scaffold-new-project.ts
        • code/lib/create-storybook/src/initiate.ts
-       • code/renderers/svelte/src/extractArgTypes.ts
+       • code/core/src/router/utils.ts
      📄 Files WITHOUT SwitchStatement (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -2839,14 +2839,14 @@ Repository: sample-repos/storybook
      📄 Files WITH TSTupleType (showing 10):
        • scripts/task.ts
        • scripts/combine-compodoc.ts
+       • test-storybooks/portable-stories-kitchen-sink/svelte/stories/Button.test.ts
        • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/portable-stories.test.tsx
        • test-storybooks/portable-stories-kitchen-sink/nextjs/stories/NextHeader.tsx
-       • test-storybooks/portable-stories-kitchen-sink/svelte/stories/Button.test.ts
+       • code/lib/eslint-plugin/scripts/update-rules-list.ts
        • code/lib/core-webpack/src/to-importFn.test.ts
        • code/lib/core-webpack/src/importPipeline.test.ts
-       • code/lib/eslint-plugin/scripts/update-rules-list.ts
-       • code/renderers/react/src/public-types.ts
-       • code/renderers/vue3/src/extractArgTypes.ts
+       • code/core/src/node-logger/index.ts
+       • code/core/src/manager-api/root.tsx
      📄 Files WITHOUT TSTupleType (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -2863,14 +2863,14 @@ Repository: sample-repos/storybook
      📄 Files WITH ForOfStatement (showing 10):
        • scripts/knip.config.ts
        • scripts/build-package.ts
-       • scripts/release/pick-patches.ts
-       • scripts/release/generate-pr-description.ts
-       • scripts/tasks/sandbox-parts.ts
        • scripts/utils/paths.ts
        • scripts/utils/exec.ts
        • scripts/utils/diff.ts
-       • scripts/bench/bench-packages.ts
        • scripts/prepare/addon-bundle.ts
+       • scripts/release/pick-patches.ts
+       • scripts/release/generate-pr-description.ts
+       • scripts/tasks/sandbox-parts.ts
+       • scripts/bench/bench-packages.ts
      📄 Files WITHOUT ForOfStatement (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -2886,15 +2886,15 @@ Repository: sample-repos/storybook
    TSIndexSignature:
      📄 Files WITH TSIndexSignature (showing 10):
        • scripts/get-template.ts
+       • scripts/utils/githubClient.ts
        • scripts/release/write-changelog.ts
        • scripts/release/version.ts
        • scripts/release/unreleased-changes-exists.ts
        • scripts/release/publish.ts
-       • scripts/utils/githubClient.ts
-       • code/frameworks/react-native-web-vite/src/types.ts
-       • code/renderers/react/src/extractProps.ts
-       • code/addons/a11y/src/AccessibilityRuleMaps.ts
-       • code/addons/docs/src/mdx-loader.ts
+       • code/core/src/telemetry/types.ts
+       • code/core/src/telemetry/sanitize.ts
+       • code/core/src/router/utils.ts
+       • code/core/src/theming/types.ts
      📄 Files WITHOUT TSIndexSignature (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -2912,13 +2912,13 @@ Repository: sample-repos/storybook
        • code/core/src/server-errors.ts
        • code/core/src/preview-errors.ts
        • code/core/src/manager-errors.ts
-       • code/frameworks/angular/template/components/html.component.ts
-       • code/addons/pseudo-states/src/preview/rewriteStyleSheet.test.ts
-       • code/addons/vitest/src/node/vitest-manager.ts
-       • code/addons/vitest/src/node/reporter.ts
        • code/core/src/core-server/utils/StoryIndexGenerator.ts
        • code/core/src/core-server/utils/IndexingError.ts
        • code/core/src/channels/postmessage/index.ts
+       • code/frameworks/angular/template/components/html.component.ts
+       • code/addons/vitest/src/node/vitest-manager.ts
+       • code/addons/vitest/src/node/reporter.ts
+       • code/addons/pseudo-states/src/preview/rewriteStyleSheet.test.ts
      📄 Files WITHOUT TSParameterProperty (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -2935,14 +2935,14 @@ Repository: sample-repos/storybook
      📄 Files WITH TSConditionalType (showing 10):
        • scripts/utils/options.ts
        • code/lib/eslint-plugin/scripts/update-rules-list.ts
-       • code/frameworks/vue3-vite/src/types.ts
+       • code/core/src/test/utils.ts
+       • code/core/src/csf/story.ts
+       • code/core/src/csf/csf-factories.ts
        • code/renderers/svelte/src/types.ts
        • code/renderers/svelte/src/public-types.ts
        • code/renderers/svelte/src/portable-stories.ts
-       • code/renderers/react/src/public-types.ts
-       • code/renderers/react/src/preview.tsx
        • code/renderers/vue3/src/public-types.ts
-       • code/builders/builder-webpack5/src/index.ts
+       • code/renderers/react/src/public-types.ts
      📄 Files WITHOUT TSConditionalType (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -2958,14 +2958,14 @@ Repository: sample-repos/storybook
    TSMethodSignature:
      📄 Files WITH TSMethodSignature (showing 10):
        • code/core/vitest.d.ts
+       • code/core/src/test/expect.ts
+       • code/core/src/csf/story.ts
+       • code/core/src/csf/csf-factories.ts
+       • code/core/src/csf-tools/PrintResultType.ts
+       • code/core/src/channels/types.ts
        • code/renderers/react/src/public-types.test.tsx
        • code/renderers/react/src/preview.tsx
        • code/renderers/react/src/csf-factories.test.tsx
-       • code/core/src/test/expect.ts
-       • code/core/src/csf-tools/PrintResultType.ts
-       • code/core/src/csf/story.ts
-       • code/core/src/csf/csf-factories.ts
-       • code/core/src/channels/types.ts
        • code/core/src/types/modules/docs.ts
      📄 Files WITHOUT TSMethodSignature (showing 10):
        • prettier.config.mjs
@@ -2990,7 +2990,7 @@ Repository: sample-repos/storybook
        • code/core/src/instrumenter/instrumenter.ts
        • code/core/src/client-logger/index.ts
        • code/presets/react-webpack/src/loaders/react-docgen-loader.ts
-       • code/addons/vitest/src/node/boot-test-runner.ts
+       • code/core/src/common/js-package-manager/Yarn2Proxy.ts
      📄 Files WITHOUT WhileStatement (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -3005,16 +3005,16 @@ Repository: sample-repos/storybook
 
    TSModuleDeclaration:
      📄 Files WITH TSModuleDeclaration (showing 10):
-       • code/e2e-tests/storybook-hooks.spec.ts
        • code/core/vitest.d.ts
+       • code/e2e-tests/storybook-hooks.spec.ts
        • test-storybooks/portable-stories-kitchen-sink/nextjs/typings.d.ts
-       • code/builders/builder-webpack5/typings.d.ts
        • code/core/src/typings.d.ts
+       • code/builders/builder-webpack5/typings.d.ts
        • test-storybooks/portable-stories-kitchen-sink/react/stories/AddonTest.stories.tsx
        • code/presets/create-react-app/src/typings.d.ts
        • code/lib/cli-storybook/src/window.d.ts
        • code/lib/cli-storybook/src/typings.d.ts
-       • code/frameworks/react-native-web-vite/src/typings.d.ts
+       • code/core/src/theming/emotionAugmentation.d.ts
      📄 Files WITHOUT TSModuleDeclaration (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -3032,13 +3032,13 @@ Repository: sample-repos/storybook
        • code/vitest-setup.ts
        • code/core/src/typings.d.ts
        • code/lib/cli-storybook/src/warn.test.ts
-       • code/frameworks/angular/src/typings.d.ts
-       • code/renderers/svelte/src/types.ts
-       • code/renderers/react/src/typings.d.ts
-       • code/builders/builder-vite/src/vite-config.test.ts
-       • code/addons/docs/src/typings.d.ts
-       • code/core/src/theming/emotionAugmentation.d.ts
        • code/core/src/telemetry/session-id.test.ts
+       • code/core/src/telemetry/get-monorepo-type.test.ts
+       • code/core/src/theming/emotionAugmentation.d.ts
+       • code/core/src/manager-api/typings.d.ts
+       • code/core/src/manager/typings.d.ts
+       • code/core/src/instrumenter/typings.d.ts
+       • code/core/src/core-server/typings.d.ts
      📄 Files WITHOUT TSImportType (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -3055,12 +3055,12 @@ Repository: sample-repos/storybook
      📄 Files WITH TSNeverKeyword (showing 10):
        • scripts/utils/options.ts
        • code/lib/eslint-plugin/scripts/update-rules-list.ts
-       • code/frameworks/vue3-vite/src/types.ts
-       • code/frameworks/nextjs-vite/src/index.ts
-       • code/frameworks/nextjs/src/index.ts
+       • code/core/src/test/expect.ts
+       • code/core/src/csf/csf-factories.ts
        • code/renderers/svelte/src/types.ts
        • code/renderers/svelte/src/public-types.ts
        • code/renderers/svelte/src/portable-stories.ts
+       • code/renderers/vue3/src/public-types.ts
        • code/renderers/react/src/public-types.ts
        • code/renderers/react/src/preview.tsx
      📄 Files WITHOUT TSNeverKeyword (showing 10):
@@ -3083,10 +3083,10 @@ Repository: sample-repos/storybook
        • scripts/release/publish.ts
        • code/lib/cli-storybook/src/util.ts
        • code/lib/cli-storybook/src/upgrade.ts
-       • code/frameworks/nextjs/src/preset.ts
-       • code/renderers/vue3/src/extractArgTypes.ts
-       • code/addons/a11y/src/manager.test.tsx
-       • code/addons/vitest/src/utils.ts
+       • code/core/src/instrumenter/instrumenter.ts
+       • code/core/src/highlight/utils.ts
+       • code/core/src/csf/csf-factories.ts
+       • code/core/src/common/presets.ts
      📄 Files WITHOUT TSTypePredicate (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -3105,12 +3105,12 @@ Repository: sample-repos/storybook
        • test-storybooks/ember-cli/ember-output/assets/vendor.js
        • code/core/src/node-logger/wrap-utils.ts
        • code/lib/cli-storybook/src/automigrate/multi-project.ts
+       • code/core/src/docs-tools/argTypes/jsdocParser.ts
+       • code/core/src/common/utils/sync-main-preview-addons.ts
        • code/frameworks/nextjs-vite/src/routing/app-router-provider.tsx
        • code/frameworks/nextjs/src/routing/app-router-provider.tsx
-       • code/addons/pseudo-states/src/preview/withPseudoState.ts
-       • code/addons/pseudo-states/src/preview/splitSelectors.ts
-       • code/addons/pseudo-states/src/preview/rewriteStyleSheet.ts
        • code/addons/vitest/src/node/vitest-manager.ts
+       • code/addons/pseudo-states/src/preview/withPseudoState.ts
      📄 Files WITHOUT ContinueStatement (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -3142,15 +3142,15 @@ Repository: sample-repos/storybook
    JSXEmptyExpression:
      📄 Files WITH JSXEmptyExpression (showing 10):
        • code/core/src/highlight/StoryContent.tsx
-       • code/frameworks/nextjs-vite/src/routing/decorator.tsx
-       • code/frameworks/nextjs/src/routing/decorator.tsx
-       • code/renderers/react/template/stories/errors.stories.tsx
-       • code/addons/pseudo-states/src/stories/CustomElementNested.stories.tsx
-       • code/addons/pseudo-states/src/stories/CustomElement.stories.tsx
        • code/core/src/manager/settings/shortcuts.tsx
        • code/core/src/component-testing/components/MethodCall.stories.tsx
-       • code/addons/a11y/src/components/Report/Details.tsx
+       • code/renderers/react/template/stories/errors.stories.tsx
+       • code/frameworks/nextjs-vite/src/routing/decorator.tsx
+       • code/frameworks/nextjs/src/routing/decorator.tsx
+       • code/addons/pseudo-states/src/stories/CustomElementNested.stories.tsx
+       • code/addons/pseudo-states/src/stories/CustomElement.stories.tsx
        • code/core/src/manager/components/sidebar/TreeNode.tsx
+       • code/core/src/manager/components/sidebar/SearchResults.tsx
      📄 Files WITHOUT JSXEmptyExpression (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -3167,14 +3167,14 @@ Repository: sample-repos/storybook
      📄 Files WITH TSInferType (showing 10):
        • scripts/utils/options.ts
        • code/lib/eslint-plugin/scripts/update-rules-list.ts
-       • code/frameworks/vue3-vite/src/types.ts
+       • code/core/src/test/utils.ts
+       • code/core/src/csf/story.ts
+       • code/core/src/csf/csf-factories.ts
        • code/renderers/svelte/src/public-types.ts
        • code/renderers/svelte/src/portable-stories.ts
+       • code/renderers/vue3/src/public-types.ts
        • code/renderers/react/src/public-types.ts
        • code/renderers/react/src/preview.tsx
-       • code/renderers/vue3/src/public-types.ts
-       • code/builders/builder-webpack5/src/index.ts
-       • code/core/src/test/utils.ts
      📄 Files WITHOUT TSInferType (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -3191,11 +3191,11 @@ Repository: sample-repos/storybook
      📄 Files WITH ForInStatement (showing 7):
        • test-storybooks/ember-cli/ember-output/assets/vendor.js
        • code/core/scripts/helpers/sourcefiles.ts
+       • code/core/src/shared/status-store/index.ts
        • code/frameworks/nextjs-vite/src/routing/app-router-provider.tsx
        • code/frameworks/nextjs/src/routing/app-router-provider.tsx
-       • code/core/src/shared/status-store/index.ts
-       • code/addons/docs/src/blocks/components/ColorPalette.tsx
        • code/core/src/preview-api/modules/store/GlobalsStore.ts
+       • code/addons/docs/src/blocks/components/ColorPalette.tsx
      📄 Files WITHOUT ForInStatement (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -3217,9 +3217,9 @@ Repository: sample-repos/storybook
        • code/core/src/docs-tools/shared.ts
        • code/core/src/core-events/index.ts
        • code/core/src/cli/project_types.ts
+       • code/lib/eslint-plugin/src/utils/constants.ts
        • code/lib/cli-storybook/src/doctor/types.ts
        • code/lib/cli-storybook/src/automigrate/types.ts
-       • code/lib/eslint-plugin/src/utils/constants.ts
      📄 Files WITHOUT TSEnumDeclaration (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -3241,9 +3241,9 @@ Repository: sample-repos/storybook
        • code/core/src/docs-tools/shared.ts
        • code/core/src/core-events/index.ts
        • code/core/src/cli/project_types.ts
+       • code/lib/eslint-plugin/src/utils/constants.ts
        • code/lib/cli-storybook/src/doctor/types.ts
        • code/lib/cli-storybook/src/automigrate/types.ts
-       • code/lib/eslint-plugin/src/utils/constants.ts
      📄 Files WITHOUT TSEnumBody (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -3264,10 +3264,10 @@ Repository: sample-repos/storybook
        • scripts/event-log-checker.ts
        • scripts/combine-compodoc.ts
        • scripts/check-dependencies.js
-       • scripts/vite-ecosystem-ci/before-test.js
        • scripts/sandbox/generate.ts
+       • scripts/utils/cli-step.ts
+       • scripts/vite-ecosystem-ci/before-test.js
        • scripts/release/write-changelog.ts
-       • scripts/release/version.ts
      📄 Files WITHOUT MetaProperty (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -3282,16 +3282,16 @@ Repository: sample-repos/storybook
 
    TSModuleBlock:
      📄 Files WITH TSModuleBlock (showing 10):
-       • code/e2e-tests/storybook-hooks.spec.ts
        • code/core/vitest.d.ts
+       • code/e2e-tests/storybook-hooks.spec.ts
        • test-storybooks/portable-stories-kitchen-sink/react/stories/AddonTest.stories.tsx
        • code/lib/cli-storybook/src/window.d.ts
-       • code/frameworks/nextjs-vite/template/typings.d.ts
-       • code/frameworks/nextjs-vite/src/typings.d.ts
-       • code/frameworks/nextjs-vite/src/index.ts
-       • code/frameworks/nextjs/template/typings.d.ts
-       • code/frameworks/ember/src/types.ts
+       • code/core/src/theming/emotionAugmentation.d.ts
+       • code/core/src/test/index.ts
+       • code/core/template/stories/preview.ts
+       • code/core/template/stories/global.d.ts
        • code/renderers/svelte/src/typings.d.ts
+       • code/frameworks/nextjs-vite/template/typings.d.ts
      📄 Files WITHOUT TSModuleBlock (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -3308,14 +3308,14 @@ Repository: sample-repos/storybook
      📄 Files WITH TSObjectKeyword (showing 10):
        • scripts/prepare/addon-bundle.ts
        • code/core/src/preview-errors.ts
-       • code/addons/vitest/src/typings.d.ts
        • code/core/src/theming/types.ts
-       • code/core/src/test/index.ts
        • code/core/src/instrumenter/instrumenter.ts
+       • code/core/src/test/index.ts
        • code/core/src/csf-tools/CsfFile.ts
        • code/core/src/actions/decorator.ts
-       • code/frameworks/svelte-vite/src/plugins/generateDocgen.ts
-       • code/frameworks/angular/template/components/pre.component.ts
+       • code/addons/vitest/src/typings.d.ts
+       • code/core/src/types/modules/addons.ts
+       • code/core/src/manager-api/tests/refs.test.ts
      📄 Files WITHOUT TSObjectKeyword (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -3398,12 +3398,12 @@ Repository: sample-repos/storybook
 
    TSDeclareFunction:
      📄 Files WITH TSDeclareFunction (showing 9):
-       • code/frameworks/nextjs-vite/src/typings.d.ts
-       • code/core/src/test/spy.ts
        • code/core/src/router/router.tsx
-       • code/frameworks/angular/src/server/angular-cli-webpack.d.ts
+       • code/core/src/test/spy.ts
+       • code/frameworks/nextjs-vite/src/typings.d.ts
        • code/core/src/shared/test-provider-store/index.ts
        • code/core/src/shared/status-store/index.ts
+       • code/frameworks/angular/src/server/angular-cli-webpack.d.ts
        • code/core/src/preview-api/modules/addons/hooks.ts
        • code/core/src/components/components/bar/button.tsx
        • code/core/src/preview-api/modules/store/csf/portable-stories.ts
@@ -3422,15 +3422,15 @@ Repository: sample-repos/storybook
    TSClassImplements:
      📄 Files WITH TSClassImplements (showing 10):
        • code/lib/cli-storybook/src/automigrate/index.test.ts
-       • code/addons/vitest/src/node/reporter.ts
-       • code/addons/vitest/src/node/coverage-reporter.ts
        • code/core/src/channels/websocket/index.ts
        • code/core/src/channels/postmessage/index.ts
-       • code/frameworks/angular/src/client/angular-beta/StorybookWrapperComponent.ts
+       • code/addons/vitest/src/node/reporter.ts
+       • code/addons/vitest/src/node/coverage-reporter.ts
        • code/core/src/preview-api/modules/preview-web/WebView.ts
        • code/core/src/preview-api/modules/preview-web/UrlStore.ts
        • code/core/src/core-server/utils/parser/generic-parser.ts
-       • code/frameworks/angular/template/stories/basics/component-without-selector/without-selector-ng-component-outlet.stories.ts
+       • code/frameworks/angular/src/client/angular-beta/StorybookWrapperComponent.ts
+       • code/core/src/preview-api/modules/preview-web/docs-context/DocsContext.ts
      📄 Files WITHOUT TSClassImplements (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -3445,9 +3445,9 @@ Repository: sample-repos/storybook
 
    PrivateIdentifier:
      📄 Files WITH PrivateIdentifier (showing 3):
-       • code/addons/vitest/src/node/coverage-reporter.ts
        • code/core/src/node-logger/logger/log-tracker.ts
        • code/core/src/common/js-package-manager/JsPackageManager.ts
+       • code/addons/vitest/src/node/coverage-reporter.ts
      📄 Files WITHOUT PrivateIdentifier (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -3462,15 +3462,15 @@ Repository: sample-repos/storybook
 
    ClassExpression:
      📄 Files WITH ClassExpression (showing 9):
-       • code/core/template/stories/basics.stories.ts
        • code/core/src/instrumenter/instrumenter.test.ts
-       • code/addons/jest/src/hoc/provideJestResult.tsx
+       • code/core/template/stories/basics.stories.ts
        • code/core/src/component-testing/components/MethodCall.stories.tsx
+       • code/addons/jest/src/hoc/provideJestResult.tsx
        • code/renderers/react/src/docs/typeScript/handleProp.test.tsx
        • code/renderers/react/src/docs/propTypes/handleProp.test.tsx
+       • code/renderers/react/template/stories/docgen-components/js-proptypes/input.jsx
        • code/frameworks/angular/src/client/angular-beta/utils/PropertyExtractor.test.ts
        • code/frameworks/angular/src/client/angular-beta/utils/NgModulesAnalyzer.test.ts
-       • code/renderers/react/template/stories/docgen-components/js-proptypes/input.jsx
      📄 Files WITHOUT ClassExpression (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -3485,11 +3485,11 @@ Repository: sample-repos/storybook
 
    TSThisType:
      📄 Files WITH TSThisType (showing 6):
-       • code/renderers/svelte/src/types.ts
-       • code/renderers/react/src/types.ts
-       • code/renderers/vue3/src/types.ts
        • code/core/src/csf/story.ts
        • code/core/src/csf/story.test.ts
+       • code/renderers/svelte/src/types.ts
+       • code/renderers/vue3/src/types.ts
+       • code/renderers/react/src/types.ts
        • code/core/src/types/modules/core-common.ts
      📄 Files WITHOUT TSThisType (showing 10):
        • prettier.config.mjs
@@ -3523,15 +3523,15 @@ Repository: sample-repos/storybook
    TSMappedType:
      📄 Files WITH TSMappedType (showing 10):
        • scripts/utils/options.ts
+       • code/core/src/instrumenter/instrumenter.ts
+       • code/core/src/test/utils.ts
+       • code/core/src/csf/story.ts
        • code/renderers/svelte/src/types.ts
        • code/renderers/svelte/src/portable-stories.ts
-       • code/renderers/react/src/public-types.ts
        • code/renderers/vue3/src/public-types.ts
        • code/renderers/vue3/src/portable-stories.ts
-       • code/core/src/test/utils.ts
-       • code/core/src/instrumenter/instrumenter.ts
-       • code/core/src/csf/story.ts
-       • code/frameworks/angular/src/client/public-types.ts
+       • code/renderers/react/src/public-types.ts
+       • code/core/src/types/modules/composedStory.ts
      📄 Files WITHOUT TSMappedType (showing 10):
        • prettier.config.mjs
        • scripts/vitest.config.ts
@@ -3546,8 +3546,8 @@ Repository: sample-repos/storybook
 
    YieldExpression:
      📄 Files WITH YieldExpression (showing 4):
-       • code/builders/builder-webpack5/src/index.ts
        • code/core/src/builder-manager/index.ts
+       • code/builders/builder-webpack5/src/index.ts
        • code/lib/eslint-plugin/src/rules/use-storybook-testing-library.ts
        • code/lib/eslint-plugin/src/rules/prefer-pascal-case.ts
      📄 Files WITHOUT YieldExpression (showing 10):
@@ -3582,8 +3582,8 @@ Repository: sample-repos/storybook
    DoWhileStatement:
      📄 Files WITH DoWhileStatement (showing 4):
        • test-storybooks/ember-cli/ember-output/assets/vendor.js
-       • code/builders/builder-webpack5/src/index.ts
        • code/core/src/builder-manager/index.ts
+       • code/builders/builder-webpack5/src/index.ts
        • code/renderers/vue3/src/docs/sourceDecorator.ts
      📄 Files WITHOUT DoWhileStatement (showing 10):
        • prettier.config.mjs
@@ -3601,10 +3601,10 @@ Repository: sample-repos/storybook
      📄 Files WITH TSTemplateLiteralType (showing 7):
        • code/core/src/storybook-error.ts
        • code/lib/cli-storybook/src/sandbox-templates.ts
-       • code/frameworks/vue3-vite/src/types.ts
+       • code/core/src/telemetry/telemetry.ts
        • code/renderers/svelte/src/types.ts
        • code/renderers/vue3/src/extractArgTypes.ts
-       • code/core/src/telemetry/telemetry.ts
+       • code/frameworks/vue3-vite/src/types.ts
        • code/renderers/vue3/src/docs/sourceDecorator.ts
      📄 Files WITHOUT TSTemplateLiteralType (showing 10):
        • prettier.config.mjs

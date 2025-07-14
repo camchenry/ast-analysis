@@ -1,5 +1,5 @@
 AST Analysis Report for nuxt
-Generated on: 2025-07-14T01:42:23.697Z
+Generated on: 2025-07-14T01:56:49.237Z
 Repository: sample-repos/nuxt
 ================================================================================
 
@@ -118,9 +118,9 @@ Repository: sample-repos/nuxt
    TSNeverKeyword                   11 files (  2.7%) -       31 total (0.01%)
    ForStatement                     10 files (  2.5%) -       12 total (0.01%)
    TSMappedType                     10 files (  2.5%) -       14 total (0.01%)
-   ExportAllDeclaration              9 files (  2.2%) -        9 total (0.00%)
    WhileStatement                    9 files (  2.2%) -        9 total (0.00%)
    ImportNamespaceSpecifier          9 files (  2.2%) -        9 total (0.00%)
+   ExportAllDeclaration              9 files (  2.2%) -        9 total (0.00%)
    TSModuleDeclaration               8 files (  2.0%) -       15 total (0.01%)
    TSModuleBlock                     8 files (  2.0%) -       15 total (0.01%)
    TSTypeAssertion                   7 files (  1.7%) -        9 total (0.00%)
@@ -139,8 +139,8 @@ Repository: sample-repos/nuxt
    TSOptionalType                    2 files (  0.5%) -        4 total (0.00%)
    TSConstructorType                 2 files (  0.5%) -        2 total (0.00%)
    TSConstructSignatureDeclaration    2 files (  0.5%) -        8 total (0.00%)
-   DoWhileStatement                  1 files (  0.2%) -        1 total (0.00%)
    ClassExpression                   1 files (  0.2%) -        1 total (0.00%)
+   DoWhileStatement                  1 files (  0.2%) -        1 total (0.00%)
    TaggedTemplateExpression          1 files (  0.2%) -        1 total (0.00%)
    Hashbang                          1 files (  0.2%) -        1 total (0.00%)
    TSClassImplements                 1 files (  0.2%) -        1 total (0.00%)
@@ -251,10 +251,10 @@ Repository: sample-repos/nuxt
    TSEnumMember                         11 (0.01%) in 1 files (0.2%)
    TSTemplateLiteralType                10 (0.00%) in 3 files (0.7%)
    TSInferType                           9 (0.00%) in 6 files (1.5%)
-   ExportAllDeclaration                  9 (0.00%) in 9 files (2.2%)
    WhileStatement                        9 (0.00%) in 9 files (2.2%)
    ImportNamespaceSpecifier              9 (0.00%) in 9 files (2.2%)
    PropertyDefinition                    9 (0.00%) in 5 files (1.2%)
+   ExportAllDeclaration                  9 (0.00%) in 9 files (2.2%)
    TSTypeAssertion                       9 (0.00%) in 7 files (1.7%)
    TSConstructSignatureDeclaration        8 (0.00%) in 2 files (0.5%)
    ClassBody                             6 (0.00%) in 6 files (1.5%)
@@ -267,8 +267,8 @@ Repository: sample-repos/nuxt
    TSEnumDeclaration                     2 (0.00%) in 1 files (0.2%)
    TSEnumBody                            2 (0.00%) in 1 files (0.2%)
    TSConstructorType                     2 (0.00%) in 2 files (0.5%)
-   DoWhileStatement                      1 (0.00%) in 1 files (0.2%)
    ClassExpression                       1 (0.00%) in 1 files (0.2%)
+   DoWhileStatement                      1 (0.00%) in 1 files (0.2%)
    TaggedTemplateExpression              1 (0.00%) in 1 files (0.2%)
    Hashbang                              1 (0.00%) in 1 files (0.2%)
    TSClassImplements                     1 (0.00%) in 1 files (0.2%)
@@ -289,14 +289,14 @@ Repository: sample-repos/nuxt
        • scripts/_utils.ts
        • playground/nuxt.config.ts
      📄 Files WITHOUT Identifier (showing 10):
-       • packages/ui-templates/styles.ts
+       • test/mocks/app-config.ts
        • packages/schema/builder-env.d.ts
        • packages/nuxt/schema.js
        • packages/nuxt/schema.d.ts
        • packages/nuxt/kit.js
        • packages/nuxt/kit.d.ts
        • packages/nuxt/app.d.ts
-       • test/mocks/app-config.ts
+       • packages/ui-templates/styles.ts
        • packages/nuxt/bin/nuxt.mjs
        • packages/nuxt/src/app/entry-spa.ts
 
@@ -314,15 +314,15 @@ Repository: sample-repos/nuxt
        • test/utils.ts
      📄 Files WITHOUT MemberExpression (showing 10):
        • playground/nuxt.config.ts
+       • test/mocks/router-options.ts
+       • test/mocks/paths.ts
+       • test/mocks/nuxt-config.ts
+       • test/mocks/app-config.ts
        • packages/webpack/builder.mjs
        • packages/webpack/builder.d.ts
        • packages/webpack/build.config.ts
        • packages/vite/build.config.ts
-       • packages/ui-templates/uno.config.ts
-       • packages/ui-templates/styles.ts
        • packages/schema/builder-env.d.ts
-       • packages/schema/build.config.ts
-       • packages/nuxt/types.d.ts
 
    Literal:
      📄 Files WITH Literal (showing 10):
@@ -337,16 +337,16 @@ Repository: sample-repos/nuxt
        • scripts/_utils.ts
        • playground/nuxt.config.ts
      📄 Files WITHOUT Literal (showing 10):
+       • test/mocks/app-config.ts
        • packages/nuxt/config.js
        • packages/nuxt/config.cjs
-       • test/mocks/app-config.ts
        • packages/webpack/src/utils/index.ts
-       • packages/nuxt/src/app/utils.ts
-       • packages/nuxt/src/app/entry-spa.ts
        • packages/nuxt/test/layers-fixture/module.ts
        • packages/nuxt/test/pages-fixture/nuxt.config.ts
-       • packages/nuxt/src/pages/runtime/component-stub.ts
+       • packages/nuxt/src/app/utils.ts
+       • packages/nuxt/src/app/entry-spa.ts
        • packages/nuxt/test/layers-fixture/modules/module.ts
+       • packages/nuxt/test/layers-fixture/custom/module.ts
 
    CallExpression:
      📄 Files WITH CallExpression (showing 10):
@@ -361,16 +361,16 @@ Repository: sample-repos/nuxt
        • scripts/_utils.ts
        • playground/nuxt.config.ts
      📄 Files WITHOUT CallExpression (showing 10):
+       • test/mocks/router-options.ts
+       • test/mocks/nuxt-config.ts
+       • test/mocks/app-config.ts
        • packages/webpack/builder.mjs
        • packages/webpack/builder.d.ts
-       • packages/ui-templates/styles.ts
        • packages/schema/builder-env.d.ts
        • packages/rspack/builder.mjs
        • packages/nuxt/types.d.ts
        • packages/nuxt/schema.js
        • packages/nuxt/schema.d.ts
-       • packages/nuxt/kit.js
-       • packages/nuxt/kit.d.ts
 
    Property:
      📄 Files WITH Property (showing 10):
@@ -389,12 +389,12 @@ Repository: sample-repos/nuxt
        • scripts/bump-rc.ts
        • test/typed-router.test.ts
        • test/setup-env.ts
+       • test/mocks/router-options.ts
+       • test/mocks/paths.ts
+       • test/mocks/app-config.ts
        • packages/webpack/builder.mjs
        • packages/webpack/builder.d.ts
-       • packages/ui-templates/styles.ts
        • packages/schema/builder-env.d.ts
-       • packages/rspack/builder.mjs
-       • packages/nuxt/types.d.ts
 
    ExpressionStatement:
      📄 Files WITH ExpressionStatement (showing 10):
@@ -413,12 +413,12 @@ Repository: sample-repos/nuxt
        • playwright.config.ts
        • eslint.config.mjs
        • playground/nuxt.config.ts
+       • test/mocks/router-options.ts
+       • test/mocks/paths.ts
+       • test/mocks/nuxt-config.ts
+       • test/mocks/app-config.ts
        • packages/webpack/builder.mjs
        • packages/webpack/builder.d.ts
-       • packages/ui-templates/vite.config.ts
-       • packages/ui-templates/uno.config.ts
-       • packages/ui-templates/styles.ts
-       • packages/schema/builder-env.d.ts
 
    BlockStatement:
      📄 Files WITH BlockStatement (showing 10):
@@ -436,13 +436,13 @@ Repository: sample-repos/nuxt
        • vitest.config.ts
        • playwright.config.ts
        • playground/nuxt.config.ts
+       • test/mocks/router-options.ts
+       • test/mocks/paths.ts
+       • test/mocks/nuxt-config.ts
+       • test/mocks/app-config.ts
        • packages/webpack/builder.mjs
        • packages/webpack/builder.d.ts
-       • packages/ui-templates/vite.config.ts
-       • packages/ui-templates/uno.config.ts
-       • packages/ui-templates/styles.ts
        • packages/schema/builder-env.d.ts
-       • packages/schema/build.config.ts
 
    VariableDeclarator:
      📄 Files WITH VariableDeclarator (showing 10):
@@ -462,10 +462,10 @@ Repository: sample-repos/nuxt
        • eslint.config.mjs
        • playground/nuxt.config.ts
        • test/setup-runtime.ts
+       • test/nuxt/island-pages.test.ts
+       • test/mocks/app-config.ts
        • packages/webpack/build.config.ts
        • packages/vite/build.config.ts
-       • packages/ui-templates/uno.config.ts
-       • packages/ui-templates/styles.ts
        • packages/schema/builder-env.d.ts
 
    VariableDeclaration:
@@ -486,10 +486,10 @@ Repository: sample-repos/nuxt
        • eslint.config.mjs
        • playground/nuxt.config.ts
        • test/setup-runtime.ts
+       • test/nuxt/island-pages.test.ts
+       • test/mocks/app-config.ts
        • packages/webpack/build.config.ts
        • packages/vite/build.config.ts
-       • packages/ui-templates/uno.config.ts
-       • packages/ui-templates/styles.ts
        • packages/schema/builder-env.d.ts
 
    TSTypeAnnotation:
@@ -502,8 +502,8 @@ Repository: sample-repos/nuxt
        • test/bundle.test.ts
        • test/basic.test.ts
        • debug/build-config.ts
-       • packages/webpack/builder.d.ts
-       • packages/ui-templates/vite.config.ts
+       • test/nuxt/use-fetch.test.ts
+       • test/nuxt/use-async-data.test.ts
      📄 Files WITHOUT TSTypeAnnotation (showing 10):
        • playwright.config.ts
        • nuxt.config.ts
@@ -525,9 +525,9 @@ Repository: sample-repos/nuxt
        • test/setup-runtime.ts
        • test/basic.test.ts
        • debug/build-config.ts
-       • packages/nuxt/types.d.ts
-       • packages/nuxt/config.d.ts
-       • packages/nuxt/build.config.ts
+       • test/nuxt/use-fetch.test.ts
+       • test/nuxt/use-async-data.test.ts
+       • test/nuxt/router.option.test.ts
      📄 Files WITHOUT TSTypeReference (showing 10):
        • nuxt.config.ts
        • eslint.config.mjs
@@ -557,9 +557,9 @@ Repository: sample-repos/nuxt
        • scripts/bump-rc.ts
        • test/typed-router.test.ts
        • test/setup-env.ts
+       • test/mocks/paths.ts
        • packages/webpack/builder.mjs
        • packages/webpack/builder.d.ts
-       • packages/ui-templates/styles.ts
        • packages/schema/builder-env.d.ts
        • packages/rspack/builder.mjs
        • packages/nuxt/types.d.ts
@@ -578,15 +578,15 @@ Repository: sample-repos/nuxt
        • test/utils.ts
      📄 Files WITHOUT ImportSpecifier (showing 10):
        • playground/nuxt.config.ts
+       • test/mocks/router-options.ts
+       • test/mocks/nuxt-config.ts
+       • test/mocks/app-config.ts
        • packages/webpack/builder.mjs
        • packages/webpack/builder.d.ts
-       • packages/ui-templates/styles.ts
        • packages/schema/builder-env.d.ts
        • packages/rspack/builder.mjs
        • packages/nuxt/schema.js
        • packages/nuxt/schema.d.ts
-       • packages/nuxt/kit.js
-       • packages/nuxt/kit.d.ts
 
    ArrowFunctionExpression:
      📄 Files WITH ArrowFunctionExpression (showing 10):
@@ -604,13 +604,13 @@ Repository: sample-repos/nuxt
        • playwright.config.ts
        • playground/nuxt.config.ts
        • debug/build-config.ts
+       • test/mocks/router-options.ts
+       • test/mocks/nuxt-config.ts
+       • test/mocks/app-config.ts
        • packages/webpack/builder.mjs
        • packages/webpack/builder.d.ts
        • packages/webpack/build.config.ts
        • packages/vite/build.config.ts
-       • packages/ui-templates/uno.config.ts
-       • packages/ui-templates/styles.ts
-       • packages/schema/builder-env.d.ts
 
    Unknown:
      📄 Files WITH Unknown (showing 10):
@@ -633,8 +633,8 @@ Repository: sample-repos/nuxt
        • test/setup-runtime.ts
        • test/setup-env.ts
        • debug/build-config.ts
-       • packages/webpack/builder.mjs
-       • packages/webpack/builder.d.ts
+       • test/nuxt/router.option.test.ts
+       • test/nuxt/polyfills.test.ts
 
    TemplateElement:
      📄 Files WITH TemplateElement (showing 10):
@@ -647,7 +647,7 @@ Repository: sample-repos/nuxt
        • test/prepare.ts
        • test/bundle.test.ts
        • test/basic.test.ts
-       • packages/nuxt/build.config.ts
+       • test/nuxt/use-fetch.test.ts
      📄 Files WITHOUT TemplateElement (showing 10):
        • vitest.config.ts
        • playwright.config.ts
@@ -658,7 +658,7 @@ Repository: sample-repos/nuxt
        • test/setup-runtime.ts
        • test/setup-env.ts
        • debug/build-config.ts
-       • packages/webpack/builder.mjs
+       • test/nuxt/router.option.test.ts
 
    ImportDeclaration:
      📄 Files WITH ImportDeclaration (showing 10):
@@ -674,15 +674,15 @@ Repository: sample-repos/nuxt
        • test/utils.ts
      📄 Files WITHOUT ImportDeclaration (showing 10):
        • playground/nuxt.config.ts
+       • test/mocks/router-options.ts
+       • test/mocks/nuxt-config.ts
+       • test/mocks/app-config.ts
        • packages/webpack/builder.mjs
        • packages/schema/builder-env.d.ts
        • packages/nuxt/schema.js
        • packages/nuxt/schema.d.ts
        • packages/nuxt/kit.js
        • packages/nuxt/kit.d.ts
-       • packages/nuxt/index.d.ts
-       • packages/nuxt/config.js
-       • packages/nuxt/config.cjs
 
    AwaitExpression:
      📄 Files WITH AwaitExpression (showing 10):
@@ -704,9 +704,9 @@ Repository: sample-repos/nuxt
        • test/setup-runtime.ts
        • test/setup-env.ts
        • debug/build-config.ts
-       • packages/webpack/builder.mjs
-       • packages/webpack/builder.d.ts
-       • packages/webpack/build.config.ts
+       • test/mocks/router-options.ts
+       • test/mocks/paths.ts
+       • test/mocks/nuxt-config.ts
 
    IfStatement:
      📄 Files WITH IfStatement (showing 10):
@@ -729,8 +729,8 @@ Repository: sample-repos/nuxt
        • test/typed-router.test.ts
        • test/setup-runtime.ts
        • test/prepare.ts
-       • packages/webpack/builder.mjs
-       • packages/webpack/builder.d.ts
+       • test/nuxt/polyfills.test.ts
+       • test/nuxt/plugin.test.ts
 
    BinaryExpression:
      📄 Files WITH BinaryExpression (showing 10):
@@ -753,8 +753,8 @@ Repository: sample-repos/nuxt
        • test/setup-runtime.ts
        • test/prepare.ts
        • debug/build-config.ts
-       • packages/webpack/builder.mjs
-       • packages/webpack/builder.d.ts
+       • test/nuxt/polyfills.test.ts
+       • test/nuxt/plugin.test.ts
 
    LogicalExpression:
      📄 Files WITH LogicalExpression (showing 10):
@@ -765,9 +765,9 @@ Repository: sample-repos/nuxt
        • test/setup-env.ts
        • test/bundle.test.ts
        • test/basic.test.ts
-       • packages/ui-templates/vite.config.ts
-       • test/e2e/test-utils.ts
-       • test/e2e/suspense.test.ts
+       • test/nuxt/router.option.test.ts
+       • test/nuxt/nuxt-layout.test.ts
+       • test/nuxt/composables.test.ts
      📄 Files WITHOUT LogicalExpression (showing 10):
        • vitest.config.ts
        • playwright.config.ts
@@ -790,8 +790,8 @@ Repository: sample-repos/nuxt
        • test/setup-env.ts
        • test/bundle.test.ts
        • test/basic.test.ts
-       • packages/nuxt/config.js
-       • packages/nuxt/config.cjs
+       • test/nuxt/use-async-data.test.ts
+       • test/nuxt/router.option.test.ts
      📄 Files WITHOUT ReturnStatement (showing 10):
        • vitest.config.ts
        • playwright.config.ts
@@ -811,11 +811,11 @@ Repository: sample-repos/nuxt
        • test/utils.ts
        • test/bundle.test.ts
        • test/basic.test.ts
-       • packages/ui-templates/vite.config.ts
-       • packages/nuxt/types.d.ts
-       • packages/nuxt/index.d.ts
-       • test/e2e/test-utils.ts
-       • test/e2e/hmr.test.ts
+       • test/nuxt/use-fetch.test.ts
+       • test/nuxt/use-async-data.test.ts
+       • test/nuxt/plugin.test.ts
+       • test/nuxt/nuxt-layout.test.ts
+       • test/nuxt/loading-indicator.test.ts
      📄 Files WITHOUT TSStringKeyword (showing 10):
        • playwright.config.ts
        • nuxt.config.ts
@@ -846,24 +846,24 @@ Repository: sample-repos/nuxt
        • scripts/bump-edge.ts
        • playground/nuxt.config.ts
        • test/setup-runtime.ts
-       • packages/webpack/builder.mjs
-       • packages/webpack/builder.d.ts
-       • packages/ui-templates/styles.ts
-       • packages/schema/builder-env.d.ts
-       • packages/rspack/builder.mjs
+       • test/nuxt/router.option.test.ts
+       • test/nuxt/polyfills.test.ts
+       • test/nuxt/nuxt-time.test.ts
+       • test/nuxt/island-pages.test.ts
+       • test/nuxt/error-boundary.test.ts
 
    TSPropertySignature:
      📄 Files WITH TSPropertySignature (showing 10):
        • scripts/_utils.ts
        • test/utils.ts
        • debug/build-config.ts
-       • packages/nuxt/types.d.ts
-       • packages/nuxt/index.d.ts
-       • test/e2e/test-utils.ts
-       • test/e2e/hmr.test.ts
        • test/nuxt/use-fetch.test.ts
        • test/nuxt/composables.test.ts
        • test/nuxt/components.test.ts
+       • test/e2e/test-utils.ts
+       • test/e2e/hmr.test.ts
+       • packages/nuxt/types.d.ts
+       • packages/nuxt/index.d.ts
      📄 Files WITHOUT TSPropertySignature (showing 10):
        • vitest.config.ts
        • playwright.config.ts
@@ -883,11 +883,11 @@ Repository: sample-repos/nuxt
        • scripts/_utils.ts
        • test/utils.ts
        • test/basic.test.ts
-       • packages/nuxt/types.d.ts
-       • packages/nuxt/config.d.ts
-       • test/e2e/test-utils.ts
-       • test/e2e/hmr.test.ts
        • test/nuxt/use-fetch.test.ts
+       • test/nuxt/use-async-data.test.ts
+       • test/nuxt/router.option.test.ts
+       • test/nuxt/plugin.test.ts
+       • test/nuxt/nuxt-layout.test.ts
      📄 Files WITHOUT TSTypeParameterInstantiation (showing 10):
        • nuxt.config.ts
        • eslint.config.mjs
@@ -920,9 +920,9 @@ Repository: sample-repos/nuxt
        • test/setup-runtime.ts
        • test/prepare.ts
        • debug/build-config.ts
-       • packages/webpack/builder.mjs
-       • packages/webpack/builder.d.ts
-       • packages/webpack/build.config.ts
+       • test/nuxt/use-fetch.test.ts
+       • test/nuxt/use-async-data.test.ts
+       • test/nuxt/polyfills.test.ts
 
    AssignmentExpression:
      📄 Files WITH AssignmentExpression (showing 10):
@@ -932,10 +932,10 @@ Repository: sample-repos/nuxt
        • test/setup-env.ts
        • test/bundle.test.ts
        • test/basic.test.ts
-       • packages/nuxt/config.cjs
-       • packages/nuxt/build.config.ts
-       • test/e2e/test-utils.ts
-       • test/e2e/hmr.test.ts
+       • test/nuxt/use-fetch.test.ts
+       • test/nuxt/use-async-data.test.ts
+       • test/nuxt/router.option.test.ts
+       • test/nuxt/polyfills.test.ts
      📄 Files WITHOUT AssignmentExpression (showing 10):
        • vitest.config.ts
        • playwright.config.ts
@@ -959,7 +959,7 @@ Repository: sample-repos/nuxt
        • test/prepare.ts
        • test/bundle.test.ts
        • test/basic.test.ts
-       • packages/nuxt/build.config.ts
+       • test/nuxt/use-fetch.test.ts
      📄 Files WITHOUT TemplateLiteral (showing 10):
        • vitest.config.ts
        • playwright.config.ts
@@ -970,20 +970,20 @@ Repository: sample-repos/nuxt
        • test/setup-runtime.ts
        • test/setup-env.ts
        • debug/build-config.ts
-       • packages/webpack/builder.mjs
+       • test/nuxt/router.option.test.ts
 
    ExportNamedDeclaration:
      📄 Files WITH ExportNamedDeclaration (showing 10):
        • scripts/_utils.ts
        • test/utils.ts
        • debug/build-config.ts
+       • test/e2e/test-utils.ts
+       • test/mocks/router-options.ts
+       • test/mocks/paths.ts
+       • test/mocks/nuxt-config.ts
        • packages/webpack/builder.mjs
        • packages/webpack/builder.d.ts
        • packages/rspack/builder.mjs
-       • packages/nuxt/index.d.ts
-       • packages/nuxt/config.js
-       • packages/nuxt/config.d.ts
-       • test/e2e/test-utils.ts
      📄 Files WITHOUT ExportNamedDeclaration (showing 10):
        • vitest.config.ts
        • playwright.config.ts
@@ -1005,9 +1005,9 @@ Repository: sample-repos/nuxt
        • test/bundle.test.ts
        • test/basic.test.ts
        • debug/build-config.ts
-       • test/e2e/test-utils.ts
-       • test/e2e/suspense.test.ts
-       • test/e2e/spa-preloader-within.test.ts
+       • test/nuxt/use-async-data.test.ts
+       • test/nuxt/router.option.test.ts
+       • test/nuxt/polyfills.test.ts
      📄 Files WITHOUT ConditionalExpression (showing 10):
        • nuxt.config.ts
        • eslint.config.mjs
@@ -1023,13 +1023,13 @@ Repository: sample-repos/nuxt
    TSLiteralType:
      📄 Files WITH TSLiteralType (showing 10):
        • debug/build-config.ts
-       • packages/webpack/builder.d.ts
-       • packages/nuxt/index.d.ts
-       • test/e2e/test-utils.ts
        • test/nuxt/plugin.test.ts
        • test/nuxt/nuxt-island.test.ts
        • test/nuxt/error-boundary.test.ts
        • test/nuxt/composables.test.ts
+       • test/e2e/test-utils.ts
+       • packages/webpack/builder.d.ts
+       • packages/nuxt/index.d.ts
        • debug/plugins/timings-unbuild.ts
        • packages/webpack/src/webpack.ts
      📄 Files WITHOUT TSLiteralType (showing 10):
@@ -1050,12 +1050,12 @@ Repository: sample-repos/nuxt
        • test/utils.ts
        • test/bundle.test.ts
        • test/basic.test.ts
-       • test/e2e/test-utils.ts
-       • test/e2e/suspense.test.ts
        • test/nuxt/use-fetch.test.ts
        • test/nuxt/use-async-data.test.ts
        • test/nuxt/nuxt-layout.test.ts
        • test/nuxt/nuxt-island.test.ts
+       • test/nuxt/loading-indicator.test.ts
+       • test/nuxt/composables.test.ts
      📄 Files WITHOUT ChainExpression (showing 10):
        • vitest.config.ts
        • playwright.config.ts
@@ -1072,13 +1072,13 @@ Repository: sample-repos/nuxt
      📄 Files WITH TSUnionType (showing 10):
        • scripts/_utils.ts
        • test/utils.ts
-       • packages/webpack/builder.d.ts
-       • packages/nuxt/types.d.ts
-       • packages/nuxt/index.d.ts
-       • test/e2e/test-utils.ts
        • test/nuxt/use-async-data.test.ts
        • test/nuxt/plugin.test.ts
        • test/nuxt/loading-indicator.test.ts
+       • test/e2e/test-utils.ts
+       • packages/webpack/builder.d.ts
+       • packages/nuxt/types.d.ts
+       • packages/nuxt/index.d.ts
        • packages/webpack/src/webpack.ts
      📄 Files WITHOUT TSUnionType (showing 10):
        • vitest.config.ts
@@ -1113,21 +1113,21 @@ Repository: sample-repos/nuxt
        • test/typed-router.test.ts
        • test/setup-runtime.ts
        • test/setup-env.ts
-       • packages/webpack/builder.mjs
-       • packages/webpack/builder.d.ts
+       • test/nuxt/use-fetch.test.ts
+       • test/nuxt/router.option.test.ts
 
    TSAsExpression:
      📄 Files WITH TSAsExpression (showing 10):
        • scripts/_utils.ts
        • test/basic.test.ts
        • debug/build-config.ts
-       • packages/nuxt/build.config.ts
-       • test/e2e/test-utils.ts
        • test/nuxt/use-fetch.test.ts
        • test/nuxt/use-async-data.test.ts
        • test/nuxt/loading-indicator.test.ts
        • test/nuxt/composables.test.ts
        • test/nuxt/components.test.ts
+       • test/nuxt/client-only.test.ts
+       • test/e2e/test-utils.ts
      📄 Files WITHOUT TSAsExpression (showing 10):
        • vitest.config.ts
        • playwright.config.ts
@@ -1161,8 +1161,8 @@ Repository: sample-repos/nuxt
        • playground/nuxt.config.ts
        • test/typed-router.test.ts
        • test/prepare.ts
-       • packages/webpack/builder.mjs
-       • packages/webpack/builder.d.ts
+       • test/nuxt/polyfills.test.ts
+       • test/nuxt/nuxt-time.test.ts
 
    SpreadElement:
      📄 Files WITH SpreadElement (showing 10):
@@ -1173,9 +1173,9 @@ Repository: sample-repos/nuxt
        • test/prepare.ts
        • test/bundle.test.ts
        • test/basic.test.ts
-       • packages/ui-templates/vite.config.ts
-       • packages/rspack/build.config.ts
-       • packages/nuxt/build.config.ts
+       • test/nuxt/use-async-data.test.ts
+       • test/nuxt/router.option.test.ts
+       • test/nuxt/plugin.test.ts
      📄 Files WITHOUT SpreadElement (showing 10):
        • nuxt.config.ts
        • scripts/update-changelog.ts
@@ -1209,8 +1209,8 @@ Repository: sample-repos/nuxt
        • playground/nuxt.config.ts
        • test/setup-runtime.ts
        • test/setup-env.ts
-       • packages/webpack/builder.mjs
-       • packages/webpack/builder.d.ts
+       • test/nuxt/polyfills.test.ts
+       • test/nuxt/nuxt-page.test.ts
 
    TSArrayType:
      📄 Files WITH TSArrayType (showing 10):
@@ -1220,10 +1220,10 @@ Repository: sample-repos/nuxt
        • test/bundle.test.ts
        • test/basic.test.ts
        • debug/build-config.ts
-       • packages/ui-templates/vite.config.ts
-       • packages/nuxt/types.d.ts
        • test/nuxt/use-async-data.test.ts
        • test/nuxt/plugin.test.ts
+       • test/nuxt/composables.test.ts
+       • packages/nuxt/types.d.ts
      📄 Files WITHOUT TSArrayType (showing 10):
        • vitest.config.ts
        • playwright.config.ts
@@ -1245,9 +1245,9 @@ Repository: sample-repos/nuxt
        • test/utils.ts
        • test/bundle.test.ts
        • test/basic.test.ts
-       • test/e2e/test-utils.ts
-       • test/e2e/runtime-compiler.test.ts
        • test/nuxt/use-async-data.test.ts
+       • test/nuxt/nuxt-island.test.ts
+       • test/nuxt/loading-indicator.test.ts
      📄 Files WITHOUT TSNonNullExpression (showing 10):
        • vitest.config.ts
        • playwright.config.ts
@@ -1266,12 +1266,12 @@ Repository: sample-repos/nuxt
        • test/setup-env.ts
        • test/basic.test.ts
        • debug/build-config.ts
-       • packages/nuxt/index.d.ts
-       • test/e2e/test-utils.ts
        • test/nuxt/use-async-data.test.ts
        • test/nuxt/loading-indicator.test.ts
        • test/nuxt/composables.test.ts
        • test/nuxt/components.test.ts
+       • test/e2e/test-utils.ts
+       • packages/nuxt/index.d.ts
      📄 Files WITHOUT TSAnyKeyword (showing 10):
        • vitest.config.ts
        • playwright.config.ts
@@ -1303,11 +1303,11 @@ Repository: sample-repos/nuxt
        • scripts/_utils.ts
        • test/utils.ts
        • test/basic.test.ts
-       • packages/nuxt/types.d.ts
-       • packages/nuxt/index.d.ts
-       • test/e2e/test-utils.ts
        • test/nuxt/router.option.test.ts
        • test/nuxt/components.test.ts
+       • test/e2e/test-utils.ts
+       • packages/nuxt/types.d.ts
+       • packages/nuxt/index.d.ts
        • debug/plugins/timings-unbuild.ts
        • packages/vite/src/client.ts
      📄 Files WITHOUT TSBooleanKeyword (showing 10):
@@ -1327,13 +1327,13 @@ Repository: sample-repos/nuxt
        • scripts/_utils.ts
        • test/utils.ts
        • test/basic.test.ts
-       • test/e2e/test-utils.ts
-       • test/e2e/suspense.test.ts
-       • test/e2e/spa-preloader-within.test.ts
-       • test/e2e/spa-preloader-body.test.ts
-       • test/e2e/runtime-compiler.test.ts
-       • test/e2e/hmr.test.ts
        • test/nuxt/use-fetch.test.ts
+       • test/nuxt/use-async-data.test.ts
+       • test/nuxt/nuxt-island.test.ts
+       • test/nuxt/loading-indicator.test.ts
+       • test/nuxt/error-boundary.test.ts
+       • test/nuxt/composables.test.ts
+       • test/nuxt/components.test.ts
      📄 Files WITHOUT ObjectPattern (showing 10):
        • vitest.config.ts
        • playwright.config.ts
@@ -1348,11 +1348,11 @@ Repository: sample-repos/nuxt
 
    ExportSpecifier:
      📄 Files WITH ExportSpecifier (showing 10):
+       • test/e2e/test-utils.ts
        • packages/webpack/builder.mjs
        • packages/rspack/builder.mjs
        • packages/nuxt/config.js
        • packages/nuxt/config.d.ts
-       • test/e2e/test-utils.ts
        • packages/webpack/src/index.ts
        • packages/vite/src/index.ts
        • packages/schema/src/index.ts
@@ -1374,14 +1374,14 @@ Repository: sample-repos/nuxt
      📄 Files WITH TSFunctionType (showing 10):
        • scripts/_utils.ts
        • test/utils.ts
-       • packages/nuxt/types.d.ts
-       • packages/nuxt/index.d.ts
-       • test/e2e/test-utils.ts
        • test/nuxt/router.option.test.ts
        • test/nuxt/nuxt-layout.test.ts
        • test/nuxt/loading-indicator.test.ts
        • test/nuxt/components.test.ts
        • test/nuxt/client-only.test.ts
+       • test/e2e/test-utils.ts
+       • packages/nuxt/types.d.ts
+       • packages/nuxt/index.d.ts
      📄 Files WITHOUT TSFunctionType (showing 10):
        • vitest.config.ts
        • playwright.config.ts
@@ -1399,12 +1399,12 @@ Repository: sample-repos/nuxt
        • scripts/_utils.ts
        • test/utils.ts
        • debug/build-config.ts
-       • packages/nuxt/types.d.ts
-       • packages/nuxt/index.d.ts
-       • test/e2e/test-utils.ts
-       • test/e2e/hmr.test.ts
        • test/nuxt/composables.test.ts
        • test/nuxt/components.test.ts
+       • test/e2e/test-utils.ts
+       • test/e2e/hmr.test.ts
+       • packages/nuxt/types.d.ts
+       • packages/nuxt/index.d.ts
        • debug/plugins/timings-unbuild.ts
      📄 Files WITHOUT TSTypeLiteral (showing 10):
        • vitest.config.ts
@@ -1428,8 +1428,8 @@ Repository: sample-repos/nuxt
        • test/utils.ts
        • test/bundle.test.ts
        • test/basic.test.ts
-       • test/e2e/runtime-compiler.test.ts
        • test/nuxt/use-fetch.test.ts
+       • test/nuxt/use-async-data.test.ts
      📄 Files WITHOUT ForOfStatement (showing 10):
        • vitest.config.ts
        • playwright.config.ts
@@ -1446,14 +1446,14 @@ Repository: sample-repos/nuxt
      📄 Files WITH FunctionExpression (showing 10):
        • nuxt.config.ts
        • test/basic.test.ts
-       • packages/webpack/build.config.ts
-       • packages/vite/build.config.ts
-       • packages/rspack/build.config.ts
-       • packages/nuxt/build.config.ts
-       • packages/kit/build.config.ts
-       • test/e2e/test-utils.ts
        • test/nuxt/use-async-data.test.ts
        • test/nuxt/router.option.test.ts
+       • test/nuxt/polyfills.test.ts
+       • test/nuxt/plugin.test.ts
+       • test/nuxt/nuxt-page.test.ts
+       • test/nuxt/nuxt-layout.test.ts
+       • test/nuxt/nuxt-island.test.ts
+       • test/nuxt/loading-indicator.test.ts
      📄 Files WITHOUT FunctionExpression (showing 10):
        • vitest.config.ts
        • playwright.config.ts
@@ -1474,10 +1474,10 @@ Repository: sample-repos/nuxt
        • test/bundle.test.ts
        • test/basic.test.ts
        • debug/build-config.ts
-       • packages/ui-templates/vite.config.ts
        • test/e2e/suspense.test.ts
        • test/e2e/spa-preloader-within.test.ts
        • test/e2e/spa-preloader-body.test.ts
+       • test/e2e/runtime-compiler.test.ts
      📄 Files WITHOUT MetaProperty (showing 10):
        • vitest.config.ts
        • playwright.config.ts
@@ -1517,11 +1517,11 @@ Repository: sample-repos/nuxt
    TSVoidKeyword:
      📄 Files WITH TSVoidKeyword (showing 10):
        • scripts/_utils.ts
-       • packages/nuxt/types.d.ts
-       • packages/nuxt/index.d.ts
        • test/nuxt/nuxt-layout.test.ts
        • test/nuxt/loading-indicator.test.ts
        • test/nuxt/client-only.test.ts
+       • packages/nuxt/types.d.ts
+       • packages/nuxt/index.d.ts
        • packages/vite/src/vite.ts
        • packages/vite/src/vite-node.ts
        • packages/vite/src/client.ts
@@ -1565,10 +1565,10 @@ Repository: sample-repos/nuxt
    TSInterfaceDeclaration:
      📄 Files WITH TSInterfaceDeclaration (showing 10):
        • scripts/_utils.ts
+       • test/nuxt/use-fetch.test.ts
        • packages/nuxt/types.d.ts
        • packages/nuxt/index.d.ts
        • packages/nuxt/config.d.ts
-       • test/nuxt/use-fetch.test.ts
        • packages/vite/src/vite.ts
        • packages/vite/src/vite-node.ts
        • packages/kit/src/resolve.ts
@@ -1589,10 +1589,10 @@ Repository: sample-repos/nuxt
    TSInterfaceBody:
      📄 Files WITH TSInterfaceBody (showing 10):
        • scripts/_utils.ts
+       • test/nuxt/use-fetch.test.ts
        • packages/nuxt/types.d.ts
        • packages/nuxt/index.d.ts
        • packages/nuxt/config.d.ts
-       • test/nuxt/use-fetch.test.ts
        • packages/vite/src/vite.ts
        • packages/vite/src/vite-node.ts
        • packages/kit/src/resolve.ts
@@ -1615,9 +1615,9 @@ Repository: sample-repos/nuxt
        • scripts/_utils.ts
        • test/utils.ts
        • test/basic.test.ts
-       • test/e2e/test-utils.ts
        • test/nuxt/router.option.test.ts
        • test/nuxt/plugin.test.ts
+       • test/e2e/test-utils.ts
        • packages/vite/src/vite.ts
        • packages/nuxt/test/utils.ts
        • packages/nuxt/test/unhead-imports.test.ts
@@ -1637,9 +1637,9 @@ Repository: sample-repos/nuxt
    TSUndefinedKeyword:
      📄 Files WITH TSUndefinedKeyword (showing 10):
        • test/utils.ts
-       • test/e2e/test-utils.ts
        • test/nuxt/plugin.test.ts
        • test/nuxt/loading-indicator.test.ts
+       • test/e2e/test-utils.ts
        • packages/vite/src/vite-node.ts
        • packages/vite/src/css.ts
        • packages/kit/src/resolve.ts
@@ -1712,12 +1712,12 @@ Repository: sample-repos/nuxt
        • eslint.config.mjs
        • test/bundle.test.ts
        • debug/build-config.ts
-       • packages/webpack/builder.d.ts
-       • packages/ui-templates/vite.config.ts
-       • packages/rspack/builder.mjs
-       • packages/rspack/build.config.ts
        • test/nuxt/nuxt-layout.test.ts
        • test/nuxt/nuxt-island.test.ts
+       • packages/webpack/builder.d.ts
+       • packages/rspack/builder.mjs
+       • packages/rspack/build.config.ts
+       • debug/plugins/timings-unbuild.ts
      📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
        • playwright.config.ts
        • nuxt.config.ts
@@ -1734,10 +1734,10 @@ Repository: sample-repos/nuxt
      📄 Files WITH TSNumberKeyword (showing 10):
        • test/utils.ts
        • test/bundle.test.ts
-       • test/e2e/test-utils.ts
        • test/nuxt/router.option.test.ts
        • test/nuxt/nuxt-layout.test.ts
        • test/nuxt/composables.test.ts
+       • test/e2e/test-utils.ts
        • debug/plugins/timings-unbuild.ts
        • packages/vite/src/vite-node.ts
        • packages/nuxt/test/treeshake-client.test.ts
@@ -1761,9 +1761,9 @@ Repository: sample-repos/nuxt
        • scripts/bump-edge.ts
        • test/bundle.test.ts
        • test/basic.test.ts
+       • test/nuxt/composables.test.ts
        • test/e2e/spa-preloader-within.test.ts
        • test/e2e/spa-preloader-body.test.ts
-       • test/nuxt/composables.test.ts
        • debug/plugins/timings-babel.mjs
        • packages/vite/src/vite.ts
      📄 Files WITHOUT ArrayPattern (showing 10):
@@ -1833,10 +1833,10 @@ Repository: sample-repos/nuxt
        • nuxt.config.ts
        • eslint.config.mjs
        • playground/nuxt.config.ts
+       • test/mocks/router-options.ts
+       • test/mocks/app-config.ts
        • packages/webpack/build.config.ts
        • packages/vite/build.config.ts
-       • packages/ui-templates/vite.config.ts
-       • packages/ui-templates/uno.config.ts
        • packages/schema/build.config.ts
      📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
        • scripts/update-changelog.ts
@@ -1876,8 +1876,8 @@ Repository: sample-repos/nuxt
 
    TSParenthesizedType:
      📄 Files WITH TSParenthesizedType (showing 10):
-       • test/e2e/test-utils.ts
        • test/nuxt/loading-indicator.test.ts
+       • test/e2e/test-utils.ts
        • packages/vite/src/css.ts
        • packages/nuxt/test/pages.test.ts
        • packages/kit/src/build.ts
@@ -1909,7 +1909,7 @@ Repository: sample-repos/nuxt
        • packages/schema/src/types/config.ts
        • packages/schema/src/config/typescript.ts
        • packages/schema/src/config/experimental.ts
-       • packages/nuxt/src/core/app.ts
+       • packages/nuxt/src/app/config.ts
      📄 Files WITHOUT TSConditionalType (showing 10):
        • vitest.config.ts
        • playwright.config.ts
@@ -1950,8 +1950,8 @@ Repository: sample-repos/nuxt
      📄 Files WITH TryStatement (showing 10):
        • test/utils.ts
        • test/basic.test.ts
-       • test/e2e/test-utils.ts
        • test/nuxt/use-async-data.test.ts
+       • test/e2e/test-utils.ts
        • debug/plugins/timings-unbuild.ts
        • packages/vite/src/vite-node.ts
        • packages/nuxt/test/pages.test.ts
@@ -2045,15 +2045,15 @@ Repository: sample-repos/nuxt
    RestElement:
      📄 Files WITH RestElement (showing 10):
        • test/setup-env.ts
-       • packages/ui-templates/vite.config.ts
        • test/nuxt/use-async-data.test.ts
+       • packages/ui-templates/vite.config.ts
        • packages/webpack/src/webpack.ts
        • packages/vite/src/vite.ts
-       • packages/ui-templates/lib/dev.ts
        • packages/nuxt/test/scan-components.test.ts
        • packages/nuxt/test/pages.test.ts
        • packages/nuxt/test/nuxt-link.test.ts
        • packages/kit/src/resolve.ts
+       • packages/kit/src/ignore.ts
      📄 Files WITHOUT RestElement (showing 10):
        • vitest.config.ts
        • playwright.config.ts
@@ -2069,13 +2069,13 @@ Repository: sample-repos/nuxt
    TSTypeQuery:
      📄 Files WITH TSTypeQuery (showing 10):
        • scripts/_utils.ts
-       • packages/webpack/builder.d.ts
        • test/nuxt/use-async-data.test.ts
        • test/nuxt/router.option.test.ts
        • test/nuxt/plugin.test.ts
        • test/nuxt/nuxt-island.test.ts
        • test/nuxt/error-boundary.test.ts
        • test/nuxt/composables.test.ts
+       • packages/webpack/builder.d.ts
        • debug/plugins/timings-unbuild.ts
        • packages/nuxt/test/pages.test.ts
      📄 Files WITHOUT TSTypeQuery (showing 10):
@@ -2147,9 +2147,9 @@ Repository: sample-repos/nuxt
        • packages/nuxt/src/app/nuxt.ts
        • packages/schema/src/types/builder-env/webpack.ts
        • packages/schema/src/types/builder-env/vite.ts
+       • packages/nuxt/src/app/types/augments.ts
+       • packages/nuxt/src/app/composables/cookie.ts
        • packages/nuxt/src/components/plugins/tree-shake.ts
-       • packages/nuxt/src/components/plugins/loader.ts
-       • packages/nuxt/src/components/plugins/lazy-hydration-transform.ts
      📄 Files WITHOUT TSMethodSignature (showing 10):
        • vitest.config.ts
        • playwright.config.ts
@@ -2189,15 +2189,15 @@ Repository: sample-repos/nuxt
    TSDeclareFunction:
      📄 Files WITH TSDeclareFunction (showing 10):
        • packages/nuxt/src/app/nuxt.ts
-       • packages/kit/src/module/define.ts
        • packages/kit/src/internal/esm.ts
+       • packages/kit/src/module/define.ts
+       • packages/nuxt/src/app/components/nuxt-link.ts
        • packages/nuxt/src/app/composables/state.ts
        • packages/nuxt/src/app/composables/ssr.ts
        • packages/nuxt/src/app/composables/once.ts
        • packages/nuxt/src/app/composables/manifest.ts
        • packages/nuxt/src/app/composables/lazy-hydration.ts
        • packages/nuxt/src/app/composables/fetch.ts
-       • packages/nuxt/src/app/composables/cookie.ts
      📄 Files WITHOUT TSDeclareFunction (showing 10):
        • vitest.config.ts
        • playwright.config.ts
@@ -2237,11 +2237,11 @@ Repository: sample-repos/nuxt
    TSTupleType:
      📄 Files WITH TSTupleType (showing 10):
        • test/nuxt/use-async-data.test.ts
-       • packages/ui-templates/lib/render.ts
        • packages/nuxt/test/nuxt-link.test.ts
        • packages/nuxt/test/naming.test.ts
        • packages/nuxt/test/load-nuxt.test.ts
        • packages/nuxt/test/component-names.test.ts
+       • packages/ui-templates/lib/render.ts
        • packages/webpack/src/utils/config.ts
        • packages/vite/src/plugins/ssr-styles.ts
        • packages/vite/src/plugins/analyze.ts
@@ -2360,7 +2360,7 @@ Repository: sample-repos/nuxt
        • packages/webpack/src/utils/postcss.ts
        • packages/nuxt/src/pages/utils.ts
        • packages/nuxt/src/pages/route-rules.ts
-       • packages/nuxt/src/core/cache.ts
+       • packages/nuxt/src/app/nuxt.ts
      📄 Files WITHOUT BreakStatement (showing 10):
        • vitest.config.ts
        • playwright.config.ts
@@ -2378,13 +2378,13 @@ Repository: sample-repos/nuxt
        • packages/vite/src/vite.ts
        • packages/vite/src/client.ts
        • packages/ui-templates/lib/prerender.ts
+       • packages/nuxt/src/app/entry.async.ts
        • packages/nuxt/src/core/nuxt.ts
        • packages/nuxt/src/core/features.ts
-       • packages/nuxt/src/app/entry.async.ts
+       • packages/kit/src/internal/esm.ts
        • packages/kit/src/loader/nuxt.ts
        • packages/kit/src/loader/config.ts
-       • packages/kit/src/internal/esm.ts
-       • packages/nuxt/src/app/composables/payload.ts
+       • packages/nuxt/src/app/components/test-component-wrapper.ts
      📄 Files WITHOUT ImportExpression (showing 10):
        • vitest.config.ts
        • playwright.config.ts
@@ -2470,13 +2470,13 @@ Repository: sample-repos/nuxt
        • packages/webpack/src/utils/postcss.ts
        • packages/schema/src/config/experimental.ts
        • packages/nuxt/src/pages/utils.ts
+       • packages/nuxt/src/app/config.ts
        • packages/nuxt/src/core/nitro.ts
        • packages/nuxt/src/core/modules.ts
-       • packages/nuxt/src/app/config.ts
        • packages/kit/src/loader/nuxt.ts
        • packages/nuxt/src/pages/plugins/page-meta.ts
+       • packages/nuxt/src/app/composables/error.ts
        • packages/nuxt/src/core/plugins/plugin-metadata.ts
-       • packages/nuxt/src/components/plugins/tree-shake.ts
      📄 Files WITHOUT TSTypePredicate (showing 10):
        • vitest.config.ts
        • playwright.config.ts
@@ -2495,8 +2495,8 @@ Repository: sample-repos/nuxt
        • packages/schema/src/utils/definition.ts
        • packages/schema/src/types/module.ts
        • packages/schema/src/types/config.ts
-       • packages/nuxt/src/core/app.ts
        • packages/nuxt/src/app/config.ts
+       • packages/nuxt/src/core/app.ts
        • packages/nuxt/src/app/plugins/router.ts
        • packages/nuxt/src/app/composables/ssr.ts
        • packages/nuxt/src/app/composables/router.ts
@@ -2515,9 +2515,9 @@ Repository: sample-repos/nuxt
 
    TSImportType:
      📄 Files WITH TSImportType (showing 10):
-       • packages/webpack/builder.d.ts
        • test/nuxt/plugin.test.ts
        • test/nuxt/nuxt-island.test.ts
+       • packages/webpack/builder.d.ts
        • debug/plugins/timings-unbuild.ts
        • packages/nuxt/test/pages.test.ts
        • packages/nuxt/test/load-nuxt.test.ts
@@ -2652,40 +2652,17 @@ Repository: sample-repos/nuxt
        • playground/nuxt.config.ts
        • test/utils.ts
 
-   ExportAllDeclaration:
-     📄 Files WITH ExportAllDeclaration (showing 9):
-       • packages/schema/builder-env.d.ts
-       • packages/nuxt/types.d.ts
-       • packages/nuxt/schema.js
-       • packages/nuxt/schema.d.ts
-       • packages/nuxt/kit.js
-       • packages/nuxt/kit.d.ts
-       • packages/nuxt/app.d.ts
-       • packages/nuxt/src/app/compat/vue-demi.ts
-       • packages/nuxt/src/app/compat/capi.ts
-     📄 Files WITHOUT ExportAllDeclaration (showing 10):
-       • vitest.config.ts
-       • playwright.config.ts
-       • nuxt.config.ts
-       • eslint.config.mjs
-       • scripts/update-changelog.ts
-       • scripts/bump.ts
-       • scripts/bump-rc.ts
-       • scripts/bump-edge.ts
-       • scripts/_utils.ts
-       • playground/nuxt.config.ts
-
    WhileStatement:
      📄 Files WITH WhileStatement (showing 9):
-       • test/e2e/test-utils.ts
        • test/nuxt/router.option.test.ts
+       • test/e2e/test-utils.ts
        • packages/vite/src/vite-node.ts
        • packages/kit/src/ignore.ts
        • packages/vite/src/runtime/vite-node-shared.mjs
        • packages/nuxt/src/pages/utils.ts
        • packages/nuxt/src/core/nuxt.ts
-       • packages/nuxt/src/core/utils/names.ts
        • packages/nuxt/src/app/components/nuxt-island.ts
+       • packages/nuxt/src/core/utils/names.ts
      📄 Files WITHOUT WhileStatement (showing 10):
        • vitest.config.ts
        • playwright.config.ts
@@ -2740,11 +2717,34 @@ Repository: sample-repos/nuxt
        • scripts/_utils.ts
        • playground/nuxt.config.ts
 
+   ExportAllDeclaration:
+     📄 Files WITH ExportAllDeclaration (showing 9):
+       • packages/schema/builder-env.d.ts
+       • packages/nuxt/types.d.ts
+       • packages/nuxt/schema.js
+       • packages/nuxt/schema.d.ts
+       • packages/nuxt/kit.js
+       • packages/nuxt/kit.d.ts
+       • packages/nuxt/app.d.ts
+       • packages/nuxt/src/app/compat/vue-demi.ts
+       • packages/nuxt/src/app/compat/capi.ts
+     📄 Files WITHOUT ExportAllDeclaration (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
    TSTypeAssertion:
      📄 Files WITH TSTypeAssertion (showing 7):
+       • test/runtime/app/router.options.ts
        • packages/ui-templates/lib/render.ts
        • packages/ui-templates/lib/dev.ts
-       • test/runtime/app/router.options.ts
        • packages/kit/src/module/define.ts
        • packages/nuxt/src/pages/runtime/router.options.ts
        • packages/nuxt/src/core/runtime/nitro/handlers/renderer.ts
@@ -2949,10 +2949,10 @@ Repository: sample-repos/nuxt
        • scripts/_utils.ts
        • playground/nuxt.config.ts
 
-   DoWhileStatement:
-     📄 Files WITH DoWhileStatement (showing 1):
-       • test/e2e/test-utils.ts
-     📄 Files WITHOUT DoWhileStatement (showing 10):
+   ClassExpression:
+     📄 Files WITH ClassExpression (showing 1):
+       • test/nuxt/components.test.ts
+     📄 Files WITHOUT ClassExpression (showing 10):
        • vitest.config.ts
        • playwright.config.ts
        • nuxt.config.ts
@@ -2964,10 +2964,10 @@ Repository: sample-repos/nuxt
        • scripts/_utils.ts
        • playground/nuxt.config.ts
 
-   ClassExpression:
-     📄 Files WITH ClassExpression (showing 1):
-       • test/nuxt/components.test.ts
-     📄 Files WITHOUT ClassExpression (showing 10):
+   DoWhileStatement:
+     📄 Files WITH DoWhileStatement (showing 1):
+       • test/e2e/test-utils.ts
+     📄 Files WITHOUT DoWhileStatement (showing 10):
        • vitest.config.ts
        • playwright.config.ts
        • nuxt.config.ts

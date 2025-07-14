@@ -1,5 +1,5 @@
 AST Analysis Report for rollup
-Generated on: 2025-07-14T01:42:30.122Z
+Generated on: 2025-07-14T01:56:58.427Z
 Repository: sample-repos/rollup
 ================================================================================
 
@@ -114,8 +114,8 @@ Repository: sample-repos/rollup
    TSTypeAliasDeclaration           41 files (  0.3%) -      347 total (0.03%)
    TSAnyKeyword                     41 files (  0.3%) -      138 total (0.01%)
    TSUnknownKeyword                 40 files (  0.3%) -       92 total (0.01%)
-   TSNamedTupleMember               35 files (  0.3%) -      101 total (0.01%)
    ContinueStatement                35 files (  0.3%) -      108 total (0.01%)
+   TSNamedTupleMember               35 files (  0.3%) -      101 total (0.01%)
    TSParenthesizedType              33 files (  0.3%) -       72 total (0.01%)
    DoWhileStatement                 31 files (  0.3%) -       86 total (0.01%)
    Hashbang                         30 files (  0.2%) -       30 total (0.00%)
@@ -255,8 +255,8 @@ Repository: sample-repos/rollup
    DoWhileStatement                     86 (0.01%) in 31 files (0.3%)
    TSIndexedAccessType                  86 (0.01%) in 19 files (0.2%)
    TSTypeParameter                      85 (0.01%) in 24 files (0.2%)
-   TSMethodSignature                    74 (0.01%) in 10 files (0.1%)
    TSTypeParameterDeclaration           74 (0.01%) in 24 files (0.2%)
+   TSMethodSignature                    74 (0.01%) in 10 files (0.1%)
    TSParenthesizedType                  72 (0.01%) in 33 files (0.3%)
    LabeledStatement                     68 (0.01%) in 21 files (0.2%)
    EmptyStatement                       57 (0.00%) in 50 files (0.4%)
@@ -283,9 +283,9 @@ Repository: sample-repos/rollup
    DebuggerStatement                    10 (0.00%) in 8 files (0.1%)
    TSMappedType                          8 (0.00%) in 4 files (0.0%)
    TSConditionalType                     8 (0.00%) in 3 files (0.0%)
-   TSEmptyBodyFunctionExpression         7 (0.00%) in 4 files (0.0%)
    TSObjectKeyword                       7 (0.00%) in 5 files (0.0%)
    TSInstantiationExpression             7 (0.00%) in 3 files (0.0%)
+   TSEmptyBodyFunctionExpression         7 (0.00%) in 4 files (0.0%)
    TSEnumDeclaration                     4 (0.00%) in 4 files (0.0%)
    TSEnumBody                            4 (0.00%) in 4 files (0.0%)
    TSInferType                           3 (0.00%) in 1 files (0.0%)
@@ -307,9 +307,9 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
      📄 Files WITHOUT Identifier (showing 10):
        • scripts/generate-ast-converters.js
        • src/utils/fs.ts
@@ -318,9 +318,9 @@ Repository: sample-repos/rollup
        • test/watch/samples/skip-writes/main.js
        • test/watch/samples/multiple/main2.js
        • test/watch/samples/multiple/main1.js
-       • test/watch/samples/error/main.js
        • test/watch/samples/ignored/foo.js
        • test/watch/samples/ignored/bar.js
+       • test/watch/samples/hashing/main-dynamic.js
 
    MemberExpression:
      📄 Files WITH MemberExpression (showing 10):
@@ -328,23 +328,23 @@ Repository: sample-repos/rollup
        • native.wasm.js
        • native.js
        • eslint.config.mjs
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/publish-wasm-node-package.js
-       • scripts/prepublish.js
+       • test/testHelpers.js
+       • test/test.js
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
      📄 Files WITHOUT MemberExpression (showing 10):
        • native.d.ts
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/release-constants.js
-       • scripts/generate-ast-converters.js
-       • scripts/declarations.d.ts
        • typings/package.json.ts
        • typings/fsevents.ts
        • typings/declarations.ts
+       • test/types.d.ts
        • src/node-entry.ts
+       • src/browser-entry.ts
+       • scripts/release-constants.js
 
    Literal:
      📄 Files WITH Literal (showing 10):
@@ -352,12 +352,12 @@ Repository: sample-repos/rollup
        • native.wasm.js
        • native.js
        • eslint.config.mjs
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/release-constants.js
-       • scripts/publish-wasm-node-package.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/types.d.ts
+       • test/testHelpers.js
+       • test/test.js
      📄 Files WITHOUT Literal (showing 10):
        • native.d.ts
        • wasm/bindings_wasm_bg.wasm.d.ts
@@ -375,24 +375,24 @@ Repository: sample-repos/rollup
        • rollup.config.ts
        • native.wasm.js
        • native.js
-       • scripts/update-snapshots.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/publish-wasm-node-package.js
-       • scripts/prepublish.js
-       • scripts/prepare-release.js
-       • scripts/postpublish.js
+       • test/testHelpers.js
+       • test/test.js
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
+       • src/ExternalChunk.ts
      📄 Files WITHOUT ExpressionStatement (showing 10):
        • native.d.ts
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/test-package.js
-       • scripts/release-constants.js
-       • scripts/generate-ast-converters.js
-       • scripts/declarations.d.ts
-       • scripts/colors.js
-       • scripts/ast-types.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/types.d.ts
+       • src/node-entry.ts
+       • src/browser-entry.ts
 
    CallExpression:
      📄 Files WITH CallExpression (showing 10):
@@ -400,26 +400,27 @@ Repository: sample-repos/rollup
        • native.wasm.js
        • native.js
        • eslint.config.mjs
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/publish-wasm-node-package.js
-       • scripts/prepublish.js
+       • test/testHelpers.js
+       • test/test.js
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
      📄 Files WITHOUT CallExpression (showing 10):
        • native.d.ts
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/release-constants.js
-       • scripts/generate-ast-converters.js
-       • scripts/declarations.d.ts
        • typings/package.json.ts
        • typings/fsevents.ts
        • typings/declarations.ts
+       • test/types.d.ts
        • src/node-entry.ts
+       • src/browser-entry.ts
+       • scripts/release-constants.js
 
    ThisExpression:
      📄 Files WITH ThisExpression (showing 10):
+       • test/test.js
        • src/ModuleLoader.ts
        • src/Module.ts
        • src/Graph.ts
@@ -427,7 +428,6 @@ Repository: sample-repos/rollup
        • src/ExternalChunk.ts
        • src/Chunk.ts
        • src/Bundle.ts
-       • test/test.js
        • build-plugins/external-native-import.ts
        • build-plugins/emit-wasm-file.ts
      📄 Files WITHOUT ThisExpression (showing 10):
@@ -438,33 +438,33 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    BlockStatement:
      📄 Files WITH BlockStatement (showing 10):
        • rollup.config.ts
        • native.js
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/publish-wasm-node-package.js
-       • scripts/prepublish.js
-       • scripts/prepare-release.js
-       • scripts/postpublish.js
+       • test/testHelpers.js
+       • test/test.js
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
      📄 Files WITHOUT BlockStatement (showing 10):
        • native.wasm.js
        • native.d.ts
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/release-constants.js
-       • scripts/generate-string-constants.js
-       • scripts/generate-node-types.js
-       • scripts/generate-node-index.js
-       • scripts/generate-ast-converters.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/types.d.ts
+       • src/node-entry.ts
 
    Property:
      📄 Files WITH Property (showing 10):
@@ -472,23 +472,23 @@ Repository: sample-repos/rollup
        • native.wasm.js
        • native.js
        • eslint.config.mjs
-       • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/publish-wasm-node-package.js
-       • scripts/prepublish.js
-       • scripts/prepare-release.js
-       • scripts/postpublish.js
+       • test/testHelpers.js
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
+       • src/ExternalChunk.ts
      📄 Files WITHOUT Property (showing 10):
        • native.d.ts
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/release-constants.js
-       • scripts/lint-native-js.js
-       • scripts/generate-string-constants.js
-       • scripts/generate-node-types.js
-       • scripts/generate-node-index.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/types.d.ts
+       • test/test.js
+       • src/node-entry.ts
+       • src/browser-entry.ts
 
    VariableDeclarator:
      📄 Files WITH VariableDeclarator (showing 10):
@@ -496,47 +496,47 @@ Repository: sample-repos/rollup
        • native.wasm.js
        • native.js
        • wasm/bindings_wasm_bg.wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/release-constants.js
-       • scripts/publish-wasm-node-package.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/testHelpers.js
+       • src/ModuleLoader.ts
+       • src/Module.ts
      📄 Files WITHOUT VariableDeclarator (showing 10):
        • native.d.ts
        • eslint.config.mjs
        • wasm/bindings_wasm.d.ts
+       • test/types.d.ts
+       • test/test.js
+       • src/node-entry.ts
+       • src/browser-entry.ts
        • scripts/generate-ast-converters.js
        • scripts/declarations.d.ts
        • scripts/check-release.js
-       • src/node-entry.ts
-       • src/browser-entry.ts
-       • test/types.d.ts
-       • test/test.js
 
    AssignmentExpression:
      📄 Files WITH AssignmentExpression (showing 10):
        • native.wasm.js
        • native.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/prepare-release.js
-       • scripts/postpublish.js
-       • scripts/helpers.js
-       • scripts/generate-rust-constants.js
-       • scripts/generate-child-node-keys.js
-       • scripts/generate-buffer-to-ast.js
+       • test/testHelpers.js
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
+       • src/Bundle.ts
      📄 Files WITHOUT AssignmentExpression (showing 10):
        • rollup.config.ts
        • native.d.ts
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/release-constants.js
-       • scripts/publish-wasm-node-package.js
-       • scripts/prepublish.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/types.d.ts
+       • test/test.js
 
    VariableDeclaration:
      📄 Files WITH VariableDeclaration (showing 10):
@@ -544,36 +544,36 @@ Repository: sample-repos/rollup
        • native.wasm.js
        • native.js
        • wasm/bindings_wasm_bg.wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/release-constants.js
-       • scripts/publish-wasm-node-package.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/testHelpers.js
+       • src/ModuleLoader.ts
+       • src/Module.ts
      📄 Files WITHOUT VariableDeclaration (showing 10):
        • native.d.ts
        • eslint.config.mjs
        • wasm/bindings_wasm.d.ts
+       • test/types.d.ts
+       • test/test.js
+       • src/node-entry.ts
+       • src/browser-entry.ts
        • scripts/generate-ast-converters.js
        • scripts/declarations.d.ts
        • scripts/check-release.js
-       • src/node-entry.ts
-       • src/browser-entry.ts
-       • test/types.d.ts
-       • test/test.js
 
    SwitchCase:
      📄 Files WITH SwitchCase (showing 10):
+       • test/testHelpers.js
+       • src/Chunk.ts
        • scripts/generate-rust-constants.js
        • scripts/generate-buffer-to-ast.js
        • scripts/generate-buffer-parsers.js
        • scripts/generate-ast-macros.js
-       • src/Chunk.ts
-       • test/testHelpers.js
+       • test/incremental/index.js
+       • test/misc/umd.js
        • src/ast/values.ts
        • src/utils/timers.ts
-       • src/utils/hookActions.ts
-       • src/utils/bufferToAst.ts
      📄 Files WITHOUT SwitchCase (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -582,46 +582,46 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    BinaryExpression:
      📄 Files WITH BinaryExpression (showing 10):
        • rollup.config.ts
        • native.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/prepublish.js
-       • scripts/prepare-release.js
-       • scripts/postpublish.js
-       • scripts/lint-native-js.js
-       • scripts/helpers.js
+       • test/testHelpers.js
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
+       • src/Bundle.ts
      📄 Files WITHOUT BinaryExpression (showing 10):
        • native.wasm.js
        • native.d.ts
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/release-constants.js
-       • scripts/publish-wasm-node-package.js
-       • scripts/generate-node-types.js
-       • scripts/generate-node-index.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/types.d.ts
+       • test/test.js
 
    ParenthesizedExpression:
      📄 Files WITH ParenthesizedExpression (showing 10):
-       • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/prepare-release.js
-       • scripts/postpublish.js
-       • scripts/helpers.js
-       • scripts/generate-child-node-keys.js
-       • scripts/generate-buffer-to-ast.js
+       • test/testHelpers.js
        • src/ModuleLoader.ts
        • src/Module.ts
        • src/Graph.ts
+       • src/ExternalModule.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
+       • src/Bundle.ts
+       • scripts/test-options.js
+       • scripts/release-helpers.js
      📄 Files WITHOUT ParenthesizedExpression (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -630,36 +630,38 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/release-constants.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    ObjectExpression:
      📄 Files WITH ObjectExpression (showing 10):
        • rollup.config.ts
        • native.js
        • eslint.config.mjs
-       • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/publish-wasm-node-package.js
-       • scripts/prepublish.js
-       • scripts/prepare-release.js
-       • scripts/postpublish.js
-       • scripts/helpers.js
+       • test/testHelpers.js
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
      📄 Files WITHOUT ObjectExpression (showing 10):
        • native.wasm.js
        • native.d.ts
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/release-constants.js
-       • scripts/lint-native-js.js
-       • scripts/generate-string-constants.js
-       • scripts/generate-rust-constants.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/types.d.ts
+       • test/test.js
+       • src/node-entry.ts
 
    FunctionExpression:
      📄 Files WITH FunctionExpression (showing 10):
+       • test/testHelpers.js
+       • test/test.js
        • src/ModuleLoader.ts
        • src/Module.ts
        • src/Graph.ts
@@ -667,8 +669,6 @@ Repository: sample-repos/rollup
        • src/ExternalChunk.ts
        • src/Chunk.ts
        • src/Bundle.ts
-       • test/testHelpers.js
-       • test/test.js
        • build-plugins/replace-browser-modules.ts
      📄 Files WITHOUT FunctionExpression (showing 10):
        • rollup.config.ts
@@ -678,9 +678,9 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    Program:
      📄 Files WITH Program (showing 10):
@@ -691,106 +691,106 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
      📄 Files WITHOUT Program: (all files contain this node type)
 
    ReturnStatement:
      📄 Files WITH ReturnStatement (showing 10):
        • rollup.config.ts
        • native.js
-       • scripts/release-helpers.js
-       • scripts/publish-wasm-node-package.js
-       • scripts/prepublish.js
-       • scripts/prepare-release.js
-       • scripts/postpublish.js
-       • scripts/helpers.js
-       • scripts/generate-rust-constants.js
-       • scripts/generate-buffer-to-ast.js
+       • test/testHelpers.js
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
+       • src/Bundle.ts
      📄 Files WITHOUT ReturnStatement (showing 10):
        • native.wasm.js
        • native.d.ts
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-constants.js
-       • scripts/lint-native-js.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/types.d.ts
+       • test/test.js
 
    IfStatement:
      📄 Files WITH IfStatement (showing 10):
        • rollup.config.ts
        • native.js
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/prepublish.js
-       • scripts/prepare-release.js
-       • scripts/postpublish.js
-       • scripts/lint-native-js.js
+       • test/testHelpers.js
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
+       • src/Bundle.ts
      📄 Files WITHOUT IfStatement (showing 10):
        • native.wasm.js
        • native.d.ts
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/release-constants.js
-       • scripts/publish-wasm-node-package.js
-       • scripts/generate-string-constants.js
-       • scripts/generate-node-types.js
-       • scripts/generate-node-index.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/types.d.ts
+       • test/test.js
 
    LogicalExpression:
      📄 Files WITH LogicalExpression (showing 10):
        • rollup.config.ts
        • native.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/postpublish.js
-       • scripts/generate-rust-constants.js
-       • scripts/generate-node-types.js
-       • scripts/generate-node-index.js
-       • scripts/generate-child-node-keys.js
+       • test/testHelpers.js
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
+       • src/Bundle.ts
      📄 Files WITHOUT LogicalExpression (showing 10):
        • native.wasm.js
        • native.d.ts
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/release-constants.js
-       • scripts/publish-wasm-node-package.js
-       • scripts/prepublish.js
-       • scripts/prepare-release.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/types.d.ts
+       • test/test.js
 
    ArrayExpression:
      📄 Files WITH ArrayExpression (showing 10):
        • rollup.config.ts
        • native.js
        • eslint.config.mjs
-       • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/publish-wasm-node-package.js
-       • scripts/prepublish.js
-       • scripts/prepare-release.js
-       • scripts/postpublish.js
-       • scripts/lint-native-js.js
+       • test/testHelpers.js
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
      📄 Files WITHOUT ArrayExpression (showing 10):
        • native.wasm.js
        • native.d.ts
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/release-constants.js
-       • scripts/generate-ast-macros.js
-       • scripts/generate-ast-converters.js
-       • scripts/declarations.d.ts
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/types.d.ts
+       • test/test.js
+       • src/node-entry.ts
 
    TSTypeAnnotation:
      📄 Files WITH TSTypeAnnotation (showing 10):
@@ -798,47 +798,47 @@ Repository: sample-repos/rollup
        • native.d.ts
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/declarations.d.ts
        • typings/package.json.ts
        • typings/fsevents.ts
        • typings/declarations.ts
+       • test/types.d.ts
        • src/ModuleLoader.ts
        • src/Module.ts
      📄 Files WITHOUT TSTypeAnnotation (showing 10):
        • native.wasm.js
        • native.js
        • eslint.config.mjs
+       • test/testHelpers.js
+       • test/test.js
+       • src/node-entry.ts
+       • src/browser-entry.ts
        • scripts/update-snapshots.js
        • scripts/test-package.js
        • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/release-constants.js
-       • scripts/publish-wasm-node-package.js
-       • scripts/prepublish.js
 
    UnaryExpression:
      📄 Files WITH UnaryExpression (showing 10):
        • rollup.config.ts
        • native.js
-       • scripts/update-snapshots.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/publish-wasm-node-package.js
-       • scripts/prepublish.js
-       • scripts/prepare-release.js
-       • scripts/postpublish.js
-       • scripts/lint-native-js.js
+       • test/testHelpers.js
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
+       • src/Bundle.ts
      📄 Files WITHOUT UnaryExpression (showing 10):
        • native.wasm.js
        • native.d.ts
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/test-package.js
-       • scripts/release-constants.js
-       • scripts/generate-string-constants.js
-       • scripts/generate-rust-constants.js
-       • scripts/generate-node-types.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/types.d.ts
+       • test/test.js
 
    TSTypeReference:
      📄 Files WITH TSTypeReference (showing 10):
@@ -846,8 +846,8 @@ Repository: sample-repos/rollup
        • native.d.ts
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/declarations.d.ts
        • typings/declarations.ts
+       • test/types.d.ts
        • src/ModuleLoader.ts
        • src/Module.ts
        • src/Graph.ts
@@ -856,50 +856,50 @@ Repository: sample-repos/rollup
        • native.wasm.js
        • native.js
        • eslint.config.mjs
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • test/testHelpers.js
+       • test/test.js
+       • src/node-entry.ts
+       • src/browser-entry.ts
        • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/release-constants.js
-       • scripts/publish-wasm-node-package.js
-       • scripts/prepublish.js
 
    ImportDeclaration:
      📄 Files WITH ImportDeclaration (showing 10):
        • rollup.config.ts
        • eslint.config.mjs
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/publish-wasm-node-package.js
-       • scripts/prepublish.js
-       • scripts/prepare-release.js
-       • scripts/postpublish.js
+       • typings/declarations.ts
+       • test/types.d.ts
+       • src/browser-entry.ts
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
+       • src/ExternalChunk.ts
      📄 Files WITHOUT ImportDeclaration (showing 10):
        • native.wasm.js
        • native.js
        • native.d.ts
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/release-constants.js
-       • scripts/declarations.d.ts
-       • scripts/ast-types.js
        • typings/package.json.ts
        • typings/fsevents.ts
+       • test/testHelpers.js
+       • test/test.js
+       • src/node-entry.ts
 
    Unknown:
      📄 Files WITH Unknown (showing 10):
        • native.js
+       • test/testHelpers.js
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
        • scripts/update-snapshots.js
        • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/prepublish.js
-       • scripts/prepare-release.js
-       • scripts/postpublish.js
-       • scripts/lint-native-js.js
-       • scripts/helpers.js
      📄 Files WITHOUT Unknown (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -907,23 +907,23 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/release-constants.js
-       • scripts/publish-wasm-node-package.js
-       • scripts/generate-ast-converters.js
-       • scripts/declarations.d.ts
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/types.d.ts
 
    ImportSpecifier:
      📄 Files WITH ImportSpecifier (showing 10):
        • rollup.config.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/publish-wasm-node-package.js
-       • scripts/prepublish.js
-       • scripts/prepare-release.js
-       • scripts/postpublish.js
-       • scripts/helpers.js
+       • typings/declarations.ts
+       • test/types.d.ts
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
+       • src/Bundle.ts
      📄 Files WITHOUT ImportSpecifier (showing 10):
        • native.wasm.js
        • native.js
@@ -931,71 +931,71 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/release-constants.js
-       • scripts/lint-native-js.js
-       • scripts/generate-ast-converters.js
-       • scripts/declarations.d.ts
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • test/testHelpers.js
+       • test/test.js
 
    FunctionDeclaration:
      📄 Files WITH FunctionDeclaration (showing 10):
        • rollup.config.ts
        • native.js
+       • test/testHelpers.js
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
+       • src/Bundle.ts
        • scripts/release-helpers.js
-       • scripts/publish-wasm-node-package.js
-       • scripts/prepublish.js
-       • scripts/prepare-release.js
-       • scripts/postpublish.js
-       • scripts/helpers.js
-       • scripts/generate-buffer-to-ast.js
-       • scripts/generate-buffer-parsers.js
      📄 Files WITHOUT FunctionDeclaration (showing 10):
        • native.wasm.js
        • native.d.ts
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-constants.js
-       • scripts/lint-native-js.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/types.d.ts
+       • test/test.js
 
    NewExpression:
      📄 Files WITH NewExpression (showing 10):
        • rollup.config.ts
        • native.js
+       • test/testHelpers.js
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
+       • src/Chunk.ts
+       • src/Bundle.ts
        • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/publish-wasm-node-package.js
-       • scripts/prepublish.js
-       • scripts/prepare-release.js
-       • scripts/postpublish.js
      📄 Files WITHOUT NewExpression (showing 10):
        • native.wasm.js
        • native.d.ts
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/release-constants.js
-       • scripts/generate-ast-converters.js
-       • scripts/declarations.d.ts
-       • scripts/colors.js
-       • scripts/check-release.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/types.d.ts
+       • test/test.js
 
    TemplateElement:
      📄 Files WITH TemplateElement (showing 10):
        • native.js
+       • test/testHelpers.js
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
        • scripts/update-snapshots.js
        • scripts/test-package.js
        • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/prepublish.js
-       • scripts/prepare-release.js
-       • scripts/postpublish.js
-       • scripts/lint-native-js.js
-       • scripts/helpers.js
      📄 Files WITHOUT TemplateElement (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -1003,66 +1003,66 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/release-constants.js
-       • scripts/publish-wasm-node-package.js
-       • scripts/generate-ast-converters.js
-       • scripts/declarations.d.ts
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/types.d.ts
 
    ExportNamedDeclaration:
      📄 Files WITH ExportNamedDeclaration (showing 10):
        • native.d.ts
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/release-helpers.js
-       • scripts/release-constants.js
-       • scripts/helpers.js
-       • scripts/declarations.d.ts
-       • scripts/colors.js
-       • scripts/ast-types.js
        • typings/declarations.ts
+       • test/types.d.ts
+       • src/node-entry.ts
+       • src/browser-entry.ts
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/ExternalChunk.ts
      📄 Files WITHOUT ExportNamedDeclaration (showing 10):
        • rollup.config.ts
        • native.wasm.js
        • native.js
        • eslint.config.mjs
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/publish-wasm-node-package.js
-       • scripts/prepublish.js
-       • scripts/prepare-release.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • test/testHelpers.js
+       • test/test.js
+       • src/Graph.ts
+       • src/ExternalModule.ts
 
    ArrowFunctionExpression:
      📄 Files WITH ArrowFunctionExpression (showing 10):
        • rollup.config.ts
        • native.wasm.js
        • native.js
-       • scripts/update-snapshots.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/publish-wasm-node-package.js
-       • scripts/prepare-release.js
-       • scripts/postpublish.js
-       • scripts/helpers.js
+       • test/testHelpers.js
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
      📄 Files WITHOUT ArrowFunctionExpression (showing 10):
        • native.d.ts
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/test-package.js
-       • scripts/release-constants.js
-       • scripts/prepublish.js
-       • scripts/lint-native-js.js
-       • scripts/generate-ast-converters.js
-       • scripts/declarations.d.ts
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/types.d.ts
+       • test/test.js
+       • src/node-entry.ts
 
    BreakStatement:
      📄 Files WITH BreakStatement (showing 10):
+       • src/Module.ts
+       • src/Chunk.ts
        • scripts/prepare-release.js
        • scripts/generate-rust-constants.js
        • scripts/generate-ast-macros.js
-       • src/Module.ts
-       • src/Chunk.ts
        • src/watch/watch-proxy.ts
        • src/utils/renderHelpers.ts
        • src/utils/collapseSourcemaps.ts
@@ -1076,22 +1076,22 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    ConditionalExpression:
      📄 Files WITH ConditionalExpression (showing 10):
        • native.js
+       • test/testHelpers.js
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
+       • src/Bundle.ts
        • scripts/release-helpers.js
        • scripts/prepare-release.js
        • scripts/postpublish.js
-       • scripts/helpers.js
-       • scripts/generate-rust-constants.js
-       • scripts/generate-child-node-keys.js
-       • scripts/generate-buffer-to-ast.js
-       • scripts/generate-buffer-parsers.js
-       • scripts/ast-types.js
      📄 Files WITHOUT ConditionalExpression (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -1099,14 +1099,13 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-constants.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/types.d.ts
 
    MethodDefinition:
      📄 Files WITH MethodDefinition (showing 10):
-       • scripts/declarations.d.ts
        • src/ModuleLoader.ts
        • src/Module.ts
        • src/Graph.ts
@@ -1114,7 +1113,8 @@ Repository: sample-repos/rollup
        • src/ExternalChunk.ts
        • src/Chunk.ts
        • src/Bundle.ts
-       • scripts/perf-report/report-collector.js
+       • scripts/declarations.d.ts
+       • test/misc/sanity-checks.js
        • src/watch/watch.ts
      📄 Files WITHOUT MethodDefinition (showing 10):
        • rollup.config.ts
@@ -1124,22 +1124,22 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    ExportSpecifier:
      📄 Files WITH ExportSpecifier (showing 10):
        • src/node-entry.ts
        • src/browser-entry.ts
-       • scripts/perf-report/rollup-artefacts.js
        • src/utils/process.ts
        • src/utils/performance.ts
        • src/utils/path.ts
+       • scripts/perf-report/rollup-artefacts.js
        • browser/src/wasm.ts
-       • src/ast/nodes/shared/Node.ts
        • test/watch/samples/virtual/main.js
        • test/watch/samples/ignored/main.js
+       • test/sourcemaps/samples/single-length-segments/output.js
      📄 Files WITHOUT ExportSpecifier (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -1148,42 +1148,42 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    ThrowStatement:
      📄 Files WITH ThrowStatement (showing 10):
        • rollup.config.ts
        • native.js
+       • test/testHelpers.js
+       • src/ModuleLoader.ts
+       • src/Graph.ts
+       • src/Bundle.ts
        • scripts/update-snapshots.js
        • scripts/test-package.js
        • scripts/test-options.js
        • scripts/release-helpers.js
-       • scripts/prepublish.js
-       • scripts/prepare-release.js
-       • scripts/postpublish.js
-       • scripts/lint-native-js.js
      📄 Files WITHOUT ThrowStatement (showing 10):
        • native.wasm.js
        • native.d.ts
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/release-constants.js
-       • scripts/publish-wasm-node-package.js
-       • scripts/helpers.js
-       • scripts/generate-string-constants.js
-       • scripts/generate-rust-constants.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/types.d.ts
+       • test/test.js
 
    TSStringKeyword:
      📄 Files WITH TSStringKeyword (showing 10):
        • rollup.config.ts
        • native.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/declarations.d.ts
        • typings/package.json.ts
        • typings/declarations.ts
+       • test/types.d.ts
        • src/ModuleLoader.ts
        • src/Module.ts
        • src/Graph.ts
@@ -1193,25 +1193,25 @@ Repository: sample-repos/rollup
        • native.js
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
+       • typings/fsevents.ts
+       • test/testHelpers.js
+       • test/test.js
+       • src/node-entry.ts
+       • src/browser-entry.ts
        • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/release-constants.js
-       • scripts/publish-wasm-node-package.js
 
    TemplateLiteral:
      📄 Files WITH TemplateLiteral (showing 10):
        • native.js
+       • test/testHelpers.js
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
        • scripts/update-snapshots.js
        • scripts/test-package.js
        • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/prepublish.js
-       • scripts/prepare-release.js
-       • scripts/postpublish.js
-       • scripts/lint-native-js.js
-       • scripts/helpers.js
      📄 Files WITHOUT TemplateLiteral (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -1219,71 +1219,71 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/release-constants.js
-       • scripts/publish-wasm-node-package.js
-       • scripts/generate-ast-converters.js
-       • scripts/declarations.d.ts
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/types.d.ts
 
    ImportDefaultSpecifier:
      📄 Files WITH ImportDefaultSpecifier (showing 10):
        • rollup.config.ts
        • eslint.config.mjs
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
+       • src/Bundle.ts
        • scripts/update-snapshots.js
-       • scripts/release-helpers.js
-       • scripts/publish-wasm-node-package.js
-       • scripts/prepublish.js
-       • scripts/prepare-release.js
-       • scripts/postpublish.js
-       • scripts/lint-native-js.js
-       • scripts/helpers.js
      📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
        • native.wasm.js
        • native.js
        • native.d.ts
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-constants.js
-       • scripts/generate-string-constants.js
-       • scripts/generate-rust-constants.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/types.d.ts
+       • test/testHelpers.js
 
    ObjectPattern:
      📄 Files WITH ObjectPattern (showing 10):
        • rollup.config.ts
        • native.wasm.js
        • native.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/prepublish.js
-       • scripts/prepare-release.js
-       • scripts/postpublish.js
-       • scripts/generate-rust-constants.js
-       • scripts/generate-buffer-to-ast.js
+       • test/testHelpers.js
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
      📄 Files WITHOUT ObjectPattern (showing 10):
        • native.d.ts
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/release-constants.js
-       • scripts/publish-wasm-node-package.js
-       • scripts/lint-native-js.js
-       • scripts/helpers.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/types.d.ts
+       • test/test.js
+       • src/node-entry.ts
 
    TryStatement:
      📄 Files WITH TryStatement (showing 10):
        • native.js
-       • scripts/release-helpers.js
-       • scripts/prepare-release.js
+       • test/testHelpers.js
        • src/ModuleLoader.ts
        • src/Module.ts
        • src/Bundle.ts
-       • test/testHelpers.js
+       • scripts/release-helpers.js
+       • scripts/prepare-release.js
        • cli/cli.ts
        • build-plugins/fs-events-replacement.ts
-       • src/watch/watch.ts
+       • test/load-config-file/index.js
      📄 Files WITHOUT TryStatement (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -1291,23 +1291,23 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-constants.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/types.d.ts
 
    CatchClause:
      📄 Files WITH CatchClause (showing 10):
        • native.js
-       • scripts/release-helpers.js
-       • scripts/prepare-release.js
+       • test/testHelpers.js
        • src/ModuleLoader.ts
        • src/Module.ts
        • src/Bundle.ts
-       • test/testHelpers.js
+       • scripts/release-helpers.js
+       • scripts/prepare-release.js
        • cli/cli.ts
        • build-plugins/fs-events-replacement.ts
-       • src/watch/watch.ts
+       • test/load-config-file/index.js
      📄 Files WITHOUT CatchClause (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -1315,23 +1315,23 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-constants.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/types.d.ts
 
    TSPropertySignature:
      📄 Files WITH TSPropertySignature (showing 10):
        • wasm/bindings_wasm.d.ts
-       • scripts/declarations.d.ts
        • typings/declarations.ts
+       • test/types.d.ts
        • src/ModuleLoader.ts
        • src/Module.ts
        • src/Chunk.ts
-       • test/types.d.ts
+       • scripts/declarations.d.ts
        • docs/types.d.ts
        • build-plugins/generate-license-file.ts
-       • src/watch/watch.ts
+       • test/typescript/index.ts
      📄 Files WITHOUT TSPropertySignature (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -1339,23 +1339,23 @@ Repository: sample-repos/rollup
        • native.d.ts
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • test/testHelpers.js
+       • test/test.js
 
    SwitchStatement:
      📄 Files WITH SwitchStatement (showing 10):
+       • test/testHelpers.js
+       • src/Chunk.ts
        • scripts/generate-rust-constants.js
        • scripts/generate-buffer-to-ast.js
        • scripts/generate-buffer-parsers.js
        • scripts/generate-ast-macros.js
-       • src/Chunk.ts
-       • test/testHelpers.js
+       • test/incremental/index.js
+       • test/misc/umd.js
        • src/ast/values.ts
        • src/utils/timers.ts
-       • src/utils/hookActions.ts
-       • src/utils/bufferToAst.ts
      📄 Files WITHOUT SwitchStatement (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -1364,40 +1364,40 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    ExportDefaultDeclaration:
      📄 Files WITH ExportDefaultDeclaration (showing 10):
        • rollup.config.ts
        • eslint.config.mjs
        • wasm/bindings_wasm.d.ts
-       • scripts/publish-wasm-node-package.js
-       • scripts/declarations.d.ts
        • typings/fsevents.ts
        • typings/declarations.ts
        • src/Module.ts
        • src/Graph.ts
        • src/ExternalModule.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
      📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
        • native.wasm.js
        • native.js
        • native.d.ts
        • wasm/bindings_wasm_bg.wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/release-constants.js
-       • scripts/prepublish.js
+       • typings/package.json.ts
+       • test/types.d.ts
+       • test/testHelpers.js
+       • test/test.js
+       • src/node-entry.ts
+       • src/browser-entry.ts
 
    TSTypeParameterInstantiation:
      📄 Files WITH TSTypeParameterInstantiation (showing 10):
        • rollup.config.ts
        • native.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/declarations.d.ts
+       • test/types.d.ts
        • src/ModuleLoader.ts
        • src/Module.ts
        • src/Graph.ts
@@ -1409,12 +1409,12 @@ Repository: sample-repos/rollup
        • native.js
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/release-constants.js
-       • scripts/publish-wasm-node-package.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/testHelpers.js
+       • test/test.js
+       • src/node-entry.ts
 
    TSUnionType:
      📄 Files WITH TSUnionType (showing 10):
@@ -1422,30 +1422,30 @@ Repository: sample-repos/rollup
        • native.d.ts
        • wasm/bindings_wasm.d.ts
        • typings/declarations.ts
+       • test/types.d.ts
        • src/ModuleLoader.ts
        • src/Module.ts
        • src/Graph.ts
        • src/ExternalModule.ts
        • src/ExternalChunk.ts
-       • src/Chunk.ts
      📄 Files WITHOUT TSUnionType (showing 10):
        • native.wasm.js
        • native.js
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/release-constants.js
-       • scripts/publish-wasm-node-package.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • test/testHelpers.js
+       • test/test.js
+       • src/node-entry.ts
+       • src/browser-entry.ts
 
    ImportExpression:
      📄 Files WITH ImportExpression (showing 10):
-       • src/watch/watch-proxy.ts
-       • src/watch/fsevents-importer.ts
        • test/misc/parse-ast.js
        • test/misc/in-memory-sourcemaps.js
+       • src/watch/watch-proxy.ts
+       • src/watch/fsevents-importer.ts
        • cli/run/loadConfigFile.ts
        • cli/run/index.ts
        • cli/run/commandPlugins.ts
@@ -1460,13 +1460,12 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    ClassBody:
      📄 Files WITH ClassBody (showing 10):
-       • scripts/declarations.d.ts
        • src/ModuleLoader.ts
        • src/Module.ts
        • src/Graph.ts
@@ -1474,7 +1473,8 @@ Repository: sample-repos/rollup
        • src/ExternalChunk.ts
        • src/Chunk.ts
        • src/Bundle.ts
-       • scripts/perf-report/report-collector.js
+       • scripts/declarations.d.ts
+       • test/misc/sanity-checks.js
        • src/watch/watch.ts
      📄 Files WITHOUT ClassBody (showing 10):
        • rollup.config.ts
@@ -1484,9 +1484,9 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    PropertyDefinition:
      📄 Files WITH PropertyDefinition (showing 10):
@@ -1497,9 +1497,9 @@ Repository: sample-repos/rollup
        • src/ExternalChunk.ts
        • src/Chunk.ts
        • src/Bundle.ts
-       • scripts/perf-report/report-collector.js
        • src/watch/watch.ts
        • src/watch/fileWatcher.ts
+       • src/watch/WatchEmitter.ts
      📄 Files WITHOUT PropertyDefinition (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -1508,22 +1508,22 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    UpdateExpression:
      📄 Files WITH UpdateExpression (showing 10):
-       • scripts/generate-buffer-to-ast.js
-       • scripts/generate-buffer-parsers.js
+       • test/testHelpers.js
        • src/ModuleLoader.ts
        • src/Graph.ts
        • src/Bundle.ts
-       • test/testHelpers.js
+       • scripts/generate-buffer-to-ast.js
+       • scripts/generate-buffer-parsers.js
        • build-plugins/esm-dynamic-import.ts
-       • scripts/perf-report/index.js
-       • src/ast/bufferParsers.ts
-       • src/finalisers/es.ts
+       • test/watch/index.js
+       • test/incremental/index.js
+       • test/hooks/index.js
      📄 Files WITHOUT UpdateExpression (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -1532,22 +1532,22 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    AwaitExpression:
      📄 Files WITH AwaitExpression (showing 10):
+       • test/testHelpers.js
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/Chunk.ts
+       • src/Bundle.ts
        • scripts/test-package.js
        • scripts/test-options.js
        • scripts/release-helpers.js
        • scripts/publish-wasm-node-package.js
-       • scripts/prepublish.js
-       • scripts/prepare-release.js
-       • scripts/postpublish.js
-       • scripts/lint-native-js.js
-       • scripts/helpers.js
-       • scripts/generate-string-constants.js
      📄 Files WITHOUT AwaitExpression (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -1556,13 +1556,12 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/release-constants.js
-       • scripts/generate-ast-converters.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    ClassDeclaration:
      📄 Files WITH ClassDeclaration (showing 10):
-       • scripts/declarations.d.ts
        • src/ModuleLoader.ts
        • src/Module.ts
        • src/Graph.ts
@@ -1570,8 +1569,9 @@ Repository: sample-repos/rollup
        • src/ExternalChunk.ts
        • src/Chunk.ts
        • src/Bundle.ts
+       • scripts/declarations.d.ts
+       • test/misc/sanity-checks.js
        • src/watch/watch.ts
-       • src/watch/fileWatcher.ts
      📄 Files WITHOUT ClassDeclaration (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -1580,46 +1580,46 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSBooleanKeyword:
      📄 Files WITH TSBooleanKeyword (showing 10):
        • native.d.ts
        • wasm/bindings_wasm.d.ts
        • typings/declarations.ts
+       • test/types.d.ts
        • src/ModuleLoader.ts
        • src/Module.ts
        • src/ExternalModule.ts
        • src/ExternalChunk.ts
        • src/Chunk.ts
        • src/Bundle.ts
-       • test/types.d.ts
      📄 Files WITHOUT TSBooleanKeyword (showing 10):
        • rollup.config.ts
        • native.wasm.js
        • native.js
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/release-constants.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • test/testHelpers.js
+       • test/test.js
+       • src/node-entry.ts
 
    ForOfStatement:
      📄 Files WITH ForOfStatement (showing 10):
+       • test/testHelpers.js
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
+       • src/Chunk.ts
+       • src/Bundle.ts
        • scripts/update-snapshots.js
        • scripts/test-options.js
        • scripts/release-helpers.js
-       • scripts/postpublish.js
-       • scripts/lint-native-js.js
-       • scripts/generate-rust-constants.js
-       • scripts/generate-child-node-keys.js
-       • scripts/generate-buffer-to-ast.js
-       • scripts/generate-buffer-parsers.js
-       • scripts/generate-ast-macros.js
      📄 Files WITHOUT ForOfStatement (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -1628,14 +1628,14 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/test-package.js
-       • scripts/release-constants.js
-       • scripts/publish-wasm-node-package.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSArrayType:
      📄 Files WITH TSArrayType (showing 10):
        • rollup.config.ts
-       • scripts/declarations.d.ts
+       • test/types.d.ts
        • src/ModuleLoader.ts
        • src/Module.ts
        • src/Graph.ts
@@ -1643,7 +1643,7 @@ Repository: sample-repos/rollup
        • src/ExternalChunk.ts
        • src/Chunk.ts
        • src/Bundle.ts
-       • test/types.d.ts
+       • scripts/declarations.d.ts
      📄 Files WITHOUT TSArrayType (showing 10):
        • native.wasm.js
        • native.js
@@ -1651,18 +1651,18 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/testHelpers.js
 
    WhileStatement:
      📄 Files WITH WhileStatement (showing 10):
+       • src/ModuleLoader.ts
+       • src/Module.ts
        • scripts/test-options.js
        • scripts/release-helpers.js
        • scripts/prepare-release.js
-       • src/ModuleLoader.ts
-       • src/Module.ts
        • cli/logging.ts
        • src/utils/safeName.ts
        • src/utils/renderNamePattern.ts
@@ -1676,15 +1676,15 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/release-constants.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSVoidKeyword:
      📄 Files WITH TSVoidKeyword (showing 10):
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/declarations.d.ts
+       • test/types.d.ts
        • src/ModuleLoader.ts
        • src/Module.ts
        • src/Graph.ts
@@ -1698,11 +1698,11 @@ Repository: sample-repos/rollup
        • native.js
        • native.d.ts
        • eslint.config.mjs
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/release-constants.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/testHelpers.js
+       • test/test.js
 
    TSLiteralType:
      📄 Files WITH TSLiteralType (showing 10):
@@ -1713,9 +1713,9 @@ Repository: sample-repos/rollup
        • src/ExternalModule.ts
        • src/ExternalChunk.ts
        • src/Chunk.ts
+       • test/typescript/index.ts
        • src/watch/watch.ts
        • src/rollup/types.d.ts
-       • src/ast/bufferParsers.ts
      📄 Files WITHOUT TSLiteralType (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -1724,46 +1724,46 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • test/types.d.ts
 
    SpreadElement:
      📄 Files WITH SpreadElement (showing 10):
        • rollup.config.ts
        • eslint.config.mjs
+       • test/testHelpers.js
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
+       • src/Chunk.ts
+       • src/Bundle.ts
        • scripts/update-snapshots.js
-       • scripts/release-helpers.js
-       • scripts/publish-wasm-node-package.js
-       • scripts/prepublish.js
-       • scripts/prepare-release.js
-       • scripts/helpers.js
-       • scripts/generate-node-types.js
-       • scripts/generate-node-index.js
      📄 Files WITHOUT SpreadElement (showing 10):
        • native.wasm.js
        • native.js
        • native.d.ts
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-constants.js
-       • scripts/postpublish.js
-       • scripts/lint-native-js.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/types.d.ts
+       • test/test.js
 
    SequenceExpression:
      📄 Files WITH SequenceExpression (showing 10):
        • src/utils/renderHelpers.ts
        • src/ast/utils/PathTracker.ts
-       • test/cli/samples/no-conflict/_expected.js
-       • test/cli/samples/module-name/_expected.js
-       • test/form/samples/wrap-simplified-expressions/main.js
-       • test/form/samples/unused-inner-functions-and-classes/stuff.js
-       • test/form/samples/treeshake-sequence-expressions/main.js
-       • test/form/samples/treeshake-sequence-expressions/_expected.js
-       • test/form/samples/tree-shake-if-statements/main.js
-       • test/form/samples/tree-shake-if-statements/_expected.js
+       • test/function/samples/wraps-simplified-expressions/main.js
+       • test/function/samples/simplify-with-destructuring/main.js
+       • test/function/samples/simplify-sequence-expressions/main.js
+       • test/function/samples/simplified-nested-if/main.js
+       • test/function/samples/side-effects-only-default-exports/bar.js
+       • test/function/samples/sequence-expressions-template-tag/main.js
+       • test/function/samples/sequence-expression/main.js
+       • test/function/samples/prevent-tree-shaking-asi/main.js
      📄 Files WITHOUT SequenceExpression (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -1772,18 +1772,18 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    ImportNamespaceSpecifier:
      📄 Files WITH ImportNamespaceSpecifier (showing 10):
        • typings/declarations.ts
        • src/Module.ts
+       • test/typescript/index.ts
        • src/rollup/types.d.ts
        • src/ast/bufferParsers.ts
        • src/utils/bufferToAst.ts
-       • test/typescript/index.ts
        • cli/run/watch-cli.ts
        • cli/run/loadConfigFile.ts
        • browser/src/fs.ts
@@ -1796,9 +1796,9 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • test/types.d.ts
 
    TSTypeAliasDeclaration:
      📄 Files WITH TSTypeAliasDeclaration (showing 10):
@@ -1808,9 +1808,9 @@ Repository: sample-repos/rollup
        • src/Chunk.ts
        • build-plugins/replace-browser-modules.ts
        • src/rollup/types.d.ts
+       • src/finalisers/index.ts
        • src/ast/values.ts
        • src/ast/NodeInteractions.ts
-       • src/finalisers/index.ts
        • src/utils/timers.ts
      📄 Files WITHOUT TSTypeAliasDeclaration (showing 10):
        • rollup.config.ts
@@ -1819,20 +1819,20 @@ Repository: sample-repos/rollup
        • native.d.ts
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • test/types.d.ts
+       • test/testHelpers.js
 
    TSNullKeyword:
      📄 Files WITH TSNullKeyword (showing 10):
        • native.d.ts
+       • test/types.d.ts
        • src/ModuleLoader.ts
        • src/Module.ts
        • src/Graph.ts
        • src/ExternalChunk.ts
        • src/Chunk.ts
-       • test/types.d.ts
        • build-plugins/get-banner.ts
        • src/watch/watch.ts
        • src/watch/fileWatcher.ts
@@ -1843,46 +1843,46 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/testHelpers.js
 
    TSNumberKeyword:
      📄 Files WITH TSNumberKeyword (showing 10):
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/declarations.d.ts
+       • test/types.d.ts
        • src/ModuleLoader.ts
        • src/Module.ts
        • src/ExternalModule.ts
        • src/Chunk.ts
-       • test/types.d.ts
+       • scripts/declarations.d.ts
+       • test/typescript/index.ts
        • src/rollup/types.d.ts
-       • src/ast/bufferParsers.ts
      📄 Files WITHOUT TSNumberKeyword (showing 10):
        • rollup.config.ts
        • native.wasm.js
        • native.js
        • native.d.ts
        • eslint.config.mjs
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/release-constants.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/testHelpers.js
+       • test/test.js
 
    ChainExpression:
      📄 Files WITH ChainExpression (showing 10):
        • native.js
-       • scripts/generate-buffer-to-ast.js
-       • scripts/generate-buffer-parsers.js
-       • scripts/generate-ast-macros.js
+       • test/testHelpers.js
        • src/ModuleLoader.ts
        • src/Module.ts
        • src/Graph.ts
        • src/Chunk.ts
-       • test/testHelpers.js
+       • scripts/generate-buffer-to-ast.js
+       • scripts/generate-buffer-parsers.js
+       • scripts/generate-ast-macros.js
        • cli/logging.ts
      📄 Files WITHOUT ChainExpression (showing 10):
        • rollup.config.ts
@@ -1891,10 +1891,10 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/types.d.ts
 
    TSAsExpression:
      📄 Files WITH TSAsExpression (showing 10):
@@ -1907,7 +1907,7 @@ Repository: sample-repos/rollup
        • src/watch/watch.ts
        • src/watch/watch-proxy.ts
        • src/rollup/rollup.ts
-       • src/ast/bufferParsers.ts
+       • src/finalisers/index.ts
      📄 Files WITHOUT TSAsExpression (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -1916,19 +1916,19 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSQualifiedName:
      📄 Files WITH TSQualifiedName (showing 10):
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
        • typings/declarations.ts
+       • test/typescript/index.ts
        • src/rollup/types.d.ts
        • src/ast/bufferParsers.ts
        • src/utils/bufferToAst.ts
-       • test/typescript/index.ts
        • src/ast/nodes/YieldExpression.ts
        • src/ast/nodes/WhileStatement.ts
        • src/ast/nodes/VariableDeclarator.ts
@@ -1938,24 +1938,24 @@ Repository: sample-repos/rollup
        • native.js
        • native.d.ts
        • eslint.config.mjs
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/release-constants.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • test/types.d.ts
+       • test/testHelpers.js
+       • test/test.js
 
    ArrayPattern:
      📄 Files WITH ArrayPattern (showing 10):
        • native.js
+       • test/testHelpers.js
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
+       • src/Bundle.ts
        • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/prepare-release.js
-       • scripts/postpublish.js
-       • scripts/lint-native-js.js
-       • scripts/generate-string-constants.js
-       • scripts/generate-rust-constants.js
-       • scripts/generate-node-types.js
-       • scripts/generate-node-index.js
      📄 Files WITHOUT ArrayPattern (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -1963,23 +1963,23 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/release-constants.js
-       • scripts/publish-wasm-node-package.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/types.d.ts
 
    AssignmentPattern:
      📄 Files WITH AssignmentPattern (showing 10):
+       • test/testHelpers.js
        • src/ModuleLoader.ts
        • src/Module.ts
-       • test/testHelpers.js
        • cli/logging.ts
        • build-plugins/copy-types.ts
-       • scripts/perf-report/index.js
+       • test/watch/index.js
+       • test/typescript/index.ts
        • src/watch/watch.ts
        • src/ast/values.ts
        • src/utils/timers.ts
-       • src/utils/systemJsRendering.ts
      📄 Files WITHOUT AssignmentPattern (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -1988,22 +1988,22 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    ForStatement:
      📄 Files WITH ForStatement (showing 10):
-       • scripts/perf-report/index.js
+       • test/sourcemaps/getLocation.js
+       • test/hooks/index.js
+       • test/cli/index.js
+       • test/misc/misc.js
        • src/ast/bufferParsers.ts
        • src/utils/renderHelpers.ts
        • src/utils/renderChunks.ts
        • src/utils/renderCallArguments.ts
        • src/utils/getStaticDependencies.ts
        • src/utils/getLogFilter.ts
-       • src/utils/commondir.ts
-       • src/utils/collapseSourcemaps.ts
-       • src/utils/chunkAssignment.ts
      📄 Files WITHOUT ForStatement (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -2012,22 +2012,22 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    ExportAllDeclaration:
      📄 Files WITH ExportAllDeclaration (showing 10):
        • src/utils/fs.ts
        • docs/repl/helpers/importRollup.ts
-       • test/cli/samples/warn-import-export/main.js
-       • test/form/samples/treeshake-deterministic-dynamic-import/sub4.js
-       • test/form/samples/treeshake-deterministic-dynamic-import/sub2.js
-       • test/form/samples/system-reexports/main.js
-       • test/form/samples/system-multiple-export-bindings/main.js
-       • test/form/samples/resolve-external-dynamic-imports/main.js
-       • test/form/samples/reexport-used-external-namespace-as/main.js
-       • test/form/samples/reexport-star-deshadow/reexport.js
+       • test/function/samples/warn-on-namespace-conflict/main.js
+       • test/function/samples/warn-on-namespace-conflict/bar.js
+       • test/function/samples/self-referencing-namespace/main.js
+       • test/function/samples/recursive-reexports/other.js
+       • test/function/samples/recursive-reexports/main.js
+       • test/function/samples/reexport-from-synthetic/reexport.js
+       • test/function/samples/reexports-from-external/main.js
+       • test/function/samples/re-export-own/main.js
      📄 Files WITHOUT ExportAllDeclaration (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -2036,9 +2036,9 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSNonNullExpression:
      📄 Files WITH TSNonNullExpression (showing 10):
@@ -2060,19 +2060,19 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSFunctionType:
      📄 Files WITH TSFunctionType (showing 10):
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
        • typings/declarations.ts
+       • test/types.d.ts
        • src/ModuleLoader.ts
        • src/Module.ts
        • src/Chunk.ts
-       • test/types.d.ts
        • src/watch/watch.ts
        • src/watch/WatchEmitter.ts
        • src/rollup/types.d.ts
@@ -2082,21 +2082,21 @@ Repository: sample-repos/rollup
        • native.js
        • native.d.ts
        • eslint.config.mjs
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/release-constants.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • test/testHelpers.js
+       • test/test.js
+       • src/node-entry.ts
 
    TSTypeLiteral:
      📄 Files WITH TSTypeLiteral (showing 10):
        • wasm/bindings_wasm.d.ts
-       • scripts/declarations.d.ts
        • typings/declarations.ts
+       • test/types.d.ts
        • src/ModuleLoader.ts
        • src/Module.ts
        • src/Chunk.ts
-       • test/types.d.ts
+       • scripts/declarations.d.ts
        • src/watch/watch.ts
        • src/rollup/types.d.ts
        • src/rollup/rollup.ts
@@ -2107,10 +2107,10 @@ Repository: sample-repos/rollup
        • native.d.ts
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • test/testHelpers.js
+       • test/test.js
 
    TSTypeOperator:
      📄 Files WITH TSTypeOperator (showing 10):
@@ -2131,10 +2131,10 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/types.d.ts
 
    Super:
      📄 Files WITH Super (showing 10):
@@ -2156,22 +2156,22 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSInterfaceDeclaration:
      📄 Files WITH TSInterfaceDeclaration (showing 10):
        • wasm/bindings_wasm.d.ts
-       • scripts/declarations.d.ts
+       • test/types.d.ts
        • src/ModuleLoader.ts
        • src/Module.ts
        • src/Chunk.ts
-       • test/types.d.ts
+       • scripts/declarations.d.ts
        • docs/types.d.ts
        • build-plugins/generate-license-file.ts
+       • test/typescript/index.ts
        • src/rollup/types.d.ts
-       • src/ast/values.ts
      📄 Files WITHOUT TSInterfaceDeclaration (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -2179,23 +2179,23 @@ Repository: sample-repos/rollup
        • native.d.ts
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/testHelpers.js
 
    TSInterfaceBody:
      📄 Files WITH TSInterfaceBody (showing 10):
        • wasm/bindings_wasm.d.ts
-       • scripts/declarations.d.ts
+       • test/types.d.ts
        • src/ModuleLoader.ts
        • src/Module.ts
        • src/Chunk.ts
-       • test/types.d.ts
+       • scripts/declarations.d.ts
        • docs/types.d.ts
        • build-plugins/generate-license-file.ts
+       • test/typescript/index.ts
        • src/rollup/types.d.ts
-       • src/ast/values.ts
      📄 Files WITHOUT TSInterfaceBody (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -2203,10 +2203,10 @@ Repository: sample-repos/rollup
        • native.d.ts
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/testHelpers.js
 
    MetaProperty:
      📄 Files WITH MetaProperty (showing 10):
@@ -2227,18 +2227,18 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/release-helpers.js
-       • scripts/release-constants.js
-       • scripts/postpublish.js
-       • scripts/helpers.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/types.d.ts
 
    TSUndefinedKeyword:
      📄 Files WITH TSUndefinedKeyword (showing 10):
        • native.d.ts
+       • test/types.d.ts
        • src/ModuleLoader.ts
        • src/Module.ts
        • src/Chunk.ts
-       • test/types.d.ts
        • cli/logging.ts
        • build-plugins/replace-browser-modules.ts
        • src/watch/fsevents-importer.ts
@@ -2251,17 +2251,17 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • test/testHelpers.js
 
    TSAnyKeyword:
      📄 Files WITH TSAnyKeyword (showing 10):
+       • test/types.d.ts
        • src/ModuleLoader.ts
        • src/Module.ts
        • src/Bundle.ts
-       • test/types.d.ts
        • src/watch/watch.ts
        • src/watch/fsevents-importer.ts
        • src/watch/WatchEmitter.ts
@@ -2276,22 +2276,22 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    RestElement:
      📄 Files WITH RestElement (showing 10):
-       • scripts/publish-wasm-node-package.js
+       • test/testHelpers.js
        • src/Module.ts
        • src/Graph.ts
-       • test/testHelpers.js
+       • scripts/publish-wasm-node-package.js
        • cli/logging.ts
+       • test/watch/index.js
+       • test/incremental/index.js
+       • test/misc/umd.js
        • src/watch/WatchEmitter.ts
        • src/rollup/types.d.ts
-       • src/utils/timers.ts
-       • src/utils/getLogFilter.ts
-       • src/utils/PluginDriver.ts
      📄 Files WITHOUT RestElement (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -2300,22 +2300,22 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    ForInStatement:
      📄 Files WITH ForInStatement (showing 10):
        • src/Graph.ts
-       • src/watch/watch-proxy.ts
        • test/typescript/index.ts
-       • test/form/samples/system-reexports/_expected.js
-       • test/form/samples/supports-es6-shim/_expected.js
-       • test/form/samples/supports-core-js/_expected.js
-       • test/form/samples/supports-es5-shim/_expected.js
-       • test/form/samples/side-effects-break-statements/main.js
-       • test/form/samples/side-effect-k/foo.js
-       • test/form/samples/removes-unused-babel-helpers/main.js
+       • src/watch/watch-proxy.ts
+       • test/function/samples/unused-for-in-loop-declaration/main.js
+       • test/function/samples/unknown-for-loop-variables/main.js
+       • test/function/samples/statement-order/answer.js
+       • test/function/samples/reassign-for-loop-declarations/main.js
+       • test/function/samples/missing-spaces-after-simplification/main.js
+       • test/function/samples/import-namespace-from-internal-module/main.js
+       • test/function/samples/for-loops-as-assignments/main.js
      📄 Files WITHOUT ForInStatement (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -2324,15 +2324,15 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    ContinueStatement:
      📄 Files WITH ContinueStatement (showing 10):
+       • test/testHelpers.js
        • src/Module.ts
        • src/Chunk.ts
-       • test/testHelpers.js
        • src/watch/watch.ts
        • src/watch/watch-proxy.ts
        • src/finalisers/es.ts
@@ -2348,9 +2348,9 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSNamedTupleMember:
      📄 Files WITH TSNamedTupleMember (showing 10):
@@ -2360,8 +2360,8 @@ Repository: sample-repos/rollup
        • src/ExternalChunk.ts
        • src/Chunk.ts
        • src/Bundle.ts
-       • src/ast/values.ts
        • src/finalisers/system.ts
+       • src/ast/values.ts
        • src/utils/systemJsRendering.ts
        • src/utils/generateCodeSnippets.ts
      📄 Files WITHOUT TSNamedTupleMember (showing 10):
@@ -2372,9 +2372,9 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSUnknownKeyword:
      📄 Files WITH TSUnknownKeyword (showing 10):
@@ -2395,23 +2395,23 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • test/types.d.ts
+       • test/testHelpers.js
 
    ImportAttribute:
      📄 Files WITH ImportAttribute (showing 10):
        • test/cli/samples/config-import-attributes-key/rollup.config.ts
+       • test/function/samples/import-assertions/warn-assertion-conflicts/other.js
+       • test/function/samples/import-assertions/warn-assertion-conflicts/main.js
        • test/form/samples/import-attributes/removes-static-attributes/main.js
        • test/form/samples/import-attributes/plugin-attributes-resolveid/main.js
        • test/form/samples/import-attributes/plugin-attributes-resolveid/_expected.js
        • test/form/samples/import-attributes/keeps-static-attributes-key-with/main.js
-       • test/form/samples/import-attributes/keeps-static-attributes/main.js
-       • test/form/samples/import-attributes/keeps-static-attributes-key-assert/main.js
        • test/form/samples/import-attributes/keeps-static-attributes-key-default/main.js
-       • test/form/samples/import-attributes/keeps-static-assertions/main.js
-       • test/form/samples/deprecated/removes-static-attributes/main.js
+       • test/form/samples/import-attributes/keeps-static-attributes-key-assert/main.js
+       • test/form/samples/import-attributes/keeps-static-attributes/main.js
      📄 Files WITHOUT ImportAttribute (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -2420,22 +2420,22 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    ClassExpression:
      📄 Files WITH ClassExpression (showing 10):
-       • scripts/perf-report/report-collector.js
        • src/ast/values.ts
        • src/utils/blank.ts
-       • src/ast/nodes/shared/ObjectPrototype.ts
-       • src/ast/nodes/shared/Expression.ts
-       • test/form/samples/unused-function-and-class-expressions/main.js
-       • test/form/samples/super-class-no-side-effects/other.js
-       • test/form/samples/side-effects-es6-super-classes/main.js
-       • test/form/samples/side-effects-es6-super-classes/_expected.js
-       • test/form/samples/side-effects-es6-class-expressions/main.js
+       • scripts/perf-report/report-collector.js
+       • test/function/samples/simplify-class-expression-assignment/main.js
+       • test/function/samples/deoptimize-class/main.js
+       • test/function/samples/default-exports-in-parens-class-without-id/foo.js
+       • test/function/samples/default-exports-in-parens-class-with-id/foo.js
+       • test/function/samples/deconflict-default-exported-named-function/classExpression2.js
+       • test/function/samples/deconflict-default-exported-named-function/classExpression1.js
+       • test/function/samples/class-name-conflict-4/foo.js
      📄 Files WITHOUT ClassExpression (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -2444,9 +2444,9 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSTupleType:
      📄 Files WITH TSTupleType (showing 10):
@@ -2459,7 +2459,7 @@ Repository: sample-repos/rollup
        • build-plugins/replace-browser-modules.ts
        • src/rollup/types.d.ts
        • src/rollup/rollup.ts
-       • src/ast/values.ts
+       • src/finalisers/system.ts
      📄 Files WITHOUT TSTupleType (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -2468,21 +2468,21 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    DoWhileStatement:
      📄 Files WITH DoWhileStatement (showing 10):
        • src/ModuleLoader.ts
        • src/Graph.ts
        • src/Chunk.ts
+       • test/leak/index.js
        • src/utils/renderChunks.ts
        • src/utils/exportNames.ts
        • src/utils/base64.ts
        • src/utils/asyncFlatten.ts
        • src/utils/FileEmitter.ts
-       • test/leak/index.js
        • src/ast/variables/ExportDefaultVariable.ts
      📄 Files WITHOUT DoWhileStatement (showing 10):
        • rollup.config.ts
@@ -2492,12 +2492,13 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSIndexedAccessType:
      📄 Files WITH TSIndexedAccessType (showing 10):
+       • test/typescript/index.ts
        • src/watch/WatchEmitter.ts
        • src/rollup/types.d.ts
        • src/ast/bufferParsers.ts
@@ -2507,7 +2508,6 @@ Repository: sample-repos/rollup
        • src/utils/bufferToAst.ts
        • src/utils/PluginDriver.ts
        • src/utils/FileEmitter.ts
-       • test/typescript/index.ts
      📄 Files WITHOUT TSIndexedAccessType (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -2516,9 +2516,9 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSTypeParameter:
      📄 Files WITH TSTypeParameter (showing 10):
@@ -2540,33 +2540,9 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-
-   TSMethodSignature:
-     📄 Files WITH TSMethodSignature (showing 10):
-       • scripts/declarations.d.ts
-       • src/rollup/types.d.ts
-       • src/ast/Entity.ts
-       • src/ast/DeoptimizableEntity.ts
-       • src/utils/generateCodeSnippets.ts
-       • src/ast/utils/PathTracker.ts
-       • docs/repl/stores/rollupOutput.ts
-       • src/ast/nodes/shared/knownGlobals.ts
-       • src/ast/nodes/shared/Pattern.ts
-       • src/ast/nodes/shared/Node.ts
-     📄 Files WITHOUT TSMethodSignature (showing 10):
-       • rollup.config.ts
-       • native.wasm.js
-       • native.js
-       • native.d.ts
-       • eslint.config.mjs
-       • wasm/bindings_wasm_bg.wasm.d.ts
-       • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSTypeParameterDeclaration:
      📄 Files WITH TSTypeParameterDeclaration (showing 10):
@@ -2588,15 +2564,39 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+
+   TSMethodSignature:
+     📄 Files WITH TSMethodSignature (showing 10):
+       • scripts/declarations.d.ts
+       • src/rollup/types.d.ts
+       • src/ast/Entity.ts
+       • src/ast/DeoptimizableEntity.ts
+       • src/utils/generateCodeSnippets.ts
+       • src/ast/utils/PathTracker.ts
+       • docs/repl/stores/rollupOutput.ts
+       • src/ast/nodes/shared/knownGlobals.ts
+       • src/ast/nodes/shared/Pattern.ts
+       • src/ast/nodes/shared/Node.ts
+     📄 Files WITHOUT TSMethodSignature (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSParenthesizedType:
      📄 Files WITH TSParenthesizedType (showing 10):
+       • test/types.d.ts
        • src/Module.ts
        • src/Chunk.ts
-       • test/types.d.ts
        • src/rollup/types.d.ts
        • src/rollup/rollup.ts
        • src/ast/values.ts
@@ -2612,22 +2612,22 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    LabeledStatement:
      📄 Files WITH LabeledStatement (showing 10):
        • src/utils/getOriginalLocation.ts
        • src/utils/getLogFilter.ts
        • cli/run/waitForInput.ts
+       • test/function/samples/labeled-statement-conditional-break/main.js
+       • test/function/samples/handle-labels-inside-functions/main.js
+       • test/function/samples/conditional-catch/main.js
+       • test/function/samples/break-label/module_2.js
        • test/form/samples/no-treeshake-include-labels/main.js
        • test/form/samples/no-treeshake-include-labels/dep2.js
        • test/form/samples/no-treeshake-include-labels/dep1.js
-       • test/form/samples/no-treeshake-include-labels/_expected.js
-       • test/form/samples/labeled-break-statements/main.js
-       • test/form/samples/labeled-break-statements/_expected.js
-       • test/form/samples/labeled-continue-statements/main.js
      📄 Files WITHOUT LabeledStatement (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -2636,22 +2636,22 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    EmptyStatement:
      📄 Files WITH EmptyStatement (showing 10):
        • src/utils/renderNamePattern.ts
        • src/utils/commondir.ts
-       • test/form/samples/typeof-side-effect/_expected.js
-       • test/form/samples/treeshake-if-statement/_expected.js
-       • test/form/samples/treeshake-deterministic-dynamic-import/main.js
-       • test/form/samples/tree-shake-if-statements/_expected.js
-       • test/form/samples/tree-shake-default-exports/unusedFunction.js
-       • test/form/samples/tdz-common/main.js
-       • test/form/samples/spacing-after-function-with-semicolon/main.js
-       • test/form/samples/pure-comment-line-break/main.js
+       • test/function/samples/retains-sort-order-b/foo.js
+       • test/function/samples/object-prototype-properties/foo.js
+       • test/function/samples/imports-are-deconflicted/bar.js
+       • test/function/samples/imports-are-deconflicted-b/bar.js
+       • test/function/samples/import-nameless-class-expression/foo.js
+       • test/function/samples/for-of-accessors/main.js
+       • test/function/samples/for-in-accessors/main.js
+       • test/function/samples/export-default-named-function/main.js
      📄 Files WITHOUT EmptyStatement (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -2660,9 +2660,9 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSIntersectionType:
      📄 Files WITH TSIntersectionType (showing 10):
@@ -2684,9 +2684,9 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSParameterProperty:
      📄 Files WITH TSParameterProperty (showing 10):
@@ -2708,9 +2708,9 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSInterfaceHeritage:
      📄 Files WITH TSInterfaceHeritage (showing 9):
@@ -2731,22 +2731,22 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    Decorator:
      📄 Files WITH Decorator (showing 10):
-       • test/form/samples/support-decorators-before-export/main.js
-       • test/form/samples/support-decorators-before-export/_expected.js
        • test/form/samples/support-decorators-after-export/main.js
        • test/form/samples/support-decorators-after-export/_expected.js
-       • test/form/samples/decorator-identifiers-deconflict/second.js
-       • test/form/samples/decorator-identifiers-deconflict/first.js
-       • test/form/samples/decorator-identifiers-deconflict/_expected.js
+       • test/form/samples/support-decorators-before-export/main.js
+       • test/form/samples/support-decorators-before-export/_expected.js
        • test/form/samples/decorator-tree-shaking-2/main.js
        • test/form/samples/decorator-tree-shaking-2/_expected.js
        • test/form/samples/decorator-tree-shaking/main.js
+       • test/form/samples/decorator-tree-shaking/_expected.js
+       • test/form/samples/decorator/main.js
+       • test/form/samples/decorator/_expected.js
      📄 Files WITHOUT Decorator (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -2755,9 +2755,9 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSTypeQuery:
      📄 Files WITH TSTypeQuery (showing 10):
@@ -2779,9 +2779,9 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSEnumMember:
      📄 Files WITH TSEnumMember (showing 4):
@@ -2797,21 +2797,21 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    StaticBlock:
      📄 Files WITH StaticBlock (showing 10):
+       • test/function/samples/use-class-name-in-static-block/test2.js
+       • test/function/samples/use-class-name-in-static-block/test1.js
+       • test/function/samples/class-static-block-tree-shaking/main.js
        • test/form/samples/use-class-name-in-static-block/test2.js
        • test/form/samples/use-class-name-in-static-block/test1.js
        • test/form/samples/static-block-render/main.js
        • test/form/samples/static-block-render/_expected.js
        • test/form/samples/class-static-initialization-block/main.js
        • test/form/samples/class-static-initialization-block/_expected.js
-       • test/function/samples/use-class-name-in-static-block/test2.js
-       • test/function/samples/use-class-name-in-static-block/test1.js
-       • test/function/samples/class-static-block-tree-shaking/main.js
        • test/form/samples/use-class-name-in-static-block/_expected/umd.js
      📄 Files WITHOUT StaticBlock (showing 10):
        • rollup.config.ts
@@ -2821,33 +2821,33 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSDeclareFunction:
      📄 Files WITH TSDeclareFunction (showing 10):
        • native.d.ts
        • wasm/bindings_wasm.d.ts
        • typings/declarations.ts
-       • src/rollup/types.d.ts
-       • src/utils/getOrCreate.ts
-       • src/utils/getLogFilterType.d.ts
-       • src/utils/decodedSourcemap.ts
        • test/sourcemaps/define.d.ts
-       • test/form/define.d.ts
        • test/function/define.d.ts
+       • test/form/define.d.ts
+       • test/file-hashes/define.d.ts
+       • test/chunking-form/define.d.ts
+       • test/cli/define.d.ts
+       • test/browser/define.d.ts
      📄 Files WITHOUT TSDeclareFunction (showing 10):
        • rollup.config.ts
        • native.wasm.js
        • native.js
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
-       • scripts/release-constants.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • test/types.d.ts
+       • test/testHelpers.js
+       • test/test.js
 
    Hashbang:
      📄 Files WITH Hashbang (showing 10):
@@ -2869,9 +2869,9 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/test-package.js
-       • scripts/test-options.js
-       • scripts/release-helpers.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    PrivateIdentifier:
      📄 Files WITH PrivateIdentifier (showing 5):
@@ -2888,9 +2888,9 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSNeverKeyword:
      📄 Files WITH TSNeverKeyword (showing 10):
@@ -2912,9 +2912,9 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSClassImplements:
      📄 Files WITH TSClassImplements (showing 10):
@@ -2936,15 +2936,14 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSThisType:
      📄 Files WITH TSThisType (showing 10):
        • src/watch/WatchEmitter.ts
        • src/rollup/types.d.ts
-       • src/ast/scopes/ModuleScope.ts
        • src/ast/nodes/TemplateElement.ts
        • src/ast/nodes/SwitchStatement.ts
        • src/ast/nodes/Literal.ts
@@ -2952,6 +2951,7 @@ Repository: sample-repos/rollup
        • src/ast/nodes/IfStatement.ts
        • src/ast/nodes/FunctionExpression.ts
        • src/ast/nodes/FunctionDeclaration.ts
+       • src/ast/nodes/ClassDeclaration.ts
      📄 Files WITHOUT TSThisType (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -2960,19 +2960,19 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TaggedTemplateExpression:
      📄 Files WITH TaggedTemplateExpression (showing 9):
-       • test/form/samples/side-effects-in-template-literals/main.js
-       • test/form/samples/side-effects-in-template-literals/_expected.js
        • test/function/samples/tagged-template-deoptimize/main.js
        • test/function/samples/sequence-expressions-template-tag/main.js
        • test/function/samples/recursive-parameter-binding/main.js
        • test/function/samples/cannot-call-internal-namespace/main.js
        • test/function/samples/cannot-call-external-namespace/main.js
+       • test/form/samples/side-effects-in-template-literals/main.js
+       • test/form/samples/side-effects-in-template-literals/_expected.js
        • test/function/samples/parameter-defaults/tagged-templates/main.js
        • test/function/samples/parameter-defaults/function-return/main.js
      📄 Files WITHOUT TaggedTemplateExpression (showing 10):
@@ -2983,19 +2983,19 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    YieldExpression:
      📄 Files WITH YieldExpression (showing 9):
        • src/utils/iterators.ts
        • src/utils/chunkAssignment.ts
-       • test/form/samples/side-effects-generators/main.js
-       • test/form/samples/side-effects-generators/_expected.js
        • test/function/samples/prevent-tree-shaking-asi/main.js
        • test/function/samples/missing-spaces-after-simplification/main.js
        • test/function/samples/custom-iterator/main.js
+       • test/form/samples/side-effects-generators/main.js
+       • test/form/samples/side-effects-generators/_expected.js
        • test/form/samples/yield-expression/missing-space/main.js
        • test/form/samples/yield-expression/missing-space/_expected.js
      📄 Files WITHOUT YieldExpression (showing 10):
@@ -3006,9 +3006,9 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSBigIntKeyword:
      📄 Files WITH TSBigIntKeyword (showing 2):
@@ -3022,9 +3022,9 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSTypePredicate:
      📄 Files WITH TSTypePredicate (showing 7):
@@ -3043,22 +3043,22 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-
-   TSModuleDeclaration:
-     📄 Files WITH TSModuleDeclaration (showing 10):
-       • scripts/declarations.d.ts
        • typings/package.json.ts
        • typings/fsevents.ts
        • typings/declarations.ts
+
+   TSModuleDeclaration:
+     📄 Files WITH TSModuleDeclaration (showing 10):
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • scripts/declarations.d.ts
        • docs/declarations.d.ts
-       • src/rollup/types.d.ts
        • test/sourcemaps/define.d.ts
-       • test/form/define.d.ts
        • test/function/define.d.ts
-       • test/cli/define.d.ts
+       • test/form/define.d.ts
+       • test/file-hashes/define.d.ts
+       • test/chunking-form/define.d.ts
      📄 Files WITHOUT TSModuleDeclaration (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -3067,22 +3067,22 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • test/types.d.ts
+       • test/testHelpers.js
+       • test/test.js
 
    TSModuleBlock:
      📄 Files WITH TSModuleBlock (showing 10):
-       • scripts/declarations.d.ts
        • typings/package.json.ts
        • typings/fsevents.ts
        • typings/declarations.ts
+       • scripts/declarations.d.ts
        • docs/declarations.d.ts
-       • src/rollup/types.d.ts
        • test/sourcemaps/define.d.ts
-       • test/form/define.d.ts
        • test/function/define.d.ts
-       • test/cli/define.d.ts
+       • test/form/define.d.ts
+       • test/file-hashes/define.d.ts
+       • test/chunking-form/define.d.ts
      📄 Files WITHOUT TSModuleBlock (showing 10):
        • rollup.config.ts
        • native.wasm.js
@@ -3091,9 +3091,9 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • test/types.d.ts
+       • test/testHelpers.js
+       • test/test.js
 
    TSIndexSignature:
      📄 Files WITH TSIndexSignature (showing 8):
@@ -3113,14 +3113,14 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    DebuggerStatement:
      📄 Files WITH DebuggerStatement (showing 8):
-       • test/form/samples/preserve-debugger/main.js
        • test/function/samples/unknown-statement/main.js
+       • test/form/samples/preserve-debugger/main.js
        • test/form/samples/preserve-debugger/_expected/umd.js
        • test/form/samples/preserve-debugger/_expected/system.js
        • test/form/samples/preserve-debugger/_expected/iife.js
@@ -3135,9 +3135,9 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSMappedType:
      📄 Files WITH TSMappedType (showing 4):
@@ -3153,9 +3153,9 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSConditionalType:
      📄 Files WITH TSConditionalType (showing 3):
@@ -3170,27 +3170,9 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
-
-   TSEmptyBodyFunctionExpression:
-     📄 Files WITH TSEmptyBodyFunctionExpression (showing 4):
-       • scripts/declarations.d.ts
-       • src/utils/PluginDriver.ts
-       • src/ast/nodes/shared/FunctionBase.ts
-       • src/ast/nodes/shared/CallExpressionBase.ts
-     📄 Files WITHOUT TSEmptyBodyFunctionExpression (showing 10):
-       • rollup.config.ts
-       • native.wasm.js
-       • native.js
-       • native.d.ts
-       • eslint.config.mjs
-       • wasm/bindings_wasm_bg.wasm.d.ts
-       • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSObjectKeyword:
      📄 Files WITH TSObjectKeyword (showing 5):
@@ -3207,9 +3189,9 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/declarations.ts
+       • test/types.d.ts
 
    TSInstantiationExpression:
      📄 Files WITH TSInstantiationExpression (showing 3):
@@ -3224,9 +3206,27 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+
+   TSEmptyBodyFunctionExpression:
+     📄 Files WITH TSEmptyBodyFunctionExpression (showing 4):
+       • scripts/declarations.d.ts
+       • src/utils/PluginDriver.ts
+       • src/ast/nodes/shared/FunctionBase.ts
+       • src/ast/nodes/shared/CallExpressionBase.ts
+     📄 Files WITHOUT TSEmptyBodyFunctionExpression (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSEnumDeclaration:
      📄 Files WITH TSEnumDeclaration (showing 4):
@@ -3242,9 +3242,9 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSEnumBody:
      📄 Files WITH TSEnumBody (showing 4):
@@ -3260,9 +3260,9 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSInferType:
      📄 Files WITH TSInferType (showing 1):
@@ -3275,9 +3275,9 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSRestType:
      📄 Files WITH TSRestType (showing 3):
@@ -3292,9 +3292,9 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSCallSignatureDeclaration:
      📄 Files WITH TSCallSignatureDeclaration (showing 1):
@@ -3307,9 +3307,9 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSAbstractMethodDefinition:
      📄 Files WITH TSAbstractMethodDefinition (showing 2):
@@ -3323,9 +3323,9 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSSymbolKeyword:
      📄 Files WITH TSSymbolKeyword (showing 1):
@@ -3338,9 +3338,9 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSTemplateLiteralType:
      📄 Files WITH TSTemplateLiteralType (showing 1):
@@ -3353,9 +3353,9 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
    TSSatisfiesExpression:
      📄 Files WITH TSSatisfiesExpression (showing 1):
@@ -3368,9 +3368,9 @@ Repository: sample-repos/rollup
        • eslint.config.mjs
        • wasm/bindings_wasm_bg.wasm.d.ts
        • wasm/bindings_wasm.d.ts
-       • scripts/update-snapshots.js
-       • scripts/test-package.js
-       • scripts/test-options.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
 
 ============================================================
 ✅ Analysis complete!
@@ -3379,23 +3379,35 @@ Repository: sample-repos/rollup
 Warnings/Errors:
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/watch/samples/error/main.js:
    Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/function/samples/catch-rust-panic/main.js:
+   Invalid assignment in object literal
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/cli/samples/jsx/main.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/custom-ast/_expected.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/function/samples/catch-rust-panic/main.js:
-   Invalid assignment in object literal
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/function/samples/jsx/unknown-mode/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/function/samples/jsx/unnecessary-import-source/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/function/samples/jsx/missing-jsx-export/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/function/samples/ast-validations/duplicate-var-export/main.js:
+   Duplicated export 'x'
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/function/samples/ast-validations/duplicate-namespace-export/main.js:
+   Duplicated export 'foo'
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/function/samples/ast-validations/duplicate-function-export/main.js:
+   Duplicated export 'foo'
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/function/samples/ast-validations/double-named-reexport/foo.js:
+   Duplicated export 'foo'
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/function/samples/ast-validations/double-named-export/foo.js:
+   Duplicated export 'foo'
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/function/samples/ast-validations/double-default-export/foo.js:
+   Duplicated default export
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/cli/samples/watch/watch-event-hooks-error/main.js:
    Expected a semicolon or an implicit semicolon after a statement, but found none
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/docs/repl/examples/08/modules/other.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/docs/repl/examples/08/modules/main.js:
-   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/object-expression-treeshaking/tree-shake-jsx-namespace/main.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/object-expression-treeshaking/tree-shake-jsx-namespace/_expected.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-react/jsx.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-react-jsx/jsx.js:
    Unexpected token
@@ -3409,33 +3421,31 @@ Warnings/Errors:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-jsx-spread-child/main.js:
    Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-jsx-spread-attribute/main.js:
+   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-jsx-self-closing/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-react/jsx.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-jsx-member-expression/main.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-jsx-spread-attribute/main.js:
-   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-jsx-fragment/main.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-jsx-closing/main.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-jsx-expression/main.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-jsx-empty-expression/main.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-jsx-closing/main.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-jsx-child/main.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-empty-fragment/main.js:
-   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-jsx-attributes/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-empty-fragment/main.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-classic-with-defaults/main.js:
    Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-jsx-empty-expression/main.js:
+   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-automatic-with-defaults/main.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-react/jsx.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-react/_expected.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-react-internal/jsx.js:
    Unexpected token
@@ -3445,13 +3455,21 @@ Warnings/Errors:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-react-global/_expected.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-jsx-text/main.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-react/jsx.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-jsx-text/_expected.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-react/_expected.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-native-elements/jsx.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-native-elements/_expected.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-jsx-text/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-jsx-text/_expected.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-jsx-spread-child/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-jsx-spread-child/_expected.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-jsx-spread-attribute/main.js:
    Unexpected token
@@ -3460,10 +3478,6 @@ Warnings/Errors:
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-jsx-self-closing/main.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-jsx-self-closing/_expected.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-jsx-spread-child/main.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-jsx-spread-child/_expected.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-jsx-member-expression/main.js:
    Unexpected token
@@ -3493,21 +3507,7 @@ Warnings/Errors:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-jsx-attributes/_expected.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/function/samples/jsx/unnecessary-import-source/main.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/docs/repl/examples/08/modules/other.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/function/samples/jsx/unknown-mode/main.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/docs/repl/examples/08/modules/main.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/function/samples/jsx/missing-jsx-export/main.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/function/samples/ast-validations/duplicate-namespace-export/main.js:
-   Duplicated export 'foo'
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/function/samples/ast-validations/duplicate-var-export/main.js:
-   Duplicated export 'x'
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/function/samples/ast-validations/duplicate-function-export/main.js:
-   Duplicated export 'foo'
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/function/samples/ast-validations/double-named-reexport/foo.js:
-   Duplicated export 'foo'
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/function/samples/ast-validations/double-named-export/foo.js:
-   Duplicated export 'foo'
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/function/samples/ast-validations/double-default-export/foo.js:
-   Duplicated default export

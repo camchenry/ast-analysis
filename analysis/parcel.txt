@@ -1,5 +1,5 @@
 AST Analysis Report for parcel
-Generated on: 2025-07-14T01:42:24.500Z
+Generated on: 2025-07-14T01:56:50.136Z
 Repository: sample-repos/parcel
 ================================================================================
 
@@ -126,10 +126,10 @@ Repository: sample-repos/parcel
    TSInterfaceHeritage               5 files (  0.2%) -        6 total (0.00%)
    ClassExpression                   5 files (  0.2%) -        5 total (0.00%)
    SequenceExpression                5 files (  0.2%) -      281 total (0.11%)
-   TSMethodSignature                 4 files (  0.1%) -        9 total (0.00%)
    JSXFragment                       4 files (  0.1%) -        5 total (0.00%)
    JSXOpeningFragment                4 files (  0.1%) -        5 total (0.00%)
    JSXClosingFragment                4 files (  0.1%) -        5 total (0.00%)
+   TSMethodSignature                 4 files (  0.1%) -        9 total (0.00%)
    TSTypeQuery                       4 files (  0.1%) -        7 total (0.00%)
    TSBooleanKeyword                  3 files (  0.1%) -       10 total (0.00%)
    TSConstructSignatureDeclaration    3 files (  0.1%) -       10 total (0.00%)
@@ -145,8 +145,8 @@ Repository: sample-repos/parcel
    TSTemplateLiteralType             2 files (  0.1%) -        2 total (0.00%)
    Super                             1 files (  0.0%) -        1 total (0.00%)
    TSParenthesizedType               1 files (  0.0%) -        1 total (0.00%)
-   YieldExpression                   1 files (  0.0%) -        2 total (0.00%)
    TSObjectKeyword                   1 files (  0.0%) -       12 total (0.00%)
+   YieldExpression                   1 files (  0.0%) -        2 total (0.00%)
    ImportAttribute                   1 files (  0.0%) -        3 total (0.00%)
    TSImportEqualsDeclaration         1 files (  0.0%) -        1 total (0.00%)
    TSExternalModuleReference         1 files (  0.0%) -        1 total (0.00%)
@@ -543,9 +543,9 @@ Repository: sample-repos/parcel
        • scripts/link-all.js
        • scripts/common.js
        • scripts/build-native.js
-       • packages/utils/service-worker/service-worker.js
        • packages/runtimes/rsc/rsc-helpers.jsx
-       • packages/dev/esm-fuzzer/runESM.js
+       • packages/utils/service-worker/service-worker.js
+       • packages/core/profiler/build-ts.js
      📄 Files WITHOUT AssignmentExpression (showing 10):
        • verdaccioPublish.js
        • scripts/unlink-all.js
@@ -567,9 +567,9 @@ Repository: sample-repos/parcel
        • packages/dev/esm-fuzzer/runESM.js
        • packages/dev/esm-fuzzer/parcel.js
        • packages/dev/esm-fuzzer/index.js
+       • packages/reporters/cli/test/CLIReporter.test.js
        • packages/utils/rsc/src/server.tsx
        • packages/utils/rsc/src/node.tsx
-       • packages/utils/rsc/src/client.tsx
      📄 Files WITHOUT AwaitExpression (showing 10):
        • verdaccioPublish.js
        • gulpfile.js
@@ -592,8 +592,8 @@ Repository: sample-repos/parcel
        • scripts/link-all.js
        • scripts/build-native.js
        • packages/runtimes/rsc/rsc-helpers.jsx
-       • packages/dev/repl/write-commit.js
-       • packages/dev/esm-fuzzer/runESM.js
+       • packages/core/profiler/build-ts.js
+       • packages/core/rust/index.js
      📄 Files WITHOUT BinaryExpression (showing 10):
        • verdaccioPublish.js
        • scripts/tag-release.mjs
@@ -655,7 +655,7 @@ Repository: sample-repos/parcel
        • packages/dev/esm-fuzzer/index.js
        • packages/dev/esm-fuzzer/generateExample.js
        • packages/dev/babel-register/babel-plugin-module-translate.js
-       • packages/utils/parcelforvscode/src/importersView.ts
+       • packages/transformers/js/src/esmodule-helpers.js
      📄 Files WITHOUT FunctionExpression (showing 10):
        • verdaccioPublish.js
        • scripts/update-engines-peerdeps.js
@@ -724,10 +724,10 @@ Repository: sample-repos/parcel
        • scripts/tag-release.mjs
        • scripts/build-native.js
        • packages/runtimes/rsc/rsc-helpers.jsx
+       • packages/core/rust/index.js
        • packages/dev/esm-fuzzer/runESM.js
        • packages/dev/esm-fuzzer/index.js
        • packages/dev/esm-fuzzer/generateExample.js
-       • packages/dev/babel-register/babel-plugin-module-translate.js
      📄 Files WITHOUT UnaryExpression (showing 10):
        • verdaccioPublish.js
        • scripts/update-engines-peerdeps.js
@@ -745,13 +745,13 @@ Repository: sample-repos/parcel
        • scripts/tag-release.mjs
        • packages/examples/internalize-example/index.js
        • packages/examples/internalize-example/async.js
-       • packages/dev/esm-fuzzer/parcel.js
-       • packages/dev/esm-fuzzer/index.js
        • packages/core/workers/index.d.ts
        • packages/core/package-manager/index.d.ts
        • packages/core/fs/index.d.ts
-       • packages/core/core/index.d.ts
        • packages/core/cache/index.d.ts
+       • packages/core/core/index.d.ts
+       • packages/dev/esm-fuzzer/parcel.js
+       • packages/dev/esm-fuzzer/index.js
      📄 Files WITHOUT ImportDeclaration (showing 10):
        • verdaccioPublish.js
        • gulpfile.js
@@ -771,11 +771,11 @@ Repository: sample-repos/parcel
        • scripts/postinstall.js
        • scripts/common.js
        • packages/runtimes/rsc/rsc-helpers.jsx
+       • packages/core/rust/index.js
        • packages/dev/esm-fuzzer/runESM.js
        • packages/dev/esm-fuzzer/parcel.js
        • packages/dev/esm-fuzzer/index.js
        • packages/dev/esm-fuzzer/generateExample.js
-       • packages/dev/babel-register/babel-plugin-module-translate.js
      📄 Files WITHOUT ReturnStatement (showing 10):
        • verdaccioPublish.js
        • scripts/update-engines-peerdeps.js
@@ -797,9 +797,9 @@ Repository: sample-repos/parcel
        • scripts/common.js
        • scripts/build-native.js
        • packages/runtimes/rsc/rsc-helpers.jsx
+       • packages/core/rust/index.js
        • packages/dev/repl/write-commit.js
        • packages/dev/esm-fuzzer/runESM.js
-       • packages/dev/esm-fuzzer/generateExample.js
      📄 Files WITHOUT LogicalExpression (showing 10):
        • verdaccioPublish.js
        • scripts/update-config-dependencies.js
@@ -815,15 +815,15 @@ Repository: sample-repos/parcel
    ImportSpecifier:
      📄 Files WITH ImportSpecifier (showing 10):
        • scripts/tag-release.mjs
-       • packages/dev/esm-fuzzer/parcel.js
-       • packages/dev/esm-fuzzer/index.js
        • packages/core/workers/index.d.ts
        • packages/core/package-manager/index.d.ts
        • packages/core/fs/index.d.ts
-       • packages/core/core/index.d.ts
        • packages/core/cache/index.d.ts
+       • packages/core/core/index.d.ts
+       • packages/dev/esm-fuzzer/parcel.js
+       • packages/dev/esm-fuzzer/index.js
+       • packages/reporters/cli/test/CLIReporter.test.js
        • packages/utils/rsc/src/server.tsx
-       • packages/utils/rsc/src/node.tsx
      📄 Files WITHOUT ImportSpecifier (showing 10):
        • verdaccioPublish.js
        • gulpfile.js
@@ -845,9 +845,9 @@ Repository: sample-repos/parcel
        • packages/dev/esm-fuzzer/index.js
        • packages/dev/babel-register/babel-plugin-module-translate.js
        • packages/dev/babel-preset/index.js
-       • packages/utils/rsc/src/server.tsx
-       • packages/utils/rsc/src/node.tsx
-       • packages/utils/parcel-lsp/src/LspServer.ts
+       • packages/transformers/js/src/mdx-components.jsx
+       • packages/reporters/cli/test/CLIReporter.test.js
+       • packages/reporters/bundle-analyzer/client/index.js
      📄 Files WITHOUT ParenthesizedExpression (showing 10):
        • verdaccioPublish.js
        • gulpfile.js
@@ -886,16 +886,16 @@ Repository: sample-repos/parcel
 
    ExportNamedDeclaration:
      📄 Files WITH ExportNamedDeclaration (showing 10):
+       • packages/runtimes/rsc/rsc-helpers.jsx
        • packages/utils/service-worker/service-worker.js
        • packages/utils/service-worker/service-worker.d.ts
        • packages/utils/rsc/types.d.ts
        • packages/utils/macros/macros.d.ts
-       • packages/runtimes/rsc/rsc-helpers.jsx
        • packages/core/workers/index.d.ts
        • packages/core/rust/index.d.ts
        • packages/core/package-manager/index.d.ts
        • packages/core/fs/index.d.ts
-       • packages/core/core/index.d.ts
+       • packages/core/cache/index.d.ts
      📄 Files WITHOUT ExportNamedDeclaration (showing 10):
        • verdaccioPublish.js
        • gulpfile.js
@@ -943,7 +943,7 @@ Repository: sample-repos/parcel
        • scripts/link-all.js
        • scripts/build-native.js
        • packages/runtimes/rsc/rsc-helpers.jsx
-       • packages/dev/esm-fuzzer/runESM.js
+       • packages/core/rust/index.js
      📄 Files WITHOUT NewExpression (showing 10):
        • verdaccioPublish.js
        • scripts/postinstall.js
@@ -960,9 +960,9 @@ Repository: sample-repos/parcel
      📄 Files WITH ThisExpression (showing 10):
        • gulpfile.js
        • packages/dev/esm-fuzzer/runESM.js
+       • packages/reporters/bundle-analyzer/client/index.js
        • packages/utils/parcelforvscode/src/importersView.ts
        • packages/utils/parcel-lsp/src/LspServer.ts
-       • packages/reporters/bundle-analyzer/client/index.js
        • packages/packagers/js/src/dev-prelude.js
        • packages/core/workers/test/workerfarm.js
        • packages/core/utils/test/throttle.test.js
@@ -987,11 +987,11 @@ Repository: sample-repos/parcel
        • scripts/tag-release.mjs
        • scripts/postinstall.js
        • scripts/build-native.js
-       • packages/utils/service-worker/service-worker.js
        • packages/runtimes/rsc/rsc-helpers.jsx
+       • packages/utils/service-worker/service-worker.js
+       • packages/core/rust/index.js
        • packages/dev/esm-fuzzer/runESM.js
        • packages/dev/esm-fuzzer/index.js
-       • packages/dev/esm-fuzzer/generateExample.js
      📄 Files WITHOUT FunctionDeclaration (showing 10):
        • verdaccioPublish.js
        • scripts/update-engines-peerdeps.js
@@ -1008,14 +1008,14 @@ Repository: sample-repos/parcel
      📄 Files WITH ImportDefaultSpecifier (showing 10):
        • packages/examples/internalize-example/index.js
        • packages/examples/internalize-example/async.js
-       • packages/dev/esm-fuzzer/parcel.js
-       • packages/dev/esm-fuzzer/index.js
        • packages/core/fs/index.d.ts
        • packages/core/core/index.d.ts
+       • packages/dev/esm-fuzzer/parcel.js
+       • packages/dev/esm-fuzzer/index.js
+       • packages/reporters/cli/test/CLIReporter.test.js
        • packages/utils/node-resolver-core/test/resolver.js
        • packages/utils/events/test/Disposable.test.js
        • packages/utils/babel-preset-env/test/preset-env.test.js
-       • packages/utils/babel-plugin-transform-runtime/test/babel-plugin-transform-runtime.test.js
      📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
        • verdaccioPublish.js
        • gulpfile.js
@@ -1061,8 +1061,8 @@ Repository: sample-repos/parcel
        • packages/core/rust/index.d.ts
        • packages/core/package-manager/index.d.ts
        • packages/core/fs/index.d.ts
-       • packages/core/core/index.d.ts
        • packages/core/cache/index.d.ts
+       • packages/core/core/index.d.ts
        • packages/utils/rsc/src/ssg.d.ts
      📄 Files WITHOUT TSTypeAnnotation (showing 10):
        • verdaccioPublish.js
@@ -1082,9 +1082,9 @@ Repository: sample-repos/parcel
        • packages/core/workers/index.d.ts
        • packages/core/core/index.d.ts
        • packages/reporters/cli/src/logLevels.js
-       • packages/examples/ts-typecheck-example/src/index.ts
        • packages/examples/ts-example/src/other.ts
        • packages/examples/ts-example/src/index.ts
+       • packages/examples/ts-typecheck-example/src/index.ts
        • packages/examples/simple/src/foo.js
        • packages/examples/react-static/pages/Other.tsx
        • packages/examples/react-static/pages/Index.tsx
@@ -1109,9 +1109,9 @@ Repository: sample-repos/parcel
        • packages/dev/esm-fuzzer/index.js
        • packages/dev/esm-fuzzer/generateExample.js
        • packages/dev/babel-preset/index.js
-       • packages/utils/rsc/src/server.tsx
-       • packages/utils/rsc/src/node.tsx
-       • packages/utils/rsc/src/client.tsx
+       • packages/runtimes/webextension/src/autoreload-bg.js
+       • packages/transformers/js/src/mdx-components.jsx
+       • packages/transformers/js/src/esmodule-helpers.js
      📄 Files WITHOUT ConditionalExpression (showing 10):
        • verdaccioPublish.js
        • gulpfile.js
@@ -1133,8 +1133,8 @@ Repository: sample-repos/parcel
        • packages/reporters/bundle-analyzer/client/index.js
        • packages/packagers/wasm/src/wasm-sourcemap.js
        • packages/packagers/js/src/dev-prelude.js
-       • packages/examples/rsc-client/server/actions.ts
        • packages/examples/react-server-components/src/actions.js
+       • packages/examples/rsc-client/server/actions.ts
        • packages/core/workers/test/workerfarm.js
      📄 Files WITHOUT UpdateExpression (showing 10):
        • verdaccioPublish.js
@@ -1156,8 +1156,8 @@ Repository: sample-repos/parcel
        • packages/core/rust/index.d.ts
        • packages/core/package-manager/index.d.ts
        • packages/core/fs/index.d.ts
-       • packages/core/core/index.d.ts
        • packages/core/cache/index.d.ts
+       • packages/core/core/index.d.ts
        • packages/utils/rsc/src/ssg.d.ts
        • packages/utils/rsc/src/server.tsx
      📄 Files WITHOUT TSTypeReference (showing 10):
@@ -1246,8 +1246,8 @@ Repository: sample-repos/parcel
        • packages/packagers/js/src/dev-prelude.js
        • packages/core/workers/test/workerfarm.js
        • packages/core/integration-tests/test/macros.js
-       • packages/transformers/react-refresh-wrap/src/helpers/helpers.js
        • packages/runtimes/hmr/src/loaders/hmr-runtime.js
+       • packages/transformers/react-refresh-wrap/src/helpers/helpers.js
        • packages/reporters/bundle-analyzer/client/vendor/foamtree/carrotsearch.foamtree.js
        • packages/core/integration-tests/test/integration/worklet/worklet.js
        • packages/core/integration-tests/test/integration/js-import-shadow-for-var/index.js
@@ -1265,16 +1265,16 @@ Repository: sample-repos/parcel
 
    JSXIdentifier:
      📄 Files WITH JSXIdentifier (showing 10):
+       • packages/transformers/js/src/mdx-components.jsx
        • packages/utils/rsc/src/server.tsx
        • packages/utils/rsc/src/client.tsx
-       • packages/transformers/js/src/mdx-components.jsx
+       • packages/examples/react-static/pages/Other.tsx
+       • packages/examples/react-static/pages/Index.tsx
+       • packages/examples/react-static/components/Nav.tsx
+       • packages/examples/react-static/components/Counter.tsx
        • packages/examples/rsc-client/server/server.tsx
        • packages/examples/rsc-client/server/RSC.tsx
        • packages/examples/rsc-client/server/Counter.tsx
-       • packages/examples/react-static/pages/Other.tsx
-       • packages/examples/react-static/pages/Index.tsx
-       • packages/examples/rsc-client/client/index.tsx
-       • packages/examples/rsc-client/client/App.tsx
      📄 Files WITHOUT JSXIdentifier (showing 10):
        • verdaccioPublish.js
        • gulpfile.js
@@ -1297,8 +1297,8 @@ Repository: sample-repos/parcel
        • scripts/tag-release.mjs
        • scripts/link-all.js
        • scripts/build-native.js
+       • packages/core/rust/index.js
        • packages/dev/esm-fuzzer/runESM.js
-       • packages/dev/esm-fuzzer/parcel.js
      📄 Files WITHOUT ObjectPattern (showing 10):
        • scripts/update-config-dependencies.js
        • scripts/postinstall.js
@@ -1346,7 +1346,7 @@ Repository: sample-repos/parcel
        • packages/utils/rsc/src/node.tsx
        • packages/utils/rsc/src/client.tsx
        • packages/utils/parcel-lsp/src/LspServer.ts
-       • packages/examples/ts-typecheck-example/src/index.ts
+       • packages/examples/ts-example/src/other.ts
      📄 Files WITHOUT TSPropertySignature (showing 10):
        • verdaccioPublish.js
        • gulpfile.js
@@ -1385,16 +1385,16 @@ Repository: sample-repos/parcel
 
    JSXText:
      📄 Files WITH JSXText (showing 10):
-       • packages/utils/rsc/src/server.tsx
        • packages/transformers/js/src/mdx-components.jsx
-       • packages/examples/rsc-client/server/RSC.tsx
-       • packages/examples/rsc-client/server/Counter.tsx
+       • packages/utils/rsc/src/server.tsx
        • packages/examples/react-static/pages/Other.tsx
        • packages/examples/react-static/pages/Index.tsx
-       • packages/examples/rsc-client/client/App.tsx
        • packages/examples/react-static/components/Nav.tsx
        • packages/examples/react-static/components/Counter.tsx
-       • packages/utils/create-parcel/templates/react-server/src/Page.tsx
+       • packages/examples/rsc-client/server/RSC.tsx
+       • packages/examples/rsc-client/server/Counter.tsx
+       • packages/examples/rsc-client/client/App.tsx
+       • packages/utils/create-parcel/templates/react-client/src/index.tsx
      📄 Files WITHOUT JSXText (showing 10):
        • verdaccioPublish.js
        • gulpfile.js
@@ -1428,9 +1428,9 @@ Repository: sample-repos/parcel
 
    ExportAllDeclaration:
      📄 Files WITH ExportAllDeclaration (showing 10):
+       • packages/reporters/bundle-analyzer/index.js
        • packages/utils/rsc/types.d.ts
        • packages/utils/parcel-lsp-protocol/index.ts
-       • packages/reporters/bundle-analyzer/index.js
        • packages/core/rust/src/index.js
        • packages/dev/repl/src/components/index.js
        • packages/core/integration-tests/test/integration/js-require-import-different/addons.js
@@ -1458,10 +1458,10 @@ Repository: sample-repos/parcel
        • scripts/postinstall.js
        • scripts/common.js
        • scripts/build-native.js
+       • packages/core/rust/index.js
        • packages/dev/parcel-link/bin.js
        • packages/dev/esm-fuzzer/index.js
        • packages/dev/babel-register/babel-plugin-module-translate.js
-       • packages/core/rust/index.js
      📄 Files WITHOUT TryStatement (showing 10):
        • scripts/update-engines-peerdeps.js
        • scripts/update-config-dependencies.js
@@ -1480,12 +1480,12 @@ Repository: sample-repos/parcel
        • scripts/to-fs-fixture.js
        • packages/dev/esm-fuzzer/generateExample.js
        • packages/dev/babel-preset/index.js
+       • packages/runtimes/webextension/src/autoreload-bg.js
+       • packages/reporters/cli/test/CLIReporter.test.js
+       • packages/reporters/bundle-analyzer/client/index.js
        • packages/utils/rsc/src/server.tsx
        • packages/utils/rsc/src/node.tsx
        • packages/utils/rsc/src/client.tsx
-       • packages/utils/parcel-lsp/src/LspServer.ts
-       • packages/utils/babel-preset-env/src/index.js
-       • packages/utils/babel-plugin-transform-runtime/src/index.js
      📄 Files WITHOUT SpreadElement (showing 10):
        • verdaccioPublish.js
        • scripts/update-engines-peerdeps.js
@@ -1524,16 +1524,16 @@ Repository: sample-repos/parcel
 
    JSXElement:
      📄 Files WITH JSXElement (showing 10):
+       • packages/transformers/js/src/mdx-components.jsx
        • packages/utils/rsc/src/server.tsx
        • packages/utils/rsc/src/client.tsx
-       • packages/transformers/js/src/mdx-components.jsx
+       • packages/examples/react-static/pages/Other.tsx
+       • packages/examples/react-static/pages/Index.tsx
+       • packages/examples/react-static/components/Nav.tsx
+       • packages/examples/react-static/components/Counter.tsx
        • packages/examples/rsc-client/server/server.tsx
        • packages/examples/rsc-client/server/RSC.tsx
        • packages/examples/rsc-client/server/Counter.tsx
-       • packages/examples/react-static/pages/Other.tsx
-       • packages/examples/react-static/pages/Index.tsx
-       • packages/examples/rsc-client/client/index.tsx
-       • packages/examples/rsc-client/client/App.tsx
      📄 Files WITHOUT JSXElement (showing 10):
        • verdaccioPublish.js
        • gulpfile.js
@@ -1548,16 +1548,16 @@ Repository: sample-repos/parcel
 
    JSXOpeningElement:
      📄 Files WITH JSXOpeningElement (showing 10):
+       • packages/transformers/js/src/mdx-components.jsx
        • packages/utils/rsc/src/server.tsx
        • packages/utils/rsc/src/client.tsx
-       • packages/transformers/js/src/mdx-components.jsx
+       • packages/examples/react-static/pages/Other.tsx
+       • packages/examples/react-static/pages/Index.tsx
+       • packages/examples/react-static/components/Nav.tsx
+       • packages/examples/react-static/components/Counter.tsx
        • packages/examples/rsc-client/server/server.tsx
        • packages/examples/rsc-client/server/RSC.tsx
        • packages/examples/rsc-client/server/Counter.tsx
-       • packages/examples/react-static/pages/Other.tsx
-       • packages/examples/react-static/pages/Index.tsx
-       • packages/examples/rsc-client/client/index.tsx
-       • packages/examples/rsc-client/client/App.tsx
      📄 Files WITHOUT JSXOpeningElement (showing 10):
        • verdaccioPublish.js
        • gulpfile.js
@@ -1601,10 +1601,10 @@ Repository: sample-repos/parcel
        • scripts/postinstall.js
        • scripts/common.js
        • scripts/build-native.js
+       • packages/core/rust/index.js
        • packages/dev/parcel-link/bin.js
        • packages/dev/esm-fuzzer/index.js
        • packages/dev/babel-register/babel-plugin-module-translate.js
-       • packages/core/rust/index.js
        • packages/utils/rsc/src/server.tsx
      📄 Files WITHOUT CatchClause (showing 10):
        • verdaccioPublish.js
@@ -1644,12 +1644,12 @@ Repository: sample-repos/parcel
 
    ImportNamespaceSpecifier:
      📄 Files WITH ImportNamespaceSpecifier (showing 10):
+       • packages/reporters/cli/test/CLIReporter.test.js
        • packages/utils/parcelforvscode/src/importersView.ts
        • packages/utils/parcelforvscode/src/extension.ts
        • packages/utils/parcel-lsp/src/LspServer.ts
        • packages/utils/babel-preset-env/test/preset-env.test.js
        • packages/utils/babel-plugin-transform-runtime/test/babel-plugin-transform-runtime.test.js
-       • packages/reporters/cli/test/CLIReporter.test.js
        • packages/examples/ts-example/src/index.ts
        • packages/core/integration-tests/test/plugin.js
        • packages/core/integration-tests/test/output-formats.js
@@ -1669,9 +1669,9 @@ Repository: sample-repos/parcel
    BreakStatement:
      📄 Files WITH BreakStatement (showing 7):
        • scripts/to-fs-fixture.js
+       • packages/core/rust/index.js
        • packages/dev/esm-fuzzer/index.js
        • packages/dev/esm-fuzzer/generateExample.js
-       • packages/core/rust/index.js
        • packages/runtimes/hmr/src/loaders/hmr-runtime.js
        • packages/reporters/bundle-analyzer/client/vendor/foamtree/carrotsearch.foamtree.js
        • packages/core/integration-tests/test/integration/scope-hoisting/es6/async-interop-conditional/async.js
@@ -1761,16 +1761,16 @@ Repository: sample-repos/parcel
 
    JSXClosingElement:
      📄 Files WITH JSXClosingElement (showing 10):
-       • packages/utils/rsc/src/server.tsx
        • packages/transformers/js/src/mdx-components.jsx
-       • packages/examples/rsc-client/server/RSC.tsx
-       • packages/examples/rsc-client/server/Counter.tsx
+       • packages/utils/rsc/src/server.tsx
        • packages/examples/react-static/pages/Other.tsx
        • packages/examples/react-static/pages/Index.tsx
-       • packages/examples/rsc-client/client/App.tsx
        • packages/examples/react-static/components/Nav.tsx
        • packages/examples/react-static/components/Counter.tsx
-       • packages/utils/create-parcel/templates/react-server/src/Page.tsx
+       • packages/examples/rsc-client/server/RSC.tsx
+       • packages/examples/rsc-client/server/Counter.tsx
+       • packages/examples/rsc-client/client/App.tsx
+       • packages/utils/create-parcel/templates/react-client/src/index.tsx
      📄 Files WITHOUT JSXClosingElement (showing 10):
        • verdaccioPublish.js
        • gulpfile.js
@@ -1794,7 +1794,7 @@ Repository: sample-repos/parcel
        • packages/core/integration-tests/test/integration/worklet/url-worklet-error.js
        • packages/core/integration-tests/test/integration/workers-with-other-loaders/worker-client.js
        • packages/core/integration-tests/test/integration/workers/worker-client.js
-       • packages/core/integration-tests/test/integration/worker-shared-page/index.js
+       • packages/core/integration-tests/test/integration/workers-module/named.js
      📄 Files WITHOUT MetaProperty (showing 10):
        • verdaccioPublish.js
        • gulpfile.js
@@ -1932,9 +1932,9 @@ Repository: sample-repos/parcel
        • scripts/update-config-dependencies.js
        • scripts/to-fs-fixture.js
        • scripts/tag-release.mjs
+       • packages/core/rust/index.js
        • packages/dev/esm-fuzzer/runESM.js
        • packages/dev/esm-fuzzer/index.js
-       • packages/core/rust/index.js
        • packages/utils/parcel-lsp/src/LspServer.ts
        • packages/utils/babel-preset-env/src/index.js
        • packages/utils/babel-plugin-transform-runtime/src/index.js
@@ -1954,15 +1954,15 @@ Repository: sample-repos/parcel
    JSXExpressionContainer:
      📄 Files WITH JSXExpressionContainer (showing 10):
        • packages/runtimes/rsc/rsc-helpers.jsx
+       • packages/transformers/js/src/mdx-components.jsx
        • packages/utils/rsc/src/server.tsx
        • packages/utils/rsc/src/client.tsx
-       • packages/transformers/js/src/mdx-components.jsx
-       • packages/examples/rsc-client/server/RSC.tsx
-       • packages/examples/rsc-client/server/Counter.tsx
        • packages/examples/react-static/pages/Other.tsx
        • packages/examples/react-static/pages/Index.tsx
-       • packages/examples/rsc-client/client/App.tsx
        • packages/examples/react-static/components/Nav.tsx
+       • packages/examples/react-static/components/Counter.tsx
+       • packages/examples/rsc-client/server/RSC.tsx
+       • packages/examples/rsc-client/server/Counter.tsx
      📄 Files WITHOUT JSXExpressionContainer (showing 10):
        • verdaccioPublish.js
        • gulpfile.js
@@ -2006,8 +2006,8 @@ Repository: sample-repos/parcel
        • packages/core/workers/index.d.ts
        • packages/utils/rsc/src/client.tsx
        • packages/utils/parcel-lsp/src/LspServer.ts
-       • packages/examples/ts-typecheck-example/src/index.ts
        • packages/examples/ts-example/src/index.ts
+       • packages/examples/ts-typecheck-example/src/index.ts
        • packages/core/types-internal/src/SemverRange.js
        • packages/core/types-internal/src/PackageName.js
        • packages/core/types-internal/src/Glob.js
@@ -2027,8 +2027,8 @@ Repository: sample-repos/parcel
      📄 Files WITH EmptyStatement (showing 10):
        • packages/transformers/webextension/src/runtime/autoreload.js
        • packages/reporters/bundle-analyzer/client/vendor/foamtree/carrotsearch.foamtree.js
-       • packages/core/integration-tests/test/integration/hmr-dynamic/index.js
        • packages/core/integration-tests/test/integration/hmr-duplicate/index.js
+       • packages/core/integration-tests/test/integration/hmr-dynamic/index.js
        • packages/core/integration-tests/test/integration/dynamic-external/index.js
        • packages/core/integration-tests/test/integration/dynamic-esm/index.js
        • packages/core/integration-tests/test/integration/formats/esm/default-function.js
@@ -2073,16 +2073,16 @@ Repository: sample-repos/parcel
 
    JSXAttribute:
      📄 Files WITH JSXAttribute (showing 10):
+       • packages/transformers/js/src/mdx-components.jsx
        • packages/utils/rsc/src/server.tsx
        • packages/utils/rsc/src/client.tsx
-       • packages/transformers/js/src/mdx-components.jsx
-       • packages/examples/rsc-client/server/RSC.tsx
-       • packages/examples/rsc-client/server/Counter.tsx
        • packages/examples/react-static/pages/Other.tsx
        • packages/examples/react-static/pages/Index.tsx
-       • packages/examples/rsc-client/client/App.tsx
        • packages/examples/react-static/components/Nav.tsx
        • packages/examples/react-static/components/Counter.tsx
+       • packages/examples/rsc-client/server/RSC.tsx
+       • packages/examples/rsc-client/server/Counter.tsx
+       • packages/examples/rsc-client/client/App.tsx
      📄 Files WITHOUT JSXAttribute (showing 10):
        • verdaccioPublish.js
        • gulpfile.js
@@ -2238,8 +2238,8 @@ Repository: sample-repos/parcel
        • scripts/unlink-all.js
        • scripts/link-all.js
        • packages/core/rust/src/browser.js
-       • packages/transformers/react-refresh-wrap/src/helpers/helpers.js
        • packages/runtimes/hmr/src/loaders/hmr-runtime.js
+       • packages/transformers/react-refresh-wrap/src/helpers/helpers.js
        • packages/reporters/bundle-analyzer/client/vendor/foamtree/carrotsearch.foamtree.js
        • packages/core/integration-tests/test/integration/require-async/ts-interop.js
        • packages/core/integration-tests/test/integration/require-async/ts-interop-arrow.js
@@ -2368,8 +2368,8 @@ Repository: sample-repos/parcel
        • packages/reporters/bundle-analyzer/client/index.js
        • packages/packagers/wasm/src/wasm-sourcemap.js
        • packages/core/integration-tests/test/html.js
-       • packages/transformers/webextension/src/runtime/autoreload.js
        • packages/runtimes/hmr/src/loaders/hmr-runtime.js
+       • packages/transformers/webextension/src/runtime/autoreload.js
      📄 Files WITHOUT WhileStatement (showing 10):
        • verdaccioPublish.js
        • gulpfile.js
@@ -2611,9 +2611,9 @@ Repository: sample-repos/parcel
        • scripts/link-all.js
        • packages/dev/parcel-link/bin.js
        • packages/utils/create-react-app/src/bin.js
+       • packages/core/parcel/src/bin.js
        • packages/dev/query/src/bin.js
        • packages/dev/bundle-stats-cli/src/bin.js
-       • packages/core/parcel/src/bin.js
        • packages/core/integration-tests/test/integration/node_hashbang/main.js
      📄 Files WITHOUT Hashbang (showing 10):
        • verdaccioPublish.js
@@ -2970,7 +2970,7 @@ Repository: sample-repos/parcel
      📄 Files WITH TSTemplateLiteralType (showing 2):
        • packages/core/integration-tests/test/integration/ts-types/re-exporting-aggregating/index.ts
        • packages/core/integration-tests/test/integration/ts-types/re-exporting-aggregating/expected.d.ts
-     ���� Files WITHOUT TSTemplateLiteralType (showing 10):
+     📄 Files WITHOUT TSTemplateLiteralType (showing 10):
        • verdaccioPublish.js
        • gulpfile.js
        • scripts/update-engines-peerdeps.js
@@ -3171,55 +3171,23 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/validators/eslint/src/EslintValidator.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/ts-utils/src/loadTSConfig.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/runtimes/webextension/src/WebExtensionRuntime.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/ts-utils/src/ParseConfigHost.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/runtimes/rsc/src/RSCRuntime.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/ts-utils/src/LanguageServiceHost.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/runtimes/js/src/JSRuntime.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/ts-utils/src/FSHost.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/runtimes/service-worker/src/ServiceWorkerRuntime.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/ts-utils/src/CompilerHost.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/runtimes/hmr/src/HMRRuntime.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/parcel-watcher-watchman-js/src/wrapper.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/resolvers/glob/src/GlobResolver.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/node-resolver-core/src/builtins.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/resolvers/repl-runtimes/src/REPLRuntimesResolver.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/node-resolver-core/src/builtins.browser.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/node-resolver-core/src/Wrapper.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/events/src/ValueEmitter.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/events/src/Disposable.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/events/test/ValueEmitter.test.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/error-overlay/src/styles.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/error-overlay/src/listenToRuntimeErrors.js:
-   Expected `from` but found `{`
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/error-overlay/src/index.js:
-   Expected `from` but found `{`
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/create-parcel/src/create-parcel.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/create-react-app/src/emoji.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/create-react-app/src/cli.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/resolvers/default/src/DefaultResolver.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/yaml/src/YAMLTransformer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/worklet/src/WorkletTransformer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/webmanifest/src/WebManifestTransformer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/webextension/src/schema.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/webextension/src/WebExtensionTransformer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/vue/src/VueTransformer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/typescript-tsc/src/TSCTransformer.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/xml/src/utils.js:
    Flow is not supported
@@ -3231,47 +3199,15 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/xml/src/XMLTransformer.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/toml/src/TOMLTransformer.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/worklet/src/WorkletTransformer.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/svg-react/src/SvgReactTransformer.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/webmanifest/src/WebManifestTransformer.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/svg-jsx/src/SvgJsxTransformer.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/webextension/src/schema.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/svg/src/SVGTransformer.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/webextension/src/WebExtensionTransformer.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/sugarss/src/SugarssTransformer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/sass/src/modern.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/sass/src/legacy.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/sass/src/SassTransformer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/react-static/src/ReactStaticTransformer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/react-refresh-wrap/src/ReactRefreshWrapTransformer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/raw/src/RawTransformer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/pug/src/PugTransformer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/posthtml/src/loadPlugins.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/posthtml/src/PostHTMLTransformer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/postcss/src/loadPlugins.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/postcss/src/loadConfig.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/postcss/src/PostCSSTransformer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/node/src/NodeTransformer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/less/src/loadConfig.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/less/src/LessTransformer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/stylus/src/StylusTransformer.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/vue/src/VueTransformer.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/typescript-types/src/wrappers.js:
    Flow is not supported
@@ -3286,6 +3222,50 @@ Warnings/Errors:
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/typescript-types/src/TSModuleGraph.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/typescript-types/src/TSModule.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/toml/src/TOMLTransformer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/typescript-tsc/src/TSCTransformer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/svg-react/src/SvgReactTransformer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/svg-jsx/src/SvgJsxTransformer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/svg/src/SVGTransformer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/sugarss/src/SugarssTransformer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/stylus/src/StylusTransformer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/sass/src/modern.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/sass/src/legacy.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/sass/src/SassTransformer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/react-static/src/ReactStaticTransformer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/react-refresh-wrap/src/ReactRefreshWrapTransformer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/pug/src/PugTransformer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/raw/src/RawTransformer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/posthtml/src/loadPlugins.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/posthtml/src/PostHTMLTransformer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/postcss/src/loadPlugins.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/postcss/src/loadConfig.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/postcss/src/PostCSSTransformer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/less/src/loadConfig.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/less/src/LessTransformer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/node/src/NodeTransformer.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/jsonld/src/JSONLDTransformer.js:
    Flow is not supported
@@ -3305,11 +3285,7 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/graphql/src/GraphQLTransformer.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/glsl/src/GLSLTransformer.js:
-   Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/html/src/HTMLTransformer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/css/src/CSSTransformer.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/elm/src/loadConfig.js:
    Flow is not supported
@@ -3317,7 +3293,9 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/coffeescript/src/CoffeeScriptTransformer.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/runtimes/webextension/src/WebExtensionRuntime.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/css/src/CSSTransformer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/glsl/src/GLSLTransformer.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/babel/src/utils.js:
    Flow is not supported
@@ -3337,23 +3315,9 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/transformers/babel/src/BabelTransformer.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/runtimes/service-worker/src/ServiceWorkerRuntime.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/runtimes/rsc/src/RSCRuntime.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/runtimes/js/src/JSRuntime.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/runtimes/hmr/src/HMRRuntime.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/resolvers/glob/src/GlobResolver.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/resolvers/repl-runtimes/src/REPLRuntimesResolver.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/resolvers/default/src/DefaultResolver.js:
-   Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/reporters/tracer/src/TracerReporter.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/reporters/sourcemap-visualiser/src/SourceMapVisualiser.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/reporters/json/src/JSONReporter.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/reporters/lsp-reporter/src/utils.js:
    Flow is not supported
@@ -3361,7 +3325,7 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/reporters/lsp-reporter/src/LspReporter.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/reporters/json/src/JSONReporter.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/reporters/sourcemap-visualiser/src/SourceMapVisualiser.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/reporters/dev-server-sw/src/ServerReporter.js:
    Flow is not supported
@@ -3396,6 +3360,74 @@ Warnings/Errors:
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/reporters/bundle-analyzer/src/BundleAnalyzerReporter.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/reporters/build-metrics/src/BuildMetricsReporter.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/ts-utils/src/loadTSConfig.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/ts-utils/src/ParseConfigHost.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/ts-utils/src/LanguageServiceHost.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/ts-utils/src/FSHost.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/ts-utils/src/CompilerHost.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/parcel-watcher-watchman-js/src/wrapper.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/node-resolver-core/src/builtins.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/node-resolver-core/src/builtins.browser.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/node-resolver-core/src/Wrapper.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/events/test/ValueEmitter.test.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/events/src/ValueEmitter.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/events/src/Disposable.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/error-overlay/src/styles.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/error-overlay/src/listenToRuntimeErrors.js:
+   Expected `from` but found `{`
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/error-overlay/src/index.js:
+   Expected `from` but found `{`
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/create-react-app/src/emoji.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/create-react-app/src/cli.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/create-parcel/src/create-parcel.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/optimizers/terser/src/TerserOptimizer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/optimizers/swc/src/SwcOptimizer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/optimizers/svgo/src/SVGOOptimizer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/optimizers/svg/src/SVGOptimizer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/optimizers/htmlnano/src/svgMappings.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/optimizers/htmlnano/src/HTMLNanoOptimizer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/optimizers/image/src/ImageOptimizer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/optimizers/inline-requires/src/RequireInliningVisitor.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/optimizers/inline-requires/src/InlineRequires.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/optimizers/html/src/HTMLOptimizer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/optimizers/esbuild/src/ESBuildOptimizer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/optimizers/data-url/src/DataURLOptimizer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/optimizers/css/src/CSSOptimizer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/optimizers/cssnano/src/CSSNanoOptimizer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/optimizers/blob-url/src/BlobURLOptimizer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/namers/default/src/DefaultNamer.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/packagers/xml/src/XMLPackager.js:
    Flow is not supported
@@ -3433,55 +3465,7 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/packagers/css/src/CSSPackager.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/optimizers/terser/src/TerserOptimizer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/optimizers/swc/src/SwcOptimizer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/optimizers/svgo/src/SVGOOptimizer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/optimizers/svg/src/SVGOptimizer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/optimizers/image/src/ImageOptimizer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/optimizers/htmlnano/src/svgMappings.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/optimizers/htmlnano/src/HTMLNanoOptimizer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/optimizers/inline-requires/src/RequireInliningVisitor.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/optimizers/inline-requires/src/InlineRequires.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/optimizers/esbuild/src/ESBuildOptimizer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/optimizers/html/src/HTMLOptimizer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/optimizers/data-url/src/DataURLOptimizer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/optimizers/cssnano/src/CSSNanoOptimizer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/optimizers/blob-url/src/BlobURLOptimizer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/namers/default/src/DefaultNamer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/optimizers/css/src/CSSOptimizer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/examples/react-refresh/src/index.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/examples/react-refresh/src/LazyComponent.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/examples/react-refresh/src/FunctionNamed.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/examples/react-refresh/src/FunctionDefault.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/examples/react-refresh/src/ClassNamed.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/examples/react-refresh/src/ClassDefault.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/examples/react-refresh/src/App.js:
-   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/examples/react-server-components/static/static.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/examples/react-hmr/src/index.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/examples/react-server-components/src/server.js:
    Unexpected token
@@ -3501,39 +3485,35 @@ Warnings/Errors:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/examples/react-server-components/src/App.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/src/sw.js:
-   Expected a semicolon or an implicit semicolon after a statement, but found none
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/src/index.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/src/codemirror.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/examples/react-refresh/src/index.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/query/src/index.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/query/src/deep-imports.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/query/src/cli.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/parcel-link/src/utils.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/parcel-link/src/unlink.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/parcel-link/src/link.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/parcel-link/src/index.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/parcel-link/src/cli.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/parcel-link/src/ParcelLinkConfig.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/SimplePackageInstaller/untar.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/SimplePackageInstaller/index.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/bundle-stats-cli/src/deep-imports.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/bundle-stats-cli/src/cli.js:
-   Expected `from` but found `{`
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/examples/react-refresh/src/LazyComponent.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/examples/react-refresh/src/FunctionNamed.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/examples/react-refresh/src/FunctionDefault.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/examples/react-refresh/src/ClassNamed.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/examples/react-refresh/src/ClassDefault.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/examples/react-refresh/src/App.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/examples/react-hmr/src/index.js:
+   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/configs/default/test/config.test.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/types-internal/src/unsafe.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/types-internal/src/index.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/types-internal/src/PackageManager.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/types-internal/src/FileSystem.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/types-internal/src/FileCreateInvalidation.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/types-internal/src/Cache.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/workers/src/types.js:
    Flow is not supported
@@ -3555,19 +3535,15 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/workers/src/Handle.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/types-internal/src/unsafe.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/types-internal/src/index.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/types-internal/src/PackageManager.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/types-internal/src/FileSystem.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/types-internal/src/FileCreateInvalidation.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/types-internal/src/Cache.js:
-   Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/types/src/index.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/test-utils/src/utils.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/test-utils/src/fsFixture.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/utils/test/replaceBundleReferences.test.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/utils/test/DefaultMap.test.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/utils/src/urlJoin.js:
    Flow is not supported
@@ -3657,21 +3633,13 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/utils/src/DefaultMap.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/utils/test/replaceBundleReferences.test.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/utils/test/DefaultMap.test.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/rust/src/utils.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/test-utils/src/utils.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/test-utils/src/fsFixture.js:
-   Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/register/example/count.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/register/src/syncPromise.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/register/src/register.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/rust/src/utils.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/profiler/src/types.js:
    Flow is not supported
@@ -3713,11 +3681,23 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/markdown-ansi/src/markdown-ansi.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/logger/src/Logger.js:
-   Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/graph/test/Graph.test.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/graph/test/BitSet.test.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/logger/src/Logger.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/fs/src/index.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/fs/src/find.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/fs/src/OverlayFS.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/fs/src/NodeFS.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/fs/src/NodeFS.browser.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/fs/src/MemoryFS.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/graph/src/types.js:
    Flow is not supported
@@ -3732,22 +3712,6 @@ Warnings/Errors:
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/graph/src/BitSet.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/graph/src/AdjacencyList.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/fs/src/index.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/fs/src/find.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/fs/src/OverlayFS.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/fs/src/NodeFS.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/fs/src/NodeFS.browser.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/fs/src/MemoryFS.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/feature-flags/src/types.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/feature-flags/src/index.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/sourcemaps.js:
    Flow is not supported
@@ -3775,7 +3739,47 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/BundleGraph.js:
    Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/feature-flags/src/types.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/feature-flags/src/index.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/cache/src/types.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/cache/src/index.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/cache/src/LMDBCache.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/cache/src/IDBCache.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/cache/src/IDBCache.browser.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/cache/src/FSCache.js:
+   Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/diagnostic/src/diagnostic.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/compressors/raw/src/RawCompressor.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/compressors/gzip/src/GzipCompressor.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/compressors/brotli/src/BrotliCompressor.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/codeframe/src/codeframe.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/core/test/test-utils.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/core/test/serializer.test.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/core/test/SymbolPropagation.test.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/core/test/RequestTracker.test.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/core/test/PublicMutableBundleGraph.test.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/core/test/PublicBundle.test.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/core/test/Parcel.test.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/core/test/BundleGraph.test.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/core/src/worker.js:
    Flow is not supported
@@ -3845,46 +3849,42 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/core/src/AssetGraph.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/codeframe/src/codeframe.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/core/test/test-utils.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/core/test/serializer.test.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/core/test/SymbolPropagation.test.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/core/test/RequestTracker.test.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/core/test/PublicMutableBundleGraph.test.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/core/test/PublicBundle.test.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/core/test/Parcel.test.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/core/test/BundleGraph.test.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/cache/src/types.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/cache/src/index.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/cache/src/LMDBCache.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/cache/src/IDBCache.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/cache/src/IDBCache.browser.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/cache/src/FSCache.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/compressors/raw/src/RawCompressor.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/compressors/gzip/src/GzipCompressor.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/compressors/brotli/src/BrotliCompressor.js:
-   Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/bundlers/library/src/LibraryBundler.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/bundlers/default/src/DefaultBundler.js:
    Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/query/src/index.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/query/src/deep-imports.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/query/src/cli.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/src/sw.js:
+   Expected a semicolon or an implicit semicolon after a statement, but found none
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/src/index.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/src/codemirror.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/parcel-link/src/utils.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/parcel-link/src/unlink.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/parcel-link/src/link.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/parcel-link/src/index.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/parcel-link/src/cli.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/parcel-link/src/ParcelLinkConfig.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/SimplePackageInstaller/untar.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/SimplePackageInstaller/index.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/bundle-stats-cli/src/deep-imports.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/bundle-stats-cli/src/cli.js:
+   Expected `from` but found `{`
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/error-overlay/src/utils/stack-frame.js:
    Expected `;` but found `:`
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/error-overlay/src/utils/parser.js:
@@ -3929,36 +3929,6 @@ Warnings/Errors:
    Expected a semicolon or an implicit semicolon after a statement, but found none
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/error-overlay/src/components/CloseButton.js:
    Expected a semicolon or an implicit semicolon after a statement, but found none
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/src/utils/options.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/src/utils/index.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/src/utils/assets.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/src/graphs/index.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/src/components/state.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/src/components/helper.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/src/components/Preview.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/src/components/Options.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/src/components/FileBrowser.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/src/components/Editor.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/src/parcel/yarn.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/src/parcel/index.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/src/parcel/ParcelWorker.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/src/parcel/ExtendedMemoryFS.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/src/parcel/BrowserPackageManager.js:
-   Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/workers/src/web/WebWorker.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/workers/src/web/WebChild.js:
@@ -3970,6 +3940,10 @@ Warnings/Errors:
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/workers/src/process/ProcessWorker.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/workers/src/process/ProcessChild.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/core/test/requests/DevDepRequest.test.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/core/test/requests/ConfigRequest.test.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/core/src/requests/WriteBundlesRequest.js:
    Flow is not supported
@@ -4021,9 +3995,35 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/core/src/public/Asset.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/core/test/requests/DevDepRequest.test.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/src/utils/options.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/core/test/requests/ConfigRequest.test.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/src/utils/index.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/src/utils/assets.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/src/parcel/yarn.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/src/parcel/index.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/src/parcel/ParcelWorker.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/src/parcel/ExtendedMemoryFS.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/src/parcel/BrowserPackageManager.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/src/graphs/index.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/src/components/state.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/src/components/helper.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/src/components/Preview.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/src/components/Options.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/src/components/FileBrowser.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/dev/repl/src/components/Editor.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/utils/create-react-app/templates/default/src/index.js:
    Unexpected token
@@ -4031,12 +4031,14 @@ Warnings/Errors:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/transpilation-invalid/index.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/svg-react-config/react.js:
-   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/svg-react/react.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/svg-react-config/react.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/sourcemap-original-sourcecontents/index.js:
    Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/react-refresh-inline-script/index.js:
+   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/react-refresh-lazy-child/index.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/react-refresh-lazy-child/Async.js:
@@ -4045,16 +4047,6 @@ Warnings/Errors:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/react-refresh-lazy-child/App.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/react-refresh-automatic/index.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/react-refresh-automatic/Foo.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/react-refresh-automatic/Foo.1.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/react-refresh-automatic/App.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/react-refresh-inline-script/index.js:
-   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/react-refresh-circular/index.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/react-refresh-circular/Provider.js:
@@ -4062,6 +4054,14 @@ Warnings/Errors:
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/react-refresh-circular/Consumer.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/react-refresh-circular/App.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/react-refresh-automatic/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/react-refresh-automatic/Foo.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/react-refresh-automatic/Foo.1.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/react-refresh-automatic/App.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/react-refresh/index.js:
    Unexpected token
@@ -4079,43 +4079,43 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/jsx-tsconfig/index.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/jsx-react-alias/index.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/jsx-react-no-dep/index.js:
-   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/jsx-react/pure-comment.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/jsx-react/index.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/jsx-preact-no-dep/index.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/jsx-preact/index.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/jsx-react-no-dep/index.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/jsx-preact-with-url/index.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/jsx-nervjs-no-dep/index.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/jsx-react-alias/index.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/jsx-nervjs/index.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/jsx-preact/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/jsx-nervjs-no-dep/index.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/jsx-pragma-tsconfig/index.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/jsx-hyperapp-no-dep/index.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/jsx-preact-no-dep/index.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/jsx-automatic-tsconfig/index.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/jsx-nervjs/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/jsx-hyperapp-no-dep/index.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/jsx-hyperapp/index.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/jsx-automatic-preact/index.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/jsx-automatic-preact-with-alias/index.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/jsx-automatic-18/index.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/jsx-automatic-tsconfig/index.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/jsx-automatic-experimental/index.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/jsx-automatic/index.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/jsx-automatic-preact-with-alias/index.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/jsx-automatic-16/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/jsx-automatic-18/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/jsx-automatic/index.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/js-export-default/index.js:
    Unexpected token
@@ -4133,9 +4133,9 @@ Warnings/Errors:
    A 'return' statement can only be used within a function body.
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/scope-hoisting/es6/re-export-hybrid/c.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/scope-hoisting/es6/re-export-default-hybrid/c.js:
-   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/scope-hoisting/es6/re-export-default/b.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/scope-hoisting/es6/re-export-default-hybrid/c.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/parcel/packages/core/integration-tests/test/integration/scope-hoisting/es6/re-export-all-fallback-3/stuff.js:
    Flow is not supported

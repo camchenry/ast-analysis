@@ -1,0 +1,3229 @@
+AST Analysis Report for socket.io
+Generated on: 2025-07-14T01:56:59.380Z
+Repository: sample-repos/socket.io
+================================================================================
+
+🔍 Analyzing JavaScript/TypeScript files in: /Users/camchenry/workspace/ast-analysis/sample-repos/socket.io
+
+📁 Found 331 files to analyze...
+
+
+
+============================================================
+📊 AST ANALYSIS RESULTS
+============================================================
+
+📁 FILE STATISTICS:
+   Total files found: 331
+   Successfully parsed: 331
+   Failed to parse: 0
+   Total file size: 1.4 MB
+
+🌳 NODE STATISTICS:
+   Total nodes: 194,866
+   Average nodes per file: 589
+   Average file size: 4.2 KB
+
+📋 ALL NODE TYPES (BY FILE PRESENCE):
+   Program                         331 files (100.0%) -      331 total (0.17%)
+   Identifier                      319 files ( 96.4%) -   68,958 total (35.39%)
+   Literal                         319 files ( 96.4%) -   16,033 total (8.23%)
+   CallExpression                  285 files ( 86.1%) -   17,274 total (8.86%)
+   MemberExpression                281 files ( 84.9%) -   20,900 total (10.73%)
+   ExpressionStatement             273 files ( 82.5%) -   12,320 total (6.32%)
+   VariableDeclaration             271 files ( 81.9%) -    4,329 total (2.22%)
+   VariableDeclarator              271 files ( 81.9%) -    4,449 total (2.28%)
+   BlockStatement                  248 files ( 74.9%) -    7,119 total (3.65%)
+   ObjectExpression                239 files ( 72.2%) -    1,824 total (0.94%)
+   Property                        225 files ( 68.0%) -    3,452 total (1.77%)
+   ArrowFunctionExpression         197 files ( 59.5%) -    3,682 total (1.89%)
+   BinaryExpression                184 files ( 55.6%) -    2,121 total (1.09%)
+   ImportDeclaration               183 files ( 55.3%) -      644 total (0.33%)
+   ImportSpecifier                 175 files ( 52.9%) -      820 total (0.42%)
+   AssignmentExpression            173 files ( 52.3%) -    1,994 total (1.02%)
+   NewExpression                   168 files ( 50.8%) -    1,207 total (0.62%)
+   ReturnStatement                 164 files ( 49.5%) -    1,422 total (0.73%)
+   IfStatement                     156 files ( 47.1%) -    1,531 total (0.79%)
+   ArrayExpression                 149 files ( 45.0%) -      875 total (0.45%)
+   FunctionExpression              113 files ( 34.1%) -    1,204 total (0.62%)
+   ExportNamedDeclaration          110 files ( 33.2%) -      287 total (0.15%)
+   LogicalExpression               109 files ( 32.9%) -      806 total (0.41%)
+   UnaryExpression                 108 files ( 32.6%) -      720 total (0.37%)
+   Unknown                         104 files ( 31.4%) -    1,269 total (0.65%)
+   UpdateExpression                103 files ( 31.1%) -      406 total (0.21%)
+   TSTypeAnnotation                101 files ( 30.5%) -    2,588 total (1.33%)
+   TSTypeReference                  94 files ( 28.4%) -    2,328 total (1.19%)
+   TemplateLiteral                  89 files ( 26.9%) -      494 total (0.25%)
+   TemplateElement                  89 files ( 26.9%) -    1,077 total (0.55%)
+   FunctionDeclaration              88 files ( 26.6%) -      403 total (0.21%)
+   ParenthesizedExpression          87 files ( 26.3%) -      299 total (0.15%)
+   ImportDefaultSpecifier           79 files ( 23.9%) -      112 total (0.06%)
+   ThisExpression                   78 files ( 23.6%) -    3,042 total (1.56%)
+   ObjectPattern                    74 files ( 22.4%) -      190 total (0.10%)
+   ForStatement                     66 files ( 19.9%) -      165 total (0.08%)
+   TSStringKeyword                  63 files ( 19.0%) -      394 total (0.20%)
+   ConditionalExpression            61 files ( 18.4%) -      196 total (0.10%)
+   AwaitExpression                  59 files ( 17.8%) -      548 total (0.28%)
+   ClassDeclaration                 59 files ( 17.8%) -       87 total (0.04%)
+   ClassBody                        59 files ( 17.8%) -       87 total (0.04%)
+   TSTypeParameterInstantiation     58 files ( 17.5%) -      735 total (0.38%)
+   MethodDefinition                 56 files ( 16.9%) -      672 total (0.34%)
+   TSAnyKeyword                     53 files ( 16.0%) -      293 total (0.15%)
+   TSVoidKeyword                    50 files ( 15.1%) -      360 total (0.18%)
+   TSFunctionType                   46 files ( 13.9%) -      284 total (0.15%)
+   TSPropertySignature              43 files ( 13.0%) -      486 total (0.25%)
+   TSArrayType                      43 files ( 13.0%) -      212 total (0.11%)
+   TSBooleanKeyword                 39 files ( 11.8%) -      173 total (0.09%)
+   TSNumberKeyword                  39 files ( 11.8%) -      197 total (0.10%)
+   PropertyDefinition               38 files ( 11.5%) -      248 total (0.13%)
+   TSAsExpression                   38 files ( 11.5%) -       93 total (0.05%)
+   TSInterfaceDeclaration           36 files ( 10.9%) -       88 total (0.05%)
+   TSInterfaceBody                  36 files ( 10.9%) -       88 total (0.05%)
+   TSTypeLiteral                    34 files ( 10.3%) -      106 total (0.05%)
+   Super                            34 files ( 10.3%) -       91 total (0.05%)
+   TryStatement                     32 files (  9.7%) -       78 total (0.04%)
+   CatchClause                      31 files (  9.4%) -       76 total (0.04%)
+   TSUnionType                      30 files (  9.1%) -      163 total (0.08%)
+   BreakStatement                   26 files (  7.9%) -      109 total (0.06%)
+   TSIntersectionType               24 files (  7.3%) -       41 total (0.02%)
+   TSTypeAliasDeclaration           23 files (  6.9%) -       85 total (0.04%)
+   TSImportEqualsDeclaration        22 files (  6.6%) -       27 total (0.01%)
+   TSExternalModuleReference        22 files (  6.6%) -       27 total (0.01%)
+   RestElement                      20 files (  6.0%) -      107 total (0.05%)
+   ThrowStatement                   20 files (  6.0%) -       51 total (0.03%)
+   ForOfStatement                   20 files (  6.0%) -       36 total (0.02%)
+   TSLiteralType                    20 files (  6.0%) -      160 total (0.08%)
+   AssignmentPattern                20 files (  6.0%) -       32 total (0.02%)
+   SpreadElement                    18 files (  5.4%) -       45 total (0.02%)
+   SwitchStatement                  18 files (  5.4%) -       34 total (0.02%)
+   SwitchCase                       18 files (  5.4%) -      174 total (0.09%)
+   ChainExpression                  18 files (  5.4%) -       39 total (0.02%)
+   TSTypeParameterDeclaration       18 files (  5.4%) -      101 total (0.05%)
+   TSTypeParameter                  18 files (  5.4%) -      186 total (0.10%)
+   ArrayPattern                     17 files (  5.1%) -       34 total (0.02%)
+   ExportDefaultDeclaration         16 files (  4.8%) -       16 total (0.01%)
+   TSParameterProperty              14 files (  4.2%) -       23 total (0.01%)
+   TSEmptyBodyFunctionExpression    14 files (  4.2%) -       77 total (0.04%)
+   WhileStatement                   13 files (  3.9%) -       23 total (0.01%)
+   TSUnknownKeyword                 13 files (  3.9%) -       33 total (0.02%)
+   ImportNamespaceSpecifier         13 files (  3.9%) -       15 total (0.01%)
+   TSQualifiedName                  12 files (  3.6%) -       50 total (0.03%)
+   ExportSpecifier                  11 files (  3.3%) -       92 total (0.05%)
+   ForInStatement                   10 files (  3.0%) -       19 total (0.01%)
+   TSParenthesizedType              10 files (  3.0%) -       17 total (0.01%)
+   TSUndefinedKeyword               10 files (  3.0%) -       23 total (0.01%)
+   TSNeverKeyword                   10 files (  3.0%) -       44 total (0.02%)
+   TSNonNullExpression              10 files (  3.0%) -       30 total (0.02%)
+   TSAbstractMethodDefinition        9 files (  2.7%) -       22 total (0.01%)
+   TSThisType                        9 files (  2.7%) -       86 total (0.04%)
+   Decorator                         9 files (  2.7%) -       14 total (0.01%)
+   TSIndexSignature                  8 files (  2.4%) -       14 total (0.01%)
+   TSTypeOperator                    8 files (  2.4%) -       23 total (0.01%)
+   TSEnumDeclaration                 7 files (  2.1%) -        7 total (0.00%)
+   TSEnumBody                        7 files (  2.1%) -        7 total (0.00%)
+   TSEnumMember                      7 files (  2.1%) -       36 total (0.02%)
+   TSTupleType                       7 files (  2.1%) -       22 total (0.01%)
+   TSTypeQuery                       6 files (  1.8%) -       10 total (0.01%)
+   MetaProperty                      6 files (  1.8%) -        6 total (0.00%)
+   TSInterfaceHeritage               5 files (  1.5%) -       15 total (0.01%)
+   TSConditionalType                 5 files (  1.5%) -       44 total (0.02%)
+   TSIndexedAccessType               5 files (  1.5%) -       47 total (0.02%)
+   TSModuleDeclaration               5 files (  1.5%) -        8 total (0.00%)
+   TSModuleBlock                     5 files (  1.5%) -        8 total (0.00%)
+   TSRestType                        4 files (  1.2%) -       10 total (0.01%)
+   ContinueStatement                 4 files (  1.2%) -        6 total (0.00%)
+   TSMethodSignature                 4 files (  1.2%) -       32 total (0.02%)
+   ImportExpression                  4 files (  1.2%) -        4 total (0.00%)
+   TSObjectKeyword                   3 files (  0.9%) -        5 total (0.00%)
+   TSNullKeyword                     3 files (  0.9%) -       10 total (0.01%)
+   TSSymbolKeyword                   3 files (  0.9%) -        3 total (0.00%)
+   SequenceExpression                3 files (  0.9%) -       20 total (0.01%)
+   JSXElement                        2 files (  0.6%) -        7 total (0.00%)
+   JSXOpeningElement                 2 files (  0.6%) -        7 total (0.00%)
+   JSXIdentifier                     2 files (  0.6%) -       17 total (0.01%)
+   TSMappedType                      2 files (  0.6%) -        9 total (0.00%)
+   TSInferType                       2 files (  0.6%) -       31 total (0.02%)
+   TSDeclareFunction                 2 files (  0.6%) -        3 total (0.00%)
+   TSClassImplements                 2 files (  0.6%) -        3 total (0.00%)
+   TSTypeAssertion                   2 files (  0.6%) -        2 total (0.00%)
+   DoWhileStatement                  2 files (  0.6%) -        2 total (0.00%)
+   TSCallSignatureDeclaration        2 files (  0.6%) -        4 total (0.00%)
+   JSXAttribute                      1 files (  0.3%) -        4 total (0.00%)
+   JSXExpressionContainer            1 files (  0.3%) -        8 total (0.00%)
+   JSXText                           1 files (  0.3%) -       12 total (0.01%)
+   JSXClosingElement                 1 files (  0.3%) -        6 total (0.00%)
+   TSInstantiationExpression         1 files (  0.3%) -       27 total (0.01%)
+   TSConstructSignatureDeclaration    1 files (  0.3%) -        1 total (0.00%)
+   PrivateIdentifier                 1 files (  0.3%) -       74 total (0.04%)
+   TSTypePredicate                   1 files (  0.3%) -        1 total (0.00%)
+   TSExportAssignment                1 files (  0.3%) -        1 total (0.00%)
+   EmptyStatement                    1 files (  0.3%) -        8 total (0.00%)
+
+📝 ALL NODE TYPES (BY TOTAL COUNT):
+   Identifier                       68,958 (35.39%) in 319 files (96.4%)
+   MemberExpression                 20,900 (10.73%) in 281 files (84.9%)
+   CallExpression                   17,274 (8.86%) in 285 files (86.1%)
+   Literal                          16,033 (8.23%) in 319 files (96.4%)
+   ExpressionStatement              12,320 (6.32%) in 273 files (82.5%)
+   BlockStatement                    7,119 (3.65%) in 248 files (74.9%)
+   VariableDeclarator                4,449 (2.28%) in 271 files (81.9%)
+   VariableDeclaration               4,329 (2.22%) in 271 files (81.9%)
+   ArrowFunctionExpression           3,682 (1.89%) in 197 files (59.5%)
+   Property                          3,452 (1.77%) in 225 files (68.0%)
+   ThisExpression                    3,042 (1.56%) in 78 files (23.6%)
+   TSTypeAnnotation                  2,588 (1.33%) in 101 files (30.5%)
+   TSTypeReference                   2,328 (1.19%) in 94 files (28.4%)
+   BinaryExpression                  2,121 (1.09%) in 184 files (55.6%)
+   AssignmentExpression              1,994 (1.02%) in 173 files (52.3%)
+   ObjectExpression                  1,824 (0.94%) in 239 files (72.2%)
+   IfStatement                       1,531 (0.79%) in 156 files (47.1%)
+   ReturnStatement                   1,422 (0.73%) in 164 files (49.5%)
+   Unknown                           1,269 (0.65%) in 104 files (31.4%)
+   NewExpression                     1,207 (0.62%) in 168 files (50.8%)
+   FunctionExpression                1,204 (0.62%) in 113 files (34.1%)
+   TemplateElement                   1,077 (0.55%) in 89 files (26.9%)
+   ArrayExpression                     875 (0.45%) in 149 files (45.0%)
+   ImportSpecifier                     820 (0.42%) in 175 files (52.9%)
+   LogicalExpression                   806 (0.41%) in 109 files (32.9%)
+   TSTypeParameterInstantiation        735 (0.38%) in 58 files (17.5%)
+   UnaryExpression                     720 (0.37%) in 108 files (32.6%)
+   MethodDefinition                    672 (0.34%) in 56 files (16.9%)
+   ImportDeclaration                   644 (0.33%) in 183 files (55.3%)
+   AwaitExpression                     548 (0.28%) in 59 files (17.8%)
+   TemplateLiteral                     494 (0.25%) in 89 files (26.9%)
+   TSPropertySignature                 486 (0.25%) in 43 files (13.0%)
+   UpdateExpression                    406 (0.21%) in 103 files (31.1%)
+   FunctionDeclaration                 403 (0.21%) in 88 files (26.6%)
+   TSStringKeyword                     394 (0.20%) in 63 files (19.0%)
+   TSVoidKeyword                       360 (0.18%) in 50 files (15.1%)
+   Program                             331 (0.17%) in 331 files (100.0%)
+   ParenthesizedExpression             299 (0.15%) in 87 files (26.3%)
+   TSAnyKeyword                        293 (0.15%) in 53 files (16.0%)
+   ExportNamedDeclaration              287 (0.15%) in 110 files (33.2%)
+   TSFunctionType                      284 (0.15%) in 46 files (13.9%)
+   PropertyDefinition                  248 (0.13%) in 38 files (11.5%)
+   TSArrayType                         212 (0.11%) in 43 files (13.0%)
+   TSNumberKeyword                     197 (0.10%) in 39 files (11.8%)
+   ConditionalExpression               196 (0.10%) in 61 files (18.4%)
+   ObjectPattern                       190 (0.10%) in 74 files (22.4%)
+   TSTypeParameter                     186 (0.10%) in 18 files (5.4%)
+   SwitchCase                          174 (0.09%) in 18 files (5.4%)
+   TSBooleanKeyword                    173 (0.09%) in 39 files (11.8%)
+   ForStatement                        165 (0.08%) in 66 files (19.9%)
+   TSUnionType                         163 (0.08%) in 30 files (9.1%)
+   TSLiteralType                       160 (0.08%) in 20 files (6.0%)
+   ImportDefaultSpecifier              112 (0.06%) in 79 files (23.9%)
+   BreakStatement                      109 (0.06%) in 26 files (7.9%)
+   RestElement                         107 (0.05%) in 20 files (6.0%)
+   TSTypeLiteral                       106 (0.05%) in 34 files (10.3%)
+   TSTypeParameterDeclaration          101 (0.05%) in 18 files (5.4%)
+   TSAsExpression                       93 (0.05%) in 38 files (11.5%)
+   ExportSpecifier                      92 (0.05%) in 11 files (3.3%)
+   Super                                91 (0.05%) in 34 files (10.3%)
+   TSInterfaceDeclaration               88 (0.05%) in 36 files (10.9%)
+   TSInterfaceBody                      88 (0.05%) in 36 files (10.9%)
+   ClassDeclaration                     87 (0.04%) in 59 files (17.8%)
+   ClassBody                            87 (0.04%) in 59 files (17.8%)
+   TSThisType                           86 (0.04%) in 9 files (2.7%)
+   TSTypeAliasDeclaration               85 (0.04%) in 23 files (6.9%)
+   TryStatement                         78 (0.04%) in 32 files (9.7%)
+   TSEmptyBodyFunctionExpression        77 (0.04%) in 14 files (4.2%)
+   CatchClause                          76 (0.04%) in 31 files (9.4%)
+   PrivateIdentifier                    74 (0.04%) in 1 files (0.3%)
+   ThrowStatement                       51 (0.03%) in 20 files (6.0%)
+   TSQualifiedName                      50 (0.03%) in 12 files (3.6%)
+   TSIndexedAccessType                  47 (0.02%) in 5 files (1.5%)
+   SpreadElement                        45 (0.02%) in 18 files (5.4%)
+   TSConditionalType                    44 (0.02%) in 5 files (1.5%)
+   TSNeverKeyword                       44 (0.02%) in 10 files (3.0%)
+   TSIntersectionType                   41 (0.02%) in 24 files (7.3%)
+   ChainExpression                      39 (0.02%) in 18 files (5.4%)
+   TSEnumMember                         36 (0.02%) in 7 files (2.1%)
+   ForOfStatement                       36 (0.02%) in 20 files (6.0%)
+   ArrayPattern                         34 (0.02%) in 17 files (5.1%)
+   SwitchStatement                      34 (0.02%) in 18 files (5.4%)
+   TSUnknownKeyword                     33 (0.02%) in 13 files (3.9%)
+   AssignmentPattern                    32 (0.02%) in 20 files (6.0%)
+   TSMethodSignature                    32 (0.02%) in 4 files (1.2%)
+   TSInferType                          31 (0.02%) in 2 files (0.6%)
+   TSNonNullExpression                  30 (0.02%) in 10 files (3.0%)
+   TSImportEqualsDeclaration            27 (0.01%) in 22 files (6.6%)
+   TSExternalModuleReference            27 (0.01%) in 22 files (6.6%)
+   TSInstantiationExpression            27 (0.01%) in 1 files (0.3%)
+   WhileStatement                       23 (0.01%) in 13 files (3.9%)
+   TSParameterProperty                  23 (0.01%) in 14 files (4.2%)
+   TSTypeOperator                       23 (0.01%) in 8 files (2.4%)
+   TSUndefinedKeyword                   23 (0.01%) in 10 files (3.0%)
+   TSAbstractMethodDefinition           22 (0.01%) in 9 files (2.7%)
+   TSTupleType                          22 (0.01%) in 7 files (2.1%)
+   SequenceExpression                   20 (0.01%) in 3 files (0.9%)
+   ForInStatement                       19 (0.01%) in 10 files (3.0%)
+   JSXIdentifier                        17 (0.01%) in 2 files (0.6%)
+   TSParenthesizedType                  17 (0.01%) in 10 files (3.0%)
+   ExportDefaultDeclaration             16 (0.01%) in 16 files (4.8%)
+   TSInterfaceHeritage                  15 (0.01%) in 5 files (1.5%)
+   ImportNamespaceSpecifier             15 (0.01%) in 13 files (3.9%)
+   TSIndexSignature                     14 (0.01%) in 8 files (2.4%)
+   Decorator                            14 (0.01%) in 9 files (2.7%)
+   JSXText                              12 (0.01%) in 1 files (0.3%)
+   TSRestType                           10 (0.01%) in 4 files (1.2%)
+   TSTypeQuery                          10 (0.01%) in 6 files (1.8%)
+   TSNullKeyword                        10 (0.01%) in 3 files (0.9%)
+   TSMappedType                          9 (0.00%) in 2 files (0.6%)
+   JSXExpressionContainer                8 (0.00%) in 1 files (0.3%)
+   TSModuleDeclaration                   8 (0.00%) in 5 files (1.5%)
+   TSModuleBlock                         8 (0.00%) in 5 files (1.5%)
+   EmptyStatement                        8 (0.00%) in 1 files (0.3%)
+   JSXElement                            7 (0.00%) in 2 files (0.6%)
+   JSXOpeningElement                     7 (0.00%) in 2 files (0.6%)
+   TSEnumDeclaration                     7 (0.00%) in 7 files (2.1%)
+   TSEnumBody                            7 (0.00%) in 7 files (2.1%)
+   JSXClosingElement                     6 (0.00%) in 1 files (0.3%)
+   ContinueStatement                     6 (0.00%) in 4 files (1.2%)
+   MetaProperty                          6 (0.00%) in 6 files (1.8%)
+   TSObjectKeyword                       5 (0.00%) in 3 files (0.9%)
+   JSXAttribute                          4 (0.00%) in 1 files (0.3%)
+   TSCallSignatureDeclaration            4 (0.00%) in 2 files (0.6%)
+   ImportExpression                      4 (0.00%) in 4 files (1.2%)
+   TSDeclareFunction                     3 (0.00%) in 2 files (0.6%)
+   TSSymbolKeyword                       3 (0.00%) in 3 files (0.9%)
+   TSClassImplements                     3 (0.00%) in 2 files (0.6%)
+   TSTypeAssertion                       2 (0.00%) in 2 files (0.6%)
+   DoWhileStatement                      2 (0.00%) in 2 files (0.6%)
+   TSConstructSignatureDeclaration        1 (0.00%) in 1 files (0.3%)
+   TSTypePredicate                       1 (0.00%) in 1 files (0.3%)
+   TSExportAssignment                    1 (0.00%) in 1 files (0.3%)
+
+📁 FILE EXAMPLES BY NODE TYPE:
+
+   Identifier:
+     📄 Files WITH Identifier (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+     📄 Files WITHOUT Identifier (showing 10):
+       • examples/expo-example/App.js
+       • packages/socket.io-client/test/index.ts
+       • examples/create-react-app-example/src/setupTests.js
+       • examples/create-react-app-example/src/index.js
+       • examples/create-react-app-example/src/App.test.js
+       • examples/create-react-app-example/src/App.js
+       • examples/angular-todomvc/src/polyfills.ts
+       • examples/nextjs-pages-router/src/pages/index.js
+       • examples/nextjs-pages-router/src/pages/_document.js
+       • examples/nextjs-pages-router/src/pages/_app.js
+
+   MemberExpression:
+     📄 Files WITH MemberExpression (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+       • examples/webpack-build-server/webpack.config.js
+       • examples/webpack-build-server/index.js
+     📄 Files WITHOUT MemberExpression (showing 10):
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io/wrapper.mjs
+       • examples/webpack-build/webpack.config.js
+       • examples/rollup-server-bundle/rollup.config.js
+       • examples/rollup-server-bundle/index.js
+       • examples/nuxt-example/nuxt.config.ts
+       • examples/nextjs-pages-router/next.config.mjs
+       • examples/nextjs-app-router/next.config.mjs
+       • examples/expo-example/socket.js
+       • examples/expo-example/App.js
+
+   CallExpression:
+     📄 Files WITH CallExpression (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+       • examples/webpack-build-server/webpack.config.js
+       • examples/webpack-build-server/index.js
+       • examples/webpack-build/index.js
+       • examples/tweet-stream/index.js
+     📄 Files WITHOUT CallExpression (showing 10):
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io/wrapper.mjs
+       • examples/webpack-build/webpack.config.js
+       • examples/rollup-server-bundle/index.js
+       • examples/private-messaging/babel.config.js
+       • examples/nextjs-pages-router/next.config.mjs
+       • examples/nextjs-app-router/next.config.mjs
+       • examples/expo-example/App.js
+
+   Literal:
+     📄 Files WITH Literal (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+     📄 Files WITHOUT Literal (showing 10):
+       • examples/nextjs-app-router/next.config.mjs
+       • examples/expo-example/App.js
+       • examples/create-react-app-example/src/index.js
+       • examples/create-react-app-example/src/App.test.js
+       • examples/create-react-app-example/src/App.js
+       • packages/socket.io-component-emitter/lib/cjs/index.d.ts
+       • packages/socket.io-component-emitter/lib/esm/index.d.ts
+       • examples/nextjs-pages-router/src/pages/index.js
+       • examples/nextjs-pages-router/src/pages/_document.js
+       • examples/nextjs-pages-router/src/pages/_app.js
+
+   ExpressionStatement:
+     📄 Files WITH ExpressionStatement (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+       • examples/webpack-build-server/webpack.config.js
+       • examples/webpack-build-server/index.js
+     📄 Files WITHOUT ExpressionStatement (showing 10):
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io/wrapper.mjs
+       • examples/webpack-build/webpack.config.js
+       • examples/rollup-server-bundle/rollup.config.js
+       • examples/nuxt-example/nuxt.config.ts
+       • examples/nextjs-pages-router/next.config.mjs
+       • examples/nextjs-app-router/next.config.mjs
+       • examples/expo-example/socket.js
+       • examples/expo-example/App.js
+       • examples/basic-websocket-client/rollup.config.js
+
+   BlockStatement:
+     📄 Files WITH BlockStatement (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/engine.io-parser/zuul.config.js
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+       • examples/webpack-build-server/index.js
+       • examples/webpack-build/index.js
+       • examples/tweet-stream/index.js
+       • examples/postgres-adapter-example/server.js
+       • examples/postgres-adapter-example/cluster.js
+     📄 Files WITHOUT BlockStatement (showing 10):
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/webpack-build-server/webpack.config.js
+       • examples/webpack-build/webpack.config.js
+       • examples/rollup-server-bundle/rollup.config.js
+       • examples/rollup-server-bundle/index.js
+       • examples/private-messaging/babel.config.js
+
+   VariableDeclarator:
+     📄 Files WITH VariableDeclarator (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+       • examples/webpack-build-server/webpack.config.js
+       • examples/webpack-build-server/index.js
+       • examples/webpack-build/index.js
+     📄 Files WITHOUT VariableDeclarator (showing 10):
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/babel.config.js
+       • packages/engine.io/wrapper.mjs
+       • examples/webpack-build/webpack.config.js
+       • examples/rollup-server-bundle/rollup.config.js
+       • examples/rollup-server-bundle/index.js
+       • examples/private-messaging/babel.config.js
+       • examples/nuxt-example/nuxt.config.ts
+       • examples/expo-example/babel.config.js
+       • examples/expo-example/App.js
+
+   VariableDeclaration:
+     📄 Files WITH VariableDeclaration (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+       • examples/webpack-build-server/webpack.config.js
+       • examples/webpack-build-server/index.js
+       • examples/webpack-build/index.js
+     📄 Files WITHOUT VariableDeclaration (showing 10):
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/babel.config.js
+       • packages/engine.io/wrapper.mjs
+       • examples/webpack-build/webpack.config.js
+       • examples/rollup-server-bundle/rollup.config.js
+       • examples/rollup-server-bundle/index.js
+       • examples/private-messaging/babel.config.js
+       • examples/nuxt-example/nuxt.config.ts
+       • examples/expo-example/babel.config.js
+       • examples/expo-example/App.js
+
+   ArrowFunctionExpression:
+     📄 Files WITH ArrowFunctionExpression (showing 10):
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+       • examples/webpack-build-server/index.js
+       • examples/webpack-build/index.js
+       • examples/tweet-stream/index.js
+       • examples/postgres-adapter-example/server.js
+       • examples/postgres-adapter-example/client.js
+       • examples/nwjs-example/index.js
+       • examples/nextjs-pages-router/server.js
+       • examples/nextjs-app-router/server.js
+     📄 Files WITHOUT ArrowFunctionExpression (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/webpack-build-server/webpack.config.js
+       • examples/webpack-build/webpack.config.js
+
+   Property:
+     📄 Files WITH Property (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • examples/webtransport/index.js
+       • examples/webpack-build-server/webpack.config.js
+       • examples/webpack-build-server/index.js
+     📄 Files WITHOUT Property (showing 10):
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webpack-build/index.js
+       • examples/rollup-server-bundle/index.js
+       • examples/postgres-adapter-example/client.js
+       • examples/nextjs-app-router/next.config.mjs
+       • examples/expo-example/socket.js
+       • examples/expo-example/App.js
+       • examples/es-modules/server.js
+       • examples/es-modules/client.js
+
+   ThisExpression:
+     📄 Files WITH ThisExpression (showing 10):
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-component-emitter/test/emitter.js
+       • packages/socket.io-cluster-engine/test/in-memory.ts
+       • packages/socket.io-cluster-engine/lib/redis.ts
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-cluster-engine/lib/cluster.ts
+       • packages/socket.io-client/test/node.ts
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-client/lib/manager.ts
+       • packages/socket.io-adapter/test/cluster-adapter.ts
+     📄 Files WITHOUT ThisExpression (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSTypeAnnotation:
+     📄 Files WITH TSTypeAnnotation (showing 10):
+       • examples/angular-todomvc/server.ts
+       • examples/ReactNativeExample/App.tsx
+       • packages/socket.io-parser/lib/is-binary.ts
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-cluster-engine/test/util.ts
+       • packages/socket.io-cluster-engine/test/redis.ts
+       • packages/socket.io-cluster-engine/test/in-memory.ts
+       • packages/socket.io-cluster-engine/lib/redis.ts
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-cluster-engine/lib/cluster.ts
+     📄 Files WITHOUT TSTypeAnnotation (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSTypeReference:
+     📄 Files WITH TSTypeReference (showing 10):
+       • examples/angular-todomvc/server.ts
+       • examples/ReactNativeExample/App.tsx
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-cluster-engine/test/redis.ts
+       • packages/socket.io-cluster-engine/test/in-memory.ts
+       • packages/socket.io-cluster-engine/lib/redis.ts
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-cluster-engine/lib/cluster.ts
+       • packages/socket.io-client/test/typed-events.test-d.ts
+       • packages/socket.io-client/test/connection.ts
+     📄 Files WITHOUT TSTypeReference (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   BinaryExpression:
+     📄 Files WITH BinaryExpression (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/engine.io-parser/zuul.config.js
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+       • examples/postgres-adapter-example/cluster.js
+       • examples/postgres-adapter-example/client.js
+       • examples/nextjs-pages-router/server.js
+       • examples/nextjs-app-router/server.js
+       • examples/cluster-engine-redis/server.js
+     📄 Files WITHOUT BinaryExpression (showing 10):
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/webpack-build-server/webpack.config.js
+       • examples/webpack-build-server/index.js
+       • examples/webpack-build/webpack.config.js
+       • examples/webpack-build/index.js
+       • examples/tweet-stream/index.js
+
+   AssignmentExpression:
+     📄 Files WITH AssignmentExpression (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/engine.io-parser/zuul.config.js
+       • examples/webpack-build-server/webpack.config.js
+       • examples/webpack-build-server/index.js
+       • examples/tweet-stream/index.js
+       • examples/private-messaging/babel.config.js
+       • examples/nwjs-example/index.js
+     📄 Files WITHOUT AssignmentExpression (showing 10):
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+       • examples/webpack-build/webpack.config.js
+       • examples/webpack-build/index.js
+       • examples/rollup-server-bundle/rollup.config.js
+       • examples/rollup-server-bundle/index.js
+       • examples/postgres-adapter-example/server.js
+
+   ObjectExpression:
+     📄 Files WITH ObjectExpression (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • examples/webtransport/index.js
+       • examples/webpack-build-server/webpack.config.js
+       • examples/webpack-build/webpack.config.js
+       • examples/tweet-stream/index.js
+     📄 Files WITHOUT ObjectExpression (showing 10):
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webpack-build-server/index.js
+       • examples/webpack-build/index.js
+       • examples/rollup-server-bundle/index.js
+       • examples/nwjs-example/index.js
+       • examples/expo-example/socket.js
+       • examples/expo-example/App.js
+       • examples/es-modules/server.js
+
+   IfStatement:
+     📄 Files WITH IfStatement (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/engine.io-parser/zuul.config.js
+       • examples/webtransport/index.js
+       • examples/nwjs-example/index.js
+       • examples/cluster-engine-node-cluster/server.js
+       • examples/chat/index.js
+       • examples/ReactNativeExample/App.tsx
+       • packages/socket.io-parser/test/index.js
+       • packages/socket.io-parser/test/blob.js
+     📄 Files WITHOUT IfStatement (showing 10):
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webpack-build-server/webpack.config.js
+       • examples/webpack-build-server/index.js
+       • examples/webpack-build/webpack.config.js
+       • examples/webpack-build/index.js
+
+   ReturnStatement:
+     📄 Files WITH ReturnStatement (showing 10):
+       • examples/expo-example/babel.config.js
+       • examples/cluster-engine-redis/server.js
+       • examples/chat/index.js
+       • examples/ReactNativeExample/App.tsx
+       • packages/socket.io-parser/test/parser.js
+       • packages/socket.io-parser/test/index.js
+       • packages/socket.io-parser/test/helpers.js
+       • packages/socket.io-parser/test/buffer.js
+       • packages/socket.io-parser/test/blob.js
+       • packages/socket.io-parser/test/arraybuffer.js
+     📄 Files WITHOUT ReturnStatement (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   Unknown:
+     📄 Files WITH Unknown (showing 10):
+       • examples/webtransport/index.js
+       • examples/webpack-build-server/webpack.config.js
+       • examples/webpack-build-server/index.js
+       • examples/webpack-build/index.js
+       • examples/postgres-adapter-example/server.js
+       • examples/postgres-adapter-example/client.js
+       • examples/nwjs-example/index.js
+       • examples/nextjs-pages-router/server.js
+       • examples/nextjs-app-router/server.js
+       • examples/es-modules/server.js
+     📄 Files WITHOUT Unknown (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webpack-build/webpack.config.js
+
+   NewExpression:
+     📄 Files WITH NewExpression (showing 10):
+       • examples/webtransport/index.js
+       • examples/webpack-build-server/index.js
+       • examples/tweet-stream/index.js
+       • examples/rollup-server-bundle/index.js
+       • examples/postgres-adapter-example/server.js
+       • examples/nextjs-pages-router/server.js
+       • examples/nextjs-app-router/server.js
+       • examples/es-modules/server.js
+       • examples/es-modules/client.js
+       • examples/create-react-app-example/server.js
+     📄 Files WITHOUT NewExpression (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webpack-build-server/webpack.config.js
+
+   FunctionExpression:
+     📄 Files WITH FunctionExpression (showing 10):
+       • examples/nwjs-example/index.js
+       • examples/expo-example/babel.config.js
+       • examples/cluster-engine-redis/server.js
+       • examples/angular-todomvc/karma.conf.js
+       • packages/socket.io-parser/test/index.js
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-parser/bench/index.js
+       • packages/socket.io-component-emitter/test/emitter.js
+       • packages/socket.io-cluster-engine/test/in-memory.ts
+       • packages/socket.io-cluster-engine/lib/redis.ts
+     📄 Files WITHOUT FunctionExpression (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TemplateElement:
+     📄 Files WITH TemplateElement (showing 10):
+       • examples/webtransport/index.js
+       • examples/webpack-build-server/index.js
+       • examples/webpack-build/index.js
+       • examples/postgres-adapter-example/server.js
+       • examples/postgres-adapter-example/client.js
+       • examples/nwjs-example/index.js
+       • examples/nextjs-pages-router/server.js
+       • examples/nextjs-app-router/server.js
+       • examples/es-modules/server.js
+       • examples/es-modules/client.js
+     📄 Files WITHOUT TemplateElement (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webpack-build-server/webpack.config.js
+
+   ArrayExpression:
+     📄 Files WITH ArrayExpression (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • examples/webtransport/index.js
+       • examples/webpack-build-server/webpack.config.js
+       • examples/tweet-stream/index.js
+       • examples/rollup-server-bundle/rollup.config.js
+     📄 Files WITHOUT ArrayExpression (showing 10):
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webpack-build-server/index.js
+       • examples/webpack-build/webpack.config.js
+       • examples/webpack-build/index.js
+       • examples/rollup-server-bundle/index.js
+       • examples/postgres-adapter-example/server.js
+       • examples/postgres-adapter-example/cluster.js
+       • examples/nwjs-example/index.js
+
+   ImportSpecifier:
+     📄 Files WITH ImportSpecifier (showing 10):
+       • examples/webtransport/index.js
+       • examples/webpack-build/index.js
+       • examples/rollup-server-bundle/index.js
+       • examples/postgres-adapter-example/server.js
+       • examples/postgres-adapter-example/client.js
+       • examples/nextjs-pages-router/server.js
+       • examples/nextjs-app-router/server.js
+       • examples/expo-example/socket.js
+       • examples/es-modules/server.js
+       • examples/es-modules/client.js
+     📄 Files WITHOUT ImportSpecifier (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webpack-build-server/webpack.config.js
+
+   LogicalExpression:
+     📄 Files WITH LogicalExpression (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/engine.io-parser/zuul.config.js
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+       • examples/tweet-stream/index.js
+       • examples/postgres-adapter-example/server.js
+       • examples/chat/index.js
+       • packages/socket.io-parser/test/index.js
+       • packages/socket.io-parser/lib/is-binary.ts
+     📄 Files WITHOUT LogicalExpression (showing 10):
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/webpack-build-server/webpack.config.js
+       • examples/webpack-build-server/index.js
+       • examples/webpack-build/webpack.config.js
+       • examples/webpack-build/index.js
+       • examples/rollup-server-bundle/rollup.config.js
+
+   TSTypeParameterInstantiation:
+     📄 Files WITH TSTypeParameterInstantiation (showing 10):
+       • examples/angular-todomvc/server.ts
+       • examples/ReactNativeExample/App.tsx
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-cluster-engine/test/redis.ts
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-client/test/typed-events.test-d.ts
+       • packages/socket.io-client/test/connection.ts
+       • packages/socket.io-client/lib/url.ts
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-client/lib/on.ts
+     📄 Files WITHOUT TSTypeParameterInstantiation (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   UnaryExpression:
+     📄 Files WITH UnaryExpression (showing 10):
+       • packages/socket.io-parser/test/index.js
+       • packages/socket.io-parser/test/blob.js
+       • packages/socket.io-parser/lib/is-binary.ts
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-parser/lib/binary.ts
+       • packages/socket.io-cluster-engine/lib/redis.ts
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-cluster-engine/lib/cluster.ts
+       • packages/socket.io-client/test/connection.ts
+       • packages/socket.io-client/lib/url.ts
+     📄 Files WITHOUT UnaryExpression (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   MethodDefinition:
+     📄 Files WITH MethodDefinition (showing 10):
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-cluster-engine/test/in-memory.ts
+       • packages/socket.io-cluster-engine/lib/redis.ts
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-cluster-engine/lib/cluster.ts
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-client/lib/manager.ts
+       • packages/socket.io-adapter/test/cluster-adapter.ts
+       • packages/socket.io-adapter/lib/in-memory-adapter.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+     📄 Files WITHOUT MethodDefinition (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   ImportDeclaration:
+     📄 Files WITH ImportDeclaration (showing 10):
+       • packages/socket.io/wrapper.mjs
+       • examples/webtransport/index.js
+       • examples/webpack-build/index.js
+       • examples/rollup-server-bundle/rollup.config.js
+       • examples/rollup-server-bundle/index.js
+       • examples/postgres-adapter-example/server.js
+       • examples/postgres-adapter-example/cluster.js
+       • examples/postgres-adapter-example/client.js
+       • examples/nextjs-pages-router/server.js
+       • examples/nextjs-app-router/server.js
+     📄 Files WITHOUT ImportDeclaration (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webpack-build-server/webpack.config.js
+       • examples/webpack-build-server/index.js
+
+   AwaitExpression:
+     📄 Files WITH AwaitExpression (showing 10):
+       • examples/webtransport/index.js
+       • examples/postgres-adapter-example/server.js
+       • examples/cluster-engine-redis/server.js
+       • examples/basic-websocket-client/check-bundle-size.js
+       • packages/socket.io-cluster-engine/test/util.ts
+       • packages/socket.io-cluster-engine/test/redis.ts
+       • packages/socket.io-cluster-engine/test/in-memory.ts
+       • packages/socket.io-cluster-engine/test/cluster.ts
+       • packages/socket.io-client/test/typed-events.test-d.ts
+       • packages/socket.io-client/test/socket.ts
+     📄 Files WITHOUT AwaitExpression (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webpack-build-server/webpack.config.js
+
+   TemplateLiteral:
+     📄 Files WITH TemplateLiteral (showing 10):
+       • examples/webtransport/index.js
+       • examples/webpack-build-server/index.js
+       • examples/webpack-build/index.js
+       • examples/postgres-adapter-example/server.js
+       • examples/postgres-adapter-example/client.js
+       • examples/nwjs-example/index.js
+       • examples/nextjs-pages-router/server.js
+       • examples/nextjs-app-router/server.js
+       • examples/es-modules/server.js
+       • examples/es-modules/client.js
+     📄 Files WITHOUT TemplateLiteral (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webpack-build-server/webpack.config.js
+
+   TSPropertySignature:
+     📄 Files WITH TSPropertySignature (showing 10):
+       • examples/angular-todomvc/server.ts
+       • examples/ReactNativeExample/App.tsx
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-cluster-engine/lib/redis.ts
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-cluster-engine/lib/cluster.ts
+       • packages/socket.io-client/test/typed-events.test-d.ts
+       • packages/socket.io-client/lib/url.ts
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-client/lib/manager.ts
+     📄 Files WITHOUT TSPropertySignature (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   UpdateExpression:
+     📄 Files WITH UpdateExpression (showing 10):
+       • examples/postgres-adapter-example/cluster.js
+       • examples/postgres-adapter-example/client.js
+       • examples/cluster-engine-redis/client.js
+       • examples/cluster-engine-node-cluster/server.js
+       • examples/cluster-engine-node-cluster/client.js
+       • examples/chat/index.js
+       • packages/socket.io-parser/test/helpers.js
+       • packages/socket.io-parser/test/arraybuffer.js
+       • packages/socket.io-parser/lib/is-binary.ts
+       • packages/socket.io-parser/lib/index.ts
+     📄 Files WITHOUT UpdateExpression (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   FunctionDeclaration:
+     📄 Files WITH FunctionDeclaration (showing 10):
+       • examples/whiteboard/index.js
+       • examples/nwjs-example/index.js
+       • examples/cluster-engine-redis/server.js
+       • examples/ReactNativeExample/App.tsx
+       • packages/socket.io-parser/lib/is-binary.ts
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-parser/lib/binary.ts
+       • packages/socket.io-parser/bench/index.js
+       • packages/socket.io-component-emitter/test/emitter.js
+       • packages/socket.io-cluster-engine/test/util.ts
+     📄 Files WITHOUT FunctionDeclaration (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/webtransport/index.js
+       • examples/webpack-build-server/webpack.config.js
+
+   TSStringKeyword:
+     📄 Files WITH TSStringKeyword (showing 10):
+       • examples/angular-todomvc/server.ts
+       • examples/ReactNativeExample/App.tsx
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-cluster-engine/test/util.ts
+       • packages/socket.io-cluster-engine/lib/redis.ts
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-cluster-engine/lib/cluster.ts
+       • packages/socket.io-client/test/typed-events.test-d.ts
+       • packages/socket.io-client/lib/url.ts
+       • packages/socket.io-client/lib/socket.ts
+     📄 Files WITHOUT TSStringKeyword (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSVoidKeyword:
+     📄 Files WITH TSVoidKeyword (showing 10):
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-cluster-engine/test/redis.ts
+       • packages/socket.io-cluster-engine/lib/redis.ts
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-client/test/typed-events.test-d.ts
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-client/lib/on.ts
+       • packages/socket.io-client/lib/manager.ts
+       • packages/socket.io-adapter/test/util.ts
+       • packages/socket.io-adapter/test/cluster-adapter.ts
+     📄 Files WITHOUT TSVoidKeyword (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   Program:
+     📄 Files WITH Program (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+     📄 Files WITHOUT Program: (all files contain this node type)
+
+   ParenthesizedExpression:
+     📄 Files WITH ParenthesizedExpression (showing 10):
+       • packages/engine.io-parser/zuul.config.js
+       • examples/webtransport/index.js
+       • examples/ReactNativeExample/App.tsx
+       • packages/socket.io-parser/test/index.js
+       • packages/socket.io-parser/lib/is-binary.ts
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-parser/lib/binary.ts
+       • packages/socket.io-cluster-engine/test/redis.ts
+       • packages/socket.io-cluster-engine/test/in-memory.ts
+       • packages/socket.io-cluster-engine/test/cluster.ts
+     📄 Files WITHOUT ParenthesizedExpression (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webpack-build-server/webpack.config.js
+       • examples/webpack-build-server/index.js
+
+   TSAnyKeyword:
+     📄 Files WITH TSAnyKeyword (showing 10):
+       • packages/socket.io-parser/lib/is-binary.ts
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-cluster-engine/test/redis.ts
+       • packages/socket.io-cluster-engine/lib/redis.ts
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-client/test/url.ts
+       • packages/socket.io-client/test/typed-events.test-d.ts
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-client/lib/on.ts
+       • packages/socket.io-client/lib/manager.ts
+     📄 Files WITHOUT TSAnyKeyword (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   ExportNamedDeclaration:
+     📄 Files WITH ExportNamedDeclaration (showing 10):
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io/wrapper.mjs
+       • examples/expo-example/socket.js
+       • examples/ReactNativeExample/socket.js
+       • packages/socket.io-parser/lib/is-binary.ts
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-parser/lib/binary.ts
+       • packages/socket.io-cluster-engine/test/util.ts
+       • packages/socket.io-cluster-engine/lib/redis.ts
+       • packages/socket.io-cluster-engine/lib/index.ts
+     📄 Files WITHOUT ExportNamedDeclaration (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+       • examples/webpack-build-server/webpack.config.js
+       • examples/webpack-build-server/index.js
+
+   TSFunctionType:
+     📄 Files WITH TSFunctionType (showing 10):
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-cluster-engine/test/redis.ts
+       • packages/socket.io-cluster-engine/lib/redis.ts
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-client/test/typed-events.test-d.ts
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-client/lib/on.ts
+       • packages/socket.io-client/lib/manager.ts
+       • packages/socket.io-adapter/test/util.ts
+       • packages/socket.io-adapter/lib/in-memory-adapter.ts
+     📄 Files WITHOUT TSFunctionType (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   PropertyDefinition:
+     📄 Files WITH PropertyDefinition (showing 10):
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-cluster-engine/lib/redis.ts
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-client/lib/manager.ts
+       • packages/socket.io-adapter/test/cluster-adapter.ts
+       • packages/socket.io-adapter/lib/in-memory-adapter.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+       • packages/socket.io/lib/socket.ts
+       • packages/socket.io/lib/parent-namespace.ts
+     📄 Files WITHOUT PropertyDefinition (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSArrayType:
+     📄 Files WITH TSArrayType (showing 10):
+       • packages/socket.io-cluster-engine/lib/redis.ts
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-client/test/typed-events.test-d.ts
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-adapter/test/cluster-adapter.ts
+       • packages/socket.io-adapter/lib/in-memory-adapter.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+       • packages/socket.io/test/utility-methods.ts
+       • packages/socket.io/test/socket.io.test-d.ts
+       • packages/socket.io/test/namespaces.ts
+     📄 Files WITHOUT TSArrayType (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSNumberKeyword:
+     📄 Files WITH TSNumberKeyword (showing 10):
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-cluster-engine/test/util.ts
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-client/test/typed-events.test-d.ts
+       • packages/socket.io-client/test/connection.ts
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-client/lib/manager.ts
+       • packages/socket.io-adapter/test/util.ts
+       • packages/socket.io-adapter/lib/in-memory-adapter.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+     📄 Files WITHOUT TSNumberKeyword (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   ConditionalExpression:
+     📄 Files WITH ConditionalExpression (showing 10):
+       • packages/engine.io-parser/zuul.config.js
+       • examples/webpack-build-server/index.js
+       • examples/ReactNativeExample/App.tsx
+       • packages/socket.io-parser/test/index.js
+       • packages/socket.io-parser/test/blob.js
+       • packages/socket.io-parser/lib/is-binary.ts
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-client/test/typed-events.test-d.ts
+       • packages/socket.io-client/lib/url.ts
+     📄 Files WITHOUT ConditionalExpression (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+       • examples/webpack-build-server/webpack.config.js
+
+   ObjectPattern:
+     📄 Files WITH ObjectPattern (showing 10):
+       • packages/socket.io/wrapper.mjs
+       • examples/webtransport/index.js
+       • examples/webpack-build-server/index.js
+       • examples/nwjs-example/index.js
+       • examples/cluster-engine-redis/server.js
+       • examples/ReactNativeExample/metro.config.js
+       • examples/ReactNativeExample/App.tsx
+       • packages/socket.io-parser/test/parser.js
+       • packages/socket.io-parser/test/buffer.js
+       • packages/socket.io-parser/test/blob.js
+     📄 Files WITHOUT ObjectPattern (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webpack-build-server/webpack.config.js
+       • examples/webpack-build/webpack.config.js
+
+   TSTypeParameter:
+     📄 Files WITH TSTypeParameter (showing 10):
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-client/lib/manager.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+       • packages/socket.io/test/socket.io.test-d.ts
+       • packages/socket.io/lib/typed-events.ts
+       • packages/socket.io/lib/socket.ts
+       • packages/socket.io/lib/parent-namespace.ts
+       • packages/socket.io/lib/namespace.ts
+       • packages/socket.io/lib/index.ts
+     📄 Files WITHOUT TSTypeParameter (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   SwitchCase:
+     📄 Files WITH SwitchCase (showing 10):
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-cluster-engine/test/in-memory.ts
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+       • packages/socket.io/lib/socket.ts
+       • packages/socket.io/lib/index.ts
+       • packages/socket.io/client-dist/socket.io.js
+       • packages/engine.io-parser/lib/decodePacket.ts
+       • packages/engine.io-parser/lib/decodePacket.browser.ts
+     📄 Files WITHOUT SwitchCase (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSBooleanKeyword:
+     📄 Files WITH TSBooleanKeyword (showing 10):
+       • examples/angular-todomvc/server.ts
+       • packages/socket.io-parser/lib/is-binary.ts
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-client/test/typed-events.test-d.ts
+       • packages/socket.io-client/test/connection.ts
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-client/lib/manager.ts
+       • packages/socket.io-adapter/lib/in-memory-adapter.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+     📄 Files WITHOUT TSBooleanKeyword (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   ForStatement:
+     📄 Files WITH ForStatement (showing 10):
+       • examples/postgres-adapter-example/cluster.js
+       • examples/postgres-adapter-example/client.js
+       • examples/cluster-engine-redis/client.js
+       • examples/cluster-engine-node-cluster/server.js
+       • examples/cluster-engine-node-cluster/client.js
+       • packages/socket.io-parser/test/helpers.js
+       • packages/socket.io-parser/test/arraybuffer.js
+       • packages/socket.io-parser/lib/is-binary.ts
+       • packages/socket.io-parser/lib/binary.ts
+       • packages/socket.io-parser/bench/index.js
+     📄 Files WITHOUT ForStatement (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSUnionType:
+     📄 Files WITH TSUnionType (showing 10):
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-client/lib/url.ts
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-client/lib/manager.ts
+       • packages/socket.io-client/lib/index.ts
+       • packages/socket.io-adapter/lib/in-memory-adapter.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+       • packages/socket.io/test/namespaces.ts
+       • packages/socket.io/lib/typed-events.ts
+     📄 Files WITHOUT TSUnionType (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSLiteralType:
+     📄 Files WITH TSLiteralType (showing 10):
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-client/lib/manager.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+       • packages/socket.io/test/socket.io.test-d.ts
+       • packages/socket.io/lib/typed-events.ts
+       • packages/socket.io/lib/socket.ts
+       • packages/socket.io/lib/socket-types.ts
+       • packages/socket.io/lib/namespace.ts
+       • packages/socket.io/lib/index.ts
+     📄 Files WITHOUT TSLiteralType (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   ImportDefaultSpecifier:
+     📄 Files WITH ImportDefaultSpecifier (showing 10):
+       • packages/socket.io/wrapper.mjs
+       • examples/rollup-server-bundle/rollup.config.js
+       • examples/postgres-adapter-example/server.js
+       • examples/postgres-adapter-example/cluster.js
+       • examples/nextjs-pages-router/server.js
+       • examples/nextjs-app-router/server.js
+       • examples/cluster-engine-redis/server.js
+       • examples/cluster-engine-node-cluster/server.js
+       • examples/basic-websocket-client/rollup.config.js
+       • examples/basic-websocket-client/check-bundle-size.js
+     📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+       • examples/webpack-build-server/webpack.config.js
+
+   BreakStatement:
+     📄 Files WITH BreakStatement (showing 10):
+       • examples/webtransport/index.js
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-cluster-engine/test/redis.ts
+       • packages/socket.io-cluster-engine/test/in-memory.ts
+       • packages/socket.io-cluster-engine/test/cluster.ts
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-adapter/lib/in-memory-adapter.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+       • packages/socket.io/lib/socket.ts
+     📄 Files WITHOUT BreakStatement (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webpack-build-server/webpack.config.js
+
+   RestElement:
+     📄 Files WITH RestElement (showing 10):
+       • examples/nwjs-example/index.js
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-adapter/lib/in-memory-adapter.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+       • packages/socket.io/test/socket.io.test-d.ts
+       • packages/socket.io/lib/typed-events.ts
+       • packages/socket.io/lib/socket.ts
+       • packages/socket.io/lib/socket-types.ts
+       • packages/socket.io/lib/parent-namespace.ts
+     📄 Files WITHOUT RestElement (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSTypeLiteral:
+     📄 Files WITH TSTypeLiteral (showing 10):
+       • examples/ReactNativeExample/App.tsx
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-cluster-engine/lib/redis.ts
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-cluster-engine/lib/cluster.ts
+       • packages/socket.io-client/lib/url.ts
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-client/lib/manager.ts
+       • packages/socket.io-adapter/lib/in-memory-adapter.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+     📄 Files WITHOUT TSTypeLiteral (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSTypeParameterDeclaration:
+     📄 Files WITH TSTypeParameterDeclaration (showing 10):
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-client/lib/manager.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+       • packages/socket.io/test/socket.io.test-d.ts
+       • packages/socket.io/lib/typed-events.ts
+       • packages/socket.io/lib/socket.ts
+       • packages/socket.io/lib/parent-namespace.ts
+       • packages/socket.io/lib/namespace.ts
+       • packages/socket.io/lib/index.ts
+     📄 Files WITHOUT TSTypeParameterDeclaration (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSAsExpression:
+     📄 Files WITH TSAsExpression (showing 10):
+       • packages/socket.io-cluster-engine/lib/redis.ts
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-cluster-engine/lib/cluster.ts
+       • packages/socket.io-client/lib/url.ts
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-client/lib/manager.ts
+       • packages/socket.io-client/lib/index.ts
+       • packages/socket.io-adapter/test/cluster-adapter.ts
+       • packages/socket.io-adapter/lib/in-memory-adapter.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+     📄 Files WITHOUT TSAsExpression (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   ExportSpecifier:
+     📄 Files WITH ExportSpecifier (showing 10):
+       • packages/engine.io/wrapper.mjs
+       • packages/socket.io-cluster-engine/lib/index.ts
+       • packages/socket.io-client/lib/index.ts
+       • packages/socket.io-adapter/lib/index.ts
+       • packages/socket.io/lib/index.ts
+       • packages/engine.io-parser/test/util.ts
+       • packages/engine.io-parser/lib/index.ts
+       • packages/engine.io-parser/lib/encodePacket.browser.ts
+       • packages/engine.io-parser/lib/commons.ts
+       • packages/engine.io-client/lib/index.ts
+     📄 Files WITHOUT ExportSpecifier (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+       • examples/webpack-build-server/webpack.config.js
+
+   Super:
+     📄 Files WITH Super (showing 10):
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-cluster-engine/test/in-memory.ts
+       • packages/socket.io-cluster-engine/lib/redis.ts
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-cluster-engine/lib/cluster.ts
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-client/lib/manager.ts
+       • packages/socket.io-adapter/test/cluster-adapter.ts
+       • packages/socket.io-adapter/lib/in-memory-adapter.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+     📄 Files WITHOUT Super (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSInterfaceDeclaration:
+     📄 Files WITH TSInterfaceDeclaration (showing 10):
+       • examples/angular-todomvc/server.ts
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-cluster-engine/lib/redis.ts
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-client/test/typed-events.test-d.ts
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-client/lib/manager.ts
+       • packages/socket.io-adapter/lib/in-memory-adapter.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+       • packages/socket.io/test/socket.io.test-d.ts
+     📄 Files WITHOUT TSInterfaceDeclaration (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSInterfaceBody:
+     📄 Files WITH TSInterfaceBody (showing 10):
+       • examples/angular-todomvc/server.ts
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-cluster-engine/lib/redis.ts
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-client/test/typed-events.test-d.ts
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-client/lib/manager.ts
+       • packages/socket.io-adapter/lib/in-memory-adapter.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+       • packages/socket.io/test/socket.io.test-d.ts
+     📄 Files WITHOUT TSInterfaceBody (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   ClassDeclaration:
+     📄 Files WITH ClassDeclaration (showing 10):
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-cluster-engine/test/in-memory.ts
+       • packages/socket.io-cluster-engine/lib/redis.ts
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-cluster-engine/lib/cluster.ts
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-client/lib/manager.ts
+       • packages/socket.io-adapter/test/cluster-adapter.ts
+       • packages/socket.io-adapter/lib/in-memory-adapter.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+     📄 Files WITHOUT ClassDeclaration (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   ClassBody:
+     📄 Files WITH ClassBody (showing 10):
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-cluster-engine/test/in-memory.ts
+       • packages/socket.io-cluster-engine/lib/redis.ts
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-cluster-engine/lib/cluster.ts
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-client/lib/manager.ts
+       • packages/socket.io-adapter/test/cluster-adapter.ts
+       • packages/socket.io-adapter/lib/in-memory-adapter.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+     📄 Files WITHOUT ClassBody (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSThisType:
+     📄 Files WITH TSThisType (showing 9):
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-client/lib/manager.ts
+       • packages/socket.io/lib/typed-events.ts
+       • packages/socket.io/lib/socket.ts
+       • packages/socket.io/lib/namespace.ts
+       • packages/socket.io/lib/index.ts
+       • packages/socket.io/lib/broadcast-operator.ts
+       • packages/socket.io-component-emitter/lib/cjs/index.d.ts
+       • packages/socket.io-component-emitter/lib/esm/index.d.ts
+     📄 Files WITHOUT TSThisType (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSTypeAliasDeclaration:
+     📄 Files WITH TSTypeAliasDeclaration (showing 10):
+       • examples/ReactNativeExample/App.tsx
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-client/lib/url.ts
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-adapter/lib/in-memory-adapter.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+       • packages/socket.io/test/socket.ts
+       • packages/socket.io/test/socket.io.test-d.ts
+       • packages/socket.io/lib/typed-events.ts
+       • packages/socket.io/lib/socket.ts
+     📄 Files WITHOUT TSTypeAliasDeclaration (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TryStatement:
+     📄 Files WITH TryStatement (showing 10):
+       • packages/socket.io-parser/test/parser.js
+       • packages/socket.io-parser/test/index.js
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-cluster-engine/lib/redis.ts
+       • packages/socket.io-client/test/socket.ts
+       • packages/socket.io-client/test/browser-runner.ts
+       • packages/socket.io-client/lib/manager.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+       • packages/socket.io/test/socket-timeout.ts
+       • packages/socket.io/test/messaging-many.ts
+     📄 Files WITHOUT TryStatement (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSEmptyBodyFunctionExpression:
+     📄 Files WITH TSEmptyBodyFunctionExpression (showing 10):
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-client/lib/manager.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+       • packages/socket.io/lib/index.ts
+       • packages/engine.io-client/lib/transport.ts
+       • packages/engine.io-client/lib/socket.ts
+       • packages/engine.io/lib/transport.ts
+       • packages/engine.io/lib/server.ts
+       • packages/socket.io-component-emitter/lib/cjs/index.d.ts
+       • packages/socket.io-component-emitter/lib/esm/index.d.ts
+     📄 Files WITHOUT TSEmptyBodyFunctionExpression (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   CatchClause:
+     📄 Files WITH CatchClause (showing 10):
+       • packages/socket.io-parser/test/parser.js
+       • packages/socket.io-parser/test/index.js
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-cluster-engine/lib/redis.ts
+       • packages/socket.io-client/test/socket.ts
+       • packages/socket.io-client/test/browser-runner.ts
+       • packages/socket.io-client/lib/manager.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+       • packages/socket.io/test/socket-timeout.ts
+       • packages/socket.io/test/messaging-many.ts
+     📄 Files WITHOUT CatchClause (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   PrivateIdentifier:
+     📄 Files WITH PrivateIdentifier (showing 1):
+       • examples/basic-websocket-client/src/index.js
+     📄 Files WITHOUT PrivateIdentifier (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   ThrowStatement:
+     📄 Files WITH ThrowStatement (showing 10):
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-parser/lib/binary.ts
+       • packages/socket.io-client/test/socket.ts
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-adapter/test/util.ts
+       • packages/socket.io/test/socket.ts
+       • packages/socket.io/test/messaging-many.ts
+       • packages/socket.io/lib/uws.ts
+       • packages/socket.io/lib/socket.ts
+       • packages/socket.io/lib/parent-namespace.ts
+     📄 Files WITHOUT ThrowStatement (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSQualifiedName:
+     📄 Files WITH TSQualifiedName (showing 10):
+       • examples/ReactNativeExample/App.tsx
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-client/test/typed-events.test-d.ts
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+       • packages/socket.io/lib/index.ts
+       • packages/socket.io/lib/client.ts
+       • packages/engine.io-client/lib/socket.ts
+       • examples/passport-jwt-example/ts/index.ts
+       • examples/passport-example/ts/index.ts
+     📄 Files WITHOUT TSQualifiedName (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSIndexedAccessType:
+     📄 Files WITH TSIndexedAccessType (showing 5):
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io/test/socket.io.test-d.ts
+       • packages/socket.io/lib/typed-events.ts
+       • packages/socket.io-component-emitter/lib/cjs/index.d.ts
+       • packages/socket.io-component-emitter/lib/esm/index.d.ts
+     📄 Files WITHOUT TSIndexedAccessType (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   SpreadElement:
+     📄 Files WITH SpreadElement (showing 10):
+       • examples/nwjs-example/index.js
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-client/support/rollup.config.umd.msgpack.js
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-adapter/lib/in-memory-adapter.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+       • packages/socket.io/lib/typed-events.ts
+       • packages/socket.io/lib/socket.ts
+       • packages/socket.io/lib/parent-namespace.ts
+       • packages/socket.io/lib/namespace.ts
+     📄 Files WITHOUT SpreadElement (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSConditionalType:
+     📄 Files WITH TSConditionalType (showing 5):
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+       • packages/socket.io/lib/typed-events.ts
+       • packages/socket.io-component-emitter/lib/cjs/index.d.ts
+       • packages/socket.io-component-emitter/lib/esm/index.d.ts
+     📄 Files WITHOUT TSConditionalType (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSNeverKeyword:
+     📄 Files WITH TSNeverKeyword (showing 10):
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+       • packages/socket.io/test/socket.io.test-d.ts
+       • packages/socket.io/lib/typed-events.ts
+       • packages/socket.io/lib/socket-types.ts
+       • packages/socket.io/lib/namespace.ts
+       • packages/engine.io-client/lib/transport.ts
+       • packages/engine.io-client/lib/socket.ts
+       • packages/socket.io-component-emitter/lib/cjs/index.d.ts
+       • packages/socket.io-component-emitter/lib/esm/index.d.ts
+       • packages/engine.io-client/lib/transports/polling-xhr.ts
+     📄 Files WITHOUT TSNeverKeyword (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSIntersectionType:
+     📄 Files WITH TSIntersectionType (showing 10):
+       • packages/socket.io-cluster-engine/lib/redis.ts
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-cluster-engine/lib/cluster.ts
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-client/lib/manager.ts
+       • packages/socket.io-client/lib/index.ts
+       • packages/socket.io-adapter/lib/in-memory-adapter.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+       • packages/socket.io/lib/typed-events.ts
+       • packages/socket.io/lib/socket.ts
+     📄 Files WITHOUT TSIntersectionType (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   ChainExpression:
+     📄 Files WITH ChainExpression (showing 10):
+       • packages/socket.io-cluster-engine/lib/redis.ts
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-client/lib/manager.ts
+       • packages/socket.io-adapter/lib/in-memory-adapter.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+       • packages/socket.io/lib/socket.ts
+       • packages/socket.io/lib/namespace.ts
+       • packages/engine.io-client/lib/globals.node.ts
+       • packages/engine.io/test/server.js
+       • packages/engine.io-client/test/support/hooks.js
+     📄 Files WITHOUT ChainExpression (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSEnumMember:
+     📄 Files WITH TSEnumMember (showing 7):
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-client/test/typed-events.test-d.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+       • packages/socket.io/test/socket.io.test-d.ts
+       • packages/engine.io-parser/lib/index.ts
+       • examples/basic-crud-application/server/lib/util.ts
+     📄 Files WITHOUT TSEnumMember (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   ForOfStatement:
+     📄 Files WITH ForOfStatement (showing 10):
+       • packages/socket.io-parser/bench/index.js
+       • packages/socket.io-cluster-engine/test/cluster.ts
+       • packages/socket.io-cluster-engine/lib/redis.ts
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-cluster-engine/lib/cluster.ts
+       • packages/socket.io-client/support/bundle-size.js
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-client/lib/manager.ts
+       • packages/socket.io-adapter/lib/in-memory-adapter.ts
+       • packages/socket.io/test/socket.io.test-d.ts
+     📄 Files WITHOUT ForOfStatement (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   ArrayPattern:
+     📄 Files WITH ArrayPattern (showing 10):
+       • examples/ReactNativeExample/App.tsx
+       • packages/socket.io-adapter/test/cluster-adapter.ts
+       • packages/socket.io-adapter/lib/in-memory-adapter.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+       • packages/socket.io/test/v2-compatibility.ts
+       • packages/socket.io/test/connection-state-recovery.ts
+       • packages/socket.io/lib/uws.ts
+       • packages/socket.io/lib/index.ts
+       • packages/engine.io-client/lib/globals.node.ts
+       • packages/engine.io/lib/userver.ts
+     📄 Files WITHOUT ArrayPattern (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   SwitchStatement:
+     📄 Files WITH SwitchStatement (showing 10):
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-cluster-engine/test/in-memory.ts
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+       • packages/socket.io/lib/socket.ts
+       • packages/socket.io/lib/index.ts
+       • packages/socket.io/client-dist/socket.io.js
+       • packages/engine.io-parser/lib/decodePacket.ts
+       • packages/engine.io-parser/lib/decodePacket.browser.ts
+     📄 Files WITHOUT SwitchStatement (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSUnknownKeyword:
+     📄 Files WITH TSUnknownKeyword (showing 10):
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-adapter/lib/in-memory-adapter.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+       • packages/socket.io/lib/typed-events.ts
+       • packages/socket.io/lib/socket.ts
+       • packages/socket.io/lib/namespace.ts
+       • packages/socket.io/lib/client.ts
+       • packages/engine.io-client/lib/transport.ts
+       • packages/engine.io/lib/server.ts
+     📄 Files WITHOUT TSUnknownKeyword (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   AssignmentPattern:
+     📄 Files WITH AssignmentPattern (showing 10):
+       • packages/socket.io-client/lib/url.ts
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io/lib/socket.ts
+       • packages/socket.io/lib/namespace.ts
+       • packages/socket.io/lib/index.ts
+       • packages/socket.io/lib/client.ts
+       • packages/socket.io/lib/broadcast-operator.ts
+       • packages/engine.io-client/lib/transport.ts
+       • packages/engine.io-client/lib/socket.ts
+       • packages/engine.io/lib/userver.ts
+     📄 Files WITHOUT AssignmentPattern (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSMethodSignature:
+     📄 Files WITH TSMethodSignature (showing 4):
+       • packages/socket.io/lib/typed-events.ts
+       • examples/angular-todomvc/src/test.ts
+       • packages/socket.io/test/support/expectjs.d.ts
+       • packages/engine.io/lib/contrib/types.cookie.ts
+     📄 Files WITHOUT TSMethodSignature (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSInferType:
+     📄 Files WITH TSInferType (showing 2):
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io/lib/typed-events.ts
+     📄 Files WITHOUT TSInferType (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSNonNullExpression:
+     📄 Files WITH TSNonNullExpression (showing 10):
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+       • packages/socket.io/test/uws.ts
+       • packages/socket.io/test/namespaces.ts
+       • packages/socket.io/lib/uws.ts
+       • packages/socket.io/lib/socket.ts
+       • packages/socket.io/lib/namespace.ts
+       • packages/socket.io/lib/index.ts
+       • packages/socket.io/lib/client.ts
+       • examples/basic-crud-application/angular-client/src/app/app.component.ts
+       • examples/basic-crud-application/server/lib/todo-management/todo.repository.ts
+     📄 Files WITHOUT TSNonNullExpression (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSImportEqualsDeclaration:
+     📄 Files WITH TSImportEqualsDeclaration (showing 10):
+       • packages/socket.io-cluster-engine/test/util.ts
+       • packages/socket.io-cluster-engine/test/redis.ts
+       • packages/socket.io-cluster-engine/test/in-memory.ts
+       • packages/socket.io-cluster-engine/test/cluster.ts
+       • packages/socket.io-client/test/url.ts
+       • packages/socket.io-client/test/socket.ts
+       • packages/socket.io-client/test/retry.ts
+       • packages/socket.io-client/test/connection.ts
+       • packages/socket.io-client/test/connection-state-recovery.ts
+       • packages/socket.io-adapter/test/index.ts
+     📄 Files WITHOUT TSImportEqualsDeclaration (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSExternalModuleReference:
+     📄 Files WITH TSExternalModuleReference (showing 10):
+       • packages/socket.io-cluster-engine/test/util.ts
+       • packages/socket.io-cluster-engine/test/redis.ts
+       • packages/socket.io-cluster-engine/test/in-memory.ts
+       • packages/socket.io-cluster-engine/test/cluster.ts
+       • packages/socket.io-client/test/url.ts
+       • packages/socket.io-client/test/socket.ts
+       • packages/socket.io-client/test/retry.ts
+       • packages/socket.io-client/test/connection.ts
+       • packages/socket.io-client/test/connection-state-recovery.ts
+       • packages/socket.io-adapter/test/index.ts
+     📄 Files WITHOUT TSExternalModuleReference (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSInstantiationExpression:
+     📄 Files WITH TSInstantiationExpression (showing 1):
+       • packages/socket.io/test/socket.io.test-d.ts
+     📄 Files WITHOUT TSInstantiationExpression (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   WhileStatement:
+     📄 Files WITH WhileStatement (showing 10):
+       • examples/webtransport/index.js
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-cluster-engine/test/redis.ts
+       • packages/socket.io/client-dist/socket.io.js
+       • packages/engine.io-parser/lib/index.ts
+       • packages/engine.io-client/test/webtransport.mjs
+       • packages/engine.io-client/test/util.js
+       • packages/engine.io/test/webtransport.mjs
+       • packages/engine.io-client/lib/contrib/parseuri.ts
+       • packages/engine.io/lib/parser-v3/utf8.ts
+     📄 Files WITHOUT WhileStatement (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webpack-build-server/webpack.config.js
+
+   TSParameterProperty:
+     📄 Files WITH TSParameterProperty (showing 10):
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-cluster-engine/test/in-memory.ts
+       • packages/socket.io-adapter/test/cluster-adapter.ts
+       • packages/socket.io-adapter/lib/in-memory-adapter.ts
+       • packages/socket.io/test/socket.io.test-d.ts
+       • packages/socket.io/lib/socket.ts
+       • packages/socket.io/lib/broadcast-operator.ts
+       • packages/engine.io-client/lib/transport.ts
+       • packages/engine.io/lib/userver.ts
+       • packages/engine.io/lib/server.ts
+     📄 Files WITHOUT TSParameterProperty (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSTypeOperator:
+     📄 Files WITH TSTypeOperator (showing 8):
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+       • packages/socket.io/test/socket.io.test-d.ts
+       • packages/socket.io/lib/typed-events.ts
+       • packages/socket.io/lib/socket-types.ts
+       • packages/socket.io/lib/namespace.ts
+       • packages/socket.io-component-emitter/lib/cjs/index.d.ts
+       • packages/socket.io-component-emitter/lib/esm/index.d.ts
+     📄 Files WITHOUT TSTypeOperator (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSUndefinedKeyword:
+     📄 Files WITH TSUndefinedKeyword (showing 10):
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-adapter/lib/in-memory-adapter.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+       • packages/socket.io/test/socket.io.test-d.ts
+       • packages/socket.io/lib/socket.ts
+       • packages/socket.io/lib/index.ts
+       • packages/engine.io/lib/server.ts
+       • packages/engine.io-client/lib/transports/websocket.ts
+       • packages/engine.io-client/lib/transports/websocket.node.ts
+       • packages/engine.io/lib/contrib/types.cookie.ts
+     📄 Files WITHOUT TSUndefinedKeyword (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSAbstractMethodDefinition:
+     📄 Files WITH TSAbstractMethodDefinition (showing 9):
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+       • packages/engine.io-client/lib/transport.ts
+       • packages/engine.io/lib/transport.ts
+       • packages/engine.io/lib/server.ts
+       • packages/engine.io-client/lib/transports/websocket.ts
+       • packages/engine.io-client/lib/transports/polling.ts
+       • packages/engine.io-client/lib/transports/polling-xhr.ts
+       • examples/basic-crud-application/server/lib/todo-management/todo.repository.ts
+     📄 Files WITHOUT TSAbstractMethodDefinition (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSTupleType:
+     📄 Files WITH TSTupleType (showing 7):
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io/test/socket.io.test-d.ts
+       • packages/socket.io/lib/typed-events.ts
+       • packages/socket.io/lib/socket.ts
+       • packages/socket.io/lib/namespace.ts
+       • packages/socket.io-component-emitter/lib/cjs/index.d.ts
+       • packages/socket.io-component-emitter/lib/esm/index.d.ts
+     📄 Files WITHOUT TSTupleType (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   SequenceExpression:
+     📄 Files WITH SequenceExpression (showing 3):
+       • packages/socket.io/client-dist/socket.io.js
+       • packages/engine.io/test/server.js
+       • packages/socket.io-adapter/lib/contrib/yeast.ts
+     📄 Files WITHOUT SequenceExpression (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   ForInStatement:
+     📄 Files WITH ForInStatement (showing 10):
+       • packages/socket.io-parser/lib/is-binary.ts
+       • packages/socket.io-parser/lib/binary.ts
+       • packages/socket.io/client-dist/socket.io.js
+       • packages/engine.io/test/server.js
+       • packages/engine.io/lib/server.ts
+       • packages/socket.io-component-emitter/lib/cjs/index.js
+       • packages/socket.io-component-emitter/lib/esm/index.js
+       • packages/engine.io-client/lib/transports/polling-xhr.ts
+       • packages/engine.io-client/lib/contrib/parseqs.ts
+       • packages/engine.io/lib/transports-uws/polling.ts
+     📄 Files WITHOUT ForInStatement (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   JSXIdentifier:
+     📄 Files WITH JSXIdentifier (showing 2):
+       • examples/ReactNativeExample/App.tsx
+       • examples/ReactNativeExample/__tests__/App.test.tsx
+     📄 Files WITHOUT JSXIdentifier (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSParenthesizedType:
+     📄 Files WITH TSParenthesizedType (showing 10):
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+       • packages/socket.io/test/socket.io.test-d.ts
+       • packages/socket.io/lib/typed-events.ts
+       • packages/socket.io/lib/index.ts
+       • packages/engine.io-client/lib/socket.ts
+       • packages/engine.io/lib/server.ts
+       • packages/socket.io-component-emitter/lib/cjs/index.d.ts
+       • packages/socket.io-component-emitter/lib/esm/index.d.ts
+     📄 Files WITHOUT TSParenthesizedType (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   ExportDefaultDeclaration:
+     📄 Files WITH ExportDefaultDeclaration (showing 10):
+       • examples/webpack-build/webpack.config.js
+       • examples/rollup-server-bundle/rollup.config.js
+       • examples/nuxt-example/nuxt.config.ts
+       • examples/nextjs-pages-router/next.config.mjs
+       • examples/nextjs-app-router/next.config.mjs
+       • examples/basic-websocket-client/rollup.config.js
+       • examples/ReactNativeExample/App.tsx
+       • packages/socket.io-client/lib/browser-entrypoint.ts
+       • packages/engine.io-client/lib/browser-entrypoint.ts
+       • examples/private-messaging/src/socket.js
+     📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSInterfaceHeritage:
+     📄 Files WITH TSInterfaceHeritage (showing 5):
+       • packages/socket.io-cluster-engine/lib/redis.ts
+       • packages/socket.io-client/lib/manager.ts
+       • packages/socket.io/lib/namespace.ts
+       • packages/socket.io/lib/index.ts
+       • packages/socket.io/test/support/expectjs.d.ts
+     📄 Files WITHOUT TSInterfaceHeritage (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   ImportNamespaceSpecifier:
+     📄 Files WITH ImportNamespaceSpecifier (showing 10):
+       • packages/socket.io-client/lib/manager.ts
+       • packages/socket.io/test/v2-compatibility.ts
+       • packages/socket.io/lib/index.ts
+       • packages/engine.io/test/webtransport.mjs
+       • packages/engine.io/lib/transport.ts
+       • packages/engine.io/lib/server.ts
+       • packages/engine.io/lib/engine.io.ts
+       • examples/nestjs-example/test/app.e2e-spec.ts
+       • packages/engine.io-client/lib/transports/websocket.node.ts
+       • packages/engine.io-client/lib/transports/polling-xhr.node.ts
+     📄 Files WITHOUT ImportNamespaceSpecifier (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSIndexSignature:
+     📄 Files WITH TSIndexSignature (showing 8):
+       • packages/socket.io-client/lib/url.ts
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io/lib/typed-events.ts
+       • packages/socket.io/lib/socket-types.ts
+       • packages/socket.io/lib/index.ts
+       • packages/engine.io-client/lib/socket.ts
+       • packages/socket.io-component-emitter/lib/cjs/index.d.ts
+       • packages/socket.io-component-emitter/lib/esm/index.d.ts
+     📄 Files WITHOUT TSIndexSignature (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   Decorator:
+     📄 Files WITH Decorator (showing 9):
+       • examples/nestjs-example/src/app.service.ts
+       • examples/nestjs-example/src/app.module.ts
+       • examples/nestjs-example/src/app.controller.ts
+       • examples/nestjs-example/src/events/events.module.ts
+       • examples/nestjs-example/src/events/events.gateway.ts
+       • examples/angular-todomvc/src/app/app.module.ts
+       • examples/angular-todomvc/src/app/app.component.ts
+       • examples/basic-crud-application/angular-client/src/app/store.ts
+       • examples/basic-crud-application/angular-client/src/app/app.component.ts
+     📄 Files WITHOUT Decorator (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   JSXText:
+     📄 Files WITH JSXText (showing 1):
+       • examples/ReactNativeExample/App.tsx
+     📄 Files WITHOUT JSXText (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSRestType:
+     📄 Files WITH TSRestType (showing 4):
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io/lib/typed-events.ts
+       • packages/socket.io/lib/socket.ts
+       • packages/socket.io/lib/namespace.ts
+     📄 Files WITHOUT TSRestType (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSTypeQuery:
+     📄 Files WITH TSTypeQuery (showing 6):
+       • packages/socket.io-client/lib/manager.ts
+       • packages/socket.io/test/socket.io.test-d.ts
+       • packages/socket.io/lib/index.ts
+       • packages/engine.io-client/lib/transport.ts
+       • packages/engine.io-client/lib/socket.ts
+       • packages/engine.io-client/lib/transports/polling-xhr.ts
+     📄 Files WITHOUT TSTypeQuery (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSNullKeyword:
+     📄 Files WITH TSNullKeyword (showing 3):
+       • packages/socket.io/test/namespaces.ts
+       • packages/socket.io/lib/index.ts
+       • packages/engine.io/lib/server.ts
+     📄 Files WITHOUT TSNullKeyword (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSMappedType:
+     📄 Files WITH TSMappedType (showing 2):
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io/lib/typed-events.ts
+     📄 Files WITHOUT TSMappedType (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   JSXExpressionContainer:
+     📄 Files WITH JSXExpressionContainer (showing 1):
+       • examples/ReactNativeExample/App.tsx
+     📄 Files WITHOUT JSXExpressionContainer (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSModuleDeclaration:
+     📄 Files WITH TSModuleDeclaration (showing 5):
+       • packages/socket.io-client/lib/socket.ts
+       • examples/passport-jwt-example/ts/index.ts
+       • examples/passport-example/ts/index.ts
+       • examples/express-session-example/ts/index.ts
+       • packages/socket.io/test/support/expectjs.d.ts
+     📄 Files WITHOUT TSModuleDeclaration (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSModuleBlock:
+     📄 Files WITH TSModuleBlock (showing 5):
+       • packages/socket.io-client/lib/socket.ts
+       • examples/passport-jwt-example/ts/index.ts
+       • examples/passport-example/ts/index.ts
+       • examples/express-session-example/ts/index.ts
+       • packages/socket.io/test/support/expectjs.d.ts
+     📄 Files WITHOUT TSModuleBlock (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   EmptyStatement:
+     📄 Files WITH EmptyStatement (showing 1):
+       • packages/engine.io/lib/parser-v3/index.ts
+     📄 Files WITHOUT EmptyStatement (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   JSXElement:
+     📄 Files WITH JSXElement (showing 2):
+       • examples/ReactNativeExample/App.tsx
+       • examples/ReactNativeExample/__tests__/App.test.tsx
+     📄 Files WITHOUT JSXElement (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   JSXOpeningElement:
+     📄 Files WITH JSXOpeningElement (showing 2):
+       • examples/ReactNativeExample/App.tsx
+       • examples/ReactNativeExample/__tests__/App.test.tsx
+     📄 Files WITHOUT JSXOpeningElement (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSEnumDeclaration:
+     📄 Files WITH TSEnumDeclaration (showing 7):
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-client/test/typed-events.test-d.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+       • packages/socket.io/test/socket.io.test-d.ts
+       • packages/engine.io-parser/lib/index.ts
+       • examples/basic-crud-application/server/lib/util.ts
+     📄 Files WITHOUT TSEnumDeclaration (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSEnumBody:
+     📄 Files WITH TSEnumBody (showing 7):
+       • packages/socket.io-parser/lib/index.ts
+       • packages/socket.io-cluster-engine/lib/engine.ts
+       • packages/socket.io-client/test/typed-events.test-d.ts
+       • packages/socket.io-adapter/lib/cluster-adapter.ts
+       • packages/socket.io/test/socket.io.test-d.ts
+       • packages/engine.io-parser/lib/index.ts
+       • examples/basic-crud-application/server/lib/util.ts
+     📄 Files WITHOUT TSEnumBody (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   JSXClosingElement:
+     📄 Files WITH JSXClosingElement (showing 1):
+       • examples/ReactNativeExample/App.tsx
+     📄 Files WITHOUT JSXClosingElement (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   ContinueStatement:
+     📄 Files WITH ContinueStatement (showing 4):
+       • packages/socket.io-adapter/lib/in-memory-adapter.ts
+       • packages/socket.io/client-dist/socket.io.js
+       • packages/engine.io-client/lib/globals.node.ts
+       • packages/engine.io/lib/parser-v3/index.ts
+     📄 Files WITHOUT ContinueStatement (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   MetaProperty:
+     📄 Files WITH MetaProperty (showing 6):
+       • examples/passport-jwt-example/ts/index.ts
+       • examples/passport-jwt-example/esm/index.js
+       • examples/passport-example/ts/index.ts
+       • examples/passport-example/esm/index.js
+       • examples/express-session-example/ts/index.ts
+       • examples/express-session-example/esm/index.js
+     📄 Files WITHOUT MetaProperty (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSObjectKeyword:
+     📄 Files WITH TSObjectKeyword (showing 3):
+       • packages/socket.io-client/lib/socket.ts
+       • packages/socket.io/lib/socket.ts
+       • packages/engine.io/lib/server.ts
+     📄 Files WITHOUT TSObjectKeyword (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   JSXAttribute:
+     📄 Files WITH JSXAttribute (showing 1):
+       • examples/ReactNativeExample/App.tsx
+     📄 Files WITHOUT JSXAttribute (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSCallSignatureDeclaration:
+     📄 Files WITH TSCallSignatureDeclaration (showing 2):
+       • examples/angular-todomvc/src/test.ts
+       • packages/socket.io/test/support/expectjs.d.ts
+     📄 Files WITHOUT TSCallSignatureDeclaration (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   ImportExpression:
+     📄 Files WITH ImportExpression (showing 4):
+       • docs/socket.io-protocol/v5-test-suite/test-suite.js
+       • docs/engine.io-protocol/v4-test-suite/test-suite.js
+       • docs/engine.io-protocol/v3-test-suite/test-suite.js
+       • examples/basic-crud-application/server-postgres-cluster/lib/cluster.js
+     📄 Files WITHOUT ImportExpression (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSDeclareFunction:
+     📄 Files WITH TSDeclareFunction (showing 2):
+       • packages/socket.io-client/lib/index.ts
+       • packages/socket.io/test/support/expectjs.d.ts
+     📄 Files WITHOUT TSDeclareFunction (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSSymbolKeyword:
+     📄 Files WITH TSSymbolKeyword (showing 3):
+       • packages/socket.io/lib/typed-events.ts
+       • packages/socket.io-component-emitter/lib/cjs/index.d.ts
+       • packages/socket.io-component-emitter/lib/esm/index.d.ts
+     📄 Files WITHOUT TSSymbolKeyword (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSClassImplements:
+     📄 Files WITH TSClassImplements (showing 2):
+       • packages/socket.io/lib/typed-events.ts
+       • packages/socket.io/lib/broadcast-operator.ts
+     📄 Files WITHOUT TSClassImplements (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSTypeAssertion:
+     📄 Files WITH TSTypeAssertion (showing 2):
+       • packages/socket.io/lib/socket-types.ts
+       • packages/socket.io/lib/namespace.ts
+     📄 Files WITHOUT TSTypeAssertion (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   DoWhileStatement:
+     📄 Files WITH DoWhileStatement (showing 2):
+       • examples/private-messaging/server/sessionStore.js
+       • packages/socket.io-adapter/lib/contrib/yeast.ts
+     📄 Files WITHOUT DoWhileStatement (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSConstructSignatureDeclaration:
+     📄 Files WITH TSConstructSignatureDeclaration (showing 1):
+       • packages/engine.io-client/lib/socket.ts
+     📄 Files WITHOUT TSConstructSignatureDeclaration (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSTypePredicate:
+     📄 Files WITH TSTypePredicate (showing 1):
+       • packages/socket.io/test/support/util.ts
+     📄 Files WITHOUT TSTypePredicate (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+   TSExportAssignment:
+     📄 Files WITH TSExportAssignment (showing 1):
+       • packages/socket.io/test/support/expectjs.d.ts
+     📄 Files WITHOUT TSExportAssignment (showing 10):
+       • packages/socket.io-parser/wdio.conf.js
+       • packages/socket.io-parser/babel.config.js
+       • packages/socket.io-client/wdio.conf.js
+       • packages/socket.io-client/babel.config.js
+       • packages/socket.io/wrapper.mjs
+       • packages/engine.io-parser/zuul.config.js
+       • packages/engine.io-parser/test.js
+       • packages/engine.io/wrapper.mjs
+       • examples/whiteboard/index.js
+       • examples/webtransport/index.js
+
+============================================================
+✅ Analysis complete!
+
+
+Warnings/Errors:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/socket.io/examples/expo-example/App.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/socket.io/examples/create-react-app-example/src/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/socket.io/examples/create-react-app-example/src/App.test.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/socket.io/examples/create-react-app-example/src/App.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/socket.io/examples/nextjs-pages-router/src/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/socket.io/examples/nextjs-pages-router/src/pages/_document.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/socket.io/examples/nextjs-pages-router/src/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/socket.io/examples/nextjs-app-router/src/app/page.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/socket.io/examples/nextjs-app-router/src/app/layout.js:
+   Unexpected token

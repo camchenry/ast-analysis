@@ -1,5 +1,5 @@
 AST Analysis Report for immutable-js
-Generated on: 2025-07-14T01:41:59.035Z
+Generated on: 2025-07-14T01:56:23.797Z
 Repository: sample-repos/immutable-js
 ================================================================================
 
@@ -303,11 +303,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
      📄 Files WITHOUT Identifier (showing 7):
        • website/next-env.d.ts
        • type-definitions/flow-tests/record.js
@@ -322,20 +322,20 @@ Repository: sample-repos/immutable-js
        • eslint.config.mjs
        • website/next.config.mjs
        • website/next-sitemap.config.js
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
-       • src/Set.js
-       • src/Seq.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
+       • resources/jestResolver.js
+       • resources/jestPreprocessor.js
      📄 Files WITHOUT CallExpression (showing 10):
        • jest.config.mjs
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
+       • resources/react-global.js
        • src/PairSorting.ts
        • src/Immutable.js
-       • resources/react-global.js
        • website/src/SVGSet.tsx
        • website/src/Logo.tsx
        • website/src/DocHeader.tsx
@@ -348,11 +348,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
      📄 Files WITHOUT Literal (showing 10):
        • website/next-env.d.ts
        • resources/react-global.js
@@ -370,13 +370,13 @@ Repository: sample-repos/immutable-js
        • eslint.config.mjs
        • website/next-sitemap.config.js
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
-       • src/Set.js
-       • src/Seq.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
+       • resources/react-global.js
+       • resources/jestResolver.js
      📄 Files WITHOUT MemberExpression (showing 10):
        • jest.config.mjs
        • website/next.config.mjs
@@ -392,25 +392,25 @@ Repository: sample-repos/immutable-js
    ExpressionStatement:
      📄 Files WITH ExpressionStatement (showing 10):
        • website/next-sitemap.config.js
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
-       • src/Set.js
-       • src/Seq.js
-       • src/Repeat.js
-       • src/Record.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/react-global.js
+       • resources/jestResolver.js
+       • resources/jestPreprocessor.js
+       • resources/dist-stats.mjs
+       • resources/check-build-output.mjs
      📄 Files WITHOUT ExpressionStatement (showing 10):
        • jest.config.mjs
        • eslint.config.mjs
        • website/next.config.mjs
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/PairSorting.ts
-       • src/Immutable.js
        • resources/rollup-config.mjs
        • resources/copyright.mjs
+       • src/PairSorting.ts
+       • src/Immutable.js
        • website/src/SVGSet.tsx
 
    TSTypeReference:
@@ -431,11 +431,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/Stack.js
-       • src/Set.js
-       • src/Seq.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    TSTypeAnnotation:
      📄 Files WITH TSTypeAnnotation (showing 10):
@@ -455,11 +455,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/fromJS.js
-       • src/Stack.js
-       • src/Set.js
-       • src/Seq.js
-       • src/Repeat.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    TSTypeParameterInstantiation:
      📄 Files WITH TSTypeParameterInstantiation (showing 10):
@@ -479,24 +479,24 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/Stack.js
-       • src/Set.js
-       • src/Seq.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    BlockStatement:
      📄 Files WITH BlockStatement (showing 10):
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/jestResolver.js
+       • resources/jestPreprocessor.js
+       • resources/dist-stats.mjs
+       • resources/check-build-output.mjs
+       • resources/benchmark.js
        • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
-       • src/Set.js
-       • src/Seq.js
-       • src/Repeat.js
-       • src/Record.js
-       • src/Range.js
      📄 Files WITHOUT BlockStatement (showing 10):
        • jest.config.mjs
        • eslint.config.mjs
@@ -504,10 +504,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/PairSorting.ts
-       • src/Immutable.js
        • resources/rollup-config.mjs
        • resources/react-global.js
+       • resources/copyright.mjs
+       • src/PairSorting.ts
 
    Property:
      📄 Files WITH Property (showing 10):
@@ -515,44 +515,44 @@ Repository: sample-repos/immutable-js
        • eslint.config.mjs
        • website/next.config.mjs
        • website/next-sitemap.config.js
+       • resources/rollup-config.mjs
+       • resources/jestPreprocessor.js
+       • resources/benchmark.js
        • src/fromJS.js
        • src/TrieUtils.ts
        • src/Stack.js
-       • src/Record.js
-       • src/PairSorting.ts
-       • src/Map.js
      📄 Files WITHOUT Property (showing 10):
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/Set.js
-       • src/Seq.js
-       • src/Repeat.js
-       • src/Range.js
-       • src/OrderedSet.js
-       • src/OrderedMap.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/react-global.js
+       • resources/jestResolver.js
+       • resources/dist-stats.mjs
+       • resources/copyright.mjs
 
    VariableDeclarator:
      📄 Files WITH VariableDeclarator (showing 10):
        • jest.config.mjs
        • website/next.config.mjs
        • website/next-sitemap.config.js
-       • src/toJS.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
-       • src/Set.js
-       • src/Seq.js
-       • src/Repeat.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
+       • resources/jestResolver.js
+       • resources/jestPreprocessor.js
      📄 Files WITHOUT VariableDeclarator (showing 10):
        • eslint.config.mjs
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
+       • resources/react-global.js
        • src/is.ts
        • src/CollectionHelperMethods.ts
        • src/Collection.js
-       • resources/react-global.js
        • __tests__/ts-utils.ts
        • __tests__/sort.ts
        • __tests__/find.ts
@@ -562,21 +562,21 @@ Repository: sample-repos/immutable-js
        • jest.config.mjs
        • website/next.config.mjs
        • website/next-sitemap.config.js
-       • src/toJS.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
-       • src/Set.js
-       • src/Seq.js
-       • src/Repeat.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
+       • resources/jestResolver.js
+       • resources/jestPreprocessor.js
      📄 Files WITHOUT VariableDeclaration (showing 10):
        • eslint.config.mjs
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
+       • resources/react-global.js
        • src/is.ts
        • src/CollectionHelperMethods.ts
        • src/Collection.js
-       • resources/react-global.js
        • __tests__/ts-utils.ts
        • __tests__/sort.ts
        • __tests__/find.ts
@@ -599,35 +599,35 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/Stack.js
-       • src/Set.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    ArrowFunctionExpression:
      📄 Files WITH ArrowFunctionExpression (showing 10):
        • website/next-sitemap.config.js
-       • src/toJS.ts
-       • src/fromJS.js
-       • src/Stack.js
-       • src/Set.js
-       • src/Seq.js
-       • src/Repeat.js
-       • src/Record.js
-       • src/Range.js
-       • src/OrderedSet.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/jestResolver.js
+       • resources/jestPreprocessor.js
+       • resources/dist-stats.mjs
+       • resources/copyright.mjs
+       • resources/check-build-output.mjs
      📄 Files WITHOUT ArrowFunctionExpression (showing 10):
        • jest.config.mjs
        • eslint.config.mjs
        • website/next.config.mjs
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
+       • resources/rollup-config.mjs
+       • resources/react-global.js
        • src/is.ts
        • src/TrieUtils.ts
        • src/PairSorting.ts
-       • src/Math.ts
-       • src/Iterator.ts
 
    ArrayExpression:
      📄 Files WITH ArrayExpression (showing 10):
@@ -635,36 +635,36 @@ Repository: sample-repos/immutable-js
        • eslint.config.mjs
        • website/next.config.mjs
        • website/next-sitemap.config.js
-       • src/toJS.ts
-       • src/fromJS.js
-       • src/Set.js
-       • src/Seq.js
-       • src/Record.js
-       • src/OrderedMap.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
+       • resources/jestPreprocessor.js
      📄 Files WITHOUT ArrayExpression (showing 10):
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
+       • resources/react-global.js
+       • resources/jestResolver.js
+       • resources/copyright.mjs
        • src/is.ts
        • src/TrieUtils.ts
        • src/Stack.js
        • src/Repeat.js
        • src/Range.js
-       • src/PairSorting.ts
-       • src/OrderedSet.js
-       • src/Math.ts
 
    BinaryExpression:
      📄 Files WITH BinaryExpression (showing 10):
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/jestResolver.js
+       • resources/dist-stats.mjs
+       • resources/check-build-output.mjs
+       • resources/benchmark.js
        • src/toJS.ts
        • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
-       • src/Set.js
-       • src/Seq.js
-       • src/Repeat.js
-       • src/Record.js
-       • src/Range.js
      📄 Files WITHOUT BinaryExpression (showing 10):
        • jest.config.mjs
        • eslint.config.mjs
@@ -672,10 +672,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/PairSorting.ts
-       • src/Immutable.js
-       • src/Collection.js
        • resources/rollup-config.mjs
+       • resources/react-global.js
+       • resources/jestPreprocessor.js
+       • resources/copyright.mjs
 
    ObjectExpression:
      📄 Files WITH ObjectExpression (showing 10):
@@ -683,27 +683,28 @@ Repository: sample-repos/immutable-js
        • eslint.config.mjs
        • website/next.config.mjs
        • website/next-sitemap.config.js
-       • src/toJS.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
-       • src/Record.js
-       • src/PairSorting.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • resources/rollup-config.mjs
+       • resources/jestPreprocessor.js
+       • resources/benchmark.js
      📄 Files WITHOUT ObjectExpression (showing 10):
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
+       • perf/List.js
+       • resources/react-global.js
+       • resources/jestResolver.js
+       • resources/dist-stats.mjs
+       • resources/copyright.mjs
+       • resources/check-build-output.mjs
        • src/is.ts
        • src/Set.js
-       • src/Seq.js
-       • src/Repeat.js
-       • src/Range.js
-       • src/OrderedSet.js
-       • src/OrderedMap.js
-       • src/Operations.js
 
    ImportSpecifier:
      📄 Files WITH ImportSpecifier (showing 10):
        • eslint.config.mjs
+       • resources/dist-stats.mjs
        • src/toJS.ts
        • src/is.ts
        • src/fromJS.js
@@ -712,31 +713,30 @@ Repository: sample-repos/immutable-js
        • src/Set.js
        • src/Seq.js
        • src/Repeat.js
-       • src/Record.js
      📄 Files WITHOUT ImportSpecifier (showing 10):
        • jest.config.mjs
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/PairSorting.ts
-       • src/Math.ts
-       • src/Iterator.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
        • resources/rollup-config.mjs
-       • resources/react-global.js
 
    ReturnStatement:
      📄 Files WITH ReturnStatement (showing 10):
+       • resources/jestResolver.js
+       • resources/jestPreprocessor.js
+       • resources/dist-stats.mjs
+       • resources/benchmark.js
        • src/toJS.ts
        • src/is.ts
        • src/fromJS.js
        • src/TrieUtils.ts
        • src/Stack.js
        • src/Set.js
-       • src/Seq.js
-       • src/Repeat.js
-       • src/Record.js
-       • src/Range.js
      📄 Files WITHOUT ReturnStatement (showing 10):
        • jest.config.mjs
        • eslint.config.mjs
@@ -744,10 +744,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/PairSorting.ts
-       • src/Immutable.js
-       • resources/rollup-config.mjs
-       • resources/react-global.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    JSXIdentifier:
      📄 Files WITH JSXIdentifier (showing 10):
@@ -768,10 +768,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    TSStringKeyword:
      📄 Files WITH TSStringKeyword (showing 10):
@@ -791,38 +791,39 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
-       • src/Set.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    AssignmentExpression:
      📄 Files WITH AssignmentExpression (showing 10):
        • website/next-sitemap.config.js
-       • src/toJS.ts
-       • src/is.ts
-       • src/TrieUtils.ts
-       • src/Stack.js
-       • src/Set.js
-       • src/Seq.js
-       • src/Repeat.js
-       • src/Record.js
-       • src/Range.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/react-global.js
+       • resources/jestResolver.js
+       • resources/jestPreprocessor.js
+       • resources/dist-stats.mjs
+       • resources/benchmark.js
      📄 Files WITHOUT AssignmentExpression (showing 10):
        • jest.config.mjs
        • eslint.config.mjs
        • website/next.config.mjs
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/fromJS.js
-       • src/PairSorting.ts
-       • src/Immutable.js
        • resources/rollup-config.mjs
        • resources/copyright.mjs
+       • resources/check-build-output.mjs
+       • src/fromJS.js
+       • src/PairSorting.ts
 
    ThisExpression:
      📄 Files WITH ThisExpression (showing 10):
+       • resources/benchmark.js
        • src/Stack.js
        • src/Set.js
        • src/Seq.js
@@ -832,7 +833,6 @@ Repository: sample-repos/immutable-js
        • src/OrderedSet.js
        • src/OrderedMap.js
        • src/Operations.js
-       • src/Map.js
      📄 Files WITHOUT ThisExpression (showing 10):
        • jest.config.mjs
        • eslint.config.mjs
@@ -840,10 +840,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    TSUnknownKeyword:
      📄 Files WITH TSUnknownKeyword (showing 10):
@@ -863,35 +863,35 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/fromJS.js
-       • src/Stack.js
-       • src/Set.js
-       • src/Seq.js
-       • src/Repeat.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    ImportDeclaration:
      📄 Files WITH ImportDeclaration (showing 10):
        • eslint.config.mjs
        • website/next.config.mjs
+       • resources/rollup-config.mjs
+       • resources/dist-stats.mjs
+       • resources/copyright.mjs
+       • resources/check-build-output.mjs
        • src/toJS.ts
        • src/is.ts
        • src/fromJS.js
        • src/TrieUtils.ts
-       • src/Stack.js
-       • src/Set.js
-       • src/Seq.js
-       • src/Repeat.js
      📄 Files WITHOUT ImportDeclaration (showing 10):
        • jest.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/PairSorting.ts
-       • src/Math.ts
-       • src/Iterator.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
        • resources/react-global.js
        • resources/jestResolver.js
-       • resources/jestPreprocessor.js
 
    TSTypeParameter:
      📄 Files WITH TSTypeParameter (showing 10):
@@ -911,11 +911,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    JSXText:
      📄 Files WITH JSXText (showing 10):
@@ -936,23 +936,23 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    IfStatement:
      📄 Files WITH IfStatement (showing 10):
+       • resources/jestResolver.js
+       • resources/jestPreprocessor.js
+       • resources/dist-stats.mjs
+       • resources/check-build-output.mjs
+       • resources/benchmark.js
        • src/toJS.ts
        • src/is.ts
        • src/fromJS.js
        • src/TrieUtils.ts
        • src/Stack.js
-       • src/Set.js
-       • src/Seq.js
-       • src/Repeat.js
-       • src/Record.js
-       • src/Range.js
      📄 Files WITHOUT IfStatement (showing 10):
        • jest.config.mjs
        • eslint.config.mjs
@@ -960,10 +960,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/PairSorting.ts
-       • src/OrderedSet.js
-       • src/Math.ts
-       • src/Immutable.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    TSUnionType:
      📄 Files WITH TSUnionType (showing 10):
@@ -983,24 +983,24 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
-       • src/Set.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    FunctionExpression:
      📄 Files WITH FunctionExpression (showing 10):
+       • perf/Map.js
+       • perf/List.js
+       • resources/jestPreprocessor.js
+       • resources/benchmark.js
        • src/Stack.js
        • src/Set.js
        • src/Seq.js
        • src/Repeat.js
        • src/Record.js
        • src/Range.js
-       • src/OrderedSet.js
-       • src/OrderedMap.js
-       • src/Operations.js
-       • src/Math.ts
      📄 Files WITHOUT FunctionExpression (showing 10):
        • jest.config.mjs
        • eslint.config.mjs
@@ -1008,10 +1008,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • resources/rollup-config.mjs
+       • resources/react-global.js
 
    TSMethodSignature:
      📄 Files WITH TSMethodSignature (showing 1):
@@ -1022,11 +1022,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    JSXAttribute:
      📄 Files WITH JSXAttribute (showing 10):
@@ -1047,23 +1047,23 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    LogicalExpression:
      📄 Files WITH LogicalExpression (showing 10):
+       • resources/jestPreprocessor.js
+       • resources/dist-stats.mjs
+       • resources/check-build-output.mjs
+       • resources/benchmark.js
        • src/toJS.ts
        • src/is.ts
        • src/fromJS.js
        • src/TrieUtils.ts
        • src/Stack.js
        • src/Set.js
-       • src/Seq.js
-       • src/Record.js
-       • src/Range.js
-       • src/OrderedSet.js
      📄 Files WITHOUT LogicalExpression (showing 10):
        • jest.config.mjs
        • eslint.config.mjs
@@ -1071,10 +1071,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/Repeat.js
-       • src/PairSorting.ts
-       • src/Immutable.js
-       • src/CollectionHelperMethods.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    TSTypeParameterDeclaration:
      📄 Files WITH TSTypeParameterDeclaration (showing 10):
@@ -1094,14 +1094,16 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    ParenthesizedExpression:
      📄 Files WITH ParenthesizedExpression (showing 10):
+       • resources/dist-stats.mjs
+       • resources/benchmark.js
        • src/is.ts
        • src/fromJS.js
        • src/TrieUtils.ts
@@ -1110,8 +1112,6 @@ Repository: sample-repos/immutable-js
        • src/Seq.js
        • src/Repeat.js
        • src/Record.js
-       • src/Range.js
-       • src/OrderedSet.js
      📄 Files WITHOUT ParenthesizedExpression (showing 10):
        • jest.config.mjs
        • eslint.config.mjs
@@ -1119,34 +1119,34 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/PairSorting.ts
-       • src/Immutable.js
-       • src/CollectionHelperMethods.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    UnaryExpression:
      📄 Files WITH UnaryExpression (showing 10):
        • type-definitions/immutable.d.ts
+       • resources/jestPreprocessor.js
+       • resources/dist-stats.mjs
+       • resources/check-build-output.mjs
+       • resources/benchmark.js
        • src/toJS.ts
        • src/is.ts
        • src/fromJS.js
        • src/TrieUtils.ts
        • src/Stack.js
-       • src/Set.js
-       • src/Seq.js
-       • src/Repeat.js
-       • src/Record.js
      📄 Files WITHOUT UnaryExpression (showing 10):
        • jest.config.mjs
        • eslint.config.mjs
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/OrderedSet.js
-       • src/Immutable.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
        • resources/rollup-config.mjs
-       • resources/react-global.js
-       • resources/jestResolver.js
 
    TSPropertySignature:
      📄 Files WITH TSPropertySignature (showing 10):
@@ -1166,11 +1166,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/Stack.js
-       • src/Set.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    JSXExpressionContainer:
      📄 Files WITH JSXExpressionContainer (showing 10):
@@ -1191,13 +1191,16 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    FunctionDeclaration:
      📄 Files WITH FunctionDeclaration (showing 10):
+       • resources/jestPreprocessor.js
+       • resources/dist-stats.mjs
+       • resources/benchmark.js
        • src/toJS.ts
        • src/is.ts
        • src/fromJS.js
@@ -1205,9 +1208,6 @@ Repository: sample-repos/immutable-js
        • src/Stack.js
        • src/Set.js
        • src/Seq.js
-       • src/Record.js
-       • src/OrderedSet.js
-       • src/OrderedMap.js
      📄 Files WITHOUT FunctionDeclaration (showing 10):
        • jest.config.mjs
        • eslint.config.mjs
@@ -1215,13 +1215,15 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/Repeat.js
-       • src/Range.js
-       • src/PairSorting.ts
-       • src/Immutable.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    ConditionalExpression:
      📄 Files WITH ConditionalExpression (showing 10):
+       • resources/dist-stats.mjs
+       • resources/benchmark.js
        • src/fromJS.js
        • src/TrieUtils.ts
        • src/Stack.js
@@ -1230,8 +1232,6 @@ Repository: sample-repos/immutable-js
        • src/Repeat.js
        • src/Record.js
        • src/Range.js
-       • src/OrderedSet.js
-       • src/OrderedMap.js
      📄 Files WITHOUT ConditionalExpression (showing 10):
        • jest.config.mjs
        • eslint.config.mjs
@@ -1239,10 +1239,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/PairSorting.ts
-       • src/Immutable.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    JSXElement:
      📄 Files WITH JSXElement (showing 10):
@@ -1263,10 +1263,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    JSXOpeningElement:
      📄 Files WITH JSXOpeningElement (showing 10):
@@ -1287,19 +1287,19 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    Unknown:
      📄 Files WITH Unknown (showing 10):
        • website/next-sitemap.config.js
-       • src/Range.js
        • resources/jestResolver.js
        • resources/dist-stats.mjs
        • resources/copyright.mjs
        • resources/benchmark.js
+       • src/Range.js
        • __tests__/utils.js
        • __tests__/merge.ts
        • __tests__/issues.ts
@@ -1310,19 +1310,19 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    TemplateElement:
      📄 Files WITH TemplateElement (showing 10):
        • website/next-sitemap.config.js
-       • src/Range.js
        • resources/jestResolver.js
        • resources/dist-stats.mjs
        • resources/copyright.mjs
+       • src/Range.js
        • __tests__/utils.js
        • __tests__/merge.ts
        • __tests__/issues.ts
@@ -1334,11 +1334,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    ExportNamedDeclaration:
      📄 Files WITH ExportNamedDeclaration (showing 10):
@@ -1358,11 +1358,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
        • resources/rollup-config.mjs
-       • resources/react-global.js
-       • resources/jestResolver.js
-       • resources/jestPreprocessor.js
-       • resources/dist-stats.mjs
 
    TSTypeLiteral:
      📄 Files WITH TSTypeLiteral (showing 10):
@@ -1382,11 +1382,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/Stack.js
-       • src/Set.js
-       • src/Seq.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    TSThisType:
      📄 Files WITH TSThisType (showing 1):
@@ -1397,11 +1397,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    TSQualifiedName:
      📄 Files WITH TSQualifiedName (showing 10):
@@ -1421,11 +1421,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    Program:
      📄 Files WITH Program (showing 10):
@@ -1435,10 +1435,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
      📄 Files WITHOUT Program: (all files contain this node type)
 
    TSFunctionType:
@@ -1459,11 +1459,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    MethodDefinition:
      📄 Files WITH MethodDefinition (showing 10):
@@ -1484,10 +1484,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    JSXClosingElement:
      📄 Files WITH JSXClosingElement (showing 10):
@@ -1508,13 +1508,16 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    NewExpression:
      📄 Files WITH NewExpression (showing 10):
+       • resources/jestPreprocessor.js
+       • resources/dist-stats.mjs
+       • resources/benchmark.js
        • src/fromJS.js
        • src/Stack.js
        • src/Seq.js
@@ -1522,9 +1525,6 @@ Repository: sample-repos/immutable-js
        • src/Record.js
        • src/Range.js
        • src/Operations.js
-       • src/Map.js
-       • src/List.js
-       • src/Hash.ts
      📄 Files WITHOUT NewExpression (showing 10):
        • jest.config.mjs
        • eslint.config.mjs
@@ -1532,10 +1532,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/TrieUtils.ts
-       • src/Set.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    TSDeclareFunction:
      📄 Files WITH TSDeclareFunction (showing 10):
@@ -1555,11 +1555,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
-       • src/Set.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    TSTupleType:
      📄 Files WITH TSTupleType (showing 10):
@@ -1579,24 +1579,24 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    UpdateExpression:
      📄 Files WITH UpdateExpression (showing 10):
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
        • src/Stack.js
        • src/Set.js
        • src/Seq.js
        • src/Repeat.js
        • src/Record.js
        • src/Range.js
-       • src/Operations.js
-       • src/Map.js
-       • src/List.js
-       • src/Hash.ts
      📄 Files WITHOUT UpdateExpression (showing 10):
        • jest.config.mjs
        • eslint.config.mjs
@@ -1604,10 +1604,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • resources/rollup-config.mjs
+       • resources/react-global.js
+       • resources/jestResolver.js
+       • resources/jestPreprocessor.js
 
    TSUndefinedKeyword:
      📄 Files WITH TSUndefinedKeyword (showing 10):
@@ -1627,19 +1627,19 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    TemplateLiteral:
      📄 Files WITH TemplateLiteral (showing 10):
        • website/next-sitemap.config.js
-       • src/Range.js
        • resources/jestResolver.js
        • resources/dist-stats.mjs
        • resources/copyright.mjs
+       • src/Range.js
        • __tests__/utils.js
        • __tests__/merge.ts
        • __tests__/issues.ts
@@ -1651,35 +1651,35 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    ImportDefaultSpecifier:
      📄 Files WITH ImportDefaultSpecifier (showing 10):
        • eslint.config.mjs
        • website/next.config.mjs
+       • resources/rollup-config.mjs
+       • resources/dist-stats.mjs
+       • resources/copyright.mjs
+       • resources/check-build-output.mjs
        • src/toJS.ts
        • src/fromJS.js
        • src/Stack.js
        • src/Set.js
-       • src/Seq.js
-       • src/Repeat.js
-       • src/Record.js
-       • src/Range.js
      📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
        • jest.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/is.ts
-       • src/TrieUtils.ts
-       • src/PairSorting.ts
-       • src/Operations.js
-       • src/Math.ts
-       • src/Iterator.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/react-global.js
+       • resources/jestResolver.js
 
    RestElement:
      📄 Files WITH RestElement (showing 10):
@@ -1699,11 +1699,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    TSTypeAliasDeclaration:
      📄 Files WITH TSTypeAliasDeclaration (showing 10):
@@ -1723,11 +1723,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/Stack.js
-       • src/Set.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    TSBooleanKeyword:
      📄 Files WITH TSBooleanKeyword (showing 10):
@@ -1747,11 +1747,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/fromJS.js
-       • src/Stack.js
-       • src/Set.js
-       • src/Seq.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    TSTypePredicate:
      📄 Files WITH TSTypePredicate (showing 10):
@@ -1771,11 +1771,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    TSAsExpression:
      📄 Files WITH TSAsExpression (showing 10):
@@ -1796,10 +1796,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    TSIndexedAccessType:
      📄 Files WITH TSIndexedAccessType (showing 7):
@@ -1816,11 +1816,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    SwitchCase:
      📄 Files WITH SwitchCase (showing 3):
@@ -1834,10 +1834,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    TSTypeOperator:
      📄 Files WITH TSTypeOperator (showing 9):
@@ -1856,11 +1856,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    TSIndexSignature:
      📄 Files WITH TSIndexSignature (showing 10):
@@ -1880,24 +1880,24 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
-       • src/Set.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    ForStatement:
      📄 Files WITH ForStatement (showing 10):
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
        • src/Stack.js
        • src/Set.js
        • src/Record.js
        • src/Map.js
        • src/List.js
        • src/Hash.ts
-       • perf/toJS.js
-       • perf/Record.js
-       • perf/Map.js
-       • perf/List.js
      📄 Files WITHOUT ForStatement (showing 10):
        • jest.config.mjs
        • eslint.config.mjs
@@ -1905,10 +1905,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • resources/rollup-config.mjs
+       • resources/react-global.js
+       • resources/jestResolver.js
+       • resources/jestPreprocessor.js
 
    ObjectPattern:
      📄 Files WITH ObjectPattern (showing 10):
@@ -1928,11 +1928,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    ClassDeclaration:
      📄 Files WITH ClassDeclaration (showing 10):
@@ -1953,10 +1953,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    ClassBody:
      📄 Files WITH ClassBody (showing 10):
@@ -1977,10 +1977,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    ChainExpression:
      📄 Files WITH ChainExpression (showing 10):
@@ -1990,8 +1990,8 @@ Repository: sample-repos/immutable-js
        • type-definitions/ts-tests/map.ts
        • type-definitions/ts-tests/list.ts
        • __tests__/functional/update.ts
-       • website/src/worker/normalizeResult.ts
        • website/src/utils/doc.tsx
+       • website/src/worker/normalizeResult.ts
        • website/src/sidebar/Sidebar.tsx
        • website/src/sidebar/Focus.tsx
      📄 Files WITHOUT ChainExpression (showing 10):
@@ -2001,10 +2001,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    TSObjectKeyword:
      📄 Files WITH TSObjectKeyword (showing 10):
@@ -2024,11 +2024,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    ExportSpecifier:
      📄 Files WITH ExportSpecifier (showing 3):
@@ -2042,10 +2042,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    TSLiteralType:
      📄 Files WITH TSLiteralType (showing 10):
@@ -2065,11 +2065,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/Stack.js
-       • src/Set.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    ExportDefaultDeclaration:
      📄 Files WITH ExportDefaultDeclaration (showing 10):
@@ -2087,23 +2087,23 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
-       • src/Set.js
-       • src/Seq.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/react-global.js
+       • resources/jestResolver.js
+       • resources/jestPreprocessor.js
 
    ThrowStatement:
      📄 Files WITH ThrowStatement (showing 10):
+       • resources/jestPreprocessor.js
+       • resources/dist-stats.mjs
        • src/fromJS.js
        • src/Seq.js
        • src/Record.js
        • src/Operations.js
        • src/Hash.ts
-       • resources/jestPreprocessor.js
-       • resources/dist-stats.mjs
        • __tests__/updateIn.ts
        • src/utils/invariant.ts
        • src/utils/coerceKeyPath.ts
@@ -2114,10 +2114,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    WhileStatement:
      📄 Files WITH WhileStatement (showing 10):
@@ -2138,15 +2138,15 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    ArrayPattern:
      📄 Files WITH ArrayPattern (showing 10):
-       • src/Set.js
        • resources/dist-stats.mjs
+       • src/Set.js
        • __tests__/utils.js
        • __tests__/transformerProtocol.ts
        • __tests__/merge.ts
@@ -2162,10 +2162,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    SpreadElement:
      📄 Files WITH SpreadElement (showing 10):
@@ -2184,12 +2184,12 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
-       • src/Set.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
+       • resources/react-global.js
 
    TSConditionalType:
      📄 Files WITH TSConditionalType (showing 1):
@@ -2200,11 +2200,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    TSVoidKeyword:
      📄 Files WITH TSVoidKeyword (showing 10):
@@ -2225,10 +2225,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    JSXFragment:
      📄 Files WITH JSXFragment (showing 10):
@@ -2249,10 +2249,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    JSXOpeningFragment:
      📄 Files WITH JSXOpeningFragment (showing 10):
@@ -2273,10 +2273,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    JSXClosingFragment:
      📄 Files WITH JSXClosingFragment (showing 10):
@@ -2297,10 +2297,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    TSTypeQuery:
      📄 Files WITH TSTypeQuery (showing 7):
@@ -2318,10 +2318,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    TSArrayType:
      📄 Files WITH TSArrayType (showing 9):
@@ -2341,10 +2341,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    TSInterfaceDeclaration:
      📄 Files WITH TSInterfaceDeclaration (showing 4):
@@ -2358,11 +2358,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    TSInterfaceBody:
      📄 Files WITH TSInterfaceBody (showing 4):
@@ -2376,11 +2376,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    TSNeverKeyword:
      📄 Files WITH TSNeverKeyword (showing 3):
@@ -2393,11 +2393,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    TSInterfaceHeritage:
      📄 Files WITH TSInterfaceHeritage (showing 1):
@@ -2408,11 +2408,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    ForOfStatement:
      📄 Files WITH ForOfStatement (showing 7):
@@ -2430,10 +2430,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    TSEnumMember:
      📄 Files WITH TSEnumMember (showing 2):
@@ -2445,11 +2445,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    TSIntersectionType:
      📄 Files WITH TSIntersectionType (showing 5):
@@ -2464,11 +2464,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    TSNullKeyword:
      📄 Files WITH TSNullKeyword (showing 10):
@@ -2488,11 +2488,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    TSModuleDeclaration:
      📄 Files WITH TSModuleDeclaration (showing 2):
@@ -2504,11 +2504,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    TSModuleBlock:
      📄 Files WITH TSModuleBlock (showing 2):
@@ -2520,11 +2520,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    AwaitExpression:
      📄 Files WITH AwaitExpression (showing 10):
@@ -2545,10 +2545,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    TSMappedType:
      📄 Files WITH TSMappedType (showing 1):
@@ -2559,11 +2559,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    TSAnyKeyword:
      📄 Files WITH TSAnyKeyword (showing 6):
@@ -2580,10 +2580,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    TSInferType:
      📄 Files WITH TSInferType (showing 1):
@@ -2594,11 +2594,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    BreakStatement:
      📄 Files WITH BreakStatement (showing 7):
@@ -2616,10 +2616,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    TSSymbolKeyword:
      📄 Files WITH TSSymbolKeyword (showing 6):
@@ -2635,17 +2635,17 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    TryStatement:
      📄 Files WITH TryStatement (showing 9):
+       • resources/dist-stats.mjs
        • src/Record.js
        • src/Hash.ts
-       • resources/dist-stats.mjs
        • __tests__/Record.ts
        • website/src/StarBtn.tsx
        • src/utils/quoteString.ts
@@ -2659,16 +2659,16 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    CatchClause:
      📄 Files WITH CatchClause (showing 8):
+       • resources/dist-stats.mjs
        • src/Record.js
        • src/Hash.ts
-       • resources/dist-stats.mjs
        • website/src/StarBtn.tsx
        • src/utils/quoteString.ts
        • website/src/worker/index.ts
@@ -2681,10 +2681,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    SwitchStatement:
      📄 Files WITH SwitchStatement (showing 3):
@@ -2698,10 +2698,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    TSRestType:
      📄 Files WITH TSRestType (showing 2):
@@ -2713,11 +2713,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    AssignmentPattern:
      📄 Files WITH AssignmentPattern (showing 6):
@@ -2734,10 +2734,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    PropertyDefinition:
      📄 Files WITH PropertyDefinition (showing 4):
@@ -2752,10 +2752,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    TSNonNullExpression:
      📄 Files WITH TSNonNullExpression (showing 3):
@@ -2769,10 +2769,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    TSCallSignatureDeclaration:
      📄 Files WITH TSCallSignatureDeclaration (showing 2):
@@ -2784,11 +2784,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    SequenceExpression:
      📄 Files WITH SequenceExpression (showing 2):
@@ -2801,10 +2801,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    ImportNamespaceSpecifier:
      📄 Files WITH ImportNamespaceSpecifier (showing 5):
@@ -2820,10 +2820,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    ImportExpression:
      📄 Files WITH ImportExpression (showing 4):
@@ -2838,10 +2838,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    YieldExpression:
      📄 Files WITH YieldExpression (showing 1):
@@ -2853,10 +2853,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    JSXSpreadAttribute:
      📄 Files WITH JSXSpreadAttribute (showing 2):
@@ -2869,10 +2869,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    TSEnumDeclaration:
      📄 Files WITH TSEnumDeclaration (showing 2):
@@ -2884,11 +2884,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    TSEnumBody:
      📄 Files WITH TSEnumBody (showing 2):
@@ -2900,11 +2900,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    DoWhileStatement:
      📄 Files WITH DoWhileStatement (showing 2):
@@ -2917,10 +2917,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    ContinueStatement:
      📄 Files WITH ContinueStatement (showing 2):
@@ -2933,10 +2933,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    TSClassImplements:
      📄 Files WITH TSClassImplements (showing 2):
@@ -2949,10 +2949,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    ForInStatement:
      📄 Files WITH ForInStatement (showing 2):
@@ -2965,10 +2965,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    JSXMemberExpression:
      📄 Files WITH JSXMemberExpression (showing 1):
@@ -2980,10 +2980,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    TSNamedTupleMember:
      📄 Files WITH TSNamedTupleMember (showing 1):
@@ -2995,10 +2995,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    TSConstructSignatureDeclaration:
      📄 Files WITH TSConstructSignatureDeclaration (showing 1):
@@ -3009,11 +3009,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    TSExportAssignment:
      📄 Files WITH TSExportAssignment (showing 1):
@@ -3024,11 +3024,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    TSNamespaceExportDeclaration:
      📄 Files WITH TSNamespaceExportDeclaration (showing 1):
@@ -3039,11 +3039,11 @@ Repository: sample-repos/immutable-js
        • website/next.config.mjs
        • website/next-sitemap.config.js
        • website/next-env.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
-       • src/Stack.js
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+       • resources/rollup-config.mjs
 
    TSParenthesizedType:
      📄 Files WITH TSParenthesizedType (showing 1):
@@ -3055,10 +3055,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    TaggedTemplateExpression:
      📄 Files WITH TaggedTemplateExpression (showing 1):
@@ -3070,10 +3070,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    Super:
      📄 Files WITH Super (showing 1):
@@ -3085,10 +3085,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    TSConstructorType:
      📄 Files WITH TSConstructorType (showing 1):
@@ -3100,10 +3100,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
    MetaProperty:
      📄 Files WITH MetaProperty (showing 1):
@@ -3115,10 +3115,10 @@ Repository: sample-repos/immutable-js
        • website/next-sitemap.config.js
        • website/next-env.d.ts
        • type-definitions/immutable.d.ts
-       • src/toJS.ts
-       • src/is.ts
-       • src/fromJS.js
-       • src/TrieUtils.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
 
 ============================================================
 ✅ Analysis complete!

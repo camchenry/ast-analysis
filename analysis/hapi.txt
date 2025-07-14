@@ -1,0 +1,2432 @@
+AST Analysis Report for hapi
+Generated on: 2025-07-14T01:56:23.523Z
+Repository: sample-repos/hapi
+================================================================================
+
+🔍 Analyzing JavaScript/TypeScript files in: /Users/camchenry/workspace/ast-analysis/sample-repos/hapi
+
+📁 Found 57 files to analyze...
+
+
+
+============================================================
+📊 AST ANALYSIS RESULTS
+============================================================
+
+📁 FILE STATISTICS:
+   Total files found: 57
+   Successfully parsed: 57
+   Failed to parse: 0
+   Total file size: 1.1 MB
+
+🌳 NODE STATISTICS:
+   Total nodes: 143,337
+   Average nodes per file: 2,515
+   Average file size: 19.7 KB
+
+📋 ALL NODE TYPES (BY FILE PRESENCE):
+   Program                          57 files (100.0%) -       57 total (0.04%)
+   Literal                          57 files (100.0%) -   12,838 total (8.96%)
+   Identifier                       55 files ( 96.5%) -   51,727 total (36.09%)
+   ExpressionStatement              38 files ( 66.7%) -    7,165 total (5.00%)
+   VariableDeclaration              38 files ( 66.7%) -    3,859 total (2.69%)
+   VariableDeclarator               38 files ( 66.7%) -    3,859 total (2.69%)
+   CallExpression                   38 files ( 66.7%) -   12,574 total (8.77%)
+   ObjectExpression                 38 files ( 66.7%) -    4,038 total (2.82%)
+   AssignmentExpression             38 files ( 66.7%) -      928 total (0.65%)
+   MemberExpression                 38 files ( 66.7%) -   19,270 total (13.44%)
+   Property                         37 files ( 64.9%) -    7,533 total (5.26%)
+   BlockStatement                   37 files ( 64.9%) -    3,058 total (2.13%)
+   ReturnStatement                  34 files ( 59.6%) -      827 total (0.58%)
+   FunctionExpression               33 files ( 57.9%) -      575 total (0.40%)
+   ArrayExpression                  32 files ( 56.1%) -      357 total (0.25%)
+   BinaryExpression                 32 files ( 56.1%) -      775 total (0.54%)
+   IfStatement                      30 files ( 52.6%) -      539 total (0.38%)
+   AwaitExpression                  29 files ( 50.9%) -    1,613 total (1.13%)
+   ArrowFunctionExpression          28 files ( 49.1%) -    2,459 total (1.72%)
+   ThrowStatement                   28 files ( 49.1%) -      117 total (0.08%)
+   UnaryExpression                  27 files ( 47.4%) -      336 total (0.23%)
+   NewExpression                    25 files ( 43.9%) -      271 total (0.19%)
+   ParenthesizedExpression          25 files ( 43.9%) -       99 total (0.07%)
+   Unknown                          25 files ( 43.9%) -      188 total (0.13%)
+   ConditionalExpression            24 files ( 42.1%) -       89 total (0.06%)
+   ObjectPattern                    23 files ( 40.4%) -       85 total (0.06%)
+   LogicalExpression                23 files ( 40.4%) -      282 total (0.20%)
+   ThisExpression                   22 files ( 38.6%) -    1,193 total (0.83%)
+   TSInterfaceDeclaration           18 files ( 31.6%) -      106 total (0.07%)
+   TSInterfaceBody                  18 files ( 31.6%) -      106 total (0.07%)
+   TSTypeAnnotation                 18 files ( 31.6%) -    1,038 total (0.72%)
+   TemplateLiteral                  17 files ( 29.8%) -       36 total (0.03%)
+   TemplateElement                  17 files ( 29.8%) -       84 total (0.06%)
+   ForOfStatement                   17 files ( 29.8%) -       58 total (0.04%)
+   TSPropertySignature              17 files ( 29.8%) -      467 total (0.33%)
+   TSStringKeyword                  17 files ( 29.8%) -      239 total (0.17%)
+   ExportNamedDeclaration           17 files ( 29.8%) -      143 total (0.10%)
+   UpdateExpression                 16 files ( 28.1%) -       82 total (0.06%)
+   ClassBody                        16 files ( 28.1%) -       40 total (0.03%)
+   MethodDefinition                 16 files ( 28.1%) -      273 total (0.19%)
+   TryStatement                     16 files ( 28.1%) -       32 total (0.02%)
+   ImportDeclaration                16 files ( 28.1%) -       78 total (0.05%)
+   ImportSpecifier                  16 files ( 28.1%) -      163 total (0.11%)
+   TSTypeReference                  16 files ( 28.1%) -      863 total (0.60%)
+   TSUnionType                      16 files ( 28.1%) -      357 total (0.25%)
+   ClassExpression                  15 files ( 26.3%) -       39 total (0.03%)
+   CatchClause                      15 files ( 26.3%) -       31 total (0.02%)
+   TSUndefinedKeyword               15 files ( 26.3%) -      259 total (0.18%)
+   TSTypeParameterDeclaration       14 files ( 24.6%) -       75 total (0.05%)
+   TSTypeParameter                  14 files ( 24.6%) -      119 total (0.08%)
+   TSTypeParameterInstantiation     14 files ( 24.6%) -      255 total (0.18%)
+   TSTypeLiteral                    13 files ( 22.8%) -       71 total (0.05%)
+   TSTypeAliasDeclaration           12 files ( 21.1%) -       58 total (0.04%)
+   TSLiteralType                    12 files ( 21.1%) -      362 total (0.25%)
+   TSArrayType                      12 files ( 21.1%) -       74 total (0.05%)
+   TSObjectKeyword                  12 files ( 21.1%) -       39 total (0.03%)
+   TSQualifiedName                  11 files ( 19.3%) -       39 total (0.03%)
+   TSFunctionType                   11 files ( 19.3%) -       53 total (0.04%)
+   TSVoidKeyword                    11 files ( 19.3%) -       79 total (0.06%)
+   TSBooleanKeyword                 11 files ( 19.3%) -       77 total (0.05%)
+   ArrayPattern                     10 files ( 17.5%) -       42 total (0.03%)
+   RestElement                      10 files ( 17.5%) -       31 total (0.02%)
+   TSNumberKeyword                  10 files ( 17.5%) -       82 total (0.06%)
+   TSAnyKeyword                     10 files ( 17.5%) -       51 total (0.04%)
+   TSInterfaceHeritage              10 files ( 17.5%) -       21 total (0.01%)
+   TSMethodSignature                 9 files ( 15.8%) -       90 total (0.06%)
+   TSParenthesizedType               8 files ( 14.0%) -       38 total (0.03%)
+   TSNullKeyword                     8 files ( 14.0%) -       12 total (0.01%)
+   ForStatement                      7 files ( 12.3%) -       15 total (0.01%)
+   SpreadElement                     7 files ( 12.3%) -       13 total (0.01%)
+   ChainExpression                   7 files ( 12.3%) -       15 total (0.01%)
+   AssignmentPattern                 6 files ( 10.5%) -       18 total (0.01%)
+   PropertyDefinition                6 files ( 10.5%) -       67 total (0.05%)
+   TSIndexedAccessType               6 files ( 10.5%) -       49 total (0.03%)
+   TSIntersectionType                6 files ( 10.5%) -        8 total (0.01%)
+   TSIndexSignature                  6 files ( 10.5%) -        8 total (0.01%)
+   WhileStatement                    5 files (  8.8%) -        6 total (0.00%)
+   ContinueStatement                 5 files (  8.8%) -       10 total (0.01%)
+   ImportNamespaceSpecifier          5 files (  8.8%) -        9 total (0.01%)
+   PrivateIdentifier                 4 files (  7.0%) -       38 total (0.03%)
+   TSTypeOperator                    4 files (  7.0%) -       11 total (0.01%)
+   TSThisType                        4 files (  7.0%) -       31 total (0.02%)
+   Super                             3 files (  5.3%) -       15 total (0.01%)
+   ForInStatement                    3 files (  5.3%) -        4 total (0.00%)
+   ExportAllDeclaration              3 files (  5.3%) -       18 total (0.01%)
+   TSConditionalType                 3 files (  5.3%) -        4 total (0.00%)
+   TSUnknownKeyword                  3 files (  5.3%) -        9 total (0.01%)
+   TSModuleDeclaration               3 files (  5.3%) -        6 total (0.00%)
+   TSModuleBlock                     3 files (  5.3%) -        6 total (0.00%)
+   TSSymbolKeyword                   3 files (  5.3%) -        6 total (0.00%)
+   TSCallSignatureDeclaration        3 files (  5.3%) -        3 total (0.00%)
+   TSNeverKeyword                    2 files (  3.5%) -        6 total (0.00%)
+   TSTypeQuery                       2 files (  3.5%) -        7 total (0.00%)
+   TSMappedType                      2 files (  3.5%) -        4 total (0.00%)
+   SwitchStatement                   1 files (  1.8%) -        2 total (0.00%)
+   SwitchCase                        1 files (  1.8%) -        6 total (0.00%)
+   TSTupleType                       1 files (  1.8%) -        2 total (0.00%)
+   TSNonNullExpression               1 files (  1.8%) -       16 total (0.01%)
+   ExportSpecifier                   1 files (  1.8%) -        1 total (0.00%)
+   ClassDeclaration                  1 files (  1.8%) -        1 total (0.00%)
+   TSEmptyBodyFunctionExpression     1 files (  1.8%) -       49 total (0.03%)
+   TSDeclareFunction                 1 files (  1.8%) -        1 total (0.00%)
+
+📝 ALL NODE TYPES (BY TOTAL COUNT):
+   Identifier                       51,727 (36.09%) in 55 files (96.5%)
+   MemberExpression                 19,270 (13.44%) in 38 files (66.7%)
+   Literal                          12,838 (8.96%) in 57 files (100.0%)
+   CallExpression                   12,574 (8.77%) in 38 files (66.7%)
+   Property                          7,533 (5.26%) in 37 files (64.9%)
+   ExpressionStatement               7,165 (5.00%) in 38 files (66.7%)
+   ObjectExpression                  4,038 (2.82%) in 38 files (66.7%)
+   VariableDeclaration               3,859 (2.69%) in 38 files (66.7%)
+   VariableDeclarator                3,859 (2.69%) in 38 files (66.7%)
+   BlockStatement                    3,058 (2.13%) in 37 files (64.9%)
+   ArrowFunctionExpression           2,459 (1.72%) in 28 files (49.1%)
+   AwaitExpression                   1,613 (1.13%) in 29 files (50.9%)
+   ThisExpression                    1,193 (0.83%) in 22 files (38.6%)
+   TSTypeAnnotation                  1,038 (0.72%) in 18 files (31.6%)
+   AssignmentExpression                928 (0.65%) in 38 files (66.7%)
+   TSTypeReference                     863 (0.60%) in 16 files (28.1%)
+   ReturnStatement                     827 (0.58%) in 34 files (59.6%)
+   BinaryExpression                    775 (0.54%) in 32 files (56.1%)
+   FunctionExpression                  575 (0.40%) in 33 files (57.9%)
+   IfStatement                         539 (0.38%) in 30 files (52.6%)
+   TSPropertySignature                 467 (0.33%) in 17 files (29.8%)
+   TSLiteralType                       362 (0.25%) in 12 files (21.1%)
+   ArrayExpression                     357 (0.25%) in 32 files (56.1%)
+   TSUnionType                         357 (0.25%) in 16 files (28.1%)
+   UnaryExpression                     336 (0.23%) in 27 files (47.4%)
+   LogicalExpression                   282 (0.20%) in 23 files (40.4%)
+   MethodDefinition                    273 (0.19%) in 16 files (28.1%)
+   NewExpression                       271 (0.19%) in 25 files (43.9%)
+   TSUndefinedKeyword                  259 (0.18%) in 15 files (26.3%)
+   TSTypeParameterInstantiation        255 (0.18%) in 14 files (24.6%)
+   TSStringKeyword                     239 (0.17%) in 17 files (29.8%)
+   Unknown                             188 (0.13%) in 25 files (43.9%)
+   ImportSpecifier                     163 (0.11%) in 16 files (28.1%)
+   ExportNamedDeclaration              143 (0.10%) in 17 files (29.8%)
+   TSTypeParameter                     119 (0.08%) in 14 files (24.6%)
+   ThrowStatement                      117 (0.08%) in 28 files (49.1%)
+   TSInterfaceDeclaration              106 (0.07%) in 18 files (31.6%)
+   TSInterfaceBody                     106 (0.07%) in 18 files (31.6%)
+   ParenthesizedExpression              99 (0.07%) in 25 files (43.9%)
+   TSMethodSignature                    90 (0.06%) in 9 files (15.8%)
+   ConditionalExpression                89 (0.06%) in 24 files (42.1%)
+   ObjectPattern                        85 (0.06%) in 23 files (40.4%)
+   TemplateElement                      84 (0.06%) in 17 files (29.8%)
+   UpdateExpression                     82 (0.06%) in 16 files (28.1%)
+   TSNumberKeyword                      82 (0.06%) in 10 files (17.5%)
+   TSVoidKeyword                        79 (0.06%) in 11 files (19.3%)
+   ImportDeclaration                    78 (0.05%) in 16 files (28.1%)
+   TSBooleanKeyword                     77 (0.05%) in 11 files (19.3%)
+   TSTypeParameterDeclaration           75 (0.05%) in 14 files (24.6%)
+   TSArrayType                          74 (0.05%) in 12 files (21.1%)
+   TSTypeLiteral                        71 (0.05%) in 13 files (22.8%)
+   PropertyDefinition                   67 (0.05%) in 6 files (10.5%)
+   ForOfStatement                       58 (0.04%) in 17 files (29.8%)
+   TSTypeAliasDeclaration               58 (0.04%) in 12 files (21.1%)
+   Program                              57 (0.04%) in 57 files (100.0%)
+   TSFunctionType                       53 (0.04%) in 11 files (19.3%)
+   TSAnyKeyword                         51 (0.04%) in 10 files (17.5%)
+   TSIndexedAccessType                  49 (0.03%) in 6 files (10.5%)
+   TSEmptyBodyFunctionExpression        49 (0.03%) in 1 files (1.8%)
+   ArrayPattern                         42 (0.03%) in 10 files (17.5%)
+   ClassBody                            40 (0.03%) in 16 files (28.1%)
+   ClassExpression                      39 (0.03%) in 15 files (26.3%)
+   TSQualifiedName                      39 (0.03%) in 11 files (19.3%)
+   TSObjectKeyword                      39 (0.03%) in 12 files (21.1%)
+   PrivateIdentifier                    38 (0.03%) in 4 files (7.0%)
+   TSParenthesizedType                  38 (0.03%) in 8 files (14.0%)
+   TemplateLiteral                      36 (0.03%) in 17 files (29.8%)
+   TryStatement                         32 (0.02%) in 16 files (28.1%)
+   RestElement                          31 (0.02%) in 10 files (17.5%)
+   CatchClause                          31 (0.02%) in 15 files (26.3%)
+   TSThisType                           31 (0.02%) in 4 files (7.0%)
+   TSInterfaceHeritage                  21 (0.01%) in 10 files (17.5%)
+   AssignmentPattern                    18 (0.01%) in 6 files (10.5%)
+   ExportAllDeclaration                 18 (0.01%) in 3 files (5.3%)
+   TSNonNullExpression                  16 (0.01%) in 1 files (1.8%)
+   ForStatement                         15 (0.01%) in 7 files (12.3%)
+   Super                                15 (0.01%) in 3 files (5.3%)
+   ChainExpression                      15 (0.01%) in 7 files (12.3%)
+   SpreadElement                        13 (0.01%) in 7 files (12.3%)
+   TSNullKeyword                        12 (0.01%) in 8 files (14.0%)
+   TSTypeOperator                       11 (0.01%) in 4 files (7.0%)
+   ContinueStatement                    10 (0.01%) in 5 files (8.8%)
+   ImportNamespaceSpecifier              9 (0.01%) in 5 files (8.8%)
+   TSUnknownKeyword                      9 (0.01%) in 3 files (5.3%)
+   TSIntersectionType                    8 (0.01%) in 6 files (10.5%)
+   TSIndexSignature                      8 (0.01%) in 6 files (10.5%)
+   TSTypeQuery                           7 (0.00%) in 2 files (3.5%)
+   SwitchCase                            6 (0.00%) in 1 files (1.8%)
+   WhileStatement                        6 (0.00%) in 5 files (8.8%)
+   TSNeverKeyword                        6 (0.00%) in 2 files (3.5%)
+   TSModuleDeclaration                   6 (0.00%) in 3 files (5.3%)
+   TSModuleBlock                         6 (0.00%) in 3 files (5.3%)
+   TSSymbolKeyword                       6 (0.00%) in 3 files (5.3%)
+   ForInStatement                        4 (0.00%) in 3 files (5.3%)
+   TSConditionalType                     4 (0.00%) in 3 files (5.3%)
+   TSMappedType                          4 (0.00%) in 2 files (3.5%)
+   TSCallSignatureDeclaration            3 (0.00%) in 3 files (5.3%)
+   SwitchStatement                       2 (0.00%) in 1 files (1.8%)
+   TSTupleType                           2 (0.00%) in 1 files (1.8%)
+   ExportSpecifier                       1 (0.00%) in 1 files (1.8%)
+   ClassDeclaration                      1 (0.00%) in 1 files (1.8%)
+   TSDeclareFunction                     1 (0.00%) in 1 files (1.8%)
+
+📁 FILE EXAMPLES BY NODE TYPE:
+
+   Identifier:
+     📄 Files WITH Identifier (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+     📄 Files WITHOUT Identifier (showing 2):
+       • lib/index.d.ts
+       • lib/types/server/index.d.ts
+
+   MemberExpression:
+     📄 Files WITH MemberExpression (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+     📄 Files WITHOUT MemberExpression (showing 10):
+       • lib/index.d.ts
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/plugin.d.ts
+       • lib/types/index.d.ts
+       • lib/types/server/state.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/options.d.ts
+
+   Literal:
+     📄 Files WITH Literal (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+     📄 Files WITHOUT Literal: (all files contain this node type)
+
+   CallExpression:
+     📄 Files WITH CallExpression (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+     📄 Files WITHOUT CallExpression (showing 10):
+       • lib/index.d.ts
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/plugin.d.ts
+       • lib/types/index.d.ts
+       • lib/types/server/state.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/options.d.ts
+
+   Property:
+     📄 Files WITH Property (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+     📄 Files WITHOUT Property (showing 10):
+       • lib/index.js
+       • lib/index.d.ts
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/plugin.d.ts
+       • lib/types/index.d.ts
+       • lib/types/server/state.d.ts
+       • lib/types/server/server.d.ts
+
+   ExpressionStatement:
+     📄 Files WITH ExpressionStatement (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+     📄 Files WITHOUT ExpressionStatement (showing 10):
+       • lib/index.d.ts
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/plugin.d.ts
+       • lib/types/index.d.ts
+       • lib/types/server/state.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/options.d.ts
+
+   ObjectExpression:
+     📄 Files WITH ObjectExpression (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+     📄 Files WITHOUT ObjectExpression (showing 10):
+       • lib/index.d.ts
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/plugin.d.ts
+       • lib/types/index.d.ts
+       • lib/types/server/state.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/options.d.ts
+
+   VariableDeclaration:
+     📄 Files WITH VariableDeclaration (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+     📄 Files WITHOUT VariableDeclaration (showing 10):
+       • lib/index.d.ts
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/plugin.d.ts
+       • lib/types/index.d.ts
+       • lib/types/server/state.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/options.d.ts
+
+   VariableDeclarator:
+     📄 Files WITH VariableDeclarator (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+     📄 Files WITHOUT VariableDeclarator (showing 10):
+       • lib/index.d.ts
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/plugin.d.ts
+       • lib/types/index.d.ts
+       • lib/types/server/state.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/options.d.ts
+
+   BlockStatement:
+     📄 Files WITH BlockStatement (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+     📄 Files WITHOUT BlockStatement (showing 10):
+       • lib/index.js
+       • lib/index.d.ts
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/plugin.d.ts
+       • lib/types/index.d.ts
+       • lib/types/server/state.d.ts
+       • lib/types/server/server.d.ts
+
+   ArrowFunctionExpression:
+     📄 Files WITH ArrowFunctionExpression (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+     📄 Files WITHOUT ArrowFunctionExpression (showing 10):
+       • lib/validation.js
+       • lib/transmit.js
+       • lib/streams.js
+       • lib/security.js
+       • lib/index.js
+       • lib/index.d.ts
+       • lib/headers.js
+       • lib/handler.js
+       • lib/ext.js
+       • lib/cors.js
+
+   AwaitExpression:
+     📄 Files WITH AwaitExpression (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+     📄 Files WITHOUT AwaitExpression (showing 10):
+       • test/common.js
+       • lib/streams.js
+       • lib/security.js
+       • lib/methods.js
+       • lib/index.js
+       • lib/index.d.ts
+       • lib/ext.js
+       • lib/cors.js
+       • lib/config.js
+       • lib/compression.js
+
+   ThisExpression:
+     📄 Files WITH ThisExpression (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/server.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/methods.js
+       • test/handler.js
+       • test/core.js
+     📄 Files WITHOUT ThisExpression (showing 10):
+       • test/state.js
+       • test/security.js
+       • test/payload.js
+       • test/index.js
+       • test/headers.js
+       • test/cors.js
+       • test/common.js
+       • test/auth.js
+       • lib/validation.js
+       • lib/transmit.js
+
+   TSTypeAnnotation:
+     📄 Files WITH TSTypeAnnotation (showing 10):
+       • test/types/index.ts
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/plugin.d.ts
+       • lib/types/index.d.ts
+       • lib/types/server/state.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/options.d.ts
+     📄 Files WITHOUT TSTypeAnnotation (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   AssignmentExpression:
+     📄 Files WITH AssignmentExpression (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+     📄 Files WITHOUT AssignmentExpression (showing 10):
+       • lib/index.d.ts
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/plugin.d.ts
+       • lib/types/index.d.ts
+       • lib/types/server/state.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/options.d.ts
+
+   TSTypeReference:
+     📄 Files WITH TSTypeReference (showing 10):
+       • test/types/index.ts
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/plugin.d.ts
+       • lib/types/index.d.ts
+       • lib/types/server/state.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/options.d.ts
+     📄 Files WITHOUT TSTypeReference (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   ReturnStatement:
+     📄 Files WITH ReturnStatement (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/server.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+       • test/methods.js
+       • test/headers.js
+     📄 Files WITHOUT ReturnStatement (showing 10):
+       • test/state.js
+       • test/security.js
+       • test/index.js
+       • lib/index.js
+       • lib/index.d.ts
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/plugin.d.ts
+
+   BinaryExpression:
+     📄 Files WITH BinaryExpression (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+       • test/methods.js
+     📄 Files WITHOUT BinaryExpression (showing 10):
+       • test/toolkit.js
+       • test/index.js
+       • test/cors.js
+       • test/common.js
+       • lib/index.js
+       • lib/index.d.ts
+       • lib/ext.js
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+
+   FunctionExpression:
+     📄 Files WITH FunctionExpression (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/server.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+       • test/methods.js
+       • test/headers.js
+     📄 Files WITHOUT FunctionExpression (showing 10):
+       • test/state.js
+       • test/security.js
+       • test/index.js
+       • test/common.js
+       • lib/index.js
+       • lib/index.d.ts
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+
+   IfStatement:
+     📄 Files WITH IfStatement (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/server.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+       • test/methods.js
+       • test/handler.js
+     📄 Files WITHOUT IfStatement (showing 10):
+       • test/state.js
+       • test/security.js
+       • test/index.js
+       • test/headers.js
+       • test/cors.js
+       • test/common.js
+       • lib/index.js
+       • lib/index.d.ts
+       • test/types/index.ts
+       • lib/types/utils.d.ts
+
+   TSPropertySignature:
+     📄 Files WITH TSPropertySignature (showing 10):
+       • test/types/index.ts
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/plugin.d.ts
+       • lib/types/server/state.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/options.d.ts
+       • lib/types/server/methods.d.ts
+     📄 Files WITHOUT TSPropertySignature (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   TSLiteralType:
+     📄 Files WITH TSLiteralType (showing 10):
+       • test/types/index.ts
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/options.d.ts
+       • lib/types/server/methods.d.ts
+       • lib/types/server/info.d.ts
+       • lib/types/server/ext.d.ts
+     📄 Files WITHOUT TSLiteralType (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   ArrayExpression:
+     📄 Files WITH ArrayExpression (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+       • test/methods.js
+     📄 Files WITHOUT ArrayExpression (showing 10):
+       • test/security.js
+       • test/index.js
+       • test/common.js
+       • lib/streams.js
+       • lib/security.js
+       • lib/index.js
+       • lib/index.d.ts
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+
+   TSUnionType:
+     📄 Files WITH TSUnionType (showing 10):
+       • test/types/index.ts
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/plugin.d.ts
+       • lib/types/server/state.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/options.d.ts
+       • lib/types/server/methods.d.ts
+     📄 Files WITHOUT TSUnionType (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   UnaryExpression:
+     📄 Files WITH UnaryExpression (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/server.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/methods.js
+       • test/core.js
+       • test/auth.js
+     📄 Files WITHOUT UnaryExpression (showing 10):
+       • test/state.js
+       • test/security.js
+       • test/payload.js
+       • test/index.js
+       • test/headers.js
+       • test/handler.js
+       • test/cors.js
+       • test/common.js
+       • lib/index.js
+       • lib/index.d.ts
+
+   LogicalExpression:
+     📄 Files WITH LogicalExpression (showing 10):
+       • test/transmit.js
+       • test/server.js
+       • test/route.js
+       • test/request.js
+       • test/handler.js
+       • test/core.js
+       • test/auth.js
+       • lib/validation.js
+       • lib/transmit.js
+       • lib/toolkit.js
+     📄 Files WITHOUT LogicalExpression (showing 10):
+       • test/validation.js
+       • test/toolkit.js
+       • test/state.js
+       • test/security.js
+       • test/response.js
+       • test/payload.js
+       • test/methods.js
+       • test/index.js
+       • test/headers.js
+       • test/cors.js
+
+   MethodDefinition:
+     📄 Files WITH MethodDefinition (showing 10):
+       • test/transmit.js
+       • test/toolkit.js
+       • test/response.js
+       • test/request.js
+       • lib/toolkit.js
+       • lib/server.js
+       • lib/route.js
+       • lib/response.js
+       • lib/request.js
+       • lib/methods.js
+     📄 Files WITHOUT MethodDefinition (showing 10):
+       • test/validation.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/payload.js
+       • test/methods.js
+       • test/index.js
+       • test/headers.js
+       • test/handler.js
+
+   NewExpression:
+     📄 Files WITH NewExpression (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+       • test/methods.js
+       • test/index.js
+     📄 Files WITHOUT NewExpression (showing 10):
+       • test/security.js
+       • test/route.js
+       • test/headers.js
+       • test/cors.js
+       • test/common.js
+       • test/auth.js
+       • lib/validation.js
+       • lib/security.js
+       • lib/methods.js
+       • lib/index.js
+
+   TSUndefinedKeyword:
+     📄 Files WITH TSUndefinedKeyword (showing 10):
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/plugin.d.ts
+       • lib/types/server/state.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/options.d.ts
+       • lib/types/server/methods.d.ts
+       • lib/types/server/inject.d.ts
+     📄 Files WITHOUT TSUndefinedKeyword (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   TSTypeParameterInstantiation:
+     📄 Files WITH TSTypeParameterInstantiation (showing 10):
+       • test/types/index.ts
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/plugin.d.ts
+       • lib/types/server/state.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/options.d.ts
+       • lib/types/server/methods.d.ts
+     📄 Files WITHOUT TSTypeParameterInstantiation (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   TSStringKeyword:
+     📄 Files WITH TSStringKeyword (showing 10):
+       • test/types/index.ts
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/plugin.d.ts
+       • lib/types/index.d.ts
+       • lib/types/server/state.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/options.d.ts
+     📄 Files WITHOUT TSStringKeyword (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   Unknown:
+     📄 Files WITH Unknown (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/server.js
+       • test/route.js
+       • test/request.js
+       • test/payload.js
+       • test/methods.js
+       • test/headers.js
+       • test/core.js
+       • test/common.js
+     📄 Files WITHOUT Unknown (showing 10):
+       • test/toolkit.js
+       • test/state.js
+       • test/security.js
+       • test/response.js
+       • test/index.js
+       • test/handler.js
+       • test/cors.js
+       • lib/streams.js
+       • lib/security.js
+       • lib/index.js
+
+   ImportSpecifier:
+     📄 Files WITH ImportSpecifier (showing 10):
+       • test/types/index.ts
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/plugin.d.ts
+       • lib/types/server/state.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/options.d.ts
+       • lib/types/server/methods.d.ts
+     📄 Files WITHOUT ImportSpecifier (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   ExportNamedDeclaration:
+     📄 Files WITH ExportNamedDeclaration (showing 10):
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/plugin.d.ts
+       • lib/types/index.d.ts
+       • lib/types/server/state.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/options.d.ts
+       • lib/types/server/methods.d.ts
+     📄 Files WITHOUT ExportNamedDeclaration (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   TSTypeParameter:
+     📄 Files WITH TSTypeParameter (showing 10):
+       • test/types/index.ts
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/plugin.d.ts
+       • lib/types/index.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/methods.d.ts
+       • lib/types/server/inject.d.ts
+     📄 Files WITHOUT TSTypeParameter (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   ThrowStatement:
+     📄 Files WITH ThrowStatement (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+       • test/methods.js
+       • test/headers.js
+     📄 Files WITHOUT ThrowStatement (showing 10):
+       • test/security.js
+       • test/route.js
+       • test/index.js
+       • test/common.js
+       • lib/security.js
+       • lib/methods.js
+       • lib/index.js
+       • lib/index.d.ts
+       • lib/ext.js
+       • lib/compression.js
+
+   TSInterfaceDeclaration:
+     📄 Files WITH TSInterfaceDeclaration (showing 10):
+       • test/types/index.ts
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/plugin.d.ts
+       • lib/types/index.d.ts
+       • lib/types/server/state.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/options.d.ts
+     📄 Files WITHOUT TSInterfaceDeclaration (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   TSInterfaceBody:
+     📄 Files WITH TSInterfaceBody (showing 10):
+       • test/types/index.ts
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/plugin.d.ts
+       • lib/types/index.d.ts
+       • lib/types/server/state.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/options.d.ts
+     📄 Files WITHOUT TSInterfaceBody (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   ParenthesizedExpression:
+     📄 Files WITH ParenthesizedExpression (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/state.js
+       • test/server.js
+       • test/route.js
+       • test/request.js
+       • test/methods.js
+       • test/headers.js
+       • test/handler.js
+       • test/core.js
+     📄 Files WITHOUT ParenthesizedExpression (showing 10):
+       • test/toolkit.js
+       • test/security.js
+       • test/response.js
+       • test/payload.js
+       • test/index.js
+       • test/cors.js
+       • test/common.js
+       • lib/toolkit.js
+       • lib/streams.js
+       • lib/index.js
+
+   TSMethodSignature:
+     📄 Files WITH TSMethodSignature (showing 9):
+       • test/types/index.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/server/state.d.ts
+       • lib/types/server/options.d.ts
+       • lib/types/server/methods.d.ts
+       • lib/types/server/events.d.ts
+       • lib/types/server/cache.d.ts
+       • lib/types/server/auth.d.ts
+     📄 Files WITHOUT TSMethodSignature (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   ConditionalExpression:
+     📄 Files WITH ConditionalExpression (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/server.js
+       • test/request.js
+       • test/payload.js
+       • test/handler.js
+       • test/core.js
+       • lib/validation.js
+       • lib/transmit.js
+     📄 Files WITHOUT ConditionalExpression (showing 10):
+       • test/state.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/methods.js
+       • test/index.js
+       • test/headers.js
+       • test/cors.js
+       • test/common.js
+       • test/auth.js
+
+   ObjectPattern:
+     📄 Files WITH ObjectPattern (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+     📄 Files WITHOUT ObjectPattern (showing 10):
+       • lib/validation.js
+       • lib/toolkit.js
+       • lib/streams.js
+       • lib/server.js
+       • lib/security.js
+       • lib/response.js
+       • lib/methods.js
+       • lib/index.js
+       • lib/index.d.ts
+       • lib/headers.js
+
+   TemplateElement:
+     📄 Files WITH TemplateElement (showing 10):
+       • test/transmit.js
+       • test/server.js
+       • test/request.js
+       • test/payload.js
+       • test/core.js
+       • test/common.js
+       • lib/validation.js
+       • lib/transmit.js
+       • lib/toolkit.js
+       • lib/server.js
+     📄 Files WITHOUT TemplateElement (showing 10):
+       • test/validation.js
+       • test/toolkit.js
+       • test/state.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/methods.js
+       • test/index.js
+       • test/headers.js
+       • test/handler.js
+
+   UpdateExpression:
+     📄 Files WITH UpdateExpression (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/server.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+       • test/methods.js
+       • test/core.js
+     📄 Files WITHOUT UpdateExpression (showing 10):
+       • test/state.js
+       • test/security.js
+       • test/index.js
+       • test/headers.js
+       • test/handler.js
+       • test/cors.js
+       • test/common.js
+       • test/auth.js
+       • lib/validation.js
+       • lib/toolkit.js
+
+   TSNumberKeyword:
+     📄 Files WITH TSNumberKeyword (showing 10):
+       • test/types/index.ts
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/options.d.ts
+       • lib/types/server/methods.d.ts
+       • lib/types/server/info.d.ts
+       • lib/types/server/events.d.ts
+     📄 Files WITHOUT TSNumberKeyword (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   TSVoidKeyword:
+     📄 Files WITH TSVoidKeyword (showing 10):
+       • lib/types/utils.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/plugin.d.ts
+       • lib/types/server/state.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/methods.d.ts
+       • lib/types/server/ext.d.ts
+       • lib/types/server/events.d.ts
+       • lib/types/server/cache.d.ts
+     📄 Files WITHOUT TSVoidKeyword (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   ImportDeclaration:
+     📄 Files WITH ImportDeclaration (showing 10):
+       • test/types/index.ts
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/plugin.d.ts
+       • lib/types/server/state.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/options.d.ts
+       • lib/types/server/methods.d.ts
+     📄 Files WITHOUT ImportDeclaration (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   TSBooleanKeyword:
+     📄 Files WITH TSBooleanKeyword (showing 10):
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/plugin.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/options.d.ts
+       • lib/types/server/inject.d.ts
+       • lib/types/server/events.d.ts
+       • lib/types/server/cache.d.ts
+     📄 Files WITHOUT TSBooleanKeyword (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   TSTypeParameterDeclaration:
+     📄 Files WITH TSTypeParameterDeclaration (showing 10):
+       • test/types/index.ts
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/plugin.d.ts
+       • lib/types/index.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/methods.d.ts
+       • lib/types/server/inject.d.ts
+     📄 Files WITHOUT TSTypeParameterDeclaration (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   TSArrayType:
+     📄 Files WITH TSArrayType (showing 10):
+       • test/types/index.ts
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/plugin.d.ts
+       • lib/types/server/state.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/options.d.ts
+       • lib/types/server/methods.d.ts
+     📄 Files WITHOUT TSArrayType (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   TSTypeLiteral:
+     📄 Files WITH TSTypeLiteral (showing 10):
+       • test/types/index.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/plugin.d.ts
+       • lib/types/server/state.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/options.d.ts
+       • lib/types/server/methods.d.ts
+       • lib/types/server/inject.d.ts
+     📄 Files WITHOUT TSTypeLiteral (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   PropertyDefinition:
+     📄 Files WITH PropertyDefinition (showing 6):
+       • lib/methods.js
+       • lib/ext.js
+       • lib/core.js
+       • lib/compression.js
+       • lib/auth.js
+       • lib/types/server/server.d.ts
+     📄 Files WITHOUT PropertyDefinition (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   ForOfStatement:
+     📄 Files WITH ForOfStatement (showing 10):
+       • test/transmit.js
+       • test/request.js
+       • test/payload.js
+       • test/core.js
+       • lib/validation.js
+       • lib/transmit.js
+       • lib/server.js
+       • lib/route.js
+       • lib/response.js
+       • lib/request.js
+     📄 Files WITHOUT ForOfStatement (showing 10):
+       • test/validation.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/methods.js
+       • test/index.js
+       • test/headers.js
+
+   TSTypeAliasDeclaration:
+     📄 Files WITH TSTypeAliasDeclaration (showing 10):
+       • test/types/index.ts
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/plugin.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/methods.d.ts
+       • lib/types/server/ext.d.ts
+       • lib/types/server/events.d.ts
+     📄 Files WITHOUT TSTypeAliasDeclaration (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   Program:
+     📄 Files WITH Program (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+     📄 Files WITHOUT Program: (all files contain this node type)
+
+   TSFunctionType:
+     📄 Files WITH TSFunctionType (showing 10):
+       • test/types/index.ts
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/plugin.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/methods.d.ts
+       • lib/types/server/ext.d.ts
+       • lib/types/server/events.d.ts
+     📄 Files WITHOUT TSFunctionType (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   TSAnyKeyword:
+     📄 Files WITH TSAnyKeyword (showing 10):
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/plugin.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/options.d.ts
+       • lib/types/server/methods.d.ts
+       • lib/types/server/events.d.ts
+       • lib/types/server/cache.d.ts
+     📄 Files WITHOUT TSAnyKeyword (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   TSIndexedAccessType:
+     📄 Files WITH TSIndexedAccessType (showing 6):
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/auth.d.ts
+     📄 Files WITHOUT TSIndexedAccessType (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   TSEmptyBodyFunctionExpression:
+     📄 Files WITH TSEmptyBodyFunctionExpression (showing 1):
+       • lib/types/server/server.d.ts
+     📄 Files WITHOUT TSEmptyBodyFunctionExpression (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   ArrayPattern:
+     📄 Files WITH ArrayPattern (showing 10):
+       • test/transmit.js
+       • test/server.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+       • test/methods.js
+       • test/handler.js
+       • test/core.js
+       • lib/server.js
+       • lib/request.js
+     📄 Files WITHOUT ArrayPattern (showing 10):
+       • test/validation.js
+       • test/toolkit.js
+       • test/state.js
+       • test/security.js
+       • test/route.js
+       • test/index.js
+       • test/headers.js
+       • test/cors.js
+       • test/common.js
+       • test/auth.js
+
+   ClassBody:
+     📄 Files WITH ClassBody (showing 10):
+       • test/transmit.js
+       • test/toolkit.js
+       • test/response.js
+       • test/request.js
+       • lib/toolkit.js
+       • lib/server.js
+       • lib/route.js
+       • lib/response.js
+       • lib/request.js
+       • lib/methods.js
+     📄 Files WITHOUT ClassBody (showing 10):
+       • test/validation.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/payload.js
+       • test/methods.js
+       • test/index.js
+       • test/headers.js
+       • test/handler.js
+
+   ClassExpression:
+     📄 Files WITH ClassExpression (showing 10):
+       • test/transmit.js
+       • test/toolkit.js
+       • test/response.js
+       • test/request.js
+       • lib/toolkit.js
+       • lib/server.js
+       • lib/route.js
+       • lib/response.js
+       • lib/request.js
+       • lib/methods.js
+     📄 Files WITHOUT ClassExpression (showing 10):
+       • test/validation.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/payload.js
+       • test/methods.js
+       • test/index.js
+       • test/headers.js
+       • test/handler.js
+
+   TSQualifiedName:
+     📄 Files WITH TSQualifiedName (showing 10):
+       • test/types/index.ts
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/plugin.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/options.d.ts
+       • lib/types/server/ext.d.ts
+       • lib/types/server/events.d.ts
+     📄 Files WITHOUT TSQualifiedName (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   TSObjectKeyword:
+     📄 Files WITH TSObjectKeyword (showing 10):
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/plugin.d.ts
+       • lib/types/server/state.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/methods.d.ts
+       • lib/types/server/inject.d.ts
+       • lib/types/server/ext.d.ts
+     📄 Files WITHOUT TSObjectKeyword (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   PrivateIdentifier:
+     📄 Files WITH PrivateIdentifier (showing 4):
+       • lib/methods.js
+       • lib/ext.js
+       • lib/compression.js
+       • lib/auth.js
+     📄 Files WITHOUT PrivateIdentifier (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   TSParenthesizedType:
+     📄 Files WITH TSParenthesizedType (showing 8):
+       • test/types/index.ts
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/plugin.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/methods.d.ts
+     📄 Files WITHOUT TSParenthesizedType (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   TemplateLiteral:
+     📄 Files WITH TemplateLiteral (showing 10):
+       • test/transmit.js
+       • test/server.js
+       • test/request.js
+       • test/payload.js
+       • test/core.js
+       • test/common.js
+       • lib/validation.js
+       • lib/transmit.js
+       • lib/toolkit.js
+       • lib/server.js
+     📄 Files WITHOUT TemplateLiteral (showing 10):
+       • test/validation.js
+       • test/toolkit.js
+       • test/state.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/methods.js
+       • test/index.js
+       • test/headers.js
+       • test/handler.js
+
+   TryStatement:
+     📄 Files WITH TryStatement (showing 10):
+       • test/request.js
+       • test/headers.js
+       • test/core.js
+       • test/common.js
+       • test/auth.js
+       • lib/validation.js
+       • lib/transmit.js
+       • lib/toolkit.js
+       • lib/server.js
+       • lib/route.js
+     📄 Files WITHOUT TryStatement (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/payload.js
+       • test/methods.js
+
+   RestElement:
+     📄 Files WITH RestElement (showing 10):
+       • test/transmit.js
+       • test/server.js
+       • test/request.js
+       • test/handler.js
+       • test/core.js
+       • test/auth.js
+       • lib/methods.js
+       • lib/config.js
+       • lib/types/server/server.d.ts
+       • lib/types/server/methods.d.ts
+     📄 Files WITHOUT RestElement (showing 10):
+       • test/validation.js
+       • test/toolkit.js
+       • test/state.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/payload.js
+       • test/methods.js
+       • test/index.js
+       • test/headers.js
+
+   CatchClause:
+     📄 Files WITH CatchClause (showing 10):
+       • test/request.js
+       • test/headers.js
+       • test/core.js
+       • test/common.js
+       • test/auth.js
+       • lib/validation.js
+       • lib/transmit.js
+       • lib/toolkit.js
+       • lib/route.js
+       • lib/response.js
+     📄 Files WITHOUT CatchClause (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/payload.js
+       • test/methods.js
+
+   TSThisType:
+     📄 Files WITH TSThisType (showing 4):
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/events.d.ts
+     📄 Files WITHOUT TSThisType (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   TSInterfaceHeritage:
+     📄 Files WITH TSInterfaceHeritage (showing 10):
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/plugin.d.ts
+       • lib/types/server/state.d.ts
+       • lib/types/server/methods.d.ts
+       • lib/types/server/inject.d.ts
+       • lib/types/server/events.d.ts
+       • lib/types/server/cache.d.ts
+       • lib/types/server/auth.d.ts
+     📄 Files WITHOUT TSInterfaceHeritage (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   AssignmentPattern:
+     📄 Files WITH AssignmentPattern (showing 6):
+       • lib/server.js
+       • lib/route.js
+       • lib/response.js
+       • lib/request.js
+       • lib/core.js
+       • lib/auth.js
+     📄 Files WITHOUT AssignmentPattern (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   ExportAllDeclaration:
+     📄 Files WITH ExportAllDeclaration (showing 3):
+       • lib/index.d.ts
+       • lib/types/index.d.ts
+       • lib/types/server/index.d.ts
+     📄 Files WITHOUT ExportAllDeclaration (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   TSNonNullExpression:
+     📄 Files WITH TSNonNullExpression (showing 1):
+       • test/types/index.ts
+     📄 Files WITHOUT TSNonNullExpression (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   ForStatement:
+     📄 Files WITH ForStatement (showing 7):
+       • test/validation.js
+       • test/transmit.js
+       • test/payload.js
+       • test/core.js
+       • lib/transmit.js
+       • lib/methods.js
+       • lib/cors.js
+     📄 Files WITHOUT ForStatement (showing 10):
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/methods.js
+       • test/index.js
+       • test/headers.js
+
+   Super:
+     📄 Files WITH Super (showing 3):
+       • test/transmit.js
+       • test/response.js
+       • lib/response.js
+     📄 Files WITHOUT Super (showing 10):
+       • test/validation.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/request.js
+       • test/payload.js
+       • test/methods.js
+       • test/index.js
+
+   ChainExpression:
+     📄 Files WITH ChainExpression (showing 7):
+       • lib/toolkit.js
+       • lib/streams.js
+       • lib/route.js
+       • lib/request.js
+       • lib/core.js
+       • lib/auth.js
+       • test/types/index.ts
+     📄 Files WITHOUT ChainExpression (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   SpreadElement:
+     📄 Files WITH SpreadElement (showing 7):
+       • test/transmit.js
+       • test/server.js
+       • test/payload.js
+       • test/auth.js
+       • lib/toolkit.js
+       • lib/methods.js
+       • lib/config.js
+     📄 Files WITHOUT SpreadElement (showing 10):
+       • test/validation.js
+       • test/toolkit.js
+       • test/state.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/methods.js
+       • test/index.js
+       • test/headers.js
+
+   TSNullKeyword:
+     📄 Files WITH TSNullKeyword (showing 8):
+       • test/types/index.ts
+       • lib/types/utils.d.ts
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/plugin.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/methods.d.ts
+     📄 Files WITHOUT TSNullKeyword (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   TSTypeOperator:
+     📄 Files WITH TSTypeOperator (showing 4):
+       • test/types/index.ts
+       • lib/types/route.d.ts
+       • lib/types/request.d.ts
+       • lib/types/server/server.d.ts
+     📄 Files WITHOUT TSTypeOperator (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   ContinueStatement:
+     📄 Files WITH ContinueStatement (showing 5):
+       • lib/server.js
+       • lib/response.js
+       • lib/request.js
+       • lib/headers.js
+       • lib/auth.js
+     📄 Files WITHOUT ContinueStatement (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   ImportNamespaceSpecifier:
+     📄 Files WITH ImportNamespaceSpecifier (showing 5):
+       • test/types/index.ts
+       • lib/types/utils.d.ts
+       • lib/types/request.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/options.d.ts
+     📄 Files WITHOUT ImportNamespaceSpecifier (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   TSUnknownKeyword:
+     📄 Files WITH TSUnknownKeyword (showing 3):
+       • test/types/index.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+     📄 Files WITHOUT TSUnknownKeyword (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   TSIntersectionType:
+     📄 Files WITH TSIntersectionType (showing 6):
+       • lib/types/route.d.ts
+       • lib/types/response.d.ts
+       • lib/types/request.d.ts
+       • lib/types/server/server.d.ts
+       • lib/types/server/methods.d.ts
+       • lib/types/server/cache.d.ts
+     📄 Files WITHOUT TSIntersectionType (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   TSIndexSignature:
+     📄 Files WITH TSIndexSignature (showing 6):
+       • lib/types/request.d.ts
+       • lib/types/index.d.ts
+       • lib/types/server/state.d.ts
+       • lib/types/server/methods.d.ts
+       • lib/types/server/events.d.ts
+       • lib/types/server/cache.d.ts
+     📄 Files WITHOUT TSIndexSignature (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   TSTypeQuery:
+     📄 Files WITH TSTypeQuery (showing 2):
+       • test/types/index.ts
+       • lib/types/server/encoders.d.ts
+     📄 Files WITHOUT TSTypeQuery (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   SwitchCase:
+     📄 Files WITH SwitchCase (showing 1):
+       • test/validation.js
+     📄 Files WITHOUT SwitchCase (showing 10):
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+       • test/methods.js
+
+   WhileStatement:
+     📄 Files WITH WhileStatement (showing 5):
+       • test/request.js
+       • test/core.js
+       • lib/validation.js
+       • lib/streams.js
+       • lib/route.js
+     📄 Files WITHOUT WhileStatement (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/payload.js
+       • test/methods.js
+
+   TSNeverKeyword:
+     📄 Files WITH TSNeverKeyword (showing 2):
+       • test/types/index.ts
+       • lib/types/server/server.d.ts
+     📄 Files WITHOUT TSNeverKeyword (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   TSModuleDeclaration:
+     📄 Files WITH TSModuleDeclaration (showing 3):
+       • test/types/index.ts
+       • lib/types/utils.d.ts
+       • lib/types/index.d.ts
+     📄 Files WITHOUT TSModuleDeclaration (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   TSModuleBlock:
+     📄 Files WITH TSModuleBlock (showing 3):
+       • test/types/index.ts
+       • lib/types/utils.d.ts
+       • lib/types/index.d.ts
+     📄 Files WITHOUT TSModuleBlock (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   TSSymbolKeyword:
+     📄 Files WITH TSSymbolKeyword (showing 3):
+       • lib/types/utils.d.ts
+       • lib/types/response.d.ts
+       • lib/types/server/server.d.ts
+     📄 Files WITHOUT TSSymbolKeyword (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   ForInStatement:
+     📄 Files WITH ForInStatement (showing 3):
+       • lib/validation.js
+       • lib/headers.js
+       • lib/core.js
+     📄 Files WITHOUT ForInStatement (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   TSConditionalType:
+     📄 Files WITH TSConditionalType (showing 3):
+       • test/types/index.ts
+       • lib/types/request.d.ts
+       • lib/types/server/server.d.ts
+     📄 Files WITHOUT TSConditionalType (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   TSMappedType:
+     📄 Files WITH TSMappedType (showing 2):
+       • lib/types/route.d.ts
+       • lib/types/request.d.ts
+     📄 Files WITHOUT TSMappedType (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   TSCallSignatureDeclaration:
+     📄 Files WITH TSCallSignatureDeclaration (showing 3):
+       • lib/types/route.d.ts
+       • lib/types/plugin.d.ts
+       • lib/types/server/cache.d.ts
+     📄 Files WITHOUT TSCallSignatureDeclaration (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   SwitchStatement:
+     📄 Files WITH SwitchStatement (showing 1):
+       • test/validation.js
+     📄 Files WITHOUT SwitchStatement (showing 10):
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+       • test/methods.js
+
+   TSTupleType:
+     📄 Files WITH TSTupleType (showing 1):
+       • test/types/index.ts
+     📄 Files WITHOUT TSTupleType (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   ExportSpecifier:
+     📄 Files WITH ExportSpecifier (showing 1):
+       • lib/types/server/state.d.ts
+     📄 Files WITHOUT ExportSpecifier (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   ClassDeclaration:
+     📄 Files WITH ClassDeclaration (showing 1):
+       • lib/types/server/server.d.ts
+     📄 Files WITHOUT ClassDeclaration (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+   TSDeclareFunction:
+     📄 Files WITH TSDeclareFunction (showing 1):
+       • lib/types/server/server.d.ts
+     📄 Files WITHOUT TSDeclareFunction (showing 10):
+       • test/validation.js
+       • test/transmit.js
+       • test/toolkit.js
+       • test/state.js
+       • test/server.js
+       • test/security.js
+       • test/route.js
+       • test/response.js
+       • test/request.js
+       • test/payload.js
+
+============================================================
+✅ Analysis complete!

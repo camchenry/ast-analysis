@@ -14,6 +14,8 @@ const repositories = [
   "preactjs/preact",
   "solidjs/solid",
   "alpinejs/alpine",
+  "emberjs/ember.js",
+  "lit/lit",
 
   // Backend & Runtime
   "nodejs/node",
@@ -25,6 +27,7 @@ const repositories = [
   "expressjs/express",
   "koajs/koa",
   "nestjs/nest",
+  "hapijs/hapi",
 
   // Build Tools & Bundlers
   "vitejs/vite",
@@ -32,6 +35,7 @@ const repositories = [
   "rollup/rollup",
   "parcel-bundler/parcel",
   "swc-project/swc",
+  "evanw/esbuild",
 
   // TypeScript & Language Tools
   "microsoft/TypeScript",
@@ -39,18 +43,29 @@ const repositories = [
   "prettier/prettier",
   "eslint/eslint",
   "babel/babel",
+  "facebook/jscodeshift",
+  "millsp/ts-toolbelt",
+  "dsherret/ts-morph",
+  "jaredpalmer/tsdx",
+  "egoist/tsup",
 
   // Testing
   "jestjs/jest",
   "vitest-dev/vitest",
   "cypress-io/cypress",
   "mochajs/mocha",
+  "avajs/ava",
+  "testing-library/react-testing-library",
+  "microsoft/playwright",
+  "puppeteer/puppeteer",
+  "sinonjs/sinon",
 
   // State Management
   "reduxjs/redux",
   "mobxjs/mobx",
   "pmndrs/jotai",
   "TanStack/query",
+  "vuejs/vuex",
 
   // UI Libraries
   "mui/material-ui",
@@ -62,7 +77,6 @@ const repositories = [
   // Development Tools
   "storybookjs/storybook",
   "typicode/husky",
-  "conventional-changelog/commitizen",
   "semantic-release/semantic-release",
 
   // Utilities & Libraries
@@ -72,6 +86,22 @@ const repositories = [
   "moment/moment",
   "ramda/ramda",
   "immutable-js/immutable-js",
+  "reactivex/rxjs",
+
+  // Miscellaneous
+  "graphql/graphql-js",
+  "socketio/socket.io",
+  "stripe/stripe-node",
+  "firebase/firebase-js-sdk",
+
+  // Additional popular repos
+  "facebook/create-react-app",
+  "angular/angular-cli",
+  "nestjs/nest-cli",
+  "remix-run/react-router",
+  "fastify/fastify-cli",
+  "babel/babel-preset-env",
+  "jsx-eslint/eslint-plugin-react",
 ];
 
 async function cloneRepository(repo, targetDir) {
@@ -164,8 +194,8 @@ async function downloadRepositories() {
 
     // Small delay between batches to be nice to GitHub
     if (i + batchSize < repositories.length) {
-      console.log("⏳ Waiting 2 seconds before next batch...");
-      await new Promise((resolve) => setTimeout(resolve, 2000));
+      console.log("⏳ Waiting 1 second before next batch...");
+      await new Promise((resolve) => setTimeout(resolve, 1000));
     }
   }
 

@@ -1,5 +1,5 @@
 AST Analysis Report for cypress
-Generated on: 2025-07-14T01:41:54.608Z
+Generated on: 2025-07-14T01:56:16.777Z
 Repository: sample-repos/cypress
 ================================================================================
 
@@ -72,8 +72,8 @@ Repository: sample-repos/cypress
    JSXElement                      432 files ( 10.5%) -    1,972 total (0.09%)
    JSXOpeningElement               432 files ( 10.5%) -    1,972 total (0.09%)
    JSXIdentifier                   432 files ( 10.5%) -    5,743 total (0.25%)
-   TSTypeLiteral                   417 files ( 10.2%) -    1,157 total (0.05%)
    TSArrayType                     417 files ( 10.2%) -    1,346 total (0.06%)
+   TSTypeLiteral                   417 files ( 10.2%) -    1,157 total (0.05%)
    AssignmentPattern               395 files (  9.6%) -    1,367 total (0.06%)
    ExportDefaultDeclaration        384 files (  9.4%) -      392 total (0.02%)
    ChainExpression                 379 files (  9.2%) -    1,781 total (0.08%)
@@ -164,8 +164,8 @@ Repository: sample-repos/cypress
    TSSymbolKeyword                   4 files (  0.1%) -       17 total (0.00%)
    ClassExpression                   4 files (  0.1%) -      286 total (0.01%)
    YieldExpression                   4 files (  0.1%) -       22 total (0.00%)
-   TSBigIntKeyword                   4 files (  0.1%) -        8 total (0.00%)
    TSConstructSignatureDeclaration    4 files (  0.1%) -        7 total (0.00%)
+   TSBigIntKeyword                   4 files (  0.1%) -        8 total (0.00%)
    TSNamedTupleMember                4 files (  0.1%) -       14 total (0.00%)
    TSImportEqualsDeclaration         3 files (  0.1%) -        5 total (0.00%)
    TSExternalModuleReference         3 files (  0.1%) -        5 total (0.00%)
@@ -349,15 +349,15 @@ Repository: sample-repos/cypress
        • scripts/sync-exported-npm-with-cli.js
        • scripts/start.js
      📄 Files WITHOUT Identifier (showing 10):
+       • npm/vite-plugin-cypress-esm/index.d.ts
+       • npm/vite-dev-server/index.d.ts
        • packages/web-config/index.d.ts
-       • packages/runner/index.d.ts
        • packages/reporter/index.ts
+       • packages/runner/index.d.ts
        • packages/launchpad/vite-env.d.ts
        • packages/icons/index.d.ts
        • packages/frontend-shared/vite-env.d.ts
        • packages/app/vite-env.d.ts
-       • npm/vite-plugin-cypress-esm/index.d.ts
-       • npm/vite-dev-server/index.d.ts
        • cli/types/index.d.ts
 
    MemberExpression:
@@ -377,12 +377,12 @@ Repository: sample-repos/cypress
        • system-tests/globals.d.ts
        • scripts/start.js
        • scripts/unit/utils-spec.js
-       • packages/web-config/index.d.ts
-       • packages/ts/register.js
-       • packages/ts/index.d.ts
-       • packages/server/v8-snapshot-entry.js
-       • packages/server/index.d.ts
-       • packages/runner/index.d.ts
+       • npm/vue/vite.config.ts
+       • npm/vue/rollup.config.mjs
+       • npm/vue/cypress.config.ts
+       • npm/vite-plugin-cypress-esm/index.d.ts
+       • npm/vite-plugin-cypress-esm/cypress.config.ts
+       • npm/react/vite.config.ts
 
    Literal:
      📄 Files WITH Literal (showing 10):
@@ -450,11 +450,11 @@ Repository: sample-repos/cypress
        • scripts/gulp/monorepoPaths.ts
        • scripts/gulp/gulpConstants.ts
        • scripts/binary/meta.ts
-       • packages/web-config/index.d.ts
-       • packages/ts/index.d.ts
-       • packages/server/index.d.ts
-       • packages/runner/unified-runner.tsx
-       • packages/runner/index.d.ts
+       • npm/vue/vite.config.ts
+       • npm/vue/rollup.config.mjs
+       • npm/vue/cypress.config.ts
+       • npm/vite-plugin-cypress-esm/index.d.ts
+       • npm/vite-plugin-cypress-esm/cypress.config.ts
 
    Property:
      📄 Files WITH Property (showing 10):
@@ -478,7 +478,7 @@ Repository: sample-repos/cypress
        • scripts/check-terminal.js
        • scripts/check-node-version.js
        • scripts/binary.js
-       • cli/index.mjs
+       • __snapshots__/prepare-release-artifacts-spec.js
 
    BlockStatement:
      📄 Files WITH BlockStatement (showing 10):
@@ -499,10 +499,10 @@ Repository: sample-repos/cypress
        • scripts/start.js
        • scripts/run-postInstall.js
        • scripts/get-platform-key.js
-       • cli/index.mjs
-       • cli/index.js
        • __snapshots__/utils-spec.js
        • __snapshots__/util-upload-spec.js
+       • __snapshots__/upload-spec.js
+       • __snapshots__/questions-remain-spec.js
 
    VariableDeclarator:
      📄 Files WITH VariableDeclarator (showing 10):
@@ -626,16 +626,16 @@ Repository: sample-repos/cypress
 
    ThisExpression:
      📄 Files WITH ThisExpression (showing 10):
-       • system-tests/lib/system-tests.ts
-       • system-tests/lib/spec_helper.js
-       • system-tests/lib/serverStub.ts
-       • system-tests/lib/docker.ts
        • system-tests/test/window_open_spec.js
        • system-tests/test/vite_dev_server_fresh_spec.ts
        • system-tests/test/video_compression_spec.js
        • system-tests/test/uncaught_support_file_spec.js
        • system-tests/test/typescript_spec_support_spec.ts
        • system-tests/test/typescript_plugins_spec.ts
+       • system-tests/test/task_spec.js
+       • system-tests/test/task_not_registered_spec.js
+       • system-tests/test/system_node_spec.js
+       • system-tests/test/stdout_spec.js
      📄 Files WITHOUT ThisExpression (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -694,7 +694,7 @@ Repository: sample-repos/cypress
        • scripts/format-workflow-file.js
        • scripts/check-node-version.js
        • scripts/binary.js
-       • cli/index.mjs
+       • __snapshots__/util-upload-spec.js
 
    BinaryExpression:
      📄 Files WITH BinaryExpression (showing 10):
@@ -725,13 +725,13 @@ Repository: sample-repos/cypress
        • system-tests/globals.d.ts
        • system-tests/test-binary/node_versions_spec.ts
        • system-tests/test-binary/ci_environments_spec.ts
-       • system-tests/lib/system-tests.ts
-       • system-tests/lib/serverStub.ts
-       • system-tests/lib/resultsUtils.ts
-       • system-tests/lib/normalizeStdout.ts
-       • system-tests/lib/fixtures.ts
-       • system-tests/lib/docker.ts
        • system-tests/test/webpack_dev_server_fresh_spec.ts
+       • system-tests/test/vite_dev_server_fresh_spec.ts
+       • system-tests/test/testConfigOverrides_spec.ts
+       • system-tests/test/request_spec.ts
+       • system-tests/test/non_root_read_only_fs_spec.ts
+       • system-tests/test/cypress-stop.spec.ts
+       • system-tests/test/cdp_spec.ts
      📄 Files WITHOUT TSTypeAnnotation (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -766,20 +766,20 @@ Repository: sample-repos/cypress
        • scripts/format-workflow-file.js
        • scripts/check-node-version.js
        • scripts/binary.js
-       • cli/index.mjs
+       • __snapshots__/util-upload-spec.js
 
    TSTypeReference:
      📄 Files WITH TSTypeReference (showing 10):
        • system-tests/test-binary/ci_environments_spec.ts
-       • system-tests/lib/system-tests.ts
-       • system-tests/lib/serverStub.ts
-       • system-tests/lib/fixtures.ts
-       • system-tests/lib/docker.ts
        • system-tests/test/webpack_dev_server_fresh_spec.ts
        • system-tests/test/vite_dev_server_fresh_spec.ts
        • system-tests/test/testConfigOverrides_spec.ts
        • system-tests/test/subdomain_spec.ts
        • system-tests/test/subdomain_injectDocumentDomain_spec.ts
+       • system-tests/test/request_spec.ts
+       • system-tests/test/headless_spec.ts
+       • system-tests/test/component_testing_spec.ts
+       • system-tests/test/cdp_spec.ts
      📄 Files WITHOUT TSTypeReference (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -822,12 +822,12 @@ Repository: sample-repos/cypress
        • scripts/sanitize.js
        • scripts/after-sign-hook.js
        • scripts/after-pack-hook.js
-       • system-tests/lib/system-tests.ts
-       • system-tests/lib/spec_helper.js
-       • system-tests/lib/serverStub.ts
-       • system-tests/lib/resultsUtils.ts
-       • system-tests/lib/pluginUtils.js
-       • system-tests/lib/normalizeStdout.ts
+       • system-tests/test/xhr_spec.js
+       • system-tests/test/window_open_spec.js
+       • system-tests/test/websockets_spec.js
+       • system-tests/test/webpack_preprocessor_spec.ts
+       • system-tests/test/webpack_dev_server_spec.ts
+       • system-tests/test/webpack_dev_server_fresh_spec.ts
      📄 Files WITHOUT FunctionExpression (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -934,7 +934,7 @@ Repository: sample-repos/cypress
        • scripts/format-workflow-file.js
        • scripts/check-node-version.js
        • scripts/binary.js
-       • cli/index.mjs
+       • __snapshots__/util-upload-spec.js
 
    ImportDeclaration:
      📄 Files WITH ImportDeclaration (showing 10):
@@ -943,11 +943,11 @@ Repository: sample-repos/cypress
        • system-tests/test-binary/node_versions_spec.ts
        • system-tests/test-binary/module_api_spec.ts
        • system-tests/test-binary/ci_environments_spec.ts
-       • system-tests/lib/system-tests.ts
-       • system-tests/lib/serverStub.ts
-       • system-tests/lib/resultsUtils.ts
-       • system-tests/lib/normalizeStdout.ts
-       • system-tests/lib/fixtures.ts
+       • system-tests/test/yarn_v3.1.1_pnp_spec.ts
+       • system-tests/test/webpack_preprocessor_spec.ts
+       • system-tests/test/webpack_dev_server_spec.ts
+       • system-tests/test/webpack_dev_server_fresh_spec.ts
+       • system-tests/test/vite_example_spec.ts
      📄 Files WITHOUT ImportDeclaration (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -966,12 +966,12 @@ Repository: sample-repos/cypress
        • scripts/npm-release.js
        • scripts/get-next-version.js
        • system-tests/scripts/projects-yarn-install.js
-       • system-tests/lib/system-tests.ts
-       • system-tests/lib/serverStub.ts
-       • system-tests/lib/normalizeStdout.ts
-       • system-tests/lib/docker.ts
        • system-tests/test/system_node_spec.js
        • system-tests/test/subdomain_spec.ts
+       • system-tests/test/subdomain_injectDocumentDomain_spec.ts
+       • system-tests/test/record_spec.js
+       • system-tests/test/network_error_handling_spec.js
+       • system-tests/test/interception_spec.js
      📄 Files WITHOUT ParenthesizedExpression (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -988,14 +988,14 @@ Repository: sample-repos/cypress
      📄 Files WITH ImportSpecifier (showing 10):
        • system-tests/globals.d.ts
        • system-tests/test-binary/ci_environments_spec.ts
-       • system-tests/lib/system-tests.ts
-       • system-tests/lib/serverStub.ts
-       • system-tests/lib/fixtures.ts
-       • system-tests/lib/docker.ts
        • system-tests/test/webpack_dev_server_spec.ts
        • system-tests/test/webpack_dev_server_fresh_spec.ts
        • system-tests/test/vite_dev_server_fresh_spec.ts
        • system-tests/test/testConfigOverrides_spec.ts
+       • system-tests/test/studio_spec.ts
+       • system-tests/test/results_spec.ts
+       • system-tests/test/non_root_read_only_fs_spec.ts
+       • system-tests/test/headless_spec.ts
      📄 Files WITHOUT ImportSpecifier (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -1013,13 +1013,13 @@ Repository: sample-repos/cypress
        • system-tests/projects/yarn-v3.1.1-pnp/yarn-3.1.1.cjs
        • cli/lib/exec/spawn.js
        • tooling/v8-snapshot/test/unit/doctor.spec.ts
-       • system-tests/projects/ct-public-api-solid-js/cypress-ct-solid-js/definition.js
        • system-tests/projects/e2e/static/jquery.js
+       • system-tests/projects/ct-public-api-solid-js/cypress-ct-solid-js/definition.js
+       • npm/webpack-dev-server/src/helpers/sourceRelativeWebpackModules.ts
        • packages/server/lib/browsers/browser-cri-client.ts
        • packages/app/src/specs/SpecItem.cy.tsx
        • packages/app/src/runner/index.ts
-       • npm/webpack-dev-server/src/helpers/sourceRelativeWebpackModules.ts
-       • packages/proxy/test/unit/http/request-middleware.spec.ts
+       • npm/vue/cypress/component/counter-vuex/counter-vuex.cy.js
      📄 Files WITHOUT SequenceExpression (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -1035,15 +1035,15 @@ Repository: sample-repos/cypress
    JSXIdentifier:
      📄 Files WITH JSXIdentifier (showing 10):
        • packages/reporter/src/main.tsx
-       • system-tests/project-fixtures/react/src/mount.cy.jsx
-       • system-tests/project-fixtures/react/src/Unmount.cy.jsx
-       • system-tests/project-fixtures/react/src/Rerendering.cy.jsx
-       • system-tests/project-fixtures/react/src/MissingReactInSpec.cy.jsx
-       • system-tests/project-fixtures/react/src/MissingReact.jsx
-       • system-tests/project-fixtures/react/src/MissingReact.cy.jsx
-       • system-tests/project-fixtures/react/src/Errors.cy.jsx
-       • system-tests/project-fixtures/react/src/App.jsx
-       • system-tests/project-fixtures/react/src/App.cy.jsx
+       • system-tests/projects/webpack5_wds4-react/src/App.cy.jsx
+       • system-tests/projects/webpack5_wds5-react/src/App.cy.jsx
+       • system-tests/projects/webpack4_wds5-react/src/App.cy.jsx
+       • system-tests/projects/webpack-dev-server-relative/src/relative-url.cy.jsx
+       • system-tests/projects/vite-simple/src/two.cy.jsx
+       • system-tests/projects/vite-simple/src/one.cy.jsx
+       • system-tests/projects/vite-simple/src/main.jsx
+       • system-tests/projects/vite-simple/src/App.jsx
+       • system-tests/projects/tailwind-vite/src/App.cy.jsx
      📄 Files WITHOUT JSXIdentifier (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -1089,8 +1089,8 @@ Repository: sample-repos/cypress
        • scripts/gulp/gulpConstants.ts
        • scripts/binary/move-binaries.ts
        • scripts/binary/build.ts
+       • npm/webpack-preprocessor/index.ts
        • packages/web-config/webpack.config.base.ts
-       • packages/ts/index.d.ts
        • packages/server/index.d.ts
      📄 Files WITHOUT TSPropertySignature (showing 10):
        • gulpfile.js
@@ -1132,14 +1132,14 @@ Repository: sample-repos/cypress
      📄 Files WITH TSStringKeyword (showing 10):
        • system-tests/test-binary/node_versions_spec.ts
        • system-tests/test-binary/ci_environments_spec.ts
+       • system-tests/test/request_spec.ts
+       • system-tests/test/non_root_read_only_fs_spec.ts
+       • system-tests/test/cypress-stop.spec.ts
        • system-tests/lib/system-tests.ts
        • system-tests/lib/serverStub.ts
        • system-tests/lib/resultsUtils.ts
        • system-tests/lib/normalizeStdout.ts
        • system-tests/lib/fixtures.ts
-       • system-tests/lib/docker.ts
-       • system-tests/test/request_spec.ts
-       • system-tests/test/non_root_read_only_fs_spec.ts
      📄 Files WITHOUT TSStringKeyword (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -1194,9 +1194,9 @@ Repository: sample-repos/cypress
      📄 Files WITH MethodDefinition (showing 10):
        • system-tests/lib/docker.ts
        • cli/lib/VerboseRenderer.js
-       • tooling/packherd/src/generate-entry.ts
        • tooling/electron-mksnapshot/src/metadata.ts
        • tooling/electron-mksnapshot/src/config.ts
+       • tooling/packherd/src/generate-entry.ts
        • system-tests/lib/protocol-stubs/protocolStubWithRuntimeError.ts
        • system-tests/lib/protocol-stubs/protocolStubWithNonFatalError.ts
        • system-tests/lib/protocol-stubs/protocolStubWithMissingArchive.ts
@@ -1240,16 +1240,16 @@ Repository: sample-repos/cypress
 
    TSTypeParameterInstantiation:
      📄 Files WITH TSTypeParameterInstantiation (showing 10):
+       • system-tests/test/request_spec.ts
        • system-tests/lib/system-tests.ts
        • system-tests/lib/serverStub.ts
        • system-tests/lib/fixtures.ts
        • system-tests/lib/docker.ts
-       • system-tests/test/request_spec.ts
        • scripts/binary/s3-api.ts
        • scripts/binary/build.ts
+       • npm/webpack-preprocessor/index.ts
+       • npm/puppeteer/cypress.config.ts
        • packages/ts/index.d.ts
-       • packages/launchpad/vue-shims.d.ts
-       • packages/frontend-shared/vue-shims.d.ts
      📄 Files WITHOUT TSTypeParameterInstantiation (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -1293,11 +1293,11 @@ Repository: sample-repos/cypress
        • system-tests/test-binary/node_versions_spec.ts
        • system-tests/test-binary/module_api_spec.ts
        • system-tests/test-binary/ci_environments_spec.ts
-       • system-tests/lib/system-tests.ts
-       • system-tests/lib/serverStub.ts
-       • system-tests/lib/resultsUtils.ts
-       • system-tests/lib/normalizeStdout.ts
-       • system-tests/lib/fixtures.ts
+       • system-tests/test/yarn_v3.1.1_pnp_spec.ts
+       • system-tests/test/webpack_preprocessor_spec.ts
+       • system-tests/test/webpack_dev_server_spec.ts
+       • system-tests/test/webpack_dev_server_fresh_spec.ts
+       • system-tests/test/vite_example_spec.ts
      📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -1313,15 +1313,15 @@ Repository: sample-repos/cypress
    JSXAttribute:
      📄 Files WITH JSXAttribute (showing 10):
        • packages/reporter/src/main.tsx
-       • system-tests/project-fixtures/react/src/mount.cy.jsx
-       • system-tests/project-fixtures/react/src/Unmount.cy.jsx
-       • system-tests/project-fixtures/react/src/Rerendering.cy.jsx
-       • system-tests/project-fixtures/react/src/Errors.cy.jsx
-       • system-tests/project-fixtures/react/src/App.jsx
-       • system-tests/project-fixtures/next/cypress/Errors.cy.jsx
        • system-tests/projects/webpack-dev-server-relative/src/relative-url.cy.jsx
        • system-tests/projects/tailwind-vite/src/App.cy.jsx
        • system-tests/projects/runner-ct-specs/src/Errors.jsx
+       • system-tests/projects/react-vite-ts-unconfigured/src/App.tsx
+       • system-tests/projects/react-vite-ts-configured/src/App.tsx
+       • system-tests/projects/no-specs-custom-pattern/src/App.jsx
+       • system-tests/projects/no-specs/src/App.jsx
+       • system-tests/projects/next-15-tsconfig-tailwind/app/page.tsx
+       • system-tests/projects/next-15-tsconfig-tailwind/app/layout.tsx
      📄 Files WITHOUT JSXAttribute (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -1390,10 +1390,10 @@ Repository: sample-repos/cypress
        • system-tests/lib/normalizeStdout.ts
        • scripts/gulp/gulpConstants.ts
        • scripts/binary/move-binaries.ts
-       • packages/ts/index.d.ts
-       • packages/extension/index.d.ts
-       • packages/extension/gulpfile.ts
        • npm/webpack-preprocessor/index.ts
+       • npm/webpack-dev-server/cypress.config.ts
+       • npm/vite-dev-server/cypress.config.ts
+       • packages/ts/index.d.ts
      📄 Files WITHOUT TSLiteralType (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -1412,11 +1412,11 @@ Repository: sample-repos/cypress
        • system-tests/lib/serverStub.ts
        • system-tests/lib/normalizeStdout.ts
        • scripts/binary/meta.ts
-       • packages/ts/index.d.ts
+       • npm/webpack-preprocessor/index.ts
        • packages/server/index.d.ts
+       • packages/ts/index.d.ts
        • packages/reporter/index.d.ts
        • packages/app/index.d.ts
-       • npm/webpack-preprocessor/index.ts
        • cli/types/cypress.d.ts
      📄 Files WITHOUT TSAnyKeyword (showing 10):
        • gulpfile.js
@@ -1433,15 +1433,15 @@ Repository: sample-repos/cypress
    JSXElement:
      📄 Files WITH JSXElement (showing 10):
        • packages/reporter/src/main.tsx
-       • system-tests/project-fixtures/react/src/mount.cy.jsx
-       • system-tests/project-fixtures/react/src/Unmount.cy.jsx
-       • system-tests/project-fixtures/react/src/Rerendering.cy.jsx
-       • system-tests/project-fixtures/react/src/MissingReactInSpec.cy.jsx
-       • system-tests/project-fixtures/react/src/MissingReact.jsx
-       • system-tests/project-fixtures/react/src/MissingReact.cy.jsx
-       • system-tests/project-fixtures/react/src/Errors.cy.jsx
-       • system-tests/project-fixtures/react/src/App.jsx
-       • system-tests/project-fixtures/react/src/App.cy.jsx
+       • system-tests/projects/webpack5_wds4-react/src/App.cy.jsx
+       • system-tests/projects/webpack5_wds5-react/src/App.cy.jsx
+       • system-tests/projects/webpack4_wds5-react/src/App.cy.jsx
+       • system-tests/projects/webpack-dev-server-relative/src/relative-url.cy.jsx
+       • system-tests/projects/vite-simple/src/two.cy.jsx
+       • system-tests/projects/vite-simple/src/one.cy.jsx
+       • system-tests/projects/vite-simple/src/main.jsx
+       • system-tests/projects/vite-simple/src/App.jsx
+       • system-tests/projects/tailwind-vite/src/App.cy.jsx
      📄 Files WITHOUT JSXElement (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -1457,15 +1457,15 @@ Repository: sample-repos/cypress
    JSXOpeningElement:
      📄 Files WITH JSXOpeningElement (showing 10):
        • packages/reporter/src/main.tsx
-       • system-tests/project-fixtures/react/src/mount.cy.jsx
-       • system-tests/project-fixtures/react/src/Unmount.cy.jsx
-       • system-tests/project-fixtures/react/src/Rerendering.cy.jsx
-       • system-tests/project-fixtures/react/src/MissingReactInSpec.cy.jsx
-       • system-tests/project-fixtures/react/src/MissingReact.jsx
-       • system-tests/project-fixtures/react/src/MissingReact.cy.jsx
-       • system-tests/project-fixtures/react/src/Errors.cy.jsx
-       • system-tests/project-fixtures/react/src/App.jsx
-       • system-tests/project-fixtures/react/src/App.cy.jsx
+       • system-tests/projects/webpack5_wds4-react/src/App.cy.jsx
+       • system-tests/projects/webpack5_wds5-react/src/App.cy.jsx
+       • system-tests/projects/webpack4_wds5-react/src/App.cy.jsx
+       • system-tests/projects/webpack-dev-server-relative/src/relative-url.cy.jsx
+       • system-tests/projects/vite-simple/src/two.cy.jsx
+       • system-tests/projects/vite-simple/src/one.cy.jsx
+       • system-tests/projects/vite-simple/src/main.jsx
+       • system-tests/projects/vite-simple/src/App.jsx
+       • system-tests/projects/tailwind-vite/src/App.cy.jsx
      📄 Files WITHOUT JSXOpeningElement (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -1481,15 +1481,15 @@ Repository: sample-repos/cypress
    JSXExpressionContainer:
      📄 Files WITH JSXExpressionContainer (showing 10):
        • packages/reporter/src/main.tsx
+       • system-tests/projects/runner-ct-specs/src/Errors.jsx
+       • system-tests/projects/react-vite-ts-unconfigured/src/App.tsx
+       • system-tests/projects/react-vite-ts-configured/src/App.tsx
+       • system-tests/projects/next-15-tsconfig-tailwind/app/layout.tsx
+       • system-tests/projects/next-14-tsconfig-tailwind/app/layout.tsx
        • system-tests/project-fixtures/react/src/mount.cy.jsx
        • system-tests/project-fixtures/react/src/Unmount.cy.jsx
        • system-tests/project-fixtures/react/src/Rerendering.cy.jsx
        • system-tests/project-fixtures/react/src/Errors.cy.jsx
-       • system-tests/project-fixtures/react/src/App.jsx
-       • system-tests/project-fixtures/next/cypress/Errors.cy.jsx
-       • system-tests/projects/runner-ct-specs/src/Errors.jsx
-       • system-tests/projects/react-vite-ts-configured/src/App.tsx
-       • system-tests/projects/react-vite-ts-unconfigured/src/App.tsx
      📄 Files WITHOUT JSXExpressionContainer (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -1505,15 +1505,15 @@ Repository: sample-repos/cypress
    JSXText:
      📄 Files WITH JSXText (showing 10):
        • packages/reporter/src/main.tsx
-       • system-tests/project-fixtures/react/src/Unmount.cy.jsx
-       • system-tests/project-fixtures/react/src/Rerendering.cy.jsx
-       • system-tests/project-fixtures/react/src/MissingReact.jsx
-       • system-tests/project-fixtures/react/src/Errors.cy.jsx
-       • system-tests/project-fixtures/react/src/App.jsx
-       • system-tests/project-fixtures/next/cypress/Errors.cy.jsx
        • system-tests/projects/vite-simple/src/main.jsx
        • system-tests/projects/vite-simple/src/App.jsx
        • system-tests/projects/tailwind-vite/src/App.cy.jsx
+       • system-tests/projects/runner-ct-specs/src/Errors.jsx
+       • system-tests/projects/react-vite-ts-unconfigured/src/main.tsx
+       • system-tests/projects/react-vite-ts-unconfigured/src/App.tsx
+       • system-tests/projects/react-vite-ts-configured/src/main.tsx
+       • system-tests/projects/react-vite-ts-configured/src/App.tsx
+       • system-tests/projects/no-specs-custom-pattern/src/index.jsx
      📄 Files WITHOUT JSXText (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -1529,14 +1529,14 @@ Repository: sample-repos/cypress
    ChainExpression:
      📄 Files WITH ChainExpression (showing 10):
        • system-tests/scripts/scaffold.js
-       • system-tests/lib/serverStub.ts
        • system-tests/test/record_spec.js
        • system-tests/test/error_ui_spec.ts
+       • system-tests/lib/serverStub.ts
        • scripts/semantic-commits/get-binary-release-data.js
-       • packages/server/start-cypress.js
-       • packages/frontend-shared/vite.config.mjs
        • npm/webpack-preprocessor/index.ts
        • npm/webpack-batteries-included-preprocessor/index.js
+       • packages/server/start-cypress.js
+       • packages/frontend-shared/vite.config.mjs
        • cli/lib/cli.js
      📄 Files WITHOUT ChainExpression (showing 10):
        • gulpfile.js
@@ -1552,15 +1552,15 @@ Repository: sample-repos/cypress
 
    TSUnionType:
      📄 Files WITH TSUnionType (showing 10):
+       • system-tests/test/request_spec.ts
        • system-tests/lib/system-tests.ts
        • system-tests/lib/serverStub.ts
        • system-tests/lib/resultsUtils.ts
        • system-tests/lib/normalizeStdout.ts
        • system-tests/lib/docker.ts
-       • system-tests/test/request_spec.ts
        • scripts/gulp/gulpConstants.ts
        • scripts/binary/move-binaries.ts
-       • packages/ts/index.d.ts
+       • npm/webpack-preprocessor/index.ts
        • packages/server/index.d.ts
      📄 Files WITHOUT TSUnionType (showing 10):
        • gulpfile.js
@@ -1576,13 +1576,13 @@ Repository: sample-repos/cypress
 
    TSAsExpression:
      📄 Files WITH TSAsExpression (showing 10):
-       • system-tests/lib/system-tests.ts
-       • system-tests/lib/serverStub.ts
-       • system-tests/lib/fixtures.ts
        • system-tests/test/subdomain_spec.ts
        • system-tests/test/subdomain_injectDocumentDomain_spec.ts
        • system-tests/test/headless_spec.ts
        • system-tests/test/component_testing_spec.ts
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/serverStub.ts
+       • system-tests/lib/fixtures.ts
        • scripts/gulp/monorepoPaths.ts
        • scripts/binary/move-binaries.ts
        • scripts/binary/meta.ts
@@ -1605,11 +1605,11 @@ Repository: sample-repos/cypress
        • scripts/import.js
        • scripts/debug.js
        • system-tests/scripts/projects-yarn-install.js
-       • system-tests/lib/system-tests.ts
-       • system-tests/lib/serverStub.ts
-       • system-tests/lib/performance.js
-       • system-tests/lib/docker.ts
        • system-tests/test/screenshots_spec.js
+       • system-tests/test/record_spec.js
+       • system-tests/test/proxy_correlation_spec.js
+       • system-tests/test/headless_spec.ts
+       • system-tests/test/cookies_spec.ts
      📄 Files WITHOUT SpreadElement (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -1627,12 +1627,12 @@ Repository: sample-repos/cypress
        • system-tests/lib/system-tests.ts
        • system-tests/lib/fixtures.ts
        • scripts/binary/build.ts
+       • npm/webpack-preprocessor/index.ts
        • packages/server/index.d.ts
        • packages/runner/webpack.config.ts
        • packages/driver/index.ts
        • packages/driver/index.d.ts
        • packages/driver/cypress.config.ts
-       • npm/webpack-preprocessor/index.ts
        • cli/types/cypress.d.ts
      📄 Files WITHOUT TSQualifiedName (showing 10):
        • gulpfile.js
@@ -1651,10 +1651,10 @@ Repository: sample-repos/cypress
        • scripts/sanitize.js
        • scripts/circle-cache.js
        • cli/index.js
-       • system-tests/lib/resultsUtils.ts
        • system-tests/test/subdomain_spec.ts
        • system-tests/test/subdomain_injectDocumentDomain_spec.ts
        • system-tests/test/request_spec.ts
+       • system-tests/lib/resultsUtils.ts
        • scripts/binary/meta.ts
        • tooling/v8-snapshot/src/utils.ts
        • system-tests/projects/yarn-v3.1.1-pnp/yarn-3.1.1.cjs
@@ -1676,12 +1676,12 @@ Repository: sample-repos/cypress
        • scripts/import.js
        • scripts/ensure-icons.js
        • system-tests/scripts/scaffold.js
-       • system-tests/lib/system-tests.ts
-       • system-tests/lib/serverStub.ts
-       • system-tests/lib/resultsUtils.ts
-       • system-tests/lib/normalizeStdout.ts
-       • system-tests/lib/fixtures.ts
        • system-tests/test/studio_spec.ts
+       • system-tests/test/screenshots_spec.js
+       • system-tests/test/record_spec.js
+       • system-tests/test/network_error_handling_spec.js
+       • system-tests/test/form_submissions_spec.js
+       • system-tests/lib/system-tests.ts
      📄 Files WITHOUT AssignmentPattern (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -1696,12 +1696,12 @@ Repository: sample-repos/cypress
 
    TSArrayType:
      📄 Files WITH TSArrayType (showing 10):
-       • system-tests/lib/system-tests.ts
-       • system-tests/lib/docker.ts
        • system-tests/test/webpack_dev_server_fresh_spec.ts
        • system-tests/test/vite_dev_server_fresh_spec.ts
        • system-tests/test/testConfigOverrides_spec.ts
        • system-tests/test/headless_spec.ts
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/docker.ts
        • scripts/gulp/gulpfile.ts
        • scripts/binary/s3-api.ts
        • scripts/binary/move-binaries.ts
@@ -1721,15 +1721,15 @@ Repository: sample-repos/cypress
    TSNumberKeyword:
      📄 Files WITH TSNumberKeyword (showing 10):
        • system-tests/test-binary/ci_environments_spec.ts
-       • system-tests/lib/system-tests.ts
-       • system-tests/lib/resultsUtils.ts
-       • system-tests/lib/normalizeStdout.ts
        • system-tests/test/webpack_dev_server_fresh_spec.ts
        • system-tests/test/vite_dev_server_fresh_spec.ts
        • system-tests/test/request_spec.ts
        • system-tests/test/non_root_read_only_fs_spec.ts
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/resultsUtils.ts
+       • system-tests/lib/normalizeStdout.ts
        • scripts/binary/move-binaries.ts
-       • packages/ts/index.d.ts
+       • packages/server/index.d.ts
      📄 Files WITHOUT TSNumberKeyword (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -1749,11 +1749,11 @@ Repository: sample-repos/cypress
        • system-tests/lib/normalizeStdout.ts
        • system-tests/lib/docker.ts
        • scripts/binary/build.ts
-       • packages/web-config/webpack.config.base.ts
-       • packages/ts/index.d.ts
-       • packages/server/index.d.ts
-       • packages/extension/gulpfile.ts
        • npm/webpack-preprocessor/index.ts
+       • packages/web-config/webpack.config.base.ts
+       • packages/server/index.d.ts
+       • packages/ts/index.d.ts
+       • packages/extension/gulpfile.ts
      📄 Files WITHOUT TSBooleanKeyword (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -1772,10 +1772,10 @@ Repository: sample-repos/cypress
        • system-tests/lib/serverStub.ts
        • system-tests/lib/resultsUtils.ts
        • system-tests/lib/docker.ts
+       • npm/webpack-preprocessor/index.ts
        • packages/web-config/webpack.config.base.ts
        • packages/ts/index.d.ts
        • packages/app/index.d.ts
-       • npm/webpack-preprocessor/index.ts
        • cli/types/cypress.d.ts
        • cli/types/cypress-npm-api.d.ts
      📄 Files WITHOUT TSTypeLiteral (showing 10):
@@ -1800,7 +1800,7 @@ Repository: sample-repos/cypress
        • scripts/gulp/utils/prefixStream.ts
        • scripts/binary/util/transform-requires.js
        • scripts/binary/util/testStaticAssets.js
-       • packages/socket/test/socket_spec.js
+       • npm/vite-plugin-cypress-esm/src/index.ts
        • packages/server/lib/video_capture.ts
      📄 Files WITHOUT UpdateExpression (showing 10):
        • gulpfile.js
@@ -1841,15 +1841,15 @@ Repository: sample-repos/cypress
    JSXClosingElement:
      📄 Files WITH JSXClosingElement (showing 10):
        • packages/reporter/src/main.tsx
-       • system-tests/project-fixtures/react/src/mount.cy.jsx
-       • system-tests/project-fixtures/react/src/Unmount.cy.jsx
-       • system-tests/project-fixtures/react/src/Rerendering.cy.jsx
-       • system-tests/project-fixtures/react/src/MissingReact.jsx
-       • system-tests/project-fixtures/react/src/Errors.cy.jsx
-       • system-tests/project-fixtures/react/src/App.jsx
-       • system-tests/project-fixtures/next/cypress/Errors.cy.jsx
        • system-tests/projects/vite-simple/src/main.jsx
        • system-tests/projects/vite-simple/src/App.jsx
+       • system-tests/projects/tailwind-vite/src/App.cy.jsx
+       • system-tests/projects/runner-ct-specs/src/Errors.jsx
+       • system-tests/projects/react-vite-ts-unconfigured/src/main.tsx
+       • system-tests/projects/react-vite-ts-unconfigured/src/App.tsx
+       • system-tests/projects/react-vite-ts-configured/src/main.tsx
+       • system-tests/projects/react-vite-ts-configured/src/App.tsx
+       • system-tests/projects/no-specs-custom-pattern/src/index.jsx
      📄 Files WITHOUT JSXClosingElement (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -1870,10 +1870,10 @@ Repository: sample-repos/cypress
        • scripts/after-sign-hook.js
        • scripts/after-pack-hook.js
        • system-tests/scripts/scaffold.js
+       • system-tests/test/non_root_read_only_fs_spec.ts
        • system-tests/lib/system-tests.ts
        • system-tests/lib/serverStub.ts
        • system-tests/lib/resultsUtils.ts
-       • system-tests/lib/fixtures.ts
      📄 Files WITHOUT TryStatement (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -1893,11 +1893,11 @@ Repository: sample-repos/cypress
        • scripts/after-pack-hook.js
        • system-tests/scripts/scaffold.js
        • system-tests/scripts/projects-yarn-install.js
-       • system-tests/lib/system-tests.ts
-       • system-tests/projects/rename.js
        • system-tests/test/webpack_dev_server_fresh_spec.ts
        • system-tests/test/vite_dev_server_fresh_spec.ts
        • system-tests/test/component_testing_spec.ts
+       • system-tests/lib/system-tests.ts
+       • system-tests/projects/rename.js
      📄 Files WITHOUT ForOfStatement (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -1940,11 +1940,11 @@ Repository: sample-repos/cypress
        • system-tests/lib/serverStub.ts
        • system-tests/lib/docker.ts
        • scripts/binary/build.ts
-       • packages/ts/index.d.ts
-       • packages/server/index.d.ts
-       • packages/app/index.d.ts
        • npm/webpack-preprocessor/index.ts
        • npm/puppeteer/cypress.config.ts
+       • packages/server/index.d.ts
+       • packages/ts/index.d.ts
+       • packages/app/index.d.ts
        • cli/types/cypress.d.ts
      📄 Files WITHOUT TSVoidKeyword (showing 10):
        • gulpfile.js
@@ -1960,15 +1960,15 @@ Repository: sample-repos/cypress
 
    TSTypeAliasDeclaration:
      📄 Files WITH TSTypeAliasDeclaration (showing 10):
-       • system-tests/lib/system-tests.ts
-       • system-tests/lib/serverStub.ts
        • system-tests/test/webpack_dev_server_fresh_spec.ts
        • system-tests/test/vite_dev_server_fresh_spec.ts
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/serverStub.ts
        • scripts/gulp/gulpConstants.ts
        • scripts/binary/move-binaries.ts
        • scripts/binary/meta.ts
-       • packages/ts/index.d.ts
        • npm/webpack-preprocessor/index.ts
+       • packages/ts/index.d.ts
        • cli/types/cypress.d.ts
      📄 Files WITHOUT TSTypeAliasDeclaration (showing 10):
        • gulpfile.js
@@ -1987,12 +1987,12 @@ Repository: sample-repos/cypress
        • scripts/gulp/gulpConstants.ts
        • scripts/binary/move-binaries.ts
        • scripts/binary/build.ts
-       • packages/ts/index.d.ts
+       • npm/webpack-preprocessor/index.ts
        • packages/server/index.d.ts
+       • packages/ts/index.d.ts
        • packages/reporter/index.d.ts
        • packages/driver/index.ts
        • packages/app/index.d.ts
-       • npm/webpack-preprocessor/index.ts
        • cli/types/cypress.d.ts
      📄 Files WITHOUT TSInterfaceDeclaration (showing 10):
        • gulpfile.js
@@ -2011,12 +2011,12 @@ Repository: sample-repos/cypress
        • scripts/gulp/gulpConstants.ts
        • scripts/binary/move-binaries.ts
        • scripts/binary/build.ts
-       • packages/ts/index.d.ts
+       • npm/webpack-preprocessor/index.ts
        • packages/server/index.d.ts
+       • packages/ts/index.d.ts
        • packages/reporter/index.d.ts
        • packages/driver/index.ts
        • packages/app/index.d.ts
-       • npm/webpack-preprocessor/index.ts
        • cli/types/cypress.d.ts
      📄 Files WITHOUT TSInterfaceBody (showing 10):
        • gulpfile.js
@@ -2033,10 +2033,10 @@ Repository: sample-repos/cypress
    TSFunctionType:
      📄 Files WITH TSFunctionType (showing 10):
        • system-tests/lib/system-tests.ts
-       • packages/ts/index.d.ts
-       • packages/server/index.d.ts
-       • packages/app/index.d.ts
        • npm/webpack-preprocessor/index.ts
+       • packages/server/index.d.ts
+       • packages/ts/index.d.ts
+       • packages/app/index.d.ts
        • cli/types/cypress.d.ts
        • cli/types/cypress-eventemitter.d.ts
        • tooling/v8-snapshot/src/types.ts
@@ -2081,10 +2081,10 @@ Repository: sample-repos/cypress
    TSIndexedAccessType:
      📄 Files WITH TSIndexedAccessType (showing 10):
        • system-tests/test-binary/ci_environments_spec.ts
-       • system-tests/lib/system-tests.ts
-       • system-tests/lib/serverStub.ts
        • system-tests/test/webpack_dev_server_fresh_spec.ts
        • system-tests/test/vite_dev_server_fresh_spec.ts
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/serverStub.ts
        • scripts/binary/meta.ts
        • cli/types/cypress.d.ts
        • tooling/v8-snapshot/src/types.ts
@@ -2106,9 +2106,9 @@ Repository: sample-repos/cypress
      📄 Files WITH ClassBody (showing 10):
        • system-tests/lib/docker.ts
        • cli/lib/VerboseRenderer.js
-       • tooling/packherd/src/generate-entry.ts
        • tooling/electron-mksnapshot/src/metadata.ts
        • tooling/electron-mksnapshot/src/config.ts
+       • tooling/packherd/src/generate-entry.ts
        • system-tests/lib/protocol-stubs/protocolStubWithRuntimeError.ts
        • system-tests/lib/protocol-stubs/protocolStubWithNonFatalError.ts
        • system-tests/lib/protocol-stubs/protocolStubWithMissingArchive.ts
@@ -2135,9 +2135,9 @@ Repository: sample-repos/cypress
        • cli/types/cypress-npm-api.d.ts
        • cli/types/cypress-eventemitter.d.ts
        • cli/types/cy-chai.d.ts
+       • npm/vue/src/index.ts
+       • npm/puppeteer/support/index.d.ts
        • packages/types/src/protocol.ts
-       • packages/types/src/cloud.ts
-       • packages/telemetry/src/index.ts
      📄 Files WITHOUT TSMethodSignature (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -2153,10 +2153,10 @@ Repository: sample-repos/cypress
    ArrayPattern:
      📄 Files WITH ArrayPattern (showing 10):
        • scripts/debug.js
+       • system-tests/test/cookies_spec.ts
        • system-tests/lib/system-tests.ts
        • system-tests/lib/serverStub.ts
        • system-tests/lib/fixtures.ts
-       • system-tests/test/cookies_spec.ts
        • scripts/semantic-commits/validate-changelog.js
        • scripts/semantic-commits/get-binary-release-data.js
        • scripts/semantic-commits/change-categories.js
@@ -2180,12 +2180,12 @@ Repository: sample-repos/cypress
        • scripts/prepare-release-artifacts.js
        • scripts/debug.js
        • system-tests/scripts/projects-yarn-install.js
+       • system-tests/test/screenshots_spec.js
+       • system-tests/test/cookies_spec.ts
        • system-tests/lib/system-tests.ts
        • system-tests/lib/spec_helper.js
        • system-tests/lib/normalizeStdout.ts
        • system-tests/lib/docker.ts
-       • system-tests/test/screenshots_spec.js
-       • system-tests/test/cookies_spec.ts
      📄 Files WITHOUT RestElement (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -2207,9 +2207,9 @@ Repository: sample-repos/cypress
        • cli/types/cypress-npm-api.d.ts
        • cli/types/cy-bluebird.d.ts
        • tooling/v8-snapshot/src/types.ts
-       • packages/v8-snapshot-require/src/types.ts
-       • packages/types/src/util.ts
-       • packages/types/src/server.ts
+       • npm/webpack-preprocessor/lib/utils.ts
+       • npm/vue/src/index.ts
+       • npm/vue/test-tsd/index.d.ts
      📄 Files WITHOUT TSTypeParameter (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -2231,9 +2231,9 @@ Repository: sample-repos/cypress
        • cli/lib/errors.js
        • scripts/gulp/tasks/gulpMakePackage.ts
        • scripts/binary/util/testStaticAssets.js
+       • npm/eslint-plugin-dev/test/no-return-before.spec.js
        • packages/scaffold-config/src/supportFile.ts
        • packages/scaffold-config/src/component-index-template.ts
-       • packages/scaffold-config/src/commandFile.ts
      📄 Files WITHOUT TaggedTemplateExpression (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -2272,8 +2272,8 @@ Repository: sample-repos/cypress
 
    TSNullKeyword:
      📄 Files WITH TSNullKeyword (showing 10):
-       • system-tests/lib/docker.ts
        • system-tests/test/request_spec.ts
+       • system-tests/lib/docker.ts
        • scripts/binary/s3-api.ts
        • scripts/binary/move-binaries.ts
        • packages/ts/index.d.ts
@@ -2304,8 +2304,8 @@ Repository: sample-repos/cypress
        • tooling/v8-snapshot/src/types.ts
        • system-tests/lib/protocol-stubs/protocolStubWithMissingArchive.ts
        • scripts/gulp/tasks/gulpCypress.ts
-       • packages/v8-snapshot-require/src/snapshot-require.ts
-       • packages/types/src/util.ts
+       • npm/webpack-preprocessor/lib/utils.ts
+       • npm/react/src/getDisplayName.ts
      📄 Files WITHOUT TSUndefinedKeyword (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -2327,9 +2327,9 @@ Repository: sample-repos/cypress
        • cli/types/cypress-npm-api.d.ts
        • cli/types/cy-bluebird.d.ts
        • tooling/v8-snapshot/src/types.ts
-       • packages/v8-snapshot-require/src/types.ts
-       • packages/types/src/util.ts
-       • packages/types/src/server.ts
+       • npm/webpack-preprocessor/lib/utils.ts
+       • npm/vue/src/index.ts
+       • npm/vue/test-tsd/index.d.ts
      📄 Files WITHOUT TSTypeParameterDeclaration (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -2346,14 +2346,14 @@ Repository: sample-repos/cypress
      📄 Files WITH ExportDefaultDeclaration (showing 10):
        • cli/index.mjs
        • system-tests/lib/fixtures.ts
-       • packages/server/index.d.ts
-       • packages/runner/webpack.config.ts
-       • packages/reporter/webpack.config.ts
-       • packages/reporter/index.d.ts
-       • packages/reporter/cypress.config.ts
-       • packages/launchpad/vue-shims.d.ts
-       • packages/launchpad/vite.config.mjs
-       • packages/launchpad/cypress.config.ts
+       • npm/vue/vite.config.ts
+       • npm/vue/rollup.config.mjs
+       • npm/vue/cypress.config.ts
+       • npm/vite-plugin-cypress-esm/cypress.config.ts
+       • npm/webpack-dev-server/cypress.config.ts
+       • npm/react/vite.config.ts
+       • npm/react/rollup.config.mjs
+       • npm/vite-dev-server/cypress.config.ts
      📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -2372,12 +2372,12 @@ Repository: sample-repos/cypress
        • cli/types/cypress.d.ts
        • cli/types/cypress-npm-api.d.ts
        • cli/types/cypress-global-vars.d.ts
+       • tooling/electron-mksnapshot/src/config.ts
        • tooling/v8-snapshot/src/types.ts
        • tooling/packherd/src/types.ts
        • tooling/packherd/src/create-bundle.ts
-       • tooling/electron-mksnapshot/src/config.ts
        • system-tests/project-fixtures/react/cypress-webpack.config.ts
-       • packages/v8-snapshot-require/src/types.ts
+       • npm/vue/src/index.ts
      📄 Files WITHOUT TSIntersectionType (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -2393,14 +2393,14 @@ Repository: sample-repos/cypress
    TSTypeQuery:
      📄 Files WITH TSTypeQuery (showing 10):
        • system-tests/globals.d.ts
-       • system-tests/lib/serverStub.ts
        • system-tests/test/webpack_dev_server_fresh_spec.ts
        • system-tests/test/vite_dev_server_fresh_spec.ts
+       • system-tests/lib/serverStub.ts
        • scripts/binary/meta.ts
-       • packages/extension/index.d.ts
-       • packages/app/index.d.ts
        • npm/webpack-dev-server/cypress.config.ts
        • npm/vite-dev-server/cypress.config.ts
+       • packages/extension/index.d.ts
+       • packages/app/index.d.ts
        • cli/types/cypress.d.ts
      📄 Files WITHOUT TSTypeQuery (showing 10):
        • gulpfile.js
@@ -2438,13 +2438,13 @@ Repository: sample-repos/cypress
      📄 Files WITH Super (showing 10):
        • system-tests/lib/docker.ts
        • system-tests/projects/yarn-v3.1.1-pnp/yarn-3.1.1.cjs
-       • packages/socket/lib/socket.ts
-       • packages/socket/lib/cdp-socket.ts
-       • packages/socket/lib/cdp-browser.ts
        • packages/server/lib/studio.ts
        • packages/server/lib/socket-e2e.ts
        • packages/server/lib/socket-ct.ts
        • packages/server/lib/project-base.ts
+       • packages/socket/lib/socket.ts
+       • packages/socket/lib/cdp-socket.ts
+       • packages/socket/lib/cdp-browser.ts
        • packages/network/lib/agent.ts
      📄 Files WITHOUT Super (showing 10):
        • gulpfile.js
@@ -2462,14 +2462,14 @@ Repository: sample-repos/cypress
      📄 Files WITH TSNonNullExpression (showing 10):
        • npm/puppeteer/cypress.config.ts
        • scripts/gulp/tasks/gulpCloudDeliveredTypes.ts
-       • packages/telemetry/src/index.ts
        • packages/server/lib/server-base.ts
        • packages/server/lib/project-base.ts
        • packages/server/lib/open_project.ts
+       • packages/telemetry/src/index.ts
        • packages/rewriter/lib/deferred-source-map-cache.ts
        • packages/network/lib/concat-stream.ts
        • packages/network/lib/agent.ts
-       • packages/errors/src/errors.ts
+       • packages/driver/src/cypress.ts
      📄 Files WITHOUT TSNonNullExpression (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -2487,13 +2487,13 @@ Repository: sample-repos/cypress
        • packages/server/lib/socket-ct.ts
        • packages/data-context/src/DataContext.ts
        • packages/data-context/src/polling/poller.ts
-       • packages/data-context/src/util/DocumentNodeBuilder.ts
-       • packages/data-context/src/actions/NotificationActions.ts
-       • packages/data-context/src/actions/DataEmitterActions.ts
-       • packages/data-context/src/actions/AuthActions.ts
        • packages/data-context/src/sources/VersionsDataSource.ts
        • packages/data-context/src/sources/RemoteRequestDataSource.ts
        • packages/data-context/src/sources/RelevantRunsDataSource.ts
+       • packages/data-context/src/sources/RelevantRunSpecsDataSource.ts
+       • packages/data-context/src/sources/ProjectDataSource.ts
+       • packages/data-context/src/sources/GraphQLDataSource.ts
+       • packages/data-context/src/sources/GitDataSource.ts
      📄 Files WITHOUT PrivateIdentifier (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -2510,9 +2510,9 @@ Repository: sample-repos/cypress
      📄 Files WITH ClassDeclaration (showing 10):
        • system-tests/lib/docker.ts
        • cli/lib/VerboseRenderer.js
-       • tooling/packherd/src/generate-entry.ts
        • tooling/electron-mksnapshot/src/metadata.ts
        • tooling/electron-mksnapshot/src/config.ts
+       • tooling/packherd/src/generate-entry.ts
        • system-tests/lib/protocol-stubs/protocolStubWithRuntimeError.ts
        • system-tests/lib/protocol-stubs/protocolStubWithNonFatalError.ts
        • system-tests/lib/protocol-stubs/protocolStubWithMissingArchive.ts
@@ -2574,13 +2574,13 @@ Repository: sample-repos/cypress
 
    ImportNamespaceSpecifier:
      📄 Files WITH ImportNamespaceSpecifier (showing 10):
+       • system-tests/test/non_root_read_only_fs_spec.ts
        • system-tests/lib/system-tests.ts
        • system-tests/lib/serverStub.ts
-       • system-tests/test/non_root_read_only_fs_spec.ts
        • scripts/binary/build.ts
+       • npm/webpack-preprocessor/index.ts
        • packages/runner/unified-runner.tsx
        • packages/extension/gulpfile.ts
-       • npm/webpack-preprocessor/index.ts
        • cli/types/cy-blob-util.d.ts
        • tooling/packherd/test/packherd.spec.ts
        • tooling/packherd/test/entry-generator.spec.ts
@@ -2601,10 +2601,10 @@ Repository: sample-repos/cypress
        • scripts/sanitize.js
        • scripts/circle-cache.js
        • cli/index.js
-       • system-tests/lib/resultsUtils.ts
        • system-tests/test/subdomain_spec.ts
        • system-tests/test/subdomain_injectDocumentDomain_spec.ts
        • system-tests/test/request_spec.ts
+       • system-tests/lib/resultsUtils.ts
        • scripts/binary/meta.ts
        • tooling/v8-snapshot/src/utils.ts
        • system-tests/projects/yarn-v3.1.1-pnp/yarn-3.1.1.cjs
@@ -2626,12 +2626,12 @@ Repository: sample-repos/cypress
        • scripts/binary/meta.ts
        • cli/types/cypress.d.ts
        • tooling/v8-snapshot/src/types.ts
+       • npm/vue/src/index.ts
+       • npm/webpack-dev-server/src/devServer.ts
+       • npm/angular/src/mount.ts
        • packages/v8-snapshot-require/src/types.ts
        • packages/types/src/server.ts
        • packages/types/src/protocol.ts
-       • packages/types/src/preferences.ts
-       • packages/types/src/driver.ts
-       • packages/types/src/config.ts
      📄 Files WITHOUT TSTypeOperator (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -2646,16 +2646,16 @@ Repository: sample-repos/cypress
 
    ExportAllDeclaration:
      📄 Files WITH ExportAllDeclaration (showing 10):
-       • packages/reporter/index.ts
-       • packages/icons/index.d.ts
-       • packages/launcher/index.ts
-       • packages/driver/index.ts
        • npm/vite-plugin-cypress-esm/index.d.ts
        • npm/vite-dev-server/index.d.ts
+       • packages/reporter/index.ts
+       • packages/launcher/index.ts
+       • packages/icons/index.d.ts
+       • packages/driver/index.ts
        • tooling/v8-snapshot/src/v8-snapshot.ts
        • tooling/packherd/src/packherd.ts
-       • packages/v8-snapshot-require/src/snapshot-require.ts
-       • packages/types/src/index.ts
+       • npm/react/src/index.ts
+       • npm/svelte/src/index.ts
      📄 Files WITHOUT ExportAllDeclaration (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -2671,15 +2671,15 @@ Repository: sample-repos/cypress
    TSUnknownKeyword:
      📄 Files WITH TSUnknownKeyword (showing 10):
        • cli/types/cypress.d.ts
+       • tooling/packherd/src/create-bundle.ts
        • tooling/packherd/test/packherd.spec.ts
        • tooling/packherd/test/entry-generator.spec.ts
-       • tooling/packherd/src/create-bundle.ts
-       • packages/v8-snapshot-require/test/dependency-map.spec.ts
-       • packages/v8-snapshot-require/test/dependency-map.circular.spec.ts
-       • packages/types/src/server.ts
-       • packages/server/lib/socket-base.ts
-       • packages/server/lib/server-base.ts
-       • packages/server/lib/routes.ts
+       • npm/webpack-dev-server/src/loader.ts
+       • npm/webpack-dev-server/src/createWebpackDevServer.ts
+       • npm/webpack-dev-server/src/CypressCTWebpackPlugin.ts
+       • npm/react/src/createMount.ts
+       • npm/vite-dev-server/test/resolveConfig.spec.ts
+       • npm/angular/src/mount.ts
      📄 Files WITHOUT TSUnknownKeyword (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -2694,16 +2694,16 @@ Repository: sample-repos/cypress
 
    TSInterfaceHeritage:
      📄 Files WITH TSInterfaceHeritage (showing 10):
-       • packages/ts/index.d.ts
        • npm/webpack-preprocessor/index.ts
+       • packages/ts/index.d.ts
        • cli/types/cypress.d.ts
        • cli/types/cypress-npm-api.d.ts
        • cli/types/cypress-eventemitter.d.ts
        • cli/types/cy-bluebird.d.ts
        • scripts/gulp/utils/nexusTypegenUtil.ts
        • scripts/gulp/utils/childProcessUtils.ts
+       • npm/angular/src/mount.ts
        • packages/types/src/spec.ts
-       • packages/types/src/reporter.ts
      📄 Files WITHOUT TSInterfaceHeritage (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -2724,10 +2724,10 @@ Repository: sample-repos/cypress
        • packages/launcher/index.ts
        • packages/example/index.d.ts
        • tooling/v8-snapshot/src/v8-snapshot.ts
-       • packages/types/src/index.ts
-       • packages/telemetry/src/node.ts
-       • packages/telemetry/src/browser.ts
-       • packages/socket/lib/socket.ts
+       • npm/vue/src/index.ts
+       • npm/webpack-dev-server/src/index.ts
+       • npm/react/src/mount.ts
+       • npm/vite-dev-server/src/index.ts
      📄 Files WITHOUT ExportSpecifier (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -2743,9 +2743,9 @@ Repository: sample-repos/cypress
    TSParameterProperty:
      📄 Files WITH TSParameterProperty (showing 10):
        • system-tests/lib/docker.ts
-       • tooling/packherd/src/generate-entry.ts
        • tooling/electron-mksnapshot/src/metadata.ts
        • tooling/electron-mksnapshot/src/config.ts
+       • tooling/packherd/src/generate-entry.ts
        • packages/v8-snapshot-require/src/dependency-map.ts
        • packages/server/lib/remote_states.ts
        • packages/packherd-require/src/sourcemap-support.ts
@@ -2768,8 +2768,8 @@ Repository: sample-repos/cypress
      📄 Files WITH TSModuleDeclaration (showing 10):
        • system-tests/globals.d.ts
        • scripts/gulp/gulpConstants.ts
-       • packages/ts/index.d.ts
        • packages/server/index.d.ts
+       • packages/ts/index.d.ts
        • packages/reporter/index.d.ts
        • packages/launchpad/vue-shims.d.ts
        • packages/frontend-shared/vue-shims.d.ts
@@ -2792,8 +2792,8 @@ Repository: sample-repos/cypress
      📄 Files WITH TSModuleBlock (showing 10):
        • system-tests/globals.d.ts
        • scripts/gulp/gulpConstants.ts
-       • packages/ts/index.d.ts
        • packages/server/index.d.ts
+       • packages/ts/index.d.ts
        • packages/reporter/index.d.ts
        • packages/launchpad/vue-shims.d.ts
        • packages/frontend-shared/vue-shims.d.ts
@@ -2839,15 +2839,15 @@ Repository: sample-repos/cypress
    TSIndexSignature:
      📄 Files WITH TSIndexSignature (showing 10):
        • system-tests/lib/system-tests.ts
-       • packages/ts/index.d.ts
        • npm/webpack-preprocessor/index.ts
+       • packages/ts/index.d.ts
        • cli/types/cypress.d.ts
+       • npm/angular/src/mount.ts
        • packages/types/src/server.ts
        • packages/types/src/config.ts
-       • packages/telemetry/src/index.ts
-       • packages/socket/lib/cdp-browser.ts
-       • packages/socket/lib/browser.ts
        • packages/server/lib/server-base.ts
+       • packages/server/lib/experiments.ts
+       • packages/telemetry/src/index.ts
      📄 Files WITHOUT TSIndexSignature (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -2864,14 +2864,14 @@ Repository: sample-repos/cypress
      📄 Files WITH TSParenthesizedType (showing 10):
        • cli/types/cypress.d.ts
        • scripts/gulp/utils/prefixStream.ts
+       • npm/webpack-dev-server/test/makeWebpackConfig.spec.ts
+       • npm/webpack-dev-server/test/devServer-unit.spec.ts
+       • npm/webpack-dev-server/src/devServer.ts
+       • npm/vite-dev-server/test/resolveConfig.spec.ts
+       • npm/vite-dev-server/src/devServer.ts
        • packages/types/src/server.ts
        • packages/types/src/modeOptions.ts
-       • packages/socket/lib/cdp-socket.ts
        • packages/server/lib/server-base.ts
-       • packages/server/lib/open_project.ts
-       • packages/reporter/src/main.tsx
-       • packages/packherd-require/src/loader.ts
-       • packages/network/lib/agent.ts
      📄 Files WITHOUT TSParenthesizedType (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -2893,7 +2893,7 @@ Repository: sample-repos/cypress
        • packages/packherd-require/src/loader.ts
        • tooling/v8-snapshot/src/doctor/snapshot-doctor.ts
        • system-tests/projects/e2e/static/jquery.js
-       • packages/server/lib/privileged-commands/privileged-channel.js
+       • npm/vite-dev-server/src/plugins/cypress.ts
        • packages/server/lib/util/stream_buffer.ts
        • packages/server/lib/util/newlines.js
      📄 Files WITHOUT WhileStatement (showing 10):
@@ -2914,12 +2914,12 @@ Repository: sample-repos/cypress
        • system-tests/lib/resultsUtils.ts
        • cli/types/cypress.d.ts
        • cli/types/cypress-npm-api.d.ts
+       • npm/webpack-dev-server/src/createWebpackDevServer.ts
+       • npm/webpack-dev-server/src/CypressCTWebpackPlugin.ts
        • packages/types/src/preferences.ts
        • packages/server/lib/project-base.ts
        • packages/net-stubbing/lib/external-types.ts
        • packages/frontend-shared/script/testStubSpecs.ts
-       • packages/errors/src/errors.ts
-       • packages/errors/src/errTemplate.ts
      📄 Files WITHOUT TSObjectKeyword (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -2982,16 +2982,16 @@ Repository: sample-repos/cypress
 
    TSImportType:
      📄 Files WITH TSImportType (showing 10):
-       • packages/extension/index.d.ts
        • npm/webpack-dev-server/cypress.config.ts
        • npm/vite-dev-server/cypress.config.ts
+       • packages/extension/index.d.ts
        • cli/types/cypress-eventemitter.d.ts
-       • packages/resolve-dist/lib/index.ts
-       • packages/packherd-require/src/types.ts
-       • packages/driver/types/internal-types.d.ts
-       • packages/driver/types/internal-types-lite.d.ts
        • npm/webpack-preprocessor/lib/typescript-overrides.ts
        • npm/webpack-dev-server/test/devServer-unit.spec.ts
+       • npm/webpack-dev-server/src/makeWebpackConfig.ts
+       • npm/webpack-dev-server/src/makeDefaultWebpackConfig.ts
+       • npm/react/src/types.ts
+       • npm/vite-dev-server/src/resolveConfig.ts
      📄 Files WITHOUT TSImportType (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -3010,12 +3010,12 @@ Repository: sample-repos/cypress
        • packages/types/src/util.ts
        • packages/graphql/test/stubCloudTypes.ts
        • packages/errors/src/errors.ts
-       • packages/server/lib/cloud/protocol.ts
        • packages/server/lib/automation/automation.ts
+       • packages/server/lib/cloud/protocol.ts
        • packages/server/lib/browsers/utils.ts
-       • packages/frontend-shared/cypress/support/e2e.ts
-       • packages/frontend-shared/cypress/e2e/e2ePluginSetup.ts
        • packages/graphql/src/utils/graphqlTypeUtils.ts
+       • packages/graphql/src/plugins/nexusRemoteFieldPlugin.ts
+       • packages/frontend-shared/cypress/support/e2e.ts
      📄 Files WITHOUT TSNeverKeyword (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -3031,13 +3031,13 @@ Repository: sample-repos/cypress
    Decorator:
      📄 Files WITH Decorator (showing 10):
        • npm/angular/src/mount.ts
-       • system-tests/project-fixtures/angular/src/app/mount.cy.ts
-       • system-tests/project-fixtures/angular/src/app/app.module.ts
-       • system-tests/project-fixtures/angular/src/app/app.component.ts
        • system-tests/projects/angular-signals/src/signals-required/signals-required.component.ts
        • system-tests/projects/angular-signals/src/signals-optional/signals-optional.component.ts
        • system-tests/projects/angular-signals/src/signals-complex/signals-complex.component.ts
        • system-tests/projects/angular-signals/src/control-flow/control-flow.component.ts
+       • system-tests/projects/angular-cli-configured/src/app/app.component.ts
+       • system-tests/projects/angular-custom-root/ui/app/app.module.ts
+       • system-tests/projects/angular-custom-root/ui/app/app.component.ts
        • system-tests/projects/angular-custom-config/src/app/my-component.ts
        • system-tests/projects/angular-cli-unconfigured/src/app/app.component.ts
      📄 Files WITHOUT Decorator (showing 10):
@@ -3063,7 +3063,7 @@ Repository: sample-repos/cypress
        • system-tests/lib/protocol-stubs/protocolStubServiceWorker.ts
        • system-tests/lib/protocol-stubs/protocolStubFontFlooding.ts
        • system-tests/lib/protocol-stubs/protocolStub.ts
-       • packages/telemetry/src/index.ts
+       • npm/angular/src/mount.ts
      📄 Files WITHOUT TSClassImplements (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -3079,15 +3079,15 @@ Repository: sample-repos/cypress
    TSConditionalType:
      📄 Files WITH TSConditionalType (showing 10):
        • cli/types/cypress.d.ts
-       • packages/types/src/util.ts
-       • packages/graphql/test/stubCloudTypes.ts
        • npm/vue/src/index.ts
        • npm/angular/src/mount.ts
-       • packages/server/lib/cloud/protocol.ts
+       • packages/types/src/util.ts
+       • packages/graphql/test/stubCloudTypes.ts
        • packages/server/lib/automation/automation.ts
+       • packages/server/lib/cloud/protocol.ts
        • packages/reporter/src/runnables/runnables-store.ts
-       • packages/frontend-shared/cypress/support/e2e.ts
-       • packages/frontend-shared/cypress/e2e/e2ePluginSetup.ts
+       • packages/graphql/src/utils/graphqlTypeUtils.ts
+       • packages/graphql/src/plugins/nexusRemoteFieldPlugin.ts
      📄 Files WITHOUT TSConditionalType (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -3125,12 +3125,12 @@ Repository: sample-repos/cypress
        • scripts/binary/meta.ts
        • cli/types/cypress.d.ts
        • tooling/v8-snapshot/src/types.ts
+       • npm/vue/src/index.ts
+       • npm/angular/src/mount.ts
        • packages/v8-snapshot-require/src/types.ts
        • packages/types/src/config.ts
        • packages/graphql/test/stubCloudTypes.ts
-       • npm/vue/src/index.ts
-       • npm/angular/src/mount.ts
-       • packages/server/lib/cloud/protocol.ts
+       • npm/webpack-dev-server/test/test-helpers/createModuleMatrixResult.ts
      📄 Files WITHOUT TSMappedType (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -3188,11 +3188,11 @@ Repository: sample-repos/cypress
 
    JSXFragment:
      📄 Files WITH JSXFragment (showing 10):
+       • packages/reporter/src/test/test.tsx
        • packages/reporter/src/sessions/sessions.tsx
        • packages/reporter/src/runnables/runnables.tsx
        • packages/reporter/src/runnables/runnable-header.tsx
        • packages/reporter/src/runnables/runnable-and-suite.tsx
-       • packages/reporter/src/test/test.tsx
        • packages/reporter/src/errors/error-stack.tsx
        • packages/reporter/src/commands/command.tsx
        • packages/frontend-shared/src/gql-components/CopyButton.cy.tsx
@@ -3212,11 +3212,11 @@ Repository: sample-repos/cypress
 
    JSXOpeningFragment:
      📄 Files WITH JSXOpeningFragment (showing 10):
+       • packages/reporter/src/test/test.tsx
        • packages/reporter/src/sessions/sessions.tsx
        • packages/reporter/src/runnables/runnables.tsx
        • packages/reporter/src/runnables/runnable-header.tsx
        • packages/reporter/src/runnables/runnable-and-suite.tsx
-       • packages/reporter/src/test/test.tsx
        • packages/reporter/src/errors/error-stack.tsx
        • packages/reporter/src/commands/command.tsx
        • packages/frontend-shared/src/gql-components/CopyButton.cy.tsx
@@ -3236,11 +3236,11 @@ Repository: sample-repos/cypress
 
    JSXClosingFragment:
      📄 Files WITH JSXClosingFragment (showing 10):
+       • packages/reporter/src/test/test.tsx
        • packages/reporter/src/sessions/sessions.tsx
        • packages/reporter/src/runnables/runnables.tsx
        • packages/reporter/src/runnables/runnable-header.tsx
        • packages/reporter/src/runnables/runnable-and-suite.tsx
-       • packages/reporter/src/test/test.tsx
        • packages/reporter/src/errors/error-stack.tsx
        • packages/reporter/src/commands/command.tsx
        • packages/frontend-shared/src/gql-components/CopyButton.cy.tsx
@@ -3280,8 +3280,8 @@ Repository: sample-repos/cypress
 
    TSExportAssignment:
      📄 Files WITH TSExportAssignment (showing 10):
-       • packages/ts/index.d.ts
        • npm/webpack-preprocessor/index.ts
+       • packages/ts/index.d.ts
        • cli/types/cypress-npm-api.d.ts
        • cli/types/cy-minimatch.d.ts
        • cli/types/cy-bluebird.d.ts
@@ -3289,7 +3289,7 @@ Repository: sample-repos/cypress
        • packages/server/lib/screenshots.ts
        • packages/server/lib/cypress.ts
        • packages/server/lib/cohorts.ts
-       • packages/server/lib/gui/menu.ts
+       • packages/server/lib/modes/smoke_test.ts
      📄 Files WITHOUT TSExportAssignment (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -3309,11 +3309,11 @@ Repository: sample-repos/cypress
        • npm/vite-dev-server/client/initCypressTests.js
        • system-tests/projects/config-cjs-and-esm/config-with-ts-module/cypress.config.ts
        • system-tests/projects/config-cjs-and-esm/config-with-ts-module-component/cypress.config.ts
+       • npm/vite-plugin-cypress-esm/cypress/component/ignoreModuleList.cy.ts
+       • npm/vite-plugin-cypress-esm/cypress/component/edgeCases.cy.tsx
+       • npm/vite-plugin-cypress-esm/cypress/component/dynamicImport.cy.ts
        • packages/server/lib/browsers/webkit.ts
        • packages/server/lib/browsers/utils.ts
-       • packages/server/lib/browsers/index.ts
-       • packages/data-context/src/actions/CodegenActions.ts
-       • npm/vite-plugin-cypress-esm/cypress/component/ignoreModuleList.cy.ts
      📄 Files WITHOUT ImportExpression (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -3332,12 +3332,12 @@ Repository: sample-repos/cypress
        • packages/types/src/automation.ts
        • packages/socket/lib/cdp-browser.ts
        • packages/launchpad/cypress/e2e/scaffold-component-testing.cy.ts
-       • packages/frontend-shared/cypress/support/e2e.ts
        • packages/graphql/src/utils/graphqlTypeUtils.ts
+       • packages/frontend-shared/cypress/support/e2e.ts
        • packages/driver/src/dom/dimensions.ts
-       • packages/data-context/src/data/ProjectConfigIpc.ts
-       • packages/data-context/src/codegen/spec-options.ts
        • packages/data-context/test/unit/helper.ts
+       • packages/data-context/src/sources/CloudDataSource.ts
+       • packages/data-context/src/data/ProjectConfigIpc.ts
      📄 Files WITHOUT TSTemplateLiteralType (showing 10):
        • gulpfile.js
        • apollo.config.js
@@ -3353,8 +3353,8 @@ Repository: sample-repos/cypress
    JSXMemberExpression:
      📄 Files WITH JSXMemberExpression (showing 10):
        • system-tests/projects/vite-simple/src/main.jsx
-       • system-tests/projects/react-vite-ts-configured/src/main.tsx
        • system-tests/projects/react-vite-ts-unconfigured/src/main.tsx
+       • system-tests/projects/react-vite-ts-configured/src/main.tsx
        • system-tests/projects/no-specs-custom-pattern/src/index.jsx
        • system-tests/projects/no-specs/src/index.jsx
        • npm/vite-plugin-cypress-esm/cypress/component/stub.cy.tsx
@@ -3396,9 +3396,9 @@ Repository: sample-repos/cypress
      📄 Files WITH TSDeclareFunction (showing 7):
        • packages/ts/index.d.ts
        • cli/types/cy-minimatch.d.ts
-       • packages/app/src/paths.ts
-       • npm/vue/test-tsd/index.d.ts
        • npm/vue/src/index.ts
+       • npm/vue/test-tsd/index.d.ts
+       • packages/app/src/paths.ts
        • system-tests/projects/ct-public-api-solid-js/cypress-ct-solid-js/index.d.ts
        • packages/server/lib/browsers/utils.ts
      📄 Files WITHOUT TSDeclareFunction (showing 10):
@@ -3455,8 +3455,8 @@ Repository: sample-repos/cypress
        • packages/network/lib/agent.ts
        • packages/network/test/unit/agent_spec.ts
        • packages/network/test/support/servers.ts
-       • packages/net-stubbing/lib/server/driver-events.ts
        • packages/proxy/lib/http/response-middleware.ts
+       • packages/net-stubbing/lib/server/driver-events.ts
        • packages/app/src/specs/spec-utils.ts
        • packages/driver/src/cy/net-stubbing/add-command.ts
      📄 Files WITHOUT TSTypeAssertion (showing 10):
@@ -3509,9 +3509,9 @@ Repository: sample-repos/cypress
        • cli/types/cypress.d.ts
        • npm/vue/src/index.ts
        • npm/angular/src/mount.ts
+       • packages/graphql/src/utils/graphqlTypeUtils.ts
        • packages/frontend-shared/cypress/support/e2e.ts
        • packages/frontend-shared/cypress/e2e/e2ePluginSetup.ts
-       • packages/graphql/src/utils/graphqlTypeUtils.ts
        • packages/data-context/src/sources/CloudDataSource.ts
        • packages/frontend-shared/cypress/support/mock-graphql/clientTestUtils.ts
      📄 Files WITHOUT TSInferType (showing 10):
@@ -3592,8 +3592,8 @@ Repository: sample-repos/cypress
        • packages/frontend-shared/vite.config.mjs
        • system-tests/projects/no-specs-vue/vite.config.ts
        • tooling/v8-snapshot/src/blueprint/globals.js
-       • packages/frontend-shared/src/graphql/urqlClient.ts
        • packages/frontend-shared/src/components/highlight.ts
+       • packages/frontend-shared/src/graphql/urqlClient.ts
        • packages/frontend-shared/cypress/support/mock-graphql/clientTestUrqlClient.ts
      📄 Files WITHOUT MetaProperty (showing 10):
        • gulpfile.js
@@ -3609,8 +3609,8 @@ Repository: sample-repos/cypress
 
    TSConstructSignatureDeclaration:
      📄 Files WITH TSConstructSignatureDeclaration (showing 4):
-       • packages/driver/types/window.d.ts
        • npm/vue/src/index.ts
+       • packages/driver/types/window.d.ts
        • npm/webpack-dev-server/src/helpers/sourceRelativeWebpackModules.ts
        • packages/data-context/test/unit/sources/GitDataSource_unit.spec.ts
      📄 Files WITHOUT TSConstructSignatureDeclaration (showing 10):
@@ -3841,12 +3841,26 @@ Warnings/Errors:
    A 'return' statement can only be used within a function body.
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/projects/plugins-root-syntax-error/cypress.config.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/projects/config-with-ts-syntax-error/cypress.config.ts:
-   Expected `}` but found `EOF`
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/projects/config-with-ts-module-error/cypress.config.ts:
    Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/projects/config-with-ts-syntax-error/cypress.config.ts:
+   Expected `}` but found `EOF`
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/cli/types/tests/cypress-tests.ts:
    Expected `,` but found `Identifier`
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/projects/qwik-app/cypress-ct-bad-syntax/definition.js:
+   Expected a semicolon or an implicit semicolon after a statement, but found none
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/projects/no-specs/src/Invalid.jsx:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/projects/nextjs-unconfigured/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/projects/nextjs-unconfigured/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/projects/nextjs-configured/pages/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/projects/nextjs-configured/pages/_app.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/projects/e2e/lib/fail.js:
+   Expected `}` but found `EOF`
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/project-fixtures/react/src/AppCompilationError.cy.jsx:
    Expected `,` but found `}`
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/project-fixtures/next/pages/styles.cy.js:
@@ -3857,20 +3871,6 @@ Warnings/Errors:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/project-fixtures/next/pages/_app.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/projects/qwik-app/cypress-ct-bad-syntax/definition.js:
-   Expected a semicolon or an implicit semicolon after a statement, but found none
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/projects/nextjs-unconfigured/pages/index.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/projects/nextjs-unconfigured/pages/_app.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/projects/nextjs-configured/pages/index.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/projects/nextjs-configured/pages/_app.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/projects/no-specs/src/Invalid.jsx:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/projects/e2e/lib/fail.js:
-   Expected `}` but found `EOF`
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/packages/server/test/scripts/run.js:
    A 'return' statement can only be used within a function body.
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/projects/todos/tests/_fixtures/user.js:

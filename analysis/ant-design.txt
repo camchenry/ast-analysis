@@ -1,5 +1,5 @@
 AST Analysis Report for ant-design
-Generated on: 2025-07-14T01:41:50.876Z
+Generated on: 2025-07-14T01:56:12.299Z
 Repository: sample-repos/ant-design
 ================================================================================
 
@@ -122,12 +122,12 @@ Repository: sample-repos/ant-design
    ThrowStatement                   16 files (  0.7%) -       21 total (0.00%)
    TryStatement                     15 files (  0.6%) -       21 total (0.00%)
    CatchClause                      15 files (  0.6%) -       20 total (0.00%)
-   TSIndexSignature                 14 files (  0.6%) -       14 total (0.00%)
    TSTypePredicate                  14 files (  0.6%) -       15 total (0.00%)
+   TSIndexSignature                 14 files (  0.6%) -       14 total (0.00%)
    TaggedTemplateExpression         12 files (  0.5%) -       30 total (0.00%)
-   TSTemplateLiteralType            10 files (  0.4%) -       11 total (0.00%)
    TSMappedType                     10 files (  0.4%) -       13 total (0.00%)
    ForOfStatement                   10 files (  0.4%) -       14 total (0.00%)
+   TSTemplateLiteralType            10 files (  0.4%) -       11 total (0.00%)
    ClassBody                         9 files (  0.4%) -        9 total (0.00%)
    ClassDeclaration                  8 files (  0.3%) -        8 total (0.00%)
    MethodDefinition                  8 files (  0.3%) -       26 total (0.00%)
@@ -135,13 +135,13 @@ Repository: sample-repos/ant-design
    TSConditionalType                 6 files (  0.2%) -       15 total (0.00%)
    TSInferType                       6 files (  0.2%) -       11 total (0.00%)
    ExportAllDeclaration              5 files (  0.2%) -        8 total (0.00%)
-   TSMethodSignature                 4 files (  0.2%) -        5 total (0.00%)
    ContinueStatement                 4 files (  0.2%) -        9 total (0.00%)
+   TSMethodSignature                 4 files (  0.2%) -        5 total (0.00%)
    TSNeverKeyword                    4 files (  0.2%) -        7 total (0.00%)
+   ImportExpression                  3 files (  0.1%) -       11 total (0.00%)
    TSModuleDeclaration               3 files (  0.1%) -       11 total (0.00%)
    TSModuleBlock                     3 files (  0.1%) -        5 total (0.00%)
    TSDeclareFunction                 3 files (  0.1%) -        6 total (0.00%)
-   ImportExpression                  3 files (  0.1%) -       11 total (0.00%)
    TSCallSignatureDeclaration        2 files (  0.1%) -        2 total (0.00%)
    WhileStatement                    2 files (  0.1%) -        2 total (0.00%)
    TSBigIntKeyword                   1 files (  0.0%) -        1 total (0.00%)
@@ -251,12 +251,12 @@ Repository: sample-repos/ant-design
    PropertyDefinition                   17 (0.00%) in 7 files (0.3%)
    TSTypePredicate                      15 (0.00%) in 14 files (0.6%)
    TSConditionalType                    15 (0.00%) in 6 files (0.2%)
-   TSIndexSignature                     14 (0.00%) in 14 files (0.6%)
    ForOfStatement                       14 (0.00%) in 10 files (0.4%)
+   TSIndexSignature                     14 (0.00%) in 14 files (0.6%)
    TSMappedType                         13 (0.00%) in 10 files (0.4%)
+   ImportExpression                     11 (0.00%) in 3 files (0.1%)
    TSModuleDeclaration                  11 (0.00%) in 3 files (0.1%)
    TSTemplateLiteralType                11 (0.00%) in 10 files (0.4%)
-   ImportExpression                     11 (0.00%) in 3 files (0.1%)
    TSInferType                          11 (0.00%) in 6 files (0.2%)
    ContinueStatement                     9 (0.00%) in 4 files (0.2%)
    ClassBody                             9 (0.00%) in 9 files (0.4%)
@@ -282,17 +282,17 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
-       • alias/cssinjs.js
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
      📄 Files WITHOUT Identifier (showing 7):
        • typings/index.d.ts
        • tests/dekko/index.test.ts
        • components/statistic/interface.ts
        • components/qrcode/interface.ts
-       • components/qrcode/style/index.ts
        • components/row/style/index.ts
+       • components/qrcode/style/index.ts
        • components/col/style/index.ts
 
    Literal:
@@ -303,10 +303,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/custom-typings.d.ts
-       • alias/cssinjs.js
        • tests/utils.tsx
        • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
      📄 Files WITHOUT Literal (showing 10):
        • typings/jest.d.ts
        • typings/index.d.ts
@@ -335,13 +335,13 @@ Repository: sample-repos/ant-design
        • index.js
        • index-with-locales.js
        • index-style-only.js
+       • tests/index.test.ts
+       • tests/changelog.test.ts
+       • scripts/generate-version.ts
+       • scripts/check-version-md.ts
        • typings/jest.d.ts
        • typings/index.d.ts
        • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
-       • alias/cssinjs.js
-       • tests/index.test.ts
-       • tests/changelog.test.ts
 
    JSXIdentifier:
      📄 Files WITH JSXIdentifier (showing 10):
@@ -354,7 +354,7 @@ Repository: sample-repos/ant-design
        • tests/shared/focusTest.tsx
        • tests/shared/demoTest.tsx
        • tests/shared/accessibilityTest.tsx
-       • components/upload/Upload.tsx
+       • components/watermark/index.tsx
      📄 Files WITHOUT JSXIdentifier (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -362,10 +362,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
 
    CallExpression:
      📄 Files WITH CallExpression (showing 10):
@@ -374,11 +374,11 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • alias/cssinjs.js
        • tests/utils.tsx
        • tests/setupAfterEnv.ts
        • tests/setup.ts
        • tests/index.test.ts
+       • tests/changelog.test.ts
      📄 Files WITHOUT CallExpression (showing 10):
        • jest-puppeteer.config.js
        • typings/jest.d.ts
@@ -386,10 +386,10 @@ Repository: sample-repos/ant-design
        • typings/custom-typings.d.ts
        • typings/cssType.d.ts
        • components/index.ts
+       • tests/dekko/index.test.ts
        • tests/__mocks__/rc-virtual-list.ts
        • tests/__mocks__/copy-to-clipboard.ts
-       • tests/dekko/index.test.ts
-       • components/version/index.tsx
+       • components/upload/interface.ts
 
    MemberExpression:
      📄 Files WITH MemberExpression (showing 10):
@@ -399,20 +399,20 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • alias/cssinjs.js
        • tests/utils.tsx
        • tests/setupAfterEnv.ts
        • tests/setup.ts
+       • tests/index.test.ts
      📄 Files WITHOUT MemberExpression (showing 10):
        • typings/jest.d.ts
        • typings/index.d.ts
        • typings/custom-typings.d.ts
        • typings/cssType.d.ts
        • components/index.ts
-       • tests/__mocks__/rc-virtual-list.ts
        • tests/dekko/index.test.ts
-       • components/version/index.tsx
+       • tests/__mocks__/rc-virtual-list.ts
        • components/upload/interface.ts
+       • components/version/index.tsx
        • components/tour/interface.ts
 
    JSXAttribute:
@@ -423,10 +423,10 @@ Repository: sample-repos/ant-design
        • tests/shared/imageTest.tsx
        • tests/shared/focusTest.tsx
        • tests/shared/demoTest.tsx
+       • components/watermark/index.tsx
        • components/upload/Upload.tsx
        • components/upload/Dragger.tsx
        • components/typography/Typography.tsx
-       • components/typography/Title.tsx
      📄 Files WITHOUT JSXAttribute (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -434,10 +434,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    ExpressionStatement:
      📄 Files WITH ExpressionStatement (showing 10):
@@ -446,11 +446,11 @@ Repository: sample-repos/ant-design
        • index.js
        • index-with-locales.js
        • index-style-only.js
-       • alias/cssinjs.js
        • tests/utils.tsx
        • tests/setupAfterEnv.ts
        • tests/setup.ts
        • tests/index.test.ts
+       • tests/changelog.test.ts
      📄 Files WITHOUT ExpressionStatement (showing 10):
        • eslint.config.mjs
        • typings/jest.d.ts
@@ -458,10 +458,10 @@ Repository: sample-repos/ant-design
        • typings/custom-typings.d.ts
        • typings/cssType.d.ts
        • components/index.ts
-       • tests/__mocks__/rc-virtual-list.ts
        • tests/shared/demoTestContext.ts
        • tests/dekko/index.test.ts
-       • components/version/index.tsx
+       • tests/__mocks__/rc-virtual-list.ts
+       • scripts/visual-regression/convert.ts
 
    JSXText:
      📄 Files WITH JSXText (showing 10):
@@ -471,10 +471,10 @@ Repository: sample-repos/ant-design
        • tests/shared/imageTest.tsx
        • tests/shared/focusTest.tsx
        • tests/shared/demoTest.tsx
+       • components/watermark/index.tsx
        • components/upload/Upload.tsx
        • components/typography/Typography.tsx
        • components/typography/Editable.tsx
-       • components/watermark/index.tsx
      📄 Files WITHOUT JSXText (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -482,10 +482,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    ObjectExpression:
      📄 Files WITH ObjectExpression (showing 10):
@@ -502,62 +502,62 @@ Repository: sample-repos/ant-design
      📄 Files WITHOUT ObjectExpression (showing 10):
        • index.js
        • index-style-only.js
+       • tests/changelog.test.ts
+       • scripts/generate-version.ts
+       • scripts/generate-cssinjs.ts
+       • scripts/generate-authors.ts
+       • scripts/check-version-md.ts
+       • scripts/check-repo.ts
        • typings/jest.d.ts
        • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
-       • alias/cssinjs.js
-       • tests/changelog.test.ts
-       • components/index.ts
-       • scripts/generate-version.ts
 
    VariableDeclaration:
      📄 Files WITH VariableDeclaration (showing 10):
        • webpack.config.js
        • index-with-locales.js
        • index-style-only.js
-       • typings/custom-typings.d.ts
-       • alias/cssinjs.js
        • tests/utils.tsx
        • tests/setupAfterEnv.ts
        • tests/setup.ts
        • tests/index.test.ts
        • tests/changelog.test.ts
+       • scripts/set-node-options.ts
+       • scripts/print-changelog.ts
      📄 Files WITHOUT VariableDeclaration (showing 10):
        • jest-puppeteer.config.js
        • index.js
        • eslint.config.mjs
+       • scripts/generate-version.ts
        • typings/jest.d.ts
        • typings/index.d.ts
        • typings/cssType.d.ts
        • components/index.ts
-       • scripts/generate-version.ts
-       • tests/__mocks__/rc-virtual-list.ts
        • tests/dekko/lib-es.test.ts
+       • tests/dekko/index.test.ts
 
    VariableDeclarator:
      📄 Files WITH VariableDeclarator (showing 10):
        • webpack.config.js
        • index-with-locales.js
        • index-style-only.js
-       • typings/custom-typings.d.ts
-       • alias/cssinjs.js
        • tests/utils.tsx
        • tests/setupAfterEnv.ts
        • tests/setup.ts
        • tests/index.test.ts
        • tests/changelog.test.ts
+       • scripts/set-node-options.ts
+       • scripts/print-changelog.ts
      📄 Files WITHOUT VariableDeclarator (showing 10):
        • jest-puppeteer.config.js
        • index.js
        • eslint.config.mjs
+       • scripts/generate-version.ts
        • typings/jest.d.ts
        • typings/index.d.ts
        • typings/cssType.d.ts
        • components/index.ts
-       • scripts/generate-version.ts
-       • tests/__mocks__/rc-virtual-list.ts
        • tests/dekko/lib-es.test.ts
+       • tests/dekko/index.test.ts
 
    JSXElement:
      📄 Files WITH JSXElement (showing 10):
@@ -570,7 +570,7 @@ Repository: sample-repos/ant-design
        • tests/shared/focusTest.tsx
        • tests/shared/demoTest.tsx
        • tests/shared/accessibilityTest.tsx
-       • components/upload/Upload.tsx
+       • components/watermark/index.tsx
      📄 Files WITHOUT JSXElement (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -578,10 +578,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
 
    JSXOpeningElement:
      📄 Files WITH JSXOpeningElement (showing 10):
@@ -594,7 +594,7 @@ Repository: sample-repos/ant-design
        • tests/shared/focusTest.tsx
        • tests/shared/demoTest.tsx
        • tests/shared/accessibilityTest.tsx
-       • components/upload/Upload.tsx
+       • components/watermark/index.tsx
      📄 Files WITHOUT JSXOpeningElement (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -602,10 +602,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
 
    JSXExpressionContainer:
      📄 Files WITH JSXExpressionContainer (showing 10):
@@ -614,11 +614,11 @@ Repository: sample-repos/ant-design
        • tests/shared/imageTest.tsx
        • tests/shared/focusTest.tsx
        • tests/shared/demoTest.tsx
+       • components/watermark/index.tsx
        • components/upload/Upload.tsx
        • components/upload/Dragger.tsx
        • components/typography/Typography.tsx
        • components/typography/Title.tsx
-       • components/typography/Text.tsx
      📄 Files WITHOUT JSXExpressionContainer (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -626,16 +626,13 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    TSTypeAnnotation:
      📄 Files WITH TSTypeAnnotation (showing 10):
-       • typings/jest.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
        • tests/utils.tsx
        • tests/setupAfterEnv.ts
        • tests/setup.ts
@@ -643,6 +640,9 @@ Repository: sample-repos/ant-design
        • scripts/set-node-options.ts
        • scripts/print-changelog.ts
        • scripts/prepare-examples.ts
+       • scripts/pre-publish.ts
+       • scripts/post-publish.ts
+       • scripts/generate-token-meta.ts
      📄 Files WITHOUT TSTypeAnnotation (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -650,16 +650,15 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/index.d.ts
-       • alias/cssinjs.js
        • tests/changelog.test.ts
-       • components/index.ts
+       • scripts/generate-version.ts
+       • scripts/generate-authors.ts
+       • typings/index.d.ts
 
    Unknown:
      📄 Files WITH Unknown (showing 10):
        • index-with-locales.js
        • index-style-only.js
-       • typings/cssType.d.ts
        • tests/setup.ts
        • scripts/set-node-options.ts
        • scripts/print-changelog.ts
@@ -667,22 +666,21 @@ Repository: sample-repos/ant-design
        • scripts/pre-publish.ts
        • scripts/post-publish.ts
        • scripts/generate-version.ts
+       • scripts/generate-token-meta.ts
      📄 Files WITHOUT Unknown (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
        • index.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • alias/cssinjs.js
        • tests/utils.tsx
        • tests/setupAfterEnv.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
+       • scripts/generate-authors.ts
+       • typings/jest.d.ts
 
    TSTypeReference:
      📄 Files WITH TSTypeReference (showing 10):
-       • typings/jest.d.ts
-       • typings/custom-typings.d.ts
        • tests/utils.tsx
        • tests/setupAfterEnv.ts
        • tests/setup.ts
@@ -691,6 +689,8 @@ Repository: sample-repos/ant-design
        • scripts/prepare-examples.ts
        • scripts/pre-publish.ts
        • scripts/post-publish.ts
+       • scripts/generate-token-meta.ts
+       • scripts/generate-llms.ts
      📄 Files WITHOUT TSTypeReference (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -698,14 +698,13 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/index.d.ts
-       • typings/cssType.d.ts
-       • alias/cssinjs.js
        • tests/changelog.test.ts
+       • scripts/set-node-options.ts
+       • scripts/generate-version.ts
+       • scripts/generate-authors.ts
 
    TemplateElement:
      📄 Files WITH TemplateElement (showing 10):
-       • typings/cssType.d.ts
        • scripts/set-node-options.ts
        • scripts/print-changelog.ts
        • scripts/prepare-examples.ts
@@ -715,6 +714,7 @@ Repository: sample-repos/ant-design
        • scripts/generate-token-meta.ts
        • scripts/generate-llms.ts
        • scripts/generate-cssinjs.ts
+       • scripts/generate-component-changelog.ts
      📄 Files WITHOUT TemplateElement (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -722,10 +722,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • alias/cssinjs.js
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    ArrowFunctionExpression:
      📄 Files WITH ArrowFunctionExpression (showing 10):
@@ -743,42 +743,41 @@ Repository: sample-repos/ant-design
        • jest-puppeteer.config.js
        • index.js
        • eslint.config.mjs
+       • scripts/set-node-options.ts
+       • scripts/generate-version.ts
        • typings/jest.d.ts
        • typings/index.d.ts
        • typings/custom-typings.d.ts
        • typings/cssType.d.ts
        • alias/cssinjs.js
-       • components/index.ts
-       • scripts/set-node-options.ts
 
    BlockStatement:
      📄 Files WITH BlockStatement (showing 10):
        • webpack.config.js
        • index-with-locales.js
        • index-style-only.js
-       • alias/cssinjs.js
        • tests/utils.tsx
        • tests/setupAfterEnv.ts
        • tests/setup.ts
        • tests/index.test.ts
        • tests/changelog.test.ts
        • scripts/set-node-options.ts
+       • scripts/print-changelog.ts
      📄 Files WITHOUT BlockStatement (showing 10):
        • jest-puppeteer.config.js
        • index.js
        • eslint.config.mjs
+       • scripts/generate-version.ts
        • typings/jest.d.ts
        • typings/index.d.ts
        • typings/custom-typings.d.ts
        • typings/cssType.d.ts
        • components/index.ts
-       • scripts/generate-version.ts
-       • tests/__mocks__/rc-virtual-list.ts
+       • tests/shared/demoTestContext.ts
 
    ImportDeclaration:
      📄 Files WITH ImportDeclaration (showing 10):
        • eslint.config.mjs
-       • typings/custom-typings.d.ts
        • tests/utils.tsx
        • tests/setupAfterEnv.ts
        • tests/setup.ts
@@ -787,6 +786,7 @@ Repository: sample-repos/ant-design
        • scripts/set-node-options.ts
        • scripts/print-changelog.ts
        • scripts/prepare-examples.ts
+       • scripts/pre-publish.ts
      📄 Files WITHOUT ImportDeclaration (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -818,10 +818,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/changelog.test.ts
+       • scripts/set-node-options.ts
+       • scripts/prepare-examples.ts
+       • scripts/generate-authors.ts
 
    JSXClosingElement:
      📄 Files WITH JSXClosingElement (showing 10):
@@ -831,10 +831,10 @@ Repository: sample-repos/ant-design
        • tests/shared/imageTest.tsx
        • tests/shared/focusTest.tsx
        • tests/shared/demoTest.tsx
+       • components/watermark/index.tsx
        • components/upload/Upload.tsx
        • components/typography/Typography.tsx
        • components/typography/Editable.tsx
-       • components/watermark/index.tsx
      📄 Files WITHOUT JSXClosingElement (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -842,10 +842,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    TSPropertySignature:
      📄 Files WITH TSPropertySignature (showing 10):
@@ -855,10 +855,10 @@ Repository: sample-repos/ant-design
        • scripts/generate-llms.ts
        • scripts/generate-cssinjs.ts
        • scripts/generate-component-changelog.ts
-       • tests/__mocks__/copy-to-clipboard.ts
        • tests/shared/rootPropsTest.tsx
        • tests/shared/imageTest.tsx
        • tests/shared/demoTestContext.ts
+       • tests/shared/demoTest.tsx
      📄 Files WITHOUT TSPropertySignature (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -866,10 +866,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
 
    TemplateLiteral:
      📄 Files WITH TemplateLiteral (showing 10):
@@ -890,10 +890,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    ArrayExpression:
      📄 Files WITH ArrayExpression (showing 10):
@@ -911,13 +911,13 @@ Repository: sample-repos/ant-design
        • index.js
        • index-with-locales.js
        • index-style-only.js
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
-       • alias/cssinjs.js
        • tests/index.test.ts
        • tests/changelog.test.ts
+       • scripts/set-node-options.ts
+       • scripts/generate-version.ts
+       • scripts/generate-cssinjs.ts
+       • scripts/collect-token-statistic.ts
+       • scripts/check-site.ts
 
    ImportDefaultSpecifier:
      📄 Files WITH ImportDefaultSpecifier (showing 10):
@@ -937,15 +937,14 @@ Repository: sample-repos/ant-design
        • index.js
        • index-with-locales.js
        • index-style-only.js
+       • tests/index.test.ts
        • typings/jest.d.ts
        • typings/index.d.ts
        • typings/custom-typings.d.ts
        • typings/cssType.d.ts
-       • alias/cssinjs.js
 
    TSTypeParameterInstantiation:
      📄 Files WITH TSTypeParameterInstantiation (showing 10):
-       • typings/custom-typings.d.ts
        • tests/utils.tsx
        • tests/setup.ts
        • tests/index.test.ts
@@ -955,6 +954,7 @@ Repository: sample-repos/ant-design
        • scripts/generate-llms.ts
        • scripts/generate-component-changelog.ts
        • scripts/generate-authors.ts
+       • scripts/check-repo.ts
      📄 Files WITHOUT TSTypeParameterInstantiation (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -962,10 +962,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/cssType.d.ts
-       • alias/cssinjs.js
+       • tests/setupAfterEnv.ts
+       • tests/changelog.test.ts
+       • scripts/set-node-options.ts
+       • scripts/prepare-examples.ts
 
    ObjectPattern:
      📄 Files WITH ObjectPattern (showing 10):
@@ -985,17 +985,16 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
-       • alias/cssinjs.js
+       • tests/utils.tsx
+       • tests/setup.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
+       • scripts/set-node-options.ts
 
    BinaryExpression:
      📄 Files WITH BinaryExpression (showing 10):
        • webpack.config.js
        • index-style-only.js
-       • alias/cssinjs.js
        • tests/utils.tsx
        • tests/setupAfterEnv.ts
        • tests/setup.ts
@@ -1003,17 +1002,18 @@ Repository: sample-repos/ant-design
        • tests/changelog.test.ts
        • scripts/set-node-options.ts
        • scripts/print-changelog.ts
+       • scripts/prepare-examples.ts
      📄 Files WITHOUT BinaryExpression (showing 10):
        • jest-puppeteer.config.js
        • index.js
        • index-with-locales.js
        • eslint.config.mjs
+       • scripts/generate-version.ts
+       • scripts/collect-token-statistic.ts
        • typings/jest.d.ts
        • typings/index.d.ts
        • typings/custom-typings.d.ts
        • typings/cssType.d.ts
-       • components/index.ts
-       • scripts/generate-version.ts
 
    JSXMemberExpression:
      📄 Files WITH JSXMemberExpression (showing 10):
@@ -1021,12 +1021,12 @@ Repository: sample-repos/ant-design
        • tests/shared/imageTest.tsx
        • tests/shared/demoTest.tsx
        • components/watermark/index.tsx
-       • components/tour/index.tsx
        • components/tooltip/index.tsx
+       • components/tour/index.tsx
        • components/splitter/Splitter.tsx
        • components/space/Compact.tsx
-       • components/modal/Modal.tsx
        • components/menu/menu.tsx
+       • components/menu/SubMenu.tsx
      📄 Files WITHOUT JSXMemberExpression (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -1034,10 +1034,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    ParenthesizedExpression:
      📄 Files WITH ParenthesizedExpression (showing 10):
@@ -1058,10 +1058,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
+       • scripts/prepare-examples.ts
+       • scripts/generate-version.ts
 
    ReturnStatement:
      📄 Files WITH ReturnStatement (showing 10):
@@ -1080,20 +1080,20 @@ Repository: sample-repos/ant-design
        • index.js
        • index-with-locales.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
-       • alias/cssinjs.js
        • tests/index.test.ts
+       • tests/changelog.test.ts
+       • scripts/set-node-options.ts
+       • scripts/generate-version.ts
+       • scripts/generate-llms.ts
+       • scripts/collect-token-statistic.ts
 
    TSQualifiedName:
      📄 Files WITH TSQualifiedName (showing 10):
-       • typings/custom-typings.d.ts
        • tests/utils.tsx
        • scripts/print-changelog.ts
        • scripts/generate-cssinjs.ts
        • scripts/check-site.ts
+       • typings/custom-typings.d.ts
        • tests/shared/rtlTest.tsx
        • tests/shared/rootPropsTest.tsx
        • tests/shared/mountTest.tsx
@@ -1106,15 +1106,13 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/cssType.d.ts
-       • alias/cssinjs.js
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
 
    TSStringKeyword:
      📄 Files WITH TSStringKeyword (showing 10):
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
        • scripts/set-node-options.ts
        • scripts/print-changelog.ts
        • scripts/prepare-examples.ts
@@ -1123,6 +1121,8 @@ Repository: sample-repos/ant-design
        • scripts/generate-token-meta.ts
        • scripts/generate-llms.ts
        • scripts/generate-cssinjs.ts
+       • scripts/generate-component-changelog.ts
+       • scripts/generate-authors.ts
      📄 Files WITHOUT TSStringKeyword (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -1130,10 +1130,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • alias/cssinjs.js
        • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    Program:
      📄 Files WITH Program (showing 10):
@@ -1143,24 +1143,24 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
      📄 Files WITHOUT Program: (all files contain this node type)
 
    TSLiteralType:
      📄 Files WITH TSLiteralType (showing 10):
        • scripts/pre-publish.ts
        • tests/shared/demoTest.tsx
+       • scripts/visual-regression/local.ts
+       • scripts/visual-regression/build.ts
+       • components/watermark/useClips.ts
+       • components/watermark/index.tsx
        • components/upload/interface.ts
        • components/upload/Upload.tsx
        • components/typography/Title.tsx
        • components/typography/Text.tsx
-       • components/typography/Paragraph.tsx
-       • components/typography/Link.tsx
-       • components/typography/Editable.tsx
-       • components/tree-select/index.tsx
      📄 Files WITHOUT TSLiteralType (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -1168,16 +1168,15 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    LogicalExpression:
      📄 Files WITH LogicalExpression (showing 10):
        • webpack.config.js
        • index-style-only.js
-       • alias/cssinjs.js
        • tests/setupAfterEnv.ts
        • tests/setup.ts
        • tests/changelog.test.ts
@@ -1185,23 +1184,23 @@ Repository: sample-repos/ant-design
        • scripts/prepare-examples.ts
        • scripts/pre-publish.ts
        • scripts/post-publish.ts
+       • scripts/generate-token-meta.ts
      📄 Files WITHOUT LogicalExpression (showing 10):
        • jest-puppeteer.config.js
        • index.js
        • index-with-locales.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
        • tests/utils.tsx
        • tests/index.test.ts
+       • scripts/set-node-options.ts
+       • scripts/generate-version.ts
+       • scripts/generate-llms.ts
+       • scripts/generate-cssinjs.ts
 
    IfStatement:
      📄 Files WITH IfStatement (showing 10):
        • webpack.config.js
        • index-style-only.js
-       • alias/cssinjs.js
        • tests/utils.tsx
        • tests/setupAfterEnv.ts
        • tests/setup.ts
@@ -1209,17 +1208,18 @@ Repository: sample-repos/ant-design
        • scripts/set-node-options.ts
        • scripts/print-changelog.ts
        • scripts/prepare-examples.ts
+       • scripts/pre-publish.ts
      📄 Files WITHOUT IfStatement (showing 10):
        • jest-puppeteer.config.js
        • index.js
        • index-with-locales.js
        • eslint.config.mjs
+       • tests/changelog.test.ts
+       • scripts/generate-version.ts
+       • scripts/collect-token-statistic.ts
        • typings/jest.d.ts
        • typings/index.d.ts
        • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
-       • tests/changelog.test.ts
-       • components/index.ts
 
    AssignmentExpression:
      📄 Files WITH AssignmentExpression (showing 10):
@@ -1228,22 +1228,22 @@ Repository: sample-repos/ant-design
        • index.js
        • index-with-locales.js
        • index-style-only.js
-       • alias/cssinjs.js
        • tests/utils.tsx
        • tests/setupAfterEnv.ts
        • tests/setup.ts
        • tests/index.test.ts
+       • scripts/set-node-options.ts
      📄 Files WITHOUT AssignmentExpression (showing 10):
        • eslint.config.mjs
+       • tests/changelog.test.ts
+       • scripts/generate-version.ts
+       • scripts/collect-token-statistic.ts
+       • scripts/check-repo.ts
        • typings/jest.d.ts
        • typings/index.d.ts
        • typings/custom-typings.d.ts
        • typings/cssType.d.ts
-       • tests/changelog.test.ts
        • components/index.ts
-       • scripts/generate-version.ts
-       • scripts/collect-token-statistic.ts
-       • scripts/check-repo.ts
 
    ChainExpression:
      📄 Files WITH ChainExpression (showing 10):
@@ -1263,40 +1263,39 @@ Repository: sample-repos/ant-design
        • index.js
        • index-with-locales.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
-       • alias/cssinjs.js
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
 
    ExportDefaultDeclaration:
      📄 Files WITH ExportDefaultDeclaration (showing 10):
        • eslint.config.mjs
-       • typings/custom-typings.d.ts
        • scripts/check-repo.ts
-       • tests/__mocks__/rc-virtual-list.ts
-       • tests/__mocks__/copy-to-clipboard.ts
+       • typings/custom-typings.d.ts
        • tests/shared/rtlTest.tsx
        • tests/shared/rootPropsTest.tsx
        • tests/shared/mountTest.tsx
        • tests/shared/imageTest.tsx
        • tests/shared/focusTest.tsx
+       • tests/shared/excludeWarning.ts
+       • tests/shared/demoTest.tsx
      📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
        • index.js
        • index-with-locales.js
        • index-style-only.js
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/cssType.d.ts
-       • alias/cssinjs.js
        • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
 
    UnaryExpression:
      📄 Files WITH UnaryExpression (showing 10):
        • webpack.config.js
-       • alias/cssinjs.js
        • tests/setupAfterEnv.ts
        • tests/setup.ts
        • scripts/print-changelog.ts
@@ -1305,17 +1304,18 @@ Repository: sample-repos/ant-design
        • scripts/post-publish.ts
        • scripts/generate-token-meta.ts
        • scripts/generate-llms.ts
+       • scripts/generate-component-changelog.ts
      📄 Files WITHOUT UnaryExpression (showing 10):
        • jest-puppeteer.config.js
        • index.js
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
        • tests/utils.tsx
+       • tests/index.test.ts
+       • tests/changelog.test.ts
+       • scripts/set-node-options.ts
+       • scripts/generate-version.ts
 
    SpreadElement:
      📄 Files WITH SpreadElement (showing 10):
@@ -1334,20 +1334,20 @@ Repository: sample-repos/ant-design
        • index.js
        • index-with-locales.js
        • index-style-only.js
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
-       • alias/cssinjs.js
        • tests/setupAfterEnv.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
+       • scripts/set-node-options.ts
+       • scripts/print-changelog.ts
+       • scripts/pre-publish.ts
 
    ExportNamedDeclaration:
      📄 Files WITH ExportNamedDeclaration (showing 10):
-       • typings/custom-typings.d.ts
        • tests/utils.tsx
        • tests/setup.ts
-       • components/index.ts
        • scripts/generate-cssinjs.ts
+       • typings/custom-typings.d.ts
+       • components/index.ts
        • tests/shared/rootPropsTest.tsx
        • tests/shared/imageTest.tsx
        • tests/shared/excludeWarning.ts
@@ -1360,10 +1360,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/cssType.d.ts
-       • alias/cssinjs.js
+       • tests/setupAfterEnv.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
+       • scripts/set-node-options.ts
 
    TSNonNullExpression:
      📄 Files WITH TSNonNullExpression (showing 10):
@@ -1374,7 +1374,7 @@ Repository: sample-repos/ant-design
        • tests/shared/imageTest.tsx
        • tests/shared/focusTest.tsx
        • tests/shared/demoTest.tsx
-       • components/upload/utils.ts
+       • scripts/visual-regression/local.ts
        • components/watermark/useWatermark.ts
        • components/watermark/useSingletonCache.ts
      📄 Files WITHOUT TSNonNullExpression (showing 10):
@@ -1384,23 +1384,23 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    TSNumberKeyword:
      📄 Files WITH TSNumberKeyword (showing 10):
-       • typings/cssType.d.ts
        • scripts/pre-publish.ts
+       • typings/cssType.d.ts
        • tests/shared/rootPropsTest.tsx
+       • scripts/visual-regression/build.ts
+       • components/watermark/useWatermark.ts
+       • components/watermark/useRafDebounce.ts
+       • components/watermark/useClips.ts
+       • components/watermark/index.tsx
        • components/upload/interface.ts
        • components/upload/Upload.tsx
-       • components/upload/Dragger.tsx
-       • components/typography/Title.tsx
-       • components/typography/Editable.tsx
-       • components/tree-select/index.tsx
-       • components/watermark/useWatermark.ts
      📄 Files WITHOUT TSNumberKeyword (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -1408,10 +1408,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • alias/cssinjs.js
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    ArrayPattern:
      📄 Files WITH ArrayPattern (showing 10):
@@ -1421,10 +1421,10 @@ Repository: sample-repos/ant-design
        • scripts/check-cssinjs.tsx
        • tests/shared/rootPropsTest.tsx
        • tests/shared/imageTest.tsx
-       • components/upload/Upload.tsx
-       • components/typography/Typography.tsx
-       • components/typography/Editable.tsx
-       • components/tree-select/index.tsx
+       • scripts/visual-regression/upload.js
+       • scripts/visual-regression/reportAdapter.ts
+       • scripts/visual-regression/build.ts
+       • components/watermark/useClips.ts
      📄 Files WITHOUT ArrayPattern (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -1432,21 +1432,21 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    TSUnionType:
      📄 Files WITH TSUnionType (showing 10):
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
        • tests/utils.tsx
        • tests/setup.ts
        • scripts/print-changelog.ts
        • scripts/pre-publish.ts
        • scripts/generate-component-changelog.ts
        • scripts/check-site.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
        • tests/shared/rootPropsTest.tsx
        • tests/shared/imageTest.tsx
      📄 Files WITHOUT TSUnionType (showing 10):
@@ -1456,10 +1456,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • alias/cssinjs.js
        • tests/setupAfterEnv.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
+       • scripts/set-node-options.ts
 
    TSAsExpression:
      📄 Files WITH TSAsExpression (showing 10):
@@ -1472,7 +1472,7 @@ Repository: sample-repos/ant-design
        • scripts/generate-token-meta.ts
        • tests/shared/imageTest.tsx
        • tests/shared/accessibilityTest.tsx
-       • components/upload/utils.ts
+       • scripts/visual-regression/reportAdapter.ts
      📄 Files WITHOUT TSAsExpression (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -1480,10 +1480,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
+       • scripts/set-node-options.ts
+       • scripts/pre-publish.ts
 
    TSBooleanKeyword:
      📄 Files WITH TSBooleanKeyword (showing 10):
@@ -1493,10 +1493,10 @@ Repository: sample-repos/ant-design
        • tests/shared/demoTestContext.ts
        • tests/shared/demoTest.tsx
        • tests/shared/accessibilityTest.tsx
-       • components/upload/utils.ts
-       • components/upload/interface.ts
-       • components/upload/Upload.tsx
-       • components/typography/Text.tsx
+       • scripts/visual-regression/build.ts
+       • components/watermark/utils.ts
+       • components/watermark/useWatermark.ts
+       • components/watermark/index.tsx
      📄 Files WITHOUT TSBooleanKeyword (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -1504,10 +1504,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/cssType.d.ts
-       • alias/cssinjs.js
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    ConditionalExpression:
      📄 Files WITH ConditionalExpression (showing 10):
@@ -1528,10 +1528,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setup.ts
+       • tests/index.test.ts
+       • scripts/set-node-options.ts
 
    AwaitExpression:
      📄 Files WITH AwaitExpression (showing 10):
@@ -1552,23 +1552,23 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
 
    TSIndexedAccessType:
      📄 Files WITH TSIndexedAccessType (showing 10):
        • tests/setup.ts
+       • components/watermark/useClips.ts
+       • components/watermark/index.tsx
        • components/upload/interface.ts
        • components/upload/Upload.tsx
        • components/typography/Title.tsx
        • components/typography/Editable.tsx
        • components/tree-select/index.tsx
-       • components/watermark/useClips.ts
-       • components/watermark/index.tsx
+       • components/tooltip/index.tsx
        • components/tour/panelRender.tsx
-       • components/tour/interface.ts
      📄 Files WITHOUT TSIndexedAccessType (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -1576,14 +1576,13 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
 
    TSArrayType:
      📄 Files WITH TSArrayType (showing 10):
-       • typings/custom-typings.d.ts
        • scripts/set-node-options.ts
        • scripts/print-changelog.ts
        • scripts/prepare-examples.ts
@@ -1593,6 +1592,7 @@ Repository: sample-repos/ant-design
        • scripts/generate-component-changelog.ts
        • scripts/check-version-md.ts
        • scripts/check-cssinjs.tsx
+       • typings/custom-typings.d.ts
      📄 Files WITHOUT TSArrayType (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -1600,23 +1600,23 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/cssType.d.ts
-       • alias/cssinjs.js
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    TSInterfaceDeclaration:
      📄 Files WITH TSInterfaceDeclaration (showing 10):
-       • typings/jest.d.ts
-       • typings/cssType.d.ts
        • scripts/print-changelog.ts
        • scripts/generate-token-meta.ts
        • scripts/generate-cssinjs.ts
+       • typings/jest.d.ts
+       • typings/cssType.d.ts
        • tests/shared/rootPropsTest.tsx
        • tests/shared/imageTest.tsx
-       • components/upload/interface.ts
-       • components/upload/Upload.tsx
-       • components/typography/Typography.tsx
+       • scripts/visual-regression/reportAdapter.ts
+       • scripts/visual-regression/build.ts
+       • components/watermark/index.tsx
      📄 Files WITHOUT TSInterfaceDeclaration (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -1624,23 +1624,23 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • alias/cssinjs.js
        • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    TSInterfaceBody:
      📄 Files WITH TSInterfaceBody (showing 10):
-       • typings/jest.d.ts
-       • typings/cssType.d.ts
        • scripts/print-changelog.ts
        • scripts/generate-token-meta.ts
        • scripts/generate-cssinjs.ts
+       • typings/jest.d.ts
+       • typings/cssType.d.ts
        • tests/shared/rootPropsTest.tsx
        • tests/shared/imageTest.tsx
-       • components/upload/interface.ts
-       • components/upload/Upload.tsx
-       • components/typography/Typography.tsx
+       • scripts/visual-regression/reportAdapter.ts
+       • scripts/visual-regression/build.ts
+       • components/watermark/index.tsx
      📄 Files WITHOUT TSInterfaceBody (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -1648,14 +1648,13 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • alias/cssinjs.js
        • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    TSAnyKeyword:
      📄 Files WITH TSAnyKeyword (showing 10):
-       • typings/custom-typings.d.ts
        • tests/utils.tsx
        • tests/setupAfterEnv.ts
        • tests/setup.ts
@@ -1665,6 +1664,7 @@ Repository: sample-repos/ant-design
        • scripts/collect-token-statistic.ts
        • scripts/check-repo.ts
        • scripts/check-cssinjs.tsx
+       • typings/custom-typings.d.ts
      📄 Files WITHOUT TSAnyKeyword (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -1672,10 +1672,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/cssType.d.ts
-       • alias/cssinjs.js
+       • tests/changelog.test.ts
+       • scripts/set-node-options.ts
+       • scripts/print-changelog.ts
+       • scripts/pre-publish.ts
 
    JSXSpreadAttribute:
      📄 Files WITH JSXSpreadAttribute (showing 10):
@@ -1696,10 +1696,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    TSTypeAliasDeclaration:
      📄 Files WITH TSTypeAliasDeclaration (showing 10):
@@ -1708,11 +1708,11 @@ Repository: sample-repos/ant-design
        • tests/shared/imageTest.tsx
        • tests/shared/demoTest.tsx
        • tests/shared/accessibilityTest.tsx
+       • components/watermark/useWatermark.ts
+       • components/watermark/useSingletonCache.ts
+       • components/watermark/index.tsx
        • components/upload/interface.ts
        • components/upload/index.tsx
-       • components/upload/Dragger.tsx
-       • components/typography/index.tsx
-       • components/tree-select/index.tsx
      📄 Files WITHOUT TSTypeAliasDeclaration (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -1720,23 +1720,23 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
 
    TSFunctionType:
      📄 Files WITH TSFunctionType (showing 10):
        • tests/utils.tsx
        • scripts/print-changelog.ts
        • scripts/generate-cssinjs.ts
-       • tests/__mocks__/copy-to-clipboard.ts
        • tests/shared/rootPropsTest.tsx
        • tests/shared/excludeWarning.ts
        • tests/shared/accessibilityTest.tsx
-       • components/upload/interface.ts
-       • components/upload/Upload.tsx
-       • components/typography/Typography.tsx
+       • tests/__mocks__/copy-to-clipboard.ts
+       • components/watermark/utils.ts
+       • components/watermark/useWatermark.ts
+       • components/watermark/useSingletonCache.ts
      📄 Files WITHOUT TSFunctionType (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -1744,10 +1744,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
 
    ExportSpecifier:
      📄 Files WITH ExportSpecifier (showing 10):
@@ -1758,9 +1758,9 @@ Repository: sample-repos/ant-design
        • components/upload/Upload.tsx
        • components/tree-select/index.tsx
        • components/tree/index.tsx
-       • components/transfer/index.tsx
-       • components/timeline/index.tsx
        • components/tooltip/index.tsx
+       • components/timeline/index.tsx
+       • components/transfer/index.tsx
      📄 Files WITHOUT ExportSpecifier (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -1768,10 +1768,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
 
    FunctionDeclaration:
      📄 Files WITH FunctionDeclaration (showing 10):
@@ -1790,12 +1790,12 @@ Repository: sample-repos/ant-design
        • index.js
        • index-with-locales.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
-       • alias/cssinjs.js
        • tests/index.test.ts
+       • tests/changelog.test.ts
+       • scripts/set-node-options.ts
+       • scripts/generate-version.ts
+       • scripts/generate-cssinjs.ts
+       • scripts/collect-token-statistic.ts
 
    AssignmentPattern:
      📄 Files WITH AssignmentPattern (showing 10):
@@ -1804,11 +1804,11 @@ Repository: sample-repos/ant-design
        • scripts/pre-publish.ts
        • scripts/generate-cssinjs.ts
        • scripts/check-repo.ts
-       • tests/__mocks__/copy-to-clipboard.ts
        • tests/shared/rtlTest.tsx
        • tests/shared/imageTest.tsx
        • tests/shared/focusTest.tsx
        • tests/shared/excludeWarning.ts
+       • tests/shared/demoTest.tsx
      📄 Files WITHOUT AssignmentPattern (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -1816,23 +1816,23 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
 
    TSTypeLiteral:
      📄 Files WITH TSTypeLiteral (showing 10):
-       • typings/custom-typings.d.ts
        • tests/utils.tsx
        • scripts/generate-llms.ts
        • scripts/generate-component-changelog.ts
-       • tests/__mocks__/copy-to-clipboard.ts
+       • typings/custom-typings.d.ts
        • tests/shared/imageTest.tsx
        • tests/shared/demoTestContext.ts
        • tests/shared/demoTest.tsx
        • tests/shared/accessibilityTest.tsx
-       • components/upload/interface.ts
+       • tests/__mocks__/copy-to-clipboard.ts
+       • components/watermark/index.tsx
      📄 Files WITHOUT TSTypeLiteral (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -1840,10 +1840,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/cssType.d.ts
-       • alias/cssinjs.js
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
 
    JSXFragment:
      📄 Files WITH JSXFragment (showing 10):
@@ -1855,8 +1855,8 @@ Repository: sample-repos/ant-design
        • components/segmented/index.tsx
        • components/select/useIcons.tsx
        • components/qr-code/QrcodeStatus.tsx
-       • components/modal/shared.tsx
-       • components/modal/ConfirmDialog.tsx
+       • components/popover/PurePanel.tsx
+       • components/pagination/Pagination.tsx
      📄 Files WITHOUT JSXFragment (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -1864,10 +1864,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    JSXOpeningFragment:
      📄 Files WITH JSXOpeningFragment (showing 10):
@@ -1879,8 +1879,8 @@ Repository: sample-repos/ant-design
        • components/segmented/index.tsx
        • components/select/useIcons.tsx
        • components/qr-code/QrcodeStatus.tsx
-       • components/modal/shared.tsx
-       • components/modal/ConfirmDialog.tsx
+       • components/popover/PurePanel.tsx
+       • components/pagination/Pagination.tsx
      📄 Files WITHOUT JSXOpeningFragment (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -1888,10 +1888,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    JSXClosingFragment:
      📄 Files WITH JSXClosingFragment (showing 10):
@@ -1903,8 +1903,8 @@ Repository: sample-repos/ant-design
        • components/segmented/index.tsx
        • components/select/useIcons.tsx
        • components/qr-code/QrcodeStatus.tsx
-       • components/modal/shared.tsx
-       • components/modal/ConfirmDialog.tsx
+       • components/popover/PurePanel.tsx
+       • components/pagination/Pagination.tsx
      📄 Files WITHOUT JSXClosingFragment (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -1912,23 +1912,23 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    TSVoidKeyword:
      📄 Files WITH TSVoidKeyword (showing 10):
-       • typings/custom-typings.d.ts
        • scripts/generate-cssinjs.ts
-       • tests/__mocks__/copy-to-clipboard.ts
+       • typings/custom-typings.d.ts
        • tests/shared/rootPropsTest.tsx
        • tests/shared/excludeWarning.ts
+       • tests/__mocks__/copy-to-clipboard.ts
+       • components/watermark/useWatermark.ts
+       • components/watermark/context.ts
        • components/upload/interface.ts
        • components/upload/Upload.tsx
        • components/typography/Typography.tsx
-       • components/typography/Editable.tsx
-       • components/tree-select/index.tsx
      📄 Files WITHOUT TSVoidKeyword (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -1936,10 +1936,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/cssType.d.ts
-       • alias/cssinjs.js
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    TSTypeQuery:
      📄 Files WITH TSTypeQuery (showing 10):
@@ -1948,11 +1948,11 @@ Repository: sample-repos/ant-design
        • scripts/generate-token-meta.ts
        • tests/shared/imageTest.tsx
        • tests/shared/accessibilityTest.tsx
+       • components/watermark/index.tsx
        • components/upload/index.tsx
        • components/typography/index.tsx
        • components/typography/Title.tsx
        • components/tree-select/index.tsx
-       • components/watermark/index.tsx
      📄 Files WITHOUT TSTypeQuery (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -1960,23 +1960,23 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
 
    TSTypeParameter:
      📄 Files WITH TSTypeParameter (showing 10):
-       • typings/jest.d.ts
        • tests/utils.tsx
        • tests/setup.ts
+       • typings/jest.d.ts
        • tests/shared/accessibilityTest.tsx
+       • components/watermark/useSingletonCache.ts
+       • components/watermark/index.tsx
        • components/upload/interface.ts
        • components/upload/index.tsx
        • components/upload/Upload.tsx
        • components/upload/Dragger.tsx
-       • components/typography/Typography.tsx
-       • components/tree-select/index.tsx
      📄 Files WITHOUT TSTypeParameter (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -1984,10 +1984,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
-       • alias/cssinjs.js
+       • tests/setupAfterEnv.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
+       • scripts/set-node-options.ts
 
    NewExpression:
      📄 Files WITH NewExpression (showing 10):
@@ -2007,11 +2007,11 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
-       • alias/cssinjs.js
+       • tests/index.test.ts
+       • tests/changelog.test.ts
+       • scripts/set-node-options.ts
+       • scripts/prepare-examples.ts
+       • scripts/post-publish.ts
 
    TSInterfaceHeritage:
      📄 Files WITH TSInterfaceHeritage (showing 10):
@@ -2024,7 +2024,7 @@ Repository: sample-repos/ant-design
        • components/tree-select/index.tsx
        • components/tree/Tree.tsx
        • components/tree/DirectoryTree.tsx
-       • components/tour/interface.ts
+       • components/tooltip/index.tsx
      📄 Files WITHOUT TSInterfaceHeritage (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -2032,23 +2032,23 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    ImportNamespaceSpecifier:
      📄 Files WITH ImportNamespaceSpecifier (showing 10):
        • typings/custom-typings.d.ts
        • tests/shared/demoTestContext.ts
        • tests/shared/demoTest.tsx
+       • components/watermark/useWatermark.ts
+       • components/watermark/useSingletonCache.ts
+       • components/watermark/context.ts
        • components/upload/interface.ts
        • components/upload/Upload.tsx
        • components/upload/Dragger.tsx
        • components/typography/Typography.tsx
-       • components/typography/Title.tsx
-       • components/typography/Text.tsx
-       • components/typography/Paragraph.tsx
      📄 Files WITHOUT ImportNamespaceSpecifier (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -2056,23 +2056,23 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/cssType.d.ts
-       • alias/cssinjs.js
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    TSTypeParameterDeclaration:
      📄 Files WITH TSTypeParameterDeclaration (showing 10):
-       • typings/jest.d.ts
        • tests/utils.tsx
        • tests/setup.ts
+       • typings/jest.d.ts
        • tests/shared/accessibilityTest.tsx
+       • components/watermark/useSingletonCache.ts
+       • components/watermark/index.tsx
        • components/upload/interface.ts
        • components/upload/index.tsx
        • components/upload/Upload.tsx
        • components/upload/Dragger.tsx
-       • components/typography/Typography.tsx
-       • components/tree-select/index.tsx
      📄 Files WITHOUT TSTypeParameterDeclaration (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -2080,17 +2080,17 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
-       • alias/cssinjs.js
+       • tests/setupAfterEnv.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
+       • scripts/set-node-options.ts
 
    TSIntersectionType:
      📄 Files WITH TSIntersectionType (showing 10):
        • tests/setup.ts
-       • tests/__mocks__/copy-to-clipboard.ts
        • tests/shared/rootPropsTest.tsx
        • tests/shared/demoTestContext.ts
+       • tests/__mocks__/copy-to-clipboard.ts
        • components/upload/index.tsx
        • components/upload/Dragger.tsx
        • components/typography/index.tsx
@@ -2104,10 +2104,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
 
    RestElement:
      📄 Files WITH RestElement (showing 10):
@@ -2128,23 +2128,23 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
 
    TSNullKeyword:
      📄 Files WITH TSNullKeyword (showing 10):
        • tests/utils.tsx
-       • components/upload/Upload.tsx
        • components/watermark/useSingletonCache.ts
        • components/watermark/index.tsx
        • components/watermark/context.ts
+       • components/upload/Upload.tsx
        • components/transfer/index.tsx
        • components/table/interface.ts
        • components/table/InternalTable.tsx
        • components/table/Column.ts
-       • components/splitter/interface.ts
+       • components/steps/useLegacyItems.ts
      📄 Files WITHOUT TSNullKeyword (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -2152,16 +2152,16 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
 
    TSParenthesizedType:
      📄 Files WITH TSParenthesizedType (showing 10):
        • scripts/generate-component-changelog.ts
-       • tests/__mocks__/copy-to-clipboard.ts
        • tests/shared/demoTestContext.ts
+       • tests/__mocks__/copy-to-clipboard.ts
        • components/upload/utils.ts
        • components/upload/interface.ts
        • components/typography/Title.tsx
@@ -2176,10 +2176,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    FunctionExpression:
      📄 Files WITH FunctionExpression (showing 10):
@@ -2200,22 +2200,22 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
 
    TSTypeOperator:
      📄 Files WITH TSTypeOperator (showing 10):
        • tests/setup.ts
        • scripts/print-changelog.ts
        • scripts/post-publish.ts
+       • components/watermark/utils.ts
        • components/typography/Typography.tsx
        • components/typography/Title.tsx
        • components/typography/Text.tsx
        • components/typography/Paragraph.tsx
        • components/typography/Link.tsx
-       • components/watermark/utils.ts
        • components/theme/useToken.ts
      📄 Files WITHOUT TSTypeOperator (showing 10):
        • webpack.config.js
@@ -2224,15 +2224,15 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
 
    TSUndefinedKeyword:
      📄 Files WITH TSUndefinedKeyword (showing 10):
-       • typings/cssType.d.ts
        • scripts/print-changelog.ts
+       • typings/cssType.d.ts
        • tests/shared/demoTestContext.ts
        • components/transfer/ListItem.tsx
        • components/tabs/index.tsx
@@ -2248,10 +2248,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • alias/cssinjs.js
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    SwitchCase:
      📄 Files WITH SwitchCase (showing 10):
@@ -2272,10 +2272,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    ThisExpression:
      📄 Files WITH ThisExpression (showing 10):
@@ -2285,10 +2285,10 @@ Repository: sample-repos/ant-design
        • components/popconfirm/index.tsx
        • components/modal/confirm.tsx
        • components/color-picker/color.ts
-       • components/alert/ErrorBoundary.tsx
        • components/_util/responsiveObserver.ts
+       • components/alert/ErrorBoundary.tsx
+       • components/watermark/__tests__/index.test.tsx
        • components/upload/__tests__/uploadlist.test.tsx
-       • components/typography/__tests__/index.test.tsx
      📄 Files WITHOUT ThisExpression (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -2296,10 +2296,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    ForStatement:
      📄 Files WITH ForStatement (showing 10):
@@ -2310,9 +2310,9 @@ Repository: sample-repos/ant-design
        • scripts/generate-component-changelog.ts
        • scripts/generate-authors.ts
        • scripts/check-version-md.ts
+       • scripts/visual-regression/upload.js
        • components/watermark/index.tsx
        • components/splitter/Splitter.tsx
-       • components/spin/usePercent.ts
      📄 Files WITHOUT ForStatement (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -2320,23 +2320,23 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
 
    TSTupleType:
      📄 Files WITH TSTupleType (showing 10):
        • tests/shared/imageTest.tsx
+       • scripts/visual-regression/build.ts
        • components/watermark/useWatermark.ts
        • components/watermark/useSingletonCache.ts
        • components/watermark/useClips.ts
        • components/watermark/index.tsx
        • components/tooltip/index.tsx
        • components/theme/useToken.ts
-       • components/time-picker/index.tsx
+       • components/statistic/utils.ts
        • components/splitter/SplitBar.tsx
-       • components/spin/usePercent.ts
      📄 Files WITHOUT TSTupleType (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -2344,17 +2344,17 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    TSUnknownKeyword:
      📄 Files WITH TSUnknownKeyword (showing 10):
        • scripts/print-changelog.ts
        • tests/shared/imageTest.tsx
-       • components/upload/interface.ts
        • components/watermark/useWatermark.ts
+       • components/upload/interface.ts
        • components/tree/index.tsx
        • components/tree/DirectoryTree.tsx
        • components/table/Table.tsx
@@ -2368,21 +2368,21 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    UpdateExpression:
      📄 Files WITH UpdateExpression (showing 10):
        • scripts/print-changelog.ts
        • scripts/prepare-examples.ts
        • scripts/generate-authors.ts
+       • scripts/visual-regression/upload.js
        • components/progress/Steps.tsx
        • components/modal/confirm.tsx
        • components/grid/row.tsx
        • components/calendar/Header.tsx
-       • scripts/visual-regression/upload.js
        • components/tree/demo/search.tsx
        • components/tree/demo/draggable.tsx
      📄 Files WITHOUT UpdateExpression (showing 10):
@@ -2392,10 +2392,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    TSNamedTupleMember:
      📄 Files WITH TSNamedTupleMember (showing 10):
@@ -2416,21 +2416,21 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    TSObjectKeyword:
      📄 Files WITH TSObjectKeyword (showing 10):
-       • tests/__mocks__/copy-to-clipboard.ts
        • tests/shared/rootPropsTest.tsx
        • tests/shared/demoTest.tsx
+       • tests/__mocks__/copy-to-clipboard.ts
        • components/statistic/Timer.tsx
        • components/config-provider/context.ts
        • components/button/DefaultLoadingIcon.tsx
-       • components/alert/ErrorBoundary.tsx
        • components/_util/type.ts
+       • components/alert/ErrorBoundary.tsx
        • components/upload/UploadList/index.tsx
        • components/transfer/demo/table-transfer.tsx
      📄 Files WITHOUT TSObjectKeyword (showing 10):
@@ -2440,23 +2440,23 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    BreakStatement:
      📄 Files WITH BreakStatement (showing 10):
        • scripts/post-publish.ts
        • scripts/generate-component-changelog.ts
        • scripts/check-version-md.ts
+       • scripts/visual-regression/upload.js
+       • scripts/visual-regression/reportAdapter.ts
        • components/tree/Tree.tsx
        • components/notification/util.ts
        • components/notification/index.tsx
        • components/modal/confirm.tsx
        • components/modal/ConfirmDialog.tsx
-       • components/message/index.tsx
-       • components/list/index.tsx
      📄 Files WITHOUT BreakStatement (showing 10):
        • webpack.config.js
        • jest-puppeteer.config.js
@@ -2464,10 +2464,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    JSXEmptyExpression:
      📄 Files WITH JSXEmptyExpression (showing 10):
@@ -2476,8 +2476,8 @@ Repository: sample-repos/ant-design
        • components/splitter/SplitBar.tsx
        • components/radio/radio.tsx
        • components/checkbox/Checkbox.tsx
-       • components/upload/UploadList/index.tsx
        • components/upload/demo/drag-sorting.tsx
+       • components/upload/UploadList/index.tsx
        • components/typography/Base/Ellipsis.tsx
        • components/select/demo/option-label-center.tsx
        • components/select/demo/debug.tsx
@@ -2488,10 +2488,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    TaggedTemplateExpression:
      📄 Files WITH TaggedTemplateExpression (showing 10):
@@ -2512,10 +2512,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    MethodDefinition:
      📄 Files WITH MethodDefinition (showing 8):
@@ -2534,10 +2534,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    SwitchStatement:
      📄 Files WITH SwitchStatement (showing 10):
@@ -2558,20 +2558,20 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    TryStatement:
      📄 Files WITH TryStatement (showing 10):
        • scripts/print-changelog.ts
        • scripts/pre-publish.ts
        • tests/shared/accessibilityTest.tsx
-       • components/upload/Upload.tsx
        • scripts/visual-regression/upload.js
        • scripts/visual-regression/reportAdapter.ts
        • scripts/visual-regression/build.ts
+       • components/upload/Upload.tsx
        • components/upload/demo/upload-with-aliyun-oss.tsx
        • components/typography/hooks/useCopyClick.ts
        • components/table/demo/edit-row.tsx
@@ -2582,21 +2582,21 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    ThrowStatement:
      📄 Files WITH ThrowStatement (showing 10):
        • scripts/pre-publish.ts
        • scripts/generate-component-changelog.ts
        • tests/shared/accessibilityTest.tsx
-       • components/_util/responsiveObserver.ts
        • scripts/visual-regression/upload.js
        • scripts/visual-regression/reportAdapter.ts
        • scripts/visual-regression/local.ts
        • scripts/visual-regression/build.ts
+       • components/_util/responsiveObserver.ts
        • components/upload/__tests__/uploadlist.test.tsx
        • components/upload/__tests__/upload.test.tsx
      📄 Files WITHOUT ThrowStatement (showing 10):
@@ -2606,20 +2606,20 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    CatchClause:
      📄 Files WITH CatchClause (showing 10):
        • scripts/print-changelog.ts
        • scripts/pre-publish.ts
        • tests/shared/accessibilityTest.tsx
-       • components/upload/Upload.tsx
        • scripts/visual-regression/upload.js
        • scripts/visual-regression/reportAdapter.ts
        • scripts/visual-regression/build.ts
+       • components/upload/Upload.tsx
        • components/upload/demo/upload-with-aliyun-oss.tsx
        • components/typography/hooks/useCopyClick.ts
        • components/table/demo/edit-row.tsx
@@ -2630,10 +2630,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    PropertyDefinition:
      📄 Files WITH PropertyDefinition (showing 7):
@@ -2651,10 +2651,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    TSTypePredicate:
      📄 Files WITH TSTypePredicate (showing 10):
@@ -2675,10 +2675,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
 
    TSConditionalType:
      📄 Files WITH TSConditionalType (showing 6):
@@ -2695,10 +2695,34 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
+
+   ForOfStatement:
+     📄 Files WITH ForOfStatement (showing 10):
+       • scripts/generate-llms.ts
+       • scripts/check-site.ts
+       • scripts/check-cssinjs.tsx
+       • scripts/visual-regression/upload.js
+       • scripts/visual-regression/reportAdapter.ts
+       • scripts/visual-regression/build.ts
+       • components/splitter/SplitBar.tsx
+       • components/_util/responsiveObserver.ts
+       • components/table/demo/ajax.tsx
+       • components/select/demo/search-box.tsx
+     📄 Files WITHOUT ForOfStatement (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    TSIndexSignature:
      📄 Files WITH TSIndexSignature (showing 10):
@@ -2719,34 +2743,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • alias/cssinjs.js
        • tests/utils.tsx
-
-   ForOfStatement:
-     📄 Files WITH ForOfStatement (showing 10):
-       • scripts/generate-llms.ts
-       • scripts/check-site.ts
-       • scripts/check-cssinjs.tsx
-       • components/splitter/SplitBar.tsx
-       • components/_util/responsiveObserver.ts
-       • scripts/visual-regression/upload.js
-       • scripts/visual-regression/reportAdapter.ts
-       • scripts/visual-regression/build.ts
-       • components/table/demo/ajax.tsx
-       • components/select/demo/search-box.tsx
-     📄 Files WITHOUT ForOfStatement (showing 10):
-       • webpack.config.js
-       • jest-puppeteer.config.js
-       • index.js
-       • index-with-locales.js
-       • index-style-only.js
-       • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    TSMappedType:
      📄 Files WITH TSMappedType (showing 10):
@@ -2767,10 +2767,27 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
+
+   ImportExpression:
+     📄 Files WITH ImportExpression (showing 3):
+       • scripts/generate-cssinjs.ts
+       • scripts/visual-regression/build.ts
+       • components/_util/__tests__/warning.test.tsx
+     📄 Files WITHOUT ImportExpression (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    TSModuleDeclaration:
      📄 Files WITH TSModuleDeclaration (showing 3):
@@ -2784,10 +2801,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/index.d.ts
-       • alias/cssinjs.js
        • tests/utils.tsx
        • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    TSTemplateLiteralType:
      📄 Files WITH TSTemplateLiteralType (showing 10):
@@ -2808,27 +2825,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • alias/cssinjs.js
-
-   ImportExpression:
-     📄 Files WITH ImportExpression (showing 3):
-       • scripts/generate-cssinjs.ts
-       • scripts/visual-regression/build.ts
-       • components/_util/__tests__/warning.test.tsx
-     📄 Files WITHOUT ImportExpression (showing 10):
-       • webpack.config.js
-       • jest-puppeteer.config.js
-       • index.js
-       • index-with-locales.js
-       • index-style-only.js
-       • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    TSInferType:
      📄 Files WITH TSInferType (showing 6):
@@ -2845,10 +2845,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    ContinueStatement:
      📄 Files WITH ContinueStatement (showing 4):
@@ -2863,10 +2863,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    ClassBody:
      📄 Files WITH ClassBody (showing 9):
@@ -2886,10 +2886,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    ExportAllDeclaration:
      📄 Files WITH ExportAllDeclaration (showing 5):
@@ -2905,10 +2905,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
 
    ClassDeclaration:
      📄 Files WITH ClassDeclaration (showing 8):
@@ -2927,10 +2927,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    TSNeverKeyword:
      📄 Files WITH TSNeverKeyword (showing 4):
@@ -2945,10 +2945,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    TSDeclareFunction:
      📄 Files WITH TSDeclareFunction (showing 3):
@@ -2962,10 +2962,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/cssType.d.ts
-       • alias/cssinjs.js
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    TSModuleBlock:
      📄 Files WITH TSModuleBlock (showing 3):
@@ -2979,10 +2979,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/index.d.ts
-       • alias/cssinjs.js
        • tests/utils.tsx
        • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    TSMethodSignature:
      📄 Files WITH TSMethodSignature (showing 4):
@@ -2997,10 +2997,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
-       • alias/cssinjs.js
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    TSRestType:
      📄 Files WITH TSRestType (showing 1):
@@ -3012,10 +3012,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    TSCallSignatureDeclaration:
      📄 Files WITH TSCallSignatureDeclaration (showing 2):
@@ -3028,10 +3028,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    WhileStatement:
      📄 Files WITH WhileStatement (showing 2):
@@ -3044,10 +3044,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    TSBigIntKeyword:
      📄 Files WITH TSBigIntKeyword (showing 1):
@@ -3059,10 +3059,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
    ClassExpression:
      📄 Files WITH ClassExpression (showing 1):
@@ -3074,10 +3074,10 @@ Repository: sample-repos/ant-design
        • index-with-locales.js
        • index-style-only.js
        • eslint.config.mjs
-       • typings/jest.d.ts
-       • typings/index.d.ts
-       • typings/custom-typings.d.ts
-       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
 
 ============================================================
 ✅ Analysis complete!

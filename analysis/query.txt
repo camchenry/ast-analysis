@@ -1,5 +1,5 @@
 AST Analysis Report for query
-Generated on: 2025-07-14T01:42:26.270Z
+Generated on: 2025-07-14T01:56:53.793Z
 Repository: sample-repos/query
 ================================================================================
 
@@ -141,8 +141,8 @@ Repository: sample-repos/query
    TSArrayType                       7 files (  0.8%) -       14 total (0.00%)
    ForStatement                      6 files (  0.7%) -        9 total (0.00%)
    TSObjectKeyword                   4 files (  0.5%) -        4 total (0.00%)
-   BreakStatement                    4 files (  0.5%) -       10 total (0.00%)
    ContinueStatement                 4 files (  0.5%) -        6 total (0.00%)
+   BreakStatement                    4 files (  0.5%) -       10 total (0.00%)
    TSSatisfiesExpression             4 files (  0.5%) -        4 total (0.00%)
    JSXEmptyExpression                4 files (  0.5%) -        4 total (0.00%)
    MetaProperty                      3 files (  0.3%) -        4 total (0.00%)
@@ -315,20 +315,20 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
      📄 Files WITHOUT Identifier (showing 10):
        • packages/svelte-query-persist-client/tests/test-setup.ts
        • packages/svelte-query/tests/test-setup.ts
        • packages/solid-query-persist-client/src/index.ts
        • packages/react-query-persist-client/src/index.ts
        • packages/query-persist-client-core/src/index.ts
-       • packages/angular-query-devtools-experimental/src/index.ts
        • packages/angular-query-persist-client/src/index.ts
-       • integrations/vue-vite/src/vite-env.d.ts
-       • integrations/svelte-vite/src/vite-env.d.ts
-       • integrations/react-webpack-5/src/index.js
+       • packages/angular-query-devtools-experimental/src/index.ts
+       • examples/react/prefetching/next-env.d.ts
+       • examples/react/optimistic-updates-cache/next-env.d.ts
+       • examples/react/pagination/next-env.d.ts
 
    CallExpression:
      📄 Files WITH CallExpression (showing 10):
@@ -337,22 +337,22 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
        • packages/vue-query/vite.config.ts
        • packages/vue-query/tsup.config.ts
        • packages/vue-query/test-setup.ts
        • packages/vue-query/root.tsup.config.js
+       • packages/svelte-query-persist-client/vite.config.ts
      📄 Files WITHOUT CallExpression (showing 10):
        • prettier.config.js
        • eslint.config.js
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/root.eslint.config.js
        • packages/vue-query/eslint.config.js
        • packages/svelte-query-persist-client/root.eslint.config.js
        • packages/svelte-query-persist-client/eslint.config.js
-       • packages/svelte-query-devtools/root.eslint.config.js
-       • packages/svelte-query-devtools/eslint.config.js
+       • packages/vue-query-devtools/root.eslint.config.js
+       • packages/vue-query-devtools/eslint.config.js
+       • packages/svelte-query/root.eslint.config.js
+       • packages/svelte-query/eslint.config.js
 
    Literal:
      📄 Files WITH Literal (showing 10):
@@ -363,20 +363,20 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
      📄 Files WITHOUT Literal (showing 10):
        • packages/svelte-query-persist-client/tests/utils.ts
        • packages/query-test-utils/src/sleep.ts
        • packages/query-sync-storage-persister/src/utils.ts
        • packages/query-async-storage-persister/src/utils.ts
-       • integrations/vue-vite/src/vite-env.d.ts
-       • integrations/svelte-vite/src/vite-env.d.ts
-       • integrations/react-webpack-5/src/index.js
-       • integrations/react-webpack-5/src/App.js
-       • integrations/react-webpack-4/src/index.js
-       • integrations/react-webpack-4/src/App.js
+       • examples/react/prefetching/next-env.d.ts
+       • examples/react/optimistic-updates-cache/next-env.d.ts
+       • examples/react/pagination/next-env.d.ts
+       • examples/react/optimistic-updates-ui/next-env.d.ts
+       • examples/react/nextjs/next-env.d.ts
+       • examples/react/load-more-infinite-scroll/next-env.d.ts
 
    MemberExpression:
      📄 Files WITH MemberExpression (showing 10):
@@ -386,21 +386,21 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/vite.config.ts
        • packages/vue-query/test-setup.ts
+       • packages/vue-query/root.tsup.config.js
+       • packages/vue-query/root.eslint.config.js
      📄 Files WITHOUT MemberExpression (showing 10):
        • prettier.config.js
-       • packages/vue-query-devtools/vite.config.ts
        • packages/vue-query/tsup.config.ts
        • packages/svelte-query-persist-client/svelte.config.js
+       • packages/vue-query-devtools/vite.config.ts
+       • packages/svelte-query/svelte.config.js
        • packages/svelte-query-devtools/vite.config.ts
        • packages/svelte-query-devtools/svelte.config.js
-       • packages/svelte-query/svelte.config.js
+       • packages/solid-query/test-setup.ts
+       • packages/solid-query/eslint.config.js
        • packages/solid-query-persist-client/test-setup.ts
-       • packages/solid-query-persist-client/eslint.config.js
-       • packages/solid-query-devtools/vite.config.ts
 
    Property:
      📄 Files WITH Property (showing 10):
@@ -410,21 +410,21 @@ Repository: sample-repos/query
        • scripts/publish.ts
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
        • packages/vue-query/vite.config.ts
        • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
+       • packages/vue-query/root.tsup.config.js
      📄 Files WITHOUT Property (showing 10):
        • scripts/getViteAliases.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/eslint.config.js
+       • packages/vue-query-devtools/eslint.config.js
+       • packages/solid-query/test-setup.ts
+       • packages/solid-query/eslint.config.js
        • packages/solid-query-persist-client/test-setup.ts
        • packages/solid-query-persist-client/eslint.config.js
        • packages/solid-query-devtools/eslint.config.js
-       • packages/solid-query/test-setup.ts
-       • packages/solid-query/eslint.config.js
        • packages/react-query-persist-client/test-setup.ts
-       • packages/react-query-devtools/test-setup.ts
+       • packages/react-query/test-setup.ts
 
    ExpressionStatement:
      📄 Files WITH ExpressionStatement (showing 10):
@@ -433,35 +433,35 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/generateDocs.ts
        • packages/vue-query/test-setup.ts
+       • packages/solid-query/tsup.config.ts
+       • packages/solid-query/test-setup.ts
        • packages/solid-query-persist-client/tsup.config.ts
        • packages/solid-query-persist-client/test-setup.ts
        • packages/solid-query-devtools/tsup.config.ts
-       • packages/solid-query/tsup.config.ts
-       • packages/solid-query/test-setup.ts
      📄 Files WITHOUT ExpressionStatement (showing 10):
        • prettier.config.js
        • eslint.config.js
        • scripts/getTsupConfig.js
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/vite.config.ts
        • packages/vue-query/tsup.config.ts
        • packages/vue-query/root.tsup.config.js
        • packages/vue-query/root.eslint.config.js
+       • packages/vue-query/eslint.config.js
+       • packages/svelte-query-persist-client/vite.config.ts
+       • packages/svelte-query-persist-client/svelte.config.js
 
    JSXIdentifier:
      📄 Files WITH JSXIdentifier (showing 10):
+       • packages/solid-query/src/QueryClientProvider.tsx
        • packages/solid-query-persist-client/src/PersistQueryClientProvider.tsx
        • packages/solid-query-devtools/src/devtools.tsx
-       • packages/solid-query/src/QueryClientProvider.tsx
        • packages/react-query-persist-client/src/PersistQueryClientProvider.tsx
        • packages/react-query-next-experimental/src/ReactQueryStreamedHydration.tsx
        • packages/react-query-next-experimental/src/HydrationStreamProvider.tsx
-       • packages/react-query-devtools/src/ReactQueryDevtoolsPanel.tsx
-       • packages/react-query-devtools/src/ReactQueryDevtools.tsx
        • packages/react-query/src/QueryErrorResetBoundary.tsx
        • packages/react-query/src/QueryClientProvider.tsx
+       • packages/react-query-devtools/src/ReactQueryDevtoolsPanel.tsx
+       • packages/react-query-devtools/src/ReactQueryDevtools.tsx
      📄 Files WITHOUT JSXIdentifier (showing 10):
        • prettier.config.js
        • eslint.config.js
@@ -470,22 +470,22 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSTypeReference:
      📄 Files WITH TSTypeReference (showing 10):
        • scripts/verify-links.ts
        • packages/angular-query-experimental/vite.config.ts
-       • packages/vue-query-devtools/src/types.ts
-       • packages/vue-query-devtools/src/index.ts
        • packages/vue-query/src/vueQueryPlugin.ts
        • packages/vue-query/src/utils.ts
        • packages/vue-query/src/useQueryClient.ts
        • packages/vue-query/src/useQuery.ts
        • packages/vue-query/src/useQueries.ts
        • packages/vue-query/src/useMutationState.ts
+       • packages/vue-query/src/useMutation.ts
+       • packages/vue-query/src/useIsFetching.ts
      📄 Files WITHOUT TSTypeReference (showing 10):
        • prettier.config.js
        • eslint.config.js
@@ -493,10 +493,10 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
+       • packages/vue-query/root.tsup.config.js
 
    ArrowFunctionExpression:
      📄 Files WITH ArrowFunctionExpression (showing 10):
@@ -504,23 +504,23 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/generateDocs.ts
        • packages/vue-query/test-setup.ts
+       • packages/solid-query/tsup.config.ts
+       • packages/solid-query/test-setup.ts
        • packages/solid-query-persist-client/tsup.config.ts
        • packages/solid-query-persist-client/test-setup.ts
        • packages/solid-query-devtools/tsup.config.ts
-       • packages/solid-query/tsup.config.ts
-       • packages/solid-query/test-setup.ts
        • packages/react-query-persist-client/test-setup.ts
      📄 Files WITHOUT ArrowFunctionExpression (showing 10):
        • prettier.config.js
        • eslint.config.js
        • scripts/publish.ts
        • scripts/getTsupConfig.js
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/vite.config.ts
        • packages/vue-query/tsup.config.ts
        • packages/vue-query/root.tsup.config.js
+       • packages/vue-query/root.eslint.config.js
+       • packages/vue-query/eslint.config.js
+       • packages/svelte-query-persist-client/vite.config.ts
 
    VariableDeclarator:
      📄 Files WITH VariableDeclarator (showing 10):
@@ -529,22 +529,22 @@ Repository: sample-repos/query
        • scripts/publish.ts
        • scripts/getViteAliases.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
        • packages/vue-query/test-setup.ts
        • packages/svelte-query-persist-client/svelte.config.js
-       • packages/svelte-query-devtools/svelte.config.js
+       • packages/vue-query-devtools/vite.config.ts
        • packages/svelte-query/svelte.config.js
+       • packages/svelte-query-devtools/svelte.config.js
      📄 Files WITHOUT VariableDeclarator (showing 10):
        • eslint.config.js
        • scripts/getTsupConfig.js
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/vite.config.ts
        • packages/vue-query/tsup.config.ts
        • packages/vue-query/root.tsup.config.js
        • packages/vue-query/root.eslint.config.js
        • packages/vue-query/eslint.config.js
        • packages/svelte-query-persist-client/vite.config.ts
+       • packages/svelte-query-persist-client/root.eslint.config.js
+       • packages/svelte-query-persist-client/eslint.config.js
 
    VariableDeclaration:
      📄 Files WITH VariableDeclaration (showing 10):
@@ -553,22 +553,22 @@ Repository: sample-repos/query
        • scripts/publish.ts
        • scripts/getViteAliases.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
        • packages/vue-query/test-setup.ts
        • packages/svelte-query-persist-client/svelte.config.js
-       • packages/svelte-query-devtools/svelte.config.js
+       • packages/vue-query-devtools/vite.config.ts
        • packages/svelte-query/svelte.config.js
+       • packages/svelte-query-devtools/svelte.config.js
      📄 Files WITHOUT VariableDeclaration (showing 10):
        • eslint.config.js
        • scripts/getTsupConfig.js
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/vite.config.ts
        • packages/vue-query/tsup.config.ts
        • packages/vue-query/root.tsup.config.js
        • packages/vue-query/root.eslint.config.js
        • packages/vue-query/eslint.config.js
        • packages/svelte-query-persist-client/vite.config.ts
+       • packages/svelte-query-persist-client/root.eslint.config.js
+       • packages/svelte-query-persist-client/eslint.config.js
 
    ObjectExpression:
      📄 Files WITH ObjectExpression (showing 10):
@@ -579,20 +579,20 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
        • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
      📄 Files WITHOUT ObjectExpression (showing 10):
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/eslint.config.js
+       • packages/vue-query-devtools/eslint.config.js
+       • packages/solid-query/test-setup.ts
+       • packages/solid-query/eslint.config.js
        • packages/solid-query-persist-client/test-setup.ts
        • packages/solid-query-persist-client/eslint.config.js
        • packages/solid-query-devtools/eslint.config.js
-       • packages/solid-query/test-setup.ts
-       • packages/solid-query/eslint.config.js
        • packages/react-query-persist-client/test-setup.ts
-       • packages/react-query-devtools/test-setup.ts
        • packages/react-query/test-setup.ts
+       • packages/query-test-utils/eslint.config.js
 
    BlockStatement:
      📄 Files WITH BlockStatement (showing 10):
@@ -603,25 +603,25 @@ Repository: sample-repos/query
        • packages/vue-query/vite.config.ts
        • packages/vue-query/test-setup.ts
        • packages/vue-query/root.tsup.config.js
+       • packages/solid-query/tsup.config.ts
        • packages/solid-query-persist-client/tsup.config.ts
        • packages/solid-query-devtools/tsup.config.ts
-       • packages/solid-query/tsup.config.ts
      📄 Files WITHOUT BlockStatement (showing 10):
        • prettier.config.js
        • eslint.config.js
        • scripts/publish.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/tsup.config.ts
        • packages/vue-query/root.eslint.config.js
        • packages/vue-query/eslint.config.js
        • packages/svelte-query-persist-client/vite.config.ts
+       • packages/svelte-query-persist-client/svelte.config.js
+       • packages/svelte-query-persist-client/root.eslint.config.js
+       • packages/svelte-query-persist-client/eslint.config.js
 
    JSXText:
      📄 Files WITH JSXText (showing 10):
-       • packages/solid-query-persist-client/src/PersistQueryClientProvider.tsx
        • packages/solid-query/src/QueryClientProvider.tsx
+       • packages/solid-query-persist-client/src/PersistQueryClientProvider.tsx
        • packages/react-query-persist-client/src/PersistQueryClientProvider.tsx
        • packages/react-query-next-experimental/src/ReactQueryStreamedHydration.tsx
        • packages/react-query-next-experimental/src/HydrationStreamProvider.tsx
@@ -638,15 +638,14 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSTypeAnnotation:
      📄 Files WITH TSTypeAnnotation (showing 10):
        • scripts/verify-links.ts
        • packages/angular-query-experimental/vite.config.ts
-       • packages/vue-query-devtools/src/types.ts
        • packages/vue-query/src/vueQueryPlugin.ts
        • packages/vue-query/src/utils.ts
        • packages/vue-query/src/useQueryClient.ts
@@ -654,6 +653,7 @@ Repository: sample-repos/query
        • packages/vue-query/src/useQueries.ts
        • packages/vue-query/src/useMutationState.ts
        • packages/vue-query/src/useMutation.ts
+       • packages/vue-query/src/useIsFetching.ts
      📄 Files WITHOUT TSTypeAnnotation (showing 10):
        • prettier.config.js
        • eslint.config.js
@@ -661,10 +661,10 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
+       • packages/vue-query/root.tsup.config.js
 
    ImportSpecifier:
      📄 Files WITH ImportSpecifier (showing 10):
@@ -673,28 +673,26 @@ Repository: sample-repos/query
        • scripts/publish.ts
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
        • packages/vue-query/vite.config.ts
        • packages/vue-query/tsup.config.ts
        • packages/vue-query/test-setup.ts
+       • packages/vue-query/root.tsup.config.js
+       • packages/vue-query/root.eslint.config.js
      📄 Files WITHOUT ImportSpecifier (showing 10):
        • prettier.config.js
        • scripts/getViteAliases.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/eslint.config.js
        • packages/svelte-query-persist-client/eslint.config.js
-       • packages/svelte-query-devtools/eslint.config.js
+       • packages/vue-query-devtools/eslint.config.js
        • packages/svelte-query/eslint.config.js
+       • packages/svelte-query-devtools/eslint.config.js
+       • packages/solid-query/eslint.config.js
        • packages/solid-query-persist-client/eslint.config.js
        • packages/solid-query-devtools/eslint.config.js
-       • packages/solid-query/eslint.config.js
 
    TSTypeParameterInstantiation:
      📄 Files WITH TSTypeParameterInstantiation (showing 10):
        • scripts/verify-links.ts
-       • packages/vue-query-devtools/src/types.ts
-       • packages/vue-query-devtools/src/index.ts
        • packages/vue-query/src/vueQueryPlugin.ts
        • packages/vue-query/src/utils.ts
        • packages/vue-query/src/useQueryClient.ts
@@ -702,6 +700,8 @@ Repository: sample-repos/query
        • packages/vue-query/src/useQueries.ts
        • packages/vue-query/src/useMutationState.ts
        • packages/vue-query/src/useMutation.ts
+       • packages/vue-query/src/useIsFetching.ts
+       • packages/vue-query/src/useInfiniteQuery.ts
      📄 Files WITHOUT TSTypeParameterInstantiation (showing 10):
        • prettier.config.js
        • eslint.config.js
@@ -709,23 +709,23 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
+       • packages/vue-query/root.tsup.config.js
 
    JSXElement:
      📄 Files WITH JSXElement (showing 10):
+       • packages/solid-query/src/QueryClientProvider.tsx
        • packages/solid-query-persist-client/src/PersistQueryClientProvider.tsx
        • packages/solid-query-devtools/src/devtools.tsx
-       • packages/solid-query/src/QueryClientProvider.tsx
        • packages/react-query-persist-client/src/PersistQueryClientProvider.tsx
        • packages/react-query-next-experimental/src/ReactQueryStreamedHydration.tsx
        • packages/react-query-next-experimental/src/HydrationStreamProvider.tsx
-       • packages/react-query-devtools/src/ReactQueryDevtoolsPanel.tsx
-       • packages/react-query-devtools/src/ReactQueryDevtools.tsx
        • packages/react-query/src/QueryErrorResetBoundary.tsx
        • packages/react-query/src/QueryClientProvider.tsx
+       • packages/react-query-devtools/src/ReactQueryDevtoolsPanel.tsx
+       • packages/react-query-devtools/src/ReactQueryDevtools.tsx
      📄 Files WITHOUT JSXElement (showing 10):
        • prettier.config.js
        • eslint.config.js
@@ -734,22 +734,22 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    JSXOpeningElement:
      📄 Files WITH JSXOpeningElement (showing 10):
+       • packages/solid-query/src/QueryClientProvider.tsx
        • packages/solid-query-persist-client/src/PersistQueryClientProvider.tsx
        • packages/solid-query-devtools/src/devtools.tsx
-       • packages/solid-query/src/QueryClientProvider.tsx
        • packages/react-query-persist-client/src/PersistQueryClientProvider.tsx
        • packages/react-query-next-experimental/src/ReactQueryStreamedHydration.tsx
        • packages/react-query-next-experimental/src/HydrationStreamProvider.tsx
-       • packages/react-query-devtools/src/ReactQueryDevtoolsPanel.tsx
-       • packages/react-query-devtools/src/ReactQueryDevtools.tsx
        • packages/react-query/src/QueryErrorResetBoundary.tsx
        • packages/react-query/src/QueryClientProvider.tsx
+       • packages/react-query-devtools/src/ReactQueryDevtoolsPanel.tsx
+       • packages/react-query-devtools/src/ReactQueryDevtools.tsx
      📄 Files WITHOUT JSXOpeningElement (showing 10):
        • prettier.config.js
        • eslint.config.js
@@ -758,9 +758,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    ArrayExpression:
      📄 Files WITH ArrayExpression (showing 10):
@@ -770,34 +770,34 @@ Repository: sample-repos/query
        • scripts/publish.ts
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/root.tsup.config.js
+       • packages/vue-query/root.eslint.config.js
      📄 Files WITHOUT ArrayExpression (showing 10):
        • scripts/getViteAliases.js
        • packages/vue-query/test-setup.ts
        • packages/svelte-query-persist-client/svelte.config.js
-       • packages/svelte-query-devtools/svelte.config.js
        • packages/svelte-query/svelte.config.js
+       • packages/svelte-query-devtools/svelte.config.js
+       • packages/solid-query/tsup.config.ts
+       • packages/solid-query/test-setup.ts
        • packages/solid-query-persist-client/tsup.config.ts
        • packages/solid-query-persist-client/test-setup.ts
        • packages/solid-query-devtools/tsup.config.ts
-       • packages/solid-query/tsup.config.ts
-       • packages/solid-query/test-setup.ts
 
    JSXClosingElement:
      📄 Files WITH JSXClosingElement (showing 10):
+       • packages/solid-query/src/QueryClientProvider.tsx
        • packages/solid-query-persist-client/src/PersistQueryClientProvider.tsx
        • packages/solid-query-devtools/src/devtools.tsx
-       • packages/solid-query/src/QueryClientProvider.tsx
        • packages/react-query-persist-client/src/PersistQueryClientProvider.tsx
        • packages/react-query-next-experimental/src/ReactQueryStreamedHydration.tsx
        • packages/react-query-next-experimental/src/HydrationStreamProvider.tsx
-       • packages/react-query-devtools/src/ReactQueryDevtoolsPanel.tsx
-       • packages/react-query-devtools/src/ReactQueryDevtools.tsx
        • packages/react-query/src/QueryErrorResetBoundary.tsx
        • packages/react-query/src/QueryClientProvider.tsx
+       • packages/react-query-devtools/src/ReactQueryDevtoolsPanel.tsx
+       • packages/react-query-devtools/src/ReactQueryDevtools.tsx
      📄 Files WITHOUT JSXClosingElement (showing 10):
        • prettier.config.js
        • eslint.config.js
@@ -806,22 +806,22 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    JSXAttribute:
      📄 Files WITH JSXAttribute (showing 10):
+       • packages/solid-query/src/QueryClientProvider.tsx
        • packages/solid-query-persist-client/src/PersistQueryClientProvider.tsx
        • packages/solid-query-devtools/src/devtools.tsx
-       • packages/solid-query/src/QueryClientProvider.tsx
        • packages/react-query-persist-client/src/PersistQueryClientProvider.tsx
        • packages/react-query-next-experimental/src/ReactQueryStreamedHydration.tsx
        • packages/react-query-next-experimental/src/HydrationStreamProvider.tsx
-       • packages/react-query-devtools/src/ReactQueryDevtoolsPanel.tsx
-       • packages/react-query-devtools/src/ReactQueryDevtools.tsx
        • packages/react-query/src/QueryErrorResetBoundary.tsx
        • packages/react-query/src/QueryClientProvider.tsx
+       • packages/react-query-devtools/src/ReactQueryDevtoolsPanel.tsx
+       • packages/react-query-devtools/src/ReactQueryDevtools.tsx
      📄 Files WITHOUT JSXAttribute (showing 10):
        • prettier.config.js
        • eslint.config.js
@@ -830,9 +830,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    ReturnStatement:
      📄 Files WITH ReturnStatement (showing 10):
@@ -842,34 +842,34 @@ Repository: sample-repos/query
        • packages/vue-query/vite.config.ts
        • packages/vue-query/test-setup.ts
        • packages/vue-query/root.tsup.config.js
+       • packages/solid-query/tsup.config.ts
        • packages/solid-query-persist-client/tsup.config.ts
        • packages/solid-query-devtools/tsup.config.ts
-       • packages/solid-query/tsup.config.ts
        • packages/react-query-persist-client/root.tsup.config.js
      📄 Files WITHOUT ReturnStatement (showing 10):
        • prettier.config.js
        • eslint.config.js
        • scripts/publish.ts
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/tsup.config.ts
        • packages/vue-query/root.eslint.config.js
        • packages/vue-query/eslint.config.js
+       • packages/svelte-query-persist-client/vite.config.ts
+       • packages/svelte-query-persist-client/svelte.config.js
+       • packages/svelte-query-persist-client/root.eslint.config.js
 
    JSXExpressionContainer:
      📄 Files WITH JSXExpressionContainer (showing 10):
+       • packages/solid-query/src/QueryClientProvider.tsx
        • packages/solid-query-persist-client/src/PersistQueryClientProvider.tsx
        • packages/solid-query-devtools/src/devtools.tsx
-       • packages/solid-query/src/QueryClientProvider.tsx
        • packages/react-query-persist-client/src/PersistQueryClientProvider.tsx
        • packages/react-query-next-experimental/src/ReactQueryStreamedHydration.tsx
        • packages/react-query-next-experimental/src/HydrationStreamProvider.tsx
-       • packages/react-query-devtools/src/ReactQueryDevtoolsPanel.tsx
-       • packages/react-query-devtools/src/ReactQueryDevtools.tsx
        • packages/react-query/src/QueryErrorResetBoundary.tsx
        • packages/react-query/src/QueryClientProvider.tsx
+       • packages/react-query-devtools/src/ReactQueryDevtoolsPanel.tsx
+       • packages/react-query-devtools/src/ReactQueryDevtools.tsx
      📄 Files WITHOUT JSXExpressionContainer (showing 10):
        • prettier.config.js
        • eslint.config.js
@@ -878,9 +878,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    ImportDeclaration:
      📄 Files WITH ImportDeclaration (showing 10):
@@ -890,10 +890,10 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
+       • packages/vue-query/root.tsup.config.js
      📄 Files WITHOUT ImportDeclaration (showing 10):
        • prettier.config.js
        • packages/eslint-plugin-query/root.tsup.config.js
@@ -904,7 +904,7 @@ Repository: sample-repos/query
        • packages/vue-query/src/index.ts
        • packages/svelte-query-persist-client/tests/utils.ts
        • packages/svelte-query-persist-client/src/index.ts
-       • packages/svelte-query-devtools/src/index.ts
+       • packages/svelte-query/src/index.ts
 
    AwaitExpression:
      📄 Files WITH AwaitExpression (showing 10):
@@ -913,29 +913,29 @@ Repository: sample-repos/query
        • scripts/generateDocs.ts
        • packages/vue-query/test-setup.ts
        • packages/svelte-query-persist-client/tests/PersistQueryClientProvider.test.ts
+       • packages/query-persist-client-core/src/persist.ts
+       • packages/query-persist-client-core/src/createPersister.ts
        • packages/query-core/src/streamedQuery.ts
        • packages/query-core/src/queryClient.ts
        • packages/query-core/src/mutation.ts
-       • packages/query-core/src/infiniteQueryBehavior.ts
-       • packages/query-persist-client-core/src/persist.ts
      📄 Files WITHOUT AwaitExpression (showing 10):
        • prettier.config.js
        • eslint.config.js
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/vite.config.ts
        • packages/vue-query/tsup.config.ts
        • packages/vue-query/root.tsup.config.js
+       • packages/vue-query/root.eslint.config.js
+       • packages/vue-query/eslint.config.js
+       • packages/svelte-query-persist-client/vite.config.ts
 
    Unknown:
      📄 Files WITH Unknown (showing 10):
        • scripts/verify-links.ts
        • scripts/generateDocs.ts
-       • packages/eslint-plugin-query/root.tsup.config.js
        • packages/angular-query-experimental/vite.config.ts
+       • packages/eslint-plugin-query/root.tsup.config.js
        • integrations/react-webpack-5/webpack.config.js
        • integrations/react-webpack-4/webpack.config.js
        • packages/vue-query/src/utils.ts
@@ -948,21 +948,21 @@ Repository: sample-repos/query
        • scripts/publish.ts
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/vite.config.ts
        • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
+       • packages/vue-query/root.tsup.config.js
+       • packages/vue-query/root.eslint.config.js
 
    ParenthesizedExpression:
      📄 Files WITH ParenthesizedExpression (showing 10):
        • scripts/verify-links.ts
        • scripts/getViteAliases.js
        • packages/vue-query/test-setup.ts
-       • packages/vue-query-devtools/src/index.ts
        • packages/vue-query/src/utils.ts
        • packages/vue-query/src/useQueries.ts
        • packages/vue-query/src/useMutationState.ts
+       • packages/vue-query-devtools/src/index.ts
        • packages/svelte-query/src/useMutationState.ts
        • packages/svelte-query/src/createQueries.ts
        • packages/svelte-query/src/createMutation.ts
@@ -972,11 +972,11 @@ Repository: sample-repos/query
        • scripts/publish.ts
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/vite.config.ts
        • packages/vue-query/tsup.config.ts
+       • packages/vue-query/root.tsup.config.js
+       • packages/vue-query/root.eslint.config.js
+       • packages/vue-query/eslint.config.js
 
    TSTypeParameter:
      📄 Files WITH TSTypeParameter (showing 10):
@@ -998,14 +998,13 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSPropertySignature:
      📄 Files WITH TSPropertySignature (showing 10):
        • packages/angular-query-experimental/vite.config.ts
-       • packages/vue-query-devtools/src/types.ts
        • packages/vue-query/src/vueQueryPlugin.ts
        • packages/vue-query/src/useQuery.ts
        • packages/vue-query/src/useQueries.ts
@@ -1014,6 +1013,7 @@ Repository: sample-repos/query
        • packages/vue-query/src/useBaseQuery.ts
        • packages/vue-query/src/types.ts
        • packages/vue-query/src/queryOptions.ts
+       • packages/vue-query/src/infiniteQueryOptions.ts
      📄 Files WITHOUT TSPropertySignature (showing 10):
        • prettier.config.js
        • eslint.config.js
@@ -1022,57 +1022,57 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    BinaryExpression:
      📄 Files WITH BinaryExpression (showing 10):
        • scripts/verify-links.ts
        • scripts/generateDocs.ts
-       • packages/eslint-plugin-query/root.tsup.config.js
+       • packages/angular-query-persist-client/tsup.config.ts
        • packages/angular-query-experimental/vite.config.ts
        • packages/angular-query-experimental/tsup.config.ts
        • packages/angular-query-devtools-experimental/tsup.config.ts
-       • packages/angular-query-persist-client/tsup.config.ts
-       • packages/vue-query-devtools/src/index.ts
+       • packages/eslint-plugin-query/root.tsup.config.js
        • packages/vue-query/src/vueQueryPlugin.ts
        • packages/vue-query/src/utils.ts
+       • packages/vue-query/src/useQueries.ts
      📄 Files WITHOUT BinaryExpression (showing 10):
        • prettier.config.js
        • eslint.config.js
        • scripts/publish.ts
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/vite.config.ts
        • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
+       • packages/vue-query/root.tsup.config.js
+       • packages/vue-query/root.eslint.config.js
 
    TemplateElement:
      📄 Files WITH TemplateElement (showing 10):
        • scripts/verify-links.ts
        • scripts/generateDocs.ts
-       • packages/eslint-plugin-query/root.tsup.config.js
        • packages/angular-query-experimental/vite.config.ts
+       • packages/eslint-plugin-query/root.tsup.config.js
        • packages/vue-query/src/utils.ts
        • packages/solid-query/src/useBaseQuery.ts
        • packages/react-query-next-experimental/src/HydrationStreamProvider.tsx
        • packages/react-query/src/useBaseQuery.ts
        • packages/query-test-utils/src/queryKey.ts
-       • packages/query-sync-storage-persister/src/index.ts
+       • packages/query-persist-client-core/src/createPersister.ts
      📄 Files WITHOUT TemplateElement (showing 10):
        • prettier.config.js
        • eslint.config.js
        • scripts/publish.ts
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/vite.config.ts
        • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
+       • packages/vue-query/root.tsup.config.js
+       • packages/vue-query/root.eslint.config.js
 
    NewExpression:
      📄 Files WITH NewExpression (showing 10):
@@ -1092,11 +1092,11 @@ Repository: sample-repos/query
        • scripts/verify-links.ts
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/vite.config.ts
        • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
+       • packages/vue-query/root.tsup.config.js
+       • packages/vue-query/root.eslint.config.js
 
    FunctionDeclaration:
      📄 Files WITH FunctionDeclaration (showing 10):
@@ -1105,22 +1105,22 @@ Repository: sample-repos/query
        • packages/vue-query/root.tsup.config.js
        • packages/react-query-persist-client/root.tsup.config.js
        • packages/react-query-next-experimental/root.tsup.config.js
-       • packages/react-query-devtools/root.tsup.config.js
        • packages/react-query/root.tsup.config.js
+       • packages/react-query-devtools/root.tsup.config.js
+       • packages/query-persist-client-core/root.tsup.config.js
        • packages/query-sync-storage-persister/root.tsup.config.js
        • packages/query-core/root.tsup.config.js
-       • packages/query-persist-client-core/root.tsup.config.js
      📄 Files WITHOUT FunctionDeclaration (showing 10):
        • prettier.config.js
        • eslint.config.js
        • scripts/publish.ts
        • scripts/getViteAliases.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/vite.config.ts
        • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
+       • packages/vue-query/root.eslint.config.js
+       • packages/vue-query/eslint.config.js
 
    ExportNamedDeclaration:
      📄 Files WITH ExportNamedDeclaration (showing 10):
@@ -1129,35 +1129,35 @@ Repository: sample-repos/query
        • packages/vue-query/root.tsup.config.js
        • packages/react-query-persist-client/root.tsup.config.js
        • packages/react-query-next-experimental/root.tsup.config.js
-       • packages/react-query-devtools/root.tsup.config.js
        • packages/react-query/root.tsup.config.js
+       • packages/react-query-devtools/root.tsup.config.js
+       • packages/query-persist-client-core/root.tsup.config.js
        • packages/query-sync-storage-persister/root.tsup.config.js
        • packages/query-core/root.tsup.config.js
-       • packages/query-persist-client-core/root.tsup.config.js
      📄 Files WITHOUT ExportNamedDeclaration (showing 10):
        • prettier.config.js
        • eslint.config.js
        • scripts/verify-links.ts
        • scripts/publish.ts
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/vite.config.ts
        • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
+       • packages/vue-query/root.eslint.config.js
+       • packages/vue-query/eslint.config.js
 
    TSStringKeyword:
      📄 Files WITH TSStringKeyword (showing 10):
        • scripts/verify-links.ts
        • packages/angular-query-experimental/vite.config.ts
-       • packages/vue-query-devtools/src/types.ts
        • packages/vue-query/src/vueQueryPlugin.ts
        • packages/vue-query/src/utils.ts
        • packages/vue-query/src/types.ts
        • packages/svelte-query-persist-client/tests/utils.ts
        • packages/svelte-query-persist-client/tests/PersistQueryClientProvider.test.ts
-       • packages/solid-query-devtools/src/devtools.tsx
+       • packages/vue-query-devtools/src/types.ts
        • packages/solid-query/src/useBaseQuery.ts
+       • packages/solid-query/src/QueryClient.ts
      📄 Files WITHOUT TSStringKeyword (showing 10):
        • prettier.config.js
        • eslint.config.js
@@ -1165,18 +1165,18 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
+       • packages/vue-query/root.tsup.config.js
 
    IfStatement:
      📄 Files WITH IfStatement (showing 10):
        • scripts/verify-links.ts
        • scripts/generateDocs.ts
        • packages/vue-query/vite.config.ts
-       • packages/eslint-plugin-query/root.tsup.config.js
        • packages/angular-query-experimental/vite.config.ts
+       • packages/eslint-plugin-query/root.tsup.config.js
        • packages/vue-query/src/vueQueryPlugin.ts
        • packages/vue-query/src/utils.ts
        • packages/vue-query/src/useQueryClient.ts
@@ -1188,15 +1188,14 @@ Repository: sample-repos/query
        • scripts/publish.ts
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/tsup.config.ts
        • packages/vue-query/test-setup.ts
+       • packages/vue-query/root.tsup.config.js
+       • packages/vue-query/root.eslint.config.js
+       • packages/vue-query/eslint.config.js
 
    TSUnknownKeyword:
      📄 Files WITH TSUnknownKeyword (showing 10):
-       • packages/vue-query-devtools/src/index.ts
        • packages/vue-query/src/utils.ts
        • packages/vue-query/src/useQuery.ts
        • packages/vue-query/src/useQueries.ts
@@ -1206,6 +1205,7 @@ Repository: sample-repos/query
        • packages/vue-query/src/types.ts
        • packages/vue-query/src/queryOptions.ts
        • packages/vue-query/src/queryClient.ts
+       • packages/vue-query/src/queryCache.ts
      📄 Files WITHOUT TSUnknownKeyword (showing 10):
        • prettier.config.js
        • eslint.config.js
@@ -1214,9 +1214,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    ThisExpression:
      📄 Files WITH ThisExpression (showing 10):
@@ -1238,17 +1238,17 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    ObjectPattern:
      📄 Files WITH ObjectPattern (showing 10):
-       • packages/eslint-plugin-query/root.tsup.config.js
+       • packages/angular-query-persist-client/tsup.config.ts
        • packages/angular-query-experimental/vite.config.ts
        • packages/angular-query-experimental/tsup.config.ts
        • packages/angular-query-devtools-experimental/tsup.config.ts
-       • packages/angular-query-persist-client/tsup.config.ts
+       • packages/eslint-plugin-query/root.tsup.config.js
        • packages/vue-query/src/useQueries.ts
        • packages/svelte-query/src/useMutationState.ts
        • packages/svelte-query/src/useIsMutating.ts
@@ -1262,9 +1262,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    Program:
      📄 Files WITH Program (showing 10):
@@ -1275,9 +1275,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
      📄 Files WITHOUT Program: (all files contain this node type)
 
    LogicalExpression:
@@ -1298,11 +1298,11 @@ Repository: sample-repos/query
        • scripts/publish.ts
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/vite.config.ts
        • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
+       • packages/vue-query/root.tsup.config.js
+       • packages/vue-query/root.eslint.config.js
 
    TSNumberKeyword:
      📄 Files WITH TSNumberKeyword (showing 10):
@@ -1324,9 +1324,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSUnionType:
      📄 Files WITH TSUnionType (showing 10):
@@ -1348,18 +1348,18 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    AssignmentExpression:
      📄 Files WITH AssignmentExpression (showing 10):
        • scripts/verify-links.ts
        • scripts/getViteAliases.js
        • scripts/generateDocs.ts
+       • packages/solid-query/tsup.config.ts
        • packages/solid-query-persist-client/tsup.config.ts
        • packages/solid-query-devtools/tsup.config.ts
-       • packages/solid-query/tsup.config.ts
        • packages/query-devtools/tsup.config.ts
        • packages/angular-query-experimental/vite.config.ts
        • integrations/react-webpack-5/webpack.config.js
@@ -1369,36 +1369,36 @@ Repository: sample-repos/query
        • eslint.config.js
        • scripts/publish.ts
        • scripts/getTsupConfig.js
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/vite.config.ts
        • packages/vue-query/tsup.config.ts
        • packages/vue-query/test-setup.ts
+       • packages/vue-query/root.tsup.config.js
+       • packages/vue-query/root.eslint.config.js
+       • packages/vue-query/eslint.config.js
 
    TemplateLiteral:
      📄 Files WITH TemplateLiteral (showing 10):
        • scripts/verify-links.ts
        • scripts/generateDocs.ts
-       • packages/eslint-plugin-query/root.tsup.config.js
        • packages/angular-query-experimental/vite.config.ts
+       • packages/eslint-plugin-query/root.tsup.config.js
        • packages/vue-query/src/utils.ts
        • packages/solid-query/src/useBaseQuery.ts
        • packages/react-query-next-experimental/src/HydrationStreamProvider.tsx
        • packages/react-query/src/useBaseQuery.ts
        • packages/query-test-utils/src/queryKey.ts
-       • packages/query-sync-storage-persister/src/index.ts
+       • packages/query-persist-client-core/src/createPersister.ts
      📄 Files WITHOUT TemplateLiteral (showing 10):
        • prettier.config.js
        • eslint.config.js
        • scripts/publish.ts
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/vite.config.ts
        • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
+       • packages/vue-query/root.tsup.config.js
+       • packages/vue-query/root.eslint.config.js
 
    TSAnyKeyword:
      📄 Files WITH TSAnyKeyword (showing 10):
@@ -1419,10 +1419,10 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/root.tsup.config.js
+       • packages/vue-query/root.eslint.config.js
 
    TSLiteralType:
      📄 Files WITH TSLiteralType (showing 10):
@@ -1444,9 +1444,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    PrivateIdentifier:
      📄 Files WITH PrivateIdentifier (showing 10):
@@ -1468,9 +1468,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    UnaryExpression:
      📄 Files WITH UnaryExpression (showing 10):
@@ -1491,15 +1491,14 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
+       • packages/vue-query/root.tsup.config.js
 
    TSTypeLiteral:
      📄 Files WITH TSTypeLiteral (showing 10):
        • packages/angular-query-experimental/vite.config.ts
-       • packages/vue-query-devtools/src/index.ts
        • packages/vue-query/src/useQuery.ts
        • packages/vue-query/src/useQueries.ts
        • packages/vue-query/src/useMutationState.ts
@@ -1508,6 +1507,7 @@ Repository: sample-repos/query
        • packages/vue-query/src/types.ts
        • packages/vue-query/src/queryOptions.ts
        • packages/vue-query/src/infiniteQueryOptions.ts
+       • packages/svelte-query-persist-client/tests/utils.ts
      📄 Files WITHOUT TSTypeLiteral (showing 10):
        • prettier.config.js
        • eslint.config.js
@@ -1516,22 +1516,22 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    ConditionalExpression:
      📄 Files WITH ConditionalExpression (showing 10):
        • scripts/verify-links.ts
        • packages/react-query/vite.config.ts
        • packages/query-broadcast-client-experimental/vite.config.ts
+       • packages/angular-query-persist-client/tsup.config.ts
        • packages/angular-query-experimental/vite.config.ts
        • packages/angular-query-experimental/tsup.config.ts
        • packages/angular-query-devtools-experimental/tsup.config.ts
-       • packages/angular-query-persist-client/tsup.config.ts
-       • packages/vue-query-devtools/src/index.ts
        • packages/vue-query/src/vueQueryPlugin.ts
        • packages/vue-query/src/utils.ts
+       • packages/vue-query/src/useQueries.ts
      📄 Files WITHOUT ConditionalExpression (showing 10):
        • prettier.config.js
        • eslint.config.js
@@ -1539,10 +1539,10 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
+       • packages/vue-query/root.tsup.config.js
 
    TSTypeParameterDeclaration:
      📄 Files WITH TSTypeParameterDeclaration (showing 10):
@@ -1564,22 +1564,22 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    ChainExpression:
      📄 Files WITH ChainExpression (showing 10):
        • packages/vue-query/src/vueQueryPlugin.ts
        • packages/vue-query/src/useQueries.ts
        • packages/vue-query/src/useBaseQuery.ts
-       • packages/solid-query-persist-client/src/PersistQueryClientProvider.tsx
        • packages/solid-query/src/useQueries.ts
        • packages/solid-query/src/useMutationState.ts
        • packages/solid-query/src/useMutation.ts
        • packages/solid-query/src/useIsMutating.ts
        • packages/solid-query/src/useIsFetching.ts
        • packages/solid-query/src/useBaseQuery.ts
+       • packages/solid-query/src/QueryClientProvider.tsx
      📄 Files WITHOUT ChainExpression (showing 10):
        • prettier.config.js
        • eslint.config.js
@@ -1588,22 +1588,22 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    SpreadElement:
      📄 Files WITH SpreadElement (showing 10):
        • eslint.config.js
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/test-setup.ts
        • packages/vue-query/root.eslint.config.js
        • packages/vue-query/eslint.config.js
        • packages/svelte-query-persist-client/root.eslint.config.js
        • packages/svelte-query-persist-client/eslint.config.js
-       • packages/svelte-query-devtools/root.eslint.config.js
-       • packages/svelte-query-devtools/eslint.config.js
+       • packages/vue-query-devtools/root.eslint.config.js
+       • packages/vue-query-devtools/eslint.config.js
+       • packages/svelte-query/root.eslint.config.js
+       • packages/svelte-query/eslint.config.js
      📄 Files WITHOUT SpreadElement (showing 10):
        • prettier.config.js
        • scripts/verify-links.ts
@@ -1611,10 +1611,10 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
        • packages/vue-query/vite.config.ts
        • packages/vue-query/tsup.config.ts
        • packages/vue-query/root.tsup.config.js
+       • packages/svelte-query-persist-client/vite.config.ts
 
    TSUndefinedKeyword:
      📄 Files WITH TSUndefinedKeyword (showing 10):
@@ -1636,20 +1636,20 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSAsExpression:
      📄 Files WITH TSAsExpression (showing 10):
        • packages/vue-query/test-setup.ts
-       • packages/vue-query-devtools/src/index.ts
        • packages/vue-query/src/utils.ts
        • packages/vue-query/src/useQueries.ts
        • packages/vue-query/src/useMutationState.ts
        • packages/vue-query/src/useMutation.ts
        • packages/vue-query/src/useInfiniteQuery.ts
        • packages/vue-query/src/useBaseQuery.ts
+       • packages/vue-query-devtools/src/index.ts
        • packages/svelte-query/src/useMutationState.ts
        • packages/svelte-query/src/createQueries.ts
      📄 Files WITHOUT TSAsExpression (showing 10):
@@ -1660,9 +1660,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/root.tsup.config.js
 
    TSFunctionType:
      📄 Files WITH TSFunctionType (showing 10):
@@ -1684,9 +1684,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSTypeAliasDeclaration:
      📄 Files WITH TSTypeAliasDeclaration (showing 10):
@@ -1708,22 +1708,22 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    FunctionExpression:
      📄 Files WITH FunctionExpression (showing 10):
        • packages/vue-query/vite.config.ts
+       • packages/angular-query-persist-client/tsup.config.ts
        • packages/angular-query-experimental/tsup.config.ts
        • packages/angular-query-devtools-experimental/tsup.config.ts
-       • packages/angular-query-persist-client/tsup.config.ts
-       • packages/vue-query-devtools/src/index.ts
        • packages/vue-query/src/vueQueryPlugin.ts
        • packages/vue-query/src/queryClient.ts
        • packages/vue-query/src/queryCache.ts
        • packages/vue-query/src/mutationCache.ts
        • packages/svelte-query-persist-client/tests/PersistQueryClientProvider.test.ts
+       • packages/vue-query-devtools/src/index.ts
      📄 Files WITHOUT FunctionExpression (showing 10):
        • prettier.config.js
        • eslint.config.js
@@ -1732,9 +1732,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
+       • packages/vue-query/root.tsup.config.js
 
    ImportDefaultSpecifier:
      📄 Files WITH ImportDefaultSpecifier (showing 10):
@@ -1742,12 +1742,12 @@ Repository: sample-repos/query
        • scripts/verify-links.ts
        • scripts/getViteAliases.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/vite.config.ts
        • packages/vue-query/root.eslint.config.js
        • packages/vue-query/eslint.config.js
+       • packages/svelte-query-persist-client/vite.config.ts
+       • packages/svelte-query-persist-client/root.eslint.config.js
+       • packages/svelte-query-persist-client/eslint.config.js
      📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
        • prettier.config.js
        • scripts/publish.ts
@@ -1756,22 +1756,22 @@ Repository: sample-repos/query
        • packages/vue-query/test-setup.ts
        • packages/vue-query/root.tsup.config.js
        • packages/svelte-query-persist-client/svelte.config.js
+       • packages/svelte-query/svelte.config.js
        • packages/svelte-query-devtools/vite.config.ts
        • packages/svelte-query-devtools/svelte.config.js
-       • packages/svelte-query/svelte.config.js
 
    TSBooleanKeyword:
      📄 Files WITH TSBooleanKeyword (showing 10):
        • scripts/verify-links.ts
-       • packages/vue-query-devtools/src/types.ts
        • packages/vue-query/src/vueQueryPlugin.ts
        • packages/vue-query/src/useQuery.ts
        • packages/vue-query/src/types.ts
        • packages/vue-query/src/queryClient.ts
+       • packages/vue-query-devtools/src/types.ts
        • packages/svelte-query/src/useIsRestoring.ts
        • packages/svelte-query/src/context.ts
-       • packages/solid-query-devtools/src/devtools.tsx
-       • packages/solid-query-devtools/src/clientOnly.tsx
+       • packages/solid-query/src/useQueries.ts
+       • packages/solid-query/src/types.ts
      📄 Files WITHOUT TSBooleanKeyword (showing 10):
        • prettier.config.js
        • eslint.config.js
@@ -1779,10 +1779,10 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
+       • packages/vue-query/root.tsup.config.js
 
    ArrayPattern:
      📄 Files WITH ArrayPattern (showing 10):
@@ -1793,9 +1793,9 @@ Repository: sample-repos/query
        • packages/svelte-query-persist-client/tests/PersistQueryClientProvider.test.ts
        • packages/svelte-query/src/createQueries.ts
        • packages/svelte-query/src/createBaseQuery.ts
-       • packages/solid-query-persist-client/src/PersistQueryClientProvider.tsx
-       • packages/solid-query-devtools/src/clientOnly.tsx
        • packages/solid-query/src/useQueries.ts
+       • packages/solid-query/src/useMutationState.ts
+       • packages/solid-query/src/useMutation.ts
      📄 Files WITHOUT ArrayPattern (showing 10):
        • prettier.config.js
        • eslint.config.js
@@ -1803,10 +1803,10 @@ Repository: sample-repos/query
        • scripts/publish.ts
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
+       • packages/vue-query/root.tsup.config.js
 
    TSInferType:
      📄 Files WITH TSInferType (showing 9):
@@ -1827,9 +1827,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSTupleType:
      📄 Files WITH TSTupleType (showing 10):
@@ -1841,8 +1841,8 @@ Repository: sample-repos/query
        • packages/solid-query/src/useQueries.ts
        • packages/react-query/src/useSuspenseQueries.ts
        • packages/react-query/src/useQueries.ts
-       • packages/query-core/src/types.ts
-       • packages/query-core/src/queryClient.ts
+       • packages/query-persist-client-core/src/persist.ts
+       • packages/query-persist-client-core/src/createPersister.ts
      📄 Files WITHOUT TSTupleType (showing 10):
        • prettier.config.js
        • eslint.config.js
@@ -1851,9 +1851,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSVoidKeyword:
      📄 Files WITH TSVoidKeyword (showing 10):
@@ -1864,9 +1864,9 @@ Repository: sample-repos/query
        • packages/svelte-query/src/types.ts
        • packages/svelte-query/src/createMutation.ts
        • packages/svelte-query/src/context.ts
-       • packages/solid-query-persist-client/src/PersistQueryClientProvider.tsx
        • packages/solid-query/src/useQueries.ts
        • packages/solid-query/src/useMutation.ts
+       • packages/solid-query/src/useBaseQuery.ts
      📄 Files WITHOUT TSVoidKeyword (showing 10):
        • prettier.config.js
        • eslint.config.js
@@ -1875,22 +1875,22 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    ExportDefaultDeclaration:
      📄 Files WITH ExportDefaultDeclaration (showing 10):
        • prettier.config.js
        • eslint.config.js
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/vite.config.ts
        • packages/vue-query/tsup.config.ts
        • packages/vue-query/root.eslint.config.js
        • packages/vue-query/eslint.config.js
        • packages/svelte-query-persist-client/vite.config.ts
+       • packages/svelte-query-persist-client/svelte.config.js
+       • packages/svelte-query-persist-client/root.eslint.config.js
+       • packages/svelte-query-persist-client/eslint.config.js
      📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
        • scripts/verify-links.ts
        • scripts/publish.ts
@@ -1899,8 +1899,8 @@ Repository: sample-repos/query
        • scripts/generateDocs.ts
        • packages/vue-query/test-setup.ts
        • packages/vue-query/root.tsup.config.js
-       • packages/solid-query-persist-client/test-setup.ts
        • packages/solid-query/test-setup.ts
+       • packages/solid-query-persist-client/test-setup.ts
        • packages/react-query-persist-client/test-setup.ts
 
    MethodDefinition:
@@ -1923,9 +1923,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    JSXMemberExpression:
      📄 Files WITH JSXMemberExpression (showing 10):
@@ -1947,9 +1947,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSConditionalType:
      📄 Files WITH TSConditionalType (showing 10):
@@ -1971,16 +1971,16 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    ExportSpecifier:
      📄 Files WITH ExportSpecifier (showing 10):
        • packages/vue-query/src/index.ts
        • packages/svelte-query-persist-client/src/index.ts
-       • packages/svelte-query-devtools/src/index.ts
        • packages/svelte-query/src/index.ts
+       • packages/svelte-query-devtools/src/index.ts
        • packages/solid-query/src/index.ts
        • packages/react-query-next-experimental/src/index.ts
        • packages/react-query/src/index.ts
@@ -1995,9 +1995,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TaggedTemplateExpression:
      📄 Files WITH TaggedTemplateExpression (showing 10):
@@ -2019,9 +2019,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    PropertyDefinition:
      📄 Files WITH PropertyDefinition (showing 10):
@@ -2043,9 +2043,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    UpdateExpression:
      📄 Files WITH UpdateExpression (showing 10):
@@ -2067,22 +2067,22 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSInterfaceDeclaration:
      📄 Files WITH TSInterfaceDeclaration (showing 10):
-       • packages/vue-query-devtools/src/types.ts
        • packages/vue-query/src/vueQueryPlugin.ts
        • packages/vue-query/src/types.ts
-       • packages/solid-query-devtools/src/devtools.tsx
+       • packages/vue-query-devtools/src/types.ts
        • packages/solid-query/src/types.ts
        • packages/solid-query/src/QueryClient.ts
+       • packages/solid-query-devtools/src/devtools.tsx
        • packages/react-query-next-experimental/src/HydrationStreamProvider.tsx
-       • packages/react-query-devtools/src/ReactQueryDevtoolsPanel.tsx
-       • packages/react-query-devtools/src/ReactQueryDevtools.tsx
        • packages/react-query/src/types.ts
+       • packages/react-query/src/QueryErrorResetBoundary.tsx
+       • packages/react-query/src/HydrationBoundary.tsx
      📄 Files WITHOUT TSInterfaceDeclaration (showing 10):
        • prettier.config.js
        • eslint.config.js
@@ -2091,22 +2091,22 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSInterfaceBody:
      📄 Files WITH TSInterfaceBody (showing 10):
-       • packages/vue-query-devtools/src/types.ts
        • packages/vue-query/src/vueQueryPlugin.ts
        • packages/vue-query/src/types.ts
-       • packages/solid-query-devtools/src/devtools.tsx
+       • packages/vue-query-devtools/src/types.ts
        • packages/solid-query/src/types.ts
        • packages/solid-query/src/QueryClient.ts
+       • packages/solid-query-devtools/src/devtools.tsx
        • packages/react-query-next-experimental/src/HydrationStreamProvider.tsx
-       • packages/react-query-devtools/src/ReactQueryDevtoolsPanel.tsx
-       • packages/react-query-devtools/src/ReactQueryDevtools.tsx
        • packages/react-query/src/types.ts
+       • packages/react-query/src/QueryErrorResetBoundary.tsx
+       • packages/react-query/src/HydrationBoundary.tsx
      📄 Files WITHOUT TSInterfaceBody (showing 10):
        • prettier.config.js
        • eslint.config.js
@@ -2115,22 +2115,22 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSQualifiedName:
      📄 Files WITH TSQualifiedName (showing 10):
+       • packages/solid-query/src/QueryClientProvider.tsx
        • packages/solid-query-persist-client/src/PersistQueryClientProvider.tsx
        • packages/solid-query-devtools/src/clientOnly.tsx
-       • packages/solid-query/src/QueryClientProvider.tsx
        • packages/react-query-persist-client/src/PersistQueryClientProvider.tsx
        • packages/react-query-next-experimental/src/ReactQueryStreamedHydration.tsx
        • packages/react-query-next-experimental/src/HydrationStreamProvider.tsx
-       • packages/react-query-devtools/src/ReactQueryDevtoolsPanel.tsx
-       • packages/react-query-devtools/src/ReactQueryDevtools.tsx
        • packages/react-query/src/QueryErrorResetBoundary.tsx
        • packages/react-query/src/QueryClientProvider.tsx
+       • packages/react-query/src/HydrationBoundary.tsx
+       • packages/react-query-devtools/src/ReactQueryDevtoolsPanel.tsx
      📄 Files WITHOUT TSQualifiedName (showing 10):
        • prettier.config.js
        • eslint.config.js
@@ -2139,9 +2139,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSNonNullExpression:
      📄 Files WITH TSNonNullExpression (showing 10):
@@ -2163,9 +2163,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    ThrowStatement:
      📄 Files WITH ThrowStatement (showing 10):
@@ -2187,9 +2187,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSNullKeyword:
      📄 Files WITH TSNullKeyword (showing 10):
@@ -2197,12 +2197,12 @@ Repository: sample-repos/query
        • packages/solid-query/src/useBaseQuery.ts
        • packages/react-query-devtools/src/ReactQueryDevtoolsPanel.tsx
        • packages/react-query-devtools/src/ReactQueryDevtools.tsx
+       • packages/query-persist-client-core/src/createPersister.ts
        • packages/query-sync-storage-persister/src/index.ts
        • packages/query-core/src/types.ts
        • packages/query-core/src/queryObserver.ts
        • packages/query-core/src/queryCache.ts
        • packages/query-core/src/query.ts
-       • packages/query-core/src/mutationCache.ts
      📄 Files WITHOUT TSNullKeyword (showing 10):
        • prettier.config.js
        • eslint.config.js
@@ -2211,9 +2211,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    RestElement:
      📄 Files WITH RestElement (showing 10):
@@ -2235,9 +2235,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSIndexedAccessType:
      📄 Files WITH TSIndexedAccessType (showing 10):
@@ -2259,9 +2259,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    JSXFragment:
      📄 Files WITH JSXFragment (showing 10):
@@ -2283,9 +2283,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    JSXOpeningFragment:
      📄 Files WITH JSXOpeningFragment (showing 10):
@@ -2307,9 +2307,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    JSXClosingFragment:
      📄 Files WITH JSXClosingFragment (showing 10):
@@ -2331,9 +2331,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSTypeQuery:
      📄 Files WITH TSTypeQuery (showing 10):
@@ -2341,12 +2341,12 @@ Repository: sample-repos/query
        • packages/vue-query/src/useBaseQuery.ts
        • packages/svelte-query/src/createInfiniteQuery.ts
        • packages/svelte-query/src/createBaseQuery.ts
-       • packages/solid-query-devtools/src/index.tsx
        • packages/solid-query/src/useInfiniteQuery.ts
        • packages/solid-query/src/useBaseQuery.ts
-       • packages/react-query-devtools/src/index.ts
+       • packages/solid-query-devtools/src/index.tsx
        • packages/react-query/src/useSuspenseInfiniteQuery.ts
        • packages/react-query/src/useInfiniteQuery.ts
+       • packages/react-query/src/useBaseQuery.ts
      📄 Files WITHOUT TSTypeQuery (showing 10):
        • prettier.config.js
        • eslint.config.js
@@ -2355,22 +2355,22 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    ImportNamespaceSpecifier:
      📄 Files WITH ImportNamespaceSpecifier (showing 10):
        • packages/react-query-persist-client/eslint.config.js
        • packages/react-query-next-experimental/eslint.config.js
-       • packages/react-query-devtools/eslint.config.js
        • packages/react-query/eslint.config.js
+       • packages/react-query-devtools/eslint.config.js
        • packages/react-query-persist-client/src/PersistQueryClientProvider.tsx
        • packages/react-query-next-experimental/src/ReactQueryStreamedHydration.tsx
        • packages/react-query-next-experimental/src/HydrationStreamProvider.tsx
-       • packages/react-query-devtools/src/production.ts
-       • packages/react-query-devtools/src/index.ts
-       • packages/react-query-devtools/src/ReactQueryDevtoolsPanel.tsx
+       • packages/react-query/src/useQueries.ts
+       • packages/react-query/src/useMutationState.ts
+       • packages/react-query/src/useMutation.ts
      📄 Files WITHOUT ImportNamespaceSpecifier (showing 10):
        • prettier.config.js
        • eslint.config.js
@@ -2379,9 +2379,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    AssignmentPattern:
      📄 Files WITH AssignmentPattern (showing 10):
@@ -2403,9 +2403,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSIntersectionType:
      📄 Files WITH TSIntersectionType (showing 10):
@@ -2427,9 +2427,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSRestType:
      📄 Files WITH TSRestType (showing 10):
@@ -2451,9 +2451,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSInterfaceHeritage:
      📄 Files WITH TSInterfaceHeritage (showing 10):
@@ -2461,11 +2461,11 @@ Repository: sample-repos/query
        • packages/solid-query/src/types.ts
        • packages/solid-query/src/QueryClient.ts
        • packages/react-query/src/types.ts
+       • packages/query-persist-client-core/src/persist.ts
        • packages/query-core/src/types.ts
        • packages/query-core/src/queryObserver.ts
        • packages/query-core/src/queryCache.ts
        • packages/query-core/src/mutationCache.ts
-       • packages/query-persist-client-core/src/persist.ts
        • packages/query-devtools/src/TanstackQueryDevtoolsPanel.tsx
      📄 Files WITHOUT TSInterfaceHeritage (showing 10):
        • prettier.config.js
@@ -2475,9 +2475,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    ClassDeclaration:
      📄 Files WITH ClassDeclaration (showing 10):
@@ -2499,9 +2499,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    ClassBody:
      📄 Files WITH ClassBody (showing 10):
@@ -2523,9 +2523,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSParenthesizedType:
      📄 Files WITH TSParenthesizedType (showing 10):
@@ -2547,9 +2547,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSTypeOperator:
      📄 Files WITH TSTypeOperator (showing 10):
@@ -2571,9 +2571,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSDeclareFunction:
      📄 Files WITH TSDeclareFunction (showing 10):
@@ -2595,9 +2595,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    Super:
      📄 Files WITH Super (showing 10):
@@ -2619,20 +2619,20 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    Decorator:
      📄 Files WITH Decorator (showing 10):
+       • packages/angular-query-persist-client/src/__tests__/with-persist-query-client.test.ts
        • packages/angular-query-experimental/src/__tests__/inject-query.test.ts
        • packages/angular-query-experimental/src/__tests__/inject-mutation.test.ts
        • packages/angular-query-experimental/src/__tests__/inject-mutation-state.test.ts
-       • packages/angular-query-persist-client/src/__tests__/with-persist-query-client.test.ts
        • integrations/angular-cli-20/src/app/app.ts
        • examples/angular/simple/src/app/app.component.ts
-       • examples/angular/rxjs/src/app/app.component.ts
        • examples/angular/router/src/app/app.component.ts
+       • examples/angular/rxjs/src/app/app.component.ts
        • examples/angular/query-options-from-a-service/src/app/app.component.ts
        • examples/angular/pagination/src/app/app.component.ts
      📄 Files WITHOUT Decorator (showing 10):
@@ -2643,9 +2643,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    SwitchCase:
      📄 Files WITH SwitchCase (showing 9):
@@ -2666,22 +2666,22 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TryStatement:
      📄 Files WITH TryStatement (showing 10):
        • packages/svelte-query/src/context.ts
        • packages/solid-query/src/useBaseQuery.ts
+       • packages/query-persist-client-core/src/persist.ts
+       • packages/query-persist-client-core/src/createPersister.ts
        • packages/query-sync-storage-persister/src/index.ts
        • packages/query-core/src/utils.ts
        • packages/query-core/src/retryer.ts
        • packages/query-core/src/queryObserver.ts
        • packages/query-core/src/query.ts
        • packages/query-core/src/notifyManager.ts
-       • packages/query-core/src/mutation.ts
-       • packages/query-persist-client-core/src/persist.ts
      📄 Files WITHOUT TryStatement (showing 10):
        • prettier.config.js
        • eslint.config.js
@@ -2690,22 +2690,22 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    CatchClause:
      📄 Files WITH CatchClause (showing 10):
        • packages/svelte-query/src/context.ts
        • packages/solid-query/src/useBaseQuery.ts
+       • packages/query-persist-client-core/src/persist.ts
+       • packages/query-persist-client-core/src/createPersister.ts
        • packages/query-sync-storage-persister/src/index.ts
        • packages/query-core/src/utils.ts
        • packages/query-core/src/retryer.ts
        • packages/query-core/src/queryObserver.ts
        • packages/query-core/src/query.ts
        • packages/query-core/src/mutation.ts
-       • packages/query-persist-client-core/src/persist.ts
-       • packages/query-persist-client-core/src/createPersister.ts
      📄 Files WITHOUT CatchClause (showing 10):
        • prettier.config.js
        • eslint.config.js
@@ -2714,9 +2714,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSNeverKeyword:
      📄 Files WITH TSNeverKeyword (showing 8):
@@ -2736,22 +2736,22 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    ExportAllDeclaration:
      📄 Files WITH ExportAllDeclaration (showing 10):
        • packages/vue-query/src/index.ts
        • packages/svelte-query-persist-client/src/index.ts
        • packages/svelte-query/src/index.ts
-       • packages/solid-query-persist-client/src/index.ts
        • packages/solid-query/src/index.ts
+       • packages/solid-query-persist-client/src/index.ts
        • packages/react-query-persist-client/src/index.ts
        • packages/react-query/src/index.ts
-       • packages/query-core/src/index.ts
        • packages/query-persist-client-core/src/index.ts
-       • packages/angular-query-experimental/src/index.ts
+       • packages/query-core/src/index.ts
+       • packages/angular-query-persist-client/src/index.ts
      📄 Files WITHOUT ExportAllDeclaration (showing 10):
        • prettier.config.js
        • eslint.config.js
@@ -2760,9 +2760,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSMappedType:
      📄 Files WITH TSMappedType (showing 10):
@@ -2784,9 +2784,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSTypePredicate:
      📄 Files WITH TSTypePredicate (showing 9):
@@ -2796,9 +2796,9 @@ Repository: sample-repos/query
        • packages/query-core/src/retryer.ts
        • packages/query-devtools/src/Explorer.tsx
        • packages/angular-query-experimental/src/types.ts
+       • packages/angular-query-experimental/src/__tests__/test-utils.ts
        • packages/eslint-plugin-query/src/utils/create-property-order-rule.ts
        • packages/eslint-plugin-query/src/utils/ast-utils.ts
-       • packages/angular-query-experimental/src/__tests__/test-utils.ts
      📄 Files WITHOUT TSTypePredicate (showing 10):
        • prettier.config.js
        • eslint.config.js
@@ -2807,17 +2807,17 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    ForOfStatement:
      📄 Files WITH ForOfStatement (showing 10):
        • scripts/verify-links.ts
        • packages/react-query-next-experimental/src/ReactQueryStreamedHydration.tsx
        • packages/react-query/src/HydrationBoundary.tsx
-       • packages/query-core/src/streamedQuery.ts
        • packages/query-persist-client-core/src/createPersister.ts
+       • packages/query-core/src/streamedQuery.ts
        • packages/query-devtools/src/Devtools.tsx
        • packages/angular-query-experimental/scripts/prepare-package.js
        • packages/angular-query-experimental/scripts/prepack.js
@@ -2830,10 +2830,10 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
+       • packages/vue-query/root.tsup.config.js
 
    TSEmptyBodyFunctionExpression:
      📄 Files WITH TSEmptyBodyFunctionExpression (showing 2):
@@ -2847,21 +2847,21 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSModuleDeclaration:
      📄 Files WITH TSModuleDeclaration (showing 10):
        • examples/vue/simple/src/shims-vue.d.ts
        • examples/vue/persister/src/shims-vue.d.ts
        • examples/vue/dependent-queries/src/shims-vue.d.ts
-       • examples/vue/basic/src/shims-vue.d.ts
-       • examples/vue/2.7-basic/src/shims-vue.d.ts
        • examples/vue/2.6-basic/src/shims-vue.d.ts
        • examples/svelte/star-wars/src/app.d.ts
+       • examples/vue/basic/src/shims-vue.d.ts
+       • examples/svelte/playground/src/app.d.ts
        • examples/svelte/ssr/src/app.d.ts
-       • examples/svelte/load-more-infinite-scroll/src/app.d.ts
+       • examples/vue/2.7-basic/src/shims-vue.d.ts
        • examples/svelte/basic/src/app.d.ts
      📄 Files WITHOUT TSModuleDeclaration (showing 10):
        • prettier.config.js
@@ -2871,21 +2871,21 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSModuleBlock:
      📄 Files WITH TSModuleBlock (showing 10):
        • examples/vue/simple/src/shims-vue.d.ts
        • examples/vue/persister/src/shims-vue.d.ts
        • examples/vue/dependent-queries/src/shims-vue.d.ts
-       • examples/vue/basic/src/shims-vue.d.ts
-       • examples/vue/2.7-basic/src/shims-vue.d.ts
        • examples/vue/2.6-basic/src/shims-vue.d.ts
        • examples/svelte/star-wars/src/app.d.ts
+       • examples/vue/basic/src/shims-vue.d.ts
+       • examples/svelte/playground/src/app.d.ts
        • examples/svelte/ssr/src/app.d.ts
-       • examples/svelte/load-more-infinite-scroll/src/app.d.ts
+       • examples/vue/2.7-basic/src/shims-vue.d.ts
        • examples/svelte/basic/src/app.d.ts
      📄 Files WITHOUT TSModuleBlock (showing 10):
        • prettier.config.js
@@ -2895,9 +2895,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    ImportExpression:
      📄 Files WITH ImportExpression (showing 10):
@@ -2919,9 +2919,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSArrayType:
      📄 Files WITH TSArrayType (showing 7):
@@ -2940,9 +2940,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    JSXSpreadAttribute:
      📄 Files WITH JSXSpreadAttribute (showing 10):
@@ -2964,9 +2964,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    SwitchStatement:
      📄 Files WITH SwitchStatement (showing 9):
@@ -2987,16 +2987,16 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    WhileStatement:
      📄 Files WITH WhileStatement (showing 8):
        • packages/query-sync-storage-persister/src/index.ts
+       • packages/query-devtools/src/Explorer.tsx
        • packages/query-async-storage-persister/src/index.ts
        • packages/query-async-storage-persister/src/asyncThrottle.ts
-       • packages/query-devtools/src/Explorer.tsx
        • packages/query-core/src/__tests__/streamedQuery.test.tsx
        • packages/eslint-plugin-query/src/utils/ast-utils.ts
        • examples/react/chat/src/chat.ts
@@ -3009,9 +3009,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    BreakStatement:
      📄 Files WITH BreakStatement (showing 4):
@@ -3027,9 +3027,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSSymbolKeyword:
      📄 Files WITH TSSymbolKeyword (showing 9):
@@ -3050,9 +3050,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    ForStatement:
      📄 Files WITH ForStatement (showing 6):
@@ -3070,9 +3070,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSThisType:
      📄 Files WITH TSThisType (showing 1):
@@ -3085,9 +3085,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    ContinueStatement:
      📄 Files WITH ContinueStatement (showing 4):
@@ -3103,9 +3103,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSOptionalType:
      📄 Files WITH TSOptionalType (showing 3):
@@ -3120,14 +3120,14 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSNamedTupleMember:
      📄 Files WITH TSNamedTupleMember (showing 2):
-       • packages/query-core/src/queriesObserver.ts
        • packages/query-persist-client-core/src/createPersister.ts
+       • packages/query-core/src/queriesObserver.ts
      📄 Files WITHOUT TSNamedTupleMember (showing 10):
        • prettier.config.js
        • eslint.config.js
@@ -3136,9 +3136,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSEnumMember:
      📄 Files WITH TSEnumMember (showing 1):
@@ -3151,9 +3151,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    MetaProperty:
      📄 Files WITH MetaProperty (showing 3):
@@ -3166,11 +3166,11 @@ Repository: sample-repos/query
        • scripts/verify-links.ts
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
        • packages/vue-query/vite.config.ts
        • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
+       • packages/vue-query/root.tsup.config.js
+       • packages/vue-query/root.eslint.config.js
 
    ForInStatement:
      📄 Files WITH ForInStatement (showing 3):
@@ -3185,9 +3185,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSObjectKeyword:
      📄 Files WITH TSObjectKeyword (showing 4):
@@ -3203,16 +3203,16 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSSatisfiesExpression:
      📄 Files WITH TSSatisfiesExpression (showing 4):
        • integrations/react-next-15/app/make-query-client.ts
        • packages/vue-query/src/__tests__/queryClient.test-d.ts
-       • packages/query-core/src/__tests__/queryClient.test-d.tsx
        • packages/query-persist-client-core/src/__tests__/createPersister.test.ts
+       • packages/query-core/src/__tests__/queryClient.test-d.tsx
      📄 Files WITHOUT TSSatisfiesExpression (showing 10):
        • prettier.config.js
        • eslint.config.js
@@ -3221,9 +3221,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    JSXEmptyExpression:
      📄 Files WITH JSXEmptyExpression (showing 4):
@@ -3239,9 +3239,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSParameterProperty:
      📄 Files WITH TSParameterProperty (showing 3):
@@ -3256,9 +3256,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    YieldExpression:
      📄 Files WITH YieldExpression (showing 2):
@@ -3272,9 +3272,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    SequenceExpression:
      📄 Files WITH SequenceExpression (showing 2):
@@ -3288,9 +3288,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    EmptyStatement:
      📄 Files WITH EmptyStatement (showing 2):
@@ -3304,9 +3304,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSTemplateLiteralType:
      📄 Files WITH TSTemplateLiteralType (showing 2):
@@ -3320,9 +3320,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSBigIntKeyword:
      📄 Files WITH TSBigIntKeyword (showing 1):
@@ -3335,9 +3335,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSAbstractMethodDefinition:
      📄 Files WITH TSAbstractMethodDefinition (showing 1):
@@ -3350,9 +3350,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    DoWhileStatement:
      📄 Files WITH DoWhileStatement (showing 1):
@@ -3365,9 +3365,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSEnumDeclaration:
      📄 Files WITH TSEnumDeclaration (showing 1):
@@ -3380,9 +3380,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSEnumBody:
      📄 Files WITH TSEnumBody (showing 1):
@@ -3395,9 +3395,9 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
    TSIndexSignature:
      📄 Files WITH TSIndexSignature (showing 1):
@@ -3410,20 +3410,20 @@ Repository: sample-repos/query
        • scripts/getViteAliases.js
        • scripts/getTsupConfig.js
        • scripts/generateDocs.ts
-       • packages/vue-query-devtools/vite.config.ts
-       • packages/vue-query-devtools/root.eslint.config.js
-       • packages/vue-query-devtools/eslint.config.js
+       • packages/vue-query/vite.config.ts
+       • packages/vue-query/tsup.config.ts
+       • packages/vue-query/test-setup.ts
 
 ============================================================
 ✅ Analysis complete!
 
 
 Warnings/Errors:
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/query/integrations/react-webpack-5/src/index.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/query/integrations/react-webpack-5/src/App.js:
-   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/query/integrations/react-webpack-4/src/index.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/query/integrations/react-webpack-4/src/App.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/query/integrations/react-webpack-5/src/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/query/integrations/react-webpack-5/src/App.js:
    Unexpected token

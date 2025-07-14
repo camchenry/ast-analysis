@@ -1,5 +1,5 @@
 AST Analysis Report for vitest
-Generated on: 2025-07-14T01:42:56.666Z
+Generated on: 2025-07-14T01:57:27.301Z
 Repository: sample-repos/vitest
 ================================================================================
 
@@ -60,8 +60,8 @@ Repository: sample-repos/vitest
    LogicalExpression               325 files ( 26.5%) -    2,306 total (0.54%)
    TSUnionType                     287 files ( 23.4%) -    1,228 total (0.29%)
    ParenthesizedExpression         270 files ( 22.0%) -      799 total (0.19%)
-   TSArrayType                     267 files ( 21.7%) -    1,158 total (0.27%)
    FunctionExpression              267 files ( 21.7%) -    1,837 total (0.43%)
+   TSArrayType                     267 files ( 21.7%) -    1,158 total (0.27%)
    TSAsExpression                  257 files ( 20.9%) -      854 total (0.20%)
    TSAnyKeyword                    248 files ( 20.2%) -    1,053 total (0.25%)
    TSPropertySignature             246 files ( 20.0%) -    2,613 total (0.61%)
@@ -151,8 +151,8 @@ Repository: sample-repos/vitest
    JSXClosingElement                 5 files (  0.4%) -       11 total (0.00%)
    Hashbang                          4 files (  0.3%) -        4 total (0.00%)
    TSThisType                        4 files (  0.3%) -       22 total (0.01%)
-   ImportAttribute                   4 files (  0.3%) -        4 total (0.00%)
    TSBigIntKeyword                   4 files (  0.3%) -       22 total (0.01%)
+   ImportAttribute                   4 files (  0.3%) -        4 total (0.00%)
    TSAbstractMethodDefinition        3 files (  0.2%) -        6 total (0.00%)
    TSConstructorType                 3 files (  0.2%) -        5 total (0.00%)
    JSXAttribute                      3 files (  0.2%) -        8 total (0.00%)
@@ -160,8 +160,8 @@ Repository: sample-repos/vitest
    PrivateIdentifier                 3 files (  0.2%) -       27 total (0.01%)
    SequenceExpression                3 files (  0.2%) -        5 total (0.00%)
    Decorator                         2 files (  0.2%) -        4 total (0.00%)
-   TSOptionalType                    2 files (  0.2%) -        2 total (0.00%)
    TSRestType                        2 files (  0.2%) -        6 total (0.00%)
+   TSOptionalType                    2 files (  0.2%) -        2 total (0.00%)
    JSXExpressionContainer            2 files (  0.2%) -       11 total (0.00%)
    DoWhileStatement                  1 files (  0.1%) -        1 total (0.00%)
    TSExportAssignment                1 files (  0.1%) -        1 total (0.00%)
@@ -274,8 +274,8 @@ Repository: sample-repos/vitest
    TSTypePredicate                      39 (0.01%) in 27 files (2.2%)
    TSModuleDeclaration                  37 (0.01%) in 29 files (2.4%)
    TSModuleBlock                        37 (0.01%) in 29 files (2.4%)
-   ForInStatement                       33 (0.01%) in 25 files (2.0%)
    SwitchStatement                      33 (0.01%) in 23 files (1.9%)
+   ForInStatement                       33 (0.01%) in 25 files (2.0%)
    TSClassImplements                    33 (0.01%) in 33 files (2.7%)
    JSXIdentifier                        30 (0.01%) in 5 files (0.4%)
    YieldExpression                      30 (0.01%) in 7 files (0.6%)
@@ -315,15 +315,15 @@ Repository: sample-repos/vitest
    Identifier:
      📄 Files WITH Identifier (showing 10):
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/vitest.config.ts
      📄 Files WITHOUT Identifier (showing 10):
        • shims.d.ts
        • packages/web-worker/pure.d.ts
@@ -338,40 +338,40 @@ Repository: sample-repos/vitest
 
    MemberExpression:
      📄 Files WITH MemberExpression (showing 10):
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
-       • test/workspaces-browser/globalTest.ts
        • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/vitest.config.ts
+       • test/workspaces/globalTest.ts
+       • test/workspaces/cwdPlugin.js
      📄 Files WITHOUT MemberExpression (showing 10):
        • shims.d.ts
        • eslint.config.js
        • docs/vite.config.ts
        • test/workspaces/cwdPlugin.d.ts
-       • test/typescript/vitest.config.fails.ts
        • test/ui/vitest.config.ts
-       • test/global-setup/vitest.config.ts
-       • test/optimize-deps/vitest.config.ts
-       • test/dts-playwright/vite.config.ts
-       • test/dts-config/vite.config.ts
+       • test/typescript/vitest.config.fails.ts
+       • test/reporters/without-custom-reporter.vitest.config.ts
+       • test/reporters/vitest.config.ts
+       • test/reporters/deps-reporter.vitest.config.ts
+       • test/reporters/custom-reporter.vitest.config.ts
 
    Literal:
      📄 Files WITH Literal (showing 10):
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/vitest.config.ts
      📄 Files WITHOUT Literal (showing 10):
        • shims.d.ts
        • test/workspaces/cwdPlugin.js
@@ -387,24 +387,24 @@ Repository: sample-repos/vitest
    CallExpression:
      📄 Files WITH CallExpression (showing 10):
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/vitest.config.ts
      📄 Files WITHOUT CallExpression (showing 10):
        • shims.d.ts
        • test/workspaces/cwdPlugin.d.ts
        • test/dts-config/happy-dom-patch.ts
-       • packages/web-worker/pure.d.ts
-       • packages/web-worker/index.d.ts
        • test/browser/settings.ts
        • test/browser/custom-snapshot-env.ts
        • test/browser/custom-diff-config.ts
+       • packages/web-worker/pure.d.ts
+       • packages/web-worker/index.d.ts
        • packages/vitest/workers.d.ts
        • packages/vitest/vitest.mjs
 
@@ -415,35 +415,35 @@ Repository: sample-repos/vitest
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • test/workspaces-browser/vitest.config.ts
-       • test/workspaces-browser/globalTest.ts
        • test/workspaces/vitest.config.watch.ts
        • test/workspaces/vitest.config.ts
        • test/workspaces/globalTest.ts
+       • test/workspaces/cwdPlugin.js
+       • test/workspaces-browser/vitest.config.ts
      📄 Files WITHOUT ExpressionStatement (showing 10):
        • shims.d.ts
        • eslint.config.js
        • docs/vite.config.ts
        • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
        • test/workspaces/cwdPlugin.d.ts
-       • test/typescript/vitest.config.fails.ts
+       • test/watch/vitest.config.ts
+       • test/vite-node/vitest.config.ts
        • test/ui/vitest.config.ts
        • test/ui/playwright.config.ts
-       • test/watch/vitest.config.ts
+       • test/typescript/vitest.config.fails.ts
 
    Property:
      📄 Files WITH Property (showing 10):
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
-       • test/workspaces-browser/globalTest.ts
        • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/vitest.config.ts
+       • test/workspaces/globalTest.ts
+       • test/workspaces/cwdPlugin.js
      📄 Files WITHOUT Property (showing 10):
        • shims.d.ts
        • scripts/publish-ci.ts
@@ -452,32 +452,32 @@ Repository: sample-repos/vitest
        • test/test-utils/cli.ts
        • test/dts-config/vite.config.ts
        • test/dts-config/happy-dom-patch.ts
-       • packages/web-worker/pure.d.ts
-       • packages/web-worker/index.d.ts
        • test/browser/injected.ts
+       • test/browser/custom-snapshot-env.ts
+       • test/benchmark/vitest.config.ts
 
    BlockStatement:
      📄 Files WITH BlockStatement (showing 10):
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
-       • test/workspaces-browser/globalTest.ts
        • test/workspaces/vitest.config.ts
+       • test/workspaces/globalTest.ts
+       • test/workspaces/cwdPlugin.js
+       • test/vite-node/vitest.config.ts
      📄 Files WITHOUT BlockStatement (showing 10):
        • shims.d.ts
        • eslint.config.js
        • docs/vite.config.ts
        • test/workspaces/vitest.config.watch.ts
        • test/workspaces/cwdPlugin.d.ts
-       • test/typescript/vitest.config.fails.ts
+       • test/watch/vitest.config.ts
        • test/ui/vitest.config.ts
        • test/ui/playwright.config.ts
-       • test/watch/vitest.config.ts
+       • test/typescript/vitest.config.fails.ts
        • test/snapshots/vitest.config.ts
 
    TSTypeAnnotation:
@@ -495,14 +495,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT TSTypeAnnotation (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
-       • test/workspaces-browser/globalTest.ts
+       • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/cwdPlugin.js
+       • test/watch/vitest.config.ts
 
    VariableDeclarator:
      📄 Files WITH VariableDeclarator (showing 10):
@@ -510,23 +510,23 @@ Repository: sample-repos/vitest
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
-       • test/workspaces-browser/globalTest.ts
        • test/workspaces/vitest.config.ts
        • test/workspaces/globalTest.ts
+       • test/workspaces-browser/globalTest.ts
        • test/test-utils/index.ts
        • test/test-utils/cli.ts
        • test/snapshots/generate.mjs
      📄 Files WITHOUT VariableDeclarator (showing 10):
        • shims.d.ts
        • eslint.config.js
-       • scripts/build-utils.js
        • docs/vite.config.ts
        • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
+       • scripts/build-utils.js
        • test/workspaces/vitest.config.watch.ts
        • test/workspaces/cwdPlugin.js
        • test/workspaces/cwdPlugin.d.ts
+       • test/watch/vitest.config.ts
+       • test/vite-node/vitest.config.ts
 
    VariableDeclaration:
      📄 Files WITH VariableDeclaration (showing 10):
@@ -534,29 +534,29 @@ Repository: sample-repos/vitest
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
-       • test/workspaces-browser/globalTest.ts
        • test/workspaces/vitest.config.ts
        • test/workspaces/globalTest.ts
+       • test/workspaces-browser/globalTest.ts
        • test/test-utils/index.ts
        • test/test-utils/cli.ts
        • test/snapshots/generate.mjs
      📄 Files WITHOUT VariableDeclaration (showing 10):
        • shims.d.ts
        • eslint.config.js
-       • scripts/build-utils.js
        • docs/vite.config.ts
        • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
+       • scripts/build-utils.js
        • test/workspaces/vitest.config.watch.ts
        • test/workspaces/cwdPlugin.js
        • test/workspaces/cwdPlugin.d.ts
+       • test/watch/vitest.config.ts
+       • test/vite-node/vitest.config.ts
 
    TSTypeReference:
      📄 Files WITH TSTypeReference (showing 10):
+       • docs/vite.config.ts
        • scripts/update-contributors.ts
        • scripts/explain-types.ts
-       • docs/vite.config.ts
        • test/workspaces/vitest.config.ts
        • test/workspaces/globalTest.ts
        • test/workspaces/cwdPlugin.d.ts
@@ -567,84 +567,84 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT TSTypeReference (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/pwa-assets.config.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/build-utils.js
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
-       • test/workspaces-browser/globalTest.ts
        • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/cwdPlugin.js
+       • test/watch/vitest.config.ts
+       • test/vite-node/vitest.config.ts
 
    Unknown:
      📄 Files WITH Unknown (showing 10):
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
        • test/workspaces/vitest.config.ts
        • test/workspaces/globalTest.ts
      📄 Files WITHOUT Unknown (showing 10):
        • shims.d.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
-       • test/workspaces-browser/globalTest.ts
        • test/workspaces/vitest.config.watch.ts
        • test/workspaces/cwdPlugin.d.ts
-       • test/typescript/vitest.config.fails.ts
+       • test/watch/vitest.config.ts
+       • test/vite-node/vitest.config.ts
        • test/ui/vitest.config.ts
        • test/ui/playwright.config.ts
-       • test/watch/vitest.config.ts
+       • test/typescript/vitest.config.fails.ts
+       • test/workspaces-browser/vitest.config.ts
+       • test/workspaces-browser/globalTest.ts
 
    ImportSpecifier:
      📄 Files WITH ImportSpecifier (showing 10):
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
-       • test/workspaces-browser/globalTest.ts
+       • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/vitest.config.ts
+       • test/workspaces/globalTest.ts
      📄 Files WITHOUT ImportSpecifier (showing 10):
        • shims.d.ts
        • scripts/build-utils.js
        • test/workspaces/cwdPlugin.js
        • test/dts-config/happy-dom-patch.ts
-       • packages/web-worker/pure.d.ts
-       • packages/web-worker/index.d.ts
        • test/browser/injected.ts
        • test/browser/custom-snapshot-env.ts
        • test/browser/custom-diff-config.ts
+       • packages/web-worker/pure.d.ts
+       • packages/web-worker/index.d.ts
        • packages/vitest/workers.d.ts
 
    ObjectExpression:
      📄 Files WITH ObjectExpression (showing 10):
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
-       • test/workspaces-browser/globalTest.ts
+       • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/vitest.config.ts
+       • test/workspaces/globalTest.ts
      📄 Files WITHOUT ObjectExpression (showing 10):
        • shims.d.ts
        • scripts/publish-ci.ts
        • test/workspaces/cwdPlugin.d.ts
        • test/test-utils/cli.ts
-       • packages/web-worker/pure.d.ts
-       • packages/web-worker/index.d.ts
        • test/browser/injected.ts
        • test/browser/custom-snapshot-env.ts
+       • packages/web-worker/pure.d.ts
+       • packages/web-worker/index.d.ts
        • packages/vitest/workers.d.ts
        • packages/vitest/vitest.mjs
 
@@ -652,49 +652,49 @@ Repository: sample-repos/vitest
      📄 Files WITH ArrowFunctionExpression (showing 10):
        • scripts/update-contributors.ts
        • scripts/build-utils.js
-       • test/workspaces-browser/vitest.config.ts
-       • test/workspaces-browser/globalTest.ts
        • test/workspaces/vitest.config.watch.ts
        • test/workspaces/vitest.config.ts
        • test/workspaces/globalTest.ts
+       • test/workspaces-browser/vitest.config.ts
+       • test/workspaces-browser/globalTest.ts
        • test/test-utils/index.ts
        • test/test-utils/cli.ts
        • test/global-setup/vitest.config.ts
      📄 Files WITHOUT ArrowFunctionExpression (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
        • test/workspaces/cwdPlugin.js
        • test/workspaces/cwdPlugin.d.ts
+       • test/watch/vitest.config.ts
 
    TemplateElement:
      📄 Files WITH TemplateElement (showing 10):
        • eslint.config.js
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/build-utils.js
-       • docs/pwa-assets.config.ts
        • test/workspaces/vitest.config.ts
        • test/workspaces/cwdPlugin.js
        • test/test-utils/index.ts
        • test/test-utils/cli.ts
      📄 Files WITHOUT TemplateElement (showing 10):
        • shims.d.ts
-       • scripts/explain-types.ts
        • docs/vite.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
-       • test/workspaces-browser/globalTest.ts
+       • scripts/explain-types.ts
        • test/workspaces/vitest.config.watch.ts
        • test/workspaces/globalTest.ts
        • test/workspaces/cwdPlugin.d.ts
-       • test/typescript/vitest.config.fails.ts
+       • test/watch/vitest.config.ts
+       • test/vite-node/vitest.config.ts
+       • test/ui/vitest.config.ts
+       • test/ui/playwright.config.ts
 
    BinaryExpression:
      📄 Files WITH BinaryExpression (showing 10):
@@ -711,23 +711,23 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT BinaryExpression (showing 10):
        • shims.d.ts
        • eslint.config.js
-       • scripts/release.ts
        • docs/vite.config.ts
        • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
-       • test/workspaces-browser/globalTest.ts
+       • scripts/release.ts
        • test/workspaces/vitest.config.watch.ts
        • test/workspaces/vitest.config.ts
+       • test/workspaces/globalTest.ts
+       • test/workspaces/cwdPlugin.js
+       • test/workspaces/cwdPlugin.d.ts
 
    ReturnStatement:
      📄 Files WITH ReturnStatement (showing 10):
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/build-utils.js
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
        • test/workspaces/vitest.config.ts
        • test/workspaces/cwdPlugin.js
+       • test/vite-node/vitest.config.ts
        • test/test-utils/index.ts
        • test/test-utils/cli.ts
        • test/public-mocker/vite.config.ts
@@ -735,36 +735,36 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT ReturnStatement (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
-       • docs/vite.config.ts
-       • test/workspaces-browser/vitest.config.ts
-       • test/workspaces-browser/globalTest.ts
        • test/workspaces/vitest.config.watch.ts
        • test/workspaces/globalTest.ts
+       • test/workspaces/cwdPlugin.d.ts
+       • test/watch/vitest.config.ts
 
    ImportDeclaration:
      📄 Files WITH ImportDeclaration (showing 10):
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/vitest.config.ts
      📄 Files WITHOUT ImportDeclaration (showing 10):
        • shims.d.ts
        • test/workspaces/cwdPlugin.js
        • test/dts-config/happy-dom-patch.ts
-       • packages/web-worker/pure.d.ts
-       • packages/web-worker/index.d.ts
        • test/browser/injected.ts
        • test/browser/custom-snapshot-env.ts
        • test/browser/custom-diff-config.ts
+       • packages/web-worker/pure.d.ts
+       • packages/web-worker/index.d.ts
        • packages/vitest/workers.d.ts
        • packages/vitest/utils.d.ts
 
@@ -775,11 +775,11 @@ Repository: sample-repos/vitest
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
+       • test/workspaces/vitest.config.ts
+       • test/workspaces/globalTest.ts
        • test/vite-node/vitest.config.ts
        • test/workspaces-browser/vitest.config.ts
        • test/workspaces-browser/globalTest.ts
-       • test/workspaces/vitest.config.ts
-       • test/workspaces/globalTest.ts
      📄 Files WITHOUT IfStatement (showing 10):
        • shims.d.ts
        • eslint.config.js
@@ -788,7 +788,7 @@ Repository: sample-repos/vitest
        • test/workspaces/vitest.config.watch.ts
        • test/workspaces/cwdPlugin.js
        • test/workspaces/cwdPlugin.d.ts
-       • test/typescript/vitest.config.fails.ts
+       • test/watch/vitest.config.ts
        • test/ui/vitest.config.ts
        • test/ui/playwright.config.ts
 
@@ -799,22 +799,22 @@ Repository: sample-repos/vitest
        • test/test-utils/cli.ts
        • packages/vitest/suppress-warnings.cjs
        • packages/browser/rollup.config.js
-       • test/reporters/reportPkg/index.js
        • test/reporters/tests/test-run.test.ts
        • test/reporters/src/custom-reporter.ts
        • test/reporters/src/custom-reporter.js
-       • test/cli/test/signal.test.ts
+       • test/reporters/reportPkg/index.js
+       • test/core/src/mockedC.ts
      📄 Files WITHOUT ThisExpression (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/globalTest.ts
 
    TSStringKeyword:
      📄 Files WITH TSStringKeyword (showing 10):
@@ -831,86 +831,86 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT TSStringKeyword (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
-       • test/workspaces-browser/globalTest.ts
+       • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/vitest.config.ts
+       • test/workspaces/cwdPlugin.js
 
    AssignmentExpression:
      📄 Files WITH AssignmentExpression (showing 10):
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • test/workspaces-browser/vitest.config.ts
-       • test/workspaces-browser/globalTest.ts
        • test/workspaces/vitest.config.watch.ts
        • test/workspaces/globalTest.ts
        • test/workspaces/cwdPlugin.js
+       • test/workspaces-browser/vitest.config.ts
+       • test/workspaces-browser/globalTest.ts
        • test/test-utils/index.ts
        • test/test-utils/cli.ts
      📄 Files WITHOUT AssignmentExpression (showing 10):
        • shims.d.ts
        • eslint.config.js
-       • scripts/update-contributors.ts
-       • scripts/release.ts
        • docs/vite.config.ts
        • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • scripts/update-contributors.ts
+       • scripts/release.ts
        • test/workspaces/vitest.config.ts
        • test/workspaces/cwdPlugin.d.ts
-       • test/typescript/vitest.config.fails.ts
+       • test/watch/vitest.config.ts
+       • test/vite-node/vitest.config.ts
 
    ArrayExpression:
      📄 Files WITH ArrayExpression (showing 10):
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/workspaces-browser/vitest.config.ts
        • test/workspaces/vitest.config.watch.ts
        • test/workspaces/vitest.config.ts
+       • test/watch/vitest.config.ts
      📄 Files WITHOUT ArrayExpression (showing 10):
        • shims.d.ts
        • scripts/publish-ci.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/globalTest.ts
        • test/workspaces/globalTest.ts
        • test/workspaces/cwdPlugin.js
        • test/workspaces/cwdPlugin.d.ts
+       • test/vite-node/vitest.config.ts
        • test/ui/vitest.config.ts
+       • test/workspaces-browser/globalTest.ts
        • test/snapshots/generate.mjs
-       • test/dts-config/vite.config.ts
+       • test/public-mocker/vitest.config.ts
 
    AwaitExpression:
      📄 Files WITH AwaitExpression (showing 10):
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
-       • test/workspaces-browser/globalTest.ts
        • test/workspaces/globalTest.ts
+       • test/workspaces-browser/globalTest.ts
        • test/test-utils/index.ts
        • test/coverage-test/utils.ts
        • packages/browser/rollup.config.js
-       • test/vite-node/test/server.test.ts
-       • test/vite-node/test/self-export.test.ts
+       • test/watch/test/workspaces.test.ts
+       • test/watch/test/stdout.test.ts
      📄 Files WITHOUT AwaitExpression (showing 10):
        • shims.d.ts
        • eslint.config.js
-       • scripts/explain-types.ts
-       • scripts/build-utils.js
        • docs/vite.config.ts
        • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
+       • scripts/explain-types.ts
+       • scripts/build-utils.js
        • test/workspaces/vitest.config.watch.ts
        • test/workspaces/vitest.config.ts
+       • test/workspaces/cwdPlugin.js
+       • test/workspaces/cwdPlugin.d.ts
 
    TSPropertySignature:
      📄 Files WITH TSPropertySignature (showing 10):
@@ -927,14 +927,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT TSPropertySignature (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/vitest.config.ts
 
    TSTypeParameterInstantiation:
      📄 Files WITH TSTypeParameterInstantiation (showing 10):
@@ -946,43 +946,43 @@ Repository: sample-repos/vitest
        • packages/browser/matchers.d.ts
        • packages/browser/jest-dom.d.ts
        • packages/browser/context.d.ts
-       • test/vite-node/test/server.test.ts
        • test/workspaces/space-pools/single-worker.test.ts
+       • test/workspaces/space-pools/no-isolate.test.ts
      📄 Files WITHOUT TSTypeParameterInstantiation (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/vitest.config.ts
 
    TemplateLiteral:
      📄 Files WITH TemplateLiteral (showing 10):
        • eslint.config.js
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/build-utils.js
-       • docs/pwa-assets.config.ts
        • test/workspaces/vitest.config.ts
        • test/workspaces/cwdPlugin.js
        • test/test-utils/index.ts
        • test/test-utils/cli.ts
      📄 Files WITHOUT TemplateLiteral (showing 10):
        • shims.d.ts
-       • scripts/explain-types.ts
        • docs/vite.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
-       • test/workspaces-browser/globalTest.ts
+       • scripts/explain-types.ts
        • test/workspaces/vitest.config.watch.ts
        • test/workspaces/globalTest.ts
        • test/workspaces/cwdPlugin.d.ts
-       • test/typescript/vitest.config.fails.ts
+       • test/watch/vitest.config.ts
+       • test/vite-node/vitest.config.ts
+       • test/ui/vitest.config.ts
+       • test/ui/playwright.config.ts
 
    LogicalExpression:
      📄 Files WITH LogicalExpression (showing 10):
@@ -995,18 +995,18 @@ Repository: sample-repos/vitest
        • test/test-utils/cli.ts
        • test/coverage-test/setup.ts
        • test/core/vite.config.ts
-       • packages/web-worker/rollup.config.js
+       • test/browser/setup.unit.ts
      📄 Files WITHOUT LogicalExpression (showing 10):
        • shims.d.ts
        • eslint.config.js
-       • scripts/release.ts
        • docs/vite.config.ts
        • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/globalTest.ts
+       • scripts/release.ts
        • test/workspaces/vitest.config.watch.ts
        • test/workspaces/vitest.config.ts
        • test/workspaces/globalTest.ts
+       • test/workspaces/cwdPlugin.js
+       • test/workspaces/cwdPlugin.d.ts
 
    TSLiteralType:
      📄 Files WITH TSLiteralType (showing 10):
@@ -1023,22 +1023,22 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT TSLiteralType (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    FunctionExpression:
      📄 Files WITH FunctionExpression (showing 10):
-       • scripts/build-utils.js
        • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • scripts/build-utils.js
        • test/workspaces/vitest.config.ts
        • test/workspaces/cwdPlugin.js
+       • test/vite-node/vitest.config.ts
        • test/test-utils/index.ts
        • test/test-utils/cli.ts
        • test/public-mocker/vite.config.ts
@@ -1047,14 +1047,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT FunctionExpression (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
-       • docs/vite.config.ts
-       • test/workspaces-browser/vitest.config.ts
-       • test/workspaces-browser/globalTest.ts
        • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/globalTest.ts
+       • test/workspaces/cwdPlugin.d.ts
 
    UnaryExpression:
      📄 Files WITH UnaryExpression (showing 10):
@@ -1063,30 +1063,30 @@ Repository: sample-repos/vitest
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • test/workspaces-browser/globalTest.ts
        • test/workspaces/globalTest.ts
+       • test/ui/playwright.config.ts
+       • test/workspaces-browser/globalTest.ts
        • test/test-utils/index.ts
        • test/test-utils/cli.ts
-       • test/ui/playwright.config.ts
      📄 Files WITHOUT UnaryExpression (showing 10):
        • shims.d.ts
        • eslint.config.js
        • docs/vite.config.ts
        • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
        • test/workspaces/vitest.config.watch.ts
        • test/workspaces/vitest.config.ts
        • test/workspaces/cwdPlugin.js
        • test/workspaces/cwdPlugin.d.ts
+       • test/watch/vitest.config.ts
+       • test/vite-node/vitest.config.ts
 
    ExportNamedDeclaration:
      📄 Files WITH ExportNamedDeclaration (showing 10):
        • scripts/build-utils.js
-       • test/workspaces-browser/globalTest.ts
        • test/workspaces/globalTest.ts
        • test/workspaces/cwdPlugin.js
        • test/workspaces/cwdPlugin.d.ts
+       • test/workspaces-browser/globalTest.ts
        • test/test-utils/index.ts
        • test/test-utils/cli.ts
        • test/dts-config/happy-dom-patch.ts
@@ -1095,22 +1095,22 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT ExportNamedDeclaration (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/vitest.config.ts
 
    NewExpression:
      📄 Files WITH NewExpression (showing 10):
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
-       • test/workspaces-browser/vitest.config.ts
        • test/workspaces/vitest.config.ts
        • test/workspaces/globalTest.ts
+       • test/workspaces-browser/vitest.config.ts
        • test/test-utils/index.ts
        • test/test-utils/cli.ts
        • test/reporters/custom-reporter.vitest.config.ts
@@ -1119,51 +1119,51 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT NewExpression (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/globalTest.ts
        • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/cwdPlugin.js
+       • test/workspaces/cwdPlugin.d.ts
 
    FunctionDeclaration:
      📄 Files WITH FunctionDeclaration (showing 10):
        • scripts/update-contributors.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • test/workspaces-browser/globalTest.ts
        • test/workspaces/vitest.config.ts
        • test/workspaces/globalTest.ts
        • test/workspaces/cwdPlugin.js
+       • test/workspaces-browser/globalTest.ts
        • test/test-utils/index.ts
        • test/test-utils/cli.ts
        • test/coverage-test/utils.ts
      📄 Files WITHOUT FunctionDeclaration (showing 10):
        • shims.d.ts
        • eslint.config.js
-       • scripts/release.ts
-       • scripts/publish-ci.ts
        • docs/vite.config.ts
        • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
+       • scripts/release.ts
+       • scripts/publish-ci.ts
        • test/workspaces/vitest.config.watch.ts
        • test/workspaces/cwdPlugin.d.ts
+       • test/watch/vitest.config.ts
+       • test/vite-node/vitest.config.ts
 
    Program:
      📄 Files WITH Program (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
      📄 Files WITHOUT Program: (all files contain this node type)
 
    TSUnionType:
@@ -1181,14 +1181,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT TSUnionType (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSArrayType:
      📄 Files WITH TSArrayType (showing 10):
@@ -1205,14 +1205,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT TSArrayType (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
-       • test/workspaces-browser/globalTest.ts
+       • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/vitest.config.ts
+       • test/workspaces/globalTest.ts
 
    ObjectPattern:
      📄 Files WITH ObjectPattern (showing 10):
@@ -1223,25 +1223,24 @@ Repository: sample-repos/vitest
        • test/browser/setup.unit.ts
        • packages/vitest/suppress-warnings.cjs
        • packages/vitest/rollup.config.js
-       • test/vite-node/test/server.test.ts
-       • test/vite-node/test/self-export.test.ts
-       • test/vite-node/test/hmr.test.ts
+       • test/workspaces/space_shared/test.spec.ts
+       • test/workspaces/space_3/localSetup.ts
+       • test/workspaces/coverage-report-tests/check-coverage.test.ts
      📄 Files WITHOUT ObjectPattern (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/vitest.config.ts
 
    MethodDefinition:
      📄 Files WITH MethodDefinition (showing 10):
        • test/test-utils/cli.ts
-       • test/reporters/reportPkg/index.js
        • test/reporters/tests/verbose.test.ts
        • test/reporters/tests/test-run.test.ts
        • test/reporters/tests/silent.test.ts
@@ -1249,18 +1248,19 @@ Repository: sample-repos/vitest
        • test/reporters/tests/console.test.ts
        • test/reporters/src/custom-reporter.ts
        • test/reporters/src/custom-reporter.js
+       • test/reporters/reportPkg/index.js
        • test/coverage-test/test/isolation.test.ts
      📄 Files WITHOUT MethodDefinition (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSAnyKeyword:
      📄 Files WITH TSAnyKeyword (showing 10):
@@ -1277,14 +1277,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT TSAnyKeyword (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSVoidKeyword:
      📄 Files WITH TSVoidKeyword (showing 10):
@@ -1295,20 +1295,20 @@ Repository: sample-repos/vitest
        • packages/browser/utils.d.ts
        • packages/browser/matchers.d.ts
        • packages/browser/context.d.ts
-       • test/ui/test/html-report.spec.ts
        • test/watch/test/workspaces.test.ts
        • test/watch/test/file-watching.test.ts
+       • test/ui/test/html-report.spec.ts
      📄 Files WITHOUT TSVoidKeyword (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    ChainExpression:
      📄 Files WITH ChainExpression (showing 10):
@@ -1316,71 +1316,71 @@ Repository: sample-repos/vitest
        • test/browser/setup.unit.ts
        • packages/vitest/rollup.config.js
        • packages/browser/context.js
-       • test/vite-node/test/server.test.ts
        • test/workspaces/space-pools/threads.test.ts
        • test/workspaces/space-pools/single-worker.test.ts
        • test/workspaces/space-pools/no-isolate.test.ts
        • test/workspaces/space-pools/multi-worker.test.ts
        • test/workspaces/space-pools/isolate.test.ts
+       • test/workspaces/space-pools/forks.test.ts
      📄 Files WITHOUT ChainExpression (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSAsExpression:
      📄 Files WITH TSAsExpression (showing 10):
-       • scripts/update-contributors.ts
        • docs/vite.config.ts
+       • scripts/update-contributors.ts
        • test/workspaces/vitest.config.ts
        • test/test-utils/index.ts
        • test/test-utils/cli.ts
        • test/dts-config/happy-dom-patch.ts
        • test/coverage-test/utils.ts
        • test/browser/injected.ts
+       • test/watch/test/global-setup-rerun.test.ts
        • test/vite-node/test/server.test.ts
-       • test/vite-node/test/cli.test.ts
      📄 Files WITHOUT TSAsExpression (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/pwa-assets.config.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
-       • test/workspaces-browser/globalTest.ts
+       • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/globalTest.ts
+       • test/workspaces/cwdPlugin.js
 
    ConditionalExpression:
      📄 Files WITH ConditionalExpression (showing 10):
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
+       • test/watch/vitest.config.ts
        • test/vite-node/vitest.config.ts
+       • test/ui/playwright.config.ts
        • test/test-utils/index.ts
        • test/test-utils/cli.ts
-       • test/ui/playwright.config.ts
-       • test/watch/vitest.config.ts
        • test/snapshots/vitest.config.ts
        • test/coverage-test/utils.ts
        • test/core/vite.config.ts
      📄 Files WITHOUT ConditionalExpression (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/workspaces-browser/vitest.config.ts
-       • test/workspaces-browser/globalTest.ts
        • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/vitest.config.ts
+       • test/workspaces/globalTest.ts
 
    TSNumberKeyword:
      📄 Files WITH TSNumberKeyword (showing 10):
@@ -1389,22 +1389,22 @@ Repository: sample-repos/vitest
        • packages/browser/utils.d.ts
        • packages/browser/jest-dom.d.ts
        • packages/browser/context.d.ts
-       • test/vite-node/src/self-export.d.ts
-       • test/vite-node/test/server.test.ts
-       • test/workspaces-browser/src/math.ts
        • test/workspaces/src/math.ts
+       • test/vite-node/test/server.test.ts
+       • test/vite-node/src/self-export.d.ts
        • test/typescript/test-d/expect-extend.test-d.ts
+       • test/typescript/failing/expect-error.test-d.ts
      📄 Files WITHOUT TSNumberKeyword (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    ParenthesizedExpression:
      📄 Files WITH ParenthesizedExpression (showing 10):
@@ -1421,14 +1421,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT ParenthesizedExpression (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
-       • test/workspaces-browser/globalTest.ts
+       • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/globalTest.ts
+       • test/workspaces/cwdPlugin.js
 
    TSFunctionType:
      📄 Files WITH TSFunctionType (showing 10):
@@ -1438,21 +1438,21 @@ Repository: sample-repos/vitest
        • packages/ui/types.ts
        • packages/browser/matchers.d.ts
        • packages/browser/context.d.ts
-       • test/typescript/test-d/test.test-d.ts
-       • test/typescript/test-d/expect-extend.test-d.ts
        • test/watch/test/workspaces.test.ts
        • test/watch/test/file-watching.test.ts
+       • test/typescript/test-d/test.test-d.ts
+       • test/typescript/test-d/expect-extend.test-d.ts
      📄 Files WITHOUT TSFunctionType (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    ExportSpecifier:
      📄 Files WITH ExportSpecifier (showing 10):
@@ -1463,20 +1463,20 @@ Repository: sample-repos/vitest
        • test/browser/specs/utils.ts
        • packages/vitest/src/defaults.ts
        • packages/vite-node/src/types.ts
-       • packages/runner/src/types.ts
-       • packages/runner/src/run.ts
-       • packages/runner/src/index.ts
+       • packages/utils/src/source-map.ts
+       • packages/utils/src/index.ts
+       • packages/utils/src/error.ts
      📄 Files WITHOUT ExportSpecifier (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSIndexedAccessType:
      📄 Files WITH TSIndexedAccessType (showing 10):
@@ -1493,14 +1493,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT TSIndexedAccessType (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSBooleanKeyword:
      📄 Files WITH TSBooleanKeyword (showing 10):
@@ -1517,19 +1517,19 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT TSBooleanKeyword (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    SpreadElement:
      📄 Files WITH SpreadElement (showing 10):
-       • scripts/update-contributors.ts
        • docs/pwa-assets.config.ts
+       • scripts/update-contributors.ts
        • test/test-utils/index.ts
        • test/snapshots/vitest.config.ts
        • test/coverage-test/vitest.config.ts
@@ -1541,14 +1541,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT SpreadElement (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
-       • test/workspaces-browser/globalTest.ts
+       • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/vitest.config.ts
+       • test/workspaces/globalTest.ts
 
    TSTypeQuery:
      📄 Files WITH TSTypeQuery (showing 10):
@@ -1561,18 +1561,18 @@ Repository: sample-repos/vitest
        • test/reporters/tests/configuration-options.test-d.ts
        • test/coverage-test/test/threshold-auto-update.unit.test.ts
        • test/coverage-test/test/configuration-options.test-d.ts
-       • test/cli/test/scoped-fixtures.test.ts
+       • test/config/test/override.test.ts
      📄 Files WITHOUT TSTypeQuery (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    PropertyDefinition:
      📄 Files WITH PropertyDefinition (showing 10):
@@ -1581,22 +1581,22 @@ Repository: sample-repos/vitest
        • test/reporters/tests/silent.test.ts
        • test/reporters/tests/console.test.ts
        • test/reporters/src/custom-reporter.ts
-       • test/cli/test/signal.test.ts
        • test/core/src/mockedC.ts
-       • packages/ws-client/src/state.ts
        • test/core/test/utils.spec.ts
        • test/core/test/spy.test.ts
+       • test/core/test/snapshot-custom-serializer.test.ts
+       • test/core/test/jest-mock.test.ts
      📄 Files WITHOUT PropertyDefinition (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    ThrowStatement:
      📄 Files WITH ThrowStatement (showing 10):
@@ -1607,20 +1607,20 @@ Repository: sample-repos/vitest
        • test/browser/custom-snapshot-env.ts
        • packages/vitest/index.cjs
        • packages/browser/context.js
-       • test/vite-node/src/hmr-throw.js
        • test/workspaces/space_3/vite.config.ts
+       • test/vite-node/src/hmr-throw.js
        • test/snapshots/test-update/retry-inline.test.ts
      📄 Files WITHOUT ThrowStatement (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/vitest.config.ts
 
    TSInterfaceDeclaration:
      📄 Files WITH TSInterfaceDeclaration (showing 10):
@@ -1637,14 +1637,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT TSInterfaceDeclaration (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/vitest.config.ts
 
    TSInterfaceBody:
      📄 Files WITH TSInterfaceBody (showing 10):
@@ -1661,38 +1661,38 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT TSInterfaceBody (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/vitest.config.ts
 
    TSUnknownKeyword:
      📄 Files WITH TSUnknownKeyword (showing 10):
        • test/workspaces/globalTest.ts
        • test/test-utils/index.ts
        • packages/browser/jest-dom.d.ts
-       • test/typescript/test-d/test.test-d.ts
-       • test/typescript/test-d/expect-extend.test-d.ts
        • test/ui/test/ui.spec.ts
        • test/ui/test/html-report.spec.ts
+       • test/typescript/test-d/test.test-d.ts
+       • test/typescript/test-d/expect-extend.test-d.ts
        • test/reporters/src/custom-reporter.ts
        • test/reporters/src/context.ts
-       • test/cli/test/scoped-fixtures.test.ts
+       • test/config/test/config-types.test-d.ts
      📄 Files WITHOUT TSUnknownKeyword (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSImportType:
      📄 Files WITH TSImportType (showing 10):
@@ -1709,14 +1709,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT TSImportType (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSTypeLiteral:
      📄 Files WITH TSTypeLiteral (showing 10):
@@ -1724,47 +1724,47 @@ Repository: sample-repos/vitest
        • test/test-utils/cli.ts
        • packages/browser/jest-dom.d.ts
        • packages/browser/context.d.ts
-       • test/vite-node/src/self-export.d.ts
        • test/vite-node/test/server.test.ts
+       • test/vite-node/src/self-export.d.ts
        • test/typescript/test-d/test.test-d.ts
        • test/typescript/test-d/expect-extend.test-d.ts
-       • test/dts-fixture/src/repro.ts
        • test/reporters/tests/configuration-options.test-d.ts
+       • test/dts-fixture/src/repro.ts
      📄 Files WITHOUT TSTypeLiteral (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    ImportDefaultSpecifier:
      📄 Files WITH ImportDefaultSpecifier (showing 10):
        • eslint.config.js
-       • scripts/build-utils.js
        • docs/vite.config.ts
-       • test/workspaces-browser/globalTest.ts
+       • scripts/build-utils.js
        • test/workspaces/vitest.config.watch.ts
        • test/workspaces/vitest.config.ts
        • test/workspaces/globalTest.ts
+       • test/workspaces-browser/globalTest.ts
        • test/test-utils/index.ts
        • test/reporters/custom-reporter.vitest.config.ts
        • test/coverage-test/utils.ts
      📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
        • shims.d.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
        • test/workspaces/cwdPlugin.js
        • test/workspaces/cwdPlugin.d.ts
+       • test/watch/vitest.config.ts
+       • test/vite-node/vitest.config.ts
 
    TSTypeParameter:
      📄 Files WITH TSTypeParameter (showing 10):
@@ -1777,18 +1777,18 @@ Repository: sample-repos/vitest
        • test/typescript/test-d/expect-extend.test-d.ts
        • test/reporters/tests/configuration-options.test-d.ts
        • test/coverage-test/test/configuration-options.test-d.ts
-       • test/cli/test/scoped-fixtures.test.ts
+       • test/core/test/vi.spec.ts
      📄 Files WITHOUT TSTypeParameter (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSUndefinedKeyword:
      📄 Files WITH TSUndefinedKeyword (showing 10):
@@ -1798,21 +1798,21 @@ Repository: sample-repos/vitest
        • test/ui/test/ui.spec.ts
        • test/reporters/tests/test-run.test.ts
        • test/coverage-test/test/threshold-100.test.ts
-       • test/cli/test/reported-tasks.test.ts
-       • test/cli/test/console.test.ts
-       • test/cli/test/browser-multiple.test.ts
        • test/core/types/vite.d.ts
+       • test/core/types/env.d.ts
+       • test/config/test/config-types.test-d.ts
+       • test/core/test/vi.test-d.ts
      📄 Files WITHOUT TSUndefinedKeyword (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    AssignmentPattern:
      📄 Files WITH AssignmentPattern (showing 10):
@@ -1822,21 +1822,21 @@ Repository: sample-repos/vitest
        • test/test-utils/index.ts
        • test/coverage-test/utils.ts
        • test/reporters/tests/test-run.test.ts
-       • test/cli/test/init.test.ts
        • test/config/test/shard.test.ts
        • test/config/test/override.test.ts
        • test/config/test/failures.test.ts
+       • test/config/test/configureVitest.test.ts
      📄 Files WITHOUT AssignmentPattern (showing 10):
        • shims.d.ts
        • eslint.config.js
-       • scripts/release.ts
-       • scripts/publish-ci.ts
        • docs/vite.config.ts
        • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
-       • test/workspaces-browser/globalTest.ts
+       • scripts/release.ts
+       • scripts/publish-ci.ts
        • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/vitest.config.ts
+       • test/workspaces/globalTest.ts
+       • test/workspaces/cwdPlugin.js
 
    TSTypeParameterDeclaration:
      📄 Files WITH TSTypeParameterDeclaration (showing 10):
@@ -1849,18 +1849,18 @@ Repository: sample-repos/vitest
        • test/typescript/test-d/expect-extend.test-d.ts
        • test/reporters/tests/configuration-options.test-d.ts
        • test/coverage-test/test/configuration-options.test-d.ts
-       • test/cli/test/scoped-fixtures.test.ts
+       • test/core/test/vi.spec.ts
      📄 Files WITHOUT TSTypeParameterDeclaration (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSTypeAliasDeclaration:
      📄 Files WITH TSTypeAliasDeclaration (showing 10):
@@ -1877,20 +1877,20 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT TSTypeAliasDeclaration (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSNonNullExpression:
      📄 Files WITH TSNonNullExpression (showing 10):
        • test/test-utils/index.ts
-       • test/vite-node/test/server.test.ts
        • test/watch/test/change-project.test.ts
+       • test/vite-node/test/server.test.ts
        • test/snapshots/test/test-update.test.ts
        • test/reporters/tests/test-run.test.ts
        • test/reporters/tests/junit.test.ts
@@ -1901,14 +1901,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT TSNonNullExpression (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    ForOfStatement:
      📄 Files WITH ForOfStatement (showing 10):
@@ -1921,24 +1921,23 @@ Repository: sample-repos/vitest
        • test/coverage-test/test/virtual-files.test.ts
        • test/coverage-test/test/merge-reports.test.ts
        • test/coverage-test/test/isolation.test.ts
-       • test/cli/test/stacktraces.test.ts
+       • test/config/test/testname-pattern.test.ts
      📄 Files WITHOUT ForOfStatement (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/vitest.config.ts
 
    UpdateExpression:
      📄 Files WITH UpdateExpression (showing 10):
        • scripts/explain-types.ts
        • test/reporters/tests/custom-reporter.spec.ts
-       • test/cli/test/inspect.test.ts
        • test/core/test/test-extend-with-top-level-hooks.test.ts
        • test/core/test/sequential.test.ts
        • test/core/test/propagate-options-nested-suite.test.ts
@@ -1946,22 +1945,22 @@ Repository: sample-repos/vitest
        • test/core/test/lot-of-tests.test.ts
        • test/core/test/hooks.test.js
        • test/core/test/fn.test.ts
+       • test/core/test/fixture-concurrent-beforeEach.test.ts
      📄 Files WITHOUT UpdateExpression (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/vitest.config.ts
 
    ClassBody:
      📄 Files WITH ClassBody (showing 10):
        • test/test-utils/cli.ts
-       • test/reporters/reportPkg/index.js
        • test/reporters/tests/verbose.test.ts
        • test/reporters/tests/test-run.test.ts
        • test/reporters/tests/silent.test.ts
@@ -1969,18 +1968,19 @@ Repository: sample-repos/vitest
        • test/reporters/tests/console.test.ts
        • test/reporters/src/custom-reporter.ts
        • test/reporters/src/custom-reporter.js
+       • test/reporters/reportPkg/index.js
        • test/coverage-test/test/isolation.test.ts
      📄 Files WITHOUT ClassBody (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    MetaProperty:
      📄 Files WITH MetaProperty (showing 10):
@@ -1989,22 +1989,22 @@ Repository: sample-repos/vitest
        • test/snapshots/generate.mjs
        • packages/web-worker/rollup.config.js
        • packages/vitest/rollup.config.js
-       • packages/spy/rollup.config.js
        • packages/vite-node/rollup.config.js
-       • packages/runner/rollup.config.js
-       • packages/snapshot/rollup.config.js
-       • packages/mocker/rollup.config.js
+       • packages/utils/rollup.config.js
+       • packages/ui/vite.config.ts
+       • packages/ui/rollup.config.js
+       • packages/spy/rollup.config.js
      📄 Files WITHOUT MetaProperty (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/globalTest.ts
+       • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/vitest.config.ts
 
    RestElement:
      📄 Files WITH RestElement (showing 10):
@@ -2014,27 +2014,27 @@ Repository: sample-repos/vitest
        • packages/browser/context.d.ts
        • test/snapshots/test/summary.test.ts
        • test/reporters/tests/custom-reporter.spec.ts
-       • test/cli/test/list.test.ts
        • test/config/test/failures.test.ts
        • test/core/test/utils-display.spec.ts
        • test/core/test/test-for-suite.test.ts
+       • test/cli/test/list.test.ts
      📄 Files WITHOUT RestElement (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TryStatement:
      📄 Files WITH TryStatement (showing 10):
        • scripts/release.ts
-       • test/workspaces-browser/globalTest.ts
        • test/workspaces/globalTest.ts
+       • test/workspaces-browser/globalTest.ts
        • test/test-utils/index.ts
        • packages/vitest/rollup.config.js
        • test/ui/test/ui.spec.ts
@@ -2045,38 +2045,38 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT TryStatement (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/vitest.config.ts
 
    ClassDeclaration:
      📄 Files WITH ClassDeclaration (showing 10):
        • test/test-utils/cli.ts
-       • test/reporters/reportPkg/index.js
        • test/reporters/tests/test-run.test.ts
        • test/reporters/tests/silent.test.ts
        • test/reporters/tests/default.test.ts
        • test/reporters/tests/console.test.ts
        • test/reporters/src/custom-reporter.ts
        • test/reporters/src/custom-reporter.js
+       • test/reporters/reportPkg/index.js
        • test/coverage-test/test/isolation.test.ts
-       • test/cli/test/signal.test.ts
+       • test/core/src/mockedE.ts
      📄 Files WITHOUT ClassDeclaration (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSNullKeyword:
      📄 Files WITH TSNullKeyword (showing 10):
@@ -2088,32 +2088,32 @@ Repository: sample-repos/vitest
        • test/core/test/esnext.test.ts
        • test/core/test/define-web.test.ts
        • test/core/test/define-ssr.test.ts
+       • test/browser/test/userEvent.test.ts
        • packages/web-worker/src/worker.ts
-       • packages/web-worker/src/shared-worker.ts
      📄 Files WITHOUT TSNullKeyword (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    ExportDefaultDeclaration:
      📄 Files WITH ExportDefaultDeclaration (showing 10):
        • eslint.config.js
        • docs/vite.config.ts
        • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
        • test/workspaces/vitest.config.watch.ts
        • test/workspaces/vitest.config.ts
-       • test/typescript/vitest.config.fails.ts
+       • test/watch/vitest.config.ts
+       • test/vite-node/vitest.config.ts
        • test/ui/vitest.config.ts
        • test/ui/playwright.config.ts
+       • test/typescript/vitest.config.fails.ts
      📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
        • shims.d.ts
        • scripts/update-contributors.ts
@@ -2121,10 +2121,10 @@ Repository: sample-repos/vitest
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • test/workspaces-browser/globalTest.ts
        • test/workspaces/globalTest.ts
        • test/workspaces/cwdPlugin.js
        • test/workspaces/cwdPlugin.d.ts
+       • test/workspaces-browser/globalTest.ts
 
    SwitchCase:
      📄 Files WITH SwitchCase (showing 10):
@@ -2135,26 +2135,26 @@ Repository: sample-repos/vitest
        • packages/vitest/src/runtime/external-executor.ts
        • packages/vitest/src/node/watch-filter.ts
        • packages/vite-node/src/hmr/hmr.ts
-       • packages/mocker/src/browser/interceptor-msw.ts
-       • packages/ui/client/utils/task.ts
        • packages/utils/src/diff/joinAlignedDiffs.ts
+       • packages/utils/src/diff/index.ts
+       • packages/utils/src/diff/getAlignedDiffs.ts
      📄 Files WITHOUT SwitchCase (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/vitest.config.ts
 
    CatchClause:
      📄 Files WITH CatchClause (showing 10):
        • scripts/release.ts
-       • test/workspaces-browser/globalTest.ts
        • test/workspaces/globalTest.ts
+       • test/workspaces-browser/globalTest.ts
        • test/test-utils/index.ts
        • packages/vitest/rollup.config.js
        • test/ui/test/ui.spec.ts
@@ -2165,14 +2165,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT CatchClause (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/vitest.config.ts
 
    TSQualifiedName:
      📄 Files WITH TSQualifiedName (showing 10):
@@ -2180,23 +2180,23 @@ Repository: sample-repos/vitest
        • test/test-utils/index.ts
        • test/test-utils/cli.ts
        • test/global-setup/globalSetup/server.ts
-       • test/cli/test/scoped-fixtures.test.ts
        • test/config/test/failures.test.ts
+       • test/cli/test/scoped-fixtures.test.ts
        • packages/web-worker/src/utils.ts
        • packages/vite-node/src/utils.ts
-       • packages/coverage-v8/src/provider.ts
-       • packages/coverage-v8/src/index.ts
+       • packages/expect/src/utils.ts
+       • packages/expect/src/types.ts
      📄 Files WITHOUT TSQualifiedName (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    ArrayPattern:
      📄 Files WITH ArrayPattern (showing 10):
@@ -2207,20 +2207,20 @@ Repository: sample-repos/vitest
        • test/snapshots/test/test-update.test.ts
        • test/reporters/tests/merge-reports.test.ts
        • test/coverage-test/test/clean-on-rerun.test.ts
-       • test/cli/test/scoped-fixtures.test.ts
-       • test/cli/test/network-imports.test.ts
-       • test/cli/test/config-loader.test.ts
+       • test/config/test/exec-args.test.ts
+       • test/config/test/diff.test.ts
+       • test/core/test/utils.spec.ts
      📄 Files WITHOUT ArrayPattern (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/vitest.config.ts
 
    TSParenthesizedType:
      📄 Files WITH TSParenthesizedType (showing 10):
@@ -2233,18 +2233,18 @@ Repository: sample-repos/vitest
        • test/watch/test/file-watching.test.ts
        • test/reporters/tests/configuration-options.test-d.ts
        • test/coverage-test/test/configuration-options.test-d.ts
-       • test/cli/test/scoped-fixtures.test.ts
+       • test/core/test/expect.test-d.ts
      📄 Files WITHOUT TSParenthesizedType (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSTupleType:
      📄 Files WITH TSTupleType (showing 10):
@@ -2255,20 +2255,20 @@ Repository: sample-repos/vitest
        • packages/web-worker/src/worker.ts
        • packages/web-worker/src/shared-worker.ts
        • packages/vite-node/src/client.ts
-       • packages/runner/src/run.ts
-       • packages/runner/src/context.ts
        • packages/utils/src/display.ts
+       • packages/pretty-format/src/collections.ts
+       • packages/expect/src/jest-extend.ts
      📄 Files WITHOUT TSTupleType (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSIntersectionType:
      📄 Files WITH TSIntersectionType (showing 10):
@@ -2278,21 +2278,21 @@ Repository: sample-repos/vitest
        • test/core/test/snapshot-custom-serializer.test.ts
        • test/core/test/fixture-initialization.test.ts
        • test/browser/specs/utils.ts
-       • packages/spy/src/index.ts
        • packages/vite-node/src/client.ts
-       • packages/runner/src/suite.ts
-       • packages/runner/src/fixture.ts
+       • packages/utils/src/types.ts
+       • packages/utils/src/helpers.ts
+       • packages/spy/src/index.ts
      📄 Files WITHOUT TSIntersectionType (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    ImportExpression:
      📄 Files WITH ImportExpression (showing 10):
@@ -2309,38 +2309,38 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT ImportExpression (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSTypeOperator:
      📄 Files WITH TSTypeOperator (showing 10):
        • packages/browser/matchers.d.ts
        • packages/browser/context.d.ts
-       • packages/spy/src/index.ts
        • packages/vite-node/src/source-map-handler.ts
        • packages/vite-node/src/cli.ts
-       • packages/runner/src/suite.ts
-       • packages/runner/src/run.ts
-       • packages/runner/src/collect.ts
        • packages/utils/src/types.ts
        • packages/utils/src/helpers.ts
+       • packages/spy/src/index.ts
+       • packages/pretty-format/src/index.ts
+       • packages/expect/src/types.ts
+       • packages/expect/src/jest-expect.ts
      📄 Files WITHOUT TSTypeOperator (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSParameterProperty:
      📄 Files WITH TSParameterProperty (showing 10):
@@ -2352,19 +2352,19 @@ Repository: sample-repos/vitest
        • packages/vite-node/src/server.ts
        • packages/vite-node/src/debug.ts
        • packages/vite-node/src/client.ts
-       • packages/runner/src/errors.ts
        • packages/snapshot/src/manager.ts
+       • packages/snapshot/src/client.ts
      📄 Files WITHOUT TSParameterProperty (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    Super:
      📄 Files WITH Super (showing 10):
@@ -2375,20 +2375,20 @@ Repository: sample-repos/vitest
        • packages/web-worker/src/shared-worker.ts
        • packages/web-worker/src/runner.ts
        • packages/vite-node/src/client.ts
-       • packages/runner/src/errors.ts
        • packages/pretty-format/src/index.ts
        • packages/expect/src/jest-extend.ts
+       • packages/expect/src/jest-asymmetric-matchers.ts
      📄 Files WITHOUT Super (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSMethodSignature:
      📄 Files WITH TSMethodSignature (showing 8):
@@ -2403,14 +2403,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT TSMethodSignature (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSInterfaceHeritage:
      📄 Files WITH TSInterfaceHeritage (showing 10):
@@ -2419,46 +2419,46 @@ Repository: sample-repos/vitest
        • packages/browser/context.d.ts
        • test/typescript/test-d/expect-extend.test-d.ts
        • test/core/test/jest-expect.test.ts
-       • packages/spy/src/index.ts
        • packages/vite-node/src/types.ts
        • packages/vite-node/src/source-map-handler.ts
-       • packages/runner/src/fixture.ts
        • packages/utils/src/types.ts
+       • packages/utils/src/display.ts
+       • packages/spy/src/index.ts
      📄 Files WITHOUT TSInterfaceHeritage (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSConditionalType:
      📄 Files WITH TSConditionalType (showing 10):
        • packages/browser/matchers.d.ts
        • test/reporters/tests/configuration-options.test-d.ts
        • test/coverage-test/test/configuration-options.test-d.ts
-       • packages/spy/src/index.ts
        • packages/vite-node/src/cli.ts
+       • packages/utils/src/types.ts
+       • packages/spy/src/index.ts
+       • packages/expect/src/types.ts
        • packages/runner/src/run.ts
        • packages/runner/src/context.ts
-       • packages/utils/src/types.ts
-       • packages/expect/src/types.ts
        • packages/vitest/src/types/general.ts
      📄 Files WITHOUT TSConditionalType (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    ImportNamespaceSpecifier:
      📄 Files WITH ImportNamespaceSpecifier (showing 10):
@@ -2475,38 +2475,38 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT ImportNamespaceSpecifier (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSObjectKeyword:
      📄 Files WITH TSObjectKeyword (showing 10):
        • test/core/test/task-collector.test.ts
        • test/core/test/expect-poll.test.ts
-       • packages/spy/src/index.ts
-       • packages/runner/src/suite.ts
-       • packages/runner/src/hooks.ts
-       • packages/runner/src/fixture.ts
-       • packages/snapshot/src/client.ts
        • packages/utils/src/types.ts
        • packages/utils/src/helpers.ts
        • packages/utils/src/display.ts
+       • packages/spy/src/index.ts
+       • packages/snapshot/src/client.ts
+       • packages/expect/src/types.ts
+       • packages/expect/src/jest-utils.ts
+       • packages/expect/src/jest-asymmetric-matchers.ts
      📄 Files WITHOUT TSObjectKeyword (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    ForStatement:
      📄 Files WITH ForStatement (showing 10):
@@ -2515,22 +2515,22 @@ Repository: sample-repos/vitest
        • test/core/test/mocked.test.ts
        • test/core/test/lot-of-tests.test.ts
        • packages/vite-node/src/source-map-handler.ts
-       • packages/runner/src/suite.ts
-       • packages/runner/src/run.ts
-       • packages/runner/src/fixture.ts
-       • packages/runner/src/context.ts
        • packages/utils/src/offset.ts
+       • packages/utils/src/display.ts
+       • packages/pretty-format/src/collections.ts
+       • packages/expect/src/jest-utils.ts
+       • packages/runner/src/suite.ts
      📄 Files WITHOUT ForStatement (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/vitest.config.ts
 
    TSNamedTupleMember:
      📄 Files WITH TSNamedTupleMember (showing 10):
@@ -2540,45 +2540,45 @@ Repository: sample-repos/vitest
        • packages/expect/src/jest-expect.ts
        • packages/vitest/src/runtime/execute.ts
        • packages/vitest/src/node/pool.ts
+       • packages/ui/client/composables/navigation.ts
        • packages/runner/src/utils/limit-concurrency.ts
        • packages/runner/src/types/tasks.ts
        • packages/mocker/src/node/esmWalker.ts
-       • packages/ui/client/composables/navigation.ts
      📄 Files WITHOUT TSNamedTupleMember (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    ContinueStatement:
      📄 Files WITH ContinueStatement (showing 10):
        • scripts/explain-types.ts
        • test/config/test/failures.test.ts
        • packages/vite-node/src/client.ts
+       • packages/utils/src/helpers.ts
        • packages/runner/src/run.ts
        • packages/runner/src/fixture.ts
        • packages/mocker/src/automocker.ts
-       • packages/utils/src/helpers.ts
        • packages/vitest/src/node/watcher.ts
        • packages/vitest/src/node/project.ts
        • packages/vitest/src/node/printError.ts
      📄 Files WITHOUT ContinueStatement (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/vitest.config.ts
 
    TaggedTemplateExpression:
      📄 Files WITH TaggedTemplateExpression (showing 10):
@@ -2586,23 +2586,23 @@ Repository: sample-repos/vitest
        • scripts/publish-ci.ts
        • test/watch/test/config-watching.test.ts
        • test/reporters/tests/test-run.test.ts
-       • test/cli/test/fails.test.ts
        • test/config/test/node-sqlite.test.ts
        • test/core/test/utils.spec.ts
        • test/core/test/test-for.test.ts
        • test/core/test/test-for-suite.test.ts
        • test/core/test/snapshot-inline.test.ts
+       • test/core/test/each.test.ts
      📄 Files WITHOUT TaggedTemplateExpression (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
-       • test/workspaces-browser/globalTest.ts
+       • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/vitest.config.ts
+       • test/workspaces/globalTest.ts
 
    TSNeverKeyword:
      📄 Files WITH TSNeverKeyword (showing 10):
@@ -2611,46 +2611,46 @@ Repository: sample-repos/vitest
        • test/coverage-test/test/configuration-options.test-d.ts
        • test/core/test/vi.test-d.ts
        • packages/vitest/src/defaults.ts
+       • packages/utils/src/types.ts
        • packages/spy/src/index.ts
        • packages/runner/src/run.ts
        • packages/runner/src/context.ts
        • packages/runner/src/collect.ts
-       • packages/utils/src/types.ts
      📄 Files WITHOUT TSNeverKeyword (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    BreakStatement:
      📄 Files WITH BreakStatement (showing 10):
        • test/reporters/tests/test-run.test.ts
        • packages/vite-node/src/utils.ts
-       • packages/runner/src/run.ts
-       • packages/mocker/src/automocker.ts
        • packages/utils/src/offset.ts
        • packages/pretty-format/src/collections.ts
        • packages/expect/src/jest-utils.ts
        • packages/expect/src/jest-asymmetric-matchers.ts
+       • packages/runner/src/run.ts
+       • packages/mocker/src/automocker.ts
        • packages/vitest/src/utils/memory-limit.ts
        • packages/vitest/src/runtime/external-executor.ts
      📄 Files WITHOUT BreakStatement (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    ExportAllDeclaration:
      📄 Files WITH ExportAllDeclaration (showing 10):
@@ -2667,20 +2667,19 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT ExportAllDeclaration (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    WhileStatement:
      📄 Files WITH WhileStatement (showing 10):
        • test/reporters/tests/test-run.test.ts
        • test/browser/test/viewport.test.ts
-       • packages/spy/src/index.ts
        • packages/vite-node/src/utils.ts
        • packages/vite-node/src/source-map.ts
        • packages/vite-node/src/source-map-handler.ts
@@ -2688,48 +2687,49 @@ Repository: sample-repos/vitest
        • packages/utils/src/random.ts
        • packages/utils/src/nanoid.ts
        • packages/utils/src/helpers.ts
+       • packages/utils/src/error.ts
      📄 Files WITHOUT WhileStatement (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSSymbolKeyword:
      📄 Files WITH TSSymbolKeyword (showing 10):
-       • packages/spy/src/index.ts
        • packages/vite-node/src/client.ts
-       • packages/mocker/src/registry.ts
-       • packages/mocker/src/automocker.ts
        • packages/utils/src/helpers.ts
+       • packages/spy/src/index.ts
        • packages/pretty-format/src/index.ts
        • packages/pretty-format/src/collections.ts
        • packages/expect/src/jest-utils.ts
        • packages/expect/src/jest-asymmetric-matchers.ts
        • packages/expect/src/constants.ts
+       • packages/mocker/src/registry.ts
+       • packages/mocker/src/automocker.ts
      📄 Files WITHOUT TSSymbolKeyword (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSCallSignatureDeclaration:
      📄 Files WITH TSCallSignatureDeclaration (showing 10):
        • test/core/test/vi.spec.ts
        • test/core/test/jest-mock.test.ts
-       • packages/spy/src/index.ts
        • packages/utils/src/timers.ts
+       • packages/spy/src/index.ts
        • packages/expect/src/types.ts
        • packages/vitest/src/types/global.ts
        • packages/vitest/src/typecheck/assertType.ts
@@ -2739,45 +2739,45 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT TSCallSignatureDeclaration (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSSatisfiesExpression:
      📄 Files WITH TSSatisfiesExpression (showing 10):
        • test/reporters/tests/console.test.ts
        • test/config/test/get-state.test.ts
        • test/core/test/jest-expect.test.ts
-       • packages/runner/src/collect.ts
        • packages/pretty-format/src/index.ts
        • packages/expect/src/utils.ts
        • packages/expect/src/jest-expect.ts
+       • packages/runner/src/collect.ts
        • test/cli/deps/linked/index.ts
+       • packages/vitest/src/runtime/worker.ts
        • packages/vitest/src/typecheck/typechecker.ts
-       • packages/vitest/src/typecheck/collect.ts
      📄 Files WITHOUT TSSatisfiesExpression (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSTypePredicate:
      📄 Files WITH TSTypePredicate (showing 10):
        • test/test-utils/cli.ts
        • test/core/test/expect.test.ts
-       • packages/spy/src/index.ts
        • packages/utils/src/helpers.ts
+       • packages/spy/src/index.ts
        • packages/pretty-format/src/index.ts
        • packages/pretty-format/src/collections.ts
        • packages/expect/src/jest-utils.ts
@@ -2787,14 +2787,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT TSTypePredicate (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSModuleDeclaration:
      📄 Files WITH TSModuleDeclaration (showing 10):
@@ -2811,14 +2811,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT TSModuleDeclaration (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSModuleBlock:
      📄 Files WITH TSModuleBlock (showing 10):
@@ -2835,38 +2835,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT TSModuleBlock (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-
-   ForInStatement:
-     📄 Files WITH ForInStatement (showing 10):
-       • scripts/explain-types.ts
-       • test/test-utils/index.ts
-       • packages/vite-node/src/client.ts
-       • packages/vite-node/src/cli.ts
-       • packages/runner/src/fixture.ts
-       • packages/runner/src/collect.ts
-       • packages/coverage-istanbul/src/index.ts
-       • packages/expect/src/jest-utils.ts
-       • packages/expect/src/jest-expect.ts
-       • packages/vitest/src/runtime/setup-common.ts
-     📄 Files WITHOUT ForInStatement (showing 10):
-       • shims.d.ts
-       • eslint.config.js
-       • scripts/update-contributors.ts
-       • scripts/release.ts
-       • scripts/publish-ci.ts
-       • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    SwitchStatement:
      📄 Files WITH SwitchStatement (showing 10):
@@ -2877,20 +2853,44 @@ Repository: sample-repos/vitest
        • packages/vitest/src/runtime/external-executor.ts
        • packages/vitest/src/node/watch-filter.ts
        • packages/vite-node/src/hmr/hmr.ts
-       • packages/mocker/src/browser/interceptor-msw.ts
-       • packages/ui/client/utils/task.ts
        • packages/utils/src/diff/joinAlignedDiffs.ts
+       • packages/utils/src/diff/index.ts
+       • packages/utils/src/diff/getAlignedDiffs.ts
      📄 Files WITHOUT SwitchStatement (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
+       • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/vitest.config.ts
+
+   ForInStatement:
+     📄 Files WITH ForInStatement (showing 10):
+       • scripts/explain-types.ts
+       • test/test-utils/index.ts
+       • packages/vite-node/src/client.ts
+       • packages/vite-node/src/cli.ts
+       • packages/expect/src/jest-utils.ts
+       • packages/expect/src/jest-expect.ts
+       • packages/coverage-istanbul/src/index.ts
+       • packages/runner/src/fixture.ts
+       • packages/runner/src/collect.ts
+       • packages/vitest/src/runtime/setup-common.ts
+     📄 Files WITHOUT ForInStatement (showing 10):
+       • shims.d.ts
+       • eslint.config.js
        • docs/vite.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
+       • docs/pwa-assets.config.ts
+       • scripts/update-contributors.ts
+       • scripts/release.ts
+       • scripts/publish-ci.ts
+       • scripts/build-utils.js
+       • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/vitest.config.ts
 
    TSClassImplements:
      📄 Files WITH TSClassImplements (showing 10):
@@ -2898,23 +2898,23 @@ Repository: sample-repos/vitest
        • test/reporters/src/custom-reporter.ts
        • test/cli/test/signal.test.ts
        • packages/ui/node/reporter.ts
+       • packages/expect/src/jest-asymmetric-matchers.ts
        • packages/coverage-v8/src/provider.ts
        • packages/coverage-istanbul/src/provider.ts
-       • packages/expect/src/jest-asymmetric-matchers.ts
        • packages/vitest/src/api/setup.ts
        • packages/snapshot/src/env/node.ts
-       • packages/mocker/src/browser/interceptor-native.ts
+       • packages/browser/src/node/state.ts
      📄 Files WITHOUT TSClassImplements (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    JSXIdentifier:
      📄 Files WITH JSXIdentifier (showing 5):
@@ -2926,14 +2926,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT JSXIdentifier (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    YieldExpression:
      📄 Files WITH YieldExpression (showing 7):
@@ -2947,22 +2947,22 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT YieldExpression (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSMappedType:
      📄 Files WITH TSMappedType (showing 10):
        • packages/browser/matchers.d.ts
        • packages/browser/context.d.ts
-       • packages/spy/src/index.ts
        • packages/vite-node/src/cli.ts
        • packages/utils/src/types.ts
+       • packages/spy/src/index.ts
        • packages/expect/src/types.ts
        • packages/vitest/src/types/global.ts
        • packages/vitest/src/typecheck/types.ts
@@ -2971,36 +2971,36 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT TSMappedType (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSEmptyBodyFunctionExpression:
      📄 Files WITH TSEmptyBodyFunctionExpression (showing 8):
        • test/core/test/vi.spec.ts
        • test/core/test/jest-mock.test.ts
-       • packages/mocker/src/registry.ts
        • packages/expect/src/jest-expect.ts
        • packages/expect/src/jest-asymmetric-matchers.ts
+       • packages/mocker/src/registry.ts
        • packages/vitest/src/runtime/vm/types.ts
        • packages/vitest/src/integrations/mock/date.ts
        • packages/browser/src/client/tester/locators/index.ts
      📄 Files WITHOUT TSEmptyBodyFunctionExpression (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    PrivateIdentifier:
      📄 Files WITH PrivateIdentifier (showing 3):
@@ -3010,14 +3010,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT PrivateIdentifier (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSDeclareFunction:
      📄 Files WITH TSDeclareFunction (showing 10):
@@ -3034,73 +3034,73 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT TSDeclareFunction (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSThisType:
      📄 Files WITH TSThisType (showing 4):
-       • packages/spy/src/index.ts
        • packages/vite-node/src/client.ts
+       • packages/spy/src/index.ts
        • packages/browser/providers/playwright.d.ts
        • packages/vitest/src/node/watcher.ts
      📄 Files WITHOUT TSThisType (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSBigIntKeyword:
      📄 Files WITH TSBigIntKeyword (showing 4):
        • packages/pretty-format/src/index.ts
-       • examples/profiling/src/prime-number.ts
        • packages/expect/src/types.ts
        • packages/expect/src/jest-expect.ts
+       • examples/profiling/src/prime-number.ts
      📄 Files WITHOUT TSBigIntKeyword (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSInferType:
      📄 Files WITH TSInferType (showing 9):
        • packages/browser/matchers.d.ts
+       • packages/utils/src/types.ts
        • packages/spy/src/index.ts
+       • packages/expect/src/types.ts
        • packages/runner/src/run.ts
        • packages/runner/src/context.ts
-       • packages/utils/src/types.ts
-       • packages/expect/src/types.ts
        • packages/vitest/src/types/general.ts
        • packages/runner/src/types/tasks.ts
        • packages/vitest/src/node/cli/cli-api.ts
      📄 Files WITHOUT TSInferType (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    ClassExpression:
      📄 Files WITH ClassExpression (showing 10):
@@ -3117,14 +3117,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT ClassExpression (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    JSXText:
      📄 Files WITH JSXText (showing 5):
@@ -3136,21 +3136,21 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT JSXText (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSConstructSignatureDeclaration:
      📄 Files WITH TSConstructSignatureDeclaration (showing 8):
        • test/core/types/vite.d.ts
        • test/core/test/jest-mock.test.ts
-       • packages/spy/src/index.ts
        • packages/utils/src/types.ts
+       • packages/spy/src/index.ts
        • packages/runner/src/types/runner.ts
        • packages/vitest/src/node/sequencers/types.ts
        • packages/vitest/src/node/types/browser.ts
@@ -3158,14 +3158,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT TSConstructSignatureDeclaration (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSIndexSignature:
      📄 Files WITH TSIndexSignature (showing 10):
@@ -3173,8 +3173,8 @@ Repository: sample-repos/vitest
        • test/coverage-test/test/threshold-100.test.ts
        • test/core/types/vite.d.ts
        • test/core/types/env.d.ts
-       • packages/runner/src/fixture.ts
        • packages/utils/src/types.ts
+       • packages/runner/src/fixture.ts
        • packages/vitest/src/types/environment.ts
        • packages/vitest/src/node/specifications.ts
        • packages/vitest/src/node/coverage.ts
@@ -3182,14 +3182,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT TSIndexSignature (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    EmptyStatement:
      📄 Files WITH EmptyStatement (showing 10):
@@ -3206,14 +3206,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT EmptyStatement (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSTypeAssertion:
      📄 Files WITH TSTypeAssertion (showing 10):
@@ -3230,14 +3230,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT TSTypeAssertion (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    JSXElement:
      📄 Files WITH JSXElement (showing 5):
@@ -3249,14 +3249,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT JSXElement (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    JSXOpeningElement:
      📄 Files WITH JSXOpeningElement (showing 5):
@@ -3268,14 +3268,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT JSXOpeningElement (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    JSXClosingElement:
      📄 Files WITH JSXClosingElement (showing 5):
@@ -3287,14 +3287,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT JSXClosingElement (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    JSXExpressionContainer:
      📄 Files WITH JSXExpressionContainer (showing 2):
@@ -3303,14 +3303,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT JSXExpressionContainer (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    JSXAttribute:
      📄 Files WITH JSXAttribute (showing 3):
@@ -3320,14 +3320,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT JSXAttribute (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSAbstractMethodDefinition:
      📄 Files WITH TSAbstractMethodDefinition (showing 3):
@@ -3337,14 +3337,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT TSAbstractMethodDefinition (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSRestType:
      📄 Files WITH TSRestType (showing 2):
@@ -3353,14 +3353,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT TSRestType (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSConstructorType:
      📄 Files WITH TSConstructorType (showing 3):
@@ -3370,14 +3370,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT TSConstructorType (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    SequenceExpression:
      📄 Files WITH SequenceExpression (showing 3):
@@ -3387,14 +3387,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT SequenceExpression (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    Hashbang:
      📄 Files WITH Hashbang (showing 4):
@@ -3405,14 +3405,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT Hashbang (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
-       • test/workspaces-browser/vitest.config.ts
-       • test/workspaces-browser/globalTest.ts
+       • test/workspaces/vitest.config.watch.ts
+       • test/workspaces/vitest.config.ts
+       • test/workspaces/globalTest.ts
 
    Decorator:
      📄 Files WITH Decorator (showing 2):
@@ -3421,14 +3421,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT Decorator (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    ImportAttribute:
      📄 Files WITH ImportAttribute (showing 4):
@@ -3439,14 +3439,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT ImportAttribute (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSTemplateLiteralType:
      📄 Files WITH TSTemplateLiteralType (showing 3):
@@ -3456,14 +3456,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT TSTemplateLiteralType (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSOptionalType:
      📄 Files WITH TSOptionalType (showing 2):
@@ -3472,14 +3472,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT TSOptionalType (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    DoWhileStatement:
      📄 Files WITH DoWhileStatement (showing 1):
@@ -3487,14 +3487,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT DoWhileStatement (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSExportAssignment:
      📄 Files WITH TSExportAssignment (showing 1):
@@ -3502,14 +3502,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT TSExportAssignment (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
    TSAbstractPropertyDefinition:
      📄 Files WITH TSAbstractPropertyDefinition (showing 1):
@@ -3517,14 +3517,14 @@ Repository: sample-repos/vitest
      📄 Files WITHOUT TSAbstractPropertyDefinition (showing 10):
        • shims.d.ts
        • eslint.config.js
+       • docs/vite.config.ts
+       • docs/pwa-assets.config.ts
        • scripts/update-contributors.ts
        • scripts/release.ts
        • scripts/publish-ci.ts
        • scripts/explain-types.ts
        • scripts/build-utils.js
-       • docs/vite.config.ts
-       • docs/pwa-assets.config.ts
-       • test/vite-node/vitest.config.ts
+       • test/workspaces/vitest.config.watch.ts
 
 ============================================================
 ✅ Analysis complete!

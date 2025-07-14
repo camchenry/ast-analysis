@@ -1,5 +1,5 @@
 AST Analysis Report for babel
-Generated on: 2025-07-14T01:41:51.822Z
+Generated on: 2025-07-14T01:56:13.511Z
 Repository: sample-repos/babel
 ================================================================================
 
@@ -322,9 +322,9 @@ Repository: sample-repos/babel
        • packages/babel-cli/bin/babel-external-helpers.mjs
        • packages/babel-plugin-transform-regenerator/test/regenerator-fixtures/non-native.js
        • packages/babel-generator/src/generators/index.ts
-       • packages/babel-parser/test/expressions/esprima/expression-grouping/migrated_0001/input.js
-       • packages/babel-parser/test/expressions/esprima/expression-grouping/migrated_0000/input.js
-       • packages/babel-parser/test/expressions/es2022/top-level-await/script/input.js
+       • packages/babel-parser/test/expressions/is-expression-babel-parser/fail/two-identifiers/input.js
+       • packages/babel-parser/test/expressions/is-expression-babel-parser/fail/trailing-dangle-right-bracket/input.js
+       • packages/babel-parser/test/expressions/is-expression-babel-parser/fail/leading-dangle-right-bracket/input.js
 
    MemberExpression:
      📄 Files WITH MemberExpression (showing 10):
@@ -396,7 +396,7 @@ Repository: sample-repos/babel
        • lib/archived-libs.d.ts
        • scripts/repo-utils/babel.js
        • scripts/babel-plugin-bit-decorator/types.d.ts
-       • packages/babel-cli/index.js
+       • benchmark/babel-helper-validator-identifier/identifier.bench.mjs
 
    TSTypeReference:
      📄 Files WITH TSTypeReference (showing 10):
@@ -405,11 +405,11 @@ Repository: sample-repos/babel
        • lib/babel-plugin-dynamic-import-node.d.ts
        • lib/archived-libs.d.ts
        • scripts/babel-plugin-bit-decorator/types.d.ts
-       • packages/babel-traverse/src/visitors.ts
-       • packages/babel-traverse/src/types.ts
-       • packages/babel-traverse/src/traverse-node.ts
-       • packages/babel-traverse/src/index.ts
-       • packages/babel-traverse/src/hub.ts
+       • codemods/babel-plugin-codemod-optional-catch-binding/src/index.ts
+       • codemods/babel-plugin-codemod-object-assign-to-object-spread/src/index.ts
+       • packages/babel-standalone/src/transformScriptTags.ts
+       • packages/babel-standalone/src/index.ts
+       • packages/babel-template/src/string.ts
      📄 Files WITHOUT TSTypeReference (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -503,9 +503,9 @@ Repository: sample-repos/babel
        • lib/babel-plugin-dynamic-import-node.d.ts
        • lib/archived-libs.d.ts
        • scripts/babel-plugin-bit-decorator/types.d.ts
-       • packages/babel-traverse/src/visitors.ts
-       • packages/babel-traverse/src/types.ts
-       • packages/babel-traverse/src/traverse-node.ts
+       • codemods/babel-plugin-codemod-optional-catch-binding/src/index.ts
+       • codemods/babel-plugin-codemod-object-assign-to-object-spread/src/index.ts
+       • packages/babel-standalone/src/transformScriptTags.ts
      📄 Files WITHOUT TSTypeAnnotation (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -625,7 +625,7 @@ Repository: sample-repos/babel
        • scripts/parser-tests/typescript/index.js
        • scripts/parser-tests/test262/index.js
        • scripts/parser-tests/flow/index.js
-       • packages/babel-traverse/src/visitors.ts
+       • packages/babel-runtime-corejs3/test/index.spec.js
      📄 Files WITHOUT ThisExpression (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -665,14 +665,14 @@ Repository: sample-repos/babel
    TSQualifiedName:
      📄 Files WITH TSQualifiedName (showing 10):
        • lib/babel-plugin-dynamic-import-node.d.ts
+       • packages/babel-template/src/populate.ts
+       • packages/babel-template/src/parse.ts
+       • packages/babel-template/src/formatters.ts
        • packages/babel-traverse/src/types.ts
        • packages/babel-traverse/src/traverse-node.ts
        • packages/babel-traverse/src/index.ts
        • packages/babel-traverse/src/context.ts
        • packages/babel-preset-typescript/src/plugin-rewrite-ts-imports.ts
-       • packages/babel-template/src/populate.ts
-       • packages/babel-template/src/parse.ts
-       • packages/babel-template/src/formatters.ts
        • packages/babel-plugin-transform-typescript/src/namespace.ts
      📄 Files WITHOUT TSQualifiedName (showing 10):
        • yarn.config.cjs
@@ -745,7 +745,7 @@ Repository: sample-repos/babel
        • scripts/rollup-plugin-standalone-internals.js
        • scripts/rollup-plugin-babel-source.js
        • scripts/rename-proposal-to-transform.js
-       • test/esm/babel-runtime-corejs3.js
+       • test/runtime-integration/node.cjs
      📄 Files WITHOUT LogicalExpression (showing 10):
        • jest.config.js
        • eslint.config.mjs
@@ -835,13 +835,13 @@ Repository: sample-repos/babel
        • lib/third-party-libs.d.ts
        • lib/archived-libs.d.ts
        • scripts/babel-plugin-bit-decorator/types.d.ts
-       • packages/babel-traverse/src/visitors.ts
-       • packages/babel-traverse/src/types.ts
-       • packages/babel-traverse/src/traverse-node.ts
-       • packages/babel-traverse/src/index.ts
-       • packages/babel-traverse/src/context.ts
-       • packages/babel-traverse/src/cache.ts
        • packages/babel-standalone/src/transformScriptTags.ts
+       • packages/babel-standalone/src/index.ts
+       • packages/babel-template/src/string.ts
+       • packages/babel-template/src/populate.ts
+       • packages/babel-template/src/parse.ts
+       • packages/babel-template/src/options.ts
+       • packages/babel-template/src/literal.ts
      📄 Files WITHOUT TSTypeParameterInstantiation (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -933,11 +933,11 @@ Repository: sample-repos/babel
        • lib/globals.d.ts
        • lib/archived-libs.d.ts
        • scripts/babel-plugin-bit-decorator/types.d.ts
-       • packages/babel-traverse/src/types.ts
-       • packages/babel-traverse/src/index.ts
        • packages/babel-standalone/src/transformScriptTags.ts
-       • packages/babel-preset-typescript/src/normalize-options.ts
-       • packages/babel-preset-react/src/index.ts
+       • packages/babel-template/src/parse.ts
+       • packages/babel-template/src/options.ts
+       • packages/babel-template/src/literal.ts
+       • packages/babel-template/src/index.ts
      📄 Files WITHOUT TSPropertySignature (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -954,14 +954,14 @@ Repository: sample-repos/babel
      📄 Files WITH TSUnionType (showing 10):
        • lib/regexpu-core.d.ts
        • lib/globals.d.ts
+       • packages/babel-standalone/src/transformScriptTags.ts
+       • packages/babel-template/src/parse.ts
+       • packages/babel-template/src/options.ts
+       • packages/babel-template/src/builder.ts
        • packages/babel-traverse/src/visitors.ts
        • packages/babel-traverse/src/types.ts
        • packages/babel-traverse/src/index.ts
        • packages/babel-traverse/src/hub.ts
-       • packages/babel-traverse/src/context.ts
-       • packages/babel-standalone/src/transformScriptTags.ts
-       • packages/babel-preset-typescript/src/plugin-rewrite-ts-imports.ts
-       • packages/babel-preset-react/src/index.ts
      📄 Files WITHOUT TSUnionType (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -1031,9 +1031,9 @@ Repository: sample-repos/babel
        • benchmark/util.mjs
        • scripts/repo-utils/babel.js
        • scripts/babel-plugin-bit-decorator/types.d.ts
-       • packages/babel-traverse/src/visitors.ts
-       • packages/babel-traverse/src/types.ts
-       • packages/babel-traverse/src/traverse-node.ts
+       • packages/babel-standalone/src/transformScriptTags.ts
+       • packages/babel-standalone/src/plugin-utils-shim.ts
+       • packages/babel-standalone/src/index.ts
      📄 Files WITHOUT ExportNamedDeclaration (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -1078,8 +1078,8 @@ Repository: sample-repos/babel
        • Makefile.mjs
        • Gulpfile.mjs
        • scripts/rename-proposal-to-transform.js
-       • test/esm/index.js
        • test/runtime-integration/node.cjs
+       • test/esm/index.js
        • scripts/parallel-tsc/tsc.js
        • scripts/babel-plugin-transform-node-protocol-import/plugin.cjs
      📄 Files WITHOUT ParenthesizedExpression (showing 10):
@@ -1120,10 +1120,10 @@ Repository: sample-repos/babel
 
    TSNullKeyword:
      📄 Files WITH TSNullKeyword (showing 10):
-       • packages/babel-traverse/src/visitors.ts
-       • packages/babel-traverse/src/context.ts
        • packages/babel-standalone/src/transformScriptTags.ts
        • packages/babel-template/src/options.ts
+       • packages/babel-traverse/src/visitors.ts
+       • packages/babel-traverse/src/context.ts
        • packages/babel-preset-env/src/shipped-proposals.ts
        • packages/babel-preset-env/src/normalize-options.ts
        • packages/babel-preset-env/src/index.ts
@@ -1171,13 +1171,13 @@ Repository: sample-repos/babel
        • lib/regexpu-core.d.ts
        • lib/babel-plugin-dynamic-import-node.d.ts
        • scripts/babel-plugin-bit-decorator/types.d.ts
+       • packages/babel-standalone/src/transformScriptTags.ts
+       • packages/babel-standalone/src/index.ts
+       • packages/babel-template/src/parse.ts
+       • packages/babel-template/src/options.ts
        • packages/babel-traverse/src/visitors.ts
        • packages/babel-traverse/src/types.ts
        • packages/babel-traverse/src/index.ts
-       • packages/babel-standalone/src/transformScriptTags.ts
-       • packages/babel-standalone/src/index.ts
-       • packages/babel-preset-typescript/src/normalize-options.ts
-       • packages/babel-preset-react/src/index.ts
      📄 Files WITHOUT TSLiteralType (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -1196,12 +1196,12 @@ Repository: sample-repos/babel
        • Makefile.mjs
        • Gulpfile.mjs
        • eslint/babel-eslint-parser/test/typescript-estree.test.js
+       • benchmark/babel-types/validators/isExpression.mjs
        • packages/babel-traverse/test/scope.js
        • packages/babel-types/test/fields.js
        • packages/babel-plugin-transform-typescript/src/namespace.ts
        • packages/babel-plugin-transform-typescript/src/index.ts
        • packages/babel-plugin-transform-typescript/src/enum.ts
-       • packages/babel-plugin-transform-react-jsx/src/create-plugin.ts
      📄 Files WITHOUT SwitchCase (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -1243,13 +1243,13 @@ Repository: sample-repos/babel
        • lib/regexpu-core.d.ts
        • lib/kexec.d.ts
        • lib/globals.d.ts
-       • packages/babel-traverse/src/visitors.ts
-       • packages/babel-traverse/src/types.ts
-       • packages/babel-traverse/src/traverse-node.ts
-       • packages/babel-traverse/src/index.ts
-       • packages/babel-traverse/src/hub.ts
-       • packages/babel-traverse/src/context.ts
        • packages/babel-standalone/src/transformScriptTags.ts
+       • packages/babel-standalone/src/index.ts
+       • packages/babel-standalone/src/babel-package-shim.ts
+       • packages/babel-template/src/string.ts
+       • packages/babel-template/src/parse.ts
+       • packages/babel-template/src/options.ts
+       • packages/babel-template/src/literal.ts
      📄 Files WITHOUT TSStringKeyword (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -1314,14 +1314,14 @@ Repository: sample-repos/babel
      📄 Files WITH TSBooleanKeyword (showing 10):
        • lib/globals.d.ts
        • scripts/babel-plugin-bit-decorator/types.d.ts
+       • packages/babel-standalone/src/transformScriptTags.ts
+       • packages/babel-template/src/parse.ts
+       • packages/babel-template/src/options.ts
        • packages/babel-traverse/src/traverse-node.ts
        • packages/babel-traverse/src/index.ts
        • packages/babel-traverse/src/context.ts
-       • packages/babel-standalone/src/transformScriptTags.ts
        • packages/babel-preset-typescript/src/normalize-options.ts
        • packages/babel-preset-typescript/src/index.ts
-       • packages/babel-preset-react/src/index.ts
-       • packages/babel-template/src/parse.ts
      📄 Files WITHOUT TSBooleanKeyword (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -1359,7 +1359,7 @@ Repository: sample-repos/babel
        • packages/babel-plugin-transform-explicit-resource-management/src/index.ts
        • packages/babel-plugin-transform-destructuring/src/util.ts
        • packages/babel-plugin-transform-block-scoping/src/index.ts
-       • packages/babel-plugin-proposal-pipeline-operator/src/buildOptimizedSequenceExpression.ts
+       • packages/babel-plugin-proposal-function-sent/src/index.ts
      📄 Files WITHOUT TSTypePredicate (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -1381,8 +1381,8 @@ Repository: sample-repos/babel
        • packages/babel-traverse/src/hub.ts
        • packages/babel-traverse/src/context.ts
        • packages/babel-plugin-transform-destructuring/src/util.ts
-       • packages/babel-helper-validator-option/src/validator.ts
        • packages/babel-helper-replace-supers/src/index.ts
+       • packages/babel-helper-validator-option/src/validator.ts
        • packages/babel-helper-module-imports/src/import-injector.ts
      📄 Files WITHOUT MethodDefinition (showing 10):
        • yarn.config.cjs
@@ -1406,8 +1406,8 @@ Repository: sample-repos/babel
        • scripts/set-module-type.js
        • scripts/repo-utils/index.cjs
        • scripts/babel-plugin-bit-decorator/plugin.cjs
-       • scripts/generators/tsconfig.js
        • scripts/actions/repl.js
+       • scripts/generators/tsconfig.js
      📄 Files WITHOUT ThrowStatement (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -1422,16 +1422,16 @@ Repository: sample-repos/babel
 
    TSAsExpression:
      📄 Files WITH TSAsExpression (showing 10):
-       • packages/babel-traverse/src/visitors.ts
-       • packages/babel-traverse/src/index.ts
-       • packages/babel-traverse/src/context.ts
        • packages/babel-standalone/src/transformScriptTags.ts
        • packages/babel-standalone/src/make-noop-plugin.ts
-       • packages/babel-preset-typescript/src/plugin-rewrite-ts-imports.ts
        • packages/babel-template/src/populate.ts
        • packages/babel-template/src/parse.ts
        • packages/babel-template/src/options.ts
        • packages/babel-template/src/index.ts
+       • packages/babel-template/src/builder.ts
+       • packages/babel-traverse/src/visitors.ts
+       • packages/babel-traverse/src/index.ts
+       • packages/babel-traverse/src/context.ts
      📄 Files WITHOUT TSAsExpression (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -1447,12 +1447,12 @@ Repository: sample-repos/babel
    SequenceExpression:
      📄 Files WITH SequenceExpression (showing 10):
        • Makefile.mjs
+       • packages/babel-runtime-corejs3/helpers/dispose.js
        • packages/babel-runtime-corejs2/helpers/typeof.js
        • packages/babel-runtime-corejs2/helpers/toArray.js
        • packages/babel-runtime-corejs2/helpers/temporalRef.js
        • packages/babel-runtime-corejs2/helpers/possibleConstructorReturn.js
        • packages/babel-runtime-corejs2/helpers/iterableToArray.js
-       • packages/babel-runtime-corejs3/helpers/dispose.js
        • packages/babel-runtime/helpers/typeof.js
        • packages/babel-runtime/helpers/toArray.js
        • packages/babel-runtime/helpers/temporalRef.js
@@ -1470,10 +1470,10 @@ Repository: sample-repos/babel
 
    TSUndefinedKeyword:
      📄 Files WITH TSUndefinedKeyword (showing 10):
+       • packages/babel-standalone/src/transformScriptTags.ts
        • packages/babel-traverse/src/visitors.ts
        • packages/babel-traverse/src/index.ts
        • packages/babel-traverse/src/context.ts
-       • packages/babel-standalone/src/transformScriptTags.ts
        • packages/babel-preset-env/src/normalize-options.ts
        • packages/babel-preset-env/src/index.ts
        • packages/babel-plugin-transform-typescript/src/enum.ts
@@ -1499,11 +1499,11 @@ Repository: sample-repos/babel
        • lib/babel-plugin-dynamic-import-node.d.ts
        • benchmark/util.mjs
        • scripts/repo-utils/babel.js
+       • packages/babel-standalone/src/plugin-utils-shim.ts
+       • packages/babel-template/src/options.ts
+       • packages/babel-template/src/index.ts
        • packages/babel-traverse/src/visitors.ts
        • packages/babel-traverse/src/index.ts
-       • packages/babel-traverse/src/cache.ts
-       • packages/babel-standalone/src/plugin-utils-shim.ts
-       • packages/babel-types/src/index.ts
      📄 Files WITHOUT ExportSpecifier (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -1519,15 +1519,15 @@ Repository: sample-repos/babel
    TSArrayType:
      📄 Files WITH TSArrayType (showing 10):
        • lib/kexec.d.ts
+       • packages/babel-standalone/src/transformScriptTags.ts
        • packages/babel-traverse/src/visitors.ts
        • packages/babel-traverse/src/types.ts
        • packages/babel-traverse/src/traverse-node.ts
        • packages/babel-traverse/src/index.ts
        • packages/babel-traverse/src/context.ts
-       • packages/babel-standalone/src/transformScriptTags.ts
-       • packages/babel-preset-flow/src/index.ts
        • packages/babel-preset-env/src/plugins-compat-data.ts
        • packages/babel-preset-env/src/normalize-options.ts
+       • packages/babel-preset-env/src/filter-items.ts
      📄 Files WITHOUT TSArrayType (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -1548,9 +1548,9 @@ Repository: sample-repos/babel
        • packages/babel-plugin-proposal-record-and-tuple/src/index.ts
        • packages/babel-parser/src/types.ts
        • packages/babel-parser/src/parse-error.ts
-       • packages/babel-helper-validator-option/src/validator.ts
        • packages/babel-helper-transform-fixture-test-runner/src/helpers.ts
        • packages/babel-helper-plugin-utils/src/index.ts
+       • packages/babel-helper-validator-option/src/validator.ts
        • packages/babel-helper-module-transforms/src/rewrite-live-references.ts
      📄 Files WITHOUT TSObjectKeyword (showing 10):
        • yarn.config.cjs
@@ -1572,8 +1572,8 @@ Repository: sample-repos/babel
        • packages/babel-parser/src/types.ts
        • packages/babel-helper-string-parser/src/index.ts
        • packages/babel-helper-replace-supers/src/index.ts
-       • packages/babel-helper-member-expression-to-functions/src/index.ts
        • packages/babel-helper-create-class-features-plugin/src/fields.ts
+       • packages/babel-helper-member-expression-to-functions/src/index.ts
        • packages/babel-generator/src/printer.ts
        • packages/babel-generator/src/index.ts
      📄 Files WITHOUT TSMethodSignature (showing 10):
@@ -1590,9 +1590,6 @@ Repository: sample-repos/babel
 
    TSAnyKeyword:
      📄 Files WITH TSAnyKeyword (showing 10):
-       • packages/babel-traverse/src/visitors.ts
-       • packages/babel-traverse/src/index.ts
-       • packages/babel-traverse/src/hub.ts
        • packages/babel-standalone/src/preset-stage-3.ts
        • packages/babel-standalone/src/preset-stage-2.ts
        • packages/babel-standalone/src/preset-stage-1.ts
@@ -1600,6 +1597,9 @@ Repository: sample-repos/babel
        • packages/babel-standalone/src/preset-es2015.ts
        • packages/babel-standalone/src/plugin-utils-shim.ts
        • packages/babel-standalone/src/make-noop-plugin.ts
+       • packages/babel-standalone/src/index.ts
+       • packages/babel-template/src/populate.ts
+       • packages/babel-template/src/parse.ts
      📄 Files WITHOUT TSAnyKeyword (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -1622,7 +1622,7 @@ Repository: sample-repos/babel
        • packages/babel-preset-react/src/index.ts
        • packages/babel-plugin-transform-unicode-property-regex/src/index.ts
        • packages/babel-plugin-transform-typescript/src/index.ts
-       • packages/babel-plugin-transform-runtime/src/index.ts
+       • packages/babel-plugin-transform-spread/src/index.ts
        • packages/babel-plugin-transform-template-literals/src/index.ts
      📄 Files WITHOUT TSInterfaceDeclaration (showing 10):
        • yarn.config.cjs
@@ -1646,7 +1646,7 @@ Repository: sample-repos/babel
        • packages/babel-preset-react/src/index.ts
        • packages/babel-plugin-transform-unicode-property-regex/src/index.ts
        • packages/babel-plugin-transform-typescript/src/index.ts
-       • packages/babel-plugin-transform-runtime/src/index.ts
+       • packages/babel-plugin-transform-spread/src/index.ts
        • packages/babel-plugin-transform-template-literals/src/index.ts
      📄 Files WITHOUT TSInterfaceBody (showing 10):
        • yarn.config.cjs
@@ -1714,7 +1714,7 @@ Repository: sample-repos/babel
        • scripts/generate-babel-7-tests.mjs
        • scripts/cleanup-fixtures.js
        • benchmark/update-baselines.mjs
-       • test/esm/test-runner.js
+       • test/runtime-integration/generate-absolute-runtime.cjs
      📄 Files WITHOUT ForOfStatement (showing 10):
        • jest.config.js
        • eslint.config.mjs
@@ -1732,13 +1732,13 @@ Repository: sample-repos/babel
        • babel.config.js
        • Makefile.mjs
        • scripts/parallel-tsc/tsc.js
-       • scripts/generators/tsconfig.js
        • scripts/actions/repl.js
+       • scripts/generators/tsconfig.js
        • eslint/babel-eslint-parser/test/typescript-estree.test.js
-       • packages/babel-traverse/test/traverse.js
-       • packages/babel-traverse/test/replacement.js
-       • packages/babel-traverse/test/modification.js
-       • packages/babel-traverse/src/visitors.ts
+       • codemods/babel-plugin-codemod-object-assign-to-object-spread/src/index.ts
+       • benchmark/babel-parser/many-named-export/1-length.bench.mjs
+       • benchmark/babel-parser/many-let-declarations/1-length-binding.mjs
+       • benchmark/babel-parser/many-class-private-properties/1-length.bench.mjs
      📄 Files WITHOUT UpdateExpression (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -1762,7 +1762,7 @@ Repository: sample-repos/babel
        • scripts/parser-tests/flow/index.js
        • eslint/babel-eslint-parser/test/typescript-estree.test.js
        • eslint/babel-eslint-parser/test/index.js
-       • packages/babel-traverse/test/introspection.js
+       • benchmark/babel-core/real-case-ts-cjs/bench.mjs
      📄 Files WITHOUT AssignmentPattern (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -1782,11 +1782,11 @@ Repository: sample-repos/babel
        • lib/globals.d.ts
        • lib/archived-libs.d.ts
        • scripts/babel-plugin-bit-decorator/types.d.ts
-       • packages/babel-traverse/src/index.ts
        • packages/babel-standalone/src/transformScriptTags.ts
        • packages/babel-standalone/src/index.ts
        • packages/babel-template/src/parse.ts
        • packages/babel-template/src/options.ts
+       • packages/babel-template/src/literal.ts
      📄 Files WITHOUT TSTypeLiteral (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -1804,8 +1804,8 @@ Repository: sample-repos/babel
        • lib/regexpu-core.d.ts
        • lib/globals.d.ts
        • scripts/babel-plugin-bit-decorator/types.d.ts
-       • packages/babel-traverse/src/context.ts
        • packages/babel-template/src/parse.ts
+       • packages/babel-traverse/src/context.ts
        • packages/babel-preset-env/src/normalize-options.ts
        • packages/babel-preset-env/src/available-plugins.ts
        • packages/babel-plugin-transform-typescript/src/enum.ts
@@ -1827,14 +1827,14 @@ Repository: sample-repos/babel
      📄 Files WITH TSTypeAliasDeclaration (showing 10):
        • lib/regexpu-core.d.ts
        • scripts/babel-plugin-bit-decorator/types.d.ts
-       • packages/babel-traverse/src/visitors.ts
-       • packages/babel-traverse/src/types.ts
-       • packages/babel-traverse/src/index.ts
        • packages/babel-standalone/src/transformScriptTags.ts
        • packages/babel-template/src/parse.ts
        • packages/babel-template/src/options.ts
        • packages/babel-template/src/index.ts
        • packages/babel-template/src/formatters.ts
+       • packages/babel-template/src/builder.ts
+       • packages/babel-traverse/src/visitors.ts
+       • packages/babel-traverse/src/types.ts
      📄 Files WITHOUT TSTypeAliasDeclaration (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -1923,14 +1923,14 @@ Repository: sample-repos/babel
      📄 Files WITH TSTypeParameter (showing 10):
        • lib/libdom-minimal.d.ts
        • scripts/babel-plugin-bit-decorator/types.d.ts
-       • packages/babel-traverse/src/visitors.ts
-       • packages/babel-traverse/src/types.ts
-       • packages/babel-traverse/src/traverse-node.ts
-       • packages/babel-traverse/src/index.ts
-       • packages/babel-traverse/src/context.ts
        • packages/babel-template/src/string.ts
        • packages/babel-template/src/parse.ts
        • packages/babel-template/src/literal.ts
+       • packages/babel-template/src/formatters.ts
+       • packages/babel-template/src/builder.ts
+       • packages/babel-traverse/src/visitors.ts
+       • packages/babel-traverse/src/types.ts
+       • packages/babel-traverse/src/traverse-node.ts
      📄 Files WITHOUT TSTypeParameter (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -1948,13 +1948,13 @@ Repository: sample-repos/babel
        • lib/regexpu-core.d.ts
        • lib/babel-plugin-dynamic-import-node.d.ts
        • scripts/babel-plugin-bit-decorator/types.d.ts
-       • packages/babel-traverse/src/types.ts
-       • packages/babel-traverse/src/index.ts
-       • packages/babel-traverse/src/hub.ts
        • packages/babel-standalone/src/transformScriptTags.ts
        • packages/babel-standalone/src/index.ts
        • packages/babel-template/src/options.ts
        • packages/babel-template/src/formatters.ts
+       • packages/babel-traverse/src/types.ts
+       • packages/babel-traverse/src/index.ts
+       • packages/babel-traverse/src/hub.ts
      📄 Files WITHOUT TSVoidKeyword (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -1975,9 +1975,9 @@ Repository: sample-repos/babel
        • scripts/babel-plugin-bit-decorator/plugin.cjs
        • scripts/actions/repl.js
        • eslint/babel-eslint-parser/test/typescript-estree.test.js
+       • packages/babel-standalone/src/transformScriptTags.ts
        • packages/babel-traverse/src/traverse-node.ts
        • packages/babel-traverse/src/context.ts
-       • packages/babel-standalone/src/transformScriptTags.ts
        • packages/babel-plugin-transform-typescript/src/namespace.ts
      📄 Files WITHOUT BreakStatement (showing 10):
        • yarn.config.cjs
@@ -1997,12 +1997,12 @@ Repository: sample-repos/babel
        • Makefile.source.mjs
        • Makefile.mjs
        • scripts/parallel-tsc/tsc.js
-       • scripts/generators/tsconfig.js
        • scripts/actions/repl.js
+       • scripts/generators/tsconfig.js
        • eslint/babel-eslint-parser/test/typescript-estree.test.js
-       • packages/babel-traverse/src/visitors.ts
-       • packages/babel-traverse/src/traverse-node.ts
-       • packages/babel-traverse/src/context.ts
+       • codemods/babel-plugin-codemod-object-assign-to-object-spread/src/index.ts
+       • benchmark/babel-parser/many-named-export/1-length.bench.mjs
+       • benchmark/babel-parser/many-let-declarations/1-length-binding.mjs
      📄 Files WITHOUT ForStatement (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -2041,10 +2041,10 @@ Repository: sample-repos/babel
 
    TSIndexedAccessType:
      📄 Files WITH TSIndexedAccessType (showing 10):
-       • packages/babel-traverse/src/types.ts
-       • packages/babel-traverse/src/index.ts
        • packages/babel-standalone/src/transformScriptTags.ts
        • packages/babel-standalone/src/index.ts
+       • packages/babel-traverse/src/types.ts
+       • packages/babel-traverse/src/index.ts
        • packages/babel-preset-env/src/types.d.ts
        • packages/babel-preset-env/src/plugins-compat-data.ts
        • packages/babel-preset-env/src/normalize-options.ts
@@ -2067,14 +2067,14 @@ Repository: sample-repos/babel
      📄 Files WITH TSTypeParameterDeclaration (showing 10):
        • lib/libdom-minimal.d.ts
        • scripts/babel-plugin-bit-decorator/types.d.ts
-       • packages/babel-traverse/src/visitors.ts
-       • packages/babel-traverse/src/types.ts
-       • packages/babel-traverse/src/traverse-node.ts
-       • packages/babel-traverse/src/index.ts
-       • packages/babel-traverse/src/context.ts
        • packages/babel-template/src/string.ts
        • packages/babel-template/src/parse.ts
        • packages/babel-template/src/literal.ts
+       • packages/babel-template/src/formatters.ts
+       • packages/babel-template/src/builder.ts
+       • packages/babel-traverse/src/visitors.ts
+       • packages/babel-traverse/src/types.ts
+       • packages/babel-traverse/src/traverse-node.ts
      📄 Files WITHOUT TSTypeParameterDeclaration (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -2093,8 +2093,8 @@ Repository: sample-repos/babel
        • scripts/parallel-tsc/tsc.js
        • packages/babel-traverse/src/context.ts
        • packages/babel-plugin-transform-destructuring/src/util.ts
-       • packages/babel-helper-validator-option/src/validator.ts
        • packages/babel-helper-replace-supers/src/index.ts
+       • packages/babel-helper-validator-option/src/validator.ts
        • packages/babel-helper-module-imports/src/import-injector.ts
        • packages/babel-helper-module-imports/src/import-builder.ts
        • packages/babel-helper-member-expression-to-functions/src/index.ts
@@ -2121,8 +2121,8 @@ Repository: sample-repos/babel
        • scripts/parallel-tsc/tsc.js
        • scripts/generators/tsconfig.js
        • scripts/parser-tests/typescript/index.js
-       • packages/babel-traverse/src/visitors.ts
-       • packages/babel-traverse/src/traverse-node.ts
+       • packages/babel-standalone/src/index.ts
+       • packages/babel-template/src/parse.ts
      📄 Files WITHOUT ChainExpression (showing 10):
        • jest.config.js
        • eslint.config.mjs
@@ -2140,13 +2140,13 @@ Repository: sample-repos/babel
        • lib/regexpu-core.d.ts
        • lib/babel-plugin-dynamic-import-node.d.ts
        • scripts/babel-plugin-bit-decorator/types.d.ts
-       • packages/babel-traverse/src/visitors.ts
-       • packages/babel-traverse/src/types.ts
-       • packages/babel-traverse/src/index.ts
        • packages/babel-standalone/src/transformScriptTags.ts
        • packages/babel-standalone/src/index.ts
        • packages/babel-template/src/string.ts
        • packages/babel-template/src/parse.ts
+       • packages/babel-template/src/literal.ts
+       • packages/babel-template/src/formatters.ts
+       • packages/babel-template/src/builder.ts
      📄 Files WITHOUT TSFunctionType (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -2212,13 +2212,13 @@ Repository: sample-repos/babel
        • lib/babel-plugin-dynamic-import-node.d.ts
        • benchmark/util.mjs
        • scripts/utils/formatCode.js
-       • packages/babel-traverse/test/traverse.js
-       • packages/babel-traverse/test/scope.js
-       • packages/babel-traverse/test/replacement.js
-       • packages/babel-traverse/test/modification.js
-       • packages/babel-traverse/test/inference.js
-       • packages/babel-traverse/test/family.js
-       • packages/babel-traverse/test/conversion.js
+       • packages/babel-standalone/src/preset-stage-3.ts
+       • packages/babel-standalone/src/preset-stage-2.ts
+       • packages/babel-standalone/src/preset-stage-1.ts
+       • packages/babel-standalone/src/preset-es2015.ts
+       • packages/babel-template/test/index.js
+       • packages/babel-template/src/populate.ts
+       • packages/babel-template/src/parse.ts
      📄 Files WITHOUT ImportNamespaceSpecifier (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -2234,15 +2234,15 @@ Repository: sample-repos/babel
    Super:
      📄 Files WITH Super (showing 10):
        • Makefile.mjs
-       • packages/babel-plugin-transform-regenerator/src/regenerator/leap.ts
        • packages/babel-plugin-transform-regenerator/test/regenerator-fixtures/class.js
        • packages/babel-plugin-transform-regenerator/test/regenerator-fixtures/async.js
+       • packages/babel-plugin-transform-regenerator/src/regenerator/leap.ts
+       • packages/babel-parser/test/helpers/fixture-error.js
        • packages/babel-parser/src/util/expression-scope.ts
        • packages/babel-parser/src/tokenizer/index.ts
        • packages/babel-parser/src/plugins/v8intrinsic.ts
        • packages/babel-parser/src/plugins/placeholders.ts
        • packages/babel-parser/src/plugins/estree.ts
-       • packages/babel-parser/src/parser/index.ts
      📄 Files WITHOUT Super (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -2282,15 +2282,15 @@ Repository: sample-repos/babel
    TSUnknownKeyword:
      📄 Files WITH TSUnknownKeyword (showing 10):
        • scripts/babel-plugin-bit-decorator/types.d.ts
-       • packages/babel-traverse/src/visitors.ts
-       • packages/babel-traverse/src/types.ts
-       • packages/babel-traverse/src/traverse-node.ts
-       • packages/babel-traverse/src/context.ts
        • packages/babel-standalone/src/index.ts
        • packages/babel-template/src/string.ts
        • packages/babel-template/src/options.ts
        • packages/babel-template/src/literal.ts
        • packages/babel-template/src/builder.ts
+       • packages/babel-traverse/src/visitors.ts
+       • packages/babel-traverse/src/types.ts
+       • packages/babel-traverse/src/traverse-node.ts
+       • packages/babel-traverse/src/context.ts
      📄 Files WITHOUT TSUnknownKeyword (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -2332,10 +2332,10 @@ Repository: sample-repos/babel
        • lib/third-party-libs.d.ts
        • lib/babel-plugin-dynamic-import-node.d.ts
        • lib/archived-libs.d.ts
-       • packages/babel-traverse/src/visitors.ts
        • packages/babel-standalone/src/transformScriptTags.ts
        • packages/babel-standalone/src/index.ts
        • packages/babel-template/src/index.ts
+       • packages/babel-traverse/src/visitors.ts
        • packages/babel-preset-env/src/types.d.ts
        • packages/babel-preset-env/src/shipped-proposals.ts
        • packages/babel-preset-env/src/plugins-compat-data.ts
@@ -2354,15 +2354,15 @@ Repository: sample-repos/babel
    ArrayPattern:
      📄 Files WITH ArrayPattern (showing 10):
        • Makefile.mjs
-       • test/esm/test-runner.js
        • test/runtime-integration/node.cjs
+       • test/esm/test-runner.js
        • scripts/parallel-tsc/tsc.js
        • scripts/generators/tsconfig.js
        • scripts/parser-tests/typescript/index.js
        • scripts/parser-tests/flow/index.js
        • eslint/babel-eslint-parser/test/typescript-estree.test.js
        • eslint/babel-eslint-parser/test/index.js
-       • packages/babel-traverse/test/scope.js
+       • codemods/babel-plugin-codemod-object-assign-to-object-spread/src/index.ts
      📄 Files WITHOUT ArrayPattern (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -2381,12 +2381,12 @@ Repository: sample-repos/babel
        • Makefile.mjs
        • Gulpfile.mjs
        • eslint/babel-eslint-parser/test/typescript-estree.test.js
+       • benchmark/babel-types/validators/isExpression.mjs
        • packages/babel-traverse/test/scope.js
        • packages/babel-types/test/fields.js
        • packages/babel-plugin-transform-typescript/src/namespace.ts
        • packages/babel-plugin-transform-typescript/src/index.ts
        • packages/babel-plugin-transform-typescript/src/enum.ts
-       • packages/babel-plugin-transform-react-jsx/src/create-plugin.ts
      📄 Files WITHOUT SwitchStatement (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -2404,13 +2404,13 @@ Repository: sample-repos/babel
        • babel.config.js
        • Gulpfile.mjs
        • scripts/babel-plugin-bit-decorator/plugin.cjs
-       • packages/babel-preset-typescript/src/plugin-rewrite-ts-imports.ts
        • packages/babel-template/test/index.js
+       • packages/babel-preset-typescript/src/plugin-rewrite-ts-imports.ts
        • packages/babel-preset-env/test/normalize-options.skip-bundled.js
-       • packages/babel-plugin-transform-typeof-symbol/test/helper.spec.js
        • packages/babel-plugin-transform-typescript/src/namespace.ts
        • packages/babel-plugin-transform-typescript/src/index.ts
-       • packages/babel-plugin-transform-runtime/scripts/build-dist.js
+       • packages/babel-plugin-transform-typeof-symbol/test/helper.spec.js
+       • packages/babel-plugin-transform-spread/src/index.ts
      📄 Files WITHOUT TaggedTemplateExpression (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -2431,10 +2431,10 @@ Repository: sample-repos/babel
        • packages/babel-helper-create-class-features-plugin/src/fields.ts
        • packages/babel-generator/src/printer.ts
        • packages/babel-plugin-transform-regenerator/src/regenerator/emit.ts
-       • packages/babel-parser/src/util/scopeflags.ts
-       • packages/babel-parser/src/util/scope.ts
-       • packages/babel-parser/src/util/production-parameter.ts
-       • packages/babel-parser/src/util/expression-scope.ts
+       • packages/babel-helpers/src/helpers/usingCtx.ts
+       • packages/babel-helpers/src/helpers/superPropGet.ts
+       • packages/babel-helpers/src/helpers/regenerator.ts
+       • packages/babel-helpers/src/helpers/applyDecs2311.ts
      📄 Files WITHOUT TSEnumMember (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -2466,9 +2466,9 @@ Repository: sample-repos/babel
    TSIntersectionType:
      📄 Files WITH TSIntersectionType (showing 10):
        • scripts/babel-plugin-bit-decorator/types.d.ts
-       • packages/babel-traverse/src/index.ts
        • packages/babel-template/src/options.ts
        • packages/babel-template/src/index.ts
+       • packages/babel-traverse/src/index.ts
        • packages/babel-preset-env/src/types.d.ts
        • packages/babel-preset-env/src/plugins-compat-data.ts
        • packages/babel-plugin-transform-typescript/src/namespace.ts
@@ -2498,7 +2498,7 @@ Repository: sample-repos/babel
        • packages/babel-plugin-transform-private-property-in-object/src/index.ts
        • packages/babel-plugin-transform-optional-chaining/src/transform.ts
        • packages/babel-plugin-transform-new-target/src/index.ts
-       • packages/babel-plugin-proposal-do-expressions/src/index.ts
+       • packages/babel-plugin-proposal-destructuring-private/test/util.skip-bundled.js
      📄 Files WITHOUT WhileStatement (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -2544,8 +2544,8 @@ Repository: sample-repos/babel
        • packages/babel-traverse/src/hub.ts
        • packages/babel-traverse/src/context.ts
        • packages/babel-plugin-transform-destructuring/src/util.ts
-       • packages/babel-helper-validator-option/src/validator.ts
        • packages/babel-helper-replace-supers/src/index.ts
+       • packages/babel-helper-validator-option/src/validator.ts
        • packages/babel-helper-module-imports/src/import-injector.ts
      📄 Files WITHOUT ClassBody (showing 10):
        • yarn.config.cjs
@@ -2591,10 +2591,10 @@ Repository: sample-repos/babel
        • packages/babel-plugin-transform-typescript/src/index.ts
        • packages/babel-plugin-transform-object-rest-spread/src/shouldStoreRHSInTemporaryVariable.ts
        • packages/babel-plugin-transform-modules-commonjs/src/lazy.ts
-       • packages/babel-plugin-transform-flow-comments/src/index.ts
        • packages/babel-plugin-transform-duplicate-keys/src/index.ts
        • packages/babel-plugin-transform-destructuring/src/util.ts
        • packages/babel-plugin-transform-classes/src/transformClass.ts
+       • packages/babel-plugin-transform-flow-comments/src/index.ts
      📄 Files WITHOUT TSParenthesizedType (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -2616,9 +2616,9 @@ Repository: sample-repos/babel
        • packages/babel-preset-env/src/plugins-compat-data.ts
        • packages/babel-preset-env/src/module-transformations.ts
        • packages/babel-preset-env/src/filter-items.ts
+       • packages/babel-node/src/_babel-node.ts
        • packages/babel-parser/src/parse-error.ts
        • packages/babel-parser/src/options.ts
-       • packages/babel-parser/src/index.ts
      📄 Files WITHOUT TSTypeOperator (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -2640,8 +2640,8 @@ Repository: sample-repos/babel
        • packages/babel-traverse/src/hub.ts
        • packages/babel-traverse/src/context.ts
        • packages/babel-plugin-transform-destructuring/src/util.ts
-       • packages/babel-helper-validator-option/src/validator.ts
        • packages/babel-helper-replace-supers/src/index.ts
+       • packages/babel-helper-validator-option/src/validator.ts
        • packages/babel-helper-module-imports/src/import-injector.ts
      📄 Files WITHOUT ClassDeclaration (showing 10):
        • yarn.config.cjs
@@ -2729,16 +2729,16 @@ Repository: sample-repos/babel
 
    TSIndexSignature:
      📄 Files WITH TSIndexSignature (showing 10):
-       • packages/babel-traverse/src/types.ts
        • packages/babel-standalone/src/index.ts
        • packages/babel-template/src/options.ts
+       • packages/babel-traverse/src/types.ts
        • packages/babel-preset-env/src/plugins-compat-data.ts
        • packages/babel-preset-env/src/module-transformations.ts
        • packages/babel-preset-env/src/index.ts
        • packages/babel-preset-env/src/filter-items.ts
        • packages/babel-preset-env/src/debug.ts
+       • packages/babel-helpers/src/helpers-generated.ts
        • packages/babel-parser/typings/babel-parser.source.d.ts
-       • packages/babel-parser/typings/babel-parser.d.ts
      📄 Files WITHOUT TSIndexSignature (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -2779,14 +2779,14 @@ Repository: sample-repos/babel
      📄 Files WITH ForInStatement (showing 10):
        • Makefile.mjs
        • scripts/rollup-plugin-babel-source.js
+       • benchmark/babel-types/builders/stringLiteral.mjs
+       • benchmark/babel-types/builders/multiple.mjs
+       • benchmark/babel-types/builders/memberExpression.mjs
+       • benchmark/babel-types/builders/blockStatement.mjs
        • packages/babel-standalone/src/index.ts
        • packages/babel-types/test/fields.js
        • packages/babel-plugin-transform-typescript/src/namespace.ts
        • packages/babel-helper-fixtures/src/index.ts
-       • packages/babel-helper-compilation-targets/src/filter-items.ts
-       • packages/babel-compat-data/scripts/utils-build-data.mjs
-       • benchmark/babel-types/builders/stringLiteral.mjs
-       • benchmark/babel-types/builders/multiple.mjs
      📄 Files WITHOUT ForInStatement (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -2807,10 +2807,10 @@ Repository: sample-repos/babel
        • packages/babel-traverse/src/path/modification.ts
        • packages/babel-traverse/src/path/index.ts
        • packages/babel-traverse/src/path/family.ts
-       • packages/babel-parser/src/parse-error/pipeline-operator-errors.ts
        • packages/babel-helpers/src/helpers/unsupportedIterableToArray.ts
        • packages/babel-helpers/src/helpers/objectSpread2.ts
        • packages/babel-helpers/src/helpers/objectSpread.ts
+       • packages/babel-helpers/src/helpers/get.ts
      📄 Files WITHOUT TSConditionalType (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -2826,14 +2826,14 @@ Repository: sample-repos/babel
    TSEmptyBodyFunctionExpression:
      📄 Files WITH TSEmptyBodyFunctionExpression (showing 10):
        • packages/babel-traverse/src/path/index.ts
-       • packages/babel-parser/src/parser/util.ts
-       • packages/babel-parser/src/parser/statement.ts
-       • packages/babel-parser/src/parser/lval.ts
-       • packages/babel-parser/src/parser/expression.ts
        • packages/babel-helpers/src/helpers/wrapRegExp.ts
        • packages/babel-helpers/src/helpers/wrapAsyncGenerator.ts
        • packages/babel-helpers/src/helpers/asyncIterator.ts
        • packages/babel-helpers/src/helpers/OverloadYield.ts
+       • packages/babel-parser/src/parser/util.ts
+       • packages/babel-parser/src/parser/statement.ts
+       • packages/babel-parser/src/parser/lval.ts
+       • packages/babel-parser/src/parser/expression.ts
        • packages/babel-parser/src/plugins/typescript/index.ts
      📄 Files WITHOUT TSEmptyBodyFunctionExpression (showing 10):
        • yarn.config.cjs
@@ -2960,10 +2960,10 @@ Repository: sample-repos/babel
        • packages/babel-helper-create-class-features-plugin/src/fields.ts
        • packages/babel-generator/src/printer.ts
        • packages/babel-plugin-transform-regenerator/src/regenerator/emit.ts
-       • packages/babel-parser/src/util/scopeflags.ts
-       • packages/babel-parser/src/util/scope.ts
-       • packages/babel-parser/src/util/production-parameter.ts
-       • packages/babel-parser/src/util/expression-scope.ts
+       • packages/babel-helpers/src/helpers/usingCtx.ts
+       • packages/babel-helpers/src/helpers/superPropGet.ts
+       • packages/babel-helpers/src/helpers/regenerator.ts
+       • packages/babel-helpers/src/helpers/applyDecs2311.ts
      📄 Files WITHOUT TSEnumDeclaration (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -2984,10 +2984,10 @@ Repository: sample-repos/babel
        • packages/babel-helper-create-class-features-plugin/src/fields.ts
        • packages/babel-generator/src/printer.ts
        • packages/babel-plugin-transform-regenerator/src/regenerator/emit.ts
-       • packages/babel-parser/src/util/scopeflags.ts
-       • packages/babel-parser/src/util/scope.ts
-       • packages/babel-parser/src/util/production-parameter.ts
-       • packages/babel-parser/src/util/expression-scope.ts
+       • packages/babel-helpers/src/helpers/usingCtx.ts
+       • packages/babel-helpers/src/helpers/superPropGet.ts
+       • packages/babel-helpers/src/helpers/regenerator.ts
+       • packages/babel-helpers/src/helpers/applyDecs2311.ts
      📄 Files WITHOUT TSEnumBody (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -3031,10 +3031,10 @@ Repository: sample-repos/babel
        • packages/babel-traverse/src/path/modification.ts
        • packages/babel-traverse/src/path/index.ts
        • packages/babel-traverse/src/path/family.ts
-       • packages/babel-parser/src/tokenizer/index.ts
-       • packages/babel-parser/src/parser/util.ts
-       • packages/babel-parser/src/parser/node.ts
        • packages/babel-helpers/src/helpers/unsupportedIterableToArray.ts
+       • packages/babel-helpers/src/helpers/temporalUndefined.ts
+       • packages/babel-helpers/src/helpers/tdz.ts
+       • packages/babel-helpers/src/helpers/objectWithoutProperties.ts
      📄 Files WITHOUT TSNeverKeyword (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -3116,10 +3116,10 @@ Repository: sample-repos/babel
        • packages/babel-generator/src/index.ts
        • packages/babel-traverse/src/path/index.ts
        • packages/babel-plugin-transform-regenerator/test/regenerator-fixtures/class.js
+       • packages/babel-parser/test/helpers/fixture-error.js
        • packages/babel-parser/src/plugins/v8intrinsic.ts
        • packages/babel-parser/src/plugins/placeholders.ts
        • packages/babel-parser/src/plugins/estree.ts
-       • packages/babel-parser/test/helpers/fixture-error.js
        • packages/babel-parser/src/plugins/typescript/index.ts
      📄 Files WITHOUT ClassExpression (showing 10):
        • yarn.config.cjs
@@ -3187,10 +3187,10 @@ Repository: sample-repos/babel
        • packages/babel-parser/src/plugin-utils.ts
        • packages/babel-parser/src/index.ts
        • packages/babel-traverse/src/path/index.ts
-       • packages/babel-parser/src/parser/util.ts
-       • packages/babel-parser/src/parser/index.ts
        • packages/babel-helpers/src/helpers/createClass.ts
        • packages/babel-helpers/src/helpers/classCallCheck.ts
+       • packages/babel-parser/src/parser/util.ts
+       • packages/babel-parser/src/parser/index.ts
        • packages/babel-core/src/config/caching.ts
        • packages/babel-parser/src/plugins/typescript/index.ts
      📄 Files WITHOUT TSConstructorType (showing 10):
@@ -3242,10 +3242,10 @@ Repository: sample-repos/babel
      📄 Files WITH TSInferType (showing 7):
        • packages/babel-traverse/src/path/modification.ts
        • packages/babel-traverse/src/path/family.ts
-       • packages/babel-parser/src/parse-error/pipeline-operator-errors.ts
        • packages/babel-helpers/src/helpers/objectSpread2.ts
        • packages/babel-helpers/src/helpers/objectSpread.ts
        • packages/babel-helpers/src/helpers/extends.ts
+       • packages/babel-parser/src/parse-error/pipeline-operator-errors.ts
        • packages/babel-parser/src/plugins/jsx/index.ts
      📄 Files WITHOUT TSInferType (showing 10):
        • yarn.config.cjs
@@ -3286,12 +3286,12 @@ Repository: sample-repos/babel
    TSClassImplements:
      📄 Files WITH TSClassImplements (showing 10):
        • packages/babel-traverse/src/hub.ts
+       • packages/babel-helpers/src/helpers/wrapAsyncGenerator.ts
+       • packages/babel-helpers/src/helpers/asyncIterator.ts
        • packages/babel-parser/src/plugins/v8intrinsic.ts
        • packages/babel-parser/src/plugins/placeholders.ts
        • packages/babel-parser/src/plugins/estree.ts
        • packages/babel-parser/src/parser/node.ts
-       • packages/babel-helpers/src/helpers/wrapAsyncGenerator.ts
-       • packages/babel-helpers/src/helpers/asyncIterator.ts
        • packages/babel-parser/src/plugins/typescript/index.ts
        • packages/babel-parser/src/plugins/jsx/index.ts
        • packages/babel-parser/src/plugins/flow/index.ts
@@ -3335,13 +3335,13 @@ Repository: sample-repos/babel
        • packages/babel-plugin-bugfix-firefox-class-in-computed-class-key/src/index.ts
        • packages/babel-helper-create-class-features-plugin/src/decorators.ts
        • packages/babel-types/src/definitions/core.ts
+       • packages/babel-helpers/src/helpers/usingCtx.ts
+       • packages/babel-helpers/src/helpers/asyncIterator.ts
        • packages/babel-parser/src/parse-error/strict-mode-errors.ts
        • packages/babel-parser/src/parse-error/standard-errors.ts
        • packages/babel-parser/src/parse-error/pipeline-operator-errors.ts
        • packages/babel-parser/src/parse-error/parse-expression-errors.ts
        • packages/babel-parser/src/parse-error/module-errors.ts
-       • packages/babel-helpers/src/helpers/usingCtx.ts
-       • packages/babel-helpers/src/helpers/asyncIterator.ts
      📄 Files WITHOUT TSSatisfiesExpression (showing 10):
        • yarn.config.cjs
        • jest.config.js
@@ -3358,8 +3358,8 @@ Repository: sample-repos/babel
      📄 Files WITH Hashbang (showing 9):
        • scripts/set-module-type.js
        • scripts/rename-proposal-to-transform.js
-       • packages/babel-parser/bin/babel-parser.js
        • packages/babel-node/bin/babel-node.js
+       • packages/babel-parser/bin/babel-parser.js
        • packages/babel-cli/bin/babel.mjs
        • packages/babel-cli/bin/babel.js
        • packages/babel-cli/bin/babel-external-helpers.mjs
@@ -3383,9 +3383,9 @@ Repository: sample-repos/babel
        • packages/babel-traverse/src/scope/index.ts
        • packages/babel-traverse/src/path/family.ts
        • packages/babel-types/src/converters/valueToNode.ts
+       • packages/babel-helpers/src/helpers/jsx.ts
        • packages/babel-parser/src/plugins/estree.ts
        • packages/babel-parser/src/parser/expression.ts
-       • packages/babel-helpers/src/helpers/jsx.ts
        • packages/babel-types/src/builders/generated/lowercase.ts
      📄 Files WITHOUT TSBigIntKeyword (showing 10):
        • yarn.config.cjs

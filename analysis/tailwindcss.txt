@@ -1,5 +1,5 @@
 AST Analysis Report for tailwindcss
-Generated on: 2025-07-14T01:42:44.363Z
+Generated on: 2025-07-14T01:57:13.738Z
 Repository: sample-repos/tailwindcss
 ================================================================================
 
@@ -122,39 +122,39 @@ Repository: sample-repos/tailwindcss
    TSIntersectionType                7 files (  2.3%) -        8 total (0.00%)
    ForInStatement                    6 files (  1.9%) -       10 total (0.00%)
    RestElement                       6 files (  1.9%) -       12 total (0.01%)
-   TSTypeOperator                    6 files (  1.9%) -       17 total (0.01%)
    JSXElement                        6 files (  1.9%) -       12 total (0.01%)
    JSXOpeningElement                 6 files (  1.9%) -       12 total (0.01%)
    JSXIdentifier                     6 files (  1.9%) -       34 total (0.02%)
    JSXText                           6 files (  1.9%) -       13 total (0.01%)
    JSXClosingElement                 6 files (  1.9%) -       11 total (0.00%)
+   TSTypeOperator                    6 files (  1.9%) -       17 total (0.01%)
    TSIndexSignature                  5 files (  1.6%) -        7 total (0.00%)
+   JSXAttribute                      5 files (  1.6%) -        9 total (0.00%)
    TSTemplateLiteralType             5 files (  1.6%) -       14 total (0.01%)
    ExportSpecifier                   5 files (  1.6%) -       12 total (0.01%)
    TSNamedTupleMember                5 files (  1.6%) -       19 total (0.01%)
-   JSXAttribute                      5 files (  1.6%) -        9 total (0.00%)
    TSObjectKeyword                   4 files (  1.3%) -        5 total (0.00%)
    TSParameterProperty               4 files (  1.3%) -       10 total (0.00%)
    LabeledStatement                  4 files (  1.3%) -        4 total (0.00%)
+   JSXExpressionContainer            3 files (  1.0%) -        7 total (0.00%)
    PrivateIdentifier                 3 files (  1.0%) -       42 total (0.02%)
    TSModuleDeclaration               3 files (  1.0%) -        3 total (0.00%)
    TSModuleBlock                     3 files (  1.0%) -        3 total (0.00%)
    DoWhileStatement                  3 files (  1.0%) -        4 total (0.00%)
-   Hashbang                          3 files (  1.0%) -        3 total (0.00%)
    ImportExpression                  3 files (  1.0%) -       14 total (0.01%)
-   JSXExpressionContainer            3 files (  1.0%) -        7 total (0.00%)
+   Hashbang                          3 files (  1.0%) -        3 total (0.00%)
    TSConditionalType                 3 files (  1.0%) -        5 total (0.00%)
-   Super                             2 files (  0.6%) -        4 total (0.00%)
    JSXEmptyExpression                2 files (  0.6%) -        2 total (0.00%)
+   Super                             2 files (  0.6%) -        4 total (0.00%)
    TSTypePredicate                   2 files (  0.6%) -        2 total (0.00%)
    TSMappedType                      2 files (  0.6%) -        2 total (0.00%)
+   JSXMemberExpression               1 files (  0.3%) -        2 total (0.00%)
    EmptyStatement                    1 files (  0.3%) -        1 total (0.00%)
-   ImportAttribute                   1 files (  0.3%) -        4 total (0.00%)
    TSClassImplements                 1 files (  0.3%) -        1 total (0.00%)
    ExportAllDeclaration              1 files (  0.3%) -        5 total (0.00%)
-   JSXMemberExpression               1 files (  0.3%) -        2 total (0.00%)
-   TSInterfaceHeritage               1 files (  0.3%) -        1 total (0.00%)
+   ImportAttribute                   1 files (  0.3%) -        4 total (0.00%)
    TSCallSignatureDeclaration        1 files (  0.3%) -        1 total (0.00%)
+   TSInterfaceHeritage               1 files (  0.3%) -        1 total (0.00%)
    TSInferType                       1 files (  0.3%) -        1 total (0.00%)
 
 📝 ALL NODE TYPES (BY TOTAL COUNT):
@@ -255,13 +255,13 @@ Repository: sample-repos/tailwindcss
    ImportExpression                     14 (0.01%) in 3 files (1.0%)
    JSXText                              13 (0.01%) in 6 files (1.9%)
    RestElement                          12 (0.01%) in 6 files (1.9%)
-   ExportSpecifier                      12 (0.01%) in 5 files (1.6%)
    JSXElement                           12 (0.01%) in 6 files (1.9%)
    JSXOpeningElement                    12 (0.01%) in 6 files (1.9%)
+   ExportSpecifier                      12 (0.01%) in 5 files (1.6%)
+   JSXClosingElement                    11 (0.00%) in 6 files (1.9%)
    TSEnumDeclaration                    11 (0.00%) in 10 files (3.2%)
    TSEnumBody                           11 (0.00%) in 10 files (3.2%)
    TSBigIntKeyword                      11 (0.00%) in 9 files (2.9%)
-   JSXClosingElement                    11 (0.00%) in 6 files (1.9%)
    ForInStatement                       10 (0.00%) in 6 files (1.9%)
    ClassDeclaration                     10 (0.00%) in 9 files (2.9%)
    ClassBody                            10 (0.00%) in 9 files (2.9%)
@@ -286,8 +286,8 @@ Repository: sample-repos/tailwindcss
    TSMappedType                          2 (0.00%) in 2 files (0.6%)
    EmptyStatement                        1 (0.00%) in 1 files (0.3%)
    TSClassImplements                     1 (0.00%) in 1 files (0.3%)
-   TSInterfaceHeritage                   1 (0.00%) in 1 files (0.3%)
    TSCallSignatureDeclaration            1 (0.00%) in 1 files (0.3%)
+   TSInterfaceHeritage                   1 (0.00%) in 1 files (0.3%)
    TSInferType                           1 (0.00%) in 1 files (0.3%)
 
 📁 FILE EXAMPLES BY NODE TYPE:
@@ -302,8 +302,8 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
      📄 Files WITHOUT Identifier (showing 2):
        • vitest.workspace.ts
        • packages/tailwindcss/src/property-order.ts
@@ -319,7 +319,7 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
      📄 Files WITHOUT Literal (showing 8):
        • playgrounds/v3/postcss.config.js
        • playgrounds/v3/next.config.mjs
@@ -340,8 +340,8 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
+       • playgrounds/vite/vite.config.ts
        • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
      📄 Files WITHOUT CallExpression (showing 10):
        • vitest.workspace.ts
        • playgrounds/v3/tailwind.config.js
@@ -349,10 +349,10 @@ Repository: sample-repos/tailwindcss
        • playgrounds/v3/next.config.mjs
        • playgrounds/nextjs/postcss.config.js
        • playgrounds/nextjs/next.config.mjs
+       • playgrounds/vite/src/app.tsx
+       • playgrounds/v3/app/page.tsx
+       • playgrounds/nextjs/app/page.tsx
        • packages/tailwindcss/src/property-order.ts
-       • packages/tailwindcss/src/node.d.ts
-       • packages/@tailwindcss-standalone/src/types.d.ts
-       • packages/@tailwindcss-browser/src/types.d.ts
 
    MemberExpression:
      📄 Files WITH MemberExpression (showing 10):
@@ -363,20 +363,20 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
-       • packages/tailwindcss/playwright.config.ts
+       • playgrounds/v3/tailwind.config.js
+       • playgrounds/v3/postcss.config.js
+       • playgrounds/nextjs/postcss.config.js
      📄 Files WITHOUT MemberExpression (showing 10):
        • vitest.workspace.ts
        • integrations/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/next.config.mjs
+       • playgrounds/nextjs/next.config.mjs
        • packages/@tailwindcss-vite/tsup.config.ts
-       • packages/@tailwindcss-upgrade/tsup.config.ts
-       • packages/@tailwindcss-postcss/tsup.config.ts
+       • packages/@tailwindcss-node/tsup.config.ts
        • packages/@tailwindcss-cli/tsup.config.ts
        • packages/@tailwindcss-browser/vitest.config.ts
        • packages/@tailwindcss-browser/tsup.config.ts
-       • packages/@tailwindcss-node/tsup.config.ts
-       • playgrounds/vite/vite.config.ts
 
    Property:
      📄 Files WITH Property (showing 10):
@@ -386,21 +386,21 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
-       • packages/tailwindcss/playwright.config.ts
-       • packages/internal-example-plugin/index.js
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
+       • playgrounds/v3/postcss.config.js
+       • playgrounds/nextjs/postcss.config.js
      📄 Files WITHOUT Property (showing 10):
        • vitest.workspace.ts
        • scripts/release-notes.mjs
        • scripts/release-channel.js
        • playgrounds/v3/next.config.mjs
        • playgrounds/nextjs/next.config.mjs
+       • playgrounds/vite/src/main.tsx
+       • playgrounds/vite/src/app.tsx
+       • playgrounds/v3/app/page.tsx
+       • playgrounds/nextjs/app/page.tsx
        • packages/tailwindcss/src/sort.test.ts
-       • packages/tailwindcss/src/sort.bench.ts
-       • packages/tailwindcss/src/property-order.ts
-       • packages/tailwindcss/src/node.d.ts
-       • packages/tailwindcss/src/ast.bench.ts
 
    ExpressionStatement:
      📄 Files WITH ExpressionStatement (showing 10):
@@ -411,20 +411,20 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/utils.ts
-       • packages/internal-example-plugin/index.js
-       • integrations/webpack/index.test.ts
-       • integrations/vite/vue.test.ts
+       • playgrounds/v3/tailwind.config.js
+       • playgrounds/v3/postcss.config.js
+       • playgrounds/nextjs/postcss.config.js
      📄 Files WITHOUT ExpressionStatement (showing 10):
        • vitest.workspace.ts
        • integrations/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/next.config.mjs
+       • playgrounds/nextjs/next.config.mjs
        • packages/tailwindcss/vitest.config.ts
        • packages/tailwindcss/tsup.config.ts
        • packages/tailwindcss/playwright.config.ts
        • packages/@tailwindcss-vite/tsup.config.ts
-       • packages/@tailwindcss-upgrade/tsup.config.ts
-       • packages/@tailwindcss-postcss/tsup.config.ts
-       • packages/@tailwindcss-cli/tsup.config.ts
-       • packages/@tailwindcss-browser/vitest.config.ts
+       • packages/@tailwindcss-node/tsup.config.ts
 
    Unknown:
      📄 Files WITH Unknown (showing 10):
@@ -436,19 +436,19 @@ Repository: sample-repos/tailwindcss
        • integrations/utils.ts
        • packages/@tailwindcss-browser/tsup.config.ts
        • integrations/webpack/index.test.ts
-       • integrations/vite/vue.test.ts
-       • integrations/vite/virtual-modules.test.ts
+       • integrations/upgrade/js-config.test.ts
+       • integrations/upgrade/index.test.ts
      📄 Files WITHOUT Unknown (showing 10):
        • vitest.workspace.ts
        • scripts/pre-publish-optimizations.mjs
        • integrations/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
+       • playgrounds/v3/postcss.config.js
+       • playgrounds/v3/next.config.mjs
+       • playgrounds/nextjs/postcss.config.js
+       • playgrounds/nextjs/next.config.mjs
        • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
-       • packages/tailwindcss/playwright.config.ts
-       • packages/internal-example-plugin/index.js
-       • packages/@tailwindcss-vite/tsup.config.ts
-       • packages/@tailwindcss-upgrade/tsup.config.ts
-       • packages/@tailwindcss-postcss/tsup.config.ts
 
    BlockStatement:
      📄 Files WITH BlockStatement (showing 10):
@@ -461,18 +461,18 @@ Repository: sample-repos/tailwindcss
        • integrations/utils.ts
        • packages/internal-example-plugin/index.js
        • integrations/webpack/index.test.ts
-       • integrations/vite/vue.test.ts
+       • integrations/upgrade/js-config.test.ts
      📄 Files WITHOUT BlockStatement (showing 10):
        • vitest.workspace.ts
        • integrations/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
+       • playgrounds/v3/postcss.config.js
+       • playgrounds/v3/next.config.mjs
+       • playgrounds/nextjs/postcss.config.js
+       • playgrounds/nextjs/next.config.mjs
        • packages/tailwindcss/vitest.config.ts
        • packages/tailwindcss/tsup.config.ts
-       • packages/tailwindcss/playwright.config.ts
-       • packages/@tailwindcss-vite/tsup.config.ts
-       • packages/@tailwindcss-upgrade/tsup.config.ts
-       • packages/@tailwindcss-postcss/tsup.config.ts
-       • packages/@tailwindcss-cli/tsup.config.ts
-       • packages/@tailwindcss-browser/vitest.config.ts
 
    TemplateElement:
      📄 Files WITH TemplateElement (showing 10):
@@ -482,21 +482,21 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/utils.ts
        • integrations/webpack/index.test.ts
+       • integrations/upgrade/js-config.test.ts
+       • integrations/upgrade/index.test.ts
        • integrations/vite/vue.test.ts
        • integrations/vite/virtual-modules.test.ts
-       • integrations/vite/url-rewriting.test.ts
-       • integrations/vite/svelte.test.ts
      📄 Files WITHOUT TemplateElement (showing 10):
        • vitest.workspace.ts
        • scripts/release-channel.js
        • scripts/pre-publish-optimizations.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
-       • packages/tailwindcss/playwright.config.ts
-       • packages/internal-example-plugin/index.js
-       • packages/@tailwindcss-vite/tsup.config.ts
-       • packages/@tailwindcss-upgrade/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
+       • playgrounds/v3/postcss.config.js
+       • playgrounds/v3/next.config.mjs
+       • playgrounds/nextjs/postcss.config.js
+       • playgrounds/nextjs/next.config.mjs
 
    ArrayExpression:
      📄 Files WITH ArrayExpression (showing 10):
@@ -505,22 +505,22 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/utils.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
        • packages/tailwindcss/vitest.config.ts
        • packages/tailwindcss/tsup.config.ts
        • packages/tailwindcss/playwright.config.ts
-       • packages/internal-example-plugin/index.js
-       • packages/@tailwindcss-vite/tsup.config.ts
      📄 Files WITHOUT ArrayExpression (showing 10):
        • scripts/release-notes.mjs
        • scripts/release-channel.js
        • scripts/pre-publish-optimizations.mjs
        • integrations/vitest.config.ts
+       • playgrounds/v3/postcss.config.js
+       • playgrounds/v3/next.config.mjs
+       • playgrounds/nextjs/postcss.config.js
+       • playgrounds/nextjs/next.config.mjs
        • integrations/webpack/index.test.ts
-       • integrations/vite/source-maps.test.ts
-       • integrations/vite/solidstart.test.ts
-       • integrations/vite/qwik.test.ts
-       • integrations/vite/nuxt.test.ts
-       • integrations/vite/multi-root.test.ts
+       • integrations/upgrade/js-config.test.ts
 
    TemplateLiteral:
      📄 Files WITH TemplateLiteral (showing 10):
@@ -530,21 +530,21 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/utils.ts
        • integrations/webpack/index.test.ts
+       • integrations/upgrade/js-config.test.ts
+       • integrations/upgrade/index.test.ts
        • integrations/vite/vue.test.ts
        • integrations/vite/virtual-modules.test.ts
-       • integrations/vite/url-rewriting.test.ts
-       • integrations/vite/svelte.test.ts
      📄 Files WITHOUT TemplateLiteral (showing 10):
        • vitest.workspace.ts
        • scripts/release-channel.js
        • scripts/pre-publish-optimizations.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
-       • packages/tailwindcss/playwright.config.ts
-       • packages/internal-example-plugin/index.js
-       • packages/@tailwindcss-vite/tsup.config.ts
-       • packages/@tailwindcss-upgrade/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
+       • playgrounds/v3/postcss.config.js
+       • playgrounds/v3/next.config.mjs
+       • playgrounds/nextjs/postcss.config.js
+       • playgrounds/nextjs/next.config.mjs
 
    VariableDeclaration:
      📄 Files WITH VariableDeclaration (showing 10):
@@ -555,20 +555,20 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/utils.ts
+       • playgrounds/v3/next.config.mjs
+       • playgrounds/nextjs/next.config.mjs
        • packages/tailwindcss/vitest.config.ts
-       • integrations/webpack/index.test.ts
-       • integrations/vite/vue.test.ts
      📄 Files WITHOUT VariableDeclaration (showing 10):
        • vitest.workspace.ts
        • integrations/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
+       • playgrounds/v3/postcss.config.js
+       • playgrounds/nextjs/postcss.config.js
        • packages/tailwindcss/tsup.config.ts
        • packages/tailwindcss/playwright.config.ts
        • packages/internal-example-plugin/index.js
        • packages/@tailwindcss-vite/tsup.config.ts
-       • packages/@tailwindcss-upgrade/tsup.config.ts
-       • packages/@tailwindcss-postcss/tsup.config.ts
-       • packages/@tailwindcss-cli/tsup.config.ts
-       • packages/@tailwindcss-browser/vitest.config.ts
 
    VariableDeclarator:
      📄 Files WITH VariableDeclarator (showing 10):
@@ -579,20 +579,20 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/utils.ts
+       • playgrounds/v3/next.config.mjs
+       • playgrounds/nextjs/next.config.mjs
        • packages/tailwindcss/vitest.config.ts
-       • integrations/webpack/index.test.ts
-       • integrations/vite/vue.test.ts
      📄 Files WITHOUT VariableDeclarator (showing 10):
        • vitest.workspace.ts
        • integrations/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
+       • playgrounds/v3/postcss.config.js
+       • playgrounds/nextjs/postcss.config.js
        • packages/tailwindcss/tsup.config.ts
        • packages/tailwindcss/playwright.config.ts
        • packages/internal-example-plugin/index.js
        • packages/@tailwindcss-vite/tsup.config.ts
-       • packages/@tailwindcss-upgrade/tsup.config.ts
-       • packages/@tailwindcss-postcss/tsup.config.ts
-       • packages/@tailwindcss-cli/tsup.config.ts
-       • packages/@tailwindcss-browser/vitest.config.ts
 
    ObjectExpression:
      📄 Files WITH ObjectExpression (showing 10):
@@ -602,21 +602,21 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
-       • packages/tailwindcss/playwright.config.ts
-       • packages/@tailwindcss-vite/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
+       • playgrounds/v3/postcss.config.js
+       • playgrounds/v3/next.config.mjs
      📄 Files WITHOUT ObjectExpression (showing 10):
        • vitest.workspace.ts
        • scripts/release-notes.mjs
        • scripts/release-channel.js
        • packages/internal-example-plugin/index.js
+       • playgrounds/vite/src/main.tsx
+       • playgrounds/vite/src/app.tsx
+       • playgrounds/v3/app/page.tsx
+       • playgrounds/nextjs/app/page.tsx
        • packages/tailwindcss/src/utilities.test.ts
        • packages/tailwindcss/src/sort.ts
-       • packages/tailwindcss/src/sort.test.ts
-       • packages/tailwindcss/src/sort.bench.ts
-       • packages/tailwindcss/src/property-order.ts
-       • packages/tailwindcss/src/node.d.ts
 
    ArrowFunctionExpression:
      📄 Files WITH ArrowFunctionExpression (showing 10):
@@ -626,21 +626,21 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/utils.ts
        • integrations/webpack/index.test.ts
+       • integrations/upgrade/js-config.test.ts
+       • integrations/upgrade/index.test.ts
        • integrations/vite/vue.test.ts
        • integrations/vite/virtual-modules.test.ts
-       • integrations/vite/url-rewriting.test.ts
-       • integrations/vite/svelte.test.ts
      📄 Files WITHOUT ArrowFunctionExpression (showing 10):
        • vitest.workspace.ts
        • scripts/release-notes.mjs
        • scripts/release-channel.js
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
-       • packages/tailwindcss/playwright.config.ts
-       • packages/internal-example-plugin/index.js
-       • packages/@tailwindcss-vite/tsup.config.ts
-       • packages/@tailwindcss-upgrade/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
+       • playgrounds/v3/postcss.config.js
+       • playgrounds/v3/next.config.mjs
+       • playgrounds/nextjs/postcss.config.js
+       • playgrounds/nextjs/next.config.mjs
 
    BinaryExpression:
      📄 Files WITH BinaryExpression (showing 10):
@@ -650,21 +650,21 @@ Repository: sample-repos/tailwindcss
        • integrations/utils.ts
        • packages/tailwindcss/playwright.config.ts
        • packages/@tailwindcss-browser/playwright.config.ts
+       • integrations/upgrade/index.test.ts
        • integrations/vite/url-rewriting.test.ts
        • integrations/vite/resolvers.test.ts
        • integrations/vite/react-router.test.ts
-       • integrations/vite/other-transforms.test.ts
      📄 Files WITHOUT BinaryExpression (showing 10):
        • vitest.workspace.ts
        • scripts/release-notes.mjs
        • scripts/release-channel.js
        • scripts/pre-publish-optimizations.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
-       • packages/internal-example-plugin/index.js
-       • packages/@tailwindcss-vite/tsup.config.ts
-       • packages/@tailwindcss-upgrade/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
+       • playgrounds/v3/postcss.config.js
+       • playgrounds/v3/next.config.mjs
+       • playgrounds/nextjs/postcss.config.js
 
    AwaitExpression:
      📄 Files WITH AwaitExpression (showing 10):
@@ -675,33 +675,33 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/utils.ts
        • integrations/webpack/index.test.ts
+       • integrations/upgrade/js-config.test.ts
+       • integrations/upgrade/index.test.ts
        • integrations/vite/vue.test.ts
-       • integrations/vite/virtual-modules.test.ts
-       • integrations/vite/url-rewriting.test.ts
      📄 Files WITHOUT AwaitExpression (showing 10):
        • vitest.workspace.ts
        • scripts/release-channel.js
        • integrations/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
+       • playgrounds/v3/postcss.config.js
+       • playgrounds/v3/next.config.mjs
+       • playgrounds/nextjs/postcss.config.js
+       • playgrounds/nextjs/next.config.mjs
        • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
-       • packages/tailwindcss/playwright.config.ts
-       • packages/internal-example-plugin/index.js
-       • packages/@tailwindcss-vite/tsup.config.ts
-       • packages/@tailwindcss-upgrade/tsup.config.ts
-       • packages/@tailwindcss-postcss/tsup.config.ts
 
    TSTypeAnnotation:
      📄 Files WITH TSTypeAnnotation (showing 10):
        • integrations/utils.ts
+       • integrations/upgrade/index.test.ts
        • integrations/vite/other-transforms.test.ts
        • integrations/vite/index.test.ts
-       • integrations/upgrade/index.test.ts
        • integrations/postcss/next.test.ts
        • integrations/oxide/postinstall.test.ts
        • integrations/cli/index.test.ts
+       • playgrounds/v3/app/layout.tsx
+       • playgrounds/nextjs/app/layout.tsx
        • packages/tailwindcss/tests/ui.spec.ts
-       • packages/tailwindcss/src/variants.ts
-       • packages/tailwindcss/src/variants.test.ts
      📄 Files WITHOUT TSTypeAnnotation (showing 10):
        • vitest.workspace.ts
        • scripts/version-packages.mjs
@@ -711,8 +711,8 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    IfStatement:
      📄 Files WITH IfStatement (showing 10):
@@ -722,34 +722,34 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/utils.ts
+       • integrations/upgrade/index.test.ts
        • integrations/vite/virtual-modules.test.ts
        • integrations/vite/source-maps.test.ts
        • integrations/vite/solidstart.test.ts
-       • integrations/vite/resolvers.test.ts
      📄 Files WITHOUT IfStatement (showing 10):
        • vitest.workspace.ts
        • scripts/pre-publish-optimizations.mjs
        • integrations/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
+       • playgrounds/v3/postcss.config.js
+       • playgrounds/v3/next.config.mjs
+       • playgrounds/nextjs/postcss.config.js
+       • playgrounds/nextjs/next.config.mjs
        • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
-       • packages/tailwindcss/playwright.config.ts
-       • packages/internal-example-plugin/index.js
-       • packages/@tailwindcss-vite/tsup.config.ts
-       • packages/@tailwindcss-upgrade/tsup.config.ts
-       • packages/@tailwindcss-postcss/tsup.config.ts
 
    TaggedTemplateExpression:
      📄 Files WITH TaggedTemplateExpression (showing 10):
        • integrations/utils.ts
        • integrations/webpack/index.test.ts
+       • integrations/upgrade/js-config.test.ts
+       • integrations/upgrade/index.test.ts
        • integrations/vite/vue.test.ts
        • integrations/vite/virtual-modules.test.ts
        • integrations/vite/url-rewriting.test.ts
        • integrations/vite/svelte.test.ts
        • integrations/vite/ssr.test.ts
        • integrations/vite/source-maps.test.ts
-       • integrations/vite/solidstart.test.ts
-       • integrations/vite/resolvers.test.ts
      📄 Files WITHOUT TaggedTemplateExpression (showing 10):
        • vitest.workspace.ts
        • scripts/version-packages.mjs
@@ -759,21 +759,21 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    ReturnStatement:
      📄 Files WITH ReturnStatement (showing 10):
        • scripts/version-packages.mjs
        • scripts/pack-packages.mjs
        • integrations/utils.ts
+       • integrations/upgrade/index.test.ts
        • integrations/vite/virtual-modules.test.ts
        • integrations/vite/source-maps.test.ts
        • integrations/vite/solidstart.test.ts
        • integrations/vite/resolvers.test.ts
        • integrations/vite/react-router.test.ts
        • integrations/vite/qwik.test.ts
-       • integrations/vite/other-transforms.test.ts
      📄 Files WITHOUT ReturnStatement (showing 10):
        • vitest.workspace.ts
        • scripts/release-notes.mjs
@@ -781,10 +781,10 @@ Repository: sample-repos/tailwindcss
        • scripts/pre-publish-optimizations.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
-       • packages/tailwindcss/playwright.config.ts
-       • packages/internal-example-plugin/index.js
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
+       • playgrounds/v3/postcss.config.js
+       • playgrounds/v3/next.config.mjs
 
    ImportSpecifier:
      📄 Files WITH ImportSpecifier (showing 10):
@@ -793,35 +793,35 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
+       • playgrounds/vite/vite.config.ts
        • packages/tailwindcss/vitest.config.ts
        • packages/tailwindcss/tsup.config.ts
        • packages/tailwindcss/playwright.config.ts
        • packages/@tailwindcss-vite/tsup.config.ts
-       • packages/@tailwindcss-upgrade/tsup.config.ts
      📄 Files WITHOUT ImportSpecifier (showing 10):
        • vitest.workspace.ts
        • scripts/release-notes.mjs
        • scripts/release-channel.js
        • scripts/pre-publish-optimizations.mjs
-       • packages/internal-example-plugin/index.js
        • playgrounds/v3/tailwind.config.js
        • playgrounds/v3/postcss.config.js
        • playgrounds/v3/next.config.mjs
        • playgrounds/nextjs/postcss.config.js
        • playgrounds/nextjs/next.config.mjs
+       • packages/internal-example-plugin/index.js
 
    TSTypeReference:
      📄 Files WITH TSTypeReference (showing 10):
        • integrations/utils.ts
        • integrations/vite/other-transforms.test.ts
+       • playgrounds/v3/app/layout.tsx
+       • playgrounds/nextjs/app/layout.tsx
        • packages/tailwindcss/tests/ui.spec.ts
        • packages/tailwindcss/src/variants.ts
        • packages/tailwindcss/src/value-parser.ts
        • packages/tailwindcss/src/utilities.ts
        • packages/tailwindcss/src/theme.ts
        • packages/tailwindcss/src/sort.ts
-       • packages/tailwindcss/src/sort.test.ts
-       • packages/tailwindcss/src/plugin.ts
      📄 Files WITHOUT TSTypeReference (showing 10):
        • vitest.workspace.ts
        • scripts/version-packages.mjs
@@ -831,8 +831,8 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    AssignmentExpression:
      📄 Files WITH AssignmentExpression (showing 10):
@@ -840,23 +840,23 @@ Repository: sample-repos/tailwindcss
        • scripts/release-notes.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/utils.ts
+       • playgrounds/v3/tailwind.config.js
+       • playgrounds/v3/postcss.config.js
+       • playgrounds/nextjs/postcss.config.js
        • packages/internal-example-plugin/index.js
        • integrations/vite/virtual-modules.test.ts
        • integrations/vite/source-maps.test.ts
-       • integrations/vite/solidstart.test.ts
-       • integrations/vite/resolvers.test.ts
-       • integrations/vite/react-router.test.ts
      📄 Files WITHOUT AssignmentExpression (showing 10):
        • vitest.workspace.ts
        • scripts/release-channel.js
        • scripts/pre-publish-optimizations.mjs
        • scripts/pack-packages.mjs
        • integrations/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/next.config.mjs
+       • playgrounds/nextjs/next.config.mjs
        • packages/tailwindcss/vitest.config.ts
        • packages/tailwindcss/tsup.config.ts
-       • packages/tailwindcss/playwright.config.ts
-       • packages/@tailwindcss-vite/tsup.config.ts
-       • packages/@tailwindcss-upgrade/tsup.config.ts
 
    LogicalExpression:
      📄 Files WITH LogicalExpression (showing 10):
@@ -868,25 +868,25 @@ Repository: sample-repos/tailwindcss
        • integrations/utils.ts
        • packages/tailwindcss/tsup.config.ts
        • integrations/vite/vue.test.ts
+       • playgrounds/v3/scripts/upgrade.mjs
        • packages/tailwindcss/src/variants.ts
-       • packages/tailwindcss/src/value-parser.ts
      📄 Files WITHOUT LogicalExpression (showing 10):
        • vitest.workspace.ts
        • scripts/pre-publish-optimizations.mjs
        • integrations/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
+       • playgrounds/v3/postcss.config.js
+       • playgrounds/v3/next.config.mjs
+       • playgrounds/nextjs/postcss.config.js
+       • playgrounds/nextjs/next.config.mjs
        • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/playwright.config.ts
-       • packages/internal-example-plugin/index.js
-       • packages/@tailwindcss-vite/tsup.config.ts
-       • packages/@tailwindcss-upgrade/tsup.config.ts
-       • packages/@tailwindcss-postcss/tsup.config.ts
-       • packages/@tailwindcss-cli/tsup.config.ts
 
    TSStringKeyword:
      📄 Files WITH TSStringKeyword (showing 10):
        • integrations/utils.ts
-       • integrations/vite/index.test.ts
        • integrations/upgrade/index.test.ts
+       • integrations/vite/index.test.ts
        • integrations/postcss/next.test.ts
        • integrations/oxide/postinstall.test.ts
        • integrations/cli/index.test.ts
@@ -903,8 +903,8 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    ImportDeclaration:
      📄 Files WITH ImportDeclaration (showing 10):
@@ -915,20 +915,20 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
+       • playgrounds/vite/vite.config.ts
        • packages/tailwindcss/vitest.config.ts
        • packages/tailwindcss/tsup.config.ts
-       • packages/tailwindcss/playwright.config.ts
      📄 Files WITHOUT ImportDeclaration (showing 10):
        • vitest.workspace.ts
        • scripts/release-channel.js
-       • packages/internal-example-plugin/index.js
        • playgrounds/v3/tailwind.config.js
        • playgrounds/v3/postcss.config.js
        • playgrounds/v3/next.config.mjs
        • playgrounds/nextjs/postcss.config.js
        • playgrounds/nextjs/next.config.mjs
-       • packages/tailwindcss/src/value-parser.ts
-       • packages/tailwindcss/src/property-order.ts
+       • packages/internal-example-plugin/index.js
+       • playgrounds/vite/src/app.tsx
+       • playgrounds/v3/app/page.tsx
 
    ObjectPattern:
      📄 Files WITH ObjectPattern (showing 10):
@@ -936,12 +936,12 @@ Repository: sample-repos/tailwindcss
        • integrations/utils.ts
        • packages/internal-example-plugin/index.js
        • integrations/webpack/index.test.ts
+       • integrations/upgrade/js-config.test.ts
+       • integrations/upgrade/index.test.ts
        • integrations/vite/vue.test.ts
        • integrations/vite/virtual-modules.test.ts
        • integrations/vite/url-rewriting.test.ts
        • integrations/vite/svelte.test.ts
-       • integrations/vite/ssr.test.ts
-       • integrations/vite/source-maps.test.ts
      📄 Files WITHOUT ObjectPattern (showing 10):
        • vitest.workspace.ts
        • scripts/version-packages.mjs
@@ -950,9 +950,9 @@ Repository: sample-repos/tailwindcss
        • scripts/pre-publish-optimizations.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
-       • packages/tailwindcss/playwright.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
+       • playgrounds/v3/postcss.config.js
 
    UnaryExpression:
      📄 Files WITH UnaryExpression (showing 10):
@@ -963,24 +963,26 @@ Repository: sample-repos/tailwindcss
        • integrations/utils.ts
        • packages/tailwindcss/playwright.config.ts
        • packages/@tailwindcss-browser/playwright.config.ts
+       • playgrounds/v3/scripts/upgrade.mjs
        • packages/tailwindcss/src/variants.ts
        • packages/tailwindcss/src/utilities.ts
-       • packages/tailwindcss/src/theme.ts
      📄 Files WITHOUT UnaryExpression (showing 10):
        • vitest.workspace.ts
        • scripts/release-channel.js
        • scripts/pre-publish-optimizations.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
-       • packages/internal-example-plugin/index.js
-       • packages/@tailwindcss-vite/tsup.config.ts
-       • packages/@tailwindcss-upgrade/tsup.config.ts
-       • packages/@tailwindcss-postcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
+       • playgrounds/v3/postcss.config.js
+       • playgrounds/v3/next.config.mjs
+       • playgrounds/nextjs/postcss.config.js
+       • playgrounds/nextjs/next.config.mjs
 
    TSPropertySignature:
      📄 Files WITH TSPropertySignature (showing 10):
        • integrations/utils.ts
+       • playgrounds/v3/app/layout.tsx
+       • playgrounds/nextjs/app/layout.tsx
        • packages/tailwindcss/src/variants.ts
        • packages/tailwindcss/src/value-parser.ts
        • packages/tailwindcss/src/utilities.ts
@@ -988,8 +990,6 @@ Repository: sample-repos/tailwindcss
        • packages/tailwindcss/src/node.d.ts
        • packages/tailwindcss/src/intellisense.ts
        • packages/tailwindcss/src/index.ts
-       • packages/tailwindcss/src/design-system.ts
-       • packages/tailwindcss/src/css-parser.ts
      📄 Files WITHOUT TSPropertySignature (showing 10):
        • vitest.workspace.ts
        • scripts/version-packages.mjs
@@ -999,21 +999,21 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    FunctionDeclaration:
      📄 Files WITH FunctionDeclaration (showing 10):
        • scripts/pack-packages.mjs
        • integrations/utils.ts
+       • integrations/upgrade/index.test.ts
        • integrations/vite/other-transforms.test.ts
        • integrations/vite/index.test.ts
-       • integrations/upgrade/index.test.ts
        • integrations/oxide/postinstall.test.ts
        • integrations/cli/index.test.ts
-       • packages/tailwindcss/tests/ui.spec.ts
-       • packages/tailwindcss/src/variants.ts
-       • packages/tailwindcss/src/variants.test.ts
+       • playgrounds/vite/src/app.tsx
+       • playgrounds/v3/app/page.tsx
+       • playgrounds/v3/app/layout.tsx
      📄 Files WITHOUT FunctionDeclaration (showing 10):
        • vitest.workspace.ts
        • scripts/version-packages.mjs
@@ -1022,9 +1022,9 @@ Repository: sample-repos/tailwindcss
        • scripts/pre-publish-optimizations.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
-       • packages/tailwindcss/playwright.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
+       • playgrounds/v3/postcss.config.js
 
    NewExpression:
      📄 Files WITH NewExpression (showing 10):
@@ -1043,12 +1043,12 @@ Repository: sample-repos/tailwindcss
        • scripts/release-channel.js
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
-       • packages/tailwindcss/playwright.config.ts
-       • packages/internal-example-plugin/index.js
-       • packages/@tailwindcss-vite/tsup.config.ts
-       • packages/@tailwindcss-upgrade/tsup.config.ts
-       • packages/@tailwindcss-postcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
+       • playgrounds/v3/postcss.config.js
+       • playgrounds/v3/next.config.mjs
+       • playgrounds/nextjs/postcss.config.js
+       • playgrounds/nextjs/next.config.mjs
 
    ForOfStatement:
      📄 Files WITH ForOfStatement (showing 10):
@@ -1068,11 +1068,11 @@ Repository: sample-repos/tailwindcss
        • scripts/release-channel.js
        • scripts/pre-publish-optimizations.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
-       • packages/tailwindcss/playwright.config.ts
-       • packages/internal-example-plugin/index.js
-       • packages/@tailwindcss-vite/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
+       • playgrounds/v3/postcss.config.js
+       • playgrounds/v3/next.config.mjs
+       • playgrounds/nextjs/postcss.config.js
 
    TSUnionType:
      📄 Files WITH TSUnionType (showing 10):
@@ -1095,8 +1095,8 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    TSArrayType:
      📄 Files WITH TSArrayType (showing 10):
@@ -1119,21 +1119,21 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    ParenthesizedExpression:
      📄 Files WITH ParenthesizedExpression (showing 10):
        • scripts/version-packages.mjs
        • integrations/utils.ts
-       • integrations/vite/svelte.test.ts
        • integrations/upgrade/js-config.test.ts
+       • integrations/vite/svelte.test.ts
        • integrations/oxide/postinstall.test.ts
        • integrations/cli/standalone.test.ts
        • integrations/cli/index.test.ts
-       • packages/tailwindcss/tests/ui.spec.ts
-       • packages/tailwindcss/src/variants.ts
-       • packages/tailwindcss/src/utilities.ts
+       • playgrounds/vite/src/app.tsx
+       • playgrounds/v3/app/layout.tsx
+       • playgrounds/nextjs/app/layout.tsx
      📄 Files WITHOUT ParenthesizedExpression (showing 10):
        • vitest.workspace.ts
        • scripts/release-notes.mjs
@@ -1142,13 +1142,15 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
-       • packages/tailwindcss/playwright.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
+       • playgrounds/v3/postcss.config.js
 
    TSTypeParameterInstantiation:
      📄 Files WITH TSTypeParameterInstantiation (showing 10):
        • integrations/utils.ts
+       • playgrounds/v3/app/layout.tsx
+       • playgrounds/nextjs/app/layout.tsx
        • packages/tailwindcss/src/variants.ts
        • packages/tailwindcss/src/utilities.ts
        • packages/tailwindcss/src/theme.ts
@@ -1156,8 +1158,6 @@ Repository: sample-repos/tailwindcss
        • packages/tailwindcss/src/plugin.ts
        • packages/tailwindcss/src/intellisense.ts
        • packages/tailwindcss/src/index.ts
-       • packages/tailwindcss/src/design-system.ts
-       • packages/tailwindcss/src/css-functions.ts
      📄 Files WITHOUT TSTypeParameterInstantiation (showing 10):
        • vitest.workspace.ts
        • scripts/version-packages.mjs
@@ -1167,21 +1167,21 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    ExportNamedDeclaration:
      📄 Files WITH ExportNamedDeclaration (showing 10):
        • integrations/utils.ts
+       • playgrounds/vite/src/app.tsx
+       • playgrounds/v3/app/layout.tsx
+       • playgrounds/nextjs/app/layout.tsx
        • packages/tailwindcss/src/variants.ts
        • packages/tailwindcss/src/value-parser.ts
        • packages/tailwindcss/src/utilities.ts
        • packages/tailwindcss/src/theme.ts
        • packages/tailwindcss/src/sort.ts
        • packages/tailwindcss/src/plugin.ts
-       • packages/tailwindcss/src/intellisense.ts
-       • packages/tailwindcss/src/index.ts
-       • packages/tailwindcss/src/design-system.ts
      📄 Files WITHOUT ExportNamedDeclaration (showing 10):
        • vitest.workspace.ts
        • scripts/version-packages.mjs
@@ -1191,8 +1191,8 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    Program:
      📄 Files WITH Program (showing 10):
@@ -1205,7 +1205,7 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
      📄 Files WITHOUT Program: (all files contain this node type)
 
    ConditionalExpression:
@@ -1228,9 +1228,9 @@ Repository: sample-repos/tailwindcss
        • scripts/pre-publish-optimizations.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
-       • packages/internal-example-plugin/index.js
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
+       • playgrounds/v3/postcss.config.js
 
    FunctionExpression:
      📄 Files WITH FunctionExpression (showing 10):
@@ -1253,8 +1253,8 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    TSNullKeyword:
      📄 Files WITH TSNullKeyword (showing 10):
@@ -1277,8 +1277,8 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    ContinueStatement:
      📄 Files WITH ContinueStatement (showing 10):
@@ -1299,10 +1299,10 @@ Repository: sample-repos/tailwindcss
        • scripts/pre-publish-optimizations.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
-       • packages/tailwindcss/playwright.config.ts
-       • packages/internal-example-plugin/index.js
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
+       • playgrounds/v3/postcss.config.js
+       • playgrounds/v3/next.config.mjs
 
    SwitchCase:
      📄 Files WITH SwitchCase (showing 10):
@@ -1326,7 +1326,7 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    SpreadElement:
      📄 Files WITH SpreadElement (showing 10):
@@ -1347,14 +1347,16 @@ Repository: sample-repos/tailwindcss
        • scripts/pre-publish-optimizations.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
-       • packages/internal-example-plugin/index.js
-       • packages/@tailwindcss-vite/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
+       • playgrounds/v3/postcss.config.js
+       • playgrounds/v3/next.config.mjs
 
    TSTypeLiteral:
      📄 Files WITH TSTypeLiteral (showing 10):
        • integrations/utils.ts
+       • playgrounds/v3/app/layout.tsx
+       • playgrounds/nextjs/app/layout.tsx
        • packages/tailwindcss/src/variants.ts
        • packages/tailwindcss/src/value-parser.ts
        • packages/tailwindcss/src/utilities.ts
@@ -1362,8 +1364,6 @@ Repository: sample-repos/tailwindcss
        • packages/tailwindcss/src/intellisense.ts
        • packages/tailwindcss/src/index.ts
        • packages/tailwindcss/src/design-system.ts
-       • packages/tailwindcss/src/compile.ts
-       • packages/tailwindcss/src/candidate.ts
      📄 Files WITHOUT TSTypeLiteral (showing 10):
        • vitest.workspace.ts
        • scripts/version-packages.mjs
@@ -1373,8 +1373,8 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    ArrayPattern:
      📄 Files WITH ArrayPattern (showing 10):
@@ -1393,12 +1393,12 @@ Repository: sample-repos/tailwindcss
        • scripts/release-channel.js
        • scripts/pre-publish-optimizations.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
-       • packages/tailwindcss/playwright.config.ts
-       • packages/internal-example-plugin/index.js
-       • packages/@tailwindcss-vite/tsup.config.ts
-       • packages/@tailwindcss-upgrade/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
+       • playgrounds/v3/postcss.config.js
+       • playgrounds/v3/next.config.mjs
+       • playgrounds/nextjs/postcss.config.js
+       • playgrounds/nextjs/next.config.mjs
 
    ThisExpression:
      📄 Files WITH ThisExpression (showing 10):
@@ -1408,10 +1408,10 @@ Repository: sample-repos/tailwindcss
        • packages/tailwindcss/src/theme.ts
        • packages/tailwindcss/src/design-system.ts
        • packages/@tailwindcss-vite/src/index.ts
-       • packages/@tailwindcss-upgrade/src/stylesheet.ts
        • packages/@tailwindcss-node/src/instrumentation.ts
-       • packages/tailwindcss/src/utils/default-map.ts
+       • packages/@tailwindcss-upgrade/src/stylesheet.ts
        • packages/tailwindcss/src/compat/plugin-api.ts
+       • packages/tailwindcss/src/utils/default-map.ts
      📄 Files WITHOUT ThisExpression (showing 10):
        • vitest.workspace.ts
        • scripts/version-packages.mjs
@@ -1421,8 +1421,8 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    ImportDefaultSpecifier:
      📄 Files WITH ImportDefaultSpecifier (showing 10):
@@ -1431,27 +1431,28 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/utils.ts
+       • playgrounds/vite/vite.config.ts
        • packages/tailwindcss/vitest.config.ts
-       • integrations/vite/other-transforms.test.ts
-       • integrations/vite/index.test.ts
        • integrations/upgrade/js-config.test.ts
        • integrations/upgrade/index.test.ts
+       • integrations/vite/other-transforms.test.ts
      📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
        • vitest.workspace.ts
        • scripts/release-notes.mjs
        • scripts/release-channel.js
        • integrations/vitest.config.ts
+       • playgrounds/v3/tailwind.config.js
+       • playgrounds/v3/postcss.config.js
+       • playgrounds/v3/next.config.mjs
+       • playgrounds/nextjs/postcss.config.js
+       • playgrounds/nextjs/next.config.mjs
        • packages/tailwindcss/tsup.config.ts
-       • packages/tailwindcss/playwright.config.ts
-       • packages/internal-example-plugin/index.js
-       • packages/@tailwindcss-vite/tsup.config.ts
-       • packages/@tailwindcss-upgrade/tsup.config.ts
-       • packages/@tailwindcss-postcss/tsup.config.ts
 
    ChainExpression:
      📄 Files WITH ChainExpression (showing 10):
        • scripts/lock-pre-release-versions.mjs
        • integrations/utils.ts
+       • playgrounds/v3/scripts/upgrade.mjs
        • packages/tailwindcss/src/variants.ts
        • packages/tailwindcss/src/value-parser.ts
        • packages/tailwindcss/src/utilities.ts
@@ -1459,7 +1460,6 @@ Repository: sample-repos/tailwindcss
        • packages/tailwindcss/src/sort.ts
        • packages/tailwindcss/src/intellisense.test.ts
        • packages/tailwindcss/src/css-parser.ts
-       • packages/tailwindcss/src/compile.ts
      📄 Files WITHOUT ChainExpression (showing 10):
        • vitest.workspace.ts
        • scripts/version-packages.mjs
@@ -1468,9 +1468,9 @@ Repository: sample-repos/tailwindcss
        • scripts/pre-publish-optimizations.mjs
        • scripts/pack-packages.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
-       • packages/tailwindcss/playwright.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
+       • playgrounds/v3/postcss.config.js
 
    TSLiteralType:
      📄 Files WITH TSLiteralType (showing 10):
@@ -1493,8 +1493,8 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    AssignmentPattern:
      📄 Files WITH AssignmentPattern (showing 10):
@@ -1516,9 +1516,9 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
-       • packages/tailwindcss/playwright.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
+       • playgrounds/v3/postcss.config.js
 
    TSBooleanKeyword:
      📄 Files WITH TSBooleanKeyword (showing 10):
@@ -1541,8 +1541,8 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    TSAsExpression:
      📄 Files WITH TSAsExpression (showing 10):
@@ -1565,8 +1565,8 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    ThrowStatement:
      📄 Files WITH ThrowStatement (showing 10):
@@ -1589,8 +1589,8 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    BreakStatement:
      📄 Files WITH BreakStatement (showing 10):
@@ -1613,8 +1613,8 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    TSNumberKeyword:
      📄 Files WITH TSNumberKeyword (showing 10):
@@ -1626,8 +1626,8 @@ Repository: sample-repos/tailwindcss
        • packages/tailwindcss/src/apply.ts
        • packages/@tailwindcss-vite/src/index.ts
        • packages/@tailwindcss-postcss/src/index.ts
-       • packages/tailwindcss/src/source-maps/source.ts
-       • packages/tailwindcss/src/source-maps/source-map.test.ts
+       • packages/tailwindcss/src/compat/screens-config.ts
+       • packages/tailwindcss/src/compat/plugin-functions.ts
      📄 Files WITHOUT TSNumberKeyword (showing 10):
        • vitest.workspace.ts
        • scripts/version-packages.mjs
@@ -1637,8 +1637,8 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    TSFunctionType:
      📄 Files WITH TSFunctionType (showing 10):
@@ -1661,8 +1661,8 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    UpdateExpression:
      📄 Files WITH UpdateExpression (showing 10):
@@ -1685,8 +1685,8 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    TSTypeAliasDeclaration:
      📄 Files WITH TSTypeAliasDeclaration (showing 10):
@@ -1709,21 +1709,21 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    TSNonNullExpression:
      📄 Files WITH TSNonNullExpression (showing 10):
        • integrations/utils.ts
        • integrations/vite/multi-root.test.ts
        • integrations/postcss/next.test.ts
+       • playgrounds/vite/src/main.tsx
        • packages/tailwindcss/tests/ui.spec.ts
        • packages/tailwindcss/src/variants.ts
        • packages/tailwindcss/src/utilities.ts
        • packages/tailwindcss/src/theme.ts
        • packages/tailwindcss/src/intellisense.test.ts
        • packages/tailwindcss/src/intellisense.bench.ts
-       • packages/tailwindcss/src/compile.ts
      📄 Files WITHOUT TSNonNullExpression (showing 10):
        • vitest.workspace.ts
        • scripts/version-packages.mjs
@@ -1733,8 +1733,8 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    MethodDefinition:
      📄 Files WITH MethodDefinition (showing 9):
@@ -1742,9 +1742,9 @@ Repository: sample-repos/tailwindcss
        • packages/tailwindcss/src/utilities.ts
        • packages/tailwindcss/src/theme.ts
        • packages/@tailwindcss-vite/src/index.ts
-       • packages/@tailwindcss-upgrade/src/stylesheet.ts
-       • packages/@tailwindcss-browser/src/instrumentation.ts
        • packages/@tailwindcss-node/src/instrumentation.ts
+       • packages/@tailwindcss-browser/src/instrumentation.ts
+       • packages/@tailwindcss-upgrade/src/stylesheet.ts
        • packages/tailwindcss/src/utils/default-map.ts
        • packages/@tailwindcss-cli/src/utils/disposables.ts
      📄 Files WITHOUT MethodDefinition (showing 10):
@@ -1757,7 +1757,7 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    TSAnyKeyword:
      📄 Files WITH TSAnyKeyword (showing 10):
@@ -1765,12 +1765,12 @@ Repository: sample-repos/tailwindcss
        • packages/tailwindcss/src/variants.ts
        • packages/tailwindcss/src/utilities.ts
        • packages/tailwindcss/src/ast.ts
+       • packages/@tailwindcss-node/src/compile.ts
+       • packages/@tailwindcss-browser/src/instrumentation.ts
+       • packages/@tailwindcss-postcss/src/index.test.ts
        • packages/@tailwindcss-upgrade/src/index.ts
        • packages/@tailwindcss-upgrade/src/index.test.ts
-       • packages/@tailwindcss-postcss/src/index.test.ts
-       • packages/@tailwindcss-browser/src/instrumentation.ts
-       • packages/@tailwindcss-node/src/compile.ts
-       • packages/tailwindcss/src/utils/infer-data-type.ts
+       • packages/tailwindcss/src/compat/plugin-functions.ts
      📄 Files WITHOUT TSAnyKeyword (showing 10):
        • vitest.workspace.ts
        • scripts/version-packages.mjs
@@ -1780,8 +1780,8 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    TSUndefinedKeyword:
      📄 Files WITH TSUndefinedKeyword (showing 10):
@@ -1791,10 +1791,10 @@ Repository: sample-repos/tailwindcss
        • packages/tailwindcss/src/design-system.ts
        • packages/tailwindcss/src/ast.ts
        • packages/@tailwindcss-vite/src/index.ts
-       • packages/@tailwindcss-standalone/src/types.d.ts
-       • packages/@tailwindcss-postcss/src/ast.ts
        • packages/@tailwindcss-node/src/optimize.ts
        • packages/@tailwindcss-node/src/compile.ts
+       • packages/@tailwindcss-postcss/src/ast.ts
+       • packages/@tailwindcss-standalone/src/types.d.ts
      📄 Files WITHOUT TSUndefinedKeyword (showing 10):
        • vitest.workspace.ts
        • scripts/version-packages.mjs
@@ -1804,8 +1804,8 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    TSVoidKeyword:
      📄 Files WITH TSVoidKeyword (showing 10):
@@ -1828,8 +1828,8 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    ImportNamespaceSpecifier:
      📄 Files WITH ImportNamespaceSpecifier (showing 10):
@@ -1852,8 +1852,8 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    ForStatement:
      📄 Files WITH ForStatement (showing 10):
@@ -1866,7 +1866,7 @@ Repository: sample-repos/tailwindcss
        • packages/tailwindcss/src/candidate.ts
        • packages/tailwindcss/src/at-import.ts
        • packages/tailwindcss/src/ast.ts
-       • packages/@tailwindcss-standalone/scripts/build.ts
+       • packages/@tailwindcss-node/src/instrumentation.ts
      📄 Files WITHOUT ForStatement (showing 10):
        • vitest.workspace.ts
        • scripts/version-packages.mjs
@@ -1876,21 +1876,21 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    TryStatement:
      📄 Files WITH TryStatement (showing 10):
        • integrations/utils.ts
        • integrations/vite/vue.test.ts
+       • playgrounds/v3/scripts/upgrade.mjs
        • packages/tailwindcss/src/design-system.ts
        • packages/@tailwindcss-vite/src/index.ts
-       • packages/@tailwindcss-upgrade/src/index.ts
-       • packages/@tailwindcss-standalone/scripts/build.ts
-       • packages/@tailwindcss-postcss/src/index.ts
-       • packages/@tailwindcss-browser/src/index.ts
        • packages/@tailwindcss-node/src/compile.ts
-       • crates/node/scripts/install.js
+       • packages/@tailwindcss-browser/src/index.ts
+       • packages/@tailwindcss-postcss/src/index.ts
+       • packages/@tailwindcss-standalone/scripts/build.ts
+       • packages/@tailwindcss-upgrade/src/index.ts
      📄 Files WITHOUT TryStatement (showing 10):
        • vitest.workspace.ts
        • scripts/version-packages.mjs
@@ -1900,8 +1900,8 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    SwitchStatement:
      📄 Files WITH SwitchStatement (showing 10):
@@ -1925,20 +1925,20 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    CatchClause:
      📄 Files WITH CatchClause (showing 10):
        • integrations/utils.ts
        • integrations/vite/vue.test.ts
+       • playgrounds/v3/scripts/upgrade.mjs
        • packages/tailwindcss/src/design-system.ts
        • packages/@tailwindcss-vite/src/index.ts
-       • packages/@tailwindcss-upgrade/src/index.ts
-       • packages/@tailwindcss-standalone/scripts/build.ts
-       • packages/@tailwindcss-postcss/src/index.ts
-       • packages/@tailwindcss-browser/src/index.ts
        • packages/@tailwindcss-node/src/compile.ts
-       • crates/node/scripts/install.js
+       • packages/@tailwindcss-browser/src/index.ts
+       • packages/@tailwindcss-postcss/src/index.ts
+       • packages/@tailwindcss-standalone/scripts/build.ts
+       • packages/@tailwindcss-upgrade/src/index.ts
      📄 Files WITHOUT CatchClause (showing 10):
        • vitest.workspace.ts
        • scripts/version-packages.mjs
@@ -1948,8 +1948,8 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    TSInterfaceDeclaration:
      📄 Files WITH TSInterfaceDeclaration (showing 10):
@@ -1958,11 +1958,11 @@ Repository: sample-repos/tailwindcss
        • packages/tailwindcss/src/node.d.ts
        • packages/tailwindcss/src/intellisense.ts
        • packages/tailwindcss/src/css-parser.ts
-       • packages/@tailwindcss-upgrade/src/stylesheet.ts
-       • packages/@tailwindcss-postcss/src/index.ts
-       • packages/@tailwindcss-browser/tests/ui.spec.ts
        • packages/@tailwindcss-node/src/urls.ts
        • packages/@tailwindcss-node/src/source-maps.ts
+       • packages/@tailwindcss-node/src/optimize.ts
+       • packages/@tailwindcss-node/src/compile.ts
+       • packages/@tailwindcss-browser/tests/ui.spec.ts
      📄 Files WITHOUT TSInterfaceDeclaration (showing 10):
        • vitest.workspace.ts
        • scripts/version-packages.mjs
@@ -1972,8 +1972,8 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    TSInterfaceBody:
      📄 Files WITH TSInterfaceBody (showing 10):
@@ -1982,11 +1982,11 @@ Repository: sample-repos/tailwindcss
        • packages/tailwindcss/src/node.d.ts
        • packages/tailwindcss/src/intellisense.ts
        • packages/tailwindcss/src/css-parser.ts
-       • packages/@tailwindcss-upgrade/src/stylesheet.ts
-       • packages/@tailwindcss-postcss/src/index.ts
-       • packages/@tailwindcss-browser/tests/ui.spec.ts
        • packages/@tailwindcss-node/src/urls.ts
        • packages/@tailwindcss-node/src/source-maps.ts
+       • packages/@tailwindcss-node/src/optimize.ts
+       • packages/@tailwindcss-node/src/compile.ts
+       • packages/@tailwindcss-browser/tests/ui.spec.ts
      📄 Files WITHOUT TSInterfaceBody (showing 10):
        • vitest.workspace.ts
        • scripts/version-packages.mjs
@@ -1996,8 +1996,8 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    TSMethodSignature:
      📄 Files WITH TSMethodSignature (showing 10):
@@ -2007,9 +2007,9 @@ Repository: sample-repos/tailwindcss
        • packages/tailwindcss/src/index.ts
        • packages/tailwindcss/src/design-system.ts
        • packages/tailwindcss/src/ast.ts
-       • packages/tailwindcss/src/source-maps/line-table.ts
        • packages/tailwindcss/src/compat/selector-parser.ts
        • packages/tailwindcss/src/compat/plugin-api.ts
+       • packages/tailwindcss/src/source-maps/line-table.ts
        • packages/@tailwindcss-upgrade/src/utils/walk.ts
      📄 Files WITHOUT TSMethodSignature (showing 10):
        • vitest.workspace.ts
@@ -2020,8 +2020,8 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    TSTupleType:
      📄 Files WITH TSTupleType (showing 10):
@@ -2034,7 +2034,7 @@ Repository: sample-repos/tailwindcss
        • packages/tailwindcss/src/intellisense.ts
        • packages/tailwindcss/src/design-system.ts
        • packages/tailwindcss/src/candidate.ts
-       • packages/tailwindcss/src/source-maps/source.ts
+       • packages/tailwindcss/src/compat/plugin-functions.ts
      📄 Files WITHOUT TSTupleType (showing 10):
        • vitest.workspace.ts
        • scripts/version-packages.mjs
@@ -2044,8 +2044,8 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    PrivateIdentifier:
      📄 Files WITH PrivateIdentifier (showing 3):
@@ -2062,20 +2062,20 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    TSIndexedAccessType:
      📄 Files WITH TSIndexedAccessType (showing 10):
        • packages/tailwindcss/src/variants.ts
        • packages/tailwindcss/src/utilities.ts
        • packages/tailwindcss/src/theme.ts
-       • packages/@tailwindcss-postcss/src/ast.ts
        • packages/@tailwindcss-node/src/compile.ts
-       • packages/tailwindcss/src/test-utils/run.ts
-       • packages/tailwindcss/src/source-maps/source-map.test.ts
+       • packages/@tailwindcss-postcss/src/ast.ts
        • packages/tailwindcss/src/compat/plugin-functions.ts
        • packages/tailwindcss/src/compat/plugin-api.ts
        • packages/tailwindcss/src/compat/default-theme.ts
+       • packages/tailwindcss/src/compat/dark-mode.ts
+       • packages/tailwindcss/src/compat/apply-config-to-theme.ts
      📄 Files WITHOUT TSIndexedAccessType (showing 10):
        • vitest.workspace.ts
        • scripts/version-packages.mjs
@@ -2086,7 +2086,7 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    TSEnumMember:
      📄 Files WITH TSEnumMember (showing 10):
@@ -2110,7 +2110,7 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    YieldExpression:
      📄 Files WITH YieldExpression (showing 10):
@@ -2134,7 +2134,7 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    TSTypeParameter:
      📄 Files WITH TSTypeParameter (showing 10):
@@ -2144,10 +2144,10 @@ Repository: sample-repos/tailwindcss
        • packages/tailwindcss/src/sort.test.ts
        • packages/tailwindcss/src/plugin.ts
        • packages/@tailwindcss-vite/src/index.ts
+       • packages/tailwindcss/src/compat/plugin-api.ts
        • packages/tailwindcss/src/utils/default-map.ts
        • packages/tailwindcss/src/utils/compare.test.ts
-       • packages/tailwindcss/src/compat/plugin-api.ts
-       • packages/@tailwindcss-upgrade/src/utils/walk.ts
+       • packages/@tailwindcss-cli/src/utils/args.ts
      📄 Files WITHOUT TSTypeParameter (showing 10):
        • vitest.workspace.ts
        • scripts/version-packages.mjs
@@ -2157,8 +2157,8 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    JSXIdentifier:
      📄 Files WITH JSXIdentifier (showing 6):
@@ -2178,20 +2178,20 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    ExportDefaultDeclaration:
      📄 Files WITH ExportDefaultDeclaration (showing 10):
        • vitest.workspace.ts
        • integrations/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/next.config.mjs
+       • playgrounds/nextjs/next.config.mjs
        • packages/tailwindcss/vitest.config.ts
        • packages/tailwindcss/tsup.config.ts
        • packages/tailwindcss/playwright.config.ts
        • packages/@tailwindcss-vite/tsup.config.ts
-       • packages/@tailwindcss-upgrade/tsup.config.ts
-       • packages/@tailwindcss-postcss/tsup.config.ts
-       • packages/@tailwindcss-cli/tsup.config.ts
-       • packages/@tailwindcss-browser/vitest.config.ts
+       • packages/@tailwindcss-node/tsup.config.ts
      📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
        • scripts/version-packages.mjs
        • scripts/release-notes.mjs
@@ -2200,9 +2200,9 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/utils.ts
-       • packages/internal-example-plugin/index.js
-       • integrations/webpack/index.test.ts
-       • integrations/vite/vue.test.ts
+       • playgrounds/v3/tailwind.config.js
+       • playgrounds/v3/postcss.config.js
+       • playgrounds/nextjs/postcss.config.js
 
    TSTypeParameterDeclaration:
      📄 Files WITH TSTypeParameterDeclaration (showing 10):
@@ -2212,10 +2212,10 @@ Repository: sample-repos/tailwindcss
        • packages/tailwindcss/src/sort.test.ts
        • packages/tailwindcss/src/plugin.ts
        • packages/@tailwindcss-vite/src/index.ts
+       • packages/tailwindcss/src/compat/plugin-api.ts
        • packages/tailwindcss/src/utils/default-map.ts
        • packages/tailwindcss/src/utils/compare.test.ts
-       • packages/tailwindcss/src/compat/plugin-api.ts
-       • packages/@tailwindcss-upgrade/src/utils/walk.ts
+       • packages/@tailwindcss-cli/src/utils/args.ts
      📄 Files WITHOUT TSTypeParameterDeclaration (showing 10):
        • vitest.workspace.ts
        • scripts/version-packages.mjs
@@ -2225,21 +2225,21 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    TSQualifiedName:
      📄 Files WITH TSQualifiedName (showing 10):
+       • playgrounds/v3/app/layout.tsx
+       • playgrounds/nextjs/app/layout.tsx
        • packages/tailwindcss/src/utilities.ts
        • packages/tailwindcss/src/css-functions.ts
        • packages/tailwindcss/src/candidate.ts
        • packages/tailwindcss/src/at-import.ts
        • packages/tailwindcss/src/ast.ts
-       • packages/@tailwindcss-upgrade/src/stylesheet.ts
-       • packages/@tailwindcss-postcss/src/index.ts
-       • packages/@tailwindcss-browser/src/index.ts
        • packages/@tailwindcss-node/src/env.ts
        • packages/@tailwindcss-node/src/compile.ts
+       • packages/@tailwindcss-browser/src/index.ts
      📄 Files WITHOUT TSQualifiedName (showing 10):
        • vitest.workspace.ts
        • scripts/version-packages.mjs
@@ -2250,7 +2250,7 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    TSParenthesizedType:
      📄 Files WITH TSParenthesizedType (showing 10):
@@ -2260,8 +2260,8 @@ Repository: sample-repos/tailwindcss
        • packages/tailwindcss/src/index.ts
        • packages/tailwindcss/src/design-system.ts
        • packages/tailwindcss/src/css-parser.ts
-       • packages/@tailwindcss-upgrade/src/index.ts
        • packages/@tailwindcss-standalone/src/types.d.ts
+       • packages/@tailwindcss-upgrade/src/index.ts
        • packages/tailwindcss/src/compat/selector-parser.ts
        • packages/tailwindcss/src/compat/screens-config.ts
      📄 Files WITHOUT TSParenthesizedType (showing 10):
@@ -2273,8 +2273,8 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    PropertyDefinition:
      📄 Files WITH PropertyDefinition (showing 7):
@@ -2282,8 +2282,8 @@ Repository: sample-repos/tailwindcss
        • packages/tailwindcss/src/utilities.ts
        • packages/tailwindcss/src/theme.ts
        • packages/@tailwindcss-vite/src/index.ts
-       • packages/@tailwindcss-upgrade/src/stylesheet.ts
        • packages/@tailwindcss-node/src/instrumentation.ts
+       • packages/@tailwindcss-upgrade/src/stylesheet.ts
        • packages/@tailwindcss-cli/src/utils/disposables.ts
      📄 Files WITHOUT PropertyDefinition (showing 10):
        • vitest.workspace.ts
@@ -2295,7 +2295,7 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    TSUnknownKeyword:
      📄 Files WITH TSUnknownKeyword (showing 9):
@@ -2303,8 +2303,8 @@ Repository: sample-repos/tailwindcss
        • packages/tailwindcss/src/compat/screens-config.ts
        • packages/tailwindcss/src/compat/plugin-functions.ts
        • packages/tailwindcss/src/compat/apply-config-to-theme.ts
-       • packages/@tailwindcss-upgrade/src/utils/args.ts
        • packages/@tailwindcss-cli/src/utils/args.ts
+       • packages/@tailwindcss-upgrade/src/utils/args.ts
        • packages/tailwindcss/src/compat/config/types.ts
        • packages/tailwindcss/src/compat/config/deep-merge.ts
        • packages/@tailwindcss-upgrade/src/codemods/config/migrate-js-config.ts
@@ -2317,8 +2317,8 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    TSSatisfiesExpression:
      📄 Files WITH TSSatisfiesExpression (showing 10):
@@ -2330,7 +2330,7 @@ Repository: sample-repos/tailwindcss
        • packages/tailwindcss/src/ast.test.ts
        • packages/tailwindcss/src/apply.ts
        • packages/@tailwindcss-vite/src/index.ts
-       • packages/@tailwindcss-upgrade/src/index.ts
+       • packages/@tailwindcss-cli/src/index.ts
        • packages/@tailwindcss-postcss/src/ast.ts
      📄 Files WITHOUT TSSatisfiesExpression (showing 10):
        • vitest.workspace.ts
@@ -2341,21 +2341,21 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    TSTypeQuery:
      📄 Files WITH TSTypeQuery (showing 10):
        • packages/tailwindcss/src/design-system.ts
        • packages/tailwindcss/src/css-functions.ts
        • packages/@tailwindcss-vite/src/index.ts
-       • packages/@tailwindcss-upgrade/src/stylesheet.ts
-       • packages/@tailwindcss-upgrade/src/index.ts
-       • packages/@tailwindcss-postcss/src/index.ts
-       • packages/@tailwindcss-browser/tests/ui.spec.ts
-       • packages/@tailwindcss-browser/src/index.ts
        • packages/@tailwindcss-node/src/env.ts
        • packages/@tailwindcss-node/src/compile.ts
+       • packages/@tailwindcss-browser/tests/ui.spec.ts
+       • packages/@tailwindcss-browser/src/index.ts
+       • packages/@tailwindcss-postcss/src/index.ts
+       • packages/@tailwindcss-upgrade/src/stylesheet.ts
+       • packages/@tailwindcss-upgrade/src/index.ts
      📄 Files WITHOUT TSTypeQuery (showing 10):
        • vitest.workspace.ts
        • scripts/version-packages.mjs
@@ -2366,7 +2366,7 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    WhileStatement:
      📄 Files WITH WhileStatement (showing 10):
@@ -2389,15 +2389,15 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    TSNamedTupleMember:
      📄 Files WITH TSNamedTupleMember (showing 5):
        • packages/tailwindcss/src/candidate.ts
+       • packages/tailwindcss/src/compat/plugin-functions.ts
        • packages/tailwindcss/src/source-maps/source.ts
        • packages/tailwindcss/src/source-maps/source-map.ts
-       • packages/tailwindcss/src/compat/plugin-functions.ts
        • packages/@tailwindcss-upgrade/src/codemods/css/migrate-missing-layers.ts
      📄 Files WITHOUT TSNamedTupleMember (showing 10):
        • vitest.workspace.ts
@@ -2409,7 +2409,7 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    MetaProperty:
      📄 Files WITH MetaProperty (showing 10):
@@ -2418,22 +2418,22 @@ Repository: sample-repos/tailwindcss
        • scripts/pre-publish-optimizations.mjs
        • scripts/pack-packages.mjs
        • packages/tailwindcss/vitest.config.ts
+       • playgrounds/v3/scripts/upgrade.mjs
        • packages/tailwindcss/src/css-parser.bench.ts
-       • packages/@tailwindcss-standalone/src/index.ts
-       • packages/@tailwindcss-standalone/scripts/build.ts
        • packages/@tailwindcss-node/src/index.ts
        • packages/@tailwindcss-node/src/compile.ts
+       • packages/@tailwindcss-standalone/src/index.ts
      📄 Files WITHOUT MetaProperty (showing 10):
        • vitest.workspace.ts
        • scripts/release-channel.js
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/tsup.config.ts
-       • packages/tailwindcss/playwright.config.ts
-       • packages/internal-example-plugin/index.js
-       • packages/@tailwindcss-vite/tsup.config.ts
-       • packages/@tailwindcss-upgrade/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
+       • playgrounds/v3/postcss.config.js
+       • playgrounds/v3/next.config.mjs
+       • playgrounds/nextjs/postcss.config.js
 
    TSNeverKeyword:
      📄 Files WITH TSNeverKeyword (showing 10):
@@ -2442,11 +2442,11 @@ Repository: sample-repos/tailwindcss
        • packages/tailwindcss/src/ast.ts
        • packages/tailwindcss/src/ast.test.ts
        • packages/tailwindcss/src/apply.ts
-       • packages/@tailwindcss-postcss/src/ast.ts
        • packages/@tailwindcss-browser/src/index.ts
+       • packages/@tailwindcss-postcss/src/ast.ts
        • packages/tailwindcss/src/utils/decode-arbitrary-value.ts
-       • packages/@tailwindcss-upgrade/src/utils/args.ts
        • packages/@tailwindcss-cli/src/utils/args.ts
+       • packages/@tailwindcss-upgrade/src/utils/args.ts
      📄 Files WITHOUT TSNeverKeyword (showing 10):
        • vitest.workspace.ts
        • scripts/version-packages.mjs
@@ -2457,14 +2457,14 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    TSTypeOperator:
      📄 Files WITH TSTypeOperator (showing 6):
        • packages/tailwindcss/src/css-functions.ts
        • packages/tailwindcss/src/compat/apply-compat-hooks.ts
-       • packages/@tailwindcss-upgrade/src/utils/args.ts
        • packages/@tailwindcss-cli/src/utils/args.ts
+       • packages/@tailwindcss-upgrade/src/utils/args.ts
        • packages/tailwindcss/src/compat/config/deep-merge.ts
        • packages/@tailwindcss-upgrade/src/codemods/template/migrate-simple-legacy-classes.ts
      📄 Files WITHOUT TSTypeOperator (showing 10):
@@ -2477,15 +2477,15 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    TSTemplateLiteralType:
      📄 Files WITH TSTemplateLiteralType (showing 5):
        • packages/tailwindcss/src/utilities.ts
        • packages/tailwindcss/src/theme.ts
        • packages/tailwindcss/src/design-system.ts
-       • packages/@tailwindcss-upgrade/src/utils/args.ts
        • packages/@tailwindcss-cli/src/utils/args.ts
+       • packages/@tailwindcss-upgrade/src/utils/args.ts
      📄 Files WITHOUT TSTemplateLiteralType (showing 10):
        • vitest.workspace.ts
        • scripts/version-packages.mjs
@@ -2496,13 +2496,13 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    ImportExpression:
      📄 Files WITH ImportExpression (showing 3):
-       • packages/@tailwindcss-standalone/src/index.ts
-       • packages/@tailwindcss-browser/tests/ui.spec.ts
        • packages/@tailwindcss-node/src/compile.ts
+       • packages/@tailwindcss-browser/tests/ui.spec.ts
+       • packages/@tailwindcss-standalone/src/index.ts
      📄 Files WITHOUT ImportExpression (showing 10):
        • vitest.workspace.ts
        • scripts/version-packages.mjs
@@ -2513,7 +2513,7 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    JSXText:
      📄 Files WITH JSXText (showing 6):
@@ -2533,7 +2533,7 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    RestElement:
      📄 Files WITH RestElement (showing 6):
@@ -2552,27 +2552,8 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
-
-   ExportSpecifier:
-     📄 Files WITH ExportSpecifier (showing 5):
-       • packages/tailwindcss/src/plugin.ts
-       • packages/tailwindcss/src/index.ts
-       • packages/@tailwindcss-node/src/source-maps.ts
-       • packages/@tailwindcss-node/src/index.ts
-       • packages/@tailwindcss-node/src/compile.ts
-     📄 Files WITHOUT ExportSpecifier (showing 10):
-       • vitest.workspace.ts
-       • scripts/version-packages.mjs
-       • scripts/release-notes.mjs
-       • scripts/release-channel.js
-       • scripts/pre-publish-optimizations.mjs
-       • scripts/pack-packages.mjs
-       • scripts/lock-pre-release-versions.mjs
-       • integrations/vitest.config.ts
-       • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    JSXElement:
      📄 Files WITH JSXElement (showing 6):
@@ -2592,7 +2573,7 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    JSXOpeningElement:
      📄 Files WITH JSXOpeningElement (showing 6):
@@ -2612,7 +2593,46 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
+
+   ExportSpecifier:
+     📄 Files WITH ExportSpecifier (showing 5):
+       • packages/tailwindcss/src/plugin.ts
+       • packages/tailwindcss/src/index.ts
+       • packages/@tailwindcss-node/src/source-maps.ts
+       • packages/@tailwindcss-node/src/index.ts
+       • packages/@tailwindcss-node/src/compile.ts
+     📄 Files WITHOUT ExportSpecifier (showing 10):
+       • vitest.workspace.ts
+       • scripts/version-packages.mjs
+       • scripts/release-notes.mjs
+       • scripts/release-channel.js
+       • scripts/pre-publish-optimizations.mjs
+       • scripts/pack-packages.mjs
+       • scripts/lock-pre-release-versions.mjs
+       • integrations/vitest.config.ts
+       • integrations/utils.ts
+       • playgrounds/vite/vite.config.ts
+
+   JSXClosingElement:
+     📄 Files WITH JSXClosingElement (showing 6):
+       • playgrounds/vite/src/main.tsx
+       • playgrounds/vite/src/app.tsx
+       • playgrounds/v3/app/page.tsx
+       • playgrounds/v3/app/layout.tsx
+       • playgrounds/nextjs/app/page.tsx
+       • playgrounds/nextjs/app/layout.tsx
+     📄 Files WITHOUT JSXClosingElement (showing 10):
+       • vitest.workspace.ts
+       • scripts/version-packages.mjs
+       • scripts/release-notes.mjs
+       • scripts/release-channel.js
+       • scripts/pre-publish-optimizations.mjs
+       • scripts/pack-packages.mjs
+       • scripts/lock-pre-release-versions.mjs
+       • integrations/vitest.config.ts
+       • integrations/utils.ts
+       • playgrounds/vite/vite.config.ts
 
    TSEnumDeclaration:
      📄 Files WITH TSEnumDeclaration (showing 10):
@@ -2636,7 +2656,7 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    TSEnumBody:
      📄 Files WITH TSEnumBody (showing 10):
@@ -2660,7 +2680,7 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    TSBigIntKeyword:
      📄 Files WITH TSBigIntKeyword (showing 9):
@@ -2669,10 +2689,10 @@ Repository: sample-repos/tailwindcss
        • packages/tailwindcss/src/design-system.ts
        • packages/tailwindcss/src/compile.ts
        • packages/@tailwindcss-node/src/instrumentation.ts
-       • packages/@tailwindcss-upgrade/src/utils/renderer.ts
-       • packages/@tailwindcss-upgrade/src/utils/format-ns.ts
        • packages/@tailwindcss-cli/src/utils/renderer.ts
        • packages/@tailwindcss-cli/src/utils/format-ns.ts
+       • packages/@tailwindcss-upgrade/src/utils/renderer.ts
+       • packages/@tailwindcss-upgrade/src/utils/format-ns.ts
      📄 Files WITHOUT TSBigIntKeyword (showing 10):
        • vitest.workspace.ts
        • scripts/version-packages.mjs
@@ -2683,34 +2703,14 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
-
-   JSXClosingElement:
-     📄 Files WITH JSXClosingElement (showing 6):
-       • playgrounds/vite/src/main.tsx
-       • playgrounds/vite/src/app.tsx
-       • playgrounds/v3/app/page.tsx
-       • playgrounds/v3/app/layout.tsx
-       • playgrounds/nextjs/app/page.tsx
-       • playgrounds/nextjs/app/layout.tsx
-     📄 Files WITHOUT JSXClosingElement (showing 10):
-       • vitest.workspace.ts
-       • scripts/version-packages.mjs
-       • scripts/release-notes.mjs
-       • scripts/release-channel.js
-       • scripts/pre-publish-optimizations.mjs
-       • scripts/pack-packages.mjs
-       • scripts/lock-pre-release-versions.mjs
-       • integrations/vitest.config.ts
-       • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    ForInStatement:
      📄 Files WITH ForInStatement (showing 6):
        • integrations/utils.ts
        • packages/tailwindcss/src/compat/plugin-functions.ts
-       • packages/@tailwindcss-upgrade/src/utils/replace-object.ts
        • packages/@tailwindcss-cli/src/utils/args.ts
+       • packages/@tailwindcss-upgrade/src/utils/replace-object.ts
        • packages/tailwindcss/src/compat/config/resolve-config.ts
        • packages/@tailwindcss-upgrade/src/codemods/template/migrate-simple-legacy-classes.ts
      📄 Files WITHOUT ForInStatement (showing 10):
@@ -2722,8 +2722,8 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    ClassDeclaration:
      📄 Files WITH ClassDeclaration (showing 9):
@@ -2731,9 +2731,9 @@ Repository: sample-repos/tailwindcss
        • packages/tailwindcss/src/utilities.ts
        • packages/tailwindcss/src/theme.ts
        • packages/@tailwindcss-vite/src/index.ts
-       • packages/@tailwindcss-upgrade/src/stylesheet.ts
-       • packages/@tailwindcss-browser/src/instrumentation.ts
        • packages/@tailwindcss-node/src/instrumentation.ts
+       • packages/@tailwindcss-browser/src/instrumentation.ts
+       • packages/@tailwindcss-upgrade/src/stylesheet.ts
        • packages/tailwindcss/src/utils/default-map.ts
        • packages/@tailwindcss-cli/src/utils/disposables.ts
      📄 Files WITHOUT ClassDeclaration (showing 10):
@@ -2746,7 +2746,7 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    ClassBody:
      📄 Files WITH ClassBody (showing 9):
@@ -2754,9 +2754,9 @@ Repository: sample-repos/tailwindcss
        • packages/tailwindcss/src/utilities.ts
        • packages/tailwindcss/src/theme.ts
        • packages/@tailwindcss-vite/src/index.ts
-       • packages/@tailwindcss-upgrade/src/stylesheet.ts
-       • packages/@tailwindcss-browser/src/instrumentation.ts
        • packages/@tailwindcss-node/src/instrumentation.ts
+       • packages/@tailwindcss-browser/src/instrumentation.ts
+       • packages/@tailwindcss-upgrade/src/stylesheet.ts
        • packages/tailwindcss/src/utils/default-map.ts
        • packages/@tailwindcss-cli/src/utils/disposables.ts
      📄 Files WITHOUT ClassBody (showing 10):
@@ -2769,7 +2769,7 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    TSParameterProperty:
      📄 Files WITH TSParameterProperty (showing 4):
@@ -2787,7 +2787,7 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    JSXAttribute:
      📄 Files WITH JSXAttribute (showing 5):
@@ -2806,14 +2806,14 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    TSIntersectionType:
      📄 Files WITH TSIntersectionType (showing 7):
        • packages/tailwindcss/src/compat/plugin-functions.ts
        • packages/tailwindcss/src/compat/plugin-api.ts
-       • packages/@tailwindcss-upgrade/src/utils/args.ts
        • packages/@tailwindcss-cli/src/utils/args.ts
+       • packages/@tailwindcss-upgrade/src/utils/args.ts
        • packages/tailwindcss/src/compat/config/types.ts
        • packages/tailwindcss/src/compat/config/deep-merge.ts
        • packages/@tailwindcss-upgrade/src/codemods/config/migrate-js-config.ts
@@ -2827,15 +2827,15 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    TSIndexSignature:
      📄 Files WITH TSIndexSignature (showing 5):
        • integrations/utils.ts
        • packages/tailwindcss/src/compat/plugin-api.ts
        • packages/tailwindcss/src/compat/flatten-color-palette.ts
-       • packages/@tailwindcss-upgrade/src/utils/args.ts
        • packages/@tailwindcss-cli/src/utils/args.ts
+       • packages/@tailwindcss-upgrade/src/utils/args.ts
      📄 Files WITHOUT TSIndexSignature (showing 10):
        • vitest.workspace.ts
        • scripts/version-packages.mjs
@@ -2845,8 +2845,8 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    JSXExpressionContainer:
      📄 Files WITH JSXExpressionContainer (showing 3):
@@ -2863,7 +2863,7 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    TSObjectKeyword:
      📄 Files WITH TSObjectKeyword (showing 4):
@@ -2880,8 +2880,8 @@ Repository: sample-repos/tailwindcss
        • scripts/pack-packages.mjs
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
-       • packages/tailwindcss/vitest.config.ts
-       • packages/tailwindcss/tsup.config.ts
+       • playgrounds/vite/vite.config.ts
+       • playgrounds/v3/tailwind.config.js
 
    ExportAllDeclaration:
      📄 Files WITH ExportAllDeclaration (showing 1):
@@ -2896,13 +2896,13 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    TSConditionalType:
      📄 Files WITH TSConditionalType (showing 3):
+       • packages/@tailwindcss-cli/src/utils/args.ts
        • packages/@tailwindcss-upgrade/src/utils/types.ts
        • packages/@tailwindcss-upgrade/src/utils/args.ts
-       • packages/@tailwindcss-cli/src/utils/args.ts
      📄 Files WITHOUT TSConditionalType (showing 10):
        • vitest.workspace.ts
        • scripts/version-packages.mjs
@@ -2913,7 +2913,7 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    LabeledStatement:
      📄 Files WITH LabeledStatement (showing 4):
@@ -2931,7 +2931,7 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    DoWhileStatement:
      📄 Files WITH DoWhileStatement (showing 3):
@@ -2948,7 +2948,7 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    Super:
      📄 Files WITH Super (showing 2):
@@ -2964,7 +2964,7 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    ImportAttribute:
      📄 Files WITH ImportAttribute (showing 1):
@@ -2979,13 +2979,13 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    TSModuleDeclaration:
      📄 Files WITH TSModuleDeclaration (showing 3):
        • packages/tailwindcss/src/node.d.ts
-       • packages/@tailwindcss-standalone/src/types.d.ts
        • packages/@tailwindcss-browser/src/types.d.ts
+       • packages/@tailwindcss-standalone/src/types.d.ts
      📄 Files WITHOUT TSModuleDeclaration (showing 10):
        • vitest.workspace.ts
        • scripts/version-packages.mjs
@@ -2996,13 +2996,13 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    TSModuleBlock:
      📄 Files WITH TSModuleBlock (showing 3):
        • packages/tailwindcss/src/node.d.ts
-       • packages/@tailwindcss-standalone/src/types.d.ts
        • packages/@tailwindcss-browser/src/types.d.ts
+       • packages/@tailwindcss-standalone/src/types.d.ts
      📄 Files WITHOUT TSModuleBlock (showing 10):
        • vitest.workspace.ts
        • scripts/version-packages.mjs
@@ -3013,12 +3013,12 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    Hashbang:
      📄 Files WITH Hashbang (showing 3):
-       • packages/@tailwindcss-upgrade/src/index.ts
        • packages/@tailwindcss-cli/src/index.ts
+       • packages/@tailwindcss-upgrade/src/index.ts
        • crates/node/scripts/install.js
      📄 Files WITHOUT Hashbang (showing 10):
        • vitest.workspace.ts
@@ -3030,7 +3030,7 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    JSXMemberExpression:
      📄 Files WITH JSXMemberExpression (showing 1):
@@ -3045,7 +3045,7 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    JSXEmptyExpression:
      📄 Files WITH JSXEmptyExpression (showing 2):
@@ -3061,7 +3061,7 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    TSTypePredicate:
      📄 Files WITH TSTypePredicate (showing 2):
@@ -3077,12 +3077,12 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    TSMappedType:
      📄 Files WITH TSMappedType (showing 2):
-       • packages/@tailwindcss-upgrade/src/utils/args.ts
        • packages/@tailwindcss-cli/src/utils/args.ts
+       • packages/@tailwindcss-upgrade/src/utils/args.ts
      📄 Files WITHOUT TSMappedType (showing 10):
        • vitest.workspace.ts
        • scripts/version-packages.mjs
@@ -3093,7 +3093,7 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    EmptyStatement:
      📄 Files WITH EmptyStatement (showing 1):
@@ -3108,7 +3108,7 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    TSClassImplements:
      📄 Files WITH TSClassImplements (showing 1):
@@ -3123,22 +3123,7 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
-
-   TSInterfaceHeritage:
-     📄 Files WITH TSInterfaceHeritage (showing 1):
-       • packages/tailwindcss/src/source-maps/source-map.ts
-     📄 Files WITHOUT TSInterfaceHeritage (showing 10):
-       • vitest.workspace.ts
-       • scripts/version-packages.mjs
-       • scripts/release-notes.mjs
-       • scripts/release-channel.js
-       • scripts/pre-publish-optimizations.mjs
-       • scripts/pack-packages.mjs
-       • scripts/lock-pre-release-versions.mjs
-       • integrations/vitest.config.ts
-       • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
    TSCallSignatureDeclaration:
      📄 Files WITH TSCallSignatureDeclaration (showing 1):
@@ -3153,7 +3138,22 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
+
+   TSInterfaceHeritage:
+     📄 Files WITH TSInterfaceHeritage (showing 1):
+       • packages/tailwindcss/src/source-maps/source-map.ts
+     📄 Files WITHOUT TSInterfaceHeritage (showing 10):
+       • vitest.workspace.ts
+       • scripts/version-packages.mjs
+       • scripts/release-notes.mjs
+       • scripts/release-channel.js
+       • scripts/pre-publish-optimizations.mjs
+       • scripts/pack-packages.mjs
+       • scripts/lock-pre-release-versions.mjs
+       • integrations/vitest.config.ts
+       • integrations/utils.ts
+       • playgrounds/vite/vite.config.ts
 
    TSInferType:
      📄 Files WITH TSInferType (showing 1):
@@ -3168,7 +3168,7 @@ Repository: sample-repos/tailwindcss
        • scripts/lock-pre-release-versions.mjs
        • integrations/vitest.config.ts
        • integrations/utils.ts
-       • packages/tailwindcss/vitest.config.ts
+       • playgrounds/vite/vite.config.ts
 
 ============================================================
 ✅ Analysis complete!

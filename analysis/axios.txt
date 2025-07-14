@@ -1,5 +1,5 @@
 AST Analysis Report for axios
-Generated on: 2025-07-14T01:41:51.024Z
+Generated on: 2025-07-14T01:56:12.656Z
 Repository: sample-repos/axios
 ================================================================================
 
@@ -128,8 +128,8 @@ Repository: sample-repos/axios
    TSDeclareFunction                 1 files (  0.6%) -        8 total (0.01%)
    TSTypePredicate                   1 files (  0.6%) -        2 total (0.00%)
    TSTypeQuery                       1 files (  0.6%) -       13 total (0.02%)
-   SequenceExpression                1 files (  0.6%) -        1 total (0.00%)
    ImportExpression                  1 files (  0.6%) -        1 total (0.00%)
+   SequenceExpression                1 files (  0.6%) -        1 total (0.00%)
    ChainExpression                   1 files (  0.6%) -        1 total (0.00%)
    Super                             1 files (  0.6%) -        2 total (0.00%)
    SwitchStatement                   1 files (  0.6%) -        1 total (0.00%)
@@ -245,8 +245,8 @@ Repository: sample-repos/axios
    TSEnumBody                            1 (0.00%) in 1 files (0.6%)
    TSConstructorType                     1 (0.00%) in 1 files (0.6%)
    TSConditionalType                     1 (0.00%) in 1 files (0.6%)
-   SequenceExpression                    1 (0.00%) in 1 files (0.6%)
    ImportExpression                      1 (0.00%) in 1 files (0.6%)
+   SequenceExpression                    1 (0.00%) in 1 files (0.6%)
    ChainExpression                       1 (0.00%) in 1 files (0.6%)
    SwitchStatement                       1 (0.00%) in 1 files (0.6%)
    TSImportEqualsDeclaration             1 (0.00%) in 1 files (0.6%)
@@ -264,8 +264,8 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
-       • lib/axios.js
      📄 Files WITHOUT Identifier (showing 2):
        • lib/helpers/null.js
        • test/specs/core/enhanceError.spec.js
@@ -279,16 +279,16 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
      📄 Files WITHOUT MemberExpression (showing 10):
        • index.js
        • bin/api.js
        • lib/platform/index.js
-       • lib/helpers/null.js
        • lib/env/data.js
        • lib/defaults/transitional.js
+       • lib/helpers/null.js
        • lib/core/buildFullPath.js
        • test/specs/core/enhanceError.spec.js
        • lib/platform/browser/index.js
@@ -302,18 +302,18 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
        • bin/ssl_hotfix.js
      📄 Files WITHOUT CallExpression (showing 10):
        • index.js
        • index.d.ts
        • bin/api.js
        • lib/platform/index.js
-       • lib/helpers/null.js
        • lib/env/data.js
        • lib/defaults/transitional.js
+       • lib/helpers/null.js
        • lib/cancel/isCancel.js
        • test/specs/core/enhanceError.spec.js
        • lib/platform/browser/index.js
@@ -328,8 +328,8 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
-       • lib/axios.js
      📄 Files WITHOUT Literal (showing 2):
        • lib/helpers/readBlob.js
        • test/specs/core/enhanceError.spec.js
@@ -342,17 +342,17 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
        • bin/ssl_hotfix.js
      📄 Files WITHOUT ExpressionStatement (showing 10):
        • index.js
        • index.d.ts
        • bin/api.js
        • lib/platform/index.js
-       • lib/helpers/null.js
        • lib/env/data.js
+       • lib/helpers/null.js
        • test/specs/core/enhanceError.spec.js
        • lib/platform/common/utils.js
        • lib/platform/browser/index.js
@@ -366,9 +366,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
        • bin/ssl_hotfix.js
      📄 Files WITHOUT BlockStatement (showing 10):
        • index.js
@@ -377,9 +377,9 @@ Repository: sample-repos/axios
        • bin/check-build-version.js
        • bin/api.js
        • lib/platform/index.js
-       • lib/helpers/null.js
        • lib/env/data.js
        • lib/defaults/transitional.js
+       • lib/helpers/null.js
        • test/module/ts-require-default/index.ts
 
    Property:
@@ -391,20 +391,20 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
      📄 Files WITHOUT Property (showing 10):
        • index.d.ts
        • bin/api.js
        • test/helpers/retry.js
        • test/specs/api.spec.js
        • test/specs/__helpers.js
+       • examples/upload/server.js
        • lib/platform/index.js
+       • lib/env/data.js
        • lib/helpers/throttle.js
        • lib/helpers/spread.js
-       • lib/helpers/speedometer.js
-       • lib/helpers/parseProtocol.js
 
    VariableDeclarator:
      📄 Files WITH VariableDeclarator (showing 10):
@@ -416,19 +416,19 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
-       • lib/axios.js
      📄 Files WITHOUT VariableDeclarator (showing 10):
        • bin/api.js
        • test/specs/formdata.spec.js
+       • examples/postMultipartFormData/server.js
        • lib/platform/index.js
+       • lib/defaults/transitional.js
        • lib/helpers/toURLEncodedForm.js
        • lib/helpers/spread.js
        • lib/helpers/null.js
        • lib/helpers/isURLSameOrigin.js
        • lib/helpers/isAxiosError.js
-       • lib/helpers/isAbsoluteURL.js
-       • lib/helpers/deprecatedMethod.js
 
    VariableDeclaration:
      📄 Files WITH VariableDeclaration (showing 10):
@@ -440,19 +440,19 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
-       • lib/axios.js
      📄 Files WITHOUT VariableDeclaration (showing 10):
        • bin/api.js
        • test/specs/formdata.spec.js
+       • examples/postMultipartFormData/server.js
        • lib/platform/index.js
+       • lib/defaults/transitional.js
        • lib/helpers/toURLEncodedForm.js
        • lib/helpers/spread.js
        • lib/helpers/null.js
        • lib/helpers/isURLSameOrigin.js
        • lib/helpers/isAxiosError.js
-       • lib/helpers/isAbsoluteURL.js
-       • lib/helpers/deprecatedMethod.js
 
    FunctionExpression:
      📄 Files WITH FunctionExpression (showing 10):
@@ -460,9 +460,9 @@ Repository: sample-repos/axios
        • karma.conf.cjs
        • gulpfile.js
        • sandbox/server.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
        • bin/ssl_hotfix.js
        • bin/githubAxios.js
        • bin/RepoBot.js
@@ -486,9 +486,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
        • bin/ssl_hotfix.js
      📄 Files WITHOUT ObjectExpression (showing 10):
        • index.js
@@ -499,8 +499,8 @@ Repository: sample-repos/axios
        • test/helpers/retry.js
        • test/specs/api.spec.js
        • test/specs/__helpers.js
-       • lib/helpers/throttle.js
-       • lib/helpers/spread.js
+       • examples/upload/server.js
+       • lib/env/data.js
 
    AssignmentExpression:
      📄 Files WITH AssignmentExpression (showing 10):
@@ -508,9 +508,9 @@ Repository: sample-repos/axios
        • karma.conf.cjs
        • gulpfile.js
        • sandbox/server.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
        • bin/sponsors.js
        • bin/repo.js
        • bin/pr.js
@@ -532,8 +532,8 @@ Repository: sample-repos/axios
        • karma.conf.cjs
        • gulpfile.js
        • sandbox/server.js
-       • lib/utils.js
        • examples/server.js
+       • lib/utils.js
        • bin/ssl_hotfix.js
        • bin/sponsors.js
        • bin/resolveNPMTag.js
@@ -563,18 +563,18 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    ArrowFunctionExpression:
      📄 Files WITH ArrowFunctionExpression (showing 10):
        • rollup.config.js
        • gulpfile.js
        • sandbox/server.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
        • bin/sponsors.js
        • bin/repo.js
        • bin/pr.js
@@ -604,9 +604,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    ReturnStatement:
      📄 Files WITH ReturnStatement (showing 10):
@@ -614,9 +614,9 @@ Repository: sample-repos/axios
        • rollup.config.js
        • karma.conf.cjs
        • gulpfile.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
        • bin/sponsors.js
        • bin/repo.js
        • bin/pr.js
@@ -638,8 +638,8 @@ Repository: sample-repos/axios
        • karma.conf.cjs
        • gulpfile.js
        • sandbox/server.js
-       • lib/utils.js
        • examples/server.js
+       • lib/utils.js
        • bin/sponsors.js
        • bin/injectContributorsList.js
        • bin/contributors.js
@@ -662,8 +662,8 @@ Repository: sample-repos/axios
        • karma.conf.cjs
        • gulpfile.js
        • sandbox/server.js
-       • lib/utils.js
        • examples/server.js
+       • lib/utils.js
        • bin/ssl_hotfix.js
        • bin/sponsors.js
        • bin/resolveNPMTag.js
@@ -685,8 +685,8 @@ Repository: sample-repos/axios
        • rollup.config.js
        • karma.conf.cjs
        • gulpfile.js
-       • lib/utils.js
        • examples/server.js
+       • lib/utils.js
        • bin/ssl_hotfix.js
        • bin/resolveNPMTag.js
        • bin/injectContributorsList.js
@@ -707,8 +707,8 @@ Repository: sample-repos/axios
    UnaryExpression:
      📄 Files WITH UnaryExpression (showing 10):
        • webpack.config.js
-       • lib/utils.js
        • examples/server.js
+       • lib/utils.js
        • bin/resolveNPMTag.js
        • bin/repo.js
        • bin/injectContributorsList.js
@@ -735,9 +735,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
        • bin/ssl_hotfix.js
        • bin/sponsors.js
      📄 Files WITHOUT ImportDeclaration (showing 10):
@@ -759,9 +759,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
        • bin/sponsors.js
        • bin/resolveNPMTag.js
      📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
@@ -780,9 +780,9 @@ Repository: sample-repos/axios
      📄 Files WITH NewExpression (showing 10):
        • rollup.config.js
        • sandbox/server.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
        • bin/sponsors.js
        • bin/githubAxios.js
        • bin/api.js
@@ -806,8 +806,8 @@ Repository: sample-repos/axios
        • karma.conf.cjs
        • gulpfile.js
        • sandbox/server.js
-       • lib/utils.js
        • examples/server.js
+       • lib/utils.js
        • bin/ssl_hotfix.js
        • bin/sponsors.js
        • bin/resolveNPMTag.js
@@ -844,9 +844,9 @@ Repository: sample-repos/axios
        • index.d.ts
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    ArrayExpression:
      📄 Files WITH ArrayExpression (showing 10):
@@ -854,8 +854,8 @@ Repository: sample-repos/axios
        • rollup.config.js
        • karma.conf.cjs
        • gulpfile.js
-       • lib/utils.js
        • examples/server.js
+       • lib/utils.js
        • bin/ssl_hotfix.js
        • bin/repo.js
        • bin/githubAxios.js
@@ -881,9 +881,9 @@ Repository: sample-repos/axios
        • test/module/test.js
        • test/manual/promise.js
        • test/helpers/server.js
+       • lib/defaults/index.js
        • lib/helpers/toURLEncodedForm.js
        • lib/helpers/formDataToStream.js
-       • lib/helpers/cookies.js
      📄 Files WITHOUT ThisExpression (showing 10):
        • webpack.config.js
        • rollup.config.js
@@ -893,15 +893,15 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
-       • lib/axios.js
        • examples/server.js
+       • lib/axios.js
 
    ParenthesizedExpression:
      📄 Files WITH ParenthesizedExpression (showing 10):
        • rollup.config.js
        • gulpfile.js
-       • lib/utils.js
        • examples/server.js
+       • lib/utils.js
        • bin/sponsors.js
        • bin/resolveNPMTag.js
        • bin/repo.js
@@ -930,8 +930,8 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
-       • lib/axios.js
      📄 Files WITHOUT Program: (all files contain this node type)
 
    ConditionalExpression:
@@ -965,9 +965,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
        • test/manual/promise.js
        • test/specs/requests.spec.js
      📄 Files WITHOUT FunctionDeclaration (showing 10):
@@ -995,9 +995,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    TSPropertySignature:
      📄 Files WITH TSPropertySignature (showing 3):
@@ -1012,9 +1012,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    TemplateLiteral:
      📄 Files WITH TemplateLiteral (showing 10):
@@ -1022,8 +1022,8 @@ Repository: sample-repos/axios
        • karma.conf.cjs
        • gulpfile.js
        • sandbox/server.js
-       • lib/utils.js
        • examples/server.js
+       • lib/utils.js
        • bin/ssl_hotfix.js
        • bin/sponsors.js
        • bin/resolveNPMTag.js
@@ -1058,8 +1058,8 @@ Repository: sample-repos/axios
        • index.d.ts
        • sandbox/server.js
        • sandbox/client.js
-       • lib/axios.js
        • examples/server.js
+       • lib/axios.js
        • bin/ssl_hotfix.js
        • bin/repo.js
        • bin/injectContributorsList.js
@@ -1084,9 +1084,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    TSAnyKeyword:
      📄 Files WITH TSAnyKeyword (showing 3):
@@ -1101,9 +1101,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    TSStringKeyword:
      📄 Files WITH TSStringKeyword (showing 3):
@@ -1118,9 +1118,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    ExportNamedDeclaration:
      📄 Files WITH ExportNamedDeclaration (showing 10):
@@ -1131,18 +1131,18 @@ Repository: sample-repos/axios
        • bin/contributors.js
        • test/helpers/server.js
        • test/helpers/retry.js
+       • lib/env/data.js
        • lib/helpers/trackStream.js
        • lib/helpers/progressEventReducer.js
-       • lib/env/data.js
      📄 Files WITHOUT ExportNamedDeclaration (showing 10):
        • webpack.config.js
        • rollup.config.js
        • karma.conf.cjs
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
        • bin/ssl_hotfix.js
        • bin/sponsors.js
 
@@ -1166,8 +1166,8 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
-       • lib/utils.js
        • examples/server.js
+       • lib/utils.js
        • bin/repo.js
 
    TSLiteralType:
@@ -1181,9 +1181,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    TSUnionType:
      📄 Files WITH TSUnionType (showing 3):
@@ -1198,9 +1198,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    ExportDefaultDeclaration:
      📄 Files WITH ExportDefaultDeclaration (showing 10):
@@ -1212,8 +1212,8 @@ Repository: sample-repos/axios
        • bin/api.js
        • bin/RepoBot.js
        • bin/GithubAPI.js
-       • lib/platform/index.js
-       • lib/helpers/validator.js
+       • examples/upload/server.js
+       • examples/postMultipartFormData/server.js
      📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
        • webpack.config.js
        • karma.conf.cjs
@@ -1245,8 +1245,8 @@ Repository: sample-repos/axios
        • index.d.ts
        • sandbox/server.js
        • sandbox/client.js
-       • lib/axios.js
        • examples/server.js
+       • lib/axios.js
        • bin/ssl_hotfix.js
        • bin/resolveNPMTag.js
 
@@ -1261,9 +1261,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    TSTypeParameter:
      📄 Files WITH TSTypeParameter (showing 1):
@@ -1276,9 +1276,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    SpreadElement:
      📄 Files WITH SpreadElement (showing 10):
@@ -1299,9 +1299,9 @@ Repository: sample-repos/axios
        • index.d.ts
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
        • bin/sponsors.js
 
    ThrowStatement:
@@ -1315,7 +1315,7 @@ Repository: sample-repos/axios
        • test/helpers/retry.js
        • test/specs/interceptors.spec.js
        • test/specs/headers.spec.js
-       • lib/helpers/validator.js
+       • lib/defaults/index.js
      📄 Files WITHOUT ThrowStatement (showing 10):
        • webpack.config.js
        • rollup.config.js
@@ -1324,8 +1324,8 @@ Repository: sample-repos/axios
        • index.d.ts
        • sandbox/server.js
        • sandbox/client.js
-       • lib/axios.js
        • examples/server.js
+       • lib/axios.js
        • bin/ssl_hotfix.js
 
    TSEmptyBodyFunctionExpression:
@@ -1339,9 +1339,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    TSNumberKeyword:
      📄 Files WITH TSNumberKeyword (showing 3):
@@ -1356,9 +1356,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    TryStatement:
      📄 Files WITH TryStatement (showing 10):
@@ -1379,16 +1379,16 @@ Repository: sample-repos/axios
        • index.js
        • index.d.ts
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
        • bin/ssl_hotfix.js
 
    UpdateExpression:
      📄 Files WITH UpdateExpression (showing 10):
        • gulpfile.js
-       • lib/utils.js
        • examples/server.js
+       • lib/utils.js
        • bin/sponsors.js
        • bin/RepoBot.js
        • test/manual/promise.js
@@ -1427,9 +1427,9 @@ Repository: sample-repos/axios
        • index.js
        • index.d.ts
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
        • bin/ssl_hotfix.js
 
    TSBooleanKeyword:
@@ -1443,9 +1443,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    TSInterfaceDeclaration:
      📄 Files WITH TSInterfaceDeclaration (showing 3):
@@ -1460,9 +1460,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    TSInterfaceBody:
      📄 Files WITH TSInterfaceBody (showing 3):
@@ -1477,9 +1477,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    TSQualifiedName:
      📄 Files WITH TSQualifiedName (showing 1):
@@ -1493,8 +1493,8 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
-       • lib/axios.js
 
    ExportSpecifier:
      📄 Files WITH ExportSpecifier (showing 4):
@@ -1509,9 +1509,9 @@ Repository: sample-repos/axios
        • index.d.ts
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
        • bin/ssl_hotfix.js
 
    TSFunctionType:
@@ -1527,9 +1527,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    TSTypeParameterDeclaration:
      📄 Files WITH TSTypeParameterDeclaration (showing 1):
@@ -1542,9 +1542,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    TSTypeAliasDeclaration:
      📄 Files WITH TSTypeAliasDeclaration (showing 1):
@@ -1557,9 +1557,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    YieldExpression:
      📄 Files WITH YieldExpression (showing 6):
@@ -1578,8 +1578,8 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
-       • lib/axios.js
 
    ArrayPattern:
      📄 Files WITH ArrayPattern (showing 10):
@@ -1601,8 +1601,8 @@ Repository: sample-repos/axios
        • index.d.ts
        • sandbox/server.js
        • sandbox/client.js
-       • lib/axios.js
        • examples/server.js
+       • lib/axios.js
        • bin/ssl_hotfix.js
 
    WhileStatement:
@@ -1626,8 +1626,8 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
-       • lib/axios.js
        • examples/server.js
+       • lib/axios.js
 
    PropertyDefinition:
      📄 Files WITH PropertyDefinition (showing 1):
@@ -1640,9 +1640,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    TSArrayType:
      📄 Files WITH TSArrayType (showing 3):
@@ -1657,9 +1657,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    TSNullKeyword:
      📄 Files WITH TSNullKeyword (showing 2):
@@ -1673,9 +1673,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    RestElement:
      📄 Files WITH RestElement (showing 10):
@@ -1696,16 +1696,16 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
        • bin/ssl_hotfix.js
 
    ForStatement:
      📄 Files WITH ForStatement (showing 10):
        • gulpfile.js
-       • lib/utils.js
        • examples/server.js
+       • lib/utils.js
        • test/manual/promise.js
        • test/specs/requests.spec.js
        • lib/helpers/trackStream.js
@@ -1742,8 +1742,8 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
-       • lib/axios.js
 
    ForOfStatement:
      📄 Files WITH ForOfStatement (showing 10):
@@ -1766,8 +1766,8 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
-       • lib/axios.js
 
    ClassDeclaration:
      📄 Files WITH ClassDeclaration (showing 10):
@@ -1789,9 +1789,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    ClassBody:
      📄 Files WITH ClassBody (showing 10):
@@ -1813,9 +1813,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    TSTypeQuery:
      📄 Files WITH TSTypeQuery (showing 1):
@@ -1828,9 +1828,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    TSParenthesizedType:
      📄 Files WITH TSParenthesizedType (showing 1):
@@ -1843,9 +1843,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    TSVoidKeyword:
      📄 Files WITH TSVoidKeyword (showing 2):
@@ -1859,9 +1859,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    TSIntersectionType:
      📄 Files WITH TSIntersectionType (showing 1):
@@ -1874,9 +1874,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    TSTypeLiteral:
      📄 Files WITH TSTypeLiteral (showing 1):
@@ -1889,9 +1889,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    TSCallSignatureDeclaration:
      📄 Files WITH TSCallSignatureDeclaration (showing 1):
@@ -1904,9 +1904,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    TSObjectKeyword:
      📄 Files WITH TSObjectKeyword (showing 2):
@@ -1920,9 +1920,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    TSDeclareFunction:
      📄 Files WITH TSDeclareFunction (showing 1):
@@ -1935,9 +1935,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    TSInterfaceHeritage:
      📄 Files WITH TSInterfaceHeritage (showing 1):
@@ -1950,9 +1950,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    TSMethodSignature:
      📄 Files WITH TSMethodSignature (showing 1):
@@ -1965,9 +1965,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    TSUndefinedKeyword:
      📄 Files WITH TSUndefinedKeyword (showing 1):
@@ -1980,9 +1980,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    ForInStatement:
      📄 Files WITH ForInStatement (showing 3):
@@ -1998,8 +1998,8 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
-       • lib/axios.js
 
    BreakStatement:
      📄 Files WITH BreakStatement (showing 5):
@@ -2017,8 +2017,8 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
-       • lib/axios.js
 
    EmptyStatement:
      📄 Files WITH EmptyStatement (showing 6):
@@ -2037,8 +2037,8 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
-       • lib/axios.js
 
    SwitchCase:
      📄 Files WITH SwitchCase (showing 1):
@@ -2052,8 +2052,8 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
-       • lib/axios.js
 
    MetaProperty:
      📄 Files WITH MetaProperty (showing 5):
@@ -2087,8 +2087,8 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
-       • lib/axios.js
 
    TSIndexSignature:
      📄 Files WITH TSIndexSignature (showing 1):
@@ -2101,9 +2101,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    TSMappedType:
      📄 Files WITH TSMappedType (showing 1):
@@ -2116,9 +2116,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    TSTupleType:
      📄 Files WITH TSTupleType (showing 1):
@@ -2131,9 +2131,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    TSUnknownKeyword:
      📄 Files WITH TSUnknownKeyword (showing 1):
@@ -2146,9 +2146,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    TSNamedTupleMember:
      📄 Files WITH TSNamedTupleMember (showing 1):
@@ -2161,9 +2161,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    TSConstructSignatureDeclaration:
      📄 Files WITH TSConstructSignatureDeclaration (showing 1):
@@ -2176,9 +2176,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    TSTypePredicate:
      📄 Files WITH TSTypePredicate (showing 1):
@@ -2191,9 +2191,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    DoWhileStatement:
      📄 Files WITH DoWhileStatement (showing 2):
@@ -2208,8 +2208,8 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
-       • lib/axios.js
        • examples/server.js
+       • lib/axios.js
 
    ImportNamespaceSpecifier:
      📄 Files WITH ImportNamespaceSpecifier (showing 2):
@@ -2224,8 +2224,8 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
-       • lib/axios.js
 
    ContinueStatement:
      📄 Files WITH ContinueStatement (showing 2):
@@ -2240,8 +2240,8 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
-       • lib/axios.js
 
    Super:
      📄 Files WITH Super (showing 1):
@@ -2255,8 +2255,8 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
-       • lib/axios.js
 
    TSEnumDeclaration:
      📄 Files WITH TSEnumDeclaration (showing 1):
@@ -2269,9 +2269,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    TSEnumBody:
      📄 Files WITH TSEnumBody (showing 1):
@@ -2284,9 +2284,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    TSConstructorType:
      📄 Files WITH TSConstructorType (showing 1):
@@ -2299,9 +2299,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
 
    TSConditionalType:
      📄 Files WITH TSConditionalType (showing 1):
@@ -2314,24 +2314,9 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
        • lib/axios.js
-       • examples/server.js
-
-   SequenceExpression:
-     📄 Files WITH SequenceExpression (showing 1):
-       • lib/utils.js
-     📄 Files WITHOUT SequenceExpression (showing 10):
-       • webpack.config.js
-       • rollup.config.js
-       • karma.conf.cjs
-       • index.js
-       • index.d.ts
-       • gulpfile.js
-       • sandbox/server.js
-       • sandbox/client.js
-       • lib/axios.js
-       • examples/server.js
 
    ImportExpression:
      📄 Files WITH ImportExpression (showing 1):
@@ -2348,6 +2333,21 @@ Repository: sample-repos/axios
        • lib/utils.js
        • lib/axios.js
 
+   SequenceExpression:
+     📄 Files WITH SequenceExpression (showing 1):
+       • lib/utils.js
+     📄 Files WITHOUT SequenceExpression (showing 10):
+       • webpack.config.js
+       • rollup.config.js
+       • karma.conf.cjs
+       • index.js
+       • index.d.ts
+       • gulpfile.js
+       • sandbox/server.js
+       • sandbox/client.js
+       • examples/server.js
+       • lib/axios.js
+
    ChainExpression:
      📄 Files WITH ChainExpression (showing 1):
        • bin/RepoBot.js
@@ -2360,8 +2360,8 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
-       • lib/axios.js
 
    SwitchStatement:
      📄 Files WITH SwitchStatement (showing 1):
@@ -2375,8 +2375,8 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
-       • lib/axios.js
 
    TSImportEqualsDeclaration:
      📄 Files WITH TSImportEqualsDeclaration (showing 1):
@@ -2390,8 +2390,8 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
-       • lib/axios.js
 
    TSExternalModuleReference:
      📄 Files WITH TSExternalModuleReference (showing 1):
@@ -2405,8 +2405,8 @@ Repository: sample-repos/axios
        • gulpfile.js
        • sandbox/server.js
        • sandbox/client.js
+       • examples/server.js
        • lib/utils.js
-       • lib/axios.js
 
 ============================================================
 ✅ Analysis complete!

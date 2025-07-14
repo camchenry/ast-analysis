@@ -1,5 +1,5 @@
 AST Analysis Report for vite
-Generated on: 2025-07-14T01:42:56.055Z
+Generated on: 2025-07-14T01:57:26.675Z
 Repository: sample-repos/vite
 ================================================================================
 
@@ -154,9 +154,9 @@ Repository: sample-repos/vite
    Hashbang                          2 files (  0.2%) -        2 total (0.00%)
    Decorator                         2 files (  0.2%) -        5 total (0.00%)
    SequenceExpression                2 files (  0.2%) -        6 total (0.00%)
+   ClassExpression                   2 files (  0.2%) -        2 total (0.00%)
    DoWhileStatement                  2 files (  0.2%) -        2 total (0.00%)
    TSOptionalType                    2 files (  0.2%) -        4 total (0.00%)
-   ClassExpression                   2 files (  0.2%) -        2 total (0.00%)
    TSEnumDeclaration                 2 files (  0.2%) -        4 total (0.00%)
    TSEnumBody                        2 files (  0.2%) -        4 total (0.00%)
    TSEnumMember                      2 files (  0.2%) -       12 total (0.00%)
@@ -304,8 +304,8 @@ Repository: sample-repos/vite
    TSEnumDeclaration                     4 (0.00%) in 2 files (0.2%)
    TSEnumBody                            4 (0.00%) in 2 files (0.2%)
    Hashbang                              2 (0.00%) in 2 files (0.2%)
-   DoWhileStatement                      2 (0.00%) in 2 files (0.2%)
    ClassExpression                       2 (0.00%) in 2 files (0.2%)
+   DoWhileStatement                      2 (0.00%) in 2 files (0.2%)
    YieldExpression                       1 (0.00%) in 1 files (0.1%)
    ImportAttribute                       1 (0.00%) in 1 files (0.1%)
    TSRestType                            1 (0.00%) in 1 files (0.1%)
@@ -331,10 +331,10 @@ Repository: sample-repos/vite
        • playground/resolve/file-url.js
        • playground/resolve/drive-relative.js
        • playground/resolve/absolute.js
+       • playground/module-graph/empty.js
        • playground/multiple-entrypoints/dynamic-b.js
        • playground/multiple-entrypoints/dynamic-a.js
-       • playground/module-graph/empty.js
-       • playground/css-no-codesplit/index.js
+       • playground/css-sourcemap/index.js
 
    Literal:
      📄 Files WITH Literal (showing 10):
@@ -356,9 +356,9 @@ Repository: sample-repos/vite
        • playground/legacy/entry-server-sequential.js
        • playground/html/valid.js
        • playground/define/optional-env.js
-       • playground/alias/test.js
-       • playground/alias/customResolver.js
        • playground/css-codesplit/shared-css-empty-2.js
+       • playground/css-codesplit/shared-css-empty-1.js
+       • playground/alias/test.js
 
    CallExpression:
      📄 Files WITH CallExpression (showing 10):
@@ -371,18 +371,18 @@ Repository: sample-repos/vite
        • playground/vitestSetup.ts
        • playground/vitestGlobalSetup.ts
        • playground/test-utils.ts
-       • playground/worker/worker-sourcemap-config.js
+       • playground/wasm/worker.js
      📄 Files WITHOUT CallExpression (showing 10):
        • playground/shims.d.ts
        • playground/worker/classic-esm.js
+       • playground/tailwind-v3/tailwind.config.ts
+       • playground/tailwind/tailwind.config.ts
        • playground/transform-plugin/plugin-dep.js
        • playground/transform-plugin/plugin-dep-load.js
-       • playground/tailwind-v3/tailwind.config.ts
-       • playground/tailwind-sourcemap/postcss.config.js
-       • playground/tailwind/tailwind.config.ts
-       • playground/self-referencing/index.js
        • playground/resolve-linked/dep.js
+       • playground/tailwind-sourcemap/postcss.config.js
        • playground/resolve/non-normalized.js
+       • playground/resolve/file-url.js
 
    MemberExpression:
      📄 Files WITH MemberExpression (showing 10):
@@ -394,19 +394,19 @@ Repository: sample-repos/vite
        • playground/vitestSetup.ts
        • playground/vitestGlobalSetup.ts
        • playground/test-utils.ts
+       • playground/wasm/worker.js
        • playground/worker/worker-sourcemap-config.js
-       • playground/worker/worker-plugin-test-plugin.js
      📄 Files WITHOUT MemberExpression (showing 10):
        • scripts/publishCI.ts
        • playground/shims.d.ts
+       • playground/wasm/vite.config.ts
        • playground/worker/vite.config-sourcemap.js
        • playground/worker/vite.config-sourcemap-inline.js
        • playground/worker/vite.config-sourcemap-hidden.js
        • playground/worker/classic-esm.js
-       • playground/wasm/vite.config.ts
-       • playground/transform-plugin/vite.config-base.js
-       • playground/transform-plugin/plugin-dep.js
-       • playground/transform-plugin/plugin-dep-load.js
+       • playground/tailwind-v3/tailwind.config.ts
+       • playground/tailwind/tailwind.config.ts
+       • playground/ssr-resolve/vite.config.js
 
    ExpressionStatement:
      📄 Files WITH ExpressionStatement (showing 10):
@@ -416,21 +416,21 @@ Repository: sample-repos/vite
        • playground/vitestSetup.ts
        • playground/vitestGlobalSetup.ts
        • playground/test-utils.ts
+       • playground/wasm/worker.js
        • playground/worker/worker-sourcemap-config.js
        • playground/worker/worker-nested-worker.js
        • playground/worker/url-worker.js
-       • playground/worker/url-shared-worker.js
      📄 Files WITHOUT ExpressionStatement (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
        • eslint.config.js
        • playground/shims.d.ts
+       • playground/wasm/vite.config.ts
        • playground/worker/worker-plugin-test-plugin.js
        • playground/worker/vite.config-sourcemap.js
        • playground/worker/vite.config-sourcemap-inline.js
        • playground/worker/vite.config-sourcemap-hidden.js
        • playground/worker/vite.config-relative-base.js
-       • playground/worker/vite.config-relative-base-iife.js
 
    BlockStatement:
      📄 Files WITH BlockStatement (showing 10):
@@ -439,22 +439,22 @@ Repository: sample-repos/vite
        • playground/vitestSetup.ts
        • playground/vitestGlobalSetup.ts
        • playground/test-utils.ts
+       • playground/wasm/worker.js
        • playground/worker/worker-sourcemap-config.js
        • playground/worker/worker-plugin-test-plugin.js
        • playground/worker/worker-nested-worker.js
        • playground/worker/vite.config-relative-base.js
-       • playground/worker/vite.config-iife.js
      📄 Files WITHOUT BlockStatement (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
        • eslint.config.js
        • scripts/publishCI.ts
        • playground/shims.d.ts
+       • playground/wasm/vite.config.ts
        • playground/worker/vite.config-sourcemap.js
        • playground/worker/vite.config-sourcemap-inline.js
        • playground/worker/vite.config-sourcemap-hidden.js
        • playground/worker/vite.config-relative-base-iife.js
-       • playground/worker/url-worker.js
 
    Property:
      📄 Files WITH Property (showing 10):
@@ -467,7 +467,7 @@ Repository: sample-repos/vite
        • playground/vitestSetup.ts
        • playground/vitestGlobalSetup.ts
        • playground/test-utils.ts
-       • playground/worker/worker-sourcemap-config.js
+       • playground/wasm/worker.js
      📄 Files WITHOUT Property (showing 10):
        • playground/shims.d.ts
        • playground/worker/vite.config-sourcemap.js
@@ -495,14 +495,14 @@ Repository: sample-repos/vite
      📄 Files WITHOUT VariableDeclarator (showing 10):
        • scripts/release.ts
        • scripts/publishCI.ts
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
        • playground/worker/worker-plugin-test-plugin.js
        • playground/worker/vite.config-sourcemap.js
        • playground/worker/vite.config-sourcemap-inline.js
        • playground/worker/vite.config-sourcemap-hidden.js
        • playground/worker/vite.config-relative-base.js
        • playground/worker/vite.config-relative-base-iife.js
-       • playground/worker/vite.config-iife.js
-       • playground/worker/vite.config-es.js
 
    VariableDeclaration:
      📄 Files WITH VariableDeclaration (showing 10):
@@ -519,14 +519,14 @@ Repository: sample-repos/vite
      📄 Files WITHOUT VariableDeclaration (showing 10):
        • scripts/release.ts
        • scripts/publishCI.ts
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
        • playground/worker/worker-plugin-test-plugin.js
        • playground/worker/vite.config-sourcemap.js
        • playground/worker/vite.config-sourcemap-inline.js
        • playground/worker/vite.config-sourcemap-hidden.js
        • playground/worker/vite.config-relative-base.js
        • playground/worker/vite.config-relative-base-iife.js
-       • playground/worker/vite.config-iife.js
-       • playground/worker/vite.config-es.js
 
    TSTypeAnnotation:
      📄 Files WITH TSTypeAnnotation (showing 10):
@@ -546,11 +546,11 @@ Repository: sample-repos/vite
        • eslint.config.js
        • scripts/release.ts
        • scripts/publishCI.ts
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
        • playground/worker/worker-sourcemap-config.js
        • playground/worker/worker-plugin-test-plugin.js
        • playground/worker/worker-nested-worker.js
-       • playground/worker/vite.config-sourcemap.js
-       • playground/worker/vite.config-sourcemap-inline.js
 
    Unknown:
      📄 Files WITH Unknown (showing 10):
@@ -569,12 +569,12 @@ Repository: sample-repos/vite
        • vitest.config.e2e.ts
        • scripts/publishCI.ts
        • playground/shims.d.ts
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
        • playground/worker/worker-plugin-test-plugin.js
        • playground/worker/worker-nested-worker.js
        • playground/worker/vite.config-sourcemap.js
        • playground/worker/vite.config-sourcemap-inline.js
-       • playground/worker/vite.config-sourcemap-hidden.js
-       • playground/worker/vite.config-relative-base-iife.js
 
    TSTypeReference:
      📄 Files WITH TSTypeReference (showing 10):
@@ -594,11 +594,11 @@ Repository: sample-repos/vite
        • eslint.config.js
        • scripts/release.ts
        • scripts/publishCI.ts
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
        • playground/worker/worker-sourcemap-config.js
        • playground/worker/worker-plugin-test-plugin.js
        • playground/worker/worker-nested-worker.js
-       • playground/worker/vite.config-sourcemap.js
-       • playground/worker/vite.config-sourcemap-inline.js
 
    ArrowFunctionExpression:
      📄 Files WITH ArrowFunctionExpression (showing 10):
@@ -608,21 +608,21 @@ Repository: sample-repos/vite
        • playground/vitestSetup.ts
        • playground/vitestGlobalSetup.ts
        • playground/test-utils.ts
+       • playground/wasm/worker.js
        • playground/worker/worker-sourcemap-config.js
        • playground/worker/worker-plugin-test-plugin.js
        • playground/worker/worker-nested-worker.js
-       • playground/worker/vite.config-relative-base.js
      📄 Files WITHOUT ArrowFunctionExpression (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
        • scripts/publishCI.ts
        • playground/shims.d.ts
+       • playground/wasm/vite.config.ts
        • playground/worker/vite.config-sourcemap.js
        • playground/worker/vite.config-sourcemap-inline.js
        • playground/worker/vite.config-sourcemap-hidden.js
        • playground/worker/url-worker.js
        • playground/worker/simple-worker.js
-       • playground/worker/module-and-worker.js
 
    TemplateElement:
      📄 Files WITH TemplateElement (showing 10):
@@ -641,12 +641,12 @@ Repository: sample-repos/vite
        • vitest.config.e2e.ts
        • scripts/publishCI.ts
        • playground/shims.d.ts
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
        • playground/worker/worker-plugin-test-plugin.js
        • playground/worker/worker-nested-worker.js
        • playground/worker/vite.config-sourcemap.js
        • playground/worker/vite.config-sourcemap-inline.js
-       • playground/worker/vite.config-sourcemap-hidden.js
-       • playground/worker/vite.config-relative-base-iife.js
 
    ObjectExpression:
      📄 Files WITH ObjectExpression (showing 10):
@@ -659,7 +659,7 @@ Repository: sample-repos/vite
        • playground/vitestSetup.ts
        • playground/vitestGlobalSetup.ts
        • playground/test-utils.ts
-       • playground/worker/worker-sourcemap-config.js
+       • playground/wasm/worker.js
      📄 Files WITHOUT ObjectExpression (showing 10):
        • playground/shims.d.ts
        • playground/worker/vite.config-sourcemap.js
@@ -685,6 +685,7 @@ Repository: sample-repos/vite
        • playground/test-utils.ts
        • playground/shims.d.ts
      📄 Files WITHOUT ImportSpecifier (showing 10):
+       • playground/wasm/worker.js
        • playground/worker/worker-plugin-test-plugin.js
        • playground/worker/worker-nested-worker.js
        • playground/worker/vite.config-sourcemap.js
@@ -694,7 +695,6 @@ Repository: sample-repos/vite
        • playground/worker/url-shared-worker.js
        • playground/worker/sub-worker.js
        • playground/worker/simple-worker.js
-       • playground/worker/self-reference-worker.js
 
    AwaitExpression:
      📄 Files WITH AwaitExpression (showing 10):
@@ -714,11 +714,11 @@ Repository: sample-repos/vite
        • eslint.config.js
        • scripts/publishCI.ts
        • playground/shims.d.ts
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
        • playground/worker/worker-sourcemap-config.js
        • playground/worker/worker-plugin-test-plugin.js
        • playground/worker/worker-nested-worker.js
-       • playground/worker/vite.config-sourcemap.js
-       • playground/worker/vite.config-sourcemap-inline.js
 
    IfStatement:
      📄 Files WITH IfStatement (showing 10):
@@ -738,11 +738,11 @@ Repository: sample-repos/vite
        • eslint.config.js
        • scripts/publishCI.ts
        • playground/shims.d.ts
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
        • playground/worker/vite.config-sourcemap.js
        • playground/worker/vite.config-sourcemap-inline.js
        • playground/worker/vite.config-sourcemap-hidden.js
-       • playground/worker/vite.config-relative-base-iife.js
-       • playground/worker/vite.config-iife.js
 
    BinaryExpression:
      📄 Files WITH BinaryExpression (showing 10):
@@ -760,13 +760,13 @@ Repository: sample-repos/vite
        • vitest.config.ts
        • scripts/publishCI.ts
        • playground/shims.d.ts
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
        • playground/worker/worker-plugin-test-plugin.js
        • playground/worker/vite.config-sourcemap.js
        • playground/worker/vite.config-sourcemap-inline.js
        • playground/worker/vite.config-sourcemap-hidden.js
        • playground/worker/vite.config-relative-base.js
-       • playground/worker/vite.config-relative-base-iife.js
-       • playground/worker/vite.config-iife.js
 
    ImportDeclaration:
      📄 Files WITH ImportDeclaration (showing 10):
@@ -803,7 +803,7 @@ Repository: sample-repos/vite
        • playground/worker/vite.config-relative-base.js
        • playground/worker/vite.config-iife.js
        • playground/worker/vite.config-es.js
-       • playground/transform-plugin/vite.config.js
+       • playground/tailwind-v3/vite.config.ts
      📄 Files WITHOUT ReturnStatement (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -811,10 +811,10 @@ Repository: sample-repos/vite
        • scripts/release.ts
        • scripts/publishCI.ts
        • playground/shims.d.ts
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
        • playground/worker/worker-nested-worker.js
        • playground/worker/vite.config-sourcemap.js
-       • playground/worker/vite.config-sourcemap-inline.js
-       • playground/worker/vite.config-sourcemap-hidden.js
 
    TSStringKeyword:
      📄 Files WITH TSStringKeyword (showing 10):
@@ -835,10 +835,10 @@ Repository: sample-repos/vite
        • scripts/release.ts
        • scripts/publishCI.ts
        • playground/vitestGlobalSetup.ts
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
        • playground/worker/worker-sourcemap-config.js
        • playground/worker/worker-plugin-test-plugin.js
-       • playground/worker/worker-nested-worker.js
-       • playground/worker/vite.config-sourcemap.js
 
    TemplateLiteral:
      📄 Files WITH TemplateLiteral (showing 10):
@@ -857,12 +857,12 @@ Repository: sample-repos/vite
        • vitest.config.e2e.ts
        • scripts/publishCI.ts
        • playground/shims.d.ts
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
        • playground/worker/worker-plugin-test-plugin.js
        • playground/worker/worker-nested-worker.js
        • playground/worker/vite.config-sourcemap.js
        • playground/worker/vite.config-sourcemap-inline.js
-       • playground/worker/vite.config-sourcemap-hidden.js
-       • playground/worker/vite.config-relative-base-iife.js
 
    AssignmentExpression:
      📄 Files WITH AssignmentExpression (showing 10):
@@ -883,10 +883,10 @@ Repository: sample-repos/vite
        • scripts/release.ts
        • scripts/publishCI.ts
        • playground/shims.d.ts
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
        • playground/worker/worker-plugin-test-plugin.js
        • playground/worker/vite.config-sourcemap.js
-       • playground/worker/vite.config-sourcemap-inline.js
-       • playground/worker/vite.config-sourcemap-hidden.js
 
    LogicalExpression:
      📄 Files WITH LogicalExpression (showing 10):
@@ -908,9 +908,9 @@ Repository: sample-repos/vite
        • scripts/release.ts
        • scripts/publishCI.ts
        • playground/shims.d.ts
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
        • playground/worker/worker-plugin-test-plugin.js
-       • playground/worker/worker-nested-worker.js
-       • playground/worker/vite.config-sourcemap.js
 
    ExportNamedDeclaration:
      📄 Files WITH ExportNamedDeclaration (showing 10):
@@ -920,10 +920,10 @@ Repository: sample-repos/vite
        • playground/test-utils.ts
        • playground/worker/module-and-worker.js
        • playground/worker/classic-esm.js
-       • playground/ssr-webworker/worker.js
        • playground/ssr-resolve/util.js
+       • playground/ssr-webworker/worker.js
        • playground/ssr-pug/server.js
-       • playground/ssr-noexternal/server.js
+       • playground/ssr-deps/server.js
      📄 Files WITHOUT ExportNamedDeclaration (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -931,10 +931,10 @@ Repository: sample-repos/vite
        • scripts/release.ts
        • scripts/publishCI.ts
        • playground/shims.d.ts
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
        • playground/worker/worker-sourcemap-config.js
        • playground/worker/worker-plugin-test-plugin.js
-       • playground/worker/worker-nested-worker.js
-       • playground/worker/vite.config-sourcemap.js
 
    ArrayExpression:
      📄 Files WITH ArrayExpression (showing 10):
@@ -951,14 +951,14 @@ Repository: sample-repos/vite
      📄 Files WITHOUT ArrayExpression (showing 10):
        • scripts/publishCI.ts
        • playground/shims.d.ts
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
        • playground/worker/worker-plugin-test-plugin.js
        • playground/worker/worker-nested-worker.js
        • playground/worker/vite.config-sourcemap.js
        • playground/worker/vite.config-sourcemap-inline.js
        • playground/worker/vite.config-sourcemap-hidden.js
        • playground/worker/url-shared-worker.js
-       • playground/worker/sub-worker.js
-       • playground/worker/simple-worker.js
 
    UnaryExpression:
      📄 Files WITH UnaryExpression (showing 10):
@@ -978,11 +978,11 @@ Repository: sample-repos/vite
        • scripts/release.ts
        • scripts/publishCI.ts
        • playground/shims.d.ts
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
        • playground/worker/worker-plugin-test-plugin.js
        • playground/worker/worker-nested-worker.js
        • playground/worker/vite.config-sourcemap.js
-       • playground/worker/vite.config-sourcemap-inline.js
-       • playground/worker/vite.config-sourcemap-hidden.js
 
    TSPropertySignature:
      📄 Files WITH TSPropertySignature (showing 10):
@@ -992,10 +992,10 @@ Repository: sample-repos/vite
        • playground/hmr-ssr/event.d.ts
        • playground/hmr/event.d.ts
        • playground/environment-react-ssr/vite.config.ts
-       • docs/_data/blog.data.ts
        • packages/vite/rollupLicensePlugin.ts
        • packages/vite/rolldown.dts.config.ts
        • packages/vite/rolldown.config.ts
+       • packages/vite/client.d.ts
      📄 Files WITHOUT TSPropertySignature (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -1004,9 +1004,9 @@ Repository: sample-repos/vite
        • scripts/publishCI.ts
        • playground/vitestGlobalSetup.ts
        • playground/shims.d.ts
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
        • playground/worker/worker-sourcemap-config.js
-       • playground/worker/worker-plugin-test-plugin.js
-       • playground/worker/worker-nested-worker.js
 
    TSTypeParameterInstantiation:
      📄 Files WITH TSTypeParameterInstantiation (showing 10):
@@ -1026,11 +1026,11 @@ Repository: sample-repos/vite
        • eslint.config.js
        • scripts/release.ts
        • scripts/publishCI.ts
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
        • playground/worker/worker-sourcemap-config.js
        • playground/worker/worker-plugin-test-plugin.js
        • playground/worker/worker-nested-worker.js
-       • playground/worker/vite.config-sourcemap.js
-       • playground/worker/vite.config-sourcemap-inline.js
 
    Program:
      📄 Files WITH Program (showing 10):
@@ -1054,10 +1054,10 @@ Repository: sample-repos/vite
        • playground/test-utils.ts
        • playground/tailwind-v3/vite.config.ts
        • playground/tailwind/vite.config.ts
-       • playground/ssr-webworker/worker.js
        • playground/ssr-resolve/util.js
+       • playground/ssr-webworker/worker.js
        • playground/ssr-pug/server.js
-       • playground/ssr-noexternal/server.js
+       • playground/ssr-deps/server.js
      📄 Files WITHOUT FunctionDeclaration (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -1065,10 +1065,10 @@ Repository: sample-repos/vite
        • scripts/release.ts
        • scripts/publishCI.ts
        • playground/shims.d.ts
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
        • playground/worker/worker-sourcemap-config.js
        • playground/worker/worker-plugin-test-plugin.js
-       • playground/worker/worker-nested-worker.js
-       • playground/worker/vite.config-sourcemap.js
 
    TSUnionType:
      📄 Files WITH TSUnionType (showing 10):
@@ -1090,9 +1090,9 @@ Repository: sample-repos/vite
        • scripts/release.ts
        • scripts/publishCI.ts
        • playground/shims.d.ts
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
        • playground/worker/worker-sourcemap-config.js
-       • playground/worker/worker-plugin-test-plugin.js
-       • playground/worker/worker-nested-worker.js
 
    ImportDefaultSpecifier:
      📄 Files WITH ImportDefaultSpecifier (showing 10):
@@ -1103,20 +1103,20 @@ Repository: sample-repos/vite
        • playground/vitestSetup.ts
        • playground/vitestGlobalSetup.ts
        • playground/test-utils.ts
+       • playground/wasm/worker.js
        • playground/worker/worker-sourcemap-config.js
        • playground/worker/worker-nested-worker.js
-       • playground/worker/vite.config-sourcemap.js
      📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
        • vitest.config.e2e.ts
        • scripts/publishCI.ts
        • playground/shims.d.ts
+       • playground/wasm/vite.config.ts
        • playground/worker/worker-plugin-test-plugin.js
        • playground/worker/url-worker.js
        • playground/worker/sub-worker.js
        • playground/worker/simple-worker.js
        • playground/worker/self-reference-url-worker.js
        • playground/worker/possible-ts-output-worker.mjs
-       • playground/worker/my-shared-worker.ts
 
    ThisExpression:
      📄 Files WITH ThisExpression (showing 10):
@@ -1152,8 +1152,8 @@ Repository: sample-repos/vite
        • playground/worker/vite.config-es.js
        • playground/worker/importMetaGlobEager.worker.js
        • playground/worker/importMetaGlob.worker.js
-       • playground/transform-plugin/vite.config.js
        • playground/tailwind-v3/vite.config.ts
+       • playground/tailwind/vite.config.ts
      📄 Files WITHOUT FunctionExpression (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -1163,8 +1163,8 @@ Repository: sample-repos/vite
        • scripts/publishCI.ts
        • playground/test-utils.ts
        • playground/shims.d.ts
-       • playground/worker/worker-sourcemap-config.js
-       • playground/worker/worker-nested-worker.js
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
 
    NewExpression:
      📄 Files WITH NewExpression (showing 10):
@@ -1186,9 +1186,9 @@ Repository: sample-repos/vite
        • scripts/release.ts
        • scripts/publishCI.ts
        • playground/shims.d.ts
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
        • playground/worker/worker-sourcemap-config.js
-       • playground/worker/worker-plugin-test-plugin.js
-       • playground/worker/vite.config-sourcemap.js
 
    ConditionalExpression:
      📄 Files WITH ConditionalExpression (showing 10):
@@ -1206,13 +1206,13 @@ Repository: sample-repos/vite
        • vitest.config.ts
        • scripts/publishCI.ts
        • playground/shims.d.ts
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
        • playground/worker/worker-plugin-test-plugin.js
        • playground/worker/worker-nested-worker.js
        • playground/worker/vite.config-sourcemap.js
        • playground/worker/vite.config-sourcemap-inline.js
        • playground/worker/vite.config-sourcemap-hidden.js
-       • playground/worker/url-worker.js
-       • playground/worker/url-shared-worker.js
 
    ParenthesizedExpression:
      📄 Files WITH ParenthesizedExpression (showing 10):
@@ -1232,11 +1232,11 @@ Repository: sample-repos/vite
        • scripts/publishCI.ts
        • playground/vitestGlobalSetup.ts
        • playground/shims.d.ts
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
        • playground/worker/worker-nested-worker.js
        • playground/worker/vite.config-sourcemap.js
        • playground/worker/vite.config-sourcemap-inline.js
-       • playground/worker/vite.config-sourcemap-hidden.js
-       • playground/worker/vite.config-iife.js
 
    TSLiteralType:
      📄 Files WITH TSLiteralType (showing 10):
@@ -1260,7 +1260,7 @@ Repository: sample-repos/vite
        • playground/vitestGlobalSetup.ts
        • playground/test-utils.ts
        • playground/shims.d.ts
-       • playground/worker/worker-sourcemap-config.js
+       • playground/wasm/worker.js
 
    ChainExpression:
      📄 Files WITH ChainExpression (showing 10):
@@ -1283,21 +1283,21 @@ Repository: sample-repos/vite
        • scripts/publishCI.ts
        • playground/test-utils.ts
        • playground/shims.d.ts
-       • playground/worker/worker-sourcemap-config.js
-       • playground/worker/worker-plugin-test-plugin.js
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
 
    ObjectPattern:
      📄 Files WITH ObjectPattern (showing 10):
        • playground/vitestGlobalSetup.ts
        • playground/test-utils.ts
+       • playground/wasm/worker.js
        • playground/worker/vite.config-relative-base.js
        • playground/worker/vite.config-relative-base-iife.js
        • playground/worker/classic-worker.js
-       • playground/wasm/worker.js
        • playground/ssr-pug/server.js
+       • playground/ssr-deps/server.js
        • playground/ssr-noexternal/server.js
        • playground/ssr-html/server.js
-       • playground/ssr-deps/server.js
      📄 Files WITHOUT ObjectPattern (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -1307,8 +1307,8 @@ Repository: sample-repos/vite
        • scripts/publishCI.ts
        • playground/vitestSetup.ts
        • playground/shims.d.ts
+       • playground/wasm/vite.config.ts
        • playground/worker/worker-sourcemap-config.js
-       • playground/worker/worker-plugin-test-plugin.js
 
    TSVoidKeyword:
      📄 Files WITH TSVoidKeyword (showing 10):
@@ -1320,19 +1320,19 @@ Repository: sample-repos/vite
        • playground/hmr-ssr/event.d.ts
        • playground/ssr-webworker/__tests__/serve.ts
        • playground/ssr-pug/__tests__/serve.ts
+       • playground/ssr-deps/__tests__/serve.ts
        • playground/ssr-noexternal/__tests__/serve.ts
-       • playground/ssr-html/src/has-error-deep.ts
      📄 Files WITHOUT TSVoidKeyword (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
        • eslint.config.js
        • scripts/release.ts
        • scripts/publishCI.ts
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
        • playground/worker/worker-sourcemap-config.js
        • playground/worker/worker-plugin-test-plugin.js
        • playground/worker/worker-nested-worker.js
-       • playground/worker/vite.config-sourcemap.js
-       • playground/worker/vite.config-sourcemap-inline.js
 
    TSArrayType:
      📄 Files WITH TSArrayType (showing 10):
@@ -1340,10 +1340,10 @@ Repository: sample-repos/vite
        • playground/vitestSetup.ts
        • playground/test-utils.ts
        • playground/hmr-ssr/event.d.ts
-       • docs/_data/blog.data.ts
        • packages/vite/rollupLicensePlugin.ts
        • packages/vite/rolldown.dts.config.ts
        • packages/vite/rolldown.config.ts
+       • docs/_data/blog.data.ts
        • playground/tsconfig-json/src/decorator.ts
        • playground/hmr-ssr/__tests__/hmr-ssr.spec.ts
      📄 Files WITHOUT TSArrayType (showing 10):
@@ -1354,9 +1354,9 @@ Repository: sample-repos/vite
        • scripts/publishCI.ts
        • playground/vitestGlobalSetup.ts
        • playground/shims.d.ts
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
        • playground/worker/worker-sourcemap-config.js
-       • playground/worker/worker-plugin-test-plugin.js
-       • playground/worker/worker-nested-worker.js
 
    TSUndefinedKeyword:
      📄 Files WITH TSUndefinedKeyword (showing 10):
@@ -1368,8 +1368,8 @@ Repository: sample-repos/vite
        • playground/js-sourcemap/__tests__/js-sourcemap.spec.ts
        • playground/fs-serve/__tests__/fs-serve.spec.ts
        • packages/plugin-legacy/src/index.ts
-       • packages/create-vite/src/index.ts
        • packages/vite/types/metadata.d.ts
+       • packages/vite/types/hot.d.ts
      📄 Files WITHOUT TSUndefinedKeyword (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -1378,9 +1378,9 @@ Repository: sample-repos/vite
        • scripts/release.ts
        • scripts/publishCI.ts
        • playground/shims.d.ts
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
        • playground/worker/worker-sourcemap-config.js
-       • playground/worker/worker-plugin-test-plugin.js
-       • playground/worker/worker-nested-worker.js
 
    TSBooleanKeyword:
      📄 Files WITH TSBooleanKeyword (showing 10):
@@ -1392,8 +1392,8 @@ Repository: sample-repos/vite
        • playground/css/__tests__/tests.ts
        • packages/plugin-legacy/src/types.ts
        • packages/plugin-legacy/src/index.ts
-       • packages/create-vite/src/index.ts
-       • packages/vite/misc/true.d.ts
+       • packages/vite/types/importMeta.d.ts
+       • packages/vite/types/importGlob.d.ts
      📄 Files WITHOUT TSBooleanKeyword (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -1404,7 +1404,7 @@ Repository: sample-repos/vite
        • playground/vitestSetup.ts
        • playground/vitestGlobalSetup.ts
        • playground/shims.d.ts
-       • playground/worker/worker-sourcemap-config.js
+       • playground/wasm/worker.js
 
    SpreadElement:
      📄 Files WITH SpreadElement (showing 10):
@@ -1413,8 +1413,8 @@ Repository: sample-repos/vite
        • playground/vitestSetup.ts
        • playground/test-utils.ts
        • playground/worker/emit-chunk-sub-worker.js
-       • playground/transform-plugin/vite.config-base.js
        • playground/ssr-webworker/vite.config.js
+       • playground/transform-plugin/vite.config-base.js
        • playground/ssr-deps/server.js
        • playground/ssr-conditions/vite.config.js
        • playground/resolve/vite.config.js
@@ -1425,10 +1425,10 @@ Repository: sample-repos/vite
        • scripts/publishCI.ts
        • playground/vitestGlobalSetup.ts
        • playground/shims.d.ts
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
        • playground/worker/worker-sourcemap-config.js
        • playground/worker/worker-plugin-test-plugin.js
-       • playground/worker/worker-nested-worker.js
-       • playground/worker/vite.config-sourcemap.js
 
    TSFunctionType:
      📄 Files WITH TSFunctionType (showing 10):
@@ -1441,7 +1441,7 @@ Repository: sample-repos/vite
        • playground/hmr-ssr/__tests__/hmr-ssr.spec.ts
        • playground/css-dynamic-import/__tests__/css-dynamic-import.spec.ts
        • packages/plugin-legacy/src/index.ts
-       • packages/create-vite/src/index.ts
+       • packages/vite/types/importGlob.d.ts
      📄 Files WITHOUT TSFunctionType (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -1450,9 +1450,9 @@ Repository: sample-repos/vite
        • scripts/release.ts
        • scripts/publishCI.ts
        • playground/vitestGlobalSetup.ts
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
        • playground/worker/worker-sourcemap-config.js
-       • playground/worker/worker-plugin-test-plugin.js
-       • playground/worker/worker-nested-worker.js
 
    MetaProperty:
      📄 Files WITH MetaProperty (showing 10):
@@ -1475,8 +1475,8 @@ Repository: sample-repos/vite
        • playground/vitestGlobalSetup.ts
        • playground/test-utils.ts
        • playground/shims.d.ts
-       • playground/worker/worker-sourcemap-config.js
-       • playground/worker/worker-plugin-test-plugin.js
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
 
    TSAsExpression:
      📄 Files WITH TSAsExpression (showing 10):
@@ -1497,10 +1497,10 @@ Repository: sample-repos/vite
        • scripts/release.ts
        • scripts/publishCI.ts
        • playground/shims.d.ts
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
        • playground/worker/worker-sourcemap-config.js
        • playground/worker/worker-plugin-test-plugin.js
-       • playground/worker/worker-nested-worker.js
-       • playground/worker/vite.config-sourcemap.js
 
    MethodDefinition:
      📄 Files WITH MethodDefinition (showing 10):
@@ -1509,11 +1509,11 @@ Repository: sample-repos/vite
        • playground/tsconfig-json/nested/main.ts
        • playground/tsconfig-json/nested-with-extends/main.ts
        • playground/hmr-ssr/__tests__/hmr-ssr.spec.ts
-       • packages/create-vite/template-lit/src/my-element.js
-       • packages/create-vite/template-lit-ts/src/my-element.ts
        • packages/vite/src/types/ws.d.ts
        • packages/vite/src/types/http-proxy.d.ts
        • packages/vite/src/types/chokidar.d.ts
+       • packages/vite/src/client/overlay.ts
+       • packages/vite/src/module-runner/runner.ts
      📄 Files WITHOUT MethodDefinition (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -1532,12 +1532,12 @@ Repository: sample-repos/vite
        • vitest.config.e2e.ts
        • eslint.config.js
        • playground/shims.d.ts
+       • playground/wasm/vite.config.ts
        • playground/worker/worker-sourcemap-config.js
        • playground/worker/worker-plugin-test-plugin.js
        • playground/worker/vite.config-sourcemap.js
        • playground/worker/vite.config-sourcemap-inline.js
        • playground/worker/vite.config-sourcemap-hidden.js
-       • playground/worker/vite.config-relative-base.js
      📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
        • scripts/releaseUtils.ts
        • scripts/release.ts
@@ -1545,10 +1545,10 @@ Repository: sample-repos/vite
        • playground/vitestSetup.ts
        • playground/vitestGlobalSetup.ts
        • playground/test-utils.ts
+       • playground/wasm/worker.js
        • playground/worker/worker-nested-worker.js
        • playground/worker/url-worker.js
        • playground/worker/url-shared-worker.js
-       • playground/worker/sub-worker.js
 
    ExportSpecifier:
      📄 Files WITH ExportSpecifier (showing 10):
@@ -1558,10 +1558,10 @@ Repository: sample-repos/vite
        • playground/hmr/hmrDep.js
        • docs/_data/blog.data.ts
        • playground/ssr-resolve/deep-import/index.js
-       • playground/ssr-html/src/network-imports.js
-       • playground/ssr-html/public/slash@3.0.0.js
        • playground/ssr-deps/nested-exclude/index.js
-       • playground/self-referencing/test/index.js
+       • playground/ssr-html/public/slash@3.0.0.js
+       • playground/ssr-html/src/network-imports.js
+       • playground/resolve/ts-extension/index.ts
      📄 Files WITHOUT ExportSpecifier (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -1595,21 +1595,21 @@ Repository: sample-repos/vite
        • playground/vitestSetup.ts
        • playground/vitestGlobalSetup.ts
        • playground/shims.d.ts
-       • playground/worker/worker-sourcemap-config.js
-       • playground/worker/worker-plugin-test-plugin.js
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
 
    JSXIdentifier:
      📄 Files WITH JSXIdentifier (showing 10):
        • playground/environment-react-ssr/src/root.tsx
        • playground/environment-react-ssr/src/entry-server.tsx
        • playground/environment-react-ssr/src/entry-client.tsx
-       • packages/create-vite/template-solid/src/index.jsx
-       • packages/create-vite/template-solid/src/App.jsx
-       • packages/create-vite/template-react/src/main.jsx
-       • packages/create-vite/template-react/src/App.jsx
        • packages/create-vite/template-solid-ts/src/index.tsx
        • packages/create-vite/template-solid-ts/src/App.tsx
        • packages/create-vite/template-react-ts/src/main.tsx
+       • packages/create-vite/template-react-ts/src/App.tsx
+       • packages/create-vite/template-react/src/main.jsx
+       • packages/create-vite/template-react/src/App.jsx
+       • packages/create-vite/template-qwik/src/main.jsx
      📄 Files WITHOUT JSXIdentifier (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -1628,12 +1628,12 @@ Repository: sample-repos/vite
        • playground/hmr-ssr/event.d.ts
        • playground/hmr/event.d.ts
        • playground/environment-react-ssr/vite.config.ts
-       • docs/_data/blog.data.ts
        • packages/vite/rolldown.dts.config.ts
        • packages/vite/client.d.ts
+       • docs/_data/blog.data.ts
        • playground/ssr-webworker/__tests__/serve.ts
        • playground/ssr-pug/__tests__/serve.ts
-       • playground/ssr-noexternal/__tests__/serve.ts
+       • playground/ssr-deps/__tests__/serve.ts
      📄 Files WITHOUT TSTypeLiteral (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -1644,7 +1644,7 @@ Repository: sample-repos/vite
        • playground/vitestGlobalSetup.ts
        • playground/test-utils.ts
        • playground/shims.d.ts
-       • playground/worker/worker-sourcemap-config.js
+       • playground/wasm/worker.js
 
    TSNonNullExpression:
      📄 Files WITH TSNonNullExpression (showing 10):
@@ -1655,9 +1655,9 @@ Repository: sample-repos/vite
        • playground/environment-react-ssr/src/entry-client.tsx
        • packages/plugin-legacy/src/index.ts
        • playground/legacy/__tests__/watch/legacy-styles-only-entry-watch.spec.ts
-       • packages/create-vite/template-vanilla-ts/src/main.ts
-       • packages/create-vite/template-svelte-ts/src/main.ts
-       • packages/create-vite/template-solid-ts/src/index.tsx
+       • packages/vite/src/client/overlay.ts
+       • packages/vite/src/client/client.ts
+       • packages/vite/src/module-runner/runner.ts
      📄 Files WITHOUT TSNonNullExpression (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -1668,7 +1668,7 @@ Repository: sample-repos/vite
        • playground/vitestGlobalSetup.ts
        • playground/test-utils.ts
        • playground/shims.d.ts
-       • playground/worker/worker-sourcemap-config.js
+       • playground/wasm/worker.js
 
    TSNumberKeyword:
      📄 Files WITH TSNumberKeyword (showing 10):
@@ -1676,12 +1676,12 @@ Repository: sample-repos/vite
        • playground/shims.d.ts
        • playground/hmr-ssr/event.d.ts
        • playground/hmr/event.d.ts
-       • docs/_data/blog.data.ts
        • packages/vite/rolldown.config.ts
+       • docs/_data/blog.data.ts
        • playground/css/__tests__/tests.ts
-       • packages/create-vite/src/index.ts
        • packages/vite/types/importGlob.d.ts
        • packages/vite/types/hmrPayload.d.ts
+       • packages/create-vite/src/index.ts
      📄 Files WITHOUT TSNumberKeyword (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -1691,8 +1691,8 @@ Repository: sample-repos/vite
        • scripts/publishCI.ts
        • playground/vitestSetup.ts
        • playground/vitestGlobalSetup.ts
-       • playground/worker/worker-sourcemap-config.js
-       • playground/worker/worker-plugin-test-plugin.js
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
 
    ForOfStatement:
      📄 Files WITH ForOfStatement (showing 10):
@@ -1715,8 +1715,8 @@ Repository: sample-repos/vite
        • playground/vitestSetup.ts
        • playground/test-utils.ts
        • playground/shims.d.ts
-       • playground/worker/worker-sourcemap-config.js
-       • playground/worker/worker-plugin-test-plugin.js
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
 
    ThrowStatement:
      📄 Files WITH ThrowStatement (showing 10):
@@ -1738,9 +1738,9 @@ Repository: sample-repos/vite
        • scripts/release.ts
        • scripts/publishCI.ts
        • playground/shims.d.ts
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
        • playground/worker/worker-sourcemap-config.js
-       • playground/worker/worker-plugin-test-plugin.js
-       • playground/worker/worker-nested-worker.js
 
    ImportExpression:
      📄 Files WITH ImportExpression (showing 10):
@@ -1751,9 +1751,9 @@ Repository: sample-repos/vite
        • playground/worker/emit-chunk-dynamic-import-worker.js
        • playground/worker/classic-worker.js
        • playground/ssr-pug/server.js
+       • playground/ssr-deps/server.js
        • playground/ssr-noexternal/server.js
        • playground/ssr-html/server.js
-       • playground/ssr-deps/server.js
      📄 Files WITHOUT ImportExpression (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -1763,8 +1763,8 @@ Repository: sample-repos/vite
        • scripts/publishCI.ts
        • playground/vitestGlobalSetup.ts
        • playground/shims.d.ts
-       • playground/worker/worker-sourcemap-config.js
-       • playground/worker/worker-plugin-test-plugin.js
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
 
    TSInterfaceDeclaration:
      📄 Files WITH TSInterfaceDeclaration (showing 10):
@@ -1772,12 +1772,12 @@ Repository: sample-repos/vite
        • playground/test-utils.ts
        • playground/hmr-ssr/event.d.ts
        • playground/hmr/event.d.ts
-       • docs/_data/blog.data.ts
        • packages/vite/rollupLicensePlugin.ts
        • packages/vite/rolldown.config.ts
        • packages/vite/client.d.ts
+       • docs/_data/blog.data.ts
        • packages/plugin-legacy/src/types.ts
-       • packages/create-vite/src/index.ts
+       • packages/vite/types/metadata.d.ts
      📄 Files WITHOUT TSInterfaceDeclaration (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -1787,8 +1787,8 @@ Repository: sample-repos/vite
        • scripts/publishCI.ts
        • playground/vitestGlobalSetup.ts
        • playground/shims.d.ts
-       • playground/worker/worker-sourcemap-config.js
-       • playground/worker/worker-plugin-test-plugin.js
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
 
    TSInterfaceBody:
      📄 Files WITH TSInterfaceBody (showing 10):
@@ -1796,12 +1796,12 @@ Repository: sample-repos/vite
        • playground/test-utils.ts
        • playground/hmr-ssr/event.d.ts
        • playground/hmr/event.d.ts
-       • docs/_data/blog.data.ts
        • packages/vite/rollupLicensePlugin.ts
        • packages/vite/rolldown.config.ts
        • packages/vite/client.d.ts
+       • docs/_data/blog.data.ts
        • packages/plugin-legacy/src/types.ts
-       • packages/create-vite/src/index.ts
+       • packages/vite/types/metadata.d.ts
      📄 Files WITHOUT TSInterfaceBody (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -1811,19 +1811,19 @@ Repository: sample-repos/vite
        • scripts/publishCI.ts
        • playground/vitestGlobalSetup.ts
        • playground/shims.d.ts
-       • playground/worker/worker-sourcemap-config.js
-       • playground/worker/worker-plugin-test-plugin.js
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
 
    TryStatement:
      📄 Files WITH TryStatement (showing 10):
        • playground/vitestSetup.ts
        • playground/test-utils.ts
        • playground/ssr-pug/server.js
+       • playground/ssr-deps/server.js
        • playground/ssr-noexternal/server.js
        • playground/ssr-html/test-stacktrace.js
        • playground/ssr-html/test-stacktrace-runtime.js
        • playground/ssr-html/server.js
-       • playground/ssr-deps/server.js
        • playground/ssr-conditions/server.js
        • playground/ssr/server.js
      📄 Files WITHOUT TryStatement (showing 10):
@@ -1835,21 +1835,21 @@ Repository: sample-repos/vite
        • scripts/publishCI.ts
        • playground/vitestGlobalSetup.ts
        • playground/shims.d.ts
-       • playground/worker/worker-sourcemap-config.js
-       • playground/worker/worker-plugin-test-plugin.js
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
 
    JSXText:
      📄 Files WITH JSXText (showing 10):
        • playground/environment-react-ssr/src/root.tsx
-       • packages/create-vite/template-solid/src/App.jsx
-       • packages/create-vite/template-react/src/main.jsx
-       • packages/create-vite/template-react/src/App.jsx
        • packages/create-vite/template-solid-ts/src/App.tsx
        • packages/create-vite/template-react-ts/src/main.tsx
        • packages/create-vite/template-react-ts/src/App.tsx
-       • packages/create-vite/template-preact/src/app.jsx
-       • packages/create-vite/template-qwik-ts/src/app.tsx
+       • packages/create-vite/template-react/src/main.jsx
+       • packages/create-vite/template-react/src/App.jsx
+       • packages/create-vite/template-qwik/src/app.jsx
        • packages/create-vite/template-preact-ts/src/app.tsx
+       • packages/create-vite/template-solid/src/App.jsx
+       • packages/create-vite/template-preact/src/app.jsx
      📄 Files WITHOUT JSXText (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -1867,11 +1867,11 @@ Repository: sample-repos/vite
        • playground/vitestSetup.ts
        • playground/test-utils.ts
        • playground/ssr-pug/server.js
+       • playground/ssr-deps/server.js
        • playground/ssr-noexternal/server.js
        • playground/ssr-html/test-stacktrace.js
        • playground/ssr-html/test-stacktrace-runtime.js
        • playground/ssr-html/server.js
-       • playground/ssr-deps/server.js
        • playground/ssr-conditions/server.js
        • playground/ssr/server.js
      📄 Files WITHOUT CatchClause (showing 10):
@@ -1883,8 +1883,8 @@ Repository: sample-repos/vite
        • scripts/publishCI.ts
        • playground/vitestGlobalSetup.ts
        • playground/shims.d.ts
-       • playground/worker/worker-sourcemap-config.js
-       • playground/worker/worker-plugin-test-plugin.js
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
 
    TSQualifiedName:
      📄 Files WITH TSQualifiedName (showing 10):
@@ -1908,7 +1908,7 @@ Repository: sample-repos/vite
        • playground/vitestGlobalSetup.ts
        • playground/test-utils.ts
        • playground/shims.d.ts
-       • playground/worker/worker-sourcemap-config.js
+       • playground/wasm/worker.js
 
    TSNullKeyword:
      📄 Files WITH TSNullKeyword (showing 10):
@@ -1916,12 +1916,12 @@ Repository: sample-repos/vite
        • packages/plugin-legacy/src/index.ts
        • packages/vite/src/types/ws.d.ts
        • packages/vite/src/types/alias.d.ts
+       • packages/vite/src/client/overlay.ts
+       • packages/vite/src/client/client.ts
        • packages/vite/src/module-runner/evaluatedModules.ts
        • packages/vite/src/shared/invokeMethods.ts
        • packages/vite/src/node/watch.ts
        • packages/vite/src/node/utils.ts
-       • packages/vite/src/node/preview.ts
-       • packages/vite/src/node/plugin.ts
      📄 Files WITHOUT TSNullKeyword (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -1932,15 +1932,15 @@ Repository: sample-repos/vite
        • playground/vitestGlobalSetup.ts
        • playground/test-utils.ts
        • playground/shims.d.ts
-       • playground/worker/worker-sourcemap-config.js
+       • playground/wasm/worker.js
 
    AssignmentPattern:
      📄 Files WITH AssignmentPattern (showing 10):
        • playground/test-utils.ts
        • playground/ssr-pug/server.js
+       • playground/ssr-deps/server.js
        • playground/ssr-noexternal/server.js
        • playground/ssr-html/server.js
-       • playground/ssr-deps/server.js
        • playground/ssr-conditions/server.js
        • playground/ssr/server.js
        • playground/optimize-missing-deps/server.js
@@ -1956,7 +1956,7 @@ Repository: sample-repos/vite
        • playground/vitestSetup.ts
        • playground/vitestGlobalSetup.ts
        • playground/shims.d.ts
-       • playground/worker/worker-sourcemap-config.js
+       • playground/wasm/worker.js
 
    PropertyDefinition:
      📄 Files WITH PropertyDefinition (showing 10):
@@ -1964,10 +1964,10 @@ Repository: sample-repos/vite
        • playground/tsconfig-json/nested/main.ts
        • playground/tsconfig-json/nested-with-extends/main.ts
        • playground/assets/nested/test.js
-       • packages/create-vite/template-lit-ts/src/my-element.ts
        • packages/vite/src/types/ws.d.ts
        • packages/vite/src/types/connect.d.ts
        • packages/vite/src/types/chokidar.d.ts
+       • packages/vite/src/client/overlay.ts
        • packages/vite/src/module-runner/runner.ts
        • packages/vite/src/module-runner/evaluatedModules.ts
      📄 Files WITHOUT PropertyDefinition (showing 10):
@@ -1988,12 +1988,12 @@ Repository: sample-repos/vite
        • packages/vite/rolldown.dts.config.ts
        • packages/vite/client.d.ts
        • playground/hmr-ssr/__tests__/hmr-ssr.spec.ts
-       • packages/create-vite/src/index.ts
        • packages/vite/types/importMeta.d.ts
        • packages/vite/types/importGlob.d.ts
        • packages/vite/types/hot.d.ts
        • packages/vite/types/hmrPayload.d.ts
        • packages/vite/types/customEvent.d.ts
+       • packages/create-vite/src/index.ts
      📄 Files WITHOUT TSTypeAliasDeclaration (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -2004,7 +2004,7 @@ Repository: sample-repos/vite
        • playground/vitestSetup.ts
        • playground/vitestGlobalSetup.ts
        • playground/shims.d.ts
-       • playground/worker/worker-sourcemap-config.js
+       • playground/wasm/worker.js
 
    TSEmptyBodyFunctionExpression:
      📄 Files WITH TSEmptyBodyFunctionExpression (showing 4):
@@ -2032,10 +2032,10 @@ Repository: sample-repos/vite
        • packages/vite/types/customEvent.d.ts
        • packages/vite/src/types/connect.d.ts
        • packages/vite/src/types/alias.d.ts
+       • packages/vite/src/client/overlay.ts
+       • packages/vite/src/client/client.ts
        • packages/vite/src/shared/moduleRunnerTransport.ts
        • packages/vite/src/shared/invokeMethods.ts
-       • packages/vite/src/shared/hmr.ts
-       • packages/vite/src/node/watch.ts
      📄 Files WITHOUT TSIndexedAccessType (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -2069,18 +2069,18 @@ Repository: sample-repos/vite
        • scripts/publishCI.ts
        • playground/vitestSetup.ts
        • playground/shims.d.ts
-       • playground/worker/worker-sourcemap-config.js
-       • playground/worker/worker-plugin-test-plugin.js
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
 
    TSTypeParameter:
      📄 Files WITH TSTypeParameter (showing 10):
        • scripts/releaseUtils.ts
        • playground/test-utils.ts
        • packages/vite/rolldown.dts.config.ts
-       • packages/create-vite/__tests__/cli.spec.ts
        • packages/vite/types/importGlob.d.ts
        • packages/vite/types/hot.d.ts
        • packages/vite/types/customEvent.d.ts
+       • packages/create-vite/__tests__/cli.spec.ts
        • packages/vite/types/internal/cssPreprocessorOptions.d.ts
        • packages/vite/src/types/ws.d.ts
        • packages/vite/src/types/alias.d.ts
@@ -2093,20 +2093,20 @@ Repository: sample-repos/vite
        • playground/vitestSetup.ts
        • playground/vitestGlobalSetup.ts
        • playground/shims.d.ts
-       • playground/worker/worker-sourcemap-config.js
-       • playground/worker/worker-plugin-test-plugin.js
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
 
    JSXAttribute:
      📄 Files WITH JSXAttribute (showing 9):
        • playground/environment-react-ssr/src/root.tsx
-       • packages/create-vite/template-solid/src/App.jsx
-       • packages/create-vite/template-react/src/App.jsx
        • packages/create-vite/template-solid-ts/src/App.tsx
        • packages/create-vite/template-react-ts/src/App.tsx
+       • packages/create-vite/template-react/src/App.jsx
+       • packages/create-vite/template-qwik/src/app.jsx
+       • packages/create-vite/template-preact-ts/src/app.tsx
+       • packages/create-vite/template-solid/src/App.jsx
        • packages/create-vite/template-preact/src/app.jsx
        • packages/create-vite/template-qwik-ts/src/app.tsx
-       • packages/create-vite/template-preact-ts/src/app.tsx
-       • packages/create-vite/template-qwik/src/app.jsx
      📄 Files WITHOUT JSXAttribute (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -2124,13 +2124,13 @@ Repository: sample-repos/vite
        • playground/environment-react-ssr/src/root.tsx
        • playground/environment-react-ssr/src/entry-server.tsx
        • playground/environment-react-ssr/src/entry-client.tsx
-       • packages/create-vite/template-solid/src/index.jsx
-       • packages/create-vite/template-solid/src/App.jsx
-       • packages/create-vite/template-react/src/main.jsx
-       • packages/create-vite/template-react/src/App.jsx
        • packages/create-vite/template-solid-ts/src/index.tsx
        • packages/create-vite/template-solid-ts/src/App.tsx
        • packages/create-vite/template-react-ts/src/main.tsx
+       • packages/create-vite/template-react-ts/src/App.tsx
+       • packages/create-vite/template-react/src/main.jsx
+       • packages/create-vite/template-react/src/App.jsx
+       • packages/create-vite/template-qwik/src/main.jsx
      📄 Files WITHOUT JSXElement (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -2148,13 +2148,13 @@ Repository: sample-repos/vite
        • playground/environment-react-ssr/src/root.tsx
        • playground/environment-react-ssr/src/entry-server.tsx
        • playground/environment-react-ssr/src/entry-client.tsx
-       • packages/create-vite/template-solid/src/index.jsx
-       • packages/create-vite/template-solid/src/App.jsx
-       • packages/create-vite/template-react/src/main.jsx
-       • packages/create-vite/template-react/src/App.jsx
        • packages/create-vite/template-solid-ts/src/index.tsx
        • packages/create-vite/template-solid-ts/src/App.tsx
        • packages/create-vite/template-react-ts/src/main.tsx
+       • packages/create-vite/template-react-ts/src/App.tsx
+       • packages/create-vite/template-react/src/main.jsx
+       • packages/create-vite/template-react/src/App.jsx
+       • packages/create-vite/template-qwik/src/main.jsx
      📄 Files WITHOUT JSXOpeningElement (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -2171,9 +2171,9 @@ Repository: sample-repos/vite
      📄 Files WITH TSMethodSignature (showing 10):
        • playground/ssr-webworker/__tests__/serve.ts
        • playground/ssr-pug/__tests__/serve.ts
+       • playground/ssr-deps/__tests__/serve.ts
        • playground/ssr-noexternal/__tests__/serve.ts
        • playground/ssr-html/__tests__/serve.ts
-       • playground/ssr-deps/__tests__/serve.ts
        • playground/ssr-conditions/__tests__/serve.ts
        • playground/ssr/__tests__/serve.ts
        • playground/proxy-hmr/__tests__/serve.ts
@@ -2196,10 +2196,10 @@ Repository: sample-repos/vite
        • scripts/releaseUtils.ts
        • playground/test-utils.ts
        • packages/vite/rolldown.dts.config.ts
-       • packages/create-vite/__tests__/cli.spec.ts
        • packages/vite/types/importGlob.d.ts
        • packages/vite/types/hot.d.ts
        • packages/vite/types/customEvent.d.ts
+       • packages/create-vite/__tests__/cli.spec.ts
        • packages/vite/types/internal/cssPreprocessorOptions.d.ts
        • packages/vite/src/types/ws.d.ts
        • packages/vite/src/types/alias.d.ts
@@ -2212,8 +2212,8 @@ Repository: sample-repos/vite
        • playground/vitestSetup.ts
        • playground/vitestGlobalSetup.ts
        • playground/shims.d.ts
-       • playground/worker/worker-sourcemap-config.js
-       • playground/worker/worker-plugin-test-plugin.js
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
 
    TSTypeOperator:
      📄 Files WITH TSTypeOperator (showing 10):
@@ -2237,7 +2237,7 @@ Repository: sample-repos/vite
        • playground/vitestGlobalSetup.ts
        • playground/test-utils.ts
        • playground/shims.d.ts
-       • playground/worker/worker-sourcemap-config.js
+       • playground/wasm/worker.js
 
    ContinueStatement:
      📄 Files WITH ContinueStatement (showing 10):
@@ -2315,7 +2315,7 @@ Repository: sample-repos/vite
        • packages/vite/client.d.ts
        • packages/vite/types/metadata.d.ts
        • packages/vite/types/importGlob.d.ts
-       • packages/create-vite/template-lit-ts/src/my-element.ts
+       • packages/vite/types/internal/cssPreprocessorOptions.d.ts
      📄 Files WITHOUT TSModuleDeclaration (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -2325,8 +2325,8 @@ Repository: sample-repos/vite
        • scripts/publishCI.ts
        • playground/vitestGlobalSetup.ts
        • playground/test-utils.ts
-       • playground/worker/worker-sourcemap-config.js
-       • playground/worker/worker-plugin-test-plugin.js
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
 
    TSModuleBlock:
      📄 Files WITH TSModuleBlock (showing 10):
@@ -2339,7 +2339,7 @@ Repository: sample-repos/vite
        • packages/vite/client.d.ts
        • packages/vite/types/metadata.d.ts
        • packages/vite/types/importGlob.d.ts
-       • packages/create-vite/template-lit-ts/src/my-element.ts
+       • packages/vite/types/internal/cssPreprocessorOptions.d.ts
      📄 Files WITHOUT TSModuleBlock (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -2349,21 +2349,21 @@ Repository: sample-repos/vite
        • scripts/publishCI.ts
        • playground/vitestGlobalSetup.ts
        • playground/test-utils.ts
-       • playground/worker/worker-sourcemap-config.js
-       • playground/worker/worker-plugin-test-plugin.js
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
 
    JSXClosingElement:
      📄 Files WITH JSXClosingElement (showing 10):
        • playground/environment-react-ssr/src/root.tsx
-       • packages/create-vite/template-solid/src/App.jsx
-       • packages/create-vite/template-react/src/main.jsx
-       • packages/create-vite/template-react/src/App.jsx
        • packages/create-vite/template-solid-ts/src/App.tsx
        • packages/create-vite/template-react-ts/src/main.tsx
        • packages/create-vite/template-react-ts/src/App.tsx
-       • packages/create-vite/template-preact/src/app.jsx
-       • packages/create-vite/template-qwik-ts/src/app.tsx
+       • packages/create-vite/template-react/src/main.jsx
+       • packages/create-vite/template-react/src/App.jsx
+       • packages/create-vite/template-qwik/src/app.jsx
        • packages/create-vite/template-preact-ts/src/app.tsx
+       • packages/create-vite/template-solid/src/App.jsx
+       • packages/create-vite/template-preact/src/app.jsx
      📄 Files WITHOUT JSXClosingElement (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -2387,7 +2387,7 @@ Repository: sample-repos/vite
        • packages/vite/src/types/ws.d.ts
        • packages/vite/src/types/dynamicImportVars.d.ts
        • packages/vite/src/types/commonjs.d.ts
-       • packages/vite/src/module-runner/types.ts
+       • packages/vite/src/client/overlay.ts
      📄 Files WITHOUT TSParenthesizedType (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -2397,18 +2397,18 @@ Repository: sample-repos/vite
        • playground/vitestGlobalSetup.ts
        • playground/test-utils.ts
        • playground/shims.d.ts
-       • playground/worker/worker-sourcemap-config.js
-       • playground/worker/worker-plugin-test-plugin.js
+       • playground/wasm/worker.js
+       • playground/wasm/vite.config.ts
 
    SwitchCase:
      📄 Files WITH SwitchCase (showing 10):
        • playground/worker/classic-worker.js
        • playground/worker/worker/main-classic.js
        • packages/create-vite/src/index.ts
+       • packages/vite/src/client/client.ts
        • packages/vite/src/module-runner/hmrHandler.ts
        • packages/vite/src/node/utils.ts
        • packages/vite/src/node/build.ts
-       • packages/vite/src/client/client.ts
        • packages/vite/src/node/server/mixedModuleGraph.ts
        • packages/vite/src/node/server/hmr.ts
        • packages/vite/src/node/plugins/index.ts
@@ -2429,12 +2429,12 @@ Repository: sample-repos/vite
        • playground/worker/classic-worker.js
        • playground/worker/worker/main-classic.js
        • packages/create-vite/src/index.ts
+       • packages/vite/src/client/client.ts
        • packages/vite/src/module-runner/hmrHandler.ts
        • packages/vite/src/node/utils.ts
        • packages/vite/src/node/packages.ts
        • packages/vite/src/node/config.ts
        • packages/vite/src/node/build.ts
-       • packages/vite/src/client/client.ts
        • packages/vite/src/node/server/transformRequest.ts
      📄 Files WITHOUT BreakStatement (showing 10):
        • vitest.config.ts
@@ -2476,13 +2476,13 @@ Repository: sample-repos/vite
      📄 Files WITH TSTypeQuery (showing 10):
        • packages/plugin-legacy/src/index.ts
        • packages/vite/src/types/ws.d.ts
+       • packages/vite/src/client/overlay.ts
+       • packages/vite/src/client/client.ts
        • packages/vite/src/shared/utils.ts
        • packages/vite/src/shared/moduleRunnerTransport.ts
        • packages/vite/src/node/utils.ts
        • packages/vite/src/node/packages.ts
        • packages/vite/src/node/cli.ts
-       • packages/vite/src/client/overlay.ts
-       • packages/vite/src/client/client.ts
        • packages/vite/src/node/server/ws.ts
      📄 Files WITHOUT TSTypeQuery (showing 10):
        • vitest.config.ts
@@ -2518,7 +2518,7 @@ Repository: sample-repos/vite
        • playground/vitestGlobalSetup.ts
        • playground/test-utils.ts
        • playground/shims.d.ts
-       • playground/worker/worker-sourcemap-config.js
+       • playground/wasm/worker.js
 
    TSIntersectionType:
      📄 Files WITH TSIntersectionType (showing 10):
@@ -2542,7 +2542,7 @@ Repository: sample-repos/vite
        • playground/vitestGlobalSetup.ts
        • playground/test-utils.ts
        • playground/shims.d.ts
-       • playground/worker/worker-sourcemap-config.js
+       • playground/wasm/worker.js
 
    ClassBody:
      📄 Files WITH ClassBody (showing 10):
@@ -2555,7 +2555,7 @@ Repository: sample-repos/vite
        • playground/tsconfig-json/nested-with-extends/main.ts
        • playground/hmr-ssr/__tests__/hmr-ssr.spec.ts
        • playground/assets/nested/test.js
-       • packages/create-vite/template-lit/src/my-element.js
+       • packages/vite/src/types/ws.d.ts
      📄 Files WITHOUT ClassBody (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -2579,7 +2579,7 @@ Repository: sample-repos/vite
        • playground/tsconfig-json/nested-with-extends/main.ts
        • playground/hmr-ssr/__tests__/hmr-ssr.spec.ts
        • playground/assets/nested/test.js
-       • packages/create-vite/template-lit/src/my-element.js
+       • packages/vite/src/types/ws.d.ts
      📄 Files WITHOUT ClassDeclaration (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -2624,9 +2624,9 @@ Repository: sample-repos/vite
        • playground/css-codesplit/__tests__/css-codesplit-consistent.spec.ts
        • playground/css/__tests__/same-file-name/css-same-file-name.spec.ts
        • packages/plugin-legacy/src/__tests__/snippets.spec.ts
+       • packages/vite/src/client/env.ts
        • packages/vite/src/node/utils.ts
        • packages/vite/src/node/build.ts
-       • packages/vite/src/client/env.ts
        • packages/vite/src/module-runner/sourcemap/interceptor.ts
      📄 Files WITHOUT ForStatement (showing 10):
        • vitest.config.ts
@@ -2667,14 +2667,14 @@ Repository: sample-repos/vite
    JSXExpressionContainer:
      📄 Files WITH JSXExpressionContainer (showing 9):
        • playground/environment-react-ssr/src/root.tsx
-       • packages/create-vite/template-solid/src/App.jsx
-       • packages/create-vite/template-react/src/App.jsx
        • packages/create-vite/template-solid-ts/src/App.tsx
        • packages/create-vite/template-react-ts/src/App.tsx
+       • packages/create-vite/template-react/src/App.jsx
+       • packages/create-vite/template-qwik/src/app.jsx
+       • packages/create-vite/template-preact-ts/src/app.tsx
+       • packages/create-vite/template-solid/src/App.jsx
        • packages/create-vite/template-preact/src/app.jsx
        • packages/create-vite/template-qwik-ts/src/app.tsx
-       • packages/create-vite/template-preact-ts/src/app.tsx
-       • packages/create-vite/template-qwik/src/app.jsx
      📄 Files WITHOUT JSXExpressionContainer (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -2709,7 +2709,7 @@ Repository: sample-repos/vite
        • playground/vitestGlobalSetup.ts
        • playground/test-utils.ts
        • playground/shims.d.ts
-       • playground/worker/worker-sourcemap-config.js
+       • playground/wasm/worker.js
 
    EmptyStatement:
      📄 Files WITH EmptyStatement (showing 10):
@@ -2740,13 +2740,13 @@ Repository: sample-repos/vite
        • packages/vite/rolldown.config.ts
        • playground/hmr-ssr/__tests__/hmr-ssr.spec.ts
        • packages/plugin-legacy/src/index.ts
-       • packages/vite/src/node/utils.ts
-       • packages/vite/src/node/packages.ts
        • packages/vite/src/client/overlay.ts
        • packages/vite/src/client/client.ts
+       • packages/vite/src/node/utils.ts
+       • packages/vite/src/node/packages.ts
        • packages/vite/src/module-runner/sourcemap/interceptor.ts
        • packages/vite/src/node/server/environment.ts
-       • packages/vite/src/node/plugins/workerImportMetaUrl.ts
+       • packages/vite/src/node/optimizer/scan.ts
      📄 Files WITHOUT WhileStatement (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -2788,11 +2788,11 @@ Repository: sample-repos/vite
        • packages/vite/types/importMeta.d.ts
        • packages/vite/types/internal/cssPreprocessorOptions.d.ts
        • packages/vite/src/types/alias.d.ts
+       • packages/vite/src/client/client.ts
        • packages/vite/src/module-runner/hmrHandler.ts
        • packages/vite/src/node/utils.ts
        • packages/vite/src/node/typeUtils.ts
        • packages/vite/src/node/build.ts
-       • packages/vite/src/client/client.ts
        • packages/vite/src/node/server/pluginContainer.ts
        • packages/vite/src/node/server/index.ts
      📄 Files WITHOUT TSNeverKeyword (showing 10):
@@ -2829,15 +2829,15 @@ Repository: sample-repos/vite
        • playground/vitestGlobalSetup.ts
        • playground/test-utils.ts
        • playground/shims.d.ts
-       • playground/worker/worker-sourcemap-config.js
+       • playground/wasm/worker.js
 
    Super:
      📄 Files WITH Super (showing 10):
-       • packages/create-vite/template-lit/src/my-element.js
+       • packages/vite/src/client/overlay.ts
        • packages/vite/src/node/watch.ts
        • packages/vite/src/node/build.ts
        • packages/vite/src/node/baseEnvironment.ts
-       • packages/vite/src/client/overlay.ts
+       • packages/create-vite/template-lit/src/my-element.js
        • packages/vite/src/node/ssr/ssrModuleLoader.ts
        • packages/vite/src/node/server/pluginContainer.ts
        • packages/vite/src/node/server/environment.ts
@@ -2864,9 +2864,9 @@ Repository: sample-repos/vite
        • packages/vite/src/node/config.ts
        • packages/vite/src/node/ssr/ssrTransform.ts
        • packages/vite/src/node/server/moduleGraph.ts
-       • packages/vite/src/node/plugins/importAnalysis.ts
-       • packages/vite/src/node/plugins/html.ts
-       • packages/vite/src/node/plugins/define.ts
+       • packages/vite/src/node/__tests_dts__/utils.ts
+       • packages/vite/src/node/__tests_dts__/typeOptions.ts
+       • packages/vite/src/node/__tests_dts__/plugin.ts
      📄 Files WITHOUT TSTupleType (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -2905,10 +2905,10 @@ Repository: sample-repos/vite
        • playground/worker/classic-worker.js
        • playground/worker/worker/main-classic.js
        • packages/create-vite/src/index.ts
+       • packages/vite/src/client/client.ts
        • packages/vite/src/module-runner/hmrHandler.ts
        • packages/vite/src/node/utils.ts
        • packages/vite/src/node/build.ts
-       • packages/vite/src/client/client.ts
        • packages/vite/src/node/server/mixedModuleGraph.ts
        • packages/vite/src/node/server/hmr.ts
        • packages/vite/src/node/plugins/index.ts
@@ -2943,7 +2943,7 @@ Repository: sample-repos/vite
        • playground/vitestSetup.ts
        • playground/vitestGlobalSetup.ts
        • playground/shims.d.ts
-       • playground/worker/worker-sourcemap-config.js
+       • playground/wasm/worker.js
 
    TSTypePredicate:
      📄 Files WITH TSTypePredicate (showing 7):
@@ -3030,7 +3030,7 @@ Repository: sample-repos/vite
        • playground/vitestSetup.ts
        • playground/vitestGlobalSetup.ts
        • playground/shims.d.ts
-       • playground/worker/worker-sourcemap-config.js
+       • playground/wasm/worker.js
 
    TSEnumMember:
      📄 Files WITH TSEnumMember (showing 2):
@@ -3104,14 +3104,14 @@ Repository: sample-repos/vite
 
    JSXFragment:
      📄 Files WITH JSXFragment (showing 8):
-       • packages/create-vite/template-solid/src/App.jsx
-       • packages/create-vite/template-react/src/App.jsx
        • packages/create-vite/template-solid-ts/src/App.tsx
        • packages/create-vite/template-react-ts/src/App.tsx
+       • packages/create-vite/template-react/src/App.jsx
+       • packages/create-vite/template-qwik/src/app.jsx
+       • packages/create-vite/template-preact-ts/src/app.tsx
+       • packages/create-vite/template-solid/src/App.jsx
        • packages/create-vite/template-preact/src/app.jsx
        • packages/create-vite/template-qwik-ts/src/app.tsx
-       • packages/create-vite/template-preact-ts/src/app.tsx
-       • packages/create-vite/template-qwik/src/app.jsx
      📄 Files WITHOUT JSXFragment (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -3126,14 +3126,14 @@ Repository: sample-repos/vite
 
    JSXOpeningFragment:
      📄 Files WITH JSXOpeningFragment (showing 8):
-       • packages/create-vite/template-solid/src/App.jsx
-       • packages/create-vite/template-react/src/App.jsx
        • packages/create-vite/template-solid-ts/src/App.tsx
        • packages/create-vite/template-react-ts/src/App.tsx
+       • packages/create-vite/template-react/src/App.jsx
+       • packages/create-vite/template-qwik/src/app.jsx
+       • packages/create-vite/template-preact-ts/src/app.tsx
+       • packages/create-vite/template-solid/src/App.jsx
        • packages/create-vite/template-preact/src/app.jsx
        • packages/create-vite/template-qwik-ts/src/app.tsx
-       • packages/create-vite/template-preact-ts/src/app.tsx
-       • packages/create-vite/template-qwik/src/app.jsx
      📄 Files WITHOUT JSXOpeningFragment (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -3148,14 +3148,14 @@ Repository: sample-repos/vite
 
    JSXClosingFragment:
      📄 Files WITH JSXClosingFragment (showing 8):
-       • packages/create-vite/template-solid/src/App.jsx
-       • packages/create-vite/template-react/src/App.jsx
        • packages/create-vite/template-solid-ts/src/App.tsx
        • packages/create-vite/template-react-ts/src/App.tsx
+       • packages/create-vite/template-react/src/App.jsx
+       • packages/create-vite/template-qwik/src/app.jsx
+       • packages/create-vite/template-preact-ts/src/app.tsx
+       • packages/create-vite/template-solid/src/App.jsx
        • packages/create-vite/template-preact/src/app.jsx
        • packages/create-vite/template-qwik-ts/src/app.tsx
-       • packages/create-vite/template-preact-ts/src/app.tsx
-       • packages/create-vite/template-qwik/src/app.jsx
      📄 Files WITHOUT JSXClosingFragment (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
@@ -3186,7 +3186,7 @@ Repository: sample-repos/vite
        • playground/vitestGlobalSetup.ts
        • playground/test-utils.ts
        • playground/shims.d.ts
-       • playground/worker/worker-sourcemap-config.js
+       • playground/wasm/worker.js
 
    TSClassImplements:
      📄 Files WITH TSClassImplements (showing 5):
@@ -3228,8 +3228,8 @@ Repository: sample-repos/vite
    TaggedTemplateExpression:
      📄 Files WITH TaggedTemplateExpression (showing 4):
        • playground/legacy/main.js
-       • packages/create-vite/template-lit/src/my-element.js
        • packages/create-vite/template-lit-ts/src/my-element.ts
+       • packages/create-vite/template-lit/src/my-element.js
        • packages/vite/src/node/server/middlewares/static.ts
      📄 Files WITHOUT TaggedTemplateExpression (showing 10):
        • vitest.config.ts
@@ -3405,11 +3405,11 @@ Repository: sample-repos/vite
        • playground/test-utils.ts
        • playground/shims.d.ts
 
-   DoWhileStatement:
-     📄 Files WITH DoWhileStatement (showing 2):
-       • packages/vite/src/node/utils.ts
-       • packages/vite/src/node/plugins/define.ts
-     📄 Files WITHOUT DoWhileStatement (showing 10):
+   ClassExpression:
+     📄 Files WITH ClassExpression (showing 2):
+       • packages/vite/src/client/overlay.ts
+       • packages/vite/src/node/plugins/css.ts
+     📄 Files WITHOUT ClassExpression (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
        • eslint.config.js
@@ -3421,11 +3421,11 @@ Repository: sample-repos/vite
        • playground/test-utils.ts
        • playground/shims.d.ts
 
-   ClassExpression:
-     📄 Files WITH ClassExpression (showing 2):
-       • packages/vite/src/client/overlay.ts
-       • packages/vite/src/node/plugins/css.ts
-     📄 Files WITHOUT ClassExpression (showing 10):
+   DoWhileStatement:
+     📄 Files WITH DoWhileStatement (showing 2):
+       • packages/vite/src/node/utils.ts
+       • packages/vite/src/node/plugins/define.ts
+     📄 Files WITHOUT DoWhileStatement (showing 10):
        • vitest.config.ts
        • vitest.config.e2e.ts
        • eslint.config.js

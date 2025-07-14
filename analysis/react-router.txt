@@ -1,0 +1,3410 @@
+AST Analysis Report for react-router
+Generated on: 2025-07-14T01:56:55.359Z
+Repository: sample-repos/react-router
+================================================================================
+
+🔍 Analyzing JavaScript/TypeScript files in: /Users/camchenry/workspace/ast-analysis/sample-repos/react-router
+
+📁 Found 633 files to analyze...
+
+
+
+============================================================
+📊 AST ANALYSIS RESULTS
+============================================================
+
+📁 FILE STATISTICS:
+   Total files found: 633
+   Successfully parsed: 633
+   Failed to parse: 0
+   Total file size: 4.4 MB
+
+🌳 NODE STATISTICS:
+   Total nodes: 526,284
+   Average nodes per file: 831
+   Average file size: 7.1 KB
+
+📋 ALL NODE TYPES (BY FILE PRESENCE):
+   Program                         633 files (100.0%) -      633 total (0.12%)
+   Identifier                      608 files ( 96.1%) -  170,942 total (32.48%)
+   Literal                         599 files ( 94.6%) -   41,256 total (7.84%)
+   ImportDeclaration               527 files ( 83.3%) -    2,011 total (0.38%)
+   CallExpression                  512 files ( 80.9%) -   46,152 total (8.77%)
+   ImportSpecifier                 505 files ( 79.8%) -    2,983 total (0.57%)
+   MemberExpression                480 files ( 75.8%) -   44,893 total (8.53%)
+   BlockStatement                  459 files ( 72.5%) -   10,120 total (1.92%)
+   Property                        453 files ( 71.6%) -   22,304 total (4.24%)
+   ObjectExpression                435 files ( 68.7%) -   10,400 total (1.98%)
+   VariableDeclaration             413 files ( 65.2%) -   10,618 total (2.02%)
+   VariableDeclarator              413 files ( 65.2%) -   10,621 total (2.02%)
+   ExpressionStatement             407 files ( 64.3%) -   22,274 total (4.23%)
+   TSTypeAnnotation                397 files ( 62.7%) -    6,607 total (1.26%)
+   TSTypeReference                 396 files ( 62.6%) -    5,650 total (1.07%)
+   ArrowFunctionExpression         368 files ( 58.1%) -    7,445 total (1.41%)
+   FunctionDeclaration             332 files ( 52.4%) -    1,549 total (0.29%)
+   ReturnStatement                 328 files ( 51.8%) -    2,996 total (0.57%)
+   ArrayExpression                 319 files ( 50.4%) -    3,636 total (0.69%)
+   AssignmentExpression            277 files ( 43.8%) -    2,513 total (0.48%)
+   Unknown                         260 files ( 41.1%) -    5,757 total (1.09%)
+   TemplateLiteral                 246 files ( 38.9%) -    3,268 total (0.62%)
+   TemplateElement                 246 files ( 38.9%) -    5,059 total (0.96%)
+   AwaitExpression                 234 files ( 37.0%) -    7,597 total (1.44%)
+   ObjectPattern                   230 files ( 36.3%) -    1,752 total (0.33%)
+   NewExpression                   227 files ( 35.9%) -    1,890 total (0.36%)
+   ParenthesizedExpression         220 files ( 34.8%) -    1,306 total (0.25%)
+   ExportNamedDeclaration          217 files ( 34.3%) -      979 total (0.19%)
+   TSStringKeyword                 217 files ( 34.3%) -    1,908 total (0.36%)
+   BinaryExpression                209 files ( 33.0%) -    2,165 total (0.41%)
+   ExportDefaultDeclaration        190 files ( 30.0%) -      196 total (0.04%)
+   IfStatement                     183 files ( 28.9%) -    1,939 total (0.37%)
+   JSXElement                      182 files ( 28.8%) -    5,836 total (1.11%)
+   JSXOpeningElement               182 files ( 28.8%) -    5,836 total (1.11%)
+   JSXIdentifier                   182 files ( 28.8%) -   13,971 total (2.65%)
+   JSXClosingElement               175 files ( 27.6%) -    3,379 total (0.64%)
+   ImportDefaultSpecifier          171 files ( 27.0%) -      348 total (0.07%)
+   TSTypeParameterInstantiation    169 files ( 26.7%) -    1,403 total (0.27%)
+   JSXText                         169 files ( 26.7%) -    6,822 total (1.30%)
+   ImportNamespaceSpecifier        161 files ( 25.4%) -      243 total (0.05%)
+   TSPropertySignature             158 files ( 25.0%) -    2,014 total (0.38%)
+   ConditionalExpression           157 files ( 24.8%) -      689 total (0.13%)
+   UnaryExpression                 155 files ( 24.5%) -    1,012 total (0.19%)
+   LogicalExpression               154 files ( 24.3%) -    1,325 total (0.25%)
+   JSXExpressionContainer          148 files ( 23.4%) -    2,997 total (0.57%)
+   JSXAttribute                    141 files ( 22.3%) -    4,512 total (0.86%)
+   TSTypeLiteral                   137 files ( 21.6%) -      569 total (0.11%)
+   TSArrayType                     130 files ( 20.5%) -      595 total (0.11%)
+   TSQualifiedName                 123 files ( 19.4%) -      597 total (0.11%)
+   TSUnionType                     120 files ( 19.0%) -      744 total (0.14%)
+   SpreadElement                   110 files ( 17.4%) -      808 total (0.15%)
+   TSAsExpression                  106 files ( 16.7%) -      635 total (0.12%)
+   FunctionExpression               92 files ( 14.5%) -      744 total (0.14%)
+   ChainExpression                  90 files ( 14.2%) -      775 total (0.15%)
+   TSLiteralType                    90 files ( 14.2%) -      738 total (0.14%)
+   TSNumberKeyword                  86 files ( 13.6%) -      247 total (0.05%)
+   ThrowStatement                   84 files ( 13.3%) -      369 total (0.07%)
+   TSAnyKeyword                     82 files ( 13.0%) -      311 total (0.06%)
+   TSUnknownKeyword                 81 files ( 12.8%) -      258 total (0.05%)
+   TSBooleanKeyword                 81 files ( 12.8%) -      417 total (0.08%)
+   TSFunctionType                   79 files ( 12.5%) -      284 total (0.05%)
+   TSUndefinedKeyword               78 files ( 12.3%) -      324 total (0.06%)
+   TSTypeAliasDeclaration           78 files ( 12.3%) -      343 total (0.07%)
+   TaggedTemplateExpression         77 files ( 12.2%) -    1,018 total (0.19%)
+   TSInterfaceDeclaration           72 files ( 11.4%) -      217 total (0.04%)
+   TSInterfaceBody                  72 files ( 11.4%) -      217 total (0.04%)
+   TSVoidKeyword                    70 files ( 11.1%) -      221 total (0.04%)
+   AssignmentPattern                66 files ( 10.4%) -      215 total (0.04%)
+   TryStatement                     59 files (  9.3%) -      161 total (0.03%)
+   ForOfStatement                   59 files (  9.3%) -      167 total (0.03%)
+   TSNullKeyword                    56 files (  8.8%) -      218 total (0.04%)
+   TSIndexedAccessType              55 files (  8.7%) -      316 total (0.06%)
+   TSTypeParameter                  55 files (  8.7%) -      278 total (0.05%)
+   CatchClause                      54 files (  8.5%) -      154 total (0.03%)
+   TSTypeParameterDeclaration       53 files (  8.4%) -      208 total (0.04%)
+   TSNonNullExpression              51 files (  8.1%) -      253 total (0.05%)
+   TSTypeQuery                      48 files (  7.6%) -      134 total (0.03%)
+   ArrayPattern                     48 files (  7.6%) -      234 total (0.04%)
+   JSXFragment                      47 files (  7.4%) -      295 total (0.06%)
+   JSXOpeningFragment               47 files (  7.4%) -      295 total (0.06%)
+   JSXClosingFragment               47 files (  7.4%) -      295 total (0.06%)
+   JSXMemberExpression              45 files (  7.1%) -      244 total (0.05%)
+   RestElement                      37 files (  5.8%) -       71 total (0.01%)
+   TSSatisfiesExpression            34 files (  5.4%) -       39 total (0.01%)
+   TSIntersectionType               33 files (  5.2%) -       83 total (0.02%)
+   UpdateExpression                 32 files (  5.1%) -       85 total (0.02%)
+   ExportSpecifier                  29 files (  4.6%) -      330 total (0.06%)
+   TSTupleType                      26 files (  4.1%) -       58 total (0.01%)
+   TSParenthesizedType              26 files (  4.1%) -       60 total (0.01%)
+   TSInterfaceHeritage              25 files (  3.9%) -       58 total (0.01%)
+   ImportExpression                 23 files (  3.6%) -       37 total (0.01%)
+   TSTypePredicate                  23 files (  3.6%) -       54 total (0.01%)
+   TSConditionalType                22 files (  3.5%) -       97 total (0.02%)
+   WhileStatement                   20 files (  3.2%) -       28 total (0.01%)
+   TSIndexSignature                 20 files (  3.2%) -       28 total (0.01%)
+   ContinueStatement                19 files (  3.0%) -       56 total (0.01%)
+   ClassBody                        19 files (  3.0%) -       24 total (0.00%)
+   TSTypeOperator                   19 files (  3.0%) -       67 total (0.01%)
+   ClassDeclaration                 18 files (  2.8%) -       23 total (0.00%)
+   ThisExpression                   18 files (  2.8%) -      607 total (0.12%)
+   MethodDefinition                 17 files (  2.7%) -      123 total (0.02%)
+   TSMethodSignature                17 files (  2.7%) -       66 total (0.01%)
+   MetaProperty                     15 files (  2.4%) -       22 total (0.00%)
+   JSXEmptyExpression               15 files (  2.4%) -       36 total (0.01%)
+   TSModuleDeclaration              14 files (  2.2%) -       20 total (0.00%)
+   TSModuleBlock                    14 files (  2.2%) -       20 total (0.00%)
+   BreakStatement                   13 files (  2.1%) -       41 total (0.01%)
+   PropertyDefinition               12 files (  1.9%) -       85 total (0.02%)
+   TSNeverKeyword                   11 files (  1.7%) -       38 total (0.01%)
+   TSMappedType                     11 files (  1.7%) -       22 total (0.00%)
+   ForStatement                     10 files (  1.6%) -       18 total (0.00%)
+   Super                            10 files (  1.6%) -       14 total (0.00%)
+   TSCallSignatureDeclaration        9 files (  1.4%) -       24 total (0.00%)
+   SwitchStatement                   8 files (  1.3%) -        9 total (0.00%)
+   SwitchCase                        8 files (  1.3%) -       47 total (0.01%)
+   TSDeclareFunction                 8 files (  1.3%) -       21 total (0.00%)
+   TSInferType                       8 files (  1.3%) -       31 total (0.01%)
+   JSXSpreadAttribute                8 files (  1.3%) -       23 total (0.00%)
+   TSTemplateLiteralType             7 files (  1.1%) -       13 total (0.00%)
+   Hashbang                          6 files (  0.9%) -        6 total (0.00%)
+   ForInStatement                    6 files (  0.9%) -        9 total (0.00%)
+   TSEnumDeclaration                 6 files (  0.9%) -        8 total (0.00%)
+   TSEnumBody                        6 files (  0.9%) -        8 total (0.00%)
+   TSEnumMember                      6 files (  0.9%) -       33 total (0.01%)
+   TSSymbolKeyword                   4 files (  0.6%) -        4 total (0.00%)
+   TSRestType                        3 files (  0.5%) -        7 total (0.00%)
+   PrivateIdentifier                 2 files (  0.3%) -        7 total (0.00%)
+   TSNamedTupleMember                2 files (  0.3%) -        8 total (0.00%)
+   TSImportType                      2 files (  0.3%) -        3 total (0.00%)
+   TSBigIntKeyword                   2 files (  0.3%) -        2 total (0.00%)
+   ExportAllDeclaration              1 files (  0.2%) -        2 total (0.00%)
+   DoWhileStatement                  1 files (  0.2%) -        1 total (0.00%)
+   TSClassImplements                 1 files (  0.2%) -        1 total (0.00%)
+   TSParameterProperty               1 files (  0.2%) -        2 total (0.00%)
+   ClassExpression                   1 files (  0.2%) -        1 total (0.00%)
+
+📝 ALL NODE TYPES (BY TOTAL COUNT):
+   Identifier                      170,942 (32.48%) in 608 files (96.1%)
+   CallExpression                   46,152 (8.77%) in 512 files (80.9%)
+   MemberExpression                 44,893 (8.53%) in 480 files (75.8%)
+   Literal                          41,256 (7.84%) in 599 files (94.6%)
+   Property                         22,304 (4.24%) in 453 files (71.6%)
+   ExpressionStatement              22,274 (4.23%) in 407 files (64.3%)
+   JSXIdentifier                    13,971 (2.65%) in 182 files (28.8%)
+   VariableDeclarator               10,621 (2.02%) in 413 files (65.2%)
+   VariableDeclaration              10,618 (2.02%) in 413 files (65.2%)
+   ObjectExpression                 10,400 (1.98%) in 435 files (68.7%)
+   BlockStatement                   10,120 (1.92%) in 459 files (72.5%)
+   AwaitExpression                   7,597 (1.44%) in 234 files (37.0%)
+   ArrowFunctionExpression           7,445 (1.41%) in 368 files (58.1%)
+   JSXText                           6,822 (1.30%) in 169 files (26.7%)
+   TSTypeAnnotation                  6,607 (1.26%) in 397 files (62.7%)
+   JSXElement                        5,836 (1.11%) in 182 files (28.8%)
+   JSXOpeningElement                 5,836 (1.11%) in 182 files (28.8%)
+   Unknown                           5,757 (1.09%) in 260 files (41.1%)
+   TSTypeReference                   5,650 (1.07%) in 396 files (62.6%)
+   TemplateElement                   5,059 (0.96%) in 246 files (38.9%)
+   JSXAttribute                      4,512 (0.86%) in 141 files (22.3%)
+   ArrayExpression                   3,636 (0.69%) in 319 files (50.4%)
+   JSXClosingElement                 3,379 (0.64%) in 175 files (27.6%)
+   TemplateLiteral                   3,268 (0.62%) in 246 files (38.9%)
+   JSXExpressionContainer            2,997 (0.57%) in 148 files (23.4%)
+   ReturnStatement                   2,996 (0.57%) in 328 files (51.8%)
+   ImportSpecifier                   2,983 (0.57%) in 505 files (79.8%)
+   AssignmentExpression              2,513 (0.48%) in 277 files (43.8%)
+   BinaryExpression                  2,165 (0.41%) in 209 files (33.0%)
+   TSPropertySignature               2,014 (0.38%) in 158 files (25.0%)
+   ImportDeclaration                 2,011 (0.38%) in 527 files (83.3%)
+   IfStatement                       1,939 (0.37%) in 183 files (28.9%)
+   TSStringKeyword                   1,908 (0.36%) in 217 files (34.3%)
+   NewExpression                     1,890 (0.36%) in 227 files (35.9%)
+   ObjectPattern                     1,752 (0.33%) in 230 files (36.3%)
+   FunctionDeclaration               1,549 (0.29%) in 332 files (52.4%)
+   TSTypeParameterInstantiation      1,403 (0.27%) in 169 files (26.7%)
+   LogicalExpression                 1,325 (0.25%) in 154 files (24.3%)
+   ParenthesizedExpression           1,306 (0.25%) in 220 files (34.8%)
+   TaggedTemplateExpression          1,018 (0.19%) in 77 files (12.2%)
+   UnaryExpression                   1,012 (0.19%) in 155 files (24.5%)
+   ExportNamedDeclaration              979 (0.19%) in 217 files (34.3%)
+   SpreadElement                       808 (0.15%) in 110 files (17.4%)
+   ChainExpression                     775 (0.15%) in 90 files (14.2%)
+   FunctionExpression                  744 (0.14%) in 92 files (14.5%)
+   TSUnionType                         744 (0.14%) in 120 files (19.0%)
+   TSLiteralType                       738 (0.14%) in 90 files (14.2%)
+   ConditionalExpression               689 (0.13%) in 157 files (24.8%)
+   TSAsExpression                      635 (0.12%) in 106 files (16.7%)
+   Program                             633 (0.12%) in 633 files (100.0%)
+   ThisExpression                      607 (0.12%) in 18 files (2.8%)
+   TSQualifiedName                     597 (0.11%) in 123 files (19.4%)
+   TSArrayType                         595 (0.11%) in 130 files (20.5%)
+   TSTypeLiteral                       569 (0.11%) in 137 files (21.6%)
+   TSBooleanKeyword                    417 (0.08%) in 81 files (12.8%)
+   ThrowStatement                      369 (0.07%) in 84 files (13.3%)
+   ImportDefaultSpecifier              348 (0.07%) in 171 files (27.0%)
+   TSTypeAliasDeclaration              343 (0.07%) in 78 files (12.3%)
+   ExportSpecifier                     330 (0.06%) in 29 files (4.6%)
+   TSUndefinedKeyword                  324 (0.06%) in 78 files (12.3%)
+   TSIndexedAccessType                 316 (0.06%) in 55 files (8.7%)
+   TSAnyKeyword                        311 (0.06%) in 82 files (13.0%)
+   JSXFragment                         295 (0.06%) in 47 files (7.4%)
+   JSXOpeningFragment                  295 (0.06%) in 47 files (7.4%)
+   JSXClosingFragment                  295 (0.06%) in 47 files (7.4%)
+   TSFunctionType                      284 (0.05%) in 79 files (12.5%)
+   TSTypeParameter                     278 (0.05%) in 55 files (8.7%)
+   TSUnknownKeyword                    258 (0.05%) in 81 files (12.8%)
+   TSNonNullExpression                 253 (0.05%) in 51 files (8.1%)
+   TSNumberKeyword                     247 (0.05%) in 86 files (13.6%)
+   JSXMemberExpression                 244 (0.05%) in 45 files (7.1%)
+   ImportNamespaceSpecifier            243 (0.05%) in 161 files (25.4%)
+   ArrayPattern                        234 (0.04%) in 48 files (7.6%)
+   TSVoidKeyword                       221 (0.04%) in 70 files (11.1%)
+   TSNullKeyword                       218 (0.04%) in 56 files (8.8%)
+   TSInterfaceDeclaration              217 (0.04%) in 72 files (11.4%)
+   TSInterfaceBody                     217 (0.04%) in 72 files (11.4%)
+   AssignmentPattern                   215 (0.04%) in 66 files (10.4%)
+   TSTypeParameterDeclaration          208 (0.04%) in 53 files (8.4%)
+   ExportDefaultDeclaration            196 (0.04%) in 190 files (30.0%)
+   ForOfStatement                      167 (0.03%) in 59 files (9.3%)
+   TryStatement                        161 (0.03%) in 59 files (9.3%)
+   CatchClause                         154 (0.03%) in 54 files (8.5%)
+   TSTypeQuery                         134 (0.03%) in 48 files (7.6%)
+   MethodDefinition                    123 (0.02%) in 17 files (2.7%)
+   TSConditionalType                    97 (0.02%) in 22 files (3.5%)
+   UpdateExpression                     85 (0.02%) in 32 files (5.1%)
+   PropertyDefinition                   85 (0.02%) in 12 files (1.9%)
+   TSIntersectionType                   83 (0.02%) in 33 files (5.2%)
+   RestElement                          71 (0.01%) in 37 files (5.8%)
+   TSTypeOperator                       67 (0.01%) in 19 files (3.0%)
+   TSMethodSignature                    66 (0.01%) in 17 files (2.7%)
+   TSParenthesizedType                  60 (0.01%) in 26 files (4.1%)
+   TSTupleType                          58 (0.01%) in 26 files (4.1%)
+   TSInterfaceHeritage                  58 (0.01%) in 25 files (3.9%)
+   ContinueStatement                    56 (0.01%) in 19 files (3.0%)
+   TSTypePredicate                      54 (0.01%) in 23 files (3.6%)
+   SwitchCase                           47 (0.01%) in 8 files (1.3%)
+   BreakStatement                       41 (0.01%) in 13 files (2.1%)
+   TSSatisfiesExpression                39 (0.01%) in 34 files (5.4%)
+   TSNeverKeyword                       38 (0.01%) in 11 files (1.7%)
+   ImportExpression                     37 (0.01%) in 23 files (3.6%)
+   JSXEmptyExpression                   36 (0.01%) in 15 files (2.4%)
+   TSEnumMember                         33 (0.01%) in 6 files (0.9%)
+   TSInferType                          31 (0.01%) in 8 files (1.3%)
+   WhileStatement                       28 (0.01%) in 20 files (3.2%)
+   TSIndexSignature                     28 (0.01%) in 20 files (3.2%)
+   ClassBody                            24 (0.00%) in 19 files (3.0%)
+   TSCallSignatureDeclaration           24 (0.00%) in 9 files (1.4%)
+   ClassDeclaration                     23 (0.00%) in 18 files (2.8%)
+   JSXSpreadAttribute                   23 (0.00%) in 8 files (1.3%)
+   MetaProperty                         22 (0.00%) in 15 files (2.4%)
+   TSMappedType                         22 (0.00%) in 11 files (1.7%)
+   TSDeclareFunction                    21 (0.00%) in 8 files (1.3%)
+   TSModuleDeclaration                  20 (0.00%) in 14 files (2.2%)
+   TSModuleBlock                        20 (0.00%) in 14 files (2.2%)
+   ForStatement                         18 (0.00%) in 10 files (1.6%)
+   Super                                14 (0.00%) in 10 files (1.6%)
+   TSTemplateLiteralType                13 (0.00%) in 7 files (1.1%)
+   ForInStatement                        9 (0.00%) in 6 files (0.9%)
+   SwitchStatement                       9 (0.00%) in 8 files (1.3%)
+   TSNamedTupleMember                    8 (0.00%) in 2 files (0.3%)
+   TSEnumDeclaration                     8 (0.00%) in 6 files (0.9%)
+   TSEnumBody                            8 (0.00%) in 6 files (0.9%)
+   PrivateIdentifier                     7 (0.00%) in 2 files (0.3%)
+   TSRestType                            7 (0.00%) in 3 files (0.5%)
+   Hashbang                              6 (0.00%) in 6 files (0.9%)
+   TSSymbolKeyword                       4 (0.00%) in 4 files (0.6%)
+   TSImportType                          3 (0.00%) in 2 files (0.3%)
+   ExportAllDeclaration                  2 (0.00%) in 1 files (0.2%)
+   TSBigIntKeyword                       2 (0.00%) in 2 files (0.3%)
+   TSParameterProperty                   2 (0.00%) in 1 files (0.2%)
+   DoWhileStatement                      1 (0.00%) in 1 files (0.2%)
+   TSClassImplements                     1 (0.00%) in 1 files (0.2%)
+   ClassExpression                       1 (0.00%) in 1 files (0.2%)
+
+📁 FILE EXAMPLES BY NODE TYPE:
+
+   Identifier:
+     📄 Files WITH Identifier (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+     📄 Files WITHOUT Identifier (showing 10):
+       • integration/helpers/vite-rolldown-template/env.d.ts
+       • integration/helpers/vite-7-beta-template/env.d.ts
+       • integration/helpers/vite-6-template/env.d.ts
+       • integration/helpers/vite-5-template/env.d.ts
+       • examples/view-transitions/src/vite-env.d.ts
+       • examples/ssr-data-router/src/vite-env.d.ts
+       • examples/scroll-restoration/src/vite-env.d.ts
+       • examples/route-objects/src/vite-env.d.ts
+       • examples/notes/src/vite-env.d.ts
+       • examples/navigation-blocking/src/vite-env.d.ts
+
+   CallExpression:
+     📄 Files WITH CallExpression (showing 10):
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+       • jest/transform.js
+       • jest/jest.config.shared.js
+     📄 Files WITHOUT CallExpression (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • integration/playwright.config.ts
+       • tutorials/address-book/react-router.config.ts
+       • playground/vite-plugin-cloudflare/react-router.config.ts
+       • playground/split-route-modules-spa/react-router.config.ts
+       • playground/split-route-modules/react-router.config.ts
+       • playground/middleware/react-router.config.ts
+       • playground/framework-vite-7-beta/react-router.config.ts
+       • playground/framework-vite-5/react-router.config.ts
+
+   MemberExpression:
+     📄 Files WITH MemberExpression (showing 10):
+       • prettier.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+       • jest/transform.js
+     📄 Files WITHOUT MemberExpression (showing 10):
+       • build.utils.ts
+       • tutorials/address-book/vite.config.ts
+       • tutorials/address-book/react-router.config.ts
+       • playground/vite-plugin-cloudflare/vite.config.ts
+       • playground/vite-plugin-cloudflare/react-router.config.ts
+       • playground/split-route-modules-spa/vite.config.ts
+       • playground/split-route-modules-spa/react-router.config.ts
+       • playground/split-route-modules/vite.config.ts
+       • playground/split-route-modules/react-router.config.ts
+       • playground/middleware/vite.config.ts
+
+   Literal:
+     📄 Files WITH Literal (showing 10):
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+       • jest/transform.js
+       • jest/jest.config.shared.js
+     📄 Files WITHOUT Literal (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • packages/react-router-dev/manifest.ts
+       • packages/react-router-dev/vite/virtual-module.ts
+       • packages/react-router-dev/vite/cache.ts
+       • integration/helpers/vite-rolldown-template/env.d.ts
+       • integration/helpers/vite-7-beta-template/env.d.ts
+       • integration/helpers/vite-6-template/env.d.ts
+       • integration/helpers/vite-5-template/env.d.ts
+       • examples/view-transitions/src/vite-env.d.ts
+
+   Property:
+     📄 Files WITH Property (showing 10):
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+       • jest/transform.js
+       • jest/jest.config.shared.js
+       • integration/vite-unused-route-exports-test.ts
+     📄 Files WITHOUT Property (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/find-release-from-changeset.js
+       • playground/framework-vite-5/react-router.config.ts
+       • playground/framework-rolldown-vite/react-router.config.ts
+       • playground/framework-express/react-router.config.ts
+       • packages/react-router-serve/bin.js
+       • packages/react-router-node/server.ts
+       • packages/react-router-node/index.ts
+       • packages/react-router-remix-routes-option-adapter/normalizeSlashes.ts
+
+   ExpressionStatement:
+     📄 Files WITH ExpressionStatement (showing 10):
+       • prettier.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+       • jest/transform.js
+     📄 Files WITHOUT ExpressionStatement (showing 10):
+       • build.utils.ts
+       • tutorials/address-book/vite.config.ts
+       • tutorials/address-book/react-router.config.ts
+       • playground/vite-plugin-cloudflare/vite.config.ts
+       • playground/vite-plugin-cloudflare/react-router.config.ts
+       • playground/split-route-modules-spa/vite.config.ts
+       • playground/split-route-modules-spa/react-router.config.ts
+       • playground/split-route-modules/vite.config.ts
+       • playground/split-route-modules/react-router.config.ts
+       • playground/middleware/vite.config.ts
+
+   JSXIdentifier:
+     📄 Files WITH JSXIdentifier (showing 10):
+       • tutorials/address-book/app/root.tsx
+       • playground/vite-plugin-cloudflare/app/root.tsx
+       • playground/vite-plugin-cloudflare/app/entry.server.tsx
+       • playground/split-route-modules-spa/app/root.tsx
+       • playground/split-route-modules/app/root.tsx
+       • playground/middleware/app/root.tsx
+       • playground/framework-vite-7-beta/app/root.tsx
+       • playground/framework-vite-5/app/root.tsx
+       • playground/framework-spa/app/root.tsx
+       • playground/framework-rolldown-vite/app/root.tsx
+     📄 Files WITHOUT JSXIdentifier (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   VariableDeclarator:
+     📄 Files WITH VariableDeclarator (showing 10):
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+       • jest/transform.js
+       • jest/jest.config.shared.js
+     📄 Files WITHOUT VariableDeclarator (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • docs/prettier.config.js
+       • tutorials/address-book/vite.config.ts
+       • tutorials/address-book/react-router.config.ts
+       • playground/vite-plugin-cloudflare/vite.config.ts
+       • playground/vite-plugin-cloudflare/react-router.config.ts
+       • playground/split-route-modules-spa/vite.config.ts
+       • playground/split-route-modules-spa/react-router.config.ts
+       • playground/split-route-modules/vite.config.ts
+
+   VariableDeclaration:
+     📄 Files WITH VariableDeclaration (showing 10):
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+       • jest/transform.js
+       • jest/jest.config.shared.js
+     📄 Files WITHOUT VariableDeclaration (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • docs/prettier.config.js
+       • tutorials/address-book/vite.config.ts
+       • tutorials/address-book/react-router.config.ts
+       • playground/vite-plugin-cloudflare/vite.config.ts
+       • playground/vite-plugin-cloudflare/react-router.config.ts
+       • playground/split-route-modules-spa/vite.config.ts
+       • playground/split-route-modules-spa/react-router.config.ts
+       • playground/split-route-modules/vite.config.ts
+
+   ObjectExpression:
+     📄 Files WITH ObjectExpression (showing 10):
+       • prettier.config.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+       • jest/transform.js
+       • jest/jest.config.shared.js
+       • integration/vite-unused-route-exports-test.ts
+     📄 Files WITHOUT ObjectExpression (showing 10):
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/find-release-from-changeset.js
+       • packages/react-router-serve/bin.js
+       • packages/react-router-node/stream.ts
+       • packages/react-router-node/server.ts
+       • packages/react-router-node/index.ts
+       • packages/react-router-remix-routes-option-adapter/normalizeSlashes.ts
+       • packages/react-router-remix-routes-option-adapter/index.ts
+       • packages/react-router-fs-routes/normalizeSlashes.ts
+
+   BlockStatement:
+     📄 Files WITH BlockStatement (showing 10):
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/close-no-repro-issues.ts
+       • jest/transform.js
+       • integration/vite-unused-route-exports-test.ts
+     📄 Files WITHOUT BlockStatement (showing 10):
+       • prettier.config.js
+       • scripts/constants.js
+       • jest/jest.config.shared.js
+       • integration/playwright.config.ts
+       • docs/prettier.config.js
+       • tutorials/address-book/vite.config.ts
+       • tutorials/address-book/react-router.config.ts
+       • playground/vite-plugin-cloudflare/vite.config.ts
+       • playground/vite-plugin-cloudflare/react-router.config.ts
+       • playground/split-route-modules-spa/vite.config.ts
+
+   AwaitExpression:
+     📄 Files WITH AwaitExpression (showing 10):
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/close-no-repro-issues.ts
+       • integration/vite-unused-route-exports-test.ts
+       • integration/vite-spa-mode-test.ts
+       • integration/vite-server-fs-allow-test.ts
+       • integration/vite-server-bundles-test.ts
+     📄 Files WITHOUT AwaitExpression (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • jest/transform.js
+       • jest/jest.config.shared.js
+       • integration/playwright.config.ts
+       • docs/prettier.config.js
+       • tutorials/address-book/vite.config.ts
+       • tutorials/address-book/react-router.config.ts
+
+   ArrowFunctionExpression:
+     📄 Files WITH ArrowFunctionExpression (showing 10):
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/close-no-repro-issues.ts
+       • jest/transform.js
+       • integration/vite-unused-route-exports-test.ts
+       • integration/vite-spa-mode-test.ts
+     📄 Files WITHOUT ArrowFunctionExpression (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/constants.js
+       • jest/jest.config.shared.js
+       • integration/playwright.config.ts
+       • docs/prettier.config.js
+       • tutorials/address-book/vite.config.ts
+       • tutorials/address-book/react-router.config.ts
+       • playground/vite-plugin-cloudflare/vite.config.ts
+       • playground/vite-plugin-cloudflare/react-router.config.ts
+
+   JSXText:
+     📄 Files WITH JSXText (showing 10):
+       • tutorials/address-book/app/root.tsx
+       • playground/vite-plugin-cloudflare/app/root.tsx
+       • playground/split-route-modules-spa/app/root.tsx
+       • playground/split-route-modules/app/root.tsx
+       • playground/middleware/app/root.tsx
+       • playground/framework-vite-7-beta/app/root.tsx
+       • playground/framework-vite-5/app/root.tsx
+       • playground/framework-spa/app/root.tsx
+       • playground/framework-rolldown-vite/app/root.tsx
+       • playground/framework-express/app/root.tsx
+     📄 Files WITHOUT JSXText (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSTypeAnnotation:
+     📄 Files WITH TSTypeAnnotation (showing 10):
+       • build.utils.ts
+       • scripts/close-no-repro-issues.ts
+       • integration/vite-spa-mode-test.ts
+       • integration/vite-server-fs-allow-test.ts
+       • integration/vite-server-bundles-test.ts
+       • integration/vite-route-exports-modified-offscreen-test.ts
+       • integration/vite-route-added-test.ts
+       • integration/vite-presets-test.ts
+       • integration/vite-prerender-test.ts
+       • integration/vite-plugin-order-validation-test.ts
+     📄 Files WITHOUT TSTypeAnnotation (showing 10):
+       • prettier.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • jest/transform.js
+       • jest/jest.config.shared.js
+
+   JSXElement:
+     📄 Files WITH JSXElement (showing 10):
+       • tutorials/address-book/app/root.tsx
+       • playground/vite-plugin-cloudflare/app/root.tsx
+       • playground/vite-plugin-cloudflare/app/entry.server.tsx
+       • playground/split-route-modules-spa/app/root.tsx
+       • playground/split-route-modules/app/root.tsx
+       • playground/middleware/app/root.tsx
+       • playground/framework-vite-7-beta/app/root.tsx
+       • playground/framework-vite-5/app/root.tsx
+       • playground/framework-spa/app/root.tsx
+       • playground/framework-rolldown-vite/app/root.tsx
+     📄 Files WITHOUT JSXElement (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   JSXOpeningElement:
+     📄 Files WITH JSXOpeningElement (showing 10):
+       • tutorials/address-book/app/root.tsx
+       • playground/vite-plugin-cloudflare/app/root.tsx
+       • playground/vite-plugin-cloudflare/app/entry.server.tsx
+       • playground/split-route-modules-spa/app/root.tsx
+       • playground/split-route-modules/app/root.tsx
+       • playground/middleware/app/root.tsx
+       • playground/framework-vite-7-beta/app/root.tsx
+       • playground/framework-vite-5/app/root.tsx
+       • playground/framework-spa/app/root.tsx
+       • playground/framework-rolldown-vite/app/root.tsx
+     📄 Files WITHOUT JSXOpeningElement (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   Unknown:
+     📄 Files WITH Unknown (showing 10):
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/close-no-repro-issues.ts
+       • integration/vite-unused-route-exports-test.ts
+       • integration/vite-spa-mode-test.ts
+     📄 Files WITHOUT Unknown (showing 10):
+       • prettier.config.js
+       • scripts/constants.js
+       • jest/transform.js
+       • jest/jest.config.shared.js
+       • docs/prettier.config.js
+       • tutorials/address-book/vite.config.ts
+       • tutorials/address-book/react-router.config.ts
+       • playground/vite-plugin-cloudflare/vite.config.ts
+       • playground/vite-plugin-cloudflare/react-router.config.ts
+       • playground/split-route-modules-spa/vite.config.ts
+
+   TSTypeReference:
+     📄 Files WITH TSTypeReference (showing 10):
+       • integration/vite-spa-mode-test.ts
+       • integration/vite-server-bundles-test.ts
+       • integration/vite-route-exports-modified-offscreen-test.ts
+       • integration/vite-route-added-test.ts
+       • integration/vite-prerender-test.ts
+       • integration/vite-plugin-order-validation-test.ts
+       • integration/vite-plugin-cloudflare-test.ts
+       • integration/vite-loader-context-test.ts
+       • integration/vite-hmr-hdr-test.ts
+       • integration/vite-dot-server-test.ts
+     📄 Files WITHOUT TSTypeReference (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TemplateElement:
+     📄 Files WITH TemplateElement (showing 10):
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/close-no-repro-issues.ts
+       • integration/vite-unused-route-exports-test.ts
+       • integration/vite-spa-mode-test.ts
+       • integration/vite-server-fs-allow-test.ts
+     📄 Files WITHOUT TemplateElement (showing 10):
+       • prettier.config.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/constants.js
+       • jest/transform.js
+       • jest/jest.config.shared.js
+       • docs/prettier.config.js
+       • tutorials/address-book/vite.config.ts
+       • tutorials/address-book/react-router.config.ts
+       • playground/vite-plugin-cloudflare/vite.config.ts
+       • playground/vite-plugin-cloudflare/react-router.config.ts
+
+   JSXAttribute:
+     📄 Files WITH JSXAttribute (showing 10):
+       • tutorials/address-book/app/root.tsx
+       • playground/vite-plugin-cloudflare/app/root.tsx
+       • playground/vite-plugin-cloudflare/app/entry.server.tsx
+       • playground/split-route-modules-spa/app/root.tsx
+       • playground/split-route-modules/app/root.tsx
+       • playground/middleware/app/root.tsx
+       • playground/framework-vite-7-beta/app/root.tsx
+       • playground/framework-vite-5/app/root.tsx
+       • playground/framework-spa/app/root.tsx
+       • playground/framework-rolldown-vite/app/root.tsx
+     📄 Files WITHOUT JSXAttribute (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   ArrayExpression:
+     📄 Files WITH ArrayExpression (showing 10):
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/close-no-repro-issues.ts
+       • jest/transform.js
+       • jest/jest.config.shared.js
+       • integration/vite-spa-mode-test.ts
+       • integration/vite-server-fs-allow-test.ts
+       • integration/vite-server-bundles-test.ts
+       • integration/vite-route-exports-modified-offscreen-test.ts
+     📄 Files WITHOUT ArrayExpression (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • integration/vite-unused-route-exports-test.ts
+       • integration/vite-plugin-order-validation-test.ts
+       • integration/vite-dot-client-test.ts
+       • integration/vite-dev-custom-entry-test.ts
+
+   JSXClosingElement:
+     📄 Files WITH JSXClosingElement (showing 10):
+       • tutorials/address-book/app/root.tsx
+       • playground/vite-plugin-cloudflare/app/root.tsx
+       • playground/split-route-modules-spa/app/root.tsx
+       • playground/split-route-modules/app/root.tsx
+       • playground/middleware/app/root.tsx
+       • playground/framework-vite-7-beta/app/root.tsx
+       • playground/framework-vite-5/app/root.tsx
+       • playground/framework-spa/app/root.tsx
+       • playground/framework-rolldown-vite/app/root.tsx
+       • playground/framework-express/app/root.tsx
+     📄 Files WITHOUT JSXClosingElement (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TemplateLiteral:
+     📄 Files WITH TemplateLiteral (showing 10):
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/close-no-repro-issues.ts
+       • integration/vite-unused-route-exports-test.ts
+       • integration/vite-spa-mode-test.ts
+       • integration/vite-server-fs-allow-test.ts
+     📄 Files WITHOUT TemplateLiteral (showing 10):
+       • prettier.config.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/constants.js
+       • jest/transform.js
+       • jest/jest.config.shared.js
+       • docs/prettier.config.js
+       • tutorials/address-book/vite.config.ts
+       • tutorials/address-book/react-router.config.ts
+       • playground/vite-plugin-cloudflare/vite.config.ts
+       • playground/vite-plugin-cloudflare/react-router.config.ts
+
+   JSXExpressionContainer:
+     📄 Files WITH JSXExpressionContainer (showing 10):
+       • tutorials/address-book/app/root.tsx
+       • playground/vite-plugin-cloudflare/app/entry.server.tsx
+       • playground/split-route-modules-spa/app/root.tsx
+       • playground/split-route-modules/app/root.tsx
+       • playground/middleware/app/root.tsx
+       • playground/framework-vite-7-beta/app/root.tsx
+       • playground/framework-vite-5/app/root.tsx
+       • playground/framework-spa/app/root.tsx
+       • playground/framework-rolldown-vite/app/root.tsx
+       • playground/framework-express/app/root.tsx
+     📄 Files WITHOUT JSXExpressionContainer (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   ReturnStatement:
+     📄 Files WITH ReturnStatement (showing 10):
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/find-release-from-changeset.js
+       • scripts/close-no-repro-issues.ts
+       • integration/vite-server-bundles-test.ts
+       • integration/vite-route-exports-modified-offscreen-test.ts
+       • integration/vite-route-added-test.ts
+     📄 Files WITHOUT ReturnStatement (showing 10):
+       • prettier.config.js
+       • scripts/playground.js
+       • scripts/constants.js
+       • jest/transform.js
+       • jest/jest.config.shared.js
+       • integration/vite-unused-route-exports-test.ts
+       • integration/vite-spa-mode-test.ts
+       • integration/vite-server-fs-allow-test.ts
+       • integration/vite-plugin-order-validation-test.ts
+       • integration/vite-node-env-test.ts
+
+   ImportSpecifier:
+     📄 Files WITH ImportSpecifier (showing 10):
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/close-no-repro-issues.ts
+       • integration/vite-unused-route-exports-test.ts
+       • integration/vite-spa-mode-test.ts
+       • integration/vite-server-fs-allow-test.ts
+       • integration/vite-server-bundles-test.ts
+       • integration/vite-route-exports-modified-offscreen-test.ts
+       • integration/vite-route-added-test.ts
+       • integration/vite-presets-test.ts
+       • integration/vite-prerender-test.ts
+     📄 Files WITHOUT ImportSpecifier (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • jest/transform.js
+       • jest/jest.config.shared.js
+
+   AssignmentExpression:
+     📄 Files WITH AssignmentExpression (showing 10):
+       • prettier.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/constants.js
+       • jest/transform.js
+       • jest/jest.config.shared.js
+       • integration/vite-spa-mode-test.ts
+       • integration/vite-server-fs-allow-test.ts
+     📄 Files WITHOUT AssignmentExpression (showing 10):
+       • build.utils.ts
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/close-no-repro-issues.ts
+       • integration/vite-unused-route-exports-test.ts
+       • integration/vite-plugin-cloudflare-test.ts
+       • integration/vite-dot-server-test.ts
+       • integration/vite-dot-client-test.ts
+       • integration/vite-dev-custom-entry-test.ts
+       • integration/vite-cloudflare-test.ts
+
+   BinaryExpression:
+     📄 Files WITH BinaryExpression (showing 10):
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/find-release-from-changeset.js
+       • scripts/close-no-repro-issues.ts
+       • integration/vite-spa-mode-test.ts
+       • integration/vite-route-exports-modified-offscreen-test.ts
+       • integration/vite-route-added-test.ts
+       • integration/vite-prerender-test.ts
+     📄 Files WITHOUT BinaryExpression (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/playground.js
+       • scripts/constants.js
+       • jest/transform.js
+       • jest/jest.config.shared.js
+       • integration/vite-unused-route-exports-test.ts
+       • integration/vite-server-fs-allow-test.ts
+       • integration/vite-server-bundles-test.ts
+       • integration/vite-presets-test.ts
+
+   TSPropertySignature:
+     📄 Files WITH TSPropertySignature (showing 10):
+       • scripts/close-no-repro-issues.ts
+       • integration/vite-plugin-cloudflare-test.ts
+       • integration/vite-hmr-hdr-test.ts
+       • integration/vite-dotenv-test.ts
+       • integration/vite-css-test.ts
+       • integration/vite-cloudflare-test.ts
+       • integration/vite-basename-test.ts
+       • integration/prefetch-test.ts
+       • integration/defer-test.ts
+       • integration/client-data-test.ts
+     📄 Files WITHOUT TSPropertySignature (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • jest/transform.js
+
+   ImportDeclaration:
+     📄 Files WITH ImportDeclaration (showing 10):
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/close-no-repro-issues.ts
+       • integration/vite-unused-route-exports-test.ts
+       • integration/vite-spa-mode-test.ts
+       • integration/vite-server-fs-allow-test.ts
+       • integration/vite-server-bundles-test.ts
+       • integration/vite-route-exports-modified-offscreen-test.ts
+       • integration/vite-route-added-test.ts
+       • integration/vite-presets-test.ts
+       • integration/vite-prerender-test.ts
+     📄 Files WITHOUT ImportDeclaration (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • jest/transform.js
+       • jest/jest.config.shared.js
+
+   IfStatement:
+     📄 Files WITH IfStatement (showing 10):
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/close-no-repro-issues.ts
+       • integration/vite-server-bundles-test.ts
+       • integration/vite-route-exports-modified-offscreen-test.ts
+       • integration/vite-prerender-test.ts
+     📄 Files WITHOUT IfStatement (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/constants.js
+       • jest/transform.js
+       • jest/jest.config.shared.js
+       • integration/vite-unused-route-exports-test.ts
+       • integration/vite-spa-mode-test.ts
+       • integration/vite-server-fs-allow-test.ts
+       • integration/vite-route-added-test.ts
+       • integration/vite-presets-test.ts
+
+   TSStringKeyword:
+     📄 Files WITH TSStringKeyword (showing 10):
+       • build.utils.ts
+       • scripts/close-no-repro-issues.ts
+       • integration/vite-spa-mode-test.ts
+       • integration/vite-server-fs-allow-test.ts
+       • integration/vite-server-bundles-test.ts
+       • integration/vite-route-exports-modified-offscreen-test.ts
+       • integration/vite-route-added-test.ts
+       • integration/vite-presets-test.ts
+       • integration/vite-prerender-test.ts
+       • integration/vite-plugin-order-validation-test.ts
+     📄 Files WITHOUT TSStringKeyword (showing 10):
+       • prettier.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • jest/transform.js
+       • jest/jest.config.shared.js
+
+   NewExpression:
+     📄 Files WITH NewExpression (showing 10):
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/close-no-repro-issues.ts
+       • integration/vite-spa-mode-test.ts
+       • integration/vite-route-exports-modified-offscreen-test.ts
+       • integration/vite-prerender-test.ts
+       • integration/vite-dev-test.ts
+     📄 Files WITHOUT NewExpression (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/constants.js
+       • jest/transform.js
+       • jest/jest.config.shared.js
+       • integration/vite-unused-route-exports-test.ts
+       • integration/vite-server-fs-allow-test.ts
+       • integration/vite-server-bundles-test.ts
+       • integration/vite-route-added-test.ts
+
+   ObjectPattern:
+     📄 Files WITH ObjectPattern (showing 10):
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/close-no-repro-issues.ts
+       • jest/transform.js
+       • integration/vite-unused-route-exports-test.ts
+       • integration/vite-spa-mode-test.ts
+       • integration/vite-server-fs-allow-test.ts
+       • integration/vite-server-bundles-test.ts
+     📄 Files WITHOUT ObjectPattern (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • jest/jest.config.shared.js
+       • integration/vite-plugin-order-validation-test.ts
+       • integration/vite-manifests-test.ts
+       • integration/typegen-test.ts
+       • integration/splat-routes-test.ts
+
+   FunctionDeclaration:
+     📄 Files WITH FunctionDeclaration (showing 10):
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/close-no-repro-issues.ts
+       • integration/vite-server-bundles-test.ts
+       • integration/vite-presets-test.ts
+     📄 Files WITHOUT FunctionDeclaration (showing 10):
+       • prettier.config.js
+       • scripts/constants.js
+       • jest/transform.js
+       • jest/jest.config.shared.js
+       • integration/vite-unused-route-exports-test.ts
+       • integration/vite-spa-mode-test.ts
+       • integration/vite-server-fs-allow-test.ts
+       • integration/vite-route-exports-modified-offscreen-test.ts
+       • integration/vite-route-added-test.ts
+       • integration/vite-plugin-order-validation-test.ts
+
+   TSTypeParameterInstantiation:
+     📄 Files WITH TSTypeParameterInstantiation (showing 10):
+       • scripts/close-no-repro-issues.ts
+       • integration/vite-server-bundles-test.ts
+       • integration/vite-prerender-test.ts
+       • integration/vite-plugin-order-validation-test.ts
+       • integration/vite-dot-server-test.ts
+       • integration/vite-basename-test.ts
+       • integration/transition-test.ts
+       • integration/split-route-modules-test.ts
+       • integration/single-fetch-test.ts
+       • integration/route-collisions-test.ts
+     📄 Files WITHOUT TSTypeParameterInstantiation (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • jest/transform.js
+
+   LogicalExpression:
+     📄 Files WITH LogicalExpression (showing 10):
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/find-release-from-changeset.js
+       • scripts/close-no-repro-issues.ts
+       • integration/vite-prerender-test.ts
+       • integration/vite-css-test.ts
+       • integration/vite-build-test.ts
+       • integration/vite-basename-test.ts
+       • integration/single-fetch-test.ts
+     📄 Files WITHOUT LogicalExpression (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/playground.js
+       • scripts/constants.js
+       • jest/transform.js
+       • jest/jest.config.shared.js
+       • integration/vite-unused-route-exports-test.ts
+       • integration/vite-spa-mode-test.ts
+       • integration/vite-server-fs-allow-test.ts
+
+   ParenthesizedExpression:
+     📄 Files WITH ParenthesizedExpression (showing 10):
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/playground.js
+       • scripts/close-no-repro-issues.ts
+       • jest/transform.js
+       • integration/vite-spa-mode-test.ts
+       • integration/vite-prerender-test.ts
+       • integration/vite-plugin-cloudflare-test.ts
+       • integration/vite-hmr-hdr-test.ts
+       • integration/vite-dot-server-test.ts
+     📄 Files WITHOUT ParenthesizedExpression (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/publish.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • jest/jest.config.shared.js
+       • integration/vite-unused-route-exports-test.ts
+       • integration/vite-server-fs-allow-test.ts
+       • integration/vite-server-bundles-test.ts
+
+   TaggedTemplateExpression:
+     📄 Files WITH TaggedTemplateExpression (showing 10):
+       • scripts/playground.js
+       • integration/vite-unused-route-exports-test.ts
+       • integration/vite-spa-mode-test.ts
+       • integration/vite-server-fs-allow-test.ts
+       • integration/vite-server-bundles-test.ts
+       • integration/vite-route-exports-modified-offscreen-test.ts
+       • integration/vite-route-added-test.ts
+       • integration/vite-presets-test.ts
+       • integration/vite-prerender-test.ts
+       • integration/vite-plugin-order-validation-test.ts
+     📄 Files WITHOUT TaggedTemplateExpression (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+       • jest/transform.js
+
+   UnaryExpression:
+     📄 Files WITH UnaryExpression (showing 10):
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/find-release-from-changeset.js
+       • scripts/close-no-repro-issues.ts
+       • integration/vite-prerender-test.ts
+       • integration/vite-hmr-hdr-test.ts
+       • integration/vite-basename-test.ts
+       • integration/playwright.config.ts
+     📄 Files WITHOUT UnaryExpression (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/playground.js
+       • scripts/constants.js
+       • jest/transform.js
+       • jest/jest.config.shared.js
+       • integration/vite-unused-route-exports-test.ts
+       • integration/vite-spa-mode-test.ts
+       • integration/vite-server-fs-allow-test.ts
+       • integration/vite-server-bundles-test.ts
+
+   ExportNamedDeclaration:
+     📄 Files WITH ExportNamedDeclaration (showing 10):
+       • build.utils.ts
+       • playground/middleware/server.ts
+       • packages/react-router-node/stream.ts
+       • packages/react-router-node/server.ts
+       • packages/react-router-node/index.ts
+       • packages/react-router-remix-routes-option-adapter/normalizeSlashes.ts
+       • packages/react-router-remix-routes-option-adapter/manifest.ts
+       • packages/react-router-remix-routes-option-adapter/index.ts
+       • packages/react-router-remix-routes-option-adapter/defineRoutes.ts
+       • packages/react-router-fs-routes/normalizeSlashes.ts
+     📄 Files WITHOUT ExportNamedDeclaration (showing 10):
+       • prettier.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+       • jest/transform.js
+
+   SpreadElement:
+     📄 Files WITH SpreadElement (showing 10):
+       • jest/jest.config.shared.js
+       • integration/vite-server-fs-allow-test.ts
+       • integration/vite-server-bundles-test.ts
+       • integration/vite-route-exports-modified-offscreen-test.ts
+       • integration/vite-route-added-test.ts
+       • integration/vite-prerender-test.ts
+       • integration/vite-node-env-test.ts
+       • integration/vite-manifests-test.ts
+       • integration/vite-dot-client-test.ts
+       • integration/vite-css-test.ts
+     📄 Files WITHOUT SpreadElement (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   ChainExpression:
+     📄 Files WITH ChainExpression (showing 10):
+       • integration/vite-spa-mode-test.ts
+       • integration/vite-server-bundles-test.ts
+       • integration/vite-prerender-test.ts
+       • integration/vite-basename-test.ts
+       • integration/single-fetch-test.ts
+       • integration/route-config-test.ts
+       • integration/prefetch-test.ts
+       • integration/middleware-test.ts
+       • integration/fog-of-war-test.ts
+       • packages/react-router-serve/cli.ts
+     📄 Files WITHOUT ChainExpression (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   FunctionExpression:
+     📄 Files WITH FunctionExpression (showing 10):
+       • integration/transition-test.ts
+       • playground/middleware/server.ts
+       • packages/react-router-serve/cli.ts
+       • packages/react-router-node/stream.ts
+       • packages/react-router-fs-routes/flatRoutes.ts
+       • packages/react-router-dev/tsup.config.ts
+       • packages/create-react-router/prompts-text.ts
+       • packages/create-react-router/prompts-select.ts
+       • packages/create-react-router/prompts-prompt-base.ts
+       • packages/create-react-router/prompts-multi-select.ts
+     📄 Files WITHOUT FunctionExpression (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSUnionType:
+     📄 Files WITH TSUnionType (showing 10):
+       • integration/single-fetch-test.ts
+       • integration/route-config-test.ts
+       • integration/prefetch-test.ts
+       • integration/middleware-test.ts
+       • packages/react-router-node/stream.ts
+       • packages/react-router-node/server.ts
+       • packages/react-router-remix-routes-option-adapter/index.ts
+       • packages/react-router-remix-routes-option-adapter/defineRoutes.ts
+       • packages/react-router-fs-routes/flatRoutes.ts
+       • packages/react-router-express/server.ts
+     📄 Files WITHOUT TSUnionType (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSLiteralType:
+     📄 Files WITH TSLiteralType (showing 10):
+       • integration/vite-hmr-hdr-test.ts
+       • integration/prefetch-test.ts
+       • integration/middleware-test.ts
+       • integration/cli-test.ts
+       • packages/react-router-node/server.ts
+       • packages/react-router-remix-routes-option-adapter/manifest.ts
+       • packages/react-router-fs-routes/manifest.ts
+       • packages/react-router-fs-routes/flatRoutes.ts
+       • packages/react-router-express/server.ts
+       • packages/react-router-cloudflare/worker.ts
+     📄 Files WITHOUT TSLiteralType (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   ConditionalExpression:
+     📄 Files WITH ConditionalExpression (showing 10):
+       • scripts/publish.js
+       • integration/vite-server-bundles-test.ts
+       • integration/vite-plugin-cloudflare-test.ts
+       • integration/vite-dotenv-test.ts
+       • integration/vite-dev-test.ts
+       • integration/vite-css-test.ts
+       • integration/vite-build-test.ts
+       • integration/vite-basename-test.ts
+       • integration/playwright.config.ts
+       • integration/form-test.ts
+     📄 Files WITHOUT ConditionalExpression (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+       • jest/transform.js
+
+   TSAsExpression:
+     📄 Files WITH TSAsExpression (showing 10):
+       • scripts/close-no-repro-issues.ts
+       • integration/vite-prerender-test.ts
+       • integration/transition-test.ts
+       • integration/split-route-modules-test.ts
+       • integration/navigation-state-test.ts
+       • integration/middleware-test.ts
+       • integration/fog-of-war-test.ts
+       • integration/error-sanitization-test.ts
+       • integration/error-data-request-test.ts
+       • integration/error-boundary-test.ts
+     📄 Files WITHOUT TSAsExpression (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • jest/transform.js
+
+   Program:
+     📄 Files WITH Program (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+     📄 Files WITHOUT Program: (all files contain this node type)
+
+   ThisExpression:
+     📄 Files WITH ThisExpression (showing 10):
+       • packages/react-router-node/stream.ts
+       • packages/react-router-fs-routes/flatRoutes.ts
+       • packages/create-react-router/prompts-text.ts
+       • packages/create-react-router/prompts-select.ts
+       • packages/create-react-router/prompts-prompt-base.ts
+       • packages/create-react-router/prompts-multi-select.ts
+       • packages/create-react-router/prompts-confirm.ts
+       • packages/create-react-router/copy-template.ts
+       • integration/helpers/playwright-fixture.ts
+       • packages/react-router-dev/vite/plugin.ts
+     📄 Files WITHOUT ThisExpression (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSQualifiedName:
+     📄 Files WITH TSQualifiedName (showing 10):
+       • integration/single-fetch-test.ts
+       • integration/resource-routes-test.ts
+       • integration/fs-routes-test.ts
+       • integration/fog-of-war-test.ts
+       • integration/defer-test.ts
+       • integration/catch-boundary-test.ts
+       • packages/react-router-express/server.ts
+       • packages/create-react-router/utils.ts
+       • packages/create-react-router/prompts-select.ts
+       • packages/create-react-router/prompts-prompt-base.ts
+     📄 Files WITHOUT TSQualifiedName (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSArrayType:
+     📄 Files WITH TSArrayType (showing 10):
+       • scripts/close-no-repro-issues.ts
+       • integration/vite-spa-mode-test.ts
+       • integration/vite-server-fs-allow-test.ts
+       • integration/vite-server-bundles-test.ts
+       • integration/vite-route-exports-modified-offscreen-test.ts
+       • integration/vite-route-added-test.ts
+       • integration/vite-prerender-test.ts
+       • integration/vite-node-env-test.ts
+       • integration/vite-loader-context-test.ts
+       • integration/vite-dotenv-test.ts
+     📄 Files WITHOUT TSArrayType (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • jest/transform.js
+
+   TSTypeLiteral:
+     📄 Files WITH TSTypeLiteral (showing 10):
+       • scripts/close-no-repro-issues.ts
+       • integration/vite-plugin-cloudflare-test.ts
+       • integration/vite-hmr-hdr-test.ts
+       • integration/vite-dotenv-test.ts
+       • integration/vite-css-test.ts
+       • integration/vite-cloudflare-test.ts
+       • integration/vite-basename-test.ts
+       • integration/prefetch-test.ts
+       • integration/defer-test.ts
+       • integration/client-data-test.ts
+     📄 Files WITHOUT TSTypeLiteral (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • jest/transform.js
+
+   TSBooleanKeyword:
+     📄 Files WITH TSBooleanKeyword (showing 10):
+       • integration/vite-plugin-cloudflare-test.ts
+       • integration/vite-cloudflare-test.ts
+       • integration/vite-basename-test.ts
+       • integration/client-data-test.ts
+       • packages/react-router-node/stream.ts
+       • packages/react-router-remix-routes-option-adapter/manifest.ts
+       • packages/react-router-remix-routes-option-adapter/defineRoutes.ts
+       • packages/react-router-fs-routes/manifest.ts
+       • packages/react-router-fs-routes/flatRoutes.ts
+       • packages/react-router-dev/manifest.ts
+     📄 Files WITHOUT TSBooleanKeyword (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   ThrowStatement:
+     📄 Files WITH ThrowStatement (showing 10):
+       • scripts/utils.js
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • integration/defer-test.ts
+       • packages/react-router-node/stream.ts
+       • packages/react-router-remix-routes-option-adapter/defineRoutes.ts
+       • packages/react-router-fs-routes/flatRoutes.ts
+       • packages/react-router-dev/invariant.ts
+       • packages/create-react-router/prompts-select.ts
+     📄 Files WITHOUT ThrowStatement (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+       • jest/transform.js
+       • jest/jest.config.shared.js
+       • integration/vite-unused-route-exports-test.ts
+       • integration/vite-spa-mode-test.ts
+
+   ImportDefaultSpecifier:
+     📄 Files WITH ImportDefaultSpecifier (showing 10):
+       • scripts/remove-prerelease-changelogs.mjs
+       • integration/vite-spa-mode-test.ts
+       • integration/vite-server-fs-allow-test.ts
+       • integration/vite-server-bundles-test.ts
+       • integration/vite-route-exports-modified-offscreen-test.ts
+       • integration/vite-route-added-test.ts
+       • integration/vite-presets-test.ts
+       • integration/vite-prerender-test.ts
+       • integration/vite-plugin-order-validation-test.ts
+       • integration/vite-plugin-cloudflare-test.ts
+     📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+       • jest/transform.js
+
+   TSTypeAliasDeclaration:
+     📄 Files WITH TSTypeAliasDeclaration (showing 10):
+       • integration/prefetch-test.ts
+       • packages/react-router-node/server.ts
+       • packages/react-router-remix-routes-option-adapter/defineRoutes.ts
+       • packages/react-router-fs-routes/flatRoutes.ts
+       • packages/react-router-express/server.ts
+       • packages/react-router-dev/manifest.ts
+       • packages/react-router-cloudflare/worker.ts
+       • packages/react-router-architect/server.ts
+       • packages/create-react-router/prompts-confirm.ts
+       • packages/create-react-router/prompt.ts
+     📄 Files WITHOUT TSTypeAliasDeclaration (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   ExportSpecifier:
+     📄 Files WITH ExportSpecifier (showing 10):
+       • packages/react-router-node/index.ts
+       • packages/react-router-remix-routes-option-adapter/index.ts
+       • packages/react-router-express/index.ts
+       • packages/react-router-dom/index.ts
+       • packages/react-router-dev/vite.ts
+       • packages/react-router-dev/routes.ts
+       • packages/react-router-dev/config.ts
+       • packages/react-router-cloudflare/index.ts
+       • packages/react-router-architect/index.ts
+       • packages/react-router/index.ts
+     📄 Files WITHOUT ExportSpecifier (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSUndefinedKeyword:
+     📄 Files WITH TSUndefinedKeyword (showing 10):
+       • integration/route-config-test.ts
+       • integration/middleware-test.ts
+       • packages/react-router-remix-routes-option-adapter/defineRoutes.ts
+       • packages/react-router-fs-routes/flatRoutes.ts
+       • packages/react-router-dev/manifest.ts
+       • packages/react-router-dev/invariant.ts
+       • packages/react-router-cloudflare/worker.ts
+       • packages/react-router-architect/server.ts
+       • packages/react-router-architect/binaryTypes.ts
+       • packages/create-react-router/prompts-text.ts
+     📄 Files WITHOUT TSUndefinedKeyword (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSIndexedAccessType:
+     📄 Files WITH TSIndexedAccessType (showing 10):
+       • integration/vite-hmr-hdr-test.ts
+       • integration/middleware-test.ts
+       • integration/cli-test.ts
+       • packages/react-router-express/server.ts
+       • packages/react-router-cloudflare/worker.ts
+       • packages/create-react-router/prompts-select.ts
+       • packages/create-react-router/prompts-multi-select.ts
+       • packages/create-react-router/prompt.ts
+       • integration/helpers/vite.ts
+       • packages/react-router-node/sessions/fileStorage.ts
+     📄 Files WITHOUT TSIndexedAccessType (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSAnyKeyword:
+     📄 Files WITH TSAnyKeyword (showing 10):
+       • integration/vite-presets-test.ts
+       • integration/vite-prerender-test.ts
+       • integration/split-route-modules-test.ts
+       • integration/route-config-test.ts
+       • integration/fog-of-war-test.ts
+       • integration/error-sanitization-test.ts
+       • integration/error-data-request-test.ts
+       • integration/error-boundary-test.ts
+       • integration/defer-test.ts
+       • packages/react-router-node/stream.ts
+     📄 Files WITHOUT TSAnyKeyword (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   JSXFragment:
+     📄 Files WITH JSXFragment (showing 10):
+       • tutorials/address-book/app/root.tsx
+       • packages/react-router/lib/hooks.tsx
+       • packages/react-router/lib/components.tsx
+       • packages/react-router/__tests__/useResolvedPath-test.tsx
+       • packages/react-router/__tests__/useNavigate-test.tsx
+       • packages/react-router/__tests__/use-revalidator-test.tsx
+       • packages/react-router/__tests__/navigate-test.tsx
+       • packages/react-router/__tests__/gh-issue-8165-test.tsx
+       • packages/react-router/__tests__/data-memory-router-test.tsx
+       • packages/react-router/__tests__/createRoutesFromChildren-test.tsx
+     📄 Files WITHOUT JSXFragment (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   JSXOpeningFragment:
+     📄 Files WITH JSXOpeningFragment (showing 10):
+       • tutorials/address-book/app/root.tsx
+       • packages/react-router/lib/hooks.tsx
+       • packages/react-router/lib/components.tsx
+       • packages/react-router/__tests__/useResolvedPath-test.tsx
+       • packages/react-router/__tests__/useNavigate-test.tsx
+       • packages/react-router/__tests__/use-revalidator-test.tsx
+       • packages/react-router/__tests__/navigate-test.tsx
+       • packages/react-router/__tests__/gh-issue-8165-test.tsx
+       • packages/react-router/__tests__/data-memory-router-test.tsx
+       • packages/react-router/__tests__/createRoutesFromChildren-test.tsx
+     📄 Files WITHOUT JSXOpeningFragment (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   JSXClosingFragment:
+     📄 Files WITH JSXClosingFragment (showing 10):
+       • tutorials/address-book/app/root.tsx
+       • packages/react-router/lib/hooks.tsx
+       • packages/react-router/lib/components.tsx
+       • packages/react-router/__tests__/useResolvedPath-test.tsx
+       • packages/react-router/__tests__/useNavigate-test.tsx
+       • packages/react-router/__tests__/use-revalidator-test.tsx
+       • packages/react-router/__tests__/navigate-test.tsx
+       • packages/react-router/__tests__/gh-issue-8165-test.tsx
+       • packages/react-router/__tests__/data-memory-router-test.tsx
+       • packages/react-router/__tests__/createRoutesFromChildren-test.tsx
+     📄 Files WITHOUT JSXClosingFragment (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSFunctionType:
+     📄 Files WITH TSFunctionType (showing 10):
+       • integration/vite-server-fs-allow-test.ts
+       • integration/vite-server-bundles-test.ts
+       • integration/vite-route-exports-modified-offscreen-test.ts
+       • integration/vite-route-added-test.ts
+       • integration/vite-node-env-test.ts
+       • integration/vite-loader-context-test.ts
+       • integration/vite-dotenv-test.ts
+       • integration/vite-dev-test.ts
+       • integration/vite-css-test.ts
+       • integration/vite-build-test.ts
+     📄 Files WITHOUT TSFunctionType (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSTypeParameter:
+     📄 Files WITH TSTypeParameter (showing 10):
+       • packages/react-router-node/server.ts
+       • packages/react-router-express/server.ts
+       • packages/react-router-dev/invariant.ts
+       • packages/react-router-cloudflare/worker.ts
+       • packages/react-router-architect/server.ts
+       • packages/create-react-router/utils.ts
+       • packages/create-react-router/prompts-select.ts
+       • packages/create-react-router/prompts-multi-select.ts
+       • packages/create-react-router/prompt.ts
+       • packages/react-router-node/sessions/fileStorage.ts
+     📄 Files WITHOUT TSTypeParameter (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSUnknownKeyword:
+     📄 Files WITH TSUnknownKeyword (showing 10):
+       • integration/vite-server-fs-allow-test.ts
+       • integration/vite-node-env-test.ts
+       • integration/vite-dotenv-test.ts
+       • integration/vite-build-test.ts
+       • integration/vite-basename-test.ts
+       • integration/transition-test.ts
+       • packages/react-router-node/stream.ts
+       • packages/react-router-express/server.ts
+       • packages/react-router-cloudflare/worker.ts
+       • packages/create-react-router/utils.ts
+     📄 Files WITHOUT TSUnknownKeyword (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSNonNullExpression:
+     📄 Files WITH TSNonNullExpression (showing 10):
+       • integration/single-fetch-test.ts
+       • integration/middleware-test.ts
+       • packages/react-router-cloudflare/worker.ts
+       • packages/create-react-router/prompts-select.ts
+       • packages/create-react-router/index.ts
+       • packages/create-react-router/copy-template.ts
+       • integration/helpers/playwright-fixture.ts
+       • integration/helpers/create-fixture.ts
+       • packages/react-router-dev/vite/profiler.ts
+       • packages/react-router-dev/vite/plugin.ts
+     📄 Files WITHOUT TSNonNullExpression (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSNumberKeyword:
+     📄 Files WITH TSNumberKeyword (showing 10):
+       • scripts/close-no-repro-issues.ts
+       • integration/vite-server-fs-allow-test.ts
+       • integration/vite-server-bundles-test.ts
+       • integration/vite-route-exports-modified-offscreen-test.ts
+       • integration/vite-route-added-test.ts
+       • integration/vite-node-env-test.ts
+       • integration/vite-loader-context-test.ts
+       • integration/vite-hmr-hdr-test.ts
+       • integration/vite-dotenv-test.ts
+       • integration/vite-css-test.ts
+     📄 Files WITHOUT TSNumberKeyword (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • jest/transform.js
+
+   JSXMemberExpression:
+     📄 Files WITH JSXMemberExpression (showing 10):
+       • packages/react-router/lib/hooks.tsx
+       • packages/react-router/lib/components.tsx
+       • packages/react-router/__tests__/navigate-test.tsx
+       • packages/react-router/__tests__/data-memory-router-test.tsx
+       • packages/react-router/__tests__/Routes-test.tsx
+       • examples/view-transitions/src/main.tsx
+       • examples/ssr-data-router/src/entry.server.tsx
+       • examples/ssr-data-router/src/entry.client.tsx
+       • examples/scroll-restoration/src/main.tsx
+       • examples/route-objects/src/main.tsx
+     📄 Files WITHOUT JSXMemberExpression (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   ImportNamespaceSpecifier:
+     📄 Files WITH ImportNamespaceSpecifier (showing 10):
+       • scripts/remove-prerelease-changelogs.mjs
+       • integration/vite-unused-route-exports-test.ts
+       • integration/vite-presets-test.ts
+       • integration/vite-dot-server-test.ts
+       • integration/vite-dot-client-test.ts
+       • integration/vite-build-test.ts
+       • integration/typegen-test.ts
+       • integration/cli-test.ts
+       • packages/react-router-express/server.ts
+       • packages/react-router-dev/tsup.config.ts
+     📄 Files WITHOUT ImportNamespaceSpecifier (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+       • jest/transform.js
+
+   ArrayPattern:
+     📄 Files WITH ArrayPattern (showing 10):
+       • integration/vite-build-test.ts
+       • packages/react-router-fs-routes/flatRoutes.ts
+       • packages/react-router-express/server.ts
+       • packages/react-router-architect/server.ts
+       • packages/react-router-architect/binaryTypes.ts
+       • packages/create-react-router/copy-template.ts
+       • integration/helpers/vite.ts
+       • packages/react-router-fs-routes/__tests__/flatRoutes-test.ts
+       • packages/react-router-dev/vite/with-props.ts
+       • packages/react-router-dev/vite/vite-node.ts
+     📄 Files WITHOUT ArrayPattern (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSVoidKeyword:
+     📄 Files WITH TSVoidKeyword (showing 10):
+       • scripts/close-no-repro-issues.ts
+       • integration/vite-server-fs-allow-test.ts
+       • integration/vite-server-bundles-test.ts
+       • integration/vite-route-exports-modified-offscreen-test.ts
+       • integration/vite-route-added-test.ts
+       • integration/vite-node-env-test.ts
+       • integration/vite-loader-context-test.ts
+       • integration/vite-dotenv-test.ts
+       • integration/vite-css-test.ts
+       • integration/vite-build-test.ts
+     📄 Files WITHOUT TSVoidKeyword (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • jest/transform.js
+
+   TSNullKeyword:
+     📄 Files WITH TSNullKeyword (showing 10):
+       • packages/react-router-fs-routes/flatRoutes.ts
+       • packages/react-router-express/server.ts
+       • packages/react-router-dev/invariant.ts
+       • packages/react-router-architect/binaryTypes.ts
+       • packages/create-react-router/prompts-select.ts
+       • packages/create-react-router/copy-template.ts
+       • integration/helpers/create-fixture.ts
+       • tutorials/address-book/app/data.ts
+       • packages/react-router-dev/vite/route-chunks.ts
+       • packages/react-router-dev/vite/plugin.ts
+     📄 Files WITHOUT TSNullKeyword (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSInterfaceDeclaration:
+     📄 Files WITH TSInterfaceDeclaration (showing 10):
+       • packages/react-router-node/server.ts
+       • packages/react-router-remix-routes-option-adapter/manifest.ts
+       • packages/react-router-remix-routes-option-adapter/defineRoutes.ts
+       • packages/react-router-fs-routes/manifest.ts
+       • packages/react-router-cloudflare/worker.ts
+       • packages/create-react-router/prompts-text.ts
+       • packages/create-react-router/prompts-select.ts
+       • packages/create-react-router/prompts-prompt-base.ts
+       • packages/create-react-router/prompts-multi-select.ts
+       • packages/create-react-router/prompts-confirm.ts
+     📄 Files WITHOUT TSInterfaceDeclaration (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSInterfaceBody:
+     📄 Files WITH TSInterfaceBody (showing 10):
+       • packages/react-router-node/server.ts
+       • packages/react-router-remix-routes-option-adapter/manifest.ts
+       • packages/react-router-remix-routes-option-adapter/defineRoutes.ts
+       • packages/react-router-fs-routes/manifest.ts
+       • packages/react-router-cloudflare/worker.ts
+       • packages/create-react-router/prompts-text.ts
+       • packages/create-react-router/prompts-select.ts
+       • packages/create-react-router/prompts-prompt-base.ts
+       • packages/create-react-router/prompts-multi-select.ts
+       • packages/create-react-router/prompts-confirm.ts
+     📄 Files WITHOUT TSInterfaceBody (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   AssignmentPattern:
+     📄 Files WITH AssignmentPattern (showing 10):
+       • integration/vite-plugin-cloudflare-test.ts
+       • integration/error-boundary-test.ts
+       • integration/defer-test.ts
+       • packages/react-router-remix-routes-option-adapter/manifest.ts
+       • packages/react-router-fs-routes/manifest.ts
+       • packages/react-router-fs-routes/index.ts
+       • packages/react-router-fs-routes/flatRoutes.ts
+       • packages/react-router-express/server.ts
+       • packages/react-router-cloudflare/worker.ts
+       • packages/react-router-architect/server.ts
+     📄 Files WITHOUT AssignmentPattern (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSTypeParameterDeclaration:
+     📄 Files WITH TSTypeParameterDeclaration (showing 10):
+       • packages/react-router-node/server.ts
+       • packages/react-router-express/server.ts
+       • packages/react-router-dev/invariant.ts
+       • packages/react-router-cloudflare/worker.ts
+       • packages/react-router-architect/server.ts
+       • packages/create-react-router/utils.ts
+       • packages/create-react-router/prompts-select.ts
+       • packages/create-react-router/prompts-multi-select.ts
+       • packages/create-react-router/prompt.ts
+       • packages/react-router-node/sessions/fileStorage.ts
+     📄 Files WITHOUT TSTypeParameterDeclaration (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   ExportDefaultDeclaration:
+     📄 Files WITH ExportDefaultDeclaration (showing 10):
+       • integration/playwright.config.ts
+       • tutorials/address-book/vite.config.ts
+       • tutorials/address-book/react-router.config.ts
+       • playground/vite-plugin-cloudflare/vite.config.ts
+       • playground/vite-plugin-cloudflare/react-router.config.ts
+       • playground/split-route-modules-spa/vite.config.ts
+       • playground/split-route-modules-spa/react-router.config.ts
+       • playground/split-route-modules/vite.config.ts
+       • playground/split-route-modules/react-router.config.ts
+       • playground/middleware/vite.config.ts
+     📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   ForOfStatement:
+     📄 Files WITH ForOfStatement (showing 10):
+       • scripts/version.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/close-no-repro-issues.ts
+       • integration/vite-server-bundles-test.ts
+       • integration/vite-dot-server-test.ts
+       • integration/single-fetch-test.ts
+       • integration/defer-test.ts
+       • packages/react-router-node/stream.ts
+       • packages/react-router-fs-routes/flatRoutes.ts
+       • packages/react-router-express/server.ts
+     📄 Files WITHOUT ForOfStatement (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/utils.js
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • jest/transform.js
+       • jest/jest.config.shared.js
+       • integration/vite-unused-route-exports-test.ts
+
+   TryStatement:
+     📄 Files WITH TryStatement (showing 10):
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • integration/single-fetch-test.ts
+       • integration/route-config-test.ts
+       • integration/fog-of-war-test.ts
+       • integration/error-sanitization-test.ts
+       • integration/error-data-request-test.ts
+       • playground/middleware/dev-server.ts
+     📄 Files WITHOUT TryStatement (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+       • jest/transform.js
+       • jest/jest.config.shared.js
+       • integration/vite-unused-route-exports-test.ts
+       • integration/vite-spa-mode-test.ts
+
+   CatchClause:
+     📄 Files WITH CatchClause (showing 10):
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • integration/route-config-test.ts
+       • integration/fog-of-war-test.ts
+       • integration/error-sanitization-test.ts
+       • integration/error-data-request-test.ts
+       • playground/middleware/dev-server.ts
+       • packages/react-router-node/stream.ts
+     📄 Files WITHOUT CatchClause (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+       • jest/transform.js
+       • jest/jest.config.shared.js
+       • integration/vite-unused-route-exports-test.ts
+       • integration/vite-spa-mode-test.ts
+
+   TSTypeQuery:
+     📄 Files WITH TSTypeQuery (showing 10):
+       • integration/vite-plugin-order-validation-test.ts
+       • integration/split-route-modules-test.ts
+       • integration/single-fetch-test.ts
+       • integration/resource-routes-test.ts
+       • integration/fs-routes-test.ts
+       • integration/fog-of-war-test.ts
+       • integration/defer-test.ts
+       • integration/cli-test.ts
+       • integration/catch-boundary-test.ts
+       • packages/react-router-fs-routes/flatRoutes.ts
+     📄 Files WITHOUT TSTypeQuery (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   MethodDefinition:
+     📄 Files WITH MethodDefinition (showing 10):
+       • packages/react-router-node/stream.ts
+       • packages/react-router-fs-routes/flatRoutes.ts
+       • packages/create-react-router/prompts-text.ts
+       • packages/create-react-router/prompts-select.ts
+       • packages/create-react-router/prompts-prompt-base.ts
+       • packages/create-react-router/prompts-multi-select.ts
+       • packages/create-react-router/prompts-confirm.ts
+       • packages/create-react-router/copy-template.ts
+       • integration/helpers/playwright-fixture.ts
+       • packages/react-router/lib/hooks.tsx
+     📄 Files WITHOUT MethodDefinition (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSConditionalType:
+     📄 Files WITH TSConditionalType (showing 10):
+       • packages/react-router-node/server.ts
+       • packages/react-router-express/server.ts
+       • packages/react-router-cloudflare/worker.ts
+       • packages/react-router-architect/server.ts
+       • packages/create-react-router/prompt.ts
+       • packages/react-router-dev/vite/plugin.ts
+       • packages/react-router-dev/vite/cloudflare-dev-proxy.ts
+       • packages/react-router-dev/config/config.ts
+       • packages/react-router/lib/href.ts
+       • packages/react-router/lib/hooks.tsx
+     📄 Files WITHOUT TSConditionalType (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   UpdateExpression:
+     📄 Files WITH UpdateExpression (showing 10):
+       • scripts/remove-prerelease-changelogs.mjs
+       • integration/single-fetch-test.ts
+       • packages/react-router-fs-routes/flatRoutes.ts
+       • packages/create-react-router/prompts-text.ts
+       • packages/create-react-router/loading-indicator.ts
+       • integration/helpers/playwright-fixture.ts
+       • packages/react-router-dev/vite/route-chunks.ts
+       • packages/react-router-dev/vite/profiler.ts
+       • packages/react-router/lib/hooks.tsx
+       • packages/react-router/__tests__/useNavigate-test.tsx
+     📄 Files WITHOUT UpdateExpression (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+       • jest/transform.js
+
+   PropertyDefinition:
+     📄 Files WITH PropertyDefinition (showing 10):
+       • packages/react-router-node/stream.ts
+       • packages/react-router-fs-routes/flatRoutes.ts
+       • packages/create-react-router/prompts-text.ts
+       • packages/create-react-router/prompts-select.ts
+       • packages/create-react-router/prompts-prompt-base.ts
+       • packages/create-react-router/prompts-multi-select.ts
+       • packages/create-react-router/prompts-confirm.ts
+       • integration/helpers/playwright-fixture.ts
+       • packages/react-router/lib/components.tsx
+       • packages/react-router/vendor/turbo-stream-v2/utils.ts
+     📄 Files WITHOUT PropertyDefinition (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSIntersectionType:
+     📄 Files WITH TSIntersectionType (showing 10):
+       • packages/react-router-node/stream.ts
+       • packages/react-router-remix-routes-option-adapter/manifest.ts
+       • packages/react-router-fs-routes/manifest.ts
+       • packages/react-router-fs-routes/flatRoutes.ts
+       • packages/react-router-cloudflare/worker.ts
+       • packages/create-react-router/prompts-multi-select.ts
+       • packages/create-react-router/loading-indicator.ts
+       • integration/helpers/vite.ts
+       • tutorials/address-book/app/data.ts
+       • packages/react-router-dev/vite/styles.ts
+     📄 Files WITHOUT TSIntersectionType (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   RestElement:
+     📄 Files WITH RestElement (showing 10):
+       • integration/vite-build-test.ts
+       • integration/error-sanitization-test.ts
+       • packages/react-router-fs-routes/flatRoutes.ts
+       • packages/create-react-router/prompts-prompt-base.ts
+       • packages/create-react-router/loading-indicator.ts
+       • packages/create-react-router/index.ts
+       • packages/create-react-router/copy-template.ts
+       • integration/helpers/playwright-fixture.ts
+       • packages/react-router-dev/vite/plugin.ts
+       • packages/react-router-dev/vite/cloudflare-dev-proxy.ts
+     📄 Files WITHOUT RestElement (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSTypeOperator:
+     📄 Files WITH TSTypeOperator (showing 10):
+       • packages/create-react-router/prompt.ts
+       • integration/helpers/vite.ts
+       • packages/react-router-dev/vite/route-chunks.ts
+       • packages/react-router-dev/vite/plugin.ts
+       • packages/react-router-dev/config/routes.ts
+       • packages/react-router-dev/config/config.ts
+       • packages/react-router/lib/href.ts
+       • packages/react-router/lib/components.tsx
+       • packages/react-router-dev/config/defaults/entry.server.node.tsx
+       • packages/react-router/lib/types/utils.ts
+     📄 Files WITHOUT TSTypeOperator (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSMethodSignature:
+     📄 Files WITH TSMethodSignature (showing 10):
+       • packages/create-react-router/prompts-prompt-base.ts
+       • packages/create-react-router/prompt.ts
+       • packages/create-react-router/copy-template.ts
+       • packages/react-router/lib/context.ts
+       • examples/auth-router-provider/src/auth.ts
+       • packages/react-router/lib/router/utils.ts
+       • packages/react-router/lib/router/router.ts
+       • packages/react-router/lib/router/history.ts
+       • packages/react-router/lib/server-runtime/sessions.ts
+       • packages/react-router/lib/server-runtime/cookies.ts
+     📄 Files WITHOUT TSMethodSignature (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSParenthesizedType:
+     📄 Files WITH TSParenthesizedType (showing 10):
+       • packages/react-router-node/server.ts
+       • packages/react-router-express/server.ts
+       • packages/react-router-cloudflare/worker.ts
+       • packages/create-react-router/prompt.ts
+       • integration/helpers/vite.ts
+       • packages/react-router-dev/vite/with-props.ts
+       • packages/react-router-dev/vite/styles.ts
+       • packages/react-router-dev/vite/route-chunks.ts
+       • packages/react-router-dev/vite/plugin.ts
+       • packages/react-router-dev/config/routes.ts
+     📄 Files WITHOUT TSParenthesizedType (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSTupleType:
+     📄 Files WITH TSTupleType (showing 10):
+       • integration/single-fetch-test.ts
+       • packages/react-router-fs-routes/flatRoutes.ts
+       • packages/create-react-router/prompts-confirm.ts
+       • packages/create-react-router/copy-template.ts
+       • packages/react-router-fs-routes/__tests__/flatRoutes-test.ts
+       • packages/react-router-dev/vite/with-props.ts
+       • packages/react-router-dev/vite/route-chunks-test.ts
+       • packages/react-router-dev/vite/plugin.ts
+       • packages/react-router-dev/config/config.ts
+       • packages/react-router/lib/href.ts
+     📄 Files WITHOUT TSTupleType (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSInterfaceHeritage:
+     📄 Files WITH TSInterfaceHeritage (showing 10):
+       • packages/create-react-router/prompts-text.ts
+       • packages/create-react-router/prompts-select.ts
+       • packages/create-react-router/prompts-multi-select.ts
+       • packages/create-react-router/prompts-confirm.ts
+       • packages/create-react-router/prompt.ts
+       • playground/vite-plugin-cloudflare/workers/app.ts
+       • packages/react-router/lib/context.ts
+       • packages/react-router/lib/components.tsx
+       • examples/custom-filter-link/src/App.tsx
+       • packages/react-router/lib/router/utils.ts
+     📄 Files WITHOUT TSInterfaceHeritage (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   ContinueStatement:
+     📄 Files WITH ContinueStatement (showing 10):
+       • scripts/remove-prerelease-changelogs.mjs
+       • integration/defer-test.ts
+       • packages/react-router-fs-routes/flatRoutes.ts
+       • packages/create-react-router/index.ts
+       • packages/react-router-dev/vite/styles.ts
+       • packages/react-router-dev/vite/route-chunks.ts
+       • packages/react-router-dev/vite/remove-exports.ts
+       • packages/react-router-dev/vite/plugin.ts
+       • packages/react-router-dev/typegen/generate.ts
+       • packages/react-router-dev/config/config.ts
+     📄 Files WITHOUT ContinueStatement (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+       • jest/transform.js
+
+   TSTypePredicate:
+     📄 Files WITH TSTypePredicate (showing 10):
+       • packages/react-router-fs-routes/flatRoutes.ts
+       • packages/react-router-dev/invariant.ts
+       • packages/create-react-router/utils.ts
+       • packages/create-react-router/prompts-text.ts
+       • packages/create-react-router/copy-template.ts
+       • packages/react-router-dev/vite/with-props.ts
+       • packages/react-router-dev/vite/route-chunks.ts
+       • packages/react-router-dev/vite/plugin.ts
+       • packages/react-router-dev/config/config.ts
+       • packages/react-router-dev/__tests__/utils/cli.ts
+     📄 Files WITHOUT TSTypePredicate (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   SwitchCase:
+     📄 Files WITH SwitchCase (showing 8):
+       • packages/react-router-fs-routes/flatRoutes.ts
+       • packages/create-react-router/index.ts
+       • packages/react-router-dev/vite/plugin.ts
+       • packages/react-router-dev/config/format.ts
+       • packages/react-router-dev/cli/run.ts
+       • packages/react-router/vendor/turbo-stream-v2/unflatten.ts
+       • packages/react-router/vendor/turbo-stream-v2/turbo-stream.ts
+       • packages/react-router/vendor/turbo-stream-v2/flatten.ts
+     📄 Files WITHOUT SwitchCase (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   BreakStatement:
+     📄 Files WITH BreakStatement (showing 10):
+       • scripts/remove-prerelease-changelogs.mjs
+       • packages/react-router-node/stream.ts
+       • packages/react-router-fs-routes/flatRoutes.ts
+       • packages/create-react-router/copy-template.ts
+       • packages/react-router-dev/vite/route-chunks.ts
+       • packages/react-router-dev/typegen/route.ts
+       • packages/react-router-dev/cli/run.ts
+       • packages/react-router/lib/hooks.tsx
+       • packages/react-router/vendor/turbo-stream-v2/turbo-stream.ts
+       • packages/react-router/vendor/turbo-stream-v2/flatten.ts
+     📄 Files WITHOUT BreakStatement (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+       • jest/transform.js
+
+   TSSatisfiesExpression:
+     📄 Files WITH TSSatisfiesExpression (showing 10):
+       • tutorials/address-book/react-router.config.ts
+       • playground/vite-plugin-cloudflare/react-router.config.ts
+       • playground/split-route-modules-spa/react-router.config.ts
+       • playground/split-route-modules/react-router.config.ts
+       • playground/middleware/react-router.config.ts
+       • playground/framework-vite-7-beta/react-router.config.ts
+       • playground/framework-vite-5/react-router.config.ts
+       • playground/framework-spa/react-router.config.ts
+       • playground/framework-rolldown-vite/react-router.config.ts
+       • playground/framework-express/react-router.config.ts
+     📄 Files WITHOUT TSSatisfiesExpression (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSNeverKeyword:
+     📄 Files WITH TSNeverKeyword (showing 10):
+       • packages/create-react-router/prompt.ts
+       • integration/helpers/vite.ts
+       • packages/react-router-dev/vite/styles.ts
+       • packages/react-router-dev/vite/plugin.ts
+       • packages/react-router-dev/config/config.ts
+       • packages/create-react-router/__tests__/create-react-router-test.ts
+       • packages/react-router/vendor/turbo-stream-v2/turbo-stream.ts
+       • packages/react-router/lib/types/utils.ts
+       • packages/react-router/lib/types/route-data.ts
+       • packages/react-router/lib/router/utils.ts
+     📄 Files WITHOUT TSNeverKeyword (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   ImportExpression:
+     📄 Files WITH ImportExpression (showing 10):
+       • integration/vite-presets-test.ts
+       • playground/middleware/server.ts
+       • playground/middleware/dev-server.ts
+       • playground/framework-express/server.js
+       • packages/react-router-serve/cli.ts
+       • packages/create-react-router/loading-indicator.ts
+       • integration/helpers/create-fixture.ts
+       • playground/vite-plugin-cloudflare/workers/app.ts
+       • packages/react-router-dev/vite/vite.ts
+       • packages/react-router-dev/vite/vite-node.ts
+     📄 Files WITHOUT ImportExpression (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   JSXEmptyExpression:
+     📄 Files WITH JSXEmptyExpression (showing 10):
+       • packages/react-router/__tests__/useNavigate-test.tsx
+       • packages/react-router/__tests__/navigate-test.tsx
+       • packages/react-router/__tests__/createRoutesFromChildren-test.tsx
+       • examples/scroll-restoration/src/app.tsx
+       • examples/ssr/src/App.tsx
+       • examples/multi-app/inbox/main.jsx
+       • examples/multi-app/inbox/App.jsx
+       • examples/multi-app/home/main.jsx
+       • examples/multi-app/home/App.jsx
+       • examples/modal/src/App.tsx
+     📄 Files WITHOUT JSXEmptyExpression (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSEnumMember:
+     📄 Files WITH TSEnumMember (showing 6):
+       • packages/react-router/lib/hooks.tsx
+       • packages/react-router/lib/components.tsx
+       • packages/react-router/lib/router/utils.ts
+       • packages/react-router/lib/router/history.ts
+       • packages/react-router/lib/server-runtime/mode.ts
+       • packages/react-router/lib/dom/lib.tsx
+     📄 Files WITHOUT TSEnumMember (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSInferType:
+     📄 Files WITH TSInferType (showing 8):
+       • packages/create-react-router/prompt.ts
+       • packages/react-router-dev/vite/plugin.ts
+       • packages/react-router/lib/types/utils.ts
+       • packages/react-router/lib/types/route-module-annotations.ts
+       • packages/react-router/lib/types/route-data.ts
+       • packages/react-router/lib/types/register.ts
+       • packages/react-router/lib/types/future.ts
+       • packages/react-router/lib/router/utils.ts
+     📄 Files WITHOUT TSInferType (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   WhileStatement:
+     📄 Files WITH WhileStatement (showing 10):
+       • scripts/remove-prerelease-changelogs.mjs
+       • integration/vite-prerender-test.ts
+       • packages/react-router-node/stream.ts
+       • packages/react-router-fs-routes/flatRoutes.ts
+       • packages/create-react-router/copy-template.ts
+       • packages/react-router-node/sessions/fileStorage.ts
+       • packages/react-router-dev/vite/route-chunks.ts
+       • packages/react-router-dev/vite/plugin.ts
+       • packages/react-router-dev/typegen/route.ts
+       • packages/react-router-dev/config/config.ts
+     📄 Files WITHOUT WhileStatement (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+       • jest/transform.js
+
+   TSIndexSignature:
+     📄 Files WITH TSIndexSignature (showing 10):
+       • packages/react-router-remix-routes-option-adapter/manifest.ts
+       • packages/react-router-fs-routes/manifest.ts
+       • packages/react-router-fs-routes/flatRoutes.ts
+       • packages/react-router-dev/manifest.ts
+       • integration/helpers/create-fixture.ts
+       • packages/react-router-dev/vite/plugin.ts
+       • packages/react-router-dev/config/routes.ts
+       • packages/react-router-dev/config/config.ts
+       • examples/data-router/src/todos.ts
+       • packages/react-router/lib/types/route-module.ts
+     📄 Files WITHOUT TSIndexSignature (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   ClassBody:
+     📄 Files WITH ClassBody (showing 10):
+       • packages/react-router-node/stream.ts
+       • packages/react-router-fs-routes/flatRoutes.ts
+       • packages/create-react-router/prompts-text.ts
+       • packages/create-react-router/prompts-select.ts
+       • packages/create-react-router/prompts-prompt-base.ts
+       • packages/create-react-router/prompts-multi-select.ts
+       • packages/create-react-router/prompts-confirm.ts
+       • packages/create-react-router/copy-template.ts
+       • integration/helpers/playwright-fixture.ts
+       • packages/react-router/lib/hooks.tsx
+     📄 Files WITHOUT ClassBody (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSCallSignatureDeclaration:
+     📄 Files WITH TSCallSignatureDeclaration (showing 9):
+       • packages/react-router-remix-routes-option-adapter/defineRoutes.ts
+       • packages/react-router/lib/hooks.tsx
+       • packages/react-router/lib/components.tsx
+       • packages/react-router/lib/router/utils.ts
+       • packages/react-router/lib/router/router.ts
+       • packages/react-router/lib/router/history.ts
+       • packages/react-router/lib/server-runtime/build.ts
+       • packages/react-router/lib/dom/lib.tsx
+       • packages/react-router/lib/dom/ssr/routeModules.ts
+     📄 Files WITHOUT TSCallSignatureDeclaration (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   ClassDeclaration:
+     📄 Files WITH ClassDeclaration (showing 10):
+       • packages/react-router-node/stream.ts
+       • packages/react-router-fs-routes/flatRoutes.ts
+       • packages/create-react-router/prompts-text.ts
+       • packages/create-react-router/prompts-select.ts
+       • packages/create-react-router/prompts-prompt-base.ts
+       • packages/create-react-router/prompts-multi-select.ts
+       • packages/create-react-router/prompts-confirm.ts
+       • packages/create-react-router/copy-template.ts
+       • integration/helpers/playwright-fixture.ts
+       • packages/react-router/lib/hooks.tsx
+     📄 Files WITHOUT ClassDeclaration (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   JSXSpreadAttribute:
+     📄 Files WITH JSXSpreadAttribute (showing 8):
+       • packages/react-router/__tests__/Routes-test.tsx
+       • examples/custom-link/src/App.tsx
+       • examples/custom-filter-link/src/App.tsx
+       • packages/react-router/lib/dom-export/dom-router-provider.tsx
+       • packages/react-router/lib/dom/lib.tsx
+       • packages/react-router/__tests__/dom/useLinkClickHandler-test.tsx
+       • packages/react-router/lib/dom/ssr/components.tsx
+       • packages/react-router/__tests__/dom/ssr/components-test.tsx
+     📄 Files WITHOUT JSXSpreadAttribute (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   MetaProperty:
+     📄 Files WITH MetaProperty (showing 10):
+       • scripts/remove-prerelease-changelogs.mjs
+       • integration/helpers/vite.ts
+       • integration/helpers/create-fixture.ts
+       • tutorials/address-book/app/root.tsx
+       • playground/vite-plugin-cloudflare/workers/app.ts
+       • packages/react-router-dev/module-sync-enabled/index.mjs
+       • examples/scroll-restoration/src/app.tsx
+       • examples/notes/src/app.jsx
+       • examples/navigation-blocking/src/app.tsx
+       • examples/error-boundaries/src/app.tsx
+     📄 Files WITHOUT MetaProperty (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+       • jest/transform.js
+
+   TSMappedType:
+     📄 Files WITH TSMappedType (showing 10):
+       • packages/create-react-router/prompt.ts
+       • integration/helpers/vite.ts
+       • packages/react-router/lib/href.ts
+       • packages/react-router/lib/types/utils.ts
+       • packages/react-router/lib/types/route-data.ts
+       • packages/react-router/lib/router/utils.ts
+       • packages/react-router/lib/server-runtime/sessions.ts
+       • packages/react-router/lib/dom/dom.ts
+       • packages/react-router/lib/dom/ssr/routeModules.ts
+       • packages/react-router/lib/dom/ssr/links.ts
+     📄 Files WITHOUT TSMappedType (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSDeclareFunction:
+     📄 Files WITH TSDeclareFunction (showing 8):
+       • packages/react-router-dev/invariant.ts
+       • packages/react-router-dev/config/routes.ts
+       • examples/custom-query-parsing/types/jsurl.d.ts
+       • packages/react-router/lib/router/history.ts
+       • packages/react-router/lib/server-runtime/invariant.ts
+       • packages/react-router/lib/dom/ssr/invariant.ts
+       • packages/react-router/__tests__/router/utils/utils.ts
+       • packages/react-router/__tests__/router/utils/data-router-setup.ts
+     📄 Files WITHOUT TSDeclareFunction (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSModuleDeclaration:
+     📄 Files WITH TSModuleDeclaration (showing 10):
+       • integration/defer-test.ts
+       • integration/helpers/vite.ts
+       • playground/vite-plugin-cloudflare/workers/app.ts
+       • packages/react-router-dev/vite/profiler.ts
+       • packages/react-router-dev/config/routes.ts
+       • examples/custom-query-parsing/types/jsurl.d.ts
+       • packages/react-router/lib/dom/lib.tsx
+       • packages/react-router/lib/dom/global.ts
+       • packages/react-router/__tests__/router/should-revalidate-test.ts
+       • packages/react-router/__tests__/router/router-test.ts
+     📄 Files WITHOUT TSModuleDeclaration (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSModuleBlock:
+     📄 Files WITH TSModuleBlock (showing 10):
+       • integration/defer-test.ts
+       • integration/helpers/vite.ts
+       • playground/vite-plugin-cloudflare/workers/app.ts
+       • packages/react-router-dev/vite/profiler.ts
+       • packages/react-router-dev/config/routes.ts
+       • examples/custom-query-parsing/types/jsurl.d.ts
+       • packages/react-router/lib/dom/lib.tsx
+       • packages/react-router/lib/dom/global.ts
+       • packages/react-router/__tests__/router/should-revalidate-test.ts
+       • packages/react-router/__tests__/router/router-test.ts
+     📄 Files WITHOUT TSModuleBlock (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   ForStatement:
+     📄 Files WITH ForStatement (showing 10):
+       • packages/react-router-fs-routes/flatRoutes.ts
+       • packages/react-router-dev/vite/route-chunks.ts
+       • packages/react-router/lib/hooks.tsx
+       • packages/react-router/vendor/turbo-stream-v2/unflatten.ts
+       • packages/react-router/vendor/turbo-stream-v2/flatten.ts
+       • packages/react-router/lib/router/utils.ts
+       • packages/react-router/lib/router/router.ts
+       • packages/react-router/lib/server-runtime/crypto.ts
+       • packages/react-router/__tests__/vendor/turbo-stream-test.ts
+       • packages/react-router/lib/dom/ssr/components.tsx
+     📄 Files WITHOUT ForStatement (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   Super:
+     📄 Files WITH Super (showing 10):
+       • packages/create-react-router/prompts-text.ts
+       • packages/create-react-router/prompts-select.ts
+       • packages/create-react-router/prompts-prompt-base.ts
+       • packages/create-react-router/prompts-multi-select.ts
+       • packages/create-react-router/prompts-confirm.ts
+       • packages/create-react-router/copy-template.ts
+       • packages/react-router/lib/hooks.tsx
+       • packages/react-router/lib/components.tsx
+       • packages/react-router/lib/dom/ssr/errorBoundaries.tsx
+       • packages/react-router/__tests__/dom/polyfills/drop-FormData-submitter.ts
+     📄 Files WITHOUT Super (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSTemplateLiteralType:
+     📄 Files WITH TSTemplateLiteralType (showing 7):
+       • packages/create-react-router/loading-indicator.ts
+       • packages/create-react-router/copy-template.ts
+       • packages/react-router-dev/vite/route-chunks.ts
+       • packages/react-router-dev/vite/plugin.ts
+       • packages/react-router/lib/router/utils.ts
+       • packages/react-router/lib/server-runtime/sessions.ts
+       • packages/react-router/__tests__/dom/ssr/components-test.tsx
+     📄 Files WITHOUT TSTemplateLiteralType (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   ForInStatement:
+     📄 Files WITH ForInStatement (showing 6):
+       • packages/react-router-remix-routes-option-adapter/manifest.ts
+       • packages/react-router-fs-routes/manifest.ts
+       • packages/create-react-router/index.ts
+       • packages/react-router-dev/vite/plugin.ts
+       • packages/react-router-dev/vite/static/refresh-utils.cjs
+       • packages/react-router/lib/router/router.ts
+     📄 Files WITHOUT ForInStatement (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   SwitchStatement:
+     📄 Files WITH SwitchStatement (showing 8):
+       • packages/react-router-fs-routes/flatRoutes.ts
+       • packages/create-react-router/index.ts
+       • packages/react-router-dev/vite/plugin.ts
+       • packages/react-router-dev/config/format.ts
+       • packages/react-router-dev/cli/run.ts
+       • packages/react-router/vendor/turbo-stream-v2/unflatten.ts
+       • packages/react-router/vendor/turbo-stream-v2/turbo-stream.ts
+       • packages/react-router/vendor/turbo-stream-v2/flatten.ts
+     📄 Files WITHOUT SwitchStatement (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSNamedTupleMember:
+     📄 Files WITH TSNamedTupleMember (showing 2):
+       • packages/create-react-router/copy-template.ts
+       • packages/react-router/__tests__/router/utils/data-router-setup.ts
+     📄 Files WITHOUT TSNamedTupleMember (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSEnumDeclaration:
+     📄 Files WITH TSEnumDeclaration (showing 6):
+       • packages/react-router/lib/hooks.tsx
+       • packages/react-router/lib/components.tsx
+       • packages/react-router/lib/router/utils.ts
+       • packages/react-router/lib/router/history.ts
+       • packages/react-router/lib/server-runtime/mode.ts
+       • packages/react-router/lib/dom/lib.tsx
+     📄 Files WITHOUT TSEnumDeclaration (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSEnumBody:
+     📄 Files WITH TSEnumBody (showing 6):
+       • packages/react-router/lib/hooks.tsx
+       • packages/react-router/lib/components.tsx
+       • packages/react-router/lib/router/utils.ts
+       • packages/react-router/lib/router/history.ts
+       • packages/react-router/lib/server-runtime/mode.ts
+       • packages/react-router/lib/dom/lib.tsx
+     📄 Files WITHOUT TSEnumBody (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   PrivateIdentifier:
+     📄 Files WITH PrivateIdentifier (showing 2):
+       • packages/react-router-fs-routes/flatRoutes.ts
+       • packages/react-router/lib/router/utils.ts
+     📄 Files WITHOUT PrivateIdentifier (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSRestType:
+     📄 Files WITH TSRestType (showing 3):
+       • packages/react-router/vendor/turbo-stream-v2/utils.ts
+       • packages/react-router/lib/types/route-module-annotations.ts
+       • packages/react-router/lib/types/route-data.ts
+     📄 Files WITHOUT TSRestType (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   Hashbang:
+     📄 Files WITH Hashbang (showing 6):
+       • scripts/playground.js
+       • packages/react-router-serve/cli.ts
+       • packages/react-router-serve/bin.js
+       • packages/react-router-dev/bin.js
+       • packages/create-react-router/cli.ts
+       • packages/react-router-dev/cli/index.ts
+     📄 Files WITHOUT Hashbang (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+       • jest/transform.js
+
+   TSSymbolKeyword:
+     📄 Files WITH TSSymbolKeyword (showing 4):
+       • packages/react-router/vendor/turbo-stream-v2/flatten.ts
+       • packages/react-router/lib/router/links.ts
+       • packages/react-router/lib/server-runtime/single-fetch.ts
+       • packages/react-router/lib/dom/ssr/routeModules.ts
+     📄 Files WITHOUT TSSymbolKeyword (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSImportType:
+     📄 Files WITH TSImportType (showing 2):
+       • packages/react-router-dev/vite/vite.ts
+       • packages/react-router-dev/vite/babel.ts
+     📄 Files WITHOUT TSImportType (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   ExportAllDeclaration:
+     📄 Files WITH ExportAllDeclaration (showing 1):
+       • packages/react-router-dom/index.ts
+     📄 Files WITHOUT ExportAllDeclaration (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSBigIntKeyword:
+     📄 Files WITH TSBigIntKeyword (showing 2):
+       • packages/react-router/lib/router/links.ts
+       • packages/react-router/lib/server-runtime/single-fetch.ts
+     📄 Files WITHOUT TSBigIntKeyword (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSParameterProperty:
+     📄 Files WITH TSParameterProperty (showing 1):
+       • packages/react-router/__tests__/vendor/turbo-stream-test.ts
+     📄 Files WITHOUT TSParameterProperty (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   DoWhileStatement:
+     📄 Files WITH DoWhileStatement (showing 1):
+       • packages/react-router-dev/vite/plugin.ts
+     📄 Files WITHOUT DoWhileStatement (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   TSClassImplements:
+     📄 Files WITH TSClassImplements (showing 1):
+       • packages/react-router/lib/router/utils.ts
+     📄 Files WITHOUT TSClassImplements (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+   ClassExpression:
+     📄 Files WITH ClassExpression (showing 1):
+       • packages/react-router/__tests__/dom/polyfills/drop-FormData-submitter.ts
+     📄 Files WITHOUT ClassExpression (showing 10):
+       • prettier.config.js
+       • build.utils.ts
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/playground.js
+       • scripts/find-release-from-changeset.js
+       • scripts/constants.js
+       • scripts/close-no-repro-issues.ts
+
+============================================================
+✅ Analysis complete!

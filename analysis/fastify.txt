@@ -1,5 +1,5 @@
 AST Analysis Report for fastify
-Generated on: 2025-07-14T01:41:58.746Z
+Generated on: 2025-07-14T01:56:21.897Z
 Repository: sample-repos/fastify
 ================================================================================
 
@@ -84,8 +84,8 @@ Repository: sample-repos/fastify
    TSNumberKeyword                  17 files (  6.0%) -      173 total (0.05%)
    ArrayPattern                     17 files (  6.0%) -       53 total (0.02%)
    TSBooleanKeyword                 15 files (  5.3%) -      138 total (0.04%)
-   BreakStatement                   14 files (  4.9%) -       91 total (0.03%)
    TSAnyKeyword                     14 files (  4.9%) -       58 total (0.02%)
+   BreakStatement                   14 files (  4.9%) -       91 total (0.03%)
    SpreadElement                    13 files (  4.6%) -       19 total (0.01%)
    TSArrayType                      13 files (  4.6%) -       97 total (0.03%)
    TSQualifiedName                  13 files (  4.6%) -      199 total (0.06%)
@@ -100,29 +100,29 @@ Repository: sample-repos/fastify
    TSIndexSignature                  9 files (  3.2%) -       32 total (0.01%)
    TSMethodSignature                 9 files (  3.2%) -      104 total (0.03%)
    TSParenthesizedType               9 files (  3.2%) -       32 total (0.01%)
+   TSCallSignatureDeclaration        9 files (  3.2%) -       52 total (0.02%)
    SwitchStatement                   9 files (  3.2%) -       23 total (0.01%)
    SwitchCase                        9 files (  3.2%) -       98 total (0.03%)
-   TSCallSignatureDeclaration        9 files (  3.2%) -       52 total (0.02%)
    ChainExpression                   8 files (  2.8%) -       26 total (0.01%)
+   TSNeverKeyword                    6 files (  2.1%) -       32 total (0.01%)
    ClassDeclaration                  6 files (  2.1%) -        9 total (0.00%)
    ClassBody                         6 files (  2.1%) -        9 total (0.00%)
-   TSNeverKeyword                    6 files (  2.1%) -       32 total (0.01%)
    RestElement                       5 files (  1.8%) -       17 total (0.01%)
    TSTypeQuery                       5 files (  1.8%) -       15 total (0.00%)
    TSAsExpression                    5 files (  1.8%) -       39 total (0.01%)
    TSModuleDeclaration               4 files (  1.4%) -        5 total (0.00%)
    TSModuleBlock                     4 files (  1.4%) -        5 total (0.00%)
-   ContinueStatement                 4 files (  1.4%) -        6 total (0.00%)
    TSTypeOperator                    4 files (  1.4%) -       21 total (0.01%)
+   ContinueStatement                 4 files (  1.4%) -        6 total (0.00%)
    ImportExpression                  4 files (  1.4%) -        7 total (0.00%)
    TSTupleType                       3 files (  1.1%) -        5 total (0.00%)
-   ForInStatement                    3 files (  1.1%) -        5 total (0.00%)
    TSSymbolKeyword                   3 files (  1.1%) -       12 total (0.00%)
+   ForInStatement                    3 files (  1.1%) -        5 total (0.00%)
    ExportDefaultDeclaration          3 files (  1.1%) -        3 total (0.00%)
-   MethodDefinition                  2 files (  0.7%) -       21 total (0.01%)
-   WhileStatement                    2 files (  0.7%) -        3 total (0.00%)
    TSInferType                       2 files (  0.7%) -        8 total (0.00%)
    TSMappedType                      2 files (  0.7%) -        5 total (0.00%)
+   MethodDefinition                  2 files (  0.7%) -       21 total (0.01%)
+   WhileStatement                    2 files (  0.7%) -        3 total (0.00%)
    PropertyDefinition                2 files (  0.7%) -        2 total (0.00%)
    ExportSpecifier                   1 files (  0.4%) -       94 total (0.03%)
    TSDeclareFunction                 1 files (  0.4%) -        4 total (0.00%)
@@ -211,8 +211,8 @@ Repository: sample-repos/fastify
    TSInterfaceHeritage                  24 (0.01%) in 11 files (3.9%)
    SwitchStatement                      23 (0.01%) in 9 files (3.2%)
    ForStatement                         22 (0.01%) in 13 files (4.6%)
-   MethodDefinition                     21 (0.01%) in 2 files (0.7%)
    TSTypeOperator                       21 (0.01%) in 4 files (1.4%)
+   MethodDefinition                     21 (0.01%) in 2 files (0.7%)
    ImportDefaultSpecifier               20 (0.01%) in 18 files (6.4%)
    SpreadElement                        19 (0.01%) in 13 files (4.6%)
    AssignmentPattern                    18 (0.01%) in 10 files (3.5%)
@@ -230,8 +230,8 @@ Repository: sample-repos/fastify
    TSModuleDeclaration                   5 (0.00%) in 4 files (1.4%)
    TSModuleBlock                         5 (0.00%) in 4 files (1.4%)
    TSTupleType                           5 (0.00%) in 3 files (1.1%)
-   ForInStatement                        5 (0.00%) in 3 files (1.1%)
    TSMappedType                          5 (0.00%) in 2 files (0.7%)
+   ForInStatement                        5 (0.00%) in 3 files (1.1%)
    TSDeclareFunction                     4 (0.00%) in 1 files (0.4%)
    WhileStatement                        3 (0.00%) in 2 files (0.7%)
    ExportDefaultDeclaration              3 (0.00%) in 3 files (1.1%)
@@ -247,27 +247,27 @@ Repository: sample-repos/fastify
        • fastify.js
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
      📄 Files WITHOUT Identifier: (all files contain this node type)
 
    MemberExpression:
      📄 Files WITH MemberExpression (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/logger.d.ts
+       • types/instance.d.ts
+       • test/wrap-thenable.test.js
+       • test/web-api.test.js
+       • test/versioned-routes.test.js
+       • test/validation-error-handling.test.js
+       • test/use-semicolon-delimiter.test.js
+       • test/url-rewriting.test.js
      📄 Files WITHOUT MemberExpression (showing 10):
        • fastify.d.ts
        • types/utils.d.ts
@@ -284,17 +284,16 @@ Repository: sample-repos/fastify
      📄 Files WITH CallExpression (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • test/wrap-thenable.test.js
+       • test/web-api.test.js
+       • test/versioned-routes.test.js
+       • test/validation-error-handling.test.js
+       • test/use-semicolon-delimiter.test.js
+       • test/url-rewriting.test.js
+       • test/upgrade.test.js
+       • test/type-provider.test.js
      📄 Files WITHOUT CallExpression (showing 10):
        • fastify.d.ts
-       • lib/noop-set.js
        • types/utils.d.ts
        • types/type-provider.d.ts
        • types/serverFactory.d.ts
@@ -303,33 +302,34 @@ Repository: sample-repos/fastify
        • types/request.d.ts
        • types/reply.d.ts
        • types/register.d.ts
+       • types/plugin.d.ts
 
    Literal:
      📄 Files WITH Literal (showing 10):
        • fastify.js
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
      📄 Files WITHOUT Literal: (all files contain this node type)
 
    ExpressionStatement:
      📄 Files WITH ExpressionStatement (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • test/wrap-thenable.test.js
+       • test/web-api.test.js
+       • test/versioned-routes.test.js
+       • test/validation-error-handling.test.js
+       • test/use-semicolon-delimiter.test.js
+       • test/url-rewriting.test.js
+       • test/upgrade.test.js
+       • test/type-provider.test.js
      📄 Files WITHOUT ExpressionStatement (showing 10):
        • fastify.d.ts
        • types/utils.d.ts
@@ -346,14 +346,14 @@ Repository: sample-repos/fastify
      📄 Files WITH Property (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • test/wrap-thenable.test.js
+       • test/web-api.test.js
+       • test/versioned-routes.test.js
+       • test/validation-error-handling.test.js
+       • test/use-semicolon-delimiter.test.js
+       • test/url-rewriting.test.js
+       • test/upgrade.test.js
+       • test/type-provider.test.js
      📄 Files WITHOUT Property (showing 10):
        • fastify.d.ts
        • types/utils.d.ts
@@ -369,42 +369,18 @@ Repository: sample-repos/fastify
    BlockStatement:
      📄 Files WITH BlockStatement (showing 10):
        • fastify.js
-       • lib/wrapThenable.js
-       • lib/validation.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
-       • lib/request.js
-       • lib/reqIdGenFactory.js
-       • lib/reply.js
+       • test/wrap-thenable.test.js
+       • test/web-api.test.js
+       • test/versioned-routes.test.js
+       • test/validation-error-handling.test.js
+       • test/use-semicolon-delimiter.test.js
+       • test/url-rewriting.test.js
+       • test/upgrade.test.js
+       • test/type-provider.test.js
+       • test/trust-proxy.test.js
      📄 Files WITHOUT BlockStatement (showing 10):
        • fastify.d.ts
        • eslint.config.js
-       • lib/warnings.js
-       • lib/symbols.js
-       • types/utils.d.ts
-       • types/type-provider.d.ts
-       • types/serverFactory.d.ts
-       • types/schema.d.ts
-       • types/route.d.ts
-       • types/request.d.ts
-
-   ObjectExpression:
-     📄 Files WITH ObjectExpression (showing 10):
-       • fastify.js
-       • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
-     📄 Files WITHOUT ObjectExpression (showing 10):
-       • fastify.d.ts
-       • lib/pluginOverride.js
        • types/utils.d.ts
        • types/type-provider.d.ts
        • types/serverFactory.d.ts
@@ -413,6 +389,30 @@ Repository: sample-repos/fastify
        • types/request.d.ts
        • types/reply.d.ts
        • types/register.d.ts
+
+   ObjectExpression:
+     📄 Files WITH ObjectExpression (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • test/wrap-thenable.test.js
+       • test/web-api.test.js
+       • test/versioned-routes.test.js
+       • test/validation-error-handling.test.js
+       • test/use-semicolon-delimiter.test.js
+       • test/url-rewriting.test.js
+       • test/upgrade.test.js
+       • test/trust-proxy.test.js
+     📄 Files WITHOUT ObjectExpression (showing 10):
+       • fastify.d.ts
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
 
    TSTypeReference:
      📄 Files WITH TSTypeReference (showing 10):
@@ -429,29 +429,28 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT TSTypeReference (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • test/wrap-thenable.test.js
+       • test/web-api.test.js
+       • test/versioned-routes.test.js
+       • test/validation-error-handling.test.js
+       • test/use-semicolon-delimiter.test.js
+       • test/url-rewriting.test.js
+       • test/upgrade.test.js
+       • test/type-provider.test.js
 
    VariableDeclarator:
      📄 Files WITH VariableDeclarator (showing 10):
        • fastify.js
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
+       • test/wrap-thenable.test.js
+       • test/web-api.test.js
+       • test/versioned-routes.test.js
+       • test/validation-error-handling.test.js
+       • test/use-semicolon-delimiter.test.js
+       • test/url-rewriting.test.js
+       • test/upgrade.test.js
      📄 Files WITHOUT VariableDeclarator (showing 10):
-       • lib/noop-set.js
        • types/utils.d.ts
        • types/type-provider.d.ts
        • types/serverFactory.d.ts
@@ -461,21 +460,21 @@ Repository: sample-repos/fastify
        • types/reply.d.ts
        • types/register.d.ts
        • types/plugin.d.ts
+       • types/logger.d.ts
 
    VariableDeclaration:
      📄 Files WITH VariableDeclaration (showing 10):
        • fastify.js
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
+       • test/wrap-thenable.test.js
+       • test/web-api.test.js
+       • test/versioned-routes.test.js
+       • test/validation-error-handling.test.js
+       • test/use-semicolon-delimiter.test.js
+       • test/url-rewriting.test.js
+       • test/upgrade.test.js
      📄 Files WITHOUT VariableDeclaration (showing 10):
-       • lib/noop-set.js
        • types/utils.d.ts
        • types/type-provider.d.ts
        • types/serverFactory.d.ts
@@ -485,30 +484,31 @@ Repository: sample-repos/fastify
        • types/reply.d.ts
        • types/register.d.ts
        • types/plugin.d.ts
+       • types/logger.d.ts
 
    ArrowFunctionExpression:
      📄 Files WITH ArrowFunctionExpression (showing 10):
        • fastify.js
-       • lib/validation.js
-       • lib/server.js
-       • lib/schema-controller.js
-       • lib/route.js
-       • lib/request.js
-       • lib/reply.js
-       • lib/promise.js
-       • lib/pluginUtils.js
-       • lib/logger-factory.js
+       • test/wrap-thenable.test.js
+       • test/web-api.test.js
+       • test/versioned-routes.test.js
+       • test/validation-error-handling.test.js
+       • test/use-semicolon-delimiter.test.js
+       • test/url-rewriting.test.js
+       • test/upgrade.test.js
+       • test/type-provider.test.js
+       • test/trust-proxy.test.js
      📄 Files WITHOUT ArrowFunctionExpression (showing 10):
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/symbols.js
-       • lib/schemas.js
-       • lib/reqIdGenFactory.js
-       • lib/pluginOverride.js
-       • lib/noop-set.js
-       • lib/logger-pino.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
 
    TSTypeParameterInstantiation:
      📄 Files WITH TSTypeParameterInstantiation (showing 10):
@@ -525,14 +525,14 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT TSTypeParameterInstantiation (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/context.d.ts
+       • test/wrap-thenable.test.js
+       • test/web-api.test.js
+       • test/versioned-routes.test.js
+       • test/validation-error-handling.test.js
+       • test/use-semicolon-delimiter.test.js
+       • test/url-rewriting.test.js
+       • test/upgrade.test.js
 
    AwaitExpression:
      📄 Files WITH AwaitExpression (showing 10):
@@ -550,61 +550,61 @@ Repository: sample-repos/fastify
        • fastify.js
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
 
    FunctionExpression:
      📄 Files WITH FunctionExpression (showing 10):
        • fastify.js
-       • lib/wrapThenable.js
-       • lib/validation.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
-       • lib/request.js
-       • lib/reqIdGenFactory.js
-       • lib/reply.js
+       • test/web-api.test.js
+       • test/versioned-routes.test.js
+       • test/validation-error-handling.test.js
+       • test/url-rewriting.test.js
+       • test/trust-proxy.test.js
+       • test/toolkit.js
+       • test/throw.test.js
+       • test/stream.5.test.js
+       • test/stream.4.test.js
      📄 Files WITHOUT FunctionExpression (showing 10):
        • fastify.d.ts
        • eslint.config.js
-       • lib/warnings.js
-       • lib/symbols.js
-       • lib/promise.js
-       • lib/pluginUtils.js
-       • lib/logger-factory.js
-       • lib/initialConfigValidation.js
-       • lib/headRoute.js
-       • lib/handleRequest.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
 
    BinaryExpression:
      📄 Files WITH BinaryExpression (showing 10):
        • fastify.js
-       • lib/wrapThenable.js
-       • lib/validation.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
-       • lib/request.js
-       • lib/reqIdGenFactory.js
-       • lib/reply.js
+       • test/validation-error-handling.test.js
+       • test/use-semicolon-delimiter.test.js
+       • test/url-rewriting.test.js
+       • test/upgrade.test.js
+       • test/trust-proxy.test.js
+       • test/toolkit.js
+       • test/stream.2.test.js
+       • test/stream.1.test.js
+       • test/stream-serializers.test.js
      📄 Files WITHOUT BinaryExpression (showing 10):
        • fastify.d.ts
        • eslint.config.js
-       • lib/warnings.js
-       • lib/symbols.js
-       • lib/noop-set.js
-       • lib/logger-pino.js
-       • lib/errors.js
        • types/utils.d.ts
        • types/type-provider.d.ts
        • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
 
    TSTypeAnnotation:
      📄 Files WITH TSTypeAnnotation (showing 10):
@@ -621,27 +621,27 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT TSTypeAnnotation (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/utils.d.ts
+       • types/errors.d.ts
+       • test/wrap-thenable.test.js
+       • test/web-api.test.js
+       • test/versioned-routes.test.js
+       • test/validation-error-handling.test.js
+       • test/use-semicolon-delimiter.test.js
+       • test/url-rewriting.test.js
 
    AssignmentExpression:
      📄 Files WITH AssignmentExpression (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • test/wrap-thenable.test.js
+       • test/versioned-routes.test.js
+       • test/validation-error-handling.test.js
+       • test/trust-proxy.test.js
+       • test/toolkit.js
+       • test/stream.5.test.js
+       • test/stream.4.test.js
+       • test/stream.3.test.js
      📄 Files WITHOUT AssignmentExpression (showing 10):
        • fastify.d.ts
        • types/utils.d.ts
@@ -657,170 +657,170 @@ Repository: sample-repos/fastify
    ReturnStatement:
      📄 Files WITH ReturnStatement (showing 10):
        • fastify.js
-       • lib/wrapThenable.js
-       • lib/validation.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
-       • lib/request.js
-       • lib/reqIdGenFactory.js
-       • lib/reply.js
+       • test/web-api.test.js
+       • test/versioned-routes.test.js
+       • test/validation-error-handling.test.js
+       • test/url-rewriting.test.js
+       • test/trust-proxy.test.js
+       • test/toolkit.js
+       • test/stream.5.test.js
+       • test/stream.2.test.js
+       • test/stream.1.test.js
      📄 Files WITHOUT ReturnStatement (showing 10):
        • fastify.d.ts
        • eslint.config.js
-       • lib/warnings.js
-       • lib/symbols.js
        • types/utils.d.ts
        • types/type-provider.d.ts
        • types/serverFactory.d.ts
        • types/schema.d.ts
        • types/route.d.ts
        • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
 
    IfStatement:
      📄 Files WITH IfStatement (showing 10):
        • fastify.js
-       • lib/wrapThenable.js
-       • lib/validation.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
-       • lib/request.js
-       • lib/reqIdGenFactory.js
-       • lib/reply.js
+       • test/versioned-routes.test.js
+       • test/validation-error-handling.test.js
+       • test/trust-proxy.test.js
+       • test/toolkit.js
+       • test/stream.4.test.js
+       • test/stream.3.test.js
+       • test/stream.2.test.js
+       • test/stream.1.test.js
+       • test/skip-reply-send.test.js
      📄 Files WITHOUT IfStatement (showing 10):
        • fastify.d.ts
        • eslint.config.js
-       • lib/warnings.js
-       • lib/symbols.js
-       • lib/promise.js
-       • lib/noop-set.js
-       • lib/errors.js
-       • lib/context.js
        • types/utils.d.ts
        • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
 
    Unknown:
      📄 Files WITH Unknown (showing 10):
        • fastify.js
-       • lib/validation.js
-       • lib/server.js
-       • lib/route.js
-       • lib/reqIdGenFactory.js
-       • lib/reply.js
-       • lib/pluginUtils.js
-       • lib/hooks.js
-       • lib/fourOhFour.js
-       • lib/configValidator.js
+       • types/utils.d.ts
+       • test/web-api.test.js
+       • test/url-rewriting.test.js
+       • test/upgrade.test.js
+       • test/trust-proxy.test.js
+       • test/throw.test.js
+       • test/stream.5.test.js
+       • test/stream.4.test.js
+       • test/stream.3.test.js
      📄 Files WITHOUT Unknown (showing 10):
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/symbols.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/request.js
-       • lib/promise.js
-       • lib/pluginOverride.js
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
 
    UnaryExpression:
      📄 Files WITH UnaryExpression (showing 10):
        • fastify.js
-       • lib/wrapThenable.js
-       • lib/validation.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
-       • lib/request.js
-       • lib/reply.js
-       • lib/promise.js
+       • test/versioned-routes.test.js
+       • test/use-semicolon-delimiter.test.js
+       • test/url-rewriting.test.js
+       • test/toolkit.js
+       • test/stream.4.test.js
+       • test/stream.3.test.js
+       • test/stream.1.test.js
+       • test/server.test.js
+       • test/schema-validation.test.js
      📄 Files WITHOUT UnaryExpression (showing 10):
        • fastify.d.ts
        • eslint.config.js
-       • lib/warnings.js
-       • lib/symbols.js
-       • lib/reqIdGenFactory.js
-       • lib/noop-set.js
-       • lib/errors.js
        • types/utils.d.ts
        • types/type-provider.d.ts
        • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
 
    ThisExpression:
      📄 Files WITH ThisExpression (showing 10):
        • fastify.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
-       • lib/request.js
-       • lib/reply.js
-       • lib/pluginUtils.js
-       • lib/hooks.js
-       • lib/handleRequest.js
+       • test/validation-error-handling.test.js
+       • test/url-rewriting.test.js
+       • test/stream.5.test.js
+       • test/stream.4.test.js
+       • test/stream.3.test.js
+       • test/schema-feature.test.js
+       • test/route-hooks.test.js
+       • test/request-error.test.js
+       • test/reply-error.test.js
      📄 Files WITHOUT ThisExpression (showing 10):
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/reqIdGenFactory.js
-       • lib/promise.js
-       • lib/pluginOverride.js
-       • lib/noop-set.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
 
    TemplateElement:
      📄 Files WITH TemplateElement (showing 10):
        • fastify.js
-       • lib/server.js
-       • lib/route.js
-       • lib/reqIdGenFactory.js
-       • lib/reply.js
-       • lib/pluginUtils.js
-       • lib/hooks.js
-       • lib/fourOhFour.js
        • types/utils.d.ts
-       • integration/server.js
+       • test/web-api.test.js
+       • test/url-rewriting.test.js
+       • test/upgrade.test.js
+       • test/trust-proxy.test.js
+       • test/stream.5.test.js
+       • test/stream.4.test.js
+       • test/stream.3.test.js
+       • test/stream.1.test.js
      📄 Files WITHOUT TemplateElement (showing 10):
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/request.js
-       • lib/promise.js
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
 
    NewExpression:
      📄 Files WITH NewExpression (showing 10):
        • fastify.js
-       • lib/validation.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
-       • lib/request.js
-       • lib/reply.js
-       • lib/promise.js
-       • lib/pluginUtils.js
+       • test/wrap-thenable.test.js
+       • test/web-api.test.js
+       • test/versioned-routes.test.js
+       • test/validation-error-handling.test.js
+       • test/toolkit.js
+       • test/sync-routes.test.js
+       • test/stream.5.test.js
+       • test/stream.4.test.js
+       • test/stream.3.test.js
      📄 Files WITHOUT NewExpression (showing 10):
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/symbols.js
-       • lib/reqIdGenFactory.js
-       • lib/pluginOverride.js
-       • lib/noop-set.js
-       • lib/headRoute.js
-       • lib/handleRequest.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
 
    TSTypeParameter:
      📄 Files WITH TSTypeParameter (showing 10):
@@ -837,38 +837,38 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT TSTypeParameter (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/errors.d.ts
+       • test/wrap-thenable.test.js
+       • test/web-api.test.js
+       • test/versioned-routes.test.js
+       • test/validation-error-handling.test.js
+       • test/use-semicolon-delimiter.test.js
+       • test/url-rewriting.test.js
+       • test/upgrade.test.js
 
    ArrayExpression:
      📄 Files WITH ArrayExpression (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/route.js
-       • lib/request.js
-       • lib/reply.js
-       • lib/pluginOverride.js
-       • lib/logger-factory.js
-       • lib/hooks.js
+       • test/validation-error-handling.test.js
+       • test/trust-proxy.test.js
+       • test/throw.test.js
+       • test/stream.4.test.js
+       • test/skip-reply-send.test.js
+       • test/schema-validation.test.js
+       • test/schema-special-usage.test.js
+       • test/schema-serialization.test.js
      📄 Files WITHOUT ArrayExpression (showing 10):
        • fastify.d.ts
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/schema-controller.js
-       • lib/reqIdGenFactory.js
-       • lib/promise.js
-       • lib/pluginUtils.js
-       • lib/noop-set.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
 
    ImportSpecifier:
      📄 Files WITH ImportSpecifier (showing 10):
@@ -885,62 +885,62 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT ImportSpecifier (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/utils.d.ts
+       • test/wrap-thenable.test.js
+       • test/web-api.test.js
+       • test/versioned-routes.test.js
+       • test/validation-error-handling.test.js
+       • test/use-semicolon-delimiter.test.js
+       • test/url-rewriting.test.js
+       • test/upgrade.test.js
 
    ObjectPattern:
      📄 Files WITH ObjectPattern (showing 10):
        • fastify.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
-       • lib/request.js
-       • lib/reply.js
+       • test/wrap-thenable.test.js
+       • test/web-api.test.js
+       • test/versioned-routes.test.js
+       • test/validation-error-handling.test.js
+       • test/use-semicolon-delimiter.test.js
+       • test/url-rewriting.test.js
+       • test/upgrade.test.js
+       • test/type-provider.test.js
+       • test/trust-proxy.test.js
      📄 Files WITHOUT ObjectPattern (showing 10):
        • fastify.d.ts
        • eslint.config.js
-       • lib/symbols.js
-       • lib/reqIdGenFactory.js
-       • lib/noop-set.js
-       • lib/headRoute.js
-       • lib/errors.js
-       • lib/error-serializer.js
        • types/utils.d.ts
        • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
 
    LogicalExpression:
      📄 Files WITH LogicalExpression (showing 10):
        • fastify.js
-       • lib/wrapThenable.js
-       • lib/validation.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
-       • lib/request.js
-       • lib/reqIdGenFactory.js
-       • lib/reply.js
+       • test/versioned-routes.test.js
+       • test/validation-error-handling.test.js
+       • test/upgrade.test.js
+       • test/toolkit.js
+       • test/schema-special-usage.test.js
+       • test/router-options.test.js
+       • test/plugin.1.test.js
+       • test/hooks.test.js
+       • test/decorator.test.js
      📄 Files WITHOUT LogicalExpression (showing 10):
        • fastify.d.ts
        • eslint.config.js
-       • lib/warnings.js
-       • lib/symbols.js
-       • lib/promise.js
-       • lib/noop-set.js
-       • lib/headRoute.js
-       • lib/errors.js
        • types/utils.d.ts
        • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
 
    TSStringKeyword:
      📄 Files WITH TSStringKeyword (showing 10):
@@ -957,38 +957,38 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT TSStringKeyword (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/errors.d.ts
+       • types/context.d.ts
+       • test/wrap-thenable.test.js
+       • test/web-api.test.js
+       • test/versioned-routes.test.js
+       • test/validation-error-handling.test.js
+       • test/use-semicolon-delimiter.test.js
+       • test/url-rewriting.test.js
 
    FunctionDeclaration:
      📄 Files WITH FunctionDeclaration (showing 10):
        • fastify.js
-       • lib/wrapThenable.js
-       • lib/validation.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
-       • lib/request.js
-       • lib/reqIdGenFactory.js
-       • lib/reply.js
+       • test/validation-error-handling.test.js
+       • test/toolkit.js
+       • test/throw.test.js
+       • test/skip-reply-send.test.js
+       • test/server.test.js
+       • test/schema-special-usage.test.js
+       • test/schema-feature.test.js
+       • test/route.3.test.js
+       • test/route-hooks.test.js
      📄 Files WITHOUT FunctionDeclaration (showing 10):
        • fastify.d.ts
        • eslint.config.js
-       • lib/warnings.js
-       • lib/symbols.js
-       • lib/noop-set.js
        • types/utils.d.ts
        • types/type-provider.d.ts
        • types/serverFactory.d.ts
        • types/schema.d.ts
        • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
 
    TSPropertySignature:
      📄 Files WITH TSPropertySignature (showing 10):
@@ -1005,14 +1005,14 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT TSPropertySignature (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/utils.d.ts
+       • types/serverFactory.d.ts
+       • types/plugin.d.ts
+       • types/errors.d.ts
+       • test/wrap-thenable.test.js
+       • test/web-api.test.js
+       • test/versioned-routes.test.js
+       • test/validation-error-handling.test.js
 
    TSLiteralType:
      📄 Files WITH TSLiteralType (showing 10):
@@ -1029,100 +1029,100 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT TSLiteralType (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/serverFactory.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
+       • types/context.d.ts
+       • test/wrap-thenable.test.js
+       • test/web-api.test.js
+       • test/versioned-routes.test.js
+       • test/validation-error-handling.test.js
 
    TemplateLiteral:
      📄 Files WITH TemplateLiteral (showing 10):
        • fastify.js
-       • lib/server.js
-       • lib/route.js
-       • lib/reqIdGenFactory.js
-       • lib/reply.js
-       • lib/pluginUtils.js
-       • lib/hooks.js
-       • lib/fourOhFour.js
-       • integration/server.js
-       • examples/typescript-server.ts
+       • test/web-api.test.js
+       • test/url-rewriting.test.js
+       • test/upgrade.test.js
+       • test/trust-proxy.test.js
+       • test/stream.5.test.js
+       • test/stream.4.test.js
+       • test/stream.3.test.js
+       • test/stream.1.test.js
+       • test/skip-reply-send.test.js
      📄 Files WITHOUT TemplateLiteral (showing 10):
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/request.js
-       • lib/promise.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
 
    Program:
      📄 Files WITH Program (showing 10):
        • fastify.js
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
      📄 Files WITHOUT Program: (all files contain this node type)
 
    TryStatement:
      📄 Files WITH TryStatement (showing 10):
        • fastify.js
-       • lib/wrapThenable.js
-       • lib/route.js
-       • lib/reply.js
-       • lib/hooks.js
-       • lib/handleRequest.js
-       • lib/error-handler.js
-       • lib/contentTypeParser.js
-       • examples/parser.js
        • test/validation-error-handling.test.js
+       • test/url-rewriting.test.js
+       • test/type-provider.test.js
+       • test/throw.test.js
+       • test/stream.4.test.js
+       • test/stream.3.test.js
+       • test/server.test.js
+       • test/schema-special-usage.test.js
+       • test/schema-feature.test.js
      📄 Files WITHOUT TryStatement (showing 10):
        • fastify.d.ts
        • eslint.config.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/request.js
-       • lib/reqIdGenFactory.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
 
    CatchClause:
      📄 Files WITH CatchClause (showing 10):
        • fastify.js
-       • lib/wrapThenable.js
-       • lib/route.js
-       • lib/reply.js
-       • lib/hooks.js
-       • lib/handleRequest.js
-       • lib/error-handler.js
-       • lib/contentTypeParser.js
-       • examples/parser.js
        • test/validation-error-handling.test.js
+       • test/url-rewriting.test.js
+       • test/type-provider.test.js
+       • test/throw.test.js
+       • test/stream.4.test.js
+       • test/stream.3.test.js
+       • test/server.test.js
+       • test/schema-special-usage.test.js
+       • test/schema-feature.test.js
      📄 Files WITHOUT CatchClause (showing 10):
        • fastify.d.ts
        • eslint.config.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/request.js
-       • lib/reqIdGenFactory.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
 
    TSUnionType:
      📄 Files WITH TSUnionType (showing 10):
@@ -1139,38 +1139,38 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT TSUnionType (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/context.d.ts
+       • test/wrap-thenable.test.js
+       • test/web-api.test.js
+       • test/versioned-routes.test.js
+       • test/validation-error-handling.test.js
+       • test/use-semicolon-delimiter.test.js
+       • test/url-rewriting.test.js
+       • test/upgrade.test.js
 
    ParenthesizedExpression:
      📄 Files WITH ParenthesizedExpression (showing 10):
        • fastify.js
-       • lib/wrapThenable.js
-       • lib/validation.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
-       • lib/request.js
-       • lib/reqIdGenFactory.js
-       • lib/reply.js
+       • test/versioned-routes.test.js
+       • test/toolkit.js
+       • test/skip-reply-send.test.js
+       • test/schema-validation.test.js
+       • test/schema-special-usage.test.js
+       • test/request-header-host.test.js
+       • test/reply-error.test.js
+       • test/plugin.1.test.js
+       • test/nullable-validation.test.js
      📄 Files WITHOUT ParenthesizedExpression (showing 10):
        • fastify.d.ts
        • eslint.config.js
-       • lib/warnings.js
-       • lib/symbols.js
-       • lib/promise.js
-       • lib/pluginUtils.js
-       • lib/pluginOverride.js
-       • lib/noop-set.js
-       • lib/logger-pino.js
-       • lib/hooks.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
 
    ImportDeclaration:
      📄 Files WITH ImportDeclaration (showing 10):
@@ -1187,62 +1187,62 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT ImportDeclaration (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • test/wrap-thenable.test.js
+       • test/web-api.test.js
+       • test/versioned-routes.test.js
+       • test/validation-error-handling.test.js
+       • test/use-semicolon-delimiter.test.js
+       • test/url-rewriting.test.js
+       • test/upgrade.test.js
+       • test/type-provider.test.js
 
    UpdateExpression:
      📄 Files WITH UpdateExpression (showing 10):
-       • lib/server.js
-       • lib/schemas.js
-       • lib/route.js
-       • lib/request.js
-       • lib/reply.js
-       • lib/pluginUtils.js
-       • lib/hooks.js
-       • lib/decorate.js
-       • lib/context.js
-       • lib/contentTypeParser.js
+       • test/toolkit.js
+       • test/stream.1.test.js
+       • test/schema-serialization.test.js
+       • test/schema-feature.test.js
+       • test/route.8.test.js
+       • test/route-prefix.test.js
+       • test/route-hooks.test.js
+       • test/listen.5.test.js
+       • test/inject.test.js
+       • test/hooks.test.js
      📄 Files WITHOUT UpdateExpression (showing 10):
        • fastify.js
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/schema-controller.js
-       • lib/reqIdGenFactory.js
-       • lib/promise.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
 
    ThrowStatement:
      📄 Files WITH ThrowStatement (showing 10):
        • fastify.js
-       • lib/validation.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/route.js
-       • lib/request.js
-       • lib/reply.js
-       • lib/pluginUtils.js
-       • lib/logger-pino.js
-       • lib/logger-factory.js
+       • test/validation-error-handling.test.js
+       • test/sync-routes.test.js
+       • test/skip-reply-send.test.js
+       • test/schema-validation.test.js
+       • test/schema-special-usage.test.js
+       • test/schema-serialization.test.js
+       • test/route-hooks.test.js
+       • test/reply-error.test.js
+       • test/register.test.js
      📄 Files WITHOUT ThrowStatement (showing 10):
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/symbols.js
-       • lib/schema-controller.js
-       • lib/reqIdGenFactory.js
-       • lib/promise.js
-       • lib/pluginOverride.js
-       • lib/noop-set.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
 
    TSQualifiedName:
      📄 Files WITH TSQualifiedName (showing 10):
@@ -1259,14 +1259,14 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT TSQualifiedName (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/type-provider.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
+       • types/hooks.d.ts
 
    TSVoidKeyword:
      📄 Files WITH TSVoidKeyword (showing 10):
@@ -1283,14 +1283,14 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT TSVoidKeyword (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/utils.d.ts
+       • types/schema.d.ts
+       • types/errors.d.ts
+       • types/context.d.ts
+       • test/wrap-thenable.test.js
+       • test/web-api.test.js
+       • test/versioned-routes.test.js
+       • test/validation-error-handling.test.js
 
    TSNumberKeyword:
      📄 Files WITH TSNumberKeyword (showing 10):
@@ -1307,14 +1307,14 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT TSNumberKeyword (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
+       • types/errors.d.ts
+       • types/context.d.ts
+       • test/wrap-thenable.test.js
 
    TSTypeParameterDeclaration:
      📄 Files WITH TSTypeParameterDeclaration (showing 10):
@@ -1331,14 +1331,14 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT TSTypeParameterDeclaration (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/errors.d.ts
+       • test/wrap-thenable.test.js
+       • test/web-api.test.js
+       • test/versioned-routes.test.js
+       • test/validation-error-handling.test.js
+       • test/use-semicolon-delimiter.test.js
+       • test/url-rewriting.test.js
+       • test/upgrade.test.js
 
    TSUnknownKeyword:
      📄 Files WITH TSUnknownKeyword (showing 10):
@@ -1355,14 +1355,14 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT TSUnknownKeyword (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/register.d.ts
+       • types/plugin.d.ts
+       • types/errors.d.ts
+       • types/context.d.ts
+       • types/content-type-parser.d.ts
+       • test/wrap-thenable.test.js
+       • test/web-api.test.js
+       • test/versioned-routes.test.js
 
    TSFunctionType:
      📄 Files WITH TSFunctionType (showing 10):
@@ -1379,14 +1379,14 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT TSFunctionType (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/request.d.ts
+       • types/errors.d.ts
+       • types/context.d.ts
+       • test/wrap-thenable.test.js
+       • test/web-api.test.js
+       • test/versioned-routes.test.js
 
    ExportNamedDeclaration:
      📄 Files WITH ExportNamedDeclaration (showing 10):
@@ -1403,14 +1403,14 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT ExportNamedDeclaration (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • test/wrap-thenable.test.js
+       • test/web-api.test.js
+       • test/versioned-routes.test.js
+       • test/validation-error-handling.test.js
+       • test/use-semicolon-delimiter.test.js
+       • test/url-rewriting.test.js
+       • test/upgrade.test.js
+       • test/type-provider.test.js
 
    TSBooleanKeyword:
      📄 Files WITH TSBooleanKeyword (showing 10):
@@ -1427,14 +1427,14 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT TSBooleanKeyword (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
+       • types/logger.d.ts
+       • types/hooks.d.ts
+       • types/errors.d.ts
+       • types/context.d.ts
 
    TSTypeAliasDeclaration:
      📄 Files WITH TSTypeAliasDeclaration (showing 10):
@@ -1451,14 +1451,14 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT TSTypeAliasDeclaration (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/context.d.ts
+       • test/wrap-thenable.test.js
+       • test/web-api.test.js
+       • test/versioned-routes.test.js
+       • test/validation-error-handling.test.js
+       • test/use-semicolon-delimiter.test.js
+       • test/url-rewriting.test.js
+       • test/upgrade.test.js
 
    TSConditionalType:
      📄 Files WITH TSConditionalType (showing 10):
@@ -1475,14 +1475,14 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT TSConditionalType (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
+       • types/logger.d.ts
+       • types/errors.d.ts
+       • types/context.d.ts
 
    TSInterfaceDeclaration:
      📄 Files WITH TSInterfaceDeclaration (showing 10):
@@ -1499,14 +1499,14 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT TSInterfaceDeclaration (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/utils.d.ts
+       • types/plugin.d.ts
+       • types/errors.d.ts
+       • test/wrap-thenable.test.js
+       • test/web-api.test.js
+       • test/versioned-routes.test.js
+       • test/validation-error-handling.test.js
+       • test/use-semicolon-delimiter.test.js
 
    TSInterfaceBody:
      📄 Files WITH TSInterfaceBody (showing 10):
@@ -1523,14 +1523,14 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT TSInterfaceBody (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/utils.d.ts
+       • types/plugin.d.ts
+       • types/errors.d.ts
+       • test/wrap-thenable.test.js
+       • test/web-api.test.js
+       • test/versioned-routes.test.js
+       • test/validation-error-handling.test.js
+       • test/use-semicolon-delimiter.test.js
 
    TSMethodSignature:
      📄 Files WITH TSMethodSignature (showing 9):
@@ -1546,14 +1546,14 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT TSMethodSignature (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
+       • types/hooks.d.ts
+       • types/errors.d.ts
+       • types/context.d.ts
 
    TSTypeLiteral:
      📄 Files WITH TSTypeLiteral (showing 10):
@@ -1570,23 +1570,23 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT TSTypeLiteral (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/utils.d.ts
+       • types/serverFactory.d.ts
+       • types/plugin.d.ts
+       • types/errors.d.ts
+       • types/context.d.ts
+       • test/wrap-thenable.test.js
+       • test/web-api.test.js
+       • test/versioned-routes.test.js
 
    SwitchCase:
      📄 Files WITH SwitchCase (showing 9):
-       • lib/route.js
        • test/schema-special-usage.test.js
        • test/schema-serialization.test.js
        • test/schema-feature.test.js
        • test/listen.5.test.js
        • test/content-type.test.js
+       • lib/route.js
        • test/types/type-provider.test-d.ts
        • test/internals/request-validate.test.js
        • test/internals/reply.test.js
@@ -1594,13 +1594,13 @@ Repository: sample-repos/fastify
        • fastify.js
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
 
    TSArrayType:
      📄 Files WITH TSArrayType (showing 10):
@@ -1617,14 +1617,14 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT TSArrayType (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
+       • types/logger.d.ts
+       • types/hooks.d.ts
+       • types/errors.d.ts
 
    ExportSpecifier:
      📄 Files WITH ExportSpecifier (showing 1):
@@ -1632,47 +1632,47 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT ExportSpecifier (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
 
    ForOfStatement:
      📄 Files WITH ForOfStatement (showing 10):
        • fastify.js
-       • lib/validation.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/route.js
-       • lib/reply.js
-       • lib/pluginOverride.js
-       • lib/initialConfigValidation.js
-       • lib/fourOhFour.js
-       • lib/contentTypeParser.js
+       • test/versioned-routes.test.js
+       • test/toolkit.js
+       • test/server.test.js
+       • test/schema-validation.test.js
+       • test/schema-special-usage.test.js
+       • test/schema-feature.test.js
+       • test/route-shorthand.test.js
+       • test/reply-trailers.test.js
+       • test/reply-error.test.js
      📄 Files WITHOUT ForOfStatement (showing 10):
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/symbols.js
-       • lib/schema-controller.js
-       • lib/request.js
-       • lib/reqIdGenFactory.js
-       • lib/promise.js
-       • lib/pluginUtils.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
 
    BreakStatement:
      📄 Files WITH BreakStatement (showing 10):
-       • lib/route.js
-       • lib/configValidator.js
        • test/server.test.js
        • test/schema-serialization.test.js
        • test/schema-feature.test.js
        • test/listen.5.test.js
+       • lib/route.js
+       • lib/configValidator.js
        • test/logger/response.test.js
        • test/logger/request.test.js
        • test/logger/options.test.js
@@ -1681,13 +1681,13 @@ Repository: sample-repos/fastify
        • fastify.js
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
 
    TSIntersectionType:
      📄 Files WITH TSIntersectionType (showing 10):
@@ -1704,14 +1704,14 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT TSIntersectionType (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/schema.d.ts
+       • types/plugin.d.ts
+       • types/errors.d.ts
+       • types/content-type-parser.d.ts
+       • test/wrap-thenable.test.js
+       • test/web-api.test.js
+       • test/versioned-routes.test.js
+       • test/validation-error-handling.test.js
 
    TSIndexedAccessType:
      📄 Files WITH TSIndexedAccessType (showing 10):
@@ -1729,13 +1729,13 @@ Repository: sample-repos/fastify
        • fastify.js
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
+       • types/logger.d.ts
+       • types/hooks.d.ts
+       • types/errors.d.ts
 
    TSUndefinedKeyword:
      📄 Files WITH TSUndefinedKeyword (showing 10):
@@ -1753,37 +1753,37 @@ Repository: sample-repos/fastify
        • fastify.js
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
+       • types/utils.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
+       • types/logger.d.ts
 
    ConditionalExpression:
      📄 Files WITH ConditionalExpression (showing 10):
        • fastify.js
+       • test/versioned-routes.test.js
+       • test/skip-reply-send.test.js
+       • test/server.test.js
+       • test/listen.4.test.js
+       • test/inject.test.js
+       • test/helper.js
+       • test/close.test.js
        • lib/validation.js
        • lib/server.js
-       • lib/schemas.js
-       • lib/route.js
-       • lib/request.js
-       • lib/reply.js
-       • lib/promise.js
-       • lib/pluginUtils.js
-       • lib/logger-pino.js
      📄 Files WITHOUT ConditionalExpression (showing 10):
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/symbols.js
-       • lib/schema-controller.js
-       • lib/reqIdGenFactory.js
-       • lib/pluginOverride.js
-       • lib/noop-set.js
-       • lib/handleRequest.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
 
    TSAnyKeyword:
      📄 Files WITH TSAnyKeyword (showing 10):
@@ -1801,17 +1801,16 @@ Repository: sample-repos/fastify
        • fastify.js
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
+       • types/utils.d.ts
+       • types/serverFactory.d.ts
+       • types/logger.d.ts
+       • types/hooks.d.ts
+       • types/errors.d.ts
+       • types/context.d.ts
+       • test/wrap-thenable.test.js
 
    ArrayPattern:
      📄 Files WITH ArrayPattern (showing 10):
-       • lib/reply.js
        • test/versioned-routes.test.js
        • test/trust-proxy.test.js
        • test/listen.4.test.js
@@ -1820,18 +1819,19 @@ Repository: sample-repos/fastify
        • test/listen.1.test.js
        • test/hooks.on-listen.test.js
        • test/close-pipelining.test.js
+       • lib/reply.js
        • test/logger/response.test.js
      📄 Files WITHOUT ArrayPattern (showing 10):
        • fastify.js
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
 
    TSCallSignatureDeclaration:
      📄 Files WITH TSCallSignatureDeclaration (showing 9):
@@ -1848,13 +1848,13 @@ Repository: sample-repos/fastify
        • fastify.js
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/reply.d.ts
+       • types/plugin.d.ts
+       • types/errors.d.ts
+       • types/context.d.ts
+       • test/wrap-thenable.test.js
 
    TSAsExpression:
      📄 Files WITH TSAsExpression (showing 5):
@@ -1867,13 +1867,13 @@ Repository: sample-repos/fastify
        • fastify.js
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
 
    TSIndexSignature:
      📄 Files WITH TSIndexSignature (showing 9):
@@ -1889,14 +1889,14 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT TSIndexSignature (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/utils.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
+       • types/instance.d.ts
+       • types/hooks.d.ts
+       • types/errors.d.ts
 
    TSParenthesizedType:
      📄 Files WITH TSParenthesizedType (showing 9):
@@ -1912,14 +1912,14 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT TSParenthesizedType (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/plugin.d.ts
+       • types/logger.d.ts
+       • types/hooks.d.ts
+       • types/errors.d.ts
 
    TSNeverKeyword:
      📄 Files WITH TSNeverKeyword (showing 6):
@@ -1933,13 +1933,13 @@ Repository: sample-repos/fastify
        • fastify.js
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/register.d.ts
+       • types/logger.d.ts
+       • types/errors.d.ts
 
    TSNullKeyword:
      📄 Files WITH TSNullKeyword (showing 10):
@@ -1956,36 +1956,36 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT TSNullKeyword (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/route.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
+       • types/logger.d.ts
+       • types/errors.d.ts
 
    ChainExpression:
      📄 Files WITH ChainExpression (showing 8):
+       • test/content-parser.test.js
        • lib/schema-controller.js
        • lib/route.js
        • lib/request.js
        • lib/reply.js
        • lib/pluginUtils.js
        • lib/hooks.js
-       • test/content-parser.test.js
        • test/types/fastify.test-d.ts
      📄 Files WITHOUT ChainExpression (showing 10):
        • fastify.js
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/reqIdGenFactory.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
 
    TSInterfaceHeritage:
      📄 Files WITH TSInterfaceHeritage (showing 10):
@@ -2002,23 +2002,23 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT TSInterfaceHeritage (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/utils.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
+       • types/instance.d.ts
 
    SwitchStatement:
      📄 Files WITH SwitchStatement (showing 9):
-       • lib/route.js
        • test/schema-special-usage.test.js
        • test/schema-serialization.test.js
        • test/schema-feature.test.js
        • test/listen.5.test.js
        • test/content-type.test.js
+       • lib/route.js
        • test/types/type-provider.test-d.ts
        • test/internals/request-validate.test.js
        • test/internals/reply.test.js
@@ -2026,16 +2026,18 @@ Repository: sample-repos/fastify
        • fastify.js
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
 
    ForStatement:
      📄 Files WITH ForStatement (showing 10):
+       • test/toolkit.js
+       • test/route.8.test.js
        • lib/schemas.js
        • lib/route.js
        • lib/request.js
@@ -2044,35 +2046,17 @@ Repository: sample-repos/fastify
        • lib/decorate.js
        • lib/context.js
        • lib/contentTypeParser.js
-       • test/toolkit.js
-       • test/route.8.test.js
      📄 Files WITHOUT ForStatement (showing 10):
        • fastify.js
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schema-controller.js
-       • lib/reqIdGenFactory.js
-
-   MethodDefinition:
-     📄 Files WITH MethodDefinition (showing 2):
-       • lib/schema-controller.js
-       • test/types/logger.test-d.ts
-     📄 Files WITHOUT MethodDefinition (showing 10):
-       • fastify.js
-       • fastify.d.ts
-       • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/route.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
 
    TSTypeOperator:
      📄 Files WITH TSTypeOperator (showing 4):
@@ -2084,13 +2068,29 @@ Repository: sample-repos/fastify
        • fastify.js
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
+       • types/logger.d.ts
+
+   MethodDefinition:
+     📄 Files WITH MethodDefinition (showing 2):
        • lib/schema-controller.js
+       • test/types/logger.test-d.ts
+     📄 Files WITHOUT MethodDefinition (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
 
    ImportDefaultSpecifier:
      📄 Files WITH ImportDefaultSpecifier (showing 10):
@@ -2108,41 +2108,42 @@ Repository: sample-repos/fastify
        • fastify.js
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
 
    SpreadElement:
      📄 Files WITH SpreadElement (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/route.js
-       • lib/reply.js
-       • lib/headRoute.js
        • test/reply-code.test.js
        • test/listen.4.test.js
        • test/issue-4959.test.js
        • test/find-route.test.js
+       • lib/route.js
+       • lib/reply.js
+       • lib/headRoute.js
        • test/types/plugin.test-d.ts
      📄 Files WITHOUT SpreadElement (showing 10):
        • fastify.d.ts
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/request.js
-       • lib/reqIdGenFactory.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
 
    AssignmentPattern:
      📄 Files WITH AssignmentPattern (showing 10):
        • fastify.js
+       • test/helper.js
        • lib/server.js
        • lib/route.js
        • lib/request.js
@@ -2150,19 +2151,18 @@ Repository: sample-repos/fastify
        • lib/error-handler.js
        • lib/contentTypeParser.js
        • lib/configValidator.js
-       • test/helper.js
        • test/logger/logger-test-utils.js
      📄 Files WITHOUT AssignmentPattern (showing 10):
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/reqIdGenFactory.js
-       • lib/promise.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
 
    ImportNamespaceSpecifier:
      📄 Files WITH ImportNamespaceSpecifier (showing 9):
@@ -2178,14 +2178,14 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT ImportNamespaceSpecifier (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/type-provider.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
+       • types/logger.d.ts
 
    RestElement:
      📄 Files WITH RestElement (showing 5):
@@ -2197,14 +2197,14 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT RestElement (showing 10):
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
 
    TSTypeQuery:
      📄 Files WITH TSTypeQuery (showing 5):
@@ -2216,14 +2216,14 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT TSTypeQuery (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
 
    TSSymbolKeyword:
      📄 Files WITH TSSymbolKeyword (showing 3):
@@ -2234,19 +2234,19 @@ Repository: sample-repos/fastify
        • fastify.js
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
 
    ClassDeclaration:
      📄 Files WITH ClassDeclaration (showing 6):
-       • lib/schema-controller.js
        • test/schema-validation.test.js
        • test/schema-feature.test.js
+       • lib/schema-controller.js
        • test/types/logger.test-d.ts
        • test/types/instance.test-d.ts
        • test/internals/validation.test.js
@@ -2254,19 +2254,19 @@ Repository: sample-repos/fastify
        • fastify.js
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/route.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
 
    ClassBody:
      📄 Files WITH ClassBody (showing 6):
-       • lib/schema-controller.js
        • test/schema-validation.test.js
        • test/schema-feature.test.js
+       • lib/schema-controller.js
        • test/types/logger.test-d.ts
        • test/types/instance.test-d.ts
        • test/internals/validation.test.js
@@ -2274,13 +2274,13 @@ Repository: sample-repos/fastify
        • fastify.js
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/route.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
 
    TSTemplateLiteralType:
      📄 Files WITH TSTemplateLiteralType (showing 1):
@@ -2289,13 +2289,13 @@ Repository: sample-repos/fastify
        • fastify.js
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
 
    TSInferType:
      📄 Files WITH TSInferType (showing 2):
@@ -2305,13 +2305,13 @@ Repository: sample-repos/fastify
        • fastify.js
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
 
    TSThisType:
      📄 Files WITH TSThisType (showing 1):
@@ -2320,13 +2320,13 @@ Repository: sample-repos/fastify
        • fastify.js
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
 
    ImportExpression:
      📄 Files WITH ImportExpression (showing 4):
@@ -2338,13 +2338,13 @@ Repository: sample-repos/fastify
        • fastify.js
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
 
    ContinueStatement:
      📄 Files WITH ContinueStatement (showing 4):
@@ -2356,13 +2356,13 @@ Repository: sample-repos/fastify
        • fastify.js
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
 
    TSModuleDeclaration:
      📄 Files WITH TSModuleDeclaration (showing 4):
@@ -2373,14 +2373,14 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT TSModuleDeclaration (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
 
    TSModuleBlock:
      📄 Files WITH TSModuleBlock (showing 4):
@@ -2391,14 +2391,14 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT TSModuleBlock (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
 
    TSTupleType:
      📄 Files WITH TSTupleType (showing 3):
@@ -2408,31 +2408,14 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT TSTupleType (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
-
-   ForInStatement:
-     📄 Files WITH ForInStatement (showing 3):
-       • lib/reply.js
-       • lib/configValidator.js
-       • test/versioned-routes.test.js
-     📄 Files WITHOUT ForInStatement (showing 10):
-       • fastify.js
-       • fastify.d.ts
-       • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
+       • types/logger.d.ts
 
    TSMappedType:
      📄 Files WITH TSMappedType (showing 2):
@@ -2442,13 +2425,30 @@ Repository: sample-repos/fastify
        • fastify.js
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
+
+   ForInStatement:
+     📄 Files WITH ForInStatement (showing 3):
+       • test/versioned-routes.test.js
+       • lib/reply.js
+       • lib/configValidator.js
+     📄 Files WITHOUT ForInStatement (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
 
    TSDeclareFunction:
      📄 Files WITH TSDeclareFunction (showing 1):
@@ -2456,14 +2456,14 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT TSDeclareFunction (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
 
    WhileStatement:
      📄 Files WITH WhileStatement (showing 2):
@@ -2473,13 +2473,13 @@ Repository: sample-repos/fastify
        • fastify.js
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
 
    ExportDefaultDeclaration:
      📄 Files WITH ExportDefaultDeclaration (showing 3):
@@ -2490,13 +2490,13 @@ Repository: sample-repos/fastify
        • fastify.js
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
 
    PropertyDefinition:
      📄 Files WITH PropertyDefinition (showing 2):
@@ -2506,13 +2506,13 @@ Repository: sample-repos/fastify
        • fastify.js
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
 
    TSExportAssignment:
      📄 Files WITH TSExportAssignment (showing 1):
@@ -2520,14 +2520,14 @@ Repository: sample-repos/fastify
      📄 Files WITHOUT TSExportAssignment (showing 10):
        • fastify.js
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
-       • lib/route.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
 
    TSClassImplements:
      📄 Files WITH TSClassImplements (showing 1):
@@ -2536,13 +2536,13 @@ Repository: sample-repos/fastify
        • fastify.js
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
 
    TSNonNullExpression:
      📄 Files WITH TSNonNullExpression (showing 1):
@@ -2551,13 +2551,13 @@ Repository: sample-repos/fastify
        • fastify.js
        • fastify.d.ts
        • eslint.config.js
-       • lib/wrapThenable.js
-       • lib/warnings.js
-       • lib/validation.js
-       • lib/symbols.js
-       • lib/server.js
-       • lib/schemas.js
-       • lib/schema-controller.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
 
 ============================================================
 ✅ Analysis complete!

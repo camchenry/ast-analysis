@@ -1,5 +1,5 @@
 AST Analysis Report for react
-Generated on: 2025-07-14T01:42:27.112Z
+Generated on: 2025-07-14T01:56:54.861Z
 Repository: sample-repos/react
 ================================================================================
 
@@ -131,8 +131,8 @@ Repository: sample-repos/react
    JSXClosingElement                12 files (  0.5%) -       61 total (0.01%)
    TSInterfaceDeclaration           11 files (  0.5%) -       27 total (0.01%)
    TSInterfaceBody                  11 files (  0.5%) -       27 total (0.01%)
-   TSTypeQuery                      10 files (  0.5%) -       34 total (0.01%)
    JSXExpressionContainer           10 files (  0.5%) -       84 total (0.02%)
+   TSTypeQuery                      10 files (  0.5%) -       34 total (0.01%)
    LabeledStatement                  9 files (  0.4%) -        9 total (0.00%)
    DoWhileStatement                  7 files (  0.3%) -       10 total (0.00%)
    TSMethodSignature                 6 files (  0.3%) -       64 total (0.01%)
@@ -146,22 +146,22 @@ Repository: sample-repos/react
    TSObjectKeyword                   3 files (  0.1%) -        8 total (0.00%)
    TSInterfaceHeritage               2 files (  0.1%) -        8 total (0.00%)
    JSXSpreadAttribute                2 files (  0.1%) -        2 total (0.00%)
-   TSParameterProperty               2 files (  0.1%) -        5 total (0.00%)
-   TSThisType                        2 files (  0.1%) -        7 total (0.00%)
-   TSClassImplements                 2 files (  0.1%) -        4 total (0.00%)
    JSXFragment                       2 files (  0.1%) -        6 total (0.00%)
    JSXOpeningFragment                2 files (  0.1%) -        6 total (0.00%)
    JSXClosingFragment                2 files (  0.1%) -        6 total (0.00%)
+   TSParameterProperty               2 files (  0.1%) -        5 total (0.00%)
+   TSThisType                        2 files (  0.1%) -        7 total (0.00%)
+   TSClassImplements                 2 files (  0.1%) -        4 total (0.00%)
    TSCallSignatureDeclaration        1 files (  0.0%) -        2 total (0.00%)
    TSImportEqualsDeclaration         1 files (  0.0%) -        6 total (0.00%)
    TSExternalModuleReference         1 files (  0.0%) -        6 total (0.00%)
    TSBigIntKeyword                   1 files (  0.0%) -        4 total (0.00%)
    JSXMemberExpression               1 files (  0.0%) -        4 total (0.00%)
    TSEmptyBodyFunctionExpression     1 files (  0.0%) -        3 total (0.00%)
+   ImportExpression                  1 files (  0.0%) -        1 total (0.00%)
    TSSymbolKeyword                   1 files (  0.0%) -        1 total (0.00%)
    TSMappedType                      1 files (  0.0%) -        1 total (0.00%)
    TSConditionalType                 1 files (  0.0%) -        1 total (0.00%)
-   ImportExpression                  1 files (  0.0%) -        1 total (0.00%)
    EmptyStatement                    1 files (  0.0%) -        1 total (0.00%)
 
 📝 ALL NODE TYPES (BY TOTAL COUNT):
@@ -283,10 +283,10 @@ Repository: sample-repos/react
    TSThisType                            7 (0.00%) in 2 files (0.1%)
    TSImportEqualsDeclaration             6 (0.00%) in 1 files (0.0%)
    TSExternalModuleReference             6 (0.00%) in 1 files (0.0%)
-   TSTypeOperator                        6 (0.00%) in 5 files (0.2%)
    JSXFragment                           6 (0.00%) in 2 files (0.1%)
    JSXOpeningFragment                    6 (0.00%) in 2 files (0.1%)
    JSXClosingFragment                    6 (0.00%) in 2 files (0.1%)
+   TSTypeOperator                        6 (0.00%) in 5 files (0.2%)
    ClassExpression                       5 (0.00%) in 5 files (0.2%)
    TSIndexSignature                      5 (0.00%) in 5 files (0.2%)
    TSSatisfiesExpression                 5 (0.00%) in 3 files (0.1%)
@@ -298,10 +298,10 @@ Repository: sample-repos/react
    TSEmptyBodyFunctionExpression         3 (0.00%) in 1 files (0.0%)
    TSCallSignatureDeclaration            2 (0.00%) in 1 files (0.0%)
    JSXSpreadAttribute                    2 (0.00%) in 2 files (0.1%)
+   ImportExpression                      1 (0.00%) in 1 files (0.0%)
    TSSymbolKeyword                       1 (0.00%) in 1 files (0.0%)
    TSMappedType                          1 (0.00%) in 1 files (0.0%)
    TSConditionalType                     1 (0.00%) in 1 files (0.0%)
-   ImportExpression                      1 (0.00%) in 1 files (0.0%)
    EmptyStatement                        1 (0.00%) in 1 files (0.0%)
 
 📁 FILE EXAMPLES BY NODE TYPE:
@@ -324,11 +324,11 @@ Repository: sample-repos/react
        • scripts/flow/react-devtools.js
        • scripts/flow/environment.js
        • scripts/error-codes/Types.js
-       • packages/use-subscription/index.js
-       • packages/scheduler/unstable_post_task.js
-       • packages/scheduler/unstable_mock.js
-       • packages/scheduler/index.native.js
-       • packages/scheduler/index.js
+       • packages/shared/shallowEqual.js
+       • packages/shared/reportGlobalError.js
+       • packages/shared/objectIs.js
+       • packages/shared/normalizeConsoleFormat.js
+       • packages/shared/isArray.js
 
    Literal:
      📄 Files WITH Literal (showing 10):
@@ -376,7 +376,7 @@ Repository: sample-repos/react
        • scripts/flow/react-devtools.js
        • scripts/flow/environment.js
        • scripts/error-codes/Types.js
-       • packages/use-sync-external-store/with-selector.js
+       • packages/shared/shallowEqual.js
 
    CallExpression:
      📄 Files WITH CallExpression (showing 10):
@@ -578,10 +578,10 @@ Repository: sample-repos/react
        • packages/eslint-plugin-react-hooks/__tests__/ReactCompilerRuleTypescript-test.ts
        • packages/eslint-plugin-react-hooks/__tests__/ReactCompilerRule-test.ts
        • packages/react-dom-bindings/src/events/PluginModuleType.js
-       • packages/eslint-plugin-react-hooks/src/rules/RulesOfHooks.ts
-       • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
-       • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
        • packages/eslint-plugin-react-hooks/src/types/hermes-parser.d.ts
+       • packages/eslint-plugin-react-hooks/src/types/hermes-eslint.d.ts
+       • packages/eslint-plugin-react-hooks/src/types/estree.d.ts
+       • packages/eslint-plugin-react-hooks/src/rules/RulesOfHooks.ts
      📄 Files WITHOUT TSTypeReference (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -602,10 +602,10 @@ Repository: sample-repos/react
        • packages/eslint-plugin-react-hooks/__tests__/ReactCompilerRuleTypescript-test.ts
        • packages/eslint-plugin-react-hooks/__tests__/ReactCompilerRule-test.ts
        • packages/react/src/__tests__/ReactTypeScriptClass-test.ts
-       • packages/eslint-plugin-react-hooks/src/rules/RulesOfHooks.ts
-       • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
-       • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
        • packages/eslint-plugin-react-hooks/src/types/hermes-parser.d.ts
+       • packages/eslint-plugin-react-hooks/src/types/hermes-eslint.d.ts
+       • packages/eslint-plugin-react-hooks/src/types/global.d.ts
+       • packages/eslint-plugin-react-hooks/src/types/estree.d.ts
      📄 Files WITHOUT TSTypeAnnotation (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -860,11 +860,11 @@ Repository: sample-repos/react
 
    ImportSpecifier:
      📄 Files WITH ImportSpecifier (showing 10):
-       • packages/internal-test-utils/consoleMock.js
        • packages/dom-event-testing-library/testHelpers.js
        • packages/dom-event-testing-library/index.js
        • packages/dom-event-testing-library/domEvents.js
        • packages/dom-event-testing-library/domEventSequences.js
+       • packages/internal-test-utils/consoleMock.js
        • packages/use-sync-external-store/src/isServerEnvironment.js
        • packages/react-native-renderer/src/ReactNativeInjectionShared.js
        • packages/react-native-renderer/src/ReactNativeInjection.js
@@ -974,12 +974,12 @@ Repository: sample-repos/react
        • packages/react-devtools-fusebox/src/frontend.d.ts
        • packages/eslint-plugin-react-hooks/__tests__/ReactCompilerRuleTypescript-test.ts
        • packages/eslint-plugin-react-hooks/__tests__/ReactCompilerRule-test.ts
-       • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
-       • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
        • packages/eslint-plugin-react-hooks/src/types/hermes-parser.d.ts
        • packages/eslint-plugin-react-hooks/src/types/hermes-eslint.d.ts
        • packages/eslint-plugin-react-hooks/src/types/estree.d.ts
-       • compiler/packages/snap/src/types.d.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
+       • compiler/apps/playground/lib/types.d.ts
      📄 Files WITHOUT TSPropertySignature (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -997,13 +997,13 @@ Repository: sample-repos/react
        • scripts/jest/typescript/jest.d.ts
        • packages/react-devtools-fusebox/src/frontend.d.ts
        • packages/eslint-plugin-react-hooks/src/index.ts
+       • packages/eslint-plugin-react-hooks/src/types/hermes-parser.d.ts
+       • packages/eslint-plugin-react-hooks/src/types/hermes-eslint.d.ts
        • packages/eslint-plugin-react-hooks/src/rules/RulesOfHooks.ts
        • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
        • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
-       • packages/eslint-plugin-react-hooks/src/types/hermes-parser.d.ts
-       • packages/eslint-plugin-react-hooks/src/types/hermes-eslint.d.ts
-       • compiler/packages/snap/src/types.d.ts
-       • compiler/packages/snap/src/runner.ts
+       • compiler/apps/playground/lib/types.d.ts
+       • compiler/apps/playground/lib/reactCompilerMonacoDiagnostics.ts
      📄 Files WITHOUT TSTypeParameterInstantiation (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -1044,10 +1044,10 @@ Repository: sample-repos/react
      📄 Files WITH ExportNamedDeclaration (showing 10):
        • scripts/jest/patchSetImmediate.js
        • scripts/jest/patchMessageChannel.js
-       • packages/use-sync-external-store/with-selector.js
-       • packages/use-sync-external-store/index.js
        • packages/shared/ReactInstanceMap.js
        • packages/shared/ReactFlightPropertyAccess.js
+       • packages/use-sync-external-store/with-selector.js
+       • packages/use-sync-external-store/index.js
        • packages/react-server-dom-webpack/static.node.unbundled.js
        • packages/react-server-dom-webpack/static.node.js
        • packages/react-server-dom-webpack/static.edge.js
@@ -1099,7 +1099,7 @@ Repository: sample-repos/react
        • packages/react-dom/server.bun.js
        • packages/react-dom/server.browser.js
        • packages/react-devtools-extensions/improveImages.mjs
-       • packages/internal-test-utils/consoleMock.js
+       • packages/dom-event-testing-library/testHelpers.js
      📄 Files WITHOUT ImportDeclaration (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -1264,10 +1264,10 @@ Repository: sample-repos/react
        • packages/react-devtools-fusebox/src/frontend.d.ts
        • packages/react-dom-bindings/src/events/TopLevelEventTypes.js
        • packages/react-dom-bindings/src/events/PluginModuleType.js
-       • packages/eslint-plugin-react-hooks/src/rules/RulesOfHooks.ts
-       • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
-       • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
        • packages/eslint-plugin-react-hooks/src/types/hermes-parser.d.ts
+       • packages/eslint-plugin-react-hooks/src/types/hermes-eslint.d.ts
+       • packages/eslint-plugin-react-hooks/src/types/estree.d.ts
+       • packages/eslint-plugin-react-hooks/src/rules/RulesOfHooks.ts
      📄 Files WITHOUT TSUnionType (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -1313,9 +1313,9 @@ Repository: sample-repos/react
        • packages/eslint-plugin-react-hooks/__tests__/ReactCompilerRule-test.ts
        • packages/react-dom-bindings/src/events/PluginModuleType.js
        • packages/react/src/__tests__/ReactTypeScriptClass-test.ts
+       • packages/eslint-plugin-react-hooks/src/types/hermes-parser.d.ts
+       • packages/eslint-plugin-react-hooks/src/types/hermes-eslint.d.ts
        • packages/eslint-plugin-react-hooks/src/rules/RulesOfHooks.ts
-       • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
-       • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
      📄 Files WITHOUT TSStringKeyword (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -1384,10 +1384,10 @@ Repository: sample-repos/react
        • packages/eslint-plugin-react-hooks/src/rules/RulesOfHooks.ts
        • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
        • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
-       • compiler/packages/snap/src/runner.ts
-       • compiler/packages/snap/src/runner-watch.ts
-       • compiler/packages/snap/src/compiler.ts
-       • compiler/packages/eslint-plugin-react-compiler/__tests__/ReactCompilerRuleTypescript-test.ts
+       • compiler/apps/playground/lib/reactCompilerMonacoDiagnostics.ts
+       • compiler/apps/playground/lib/createContext.ts
+       • compiler/apps/playground/components/TabbedWindow.tsx
+       • compiler/apps/playground/components/StoreContext.tsx
      📄 Files WITHOUT TSQualifiedName (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -1431,11 +1431,11 @@ Repository: sample-repos/react
        • packages/react-reconciler/src/ReactRootTags.js
        • packages/react-devtools-fusebox/src/frontend.d.ts
        • packages/react-dom-bindings/src/events/TopLevelEventTypes.js
-       • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
-       • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
        • packages/eslint-plugin-react-hooks/src/types/hermes-parser.d.ts
        • packages/eslint-plugin-react-hooks/src/types/hermes-eslint.d.ts
        • packages/eslint-plugin-react-hooks/src/types/estree.d.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
      📄 Files WITHOUT TSLiteralType (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -1455,11 +1455,11 @@ Repository: sample-repos/react
        • packages/eslint-plugin-react-hooks/src/rules/RulesOfHooks.ts
        • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
        • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
+       • compiler/apps/playground/lib/reactCompilerMonacoDiagnostics.ts
+       • compiler/apps/playground/components/TabbedWindow.tsx
+       • compiler/apps/playground/components/Header.tsx
        • compiler/packages/snap/src/runner.ts
        • compiler/packages/snap/src/runner-watch.ts
-       • compiler/packages/snap/src/reporter.ts
-       • compiler/packages/snap/src/compiler.ts
-       • compiler/packages/react-mcp-server/src/index.ts
      📄 Files WITHOUT TSVoidKeyword (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -1478,12 +1478,12 @@ Repository: sample-repos/react
        • packages/react-devtools-fusebox/src/frontend.d.ts
        • packages/eslint-plugin-react-hooks/__tests__/ReactCompilerRuleTypescript-test.ts
        • packages/eslint-plugin-react-hooks/__tests__/ReactCompilerRule-test.ts
-       • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
-       • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
        • packages/eslint-plugin-react-hooks/src/types/hermes-parser.d.ts
        • packages/eslint-plugin-react-hooks/src/types/hermes-eslint.d.ts
-       • compiler/packages/snap/src/types.d.ts
-       • compiler/packages/snap/src/runner.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
+       • compiler/apps/playground/lib/types.d.ts
+       • compiler/apps/playground/lib/reactCompilerMonacoDiagnostics.ts
      📄 Files WITHOUT TSTypeLiteral (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -1547,15 +1547,15 @@ Repository: sample-repos/react
    TSNullKeyword:
      📄 Files WITH TSNullKeyword (showing 10):
        • packages/react-devtools-fusebox/src/frontend.d.ts
+       • packages/eslint-plugin-react-hooks/src/types/hermes-eslint.d.ts
        • packages/eslint-plugin-react-hooks/src/rules/RulesOfHooks.ts
        • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
        • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
-       • packages/eslint-plugin-react-hooks/src/types/hermes-eslint.d.ts
+       • compiler/apps/playground/lib/reactCompilerMonacoDiagnostics.ts
+       • compiler/apps/playground/lib/createContext.ts
+       • compiler/apps/playground/components/TabbedWindow.tsx
        • compiler/packages/snap/src/runner.ts
        • compiler/packages/snap/src/runner-worker.ts
-       • compiler/packages/snap/src/runner-watch.ts
-       • compiler/packages/snap/src/reporter.ts
-       • compiler/packages/snap/src/fixture-utils.ts
      📄 Files WITHOUT TSNullKeyword (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -1578,8 +1578,8 @@ Repository: sample-repos/react
        • packages/react-devtools-shared/src/hooks/__tests__/__source__/__compiled__/no-columns/ComponentWithExternalCustomHooks.js
        • packages/react-devtools-shared/src/hooks/__tests__/__source__/__compiled__/no-columns/ComponentWithCustomHook.js
        • packages/react-devtools-shared/src/hooks/__tests__/__source__/__compiled__/no-columns/ComponentUsingHooksIndirectly.js
-       • packages/react-devtools-shared/src/hooks/__tests__/__source__/__compiled__/inline/useTheme.js
-       • packages/react-devtools-shared/src/hooks/__tests__/__source__/__compiled__/inline/ToDoList.js
+       • packages/react-devtools-shared/src/hooks/__tests__/__source__/__compiled__/external/useTheme.js
+       • packages/react-devtools-shared/src/hooks/__tests__/__source__/__compiled__/external/ToDoList.js
      📄 Files WITHOUT SequenceExpression (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -1596,14 +1596,14 @@ Repository: sample-repos/react
      📄 Files WITH TSBooleanKeyword (showing 10):
        • scripts/jest/typescript/jest.d.ts
        • packages/react-devtools-fusebox/src/frontend.d.ts
-       • packages/eslint-plugin-react-hooks/src/rules/RulesOfHooks.ts
-       • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
-       • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
        • packages/eslint-plugin-react-hooks/src/types/hermes-parser.d.ts
        • packages/eslint-plugin-react-hooks/src/types/hermes-eslint.d.ts
        • packages/eslint-plugin-react-hooks/src/types/global.d.ts
-       • compiler/packages/snap/src/types.d.ts
-       • compiler/packages/snap/src/runner.ts
+       • packages/eslint-plugin-react-hooks/src/rules/RulesOfHooks.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
+       • compiler/apps/playground/lib/types.d.ts
+       • compiler/apps/playground/components/TabbedWindow.tsx
      📄 Files WITHOUT TSBooleanKeyword (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -1650,8 +1650,8 @@ Repository: sample-repos/react
        • scripts/bench/benchmarks/pe-class-components/benchmark.js
        • packages/use-sync-external-store/src/__tests__/useSyncExternalStoreShared-test.js
        • packages/scheduler/src/__tests__/SchedulerPostTask-test.js
-       • packages/react-devtools-timeline/src/import-worker/InvalidProfileError.js
        • packages/react-devtools-shared/src/errors/PermissionNotGrantedError.js
+       • packages/react-devtools-shared/src/errors/ElementPollingCancellationError.js
      📄 Files WITHOUT ClassBody (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -1674,8 +1674,8 @@ Repository: sample-repos/react
        • compiler/apps/playground/app/page.tsx
        • compiler/apps/playground/app/layout.tsx
        • compiler/apps/playground/app/index.tsx
+       • compiler/apps/playground/components/Icons/IconGitHub.tsx
        • compiler/apps/playground/components/Editor/Output.tsx
-       • compiler/apps/playground/components/Editor/Input.tsx
      📄 Files WITHOUT JSXIdentifier (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -1696,9 +1696,9 @@ Repository: sample-repos/react
        • scripts/jest/spec-equivalence-reporter/equivalenceReporter.js
        • scripts/bench/benchmarks/pe-class-components/benchmark.js
        • packages/use-sync-external-store/src/__tests__/useSyncExternalStoreShared-test.js
-       • packages/react-devtools-timeline/src/import-worker/InvalidProfileError.js
        • packages/react-devtools-shared/src/errors/PermissionNotGrantedError.js
        • packages/react-devtools-shared/src/errors/ElementPollingCancellationError.js
+       • packages/react-devtools-timeline/src/import-worker/InvalidProfileError.js
        • packages/react-devtools-extensions/src/main/reactPolling.js
      📄 Files WITHOUT ClassDeclaration (showing 10):
        • dangerfile.js
@@ -1793,9 +1793,9 @@ Repository: sample-repos/react
        • compiler/packages/snap/src/runner-worker.ts
        • compiler/packages/react-mcp-server/src/index.ts
        • compiler/packages/react-compiler-runtime/src/index.ts
-       • compiler/packages/make-read-only-util/src/makeReadOnly.ts
        • compiler/packages/eslint-plugin-react-compiler/src/index.ts
-       • compiler/packages/snap/src/sprout/shared-runtime.ts
+       • compiler/packages/make-read-only-util/src/makeReadOnly.ts
+       • compiler/apps/playground/components/Editor/Input.tsx
      📄 Files WITHOUT TSAsExpression (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -1909,8 +1909,8 @@ Repository: sample-repos/react
        • compiler/scripts/anonymize.js
        • packages/eslint-plugin-react-hooks/__tests__/ReactCompilerRuleTypescript-test.ts
        • packages/eslint-plugin-react-hooks/__tests__/ReactCompilerRule-test.ts
-       • packages/react-devtools-extensions/src/contentScripts/fileFetcher.js
        • packages/react-devtools-extensions/src/main/registerEventsLogger.js
+       • packages/react-devtools-extensions/src/contentScripts/fileFetcher.js
        • packages/react-devtools-extensions/src/background/messageHandlers.js
        • packages/eslint-plugin-react-hooks/src/rules/RulesOfHooks.ts
        • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
@@ -1936,10 +1936,10 @@ Repository: sample-repos/react
        • packages/scheduler/index.native.js
        • packages/scheduler/index.js
        • packages/react-test-renderer/index.js
-       • packages/react-suspense-test-utils/index.js
        • packages/react-server-dom-webpack/client.node.unbundled.js
        • packages/react-server-dom-webpack/client.node.js
        • packages/react-server-dom-webpack/client.js
+       • packages/react-server-dom-webpack/client.edge.js
      📄 Files WITHOUT ExportAllDeclaration (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -1959,8 +1959,8 @@ Repository: sample-repos/react
        • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
        • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
        • compiler/packages/snap/src/runner-watch.ts
-       • compiler/packages/make-read-only-util/src/makeReadOnly.ts
        • compiler/packages/eslint-plugin-react-compiler/__tests__/ReactCompilerRule-test.ts
+       • compiler/packages/make-read-only-util/src/makeReadOnly.ts
        • compiler/packages/snap/src/sprout/evaluator.ts
        • compiler/packages/react-forgive/client/src/colors.ts
        • compiler/packages/eslint-plugin-react-compiler/src/rules/ReactCompilerRule.ts
@@ -1985,9 +1985,9 @@ Repository: sample-repos/react
        • packages/react-dom/server.bun.js
        • packages/react-dom/server.browser.js
        • packages/react-devtools-extensions/improveImages.mjs
-       • packages/react-noop-renderer/src/ReactNoopPersistent.js
-       • packages/react-noop-renderer/src/ReactNoop.js
        • packages/react-native-renderer/src/ReactNativeInjectionShared.js
+       • packages/react-native-renderer/src/ReactNativeInjection.js
+       • packages/react-native-renderer/src/ReactFabricInjection.js
      📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -2010,8 +2010,8 @@ Repository: sample-repos/react
        • compiler/apps/playground/app/page.tsx
        • compiler/apps/playground/app/layout.tsx
        • compiler/apps/playground/app/index.tsx
+       • compiler/apps/playground/components/Icons/IconGitHub.tsx
        • compiler/apps/playground/components/Editor/Output.tsx
-       • compiler/apps/playground/components/Editor/Input.tsx
      📄 Files WITHOUT JSXAttribute (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -2078,8 +2078,8 @@ Repository: sample-repos/react
        • compiler/apps/playground/app/page.tsx
        • compiler/apps/playground/app/layout.tsx
        • compiler/apps/playground/app/index.tsx
+       • compiler/apps/playground/components/Icons/IconGitHub.tsx
        • compiler/apps/playground/components/Editor/Output.tsx
-       • compiler/apps/playground/components/Editor/Input.tsx
      📄 Files WITHOUT JSXText (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -2097,9 +2097,9 @@ Repository: sample-repos/react
        • scripts/bench/build.js
        • packages/react-devtools-extensions/utils.js
        • packages/react-devtools-extensions/build.js
-       • packages/internal-test-utils/consoleMock.js
        • packages/dom-event-testing-library/domEvents.js
        • packages/dom-event-testing-library/domEventSequences.js
+       • packages/internal-test-utils/consoleMock.js
        • scripts/rollup/plugins/closure-plugin.js
        • scripts/error-codes/__tests__/transform-error-messages.js
        • packages/react-refresh/src/ReactFreshBabelPlugin.js
@@ -2143,8 +2143,8 @@ Repository: sample-repos/react
    TSTypeParameter:
      📄 Files WITH TSTypeParameter (showing 10):
        • packages/eslint-plugin-react-hooks/src/rules/RulesOfHooks.ts
-       • compiler/packages/make-read-only-util/src/makeReadOnly.ts
        • compiler/apps/playground/lib/createContext.ts
+       • compiler/packages/make-read-only-util/src/makeReadOnly.ts
        • compiler/packages/snap/src/sprout/shared-runtime.ts
        • compiler/packages/make-read-only-util/src/__tests__/makeReadOnly-test.ts
        • compiler/packages/babel-plugin-react-compiler/src/Utils/utils.ts
@@ -2169,13 +2169,13 @@ Repository: sample-repos/react
        • scripts/jest/typescript/jest.d.ts
        • packages/react-devtools-fusebox/src/frontend.d.ts
        • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
+       • compiler/apps/playground/lib/createContext.ts
+       • compiler/apps/playground/components/TabbedWindow.tsx
+       • compiler/apps/playground/components/Header.tsx
        • compiler/packages/snap/src/runner-watch.ts
        • compiler/packages/snap/src/compiler.ts
        • compiler/packages/react-mcp-server/src/index.ts
        • compiler/packages/react-compiler-runtime/src/index.ts
-       • compiler/packages/make-read-only-util/src/makeReadOnly.ts
-       • compiler/apps/playground/lib/createContext.ts
-       • compiler/apps/playground/components/TabbedWindow.tsx
      📄 Files WITHOUT TSFunctionType (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -2239,8 +2239,8 @@ Repository: sample-repos/react
    TSTypeParameterDeclaration:
      📄 Files WITH TSTypeParameterDeclaration (showing 10):
        • packages/eslint-plugin-react-hooks/src/rules/RulesOfHooks.ts
-       • compiler/packages/make-read-only-util/src/makeReadOnly.ts
        • compiler/apps/playground/lib/createContext.ts
+       • compiler/packages/make-read-only-util/src/makeReadOnly.ts
        • compiler/packages/snap/src/sprout/shared-runtime.ts
        • compiler/packages/make-read-only-util/src/__tests__/makeReadOnly-test.ts
        • compiler/packages/babel-plugin-react-compiler/src/Utils/utils.ts
@@ -2294,8 +2294,8 @@ Repository: sample-repos/react
        • compiler/apps/playground/app/page.tsx
        • compiler/apps/playground/app/layout.tsx
        • compiler/apps/playground/app/index.tsx
+       • compiler/apps/playground/components/Icons/IconGitHub.tsx
        • compiler/apps/playground/components/Editor/Output.tsx
-       • compiler/apps/playground/components/Editor/Input.tsx
      📄 Files WITHOUT JSXElement (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -2318,8 +2318,8 @@ Repository: sample-repos/react
        • compiler/apps/playground/app/page.tsx
        • compiler/apps/playground/app/layout.tsx
        • compiler/apps/playground/app/index.tsx
+       • compiler/apps/playground/components/Icons/IconGitHub.tsx
        • compiler/apps/playground/components/Editor/Output.tsx
-       • compiler/apps/playground/components/Editor/Input.tsx
      📄 Files WITHOUT JSXOpeningElement (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -2337,13 +2337,13 @@ Repository: sample-repos/react
        • compiler/packages/snap/src/runner-watch.ts
        • compiler/packages/react-compiler-runtime/src/index.ts
        • compiler/packages/babel-plugin-react-compiler/src/CompilerError.ts
+       • compiler/apps/playground/lib/stores/messages.ts
        • compiler/packages/babel-plugin-react-compiler/src/Validation/ValidatePreservedManualMemoization.ts
        • compiler/packages/babel-plugin-react-compiler/src/Validation/ValidateHooksUsage.ts
        • compiler/packages/babel-plugin-react-compiler/src/Utils/RuntimeDiagnosticConstants.ts
-       • compiler/packages/babel-plugin-react-compiler/src/ReactiveScopes/PruneNonEscapingScopes.ts
        • compiler/packages/babel-plugin-react-compiler/src/Optimization/InstructionReordering.ts
+       • compiler/packages/babel-plugin-react-compiler/src/ReactiveScopes/PruneNonEscapingScopes.ts
        • compiler/packages/babel-plugin-react-compiler/src/HIR/PropagateScopeDependenciesHIR.ts
-       • compiler/packages/babel-plugin-react-compiler/src/HIR/HIR.ts
      📄 Files WITHOUT TSEnumMember (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -2458,8 +2458,8 @@ Repository: sample-repos/react
        • compiler/apps/playground/app/page.tsx
        • compiler/apps/playground/app/layout.tsx
        • compiler/apps/playground/app/index.tsx
+       • compiler/apps/playground/components/Icons/IconGitHub.tsx
        • compiler/apps/playground/components/Editor/Output.tsx
-       • compiler/apps/playground/components/Editor/Input.tsx
      📄 Files WITHOUT JSXClosingElement (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -2476,14 +2476,14 @@ Repository: sample-repos/react
      📄 Files WITH TSUndefinedKeyword (showing 10):
        • packages/eslint-plugin-react-hooks/src/rules/RulesOfHooks.ts
        • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
+       • compiler/apps/playground/components/Message.tsx
        • compiler/packages/babel-plugin-react-compiler/src/index.ts
        • compiler/packages/babel-plugin-react-compiler/src/CompilerError.ts
-       • compiler/apps/playground/components/Message.tsx
+       • compiler/apps/playground/lib/stores/messages.ts
+       • compiler/apps/playground/components/Editor/Input.tsx
        • compiler/packages/react-forgive/client/src/extension.ts
        • compiler/packages/babel-plugin-react-compiler/src/Validation/ValidateNoRefAccessInRender.ts
        • compiler/packages/babel-plugin-react-compiler/src/Utils/utils.ts
-       • compiler/packages/babel-plugin-react-compiler/src/TypeInference/InferTypes.ts
-       • compiler/packages/babel-plugin-react-compiler/src/Transform/TransformFire.ts
      📄 Files WITHOUT TSUndefinedKeyword (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -2524,14 +2524,14 @@ Repository: sample-repos/react
      📄 Files WITH TSNeverKeyword (showing 10):
        • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
        • compiler/packages/babel-plugin-react-compiler/src/CompilerError.ts
+       • compiler/apps/playground/components/Editor/Output.tsx
+       • compiler/apps/playground/components/Editor/EditorImpl.tsx
        • compiler/packages/snap/src/sprout/shared-runtime.ts
        • compiler/packages/react-mcp-server/src/utils/assertExhaustive.ts
        • compiler/packages/eslint-plugin-react-compiler/src/rules/ReactCompilerRule.ts
        • compiler/packages/babel-plugin-react-compiler/src/Utils/utils.ts
        • compiler/packages/babel-plugin-react-compiler/src/Utils/types.d.ts
        • compiler/packages/babel-plugin-react-compiler/src/Utils/todo.ts
-       • compiler/packages/babel-plugin-react-compiler/src/Utils/Result.ts
-       • compiler/packages/babel-plugin-react-compiler/src/HIR/HIR.ts
      📄 Files WITHOUT TSNeverKeyword (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -2571,15 +2571,15 @@ Repository: sample-repos/react
    TSIndexedAccessType:
      📄 Files WITH TSIndexedAccessType (showing 10):
        • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
-       • compiler/packages/babel-plugin-react-compiler/src/CompilerError.ts
        • compiler/apps/playground/components/Logo.tsx
+       • compiler/packages/babel-plugin-react-compiler/src/CompilerError.ts
+       • compiler/apps/playground/components/Icons/IconGitHub.tsx
+       • compiler/apps/playground/components/Editor/monacoOptions.ts
+       • compiler/apps/playground/components/Editor/Output.tsx
        • compiler/packages/snap/src/sprout/shared-runtime.ts
        • compiler/packages/babel-plugin-react-compiler/src/Utils/types.d.ts
        • compiler/packages/babel-plugin-react-compiler/src/TypeInference/InferTypes.ts
-       • compiler/packages/babel-plugin-react-compiler/src/ReactiveScopes/PropagateEarlyReturns.ts
-       • compiler/packages/babel-plugin-react-compiler/src/ReactiveScopes/CodegenReactiveFunction.ts
        • compiler/packages/babel-plugin-react-compiler/src/Optimization/InlineJsxTransform.ts
-       • compiler/packages/babel-plugin-react-compiler/src/Optimization/DeadCodeElimination.ts
      📄 Files WITHOUT TSIndexedAccessType (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -2600,9 +2600,9 @@ Repository: sample-repos/react
        • compiler/packages/react-compiler-runtime/src/index.ts
        • compiler/packages/babel-plugin-react-compiler/scripts/babel-plugin-annotate-react-code.ts
        • compiler/packages/snap/src/sprout/shared-runtime-type-provider.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Entrypoint/Options.ts
        • compiler/packages/babel-plugin-react-compiler/src/HIR/HIR.ts
        • compiler/packages/babel-plugin-react-compiler/src/HIR/Environment.ts
-       • compiler/packages/babel-plugin-react-compiler/src/Entrypoint/Options.ts
        • compiler/packages/babel-plugin-react-compiler/src/Babel/BabelPlugin.ts
      📄 Files WITHOUT TSTypeQuery (showing 10):
        • dangerfile.js
@@ -2623,8 +2623,8 @@ Repository: sample-repos/react
        • compiler/packages/make-read-only-util/src/makeReadOnly.ts
        • compiler/packages/babel-plugin-react-compiler/scripts/babel-plugin-annotate-react-code.ts
        • compiler/packages/react-mcp-server/src/types/algolia.ts
-       • compiler/packages/react-compiler-healthcheck/src/checks/reactCompiler.ts
        • compiler/packages/eslint-plugin-react-compiler/src/rules/ReactCompilerRule.ts
+       • compiler/packages/react-compiler-healthcheck/src/checks/reactCompiler.ts
        • compiler/packages/babel-plugin-react-compiler/src/Validation/ValidateNoRefAccessInRender.ts
        • compiler/packages/babel-plugin-react-compiler/src/Utils/HookDeclaration.ts
        • compiler/packages/babel-plugin-react-compiler/src/Utils/ComponentDeclaration.ts
@@ -2648,10 +2648,10 @@ Repository: sample-repos/react
        • compiler/packages/snap/src/fixture-utils.ts
        • compiler/packages/snap/src/compiler.ts
        • compiler/packages/babel-plugin-react-compiler/src/CompilerError.ts
+       • compiler/apps/playground/components/Editor/Input.tsx
+       • compiler/apps/playground/components/Editor/EditorImpl.tsx
        • compiler/packages/react-forgive/client/src/colors.ts
        • compiler/packages/react-forgive/client/src/autodeps.ts
-       • compiler/packages/babel-plugin-react-compiler/src/__tests__/Logger-test.ts
-       • compiler/packages/babel-plugin-react-compiler/src/ReactiveScopes/PruneInitializationDependencies.ts
      📄 Files WITHOUT TSTupleType (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -2670,9 +2670,9 @@ Repository: sample-repos/react
        • packages/eslint-plugin-react-hooks/__tests__/ReactCompilerRuleTypescript-test.ts
        • packages/eslint-plugin-react-hooks/__tests__/ReactCompilerRule-test.ts
        • compiler/packages/react-mcp-server/src/index.ts
-       • compiler/packages/make-read-only-util/src/makeReadOnly.ts
        • compiler/packages/eslint-plugin-react-compiler/__tests__/ReactCompilerRuleTypescript-test.ts
        • compiler/packages/eslint-plugin-react-compiler/__tests__/ReactCompilerRule-test.ts
+       • compiler/packages/make-read-only-util/src/makeReadOnly.ts
        • packages/react/src/__tests__/testDefinitions/React.d.ts
        • compiler/packages/react-mcp-server/src/types/algolia.ts
        • compiler/packages/react-mcp-server/src/tools/runtimePerf.ts
@@ -2697,9 +2697,9 @@ Repository: sample-repos/react
        • compiler/packages/react-compiler-runtime/src/index.ts
        • compiler/packages/make-read-only-util/src/makeReadOnly.ts
        • compiler/packages/babel-plugin-react-compiler/src/CompilerError.ts
+       • compiler/apps/playground/lib/stores/store.ts
        • compiler/packages/snap/src/sprout/shared-runtime.ts
        • compiler/packages/snap/src/sprout/evaluator.ts
-       • compiler/packages/babel-plugin-react-compiler/src/Utils/todo.ts
      📄 Files WITHOUT TSUnknownKeyword (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -2718,8 +2718,8 @@ Repository: sample-repos/react
        • packages/react-devtools-fusebox/src/frontend.d.ts
        • packages/eslint-plugin-react-hooks/src/types/hermes-parser.d.ts
        • packages/eslint-plugin-react-hooks/src/types/hermes-eslint.d.ts
-       • compiler/packages/snap/src/types.d.ts
        • compiler/apps/playground/lib/types.d.ts
+       • compiler/packages/snap/src/types.d.ts
        • packages/react/src/__tests__/testDefinitions/ReactInternalAct.d.ts
        • packages/react/src/__tests__/testDefinitions/ReactDOMClient.d.ts
        • packages/react/src/__tests__/testDefinitions/ReactDOM.d.ts
@@ -2765,13 +2765,13 @@ Repository: sample-repos/react
        • scripts/jest/typescript/jest.d.ts
        • packages/eslint-plugin-react-hooks/src/types/estree.d.ts
        • compiler/apps/playground/components/Message.tsx
+       • compiler/apps/playground/lib/stores/store.ts
+       • compiler/apps/playground/lib/stores/messages.ts
        • compiler/packages/react-mcp-server/src/types/algolia.ts
        • compiler/packages/react-forgive/client/src/autodeps.ts
        • compiler/packages/babel-plugin-react-compiler/src/Utils/Stack.ts
        • compiler/packages/babel-plugin-react-compiler/src/Utils/Result.ts
        • compiler/packages/babel-plugin-react-compiler/src/Inference/InferFunctionEffects.ts
-       • compiler/apps/playground/lib/stores/store.ts
-       • compiler/apps/playground/lib/stores/messages.ts
      📄 Files WITHOUT TSInterfaceDeclaration (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -2789,13 +2789,13 @@ Repository: sample-repos/react
        • scripts/jest/typescript/jest.d.ts
        • packages/eslint-plugin-react-hooks/src/types/estree.d.ts
        • compiler/apps/playground/components/Message.tsx
+       • compiler/apps/playground/lib/stores/store.ts
+       • compiler/apps/playground/lib/stores/messages.ts
        • compiler/packages/react-mcp-server/src/types/algolia.ts
        • compiler/packages/react-forgive/client/src/autodeps.ts
        • compiler/packages/babel-plugin-react-compiler/src/Utils/Stack.ts
        • compiler/packages/babel-plugin-react-compiler/src/Utils/Result.ts
        • compiler/packages/babel-plugin-react-compiler/src/Inference/InferFunctionEffects.ts
-       • compiler/apps/playground/lib/stores/store.ts
-       • compiler/apps/playground/lib/stores/messages.ts
      📄 Files WITHOUT TSInterfaceBody (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -2812,14 +2812,14 @@ Repository: sample-repos/react
      📄 Files WITH TSTypePredicate (showing 10):
        • packages/eslint-plugin-react-hooks/src/rules/RulesOfHooks.ts
        • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
-       • compiler/packages/babel-plugin-react-compiler/src/CompilerError.ts
        • compiler/packages/babel-plugin-react-compiler/scripts/babel-plugin-annotate-react-code.ts
+       • compiler/packages/babel-plugin-react-compiler/src/CompilerError.ts
+       • compiler/apps/playground/lib/stores/store.ts
        • compiler/packages/eslint-plugin-react-compiler/src/rules/ReactCompilerRule.ts
        • compiler/packages/babel-plugin-react-compiler/src/Validation/ValidateNoRefAccessInRender.ts
        • compiler/packages/babel-plugin-react-compiler/src/Utils/utils.ts
        • compiler/packages/babel-plugin-react-compiler/src/Utils/todo.ts
        • compiler/packages/babel-plugin-react-compiler/src/Utils/Result.ts
-       • compiler/packages/babel-plugin-react-compiler/src/Utils/HookDeclaration.ts
      📄 Files WITHOUT TSTypePredicate (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -2837,13 +2837,13 @@ Repository: sample-repos/react
        • compiler/packages/snap/src/runner-watch.ts
        • compiler/packages/react-compiler-runtime/src/index.ts
        • compiler/packages/babel-plugin-react-compiler/src/CompilerError.ts
+       • compiler/apps/playground/lib/stores/messages.ts
        • compiler/packages/babel-plugin-react-compiler/src/Validation/ValidatePreservedManualMemoization.ts
        • compiler/packages/babel-plugin-react-compiler/src/Validation/ValidateHooksUsage.ts
        • compiler/packages/babel-plugin-react-compiler/src/Utils/RuntimeDiagnosticConstants.ts
-       • compiler/packages/babel-plugin-react-compiler/src/ReactiveScopes/PruneNonEscapingScopes.ts
        • compiler/packages/babel-plugin-react-compiler/src/Optimization/InstructionReordering.ts
+       • compiler/packages/babel-plugin-react-compiler/src/ReactiveScopes/PruneNonEscapingScopes.ts
        • compiler/packages/babel-plugin-react-compiler/src/HIR/PropagateScopeDependenciesHIR.ts
-       • compiler/packages/babel-plugin-react-compiler/src/HIR/HIR.ts
      📄 Files WITHOUT TSEnumDeclaration (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -2861,13 +2861,13 @@ Repository: sample-repos/react
        • compiler/packages/snap/src/runner-watch.ts
        • compiler/packages/react-compiler-runtime/src/index.ts
        • compiler/packages/babel-plugin-react-compiler/src/CompilerError.ts
+       • compiler/apps/playground/lib/stores/messages.ts
        • compiler/packages/babel-plugin-react-compiler/src/Validation/ValidatePreservedManualMemoization.ts
        • compiler/packages/babel-plugin-react-compiler/src/Validation/ValidateHooksUsage.ts
        • compiler/packages/babel-plugin-react-compiler/src/Utils/RuntimeDiagnosticConstants.ts
-       • compiler/packages/babel-plugin-react-compiler/src/ReactiveScopes/PruneNonEscapingScopes.ts
        • compiler/packages/babel-plugin-react-compiler/src/Optimization/InstructionReordering.ts
+       • compiler/packages/babel-plugin-react-compiler/src/ReactiveScopes/PruneNonEscapingScopes.ts
        • compiler/packages/babel-plugin-react-compiler/src/HIR/PropagateScopeDependenciesHIR.ts
-       • compiler/packages/babel-plugin-react-compiler/src/HIR/HIR.ts
      📄 Files WITHOUT TSEnumBody (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -2885,10 +2885,10 @@ Repository: sample-repos/react
        • packages/eslint-plugin-react-hooks/src/types/hermes-parser.d.ts
        • packages/eslint-plugin-react-hooks/src/types/hermes-eslint.d.ts
        • packages/eslint-plugin-react-hooks/src/types/estree.d.ts
-       • compiler/packages/snap/src/types.d.ts
-       • compiler/packages/babel-plugin-react-compiler/src/index.ts
        • compiler/apps/playground/lib/types.d.ts
        • compiler/apps/playground/components/Message.tsx
+       • compiler/packages/snap/src/types.d.ts
+       • compiler/packages/babel-plugin-react-compiler/src/index.ts
        • packages/react/src/__tests__/testDefinitions/ReactInternalAct.d.ts
        • packages/react/src/__tests__/testDefinitions/ReactDOMClient.d.ts
        • packages/react/src/__tests__/testDefinitions/ReactDOM.d.ts
@@ -2909,10 +2909,10 @@ Repository: sample-repos/react
        • packages/eslint-plugin-react-hooks/src/types/hermes-parser.d.ts
        • packages/eslint-plugin-react-hooks/src/types/hermes-eslint.d.ts
        • packages/eslint-plugin-react-hooks/src/types/estree.d.ts
-       • compiler/packages/snap/src/types.d.ts
-       • compiler/packages/babel-plugin-react-compiler/src/index.ts
        • compiler/apps/playground/lib/types.d.ts
        • compiler/apps/playground/components/Message.tsx
+       • compiler/packages/snap/src/types.d.ts
+       • compiler/packages/babel-plugin-react-compiler/src/index.ts
        • packages/react/src/__tests__/testDefinitions/ReactInternalAct.d.ts
        • packages/react/src/__tests__/testDefinitions/ReactDOMClient.d.ts
        • packages/react/src/__tests__/testDefinitions/ReactDOM.d.ts
@@ -3008,10 +3008,10 @@ Repository: sample-repos/react
    TSParenthesizedType:
      📄 Files WITH TSParenthesizedType (showing 5):
        • compiler/packages/snap/src/sprout/useEffectWrapper.ts
-       • compiler/packages/babel-plugin-react-compiler/src/HIR/HIR.ts
-       • compiler/packages/babel-plugin-react-compiler/src/HIR/AssertValidBlockNesting.ts
        • compiler/packages/babel-plugin-react-compiler/src/Entrypoint/Program.ts
        • compiler/packages/babel-plugin-react-compiler/src/Entrypoint/Options.ts
+       • compiler/packages/babel-plugin-react-compiler/src/HIR/HIR.ts
+       • compiler/packages/babel-plugin-react-compiler/src/HIR/AssertValidBlockNesting.ts
      📄 Files WITHOUT TSParenthesizedType (showing 10):
        • dangerfile.js
        • babel.config.js
@@ -3070,25 +3070,6 @@ Repository: sample-repos/react
        • scripts/tasks/flow-ci.js
        • scripts/tasks/eslint.js
 
-   TSTypeOperator:
-     📄 Files WITH TSTypeOperator (showing 5):
-       • compiler/packages/snap/src/sprout/shared-runtime.ts
-       • compiler/packages/babel-plugin-react-compiler/src/Utils/utils.ts
-       • compiler/packages/babel-plugin-react-compiler/src/Utils/types.d.ts
-       • compiler/packages/babel-plugin-react-compiler/src/Utils/TestUtils.ts
-       • compiler/packages/babel-plugin-react-compiler/src/Entrypoint/Options.ts
-     📄 Files WITHOUT TSTypeOperator (showing 10):
-       • dangerfile.js
-       • babel.config.js
-       • babel.config-ts.js
-       • babel.config-react-compiler.js
-       • ReactVersions.js
-       • scripts/tasks/version-check.js
-       • scripts/tasks/linc.js
-       • scripts/tasks/flow.js
-       • scripts/tasks/flow-ci.js
-       • scripts/tasks/eslint.js
-
    JSXFragment:
      📄 Files WITH JSXFragment (showing 2):
        • compiler/apps/playground/components/Editor/Output.tsx
@@ -3126,6 +3107,25 @@ Repository: sample-repos/react
        • compiler/apps/playground/components/Editor/Output.tsx
        • compiler/apps/playground/components/Editor/EditorImpl.tsx
      📄 Files WITHOUT JSXClosingFragment (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSTypeOperator:
+     📄 Files WITH TSTypeOperator (showing 5):
+       • compiler/packages/snap/src/sprout/shared-runtime.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/utils.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/types.d.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/TestUtils.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Entrypoint/Options.ts
+     📄 Files WITHOUT TSTypeOperator (showing 10):
        • dangerfile.js
        • babel.config.js
        • babel.config-ts.js
@@ -3318,6 +3318,21 @@ Repository: sample-repos/react
        • scripts/tasks/flow-ci.js
        • scripts/tasks/eslint.js
 
+   ImportExpression:
+     📄 Files WITH ImportExpression (showing 1):
+       • compiler/apps/playground/components/Editor/index.tsx
+     📄 Files WITHOUT ImportExpression (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
    TSSymbolKeyword:
      📄 Files WITH TSSymbolKeyword (showing 1):
        • compiler/packages/babel-plugin-react-compiler/src/Utils/utils.ts
@@ -3352,21 +3367,6 @@ Repository: sample-repos/react
      📄 Files WITH TSConditionalType (showing 1):
        • compiler/packages/babel-plugin-react-compiler/src/Utils/types.d.ts
      📄 Files WITHOUT TSConditionalType (showing 10):
-       • dangerfile.js
-       • babel.config.js
-       • babel.config-ts.js
-       • babel.config-react-compiler.js
-       • ReactVersions.js
-       • scripts/tasks/version-check.js
-       • scripts/tasks/linc.js
-       • scripts/tasks/flow.js
-       • scripts/tasks/flow-ci.js
-       • scripts/tasks/eslint.js
-
-   ImportExpression:
-     📄 Files WITH ImportExpression (showing 1):
-       • compiler/apps/playground/components/Editor/index.tsx
-     📄 Files WITHOUT ImportExpression (showing 10):
        • dangerfile.js
        • babel.config.js
        • babel.config-ts.js
@@ -3457,11 +3457,11 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/shared/CheckStringCoercion.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-noop-renderer/flight-modules.js:
-   Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-native-renderer/index.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-native-renderer/fabric.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-noop-renderer/flight-modules.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react/index.js:
    Flow is not supported
@@ -3473,6 +3473,8 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react/index.development.js:
    Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/dom-event-testing-library/domEnvironment.js:
+   Expected `,` but found `:`
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/internal-test-utils/internalAct.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/internal-test-utils/enqueueTask.js:
@@ -3481,9 +3483,21 @@ Warnings/Errors:
    Expected `,` but found `:`
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/internal-test-utils/ReactInternalTestUtils.js:
    Expected `,` but found `:`
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/dom-event-testing-library/domEnvironment.js:
-   Expected `,` but found `:`
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/scripts/babel/__tests__/transform-lazy-jsx-import-test.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/shared/forks/ReactFeatureFlags.www.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/shared/forks/ReactFeatureFlags.test-renderer.www.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/shared/forks/ReactFeatureFlags.test-renderer.native-fb.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/shared/forks/ReactFeatureFlags.test-renderer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/shared/forks/ReactFeatureFlags.native-oss.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/shared/forks/ReactFeatureFlags.native-fb.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/shared/__tests__/ReactError-test.internal.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/use-sync-external-store/src/useSyncExternalStoreWithSelector.js:
    Flow is not supported
@@ -3499,25 +3513,9 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/scheduler/src/SchedulerMinHeap.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/shared/__tests__/ReactError-test.internal.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/shared/forks/ReactFeatureFlags.www.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/shared/forks/ReactFeatureFlags.test-renderer.www.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/shared/forks/ReactFeatureFlags.test-renderer.native-fb.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/shared/forks/ReactFeatureFlags.test-renderer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/shared/forks/ReactFeatureFlags.native-oss.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/shared/forks/ReactFeatureFlags.native-fb.js:
-   Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-test-renderer/src/ReactTestRenderer.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-test-renderer/src/ReactFiberConfigTestHost.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-suspense-test-utils/src/ReactSuspenseTestUtils.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-webpack/src/ReactFlightWebpackReferences.js:
    Flow is not supported
@@ -3527,15 +3525,17 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-webpack/src/ReactFlightWebpackNodeLoader.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-turbopack/src/ReactFlightTurbopackReferences.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-parcel/src/ReactFlightParcelReferences.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-suspense-test-utils/src/ReactSuspenseTestUtils.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-fb/src/ReactDOMServerFB.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-parcel/src/ReactFlightParcelReferences.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-esm/src/ReactFlightESMReferences.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-esm/src/ReactFlightESMNodeLoader.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-turbopack/src/ReactFlightTurbopackReferences.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server/src/createFastHashJS.js:
    Flow is not supported
@@ -3755,14 +3755,6 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-reconciler/src/ReactCapturedValue.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-noop-renderer/src/createReactNoop.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-noop-renderer/src/ReactNoopServer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-noop-renderer/src/ReactNoopFlightServer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-noop-renderer/src/ReactNoopFlightClient.js:
-   Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-native-renderer/src/ReactNativeTypes.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-native-renderer/src/ReactNativeRenderer.js:
@@ -3807,33 +3799,19 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-is/src/ReactIs.js:
    Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-noop-renderer/src/createReactNoop.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-noop-renderer/src/ReactNoopServer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-noop-renderer/src/ReactNoopFlightServer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-noop-renderer/src/ReactNoopFlightClient.js:
+   Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/ReactDOMSharedInternalsFB.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/ReactDOMSharedInternals.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/ReactDOMFB.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/types.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/timelineCache.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/createDataResourceFromImportedFile.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/TimelineSearchInput.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/TimelineSearchContext.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/TimelineNotSupported.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/TimelineContext.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/Timeline.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/EventTooltip.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/CanvasPageContextMenu.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/CanvasPage.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/utils.js:
    Flow is not supported
@@ -3869,17 +3847,33 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/Logger.js:
    Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/types.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/timelineCache.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/createDataResourceFromImportedFile.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/TimelineSearchInput.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/TimelineSearchContext.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/TimelineNotSupported.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/TimelineContext.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/Timeline.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/EventTooltip.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/CanvasPageContextMenu.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/CanvasPage.js:
+   Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-inline/src/frontend.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-inline/src/backend.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-fusebox/src/frontend.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-extensions/src/utils.js:
-   Expected `from` but found `{`
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-extensions/src/backend.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-extensions/flow-typed/jest.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-core/src/standalone.js:
    Flow is not supported
@@ -3887,27 +3881,13 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-core/src/backend.js:
    Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-extensions/src/utils.js:
+   Expected `from` but found `{`
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-extensions/src/backend.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-extensions/flow-typed/jest.js:
+   Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-debug-tools/src/ReactDebugHooks.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/ReactFlightTemporaryReferences.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/ReactFlightReplyClient.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/ReactFlightPerformanceTrack.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/ReactFlightClientStreamConfigWeb.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/ReactFlightClientStreamConfigNode.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/ReactFlightClientDevToolsHook.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/ReactFlightClient.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/ReactClientConsoleConfigServer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/ReactClientConsoleConfigPlain.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/ReactClientConsoleConfigBrowser.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-cache/src/ReactCacheOld.js:
    Flow is not supported
@@ -3957,6 +3937,26 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react/src/BadMapPolyfill.js:
    Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/ReactFlightTemporaryReferences.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/ReactFlightReplyClient.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/ReactFlightPerformanceTrack.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/ReactFlightClientStreamConfigWeb.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/ReactFlightClientStreamConfigNode.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/ReactFlightClientDevToolsHook.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/ReactFlightClient.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/ReactClientConsoleConfigServer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/ReactClientConsoleConfigPlain.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/ReactClientConsoleConfigBrowser.js:
+   Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/internal-test-utils/__tests__/ReactInternalTestUtilsDOM-test.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/internal-test-utils/__tests__/ReactInternalTestUtils-test.js:
@@ -3993,6 +3993,18 @@ Warnings/Errors:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-test-renderer/src/__tests__/ReactTestRenderer-test.internal.js:
    Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-webpack/src/__tests__/ReactFlightDOMReply-test.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-webpack/src/__tests__/ReactFlightDOMNode-test.js:
+   Expected `,` but found `:`
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-webpack/src/__tests__/ReactFlightDOMForm-test.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-webpack/src/__tests__/ReactFlightDOMEdge-test.js:
+   Expected `,` but found `:`
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-webpack/src/__tests__/ReactFlightDOMBrowser-test.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-webpack/src/__tests__/ReactFlightDOM-test.js:
+   Expected `,` but found `:`
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-webpack/src/shared/ReactFlightImportMetadata.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-webpack/src/server/ReactFlightServerConfigWebpackBundler.js:
@@ -4003,6 +4015,8 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-webpack/src/server/ReactFlightDOMServerBrowser.js:
    Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-fb/src/__tests__/ReactDOMServerFB-test.internal.js:
+   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-webpack/src/client/ReactFlightDOMClientNode.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-webpack/src/client/ReactFlightDOMClientEdge.js:
@@ -4021,18 +4035,50 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-webpack/src/client/ReactFlightClientConfigBundlerNode.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-webpack/src/__tests__/ReactFlightDOMReply-test.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-parcel/src/shared/ReactFlightImportMetadata.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-parcel/src/server/ReactFlightServerConfigParcelBundler.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-parcel/src/server/ReactFlightDOMServerNode.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-parcel/src/server/ReactFlightDOMServerEdge.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-parcel/src/server/ReactFlightDOMServerBrowser.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-parcel/src/client/ReactFlightDOMClientNode.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-parcel/src/client/ReactFlightDOMClientEdge.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-parcel/src/client/ReactFlightDOMClientBrowser.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-parcel/src/client/ReactFlightClientConfigTargetParcelServer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-parcel/src/client/ReactFlightClientConfigTargetParcelBrowser.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-parcel/src/client/ReactFlightClientConfigBundlerParcel.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-esm/src/server/ReactFlightServerConfigESMBundler.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-esm/src/server/ReactFlightDOMServerNode.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-esm/src/client/ReactFlightDOMClientNode.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-esm/src/client/ReactFlightDOMClientBrowser.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-esm/src/client/ReactFlightClientConfigTargetESMServer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-esm/src/client/ReactFlightClientConfigTargetESMBrowser.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-esm/src/client/ReactFlightClientConfigBundlerESM.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-turbopack/src/__tests__/ReactFlightTurbopackDOMNode-test.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-webpack/src/__tests__/ReactFlightDOMNode-test.js:
-   Expected `,` but found `:`
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-webpack/src/__tests__/ReactFlightDOMForm-test.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-turbopack/src/__tests__/ReactFlightTurbopackDOMEdge-test.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-webpack/src/__tests__/ReactFlightDOMEdge-test.js:
-   Expected `,` but found `:`
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-webpack/src/__tests__/ReactFlightDOMBrowser-test.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-turbopack/src/__tests__/ReactFlightTurbopackDOMBrowser-test.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-webpack/src/__tests__/ReactFlightDOM-test.js:
-   Expected `,` but found `:`
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-turbopack/src/__tests__/ReactFlightTurbopackDOM-test.js:
+   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-turbopack/src/shared/ReactFlightImportMetadata.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-turbopack/src/server/ReactFlightServerConfigTurbopackBundler.js:
@@ -4061,51 +4107,9 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-turbopack/src/client/ReactFlightClientConfigBundlerNode.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-turbopack/src/__tests__/ReactFlightTurbopackDOMNode-test.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-turbopack/src/__tests__/ReactFlightTurbopackDOMEdge-test.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-turbopack/src/__tests__/ReactFlightTurbopackDOMBrowser-test.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-turbopack/src/__tests__/ReactFlightTurbopackDOM-test.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-parcel/src/shared/ReactFlightImportMetadata.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server/src/flight/ReactFlightCurrentOwner.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-parcel/src/server/ReactFlightServerConfigParcelBundler.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-parcel/src/server/ReactFlightDOMServerNode.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-parcel/src/server/ReactFlightDOMServerEdge.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-parcel/src/server/ReactFlightDOMServerBrowser.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-parcel/src/client/ReactFlightDOMClientNode.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-parcel/src/client/ReactFlightDOMClientEdge.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-parcel/src/client/ReactFlightDOMClientBrowser.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-parcel/src/client/ReactFlightClientConfigTargetParcelServer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-parcel/src/client/ReactFlightClientConfigTargetParcelBrowser.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-parcel/src/client/ReactFlightClientConfigBundlerParcel.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-fb/src/__tests__/ReactDOMServerFB-test.internal.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-esm/src/server/ReactFlightServerConfigESMBundler.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-esm/src/server/ReactFlightDOMServerNode.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-esm/src/client/ReactFlightDOMClientNode.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-esm/src/client/ReactFlightDOMClientBrowser.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-esm/src/client/ReactFlightClientConfigTargetESMServer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-esm/src/client/ReactFlightClientConfigTargetESMBrowser.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-esm/src/client/ReactFlightClientConfigBundlerESM.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server/src/flight/ReactFlightAsyncDispatcher.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server/src/forks/ReactServerStreamConfig.dom-fb.js:
    Flow is not supported
@@ -4152,10 +4156,6 @@ Warnings/Errors:
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server/src/forks/ReactFizzConfig.dom-edge.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server/src/forks/ReactFizzConfig.custom.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server/src/flight/ReactFlightCurrentOwner.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server/src/flight/ReactFlightAsyncDispatcher.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server/src/__tests__/ReactServer-test.js:
    Unexpected token
@@ -4375,52 +4375,16 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/shared/ReactControlledValuePropTypes.js:
    Expected `,` but found `:`
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/server/escapeTextForBrowser.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/perf-regression/devtools.js:
+   Expected `,` but found `:`
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/perf-regression/app.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/server/ReactFlightServerConfigDOM.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/server/ReactFizzConfigDOMLegacy.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/server/ReactFizzConfigDOM.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/server/ReactDOMServerExternalRuntime.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/server/ReactDOMLegacyServerStreamConfig.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/server/ReactDOMFlightServerHostDispatcher.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/isTextInputElement.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/isEventSupported.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/getListener.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/getEventCharCode.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/checkPassiveEvents.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/SyntheticEvent.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/ReactSyntheticEventType.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/ReactDOMEventReplaying.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/ReactDOMEventListener.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/ReactDOMControlledComponent.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/EventRegistry.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/EventListener.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/DOMPluginEventSystem.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/DOMEventProperties.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/DOMEventNames.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/CurrentReplayingEvent.js:
-   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/multi/right.js:
+   Expected `,` but found `:`
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/multi/left.js:
+   Expected `,` but found `:`
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/multi/devtools.js:
+   Expected `,` but found `:`
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/client/validateDOMNesting.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/client/setTextContent.js:
@@ -4463,25 +4427,39 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/client/DOMAccessibilityRoles.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/test-utils/FizzTestUtils.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/e2e-regression/devtools.js:
+   Expected `,` but found `:`
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/e2e-regression/app.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/shared/ReactDOMTypes.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/e2e-regression/app-legacy.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/shared/ReactDOMFlushSync.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/server/escapeTextForBrowser.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/shared/ReactDOMFloat.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/server/ReactFlightServerConfigDOM.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/shared/ReactDOM.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/server/ReactFizzConfigDOMLegacy.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/client/ReactDOMRootFB.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/server/ReactFizzConfigDOM.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/client/ReactDOMRoot.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/server/ReactDOMServerExternalRuntime.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/client/ReactDOMDefaultTransitionIndicator.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/server/ReactDOMLegacyServerStreamConfig.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/client/ReactDOMClientFB.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/server/ReactDOMFlightServerHostDispatcher.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/client/ReactDOMClient.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/e2e-apps/ListAppLegacy.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/e2e-apps/ListApp.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/e2e/devtools.js:
+   Expected `,` but found `:`
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/e2e/app.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/index.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/devtools.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/console.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/server/ReactDOMLegacyServerNode.js:
    Flow is not supported
@@ -4502,6 +4480,58 @@ Warnings/Errors:
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/server/ReactDOMFizzServerBun.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/server/ReactDOMFizzServerBrowser.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/isTextInputElement.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/isEventSupported.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/getListener.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/getEventCharCode.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/checkPassiveEvents.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/SyntheticEvent.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/ReactSyntheticEventType.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/ReactDOMEventReplaying.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/ReactDOMEventListener.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/ReactDOMControlledComponent.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/EventRegistry.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/EventListener.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/DOMPluginEventSystem.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/DOMEventProperties.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/DOMEventNames.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/CurrentReplayingEvent.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/test-utils/FizzTestUtils.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/shared/ReactDOMTypes.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/shared/ReactDOMFlushSync.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/shared/ReactDOMFloat.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/shared/ReactDOM.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/client/ReactDOMRootFB.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/client/ReactDOMRoot.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/client/ReactDOMDefaultTransitionIndicator.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/client/ReactDOMClientFB.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/client/ReactDOMClient.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/__tests__/validateDOMNesting-test.js:
    Unexpected token
@@ -4754,93 +4784,21 @@ Warnings/Errors:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/__tests__/CSSPropertyOperations-test.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/utils/useSmartTooltip.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/utils/getBatchRange.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/utils/formatting.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/utils/flow.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/import-worker/readInputData.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/import-worker/preprocessData.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/import-worker/index.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/import-worker/importFile.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/useCanvasInteraction.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/layouter.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/geometry.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/View.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/VerticalScrollView.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/Surface.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/HorizontalPanAndZoomView.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/BackgroundColorView.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/content-views/constants.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/content-views/UserTimingMarksView.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/content-views/TimeAxisMarkersView.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/content-views/ThrownErrorsView.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/content-views/SuspenseEventsView.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/content-views/SnapshotsView.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/content-views/SchedulingEventsView.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/content-views/ReactMeasuresView.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/content-views/NetworkMeasuresView.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/content-views/NativeEventsView.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/content-views/FlamechartView.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/content-views/ComponentMeasuresView.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/multi/right.js:
-   Expected `,` but found `:`
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/multi/left.js:
-   Expected `,` but found `:`
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/multi/devtools.js:
-   Expected `,` but found `:`
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/perf-regression/devtools.js:
-   Expected `,` but found `:`
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/perf-regression/app.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/e2e-regression/devtools.js:
-   Expected `,` but found `:`
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/e2e-regression/app.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/e2e-regression/app-legacy.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/e2e/devtools.js:
-   Expected `,` but found `:`
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/e2e/app.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/index.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/devtools.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/console.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/e2e-apps/ListAppLegacy.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/e2e-apps/ListApp.js:
-   Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/shared/types.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/utils.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/store.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/index.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/constants.js:
+   Expected `from` but found `{`
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/cache.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/ProfilingCache.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/ProfilerStore.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/hooks/getHookNameForLocation.js:
    Flow is not supported
@@ -4857,26 +4815,6 @@ Warnings/Errors:
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/hooks/SourceMapConsumer.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/hooks/ErrorTester.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/errors/UserError.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/errors/UnknownHookError.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/errors/TimeoutError.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/utils.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/store.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/index.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/constants.js:
-   Expected `from` but found `{`
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/cache.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/ProfilingCache.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/ProfilerStore.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/config/DevToolsFeatureFlags.extension-oss.js:
    Flow is not supported
@@ -4895,6 +4833,12 @@ Warnings/Errors:
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/agent.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/frontend/types.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/errors/UserError.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/errors/UnknownHookError.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/errors/TimeoutError.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/__tests__/utils.js:
    Flow is not supported
@@ -4950,6 +4894,66 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/__tests__/FastRefreshDevToolsIntegration-test.js:
    Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/import-worker/readInputData.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/import-worker/preprocessData.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/import-worker/index.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/import-worker/importFile.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/useCanvasInteraction.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/layouter.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/geometry.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/View.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/VerticalScrollView.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/Surface.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/HorizontalPanAndZoomView.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/BackgroundColorView.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/utils/useSmartTooltip.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/utils/getBatchRange.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/utils/formatting.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/utils/flow.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/content-views/constants.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/content-views/UserTimingMarksView.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/content-views/TimeAxisMarkersView.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/content-views/ThrownErrorsView.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/content-views/SuspenseEventsView.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/content-views/SnapshotsView.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/content-views/SchedulingEventsView.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/content-views/ReactMeasuresView.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/content-views/NetworkMeasuresView.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/content-views/NativeEventsView.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/content-views/FlamechartView.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/content-views/ComponentMeasuresView.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-extensions/src/main/index.js:
+   Expected `,` but found `:`
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-extensions/src/main/fetchFileWithCaching.js:
+   Expected `,` but found `:`
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-extensions/src/contentScripts/proxy.js:
    Expected a semicolon or an implicit semicolon after a statement, but found none
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-extensions/src/contentScripts/installHook.js:
@@ -4958,10 +4962,6 @@ Warnings/Errors:
    Expected `,` but found `:`
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-extensions/src/contentScripts/backendManager.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-extensions/src/main/index.js:
-   Expected `,` but found `:`
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-extensions/src/main/fetchFileWithCaching.js:
-   Expected `,` but found `:`
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-extensions/src/background/index.js:
    Expected `,` but found `:`
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-extensions/flow-typed/npm/react-test-renderer_v16.x.x.js:
@@ -4974,18 +4974,6 @@ Warnings/Errors:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-debug-tools/src/__tests__/ReactDevToolsHooksIntegration-test.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/__tests__/ReactFlightDebugChannel-test.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/__tests__/ReactFlight-test.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/forks/ReactFlightClientConfig.markup.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/forks/ReactFlightClientConfig.dom-legacy.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/forks/ReactFlightClientConfig.dom-bun.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/forks/ReactFlightClientConfig.custom.js:
-   Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-cache/src/__tests__/ReactCacheOld-test.internal.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-art/src/__tests__/ReactART-test.js:
@@ -5034,10 +5022,78 @@ Warnings/Errors:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react/src/__tests__/React-hooks-arity.js:
    Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/__tests__/ReactFlightDebugChannel-test.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/__tests__/ReactFlight-test.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/forks/ReactFlightClientConfig.markup.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/forks/ReactFlightClientConfig.dom-legacy.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/forks/ReactFlightClientConfig.dom-bun.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/forks/ReactFlightClientConfig.custom.js:
+   Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-webpack/src/__tests__/utils/WebpackMock.js:
    Expected `,` but found `?`
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-turbopack/src/__tests__/utils/TurbopackMock.js:
    Expected `,` but found `?`
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/perf-regression/apps/index.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/perf-regression/apps/LargeSubtree.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/TraceUpdatesTest/index.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/Toggle/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/SuspenseTree/index.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/PartiallyStrictApp/index.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/ToDoList/ListItem.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/ToDoList/List.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/ReactNativeWeb/index.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/InlineWarnings/index.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/Iframe/index.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/Hydration/index.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/InspectableElements/UseMemoCache.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/InspectableElements/UseEffectEvent.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/InspectableElements/UnserializableProps.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/InspectableElements/SymbolKeys.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/InspectableElements/SimpleValues.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/InspectableElements/NestedProps.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/InspectableElements/InspectableElements.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/InspectableElements/EdgeCaseObjects.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/InspectableElements/CustomObject.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/InspectableElements/CustomHooks.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/InspectableElements/Contexts.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/InspectableElements/CircularReferences.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/ErrorBoundaries/index.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/EditableProps/index.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/ElementTypes/index.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/DeeplyNestedComponents/index.js:
+   Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/forks/EventListener-www.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/plugins/SimpleEventPlugin.js:
@@ -5070,97 +5126,11 @@ Warnings/Errors:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/events/__tests__/DOMPluginEventSystem-test.internal.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/client/__mocks__/ReactFiberErrorDialog.js:
-   Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/client/__tests__/trustedTypes-test.internal.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/client/__tests__/dangerouslySetInnerHTML-test.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/utils/scrollState.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/utils/normalizeWheel.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/utils/clamp.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/vertical-scroll-overflow/withVerticalScrollbarLayout.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/vertical-scroll-overflow/VerticalScrollOverflowView.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/vertical-scroll-overflow/VerticalScrollBarView.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/resizable/ResizeBarView.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/resizable/ResizableView.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/content-views/utils/text.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/content-views/utils/positioning.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/content-views/utils/moduleFilters.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/content-views/utils/colors.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/perf-regression/apps/index.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/perf-regression/apps/LargeSubtree.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/TraceUpdatesTest/index.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/Toggle/index.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/ToDoList/ListItem.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/ToDoList/List.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/SuspenseTree/index.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/ReactNativeWeb/index.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/PartiallyStrictApp/index.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/InspectableElements/UseMemoCache.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/InspectableElements/UseEffectEvent.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/InspectableElements/UnserializableProps.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/InspectableElements/SymbolKeys.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/InspectableElements/SimpleValues.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/InspectableElements/NestedProps.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/InspectableElements/InspectableElements.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/InspectableElements/EdgeCaseObjects.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/InspectableElements/CustomObject.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/InspectableElements/CustomHooks.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/InspectableElements/Contexts.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/InspectableElements/CircularReferences.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/InlineWarnings/index.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/Iframe/index.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/Hydration/index.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/ErrorBoundaries/index.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/ElementTypes/index.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/EditableProps/index.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/DeeplyNestedComponents/index.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/hooks/parseHookNames/parseSourceAndMetadata.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/hooks/parseHookNames/loadSourceAndMetadata.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/hooks/parseHookNames/index.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/client/__mocks__/ReactFiberErrorDialog.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/ContextMenu/useContextMenu.js:
    Flow is not supported
@@ -5208,6 +5178,12 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/views/Button.js:
    Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/hooks/parseHookNames/parseSourceAndMetadata.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/hooks/parseHookNames/loadSourceAndMetadata.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/hooks/parseHookNames/index.js:
+   Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/views/utils.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/utils/index.js:
@@ -5215,6 +5191,14 @@ Warnings/Errors:
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/utils/formatWithStyles.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/utils/formatConsoleArguments.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/fiber/renderer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/fiber/DevToolsFiberComponentStack.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/legacy/utils.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/legacy/renderer.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/shared/ReactSymbols.js:
    Flow is not supported
@@ -5226,17 +5210,9 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/shared/DevToolsComponentStackFrame.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/legacy/utils.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/legacy/renderer.js:
-   Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/flight/renderer.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/flight/DevToolsComponentInfoStack.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/fiber/renderer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/fiber/DevToolsFiberComponentStack.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/StyleX/utils.js:
    Flow is not supported
@@ -5256,6 +5232,30 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/__tests__/legacy/editing-test.js:
    Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/vertical-scroll-overflow/withVerticalScrollbarLayout.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/vertical-scroll-overflow/VerticalScrollOverflowView.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/vertical-scroll-overflow/VerticalScrollBarView.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/resizable/ResizeBarView.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/resizable/ResizableView.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/utils/scrollState.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/utils/normalizeWheel.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/utils/clamp.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/content-views/utils/text.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/content-views/utils/positioning.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/content-views/utils/moduleFilters.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/content-views/utils/colors.js:
+   Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/events/plugins/__tests__/SimpleEventPlugin-test.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/events/plugins/__tests__/SelectEventPlugin-test.js:
@@ -5266,18 +5266,6 @@ Warnings/Errors:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/events/plugins/__tests__/BeforeInputEventPlugin-test.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/hooks/__tests__/__source__/ToDoList.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/hooks/__tests__/__source__/Example.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/hooks/__tests__/__source__/ContainingStringSourceMappingURL.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/hooks/__tests__/__source__/ComponentWithExternalCustomHooks.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/hooks/__tests__/__source__/ComponentWithCustomHook.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/hooks/__tests__/__source__/ComponentUsingHooksIndirectly.js:
-   Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/views/Settings/SettingsModalContextToggle.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/views/Settings/SettingsModalContext.js:
@@ -5470,6 +5458,18 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/views/Components/Badge.js:
    Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/hooks/__tests__/__source__/ToDoList.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/hooks/__tests__/__source__/Example.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/hooks/__tests__/__source__/ContainingStringSourceMappingURL.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/hooks/__tests__/__source__/ComponentWithExternalCustomHooks.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/hooks/__tests__/__source__/ComponentWithCustomHook.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/hooks/__tests__/__source__/ComponentUsingHooksIndirectly.js:
+   Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/views/TraceUpdates/index.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/views/TraceUpdates/canvas.js:
@@ -5480,6 +5480,7 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/views/Highlighter/Highlighter.js:
    Flow is not supported
+❌ Failed to parse /Users/camchenry/workspace/ast-analysis/sample-repos/react/compiler/apps/playground/__tests__/e2e/__snapshots__/page.spec.ts: EISDIR: illegal operation on a directory, read
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/compiler/packages/babel-plugin-react-compiler/src/__tests__/e2e/use-state.e2e.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/compiler/packages/babel-plugin-react-compiler/src/__tests__/e2e/update-expressions.e2e.js:
@@ -5490,7 +5491,6 @@ Warnings/Errors:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/compiler/packages/babel-plugin-react-compiler/src/__tests__/e2e/constant-prop.e2e.js:
    Unexpected token
-❌ Failed to parse /Users/camchenry/workspace/ast-analysis/sample-repos/react/compiler/apps/playground/__tests__/e2e/__snapshots__/page.spec.ts: EISDIR: illegal operation on a directory, read
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-native-renderer/src/__mocks__/react-native/Libraries/ReactPrivate/getNodeFromPublicInstance.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-native-renderer/src/__mocks__/react-native/Libraries/ReactPrivate/getNativeTagFromPublicInstance.js:

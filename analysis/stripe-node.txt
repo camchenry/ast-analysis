@@ -1,0 +1,2647 @@
+AST Analysis Report for stripe-node
+Generated on: 2025-07-14T01:57:01.283Z
+Repository: sample-repos/stripe-node
+================================================================================
+
+🔍 Analyzing JavaScript/TypeScript files in: /Users/camchenry/workspace/ast-analysis/sample-repos/stripe-node
+
+📁 Found 544 files to analyze...
+
+
+
+============================================================
+📊 AST ANALYSIS RESULTS
+============================================================
+
+📁 FILE STATISTICS:
+   Total files found: 544
+   Successfully parsed: 544
+   Failed to parse: 0
+   Total file size: 5.1 MB
+
+🌳 NODE STATISTICS:
+   Total nodes: 299,144
+   Average nodes per file: 550
+   Average file size: 9.6 KB
+
+📋 ALL NODE TYPES (BY FILE PRESENCE):
+   Program                         544 files (100.0%) -      544 total (0.18%)
+   Literal                         543 files ( 99.8%) -   30,934 total (10.34%)
+   Identifier                      543 files ( 99.8%) -   89,627 total (29.96%)
+   TSTypeAnnotation                323 files ( 59.4%) -   21,148 total (7.07%)
+   TSStringKeyword                 309 files ( 56.8%) -    6,729 total (2.25%)
+   TSTypeReference                 304 files ( 55.9%) -   15,347 total (5.13%)
+   TSPropertySignature             288 files ( 52.9%) -   16,785 total (5.61%)
+   TSModuleDeclaration             283 files ( 52.0%) -    3,231 total (1.08%)
+   TSModuleBlock                   283 files ( 52.0%) -    3,231 total (1.08%)
+   TSInterfaceDeclaration          278 files ( 51.1%) -    5,149 total (1.72%)
+   TSInterfaceBody                 278 files ( 51.1%) -    5,149 total (1.72%)
+   TSQualifiedName                 277 files ( 50.9%) -   11,181 total (3.74%)
+   VariableDeclaration             258 files ( 47.4%) -    1,866 total (0.62%)
+   VariableDeclarator              258 files ( 47.4%) -    1,866 total (0.62%)
+   MemberExpression                256 files ( 47.1%) -   10,461 total (3.50%)
+   CallExpression                  255 files ( 46.9%) -    7,714 total (2.58%)
+   TSUnionType                     247 files ( 45.4%) -    5,160 total (1.72%)
+   TSLiteralType                   245 files ( 45.0%) -   22,020 total (7.36%)
+   ObjectExpression                241 files ( 44.3%) -    3,192 total (1.07%)
+   Property                        240 files ( 44.1%) -    6,014 total (2.01%)
+   TSTypeParameterInstantiation    239 files ( 43.9%) -    4,291 total (1.43%)
+   TSNumberKeyword                 218 files ( 40.1%) -    1,848 total (0.62%)
+   TSTypeAliasDeclaration          202 files ( 37.1%) -    2,139 total (0.72%)
+   ImportDeclaration               184 files ( 33.8%) -      388 total (0.13%)
+   ImportSpecifier                 181 files ( 33.3%) -      475 total (0.16%)
+   TSBooleanKeyword                180 files ( 33.1%) -    1,007 total (0.34%)
+   ExportNamedDeclaration          174 files ( 32.0%) -      372 total (0.12%)
+   ClassDeclaration                149 files ( 27.4%) -      187 total (0.06%)
+   ClassBody                       149 files ( 27.4%) -      187 total (0.06%)
+   MethodDefinition                148 files ( 27.2%) -    1,034 total (0.35%)
+   TSNullKeyword                   133 files ( 24.4%) -    2,787 total (0.93%)
+   TSEmptyBodyFunctionExpression   131 files ( 24.1%) -      911 total (0.30%)
+   BlockStatement                  126 files ( 23.2%) -    2,737 total (0.91%)
+   ExpressionStatement             124 files ( 22.8%) -    4,428 total (1.48%)
+   ArrowFunctionExpression         108 files ( 19.9%) -    1,658 total (0.55%)
+   TSInterfaceHeritage              96 files ( 17.6%) -      619 total (0.21%)
+   NewExpression                    58 files ( 10.7%) -      285 total (0.10%)
+   TSVoidKeyword                    51 files (  9.4%) -      143 total (0.05%)
+   ReturnStatement                  51 files (  9.4%) -      460 total (0.15%)
+   ArrayExpression                  47 files (  8.6%) -      333 total (0.11%)
+   IfStatement                      46 files (  8.5%) -      295 total (0.10%)
+   AssignmentExpression             45 files (  8.3%) -      297 total (0.10%)
+   Unknown                          45 files (  8.3%) -      501 total (0.17%)
+   TemplateLiteral                  42 files (  7.7%) -      191 total (0.06%)
+   TemplateElement                  42 files (  7.7%) -      403 total (0.13%)
+   TSTypeLiteral                    41 files (  7.5%) -      147 total (0.05%)
+   BinaryExpression                 41 files (  7.5%) -      295 total (0.10%)
+   AwaitExpression                  35 files (  6.4%) -      632 total (0.21%)
+   FunctionExpression               34 files (  6.3%) -      653 total (0.22%)
+   TSIndexSignature                 32 files (  5.9%) -       49 total (0.02%)
+   TSAnyKeyword                     31 files (  5.7%) -      117 total (0.04%)
+   LogicalExpression                31 files (  5.7%) -      151 total (0.05%)
+   ThisExpression                   28 files (  5.1%) -      283 total (0.09%)
+   ThrowStatement                   28 files (  5.1%) -       94 total (0.03%)
+   FunctionDeclaration              25 files (  4.6%) -       93 total (0.03%)
+   UnaryExpression                  25 files (  4.6%) -      151 total (0.05%)
+   TryStatement                     24 files (  4.4%) -       36 total (0.01%)
+   CatchClause                      24 files (  4.4%) -       36 total (0.01%)
+   ParenthesizedExpression          22 files (  4.0%) -       65 total (0.02%)
+   TSFunctionType                   19 files (  3.5%) -       91 total (0.03%)
+   ObjectPattern                    17 files (  3.1%) -       50 total (0.02%)
+   TSAsExpression                   17 files (  3.1%) -       61 total (0.02%)
+   PropertyDefinition               15 files (  2.8%) -      169 total (0.06%)
+   ConditionalExpression            14 files (  2.6%) -       48 total (0.02%)
+   TSArrayType                      13 files (  2.4%) -       20 total (0.01%)
+   ImportNamespaceSpecifier         13 files (  2.4%) -       19 total (0.01%)
+   SpreadElement                    13 files (  2.4%) -       21 total (0.01%)
+   ImportDefaultSpecifier           13 files (  2.4%) -       20 total (0.01%)
+   TSUnknownKeyword                 12 files (  2.2%) -       36 total (0.01%)
+   RestElement                      11 files (  2.0%) -       18 total (0.01%)
+   Super                            10 files (  1.8%) -       28 total (0.01%)
+   TSTypeQuery                       8 files (  1.5%) -       14 total (0.00%)
+   TSNonNullExpression               7 files (  1.3%) -       24 total (0.01%)
+   Hashbang                          7 files (  1.3%) -        7 total (0.00%)
+   TSTypeParameterDeclaration        6 files (  1.1%) -       36 total (0.01%)
+   TSTypeParameter                   6 files (  1.1%) -       38 total (0.01%)
+   TSUndefinedKeyword                6 files (  1.1%) -       17 total (0.01%)
+   TSIntersectionType                5 files (  0.9%) -       22 total (0.01%)
+   ExportDefaultDeclaration          5 files (  0.9%) -        5 total (0.00%)
+   AssignmentPattern                 5 files (  0.9%) -       26 total (0.01%)
+   ForOfStatement                    5 files (  0.9%) -        7 total (0.00%)
+   TSMethodSignature                 4 files (  0.7%) -       17 total (0.01%)
+   TSImportEqualsDeclaration         4 files (  0.7%) -        6 total (0.00%)
+   TSExternalModuleReference         4 files (  0.7%) -        6 total (0.00%)
+   TSIndexedAccessType               4 files (  0.7%) -       16 total (0.01%)
+   SwitchStatement                   4 files (  0.7%) -        9 total (0.00%)
+   SwitchCase                        4 files (  0.7%) -       35 total (0.01%)
+   BreakStatement                    4 files (  0.7%) -       14 total (0.00%)
+   ChainExpression                   4 files (  0.7%) -        5 total (0.00%)
+   TSClassImplements                 4 files (  0.7%) -        7 total (0.00%)
+   TSObjectKeyword                   3 files (  0.6%) -        7 total (0.00%)
+   TSConstructSignatureDeclaration    3 files (  0.6%) -        4 total (0.00%)
+   ForStatement                      3 files (  0.6%) -        4 total (0.00%)
+   UpdateExpression                  3 files (  0.6%) -        4 total (0.00%)
+   TSTypeOperator                    3 files (  0.6%) -        7 total (0.00%)
+   ForInStatement                    3 files (  0.6%) -        4 total (0.00%)
+   ContinueStatement                 3 files (  0.6%) -        4 total (0.00%)
+   TSNeverKeyword                    3 files (  0.6%) -        3 total (0.00%)
+   TSTypeAssertion                   3 files (  0.6%) -        3 total (0.00%)
+   TSParenthesizedType               2 files (  0.4%) -        3 total (0.00%)
+   ExportSpecifier                   2 files (  0.4%) -       55 total (0.02%)
+   Decorator                         2 files (  0.4%) -        8 total (0.00%)
+   TSDeclareFunction                 1 files (  0.2%) -        8 total (0.00%)
+   WhileStatement                    1 files (  0.2%) -        1 total (0.00%)
+   ImportExpression                  1 files (  0.2%) -        1 total (0.00%)
+   TSTypePredicate                   1 files (  0.2%) -        1 total (0.00%)
+   ArrayPattern                      1 files (  0.2%) -        2 total (0.00%)
+   TSTupleType                       1 files (  0.2%) -        1 total (0.00%)
+   TSSymbolKeyword                   1 files (  0.2%) -        1 total (0.00%)
+   TSConstructorType                 1 files (  0.2%) -        3 total (0.00%)
+   EmptyStatement                    1 files (  0.2%) -        1 total (0.00%)
+   TSParameterProperty               1 files (  0.2%) -        1 total (0.00%)
+
+📝 ALL NODE TYPES (BY TOTAL COUNT):
+   Identifier                       89,627 (29.96%) in 543 files (99.8%)
+   Literal                          30,934 (10.34%) in 543 files (99.8%)
+   TSLiteralType                    22,020 (7.36%) in 245 files (45.0%)
+   TSTypeAnnotation                 21,148 (7.07%) in 323 files (59.4%)
+   TSPropertySignature              16,785 (5.61%) in 288 files (52.9%)
+   TSTypeReference                  15,347 (5.13%) in 304 files (55.9%)
+   TSQualifiedName                  11,181 (3.74%) in 277 files (50.9%)
+   MemberExpression                 10,461 (3.50%) in 256 files (47.1%)
+   CallExpression                    7,714 (2.58%) in 255 files (46.9%)
+   TSStringKeyword                   6,729 (2.25%) in 309 files (56.8%)
+   Property                          6,014 (2.01%) in 240 files (44.1%)
+   TSUnionType                       5,160 (1.72%) in 247 files (45.4%)
+   TSInterfaceDeclaration            5,149 (1.72%) in 278 files (51.1%)
+   TSInterfaceBody                   5,149 (1.72%) in 278 files (51.1%)
+   ExpressionStatement               4,428 (1.48%) in 124 files (22.8%)
+   TSTypeParameterInstantiation      4,291 (1.43%) in 239 files (43.9%)
+   TSModuleDeclaration               3,231 (1.08%) in 283 files (52.0%)
+   TSModuleBlock                     3,231 (1.08%) in 283 files (52.0%)
+   ObjectExpression                  3,192 (1.07%) in 241 files (44.3%)
+   TSNullKeyword                     2,787 (0.93%) in 133 files (24.4%)
+   BlockStatement                    2,737 (0.91%) in 126 files (23.2%)
+   TSTypeAliasDeclaration            2,139 (0.72%) in 202 files (37.1%)
+   VariableDeclaration               1,866 (0.62%) in 258 files (47.4%)
+   VariableDeclarator                1,866 (0.62%) in 258 files (47.4%)
+   TSNumberKeyword                   1,848 (0.62%) in 218 files (40.1%)
+   ArrowFunctionExpression           1,658 (0.55%) in 108 files (19.9%)
+   MethodDefinition                  1,034 (0.35%) in 148 files (27.2%)
+   TSBooleanKeyword                  1,007 (0.34%) in 180 files (33.1%)
+   TSEmptyBodyFunctionExpression       911 (0.30%) in 131 files (24.1%)
+   FunctionExpression                  653 (0.22%) in 34 files (6.3%)
+   AwaitExpression                     632 (0.21%) in 35 files (6.4%)
+   TSInterfaceHeritage                 619 (0.21%) in 96 files (17.6%)
+   Program                             544 (0.18%) in 544 files (100.0%)
+   Unknown                             501 (0.17%) in 45 files (8.3%)
+   ImportSpecifier                     475 (0.16%) in 181 files (33.3%)
+   ReturnStatement                     460 (0.15%) in 51 files (9.4%)
+   TemplateElement                     403 (0.13%) in 42 files (7.7%)
+   ImportDeclaration                   388 (0.13%) in 184 files (33.8%)
+   ExportNamedDeclaration              372 (0.12%) in 174 files (32.0%)
+   ArrayExpression                     333 (0.11%) in 47 files (8.6%)
+   AssignmentExpression                297 (0.10%) in 45 files (8.3%)
+   BinaryExpression                    295 (0.10%) in 41 files (7.5%)
+   IfStatement                         295 (0.10%) in 46 files (8.5%)
+   NewExpression                       285 (0.10%) in 58 files (10.7%)
+   ThisExpression                      283 (0.09%) in 28 files (5.1%)
+   TemplateLiteral                     191 (0.06%) in 42 files (7.7%)
+   ClassDeclaration                    187 (0.06%) in 149 files (27.4%)
+   ClassBody                           187 (0.06%) in 149 files (27.4%)
+   PropertyDefinition                  169 (0.06%) in 15 files (2.8%)
+   UnaryExpression                     151 (0.05%) in 25 files (4.6%)
+   LogicalExpression                   151 (0.05%) in 31 files (5.7%)
+   TSTypeLiteral                       147 (0.05%) in 41 files (7.5%)
+   TSVoidKeyword                       143 (0.05%) in 51 files (9.4%)
+   TSAnyKeyword                        117 (0.04%) in 31 files (5.7%)
+   ThrowStatement                       94 (0.03%) in 28 files (5.1%)
+   FunctionDeclaration                  93 (0.03%) in 25 files (4.6%)
+   TSFunctionType                       91 (0.03%) in 19 files (3.5%)
+   ParenthesizedExpression              65 (0.02%) in 22 files (4.0%)
+   TSAsExpression                       61 (0.02%) in 17 files (3.1%)
+   ExportSpecifier                      55 (0.02%) in 2 files (0.4%)
+   ObjectPattern                        50 (0.02%) in 17 files (3.1%)
+   TSIndexSignature                     49 (0.02%) in 32 files (5.9%)
+   ConditionalExpression                48 (0.02%) in 14 files (2.6%)
+   TSTypeParameter                      38 (0.01%) in 6 files (1.1%)
+   TSTypeParameterDeclaration           36 (0.01%) in 6 files (1.1%)
+   TSUnknownKeyword                     36 (0.01%) in 12 files (2.2%)
+   TryStatement                         36 (0.01%) in 24 files (4.4%)
+   CatchClause                          36 (0.01%) in 24 files (4.4%)
+   SwitchCase                           35 (0.01%) in 4 files (0.7%)
+   Super                                28 (0.01%) in 10 files (1.8%)
+   AssignmentPattern                    26 (0.01%) in 5 files (0.9%)
+   TSNonNullExpression                  24 (0.01%) in 7 files (1.3%)
+   TSIntersectionType                   22 (0.01%) in 5 files (0.9%)
+   SpreadElement                        21 (0.01%) in 13 files (2.4%)
+   TSArrayType                          20 (0.01%) in 13 files (2.4%)
+   ImportDefaultSpecifier               20 (0.01%) in 13 files (2.4%)
+   ImportNamespaceSpecifier             19 (0.01%) in 13 files (2.4%)
+   RestElement                          18 (0.01%) in 11 files (2.0%)
+   TSMethodSignature                    17 (0.01%) in 4 files (0.7%)
+   TSUndefinedKeyword                   17 (0.01%) in 6 files (1.1%)
+   TSIndexedAccessType                  16 (0.01%) in 4 files (0.7%)
+   TSTypeQuery                          14 (0.00%) in 8 files (1.5%)
+   BreakStatement                       14 (0.00%) in 4 files (0.7%)
+   SwitchStatement                       9 (0.00%) in 4 files (0.7%)
+   TSDeclareFunction                     8 (0.00%) in 1 files (0.2%)
+   Decorator                             8 (0.00%) in 2 files (0.4%)
+   TSObjectKeyword                       7 (0.00%) in 3 files (0.6%)
+   ForOfStatement                        7 (0.00%) in 5 files (0.9%)
+   TSTypeOperator                        7 (0.00%) in 3 files (0.6%)
+   TSClassImplements                     7 (0.00%) in 4 files (0.7%)
+   Hashbang                              7 (0.00%) in 7 files (1.3%)
+   TSImportEqualsDeclaration             6 (0.00%) in 4 files (0.7%)
+   TSExternalModuleReference             6 (0.00%) in 4 files (0.7%)
+   ExportDefaultDeclaration              5 (0.00%) in 5 files (0.9%)
+   ChainExpression                       5 (0.00%) in 4 files (0.7%)
+   TSConstructSignatureDeclaration        4 (0.00%) in 3 files (0.6%)
+   ForStatement                          4 (0.00%) in 3 files (0.6%)
+   UpdateExpression                      4 (0.00%) in 3 files (0.6%)
+   ForInStatement                        4 (0.00%) in 3 files (0.6%)
+   ContinueStatement                     4 (0.00%) in 3 files (0.6%)
+   TSParenthesizedType                   3 (0.00%) in 2 files (0.4%)
+   TSNeverKeyword                        3 (0.00%) in 3 files (0.6%)
+   TSConstructorType                     3 (0.00%) in 1 files (0.2%)
+   TSTypeAssertion                       3 (0.00%) in 3 files (0.6%)
+   ArrayPattern                          2 (0.00%) in 1 files (0.2%)
+   WhileStatement                        1 (0.00%) in 1 files (0.2%)
+   ImportExpression                      1 (0.00%) in 1 files (0.2%)
+   TSTypePredicate                       1 (0.00%) in 1 files (0.2%)
+   TSTupleType                           1 (0.00%) in 1 files (0.2%)
+   TSSymbolKeyword                       1 (0.00%) in 1 files (0.2%)
+   EmptyStatement                        1 (0.00%) in 1 files (0.2%)
+   TSParameterProperty                   1 (0.00%) in 1 files (0.2%)
+
+📁 FILE EXAMPLES BY NODE TYPE:
+
+   Identifier:
+     📄 Files WITH Identifier (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+     📄 Files WITHOUT Identifier (showing 1):
+       • examples/webhook-signing/nextjs/next-env.d.ts
+
+   Literal:
+     📄 Files WITH Literal (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+     📄 Files WITHOUT Literal (showing 1):
+       • examples/webhook-signing/nextjs/next-env.d.ts
+
+   TSLiteralType:
+     📄 Files WITH TSLiteralType (showing 10):
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/TopupsResource.d.ts
+     📄 Files WITHOUT TSLiteralType (showing 10):
+       • types/shared.d.ts
+       • types/ThinEvent.d.ts
+       • types/TaxCodesResource.d.ts
+       • types/SetupAttemptsResource.d.ts
+       • types/ReviewsResource.d.ts
+       • types/PromotionCodesResource.d.ts
+       • types/PaymentMethodDomainsResource.d.ts
+       • types/MandatesResource.d.ts
+       • types/ExternalAccounts.d.ts
+       • types/ExchangeRatesResource.d.ts
+
+   TSTypeAnnotation:
+     📄 Files WITH TSTypeAnnotation (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/TopupsResource.d.ts
+     📄 Files WITHOUT TSTypeAnnotation (showing 10):
+       • types/UpcomingInvoices.d.ts
+       • types/ExternalAccounts.d.ts
+       • types/CustomerSources.d.ts
+       • types/BalanceTransactionSources.d.ts
+       • test/setup.js
+       • test/autoPagination.spec.ts
+       • test/StripeResource.spec.ts
+       • test/RequestSender.spec.ts
+       • src/stripe.esm.worker.ts
+       • src/stripe.esm.node.ts
+
+   TSPropertySignature:
+     📄 Files WITH TSPropertySignature (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/TopupsResource.d.ts
+     📄 Files WITHOUT TSPropertySignature (showing 10):
+       • types/UpcomingInvoices.d.ts
+       • types/ExternalAccounts.d.ts
+       • types/CustomerSources.d.ts
+       • types/BalanceTransactionSources.d.ts
+       • test/utils.spec.ts
+       • test/telemetry.spec.ts
+       • test/stripe.spec.ts
+       • test/setup.js
+       • test/autoPagination.spec.ts
+       • test/Webhook.spec.ts
+
+   TSTypeReference:
+     📄 Files WITH TSTypeReference (showing 10):
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/TopupsResource.d.ts
+     📄 Files WITHOUT TSTypeReference (showing 10):
+       • types/shared.d.ts
+       • types/TaxDeductedAtSources.d.ts
+       • types/TaxCodes.d.ts
+       • types/ReserveTransactions.d.ts
+       • types/LoginLinks.d.ts
+       • types/ExchangeRates.d.ts
+       • types/EphemeralKeys.d.ts
+       • types/Applications.d.ts
+       • types/ApplePayDomains.d.ts
+       • types/AccountLinks.d.ts
+
+   TSQualifiedName:
+     📄 Files WITH TSQualifiedName (showing 10):
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/TopupsResource.d.ts
+     📄 Files WITHOUT TSQualifiedName (showing 10):
+       • types/shared.d.ts
+       • types/TaxDeductedAtSources.d.ts
+       • types/TaxCodes.d.ts
+       • types/ReserveTransactions.d.ts
+       • types/LoginLinks.d.ts
+       • types/ExternalAccounts.d.ts
+       • types/ExchangeRates.d.ts
+       • types/EphemeralKeys.d.ts
+       • types/CustomerSources.d.ts
+       • types/Applications.d.ts
+
+   MemberExpression:
+     📄 Files WITH MemberExpression (showing 10):
+       • types/ThinEvent.d.ts
+       • types/EventTypes.d.ts
+       • test/utils.spec.ts
+       • test/testUtils.ts
+       • test/telemetry.spec.ts
+       • test/stripe.spec.ts
+       • test/setup.js
+       • test/autoPagination.spec.ts
+       • test/Webhook.spec.ts
+       • test/StripeResource.spec.ts
+     📄 Files WITHOUT MemberExpression (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   CallExpression:
+     📄 Files WITH CallExpression (showing 10):
+       • test/utils.spec.ts
+       • test/testUtils.ts
+       • test/telemetry.spec.ts
+       • test/stripe.spec.ts
+       • test/setup.js
+       • test/autoPagination.spec.ts
+       • test/Webhook.spec.ts
+       • test/StripeResource.spec.ts
+       • test/RequestSender.spec.ts
+       • test/PlatformFunctions.spec.ts
+     📄 Files WITHOUT CallExpression (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   TSStringKeyword:
+     📄 Files WITH TSStringKeyword (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/TopupsResource.d.ts
+     📄 Files WITHOUT TSStringKeyword (showing 10):
+       • types/UpcomingInvoices.d.ts
+       • types/ExternalAccounts.d.ts
+       • types/EventTypes.d.ts
+       • types/CustomerSources.d.ts
+       • types/BalanceTransactionSources.d.ts
+       • test/utils.spec.ts
+       • test/telemetry.spec.ts
+       • test/setup.js
+       • test/autoPagination.spec.ts
+       • test/Webhook.spec.ts
+
+   Property:
+     📄 Files WITH Property (showing 10):
+       • test/utils.spec.ts
+       • test/testUtils.ts
+       • test/telemetry.spec.ts
+       • test/stripe.spec.ts
+       • test/autoPagination.spec.ts
+       • test/Webhook.spec.ts
+       • test/StripeResource.spec.ts
+       • test/RequestSender.spec.ts
+       • test/PlatformFunctions.spec.ts
+       • test/Error.spec.ts
+     📄 Files WITHOUT Property (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   TSUnionType:
+     📄 Files WITH TSUnionType (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/TopupsResource.d.ts
+     📄 Files WITHOUT TSUnionType (showing 10):
+       • types/UpcomingInvoices.d.ts
+       • types/TaxDeductedAtSources.d.ts
+       • types/TaxCodesResource.d.ts
+       • types/TaxCodes.d.ts
+       • types/ProductFeatures.d.ts
+       • types/PaymentMethodDomainsResource.d.ts
+       • types/MandatesResource.d.ts
+       • types/LoginLinks.d.ts
+       • types/ExchangeRatesResource.d.ts
+       • types/ExchangeRates.d.ts
+
+   TSInterfaceDeclaration:
+     📄 Files WITH TSInterfaceDeclaration (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/TopupsResource.d.ts
+       • types/Topups.d.ts
+     📄 Files WITHOUT TSInterfaceDeclaration (showing 10):
+       • types/index.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/ExternalAccounts.d.ts
+       • types/Errors.d.ts
+       • types/CustomerSources.d.ts
+       • types/BalanceTransactionSources.d.ts
+       • test/utils.spec.ts
+       • test/testUtils.ts
+       • test/telemetry.spec.ts
+       • test/stripe.spec.ts
+
+   TSInterfaceBody:
+     📄 Files WITH TSInterfaceBody (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/TopupsResource.d.ts
+       • types/Topups.d.ts
+     📄 Files WITHOUT TSInterfaceBody (showing 10):
+       • types/index.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/ExternalAccounts.d.ts
+       • types/Errors.d.ts
+       • types/CustomerSources.d.ts
+       • types/BalanceTransactionSources.d.ts
+       • test/utils.spec.ts
+       • test/testUtils.ts
+       • test/telemetry.spec.ts
+       • test/stripe.spec.ts
+
+   ExpressionStatement:
+     📄 Files WITH ExpressionStatement (showing 10):
+       • test/utils.spec.ts
+       • test/testUtils.ts
+       • test/telemetry.spec.ts
+       • test/stripe.spec.ts
+       • test/setup.js
+       • test/autoPagination.spec.ts
+       • test/Webhook.spec.ts
+       • test/StripeResource.spec.ts
+       • test/RequestSender.spec.ts
+       • test/PlatformFunctions.spec.ts
+     📄 Files WITHOUT ExpressionStatement (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   TSTypeParameterInstantiation:
+     📄 Files WITH TSTypeParameterInstantiation (showing 10):
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TopupsResource.d.ts
+       • types/TokensResource.d.ts
+     📄 Files WITHOUT TSTypeParameterInstantiation (showing 10):
+       • types/shared.d.ts
+       • types/TransferReversals.d.ts
+       • types/Topups.d.ts
+       • types/Tokens.d.ts
+       • types/ThinEvent.d.ts
+       • types/TaxRates.d.ts
+       • types/TaxIds.d.ts
+       • types/TaxDeductedAtSources.d.ts
+       • types/TaxCodes.d.ts
+       • types/SourceTransactions.d.ts
+
+   TSModuleDeclaration:
+     📄 Files WITH TSModuleDeclaration (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+     📄 Files WITHOUT TSModuleDeclaration (showing 10):
+       • test/utils.spec.ts
+       • test/testUtils.ts
+       • test/telemetry.spec.ts
+       • test/stripe.spec.ts
+       • test/setup.js
+       • test/autoPagination.spec.ts
+       • test/Webhook.spec.ts
+       • test/StripeResource.spec.ts
+       • test/RequestSender.spec.ts
+       • test/PlatformFunctions.spec.ts
+
+   TSModuleBlock:
+     📄 Files WITH TSModuleBlock (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+     📄 Files WITHOUT TSModuleBlock (showing 10):
+       • test/utils.spec.ts
+       • test/testUtils.ts
+       • test/telemetry.spec.ts
+       • test/stripe.spec.ts
+       • test/setup.js
+       • test/autoPagination.spec.ts
+       • test/Webhook.spec.ts
+       • test/StripeResource.spec.ts
+       • test/RequestSender.spec.ts
+       • test/PlatformFunctions.spec.ts
+
+   ObjectExpression:
+     📄 Files WITH ObjectExpression (showing 10):
+       • test/utils.spec.ts
+       • test/testUtils.ts
+       • test/telemetry.spec.ts
+       • test/stripe.spec.ts
+       • test/autoPagination.spec.ts
+       • test/Webhook.spec.ts
+       • test/StripeResource.spec.ts
+       • test/RequestSender.spec.ts
+       • test/PlatformFunctions.spec.ts
+       • test/Error.spec.ts
+     📄 Files WITHOUT ObjectExpression (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   TSNullKeyword:
+     📄 Files WITH TSNullKeyword (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/Topups.d.ts
+       • types/Tokens.d.ts
+       • types/ThinEvent.d.ts
+       • types/TaxRates.d.ts
+       • types/TaxIds.d.ts
+     📄 Files WITHOUT TSNullKeyword (showing 10):
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/TopupsResource.d.ts
+       • types/TokensResource.d.ts
+       • types/TaxRatesResource.d.ts
+       • types/TaxIdsResource.d.ts
+       • types/TaxDeductedAtSources.d.ts
+
+   BlockStatement:
+     📄 Files WITH BlockStatement (showing 10):
+       • test/utils.spec.ts
+       • test/testUtils.ts
+       • test/telemetry.spec.ts
+       • test/stripe.spec.ts
+       • test/autoPagination.spec.ts
+       • test/Webhook.spec.ts
+       • test/StripeResource.spec.ts
+       • test/RequestSender.spec.ts
+       • test/PlatformFunctions.spec.ts
+       • test/Integration.spec.ts
+     📄 Files WITHOUT BlockStatement (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   TSTypeAliasDeclaration:
+     📄 Files WITH TSTypeAliasDeclaration (showing 10):
+       • types/lib.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/TopupsResource.d.ts
+       • types/Topups.d.ts
+       • types/TokensResource.d.ts
+       • types/TaxRatesResource.d.ts
+       • types/TaxRates.d.ts
+       • types/TaxIdsResource.d.ts
+     📄 Files WITHOUT TSTypeAliasDeclaration (showing 10):
+       • types/shared.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/Tokens.d.ts
+       • types/ThinEvent.d.ts
+       • types/TaxDeductedAtSources.d.ts
+       • types/TaxCodesResource.d.ts
+
+   VariableDeclaration:
+     📄 Files WITH VariableDeclaration (showing 10):
+       • test/utils.spec.ts
+       • test/testUtils.ts
+       • test/telemetry.spec.ts
+       • test/stripe.spec.ts
+       • test/autoPagination.spec.ts
+       • test/Webhook.spec.ts
+       • test/StripeResource.spec.ts
+       • test/RequestSender.spec.ts
+       • test/PlatformFunctions.spec.ts
+       • test/Integration.spec.ts
+     📄 Files WITHOUT VariableDeclaration (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   VariableDeclarator:
+     📄 Files WITH VariableDeclarator (showing 10):
+       • test/utils.spec.ts
+       • test/testUtils.ts
+       • test/telemetry.spec.ts
+       • test/stripe.spec.ts
+       • test/autoPagination.spec.ts
+       • test/Webhook.spec.ts
+       • test/StripeResource.spec.ts
+       • test/RequestSender.spec.ts
+       • test/PlatformFunctions.spec.ts
+       • test/Integration.spec.ts
+     📄 Files WITHOUT VariableDeclarator (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   TSNumberKeyword:
+     📄 Files WITH TSNumberKeyword (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/TopupsResource.d.ts
+       • types/Topups.d.ts
+     📄 Files WITHOUT TSNumberKeyword (showing 10):
+       • types/WebhookEndpointsResource.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/ThinEvent.d.ts
+       • types/TaxIdsResource.d.ts
+       • types/TaxCodesResource.d.ts
+       • types/TaxCodes.d.ts
+       • types/ProductFeatures.d.ts
+       • types/PaymentMethodDomainsResource.d.ts
+       • types/PaymentMethodConfigurationsResource.d.ts
+       • types/PaymentMethodConfigurations.d.ts
+
+   ArrowFunctionExpression:
+     📄 Files WITH ArrowFunctionExpression (showing 10):
+       • test/utils.spec.ts
+       • test/testUtils.ts
+       • test/telemetry.spec.ts
+       • test/stripe.spec.ts
+       • test/autoPagination.spec.ts
+       • test/Webhook.spec.ts
+       • test/StripeResource.spec.ts
+       • test/RequestSender.spec.ts
+       • test/PlatformFunctions.spec.ts
+       • test/Integration.spec.ts
+     📄 Files WITHOUT ArrowFunctionExpression (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   MethodDefinition:
+     📄 Files WITH MethodDefinition (showing 10):
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/TransfersResource.d.ts
+       • types/TopupsResource.d.ts
+       • types/TokensResource.d.ts
+       • types/TaxRatesResource.d.ts
+       • types/TaxIdsResource.d.ts
+       • types/TaxCodesResource.d.ts
+     📄 Files WITHOUT MethodDefinition (showing 10):
+       • types/shared.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/Topups.d.ts
+       • types/Tokens.d.ts
+       • types/ThinEvent.d.ts
+       • types/TaxRates.d.ts
+       • types/TaxIds.d.ts
+
+   TSBooleanKeyword:
+     📄 Files WITH TSBooleanKeyword (showing 10):
+       • types/lib.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/Topups.d.ts
+       • types/TokensResource.d.ts
+       • types/Tokens.d.ts
+       • types/TaxRatesResource.d.ts
+     📄 Files WITHOUT TSBooleanKeyword (showing 10):
+       • types/shared.d.ts
+       • types/index.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransferReversals.d.ts
+       • types/TopupsResource.d.ts
+       • types/ThinEvent.d.ts
+       • types/TaxIdsResource.d.ts
+       • types/TaxDeductedAtSources.d.ts
+       • types/TaxCodesResource.d.ts
+       • types/TaxCodes.d.ts
+
+   TSEmptyBodyFunctionExpression:
+     📄 Files WITH TSEmptyBodyFunctionExpression (showing 10):
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/TransfersResource.d.ts
+       • types/TopupsResource.d.ts
+       • types/TokensResource.d.ts
+       • types/TaxRatesResource.d.ts
+       • types/TaxIdsResource.d.ts
+       • types/TaxCodesResource.d.ts
+     📄 Files WITHOUT TSEmptyBodyFunctionExpression (showing 10):
+       • types/shared.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/Topups.d.ts
+       • types/Tokens.d.ts
+       • types/ThinEvent.d.ts
+       • types/TaxRates.d.ts
+       • types/TaxIds.d.ts
+
+   FunctionExpression:
+     📄 Files WITH FunctionExpression (showing 10):
+       • test/utils.spec.ts
+       • test/testUtils.ts
+       • test/stripe.spec.ts
+       • test/Webhook.spec.ts
+       • test/RequestSender.spec.ts
+       • test/Integration.spec.ts
+       • test/Error.spec.ts
+       • src/utils.ts
+       • src/stripe.core.ts
+       • src/autoPagination.ts
+     📄 Files WITHOUT FunctionExpression (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   AwaitExpression:
+     📄 Files WITH AwaitExpression (showing 10):
+       • test/telemetry.spec.ts
+       • test/stripe.spec.ts
+       • test/autoPagination.spec.ts
+       • test/Webhook.spec.ts
+       • test/RequestSender.spec.ts
+       • test/PlatformFunctions.spec.ts
+       • test/Integration.spec.ts
+       • src/autoPagination.ts
+       • src/Webhooks.ts
+       • types/test/typescriptTest.ts
+     📄 Files WITHOUT AwaitExpression (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   TSInterfaceHeritage:
+     📄 Files WITH TSInterfaceHeritage (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/TransfersResource.d.ts
+       • types/TopupsResource.d.ts
+       • types/ThinEvent.d.ts
+       • types/TaxRatesResource.d.ts
+       • types/TaxIdsResource.d.ts
+       • types/TaxCodesResource.d.ts
+       • types/SubscriptionsResource.d.ts
+     📄 Files WITHOUT TSInterfaceHeritage (showing 10):
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/Topups.d.ts
+       • types/TokensResource.d.ts
+       • types/Tokens.d.ts
+       • types/TaxRates.d.ts
+
+   Program:
+     📄 Files WITH Program (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+     📄 Files WITHOUT Program: (all files contain this node type)
+
+   Unknown:
+     📄 Files WITH Unknown (showing 10):
+       • test/utils.spec.ts
+       • test/testUtils.ts
+       • test/telemetry.spec.ts
+       • test/stripe.spec.ts
+       • test/autoPagination.spec.ts
+       • test/Webhook.spec.ts
+       • test/RequestSender.spec.ts
+       • test/PlatformFunctions.spec.ts
+       • test/Integration.spec.ts
+       • src/utils.ts
+     📄 Files WITHOUT Unknown (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   ImportSpecifier:
+     📄 Files WITH ImportSpecifier (showing 10):
+       • types/lib.d.ts
+       • test/utils.spec.ts
+       • test/testUtils.ts
+       • test/telemetry.spec.ts
+       • test/stripe.spec.ts
+       • test/autoPagination.spec.ts
+       • test/Webhook.spec.ts
+       • test/StripeResource.spec.ts
+       • test/RequestSender.spec.ts
+       • test/PlatformFunctions.spec.ts
+     📄 Files WITHOUT ImportSpecifier (showing 10):
+       • types/shared.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/TopupsResource.d.ts
+
+   ReturnStatement:
+     📄 Files WITH ReturnStatement (showing 10):
+       • test/testUtils.ts
+       • test/telemetry.spec.ts
+       • test/stripe.spec.ts
+       • test/autoPagination.spec.ts
+       • test/Webhook.spec.ts
+       • test/StripeResource.spec.ts
+       • test/RequestSender.spec.ts
+       • test/PlatformFunctions.spec.ts
+       • test/Integration.spec.ts
+       • src/utils.ts
+     📄 Files WITHOUT ReturnStatement (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   TemplateElement:
+     📄 Files WITH TemplateElement (showing 10):
+       • test/utils.spec.ts
+       • test/testUtils.ts
+       • test/telemetry.spec.ts
+       • test/stripe.spec.ts
+       • test/autoPagination.spec.ts
+       • test/RequestSender.spec.ts
+       • test/PlatformFunctions.spec.ts
+       • test/Integration.spec.ts
+       • src/utils.ts
+       • src/stripe.core.ts
+     📄 Files WITHOUT TemplateElement (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   ImportDeclaration:
+     📄 Files WITH ImportDeclaration (showing 10):
+       • types/lib.d.ts
+       • test/utils.spec.ts
+       • test/testUtils.ts
+       • test/telemetry.spec.ts
+       • test/stripe.spec.ts
+       • test/autoPagination.spec.ts
+       • test/Webhook.spec.ts
+       • test/StripeResource.spec.ts
+       • test/RequestSender.spec.ts
+       • test/PlatformFunctions.spec.ts
+     📄 Files WITHOUT ImportDeclaration (showing 10):
+       • types/shared.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/TopupsResource.d.ts
+
+   ExportNamedDeclaration:
+     📄 Files WITH ExportNamedDeclaration (showing 10):
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/OAuth.d.ts
+       • types/EventTypes.d.ts
+       • types/Errors.d.ts
+       • test/testUtils.ts
+       • test/autoPagination.spec.ts
+       • src/utils.ts
+       • src/stripe.esm.worker.ts
+     📄 Files WITHOUT ExportNamedDeclaration (showing 10):
+       • types/shared.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/TopupsResource.d.ts
+       • types/Topups.d.ts
+       • types/TokensResource.d.ts
+
+   ArrayExpression:
+     📄 Files WITH ArrayExpression (showing 10):
+       • test/utils.spec.ts
+       • test/testUtils.ts
+       • test/telemetry.spec.ts
+       • test/stripe.spec.ts
+       • test/autoPagination.spec.ts
+       • test/Webhook.spec.ts
+       • test/StripeResource.spec.ts
+       • test/RequestSender.spec.ts
+       • test/PlatformFunctions.spec.ts
+       • src/utils.ts
+     📄 Files WITHOUT ArrayExpression (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   AssignmentExpression:
+     📄 Files WITH AssignmentExpression (showing 10):
+       • test/utils.spec.ts
+       • test/testUtils.ts
+       • test/telemetry.spec.ts
+       • test/stripe.spec.ts
+       • test/autoPagination.spec.ts
+       • test/Webhook.spec.ts
+       • test/StripeResource.spec.ts
+       • test/RequestSender.spec.ts
+       • test/PlatformFunctions.spec.ts
+       • test/Integration.spec.ts
+     📄 Files WITHOUT AssignmentExpression (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   BinaryExpression:
+     📄 Files WITH BinaryExpression (showing 10):
+       • test/utils.spec.ts
+       • test/testUtils.ts
+       • test/autoPagination.spec.ts
+       • test/Webhook.spec.ts
+       • test/StripeResource.spec.ts
+       • test/RequestSender.spec.ts
+       • test/PlatformFunctions.spec.ts
+       • test/Integration.spec.ts
+       • src/utils.ts
+       • src/stripe.core.ts
+     📄 Files WITHOUT BinaryExpression (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   IfStatement:
+     📄 Files WITH IfStatement (showing 10):
+       • test/utils.spec.ts
+       • test/testUtils.ts
+       • test/telemetry.spec.ts
+       • test/stripe.spec.ts
+       • test/autoPagination.spec.ts
+       • test/StripeResource.spec.ts
+       • test/RequestSender.spec.ts
+       • test/PlatformFunctions.spec.ts
+       • test/Integration.spec.ts
+       • src/utils.ts
+     📄 Files WITHOUT IfStatement (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   NewExpression:
+     📄 Files WITH NewExpression (showing 10):
+       • test/utils.spec.ts
+       • test/testUtils.ts
+       • test/telemetry.spec.ts
+       • test/stripe.spec.ts
+       • test/autoPagination.spec.ts
+       • test/Webhook.spec.ts
+       • test/StripeResource.spec.ts
+       • test/RequestSender.spec.ts
+       • test/PlatformFunctions.spec.ts
+       • test/Integration.spec.ts
+     📄 Files WITHOUT NewExpression (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   ThisExpression:
+     📄 Files WITH ThisExpression (showing 10):
+       • test/utils.spec.ts
+       • test/testUtils.ts
+       • test/RequestSender.spec.ts
+       • test/Integration.spec.ts
+       • src/utils.ts
+       • src/stripe.core.ts
+       • src/multipart.ts
+       • src/autoPagination.ts
+       • src/Webhooks.ts
+       • src/StripeResource.ts
+     📄 Files WITHOUT ThisExpression (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   TemplateLiteral:
+     📄 Files WITH TemplateLiteral (showing 10):
+       • test/utils.spec.ts
+       • test/testUtils.ts
+       • test/telemetry.spec.ts
+       • test/stripe.spec.ts
+       • test/autoPagination.spec.ts
+       • test/RequestSender.spec.ts
+       • test/PlatformFunctions.spec.ts
+       • test/Integration.spec.ts
+       • src/utils.ts
+       • src/stripe.core.ts
+     📄 Files WITHOUT TemplateLiteral (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   ClassDeclaration:
+     📄 Files WITH ClassDeclaration (showing 10):
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/TransfersResource.d.ts
+       • types/TopupsResource.d.ts
+       • types/TokensResource.d.ts
+       • types/TaxRatesResource.d.ts
+       • types/TaxIdsResource.d.ts
+       • types/TaxCodesResource.d.ts
+     📄 Files WITHOUT ClassDeclaration (showing 10):
+       • types/shared.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/Topups.d.ts
+       • types/Tokens.d.ts
+       • types/ThinEvent.d.ts
+       • types/TaxRates.d.ts
+       • types/TaxIds.d.ts
+
+   ClassBody:
+     📄 Files WITH ClassBody (showing 10):
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/TransfersResource.d.ts
+       • types/TopupsResource.d.ts
+       • types/TokensResource.d.ts
+       • types/TaxRatesResource.d.ts
+       • types/TaxIdsResource.d.ts
+       • types/TaxCodesResource.d.ts
+     📄 Files WITHOUT ClassBody (showing 10):
+       • types/shared.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/Topups.d.ts
+       • types/Tokens.d.ts
+       • types/ThinEvent.d.ts
+       • types/TaxRates.d.ts
+       • types/TaxIds.d.ts
+
+   PropertyDefinition:
+     📄 Files WITH PropertyDefinition (showing 10):
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/Errors.d.ts
+       • src/autoPagination.ts
+       • src/StripeEmitter.ts
+       • src/RequestSender.ts
+       • src/Error.ts
+       • src/platform/PlatformFunctions.ts
+       • src/platform/NodePlatformFunctions.ts
+     📄 Files WITHOUT PropertyDefinition (showing 10):
+       • types/shared.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/TopupsResource.d.ts
+       • types/Topups.d.ts
+       • types/TokensResource.d.ts
+
+   UnaryExpression:
+     📄 Files WITH UnaryExpression (showing 10):
+       • test/utils.spec.ts
+       • test/testUtils.ts
+       • test/autoPagination.spec.ts
+       • test/PlatformFunctions.spec.ts
+       • src/utils.ts
+       • src/stripe.core.ts
+       • src/multipart.ts
+       • src/autoPagination.ts
+       • src/Webhooks.ts
+       • src/StripeResource.ts
+     📄 Files WITHOUT UnaryExpression (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   LogicalExpression:
+     📄 Files WITH LogicalExpression (showing 10):
+       • test/testUtils.ts
+       • test/autoPagination.spec.ts
+       • test/PlatformFunctions.spec.ts
+       • src/utils.ts
+       • src/stripe.core.ts
+       • src/multipart.ts
+       • src/autoPagination.ts
+       • src/Webhooks.ts
+       • src/StripeResource.ts
+       • src/StripeMethod.ts
+     📄 Files WITHOUT LogicalExpression (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   TSTypeLiteral:
+     📄 Files WITH TSTypeLiteral (showing 10):
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/ShippingRatesResource.d.ts
+       • types/ShippingRates.d.ts
+       • types/PromotionCodesResource.d.ts
+       • types/PromotionCodes.d.ts
+       • types/ProductsResource.d.ts
+       • types/PricesResource.d.ts
+       • types/Prices.d.ts
+     📄 Files WITHOUT TSTypeLiteral (showing 10):
+       • types/shared.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/TopupsResource.d.ts
+       • types/Topups.d.ts
+       • types/TokensResource.d.ts
+
+   TSVoidKeyword:
+     📄 Files WITH TSVoidKeyword (showing 10):
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/TaxIds.d.ts
+       • types/SubscriptionItems.d.ts
+       • types/Products.d.ts
+       • types/ProductFeatures.d.ts
+       • types/Prices.d.ts
+       • types/Plans.d.ts
+       • types/Persons.d.ts
+     📄 Files WITHOUT TSVoidKeyword (showing 10):
+       • types/shared.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/TopupsResource.d.ts
+       • types/Topups.d.ts
+       • types/TokensResource.d.ts
+
+   TSAnyKeyword:
+     📄 Files WITH TSAnyKeyword (showing 10):
+       • types/lib.d.ts
+       • test/utils.spec.ts
+       • test/testUtils.ts
+       • test/stripe.spec.ts
+       • test/Webhook.spec.ts
+       • test/PlatformFunctions.spec.ts
+       • test/Error.spec.ts
+       • src/utils.ts
+       • src/stripe.core.ts
+       • src/multipart.ts
+     📄 Files WITHOUT TSAnyKeyword (showing 10):
+       • types/shared.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/TopupsResource.d.ts
+
+   ThrowStatement:
+     📄 Files WITH ThrowStatement (showing 10):
+       • test/utils.spec.ts
+       • test/testUtils.ts
+       • test/autoPagination.spec.ts
+       • test/Webhook.spec.ts
+       • test/PlatformFunctions.spec.ts
+       • src/utils.ts
+       • src/stripe.core.ts
+       • src/autoPagination.ts
+       • src/Webhooks.ts
+       • src/StripeResource.ts
+     📄 Files WITHOUT ThrowStatement (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   FunctionDeclaration:
+     📄 Files WITH FunctionDeclaration (showing 10):
+       • test/utils.spec.ts
+       • test/autoPagination.spec.ts
+       • test/Webhook.spec.ts
+       • test/PlatformFunctions.spec.ts
+       • src/utils.ts
+       • src/stripe.core.ts
+       • src/multipart.ts
+       • src/autoPagination.ts
+       • src/Webhooks.ts
+       • src/StripeResource.ts
+     📄 Files WITHOUT FunctionDeclaration (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   TSFunctionType:
+     📄 Files WITH TSFunctionType (showing 10):
+       • types/lib.d.ts
+       • types/index.d.ts
+       • test/testUtils.ts
+       • test/telemetry.spec.ts
+       • src/utils.ts
+       • src/stripe.core.ts
+       • src/multipart.ts
+       • src/autoPagination.ts
+       • src/Webhooks.ts
+       • src/Types.d.ts
+     📄 Files WITHOUT TSFunctionType (showing 10):
+       • types/shared.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/TopupsResource.d.ts
+       • types/Topups.d.ts
+
+   ParenthesizedExpression:
+     📄 Files WITH ParenthesizedExpression (showing 10):
+       • test/testUtils.ts
+       • test/telemetry.spec.ts
+       • test/autoPagination.spec.ts
+       • test/StripeResource.spec.ts
+       • src/utils.ts
+       • src/stripe.core.ts
+       • src/multipart.ts
+       • src/autoPagination.ts
+       • src/Webhooks.ts
+       • src/StripeResource.ts
+     📄 Files WITHOUT ParenthesizedExpression (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   TSAsExpression:
+     📄 Files WITH TSAsExpression (showing 10):
+       • test/testUtils.ts
+       • test/Error.spec.ts
+       • src/utils.ts
+       • src/stripe.core.ts
+       • src/multipart.ts
+       • src/autoPagination.ts
+       • src/StripeResource.ts
+       • src/ResourceNamespace.ts
+       • src/RequestSender.ts
+       • types/test/typescriptTest.ts
+     📄 Files WITHOUT TSAsExpression (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   ExportSpecifier:
+     📄 Files WITH ExportSpecifier (showing 2):
+       • src/resources.ts
+       • src/StripeResource.ts
+     📄 Files WITHOUT ExportSpecifier (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   ObjectPattern:
+     📄 Files WITH ObjectPattern (showing 10):
+       • test/testUtils.ts
+       • test/telemetry.spec.ts
+       • test/autoPagination.spec.ts
+       • test/PlatformFunctions.spec.ts
+       • src/Webhooks.ts
+       • src/StripeResource.ts
+       • src/RequestSender.ts
+       • types/test/typescriptTest.ts
+       • test/net/helpers.ts
+       • test/net/NodeHttpClient.spec.ts
+     📄 Files WITHOUT ObjectPattern (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   TSIndexSignature:
+     📄 Files WITH TSIndexSignature (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/ShippingRatesResource.d.ts
+       • types/ShippingRates.d.ts
+       • types/PromotionCodesResource.d.ts
+       • types/PromotionCodes.d.ts
+       • types/ProductsResource.d.ts
+       • types/PricesResource.d.ts
+       • types/Prices.d.ts
+     📄 Files WITHOUT TSIndexSignature (showing 10):
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/TopupsResource.d.ts
+       • types/Topups.d.ts
+       • types/TokensResource.d.ts
+
+   ConditionalExpression:
+     📄 Files WITH ConditionalExpression (showing 10):
+       • test/autoPagination.spec.ts
+       • src/utils.ts
+       • src/stripe.core.ts
+       • src/multipart.ts
+       • src/autoPagination.ts
+       • src/Webhooks.ts
+       • src/StripeResource.ts
+       • src/RequestSender.ts
+       • scripts/updateAPIVersion.js
+       • types/test/typescriptTest.ts
+     📄 Files WITHOUT ConditionalExpression (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   TSTypeParameter:
+     📄 Files WITH TSTypeParameter (showing 6):
+       • types/lib.d.ts
+       • src/utils.ts
+       • src/stripe.core.ts
+       • src/autoPagination.ts
+       • src/Types.d.ts
+       • types/net/net.d.ts
+     📄 Files WITHOUT TSTypeParameter (showing 10):
+       • types/shared.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/TopupsResource.d.ts
+
+   TSTypeParameterDeclaration:
+     📄 Files WITH TSTypeParameterDeclaration (showing 6):
+       • types/lib.d.ts
+       • src/utils.ts
+       • src/stripe.core.ts
+       • src/autoPagination.ts
+       • src/Types.d.ts
+       • types/net/net.d.ts
+     📄 Files WITHOUT TSTypeParameterDeclaration (showing 10):
+       • types/shared.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/TopupsResource.d.ts
+
+   TSUnknownKeyword:
+     📄 Files WITH TSUnknownKeyword (showing 10):
+       • types/index.d.ts
+       • types/Errors.d.ts
+       • test/testUtils.ts
+       • src/utils.ts
+       • src/stripe.core.ts
+       • src/Webhooks.ts
+       • src/Types.d.ts
+       • src/StripeResource.ts
+       • src/Error.ts
+       • src/platform/NodePlatformFunctions.ts
+     📄 Files WITHOUT TSUnknownKeyword (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/TopupsResource.d.ts
+
+   TryStatement:
+     📄 Files WITH TryStatement (showing 10):
+       • test/telemetry.spec.ts
+       • test/stripe.spec.ts
+       • test/RequestSender.spec.ts
+       • src/Webhooks.ts
+       • src/StripeResource.ts
+       • src/RequestSender.ts
+       • types/test/typescriptTest.ts
+       • testProjects/esbuild/index.js
+       • testProjects/mjs/index.js
+       • testProjects/mjs-ts/index.ts
+     📄 Files WITHOUT TryStatement (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   CatchClause:
+     📄 Files WITH CatchClause (showing 10):
+       • test/telemetry.spec.ts
+       • test/stripe.spec.ts
+       • test/RequestSender.spec.ts
+       • src/Webhooks.ts
+       • src/StripeResource.ts
+       • src/RequestSender.ts
+       • types/test/typescriptTest.ts
+       • testProjects/esbuild/index.js
+       • testProjects/mjs/index.js
+       • testProjects/mjs-ts/index.ts
+     📄 Files WITHOUT CatchClause (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   SwitchCase:
+     📄 Files WITH SwitchCase (showing 4):
+       • test/telemetry.spec.ts
+       • src/stripe.core.ts
+       • src/Error.ts
+       • examples/webhook-signing/nextjs/app/api/webhooks/route.ts
+     📄 Files WITHOUT SwitchCase (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   Super:
+     📄 Files WITH Super (showing 10):
+       • test/testUtils.ts
+       • test/Error.spec.ts
+       • src/StripeEmitter.ts
+       • src/Error.ts
+       • test/net/helpers.ts
+       • src/platform/WebPlatformFunctions.ts
+       • src/platform/NodePlatformFunctions.ts
+       • src/net/NodeHttpClient.ts
+       • src/net/FetchHttpClient.ts
+       • src/crypto/SubtleCryptoProvider.ts
+     📄 Files WITHOUT Super (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   AssignmentPattern:
+     📄 Files WITH AssignmentPattern (showing 5):
+       • test/testUtils.ts
+       • src/stripe.core.ts
+       • src/RequestSender.ts
+       • src/Error.ts
+       • test/crypto/helpers.ts
+     📄 Files WITHOUT AssignmentPattern (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   TSNonNullExpression:
+     📄 Files WITH TSNonNullExpression (showing 7):
+       • src/stripe.core.ts
+       • src/Webhooks.ts
+       • src/StripeResource.ts
+       • src/StripeEmitter.ts
+       • src/RequestSender.ts
+       • src/platform/NodePlatformFunctions.ts
+       • examples/webhook-signing/nextjs/app/api/webhooks/route.ts
+     📄 Files WITHOUT TSNonNullExpression (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   TSIntersectionType:
+     📄 Files WITH TSIntersectionType (showing 5):
+       • types/lib.d.ts
+       • types/Errors.d.ts
+       • src/Webhooks.ts
+       • src/Types.d.ts
+       • src/net/HttpClient.ts
+     📄 Files WITHOUT TSIntersectionType (showing 10):
+       • types/shared.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/TopupsResource.d.ts
+
+   SpreadElement:
+     📄 Files WITH SpreadElement (showing 10):
+       • test/testUtils.ts
+       • test/autoPagination.spec.ts
+       • test/Webhook.spec.ts
+       • src/utils.ts
+       • src/stripe.core.ts
+       • src/autoPagination.ts
+       • src/Webhooks.ts
+       • src/StripeResource.ts
+       • scripts/updateAPIVersion.js
+       • src/net/FetchHttpClient.ts
+     📄 Files WITHOUT SpreadElement (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   TSArrayType:
+     📄 Files WITH TSArrayType (showing 10):
+       • types/lib.d.ts
+       • test/PlatformFunctions.spec.ts
+       • src/utils.ts
+       • src/Types.d.ts
+       • src/StripeMethod.ts
+       • src/StripeEmitter.ts
+       • src/ResourceNamespace.ts
+       • src/net/HttpClient.ts
+       • src/resources/OAuth.ts
+       • src/resources/Accounts.ts
+     📄 Files WITHOUT TSArrayType (showing 10):
+       • types/shared.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/TopupsResource.d.ts
+
+   ImportDefaultSpecifier:
+     📄 Files WITH ImportDefaultSpecifier (showing 10):
+       • types/test/typescriptTest.ts
+       • testProjects/esbuild/index.js
+       • testProjects/mjs/index.js
+       • testProjects/mjs-ts/index.ts
+       • testProjects/cloudflare-pages/functions/index.js
+       • testProjects/cloudflare-worker/src/index.js
+       • examples/webhook-signing/test/main.ts
+       • examples/webhook-signing/nextjs/main.ts
+       • examples/webhook-signing/nestjs/app.controller.ts
+       • examples/webhook-signing/koa/main.ts
+     📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   ImportNamespaceSpecifier:
+     📄 Files WITH ImportNamespaceSpecifier (showing 10):
+       • test/utils.spec.ts
+       • test/StripeResource.spec.ts
+       • test/PlatformFunctions.spec.ts
+       • test/Integration.spec.ts
+       • test/Error.spec.ts
+       • src/utils.ts
+       • src/stripe.core.ts
+       • testProjects/mjs/index.js
+       • src/platform/PlatformFunctions.ts
+       • src/platform/NodePlatformFunctions.ts
+     📄 Files WITHOUT ImportNamespaceSpecifier (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   RestElement:
+     📄 Files WITH RestElement (showing 10):
+       • types/lib.d.ts
+       • test/Webhook.spec.ts
+       • src/utils.ts
+       • src/autoPagination.ts
+       • src/Types.d.ts
+       • src/StripeMethod.ts
+       • src/StripeEmitter.ts
+       • src/ResourceNamespace.ts
+       • src/resources/OAuth.ts
+       • src/resources/Accounts.ts
+     📄 Files WITHOUT RestElement (showing 10):
+       • types/shared.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/TopupsResource.d.ts
+
+   TSMethodSignature:
+     📄 Files WITH TSMethodSignature (showing 4):
+       • types/lib.d.ts
+       • src/Types.d.ts
+       • types/net/net.d.ts
+       • types/V2/EventTypes.d.ts
+     📄 Files WITHOUT TSMethodSignature (showing 10):
+       • types/shared.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/TopupsResource.d.ts
+
+   TSUndefinedKeyword:
+     📄 Files WITH TSUndefinedKeyword (showing 6):
+       • src/stripe.core.ts
+       • src/autoPagination.ts
+       • src/Types.d.ts
+       • src/RequestSender.ts
+       • types/test/typescriptTest.ts
+       • src/net/NodeHttpClient.ts
+     📄 Files WITHOUT TSUndefinedKeyword (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   TSIndexedAccessType:
+     📄 Files WITH TSIndexedAccessType (showing 4):
+       • test/testUtils.ts
+       • src/utils.ts
+       • src/stripe.core.ts
+       • src/Types.d.ts
+     📄 Files WITHOUT TSIndexedAccessType (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   TSTypeQuery:
+     📄 Files WITH TSTypeQuery (showing 8):
+       • types/lib.d.ts
+       • types/index.d.ts
+       • test/Webhook.spec.ts
+       • src/stripe.core.ts
+       • src/RequestSender.ts
+       • src/platform/PlatformFunctions.ts
+       • src/net/NodeHttpClient.ts
+       • src/net/FetchHttpClient.ts
+     📄 Files WITHOUT TSTypeQuery (showing 10):
+       • types/shared.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/TopupsResource.d.ts
+       • types/Topups.d.ts
+
+   BreakStatement:
+     📄 Files WITH BreakStatement (showing 4):
+       • test/telemetry.spec.ts
+       • test/autoPagination.spec.ts
+       • types/test/typescriptTest.ts
+       • examples/webhook-signing/nextjs/app/api/webhooks/route.ts
+     📄 Files WITHOUT BreakStatement (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   SwitchStatement:
+     📄 Files WITH SwitchStatement (showing 4):
+       • test/telemetry.spec.ts
+       • src/stripe.core.ts
+       • src/Error.ts
+       • examples/webhook-signing/nextjs/app/api/webhooks/route.ts
+     📄 Files WITHOUT SwitchStatement (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   TSDeclareFunction:
+     📄 Files WITH TSDeclareFunction (showing 1):
+       • types/Errors.d.ts
+     📄 Files WITHOUT TSDeclareFunction (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   Decorator:
+     📄 Files WITH Decorator (showing 2):
+       • examples/webhook-signing/nestjs/app.module.ts
+       • examples/webhook-signing/nestjs/app.controller.ts
+     📄 Files WITHOUT Decorator (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   TSObjectKeyword:
+     📄 Files WITH TSObjectKeyword (showing 3):
+       • types/lib.d.ts
+       • types/net/net.d.ts
+       • types/test/typescriptTest.ts
+     📄 Files WITHOUT TSObjectKeyword (showing 10):
+       • types/shared.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/TopupsResource.d.ts
+
+   ForOfStatement:
+     📄 Files WITH ForOfStatement (showing 5):
+       • test/autoPagination.spec.ts
+       • types/test/typescriptTest.ts
+       • test/crypto/helpers.ts
+       • src/net/FetchHttpClient.ts
+       • test/resources/V2/Core/Events.spec.js
+     📄 Files WITHOUT ForOfStatement (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   TSTypeOperator:
+     📄 Files WITH TSTypeOperator (showing 3):
+       • src/utils.ts
+       • src/stripe.core.ts
+       • src/Types.d.ts
+     📄 Files WITHOUT TSTypeOperator (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   TSClassImplements:
+     📄 Files WITH TSClassImplements (showing 4):
+       • src/autoPagination.ts
+       • src/net/NodeHttpClient.ts
+       • src/net/HttpClient.ts
+       • src/net/FetchHttpClient.ts
+     📄 Files WITHOUT TSClassImplements (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   Hashbang:
+     📄 Files WITH Hashbang (showing 7):
+       • scripts/updateAPIVersion.js
+       • examples/webhook-signing/test/main.ts
+       • examples/webhook-signing/nextjs/main.ts
+       • examples/webhook-signing/nestjs/main.ts
+       • examples/webhook-signing/koa/main.ts
+       • examples/webhook-signing/express/main.ts
+       • examples/webhook-signing/deno/main.ts
+     📄 Files WITHOUT Hashbang (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   TSImportEqualsDeclaration:
+     📄 Files WITH TSImportEqualsDeclaration (showing 4):
+       • test/testUtils.ts
+       • test/telemetry.spec.ts
+       • test/stripe.spec.ts
+       • test/RequestSender.spec.ts
+     📄 Files WITHOUT TSImportEqualsDeclaration (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   TSExternalModuleReference:
+     📄 Files WITH TSExternalModuleReference (showing 4):
+       • test/testUtils.ts
+       • test/telemetry.spec.ts
+       • test/stripe.spec.ts
+       • test/RequestSender.spec.ts
+     📄 Files WITHOUT TSExternalModuleReference (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   ExportDefaultDeclaration:
+     📄 Files WITH ExportDefaultDeclaration (showing 5):
+       • types/index.d.ts
+       • src/stripe.esm.worker.ts
+       • src/stripe.esm.node.ts
+       • testProjects/cloudflare-worker/src/index.js
+       • examples/webhook-signing/nextjs/pages/api/webhooks.ts
+     📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/TopupsResource.d.ts
+
+   ChainExpression:
+     📄 Files WITH ChainExpression (showing 4):
+       • test/Integration.spec.ts
+       • src/StripeResource.ts
+       • examples/webhook-signing/koa/main.ts
+       • examples/webhook-signing/nextjs/app/api/webhooks/route.ts
+     📄 Files WITHOUT ChainExpression (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   TSConstructSignatureDeclaration:
+     📄 Files WITH TSConstructSignatureDeclaration (showing 3):
+       • types/lib.d.ts
+       • src/utils.ts
+       • src/Types.d.ts
+     📄 Files WITHOUT TSConstructSignatureDeclaration (showing 10):
+       • types/shared.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+       • types/TopupsResource.d.ts
+
+   ForStatement:
+     📄 Files WITH ForStatement (showing 3):
+       • test/RequestSender.spec.ts
+       • src/platform/PlatformFunctions.ts
+       • src/crypto/SubtleCryptoProvider.ts
+     📄 Files WITHOUT ForStatement (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   UpdateExpression:
+     📄 Files WITH UpdateExpression (showing 3):
+       • test/RequestSender.spec.ts
+       • src/platform/PlatformFunctions.ts
+       • src/crypto/SubtleCryptoProvider.ts
+     📄 Files WITHOUT UpdateExpression (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   ForInStatement:
+     📄 Files WITH ForInStatement (showing 3):
+       • src/stripe.core.ts
+       • src/multipart.ts
+       • src/ResourceNamespace.ts
+     📄 Files WITHOUT ForInStatement (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   ContinueStatement:
+     📄 Files WITH ContinueStatement (showing 3):
+       • src/stripe.core.ts
+       • src/multipart.ts
+       • src/ResourceNamespace.ts
+     📄 Files WITHOUT ContinueStatement (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   TSParenthesizedType:
+     📄 Files WITH TSParenthesizedType (showing 2):
+       • src/utils.ts
+       • src/StripeResource.ts
+     📄 Files WITHOUT TSParenthesizedType (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   TSNeverKeyword:
+     📄 Files WITH TSNeverKeyword (showing 3):
+       • src/Types.d.ts
+       • src/StripeResource.ts
+       • src/net/FetchHttpClient.ts
+     📄 Files WITHOUT TSNeverKeyword (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   TSConstructorType:
+     📄 Files WITH TSConstructorType (showing 1):
+       • src/ResourceNamespace.ts
+     📄 Files WITHOUT TSConstructorType (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   TSTypeAssertion:
+     📄 Files WITH TSTypeAssertion (showing 3):
+       • src/RequestSender.ts
+       • examples/webhook-signing/koa/main.ts
+       • examples/webhook-signing/express/main.ts
+     📄 Files WITHOUT TSTypeAssertion (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   ArrayPattern:
+     📄 Files WITH ArrayPattern (showing 1):
+       • src/utils.ts
+     📄 Files WITHOUT ArrayPattern (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   WhileStatement:
+     📄 Files WITH WhileStatement (showing 1):
+       • test/autoPagination.spec.ts
+     📄 Files WITHOUT WhileStatement (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   ImportExpression:
+     📄 Files WITH ImportExpression (showing 1):
+       • test/PlatformFunctions.spec.ts
+     📄 Files WITHOUT ImportExpression (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   TSTypePredicate:
+     📄 Files WITH TSTypePredicate (showing 1):
+       • src/utils.ts
+     📄 Files WITHOUT TSTypePredicate (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   TSTupleType:
+     📄 Files WITH TSTupleType (showing 1):
+       • src/utils.ts
+     📄 Files WITHOUT TSTupleType (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   TSSymbolKeyword:
+     📄 Files WITH TSSymbolKeyword (showing 1):
+       • src/autoPagination.ts
+     📄 Files WITHOUT TSSymbolKeyword (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   EmptyStatement:
+     📄 Files WITH EmptyStatement (showing 1):
+       • testProjects/cloudflare-worker/src/index.js
+     📄 Files WITHOUT EmptyStatement (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+   TSParameterProperty:
+     📄 Files WITH TSParameterProperty (showing 1):
+       • examples/webhook-signing/nestjs/app.controller.ts
+     📄 Files WITHOUT TSParameterProperty (showing 10):
+       • types/shared.d.ts
+       • types/lib.d.ts
+       • types/index.d.ts
+       • types/Webhooks.d.ts
+       • types/WebhookEndpointsResource.d.ts
+       • types/WebhookEndpoints.d.ts
+       • types/UpcomingInvoices.d.ts
+       • types/TransfersResource.d.ts
+       • types/Transfers.d.ts
+       • types/TransferReversals.d.ts
+
+============================================================
+✅ Analysis complete!

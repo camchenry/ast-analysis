@@ -1,5 +1,5 @@
 AST Analysis Report for ramda
-Generated on: 2025-07-14T01:42:26.463Z
+Generated on: 2025-07-14T01:56:53.995Z
 Repository: sample-repos/ramda
 ================================================================================
 
@@ -68,9 +68,9 @@ Repository: sample-repos/ramda
    TemplateElement                   2 files (  0.3%) -        5 total (0.00%)
    SpreadElement                     2 files (  0.3%) -        2 total (0.00%)
    ExportAllDeclaration              1 files (  0.1%) -        1 total (0.00%)
+   RestElement                       1 files (  0.1%) -        1 total (0.00%)
    ExportNamedDeclaration            1 files (  0.1%) -      272 total (0.27%)
    ExportSpecifier                   1 files (  0.1%) -      272 total (0.27%)
-   RestElement                       1 files (  0.1%) -        1 total (0.00%)
 
 📝 ALL NODE TYPES (BY TOTAL COUNT):
    Identifier                       34,278 (33.94%) in 681 files (99.7%)
@@ -129,11 +129,11 @@ Repository: sample-repos/ramda
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
-       • source/xor.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
+       • test/xor.js
      📄 Files WITHOUT Identifier (showing 2):
        • mod.ts
        • source/__.js
@@ -146,10 +146,10 @@ Repository: sample-repos/ramda
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
      📄 Files WITHOUT Literal (showing 7):
        • source/internal/_promap.js
        • source/internal/_pipeP.js
@@ -166,11 +166,11 @@ Repository: sample-repos/ramda
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
-       • source/xor.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
+       • test/xor.js
      📄 Files WITHOUT CallExpression (showing 10):
        • mod.ts
        • source/index.js
@@ -190,11 +190,11 @@ Repository: sample-repos/ramda
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
-       • source/without.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
+       • test/xor.js
      📄 Files WITHOUT MemberExpression (showing 10):
        • mod.ts
        • source/xor.js
@@ -214,11 +214,11 @@ Repository: sample-repos/ramda
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
-       • source/without.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
+       • test/xor.js
      📄 Files WITHOUT ExpressionStatement (showing 10):
        • mod.ts
        • source/xor.js
@@ -237,12 +237,12 @@ Repository: sample-repos/ramda
        • scripts/partialBuild.js
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
-       • source/xor.js
-       • source/without.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
+       • test/xor.js
+       • test/without.js
      📄 Files WITHOUT BlockStatement (showing 10):
        • mod.ts
        • scripts/addModulePackageScope.js
@@ -262,11 +262,11 @@ Repository: sample-repos/ramda
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
-       • source/xor.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
+       • test/xor.js
      📄 Files WITHOUT VariableDeclarator (showing 10):
        • mod.ts
        • source/pipe.js
@@ -285,23 +285,23 @@ Repository: sample-repos/ramda
        • scripts/partialBuild.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/view.js
-       • source/traverse.js
-       • source/sequence.js
-       • source/over.js
-       • source/keys.js
-       • source/descendNatural.js
+       • test/zipObj.js
+       • test/without.js
+       • test/whereEq.js
+       • test/whereAny.js
+       • test/where.js
+       • test/valuesIn.js
      📄 Files WITHOUT Property (showing 10):
        • mod.ts
        • scripts/bookmarklet.tmpl.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
-       • source/xor.js
-       • source/without.js
-       • source/whereEq.js
-       • source/whereAny.js
+       • test/zipWith.js
+       • test/zip.js
+       • test/xprod.js
+       • test/xor.js
+       • test/when.js
+       • test/update.js
+       • test/until.js
+       • test/unless.js
 
    VariableDeclaration:
      📄 Files WITH VariableDeclaration (showing 10):
@@ -310,11 +310,11 @@ Repository: sample-repos/ramda
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
-       • source/xor.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
+       • test/xor.js
      📄 Files WITHOUT VariableDeclaration (showing 10):
        • mod.ts
        • source/pipe.js
@@ -332,13 +332,13 @@ Repository: sample-repos/ramda
        • scripts/partialBuild.js
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
-       • source/xor.js
-       • source/without.js
-       • source/whereEq.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
+       • test/xor.js
+       • test/without.js
+       • test/whereEq.js
      📄 Files WITHOUT FunctionExpression (showing 10):
        • rollup.config.js
        • mod.ts
@@ -355,25 +355,25 @@ Repository: sample-repos/ramda
      📄 Files WITH ArrayExpression (showing 10):
        • rollup.config.js
        • scripts/partialBuild.js
-       • source/zip.js
-       • source/xprod.js
-       • source/valuesIn.js
-       • source/values.js
-       • source/useWith.js
-       • source/unwind.js
-       • source/uniqWith.js
-       • source/uniqBy.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
+       • test/xor.js
+       • test/without.js
+       • test/valuesIn.js
+       • test/values.js
      📄 Files WITHOUT ArrayExpression (showing 10):
        • mod.ts
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/xor.js
-       • source/without.js
-       • source/whereEq.js
-       • source/whereAny.js
+       • test/whereEq.js
+       • test/whereAny.js
+       • test/where.js
+       • test/when.js
+       • test/uncurryN.js
+       • test/unary.js
 
    ObjectExpression:
      📄 Files WITH ObjectExpression (showing 10):
@@ -381,47 +381,47 @@ Repository: sample-repos/ramda
        • scripts/partialBuild.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/zipObj.js
-       • source/view.js
-       • source/traverse.js
-       • source/sequence.js
-       • source/reduceBy.js
-       • source/pickBy.js
+       • test/zipObj.js
+       • test/xor.js
+       • test/whereEq.js
+       • test/whereAny.js
+       • test/where.js
+       • test/valuesIn.js
      📄 Files WITHOUT ObjectExpression (showing 10):
        • mod.ts
        • scripts/bookmarklet.tmpl.js
-       • source/zipWith.js
-       • source/zip.js
-       • source/xprod.js
-       • source/xor.js
-       • source/without.js
-       • source/whereEq.js
-       • source/whereAny.js
-       • source/where.js
+       • test/zipWith.js
+       • test/zip.js
+       • test/xprod.js
+       • test/without.js
+       • test/when.js
+       • test/update.js
+       • test/until.js
+       • test/unless.js
 
    ReturnStatement:
      📄 Files WITH ReturnStatement (showing 10):
        • scripts/partialBuild.js
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
-       • source/xor.js
-       • source/without.js
-       • source/whereEq.js
+       • test/zipWith.js
+       • test/valuesIn.js
+       • test/values.js
+       • test/useWith.js
+       • test/update.js
+       • test/uniqWith.js
+       • test/unionWith.js
      📄 Files WITHOUT ReturnStatement (showing 10):
        • rollup.config.js
        • mod.ts
        • scripts/addModulePackageScope.js
-       • source/unnest.js
-       • source/uniq.js
-       • source/union.js
-       • source/toUpper.js
-       • source/toPairs.js
-       • source/toLower.js
-       • source/tail.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
+       • test/xor.js
+       • test/without.js
+       • test/whereEq.js
+       • test/whereAny.js
 
    BinaryExpression:
      📄 Files WITH BinaryExpression (showing 10):
@@ -429,23 +429,23 @@ Repository: sample-repos/ramda
        • scripts/partialBuild.js
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
-       • source/xor.js
-       • source/without.js
+       • test/zipWith.js
+       • test/valuesIn.js
+       • test/useWith.js
+       • test/uniqWith.js
+       • test/unionWith.js
+       • test/unfold.js
      📄 Files WITHOUT BinaryExpression (showing 10):
        • mod.ts
        • scripts/addModulePackageScope.js
-       • source/whereEq.js
-       • source/whereAny.js
-       • source/where.js
-       • source/when.js
-       • source/view.js
-       • source/valuesIn.js
-       • source/update.js
-       • source/until.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
+       • test/xor.js
+       • test/without.js
+       • test/whereEq.js
+       • test/whereAny.js
+       • test/where.js
 
    ImportDeclaration:
      📄 Files WITH ImportDeclaration (showing 10):
@@ -466,10 +466,10 @@ Repository: sample-repos/ramda
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/index.js
-       • source/__.js
-       • source/T.js
-       • source/F.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
 
    ImportDefaultSpecifier:
      📄 Files WITH ImportDefaultSpecifier (showing 10):
@@ -490,34 +490,34 @@ Repository: sample-repos/ramda
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/index.js
-       • source/__.js
-       • source/T.js
-       • source/F.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
 
    AssignmentExpression:
      📄 Files WITH AssignmentExpression (showing 10):
        • rollup.config.js
        • scripts/bookmarklet.tmpl.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
-       • source/without.js
-       • source/valuesIn.js
-       • source/values.js
-       • source/useWith.js
+       • test/whereEq.js
+       • test/whereAny.js
+       • test/where.js
+       • test/valuesIn.js
+       • test/values.js
+       • test/unnest.js
+       • test/unfold.js
+       • test/unapply.js
      📄 Files WITHOUT AssignmentExpression (showing 10):
        • mod.ts
        • scripts/partialBuild.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/xor.js
-       • source/whereEq.js
-       • source/whereAny.js
-       • source/where.js
-       • source/when.js
-       • source/view.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
+       • test/xor.js
+       • test/without.js
 
    Program:
      📄 Files WITH Program (showing 10):
@@ -527,72 +527,72 @@ Repository: sample-repos/ramda
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
      📄 Files WITHOUT Program: (all files contain this node type)
 
    UnaryExpression:
      📄 Files WITH UnaryExpression (showing 10):
        • scripts/bookmarklet.tmpl.js
-       • source/xor.js
-       • source/where.js
-       • source/unwind.js
-       • source/until.js
-       • source/uniqWith.js
-       • source/uncurryN.js
-       • source/type.js
-       • source/trim.js
-       • source/traverse.js
+       • test/without.js
+       • test/useWith.js
+       • test/update.js
+       • test/unnest.js
+       • test/uniqBy.js
+       • test/uniq.js
+       • test/union.js
+       • test/unary.js
+       • test/tryCatch.js
      📄 Files WITHOUT UnaryExpression (showing 10):
        • rollup.config.js
        • mod.ts
        • scripts/partialBuild.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
-       • source/without.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
+       • test/xor.js
 
    NewExpression:
      📄 Files WITH NewExpression (showing 10):
        • rollup.config.js
        • scripts/beforePublish.js
-       • source/without.js
-       • source/uniqBy.js
-       • source/trim.js
-       • source/times.js
-       • source/test.js
-       • source/splitEvery.js
-       • source/range.js
-       • source/pipe.js
+       • test/xor.js
+       • test/without.js
+       • test/whereEq.js
+       • test/whereAny.js
+       • test/where.js
+       • test/valuesIn.js
+       • test/values.js
+       • test/uniqBy.js
      📄 Files WITHOUT NewExpression (showing 10):
        • mod.ts
        • scripts/partialBuild.js
        • scripts/bookmarklet.tmpl.js
        • scripts/addModulePackageScope.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
-       • source/xor.js
-       • source/whereEq.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
+       • test/when.js
+       • test/useWith.js
 
    ThisExpression:
      📄 Files WITH ThisExpression (showing 10):
-       • source/view.js
-       • source/useWith.js
-       • source/uncurryN.js
-       • source/tryCatch.js
-       • source/thunkify.js
-       • source/pipeWith.js
-       • source/once.js
-       • source/nAry.js
-       • source/memoizeWith.js
-       • source/map.js
+       • test/whereEq.js
+       • test/whereAny.js
+       • test/where.js
+       • test/valuesIn.js
+       • test/values.js
+       • test/useWith.js
+       • test/toString.js
+       • test/toPairsIn.js
+       • test/toPairs.js
+       • test/reduce.js
      📄 Files WITHOUT ThisExpression (showing 10):
        • rollup.config.js
        • mod.ts
@@ -600,10 +600,10 @@ Repository: sample-repos/ramda
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
 
    ExportDefaultDeclaration:
      📄 Files WITH ExportDefaultDeclaration (showing 10):
@@ -624,34 +624,34 @@ Repository: sample-repos/ramda
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/index.js
        • test/zipWith.js
        • test/zipObj.js
        • test/zip.js
+       • test/xprod.js
 
    IfStatement:
      📄 Files WITH IfStatement (showing 10):
        • rollup.config.js
        • scripts/partialBuild.js
        • scripts/bookmarklet.tmpl.js
-       • source/whereAny.js
-       • source/where.js
-       • source/unwind.js
-       • source/uniqWith.js
-       • source/uniqBy.js
-       • source/transpose.js
-       • source/times.js
+       • test/unfold.js
+       • test/trim.js
+       • test/toString.js
+       • test/reduced.js
+       • test/reduce.js
+       • test/invariants.js
+       • test/index.js
      📄 Files WITHOUT IfStatement (showing 10):
        • mod.ts
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
-       • source/xor.js
-       • source/without.js
-       • source/whereEq.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
+       • test/xor.js
+       • test/without.js
+       • test/whereEq.js
 
    ExportNamedDeclaration:
      📄 Files WITH ExportNamedDeclaration (showing 1):
@@ -663,10 +663,10 @@ Repository: sample-repos/ramda
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
 
    ExportSpecifier:
      📄 Files WITH ExportSpecifier (showing 1):
@@ -678,47 +678,47 @@ Repository: sample-repos/ramda
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
 
    FunctionDeclaration:
      📄 Files WITH FunctionDeclaration (showing 10):
        • scripts/partialBuild.js
        • scripts/bookmarklet.tmpl.js
-       • source/pipe.js
-       • source/min.js
-       • source/max.js
-       • source/dissocPath.js
-       • source/compose.js
-       • source/applySpec.js
        • test/whereEq.js
        • test/whereAny.js
+       • test/where.js
+       • test/valuesIn.js
+       • test/values.js
+       • test/useWith.js
+       • test/update.js
+       • test/uniqWith.js
      📄 Files WITHOUT FunctionDeclaration (showing 10):
        • rollup.config.js
        • mod.ts
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
-       • source/xor.js
-       • source/without.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
+       • test/xor.js
+       • test/without.js
 
    LogicalExpression:
      📄 Files WITH LogicalExpression (showing 10):
-       • source/whereAny.js
-       • source/where.js
-       • source/unwind.js
-       • source/unfold.js
-       • source/uncurryN.js
-       • source/trim.js
-       • source/times.js
-       • source/takeWhile.js
-       • source/takeLastWhile.js
-       • source/swap.js
+       • test/uncurryN.js
+       • test/test.js
+       • test/splitEvery.js
+       • test/reduceBy.js
+       • test/range.js
+       • test/pipe.js
+       • test/pickBy.js
+       • test/otherwise.js
+       • test/nAry.js
+       • test/modifyPath.js
      📄 Files WITHOUT LogicalExpression (showing 10):
        • rollup.config.js
        • mod.ts
@@ -726,23 +726,23 @@ Repository: sample-repos/ramda
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
 
    ConditionalExpression:
      📄 Files WITH ConditionalExpression (showing 10):
-       • source/when.js
-       • source/unless.js
-       • source/uncurryN.js
-       • source/type.js
-       • source/trim.js
-       • source/traverse.js
-       • source/transduce.js
-       • source/takeLast.js
-       • source/take.js
-       • source/swap.js
+       • test/traverse.js
+       • test/transduce.js
+       • test/toPairsIn.js
+       • test/splitWhenever.js
+       • test/reduceWhile.js
+       • test/reduceRight.js
+       • test/reduceBy.js
+       • test/reduce.js
+       • test/rebuild.js
+       • test/pipeWith.js
      📄 Files WITHOUT ConditionalExpression (showing 10):
        • rollup.config.js
        • mod.ts
@@ -750,43 +750,43 @@ Repository: sample-repos/ramda
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
 
    ParenthesizedExpression:
      📄 Files WITH ParenthesizedExpression (showing 10):
        • scripts/bookmarklet.tmpl.js
-       • source/xprod.js
-       • source/unwind.js
-       • source/trim.js
-       • source/traverse.js
-       • source/splitWhenever.js
-       • source/sequence.js
-       • source/range.js
-       • source/of.js
-       • source/min.js
+       • test/uncurryN.js
+       • test/toString.js
+       • test/sortWith.js
+       • test/sortBy.js
+       • test/slice.js
+       • test/reduceRight.js
+       • test/reduceBy.js
+       • test/reduce.js
+       • test/nAry.js
      📄 Files WITHOUT ParenthesizedExpression (showing 10):
        • rollup.config.js
        • mod.ts
        • scripts/partialBuild.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xor.js
-       • source/without.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
+       • test/xor.js
 
    SwitchCase:
      📄 Files WITH SwitchCase (showing 10):
+       • test/memoizeWith.js
        • source/nAry.js
        • source/map.js
        • source/identical.js
        • source/dissocPath.js
        • source/constructN.js
-       • test/memoizeWith.js
        • lib/sauce/ie8-shim.js
        • source/internal/_toString.js
        • source/internal/_indexOf.js
@@ -798,10 +798,10 @@ Repository: sample-repos/ramda
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
 
    Unknown:
      📄 Files WITH Unknown (showing 10):
@@ -821,14 +821,16 @@ Repository: sample-repos/ramda
        • scripts/partialBuild.js
        • scripts/bookmarklet.tmpl.js
        • scripts/addModulePackageScope.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
-       • source/xor.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
+       • test/xor.js
 
    WhileStatement:
      📄 Files WITH WhileStatement (showing 10):
+       • test/unapply.js
+       • test/nAry.js
        • source/zipWith.js
        • source/zipObj.js
        • source/zip.js
@@ -837,8 +839,6 @@ Repository: sample-repos/ramda
        • source/useWith.js
        • source/until.js
        • source/uniqWith.js
-       • source/uniqBy.js
-       • source/unfold.js
      📄 Files WITHOUT WhileStatement (showing 10):
        • rollup.config.js
        • mod.ts
@@ -846,10 +846,10 @@ Repository: sample-repos/ramda
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/xor.js
-       • source/without.js
-       • source/whereEq.js
-       • source/whereAny.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
 
    ObjectPattern:
      📄 Files WITH ObjectPattern (showing 10):
@@ -868,15 +868,17 @@ Repository: sample-repos/ramda
        • scripts/partialBuild.js
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
-       • source/xor.js
-       • source/without.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
+       • test/xor.js
+       • test/whereEq.js
 
    ThrowStatement:
      📄 Files WITH ThrowStatement (showing 10):
+       • test/tryCatch.js
+       • test/identical.js
        • source/times.js
        • source/test.js
        • source/splitEvery.js
@@ -885,8 +887,6 @@ Repository: sample-repos/ramda
        • source/nAry.js
        • source/invoker.js
        • source/constructN.js
-       • source/concat.js
-       • source/compose.js
      📄 Files WITHOUT ThrowStatement (showing 10):
        • rollup.config.js
        • mod.ts
@@ -894,13 +894,14 @@ Repository: sample-repos/ramda
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
 
    ForInStatement:
      📄 Files WITH ForInStatement (showing 10):
+       • test/invariants.js
        • source/whereAny.js
        • source/where.js
        • source/valuesIn.js
@@ -910,7 +911,6 @@ Repository: sample-repos/ramda
        • source/mergeWithKey.js
        • source/keysIn.js
        • source/keys.js
-       • source/evolve.js
      📄 Files WITHOUT ForInStatement (showing 10):
        • rollup.config.js
        • mod.ts
@@ -918,10 +918,10 @@ Repository: sample-repos/ramda
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
 
    ArrowFunctionExpression:
      📄 Files WITH ArrowFunctionExpression (showing 10):
@@ -941,20 +941,20 @@ Repository: sample-repos/ramda
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
-       • source/xor.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
+       • test/xor.js
 
    SwitchStatement:
      📄 Files WITH SwitchStatement (showing 10):
+       • test/memoizeWith.js
        • source/nAry.js
        • source/map.js
        • source/identical.js
        • source/dissocPath.js
        • source/constructN.js
-       • test/memoizeWith.js
        • lib/sauce/ie8-shim.js
        • source/internal/_toString.js
        • source/internal/_indexOf.js
@@ -966,18 +966,18 @@ Repository: sample-repos/ramda
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
 
    ForStatement:
      📄 Files WITH ForStatement (showing 8):
+       • test/reduce.js
        • source/without.js
        • source/splitWhenever.js
        • source/intersection.js
        • source/difference.js
-       • test/reduce.js
        • lib/sauce/ie8-shim.js
        • source/internal/_path.js
        • source/internal/_clone.js
@@ -988,10 +988,10 @@ Repository: sample-repos/ramda
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
 
    BreakStatement:
      📄 Files WITH BreakStatement (showing 5):
@@ -1007,16 +1007,16 @@ Repository: sample-repos/ramda
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
 
    TryStatement:
      📄 Files WITH TryStatement (showing 3):
-       • source/tryCatch.js
        • test/prop.js
        • test/equals.js
+       • source/tryCatch.js
      📄 Files WITHOUT TryStatement (showing 10):
        • rollup.config.js
        • mod.ts
@@ -1024,16 +1024,16 @@ Repository: sample-repos/ramda
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
 
    CatchClause:
      📄 Files WITH CatchClause (showing 3):
-       • source/tryCatch.js
        • test/prop.js
        • test/equals.js
+       • source/tryCatch.js
      📄 Files WITHOUT CatchClause (showing 10):
        • rollup.config.js
        • mod.ts
@@ -1041,10 +1041,10 @@ Repository: sample-repos/ramda
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
 
    TemplateElement:
      📄 Files WITH TemplateElement (showing 2):
@@ -1057,10 +1057,10 @@ Repository: sample-repos/ramda
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
 
    TemplateLiteral:
      📄 Files WITH TemplateLiteral (showing 2):
@@ -1073,10 +1073,10 @@ Repository: sample-repos/ramda
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
 
    SpreadElement:
      📄 Files WITH SpreadElement (showing 2):
@@ -1089,10 +1089,10 @@ Repository: sample-repos/ramda
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
 
    ExportAllDeclaration:
      📄 Files WITH ExportAllDeclaration (showing 1):
@@ -1103,11 +1103,11 @@ Repository: sample-repos/ramda
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
-       • source/xor.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
+       • test/xor.js
 
    RestElement:
      📄 Files WITH RestElement (showing 1):
@@ -1119,10 +1119,10 @@ Repository: sample-repos/ramda
        • scripts/bookmarklet.tmpl.js
        • scripts/beforePublish.js
        • scripts/addModulePackageScope.js
-       • source/zipWith.js
-       • source/zipObj.js
-       • source/zip.js
-       • source/xprod.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+       • test/xprod.js
 
 ============================================================
 ✅ Analysis complete!

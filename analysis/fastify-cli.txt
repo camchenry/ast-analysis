@@ -1,0 +1,1615 @@
+AST Analysis Report for fastify-cli
+Generated on: 2025-07-14T01:56:21.999Z
+Repository: sample-repos/fastify-cli
+================================================================================
+
+🔍 Analyzing JavaScript/TypeScript files in: /Users/camchenry/workspace/ast-analysis/sample-repos/fastify-cli
+
+📁 Found 117 files to analyze...
+
+
+
+============================================================
+📊 AST ANALYSIS RESULTS
+============================================================
+
+📁 FILE STATISTICS:
+   Total files found: 117
+   Successfully parsed: 117
+   Failed to parse: 0
+   Total file size: 168.1 KB
+
+🌳 NODE STATISTICS:
+   Total nodes: 27,292
+   Average nodes per file: 233
+   Average file size: 1.4 KB
+
+📋 ALL NODE TYPES (BY FILE PRESENCE):
+   Program                         117 files (100.0%) -      117 total (0.43%)
+   Literal                         115 files ( 98.3%) -    2,747 total (10.07%)
+   Identifier                      115 files ( 98.3%) -   10,295 total (37.72%)
+   ExpressionStatement             112 files ( 95.7%) -    1,780 total (6.52%)
+   MemberExpression                111 files ( 94.9%) -    2,984 total (10.93%)
+   CallExpression                  105 files ( 89.7%) -    2,657 total (9.74%)
+   BlockStatement                  100 files ( 85.5%) -      806 total (2.95%)
+   Property                         84 files ( 71.8%) -      967 total (3.54%)
+   ObjectExpression                 81 files ( 69.2%) -      345 total (1.26%)
+   VariableDeclaration              76 files ( 65.0%) -      830 total (3.04%)
+   VariableDeclarator               76 files ( 65.0%) -      830 total (3.04%)
+   ArrowFunctionExpression          68 files ( 58.1%) -      307 total (1.12%)
+   AssignmentExpression             65 files ( 55.6%) -      219 total (0.80%)
+   FunctionExpression               60 files ( 51.3%) -      184 total (0.67%)
+   ReturnStatement                  50 files ( 42.7%) -      138 total (0.51%)
+   AwaitExpression                  43 files ( 36.8%) -      291 total (1.07%)
+   ObjectPattern                    38 files ( 32.5%) -      110 total (0.40%)
+   IfStatement                      33 files ( 28.2%) -      138 total (0.51%)
+   ImportDeclaration                32 files ( 27.4%) -       82 total (0.30%)
+   FunctionDeclaration              31 files ( 26.5%) -       87 total (0.32%)
+   BinaryExpression                 29 files ( 24.8%) -      138 total (0.51%)
+   ArrayExpression                  28 files ( 23.9%) -      178 total (0.65%)
+   Unknown                          25 files ( 21.4%) -      216 total (0.79%)
+   ImportSpecifier                  24 files ( 20.5%) -       41 total (0.15%)
+   TryStatement                     21 files ( 17.9%) -       51 total (0.19%)
+   LogicalExpression                21 files ( 17.9%) -       65 total (0.24%)
+   CatchClause                      21 files ( 17.9%) -       50 total (0.18%)
+   ImportDefaultSpecifier           20 files ( 17.1%) -       32 total (0.12%)
+   ExportDefaultDeclaration         20 files ( 17.1%) -       20 total (0.07%)
+   NewExpression                    19 files ( 16.2%) -       29 total (0.11%)
+   UnaryExpression                  18 files ( 15.4%) -       57 total (0.21%)
+   TSTypeReference                  16 files ( 13.7%) -       38 total (0.14%)
+   TemplateLiteral                  15 files ( 12.8%) -       69 total (0.25%)
+   TemplateElement                  15 files ( 12.8%) -      142 total (0.52%)
+   TSTypeAnnotation                 15 files ( 12.8%) -       36 total (0.13%)
+   ImportNamespaceSpecifier         15 files ( 12.8%) -       17 total (0.06%)
+   TSTypeParameterInstantiation     14 files ( 12.0%) -       20 total (0.07%)
+   ParenthesizedExpression          12 files ( 10.3%) -       15 total (0.05%)
+   ExportNamedDeclaration           12 files ( 10.3%) -       19 total (0.07%)
+   UpdateExpression                 10 files (  8.5%) -       13 total (0.05%)
+   TSStringKeyword                   6 files (  5.1%) -        7 total (0.03%)
+   ExportSpecifier                   6 files (  5.1%) -       11 total (0.04%)
+   TSVoidKeyword                     6 files (  5.1%) -        6 total (0.02%)
+   ConditionalExpression             5 files (  4.3%) -       13 total (0.05%)
+   Hashbang                          5 files (  4.3%) -        5 total (0.02%)
+   MetaProperty                      5 files (  4.3%) -        5 total (0.02%)
+   AssignmentPattern                 4 files (  3.4%) -        8 total (0.03%)
+   TSModuleDeclaration               4 files (  3.4%) -        5 total (0.02%)
+   TSModuleBlock                     4 files (  3.4%) -        5 total (0.02%)
+   SpreadElement                     4 files (  3.4%) -        9 total (0.03%)
+   TSInterfaceDeclaration            4 files (  3.4%) -        6 total (0.02%)
+   TSInterfaceBody                   4 files (  3.4%) -        6 total (0.02%)
+   TSTypeLiteral                     4 files (  3.4%) -        4 total (0.01%)
+   TSTypeQuery                       3 files (  2.6%) -        3 total (0.01%)
+   TSQualifiedName                   3 files (  2.6%) -        3 total (0.01%)
+   TSPropertySignature               3 files (  2.6%) -        3 total (0.01%)
+   TSTypeAliasDeclaration            3 files (  2.6%) -        3 total (0.01%)
+   ImportExpression                  2 files (  1.7%) -        6 total (0.02%)
+   TSAnyKeyword                      2 files (  1.7%) -        5 total (0.02%)
+   TSAsExpression                    2 files (  1.7%) -        3 total (0.01%)
+   TSFunctionType                    2 files (  1.7%) -        2 total (0.01%)
+   TSMethodSignature                 2 files (  1.7%) -        2 total (0.01%)
+   ThrowStatement                    1 files (  0.9%) -        3 total (0.01%)
+   TSDeclareFunction                 1 files (  0.9%) -        1 total (0.00%)
+   TSExportAssignment                1 files (  0.9%) -        1 total (0.00%)
+   RestElement                       1 files (  0.9%) -        1 total (0.00%)
+   ChainExpression                   1 files (  0.9%) -        1 total (0.00%)
+   ThisExpression                    1 files (  0.9%) -        2 total (0.01%)
+   TSInterfaceHeritage               1 files (  0.9%) -        2 total (0.01%)
+   TSIntersectionType                1 files (  0.9%) -        1 total (0.00%)
+
+📝 ALL NODE TYPES (BY TOTAL COUNT):
+   Identifier                       10,295 (37.72%) in 115 files (98.3%)
+   MemberExpression                  2,984 (10.93%) in 111 files (94.9%)
+   Literal                           2,747 (10.07%) in 115 files (98.3%)
+   CallExpression                    2,657 (9.74%) in 105 files (89.7%)
+   ExpressionStatement               1,780 (6.52%) in 112 files (95.7%)
+   Property                            967 (3.54%) in 84 files (71.8%)
+   VariableDeclaration                 830 (3.04%) in 76 files (65.0%)
+   VariableDeclarator                  830 (3.04%) in 76 files (65.0%)
+   BlockStatement                      806 (2.95%) in 100 files (85.5%)
+   ObjectExpression                    345 (1.26%) in 81 files (69.2%)
+   ArrowFunctionExpression             307 (1.12%) in 68 files (58.1%)
+   AwaitExpression                     291 (1.07%) in 43 files (36.8%)
+   AssignmentExpression                219 (0.80%) in 65 files (55.6%)
+   Unknown                             216 (0.79%) in 25 files (21.4%)
+   FunctionExpression                  184 (0.67%) in 60 files (51.3%)
+   ArrayExpression                     178 (0.65%) in 28 files (23.9%)
+   TemplateElement                     142 (0.52%) in 15 files (12.8%)
+   IfStatement                         138 (0.51%) in 33 files (28.2%)
+   BinaryExpression                    138 (0.51%) in 29 files (24.8%)
+   ReturnStatement                     138 (0.51%) in 50 files (42.7%)
+   Program                             117 (0.43%) in 117 files (100.0%)
+   ObjectPattern                       110 (0.40%) in 38 files (32.5%)
+   FunctionDeclaration                  87 (0.32%) in 31 files (26.5%)
+   ImportDeclaration                    82 (0.30%) in 32 files (27.4%)
+   TemplateLiteral                      69 (0.25%) in 15 files (12.8%)
+   LogicalExpression                    65 (0.24%) in 21 files (17.9%)
+   UnaryExpression                      57 (0.21%) in 18 files (15.4%)
+   TryStatement                         51 (0.19%) in 21 files (17.9%)
+   CatchClause                          50 (0.18%) in 21 files (17.9%)
+   ImportSpecifier                      41 (0.15%) in 24 files (20.5%)
+   TSTypeReference                      38 (0.14%) in 16 files (13.7%)
+   TSTypeAnnotation                     36 (0.13%) in 15 files (12.8%)
+   ImportDefaultSpecifier               32 (0.12%) in 20 files (17.1%)
+   NewExpression                        29 (0.11%) in 19 files (16.2%)
+   TSTypeParameterInstantiation         20 (0.07%) in 14 files (12.0%)
+   ExportDefaultDeclaration             20 (0.07%) in 20 files (17.1%)
+   ExportNamedDeclaration               19 (0.07%) in 12 files (10.3%)
+   ImportNamespaceSpecifier             17 (0.06%) in 15 files (12.8%)
+   ParenthesizedExpression              15 (0.05%) in 12 files (10.3%)
+   ConditionalExpression                13 (0.05%) in 5 files (4.3%)
+   UpdateExpression                     13 (0.05%) in 10 files (8.5%)
+   ExportSpecifier                      11 (0.04%) in 6 files (5.1%)
+   SpreadElement                         9 (0.03%) in 4 files (3.4%)
+   AssignmentPattern                     8 (0.03%) in 4 files (3.4%)
+   TSStringKeyword                       7 (0.03%) in 6 files (5.1%)
+   ImportExpression                      6 (0.02%) in 2 files (1.7%)
+   TSInterfaceDeclaration                6 (0.02%) in 4 files (3.4%)
+   TSInterfaceBody                       6 (0.02%) in 4 files (3.4%)
+   TSVoidKeyword                         6 (0.02%) in 6 files (5.1%)
+   Hashbang                              5 (0.02%) in 5 files (4.3%)
+   TSModuleDeclaration                   5 (0.02%) in 4 files (3.4%)
+   TSModuleBlock                         5 (0.02%) in 4 files (3.4%)
+   TSAnyKeyword                          5 (0.02%) in 2 files (1.7%)
+   MetaProperty                          5 (0.02%) in 5 files (4.3%)
+   TSTypeLiteral                         4 (0.01%) in 4 files (3.4%)
+   ThrowStatement                        3 (0.01%) in 1 files (0.9%)
+   TSTypeQuery                           3 (0.01%) in 3 files (2.6%)
+   TSAsExpression                        3 (0.01%) in 2 files (1.7%)
+   TSQualifiedName                       3 (0.01%) in 3 files (2.6%)
+   TSPropertySignature                   3 (0.01%) in 3 files (2.6%)
+   TSTypeAliasDeclaration                3 (0.01%) in 3 files (2.6%)
+   TSFunctionType                        2 (0.01%) in 2 files (1.7%)
+   ThisExpression                        2 (0.01%) in 1 files (0.9%)
+   TSInterfaceHeritage                   2 (0.01%) in 1 files (0.9%)
+   TSMethodSignature                     2 (0.01%) in 2 files (1.7%)
+   TSDeclareFunction                     1 (0.00%) in 1 files (0.9%)
+   TSExportAssignment                    1 (0.00%) in 1 files (0.9%)
+   RestElement                           1 (0.00%) in 1 files (0.9%)
+   ChainExpression                       1 (0.00%) in 1 files (0.9%)
+   TSIntersectionType                    1 (0.00%) in 1 files (0.9%)
+
+📁 FILE EXAMPLES BY NODE TYPE:
+
+   Identifier:
+     📄 Files WITH Identifier (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • helper.js
+       • helper.d.ts
+       • generate.js
+     📄 Files WITHOUT Identifier (showing 2):
+       • index.d.ts
+       • test/data/parsing-error.js
+
+   MemberExpression:
+     📄 Files WITH MemberExpression (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • helper.js
+       • generate.js
+       • generate-swagger.js
+     📄 Files WITHOUT MemberExpression (showing 6):
+       • index.d.ts
+       • helper.d.ts
+       • test/data/parsing-error.js
+       • test/data/package-not-found.js
+       • test/data/custom-logger.mjs
+       • templates/plugin/index.d.ts
+
+   Literal:
+     📄 Files WITH Literal (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • helper.js
+       • helper.d.ts
+       • generate.js
+     📄 Files WITHOUT Literal (showing 2):
+       • index.d.ts
+       • test/data/parsing-error.js
+
+   CallExpression:
+     📄 Files WITH CallExpression (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • helper.js
+       • generate.js
+       • generate-swagger.js
+     📄 Files WITHOUT CallExpression (showing 10):
+       • index.d.ts
+       • helper.d.ts
+       • test/data/undefinedVariable.js
+       • test/data/parsing-error.js
+       • test/data/object.js
+       • test/data/custom-logger.mjs
+       • test/data/custom-logger.js
+       • test/data/custom-config.js
+       • test/data/async-plugin-with-one-argument.js
+       • templates/plugin/index.d.ts
+
+   ExpressionStatement:
+     📄 Files WITH ExpressionStatement (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • helper.js
+       • generate.js
+       • generate-swagger.js
+     📄 Files WITHOUT ExpressionStatement (showing 5):
+       • index.d.ts
+       • helper.d.ts
+       • test/data/parsing-error.js
+       • test/data/custom-logger.mjs
+       • templates/plugin/index.d.ts
+
+   Property:
+     📄 Files WITH Property (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • helper.js
+       • generate.js
+       • generate-swagger.js
+       • generate-readme.js
+     📄 Files WITHOUT Property (showing 10):
+       • should-skip-test-suites.js
+       • index.d.ts
+       • helper.d.ts
+       • test/graceful-shutdown.test.js
+       • test/plugindir/plugin.js
+       • test/data/undefinedVariable.js
+       • test/data/rejection.js
+       • test/data/parsing-error.js
+       • test/data/package-not-found.js
+       • test/data/object.js
+
+   VariableDeclaration:
+     📄 Files WITH VariableDeclaration (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • helper.js
+       • generate.js
+       • generate-swagger.js
+     📄 Files WITHOUT VariableDeclaration (showing 10):
+       • index.d.ts
+       • helper.d.ts
+       • eslint.config.js
+       • examples/ts-plugin.js
+       • examples/ts-plugin-with-options.js
+       • examples/ts-plugin-with-custom-options.js
+       • examples/plugin.js
+       • examples/plugin-with-options.js
+       • examples/plugin-with-logger.js
+       • examples/plugin-with-env.js
+
+   VariableDeclarator:
+     📄 Files WITH VariableDeclarator (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • helper.js
+       • generate.js
+       • generate-swagger.js
+     📄 Files WITHOUT VariableDeclarator (showing 10):
+       • index.d.ts
+       • helper.d.ts
+       • eslint.config.js
+       • examples/ts-plugin.js
+       • examples/ts-plugin-with-options.js
+       • examples/ts-plugin-with-custom-options.js
+       • examples/plugin.js
+       • examples/plugin-with-options.js
+       • examples/plugin-with-logger.js
+       • examples/plugin-with-env.js
+
+   BlockStatement:
+     📄 Files WITH BlockStatement (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • helper.js
+       • generate.js
+       • generate-swagger.js
+     📄 Files WITHOUT BlockStatement (showing 10):
+       • index.d.ts
+       • helper.d.ts
+       • eslint.config.js
+       • test/data/undefinedVariable.js
+       • test/data/parsing-error.js
+       • test/data/package-not-found.js
+       • test/data/object.js
+       • test/data/custom-require2.js
+       • test/data/custom-require.js
+       • test/data/custom-logger.mjs
+
+   ObjectExpression:
+     📄 Files WITH ObjectExpression (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • helper.js
+       • generate.js
+       • generate-swagger.js
+       • generate-readme.js
+     📄 Files WITHOUT ObjectExpression (showing 10):
+       • should-skip-test-suites.js
+       • index.d.ts
+       • helper.d.ts
+       • test/watch.test.js
+       • test/graceful-shutdown.test.js
+       • test/generate-swagger.test.js
+       • test/plugindir/plugin.js
+       • test/data/undefinedVariable.js
+       • test/data/rejection.js
+       • test/data/parsing-error.js
+
+   ArrowFunctionExpression:
+     📄 Files WITH ArrowFunctionExpression (showing 10):
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • generate.js
+       • generate-swagger.js
+       • generate-readme.js
+       • eject.js
+     📄 Files WITHOUT ArrowFunctionExpression (showing 10):
+       • util.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+       • generate-plugin.js
+       • eslint.config.js
+       • cli.js
+       • args.js
+       • examples/ts-plugin.js
+       • examples/ts-plugin-with-options.js
+
+   AwaitExpression:
+     📄 Files WITH AwaitExpression (showing 10):
+       • util.js
+       • start.js
+       • print-routes.js
+       • print-plugins.js
+       • generate-swagger.js
+       • generate-plugin.js
+       • test/start.test.js
+       • test/print-routes.test.js
+       • test/print-plugins.test.js
+       • test/helper.test.js
+     📄 Files WITHOUT AwaitExpression (showing 10):
+       • suite-runner.js
+       • should-skip-test-suites.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+       • generate.js
+       • generate-readme.js
+       • eslint.config.js
+       • eject.js
+
+   AssignmentExpression:
+     📄 Files WITH AssignmentExpression (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • helper.js
+       • generate.js
+       • generate-swagger.js
+       • generate-readme.js
+     📄 Files WITHOUT AssignmentExpression (showing 10):
+       • should-skip-test-suites.js
+       • index.d.ts
+       • helper.d.ts
+       • cli.js
+       • test/watch.test.js
+       • test/helper.test.js
+       • test/generate-swagger.test.js
+       • test/generate-readme.test.js
+       • test/cli.test.js
+       • examples/ts-plugin-with-custom-options.mjs
+
+   Unknown:
+     📄 Files WITH Unknown (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • generate.js
+       • generate-readme.js
+       • generate-plugin.js
+       • eject.js
+       • args.js
+       • test/watch.test.js
+     📄 Files WITHOUT Unknown (showing 10):
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+       • generate-swagger.js
+       • eslint.config.js
+       • cli.js
+       • test/helper.test.js
+
+   FunctionExpression:
+     📄 Files WITH FunctionExpression (showing 10):
+       • start.js
+       • helper.js
+       • generate.js
+       • generate-readme.js
+       • generate-plugin.js
+       • eject.js
+       • cli.js
+       • args.js
+       • test/start.test.js
+       • test/print-routes.test.js
+     📄 Files WITHOUT FunctionExpression (showing 10):
+       • util.js
+       • suite-runner.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.d.ts
+       • generate-swagger.js
+       • eslint.config.js
+
+   ArrayExpression:
+     📄 Files WITH ArrayExpression (showing 10):
+       • start.js
+       • log.js
+       • generate.js
+       • generate-readme.js
+       • eslint.config.js
+       • args.js
+       • test/watch.test.js
+       • test/start.test.js
+       • test/print-routes.test.js
+       • test/print-plugins.test.js
+     📄 Files WITHOUT ArrayExpression (showing 10):
+       • util.js
+       • suite-runner.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+       • generate-swagger.js
+       • generate-plugin.js
+
+   TemplateElement:
+     📄 Files WITH TemplateElement (showing 10):
+       • util.js
+       • suite-runner.js
+       • should-skip-test-suites.js
+       • generate.js
+       • generate-readme.js
+       • generate-plugin.js
+       • eject.js
+       • args.js
+       • test/start.test.js
+       • test/generate.test.js
+     📄 Files WITHOUT TemplateElement (showing 10):
+       • start.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+       • generate-swagger.js
+       • eslint.config.js
+       • cli.js
+
+   IfStatement:
+     📄 Files WITH IfStatement (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • generate.js
+       • generate-swagger.js
+       • generate-readme.js
+     📄 Files WITHOUT IfStatement (showing 10):
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+       • eslint.config.js
+       • test/watch.test.js
+       • test/helper.test.js
+       • test/graceful-shutdown.test.js
+       • test/generate-swagger.test.js
+       • test/generate-readme.test.js
+       • test/cli.test.js
+
+   BinaryExpression:
+     📄 Files WITH BinaryExpression (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • generate.js
+       • generate-swagger.js
+       • generate-readme.js
+     📄 Files WITHOUT BinaryExpression (showing 10):
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+       • eslint.config.js
+       • cli.js
+       • test/watch.test.js
+       • test/helper.test.js
+       • test/generate-swagger.test.js
+       • test/generate-readme.test.js
+       • test/cli.test.js
+
+   ReturnStatement:
+     📄 Files WITH ReturnStatement (showing 10):
+       • util.js
+       • start.js
+       • print-routes.js
+       • print-plugins.js
+       • helper.js
+       • generate.js
+       • generate-swagger.js
+       • generate-readme.js
+       • eject.js
+       • args.js
+     📄 Files WITHOUT ReturnStatement (showing 10):
+       • suite-runner.js
+       • should-skip-test-suites.js
+       • log.js
+       • index.d.ts
+       • helper.d.ts
+       • generate-plugin.js
+       • eslint.config.js
+       • cli.js
+       • test/watch.test.js
+       • test/helper.test.js
+
+   Program:
+     📄 Files WITH Program (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+     📄 Files WITHOUT Program: (all files contain this node type)
+
+   ObjectPattern:
+     📄 Files WITH ObjectPattern (showing 10):
+       • suite-runner.js
+       • start.js
+       • print-routes.js
+       • print-plugins.js
+       • helper.js
+       • generate.js
+       • generate-swagger.js
+       • generate-readme.js
+       • generate-plugin.js
+       • args.js
+     📄 Files WITHOUT ObjectPattern (showing 10):
+       • util.js
+       • should-skip-test-suites.js
+       • log.js
+       • index.d.ts
+       • helper.d.ts
+       • eslint.config.js
+       • eject.js
+       • cli.js
+       • test/graceful-shutdown.test.js
+       • examples/ts-plugin.js
+
+   FunctionDeclaration:
+     📄 Files WITH FunctionDeclaration (showing 10):
+       • util.js
+       • start.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • generate.js
+       • generate-swagger.js
+       • generate-readme.js
+       • generate-plugin.js
+       • eject.js
+     📄 Files WITHOUT FunctionDeclaration (showing 10):
+       • suite-runner.js
+       • should-skip-test-suites.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+       • eslint.config.js
+       • cli.js
+       • args.js
+       • test/watch.test.js
+       • test/print-routes.test.js
+
+   ImportDeclaration:
+     📄 Files WITH ImportDeclaration (showing 10):
+       • helper.d.ts
+       • test/templates/app-ts.test.ts
+       • test/esm/util.test.js
+       • templates/eject-ts/server.ts
+       • templates/eject-esm/server.js
+       • templates/plugin/index.d.ts
+       • templates/app-esm/app.js
+       • templates/plugin/test/index.test-d.ts
+       • templates/app-ts/test/helper.ts
+       • templates/app-ts/src/app.ts
+     📄 Files WITHOUT ImportDeclaration (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • generate.js
+
+   TemplateLiteral:
+     📄 Files WITH TemplateLiteral (showing 10):
+       • util.js
+       • suite-runner.js
+       • should-skip-test-suites.js
+       • generate.js
+       • generate-readme.js
+       • generate-plugin.js
+       • eject.js
+       • args.js
+       • test/start.test.js
+       • test/generate.test.js
+     📄 Files WITHOUT TemplateLiteral (showing 10):
+       • start.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+       • generate-swagger.js
+       • eslint.config.js
+       • cli.js
+
+   LogicalExpression:
+     📄 Files WITH LogicalExpression (showing 10):
+       • util.js
+       • start.js
+       • log.js
+       • generate.js
+       • generate-readme.js
+       • generate-plugin.js
+       • eject.js
+       • args.js
+       • test/print-routes.test.js
+       • test/print-plugins.test.js
+     📄 Files WITHOUT LogicalExpression (showing 10):
+       • suite-runner.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+       • generate-swagger.js
+       • eslint.config.js
+       • cli.js
+
+   UnaryExpression:
+     📄 Files WITH UnaryExpression (showing 10):
+       • util.js
+       • start.js
+       • should-skip-test-suites.js
+       • generate.js
+       • generate-readme.js
+       • generate-plugin.js
+       • test/start.test.js
+       • test/helper.test.js
+       • test/generate-readme.test.js
+       • test/args.test.js
+     📄 Files WITHOUT UnaryExpression (showing 10):
+       • suite-runner.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+       • generate-swagger.js
+       • eslint.config.js
+       • eject.js
+
+   TryStatement:
+     📄 Files WITH TryStatement (showing 10):
+       • util.js
+       • start.js
+       • print-routes.js
+       • print-plugins.js
+       • generate.js
+       • generate-swagger.js
+       • generate-readme.js
+       • test/start.test.js
+       • test/generate.test.js
+       • test/generate-typescript.test.js
+     📄 Files WITHOUT TryStatement (showing 10):
+       • suite-runner.js
+       • should-skip-test-suites.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+       • generate-plugin.js
+       • eslint.config.js
+       • eject.js
+       • cli.js
+
+   CatchClause:
+     📄 Files WITH CatchClause (showing 10):
+       • util.js
+       • start.js
+       • print-routes.js
+       • print-plugins.js
+       • generate.js
+       • generate-swagger.js
+       • generate-readme.js
+       • test/start.test.js
+       • test/generate.test.js
+       • test/generate-typescript.test.js
+     📄 Files WITHOUT CatchClause (showing 10):
+       • suite-runner.js
+       • should-skip-test-suites.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+       • generate-plugin.js
+       • eslint.config.js
+       • eject.js
+       • cli.js
+
+   ImportSpecifier:
+     📄 Files WITH ImportSpecifier (showing 10):
+       • test/templates/app-ts.test.ts
+       • test/esm/util.test.js
+       • templates/plugin/index.d.ts
+       • templates/app-esm/app.js
+       • templates/plugin/test/index.test-d.ts
+       • templates/app-ts/src/app.ts
+       • templates/app-ts-esm/test/helper.ts
+       • templates/app-ts-esm/src/app.ts
+       • templates/app-esm/test/helper.js
+       • templates/app-ts/test/routes/root.test.ts
+     📄 Files WITHOUT ImportSpecifier (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+
+   TSTypeReference:
+     📄 Files WITH TSTypeReference (showing 10):
+       • helper.d.ts
+       • test/templates/app-ts.test.ts
+       • templates/eject-ts/server.ts
+       • templates/plugin/index.d.ts
+       • templates/app-ts/test/helper.ts
+       • templates/app-ts/src/app.ts
+       • templates/app-ts-esm/test/helper.ts
+       • templates/app-ts-esm/src/app.ts
+       • templates/app-ts/src/routes/root.ts
+       • templates/app-ts/src/plugins/support.ts
+     📄 Files WITHOUT TSTypeReference (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • generate.js
+
+   TSTypeAnnotation:
+     📄 Files WITH TSTypeAnnotation (showing 10):
+       • helper.d.ts
+       • test/templates/app-ts.test.ts
+       • templates/eject-ts/server.ts
+       • templates/plugin/index.d.ts
+       • templates/plugin/test/index.test-d.ts
+       • templates/app-ts/test/helper.ts
+       • templates/app-ts/src/app.ts
+       • templates/app-ts-esm/test/helper.ts
+       • templates/app-ts-esm/src/app.ts
+       • templates/app-ts/src/routes/root.ts
+     📄 Files WITHOUT TSTypeAnnotation (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • generate.js
+
+   ImportDefaultSpecifier:
+     📄 Files WITH ImportDefaultSpecifier (showing 10):
+       • helper.d.ts
+       • test/templates/app-ts.test.ts
+       • test/esm/util.test.js
+       • templates/eject-ts/server.ts
+       • templates/eject-esm/server.js
+       • templates/app-esm/app.js
+       • templates/plugin/test/index.test-d.ts
+       • templates/app-ts/src/app.ts
+       • templates/app-ts-esm/test/helper.ts
+       • templates/app-ts-esm/src/app.ts
+     📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • generate.js
+
+   NewExpression:
+     📄 Files WITH NewExpression (showing 10):
+       • util.js
+       • generate.js
+       • generate-readme.js
+       • eject.js
+       • test/start.test.js
+       • test/helper.test.js
+       • test/generate.test.js
+       • test/generate-typescript.test.js
+       • test/generate-typescript-esm.test.js
+       • test/generate-plugin.test.js
+     📄 Files WITHOUT NewExpression (showing 10):
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+       • generate-swagger.js
+
+   TSTypeParameterInstantiation:
+     📄 Files WITH TSTypeParameterInstantiation (showing 10):
+       • helper.d.ts
+       • test/templates/app-ts.test.ts
+       • templates/plugin/index.d.ts
+       • templates/plugin/test/index.test-d.ts
+       • templates/app-ts/src/app.ts
+       • templates/app-ts-esm/src/app.ts
+       • templates/app-ts/src/routes/root.ts
+       • templates/app-ts/src/plugins/support.ts
+       • templates/app-ts/src/plugins/sensible.ts
+       • templates/app-ts-esm/src/routes/root.ts
+     📄 Files WITHOUT TSTypeParameterInstantiation (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • generate.js
+
+   ExportDefaultDeclaration:
+     📄 Files WITH ExportDefaultDeclaration (showing 10):
+       • examples/ts-plugin-with-custom-options.mjs
+       • test/data/custom-logger.mjs
+       • templates/plugin/index.d.ts
+       • templates/app-esm/app.js
+       • examples/package-type-module/ESM-plugin-with-custom-server-options.js
+       • examples/package-type-module/ESM-plugin-with-custom-options.js
+       • templates/app-ts/src/app.ts
+       • templates/app-ts-esm/src/app.ts
+       • templates/app-esm/routes/root.js
+       • templates/app-esm/plugins/support.js
+     📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+
+   ExportNamedDeclaration:
+     📄 Files WITH ExportNamedDeclaration (showing 10):
+       • helper.d.ts
+       • examples/ts-plugin-with-custom-options.mjs
+       • templates/plugin/index.d.ts
+       • templates/app-esm/app.js
+       • examples/package-type-module/ESM-plugin-with-custom-server-options.js
+       • templates/app-ts/test/helper.ts
+       • templates/app-ts/src/app.ts
+       • templates/app-ts-esm/test/helper.ts
+       • templates/app-ts-esm/src/app.ts
+       • templates/app-esm/test/helper.js
+     📄 Files WITHOUT ExportNamedDeclaration (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • generate.js
+
+   ImportNamespaceSpecifier:
+     📄 Files WITH ImportNamespaceSpecifier (showing 10):
+       • test/esm/util.test.js
+       • templates/eject-ts/server.ts
+       • templates/eject-esm/server.js
+       • templates/app-ts/test/helper.ts
+       • templates/app-ts-esm/test/helper.ts
+       • templates/app-ts-esm/src/app.ts
+       • templates/app-ts/test/routes/root.test.ts
+       • templates/app-ts/test/routes/example.test.ts
+       • templates/app-ts/test/plugins/support.test.ts
+       • templates/app-ts-esm/test/plugins/support.test.ts
+     📄 Files WITHOUT ImportNamespaceSpecifier (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+
+   ParenthesizedExpression:
+     📄 Files WITH ParenthesizedExpression (showing 10):
+       • util.js
+       • test/start.test.js
+       • test/graceful-shutdown.test.js
+       • test/generate.test.js
+       • test/generate-typescript.test.js
+       • test/generate-typescript-esm.test.js
+       • test/generate-plugin.test.js
+       • test/generate-esm.test.js
+       • test/eject.test.js
+       • test/eject-ts.test.js
+     📄 Files WITHOUT ParenthesizedExpression (showing 10):
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+       • generate.js
+
+   ConditionalExpression:
+     📄 Files WITH ConditionalExpression (showing 5):
+       • util.js
+       • start.js
+       • generate-readme.js
+       • args.js
+       • test/graceful-shutdown.test.js
+     📄 Files WITHOUT ConditionalExpression (showing 10):
+       • suite-runner.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+       • generate.js
+       • generate-swagger.js
+
+   UpdateExpression:
+     📄 Files WITH UpdateExpression (showing 10):
+       • test/start.test.js
+       • test/graceful-shutdown.test.js
+       • test/generate.test.js
+       • test/generate-typescript.test.js
+       • test/generate-typescript-esm.test.js
+       • test/generate-plugin.test.js
+       • test/generate-esm.test.js
+       • test/eject.test.js
+       • test/eject-ts.test.js
+       • test/eject-esm.test.js
+     📄 Files WITHOUT UpdateExpression (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+
+   ExportSpecifier:
+     📄 Files WITH ExportSpecifier (showing 6):
+       • templates/plugin/index.d.ts
+       • templates/app-ts/test/helper.ts
+       • templates/app-ts/src/app.ts
+       • templates/app-ts-esm/test/helper.ts
+       • templates/app-ts-esm/src/app.ts
+       • templates/app-esm/test/helper.js
+     📄 Files WITHOUT ExportSpecifier (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+
+   SpreadElement:
+     📄 Files WITH SpreadElement (showing 4):
+       • generate.js
+       • eslint.config.js
+       • args.js
+       • test/start.test.js
+     📄 Files WITHOUT SpreadElement (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+
+   AssignmentPattern:
+     📄 Files WITH AssignmentPattern (showing 4):
+       • helper.js
+       • test/generate.test.js
+       • test/generate-esm.test.js
+       • lib/watch/index.js
+     📄 Files WITHOUT AssignmentPattern (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.d.ts
+       • generate.js
+
+   TSStringKeyword:
+     📄 Files WITH TSStringKeyword (showing 6):
+       • helper.d.ts
+       • test/templates/app-ts.test.ts
+       • templates/plugin/index.d.ts
+       • templates/plugin/test/index.test-d.ts
+       • templates/app-ts/src/plugins/support.ts
+       • templates/app-ts-esm/src/plugins/support.ts
+     📄 Files WITHOUT TSStringKeyword (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • generate.js
+
+   ImportExpression:
+     📄 Files WITH ImportExpression (showing 2):
+       • util.js
+       • templates/eject-ts/server.ts
+     📄 Files WITHOUT ImportExpression (showing 10):
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+       • generate.js
+
+   TSInterfaceDeclaration:
+     📄 Files WITH TSInterfaceDeclaration (showing 4):
+       • templates/plugin/index.d.ts
+       • templates/app-ts/src/app.ts
+       • templates/app-ts/src/plugins/support.ts
+       • templates/app-ts-esm/src/plugins/support.ts
+     📄 Files WITHOUT TSInterfaceDeclaration (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+
+   TSInterfaceBody:
+     📄 Files WITH TSInterfaceBody (showing 4):
+       • templates/plugin/index.d.ts
+       • templates/app-ts/src/app.ts
+       • templates/app-ts/src/plugins/support.ts
+       • templates/app-ts-esm/src/plugins/support.ts
+     📄 Files WITHOUT TSInterfaceBody (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+
+   TSVoidKeyword:
+     📄 Files WITH TSVoidKeyword (showing 6):
+       • templates/app-ts/src/app.ts
+       • templates/app-ts-esm/src/app.ts
+       • templates/app-ts/src/routes/root.ts
+       • templates/app-ts-esm/src/routes/root.ts
+       • templates/app-ts/src/routes/example/index.ts
+       • templates/app-ts-esm/src/routes/example/index.ts
+     📄 Files WITHOUT TSVoidKeyword (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+
+   Hashbang:
+     📄 Files WITH Hashbang (showing 5):
+       • start.js
+       • print-routes.js
+       • print-plugins.js
+       • generate-swagger.js
+       • cli.js
+     📄 Files WITHOUT Hashbang (showing 10):
+       • util.js
+       • suite-runner.js
+       • should-skip-test-suites.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+       • generate.js
+       • generate-readme.js
+       • generate-plugin.js
+
+   TSModuleDeclaration:
+     📄 Files WITH TSModuleDeclaration (showing 4):
+       • helper.d.ts
+       • templates/plugin/index.d.ts
+       • templates/app-ts/src/plugins/support.ts
+       • templates/app-ts-esm/src/plugins/support.ts
+     📄 Files WITHOUT TSModuleDeclaration (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • generate.js
+
+   TSModuleBlock:
+     📄 Files WITH TSModuleBlock (showing 4):
+       • helper.d.ts
+       • templates/plugin/index.d.ts
+       • templates/app-ts/src/plugins/support.ts
+       • templates/app-ts-esm/src/plugins/support.ts
+     📄 Files WITHOUT TSModuleBlock (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • generate.js
+
+   TSAnyKeyword:
+     📄 Files WITH TSAnyKeyword (showing 2):
+       • test/templates/app-ts.test.ts
+       • templates/eject-ts/server.ts
+     📄 Files WITHOUT TSAnyKeyword (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+
+   MetaProperty:
+     📄 Files WITH MetaProperty (showing 5):
+       • test/esm/util.test.js
+       • templates/app-esm/app.js
+       • templates/app-ts-esm/test/helper.ts
+       • templates/app-ts-esm/src/app.ts
+       • templates/app-esm/test/helper.js
+     📄 Files WITHOUT MetaProperty (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+
+   TSTypeLiteral:
+     📄 Files WITH TSTypeLiteral (showing 4):
+       • templates/plugin/index.d.ts
+       • templates/app-ts/test/helper.ts
+       • templates/app-ts-esm/test/helper.ts
+       • templates/app-ts-esm/src/app.ts
+     📄 Files WITHOUT TSTypeLiteral (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+
+   ThrowStatement:
+     📄 Files WITH ThrowStatement (showing 1):
+       • util.js
+     📄 Files WITHOUT ThrowStatement (showing 10):
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+       • generate.js
+
+   TSTypeQuery:
+     📄 Files WITH TSTypeQuery (showing 3):
+       • helper.d.ts
+       • templates/app-ts/test/helper.ts
+       • templates/app-ts-esm/test/helper.ts
+     📄 Files WITHOUT TSTypeQuery (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • generate.js
+
+   TSAsExpression:
+     📄 Files WITH TSAsExpression (showing 2):
+       • test/templates/app-ts.test.ts
+       • templates/eject-ts/server.ts
+     📄 Files WITHOUT TSAsExpression (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+
+   TSQualifiedName:
+     📄 Files WITH TSQualifiedName (showing 3):
+       • templates/eject-ts/server.ts
+       • templates/app-ts/test/helper.ts
+       • templates/app-ts-esm/test/helper.ts
+     📄 Files WITHOUT TSQualifiedName (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+
+   TSPropertySignature:
+     📄 Files WITH TSPropertySignature (showing 3):
+       • templates/plugin/index.d.ts
+       • templates/app-ts/test/helper.ts
+       • templates/app-ts-esm/test/helper.ts
+     📄 Files WITHOUT TSPropertySignature (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+
+   TSTypeAliasDeclaration:
+     📄 Files WITH TSTypeAliasDeclaration (showing 3):
+       • templates/app-ts/test/helper.ts
+       • templates/app-ts-esm/test/helper.ts
+       • templates/app-ts-esm/src/app.ts
+     📄 Files WITHOUT TSTypeAliasDeclaration (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+
+   TSFunctionType:
+     📄 Files WITH TSFunctionType (showing 2):
+       • templates/plugin/index.d.ts
+       • templates/plugin/test/index.test-d.ts
+     📄 Files WITHOUT TSFunctionType (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+
+   ThisExpression:
+     📄 Files WITH ThisExpression (showing 1):
+       • lib/watch/fork.js
+     📄 Files WITHOUT ThisExpression (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+
+   TSInterfaceHeritage:
+     📄 Files WITH TSInterfaceHeritage (showing 1):
+       • templates/app-ts/src/app.ts
+     📄 Files WITHOUT TSInterfaceHeritage (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+
+   TSMethodSignature:
+     📄 Files WITH TSMethodSignature (showing 2):
+       • templates/app-ts/src/plugins/support.ts
+       • templates/app-ts-esm/src/plugins/support.ts
+     📄 Files WITHOUT TSMethodSignature (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+
+   TSDeclareFunction:
+     📄 Files WITH TSDeclareFunction (showing 1):
+       • helper.d.ts
+     📄 Files WITHOUT TSDeclareFunction (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • generate.js
+
+   TSExportAssignment:
+     📄 Files WITH TSExportAssignment (showing 1):
+       • helper.d.ts
+     📄 Files WITHOUT TSExportAssignment (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • generate.js
+
+   RestElement:
+     📄 Files WITH RestElement (showing 1):
+       • args.js
+     📄 Files WITHOUT RestElement (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+
+   ChainExpression:
+     📄 Files WITH ChainExpression (showing 1):
+       • args.js
+     📄 Files WITHOUT ChainExpression (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+
+   TSIntersectionType:
+     📄 Files WITH TSIntersectionType (showing 1):
+       • templates/app-ts-esm/src/app.ts
+     📄 Files WITHOUT TSIntersectionType (showing 10):
+       • util.js
+       • suite-runner.js
+       • start.js
+       • should-skip-test-suites.js
+       • print-routes.js
+       • print-plugins.js
+       • log.js
+       • index.d.ts
+       • helper.js
+       • helper.d.ts
+
+============================================================
+✅ Analysis complete!
+
+
+Warnings/Errors:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/fastify-cli/test/data/parsing-error.js:
+   Unterminated string

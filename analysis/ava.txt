@@ -1,0 +1,2073 @@
+AST Analysis Report for ava
+Generated on: 2025-07-14T01:56:12.500Z
+Repository: sample-repos/ava
+================================================================================
+
+🔍 Analyzing JavaScript/TypeScript files in: /Users/camchenry/workspace/ast-analysis/sample-repos/ava
+
+📁 Found 196 files to analyze...
+
+
+
+============================================================
+📊 AST ANALYSIS RESULTS
+============================================================
+
+📁 FILE STATISTICS:
+   Total files found: 196
+   Successfully parsed: 196
+   Failed to parse: 0
+   Total file size: 519.1 KB
+
+🌳 NODE STATISTICS:
+   Total nodes: 85,869
+   Average nodes per file: 438
+   Average file size: 2.6 KB
+
+📋 ALL NODE TYPES (BY FILE PRESENCE):
+   Program                         196 files (100.0%) -      196 total (0.23%)
+   Identifier                      195 files ( 99.5%) -   31,626 total (36.83%)
+   Literal                         194 files ( 99.0%) -    7,162 total (8.34%)
+   MemberExpression                185 files ( 94.4%) -    8,712 total (10.15%)
+   CallExpression                  184 files ( 93.9%) -    7,389 total (8.60%)
+   ExpressionStatement             180 files ( 91.8%) -    4,703 total (5.48%)
+   BlockStatement                  171 files ( 87.2%) -    3,031 total (3.53%)
+   ImportDeclaration               162 files ( 82.7%) -      603 total (0.70%)
+   ArrowFunctionExpression         160 files ( 81.6%) -    1,998 total (2.33%)
+   VariableDeclaration             155 files ( 79.1%) -    1,670 total (1.94%)
+   VariableDeclarator              155 files ( 79.1%) -    1,670 total (1.94%)
+   ImportDefaultSpecifier          146 files ( 74.5%) -      315 total (0.37%)
+   ImportSpecifier                 136 files ( 69.4%) -      342 total (0.40%)
+   Property                        131 files ( 66.8%) -    3,806 total (4.43%)
+   ObjectExpression                123 files ( 62.8%) -    1,586 total (1.85%)
+   ArrayExpression                 118 files ( 60.2%) -      871 total (1.01%)
+   AwaitExpression                  94 files ( 48.0%) -      535 total (0.62%)
+   BinaryExpression                 81 files ( 41.3%) -      671 total (0.78%)
+   ReturnStatement                  77 files ( 39.3%) -      626 total (0.73%)
+   NewExpression                    71 files ( 36.2%) -      514 total (0.60%)
+   AssignmentExpression             67 files ( 34.2%) -      686 total (0.80%)
+   IfStatement                      66 files ( 33.7%) -      710 total (0.83%)
+   Unknown                          64 files ( 32.7%) -    1,100 total (1.28%)
+   ObjectPattern                    61 files ( 31.1%) -      266 total (0.31%)
+   FunctionDeclaration              58 files ( 29.6%) -      153 total (0.18%)
+   UnaryExpression                  52 files ( 26.5%) -      235 total (0.27%)
+   LogicalExpression                50 files ( 25.5%) -      299 total (0.35%)
+   SpreadElement                    47 files ( 24.0%) -      144 total (0.17%)
+   TemplateLiteral                  43 files ( 21.9%) -      235 total (0.27%)
+   TemplateElement                  43 files ( 21.9%) -      582 total (0.68%)
+   FunctionExpression               39 files ( 19.9%) -      303 total (0.35%)
+   ForOfStatement                   36 files ( 18.4%) -      106 total (0.12%)
+   ExportDefaultDeclaration         35 files ( 17.9%) -       35 total (0.04%)
+   AssignmentPattern                35 files ( 17.9%) -       92 total (0.11%)
+   ThrowStatement                   33 files ( 16.8%) -      209 total (0.24%)
+   ConditionalExpression            32 files ( 16.3%) -       73 total (0.09%)
+   ExportNamedDeclaration           30 files ( 15.3%) -       62 total (0.07%)
+   MetaProperty                     26 files ( 13.3%) -       92 total (0.11%)
+   TryStatement                     25 files ( 12.8%) -       78 total (0.09%)
+   ArrayPattern                     23 files ( 11.7%) -       40 total (0.05%)
+   ParenthesizedExpression          23 files ( 11.7%) -       85 total (0.10%)
+   ThisExpression                   22 files ( 11.2%) -    1,046 total (1.22%)
+   CatchClause                      21 files ( 10.7%) -       72 total (0.08%)
+   RestElement                      20 files ( 10.2%) -       29 total (0.03%)
+   ClassDeclaration                 16 files (  8.2%) -       33 total (0.04%)
+   ClassBody                        16 files (  8.2%) -       37 total (0.04%)
+   MethodDefinition                 16 files (  8.2%) -      159 total (0.19%)
+   UpdateExpression                 15 files (  7.7%) -       84 total (0.10%)
+   ChainExpression                  15 files (  7.7%) -       42 total (0.05%)
+   ImportNamespaceSpecifier         12 files (  6.1%) -       13 total (0.02%)
+   Super                            12 files (  6.1%) -       23 total (0.03%)
+   TSTypeAnnotation                 11 files (  5.6%) -       56 total (0.07%)
+   SwitchStatement                  10 files (  5.1%) -       14 total (0.02%)
+   SwitchCase                       10 files (  5.1%) -      113 total (0.13%)
+   BreakStatement                   10 files (  5.1%) -       92 total (0.11%)
+   WhileStatement                    9 files (  4.6%) -       10 total (0.01%)
+   TSTypeReference                   9 files (  4.6%) -       58 total (0.07%)
+   YieldExpression                   8 files (  4.1%) -       17 total (0.02%)
+   ContinueStatement                 8 files (  4.1%) -       22 total (0.03%)
+   ImportExpression                  8 files (  4.1%) -       20 total (0.02%)
+   TSTypeParameterInstantiation      8 files (  4.1%) -       72 total (0.08%)
+   TSStringKeyword                   7 files (  3.6%) -       29 total (0.03%)
+   ExportSpecifier                   6 files (  3.1%) -       14 total (0.02%)
+   TSNumberKeyword                   6 files (  3.1%) -       29 total (0.03%)
+   TSTypeLiteral                     5 files (  2.6%) -       10 total (0.01%)
+   TSPropertySignature               5 files (  2.6%) -       11 total (0.01%)
+   TSUnknownKeyword                  4 files (  2.0%) -       10 total (0.01%)
+   TSTypeAliasDeclaration            4 files (  2.0%) -       10 total (0.01%)
+   ForStatement                      3 files (  1.5%) -        6 total (0.01%)
+   TSTupleType                       3 files (  1.5%) -       10 total (0.01%)
+   TSUnionType                       3 files (  1.5%) -        5 total (0.01%)
+   TSLiteralType                     3 files (  1.5%) -       16 total (0.02%)
+   TSAsExpression                    3 files (  1.5%) -        7 total (0.01%)
+   ExportAllDeclaration              2 files (  1.0%) -        2 total (0.00%)
+   PropertyDefinition                2 files (  1.0%) -       10 total (0.01%)
+   DoWhileStatement                  2 files (  1.0%) -        2 total (0.00%)
+   Hashbang                          2 files (  1.0%) -        2 total (0.00%)
+   TSVoidKeyword                     2 files (  1.0%) -        3 total (0.00%)
+   TSFunctionType                    2 files (  1.0%) -        3 total (0.00%)
+   TSUndefinedKeyword                2 files (  1.0%) -        4 total (0.00%)
+   TSArrayType                       2 files (  1.0%) -        3 total (0.00%)
+   ClassExpression                   1 files (  0.5%) -        4 total (0.00%)
+   PrivateIdentifier                 1 files (  0.5%) -       46 total (0.05%)
+   TSQualifiedName                   1 files (  0.5%) -        7 total (0.01%)
+   TSTypeOperator                    1 files (  0.5%) -        1 total (0.00%)
+   TSIntersectionType                1 files (  0.5%) -        1 total (0.00%)
+   DebuggerStatement                 1 files (  0.5%) -        1 total (0.00%)
+
+📝 ALL NODE TYPES (BY TOTAL COUNT):
+   Identifier                       31,626 (36.83%) in 195 files (99.5%)
+   MemberExpression                  8,712 (10.15%) in 185 files (94.4%)
+   CallExpression                    7,389 (8.60%) in 184 files (93.9%)
+   Literal                           7,162 (8.34%) in 194 files (99.0%)
+   ExpressionStatement               4,703 (5.48%) in 180 files (91.8%)
+   Property                          3,806 (4.43%) in 131 files (66.8%)
+   BlockStatement                    3,031 (3.53%) in 171 files (87.2%)
+   ArrowFunctionExpression           1,998 (2.33%) in 160 files (81.6%)
+   VariableDeclaration               1,670 (1.94%) in 155 files (79.1%)
+   VariableDeclarator                1,670 (1.94%) in 155 files (79.1%)
+   ObjectExpression                  1,586 (1.85%) in 123 files (62.8%)
+   Unknown                           1,100 (1.28%) in 64 files (32.7%)
+   ThisExpression                    1,046 (1.22%) in 22 files (11.2%)
+   ArrayExpression                     871 (1.01%) in 118 files (60.2%)
+   IfStatement                         710 (0.83%) in 66 files (33.7%)
+   AssignmentExpression                686 (0.80%) in 67 files (34.2%)
+   BinaryExpression                    671 (0.78%) in 81 files (41.3%)
+   ReturnStatement                     626 (0.73%) in 77 files (39.3%)
+   ImportDeclaration                   603 (0.70%) in 162 files (82.7%)
+   TemplateElement                     582 (0.68%) in 43 files (21.9%)
+   AwaitExpression                     535 (0.62%) in 94 files (48.0%)
+   NewExpression                       514 (0.60%) in 71 files (36.2%)
+   ImportSpecifier                     342 (0.40%) in 136 files (69.4%)
+   ImportDefaultSpecifier              315 (0.37%) in 146 files (74.5%)
+   FunctionExpression                  303 (0.35%) in 39 files (19.9%)
+   LogicalExpression                   299 (0.35%) in 50 files (25.5%)
+   ObjectPattern                       266 (0.31%) in 61 files (31.1%)
+   TemplateLiteral                     235 (0.27%) in 43 files (21.9%)
+   UnaryExpression                     235 (0.27%) in 52 files (26.5%)
+   ThrowStatement                      209 (0.24%) in 33 files (16.8%)
+   Program                             196 (0.23%) in 196 files (100.0%)
+   MethodDefinition                    159 (0.19%) in 16 files (8.2%)
+   FunctionDeclaration                 153 (0.18%) in 58 files (29.6%)
+   SpreadElement                       144 (0.17%) in 47 files (24.0%)
+   SwitchCase                          113 (0.13%) in 10 files (5.1%)
+   ForOfStatement                      106 (0.12%) in 36 files (18.4%)
+   MetaProperty                         92 (0.11%) in 26 files (13.3%)
+   AssignmentPattern                    92 (0.11%) in 35 files (17.9%)
+   BreakStatement                       92 (0.11%) in 10 files (5.1%)
+   ParenthesizedExpression              85 (0.10%) in 23 files (11.7%)
+   UpdateExpression                     84 (0.10%) in 15 files (7.7%)
+   TryStatement                         78 (0.09%) in 25 files (12.8%)
+   ConditionalExpression                73 (0.09%) in 32 files (16.3%)
+   CatchClause                          72 (0.08%) in 21 files (10.7%)
+   TSTypeParameterInstantiation         72 (0.08%) in 8 files (4.1%)
+   ExportNamedDeclaration               62 (0.07%) in 30 files (15.3%)
+   TSTypeReference                      58 (0.07%) in 9 files (4.6%)
+   TSTypeAnnotation                     56 (0.07%) in 11 files (5.6%)
+   PrivateIdentifier                    46 (0.05%) in 1 files (0.5%)
+   ChainExpression                      42 (0.05%) in 15 files (7.7%)
+   ArrayPattern                         40 (0.05%) in 23 files (11.7%)
+   ClassBody                            37 (0.04%) in 16 files (8.2%)
+   ExportDefaultDeclaration             35 (0.04%) in 35 files (17.9%)
+   ClassDeclaration                     33 (0.04%) in 16 files (8.2%)
+   RestElement                          29 (0.03%) in 20 files (10.2%)
+   TSStringKeyword                      29 (0.03%) in 7 files (3.6%)
+   TSNumberKeyword                      29 (0.03%) in 6 files (3.1%)
+   Super                                23 (0.03%) in 12 files (6.1%)
+   ContinueStatement                    22 (0.03%) in 8 files (4.1%)
+   ImportExpression                     20 (0.02%) in 8 files (4.1%)
+   YieldExpression                      17 (0.02%) in 8 files (4.1%)
+   TSLiteralType                        16 (0.02%) in 3 files (1.5%)
+   ExportSpecifier                      14 (0.02%) in 6 files (3.1%)
+   SwitchStatement                      14 (0.02%) in 10 files (5.1%)
+   ImportNamespaceSpecifier             13 (0.02%) in 12 files (6.1%)
+   TSPropertySignature                  11 (0.01%) in 5 files (2.6%)
+   WhileStatement                       10 (0.01%) in 9 files (4.6%)
+   PropertyDefinition                   10 (0.01%) in 2 files (1.0%)
+   TSTupleType                          10 (0.01%) in 3 files (1.5%)
+   TSUnknownKeyword                     10 (0.01%) in 4 files (2.0%)
+   TSTypeAliasDeclaration               10 (0.01%) in 4 files (2.0%)
+   TSTypeLiteral                        10 (0.01%) in 5 files (2.6%)
+   TSQualifiedName                       7 (0.01%) in 1 files (0.5%)
+   TSAsExpression                        7 (0.01%) in 3 files (1.5%)
+   ForStatement                          6 (0.01%) in 3 files (1.5%)
+   TSUnionType                           5 (0.01%) in 3 files (1.5%)
+   ClassExpression                       4 (0.00%) in 1 files (0.5%)
+   TSUndefinedKeyword                    4 (0.00%) in 2 files (1.0%)
+   TSVoidKeyword                         3 (0.00%) in 2 files (1.0%)
+   TSFunctionType                        3 (0.00%) in 2 files (1.0%)
+   TSArrayType                           3 (0.00%) in 2 files (1.0%)
+   ExportAllDeclaration                  2 (0.00%) in 2 files (1.0%)
+   DoWhileStatement                      2 (0.00%) in 2 files (1.0%)
+   Hashbang                              2 (0.00%) in 2 files (1.0%)
+   TSTypeOperator                        1 (0.00%) in 1 files (0.5%)
+   TSIntersectionType                    1 (0.00%) in 1 files (0.5%)
+   DebuggerStatement                     1 (0.00%) in 1 files (0.5%)
+
+📁 FILE EXAMPLES BY NODE TYPE:
+
+   Identifier:
+     📄 Files WITH Identifier (showing 10):
+       • xo.config.mjs
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+     📄 Files WITHOUT Identifier (showing 1):
+       • plugin.d.ts
+
+   MemberExpression:
+     📄 Files WITH MemberExpression (showing 10):
+       • xo.config.mjs
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+       • test-tap/hooks.js
+     📄 Files WITHOUT MemberExpression (showing 10):
+       • plugin.d.ts
+       • index.d.ts
+       • lib/chalk.js
+       • entrypoints/plugin.mjs
+       • entrypoints/main.mjs
+       • entrypoints/cli.mjs
+       • test-tap/helper/report-worker.js
+       • test-tap/helper/chalk0.js
+       • examples/macros/index.js
+       • examples/timeouts/index.js
+
+   CallExpression:
+     📄 Files WITH CallExpression (showing 10):
+       • xo.config.mjs
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+       • test-tap/hooks.js
+       • test-tap/globs.js
+     📄 Files WITHOUT CallExpression (showing 10):
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • lib/is-ci.js
+       • lib/chalk.js
+       • entrypoints/plugin.mjs
+       • entrypoints/main.mjs
+       • lib/worker/state.cjs
+       • lib/worker/options.cjs
+       • lib/reporters/colors.js
+
+   Literal:
+     📄 Files WITH Literal (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+     📄 Files WITHOUT Literal (showing 2):
+       • examples/macros/index.js
+       • examples/typescript-basic/source/index.ts
+
+   ExpressionStatement:
+     📄 Files WITH ExpressionStatement (showing 10):
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+       • test-tap/hooks.js
+       • test-tap/globs.js
+       • test-tap/eslint-plugin-helper.js
+     📄 Files WITHOUT ExpressionStatement (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • lib/is-ci.js
+       • lib/environment-variables.js
+       • lib/concordance-options.js
+       • entrypoints/plugin.mjs
+       • entrypoints/main.mjs
+       • lib/reporters/prefix-title.js
+
+   Property:
+     📄 Files WITH Property (showing 10):
+       • xo.config.mjs
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/line-numbers.js
+       • test-tap/hooks.js
+       • test-tap/globs.js
+     📄 Files WITHOUT Property (showing 10):
+       • plugin.d.ts
+       • index.d.ts
+       • test-tap/node-arguments.js
+       • test-tap/chalk.js
+       • lib/slash.cjs
+       • lib/pkg.cjs
+       • lib/now-and-timers.cjs
+       • lib/node-arguments.js
+       • lib/like-selector.js
+       • lib/ipc-flow-control.cjs
+
+   BlockStatement:
+     📄 Files WITH BlockStatement (showing 10):
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+       • test-tap/hooks.js
+       • test-tap/globs.js
+       • test-tap/eslint-plugin-helper.js
+     📄 Files WITHOUT BlockStatement (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • lib/pkg.cjs
+       • lib/is-ci.js
+       • entrypoints/plugin.mjs
+       • entrypoints/plugin.cjs
+       • entrypoints/main.mjs
+       • entrypoints/main.cjs
+
+   ArrowFunctionExpression:
+     📄 Files WITH ArrowFunctionExpression (showing 10):
+       • xo.config.mjs
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+       • test-tap/hooks.js
+       • test-tap/globs.js
+     📄 Files WITHOUT ArrowFunctionExpression (showing 10):
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • lib/slash.cjs
+       • lib/pkg.cjs
+       • lib/now-and-timers.cjs
+       • lib/node-arguments.js
+       • lib/is-ci.js
+       • lib/environment-variables.js
+       • lib/context-ref.js
+
+   VariableDeclaration:
+     📄 Files WITH VariableDeclaration (showing 10):
+       • xo.config.mjs
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/hooks.js
+       • test-tap/globs.js
+       • test-tap/eslint-plugin-helper.js
+     📄 Files WITHOUT VariableDeclaration (showing 10):
+       • plugin.d.ts
+       • index.d.ts
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+       • test-tap/chalk.js
+       • lib/pkg.cjs
+       • entrypoints/plugin.cjs
+       • entrypoints/main.mjs
+       • entrypoints/main.cjs
+       • entrypoints/cli.mjs
+
+   VariableDeclarator:
+     📄 Files WITH VariableDeclarator (showing 10):
+       • xo.config.mjs
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/hooks.js
+       • test-tap/globs.js
+       • test-tap/eslint-plugin-helper.js
+     📄 Files WITHOUT VariableDeclarator (showing 10):
+       • plugin.d.ts
+       • index.d.ts
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+       • test-tap/chalk.js
+       • lib/pkg.cjs
+       • entrypoints/plugin.cjs
+       • entrypoints/main.mjs
+       • entrypoints/main.cjs
+       • entrypoints/cli.mjs
+
+   ObjectExpression:
+     📄 Files WITH ObjectExpression (showing 10):
+       • xo.config.mjs
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/line-numbers.js
+       • test-tap/hooks.js
+       • test-tap/globs.js
+     📄 Files WITHOUT ObjectExpression (showing 10):
+       • plugin.d.ts
+       • index.d.ts
+       • test-tap/node-arguments.js
+       • lib/slash.cjs
+       • lib/pkg.cjs
+       • lib/now-and-timers.cjs
+       • lib/node-arguments.js
+       • lib/is-ci.js
+       • lib/ipc-flow-control.cjs
+       • lib/extensions.js
+
+   Unknown:
+     📄 Files WITH Unknown (showing 10):
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/hooks.js
+       • test-tap/globs.js
+       • test-tap/code-excerpt.js
+       • test-tap/assert.js
+       • test-tap/api.js
+     📄 Files WITHOUT Unknown (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+       • test-tap/eslint-plugin-helper.js
+       • test-tap/chalk.js
+       • lib/slash.cjs
+       • lib/serialize-error.js
+
+   ThisExpression:
+     📄 Files WITH ThisExpression (showing 10):
+       • test-tap/test.js
+       • test-tap/assert.js
+       • lib/watcher.js
+       • lib/test.js
+       • lib/snapshot-manager.js
+       • lib/runner.js
+       • lib/run-status.js
+       • lib/context-ref.js
+       • lib/assert.js
+       • lib/api.js
+     📄 Files WITHOUT ThisExpression (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+
+   ArrayExpression:
+     📄 Files WITH ArrayExpression (showing 10):
+       • xo.config.mjs
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+       • test-tap/hooks.js
+       • test-tap/globs.js
+     📄 Files WITHOUT ArrayExpression (showing 10):
+       • plugin.d.ts
+       • index.d.ts
+       • test-tap/promise.js
+       • test-tap/chalk.js
+       • lib/slash.cjs
+       • lib/serialize-error.js
+       • lib/provider-manager.js
+       • lib/pkg.cjs
+       • lib/parse-test-args.js
+       • lib/now-and-timers.cjs
+
+   IfStatement:
+     📄 Files WITH IfStatement (showing 10):
+       • test-tap/runner.js
+       • test-tap/hooks.js
+       • test-tap/assert.js
+       • test-tap/api.js
+       • lib/watcher.js
+       • lib/test.js
+       • lib/snapshot-manager.js
+       • lib/slash.cjs
+       • lib/serialize-error.js
+       • lib/scheduler.js
+     📄 Files WITHOUT IfStatement (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+
+   AssignmentExpression:
+     📄 Files WITH AssignmentExpression (showing 10):
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/hooks.js
+       • test-tap/assert.js
+       • test-tap/api.js
+       • lib/watcher.js
+       • lib/test.js
+       • lib/snapshot-manager.js
+       • lib/slash.cjs
+     📄 Files WITHOUT AssignmentExpression (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+       • test-tap/globs.js
+       • test-tap/eslint-plugin-helper.js
+
+   BinaryExpression:
+     📄 Files WITH BinaryExpression (showing 10):
+       • test-tap/test.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/hooks.js
+       • test-tap/globs.js
+       • test-tap/assert.js
+       • test-tap/api.js
+       • lib/watcher.js
+       • lib/test.js
+       • lib/snapshot-manager.js
+     📄 Files WITHOUT BinaryExpression (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test-try-commit.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+       • test-tap/eslint-plugin-helper.js
+       • test-tap/code-excerpt.js
+
+   ReturnStatement:
+     📄 Files WITH ReturnStatement (showing 10):
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/hooks.js
+       • test-tap/globs.js
+       • test-tap/assert.js
+       • test-tap/api.js
+       • lib/watcher.js
+       • lib/test.js
+     📄 Files WITHOUT ReturnStatement (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/test-try-commit.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+       • test-tap/eslint-plugin-helper.js
+       • test-tap/code-excerpt.js
+       • test-tap/chalk.js
+
+   ImportDeclaration:
+     📄 Files WITH ImportDeclaration (showing 10):
+       • xo.config.mjs
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+       • test-tap/hooks.js
+     📄 Files WITHOUT ImportDeclaration (showing 10):
+       • plugin.d.ts
+       • index.d.ts
+       • lib/slash.cjs
+       • lib/pkg.cjs
+       • lib/parse-test-args.js
+       • lib/now-and-timers.cjs
+       • lib/module-types.js
+       • lib/like-selector.js
+       • lib/ipc-flow-control.cjs
+       • lib/glob-helpers.cjs
+
+   TemplateElement:
+     📄 Files WITH TemplateElement (showing 10):
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/globs.js
+       • test-tap/code-excerpt.js
+       • test-tap/assert.js
+       • test-tap/api.js
+       • lib/watcher.js
+       • lib/test.js
+       • lib/snapshot-manager.js
+       • lib/runner.js
+     📄 Files WITHOUT TemplateElement (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+       • test-tap/hooks.js
+
+   AwaitExpression:
+     📄 Files WITH AwaitExpression (showing 10):
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/node-arguments.js
+       • test-tap/hooks.js
+       • test-tap/globs.js
+       • test-tap/assert.js
+       • test-tap/api.js
+       • lib/watcher.js
+     📄 Files WITHOUT AwaitExpression (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/promise.js
+       • test-tap/line-numbers.js
+       • test-tap/eslint-plugin-helper.js
+       • test-tap/code-excerpt.js
+       • test-tap/chalk.js
+       • lib/slash.cjs
+
+   NewExpression:
+     📄 Files WITH NewExpression (showing 10):
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/hooks.js
+       • test-tap/globs.js
+       • test-tap/eslint-plugin-helper.js
+       • test-tap/code-excerpt.js
+       • test-tap/assert.js
+     📄 Files WITHOUT NewExpression (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+       • test-tap/chalk.js
+       • lib/slash.cjs
+       • lib/scheduler.js
+       • lib/pkg.cjs
+
+   ImportSpecifier:
+     📄 Files WITH ImportSpecifier (showing 10):
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+       • test-tap/hooks.js
+       • test-tap/globs.js
+       • test-tap/eslint-plugin-helper.js
+     📄 Files WITHOUT ImportSpecifier (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • lib/slash.cjs
+       • lib/scheduler.js
+       • lib/run-status.js
+       • lib/provider-manager.js
+       • lib/pkg.cjs
+       • lib/parse-test-args.js
+
+   ImportDefaultSpecifier:
+     📄 Files WITH ImportDefaultSpecifier (showing 10):
+       • xo.config.mjs
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+       • test-tap/hooks.js
+       • test-tap/globs.js
+     📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
+       • plugin.d.ts
+       • index.d.ts
+       • test-tap/line-numbers.js
+       • test-tap/chalk.js
+       • lib/slash.cjs
+       • lib/pkg.cjs
+       • lib/parse-test-args.js
+       • lib/now-and-timers.cjs
+       • lib/module-types.js
+       • lib/like-selector.js
+
+   FunctionExpression:
+     📄 Files WITH FunctionExpression (showing 10):
+       • test-tap/test.js
+       • test-tap/globs.js
+       • test-tap/assert.js
+       • lib/watcher.js
+       • lib/test.js
+       • lib/snapshot-manager.js
+       • lib/scheduler.js
+       • lib/runner.js
+       • lib/run-status.js
+       • lib/provider-manager.js
+     📄 Files WITHOUT FunctionExpression (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+
+   LogicalExpression:
+     📄 Files WITH LogicalExpression (showing 10):
+       • test-tap/runner.js
+       • test-tap/hooks.js
+       • test-tap/assert.js
+       • lib/watcher.js
+       • lib/test.js
+       • lib/snapshot-manager.js
+       • lib/serialize-error.js
+       • lib/scheduler.js
+       • lib/runner.js
+       • lib/run-status.js
+     📄 Files WITHOUT LogicalExpression (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+
+   ObjectPattern:
+     📄 Files WITH ObjectPattern (showing 10):
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/globs.js
+       • test-tap/assert.js
+       • test-tap/api.js
+       • lib/watcher.js
+       • lib/test.js
+       • lib/snapshot-manager.js
+       • lib/serialize-error.js
+       • lib/runner.js
+     📄 Files WITHOUT ObjectPattern (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+       • test-tap/hooks.js
+
+   TemplateLiteral:
+     📄 Files WITH TemplateLiteral (showing 10):
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/globs.js
+       • test-tap/code-excerpt.js
+       • test-tap/assert.js
+       • test-tap/api.js
+       • lib/watcher.js
+       • lib/test.js
+       • lib/snapshot-manager.js
+       • lib/runner.js
+     📄 Files WITHOUT TemplateLiteral (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+       • test-tap/hooks.js
+
+   UnaryExpression:
+     📄 Files WITH UnaryExpression (showing 10):
+       • test-tap/assert.js
+       • lib/watcher.js
+       • lib/test.js
+       • lib/snapshot-manager.js
+       • lib/serialize-error.js
+       • lib/scheduler.js
+       • lib/runner.js
+       • lib/parse-test-args.js
+       • lib/load-config.js
+       • lib/line-numbers.js
+     📄 Files WITHOUT UnaryExpression (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   ThrowStatement:
+     📄 Files WITH ThrowStatement (showing 10):
+       • test-tap/test.js
+       • test-tap/promise.js
+       • test-tap/hooks.js
+       • test-tap/assert.js
+       • lib/watcher.js
+       • lib/test.js
+       • lib/snapshot-manager.js
+       • lib/runner.js
+       • lib/provider-manager.js
+       • lib/node-arguments.js
+     📄 Files WITHOUT ThrowStatement (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+       • test-tap/globs.js
+
+   Program:
+     📄 Files WITH Program (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+     📄 Files WITHOUT Program: (all files contain this node type)
+
+   MethodDefinition:
+     📄 Files WITH MethodDefinition (showing 10):
+       • test-tap/assert.js
+       • lib/watcher.js
+       • lib/test.js
+       • lib/snapshot-manager.js
+       • lib/runner.js
+       • lib/run-status.js
+       • lib/context-ref.js
+       • lib/assert.js
+       • lib/api.js
+       • test-types/module/throws.ts
+     📄 Files WITHOUT MethodDefinition (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   FunctionDeclaration:
+     📄 Files WITH FunctionDeclaration (showing 10):
+       • test-tap/try-snapshot.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/globs.js
+       • test-tap/assert.js
+       • test-tap/api.js
+       • lib/watcher.js
+       • lib/test.js
+       • lib/snapshot-manager.js
+       • lib/slash.cjs
+     📄 Files WITHOUT FunctionDeclaration (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+       • test-tap/hooks.js
+       • test-tap/eslint-plugin-helper.js
+
+   SpreadElement:
+     📄 Files WITH SpreadElement (showing 10):
+       • xo.config.mjs
+       • ava.config.js
+       • test-tap/node-arguments.js
+       • test-tap/globs.js
+       • test-tap/assert.js
+       • test-tap/api.js
+       • lib/watcher.js
+       • lib/test.js
+       • lib/snapshot-manager.js
+       • lib/serialize-error.js
+     📄 Files WITHOUT SpreadElement (showing 10):
+       • plugin.d.ts
+       • index.d.ts
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/line-numbers.js
+       • test-tap/hooks.js
+       • test-tap/eslint-plugin-helper.js
+
+   SwitchCase:
+     📄 Files WITH SwitchCase (showing 10):
+       • test-tap/api.js
+       • lib/watcher.js
+       • lib/run-status.js
+       • lib/module-types.js
+       • lib/fork.js
+       • lib/assert.js
+       • test/helpers/exec.js
+       • lib/reporters/tap.js
+       • lib/reporters/default.js
+       • test/watch-mode/helpers/watch.js
+     📄 Files WITHOUT SwitchCase (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   ForOfStatement:
+     📄 Files WITH ForOfStatement (showing 10):
+       • test-tap/test.js
+       • test-tap/assert.js
+       • test-tap/api.js
+       • lib/watcher.js
+       • lib/test.js
+       • lib/snapshot-manager.js
+       • lib/serialize-error.js
+       • lib/runner.js
+       • lib/run-status.js
+       • lib/module-types.js
+     📄 Files WITHOUT ForOfStatement (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+
+   MetaProperty:
+     📄 Files WITH MetaProperty (showing 10):
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/runner.js
+       • test-tap/hooks.js
+       • test-tap/globs.js
+       • test-tap/eslint-plugin-helper.js
+       • test-tap/code-excerpt.js
+       • test-tap/assert.js
+       • test-tap/api.js
+       • lib/fork.js
+     📄 Files WITHOUT MetaProperty (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/test-try-commit.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+       • test-tap/chalk.js
+       • lib/watcher.js
+
+   AssignmentPattern:
+     📄 Files WITH AssignmentPattern (showing 10):
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/assert.js
+       • test-tap/api.js
+       • lib/watcher.js
+       • lib/test.js
+       • lib/snapshot-manager.js
+       • lib/serialize-error.js
+       • lib/runner.js
+       • lib/provider-manager.js
+     📄 Files WITHOUT AssignmentPattern (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+       • test-tap/hooks.js
+
+   BreakStatement:
+     📄 Files WITH BreakStatement (showing 10):
+       • test-tap/api.js
+       • lib/watcher.js
+       • lib/run-status.js
+       • lib/module-types.js
+       • lib/fork.js
+       • lib/api-event-iterator.js
+       • test/helpers/exec.js
+       • lib/reporters/tap.js
+       • lib/reporters/default.js
+       • test/watch-mode/helpers/watch.js
+     📄 Files WITHOUT BreakStatement (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   ParenthesizedExpression:
+     📄 Files WITH ParenthesizedExpression (showing 10):
+       • test-tap/test.js
+       • lib/watcher.js
+       • lib/snapshot-manager.js
+       • lib/runner.js
+       • lib/now-and-timers.cjs
+       • lib/load-config.js
+       • lib/like-selector.js
+       • lib/globs.js
+       • lib/glob-helpers.cjs
+       • lib/code-excerpt.js
+     📄 Files WITHOUT ParenthesizedExpression (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+
+   UpdateExpression:
+     📄 Files WITH UpdateExpression (showing 10):
+       • test-tap/test.js
+       • test-tap/runner.js
+       • test-tap/hooks.js
+       • test-tap/assert.js
+       • lib/test.js
+       • lib/runner.js
+       • lib/run-status.js
+       • test-tap/integration/parallel-runs.js
+       • test/snapshot-tests/corrupt.js
+       • test/helpers/exec.js
+     📄 Files WITHOUT UpdateExpression (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test-try-commit.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+       • test-tap/globs.js
+
+   TryStatement:
+     📄 Files WITH TryStatement (showing 10):
+       • test-tap/assert.js
+       • lib/watcher.js
+       • lib/test.js
+       • lib/snapshot-manager.js
+       • lib/scheduler.js
+       • lib/runner.js
+       • lib/node-arguments.js
+       • lib/load-config.js
+       • lib/globs.js
+       • lib/fork.js
+     📄 Files WITHOUT TryStatement (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   ConditionalExpression:
+     📄 Files WITH ConditionalExpression (showing 10):
+       • ava.config.js
+       • lib/watcher.js
+       • lib/test.js
+       • lib/snapshot-manager.js
+       • lib/serialize-error.js
+       • lib/runner.js
+       • lib/parse-test-args.js
+       • lib/load-config.js
+       • lib/like-selector.js
+       • lib/is-ci.js
+     📄 Files WITHOUT ConditionalExpression (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+
+   CatchClause:
+     📄 Files WITH CatchClause (showing 10):
+       • test-tap/assert.js
+       • lib/watcher.js
+       • lib/test.js
+       • lib/snapshot-manager.js
+       • lib/scheduler.js
+       • lib/runner.js
+       • lib/node-arguments.js
+       • lib/load-config.js
+       • lib/globs.js
+       • lib/eslint-plugin-helper-worker.js
+     📄 Files WITHOUT CatchClause (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   TSTypeParameterInstantiation:
+     📄 Files WITH TSTypeParameterInstantiation (showing 8):
+       • test-types/module/try-commit.ts
+       • test-types/module/throws.ts
+       • test-types/module/plugin.ts
+       • test-types/module/macros.ts
+       • test-types/module/deep-equal.ts
+       • test-types/module/context.ts
+       • test-types/module/assertions-as-type-guards.ts
+       • examples/typescript-context/source/test.ts
+     📄 Files WITHOUT TSTypeParameterInstantiation (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   ExportNamedDeclaration:
+     📄 Files WITH ExportNamedDeclaration (showing 10):
+       • index.d.ts
+       • lib/watcher.js
+       • lib/snapshot-manager.js
+       • lib/serialize-error.js
+       • lib/provider-manager.js
+       • lib/load-config.js
+       • lib/line-numbers.js
+       • lib/like-selector.js
+       • lib/globs.js
+       • lib/fork.js
+     📄 Files WITHOUT ExportNamedDeclaration (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+
+   TSTypeReference:
+     📄 Files WITH TSTypeReference (showing 9):
+       • test-types/module/try-commit.ts
+       • test-types/module/throws.ts
+       • test-types/module/plugin.ts
+       • test-types/module/macros.ts
+       • test-types/module/like.ts
+       • test-types/module/deep-equal.ts
+       • test-types/module/context.ts
+       • test-types/module/assertions-as-type-guards.ts
+       • examples/typescript-context/source/test.ts
+     📄 Files WITHOUT TSTypeReference (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   TSTypeAnnotation:
+     📄 Files WITH TSTypeAnnotation (showing 10):
+       • test-types/module/try-commit.ts
+       • test-types/module/throws.ts
+       • test-types/module/plugin.ts
+       • test-types/module/macros.ts
+       • test-types/module/like.ts
+       • test-types/module/deep-equal.ts
+       • test-types/module/context.ts
+       • test-types/module/assertions-as-type-guards.ts
+       • examples/typescript-context/source/test.ts
+       • examples/typescript-context/source/index.ts
+     📄 Files WITHOUT TSTypeAnnotation (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   PrivateIdentifier:
+     📄 Files WITH PrivateIdentifier (showing 1):
+       • lib/watcher.js
+     📄 Files WITHOUT PrivateIdentifier (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   ChainExpression:
+     📄 Files WITH ChainExpression (showing 10):
+       • test-tap/api.js
+       • lib/watcher.js
+       • lib/test.js
+       • lib/snapshot-manager.js
+       • lib/runner.js
+       • lib/run-status.js
+       • lib/parse-test-args.js
+       • lib/cli.js
+       • lib/api.js
+       • test-types/module/implementation-result.ts
+     📄 Files WITHOUT ChainExpression (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   ArrayPattern:
+     📄 Files WITH ArrayPattern (showing 10):
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/assert.js
+       • lib/watcher.js
+       • lib/test.js
+       • lib/snapshot-manager.js
+       • lib/runner.js
+       • lib/module-types.js
+       • lib/load-config.js
+     📄 Files WITHOUT ArrayPattern (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+       • test-tap/hooks.js
+       • test-tap/globs.js
+
+   ClassBody:
+     📄 Files WITH ClassBody (showing 10):
+       • test-tap/assert.js
+       • lib/watcher.js
+       • lib/test.js
+       • lib/snapshot-manager.js
+       • lib/runner.js
+       • lib/run-status.js
+       • lib/context-ref.js
+       • lib/assert.js
+       • lib/api.js
+       • test-types/module/throws.ts
+     📄 Files WITHOUT ClassBody (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   ExportDefaultDeclaration:
+     📄 Files WITH ExportDefaultDeclaration (showing 10):
+       • xo.config.mjs
+       • ava.config.js
+       • lib/test.js
+       • lib/serialize-error.js
+       • lib/scheduler.js
+       • lib/runner.js
+       • lib/run-status.js
+       • lib/provider-manager.js
+       • lib/parse-test-args.js
+       • lib/node-arguments.js
+     📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
+       • plugin.d.ts
+       • index.d.ts
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+       • test-tap/hooks.js
+
+   ClassDeclaration:
+     📄 Files WITH ClassDeclaration (showing 10):
+       • test-tap/assert.js
+       • lib/watcher.js
+       • lib/test.js
+       • lib/snapshot-manager.js
+       • lib/runner.js
+       • lib/run-status.js
+       • lib/context-ref.js
+       • lib/assert.js
+       • lib/api.js
+       • test-types/module/throws.ts
+     📄 Files WITHOUT ClassDeclaration (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   RestElement:
+     📄 Files WITH RestElement (showing 10):
+       • test-tap/runner.js
+       • test-tap/globs.js
+       • test-tap/assert.js
+       • lib/watcher.js
+       • lib/test.js
+       • lib/snapshot-manager.js
+       • lib/serialize-error.js
+       • lib/load-config.js
+       • lib/create-chain.js
+       • lib/cli.js
+     📄 Files WITHOUT RestElement (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+
+   TSStringKeyword:
+     📄 Files WITH TSStringKeyword (showing 7):
+       • test-types/module/try-commit.ts
+       • test-types/module/throws.ts
+       • test-types/module/macros.ts
+       • test-types/module/deep-equal.ts
+       • test-types/module/context.ts
+       • examples/typescript-context/source/test.ts
+       • examples/typescript-context/source/index.ts
+     📄 Files WITHOUT TSStringKeyword (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   TSNumberKeyword:
+     📄 Files WITH TSNumberKeyword (showing 6):
+       • test-types/module/try-commit.ts
+       • test-types/module/macros.ts
+       • test-types/module/deep-equal.ts
+       • test-types/module/context.ts
+       • examples/typescript-context/source/test.ts
+       • examples/typescript-basic/source/index.ts
+     📄 Files WITHOUT TSNumberKeyword (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   Super:
+     📄 Files WITH Super (showing 10):
+       • test-tap/assert.js
+       • lib/watcher.js
+       • lib/test.js
+       • lib/snapshot-manager.js
+       • lib/runner.js
+       • lib/run-status.js
+       • lib/context-ref.js
+       • lib/assert.js
+       • lib/api.js
+       • test-types/module/throws.ts
+     📄 Files WITHOUT Super (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   ContinueStatement:
+     📄 Files WITH ContinueStatement (showing 8):
+       • lib/watcher.js
+       • lib/runner.js
+       • lib/globs.js
+       • lib/cli.js
+       • lib/assert.js
+       • lib/worker/plugin.cjs
+       • lib/reporters/default.js
+       • lib/plugin-support/shared-worker-loader.js
+     📄 Files WITHOUT ContinueStatement (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   ImportExpression:
+     📄 Files WITH ImportExpression (showing 8):
+       • lib/provider-manager.js
+       • lib/load-config.js
+       • lib/cli.js
+       • test-tap/reporters/tap.js
+       • test-tap/reporters/default.js
+       • test-tap/helper/report-worker.js
+       • lib/worker/base.js
+       • lib/plugin-support/shared-worker-loader.js
+     📄 Files WITHOUT ImportExpression (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   YieldExpression:
+     📄 Files WITH YieldExpression (showing 8):
+       • lib/watcher.js
+       • lib/api-event-iterator.js
+       • test/helpers/exec.js
+       • lib/worker/plugin.cjs
+       • lib/worker/channel.cjs
+       • lib/plugin-support/shared-worker-loader.js
+       • test/watch-mode/helpers/watch.js
+       • test/snapshot-order/helpers/get-snapshot-ids.js
+     📄 Files WITHOUT YieldExpression (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   TSLiteralType:
+     📄 Files WITH TSLiteralType (showing 3):
+       • test-types/module/like.ts
+       • test-types/module/deep-equal.ts
+       • test-types/module/assertions-as-type-guards.ts
+     📄 Files WITHOUT TSLiteralType (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   ExportSpecifier:
+     📄 Files WITH ExportSpecifier (showing 6):
+       • index.d.ts
+       • lib/globs.js
+       • lib/chalk.js
+       • entrypoints/plugin.mjs
+       • entrypoints/main.mjs
+       • test-tap/helper/fix-reporter-env.js
+     📄 Files WITHOUT ExportSpecifier (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+
+   SwitchStatement:
+     📄 Files WITH SwitchStatement (showing 10):
+       • test-tap/api.js
+       • lib/watcher.js
+       • lib/run-status.js
+       • lib/module-types.js
+       • lib/fork.js
+       • lib/assert.js
+       • test/helpers/exec.js
+       • lib/reporters/tap.js
+       • lib/reporters/default.js
+       • test/watch-mode/helpers/watch.js
+     📄 Files WITHOUT SwitchStatement (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   ImportNamespaceSpecifier:
+     📄 Files WITH ImportNamespaceSpecifier (showing 10):
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/globs.js
+       • test-tap/assert.js
+       • lib/watcher.js
+       • lib/runner.js
+       • lib/provider-manager.js
+       • lib/api.js
+       • entrypoints/plugin.mjs
+       • test-types/module/plugin.ts
+     📄 Files WITHOUT ImportNamespaceSpecifier (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+       • test-tap/hooks.js
+
+   TSPropertySignature:
+     📄 Files WITH TSPropertySignature (showing 5):
+       • test-types/module/like.ts
+       • test-types/module/deep-equal.ts
+       • test-types/module/context.ts
+       • test-types/module/assertions-as-type-guards.ts
+       • examples/typescript-context/source/test.ts
+     📄 Files WITHOUT TSPropertySignature (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   WhileStatement:
+     📄 Files WITH WhileStatement (showing 9):
+       • lib/watcher.js
+       • lib/load-config.js
+       • lib/ipc-flow-control.cjs
+       • test-tap/helper/replay-report.js
+       • test/snapshot-tests/corrupt.js
+       • test/helpers/exec.js
+       • test/config/integration.js
+       • test/watch-mode/helpers/watch.js
+       • test/snapshot-order/helpers/get-snapshot-ids.js
+     📄 Files WITHOUT WhileStatement (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   PropertyDefinition:
+     📄 Files WITH PropertyDefinition (showing 2):
+       • lib/watcher.js
+       • test-types/module/throws.ts
+     📄 Files WITHOUT PropertyDefinition (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   TSTupleType:
+     📄 Files WITH TSTupleType (showing 3):
+       • test-types/module/try-commit.ts
+       • test-types/module/macros.ts
+       • test-types/module/deep-equal.ts
+     📄 Files WITHOUT TSTupleType (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   TSUnknownKeyword:
+     📄 Files WITH TSUnknownKeyword (showing 4):
+       • test-types/module/throws.ts
+       • test-types/module/macros.ts
+       • test-types/module/context.ts
+       • test-types/module/assertions-as-type-guards.ts
+     📄 Files WITHOUT TSUnknownKeyword (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   TSTypeAliasDeclaration:
+     📄 Files WITH TSTypeAliasDeclaration (showing 4):
+       • test-types/module/like.ts
+       • test-types/module/deep-equal.ts
+       • test-types/module/context.ts
+       • test-types/module/assertions-as-type-guards.ts
+     📄 Files WITHOUT TSTypeAliasDeclaration (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   TSTypeLiteral:
+     📄 Files WITH TSTypeLiteral (showing 5):
+       • test-types/module/like.ts
+       • test-types/module/deep-equal.ts
+       • test-types/module/context.ts
+       • test-types/module/assertions-as-type-guards.ts
+       • examples/typescript-context/source/test.ts
+     📄 Files WITHOUT TSTypeLiteral (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   TSQualifiedName:
+     📄 Files WITH TSQualifiedName (showing 1):
+       • test-types/module/plugin.ts
+     📄 Files WITHOUT TSQualifiedName (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   TSAsExpression:
+     📄 Files WITH TSAsExpression (showing 3):
+       • test-types/module/context.ts
+       • test-types/module/assertions-as-type-guards.ts
+       • examples/typescript-context/source/test.ts
+     📄 Files WITHOUT TSAsExpression (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   ForStatement:
+     📄 Files WITH ForStatement (showing 3):
+       • test-tap/test.js
+       • test-tap/integration/parallel-runs.js
+       • lib/reporters/default.js
+     📄 Files WITHOUT ForStatement (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+
+   TSUnionType:
+     📄 Files WITH TSUnionType (showing 3):
+       • test-types/module/macros.ts
+       • test-types/module/deep-equal.ts
+       • test-types/module/assertions-as-type-guards.ts
+     📄 Files WITHOUT TSUnionType (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   ClassExpression:
+     📄 Files WITH ClassExpression (showing 1):
+       • test-tap/assert.js
+     📄 Files WITHOUT ClassExpression (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   TSUndefinedKeyword:
+     📄 Files WITH TSUndefinedKeyword (showing 2):
+       • test-types/module/macros.ts
+       • test-types/module/assertions-as-type-guards.ts
+     📄 Files WITHOUT TSUndefinedKeyword (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   TSVoidKeyword:
+     📄 Files WITH TSVoidKeyword (showing 2):
+       • test-types/module/try-commit.ts
+       • test-types/module/plugin.ts
+     📄 Files WITHOUT TSVoidKeyword (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   TSFunctionType:
+     📄 Files WITH TSFunctionType (showing 2):
+       • test-types/module/plugin.ts
+       • examples/typescript-context/source/test.ts
+     📄 Files WITHOUT TSFunctionType (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   TSArrayType:
+     📄 Files WITH TSArrayType (showing 2):
+       • test-types/module/deep-equal.ts
+       • examples/typescript-context/source/index.ts
+     📄 Files WITHOUT TSArrayType (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   ExportAllDeclaration:
+     📄 Files WITH ExportAllDeclaration (showing 2):
+       • plugin.d.ts
+       • index.d.ts
+     📄 Files WITHOUT ExportAllDeclaration (showing 10):
+       • xo.config.mjs
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+       • test-tap/line-numbers.js
+       • test-tap/hooks.js
+
+   DoWhileStatement:
+     📄 Files WITH DoWhileStatement (showing 2):
+       • lib/load-config.js
+       • lib/create-chain.js
+     📄 Files WITHOUT DoWhileStatement (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   Hashbang:
+     📄 Files WITH Hashbang (showing 2):
+       • entrypoints/cli.mjs
+       • test-tap/helper/replay-report.js
+     📄 Files WITHOUT Hashbang (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   TSTypeOperator:
+     📄 Files WITH TSTypeOperator (showing 1):
+       • test-types/module/deep-equal.ts
+     📄 Files WITHOUT TSTypeOperator (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   TSIntersectionType:
+     📄 Files WITH TSIntersectionType (showing 1):
+       • test-types/module/context.ts
+     📄 Files WITHOUT TSIntersectionType (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+   DebuggerStatement:
+     📄 Files WITH DebuggerStatement (showing 1):
+       • lib/worker/base.js
+     📄 Files WITHOUT DebuggerStatement (showing 10):
+       • xo.config.mjs
+       • plugin.d.ts
+       • index.d.ts
+       • ava.config.js
+       • test-tap/try-snapshot.js
+       • test-tap/test.js
+       • test-tap/test-try-commit.js
+       • test-tap/runner.js
+       • test-tap/promise.js
+       • test-tap/node-arguments.js
+
+============================================================
+✅ Analysis complete!

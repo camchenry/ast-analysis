@@ -1,5 +1,5 @@
 AST Analysis Report for moment
-Generated on: 2025-07-14T01:42:07.010Z
+Generated on: 2025-07-14T01:56:33.203Z
 Repository: sample-repos/moment
 ================================================================================
 
@@ -95,10 +95,10 @@ Repository: sample-repos/moment
    RestElement                       2 files (  0.3%) -        4 total (0.00%)
    TSTypeLiteral                     2 files (  0.3%) -        2 total (0.00%)
    TSExportAssignment                2 files (  0.3%) -        2 total (0.00%)
-   TSNullKeyword                     2 files (  0.3%) -       13 total (0.00%)
-   TSTupleType                       2 files (  0.3%) -        2 total (0.00%)
    TSImportEqualsDeclaration         2 files (  0.3%) -        2 total (0.00%)
    TSExternalModuleReference         2 files (  0.3%) -        2 total (0.00%)
+   TSNullKeyword                     2 files (  0.3%) -       13 total (0.00%)
+   TSTupleType                       2 files (  0.3%) -        2 total (0.00%)
    TSUndefinedKeyword                1 files (  0.2%) -        5 total (0.00%)
    TSNamespaceExportDeclaration      1 files (  0.2%) -        1 total (0.00%)
 
@@ -175,9 +175,9 @@ Repository: sample-repos/moment
    RestElement                           4 (0.00%) in 2 files (0.3%)
    TSTypeLiteral                         2 (0.00%) in 2 files (0.3%)
    TSExportAssignment                    2 (0.00%) in 2 files (0.3%)
-   TSTupleType                           2 (0.00%) in 2 files (0.3%)
    TSImportEqualsDeclaration             2 (0.00%) in 2 files (0.3%)
    TSExternalModuleReference             2 (0.00%) in 2 files (0.3%)
+   TSTupleType                           2 (0.00%) in 2 files (0.3%)
    TSNamespaceExportDeclaration          1 (0.00%) in 1 files (0.2%)
 
 📁 FILE EXAMPLES BY NODE TYPE:
@@ -189,9 +189,9 @@ Repository: sample-repos/moment
        • moment.d.ts
        • ender.js
        • Gruntfile.js
+       • typing-tests/moment-tests.ts
        • ts3.1-typings/moment.d.ts
        • ts3.1-typing-tests/moment-tests.ts
-       • typing-tests/moment-tests.ts
        • tasks/update_index.js
        • tasks/transpile.js
      📄 Files WITHOUT Identifier (showing 4):
@@ -207,9 +207,9 @@ Repository: sample-repos/moment
        • moment.d.ts
        • ender.js
        • Gruntfile.js
+       • typing-tests/moment-tests.ts
        • ts3.1-typings/moment.d.ts
        • ts3.1-typing-tests/moment-tests.ts
-       • typing-tests/moment-tests.ts
        • tasks/update_index.js
        • tasks/transpile.js
      📄 Files WITHOUT Literal (showing 10):
@@ -218,11 +218,11 @@ Repository: sample-repos/moment
        • templates/empty.js
        • templates/default.js
        • meteor/export.js
+       • src/lib/moment/now.js
+       • src/lib/moment/creation-data.js
        • src/lib/utils/mod.js
        • src/lib/utils/has-own-prop.js
        • src/lib/locale/pre-post-format.js
-       • src/lib/moment/now.js
-       • src/lib/moment/creation-data.js
 
    CallExpression:
      📄 Files WITH CallExpression (showing 10):
@@ -230,8 +230,8 @@ Repository: sample-repos/moment
        • moment.js
        • ender.js
        • Gruntfile.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • tasks/update_index.js
        • tasks/transpile.js
        • tasks/qtest.js
@@ -244,9 +244,9 @@ Repository: sample-repos/moment
        • templates/empty.js
        • templates/default.js
        • meteor/export.js
-       • src/lib/utils/mod.js
-       • src/lib/utils/is-undefined.js
-       • src/lib/utils/is-string.js
+       • src/lib/moment/creation-data.js
+       • src/lib/moment/clone.js
+       • src/lib/units/units.js
 
    MemberExpression:
      📄 Files WITH MemberExpression (showing 10):
@@ -254,8 +254,8 @@ Repository: sample-repos/moment
        • moment.js
        • ender.js
        • Gruntfile.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • tasks/update_index.js
        • tasks/transpile.js
        • tasks/qtest.js
@@ -267,18 +267,18 @@ Repository: sample-repos/moment
        • templates/locale-header.js
        • templates/empty.js
        • templates/default.js
-       • src/lib/utils/to-int.js
-       • src/lib/utils/mod.js
-       • src/lib/utils/is-undefined.js
-       • src/lib/utils/is-string.js
+       • src/lib/moment/clone.js
+       • src/lib/units/units.js
+       • src/lib/units/second.js
+       • src/lib/units/minute.js
 
    ExpressionStatement:
      📄 Files WITH ExpressionStatement (showing 10):
        • moment.js
        • ender.js
        • Gruntfile.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • tasks/update_index.js
        • tasks/transpile.js
        • tasks/qtest.js
@@ -302,8 +302,8 @@ Repository: sample-repos/moment
        • moment.js
        • ender.js
        • Gruntfile.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • tasks/update_index.js
        • tasks/transpile.js
        • tasks/qtest.js
@@ -318,15 +318,15 @@ Repository: sample-repos/moment
        • tasks/component.js
        • tasks/check_sauce_creds.js
        • meteor/export.js
-       • src/lib/utils/zero-fill.js
+       • src/lib/parse/token.js
 
    BinaryExpression:
      📄 Files WITH BinaryExpression (showing 10):
        • package.js
        • moment.js
        • Gruntfile.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • tasks/transpile.js
        • tasks/qtest.js
        • tasks/component.js
@@ -348,14 +348,14 @@ Repository: sample-repos/moment
      📄 Files WITH ArrayExpression (showing 10):
        • moment.js
        • Gruntfile.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • tasks/update_index.js
        • tasks/transpile.js
        • tasks/nuget.js
        • tasks/bump_version.js
        • scripts/locales.js
-       • min/tests.js
+       • meteor/package.js
      📄 Files WITHOUT ArrayExpression (showing 10):
        • package.js
        • moment.d.ts
@@ -373,8 +373,8 @@ Repository: sample-repos/moment
        • package.js
        • moment.js
        • Gruntfile.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • tasks/update_index.js
        • tasks/transpile.js
        • tasks/qtest.js
@@ -398,8 +398,8 @@ Repository: sample-repos/moment
        • moment.js
        • ender.js
        • Gruntfile.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • tasks/update_index.js
        • tasks/transpile.js
        • tasks/qtest.js
@@ -414,7 +414,7 @@ Repository: sample-repos/moment
        • tasks/component.js
        • tasks/check_sauce_creds.js
        • meteor/export.js
-       • src/lib/utils/zero-fill.js
+       • src/lib/moment/start-end-of.js
 
    VariableDeclarator:
      📄 Files WITH VariableDeclarator (showing 10):
@@ -422,9 +422,9 @@ Repository: sample-repos/moment
        • moment.js
        • moment.d.ts
        • Gruntfile.js
+       • typing-tests/moment-tests.ts
        • ts3.1-typings/moment.d.ts
        • ts3.1-typing-tests/moment-tests.ts
-       • typing-tests/moment-tests.ts
        • tasks/transpile.js
        • tasks/qtest.js
        • tasks/component.js
@@ -444,8 +444,8 @@ Repository: sample-repos/moment
      📄 Files WITH AssignmentExpression (showing 10):
        • moment.js
        • Gruntfile.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • tasks/update_index.js
        • tasks/transpile.js
        • tasks/qtest.js
@@ -469,8 +469,8 @@ Repository: sample-repos/moment
        • package.js
        • moment.js
        • Gruntfile.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • tasks/update_index.js
        • tasks/transpile.js
        • tasks/qtest.js
@@ -494,9 +494,9 @@ Repository: sample-repos/moment
        • moment.js
        • moment.d.ts
        • Gruntfile.js
+       • typing-tests/moment-tests.ts
        • ts3.1-typings/moment.d.ts
        • ts3.1-typing-tests/moment-tests.ts
-       • typing-tests/moment-tests.ts
        • tasks/transpile.js
        • tasks/qtest.js
        • tasks/component.js
@@ -517,13 +517,13 @@ Repository: sample-repos/moment
        • package.js
        • moment.js
        • Gruntfile.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • tasks/transpile.js
        • tasks/qtest.js
        • scripts/locales.js
+       • meteor/moment.js
        • min/tests.js
-       • min/moment-with-locales.js
      📄 Files WITHOUT ReturnStatement (showing 10):
        • moment.d.ts
        • ender.js
@@ -540,14 +540,14 @@ Repository: sample-repos/moment
      📄 Files WITH IfStatement (showing 10):
        • moment.js
        • Gruntfile.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • tasks/transpile.js
        • tasks/qtest.js
        • tasks/check_sauce_creds.js
        • tasks/bump_version.js
        • scripts/locales.js
-       • min/tests.js
+       • meteor/moment.js
      📄 Files WITHOUT IfStatement (showing 10):
        • package.js
        • moment.d.ts
@@ -563,15 +563,15 @@ Repository: sample-repos/moment
    UnaryExpression:
      📄 Files WITH UnaryExpression (showing 10):
        • moment.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • tasks/transpile.js
        • tasks/bump_version.js
+       • meteor/moment.js
+       • meteor/export.js
        • min/tests.js
        • min/moment-with-locales.js
        • min/locales.js
-       • meteor/moment.js
-       • meteor/export.js
      📄 Files WITHOUT UnaryExpression (showing 10):
        • package.js
        • moment.d.ts
@@ -589,13 +589,13 @@ Repository: sample-repos/moment
        • package.js
        • moment.js
        • Gruntfile.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • tasks/bump_version.js
        • scripts/locales.js
+       • meteor/moment.js
        • min/tests.js
        • min/moment-with-locales.js
-       • min/locales.js
      📄 Files WITHOUT Unknown (showing 10):
        • moment.d.ts
        • ender.js
@@ -611,14 +611,14 @@ Repository: sample-repos/moment
    LogicalExpression:
      📄 Files WITH LogicalExpression (showing 10):
        • moment.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • tasks/transpile.js
        • tasks/bump_version.js
+       • meteor/moment.js
        • min/tests.js
        • min/moment-with-locales.js
        • min/locales.js
-       • meteor/moment.js
        • locale/zh-tw.js
      📄 Files WITHOUT LogicalExpression (showing 10):
        • package.js
@@ -637,10 +637,10 @@ Repository: sample-repos/moment
        • moment.js
        • tasks/transpile.js
        • scripts/locales.js
+       • meteor/moment.js
        • min/tests.js
        • min/moment-with-locales.js
        • min/locales.js
-       • meteor/moment.js
        • benchmarks/subtract.js
        • benchmarks/startOf.js
        • benchmarks/set.js
@@ -649,9 +649,9 @@ Repository: sample-repos/moment
        • moment.d.ts
        • ender.js
        • Gruntfile.js
+       • typing-tests/moment-tests.ts
        • ts3.1-typings/moment.d.ts
        • ts3.1-typing-tests/moment-tests.ts
-       • typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
        • templates/empty.js
@@ -661,21 +661,21 @@ Repository: sample-repos/moment
        • moment.js
        • tasks/transpile.js
        • scripts/locales.js
+       • meteor/moment.js
        • min/tests.js
        • min/moment-with-locales.js
-       • meteor/moment.js
-       • src/lib/utils/some.js
-       • src/lib/utils/map.js
-       • src/lib/utils/is-moment-input.js
-       • src/lib/utils/is-calendar-spec.js
+       • src/lib/parse/token.js
+       • src/lib/moment/min-max.js
+       • src/lib/moment/get-set.js
+       • src/lib/moment/constructor.js
      📄 Files WITHOUT ForStatement (showing 10):
        • package.js
        • moment.d.ts
        • ender.js
        • Gruntfile.js
+       • typing-tests/moment-tests.ts
        • ts3.1-typings/moment.d.ts
        • ts3.1-typing-tests/moment-tests.ts
-       • typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
        • templates/empty.js
@@ -683,23 +683,23 @@ Repository: sample-repos/moment
    UpdateExpression:
      📄 Files WITH UpdateExpression (showing 10):
        • moment.js
+       • meteor/moment.js
        • min/tests.js
        • min/moment-with-locales.js
-       • meteor/moment.js
-       • src/lib/utils/some.js
-       • src/lib/utils/map.js
-       • src/lib/utils/index-of.js
-       • src/lib/utils/deprecate.js
-       • src/lib/utils/compare-arrays.js
-       • src/lib/locale/locales.js
+       • src/lib/parse/token.js
+       • src/lib/moment/min-max.js
+       • src/lib/moment/get-set.js
+       • src/lib/moment/constructor.js
+       • src/lib/units/month.js
+       • src/lib/units/era.js
      📄 Files WITHOUT UpdateExpression (showing 10):
        • package.js
        • moment.d.ts
        • ender.js
        • Gruntfile.js
+       • typing-tests/moment-tests.ts
        • ts3.1-typings/moment.d.ts
        • ts3.1-typing-tests/moment-tests.ts
-       • typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
        • templates/empty.js
@@ -707,15 +707,15 @@ Repository: sample-repos/moment
    ThisExpression:
      📄 Files WITH ThisExpression (showing 10):
        • moment.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • tasks/transpile.js
        • tasks/qtest.js
+       • meteor/moment.js
+       • meteor/export.js
        • min/tests.js
        • min/moment-with-locales.js
        • min/locales.js
-       • meteor/moment.js
-       • meteor/export.js
      📄 Files WITHOUT ThisExpression (showing 10):
        • package.js
        • moment.d.ts
@@ -732,13 +732,13 @@ Repository: sample-repos/moment
      📄 Files WITH ConditionalExpression (showing 10):
        • moment.js
        • Gruntfile.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • tasks/transpile.js
+       • meteor/moment.js
        • min/tests.js
        • min/moment-with-locales.js
        • min/locales.js
-       • meteor/moment.js
        • benchmarks/zeroFill.js
      📄 Files WITHOUT ConditionalExpression (showing 10):
        • package.js
@@ -755,13 +755,13 @@ Repository: sample-repos/moment
    NewExpression:
      📄 Files WITH NewExpression (showing 10):
        • moment.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • tasks/transpile.js
        • tasks/qtest.js
+       • meteor/moment.js
        • min/tests.js
        • min/moment-with-locales.js
-       • meteor/moment.js
        • benchmarks/fromDateUtc.js
        • benchmarks/fromDate.js
      📄 Files WITHOUT NewExpression (showing 10):
@@ -779,13 +779,13 @@ Repository: sample-repos/moment
    ParenthesizedExpression:
      📄 Files WITH ParenthesizedExpression (showing 10):
        • moment.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • tasks/transpile.js
+       • meteor/moment.js
        • min/tests.js
        • min/moment-with-locales.js
        • min/locales.js
-       • meteor/moment.js
        • benchmarks/zeroFill.js
        • benchmarks/isObjectEmpty.js
      📄 Files WITHOUT ParenthesizedExpression (showing 10):
@@ -804,10 +804,10 @@ Repository: sample-repos/moment
      📄 Files WITH SwitchCase (showing 10):
        • moment.js
        • scripts/locales.js
+       • meteor/moment.js
        • min/tests.js
        • min/moment-with-locales.js
        • min/locales.js
-       • meteor/moment.js
        • locale/zh-tw.js
        • locale/zh-mo.js
        • locale/zh-hk.js
@@ -817,9 +817,9 @@ Repository: sample-repos/moment
        • moment.d.ts
        • ender.js
        • Gruntfile.js
+       • typing-tests/moment-tests.ts
        • ts3.1-typings/moment.d.ts
        • ts3.1-typing-tests/moment-tests.ts
-       • typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
        • templates/empty.js
@@ -827,9 +827,9 @@ Repository: sample-repos/moment
    TSTypeAnnotation:
      📄 Files WITH TSTypeAnnotation (showing 4):
        • moment.d.ts
+       • typing-tests/moment-tests.ts
        • ts3.1-typings/moment.d.ts
        • ts3.1-typing-tests/moment-tests.ts
-       • typing-tests/moment-tests.ts
      📄 Files WITHOUT TSTypeAnnotation (showing 10):
        • package.js
        • moment.js
@@ -860,9 +860,9 @@ Repository: sample-repos/moment
        • moment.d.ts
        • ender.js
        • Gruntfile.js
+       • typing-tests/moment-tests.ts
        • ts3.1-typings/moment.d.ts
        • ts3.1-typing-tests/moment-tests.ts
-       • typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
 
@@ -871,22 +871,22 @@ Repository: sample-repos/moment
        • src/moment.js
        • src/test/qunit.js
        • src/test/qunit-locale.js
-       • src/lib/utils/is-moment-input.js
-       • src/lib/utils/deprecate.js
-       • src/lib/locale/prototype.js
-       • src/lib/locale/locales.js
-       • src/lib/locale/locale.js
-       • src/lib/locale/lists.js
-       • src/lib/locale/formats.js
+       • src/lib/moment/valid.js
+       • src/lib/moment/to.js
+       • src/lib/moment/start-end-of.js
+       • src/lib/moment/prototype.js
+       • src/lib/moment/moment.js
+       • src/lib/moment/min-max.js
+       • src/lib/moment/locale.js
      📄 Files WITHOUT ImportSpecifier (showing 10):
        • package.js
        • moment.js
        • moment.d.ts
        • ender.js
        • Gruntfile.js
+       • typing-tests/moment-tests.ts
        • ts3.1-typings/moment.d.ts
        • ts3.1-typing-tests/moment-tests.ts
-       • typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
 
@@ -897,9 +897,9 @@ Repository: sample-repos/moment
        • moment.d.ts
        • ender.js
        • Gruntfile.js
+       • typing-tests/moment-tests.ts
        • ts3.1-typings/moment.d.ts
        • ts3.1-typing-tests/moment-tests.ts
-       • typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
      📄 Files WITHOUT Program: (all files contain this node type)
@@ -907,9 +907,9 @@ Repository: sample-repos/moment
    TSTypeReference:
      📄 Files WITH TSTypeReference (showing 4):
        • moment.d.ts
+       • typing-tests/moment-tests.ts
        • ts3.1-typings/moment.d.ts
        • ts3.1-typing-tests/moment-tests.ts
-       • typing-tests/moment-tests.ts
      📄 Files WITHOUT TSTypeReference (showing 10):
        • package.js
        • moment.js
@@ -926,21 +926,21 @@ Repository: sample-repos/moment
      📄 Files WITH ThrowStatement (showing 9):
        • moment.js
        • tasks/transpile.js
+       • meteor/moment.js
        • min/tests.js
        • min/moment-with-locales.js
-       • meteor/moment.js
        • src/test/qunit.js
        • src/test/qunit-locale.js
-       • src/lib/duration/as.js
        • src/test/helpers/deprecation-handler.js
+       • src/lib/duration/as.js
      📄 Files WITHOUT ThrowStatement (showing 10):
        • package.js
        • moment.d.ts
        • ender.js
        • Gruntfile.js
+       • typing-tests/moment-tests.ts
        • ts3.1-typings/moment.d.ts
        • ts3.1-typing-tests/moment-tests.ts
-       • typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
        • templates/empty.js
@@ -963,18 +963,18 @@ Repository: sample-repos/moment
        • moment.d.ts
        • ender.js
        • Gruntfile.js
+       • typing-tests/moment-tests.ts
        • ts3.1-typings/moment.d.ts
        • ts3.1-typing-tests/moment-tests.ts
-       • typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
 
    TSStringKeyword:
      📄 Files WITH TSStringKeyword (showing 4):
        • moment.d.ts
+       • typing-tests/moment-tests.ts
        • ts3.1-typings/moment.d.ts
        • ts3.1-typing-tests/moment-tests.ts
-       • typing-tests/moment-tests.ts
      📄 Files WITHOUT TSStringKeyword (showing 10):
        • package.js
        • moment.js
@@ -990,9 +990,9 @@ Repository: sample-repos/moment
    TSNumberKeyword:
      📄 Files WITH TSNumberKeyword (showing 4):
        • moment.d.ts
+       • typing-tests/moment-tests.ts
        • ts3.1-typings/moment.d.ts
        • ts3.1-typing-tests/moment-tests.ts
-       • typing-tests/moment-tests.ts
      📄 Files WITHOUT TSNumberKeyword (showing 10):
        • package.js
        • moment.js
@@ -1014,8 +1014,8 @@ Repository: sample-repos/moment
        • moment.js
        • ender.js
        • Gruntfile.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
        • templates/empty.js
@@ -1030,8 +1030,8 @@ Repository: sample-repos/moment
        • moment.js
        • ender.js
        • Gruntfile.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
        • templates/empty.js
@@ -1043,19 +1043,19 @@ Repository: sample-repos/moment
        • ts3.1-typings/moment.d.ts
        • src/test/qunit.js
        • src/test/qunit-locale.js
-       • src/lib/utils/some.js
-       • src/lib/utils/keys.js
-       • src/lib/utils/is-moment-input.js
-       • src/lib/utils/is-leap-year.js
-       • src/lib/utils/index-of.js
-       • src/lib/utils/hooks.js
+       • src/lib/parse/token.js
+       • src/lib/parse/regex.js
+       • src/lib/moment/valid.js
+       • src/lib/moment/to.js
+       • src/lib/moment/to-type.js
+       • src/lib/moment/start-end-of.js
      📄 Files WITHOUT ExportNamedDeclaration (showing 10):
        • package.js
        • moment.js
        • ender.js
        • Gruntfile.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
        • templates/empty.js
@@ -1064,10 +1064,10 @@ Repository: sample-repos/moment
    EmptyStatement:
      📄 Files WITH EmptyStatement (showing 10):
        • moment.js
+       • meteor/moment.js
        • min/tests.js
        • min/moment-with-locales.js
        • min/locales.js
-       • meteor/moment.js
        • locale/zh-tw.js
        • locale/zh-mo.js
        • locale/zh-hk.js
@@ -1078,9 +1078,9 @@ Repository: sample-repos/moment
        • moment.d.ts
        • ender.js
        • Gruntfile.js
+       • typing-tests/moment-tests.ts
        • ts3.1-typings/moment.d.ts
        • ts3.1-typing-tests/moment-tests.ts
-       • typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
        • templates/empty.js
@@ -1089,10 +1089,10 @@ Repository: sample-repos/moment
      📄 Files WITH BreakStatement (showing 10):
        • moment.js
        • scripts/locales.js
+       • meteor/moment.js
        • min/tests.js
        • min/moment-with-locales.js
        • min/locales.js
-       • meteor/moment.js
        • locale/mr.js
        • locale/fi.js
        • src/locale/mr.js
@@ -1102,9 +1102,9 @@ Repository: sample-repos/moment
        • moment.d.ts
        • ender.js
        • Gruntfile.js
+       • typing-tests/moment-tests.ts
        • ts3.1-typings/moment.d.ts
        • ts3.1-typing-tests/moment-tests.ts
-       • typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
        • templates/empty.js
@@ -1113,10 +1113,10 @@ Repository: sample-repos/moment
      📄 Files WITH SwitchStatement (showing 10):
        • moment.js
        • scripts/locales.js
+       • meteor/moment.js
        • min/tests.js
        • min/moment-with-locales.js
        • min/locales.js
-       • meteor/moment.js
        • locale/zh-tw.js
        • locale/zh-mo.js
        • locale/zh-hk.js
@@ -1126,9 +1126,9 @@ Repository: sample-repos/moment
        • moment.d.ts
        • ender.js
        • Gruntfile.js
+       • typing-tests/moment-tests.ts
        • ts3.1-typings/moment.d.ts
        • ts3.1-typing-tests/moment-tests.ts
-       • typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
        • templates/empty.js
@@ -1136,23 +1136,23 @@ Repository: sample-repos/moment
    ForInStatement:
      📄 Files WITH ForInStatement (showing 10):
        • moment.js
+       • meteor/moment.js
        • min/tests.js
        • min/moment-with-locales.js
-       • meteor/moment.js
        • benchmarks/isObjectEmpty.js
+       • src/lib/units/priorities.js
+       • src/lib/units/aliases.js
        • src/lib/utils/keys.js
        • src/lib/utils/is-object-empty.js
        • src/lib/utils/extend.js
-       • src/lib/utils/deprecate.js
-       • src/lib/locale/set.js
      📄 Files WITHOUT ForInStatement (showing 10):
        • package.js
        • moment.d.ts
        • ender.js
        • Gruntfile.js
+       • typing-tests/moment-tests.ts
        • ts3.1-typings/moment.d.ts
        • ts3.1-typing-tests/moment-tests.ts
-       • typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
        • templates/empty.js
@@ -1166,8 +1166,8 @@ Repository: sample-repos/moment
        • moment.js
        • ender.js
        • Gruntfile.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
        • templates/empty.js
@@ -1208,9 +1208,9 @@ Repository: sample-repos/moment
        • moment.d.ts
        • ender.js
        • Gruntfile.js
+       • typing-tests/moment-tests.ts
        • ts3.1-typings/moment.d.ts
        • ts3.1-typing-tests/moment-tests.ts
-       • typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
 
@@ -1223,8 +1223,8 @@ Repository: sample-repos/moment
        • moment.js
        • ender.js
        • Gruntfile.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
        • templates/empty.js
@@ -1233,9 +1233,9 @@ Repository: sample-repos/moment
    TSUnionType:
      📄 Files WITH TSUnionType (showing 4):
        • moment.d.ts
+       • typing-tests/moment-tests.ts
        • ts3.1-typings/moment.d.ts
        • ts3.1-typing-tests/moment-tests.ts
-       • typing-tests/moment-tests.ts
      📄 Files WITHOUT TSUnionType (showing 10):
        • package.js
        • moment.js
@@ -1257,8 +1257,8 @@ Repository: sample-repos/moment
        • moment.js
        • ender.js
        • Gruntfile.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
        • templates/empty.js
@@ -1266,34 +1266,34 @@ Repository: sample-repos/moment
 
    ExportSpecifier:
      📄 Files WITH ExportSpecifier (showing 10):
+       • src/lib/parse/regex.js
+       • src/lib/moment/moment.js
+       • src/lib/units/year.js
+       • src/lib/units/units.js
+       • src/lib/units/month.js
+       • src/lib/units/millisecond.js
+       • src/lib/units/day-of-week.js
        • src/lib/utils/some.js
        • src/lib/utils/keys.js
        • src/lib/utils/index-of.js
-       • src/lib/utils/hooks.js
-       • src/lib/locale/ordinal.js
-       • src/lib/locale/locale.js
-       • src/lib/parse/regex.js
-       • src/lib/format/format.js
-       • src/lib/units/year.js
-       • src/lib/units/units.js
      📄 Files WITHOUT ExportSpecifier (showing 10):
        • package.js
        • moment.js
        • moment.d.ts
        • ender.js
        • Gruntfile.js
+       • typing-tests/moment-tests.ts
        • ts3.1-typings/moment.d.ts
        • ts3.1-typing-tests/moment-tests.ts
-       • typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
 
    TSQualifiedName:
      📄 Files WITH TSQualifiedName (showing 4):
        • moment.d.ts
+       • typing-tests/moment-tests.ts
        • ts3.1-typings/moment.d.ts
        • ts3.1-typing-tests/moment-tests.ts
-       • typing-tests/moment-tests.ts
      📄 Files WITHOUT TSQualifiedName (showing 10):
        • package.js
        • moment.js
@@ -1309,11 +1309,11 @@ Repository: sample-repos/moment
    SequenceExpression:
      📄 Files WITH SequenceExpression (showing 10):
        • moment.js
+       • meteor/moment.js
        • min/tests.js
        • min/moment-with-locales.js
-       • meteor/moment.js
-       • src/lib/format/format.js
        • src/lib/units/era.js
+       • src/lib/format/format.js
        • src/lib/create/from-string.js
        • src/test/locale/ku-kmr.js
        • src/test/locale/ko.js
@@ -1323,9 +1323,9 @@ Repository: sample-repos/moment
        • moment.d.ts
        • ender.js
        • Gruntfile.js
+       • typing-tests/moment-tests.ts
        • ts3.1-typings/moment.d.ts
        • ts3.1-typing-tests/moment-tests.ts
-       • typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
        • templates/empty.js
@@ -1339,8 +1339,8 @@ Repository: sample-repos/moment
        • moment.js
        • ender.js
        • Gruntfile.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
        • templates/empty.js
@@ -1355,8 +1355,8 @@ Repository: sample-repos/moment
        • moment.js
        • ender.js
        • Gruntfile.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
        • templates/empty.js
@@ -1371,8 +1371,8 @@ Repository: sample-repos/moment
        • moment.js
        • ender.js
        • Gruntfile.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
        • templates/empty.js
@@ -1387,8 +1387,8 @@ Repository: sample-repos/moment
        • moment.js
        • ender.js
        • Gruntfile.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
        • templates/empty.js
@@ -1397,10 +1397,10 @@ Repository: sample-repos/moment
    TryStatement:
      📄 Files WITH TryStatement (showing 10):
        • moment.js
-       • min/tests.js
-       • min/moment-with-locales.js
        • meteor/moment.js
        • meteor/export.js
+       • min/tests.js
+       • min/moment-with-locales.js
        • src/lib/locale/locales.js
        • src/test/moment/now.js
        • src/test/moment/is_valid.js
@@ -1411,9 +1411,9 @@ Repository: sample-repos/moment
        • moment.d.ts
        • ender.js
        • Gruntfile.js
+       • typing-tests/moment-tests.ts
        • ts3.1-typings/moment.d.ts
        • ts3.1-typing-tests/moment-tests.ts
-       • typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
        • templates/empty.js
@@ -1427,8 +1427,8 @@ Repository: sample-repos/moment
        • moment.js
        • ender.js
        • Gruntfile.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
        • templates/empty.js
@@ -1437,23 +1437,23 @@ Repository: sample-repos/moment
    WhileStatement:
      📄 Files WITH WhileStatement (showing 10):
        • moment.js
+       • meteor/moment.js
        • min/tests.js
        • min/moment-with-locales.js
        • min/locales.js
-       • meteor/moment.js
        • benchmarks/zeroFill.js
        • locale/lb.js
        • src/locale/lb.js
-       • src/lib/locale/locales.js
        • src/lib/format/format.js
+       • src/lib/locale/locales.js
      📄 Files WITHOUT WhileStatement (showing 10):
        • package.js
        • moment.d.ts
        • ender.js
        • Gruntfile.js
+       • typing-tests/moment-tests.ts
        • ts3.1-typings/moment.d.ts
        • ts3.1-typing-tests/moment-tests.ts
-       • typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
        • templates/empty.js
@@ -1461,8 +1461,8 @@ Repository: sample-repos/moment
    TSVoidKeyword:
      📄 Files WITH TSVoidKeyword (showing 3):
        • moment.d.ts
-       • ts3.1-typings/moment.d.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typings/moment.d.ts
      📄 Files WITHOUT TSVoidKeyword (showing 10):
        • package.js
        • moment.js
@@ -1484,8 +1484,8 @@ Repository: sample-repos/moment
        • moment.js
        • ender.js
        • Gruntfile.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
        • templates/empty.js
@@ -1494,10 +1494,10 @@ Repository: sample-repos/moment
    CatchClause:
      📄 Files WITH CatchClause (showing 7):
        • moment.js
-       • min/tests.js
-       • min/moment-with-locales.js
        • meteor/moment.js
        • meteor/export.js
+       • min/tests.js
+       • min/moment-with-locales.js
        • src/lib/locale/locales.js
        • src/test/moment/is_valid.js
      📄 Files WITHOUT CatchClause (showing 10):
@@ -1505,9 +1505,9 @@ Repository: sample-repos/moment
        • moment.d.ts
        • ender.js
        • Gruntfile.js
+       • typing-tests/moment-tests.ts
        • ts3.1-typings/moment.d.ts
        • ts3.1-typing-tests/moment-tests.ts
-       • typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
        • templates/empty.js
@@ -1537,8 +1537,8 @@ Repository: sample-repos/moment
        • moment.js
        • ender.js
        • Gruntfile.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
        • templates/empty.js
@@ -1553,8 +1553,8 @@ Repository: sample-repos/moment
        • moment.js
        • ender.js
        • Gruntfile.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
        • templates/empty.js
@@ -1569,8 +1569,8 @@ Repository: sample-repos/moment
        • moment.d.ts
        • ender.js
        • Gruntfile.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
        • templates/empty.js
@@ -1584,8 +1584,8 @@ Repository: sample-repos/moment
        • moment.js
        • ender.js
        • Gruntfile.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
        • templates/empty.js
@@ -1600,8 +1600,8 @@ Repository: sample-repos/moment
        • moment.js
        • ender.js
        • Gruntfile.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
        • templates/empty.js
@@ -1616,8 +1616,8 @@ Repository: sample-repos/moment
        • moment.js
        • ender.js
        • Gruntfile.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
        • templates/empty.js
@@ -1632,8 +1632,8 @@ Repository: sample-repos/moment
        • moment.js
        • ender.js
        • Gruntfile.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
        • templates/empty.js
@@ -1648,8 +1648,8 @@ Repository: sample-repos/moment
        • moment.js
        • ender.js
        • Gruntfile.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
        • templates/empty.js
@@ -1664,8 +1664,40 @@ Repository: sample-repos/moment
        • moment.js
        • ender.js
        • Gruntfile.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+
+   TSImportEqualsDeclaration:
+     📄 Files WITH TSImportEqualsDeclaration (showing 2):
+       • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
+     📄 Files WITHOUT TSImportEqualsDeclaration (showing 10):
+       • package.js
+       • moment.js
+       • moment.d.ts
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typings/moment.d.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+
+   TSExternalModuleReference:
+     📄 Files WITH TSExternalModuleReference (showing 2):
+       • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
+     📄 Files WITHOUT TSExternalModuleReference (showing 10):
+       • package.js
+       • moment.js
+       • moment.d.ts
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typings/moment.d.ts
        • templates/test-header.js
        • templates/locale-header.js
        • templates/empty.js
@@ -1687,38 +1719,6 @@ Repository: sample-repos/moment
        • templates/empty.js
        • templates/default.js
 
-   TSImportEqualsDeclaration:
-     📄 Files WITH TSImportEqualsDeclaration (showing 2):
-       • ts3.1-typing-tests/moment-tests.ts
-       • typing-tests/moment-tests.ts
-     📄 Files WITHOUT TSImportEqualsDeclaration (showing 10):
-       • package.js
-       • moment.js
-       • moment.d.ts
-       • ender.js
-       • Gruntfile.js
-       • ts3.1-typings/moment.d.ts
-       • templates/test-header.js
-       • templates/locale-header.js
-       • templates/empty.js
-       • templates/default.js
-
-   TSExternalModuleReference:
-     📄 Files WITH TSExternalModuleReference (showing 2):
-       • ts3.1-typing-tests/moment-tests.ts
-       • typing-tests/moment-tests.ts
-     📄 Files WITHOUT TSExternalModuleReference (showing 10):
-       • package.js
-       • moment.js
-       • moment.d.ts
-       • ender.js
-       • Gruntfile.js
-       • ts3.1-typings/moment.d.ts
-       • templates/test-header.js
-       • templates/locale-header.js
-       • templates/empty.js
-       • templates/default.js
-
    TSNamespaceExportDeclaration:
      📄 Files WITH TSNamespaceExportDeclaration (showing 1):
        • ts3.1-typings/moment.d.ts
@@ -1728,8 +1728,8 @@ Repository: sample-repos/moment
        • moment.d.ts
        • ender.js
        • Gruntfile.js
-       • ts3.1-typing-tests/moment-tests.ts
        • typing-tests/moment-tests.ts
+       • ts3.1-typing-tests/moment-tests.ts
        • templates/test-header.js
        • templates/locale-header.js
        • templates/empty.js

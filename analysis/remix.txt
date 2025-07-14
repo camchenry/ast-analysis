@@ -1,5 +1,5 @@
 AST Analysis Report for remix
-Generated on: 2025-07-14T01:42:27.589Z
+Generated on: 2025-07-14T01:56:55.942Z
 Repository: sample-repos/remix
 ================================================================================
 
@@ -321,12 +321,12 @@ Repository: sample-repos/remix
        • templates/classic-remix-compiler/remix/remix.env.d.ts
        • templates/classic-remix-compiler/fly/remix.env.d.ts
        • templates/classic-remix-compiler/express/remix.env.d.ts
-       • templates/classic-remix-compiler/cloudflare-pages/remix.env.d.ts
        • templates/classic-remix-compiler/arc/remix.env.d.ts
        • scripts/playground/template/remix.env.d.ts
+       • templates/classic-remix-compiler/cloudflare-pages/remix.env.d.ts
        • integration/helpers/vite-cloudflare-template/env.d.ts
+       • integration/helpers/vite-5-template/env.d.ts
        • integration/helpers/vite-6-template/env.d.ts
-       • integration/helpers/node-template/remix.env.d.ts
 
    CallExpression:
      📄 Files WITH CallExpression (showing 10):
@@ -346,11 +346,11 @@ Repository: sample-repos/remix
        • scripts/unist.d.ts
        • scripts/prompt-confirm.d.ts
        • integration/playwright.config.ts
-       • templates/spa/tailwind.config.ts
-       • templates/spa/postcss.config.js
        • templates/remix-javascript/tailwind.config.js
        • templates/remix-javascript/postcss.config.js
        • templates/remix/tailwind.config.ts
+       • templates/remix/postcss.config.js
+       • templates/cloudflare-workers/worker-configuration.d.ts
 
    Literal:
      📄 Files WITH Literal (showing 10):
@@ -366,12 +366,12 @@ Repository: sample-repos/remix
        • scripts/release.js
      📄 Files WITHOUT Literal (showing 10):
        • prettier.config.js
-       • templates/spa/postcss.config.js
        • templates/remix-javascript/postcss.config.js
        • templates/remix/postcss.config.js
-       • templates/express/postcss.config.js
        • templates/cloudflare-workers/worker-configuration.d.ts
        • templates/cloudflare-workers/postcss.config.js
+       • templates/spa/postcss.config.js
+       • templates/express/postcss.config.js
        • templates/cloudflare/postcss.config.js
        • packages/remix-server-runtime/future.ts
        • packages/remix-node/install.d.ts
@@ -391,14 +391,14 @@ Repository: sample-repos/remix
      📄 Files WITHOUT MemberExpression (showing 10):
        • scripts/unist.d.ts
        • scripts/prompt-confirm.d.ts
-       • templates/spa/vite.config.ts
-       • templates/spa/tailwind.config.ts
-       • templates/spa/postcss.config.js
        • templates/remix-tutorial/vite.config.ts
        • templates/remix-javascript/vite.config.js
        • templates/remix-javascript/tailwind.config.js
        • templates/remix-javascript/postcss.config.js
        • templates/remix/vite.config.ts
+       • templates/remix/tailwind.config.ts
+       • templates/remix/postcss.config.js
+       • templates/cloudflare-workers/worker-configuration.d.ts
 
    ExpressionStatement:
      📄 Files WITH ExpressionStatement (showing 10):
@@ -416,13 +416,13 @@ Repository: sample-repos/remix
        • scripts/unist.d.ts
        • scripts/prompt-confirm.d.ts
        • integration/playwright.config.ts
-       • templates/spa/vite.config.ts
-       • templates/spa/tailwind.config.ts
-       • templates/spa/postcss.config.js
        • templates/remix-tutorial/vite.config.ts
        • templates/remix-javascript/vite.config.js
        • templates/remix-javascript/tailwind.config.js
        • templates/remix-javascript/postcss.config.js
+       • templates/remix/vite.config.ts
+       • templates/remix/tailwind.config.ts
+       • templates/remix/postcss.config.js
 
    Property:
      📄 Files WITH Property (showing 10):
@@ -467,10 +467,10 @@ Repository: sample-repos/remix
        • scripts/unist.d.ts
        • scripts/prompt-confirm.d.ts
        • docs/prettier.config.js
-       • templates/spa/vite.config.ts
-       • templates/spa/tailwind.config.ts
-       • templates/spa/postcss.config.js
        • templates/remix-tutorial/vite.config.ts
+       • templates/remix-javascript/vite.config.js
+       • templates/remix-javascript/tailwind.config.js
+       • templates/remix-javascript/postcss.config.js
 
    VariableDeclaration:
      📄 Files WITH VariableDeclaration (showing 10):
@@ -491,10 +491,10 @@ Repository: sample-repos/remix
        • scripts/unist.d.ts
        • scripts/prompt-confirm.d.ts
        • docs/prettier.config.js
-       • templates/spa/vite.config.ts
-       • templates/spa/tailwind.config.ts
-       • templates/spa/postcss.config.js
        • templates/remix-tutorial/vite.config.ts
+       • templates/remix-javascript/vite.config.js
+       • templates/remix-javascript/tailwind.config.js
+       • templates/remix-javascript/postcss.config.js
 
    BlockStatement:
      📄 Files WITH BlockStatement (showing 10):
@@ -517,8 +517,8 @@ Repository: sample-repos/remix
        • jest/jest.config.shared.js
        • integration/playwright.config.ts
        • docs/prettier.config.js
-       • templates/spa/vite.config.ts
-       • templates/spa/tailwind.config.ts
+       • templates/remix-tutorial/vite.config.ts
+       • templates/remix-javascript/vite.config.js
 
    AwaitExpression:
      📄 Files WITH AwaitExpression (showing 10):
@@ -747,7 +747,7 @@ Repository: sample-repos/remix
        • packages/remix-react/errorBoundaries.tsx
        • packages/remix-react/components.tsx
        • packages/remix-react/browser.tsx
-       • templates/spa/app/root.tsx
+       • templates/remix-tutorial/app/root.tsx
      📄 Files WITHOUT JSXIdentifier (showing 10):
        • rollup.utils.js
        • rollup.config.js
@@ -1058,8 +1058,8 @@ Repository: sample-repos/remix
        • packages/remix-react/errorBoundaries.tsx
        • packages/remix-react/components.tsx
        • packages/remix-react/browser.tsx
-       • templates/spa/app/root.tsx
-       • templates/spa/app/entry.client.tsx
+       • templates/remix-tutorial/app/root.tsx
+       • templates/remix-javascript/app/root.jsx
      📄 Files WITHOUT JSXText (showing 10):
        • rollup.utils.js
        • rollup.config.js
@@ -1083,7 +1083,7 @@ Repository: sample-repos/remix
        • packages/remix-react/errorBoundaries.tsx
        • packages/remix-react/components.tsx
        • packages/remix-react/browser.tsx
-       • templates/spa/app/root.tsx
+       • templates/remix-tutorial/app/root.tsx
      📄 Files WITHOUT JSXAttribute (showing 10):
        • rollup.utils.js
        • rollup.config.js
@@ -1131,7 +1131,7 @@ Repository: sample-repos/remix
        • packages/remix-react/errorBoundaries.tsx
        • packages/remix-react/components.tsx
        • packages/remix-react/browser.tsx
-       • templates/spa/app/root.tsx
+       • templates/remix-tutorial/app/root.tsx
      📄 Files WITHOUT JSXElement (showing 10):
        • rollup.utils.js
        • rollup.config.js
@@ -1155,7 +1155,7 @@ Repository: sample-repos/remix
        • packages/remix-react/errorBoundaries.tsx
        • packages/remix-react/components.tsx
        • packages/remix-react/browser.tsx
-       • templates/spa/app/root.tsx
+       • templates/remix-tutorial/app/root.tsx
      📄 Files WITHOUT JSXOpeningElement (showing 10):
        • rollup.utils.js
        • rollup.config.js
@@ -1331,11 +1331,11 @@ Repository: sample-repos/remix
        • scripts/unist.d.ts
        • integration/vite-hmr-hdr-test.ts
        • integration/prefetch-test.ts
-       • templates/spa/vite.config.ts
        • templates/remix/vite.config.ts
-       • templates/express/vite.config.ts
        • templates/cloudflare-workers/vite.config.ts
        • templates/cloudflare-workers/load-context.ts
+       • templates/spa/vite.config.ts
+       • templates/express/vite.config.ts
        • templates/cloudflare/vite.config.ts
        • templates/cloudflare/load-context.ts
      📄 Files WITHOUT TSLiteralType (showing 10):
@@ -1408,8 +1408,8 @@ Repository: sample-repos/remix
        • packages/remix-react/errorBoundaries.tsx
        • packages/remix-react/components.tsx
        • packages/remix-react/browser.tsx
-       • templates/spa/app/root.tsx
-       • templates/spa/app/entry.client.tsx
+       • templates/remix-tutorial/app/root.tsx
+       • templates/remix-javascript/app/root.jsx
      📄 Files WITHOUT JSXClosingElement (showing 10):
        • rollup.utils.js
        • rollup.config.js
@@ -1553,7 +1553,7 @@ Repository: sample-repos/remix
        • packages/remix-react/errorBoundaries.tsx
        • packages/remix-react/components.tsx
        • packages/remix-react/browser.tsx
-       • templates/spa/app/root.tsx
+       • templates/remix-tutorial/app/root.tsx
      📄 Files WITHOUT JSXExpressionContainer (showing 10):
        • rollup.utils.js
        • rollup.config.js
@@ -1814,10 +1814,10 @@ Repository: sample-repos/remix
        • packages/remix-react/errorBoundaries.tsx
        • packages/remix-react/components.tsx
        • packages/remix-react/browser.tsx
+       • packages/remix-express/server.ts
        • packages/remix-dev/dependencies.ts
        • packages/remix-dev/config.ts
        • packages/remix-dev/colors.ts
-       • packages/remix-express/server.ts
      📄 Files WITHOUT TSQualifiedName (showing 10):
        • rollup.utils.js
        • rollup.config.js
@@ -1906,14 +1906,14 @@ Repository: sample-repos/remix
      📄 Files WITH ExportDefaultDeclaration (showing 10):
        • jest/buildRemix.js
        • integration/playwright.config.ts
-       • templates/spa/vite.config.ts
-       • templates/spa/tailwind.config.ts
-       • templates/spa/postcss.config.js
        • templates/remix-tutorial/vite.config.ts
        • templates/remix-javascript/vite.config.js
        • templates/remix-javascript/tailwind.config.js
        • templates/remix-javascript/postcss.config.js
        • templates/remix/vite.config.ts
+       • templates/remix/tailwind.config.ts
+       • templates/remix/postcss.config.js
+       • templates/cloudflare-workers/vite.config.ts
      📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
        • rollup.utils.js
        • rollup.config.js
@@ -2049,12 +2049,12 @@ Repository: sample-repos/remix
    TSInterfaceDeclaration:
      📄 Files WITH TSInterfaceDeclaration (showing 10):
        • scripts/unist.d.ts
-       • templates/spa/vite.config.ts
        • templates/remix/vite.config.ts
-       • templates/express/vite.config.ts
        • templates/cloudflare-workers/worker-configuration.d.ts
        • templates/cloudflare-workers/vite.config.ts
        • templates/cloudflare-workers/load-context.ts
+       • templates/spa/vite.config.ts
+       • templates/express/vite.config.ts
        • templates/cloudflare/vite.config.ts
        • templates/cloudflare/load-context.ts
        • packages/remix-testing/create-remix-stub.tsx
@@ -2073,12 +2073,12 @@ Repository: sample-repos/remix
    TSInterfaceBody:
      📄 Files WITH TSInterfaceBody (showing 10):
        • scripts/unist.d.ts
-       • templates/spa/vite.config.ts
        • templates/remix/vite.config.ts
-       • templates/express/vite.config.ts
        • templates/cloudflare-workers/worker-configuration.d.ts
        • templates/cloudflare-workers/vite.config.ts
        • templates/cloudflare-workers/load-context.ts
+       • templates/spa/vite.config.ts
+       • templates/express/vite.config.ts
        • templates/cloudflare/vite.config.ts
        • templates/cloudflare/load-context.ts
        • packages/remix-testing/create-remix-stub.tsx
@@ -2338,11 +2338,11 @@ Repository: sample-repos/remix
      📄 Files WITH TSModuleDeclaration (showing 10):
        • scripts/prompt-confirm.d.ts
        • integration/defer-test.ts
-       • templates/spa/vite.config.ts
        • templates/remix/vite.config.ts
-       • templates/express/vite.config.ts
        • templates/cloudflare-workers/vite.config.ts
        • templates/cloudflare-workers/load-context.ts
+       • templates/spa/vite.config.ts
+       • templates/express/vite.config.ts
        • templates/cloudflare/vite.config.ts
        • templates/cloudflare/load-context.ts
        • packages/remix-react/fog-of-war.ts
@@ -2362,11 +2362,11 @@ Repository: sample-repos/remix
      📄 Files WITH TSModuleBlock (showing 10):
        • scripts/prompt-confirm.d.ts
        • integration/defer-test.ts
-       • templates/spa/vite.config.ts
        • templates/remix/vite.config.ts
-       • templates/express/vite.config.ts
        • templates/cloudflare-workers/vite.config.ts
        • templates/cloudflare-workers/load-context.ts
+       • templates/spa/vite.config.ts
+       • templates/express/vite.config.ts
        • templates/cloudflare/vite.config.ts
        • templates/cloudflare/load-context.ts
        • packages/remix-react/fog-of-war.ts
@@ -2530,9 +2530,9 @@ Repository: sample-repos/remix
      📄 Files WITH ImportExpression (showing 10):
        • integration/vite-presets-test.ts
        • templates/express/server.js
+       • packages/remix-serve/cli.ts
        • packages/remix-react/routeModules.ts
        • packages/remix-react/browser.tsx
-       • packages/remix-serve/cli.ts
        • packages/remix-dev/config.ts
        • packages/create-remix/loading-indicator.ts
        • integration/helpers/create-fixture.ts
@@ -2585,7 +2585,7 @@ Repository: sample-repos/remix
        • packages/remix-server-runtime/cookies.ts
        • packages/remix-react/data.ts
        • packages/create-remix/index.ts
-       • packages/remix-dev/devServer_unstable/hmr.ts
+       • packages/remix-dev/vite/styles.ts
      📄 Files WITHOUT ContinueStatement (showing 10):
        • rollup.config.js
        • prettier.config.js
@@ -2948,11 +2948,11 @@ Repository: sample-repos/remix
 
    TSSatisfiesExpression:
      📄 Files WITH TSSatisfiesExpression (showing 10):
-       • templates/spa/tailwind.config.ts
        • templates/remix/tailwind.config.ts
-       • templates/express/tailwind.config.ts
        • templates/cloudflare-workers/tailwind.config.ts
        • templates/cloudflare-workers/server.ts
+       • templates/spa/tailwind.config.ts
+       • templates/express/tailwind.config.ts
        • templates/cloudflare/tailwind.config.ts
        • packages/remix-route-config/routes.ts
        • integration/helpers/vite.ts

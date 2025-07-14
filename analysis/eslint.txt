@@ -1,5 +1,5 @@
 AST Analysis Report for eslint
-Generated on: 2025-07-14T01:41:58.285Z
+Generated on: 2025-07-14T01:56:21.228Z
 Repository: sample-repos/eslint
 ================================================================================
 
@@ -85,8 +85,8 @@ Repository: sample-repos/eslint
    TSTypeAnnotation                 11 files (  1.3%) -    2,284 total (0.19%)
    TSTypeReference                  11 files (  1.3%) -    1,578 total (0.13%)
    TSQualifiedName                  11 files (  1.3%) -      932 total (0.08%)
-   TSArrayType                       9 files (  1.1%) -      165 total (0.01%)
    ForInStatement                    9 files (  1.1%) -       81 total (0.01%)
+   TSArrayType                       9 files (  1.1%) -      165 total (0.01%)
    PrivateIdentifier                 8 files (  1.0%) -      101 total (0.01%)
    ExportNamedDeclaration            6 files (  0.7%) -       27 total (0.00%)
    TSTypeParameterInstantiation      6 files (  0.7%) -      582 total (0.05%)
@@ -126,6 +126,7 @@ Repository: sample-repos/eslint
    TSSatisfiesExpression             2 files (  0.2%) -       17 total (0.00%)
    ImportDefaultSpecifier            2 files (  0.2%) -        2 total (0.00%)
    Hashbang                          1 files (  0.1%) -        1 total (0.00%)
+   EmptyStatement                    1 files (  0.1%) -        4 total (0.00%)
    TSOptionalType                    1 files (  0.1%) -        1 total (0.00%)
    ImportNamespaceSpecifier          1 files (  0.1%) -        1 total (0.00%)
    TSModuleDeclaration               1 files (  0.1%) -        7 total (0.00%)
@@ -135,7 +136,6 @@ Repository: sample-repos/eslint
    TSCallSignatureDeclaration        1 files (  0.1%) -       24 total (0.00%)
    TSTypeParameterDeclaration        1 files (  0.1%) -       23 total (0.00%)
    TSTypeParameter                   1 files (  0.1%) -       25 total (0.00%)
-   EmptyStatement                    1 files (  0.1%) -        4 total (0.00%)
    TSAsExpression                    1 files (  0.1%) -        3 total (0.00%)
    TSMappedType                      1 files (  0.1%) -        1 total (0.00%)
    TSConditionalType                 1 files (  0.1%) -        1 total (0.00%)
@@ -246,9 +246,9 @@ Repository: sample-repos/eslint
    TSTypeOperator                        5 (0.00%) in 3 files (0.4%)
    ImportExpression                      5 (0.00%) in 3 files (0.4%)
    TSExportAssignment                    5 (0.00%) in 5 files (0.6%)
+   EmptyStatement                        4 (0.00%) in 1 files (0.1%)
    ExportSpecifier                       4 (0.00%) in 3 files (0.4%)
    TSDeclareFunction                     4 (0.00%) in 2 files (0.2%)
-   EmptyStatement                        4 (0.00%) in 1 files (0.1%)
    TSAsExpression                        3 (0.00%) in 1 files (0.1%)
    ImportDefaultSpecifier                2 (0.00%) in 2 files (0.2%)
    Hashbang                              1 (0.00%) in 1 files (0.1%)
@@ -307,14 +307,14 @@ Repository: sample-repos/eslint
      📄 Files WITHOUT Property (showing 10):
        • messages/print-config-with-directory-path.js
        • messages/config-file-missing.js
+       • tests/lib/options.js
+       • tests/conf/eslint-recommended.js
+       • tests/conf/eslint-all.js
        • lib/types/use-at-your-own-risk.d.ts
        • lib/types/universal.d.ts
        • lib/types/rules.d.ts
        • lib/types/index.d.ts
        • lib/types/config-api.d.ts
-       • lib/shared/traverser.js
-       • lib/shared/text-table.js
-       • lib/shared/relative-module-resolver.js
 
    ObjectExpression:
      📄 Files WITH ObjectExpression (showing 10):
@@ -356,12 +356,12 @@ Repository: sample-repos/eslint
        • lib/types/use-at-your-own-risk.d.ts
        • lib/types/universal.d.ts
        • lib/types/config-api.d.ts
-       • packages/js/types/index.d.ts
        • packages/eslint-config-eslint/types/nodejs.d.ts
        • packages/eslint-config-eslint/types/index.d.ts
        • packages/eslint-config-eslint/types/formatting.d.ts
        • packages/eslint-config-eslint/types/cjs.d.ts
        • packages/eslint-config-eslint/types/base.d.ts
+       • packages/js/types/index.d.ts
        • docs/_examples/custom-rule-tutorial-code/example.js
 
    CallExpression:
@@ -404,13 +404,13 @@ Repository: sample-repos/eslint
        • tools/update-eslint-all.js
        • tools/fuzzer-runner.js
        • tools/check-emfile-handling.js
+       • lib/unsupported-api.js
+       • lib/universal.js
+       • lib/config-api.js
+       • lib/api.js
        • messages/whitespace-found.js
        • messages/shared.js
        • messages/print-config-with-directory-path.js
-       • messages/plugin-missing.js
-       • messages/plugin-invalid.js
-       • messages/plugin-conflict.js
-       • messages/no-config-found.js
 
    ExpressionStatement:
      📄 Files WITH ExpressionStatement (showing 10):
@@ -430,11 +430,11 @@ Repository: sample-repos/eslint
        • lib/types/rules.d.ts
        • lib/types/index.d.ts
        • lib/types/config-api.d.ts
-       • packages/js/types/index.d.ts
        • packages/eslint-config-eslint/types/nodejs.d.ts
        • packages/eslint-config-eslint/types/index.d.ts
        • packages/eslint-config-eslint/types/formatting.d.ts
        • packages/eslint-config-eslint/types/cjs.d.ts
+       • packages/eslint-config-eslint/types/base.d.ts
 
    BlockStatement:
      📄 Files WITH BlockStatement (showing 10):
@@ -452,10 +452,10 @@ Repository: sample-repos/eslint
        • lib/unsupported-api.js
        • lib/universal.js
        • lib/config-api.js
-       • docs/postcss.config.js
        • conf/globals.js
        • conf/ecma-version.js
        • conf/default-cli-options.js
+       • docs/postcss.config.js
        • tools/internal-rules/index.js
        • packages/eslint-config-eslint/nodejs.js
        • packages/eslint-config-eslint/index.js
@@ -476,8 +476,8 @@ Repository: sample-repos/eslint
        • messages/shared.js
        • messages/print-config-with-directory-path.js
        • messages/config-file-missing.js
-       • docs/postcss.config.js
        • conf/default-cli-options.js
+       • docs/postcss.config.js
        • lib/types/universal.d.ts
        • lib/types/rules.d.ts
        • lib/types/index.d.ts
@@ -500,8 +500,8 @@ Repository: sample-repos/eslint
        • messages/shared.js
        • messages/print-config-with-directory-path.js
        • messages/config-file-missing.js
-       • docs/postcss.config.js
        • conf/default-cli-options.js
+       • docs/postcss.config.js
        • lib/types/universal.d.ts
        • lib/types/rules.d.ts
        • lib/types/index.d.ts
@@ -524,13 +524,13 @@ Repository: sample-repos/eslint
        • webpack.config.js
        • cypress.config.js
        • tools/update-eslint-all.js
+       • lib/unsupported-api.js
+       • lib/universal.js
+       • lib/options.js
+       • lib/config-api.js
+       • lib/api.js
        • messages/whitespace-found.js
        • messages/shared.js
-       • messages/print-config-with-directory-path.js
-       • messages/plugin-missing.js
-       • messages/plugin-invalid.js
-       • messages/plugin-conflict.js
-       • messages/no-config-found.js
 
    Unknown:
      📄 Files WITH Unknown (showing 10):
@@ -553,8 +553,8 @@ Repository: sample-repos/eslint
        • lib/universal.js
        • lib/config-api.js
        • lib/api.js
-       • docs/postcss.config.js
        • conf/globals.js
+       • conf/ecma-version.js
 
    TemplateElement:
      📄 Files WITH TemplateElement (showing 10):
@@ -566,8 +566,8 @@ Repository: sample-repos/eslint
        • tools/code-sample-minimizer.js
        • tools/check-rule-examples.js
        • tools/check-emfile-handling.js
-       • messages/whitespace-found.js
-       • messages/shared.js
+       • lib/options.js
+       • lib/cli.js
      📄 Files WITHOUT TemplateElement (showing 10):
        • webpack.config.js
        • cypress.config.js
@@ -595,14 +595,14 @@ Repository: sample-repos/eslint
      📄 Files WITHOUT ArrowFunctionExpression (showing 10):
        • tools/update-eslint-all.js
        • tools/fuzzer-runner.js
+       • lib/unsupported-api.js
+       • lib/universal.js
+       • lib/config-api.js
+       • lib/api.js
        • messages/whitespace-found.js
        • messages/shared.js
        • messages/print-config-with-directory-path.js
        • messages/plugin-missing.js
-       • messages/plugin-invalid.js
-       • messages/plugin-conflict.js
-       • messages/no-config-found.js
-       • messages/invalid-rule-severity.js
 
    AssignmentExpression:
      📄 Files WITH AssignmentExpression (showing 10):
@@ -617,16 +617,16 @@ Repository: sample-repos/eslint
        • tools/fetch-docs-links.js
        • tools/eslint-fuzzer.js
      📄 Files WITHOUT AssignmentExpression (showing 10):
+       • tests/tools/code-sample-minimizer.js
+       • tests/tools/check-rule-examples.js
+       • tests/lib/unsupported-api.js
+       • tests/lib/universal.js
+       • tests/lib/options.js
+       • tests/conf/eslint-recommended.js
+       • tests/conf/eslint-all.js
        • lib/types/use-at-your-own-risk.d.ts
        • lib/types/universal.d.ts
        • lib/types/rules.d.ts
-       • lib/types/index.d.ts
-       • lib/types/config-api.d.ts
-       • tests/tools/code-sample-minimizer.js
-       • tests/tools/check-rule-examples.js
-       • tests/conf/eslint-recommended.js
-       • tests/conf/eslint-all.js
-       • tests/lib/unsupported-api.js
 
    IfStatement:
      📄 Files WITH IfStatement (showing 10):
@@ -646,11 +646,11 @@ Repository: sample-repos/eslint
        • cypress.config.js
        • tools/update-readme.js
        • tools/fuzzer-runner.js
+       • lib/unsupported-api.js
+       • lib/universal.js
+       • lib/config-api.js
+       • lib/api.js
        • messages/whitespace-found.js
-       • messages/shared.js
-       • messages/print-config-with-directory-path.js
-       • messages/plugin-missing.js
-       • messages/plugin-invalid.js
 
    ReturnStatement:
      📄 Files WITH ReturnStatement (showing 10):
@@ -671,10 +671,10 @@ Repository: sample-repos/eslint
        • lib/unsupported-api.js
        • lib/universal.js
        • lib/config-api.js
-       • docs/postcss.config.js
        • conf/globals.js
        • conf/ecma-version.js
        • conf/default-cli-options.js
+       • docs/postcss.config.js
 
    TemplateLiteral:
      📄 Files WITH TemplateLiteral (showing 10):
@@ -686,8 +686,8 @@ Repository: sample-repos/eslint
        • tools/code-sample-minimizer.js
        • tools/check-rule-examples.js
        • tools/check-emfile-handling.js
-       • messages/whitespace-found.js
-       • messages/shared.js
+       • lib/options.js
+       • lib/cli.js
      📄 Files WITHOUT TemplateLiteral (showing 10):
        • webpack.config.js
        • cypress.config.js
@@ -708,10 +708,10 @@ Repository: sample-repos/eslint
        • tools/config-rule.js
        • tools/code-sample-minimizer.js
        • tools/check-rule-examples.js
-       • messages/eslintrc-plugins.js
-       • messages/config-serialize-function.js
        • lib/cli.js
        • lib/api.js
+       • messages/eslintrc-plugins.js
+       • messages/config-serialize-function.js
      📄 Files WITHOUT LogicalExpression (showing 10):
        • webpack.config.js
        • eslint.config.js
@@ -721,8 +721,8 @@ Repository: sample-repos/eslint
        • tools/fuzzer-runner.js
        • tools/fetch-docs-links.js
        • tools/check-emfile-handling.js
-       • messages/whitespace-found.js
-       • messages/shared.js
+       • lib/unsupported-api.js
+       • lib/universal.js
 
    UnaryExpression:
      📄 Files WITH UnaryExpression (showing 10):
@@ -734,8 +734,8 @@ Repository: sample-repos/eslint
        • tools/config-rule.js
        • tools/code-sample-minimizer.js
        • tools/check-rule-examples.js
-       • messages/eslintrc-plugins.js
        • lib/options.js
+       • lib/cli.js
      📄 Files WITHOUT UnaryExpression (showing 10):
        • webpack.config.js
        • eslint.config.js
@@ -743,10 +743,10 @@ Repository: sample-repos/eslint
        • tools/update-readme.js
        • tools/fuzzer-runner.js
        • tools/check-emfile-handling.js
-       • messages/whitespace-found.js
-       • messages/shared.js
-       • messages/print-config-with-directory-path.js
-       • messages/plugin-missing.js
+       • lib/unsupported-api.js
+       • lib/universal.js
+       • lib/config-api.js
+       • lib/api.js
 
    FunctionExpression:
      📄 Files WITH FunctionExpression (showing 10):
@@ -756,10 +756,10 @@ Repository: sample-repos/eslint
        • tools/eslint-fuzzer.js
        • tools/config-rule.js
        • tools/check-rule-examples.js
+       • lib/options.js
+       • lib/cli.js
        • messages/whitespace-found.js
        • messages/print-config-with-directory-path.js
-       • messages/plugin-missing.js
-       • messages/plugin-invalid.js
      📄 Files WITHOUT FunctionExpression (showing 10):
        • webpack.config.js
        • eslint.config.js
@@ -769,8 +769,8 @@ Repository: sample-repos/eslint
        • tools/fetch-docs-links.js
        • tools/code-sample-minimizer.js
        • tools/check-emfile-handling.js
-       • messages/shared.js
        • lib/unsupported-api.js
+       • lib/universal.js
 
    NewExpression:
      📄 Files WITH NewExpression (showing 10):
@@ -790,11 +790,11 @@ Repository: sample-repos/eslint
        • tools/update-eslint-all.js
        • tools/eslint-fuzzer.js
        • tools/code-sample-minimizer.js
-       • messages/whitespace-found.js
-       • messages/shared.js
-       • messages/print-config-with-directory-path.js
-       • messages/plugin-missing.js
-       • messages/plugin-invalid.js
+       • lib/unsupported-api.js
+       • lib/universal.js
+       • lib/options.js
+       • lib/config-api.js
+       • lib/api.js
 
    TaggedTemplateExpression:
      📄 Files WITH TaggedTemplateExpression (showing 10):
@@ -805,9 +805,9 @@ Repository: sample-repos/eslint
        • tests/lib/shared/runtime-info.js
        • tests/lib/eslint/legacy-eslint.js
        • tests/lib/eslint/eslint.js
-       • tests/lib/linter/linter.js
-       • tests/lib/cli-engine/cli-engine.js
        • tests/lib/rules/prefer-named-capture-group.js
+       • tests/lib/rules/object-shorthand.js
+       • tests/lib/rules/no-useless-escape.js
      📄 Files WITHOUT TaggedTemplateExpression (showing 10):
        • webpack.config.js
        • eslint.config.js
@@ -823,15 +823,15 @@ Repository: sample-repos/eslint
    ThisExpression:
      📄 Files WITH ThisExpression (showing 10):
        • tools/config-rule.js
+       • tests/performance/jshint.js
+       • tests/tools/eslint-fuzzer.js
+       • tests/lib/cli.js
+       • tests/bench/large.js
        • lib/services/warning-service.js
        • lib/services/suppressions-service.js
-       • lib/rule-tester/rule-tester.js
        • lib/shared/traverser.js
+       • lib/rule-tester/rule-tester.js
        • lib/linter/vfile.js
-       • lib/linter/source-code-visitor.js
-       • lib/linter/source-code-traverser.js
-       • lib/linter/source-code-fixer.js
-       • lib/linter/rules.js
      📄 Files WITHOUT ThisExpression (showing 10):
        • webpack.config.js
        • eslint.config.js
@@ -849,13 +849,13 @@ Repository: sample-repos/eslint
        • lib/types/use-at-your-own-risk.d.ts
        • lib/types/rules.d.ts
        • lib/types/index.d.ts
-       • packages/js/types/index.d.ts
+       • tests/lib/types/types.test.ts
        • packages/eslint-config-eslint/types/nodejs.d.ts
        • packages/eslint-config-eslint/types/index.d.ts
        • packages/eslint-config-eslint/types/formatting.d.ts
        • packages/eslint-config-eslint/types/cjs.d.ts
        • packages/eslint-config-eslint/types/base.d.ts
-       • tests/lib/types/types.test.ts
+       • packages/js/types/index.d.ts
      📄 Files WITHOUT TSTypeAnnotation (showing 10):
        • webpack.config.js
        • eslint.config.js
@@ -884,13 +884,13 @@ Repository: sample-repos/eslint
        • webpack.config.js
        • cypress.config.js
        • tools/update-eslint-all.js
+       • lib/unsupported-api.js
+       • lib/universal.js
+       • lib/options.js
+       • lib/config-api.js
        • messages/whitespace-found.js
        • messages/print-config-with-directory-path.js
        • messages/plugin-missing.js
-       • messages/plugin-invalid.js
-       • messages/plugin-conflict.js
-       • messages/no-config-found.js
-       • messages/invalid-rule-severity.js
 
    ParenthesizedExpression:
      📄 Files WITH ParenthesizedExpression (showing 10):
@@ -902,8 +902,8 @@ Repository: sample-repos/eslint
        • tools/eslint-fuzzer.js
        • tools/code-sample-minimizer.js
        • tools/check-rule-examples.js
-       • messages/config-serialize-function.js
        • lib/cli.js
+       • lib/api.js
      📄 Files WITHOUT ParenthesizedExpression (showing 10):
        • webpack.config.js
        • cypress.config.js
@@ -911,23 +911,23 @@ Repository: sample-repos/eslint
        • tools/fuzzer-runner.js
        • tools/config-rule.js
        • tools/check-emfile-handling.js
-       • messages/whitespace-found.js
-       • messages/shared.js
-       • messages/print-config-with-directory-path.js
-       • messages/plugin-missing.js
+       • lib/unsupported-api.js
+       • lib/universal.js
+       • lib/options.js
+       • lib/config-api.js
 
    TSTypeReference:
      📄 Files WITH TSTypeReference (showing 10):
        • lib/types/use-at-your-own-risk.d.ts
        • lib/types/rules.d.ts
        • lib/types/index.d.ts
-       • packages/js/types/index.d.ts
+       • tests/lib/types/types.test.ts
        • packages/eslint-config-eslint/types/nodejs.d.ts
        • packages/eslint-config-eslint/types/index.d.ts
        • packages/eslint-config-eslint/types/formatting.d.ts
        • packages/eslint-config-eslint/types/cjs.d.ts
        • packages/eslint-config-eslint/types/base.d.ts
-       • tests/lib/types/types.test.ts
+       • packages/js/types/index.d.ts
      📄 Files WITHOUT TSTypeReference (showing 10):
        • webpack.config.js
        • eslint.config.js
@@ -950,8 +950,8 @@ Repository: sample-repos/eslint
        • lib/cli.js
        • lib/api.js
        • bin/eslint.js
-       • lib/services/suppressions-service.js
-       • lib/eslint/legacy-eslint.js
+       • tests/tools/check-rule-examples.js
+       • tests/lib/cli.js
      📄 Files WITHOUT AwaitExpression (showing 10):
        • webpack.config.js
        • eslint.config.js
@@ -962,15 +962,15 @@ Repository: sample-repos/eslint
        • tools/eslint-fuzzer.js
        • tools/config-rule.js
        • tools/code-sample-minimizer.js
-       • messages/whitespace-found.js
+       • lib/unsupported-api.js
 
    TSPropertySignature:
      📄 Files WITH TSPropertySignature (showing 5):
        • lib/types/use-at-your-own-risk.d.ts
        • lib/types/rules.d.ts
        • lib/types/index.d.ts
-       • packages/js/types/index.d.ts
        • tests/lib/types/types.test.ts
+       • packages/js/types/index.d.ts
      📄 Files WITHOUT TSPropertySignature (showing 10):
        • webpack.config.js
        • eslint.config.js
@@ -985,6 +985,8 @@ Repository: sample-repos/eslint
 
    SwitchCase:
      📄 Files WITH SwitchCase (showing 10):
+       • tests/performance/jshint.js
+       • tests/bench/large.js
        • lib/linter/source-code-traverser.js
        • lib/linter/linter.js
        • lib/linter/esquery.js
@@ -993,8 +995,6 @@ Repository: sample-repos/eslint
        • lib/rules/rest-spread-spacing.js
        • lib/rules/radix.js
        • lib/rules/quotes.js
-       • lib/rules/prefer-regex-literals.js
-       • lib/rules/prefer-object-spread.js
      📄 Files WITHOUT SwitchCase (showing 10):
        • webpack.config.js
        • eslint.config.js
@@ -1017,8 +1017,8 @@ Repository: sample-repos/eslint
        • tools/config-rule.js
        • tools/code-sample-minimizer.js
        • tools/check-rule-examples.js
-       • messages/shared.js
-       • messages/file-not-found.js
+       • lib/options.js
+       • lib/cli.js
      📄 Files WITHOUT ConditionalExpression (showing 10):
        • webpack.config.js
        • eslint.config.js
@@ -1026,23 +1026,23 @@ Repository: sample-repos/eslint
        • tools/update-eslint-all.js
        • tools/fetch-docs-links.js
        • tools/check-emfile-handling.js
+       • lib/unsupported-api.js
+       • lib/universal.js
+       • lib/config-api.js
        • messages/whitespace-found.js
-       • messages/print-config-with-directory-path.js
-       • messages/plugin-missing.js
-       • messages/plugin-invalid.js
 
    TSQualifiedName:
      📄 Files WITH TSQualifiedName (showing 10):
        • lib/types/use-at-your-own-risk.d.ts
        • lib/types/rules.d.ts
        • lib/types/index.d.ts
-       • packages/js/types/index.d.ts
+       • tests/lib/types/types.test.ts
        • packages/eslint-config-eslint/types/nodejs.d.ts
        • packages/eslint-config-eslint/types/index.d.ts
        • packages/eslint-config-eslint/types/formatting.d.ts
        • packages/eslint-config-eslint/types/cjs.d.ts
        • packages/eslint-config-eslint/types/base.d.ts
-       • tests/lib/types/types.test.ts
+       • packages/js/types/index.d.ts
      📄 Files WITHOUT TSQualifiedName (showing 10):
        • webpack.config.js
        • eslint.config.js
@@ -1071,13 +1071,13 @@ Repository: sample-repos/eslint
        • webpack.config.js
        • tools/update-eslint-all.js
        • tools/config-rule.js
+       • lib/options.js
        • messages/shared.js
        • messages/print-config-with-directory-path.js
        • messages/config-file-missing.js
-       • lib/options.js
-       • docs/postcss.config.js
        • conf/globals.js
        • conf/ecma-version.js
+       • conf/default-cli-options.js
 
    Program:
      📄 Files WITH Program (showing 10):
@@ -1116,9 +1116,9 @@ Repository: sample-repos/eslint
        • lib/types/use-at-your-own-risk.d.ts
        • lib/types/rules.d.ts
        • lib/types/index.d.ts
-       • packages/js/types/index.d.ts
-       • packages/eslint-config-eslint/types/formatting.d.ts
        • tests/lib/types/types.test.ts
+       • packages/eslint-config-eslint/types/formatting.d.ts
+       • packages/js/types/index.d.ts
      📄 Files WITHOUT TSTypeParameterInstantiation (showing 10):
        • webpack.config.js
        • eslint.config.js
@@ -1136,8 +1136,8 @@ Repository: sample-repos/eslint
        • lib/types/use-at-your-own-risk.d.ts
        • lib/types/rules.d.ts
        • lib/types/index.d.ts
-       • packages/eslint-config-eslint/types/formatting.d.ts
        • tests/lib/types/types.test.ts
+       • packages/eslint-config-eslint/types/formatting.d.ts
      📄 Files WITHOUT TSLiteralType (showing 10):
        • webpack.config.js
        • eslint.config.js
@@ -1161,7 +1161,7 @@ Repository: sample-repos/eslint
        • lib/cli.js
        • conf/globals.js
        • tools/internal-rules/index.js
-       • packages/eslint-config-eslint/nodejs.js
+       • tests/tools/check-rule-examples.js
      📄 Files WITHOUT SpreadElement (showing 10):
        • webpack.config.js
        • cypress.config.js
@@ -1171,8 +1171,8 @@ Repository: sample-repos/eslint
        • tools/fetch-docs-links.js
        • tools/config-rule.js
        • tools/check-emfile-handling.js
-       • messages/whitespace-found.js
-       • messages/shared.js
+       • lib/unsupported-api.js
+       • lib/universal.js
 
    MethodDefinition:
      📄 Files WITH MethodDefinition (showing 10):
@@ -1183,8 +1183,8 @@ Repository: sample-repos/eslint
        • lib/services/suppressions-service.js
        • lib/services/processor-service.js
        • lib/services/parser-service.js
-       • lib/rule-tester/rule-tester.js
        • lib/shared/traverser.js
+       • lib/rule-tester/rule-tester.js
        • lib/linter/vfile.js
      📄 Files WITHOUT MethodDefinition (showing 10):
        • webpack.config.js
@@ -1201,6 +1201,8 @@ Repository: sample-repos/eslint
    BreakStatement:
      📄 Files WITH BreakStatement (showing 10):
        • tools/config-rule.js
+       • tests/performance/jshint.js
+       • tests/bench/large.js
        • lib/linter/source-code-traverser.js
        • lib/linter/linter.js
        • lib/linter/apply-disable-directives.js
@@ -1208,8 +1210,6 @@ Repository: sample-repos/eslint
        • lib/config/config.js
        • lib/rules/vars-on-top.js
        • lib/rules/strict.js
-       • lib/rules/rest-spread-spacing.js
-       • lib/rules/require-atomic-updates.js
      📄 Files WITHOUT BreakStatement (showing 10):
        • webpack.config.js
        • eslint.config.js
@@ -1265,10 +1265,10 @@ Repository: sample-repos/eslint
        • tools/code-sample-minimizer.js
        • tools/check-emfile-handling.js
        • tools/internal-rules/no-invalid-meta.js
+       • tests/performance/jshint.js
+       • tests/bin/eslint.js
+       • tests/bench/large.js
        • lib/services/suppressions-service.js
-       • lib/rule-tester/rule-tester.js
-       • lib/shared/traverser.js
-       • lib/shared/string-utils.js
      📄 Files WITHOUT UpdateExpression (showing 10):
        • webpack.config.js
        • eslint.config.js
@@ -1279,7 +1279,7 @@ Repository: sample-repos/eslint
        • tools/fuzzer-runner.js
        • tools/fetch-docs-links.js
        • tools/check-rule-examples.js
-       • messages/whitespace-found.js
+       • lib/unsupported-api.js
 
    TSTupleType:
      📄 Files WITH TSTupleType (showing 3):
@@ -1303,8 +1303,8 @@ Repository: sample-repos/eslint
        • lib/types/use-at-your-own-risk.d.ts
        • lib/types/rules.d.ts
        • lib/types/index.d.ts
-       • packages/js/types/index.d.ts
        • tests/lib/types/types.test.ts
+       • packages/js/types/index.d.ts
      📄 Files WITHOUT TSTypeLiteral (showing 10):
        • webpack.config.js
        • eslint.config.js
@@ -1322,8 +1322,8 @@ Repository: sample-repos/eslint
        • lib/types/use-at-your-own-risk.d.ts
        • lib/types/rules.d.ts
        • lib/types/index.d.ts
-       • packages/js/types/index.d.ts
        • tests/lib/types/types.test.ts
+       • packages/js/types/index.d.ts
        • packages/js/tests/types/types.test.ts
      📄 Files WITHOUT TSStringKeyword (showing 10):
        • webpack.config.js
@@ -1345,10 +1345,10 @@ Repository: sample-repos/eslint
        • tools/code-sample-minimizer.js
        • tools/check-emfile-handling.js
        • tools/internal-rules/no-invalid-meta.js
-       • lib/rule-tester/rule-tester.js
+       • tests/performance/jshint.js
+       • tests/bench/large.js
        • lib/shared/traverser.js
-       • lib/linter/timing.js
-       • lib/linter/apply-disable-directives.js
+       • lib/rule-tester/rule-tester.js
      📄 Files WITHOUT ForStatement (showing 10):
        • webpack.config.js
        • eslint.config.js
@@ -1359,7 +1359,7 @@ Repository: sample-repos/eslint
        • tools/fuzzer-runner.js
        • tools/fetch-docs-links.js
        • tools/check-rule-examples.js
-       • messages/whitespace-found.js
+       • lib/unsupported-api.js
 
    ThrowStatement:
      📄 Files WITH ThrowStatement (showing 10):
@@ -1367,12 +1367,12 @@ Repository: sample-repos/eslint
        • tools/update-rule-type-headers.js
        • tools/check-emfile-handling.js
        • lib/cli.js
+       • tests/performance/jshint.js
+       • tests/tools/eslint-fuzzer.js
+       • tests/bench/large.js
+       • tests/_utils/test-lazy-loading-rules.js
        • lib/services/suppressions-service.js
        • lib/services/processor-service.js
-       • lib/services/parser-service.js
-       • lib/rule-tester/rule-tester.js
-       • lib/shared/severity.js
-       • lib/shared/runtime-info.js
      📄 Files WITHOUT ThrowStatement (showing 10):
        • webpack.config.js
        • eslint.config.js
@@ -1395,8 +1395,8 @@ Repository: sample-repos/eslint
        • tools/eslint-fuzzer.js
        • tools/config-rule.js
        • tools/code-sample-minimizer.js
-       • lib/rule-tester/rule-tester.js
-       • lib/shared/runtime-info.js
+       • tests/tools/config-rule.js
+       • tests/lib/cli.js
      📄 Files WITHOUT ArrayPattern (showing 10):
        • webpack.config.js
        • cypress.config.js
@@ -1404,10 +1404,10 @@ Repository: sample-repos/eslint
        • tools/fetch-docs-links.js
        • tools/check-rule-examples.js
        • tools/check-emfile-handling.js
-       • messages/whitespace-found.js
-       • messages/shared.js
-       • messages/print-config-with-directory-path.js
-       • messages/plugin-missing.js
+       • lib/unsupported-api.js
+       • lib/universal.js
+       • lib/options.js
+       • lib/config-api.js
 
    ForOfStatement:
      📄 Files WITH ForOfStatement (showing 10):
@@ -1419,8 +1419,8 @@ Repository: sample-repos/eslint
        • tools/config-rule.js
        • tools/code-sample-minimizer.js
        • tools/check-rule-examples.js
-       • messages/plugin-conflict.js
        • lib/cli.js
+       • messages/plugin-conflict.js
      📄 Files WITHOUT ForOfStatement (showing 10):
        • webpack.config.js
        • eslint.config.js
@@ -1428,10 +1428,10 @@ Repository: sample-repos/eslint
        • tools/update-readme.js
        • tools/fuzzer-runner.js
        • tools/check-emfile-handling.js
-       • messages/whitespace-found.js
-       • messages/shared.js
-       • messages/print-config-with-directory-path.js
-       • messages/plugin-missing.js
+       • lib/unsupported-api.js
+       • lib/universal.js
+       • lib/options.js
+       • lib/config-api.js
 
    TSFunctionType:
      📄 Files WITH TSFunctionType (showing 2):
@@ -1486,6 +1486,8 @@ Repository: sample-repos/eslint
    WhileStatement:
      📄 Files WITH WhileStatement (showing 10):
        • bin/eslint.js
+       • tests/performance/jshint.js
+       • tests/bench/large.js
        • lib/linter/source-code-traverser.js
        • lib/linter/linter.js
        • lib/linter/apply-disable-directives.js
@@ -1493,8 +1495,6 @@ Repository: sample-repos/eslint
        • lib/rules/prefer-template.js
        • lib/rules/prefer-object-spread.js
        • lib/rules/prefer-const.js
-       • lib/rules/prefer-arrow-callback.js
-       • lib/rules/padding-line-between-statements.js
      📄 Files WITHOUT WhileStatement (showing 10):
        • webpack.config.js
        • eslint.config.js
@@ -1512,11 +1512,11 @@ Repository: sample-repos/eslint
        • lib/types/use-at-your-own-risk.d.ts
        • lib/types/rules.d.ts
        • lib/types/index.d.ts
+       • tests/lib/types/types.test.ts
        • packages/eslint-config-eslint/types/nodejs.d.ts
        • packages/eslint-config-eslint/types/index.d.ts
        • packages/eslint-config-eslint/types/cjs.d.ts
        • packages/eslint-config-eslint/types/base.d.ts
-       • tests/lib/types/types.test.ts
        • packages/js/tests/types/types.test.ts
      📄 Files WITHOUT TSArrayType (showing 10):
        • webpack.config.js
@@ -1541,7 +1541,7 @@ Repository: sample-repos/eslint
        • lib/cli.js
        • lib/api.js
        • lib/services/warning-service.js
-       • lib/rule-tester/rule-tester.js
+       • lib/shared/serialization.js
      📄 Files WITHOUT AssignmentPattern (showing 10):
        • webpack.config.js
        • cypress.config.js
@@ -1551,8 +1551,8 @@ Repository: sample-repos/eslint
        • tools/fetch-docs-links.js
        • tools/eslint-fuzzer.js
        • tools/check-emfile-handling.js
-       • messages/whitespace-found.js
-       • messages/shared.js
+       • lib/unsupported-api.js
+       • lib/universal.js
 
    TSVoidKeyword:
      📄 Files WITH TSVoidKeyword (showing 3):
@@ -1573,6 +1573,8 @@ Repository: sample-repos/eslint
 
    SwitchStatement:
      📄 Files WITH SwitchStatement (showing 10):
+       • tests/performance/jshint.js
+       • tests/bench/large.js
        • lib/linter/source-code-traverser.js
        • lib/linter/linter.js
        • lib/linter/esquery.js
@@ -1581,8 +1583,6 @@ Repository: sample-repos/eslint
        • lib/rules/rest-spread-spacing.js
        • lib/rules/radix.js
        • lib/rules/quotes.js
-       • lib/rules/prefer-regex-literals.js
-       • lib/rules/prefer-object-spread.js
      📄 Files WITHOUT SwitchStatement (showing 10):
        • webpack.config.js
        • eslint.config.js
@@ -1605,8 +1605,8 @@ Repository: sample-repos/eslint
        • tools/check-emfile-handling.js
        • lib/cli.js
        • bin/eslint.js
-       • lib/services/suppressions-service.js
-       • lib/services/processor-service.js
+       • tests/performance/jshint.js
+       • tests/tools/eslint-fuzzer.js
      📄 Files WITHOUT TryStatement (showing 10):
        • webpack.config.js
        • eslint.config.js
@@ -1616,8 +1616,8 @@ Repository: sample-repos/eslint
        • tools/update-eslint-all.js
        • tools/fuzzer-runner.js
        • tools/config-rule.js
-       • messages/whitespace-found.js
-       • messages/shared.js
+       • lib/unsupported-api.js
+       • lib/universal.js
 
    TSNumberKeyword:
      📄 Files WITH TSNumberKeyword (showing 3):
@@ -1646,8 +1646,8 @@ Repository: sample-repos/eslint
        • tools/check-emfile-handling.js
        • lib/cli.js
        • bin/eslint.js
-       • lib/services/suppressions-service.js
-       • lib/services/processor-service.js
+       • tests/performance/jshint.js
+       • tests/tools/eslint-fuzzer.js
      📄 Files WITHOUT CatchClause (showing 10):
        • webpack.config.js
        • eslint.config.js
@@ -1657,21 +1657,21 @@ Repository: sample-repos/eslint
        • tools/update-eslint-all.js
        • tools/fuzzer-runner.js
        • tools/config-rule.js
-       • messages/whitespace-found.js
-       • messages/shared.js
+       • lib/unsupported-api.js
+       • lib/universal.js
 
    ContinueStatement:
      📄 Files WITH ContinueStatement (showing 10):
        • tools/eslint-fuzzer.js
        • tools/code-sample-minimizer.js
        • tools/check-rule-examples.js
+       • tests/performance/jshint.js
+       • tests/bench/large.js
        • lib/services/suppressions-service.js
        • lib/linter/linter.js
        • lib/linter/apply-disable-directives.js
        • lib/eslint/legacy-eslint.js
        • lib/eslint/eslint.js
-       • lib/eslint/eslint-helpers.js
-       • lib/config/flat-config-schema.js
      📄 Files WITHOUT ContinueStatement (showing 10):
        • webpack.config.js
        • eslint.config.js
@@ -1733,8 +1733,8 @@ Repository: sample-repos/eslint
    SequenceExpression:
      📄 Files WITH SequenceExpression (showing 5):
        • tools/eslint-fuzzer.js
-       • lib/rules/no-unused-vars.js
        • tests/performance/jshint.js
+       • lib/rules/no-unused-vars.js
        • docs/src/assets/js/inert-polyfill.js
        • docs/src/assets/js/css-vars-ponyfill@2.js
      📄 Files WITHOUT SequenceExpression (showing 10):
@@ -1758,8 +1758,8 @@ Repository: sample-repos/eslint
        • lib/services/suppressions-service.js
        • lib/services/processor-service.js
        • lib/services/parser-service.js
-       • lib/rule-tester/rule-tester.js
        • lib/shared/traverser.js
+       • lib/rule-tester/rule-tester.js
        • lib/linter/vfile.js
      📄 Files WITHOUT ClassBody (showing 10):
        • webpack.config.js
@@ -1775,12 +1775,12 @@ Repository: sample-repos/eslint
 
    ForInStatement:
      📄 Files WITH ForInStatement (showing 9):
-       • lib/services/suppressions-service.js
-       • lib/rule-tester/rule-tester.js
-       • lib/shared/serialization.js
-       • lib/eslint/legacy-eslint.js
        • tests/performance/jshint.js
        • tests/bench/large.js
+       • lib/services/suppressions-service.js
+       • lib/shared/serialization.js
+       • lib/rule-tester/rule-tester.js
+       • lib/eslint/legacy-eslint.js
        • lib/linter/code-path-analysis/debug-helpers.js
        • docs/src/assets/js/tabs.js
        • docs/src/assets/js/css-vars-ponyfill@2.js
@@ -1805,8 +1805,8 @@ Repository: sample-repos/eslint
        • lib/services/suppressions-service.js
        • lib/services/processor-service.js
        • lib/services/parser-service.js
-       • lib/rule-tester/rule-tester.js
        • lib/shared/traverser.js
+       • lib/rule-tester/rule-tester.js
        • lib/linter/vfile.js
      📄 Files WITHOUT ClassDeclaration (showing 10):
        • webpack.config.js
@@ -1900,7 +1900,7 @@ Repository: sample-repos/eslint
        • lib/types/rules.d.ts
        • lib/types/index.d.ts
        • lib/types/config-api.d.ts
-       • packages/js/types/index.d.ts
+       • tests/lib/types/types.test.ts
        • packages/eslint-config-eslint/types/nodejs.d.ts
        • packages/eslint-config-eslint/types/index.d.ts
        • packages/eslint-config-eslint/types/formatting.d.ts
@@ -1920,16 +1920,16 @@ Repository: sample-repos/eslint
 
    RestElement:
      📄 Files WITH RestElement (showing 10):
+       • tests/tools/check-rule-examples.js
+       • tests/lib/cli.js
+       • tests/_utils/index.js
        • lib/types/index.d.ts
-       • lib/rule-tester/rule-tester.js
        • lib/shared/logging.js
+       • lib/rule-tester/rule-tester.js
        • lib/linter/timing.js
        • lib/linter/source-code-visitor.js
        • lib/linter/report-translator.js
        • lib/linter/linter.js
-       • lib/linter/esquery.js
-       • lib/eslint/legacy-eslint.js
-       • lib/eslint/eslint.js
      📄 Files WITHOUT RestElement (showing 10):
        • webpack.config.js
        • eslint.config.js
@@ -2094,14 +2094,14 @@ Repository: sample-repos/eslint
      📄 Files WITH DoWhileStatement (showing 10):
        • Makefile.js
        • tools/eslint-fuzzer.js
+       • tests/performance/jshint.js
+       • tests/bench/large.js
        • lib/linter/linter.js
        • lib/rules/padding-line-between-statements.js
        • lib/rules/padded-blocks.js
        • lib/rules/no-useless-backreference.js
        • lib/rules/no-cond-assign.js
        • lib/rules/no-array-constructor.js
-       • lib/rules/max-lines.js
-       • lib/rules/max-len.js
      📄 Files WITHOUT DoWhileStatement (showing 10):
        • webpack.config.js
        • eslint.config.js
@@ -2150,7 +2150,7 @@ Repository: sample-repos/eslint
        • lib/types/rules.d.ts
        • lib/types/index.d.ts
        • lib/types/config-api.d.ts
-       • packages/js/types/index.d.ts
+       • tests/lib/types/types.test.ts
        • packages/eslint-config-eslint/types/nodejs.d.ts
        • packages/eslint-config-eslint/types/index.d.ts
        • packages/eslint-config-eslint/types/formatting.d.ts
@@ -2402,12 +2402,27 @@ Repository: sample-repos/eslint
 
    TSExportAssignment:
      📄 Files WITH TSExportAssignment (showing 5):
-       • packages/js/types/index.d.ts
        • packages/eslint-config-eslint/types/index.d.ts
        • packages/eslint-config-eslint/types/formatting.d.ts
        • packages/eslint-config-eslint/types/cjs.d.ts
        • packages/eslint-config-eslint/types/base.d.ts
+       • packages/js/types/index.d.ts
      📄 Files WITHOUT TSExportAssignment (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   EmptyStatement:
+     📄 Files WITH EmptyStatement (showing 1):
+       • tests/performance/jshint.js
+     📄 Files WITHOUT EmptyStatement (showing 10):
        • webpack.config.js
        • eslint.config.js
        • cypress.config.js
@@ -2441,21 +2456,6 @@ Repository: sample-repos/eslint
        • lib/types/use-at-your-own-risk.d.ts
        • lib/types/index.d.ts
      📄 Files WITHOUT TSDeclareFunction (showing 10):
-       • webpack.config.js
-       • eslint.config.js
-       • cypress.config.js
-       • Makefile.js
-       • tools/update-rule-type-headers.js
-       • tools/update-readme.js
-       • tools/update-eslint-all.js
-       • tools/fuzzer-runner.js
-       • tools/fetch-docs-links.js
-       • tools/eslint-fuzzer.js
-
-   EmptyStatement:
-     📄 Files WITH EmptyStatement (showing 1):
-       • tests/performance/jshint.js
-     📄 Files WITHOUT EmptyStatement (showing 10):
        • webpack.config.js
        • eslint.config.js
        • cypress.config.js

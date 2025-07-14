@@ -1,5 +1,5 @@
 AST Analysis Report for webpack
-Generated on: 2025-07-14T01:42:58.765Z
+Generated on: 2025-07-14T01:57:29.595Z
 Repository: sample-repos/webpack
 ================================================================================
 
@@ -287,20 +287,20 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
+       • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
      📄 Files WITHOUT Identifier (showing 10):
        • examples/wasm-complex/magic.js
+       • examples/virtual-modules/typescript.ts
        • examples/multi-compiler/mobile-stuff.js
        • examples/module-library/example.js
-       • examples/virtual-modules/typescript.ts
        • examples/lazy-compilation/all.js
        • examples/harmony-interop/reexport-commonjs.js
        • examples/chunkhash/example.js
        • examples/chunkhash/async2.js
        • examples/chunkhash/async1.js
-       • examples/reexport-components/pages/Login.js
+       • test/statsCases/split-chunks-prefer-bigger-splits/index.js
 
    Literal:
      📄 Files WITH Literal (showing 10):
@@ -311,20 +311,20 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
+       • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
      📄 Files WITHOUT Literal (showing 10):
+       • test/helpers/currentWatchStep.js
        • declarations/plugins/WatchIgnorePlugin.d.ts
        • declarations/plugins/LoaderOptionsPlugin.d.ts
        • declarations/plugins/JsonModulesPluginParser.d.ts
        • declarations/plugins/JsonModulesPluginGenerator.d.ts
        • declarations/plugins/IgnorePlugin.d.ts
        • declarations/plugins/DllPlugin.d.ts
-       • examples/require.resolve/a.js
-       • examples/reexport-components/example.js
-       • examples/multi-compiler/mobile-stuff.js
        • examples/virtual-modules/typescript.ts
+       • examples/reexport-components/example.js
+       • examples/require.resolve/a.js
 
    MemberExpression:
      📄 Files WITH MemberExpression (showing 10):
@@ -333,107 +333,107 @@ Repository: sample-repos/webpack
        • generate-types-config.js
        • eslint.config.mjs
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
+       • setup/setup.js
      📄 Files WITHOUT MemberExpression (showing 10):
        • module.d.ts
        • declarations.test.d.ts
-       • schemas/WebpackOptions.check.d.ts
-       • declarations/index.d.ts
-       • declarations/WebpackOptions.d.ts
-       • declarations/LoaderContext.d.ts
        • test/WatchTestCases.longtest.js
        • test/WatchCacheUnaffectedTestCases.longtest.js
        • test/TestCasesProduction.longtest.js
        • test/TestCasesProdGlobalUsed.test.js
+       • test/TestCasesNormal.basictest.js
+       • test/TestCasesMinimizedSourceMap.longtest.js
+       • test/TestCasesDevtoolSourceMap.longtest.js
+       • test/TestCasesDevtoolInlineSourceMap.longtest.js
 
    CallExpression:
      📄 Files WITH CallExpression (showing 10):
        • jest.config.js
        • eslint.config.mjs
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
        • tooling/decode-debug-hash.js
-       • hot/signal.js
-       • hot/poll.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
+       • test/target-browserslist.unittest.js
+       • test/smartGrouping.unittest.js
      📄 Files WITHOUT CallExpression (showing 10):
        • types.d.ts
        • module.d.ts
        • generate-types-config.js
        • declarations.test.d.ts
        • declarations.d.ts
-       • schemas/WebpackOptions.check.d.ts
        • lib/RuntimeGlobals.js
        • lib/OptionsApply.js
        • lib/OptimizationStages.js
        • lib/ModuleTypeConstants.js
+       • lib/ModuleSourceTypesConstants.js
 
    ExpressionStatement:
      📄 Files WITH ExpressionStatement (showing 10):
        • jest.config.js
        • generate-types-config.js
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
        • tooling/decode-debug-hash.js
-       • hot/signal.js
-       • hot/poll.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
+       • test/target-browserslist.unittest.js
+       • test/smartGrouping.unittest.js
      📄 Files WITHOUT ExpressionStatement (showing 10):
        • types.d.ts
        • module.d.ts
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • schemas/WebpackOptions.check.d.ts
        • declarations/index.d.ts
        • declarations/WebpackOptions.d.ts
        • declarations/LoaderContext.d.ts
-       • schemas/plugins/WatchIgnorePlugin.check.d.ts
+       • schemas/WebpackOptions.check.d.ts
+       • declarations/plugins/WatchIgnorePlugin.d.ts
 
    Property:
      📄 Files WITH Property (showing 10):
        • jest.config.js
        • generate-types-config.js
        • eslint.config.mjs
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
-       • hot/signal.js
-       • hot/only-dev-server.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
+       • test/target-browserslist.unittest.js
+       • test/smartGrouping.unittest.js
      📄 Files WITHOUT Property (showing 10):
        • types.d.ts
        • module.d.ts
        • declarations.test.d.ts
        • declarations.d.ts
-       • schemas/WebpackOptions.check.d.ts
        • tooling/decode-debug-hash.js
-       • hot/poll.js
-       • hot/log.js
-       • hot/log-apply-result.js
-       • hot/lazy-compilation-web.js
+       • test/propertyAccess.unittest.js
+       • test/patch-node-env.js
+       • test/nonNumericOnlyHash.unittest.js
+       • test/extractUrlAndGlobal.unittest.js
+       • test/WebpackError.unittest.js
 
    BlockStatement:
      📄 Files WITH BlockStatement (showing 10):
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
-       • hot/signal.js
-       • hot/poll.js
-       • hot/only-dev-server.js
-       • hot/log.js
-       • hot/log-apply-result.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
+       • test/target-browserslist.unittest.js
+       • test/smartGrouping.unittest.js
+       • test/setupTestFramework.js
+       • test/propertyName.unittest.js
+       • test/propertyAccess.unittest.js
      📄 Files WITHOUT BlockStatement (showing 10):
        • types.d.ts
        • module.d.ts
@@ -442,9 +442,9 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • schemas/WebpackOptions.check.d.ts
        • tooling/decode-debug-hash.js
-       • hot/emitter.js
+       • test/WatchTestCases.longtest.js
+       • test/WatchCacheUnaffectedTestCases.longtest.js
 
    VariableDeclarator:
      📄 Files WITH VariableDeclarator (showing 10):
@@ -452,12 +452,12 @@ Repository: sample-repos/webpack
        • module.d.ts
        • jest.config.js
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
      📄 Files WITHOUT VariableDeclarator (showing 10):
        • generate-types-config.js
        • eslint.config.mjs
@@ -476,12 +476,12 @@ Repository: sample-repos/webpack
        • module.d.ts
        • jest.config.js
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
      📄 Files WITHOUT VariableDeclaration (showing 10):
        • generate-types-config.js
        • eslint.config.mjs
@@ -498,62 +498,62 @@ Repository: sample-repos/webpack
      📄 Files WITH AssignmentExpression (showing 10):
        • jest.config.js
        • generate-types-config.js
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
        • tooling/decode-debug-hash.js
-       • hot/only-dev-server.js
-       • hot/log.js
+       • setup/setup.js
+       • test/setupTestFramework.js
+       • test/patch-node-env.js
+       • test/compareLocations.unittest.js
      📄 Files WITHOUT AssignmentExpression (showing 10):
        • types.d.ts
        • module.d.ts
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • schemas/WebpackOptions.check.d.ts
-       • hot/signal.js
-       • hot/poll.js
-       • declarations/index.d.ts
-       • declarations/WebpackOptions.d.ts
+       • test/walkCssTokens.unittest.js
+       • test/target-browserslist.unittest.js
+       • test/smartGrouping.unittest.js
+       • test/propertyName.unittest.js
+       • test/propertyAccess.unittest.js
 
    ObjectExpression:
      📄 Files WITH ObjectExpression (showing 10):
        • jest.config.js
        • generate-types-config.js
        • eslint.config.mjs
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
-       • hot/signal.js
-       • hot/only-dev-server.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
+       • test/smartGrouping.unittest.js
+       • test/setupTestFramework.js
      📄 Files WITHOUT ObjectExpression (showing 10):
        • types.d.ts
        • module.d.ts
        • declarations.test.d.ts
        • declarations.d.ts
-       • schemas/WebpackOptions.check.d.ts
        • tooling/decode-debug-hash.js
-       • hot/poll.js
-       • hot/log.js
-       • hot/log-apply-result.js
-       • hot/lazy-compilation-web.js
+       • test/target-browserslist.unittest.js
+       • test/propertyName.unittest.js
+       • test/propertyAccess.unittest.js
+       • test/patch-node-env.js
+       • test/numberHash.unittest.js
 
    BinaryExpression:
      📄 Files WITH BinaryExpression (showing 10):
-       • schemas/WebpackOptions.check.js
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
-       • hot/signal.js
-       • hot/poll.js
-       • hot/only-dev-server.js
-       • hot/log.js
-       • hot/log-apply-result.js
-       • hot/lazy-compilation-web.js
+       • test/setupTestFramework.js
+       • test/numberHash.unittest.js
+       • test/deterministicGrouping.unittest.js
+       • test/compileBooleanMatcher.unittest.js
+       • test/compareStringsNumeric.unittest.js
+       • test/cleverMerge.unittest.js
+       • test/checkArrayExpectation.js
      📄 Files WITHOUT BinaryExpression (showing 10):
        • types.d.ts
        • module.d.ts
@@ -562,22 +562,22 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/decode-debug-hash.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
 
    IfStatement:
      📄 Files WITH IfStatement (showing 10):
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
-       • hot/signal.js
-       • hot/poll.js
-       • hot/only-dev-server.js
-       • hot/log.js
-       • hot/log-apply-result.js
+       • setup/setup.js
+       • test/setupTestFramework.js
+       • test/patch-node-env.js
+       • test/numberHash.unittest.js
+       • test/compareStringsNumeric.unittest.js
+       • test/checkArrayExpectation.js
+       • test/WatcherEvents.test.js
      📄 Files WITHOUT IfStatement (showing 10):
        • types.d.ts
        • module.d.ts
@@ -586,22 +586,22 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • schemas/WebpackOptions.check.d.ts
        • tooling/decode-debug-hash.js
-       • hot/emitter.js
+       • test/walkCssTokens.unittest.js
+       • test/target-browserslist.unittest.js
 
    Unknown:
      📄 Files WITH Unknown (showing 10):
        • generate-types-config.js
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
        • tooling/decode-debug-hash.js
-       • lib/validateSchema.js
-       • lib/formatLocation.js
-       • lib/cli.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
+       • test/target-browserslist.unittest.js
+       • test/smartGrouping.unittest.js
+       • test/setupTestFramework.js
      📄 Files WITHOUT Unknown (showing 10):
        • types.d.ts
        • module.d.ts
@@ -609,10 +609,10 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • schemas/WebpackOptions.check.d.ts
-       • hot/signal.js
-       • hot/poll.js
-       • hot/only-dev-server.js
+       • test/propertyName.unittest.js
+       • test/propertyAccess.unittest.js
+       • test/patch-node-env.js
+       • test/objectToMap.unittest.js
 
    TSTypeAnnotation:
      📄 Files WITH TSTypeAnnotation (showing 10):
@@ -620,36 +620,36 @@ Repository: sample-repos/webpack
        • module.d.ts
        • declarations.test.d.ts
        • declarations.d.ts
-       • schemas/WebpackOptions.check.d.ts
        • declarations/WebpackOptions.d.ts
        • declarations/LoaderContext.d.ts
-       • schemas/plugins/WatchIgnorePlugin.check.d.ts
-       • schemas/plugins/SourceMapDevToolPlugin.check.d.ts
-       • schemas/plugins/ProgressPlugin.check.d.ts
+       • schemas/WebpackOptions.check.d.ts
+       • declarations/plugins/WatchIgnorePlugin.d.ts
+       • declarations/plugins/SourceMapDevToolPlugin.d.ts
+       • declarations/plugins/ProgressPlugin.d.ts
      📄 Files WITHOUT TSTypeAnnotation (showing 10):
        • jest.config.js
        • generate-types-config.js
        • eslint.config.mjs
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
        • tooling/decode-debug-hash.js
-       • hot/signal.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
+       • test/target-browserslist.unittest.js
 
    ReturnStatement:
      📄 Files WITH ReturnStatement (showing 10):
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
        • tooling/print-cache-file.js
        • tooling/generate-runtime-code.js
-       • hot/signal.js
-       • hot/poll.js
-       • hot/only-dev-server.js
-       • hot/log.js
-       • hot/log-apply-result.js
-       • hot/lazy-compilation-web.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
+       • test/smartGrouping.unittest.js
+       • test/setupTestFramework.js
+       • test/compileBooleanMatcher.unittest.js
+       • test/compareStringsNumeric.unittest.js
+       • test/checkArrayExpectation.js
+       • test/WatcherEvents.test.js
      📄 Files WITHOUT ReturnStatement (showing 10):
        • types.d.ts
        • module.d.ts
@@ -658,22 +658,22 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • schemas/WebpackOptions.check.d.ts
        • tooling/generate-wasm-code.js
        • tooling/decode-debug-hash.js
+       • test/target-browserslist.unittest.js
 
    ThisExpression:
      📄 Files WITH ThisExpression (showing 10):
+       • test/setupTestFramework.js
+       • test/patch-node-env.js
+       • test/WebpackError.unittest.js
+       • test/TestCases.template.js
+       • test/JavascriptParser.unittest.js
+       • test/Defaults.unittest.js
+       • test/BenchmarkTestCases.benchmark.mjs
        • lib/WebpackError.js
        • lib/Watching.js
        • lib/WatchIgnorePlugin.js
-       • lib/WarnDeprecatedOptionPlugin.js
-       • lib/UnsupportedFeatureWarning.js
-       • lib/UnhandledSchemeError.js
-       • lib/Template.js
-       • lib/Stats.js
-       • lib/SourceMapDevToolPlugin.js
-       • lib/SourceMapDevToolModuleOptionsPlugin.js
      📄 Files WITHOUT ThisExpression (showing 10):
        • types.d.ts
        • module.d.ts
@@ -682,22 +682,22 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
+       • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
 
    ArrowFunctionExpression:
      📄 Files WITH ArrowFunctionExpression (showing 10):
-       • setup/setup.js
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
        • tooling/decode-debug-hash.js
-       • lib/webpack.js
-       • lib/validateSchema.js
-       • lib/index.js
-       • lib/formatLocation.js
-       • lib/cli.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
+       • test/target-browserslist.unittest.js
+       • test/smartGrouping.unittest.js
+       • test/setupTestFramework.js
+       • test/propertyName.unittest.js
      📄 Files WITHOUT ArrowFunctionExpression (showing 10):
        • types.d.ts
        • module.d.ts
@@ -706,22 +706,22 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
-       • hot/signal.js
+       • test/patch-node-env.js
+       • test/WatchTestCases.longtest.js
+       • test/WatchCacheUnaffectedTestCases.longtest.js
 
    UnaryExpression:
      📄 Files WITH UnaryExpression (showing 10):
        • types.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
        • tooling/print-cache-file.js
        • tooling/generate-runtime-code.js
-       • hot/signal.js
-       • hot/poll.js
-       • hot/only-dev-server.js
-       • hot/log.js
-       • hot/log-apply-result.js
+       • setup/setup.js
+       • test/setupTestFramework.js
+       • test/patch-node-env.js
+       • test/compileBooleanMatcher.unittest.js
+       • test/compareStringsNumeric.unittest.js
+       • test/compareLocations.unittest.js
+       • test/checkArrayExpectation.js
      📄 Files WITHOUT UnaryExpression (showing 10):
        • module.d.ts
        • jest.config.js
@@ -729,47 +729,47 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • schemas/WebpackOptions.check.d.ts
        • tooling/generate-wasm-code.js
        • tooling/decode-debug-hash.js
-       • hot/emitter.js
+       • test/walkCssTokens.unittest.js
+       • test/target-browserslist.unittest.js
 
    ArrayExpression:
      📄 Files WITH ArrayExpression (showing 10):
        • jest.config.js
        • generate-types-config.js
        • eslint.config.mjs
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
-       • hot/signal.js
-       • hot/poll.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
+       • test/target-browserslist.unittest.js
+       • test/smartGrouping.unittest.js
      📄 Files WITHOUT ArrayExpression (showing 10):
        • types.d.ts
        • module.d.ts
        • declarations.test.d.ts
        • declarations.d.ts
-       • schemas/WebpackOptions.check.d.ts
        • tooling/decode-debug-hash.js
-       • hot/log-apply-result.js
-       • hot/lazy-compilation-web.js
-       • hot/lazy-compilation-node.js
-       • hot/emitter.js
+       • test/setupTestFramework.js
+       • test/propertyName.unittest.js
+       • test/patch-node-env.js
+       • test/objectToMap.unittest.js
+       • test/nonNumericOnlyHash.unittest.js
 
    TemplateElement:
      📄 Files WITH TemplateElement (showing 10):
-       • setup/setup.js
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
-       • lib/validateSchema.js
-       • lib/formatLocation.js
-       • lib/cli.js
-       • lib/buildChunkGraph.js
-       • lib/WebpackOptionsApply.js
-       • lib/WebpackError.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
+       • test/target-browserslist.unittest.js
+       • test/smartGrouping.unittest.js
+       • test/setupTestFramework.js
+       • test/identifier.unittest.js
+       • test/formatLocation.unittest.js
      📄 Files WITHOUT TemplateElement (showing 10):
        • types.d.ts
        • module.d.ts
@@ -778,9 +778,9 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/decode-debug-hash.js
+       • test/propertyName.unittest.js
+       • test/propertyAccess.unittest.js
 
    Program:
      📄 Files WITH Program (showing 10):
@@ -791,9 +791,9 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
+       • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
      📄 Files WITHOUT Program: (all files contain this node type)
 
    TSTypeReference:
@@ -812,26 +812,26 @@ Repository: sample-repos/webpack
        • jest.config.js
        • generate-types-config.js
        • eslint.config.mjs
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
        • tooling/decode-debug-hash.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
+       • test/target-browserslist.unittest.js
 
    FunctionExpression:
      📄 Files WITH FunctionExpression (showing 10):
-       • hot/signal.js
-       • hot/poll.js
-       • hot/only-dev-server.js
-       • hot/log.js
-       • hot/log-apply-result.js
-       • hot/lazy-compilation-web.js
-       • hot/lazy-compilation-node.js
-       • hot/dev-server.js
-       • lib/index.js
-       • lib/WebpackOptionsDefaulter.js
+       • test/smartGrouping.unittest.js
+       • test/setupTestFramework.js
+       • test/patch-node-env.js
+       • test/compileBooleanMatcher.unittest.js
+       • test/checkArrayExpectation.js
+       • test/WebpackError.unittest.js
+       • test/TestCases.template.js
+       • test/StatsTestCases.basictest.js
+       • test/ProfilingPlugin.unittest.js
+       • test/ProfilingPlugin.test.js
      📄 Files WITHOUT FunctionExpression (showing 10):
        • types.d.ts
        • module.d.ts
@@ -840,22 +840,22 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
-
-   ParenthesizedExpression:
-     📄 Files WITH ParenthesizedExpression (showing 10):
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
-       • hot/signal.js
-       • hot/only-dev-server.js
-       • hot/log.js
-       • hot/lazy-compilation-node.js
-       • hot/dev-server.js
+
+   ParenthesizedExpression:
+     📄 Files WITH ParenthesizedExpression (showing 10):
+       • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
+       • setup/setup.js
+       • test/deterministicGrouping.unittest.js
+       • test/compareLocations.unittest.js
+       • test/cleverMerge.unittest.js
+       • test/checkArrayExpectation.js
+       • test/WatchTestCases.template.js
+       • test/WatchDetection.test.js
      📄 Files WITHOUT ParenthesizedExpression (showing 10):
        • types.d.ts
        • module.d.ts
@@ -864,22 +864,22 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • schemas/WebpackOptions.check.d.ts
        • tooling/decode-debug-hash.js
-       • hot/poll.js
+       • test/walkCssTokens.unittest.js
+       • test/target-browserslist.unittest.js
 
    LogicalExpression:
      📄 Files WITH LogicalExpression (showing 10):
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
        • tooling/print-cache-file.js
-       • hot/signal.js
-       • hot/poll.js
-       • hot/log.js
-       • hot/log-apply-result.js
-       • hot/lazy-compilation-web.js
-       • hot/lazy-compilation-node.js
-       • hot/dev-server.js
+       • setup/setup.js
+       • test/setupTestFramework.js
+       • test/patch-node-env.js
+       • test/compareLocations.unittest.js
+       • test/checkArrayExpectation.js
+       • test/WatchTestCases.template.js
+       • test/WatchSuspend.test.js
+       • test/WatchDetection.test.js
+       • test/TestCases.template.js
      📄 Files WITHOUT LogicalExpression (showing 10):
        • types.d.ts
        • module.d.ts
@@ -888,22 +888,22 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • schemas/WebpackOptions.check.d.ts
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
 
    NewExpression:
      📄 Files WITH NewExpression (showing 10):
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
-       • hot/signal.js
-       • hot/poll.js
-       • hot/only-dev-server.js
-       • hot/lazy-compilation-web.js
-       • hot/emitter.js
+       • setup/setup.js
+       • test/numberHash.unittest.js
+       • test/compileBooleanMatcher.unittest.js
+       • test/checkArrayExpectation.js
+       • test/WebpackError.unittest.js
+       • test/WatcherEvents.test.js
+       • test/WatchTestCases.template.js
      📄 Files WITHOUT NewExpression (showing 10):
        • types.d.ts
        • module.d.ts
@@ -912,33 +912,33 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • schemas/WebpackOptions.check.d.ts
        • tooling/decode-debug-hash.js
-       • hot/log.js
+       • test/walkCssTokens.unittest.js
+       • test/target-browserslist.unittest.js
 
    MethodDefinition:
      📄 Files WITH MethodDefinition (showing 10):
        • types.d.ts
        • declarations.d.ts
+       • test/patch-node-env.js
+       • test/WebpackError.unittest.js
+       • test/JavascriptParser.unittest.js
+       • test/Defaults.unittest.js
+       • test/Compiler.test.js
+       • test/AbstractMethodError.unittest.js
        • lib/WebpackOptionsDefaulter.js
        • lib/WebpackOptionsApply.js
-       • lib/WebpackIsIncludedPlugin.js
-       • lib/WebpackError.js
-       • lib/Watching.js
-       • lib/WatchIgnorePlugin.js
-       • lib/WarnNoModeSetPlugin.js
-       • lib/WarnDeprecatedOptionPlugin.js
      📄 Files WITHOUT MethodDefinition (showing 10):
        • module.d.ts
        • jest.config.js
        • generate-types-config.js
        • eslint.config.mjs
        • declarations.test.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
+       • setup/setup.js
 
    TSPropertySignature:
      📄 Files WITH TSPropertySignature (showing 10):
@@ -956,26 +956,26 @@ Repository: sample-repos/webpack
        • jest.config.js
        • generate-types-config.js
        • eslint.config.mjs
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
        • tooling/decode-debug-hash.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
+       • test/target-browserslist.unittest.js
 
    ConditionalExpression:
      📄 Files WITH ConditionalExpression (showing 10):
-       • schemas/WebpackOptions.check.js
        • tooling/generate-runtime-code.js
-       • hot/lazy-compilation-node.js
-       • hot/dev-server.js
-       • lib/webpack.js
-       • lib/cli.js
-       • lib/buildChunkGraph.js
-       • lib/WebpackOptionsApply.js
-       • lib/WebpackError.js
-       • lib/WatchIgnorePlugin.js
+       • test/setupTestFramework.js
+       • test/identifier.unittest.js
+       • test/compileBooleanMatcher.unittest.js
+       • test/WatchTestCases.template.js
+       • test/WatchDetection.test.js
+       • test/WasmHashes.unittest.js
+       • test/URLAbsoluteSpecifier.unittest.js
+       • test/TestCases.template.js
+       • test/StatsTestCases.basictest.js
      📄 Files WITHOUT ConditionalExpression (showing 10):
        • types.d.ts
        • module.d.ts
@@ -984,22 +984,22 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/decode-debug-hash.js
 
    SequenceExpression:
      📄 Files WITH SequenceExpression (showing 10):
-       • schemas/WebpackOptions.check.js
-       • lib/NormalModule.js
        • test/setupTestFramework.js
        • test/checkArrayExpectation.js
        • test/BinaryMiddleware.unittest.js
+       • lib/NormalModule.js
+       • schemas/WebpackOptions.check.js
+       • lib/util/semver.js
+       • lib/util/compileBooleanMatcher.js
+       • lib/stats/DefaultStatsFactoryPlugin.js
+       • lib/config/normalization.js
        • schemas/plugins/WatchIgnorePlugin.check.js
-       • schemas/plugins/SourceMapDevToolPlugin.check.js
-       • schemas/plugins/ProgressPlugin.check.js
-       • schemas/plugins/LoaderOptionsPlugin.check.js
-       • schemas/plugins/IgnorePlugin.check.js
      📄 Files WITHOUT SequenceExpression (showing 10):
        • types.d.ts
        • module.d.ts
@@ -1008,22 +1008,22 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.d.ts
-       • tooling/print-cache-file.js
-
-   TemplateLiteral:
-     📄 Files WITH TemplateLiteral (showing 10):
-       • setup/setup.js
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
-       • lib/validateSchema.js
-       • lib/formatLocation.js
-       • lib/cli.js
-       • lib/buildChunkGraph.js
-       • lib/WebpackOptionsApply.js
-       • lib/WebpackError.js
+
+   TemplateLiteral:
+     📄 Files WITH TemplateLiteral (showing 10):
+       • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
+       • test/target-browserslist.unittest.js
+       • test/smartGrouping.unittest.js
+       • test/setupTestFramework.js
+       • test/identifier.unittest.js
+       • test/formatLocation.unittest.js
      📄 Files WITHOUT TemplateLiteral (showing 10):
        • types.d.ts
        • module.d.ts
@@ -1032,9 +1032,9 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/decode-debug-hash.js
+       • test/propertyName.unittest.js
+       • test/propertyAccess.unittest.js
 
    TSStringKeyword:
      📄 Files WITH TSStringKeyword (showing 10):
@@ -1052,37 +1052,37 @@ Repository: sample-repos/webpack
        • jest.config.js
        • generate-types-config.js
        • eslint.config.mjs
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
        • tooling/decode-debug-hash.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
+       • test/target-browserslist.unittest.js
 
    ImportDeclaration:
      📄 Files WITH ImportDeclaration (showing 10):
        • types.d.ts
        • eslint.config.mjs
-       • declarations/LoaderContext.d.ts
        • test/BenchmarkTestCases.benchmark.mjs
+       • declarations/LoaderContext.d.ts
        • examples/worker/chat-worker.js
-       • examples/wasm-complex/example.js
        • examples/wasm-simple/math.js
        • examples/wasm-simple/example.js
+       • examples/wasm-complex/example.js
        • examples/wasm-bindgen-esm/example.js
-       • examples/top-level-await/example.js
+       • examples/virtual-modules/example.js
      📄 Files WITHOUT ImportDeclaration (showing 10):
        • module.d.ts
        • jest.config.js
        • generate-types-config.js
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
+       • setup/setup.js
 
    ExportNamedDeclaration:
      📄 Files WITH ExportNamedDeclaration (showing 10):
@@ -1102,24 +1102,24 @@ Repository: sample-repos/webpack
        • generate-types-config.js
        • eslint.config.mjs
        • declarations.test.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
+       • setup/setup.js
 
    ObjectPattern:
      📄 Files WITH ObjectPattern (showing 10):
-       • schemas/WebpackOptions.check.js
        • tooling/generate-wasm-code.js
-       • lib/webpack.js
-       • lib/validateSchema.js
-       • lib/cli.js
-       • lib/buildChunkGraph.js
-       • lib/WebpackOptionsDefaulter.js
-       • lib/WebpackOptionsApply.js
-       • lib/WebpackIsIncludedPlugin.js
-       • lib/WebpackError.js
+       • test/target-browserslist.unittest.js
+       • test/propertyName.unittest.js
+       • test/numberHash.unittest.js
+       • test/identifier.unittest.js
+       • test/compileBooleanMatcher.unittest.js
+       • test/compareStringsNumeric.unittest.js
+       • test/compareLocations.unittest.js
+       • test/cleverMerge.unittest.js
+       • test/WatcherEvents.test.js
      📄 Files WITHOUT ObjectPattern (showing 10):
        • types.d.ts
        • module.d.ts
@@ -1128,22 +1128,22 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
+       • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
 
    UpdateExpression:
      📄 Files WITH UpdateExpression (showing 10):
-       • schemas/WebpackOptions.check.js
        • tooling/print-cache-file.js
-       • lib/cli.js
-       • lib/buildChunkGraph.js
-       • lib/Template.js
-       • lib/SourceMapDevToolPlugin.js
-       • lib/ProgressPlugin.js
-       • lib/NormalModuleFactory.js
-       • lib/NormalModule.js
-       • lib/MultiCompiler.js
+       • test/setupTestFramework.js
+       • test/numberHash.unittest.js
+       • test/compareStringsNumeric.unittest.js
+       • test/checkArrayExpectation.js
+       • test/WatchTestCases.template.js
+       • test/Watch.test.js
+       • test/WasmHashes.unittest.js
+       • test/ProfilingPlugin.test.js
+       • test/PersistentCaching.test.js
      📄 Files WITHOUT UpdateExpression (showing 10):
        • types.d.ts
        • module.d.ts
@@ -1152,9 +1152,9 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
 
    TSUnionType:
      📄 Files WITH TSUnionType (showing 10):
@@ -1172,50 +1172,50 @@ Repository: sample-repos/webpack
        • jest.config.js
        • generate-types-config.js
        • eslint.config.mjs
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
        • tooling/decode-debug-hash.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
+       • test/target-browserslist.unittest.js
 
    ImportSpecifier:
      📄 Files WITH ImportSpecifier (showing 10):
        • types.d.ts
        • eslint.config.mjs
-       • declarations/LoaderContext.d.ts
        • test/BenchmarkTestCases.benchmark.mjs
+       • declarations/LoaderContext.d.ts
        • examples/worker/chat-worker.js
-       • examples/wasm-complex/example.js
        • examples/wasm-simple/math.js
        • examples/wasm-simple/example.js
+       • examples/wasm-complex/example.js
        • examples/wasm-bindgen-esm/example.js
-       • examples/top-level-await/example.js
+       • examples/virtual-modules/example.js
      📄 Files WITHOUT ImportSpecifier (showing 10):
        • module.d.ts
        • jest.config.js
        • generate-types-config.js
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
+       • setup/setup.js
 
    ForOfStatement:
      📄 Files WITH ForOfStatement (showing 10):
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
-       • lib/webpack.js
-       • lib/index.js
-       • lib/cli.js
-       • lib/buildChunkGraph.js
-       • lib/WebpackOptionsApply.js
-       • lib/Watching.js
-       • lib/WatchIgnorePlugin.js
+       • test/walkCssTokens.unittest.js
+       • test/target-browserslist.unittest.js
+       • test/numberHash.unittest.js
+       • test/identifier.unittest.js
+       • test/formatLocation.unittest.js
+       • test/compileBooleanMatcher.unittest.js
+       • test/compareStringsNumeric.unittest.js
      📄 Files WITHOUT ForOfStatement (showing 10):
        • types.d.ts
        • module.d.ts
@@ -1224,9 +1224,9 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
+       • tooling/decode-debug-hash.js
        • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
+       • test/smartGrouping.unittest.js
 
    TSLiteralType:
      📄 Files WITH TSLiteralType (showing 10):
@@ -1234,47 +1234,47 @@ Repository: sample-repos/webpack
        • module.d.ts
        • declarations.test.d.ts
        • declarations.d.ts
-       • schemas/WebpackOptions.check.d.ts
        • declarations/WebpackOptions.d.ts
        • declarations/LoaderContext.d.ts
-       • schemas/plugins/WatchIgnorePlugin.check.d.ts
-       • schemas/plugins/SourceMapDevToolPlugin.check.d.ts
-       • schemas/plugins/ProgressPlugin.check.d.ts
+       • schemas/WebpackOptions.check.d.ts
+       • declarations/plugins/SourceMapDevToolPlugin.d.ts
+       • declarations/plugins/ProgressPlugin.d.ts
+       • declarations/plugins/HashedModuleIdsPlugin.d.ts
      📄 Files WITHOUT TSLiteralType (showing 10):
        • jest.config.js
        • generate-types-config.js
        • eslint.config.mjs
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
        • tooling/decode-debug-hash.js
-       • hot/signal.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
+       • test/target-browserslist.unittest.js
 
    TSBooleanKeyword:
      📄 Files WITH TSBooleanKeyword (showing 10):
        • types.d.ts
        • module.d.ts
        • declarations.d.ts
-       • schemas/WebpackOptions.check.d.ts
        • declarations/WebpackOptions.d.ts
        • declarations/LoaderContext.d.ts
-       • schemas/plugins/WatchIgnorePlugin.check.d.ts
-       • schemas/plugins/SourceMapDevToolPlugin.check.d.ts
-       • schemas/plugins/ProgressPlugin.check.d.ts
-       • schemas/plugins/LoaderOptionsPlugin.check.d.ts
+       • schemas/WebpackOptions.check.d.ts
+       • declarations/plugins/SourceMapDevToolPlugin.d.ts
+       • declarations/plugins/ProgressPlugin.d.ts
+       • declarations/plugins/LoaderOptionsPlugin.d.ts
+       • declarations/plugins/JsonModulesPluginGenerator.d.ts
      📄 Files WITHOUT TSBooleanKeyword (showing 10):
        • jest.config.js
        • generate-types-config.js
        • eslint.config.mjs
        • declarations.test.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
        • tooling/decode-debug-hash.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
 
    TSEmptyBodyFunctionExpression:
      📄 Files WITH TSEmptyBodyFunctionExpression (showing 2):
@@ -1286,14 +1286,17 @@ Repository: sample-repos/webpack
        • generate-types-config.js
        • eslint.config.mjs
        • declarations.test.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
+       • setup/setup.js
 
    SwitchCase:
      📄 Files WITH SwitchCase (showing 10):
+       • test/MultiCompiler.test.js
+       • test/HotModuleReplacementPlugin.test.js
+       • test/BenchmarkTestCases.benchmark.mjs
        • lib/cli.js
        • lib/buildChunkGraph.js
        • lib/WebpackOptionsApply.js
@@ -1301,9 +1304,6 @@ Repository: sample-repos/webpack
        • lib/ProgressPlugin.js
        • lib/NodeStuffPlugin.js
        • lib/Module.js
-       • lib/FileSystemInfo.js
-       • lib/ExternalModule.js
-       • lib/ExportsInfo.js
      📄 Files WITHOUT SwitchCase (showing 10):
        • types.d.ts
        • module.d.ts
@@ -1312,9 +1312,9 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
+       • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
 
    TSTypeParameterInstantiation:
      📄 Files WITH TSTypeParameterInstantiation (showing 9):
@@ -1331,26 +1331,26 @@ Repository: sample-repos/webpack
        • jest.config.js
        • generate-types-config.js
        • eslint.config.mjs
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
        • tooling/decode-debug-hash.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
+       • test/target-browserslist.unittest.js
 
    FunctionDeclaration:
      📄 Files WITH FunctionDeclaration (showing 10):
        • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • hot/log.js
-       • hot/lazy-compilation-node.js
-       • lib/RuntimeTemplate.js
-       • lib/Generator.js
-       • lib/DefinePlugin.js
-       • lib/CleanPlugin.js
-       • lib/AbstractMethodError.js
-       • lib/APIPlugin.js
+       • test/WatchTestCases.template.js
+       • test/WatchDetection.test.js
+       • test/WatchClose.test.js
+       • test/MultiItemCache.unittest.js
+       • test/JavascriptParser.unittest.js
+       • test/HotTestCases.template.js
+       • test/FileSystemInfo.unittest.js
+       • test/Examples.test.js
+       • test/Errors.test.js
      📄 Files WITHOUT FunctionDeclaration (showing 10):
        • types.d.ts
        • module.d.ts
@@ -1359,9 +1359,9 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
 
    ImportExpression:
      📄 Files WITH ImportExpression (showing 10):
@@ -1371,8 +1371,8 @@ Repository: sample-repos/webpack
        • examples/worker/fib-worker.js
        • examples/worker/example.js
        • examples/top-level-await/Actions.js
-       • examples/scope-hoisting/example.js
        • examples/reexport-components/example.js
+       • examples/scope-hoisting/example.js
        • examples/module-worker/fib-worker.js
        • examples/module-worker/example.js
      📄 Files WITHOUT ImportExpression (showing 10):
@@ -1383,9 +1383,9 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
+       • tooling/print-cache-file.js
+       • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
 
    TSVoidKeyword:
      📄 Files WITH TSVoidKeyword (showing 10):
@@ -1403,50 +1403,50 @@ Repository: sample-repos/webpack
        • jest.config.js
        • generate-types-config.js
        • eslint.config.mjs
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
        • tooling/decode-debug-hash.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
+       • test/target-browserslist.unittest.js
 
    ClassBody:
      📄 Files WITH ClassBody (showing 10):
        • types.d.ts
        • declarations.d.ts
+       • test/patch-node-env.js
+       • test/WebpackError.unittest.js
+       • test/JavascriptParser.unittest.js
+       • test/Defaults.unittest.js
+       • test/Compiler.test.js
+       • test/AbstractMethodError.unittest.js
        • lib/WebpackOptionsDefaulter.js
        • lib/WebpackOptionsApply.js
-       • lib/WebpackIsIncludedPlugin.js
-       • lib/WebpackError.js
-       • lib/Watching.js
-       • lib/WatchIgnorePlugin.js
-       • lib/WarnNoModeSetPlugin.js
-       • lib/WarnDeprecatedOptionPlugin.js
      📄 Files WITHOUT ClassBody (showing 10):
        • module.d.ts
        • jest.config.js
        • generate-types-config.js
        • eslint.config.mjs
        • declarations.test.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
+       • setup/setup.js
 
    ImportDefaultSpecifier:
      📄 Files WITH ImportDefaultSpecifier (showing 10):
        • eslint.config.mjs
-       • declarations/LoaderContext.d.ts
        • test/BenchmarkTestCases.benchmark.mjs
+       • declarations/LoaderContext.d.ts
        • examples/virtual-modules/example.js
        • examples/mixed/harmony.js
        • examples/harmony-interop/example.js
        • examples/custom-json-modules/example.js
-       • examples/code-splitting-harmony/example.js
        • examples/code-splitting-depend-on-simple/app.js
        • examples/code-splitting-depend-on-advanced/page1.js
+       • examples/code-splitting-depend-on-advanced/other-vendors.js
      📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
        • types.d.ts
        • module.d.ts
@@ -1454,47 +1454,47 @@ Repository: sample-repos/webpack
        • generate-types-config.js
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
 
    ClassDeclaration:
      📄 Files WITH ClassDeclaration (showing 10):
        • types.d.ts
        • declarations.d.ts
+       • test/patch-node-env.js
+       • test/WebpackError.unittest.js
+       • test/JavascriptParser.unittest.js
+       • test/Defaults.unittest.js
+       • test/Compiler.test.js
+       • test/AbstractMethodError.unittest.js
        • lib/WebpackOptionsDefaulter.js
        • lib/WebpackOptionsApply.js
-       • lib/WebpackIsIncludedPlugin.js
-       • lib/WebpackError.js
-       • lib/Watching.js
-       • lib/WatchIgnorePlugin.js
-       • lib/WarnNoModeSetPlugin.js
-       • lib/WarnDeprecatedOptionPlugin.js
      📄 Files WITHOUT ClassDeclaration (showing 10):
        • module.d.ts
        • jest.config.js
        • generate-types-config.js
        • eslint.config.mjs
        • declarations.test.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
+       • setup/setup.js
 
    BreakStatement:
      📄 Files WITH BreakStatement (showing 10):
-       • schemas/WebpackOptions.check.js
+       • test/setupTestFramework.js
+       • test/numberHash.unittest.js
+       • test/checkArrayExpectation.js
+       • test/MultiCompiler.test.js
+       • test/HotModuleReplacementPlugin.test.js
        • lib/cli.js
        • lib/buildChunkGraph.js
        • lib/WebpackOptionsApply.js
        • lib/RuntimeTemplate.js
        • lib/RecordIdsPlugin.js
-       • lib/ProgressPlugin.js
-       • lib/NodeStuffPlugin.js
-       • lib/FlagDependencyUsagePlugin.js
-       • lib/FileSystemInfo.js
      📄 Files WITHOUT BreakStatement (showing 10):
        • types.d.ts
        • module.d.ts
@@ -1503,22 +1503,22 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.d.ts
-       • tooling/print-cache-file.js
-
-   AwaitExpression:
-     📄 Files WITH AwaitExpression (showing 10):
-       • setup/setup.js
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
-       • lib/ProgressPlugin.js
-       • lib/CacheFacade.js
+
+   AwaitExpression:
+     📄 Files WITH AwaitExpression (showing 10):
+       • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
+       • setup/setup.js
        • test/WatchTestCases.template.js
        • test/WatchSuspend.test.js
        • test/WatchClose.test.js
        • test/WasmHashes.unittest.js
+       • test/Stats.test.js
+       • test/PersistentCaching.test.js
      📄 Files WITHOUT AwaitExpression (showing 10):
        • types.d.ts
        • module.d.ts
@@ -1527,22 +1527,22 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/decode-debug-hash.js
+       • test/walkCssTokens.unittest.js
+       • test/target-browserslist.unittest.js
 
    ExportDefaultDeclaration:
      📄 Files WITH ExportDefaultDeclaration (showing 10):
        • eslint.config.mjs
-       • examples/mixed/harmony.js
-       • examples/harmony-interop/harmony.js
-       • examples/harmony-library/example.js
        • test/hotCases/update.esm.js
-       • examples/virtual-modules/routes/b.js
-       • examples/virtual-modules/routes/a.js
-       • examples/code-splitting-specify-chunk-name/templates/foo.js
-       • examples/code-splitting-specify-chunk-name/templates/baz.js
-       • examples/code-splitting-specify-chunk-name/templates/bar.js
+       • examples/mixed/harmony.js
+       • examples/harmony-library/example.js
+       • examples/harmony-interop/harmony.js
+       • test/statsCases/tree-shaking/require.include.js
+       • test/statsCases/split-chunks-prefer-bigger-splits/f.js
+       • test/statsCases/split-chunks-prefer-bigger-splits/e.js
+       • test/statsCases/split-chunks-prefer-bigger-splits/d.js
+       • test/statsCases/split-chunks-prefer-bigger-splits/c.js
      📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
        • types.d.ts
        • module.d.ts
@@ -1550,10 +1550,10 @@ Repository: sample-repos/webpack
        • generate-types-config.js
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
 
    TSFunctionType:
      📄 Files WITH TSFunctionType (showing 10):
@@ -1561,23 +1561,23 @@ Repository: sample-repos/webpack
        • module.d.ts
        • declarations.test.d.ts
        • declarations.d.ts
-       • schemas/WebpackOptions.check.d.ts
        • declarations/WebpackOptions.d.ts
        • declarations/LoaderContext.d.ts
-       • schemas/plugins/WatchIgnorePlugin.check.d.ts
-       • schemas/plugins/SourceMapDevToolPlugin.check.d.ts
-       • schemas/plugins/ProgressPlugin.check.d.ts
+       • schemas/WebpackOptions.check.d.ts
+       • declarations/plugins/SourceMapDevToolPlugin.d.ts
+       • declarations/plugins/ProgressPlugin.d.ts
+       • declarations/plugins/JsonModulesPluginParser.d.ts
      📄 Files WITHOUT TSFunctionType (showing 10):
        • jest.config.js
        • generate-types-config.js
        • eslint.config.mjs
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
        • tooling/decode-debug-hash.js
-       • hot/signal.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
+       • test/target-browserslist.unittest.js
 
    SpreadElement:
      📄 Files WITH SpreadElement (showing 10):
@@ -1585,12 +1585,12 @@ Repository: sample-repos/webpack
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
-       • lib/webpack.js
-       • lib/index.js
-       • lib/cli.js
-       • lib/WebpackOptionsApply.js
-       • lib/Watching.js
-       • lib/WatchIgnorePlugin.js
+       • test/compareLocations.unittest.js
+       • test/checkArrayExpectation.js
+       • test/WatchTestCases.template.js
+       • test/WatchSuspend.test.js
+       • test/WasmHashes.unittest.js
+       • test/TestCases.template.js
      📄 Files WITHOUT SpreadElement (showing 10):
        • types.d.ts
        • module.d.ts
@@ -1598,14 +1598,15 @@ Repository: sample-repos/webpack
        • generate-types-config.js
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/decode-debug-hash.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
+       • test/target-browserslist.unittest.js
 
    AssignmentPattern:
      📄 Files WITH AssignmentPattern (showing 10):
-       • schemas/WebpackOptions.check.js
+       • test/PersistentCaching.test.js
+       • test/BuildDependencies.longtest.js
        • lib/cli.js
        • lib/WebpackError.js
        • lib/Template.js
@@ -1614,7 +1615,6 @@ Repository: sample-repos/webpack
        • lib/RuntimeModule.js
        • lib/ResolverFactory.js
        • lib/ProgressPlugin.js
-       • lib/NormalModuleFactory.js
      📄 Files WITHOUT AssignmentPattern (showing 10):
        • types.d.ts
        • module.d.ts
@@ -1623,9 +1623,9 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
 
    TSArrayType:
      📄 Files WITH TSArrayType (showing 10):
@@ -1644,12 +1644,12 @@ Repository: sample-repos/webpack
        • generate-types-config.js
        • eslint.config.mjs
        • declarations.test.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
 
    ExportSpecifier:
      📄 Files WITH ExportSpecifier (showing 10):
@@ -1657,11 +1657,11 @@ Repository: sample-repos/webpack
        • declarations.d.ts
        • declarations/index.d.ts
        • examples/wasm-simple/math.js
+       • examples/virtual-modules/code.js
        • examples/scope-hoisting/lazy.js
        • examples/module-library/methods.js
        • examples/module/methods.js
        • examples/module/example.js
-       • examples/virtual-modules/code.js
        • examples/harmony-unused/library.js
      📄 Files WITHOUT ExportSpecifier (showing 10):
        • module.d.ts
@@ -1669,11 +1669,11 @@ Repository: sample-repos/webpack
        • generate-types-config.js
        • eslint.config.mjs
        • declarations.test.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
+       • setup/setup.js
 
    TSNumberKeyword:
      📄 Files WITH TSNumberKeyword (showing 10):
@@ -1692,12 +1692,12 @@ Repository: sample-repos/webpack
        • generate-types-config.js
        • eslint.config.mjs
        • declarations.test.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
 
    PropertyDefinition:
      📄 Files WITH PropertyDefinition (showing 10):
@@ -1717,24 +1717,24 @@ Repository: sample-repos/webpack
        • generate-types-config.js
        • eslint.config.mjs
        • declarations.test.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
-       • tooling/print-cache-file.js
-       • tooling/generate-wasm-code.js
-
-   ThrowStatement:
-     📄 Files WITH ThrowStatement (showing 10):
-       • setup/setup.js
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
-       • hot/signal.js
-       • hot/poll.js
-       • hot/only-dev-server.js
-       • hot/lazy-compilation-web.js
-       • hot/dev-server.js
-       • lib/index.js
+       • tooling/decode-debug-hash.js
+       • setup/setup.js
+
+   ThrowStatement:
+     📄 Files WITH ThrowStatement (showing 10):
+       • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
+       • setup/setup.js
+       • test/setupTestFramework.js
+       • test/Validation.test.js
+       • test/TestCasesModule.test.js
+       • test/ProgressPlugin.test.js
+       • test/ProfilingPlugin.unittest.js
+       • test/MultiCompiler.test.js
      📄 Files WITHOUT ThrowStatement (showing 10):
        • types.d.ts
        • module.d.ts
@@ -1743,9 +1743,9 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/decode-debug-hash.js
+       • test/walkCssTokens.unittest.js
+       • test/target-browserslist.unittest.js
 
    TSInterfaceDeclaration:
      📄 Files WITH TSInterfaceDeclaration (showing 10):
@@ -1763,13 +1763,13 @@ Repository: sample-repos/webpack
        • jest.config.js
        • generate-types-config.js
        • eslint.config.mjs
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
        • tooling/decode-debug-hash.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
+       • test/target-browserslist.unittest.js
 
    TSInterfaceBody:
      📄 Files WITH TSInterfaceBody (showing 10):
@@ -1787,13 +1787,13 @@ Repository: sample-repos/webpack
        • jest.config.js
        • generate-types-config.js
        • eslint.config.mjs
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
        • tooling/decode-debug-hash.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
+       • test/target-browserslist.unittest.js
 
    TSNullKeyword:
      📄 Files WITH TSNullKeyword (showing 7):
@@ -1809,15 +1809,17 @@ Repository: sample-repos/webpack
        • generate-types-config.js
        • eslint.config.mjs
        • declarations.test.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
 
    Super:
      📄 Files WITH Super (showing 10):
+       • test/patch-node-env.js
+       • test/WebpackError.unittest.js
        • lib/WebpackOptionsApply.js
        • lib/WebpackError.js
        • lib/WarnDeprecatedOptionPlugin.js
@@ -1826,8 +1828,6 @@ Repository: sample-repos/webpack
        • lib/RuntimeModule.js
        • lib/RawModule.js
        • lib/NormalModuleFactory.js
-       • lib/NormalModule.js
-       • lib/NodeStuffInWebError.js
      📄 Files WITHOUT Super (showing 10):
        • types.d.ts
        • module.d.ts
@@ -1836,9 +1836,9 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
+       • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
 
    TSParenthesizedType:
      📄 Files WITH TSParenthesizedType (showing 10):
@@ -1849,33 +1849,33 @@ Repository: sample-repos/webpack
        • declarations/LoaderContext.d.ts
        • declarations/plugins/WatchIgnorePlugin.d.ts
        • declarations/plugins/SourceMapDevToolPlugin.d.ts
+       • declarations/plugins/schemes/VirtualUrlPlugin.d.ts
+       • declarations/plugins/schemes/HttpUriPlugin.d.ts
        • declarations/plugins/sharing/SharePlugin.d.ts
-       • declarations/plugins/sharing/ProvideSharedPlugin.d.ts
-       • declarations/plugins/sharing/ConsumeSharedPlugin.d.ts
      📄 Files WITHOUT TSParenthesizedType (showing 10):
        • jest.config.js
        • generate-types-config.js
        • eslint.config.mjs
        • declarations.test.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
 
    TryStatement:
      📄 Files WITH TryStatement (showing 10):
        • setup/setup.js
-       • lib/webpack.js
-       • lib/RuntimeModule.js
-       • lib/NormalModuleFactory.js
-       • lib/NormalModule.js
-       • lib/HookWebpackError.js
-       • lib/FileSystemInfo.js
-       • lib/DllReferencePlugin.js
-       • lib/Compiler.js
-       • lib/Compilation.js
+       • test/setupTestFramework.js
+       • test/WatchTestCases.template.js
+       • test/WatchSuspend.test.js
+       • test/WatchDetection.test.js
+       • test/Validation.test.js
+       • test/StatsTestCases.basictest.js
+       • test/MultiStats.test.js
+       • test/MultiCompiler.test.js
+       • test/MemoryLimitTestCases.test.js
      📄 Files WITHOUT TryStatement (showing 10):
        • types.d.ts
        • module.d.ts
@@ -1884,9 +1884,9 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
 
    TSTypeLiteral:
      📄 Files WITH TSTypeLiteral (showing 10):
@@ -1904,13 +1904,13 @@ Repository: sample-repos/webpack
        • jest.config.js
        • generate-types-config.js
        • eslint.config.mjs
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
        • tooling/decode-debug-hash.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
+       • test/target-browserslist.unittest.js
 
    TSTypeAliasDeclaration:
      📄 Files WITH TSTypeAliasDeclaration (showing 10):
@@ -1928,16 +1928,19 @@ Repository: sample-repos/webpack
        • jest.config.js
        • generate-types-config.js
        • eslint.config.mjs
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
        • tooling/decode-debug-hash.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
+       • test/target-browserslist.unittest.js
 
    ContinueStatement:
      📄 Files WITH ContinueStatement (showing 10):
+       • test/HotTestCases.template.js
+       • test/Examples.test.js
+       • test/BinaryMiddleware.unittest.js
        • lib/cli.js
        • lib/buildChunkGraph.js
        • lib/WarnCaseSensitiveModulesPlugin.js
@@ -1945,9 +1948,6 @@ Repository: sample-repos/webpack
        • lib/SourceMapDevToolPlugin.js
        • lib/RecordIdsPlugin.js
        • lib/NormalModuleFactory.js
-       • lib/MultiCompiler.js
-       • lib/ModuleGraph.js
-       • lib/Module.js
      📄 Files WITHOUT ContinueStatement (showing 10):
        • types.d.ts
        • module.d.ts
@@ -1956,22 +1956,22 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
+       • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
 
    ForStatement:
      📄 Files WITH ForStatement (showing 10):
-       • schemas/WebpackOptions.check.js
-       • lib/cli.js
-       • lib/buildChunkGraph.js
-       • lib/Template.js
-       • lib/SourceMapDevToolPlugin.js
-       • lib/ProgressPlugin.js
-       • lib/NormalModule.js
-       • lib/MultiCompiler.js
-       • lib/HotModuleReplacementPlugin.js
-       • lib/FlagDependencyUsagePlugin.js
+       • test/setupTestFramework.js
+       • test/numberHash.unittest.js
+       • test/compareStringsNumeric.unittest.js
+       • test/checkArrayExpectation.js
+       • test/WatchDetection.test.js
+       • test/WasmHashes.unittest.js
+       • test/Template.unittest.js
+       • test/PersistentCaching.test.js
+       • test/MultiItemCache.unittest.js
+       • test/ConfigTestCases.template.js
      📄 Files WITHOUT ForStatement (showing 10):
        • types.d.ts
        • module.d.ts
@@ -1980,22 +1980,22 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
 
    CatchClause:
      📄 Files WITH CatchClause (showing 10):
        • setup/setup.js
-       • lib/webpack.js
-       • lib/RuntimeModule.js
-       • lib/NormalModuleFactory.js
-       • lib/NormalModule.js
-       • lib/HookWebpackError.js
-       • lib/FileSystemInfo.js
-       • lib/DllReferencePlugin.js
-       • lib/Compiler.js
-       • lib/Compilation.js
+       • test/setupTestFramework.js
+       • test/WatchTestCases.template.js
+       • test/WatchSuspend.test.js
+       • test/WatchDetection.test.js
+       • test/Validation.test.js
+       • test/StatsTestCases.basictest.js
+       • test/MultiStats.test.js
+       • test/MultiCompiler.test.js
+       • test/MemoryLimitTestCases.test.js
      📄 Files WITHOUT CatchClause (showing 10):
        • types.d.ts
        • module.d.ts
@@ -2004,22 +2004,22 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
 
    ArrayPattern:
      📄 Files WITH ArrayPattern (showing 10):
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
-       • lib/buildChunkGraph.js
-       • lib/WatchIgnorePlugin.js
-       • lib/TemplatedPathPlugin.js
-       • lib/ProvidePlugin.js
-       • lib/ProgressPlugin.js
-       • lib/NormalModule.js
-       • lib/MultiCompiler.js
+       • test/walkCssTokens.unittest.js
+       • test/identifier.unittest.js
+       • test/deterministicGrouping.unittest.js
+       • test/compareStringsNumeric.unittest.js
+       • test/WatchTestCases.template.js
+       • test/URLAbsoluteSpecifier.unittest.js
+       • test/SemVer.unittest.js
      📄 Files WITHOUT ArrayPattern (showing 10):
        • types.d.ts
        • module.d.ts
@@ -2028,9 +2028,9 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
+       • tooling/decode-debug-hash.js
        • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
+       • test/target-browserslist.unittest.js
 
    TSTupleType:
      📄 Files WITH TSTupleType (showing 2):
@@ -2042,11 +2042,11 @@ Repository: sample-repos/webpack
        • generate-types-config.js
        • eslint.config.mjs
        • declarations.test.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
+       • setup/setup.js
 
    ImportNamespaceSpecifier:
      📄 Files WITH ImportNamespaceSpecifier (showing 10):
@@ -2055,11 +2055,11 @@ Repository: sample-repos/webpack
        • examples/persistent-caching/example.js
        • examples/harmony-unused/example.js
        • examples/harmony-interop/example.js
-       • examples/wasm-bindgen-esm/pkg/hi_wasm_bg.js
-       • examples/wasm-bindgen-esm/pkg/hi_wasm.js
        • test/statsCases/wasm-explorer-examples-sync/tests.js
        • test/statsCases/common-libs/react.js
        • test/benchmarkCases/typescript-long-on-schedule/index.js
+       • test/benchmarkCases/many-modules-esm/index.js
+       • test/benchmarkCases/react/index.js
      📄 Files WITHOUT ImportNamespaceSpecifier (showing 10):
        • types.d.ts
        • module.d.ts
@@ -2068,9 +2068,9 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
+       • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
 
    TSAnyKeyword:
      📄 Files WITH TSAnyKeyword (showing 10):
@@ -2088,21 +2088,21 @@ Repository: sample-repos/webpack
        • jest.config.js
        • generate-types-config.js
        • eslint.config.mjs
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
        • tooling/decode-debug-hash.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
+       • test/target-browserslist.unittest.js
 
    MetaProperty:
      📄 Files WITH MetaProperty (showing 10):
        • test/BenchmarkTestCases.benchmark.mjs
+       • test/hotCases/update.esm.js
        • examples/worker/example.js
        • examples/nodejs-addons/example.js
        • examples/module-worker/example.js
-       • test/hotCases/update.esm.js
        • test/typesCases/meta/index.ts
        • test/statsCases/worker-public-path/index.js
        • test/statsCases/track-returned/index.js
@@ -2116,9 +2116,9 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
+       • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
 
    ExportAllDeclaration:
      📄 Files WITH ExportAllDeclaration (showing 10):
@@ -2128,10 +2128,10 @@ Repository: sample-repos/webpack
        • examples/lazy-compilation/all.js
        • examples/harmony-interop/reexport-commonjs.js
        • examples/dll-entry-only/a.js
-       • examples/wasm-bindgen-esm/pkg/hi_wasm.js
-       • examples/reexport-components/components/index.js
        • test/statsCases/tree-shaking/reexport-star-unknown.js
        • test/statsCases/tree-shaking/reexport-star-known.js
+       • test/statsCases/tree-shaking/edge.js
+       • test/statsCases/runtime-specific-used-exports/reexport.js
      📄 Files WITHOUT ExportAllDeclaration (showing 10):
        • types.d.ts
        • module.d.ts
@@ -2140,12 +2140,15 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
+       • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
 
    SwitchStatement:
      📄 Files WITH SwitchStatement (showing 10):
+       • test/MultiCompiler.test.js
+       • test/HotModuleReplacementPlugin.test.js
+       • test/BenchmarkTestCases.benchmark.mjs
        • lib/cli.js
        • lib/buildChunkGraph.js
        • lib/WebpackOptionsApply.js
@@ -2153,9 +2156,6 @@ Repository: sample-repos/webpack
        • lib/ProgressPlugin.js
        • lib/NodeStuffPlugin.js
        • lib/Module.js
-       • lib/FileSystemInfo.js
-       • lib/ExternalModule.js
-       • lib/ExportsInfo.js
      📄 Files WITHOUT SwitchStatement (showing 10):
        • types.d.ts
        • module.d.ts
@@ -2164,9 +2164,9 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
+       • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
 
    TSUndefinedKeyword:
      📄 Files WITH TSUndefinedKeyword (showing 6):
@@ -2181,12 +2181,12 @@ Repository: sample-repos/webpack
        • generate-types-config.js
        • eslint.config.mjs
        • declarations.test.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
 
    TSTypeParameter:
      📄 Files WITH TSTypeParameter (showing 5):
@@ -2200,25 +2200,25 @@ Repository: sample-repos/webpack
        • jest.config.js
        • generate-types-config.js
        • eslint.config.mjs
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
 
    ForInStatement:
      📄 Files WITH ForInStatement (showing 10):
-       • schemas/WebpackOptions.check.js
        • lib/WebpackOptionsApply.js
        • lib/Compiler.js
        • lib/Compilation.js
+       • schemas/WebpackOptions.check.js
+       • lib/hmr/JavascriptHotModuleReplacement.runtime.js
+       • lib/hmr/HotModuleReplacement.runtime.js
+       • lib/cache/ResolverCachePlugin.js
        • schemas/plugins/WatchIgnorePlugin.check.js
        • schemas/plugins/SourceMapDevToolPlugin.check.js
        • schemas/plugins/ProgressPlugin.check.js
-       • schemas/plugins/IgnorePlugin.check.js
-       • schemas/plugins/HashedModuleIdsPlugin.check.js
-       • schemas/plugins/DllReferencePlugin.check.js
      📄 Files WITHOUT ForInStatement (showing 10):
        • types.d.ts
        • module.d.ts
@@ -2227,9 +2227,9 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
 
    TSIndexSignature:
      📄 Files WITH TSIndexSignature (showing 10):
@@ -2240,20 +2240,20 @@ Repository: sample-repos/webpack
        • declarations/LoaderContext.d.ts
        • declarations/plugins/LoaderOptionsPlugin.d.ts
        • declarations/plugins/DllReferencePlugin.d.ts
+       • declarations/plugins/schemes/VirtualUrlPlugin.d.ts
        • declarations/plugins/sharing/SharePlugin.d.ts
        • declarations/plugins/sharing/ProvideSharedPlugin.d.ts
-       • declarations/plugins/sharing/ConsumeSharedPlugin.d.ts
      📄 Files WITHOUT TSIndexSignature (showing 10):
        • jest.config.js
        • generate-types-config.js
        • eslint.config.mjs
        • declarations.test.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
 
    WhileStatement:
      📄 Files WITH WhileStatement (showing 10):
@@ -2275,9 +2275,9 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
+       • tooling/decode-debug-hash.js
        • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
+       • test/walkCssTokens.unittest.js
 
    TSIntersectionType:
      📄 Files WITH TSIntersectionType (showing 4):
@@ -2291,11 +2291,11 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
+       • setup/setup.js
 
    TSTypeParameterDeclaration:
      📄 Files WITH TSTypeParameterDeclaration (showing 5):
@@ -2309,12 +2309,12 @@ Repository: sample-repos/webpack
        • jest.config.js
        • generate-types-config.js
        • eslint.config.mjs
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
 
    ClassExpression:
      📄 Files WITH ClassExpression (showing 10):
@@ -2325,9 +2325,9 @@ Repository: sample-repos/webpack
        • lib/HarmonyLinkingError.js
        • lib/ContextModuleFactory.js
        • lib/ConcurrentCompilationError.js
-       • lib/wasm-sync/WebAssemblyInInitialChunkError.js
-       • lib/wasm-sync/UnsupportedWebAssemblyFeatureError.js
-       • lib/util/registerExternalSerializer.js
+       • test/helpers/createFakeWorker.js
+       • test/helpers/LogTestPlugin.js
+       • test/helpers/EventSourceForNode.js
      📄 Files WITHOUT ClassExpression (showing 10):
        • types.d.ts
        • module.d.ts
@@ -2336,9 +2336,9 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
+       • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
 
    TSCallSignatureDeclaration:
      📄 Files WITH TSCallSignatureDeclaration (showing 3):
@@ -2350,49 +2350,49 @@ Repository: sample-repos/webpack
        • generate-types-config.js
        • eslint.config.mjs
        • declarations.test.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
 
    RestElement:
      📄 Files WITH RestElement (showing 10):
        • types.d.ts
        • declarations.d.ts
+       • test/ProgressPlugin.test.js
+       • test/FileSystemInfo.unittest.js
+       • test/BenchmarkTestCases.benchmark.mjs
        • lib/index.js
        • lib/TemplatedPathPlugin.js
        • lib/RuntimeTemplate.js
        • lib/ResolverFactory.js
        • lib/ProgressPlugin.js
-       • lib/MultiStats.js
-       • lib/ModuleGraph.js
-       • lib/FileSystemInfo.js
      📄 Files WITHOUT RestElement (showing 10):
        • module.d.ts
        • jest.config.js
        • generate-types-config.js
        • eslint.config.mjs
        • declarations.test.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
+       • setup/setup.js
 
    TSImportType:
      📄 Files WITH TSImportType (showing 10):
        • declarations.d.ts
-       • schemas/WebpackOptions.check.d.ts
        • declarations/WebpackOptions.d.ts
+       • schemas/WebpackOptions.check.d.ts
+       • declarations/plugins/SourceMapDevToolPlugin.d.ts
+       • declarations/plugins/HashedModuleIdsPlugin.d.ts
+       • declarations/plugins/BannerPlugin.d.ts
        • schemas/plugins/WatchIgnorePlugin.check.d.ts
        • schemas/plugins/SourceMapDevToolPlugin.check.d.ts
        • schemas/plugins/ProgressPlugin.check.d.ts
        • schemas/plugins/LoaderOptionsPlugin.check.d.ts
-       • schemas/plugins/IgnorePlugin.check.d.ts
-       • schemas/plugins/HashedModuleIdsPlugin.check.d.ts
-       • schemas/plugins/DllReferencePlugin.check.d.ts
      📄 Files WITHOUT TSImportType (showing 10):
        • types.d.ts
        • module.d.ts
@@ -2400,10 +2400,10 @@ Repository: sample-repos/webpack
        • generate-types-config.js
        • eslint.config.mjs
        • declarations.test.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
 
    TSQualifiedName:
      📄 Files WITH TSQualifiedName (showing 4):
@@ -2417,11 +2417,11 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
+       • setup/setup.js
 
    TSMethodSignature:
      📄 Files WITH TSMethodSignature (showing 4):
@@ -2434,12 +2434,12 @@ Repository: sample-repos/webpack
        • generate-types-config.js
        • eslint.config.mjs
        • declarations.test.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
 
    TSModuleDeclaration:
      📄 Files WITH TSModuleDeclaration (showing 5):
@@ -2452,13 +2452,13 @@ Repository: sample-repos/webpack
        • jest.config.js
        • generate-types-config.js
        • eslint.config.mjs
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
        • tooling/decode-debug-hash.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
+       • test/target-browserslist.unittest.js
 
    TSModuleBlock:
      📄 Files WITH TSModuleBlock (showing 5):
@@ -2471,26 +2471,26 @@ Repository: sample-repos/webpack
        • jest.config.js
        • generate-types-config.js
        • eslint.config.mjs
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
        • tooling/decode-debug-hash.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
+       • test/target-browserslist.unittest.js
 
    EmptyStatement:
      📄 Files WITH EmptyStatement (showing 10):
        • schemas/WebpackOptions.check.js
+       • test/hotCases/update.esm.js
        • lib/cache/PackFileCacheStrategy.js
        • examples/hybrid-routing/router.js
        • examples/harmony/increment.js
-       • test/hotCases/update.esm.js
-       • examples/build-http/webpack.lock.data/https_cdn.esm.sh/v53_p-map_5.1.0_es2015_p-map_cd0c09542673ea9d78f0.js
        • test/cases/scope-hoisting/issue-5314/module.js
        • test/cases/scope-hoisting/issue-5096/index.js
        • test/cases/parsing/strict-mode/abc.js
        • test/cases/parsing/optional-catch-binding/module.js
+       • test/cases/parsing/harmony-spec/order-tracker.js
      📄 Files WITHOUT EmptyStatement (showing 10):
        • types.d.ts
        • module.d.ts
@@ -2499,9 +2499,9 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
 
    TSDeclareFunction:
      📄 Files WITH TSDeclareFunction (showing 4):
@@ -2515,11 +2515,11 @@ Repository: sample-repos/webpack
        • generate-types-config.js
        • eslint.config.mjs
        • declarations.test.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
+       • setup/setup.js
 
    TSExportAssignment:
      📄 Files WITH TSExportAssignment (showing 10):
@@ -2539,11 +2539,11 @@ Repository: sample-repos/webpack
        • generate-types-config.js
        • eslint.config.mjs
        • declarations.test.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
+       • setup/setup.js
 
    TSTypeQuery:
      📄 Files WITH TSTypeQuery (showing 5):
@@ -2558,11 +2558,11 @@ Repository: sample-repos/webpack
        • generate-types-config.js
        • eslint.config.mjs
        • declarations.test.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
+       • setup/setup.js
 
    PrivateIdentifier:
      📄 Files WITH PrivateIdentifier (showing 5):
@@ -2579,9 +2579,9 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
+       • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
 
    TSObjectKeyword:
      📄 Files WITH TSObjectKeyword (showing 4):
@@ -2594,12 +2594,12 @@ Repository: sample-repos/webpack
        • generate-types-config.js
        • eslint.config.mjs
        • declarations.test.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
 
    ChainExpression:
      📄 Files WITH ChainExpression (showing 6):
@@ -2607,8 +2607,8 @@ Repository: sample-repos/webpack
        • test/cases/parsing/optional-chaining/index.js
        • test/configCases/worker/worklet/index.js
        • test/configCases/parsing/optional-chaining/index.js
-       • test/configCases/code-generation/re-export-namespace/index.js
        • test/configCases/code-generation/re-export-namespace-concat/index.js
+       • test/configCases/code-generation/re-export-namespace/index.js
      📄 Files WITHOUT ChainExpression (showing 10):
        • types.d.ts
        • module.d.ts
@@ -2617,9 +2617,9 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
+       • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
 
    ImportAttribute:
      📄 Files WITH ImportAttribute (showing 10):
@@ -2641,9 +2641,9 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
+       • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
 
    DoWhileStatement:
      📄 Files WITH DoWhileStatement (showing 10):
@@ -2665,9 +2665,9 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
+       • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
 
    LabeledStatement:
      📄 Files WITH LabeledStatement (showing 10):
@@ -2689,9 +2689,9 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
+       • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
 
    TSBigIntKeyword:
      📄 Files WITH TSBigIntKeyword (showing 1):
@@ -2703,10 +2703,10 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
 
    TaggedTemplateExpression:
      📄 Files WITH TaggedTemplateExpression (showing 6):
@@ -2724,9 +2724,9 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
+       • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
 
    TSUnknownKeyword:
      📄 Files WITH TSUnknownKeyword (showing 4):
@@ -2739,21 +2739,21 @@ Repository: sample-repos/webpack
        • generate-types-config.js
        • eslint.config.mjs
        • declarations.test.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
        • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
+       • setup/setup.js
+       • test/walkCssTokens.unittest.js
 
    YieldExpression:
      📄 Files WITH YieldExpression (showing 6):
        • lib/optimize/RemoveParentModulesPlugin.js
-       • examples/build-http/webpack.lock.data/https_cdn.esm.sh/v53_p-map_5.1.0_es2015_p-map_cd0c09542673ea9d78f0.js
        • test/cases/parsing/issue-11353/generator_function.js
        • test/cases/parsing/issue-11353/async_generator_function.js
        • test/cases/parsing/es6.nominimize/index.js
        • test/configCases/inner-graph/issue-17565/module.js
+       • examples/build-http/webpack.lock.data/https_cdn.esm.sh/v53_p-map_5.1.0_es2015_p-map_cd0c09542673ea9d78f0.js
      📄 Files WITHOUT YieldExpression (showing 10):
        • types.d.ts
        • module.d.ts
@@ -2762,9 +2762,9 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
+       • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
 
    TSSymbolKeyword:
      📄 Files WITH TSSymbolKeyword (showing 1):
@@ -2776,10 +2776,10 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
 
    TSTypeOperator:
      📄 Files WITH TSTypeOperator (showing 2):
@@ -2791,11 +2791,11 @@ Repository: sample-repos/webpack
        • generate-types-config.js
        • eslint.config.mjs
        • declarations.test.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
+       • setup/setup.js
 
    TSIndexedAccessType:
      📄 Files WITH TSIndexedAccessType (showing 4):
@@ -2809,11 +2809,11 @@ Repository: sample-repos/webpack
        • generate-types-config.js
        • eslint.config.mjs
        • declarations.test.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
+       • setup/setup.js
 
    TSEnumMember:
      📄 Files WITH TSEnumMember (showing 1):
@@ -2825,10 +2825,10 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
 
    TSNeverKeyword:
      📄 Files WITH TSNeverKeyword (showing 1):
@@ -2840,10 +2840,10 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
 
    TSInterfaceHeritage:
      📄 Files WITH TSInterfaceHeritage (showing 2):
@@ -2855,11 +2855,11 @@ Repository: sample-repos/webpack
        • generate-types-config.js
        • eslint.config.mjs
        • declarations.test.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
        • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
+       • setup/setup.js
 
    StaticBlock:
      📄 Files WITH StaticBlock (showing 3):
@@ -2874,9 +2874,9 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
+       • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
 
    WithStatement:
      📄 Files WITH WithStatement (showing 3):
@@ -2891,9 +2891,9 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
+       • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
 
    TSConstructSignatureDeclaration:
      📄 Files WITH TSConstructSignatureDeclaration (showing 1):
@@ -2905,10 +2905,10 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
 
    TSRestType:
      📄 Files WITH TSRestType (showing 1):
@@ -2920,10 +2920,10 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
 
    Hashbang:
      📄 Files WITH Hashbang (showing 3):
@@ -2938,9 +2938,9 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
+       • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
 
    DebuggerStatement:
      📄 Files WITH DebuggerStatement (showing 1):
@@ -2953,9 +2953,9 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
+       • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
 
    TSEnumDeclaration:
      📄 Files WITH TSEnumDeclaration (showing 1):
@@ -2967,10 +2967,10 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
 
    TSEnumBody:
      📄 Files WITH TSEnumBody (showing 1):
@@ -2982,10 +2982,10 @@ Repository: sample-repos/webpack
        • eslint.config.mjs
        • declarations.test.d.ts
        • declarations.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
 
    TSMappedType:
      📄 Files WITH TSMappedType (showing 1):
@@ -2997,16 +2997,22 @@ Repository: sample-repos/webpack
        • generate-types-config.js
        • eslint.config.mjs
        • declarations.test.d.ts
-       • setup/setup.js
-       • schemas/WebpackOptions.check.js
-       • schemas/WebpackOptions.check.d.ts
        • tooling/print-cache-file.js
+       • tooling/generate-wasm-code.js
+       • tooling/generate-runtime-code.js
+       • tooling/decode-debug-hash.js
 
 ============================================================
 ✅ Analysis complete!
 
 
 Warnings/Errors:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/statsCases/parse-error/b.js:
+   Expected a semicolon or an implicit semicolon after a statement, but found none
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/statsCases/module-trace-enabled-in-error/parse-error.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/statsCases/module-trace-disabled-in-error/parse-error.js:
+   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/examples/reexport-components/pages/Login.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/examples/reexport-components/pages/Dashboard.js:
@@ -3029,21 +3035,9 @@ Warnings/Errors:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/examples/module-federation/src/App.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/statsCases/parse-error/b.js:
-   Expected a semicolon or an implicit semicolon after a statement, but found none
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/statsCases/module-trace-enabled-in-error/parse-error.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/statsCases/module-trace-disabled-in-error/parse-error.js:
-   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/worker/remove-add-worker/compute.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/unexpected-invalidation/used-exports/module.js:
-   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/worker/update-in-worker/module.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/status/accept/file.js:
-   Cannot assign to this expression
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/status/check/file.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/worker/move-between-runtime/moduleBs.js:
    Unexpected token
@@ -3053,43 +3047,43 @@ Warnings/Errors:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/worker/move-between-runtime/moduleA.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/parsing/hot-api-optional-chaining/a.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/unexpected-invalidation/used-exports/module.js:
    Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/status/check/file.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/status/accept/file.js:
+   Cannot assign to this expression
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/sharing/share-plugin/module.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/recover/recover-after-self-error/a.js:
-   Cannot assign to this expression
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/recover/recover-after-parsing-error/a.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/recover/recover-after-removal-self-accepted/module.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/recover/recover-after-error/a.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/recover/recover-after-loader-error/a.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/runtime/update-multiple-times/file.js:
    Cannot assign to this expression
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/runtime/update-multiple-modules/fileB.js:
    Cannot assign to this expression
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/runtime/update-multiple-modules/fileA.js:
    Cannot assign to this expression
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/runtime/self-accept-and-dispose/file.js:
-   Cannot assign to this expression
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/runtime/self-accept-factory/a.js:
    Cannot assign to this expression
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/runtime/update-multiple-times/file.js:
-   Cannot assign to this expression
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/runtime/require-disposed-module-warning/module.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/runtime/self-accept-and-dispose/file.js:
    Cannot assign to this expression
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/runtime/root-error/index.js:
    Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/runtime/require-disposed-module-warning/module.js:
+   Cannot assign to this expression
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/runtime/replace-runtime-module/module.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/runtime/import-after-download/inner.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/runtime/import-after-download/file.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/runtime/dispose-removed-module/module.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/runtime/dispose-removed-module/a.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/runtime/import-after-download/inner.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/runtime/dispose-removed-chunk/module.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/runtime/import-after-download/file.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/runtime/dispose-removed-chunk/b.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/runtime/dispose-removed-chunk/a.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/runtime/circular/b.js:
    Unexpected token
@@ -3099,21 +3093,27 @@ Warnings/Errors:
    Cannot assign to this expression
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/runtime/bubble-async/file.js:
    Cannot assign to this expression
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/runtime/dispose-removed-chunk/module.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/runtime/dispose-removed-chunk/b.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/runtime/dispose-removed-chunk/a.js:
-   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/runtime/add-runtime/module.js:
    Cannot assign to this expression
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/runtime/accept/file.js:
    Cannot assign to this expression
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/numeric-ids/production/file.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/parsing/hot-api-optional-chaining/a.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/recover/recover-after-self-error/a.js:
+   Cannot assign to this expression
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/recover/recover-after-removal-self-accepted/module.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/recover/recover-after-parsing-error/a.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/recover/recover-after-loader-error/a.js:
+   Cannot assign to this expression
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/recover/recover-after-error/a.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/numeric-ids/add-remove-chunks/module.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/numeric-ids/add-remove-chunks/file.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/numeric-ids/production/file.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/loader-import-module/css/stylesheet.css.js:
    Unexpected token
@@ -3123,23 +3123,11 @@ Warnings/Errors:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/lazy-compilation/simple/module.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/lazy-compilation/context/generation.js:
-   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/lazy-compilation/https/module.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/hashing/full-hash-main/thing.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/lazy-compilation/context/generation.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/hashing/full-hash-syntax-error/thing.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/hashing/exports-info-influence/referencer.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/esm-output/simple/module.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/esm-output/runtime-chunk/shared.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/esm-output/async-chunks/lazy-module.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/esm-output/async-chunks/async-module.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/harmony/auto-reexport/file.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/harmony/auto-import-multiple/file.js:
    Unexpected token
@@ -3149,23 +3137,17 @@ Warnings/Errors:
    Cannot assign to this expression
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/harmony/auto-import/file.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/disposing/runtime-independent-filename/module.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/disposing/remove-chunk-with-shared-in-other-runtime/module.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/disposing/remove-chunk-with-shared/module.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/harmony/auto-reexport/file.js:
-   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/errors/unaccepted-ignored/c.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/errors/unaccepted-ignored/a.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/errors/unaccepted/c.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/errors/self-decline/c.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/errors/decline-webpackhot/c.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/determinism/issue-10174/hot.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/errors/decline/c.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/errors/events/l.js:
    Unexpected token
@@ -3181,25 +3163,29 @@ Warnings/Errors:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/errors/events/a.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/errors/decline/c.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/disposing/remove-chunk-with-shared-in-other-runtime/module.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/errors/unaccepted/c.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/disposing/runtime-independent-filename/module.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/disposing/remove-chunk-with-shared/module.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/determinism/issue-10174/hot.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/define/issue-6962/a.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/conditional-runtime/accept-conditional/dep1.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/code-generation/this-in-accept/module.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/code-generation/this-in-accept-webpackhot/module.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/concat/reload-compat-flag/module.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/concat/reload-external/b.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/concat/reload-external/a.js:
    Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/conditional-runtime/accept-conditional/dep1.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/concat/reload-compat-flag/module.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/code-generation/this-in-accept/module.js:
+   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/child-compiler/issue-9706/file.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/code-generation/this-in-accept-webpackhot/module.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/chunks/update-chunk-loading-runtime/index.js:
    Unexpected token
@@ -3207,15 +3193,29 @@ Warnings/Errors:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/chunks/system-import/file.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/chunks/initial-chunks-hmr/initial.js:
-   Cannot assign to this expression
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/chunks/initial-chunks-hmr/index.js:
-   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/chunks/dynamic-system-import/file.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/chunks/accept-system-import-webpackhot/file.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/chunks/accept-system-import/file.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/chunks/initial-chunks-hmr/initial.js:
+   Cannot assign to this expression
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/chunks/initial-chunks-hmr/index.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/hashing/full-hash-syntax-error/thing.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/esm-output/simple/module.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/hashing/full-hash-main/thing.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/esm-output/runtime-chunk/shared.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/hashing/exports-info-influence/referencer.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/esm-output/async-chunks/lazy-module.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/hotCases/esm-output/async-chunks/async-module.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/statsCases/dynamic-import/src/index.js:
    Unexpected token
@@ -3237,7 +3237,7 @@ Warnings/Errors:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/cases/loaders/query/context-query-test/test.js:
    Expected a semicolon or an implicit semicolon after a statement, but found none
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/configCases/context-modules/replacement-f/folder/nested/error.js:
-   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/configCases/context-modules/replacement-e/new-context/modules/error.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/webpack/test/configCases/context-modules/replacement-f/folder/nested/error.js:
    Unexpected token

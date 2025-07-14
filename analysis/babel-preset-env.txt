@@ -1,0 +1,908 @@
+AST Analysis Report for babel-preset-env
+Generated on: 2025-07-14T01:56:13.582Z
+Repository: sample-repos/babel-preset-env
+================================================================================
+
+🔍 Analyzing JavaScript/TypeScript files in: /Users/camchenry/workspace/ast-analysis/sample-repos/babel-preset-env
+
+📁 Found 17 files to analyze...
+
+
+
+============================================================
+📊 AST ANALYSIS RESULTS
+============================================================
+
+📁 FILE STATISTICS:
+   Total files found: 17
+   Successfully parsed: 17
+   Failed to parse: 0
+   Total file size: 50.2 KB
+
+🌳 NODE STATISTICS:
+   Total nodes: 5,770
+   Average nodes per file: 339
+   Average file size: 3.0 KB
+
+📋 ALL NODE TYPES (BY FILE PRESENCE):
+   Program                          17 files (100.0%) -       17 total (0.29%)
+   Literal                          17 files (100.0%) -      726 total (12.58%)
+   Identifier                       16 files ( 94.1%) -    1,989 total (34.47%)
+   ExpressionStatement              15 files ( 88.2%) -      263 total (4.56%)
+   CallExpression                   15 files ( 88.2%) -      500 total (8.67%)
+   VariableDeclaration              14 files ( 82.4%) -      182 total (3.15%)
+   VariableDeclarator               14 files ( 82.4%) -      182 total (3.15%)
+   MemberExpression                 14 files ( 82.4%) -      482 total (8.35%)
+   ObjectExpression                 14 files ( 82.4%) -      116 total (2.01%)
+   Property                         13 files ( 76.5%) -      295 total (5.11%)
+   BlockStatement                   12 files ( 70.6%) -      198 total (3.43%)
+   ArrayExpression                  12 files ( 70.6%) -       84 total (1.46%)
+   ArrowFunctionExpression          11 files ( 64.7%) -      139 total (2.41%)
+   AssignmentExpression             11 files ( 64.7%) -       47 total (0.81%)
+   BinaryExpression                  8 files ( 47.1%) -       82 total (1.42%)
+   TemplateLiteral                   8 files ( 47.1%) -       23 total (0.40%)
+   TemplateElement                   8 files ( 47.1%) -       45 total (0.78%)
+   Unknown                           8 files ( 47.1%) -       57 total (0.99%)
+   IfStatement                       7 files ( 41.2%) -       53 total (0.92%)
+   ReturnStatement                   7 files ( 41.2%) -       55 total (0.95%)
+   UnaryExpression                   7 files ( 41.2%) -       30 total (0.52%)
+   ObjectPattern                     6 files ( 35.3%) -        7 total (0.12%)
+   FunctionExpression                6 files ( 35.3%) -       21 total (0.36%)
+   LogicalExpression                 6 files ( 35.3%) -       45 total (0.78%)
+   ImportDeclaration                 5 files ( 29.4%) -       20 total (0.35%)
+   ImportDefaultSpecifier            5 files ( 29.4%) -       16 total (0.28%)
+   ExportDefaultDeclaration          5 files ( 29.4%) -        5 total (0.09%)
+   ThrowStatement                    4 files ( 23.5%) -        5 total (0.09%)
+   ExportNamedDeclaration            4 files ( 23.5%) -       15 total (0.26%)
+   AssignmentPattern                 4 files ( 23.5%) -        7 total (0.12%)
+   ConditionalExpression             4 files ( 23.5%) -        9 total (0.16%)
+   NewExpression                     3 files ( 17.6%) -        4 total (0.07%)
+   TryStatement                      3 files ( 17.6%) -        3 total (0.05%)
+   CatchClause                       3 files ( 17.6%) -        3 total (0.05%)
+   FunctionDeclaration               3 files ( 17.6%) -       10 total (0.17%)
+   SpreadElement                     3 files ( 17.6%) -        6 total (0.10%)
+   ImportSpecifier                   3 files ( 17.6%) -        7 total (0.12%)
+   ParenthesizedExpression           3 files ( 17.6%) -        8 total (0.14%)
+   UpdateExpression                  2 files ( 11.8%) -        3 total (0.05%)
+   ForInStatement                    2 files ( 11.8%) -        2 total (0.03%)
+   ForStatement                      1 files (  5.9%) -        1 total (0.02%)
+   WhileStatement                    1 files (  5.9%) -        1 total (0.02%)
+   ThisExpression                    1 files (  5.9%) -        5 total (0.09%)
+   ArrayPattern                      1 files (  5.9%) -        2 total (0.03%)
+
+📝 ALL NODE TYPES (BY TOTAL COUNT):
+   Identifier                        1,989 (34.47%) in 16 files (94.1%)
+   Literal                             726 (12.58%) in 17 files (100.0%)
+   CallExpression                      500 (8.67%) in 15 files (88.2%)
+   MemberExpression                    482 (8.35%) in 14 files (82.4%)
+   Property                            295 (5.11%) in 13 files (76.5%)
+   ExpressionStatement                 263 (4.56%) in 15 files (88.2%)
+   BlockStatement                      198 (3.43%) in 12 files (70.6%)
+   VariableDeclaration                 182 (3.15%) in 14 files (82.4%)
+   VariableDeclarator                  182 (3.15%) in 14 files (82.4%)
+   ArrowFunctionExpression             139 (2.41%) in 11 files (64.7%)
+   ObjectExpression                    116 (2.01%) in 14 files (82.4%)
+   ArrayExpression                      84 (1.46%) in 12 files (70.6%)
+   BinaryExpression                     82 (1.42%) in 8 files (47.1%)
+   Unknown                              57 (0.99%) in 8 files (47.1%)
+   ReturnStatement                      55 (0.95%) in 7 files (41.2%)
+   IfStatement                          53 (0.92%) in 7 files (41.2%)
+   AssignmentExpression                 47 (0.81%) in 11 files (64.7%)
+   TemplateElement                      45 (0.78%) in 8 files (47.1%)
+   LogicalExpression                    45 (0.78%) in 6 files (35.3%)
+   UnaryExpression                      30 (0.52%) in 7 files (41.2%)
+   TemplateLiteral                      23 (0.40%) in 8 files (47.1%)
+   FunctionExpression                   21 (0.36%) in 6 files (35.3%)
+   ImportDeclaration                    20 (0.35%) in 5 files (29.4%)
+   Program                              17 (0.29%) in 17 files (100.0%)
+   ImportDefaultSpecifier               16 (0.28%) in 5 files (29.4%)
+   ExportNamedDeclaration               15 (0.26%) in 4 files (23.5%)
+   FunctionDeclaration                  10 (0.17%) in 3 files (17.6%)
+   ConditionalExpression                 9 (0.16%) in 4 files (23.5%)
+   ParenthesizedExpression               8 (0.14%) in 3 files (17.6%)
+   ObjectPattern                         7 (0.12%) in 6 files (35.3%)
+   AssignmentPattern                     7 (0.12%) in 4 files (23.5%)
+   ImportSpecifier                       7 (0.12%) in 3 files (17.6%)
+   SpreadElement                         6 (0.10%) in 3 files (17.6%)
+   ThrowStatement                        5 (0.09%) in 4 files (23.5%)
+   ExportDefaultDeclaration              5 (0.09%) in 5 files (29.4%)
+   ThisExpression                        5 (0.09%) in 1 files (5.9%)
+   NewExpression                         4 (0.07%) in 3 files (17.6%)
+   TryStatement                          3 (0.05%) in 3 files (17.6%)
+   CatchClause                           3 (0.05%) in 3 files (17.6%)
+   UpdateExpression                      3 (0.05%) in 2 files (11.8%)
+   ForInStatement                        2 (0.03%) in 2 files (11.8%)
+   ArrayPattern                          2 (0.03%) in 1 files (5.9%)
+   ForStatement                          1 (0.02%) in 1 files (5.9%)
+   WhileStatement                        1 (0.02%) in 1 files (5.9%)
+
+📁 FILE EXAMPLES BY NODE TYPE:
+
+   Identifier:
+     📄 Files WITH Identifier (showing 10):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/fixtures.js
+       • test/debug-fixtures.js
+       • src/utils.js
+       • src/transform-polyfill-require-plugin.js
+       • src/targets-parser.js
+       • src/normalize-options.js
+     📄 Files WITHOUT Identifier (showing 1):
+       • src/module-transformations.js
+
+   Literal:
+     📄 Files WITH Literal (showing 10):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/fixtures.js
+       • test/debug-fixtures.js
+       • src/utils.js
+       • src/transform-polyfill-require-plugin.js
+       • src/targets-parser.js
+       • src/normalize-options.js
+     📄 Files WITHOUT Literal: (all files contain this node type)
+
+   CallExpression:
+     📄 Files WITH CallExpression (showing 10):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/fixtures.js
+       • test/debug-fixtures.js
+       • src/utils.js
+       • src/transform-polyfill-require-plugin.js
+       • src/targets-parser.js
+       • src/normalize-options.js
+     📄 Files WITHOUT CallExpression (showing 2):
+       • src/module-transformations.js
+       • src/default-includes.js
+
+   MemberExpression:
+     📄 Files WITH MemberExpression (showing 10):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/debug-fixtures.js
+       • src/utils.js
+       • src/transform-polyfill-require-plugin.js
+       • src/targets-parser.js
+       • src/normalize-options.js
+       • src/index.js
+     📄 Files WITHOUT MemberExpression (showing 3):
+       • test/fixtures.js
+       • src/module-transformations.js
+       • src/default-includes.js
+
+   Property:
+     📄 Files WITH Property (showing 10):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/debug-fixtures.js
+       • src/transform-polyfill-require-plugin.js
+       • src/targets-parser.js
+       • src/normalize-options.js
+       • src/module-transformations.js
+       • src/index.js
+     📄 Files WITHOUT Property (showing 4):
+       • test/fixtures.js
+       • src/utils.js
+       • src/default-includes.js
+       • scripts/smoke-test.js
+
+   ExpressionStatement:
+     📄 Files WITH ExpressionStatement (showing 10):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/fixtures.js
+       • test/debug-fixtures.js
+       • src/utils.js
+       • src/transform-polyfill-require-plugin.js
+       • src/targets-parser.js
+       • src/normalize-options.js
+     📄 Files WITHOUT ExpressionStatement (showing 2):
+       • src/module-transformations.js
+       • src/default-includes.js
+
+   BlockStatement:
+     📄 Files WITH BlockStatement (showing 10):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/debug-fixtures.js
+       • src/utils.js
+       • src/transform-polyfill-require-plugin.js
+       • src/targets-parser.js
+       • src/normalize-options.js
+       • src/index.js
+     📄 Files WITHOUT BlockStatement (showing 5):
+       • test/fixtures.js
+       • src/module-transformations.js
+       • src/default-includes.js
+       • data/plugin-features.js
+       • data/built-in-features.js
+
+   VariableDeclaration:
+     📄 Files WITH VariableDeclaration (showing 10):
+       • test/utils.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/debug-fixtures.js
+       • src/utils.js
+       • src/transform-polyfill-require-plugin.js
+       • src/targets-parser.js
+       • src/normalize-options.js
+       • src/index.js
+       • src/default-includes.js
+     📄 Files WITHOUT VariableDeclaration (showing 3):
+       • test/targets-parser.spec.js
+       • test/fixtures.js
+       • src/module-transformations.js
+
+   VariableDeclarator:
+     📄 Files WITH VariableDeclarator (showing 10):
+       • test/utils.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/debug-fixtures.js
+       • src/utils.js
+       • src/transform-polyfill-require-plugin.js
+       • src/targets-parser.js
+       • src/normalize-options.js
+       • src/index.js
+       • src/default-includes.js
+     📄 Files WITHOUT VariableDeclarator (showing 3):
+       • test/targets-parser.spec.js
+       • test/fixtures.js
+       • src/module-transformations.js
+
+   ArrowFunctionExpression:
+     📄 Files WITH ArrowFunctionExpression (showing 10):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/debug-fixtures.js
+       • src/utils.js
+       • src/transform-polyfill-require-plugin.js
+       • src/targets-parser.js
+       • src/normalize-options.js
+       • src/index.js
+     📄 Files WITHOUT ArrowFunctionExpression (showing 6):
+       • test/fixtures.js
+       • src/module-transformations.js
+       • src/default-includes.js
+       • scripts/smoke-test.js
+       • data/plugin-features.js
+       • data/built-in-features.js
+
+   ObjectExpression:
+     📄 Files WITH ObjectExpression (showing 10):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/debug-fixtures.js
+       • src/utils.js
+       • src/transform-polyfill-require-plugin.js
+       • src/targets-parser.js
+       • src/normalize-options.js
+       • src/module-transformations.js
+     📄 Files WITHOUT ObjectExpression (showing 3):
+       • test/fixtures.js
+       • src/default-includes.js
+       • scripts/smoke-test.js
+
+   ArrayExpression:
+     📄 Files WITH ArrayExpression (showing 10):
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/debug-fixtures.js
+       • src/utils.js
+       • src/transform-polyfill-require-plugin.js
+       • src/targets-parser.js
+       • src/normalize-options.js
+       • src/index.js
+       • src/default-includes.js
+       • scripts/build-data.js
+     📄 Files WITHOUT ArrayExpression (showing 5):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/fixtures.js
+       • src/module-transformations.js
+       • scripts/smoke-test.js
+
+   BinaryExpression:
+     📄 Files WITH BinaryExpression (showing 8):
+       • test/normalize-options.spec.js
+       • test/debug-fixtures.js
+       • src/utils.js
+       • src/transform-polyfill-require-plugin.js
+       • src/targets-parser.js
+       • src/normalize-options.js
+       • src/index.js
+       • scripts/build-data.js
+     📄 Files WITHOUT BinaryExpression (showing 9):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/index.spec.js
+       • test/fixtures.js
+       • src/module-transformations.js
+       • src/default-includes.js
+       • scripts/smoke-test.js
+       • data/plugin-features.js
+       • data/built-in-features.js
+
+   Unknown:
+     📄 Files WITH Unknown (showing 8):
+       • test/index.spec.js
+       • test/debug-fixtures.js
+       • src/transform-polyfill-require-plugin.js
+       • src/targets-parser.js
+       • src/normalize-options.js
+       • src/index.js
+       • scripts/smoke-test.js
+       • scripts/build-data.js
+     📄 Files WITHOUT Unknown (showing 9):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/fixtures.js
+       • src/utils.js
+       • src/module-transformations.js
+       • src/default-includes.js
+       • data/plugin-features.js
+       • data/built-in-features.js
+
+   ReturnStatement:
+     📄 Files WITH ReturnStatement (showing 7):
+       • test/debug-fixtures.js
+       • src/utils.js
+       • src/transform-polyfill-require-plugin.js
+       • src/targets-parser.js
+       • src/normalize-options.js
+       • src/index.js
+       • scripts/build-data.js
+     📄 Files WITHOUT ReturnStatement (showing 10):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/fixtures.js
+       • src/module-transformations.js
+       • src/default-includes.js
+       • scripts/smoke-test.js
+       • data/plugin-features.js
+       • data/built-in-features.js
+
+   IfStatement:
+     📄 Files WITH IfStatement (showing 7):
+       • test/debug-fixtures.js
+       • src/utils.js
+       • src/transform-polyfill-require-plugin.js
+       • src/targets-parser.js
+       • src/normalize-options.js
+       • src/index.js
+       • scripts/build-data.js
+     📄 Files WITHOUT IfStatement (showing 10):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/fixtures.js
+       • src/module-transformations.js
+       • src/default-includes.js
+       • scripts/smoke-test.js
+       • data/plugin-features.js
+       • data/built-in-features.js
+
+   AssignmentExpression:
+     📄 Files WITH AssignmentExpression (showing 10):
+       • test/index.spec.js
+       • test/debug-fixtures.js
+       • src/utils.js
+       • src/transform-polyfill-require-plugin.js
+       • src/targets-parser.js
+       • src/normalize-options.js
+       • src/index.js
+       • scripts/smoke-test.js
+       • scripts/build-data.js
+       • data/plugin-features.js
+     📄 Files WITHOUT AssignmentExpression (showing 6):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/fixtures.js
+       • src/module-transformations.js
+       • src/default-includes.js
+
+   TemplateElement:
+     📄 Files WITH TemplateElement (showing 8):
+       • test/index.spec.js
+       • test/debug-fixtures.js
+       • src/transform-polyfill-require-plugin.js
+       • src/targets-parser.js
+       • src/normalize-options.js
+       • src/index.js
+       • scripts/smoke-test.js
+       • scripts/build-data.js
+     📄 Files WITHOUT TemplateElement (showing 9):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/fixtures.js
+       • src/utils.js
+       • src/module-transformations.js
+       • src/default-includes.js
+       • data/plugin-features.js
+       • data/built-in-features.js
+
+   LogicalExpression:
+     📄 Files WITH LogicalExpression (showing 6):
+       • src/utils.js
+       • src/transform-polyfill-require-plugin.js
+       • src/targets-parser.js
+       • src/normalize-options.js
+       • src/index.js
+       • scripts/build-data.js
+     📄 Files WITHOUT LogicalExpression (showing 10):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/fixtures.js
+       • test/debug-fixtures.js
+       • src/module-transformations.js
+       • src/default-includes.js
+       • scripts/smoke-test.js
+       • data/plugin-features.js
+
+   UnaryExpression:
+     📄 Files WITH UnaryExpression (showing 7):
+       • test/debug-fixtures.js
+       • src/utils.js
+       • src/transform-polyfill-require-plugin.js
+       • src/targets-parser.js
+       • src/normalize-options.js
+       • src/index.js
+       • scripts/build-data.js
+     📄 Files WITHOUT UnaryExpression (showing 10):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/fixtures.js
+       • src/module-transformations.js
+       • src/default-includes.js
+       • scripts/smoke-test.js
+       • data/plugin-features.js
+       • data/built-in-features.js
+
+   TemplateLiteral:
+     📄 Files WITH TemplateLiteral (showing 8):
+       • test/index.spec.js
+       • test/debug-fixtures.js
+       • src/transform-polyfill-require-plugin.js
+       • src/targets-parser.js
+       • src/normalize-options.js
+       • src/index.js
+       • scripts/smoke-test.js
+       • scripts/build-data.js
+     📄 Files WITHOUT TemplateLiteral (showing 9):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/fixtures.js
+       • src/utils.js
+       • src/module-transformations.js
+       • src/default-includes.js
+       • data/plugin-features.js
+       • data/built-in-features.js
+
+   FunctionExpression:
+     📄 Files WITH FunctionExpression (showing 6):
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • src/utils.js
+       • src/transform-polyfill-require-plugin.js
+       • scripts/build-data.js
+     📄 Files WITHOUT FunctionExpression (showing 10):
+       • test/utils.spec.js
+       • test/fixtures.js
+       • test/debug-fixtures.js
+       • src/targets-parser.js
+       • src/normalize-options.js
+       • src/module-transformations.js
+       • src/index.js
+       • src/default-includes.js
+       • scripts/smoke-test.js
+       • data/plugin-features.js
+
+   ImportDeclaration:
+     📄 Files WITH ImportDeclaration (showing 5):
+       • test/targets-parser.spec.js
+       • src/utils.js
+       • src/targets-parser.js
+       • src/normalize-options.js
+       • src/index.js
+     📄 Files WITHOUT ImportDeclaration (showing 10):
+       • test/utils.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/fixtures.js
+       • test/debug-fixtures.js
+       • src/transform-polyfill-require-plugin.js
+       • src/module-transformations.js
+       • src/default-includes.js
+       • scripts/smoke-test.js
+       • scripts/build-data.js
+
+   Program:
+     📄 Files WITH Program (showing 10):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/fixtures.js
+       • test/debug-fixtures.js
+       • src/utils.js
+       • src/transform-polyfill-require-plugin.js
+       • src/targets-parser.js
+       • src/normalize-options.js
+     📄 Files WITHOUT Program: (all files contain this node type)
+
+   ImportDefaultSpecifier:
+     📄 Files WITH ImportDefaultSpecifier (showing 5):
+       • test/targets-parser.spec.js
+       • src/utils.js
+       • src/targets-parser.js
+       • src/normalize-options.js
+       • src/index.js
+     📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
+       • test/utils.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/fixtures.js
+       • test/debug-fixtures.js
+       • src/transform-polyfill-require-plugin.js
+       • src/module-transformations.js
+       • src/default-includes.js
+       • scripts/smoke-test.js
+       • scripts/build-data.js
+
+   ExportNamedDeclaration:
+     📄 Files WITH ExportNamedDeclaration (showing 4):
+       • src/utils.js
+       • src/normalize-options.js
+       • src/index.js
+       • src/default-includes.js
+     📄 Files WITHOUT ExportNamedDeclaration (showing 10):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/fixtures.js
+       • test/debug-fixtures.js
+       • src/transform-polyfill-require-plugin.js
+       • src/targets-parser.js
+       • src/module-transformations.js
+       • scripts/smoke-test.js
+
+   FunctionDeclaration:
+     📄 Files WITH FunctionDeclaration (showing 3):
+       • src/transform-polyfill-require-plugin.js
+       • src/normalize-options.js
+       • src/index.js
+     📄 Files WITHOUT FunctionDeclaration (showing 10):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/fixtures.js
+       • test/debug-fixtures.js
+       • src/utils.js
+       • src/targets-parser.js
+       • src/module-transformations.js
+       • src/default-includes.js
+
+   ConditionalExpression:
+     📄 Files WITH ConditionalExpression (showing 4):
+       • src/targets-parser.js
+       • src/index.js
+       • scripts/smoke-test.js
+       • scripts/build-data.js
+     📄 Files WITHOUT ConditionalExpression (showing 10):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/fixtures.js
+       • test/debug-fixtures.js
+       • src/utils.js
+       • src/transform-polyfill-require-plugin.js
+       • src/normalize-options.js
+       • src/module-transformations.js
+
+   ParenthesizedExpression:
+     📄 Files WITH ParenthesizedExpression (showing 3):
+       • src/normalize-options.js
+       • src/index.js
+       • scripts/build-data.js
+     📄 Files WITHOUT ParenthesizedExpression (showing 10):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/fixtures.js
+       • test/debug-fixtures.js
+       • src/utils.js
+       • src/transform-polyfill-require-plugin.js
+       • src/targets-parser.js
+       • src/module-transformations.js
+
+   ObjectPattern:
+     📄 Files WITH ObjectPattern (showing 6):
+       • test/utils.spec.js
+       • test/normalize-options.spec.js
+       • src/transform-polyfill-require-plugin.js
+       • src/targets-parser.js
+       • src/index.js
+       • scripts/build-data.js
+     📄 Files WITHOUT ObjectPattern (showing 10):
+       • test/targets-parser.spec.js
+       • test/index.spec.js
+       • test/fixtures.js
+       • test/debug-fixtures.js
+       • src/utils.js
+       • src/normalize-options.js
+       • src/module-transformations.js
+       • src/default-includes.js
+       • scripts/smoke-test.js
+       • data/plugin-features.js
+
+   AssignmentPattern:
+     📄 Files WITH AssignmentPattern (showing 4):
+       • src/utils.js
+       • src/targets-parser.js
+       • src/normalize-options.js
+       • src/index.js
+     📄 Files WITHOUT AssignmentPattern (showing 10):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/fixtures.js
+       • test/debug-fixtures.js
+       • src/transform-polyfill-require-plugin.js
+       • src/module-transformations.js
+       • src/default-includes.js
+       • scripts/smoke-test.js
+
+   ImportSpecifier:
+     📄 Files WITH ImportSpecifier (showing 3):
+       • src/targets-parser.js
+       • src/normalize-options.js
+       • src/index.js
+     📄 Files WITHOUT ImportSpecifier (showing 10):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/fixtures.js
+       • test/debug-fixtures.js
+       • src/utils.js
+       • src/transform-polyfill-require-plugin.js
+       • src/module-transformations.js
+       • src/default-includes.js
+
+   SpreadElement:
+     📄 Files WITH SpreadElement (showing 3):
+       • src/transform-polyfill-require-plugin.js
+       • src/normalize-options.js
+       • src/index.js
+     📄 Files WITHOUT SpreadElement (showing 10):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/fixtures.js
+       • test/debug-fixtures.js
+       • src/utils.js
+       • src/targets-parser.js
+       • src/module-transformations.js
+       • src/default-includes.js
+
+   ThrowStatement:
+     📄 Files WITH ThrowStatement (showing 4):
+       • test/debug-fixtures.js
+       • src/transform-polyfill-require-plugin.js
+       • src/normalize-options.js
+       • src/index.js
+     📄 Files WITHOUT ThrowStatement (showing 10):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/fixtures.js
+       • src/utils.js
+       • src/targets-parser.js
+       • src/module-transformations.js
+       • src/default-includes.js
+       • scripts/smoke-test.js
+
+   ExportDefaultDeclaration:
+     📄 Files WITH ExportDefaultDeclaration (showing 5):
+       • src/transform-polyfill-require-plugin.js
+       • src/targets-parser.js
+       • src/normalize-options.js
+       • src/module-transformations.js
+       • src/index.js
+     📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/fixtures.js
+       • test/debug-fixtures.js
+       • src/utils.js
+       • src/default-includes.js
+       • scripts/smoke-test.js
+       • scripts/build-data.js
+
+   ThisExpression:
+     📄 Files WITH ThisExpression (showing 1):
+       • src/transform-polyfill-require-plugin.js
+     📄 Files WITHOUT ThisExpression (showing 10):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/fixtures.js
+       • test/debug-fixtures.js
+       • src/utils.js
+       • src/targets-parser.js
+       • src/normalize-options.js
+       • src/module-transformations.js
+
+   NewExpression:
+     📄 Files WITH NewExpression (showing 3):
+       • test/debug-fixtures.js
+       • src/normalize-options.js
+       • src/index.js
+     📄 Files WITHOUT NewExpression (showing 10):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/fixtures.js
+       • src/utils.js
+       • src/transform-polyfill-require-plugin.js
+       • src/targets-parser.js
+       • src/module-transformations.js
+       • src/default-includes.js
+
+   TryStatement:
+     📄 Files WITH TryStatement (showing 3):
+       • test/debug-fixtures.js
+       • src/targets-parser.js
+       • scripts/smoke-test.js
+     📄 Files WITHOUT TryStatement (showing 10):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/fixtures.js
+       • src/utils.js
+       • src/transform-polyfill-require-plugin.js
+       • src/normalize-options.js
+       • src/module-transformations.js
+       • src/index.js
+
+   CatchClause:
+     📄 Files WITH CatchClause (showing 3):
+       • test/debug-fixtures.js
+       • src/targets-parser.js
+       • scripts/smoke-test.js
+     📄 Files WITHOUT CatchClause (showing 10):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/fixtures.js
+       • src/utils.js
+       • src/transform-polyfill-require-plugin.js
+       • src/normalize-options.js
+       • src/module-transformations.js
+       • src/index.js
+
+   UpdateExpression:
+     📄 Files WITH UpdateExpression (showing 2):
+       • src/utils.js
+       • src/transform-polyfill-require-plugin.js
+     📄 Files WITHOUT UpdateExpression (showing 10):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/fixtures.js
+       • test/debug-fixtures.js
+       • src/targets-parser.js
+       • src/normalize-options.js
+       • src/module-transformations.js
+       • src/index.js
+
+   ForInStatement:
+     📄 Files WITH ForInStatement (showing 2):
+       • src/utils.js
+       • scripts/build-data.js
+     📄 Files WITHOUT ForInStatement (showing 10):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/fixtures.js
+       • test/debug-fixtures.js
+       • src/transform-polyfill-require-plugin.js
+       • src/targets-parser.js
+       • src/normalize-options.js
+       • src/module-transformations.js
+
+   ArrayPattern:
+     📄 Files WITH ArrayPattern (showing 1):
+       • src/targets-parser.js
+     📄 Files WITHOUT ArrayPattern (showing 10):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/fixtures.js
+       • test/debug-fixtures.js
+       • src/utils.js
+       • src/transform-polyfill-require-plugin.js
+       • src/normalize-options.js
+       • src/module-transformations.js
+
+   ForStatement:
+     📄 Files WITH ForStatement (showing 1):
+       • src/utils.js
+     📄 Files WITHOUT ForStatement (showing 10):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/fixtures.js
+       • test/debug-fixtures.js
+       • src/transform-polyfill-require-plugin.js
+       • src/targets-parser.js
+       • src/normalize-options.js
+       • src/module-transformations.js
+
+   WhileStatement:
+     📄 Files WITH WhileStatement (showing 1):
+       • src/utils.js
+     📄 Files WITHOUT WhileStatement (showing 10):
+       • test/utils.spec.js
+       • test/targets-parser.spec.js
+       • test/normalize-options.spec.js
+       • test/index.spec.js
+       • test/fixtures.js
+       • test/debug-fixtures.js
+       • src/transform-polyfill-require-plugin.js
+       • src/targets-parser.js
+       • src/normalize-options.js
+       • src/module-transformations.js
+
+============================================================
+✅ Analysis complete!

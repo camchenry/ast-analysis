@@ -1,0 +1,2157 @@
+AST Analysis Report for tsup
+Generated on: 2025-07-14T01:57:14.754Z
+Repository: sample-repos/tsup
+================================================================================
+
+🔍 Analyzing JavaScript/TypeScript files in: /Users/camchenry/workspace/ast-analysis/sample-repos/tsup
+
+📁 Found 48 files to analyze...
+
+
+
+============================================================
+📊 AST ANALYSIS RESULTS
+============================================================
+
+📁 FILE STATISTICS:
+   Total files found: 48
+   Successfully parsed: 48
+   Failed to parse: 0
+   Total file size: 172.4 KB
+
+🌳 NODE STATISTICS:
+   Total nodes: 21,756
+   Average nodes per file: 453
+   Average file size: 3.6 KB
+
+📋 ALL NODE TYPES (BY FILE PRESENCE):
+   Program                          48 files (100.0%) -       48 total (0.22%)
+   Identifier                       48 files (100.0%) -    7,173 total (32.97%)
+   Literal                          48 files (100.0%) -    1,957 total (9.00%)
+   ImportDeclaration                47 files ( 97.9%) -      207 total (0.95%)
+   CallExpression                   47 files ( 97.9%) -    1,529 total (7.03%)
+   ImportSpecifier                  46 files ( 95.8%) -      242 total (1.11%)
+   MemberExpression                 45 files ( 93.8%) -    1,533 total (7.05%)
+   BlockStatement                   42 files ( 87.5%) -      519 total (2.39%)
+   VariableDeclaration              42 files ( 87.5%) -      471 total (2.16%)
+   VariableDeclarator               42 files ( 87.5%) -      471 total (2.16%)
+   ArrowFunctionExpression          42 files ( 87.5%) -      240 total (1.10%)
+   ExpressionStatement              41 files ( 85.4%) -      563 total (2.59%)
+   ObjectExpression                 41 files ( 85.4%) -      470 total (2.16%)
+   Property                         41 files ( 85.4%) -    1,166 total (5.36%)
+   Unknown                          39 files ( 81.3%) -      552 total (2.54%)
+   TSTypeAnnotation                 35 files ( 72.9%) -      453 total (2.08%)
+   TemplateElement                  33 files ( 68.8%) -      462 total (2.12%)
+   ExportNamedDeclaration           33 files ( 68.8%) -       97 total (0.45%)
+   TSTypeReference                  33 files ( 68.8%) -      256 total (1.18%)
+   TemplateLiteral                  32 files ( 66.7%) -      346 total (1.59%)
+   ArrayExpression                  31 files ( 64.6%) -      224 total (1.03%)
+   ReturnStatement                  31 files ( 64.6%) -      208 total (0.96%)
+   ObjectPattern                    30 files ( 62.5%) -      121 total (0.56%)
+   AwaitExpression                  29 files ( 60.4%) -      247 total (1.14%)
+   IfStatement                      29 files ( 60.4%) -      195 total (0.90%)
+   BinaryExpression                 27 files ( 56.3%) -      158 total (0.73%)
+   UnaryExpression                  26 files ( 54.2%) -      103 total (0.47%)
+   LogicalExpression                26 files ( 54.2%) -      130 total (0.60%)
+   ImportDefaultSpecifier           25 files ( 52.1%) -       48 total (0.22%)
+   TSStringKeyword                  25 files ( 52.1%) -      204 total (0.94%)
+   FunctionExpression               23 files ( 47.9%) -       45 total (0.21%)
+   AssignmentExpression             21 files ( 43.8%) -       94 total (0.43%)
+   ConditionalExpression            19 files ( 39.6%) -       74 total (0.34%)
+   TSTypeLiteral                    18 files ( 37.5%) -       43 total (0.20%)
+   TSPropertySignature              18 files ( 37.5%) -      160 total (0.74%)
+   TSTypeParameterInstantiation     18 files ( 37.5%) -       53 total (0.24%)
+   TSArrayType                      17 files ( 35.4%) -       57 total (0.26%)
+   NewExpression                    16 files ( 33.3%) -       47 total (0.22%)
+   SpreadElement                    16 files ( 33.3%) -       69 total (0.32%)
+   FunctionDeclaration              15 files ( 31.3%) -       48 total (0.22%)
+   TSUnionType                      14 files ( 29.2%) -       78 total (0.36%)
+   ChainExpression                  12 files ( 25.0%) -       34 total (0.16%)
+   ThrowStatement                   12 files ( 25.0%) -       23 total (0.11%)
+   ParenthesizedExpression          12 files ( 25.0%) -       22 total (0.10%)
+   TSAnyKeyword                     12 files ( 25.0%) -       20 total (0.09%)
+   TSBooleanKeyword                 11 files ( 22.9%) -       43 total (0.20%)
+   TSLiteralType                    11 files ( 22.9%) -       68 total (0.31%)
+   TryStatement                     10 files ( 20.8%) -       11 total (0.05%)
+   CatchClause                      10 files ( 20.8%) -       11 total (0.05%)
+   TSTypeAliasDeclaration            9 files ( 18.8%) -       34 total (0.16%)
+   TSTypeQuery                       9 files ( 18.8%) -       14 total (0.06%)
+   TSUndefinedKeyword                9 files ( 18.8%) -       20 total (0.09%)
+   ThisExpression                    9 files ( 18.8%) -       41 total (0.19%)
+   AssignmentPattern                 8 files ( 16.7%) -        9 total (0.04%)
+   ForOfStatement                    8 files ( 16.7%) -       15 total (0.07%)
+   TSNumberKeyword                   7 files ( 14.6%) -       15 total (0.07%)
+   TSParenthesizedType               7 files ( 14.6%) -       19 total (0.09%)
+   TSVoidKeyword                     6 files ( 12.5%) -       17 total (0.08%)
+   TSAsExpression                    6 files ( 12.5%) -       13 total (0.06%)
+   TSFunctionType                    6 files ( 12.5%) -       18 total (0.08%)
+   TSImportType                      6 files ( 12.5%) -        8 total (0.04%)
+   TSNonNullExpression               6 files ( 12.5%) -        8 total (0.04%)
+   TSIndexSignature                  4 files (  8.3%) -        6 total (0.03%)
+   TSIndexedAccessType               4 files (  8.3%) -        6 total (0.03%)
+   ImportExpression                  4 files (  8.3%) -        5 total (0.02%)
+   TSSatisfiesExpression             3 files (  6.3%) -       11 total (0.05%)
+   TSNullKeyword                     3 files (  6.3%) -       10 total (0.05%)
+   RestElement                       3 files (  6.3%) -        9 total (0.04%)
+   ClassDeclaration                  3 files (  6.3%) -        3 total (0.01%)
+   ClassBody                         3 files (  6.3%) -        3 total (0.01%)
+   MethodDefinition                  3 files (  6.3%) -        8 total (0.04%)
+   TSQualifiedName                   3 files (  6.3%) -        9 total (0.04%)
+   ExportDefaultDeclaration          2 files (  4.2%) -        2 total (0.01%)
+   MetaProperty                      2 files (  4.2%) -        2 total (0.01%)
+   TSTypeParameterDeclaration        2 files (  4.2%) -        5 total (0.02%)
+   TSTypeParameter                   2 files (  4.2%) -        5 total (0.02%)
+   UpdateExpression                  2 files (  4.2%) -        2 total (0.01%)
+   TSUnknownKeyword                  2 files (  4.2%) -        3 total (0.01%)
+   TSNeverKeyword                    2 files (  4.2%) -        3 total (0.01%)
+   ArrayPattern                      2 files (  4.2%) -        2 total (0.01%)
+   SwitchStatement                   2 files (  4.2%) -        2 total (0.01%)
+   SwitchCase                        2 files (  4.2%) -        6 total (0.03%)
+   PropertyDefinition                2 files (  4.2%) -        3 total (0.01%)
+   TSIntersectionType                2 files (  4.2%) -        3 total (0.01%)
+   TSInterfaceDeclaration            2 files (  4.2%) -        3 total (0.01%)
+   TSInterfaceBody                   2 files (  4.2%) -        3 total (0.01%)
+   ContinueStatement                 2 files (  4.2%) -        2 total (0.01%)
+   Hashbang                          2 files (  4.2%) -        2 total (0.01%)
+   TaggedTemplateExpression          1 files (  2.1%) -        1 total (0.00%)
+   TSConditionalType                 1 files (  2.1%) -        1 total (0.00%)
+   TSTypePredicate                   1 files (  2.1%) -        1 total (0.00%)
+   BreakStatement                    1 files (  2.1%) -        1 total (0.00%)
+   WhileStatement                    1 files (  2.1%) -        1 total (0.00%)
+   TSObjectKeyword                   1 files (  2.1%) -        2 total (0.01%)
+   TSTemplateLiteralType             1 files (  2.1%) -        3 total (0.01%)
+   ExportSpecifier                   1 files (  2.1%) -        3 total (0.01%)
+   Super                             1 files (  2.1%) -        1 total (0.00%)
+
+📝 ALL NODE TYPES (BY TOTAL COUNT):
+   Identifier                        7,173 (32.97%) in 48 files (100.0%)
+   Literal                           1,957 (9.00%) in 48 files (100.0%)
+   MemberExpression                  1,533 (7.05%) in 45 files (93.8%)
+   CallExpression                    1,529 (7.03%) in 47 files (97.9%)
+   Property                          1,166 (5.36%) in 41 files (85.4%)
+   ExpressionStatement                 563 (2.59%) in 41 files (85.4%)
+   Unknown                             552 (2.54%) in 39 files (81.3%)
+   BlockStatement                      519 (2.39%) in 42 files (87.5%)
+   VariableDeclaration                 471 (2.16%) in 42 files (87.5%)
+   VariableDeclarator                  471 (2.16%) in 42 files (87.5%)
+   ObjectExpression                    470 (2.16%) in 41 files (85.4%)
+   TemplateElement                     462 (2.12%) in 33 files (68.8%)
+   TSTypeAnnotation                    453 (2.08%) in 35 files (72.9%)
+   TemplateLiteral                     346 (1.59%) in 32 files (66.7%)
+   TSTypeReference                     256 (1.18%) in 33 files (68.8%)
+   AwaitExpression                     247 (1.14%) in 29 files (60.4%)
+   ImportSpecifier                     242 (1.11%) in 46 files (95.8%)
+   ArrowFunctionExpression             240 (1.10%) in 42 files (87.5%)
+   ArrayExpression                     224 (1.03%) in 31 files (64.6%)
+   ReturnStatement                     208 (0.96%) in 31 files (64.6%)
+   ImportDeclaration                   207 (0.95%) in 47 files (97.9%)
+   TSStringKeyword                     204 (0.94%) in 25 files (52.1%)
+   IfStatement                         195 (0.90%) in 29 files (60.4%)
+   TSPropertySignature                 160 (0.74%) in 18 files (37.5%)
+   BinaryExpression                    158 (0.73%) in 27 files (56.3%)
+   LogicalExpression                   130 (0.60%) in 26 files (54.2%)
+   ObjectPattern                       121 (0.56%) in 30 files (62.5%)
+   UnaryExpression                     103 (0.47%) in 26 files (54.2%)
+   ExportNamedDeclaration               97 (0.45%) in 33 files (68.8%)
+   AssignmentExpression                 94 (0.43%) in 21 files (43.8%)
+   TSUnionType                          78 (0.36%) in 14 files (29.2%)
+   ConditionalExpression                74 (0.34%) in 19 files (39.6%)
+   SpreadElement                        69 (0.32%) in 16 files (33.3%)
+   TSLiteralType                        68 (0.31%) in 11 files (22.9%)
+   TSArrayType                          57 (0.26%) in 17 files (35.4%)
+   TSTypeParameterInstantiation         53 (0.24%) in 18 files (37.5%)
+   Program                              48 (0.22%) in 48 files (100.0%)
+   ImportDefaultSpecifier               48 (0.22%) in 25 files (52.1%)
+   FunctionDeclaration                  48 (0.22%) in 15 files (31.3%)
+   NewExpression                        47 (0.22%) in 16 files (33.3%)
+   FunctionExpression                   45 (0.21%) in 23 files (47.9%)
+   TSTypeLiteral                        43 (0.20%) in 18 files (37.5%)
+   TSBooleanKeyword                     43 (0.20%) in 11 files (22.9%)
+   ThisExpression                       41 (0.19%) in 9 files (18.8%)
+   ChainExpression                      34 (0.16%) in 12 files (25.0%)
+   TSTypeAliasDeclaration               34 (0.16%) in 9 files (18.8%)
+   ThrowStatement                       23 (0.11%) in 12 files (25.0%)
+   ParenthesizedExpression              22 (0.10%) in 12 files (25.0%)
+   TSAnyKeyword                         20 (0.09%) in 12 files (25.0%)
+   TSUndefinedKeyword                   20 (0.09%) in 9 files (18.8%)
+   TSParenthesizedType                  19 (0.09%) in 7 files (14.6%)
+   TSFunctionType                       18 (0.08%) in 6 files (12.5%)
+   TSVoidKeyword                        17 (0.08%) in 6 files (12.5%)
+   TSNumberKeyword                      15 (0.07%) in 7 files (14.6%)
+   ForOfStatement                       15 (0.07%) in 8 files (16.7%)
+   TSTypeQuery                          14 (0.06%) in 9 files (18.8%)
+   TSAsExpression                       13 (0.06%) in 6 files (12.5%)
+   TSSatisfiesExpression                11 (0.05%) in 3 files (6.3%)
+   TryStatement                         11 (0.05%) in 10 files (20.8%)
+   CatchClause                          11 (0.05%) in 10 files (20.8%)
+   TSNullKeyword                        10 (0.05%) in 3 files (6.3%)
+   AssignmentPattern                     9 (0.04%) in 8 files (16.7%)
+   RestElement                           9 (0.04%) in 3 files (6.3%)
+   TSQualifiedName                       9 (0.04%) in 3 files (6.3%)
+   TSImportType                          8 (0.04%) in 6 files (12.5%)
+   MethodDefinition                      8 (0.04%) in 3 files (6.3%)
+   TSNonNullExpression                   8 (0.04%) in 6 files (12.5%)
+   TSIndexSignature                      6 (0.03%) in 4 files (8.3%)
+   SwitchCase                            6 (0.03%) in 2 files (4.2%)
+   TSIndexedAccessType                   6 (0.03%) in 4 files (8.3%)
+   TSTypeParameterDeclaration            5 (0.02%) in 2 files (4.2%)
+   TSTypeParameter                       5 (0.02%) in 2 files (4.2%)
+   ImportExpression                      5 (0.02%) in 4 files (8.3%)
+   TSUnknownKeyword                      3 (0.01%) in 2 files (4.2%)
+   TSNeverKeyword                        3 (0.01%) in 2 files (4.2%)
+   ClassDeclaration                      3 (0.01%) in 3 files (6.3%)
+   ClassBody                             3 (0.01%) in 3 files (6.3%)
+   PropertyDefinition                    3 (0.01%) in 2 files (4.2%)
+   TSTemplateLiteralType                 3 (0.01%) in 1 files (2.1%)
+   TSIntersectionType                    3 (0.01%) in 2 files (4.2%)
+   TSInterfaceDeclaration                3 (0.01%) in 2 files (4.2%)
+   TSInterfaceBody                       3 (0.01%) in 2 files (4.2%)
+   ExportSpecifier                       3 (0.01%) in 1 files (2.1%)
+   ExportDefaultDeclaration              2 (0.01%) in 2 files (4.2%)
+   MetaProperty                          2 (0.01%) in 2 files (4.2%)
+   UpdateExpression                      2 (0.01%) in 2 files (4.2%)
+   ArrayPattern                          2 (0.01%) in 2 files (4.2%)
+   SwitchStatement                       2 (0.01%) in 2 files (4.2%)
+   TSObjectKeyword                       2 (0.01%) in 1 files (2.1%)
+   ContinueStatement                     2 (0.01%) in 2 files (4.2%)
+   Hashbang                              2 (0.01%) in 2 files (4.2%)
+   TaggedTemplateExpression              1 (0.00%) in 1 files (2.1%)
+   TSConditionalType                     1 (0.00%) in 1 files (2.1%)
+   TSTypePredicate                       1 (0.00%) in 1 files (2.1%)
+   BreakStatement                        1 (0.00%) in 1 files (2.1%)
+   WhileStatement                        1 (0.00%) in 1 files (2.1%)
+   Super                                 1 (0.00%) in 1 files (2.1%)
+
+📁 FILE EXAMPLES BY NODE TYPE:
+
+   Identifier:
+     📄 Files WITH Identifier (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+     📄 Files WITHOUT Identifier: (all files contain this node type)
+
+   Literal:
+     📄 Files WITH Literal (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+     📄 Files WITHOUT Literal: (all files contain this node type)
+
+   MemberExpression:
+     📄 Files WITH MemberExpression (showing 10):
+       • vitest-global.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/dts.test.ts
+       • test/css.test.ts
+     📄 Files WITHOUT MemberExpression (showing 3):
+       • tsup.config.ts
+       • test/example.test.ts
+       • src/options.ts
+
+   CallExpression:
+     📄 Files WITH CallExpression (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+     📄 Files WITHOUT CallExpression (showing 1):
+       • src/options.ts
+
+   Property:
+     📄 Files WITH Property (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+     📄 Files WITHOUT Property (showing 7):
+       • assets/esm_shims.js
+       • assets/cjs_shims.js
+       • src/options.ts
+       • src/errors.ts
+       • src/cli-default.ts
+       • src/lib/report-size.ts
+       • src/lib/public-dir.ts
+
+   ExpressionStatement:
+     📄 Files WITH ExpressionStatement (showing 10):
+       • vitest-global.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+     📄 Files WITHOUT ExpressionStatement (showing 7):
+       • tsup.config.ts
+       • assets/esm_shims.js
+       • assets/cjs_shims.js
+       • src/options.ts
+       • src/plugins/tree-shaking.ts
+       • src/plugins/cjs-splitting.ts
+       • src/plugins/cjs-interop.ts
+
+   Unknown:
+     📄 Files WITH Unknown (showing 10):
+       • vitest-global.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+     📄 Files WITHOUT Unknown (showing 9):
+       • tsup.config.ts
+       • assets/esm_shims.js
+       • src/run.ts
+       • src/fs.ts
+       • src/cli-node.ts
+       • src/cli-main.ts
+       • src/cli-default.ts
+       • src/plugins/size-reporter.ts
+       • src/esbuild/swc.test.ts
+
+   BlockStatement:
+     📄 Files WITH BlockStatement (showing 10):
+       • vitest-global.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+     📄 Files WITHOUT BlockStatement (showing 6):
+       • tsup.config.ts
+       • assets/esm_shims.js
+       • assets/cjs_shims.js
+       • src/options.ts
+       • src/cli-node.ts
+       • src/cli-default.ts
+
+   VariableDeclaration:
+     📄 Files WITH VariableDeclaration (showing 10):
+       • vitest-global.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/dts.test.ts
+       • test/css.test.ts
+     📄 Files WITHOUT VariableDeclaration (showing 6):
+       • tsup.config.ts
+       • test/example.test.ts
+       • src/options.ts
+       • src/errors.ts
+       • src/cli-node.ts
+       • src/cli-default.ts
+
+   VariableDeclarator:
+     📄 Files WITH VariableDeclarator (showing 10):
+       • vitest-global.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/dts.test.ts
+       • test/css.test.ts
+     📄 Files WITHOUT VariableDeclarator (showing 6):
+       • tsup.config.ts
+       • test/example.test.ts
+       • src/options.ts
+       • src/errors.ts
+       • src/cli-node.ts
+       • src/cli-default.ts
+
+   ObjectExpression:
+     📄 Files WITH ObjectExpression (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+     📄 Files WITHOUT ObjectExpression (showing 7):
+       • assets/esm_shims.js
+       • assets/cjs_shims.js
+       • src/options.ts
+       • src/errors.ts
+       • src/cli-default.ts
+       • src/lib/report-size.ts
+       • src/lib/public-dir.ts
+
+   TemplateElement:
+     📄 Files WITH TemplateElement (showing 10):
+       • vitest-global.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+       • test/css.test.ts
+     📄 Files WITHOUT TemplateElement (showing 10):
+       • tsup.config.ts
+       • test/utils.ts
+       • assets/esm_shims.js
+       • src/run.ts
+       • src/fs.ts
+       • src/cli-node.ts
+       • src/cli-main.ts
+       • src/cli-default.ts
+       • src/plugins/tree-shaking.ts
+       • src/plugins/terser.ts
+
+   TSTypeAnnotation:
+     📄 Files WITH TSTypeAnnotation (showing 10):
+       • test/utils.ts
+       • test/index.test.ts
+       • test/dts.test.ts
+       • src/utils.ts
+       • src/tsc.ts
+       • src/run.ts
+       • src/rollup.ts
+       • src/plugin.ts
+       • src/options.ts
+       • src/log.ts
+     📄 Files WITHOUT TSTypeAnnotation (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/css.test.ts
+       • assets/esm_shims.js
+
+   TemplateLiteral:
+     📄 Files WITH TemplateLiteral (showing 10):
+       • vitest-global.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+       • test/css.test.ts
+     📄 Files WITHOUT TemplateLiteral (showing 10):
+       • tsup.config.ts
+       • test/utils.ts
+       • assets/esm_shims.js
+       • src/run.ts
+       • src/options.ts
+       • src/fs.ts
+       • src/cli-node.ts
+       • src/cli-main.ts
+       • src/cli-default.ts
+       • src/plugins/tree-shaking.ts
+
+   TSTypeReference:
+     📄 Files WITH TSTypeReference (showing 10):
+       • test/utils.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/experimental-dts.test.ts
+       • src/utils.ts
+       • src/tsc.ts
+       • src/rollup.ts
+       • src/plugin.ts
+       • src/options.ts
+       • src/log.ts
+     📄 Files WITHOUT TSTypeReference (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/graphql.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+       • test/css.test.ts
+       • assets/esm_shims.js
+       • assets/cjs_shims.js
+
+   AwaitExpression:
+     📄 Files WITH AwaitExpression (showing 10):
+       • vitest-global.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+     📄 Files WITHOUT AwaitExpression (showing 10):
+       • tsup.config.ts
+       • assets/esm_shims.js
+       • assets/cjs_shims.js
+       • src/tsc.ts
+       • src/run.ts
+       • src/options.ts
+       • src/log.ts
+       • src/exports.ts
+       • src/errors.ts
+       • src/cli-node.ts
+
+   ImportSpecifier:
+     📄 Files WITH ImportSpecifier (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+     📄 Files WITHOUT ImportSpecifier (showing 2):
+       • assets/cjs_shims.js
+       • src/fs.ts
+
+   ArrowFunctionExpression:
+     📄 Files WITH ArrowFunctionExpression (showing 10):
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+       • test/css.test.ts
+     📄 Files WITHOUT ArrowFunctionExpression (showing 6):
+       • vitest-global.ts
+       • tsup.config.ts
+       • src/options.ts
+       • src/errors.ts
+       • src/cli-node.ts
+       • src/cli-default.ts
+
+   ArrayExpression:
+     📄 Files WITH ArrayExpression (showing 10):
+       • vitest-global.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+     📄 Files WITHOUT ArrayExpression (showing 10):
+       • tsup.config.ts
+       • assets/esm_shims.js
+       • assets/cjs_shims.js
+       • src/options.ts
+       • src/fs.ts
+       • src/errors.ts
+       • src/cli-node.ts
+       • src/cli-main.ts
+       • src/cli-default.ts
+       • src/plugins/terser.ts
+
+   ReturnStatement:
+     📄 Files WITH ReturnStatement (showing 10):
+       • test/utils.ts
+       • test/index.test.ts
+       • src/utils.ts
+       • src/tsc.ts
+       • src/rollup.ts
+       • src/plugin.ts
+       • src/log.ts
+       • src/load.ts
+       • src/index.ts
+       • src/fs.ts
+     📄 Files WITHOUT ReturnStatement (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+       • test/css.test.ts
+
+   ImportDeclaration:
+     📄 Files WITH ImportDeclaration (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+     📄 Files WITHOUT ImportDeclaration (showing 1):
+       • assets/cjs_shims.js
+
+   TSStringKeyword:
+     📄 Files WITH TSStringKeyword (showing 10):
+       • test/utils.ts
+       • test/dts.test.ts
+       • src/utils.ts
+       • src/tsc.ts
+       • src/run.ts
+       • src/plugin.ts
+       • src/options.ts
+       • src/log.ts
+       • src/load.ts
+       • src/index.ts
+     📄 Files WITHOUT TSStringKeyword (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/css.test.ts
+
+   IfStatement:
+     📄 Files WITH IfStatement (showing 10):
+       • test/utils.ts
+       • test/index.test.ts
+       • src/utils.ts
+       • src/tsc.ts
+       • src/rollup.ts
+       • src/plugin.ts
+       • src/log.ts
+       • src/load.ts
+       • src/index.ts
+       • src/fs.ts
+     📄 Files WITHOUT IfStatement (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+       • test/css.test.ts
+
+   TSPropertySignature:
+     📄 Files WITH TSPropertySignature (showing 10):
+       • test/utils.ts
+       • src/utils.ts
+       • src/run.ts
+       • src/rollup.ts
+       • src/plugin.ts
+       • src/options.ts
+       • src/load.ts
+       • src/index.ts
+       • src/fs.ts
+       • src/exports.ts
+     📄 Files WITHOUT TSPropertySignature (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+
+   BinaryExpression:
+     📄 Files WITH BinaryExpression (showing 10):
+       • test/utils.ts
+       • test/index.test.ts
+       • assets/cjs_shims.js
+       • src/utils.ts
+       • src/tsc.ts
+       • src/rollup.ts
+       • src/plugin.ts
+       • src/log.ts
+       • src/load.ts
+       • src/index.ts
+     📄 Files WITHOUT BinaryExpression (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+       • test/css.test.ts
+
+   LogicalExpression:
+     📄 Files WITH LogicalExpression (showing 10):
+       • test/utils.ts
+       • assets/cjs_shims.js
+       • src/utils.ts
+       • src/tsc.ts
+       • src/run.ts
+       • src/rollup.ts
+       • src/plugin.ts
+       • src/log.ts
+       • src/load.ts
+       • src/index.ts
+     📄 Files WITHOUT LogicalExpression (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+
+   ObjectPattern:
+     📄 Files WITH ObjectPattern (showing 10):
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/dts.test.ts
+       • test/css.test.ts
+       • src/utils.ts
+     📄 Files WITHOUT ObjectPattern (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/example.test.ts
+       • assets/esm_shims.js
+       • assets/cjs_shims.js
+       • src/options.ts
+       • src/log.ts
+       • src/fs.ts
+       • src/exports.ts
+       • src/errors.ts
+
+   UnaryExpression:
+     📄 Files WITH UnaryExpression (showing 10):
+       • test/utils.ts
+       • test/index.test.ts
+       • assets/cjs_shims.js
+       • src/utils.ts
+       • src/tsc.ts
+       • src/rollup.ts
+       • src/plugin.ts
+       • src/log.ts
+       • src/index.ts
+       • src/fs.ts
+     📄 Files WITHOUT UnaryExpression (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+       • test/css.test.ts
+
+   ExportNamedDeclaration:
+     📄 Files WITH ExportNamedDeclaration (showing 10):
+       • test/utils.ts
+       • assets/esm_shims.js
+       • assets/cjs_shims.js
+       • src/utils.ts
+       • src/tsc.ts
+       • src/run.ts
+       • src/plugin.ts
+       • src/options.ts
+       • src/log.ts
+       • src/load.ts
+     📄 Files WITHOUT ExportNamedDeclaration (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+
+   AssignmentExpression:
+     📄 Files WITH AssignmentExpression (showing 10):
+       • src/utils.ts
+       • src/tsc.ts
+       • src/run.ts
+       • src/rollup.ts
+       • src/plugin.ts
+       • src/log.ts
+       • src/load.ts
+       • src/index.ts
+       • src/exports.ts
+       • src/errors.ts
+     📄 Files WITHOUT AssignmentExpression (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   TSUnionType:
+     📄 Files WITH TSUnionType (showing 10):
+       • src/utils.ts
+       • src/rollup.ts
+       • src/plugin.ts
+       • src/options.ts
+       • src/log.ts
+       • src/index.ts
+       • src/exports.ts
+       • src/rollup/ts-resolve.ts
+       • src/plugins/tree-shaking.ts
+       • src/plugins/terser.ts
+     📄 Files WITHOUT TSUnionType (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   ConditionalExpression:
+     📄 Files WITH ConditionalExpression (showing 10):
+       • assets/cjs_shims.js
+       • src/utils.ts
+       • src/tsc.ts
+       • src/rollup.ts
+       • src/plugin.ts
+       • src/log.ts
+       • src/load.ts
+       • src/index.ts
+       • src/exports.ts
+       • src/cli-main.ts
+     📄 Files WITHOUT ConditionalExpression (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   SpreadElement:
+     📄 Files WITH SpreadElement (showing 10):
+       • test/utils.ts
+       • test/dts.test.ts
+       • src/utils.ts
+       • src/tsc.ts
+       • src/run.ts
+       • src/rollup.ts
+       • src/log.ts
+       • src/load.ts
+       • src/index.ts
+       • src/cli-main.ts
+     📄 Files WITHOUT SpreadElement (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/css.test.ts
+
+   TSLiteralType:
+     📄 Files WITH TSLiteralType (showing 10):
+       • src/utils.ts
+       • src/rollup.ts
+       • src/plugin.ts
+       • src/options.ts
+       • src/log.ts
+       • src/exports.ts
+       • src/plugins/terser.ts
+       • src/plugins/swc-target.ts
+       • src/esbuild/swc.ts
+       • src/esbuild/svelte.ts
+     📄 Files WITHOUT TSLiteralType (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   TSArrayType:
+     📄 Files WITH TSArrayType (showing 10):
+       • test/utils.ts
+       • test/dts.test.ts
+       • src/utils.ts
+       • src/tsc.ts
+       • src/run.ts
+       • src/rollup.ts
+       • src/plugin.ts
+       • src/options.ts
+       • src/log.ts
+       • src/index.ts
+     📄 Files WITHOUT TSArrayType (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/css.test.ts
+
+   TSTypeParameterInstantiation:
+     📄 Files WITH TSTypeParameterInstantiation (showing 10):
+       • test/utils.ts
+       • test/index.test.ts
+       • src/utils.ts
+       • src/tsc.ts
+       • src/rollup.ts
+       • src/plugin.ts
+       • src/options.ts
+       • src/log.ts
+       • src/load.ts
+       • src/index.ts
+     📄 Files WITHOUT TSTypeParameterInstantiation (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+       • test/css.test.ts
+
+   Program:
+     📄 Files WITH Program (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+     📄 Files WITHOUT Program: (all files contain this node type)
+
+   ImportDefaultSpecifier:
+     📄 Files WITH ImportDefaultSpecifier (showing 10):
+       • vitest-global.ts
+       • test/utils.ts
+       • test/index.test.ts
+       • test/dts.test.ts
+       • assets/esm_shims.js
+       • src/utils.ts
+       • src/tsc.ts
+       • src/rollup.ts
+       • src/plugin.ts
+       • src/log.ts
+     📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
+       • tsup.config.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/css.test.ts
+       • assets/cjs_shims.js
+       • src/run.ts
+
+   FunctionDeclaration:
+     📄 Files WITH FunctionDeclaration (showing 10):
+       • vitest-global.ts
+       • test/utils.ts
+       • src/utils.ts
+       • src/tsc.ts
+       • src/run.ts
+       • src/rollup.ts
+       • src/log.ts
+       • src/load.ts
+       • src/index.ts
+       • src/fs.ts
+     📄 Files WITHOUT FunctionDeclaration (showing 10):
+       • tsup.config.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+       • test/css.test.ts
+
+   NewExpression:
+     📄 Files WITH NewExpression (showing 10):
+       • test/utils.ts
+       • test/index.test.ts
+       • assets/cjs_shims.js
+       • src/utils.ts
+       • src/tsc.ts
+       • src/rollup.ts
+       • src/plugin.ts
+       • src/load.ts
+       • src/index.ts
+       • src/exports.ts
+     📄 Files WITHOUT NewExpression (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+       • test/css.test.ts
+
+   FunctionExpression:
+     📄 Files WITH FunctionExpression (showing 10):
+       • test/utils.ts
+       • src/utils.ts
+       • src/tsc.ts
+       • src/rollup.ts
+       • src/plugin.ts
+       • src/log.ts
+       • src/load.ts
+       • src/errors.ts
+       • src/rollup/ts-resolve.ts
+       • src/plugins/tree-shaking.ts
+     📄 Files WITHOUT FunctionExpression (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+
+   TSTypeLiteral:
+     📄 Files WITH TSTypeLiteral (showing 10):
+       • test/utils.ts
+       • src/utils.ts
+       • src/run.ts
+       • src/rollup.ts
+       • src/plugin.ts
+       • src/options.ts
+       • src/load.ts
+       • src/index.ts
+       • src/fs.ts
+       • src/rollup/ts-resolve.ts
+     📄 Files WITHOUT TSTypeLiteral (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+
+   TSBooleanKeyword:
+     📄 Files WITH TSBooleanKeyword (showing 10):
+       • src/utils.ts
+       • src/plugin.ts
+       • src/options.ts
+       • src/log.ts
+       • src/load.ts
+       • src/exports.ts
+       • src/rollup/ts-resolve.ts
+       • src/plugins/tree-shaking.ts
+       • src/lib/public-dir.ts
+       • src/esbuild/postcss.ts
+     📄 Files WITHOUT TSBooleanKeyword (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   ThisExpression:
+     📄 Files WITH ThisExpression (showing 9):
+       • src/tsc.ts
+       • src/plugin.ts
+       • src/log.ts
+       • src/errors.ts
+       • src/plugins/tree-shaking.ts
+       • src/plugins/swc-target.ts
+       • src/plugins/size-reporter.ts
+       • src/plugins/cjs-splitting.ts
+       • src/plugins/cjs-interop.ts
+     📄 Files WITHOUT ThisExpression (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   ChainExpression:
+     📄 Files WITH ChainExpression (showing 10):
+       • test/utils.ts
+       • src/utils.ts
+       • src/tsc.ts
+       • src/rollup.ts
+       • src/plugin.ts
+       • src/log.ts
+       • src/index.ts
+       • src/api-extractor.ts
+       • src/rollup/ts-resolve.ts
+       • src/plugins/cjs-interop.ts
+     📄 Files WITHOUT ChainExpression (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+
+   TSTypeAliasDeclaration:
+     📄 Files WITH TSTypeAliasDeclaration (showing 9):
+       • src/utils.ts
+       • src/rollup.ts
+       • src/plugin.ts
+       • src/options.ts
+       • src/log.ts
+       • src/exports.ts
+       • src/rollup/ts-resolve.ts
+       • src/plugins/tree-shaking.ts
+       • src/esbuild/swc.ts
+     📄 Files WITHOUT TSTypeAliasDeclaration (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   ThrowStatement:
+     📄 Files WITH ThrowStatement (showing 10):
+       • test/utils.ts
+       • test/index.test.ts
+       • src/tsc.ts
+       • src/plugin.ts
+       • src/load.ts
+       • src/index.ts
+       • src/exports.ts
+       • src/api-extractor.ts
+       • src/plugins/terser.ts
+       • src/plugins/swc-target.ts
+     📄 Files WITHOUT ThrowStatement (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+       • test/css.test.ts
+
+   ParenthesizedExpression:
+     📄 Files WITH ParenthesizedExpression (showing 10):
+       • test/utils.ts
+       • assets/cjs_shims.js
+       • src/utils.ts
+       • src/rollup.ts
+       • src/log.ts
+       • src/index.ts
+       • src/plugins/terser.ts
+       • src/lib/report-size.ts
+       • src/esbuild/postcss.ts
+       • src/esbuild/node-protocol.ts
+     📄 Files WITHOUT ParenthesizedExpression (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+
+   TSAnyKeyword:
+     📄 Files WITH TSAnyKeyword (showing 10):
+       • test/index.test.ts
+       • src/utils.ts
+       • src/tsc.ts
+       • src/rollup.ts
+       • src/options.ts
+       • src/log.ts
+       • src/index.ts
+       • src/fs.ts
+       • src/errors.ts
+       • src/plugins/swc-target.ts
+     📄 Files WITHOUT TSAnyKeyword (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+
+   TSUndefinedKeyword:
+     📄 Files WITH TSUndefinedKeyword (showing 9):
+       • src/utils.ts
+       • src/rollup.ts
+       • src/plugin.ts
+       • src/options.ts
+       • src/log.ts
+       • src/index.ts
+       • src/plugins/terser.ts
+       • src/lib/public-dir.ts
+       • src/esbuild/index.ts
+     📄 Files WITHOUT TSUndefinedKeyword (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   TSParenthesizedType:
+     📄 Files WITH TSParenthesizedType (showing 7):
+       • src/utils.ts
+       • src/options.ts
+       • src/index.ts
+       • src/plugins/swc-target.ts
+       • src/esbuild/postcss.ts
+       • src/esbuild/index.ts
+       • src/esbuild/external.ts
+     📄 Files WITHOUT TSParenthesizedType (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   TSFunctionType:
+     📄 Files WITH TSFunctionType (showing 6):
+       • src/utils.ts
+       • src/plugin.ts
+       • src/options.ts
+       • src/index.ts
+       • src/rollup/ts-resolve.ts
+       • src/esbuild/postcss.ts
+     📄 Files WITHOUT TSFunctionType (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   TSVoidKeyword:
+     📄 Files WITH TSVoidKeyword (showing 6):
+       • test/index.test.ts
+       • src/utils.ts
+       • src/plugin.ts
+       • src/options.ts
+       • src/index.ts
+       • src/fs.ts
+     📄 Files WITHOUT TSVoidKeyword (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+
+   TSNumberKeyword:
+     📄 Files WITH TSNumberKeyword (showing 7):
+       • test/index.test.ts
+       • src/utils.ts
+       • src/plugin.ts
+       • src/options.ts
+       • src/index.ts
+       • src/plugins/swc-target.ts
+       • src/lib/report-size.ts
+     📄 Files WITHOUT TSNumberKeyword (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+
+   ForOfStatement:
+     📄 Files WITH ForOfStatement (showing 8):
+       • test/index.test.ts
+       • src/utils.ts
+       • src/plugin.ts
+       • src/fs.ts
+       • src/api-extractor.ts
+       • src/plugins/tree-shaking.ts
+       • src/lib/report-size.ts
+       • src/esbuild/index.ts
+     📄 Files WITHOUT ForOfStatement (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+
+   TSTypeQuery:
+     📄 Files WITH TSTypeQuery (showing 9):
+       • src/utils.ts
+       • src/rollup.ts
+       • src/log.ts
+       • src/load.ts
+       • src/index.ts
+       • src/plugins/terser.ts
+       • src/plugins/swc-target.ts
+       • src/esbuild/swc.ts
+       • src/esbuild/svelte.ts
+     📄 Files WITHOUT TSTypeQuery (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   TSAsExpression:
+     📄 Files WITH TSAsExpression (showing 6):
+       • test/experimental-dts.test.ts
+       • src/utils.ts
+       • src/index.ts
+       • src/cli-main.ts
+       • src/plugins/swc-target.ts
+       • src/esbuild/swc.test.ts
+     📄 Files WITHOUT TSAsExpression (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+
+   TSSatisfiesExpression:
+     📄 Files WITH TSSatisfiesExpression (showing 3):
+       • test/shims.test.ts
+       • test/experimental-dts.test.ts
+       • src/plugins/swc-target.ts
+     📄 Files WITHOUT TSSatisfiesExpression (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+       • test/css.test.ts
+
+   TryStatement:
+     📄 Files WITH TryStatement (showing 10):
+       • test/index.test.ts
+       • src/utils.ts
+       • src/tsc.ts
+       • src/rollup.ts
+       • src/load.ts
+       • src/api-extractor.ts
+       • src/plugins/terser.ts
+       • src/esbuild/svelte.ts
+       • src/esbuild/postcss.ts
+       • src/esbuild/index.ts
+     📄 Files WITHOUT TryStatement (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+
+   CatchClause:
+     📄 Files WITH CatchClause (showing 10):
+       • test/index.test.ts
+       • src/utils.ts
+       • src/tsc.ts
+       • src/rollup.ts
+       • src/load.ts
+       • src/api-extractor.ts
+       • src/plugins/terser.ts
+       • src/esbuild/svelte.ts
+       • src/esbuild/postcss.ts
+       • src/esbuild/index.ts
+     📄 Files WITHOUT CatchClause (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+
+   TSNullKeyword:
+     📄 Files WITH TSNullKeyword (showing 3):
+       • src/utils.ts
+       • src/plugin.ts
+       • src/rollup/ts-resolve.ts
+     📄 Files WITHOUT TSNullKeyword (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   AssignmentPattern:
+     📄 Files WITH AssignmentPattern (showing 8):
+       • test/utils.ts
+       • test/index.test.ts
+       • src/log.ts
+       • src/load.ts
+       • src/cli-main.ts
+       • src/rollup/ts-resolve.ts
+       • src/plugins/terser.ts
+       • src/esbuild/swc.test.ts
+     📄 Files WITHOUT AssignmentPattern (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+       • test/css.test.ts
+
+   RestElement:
+     📄 Files WITH RestElement (showing 3):
+       • src/utils.ts
+       • src/log.ts
+       • src/esbuild/swc.ts
+     📄 Files WITHOUT RestElement (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   TSQualifiedName:
+     📄 Files WITH TSQualifiedName (showing 3):
+       • src/tsc.ts
+       • src/fs.ts
+       • src/rollup/ts-resolve.ts
+     📄 Files WITHOUT TSQualifiedName (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   TSImportType:
+     📄 Files WITH TSImportType (showing 6):
+       • src/utils.ts
+       • src/rollup.ts
+       • src/plugins/terser.ts
+       • src/plugins/swc-target.ts
+       • src/esbuild/swc.ts
+       • src/esbuild/svelte.ts
+     📄 Files WITHOUT TSImportType (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   MethodDefinition:
+     📄 Files WITH MethodDefinition (showing 3):
+       • src/tsc.ts
+       • src/plugin.ts
+       • src/errors.ts
+     📄 Files WITHOUT MethodDefinition (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   TSNonNullExpression:
+     📄 Files WITH TSNonNullExpression (showing 6):
+       • src/tsc.ts
+       • src/plugin.ts
+       • src/index.ts
+       • src/plugins/terser.ts
+       • src/esbuild/swc.ts
+       • src/esbuild/postcss.ts
+     📄 Files WITHOUT TSNonNullExpression (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   TSIndexSignature:
+     📄 Files WITH TSIndexSignature (showing 4):
+       • test/utils.ts
+       • src/options.ts
+       • src/lib/report-size.ts
+       • src/esbuild/index.ts
+     📄 Files WITHOUT TSIndexSignature (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+
+   SwitchCase:
+     📄 Files WITH SwitchCase (showing 2):
+       • src/utils.ts
+       • src/log.ts
+     📄 Files WITHOUT SwitchCase (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   TSIndexedAccessType:
+     📄 Files WITH TSIndexedAccessType (showing 4):
+       • src/utils.ts
+       • src/plugin.ts
+       • src/plugins/terser.ts
+       • src/plugins/swc-target.ts
+     📄 Files WITHOUT TSIndexedAccessType (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   TSTypeParameterDeclaration:
+     📄 Files WITH TSTypeParameterDeclaration (showing 2):
+       • test/index.test.ts
+       • src/utils.ts
+     📄 Files WITHOUT TSTypeParameterDeclaration (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+
+   TSTypeParameter:
+     📄 Files WITH TSTypeParameter (showing 2):
+       • test/index.test.ts
+       • src/utils.ts
+     📄 Files WITHOUT TSTypeParameter (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+
+   ImportExpression:
+     📄 Files WITH ImportExpression (showing 4):
+       • src/rollup.ts
+       • src/index.ts
+       • src/cli-main.ts
+       • src/plugins/cjs-splitting.ts
+     📄 Files WITHOUT ImportExpression (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   TSUnknownKeyword:
+     📄 Files WITH TSUnknownKeyword (showing 2):
+       • src/utils.ts
+       • src/log.ts
+     📄 Files WITHOUT TSUnknownKeyword (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   TSNeverKeyword:
+     📄 Files WITH TSNeverKeyword (showing 2):
+       • src/utils.ts
+       • src/esbuild/swc.test.ts
+     📄 Files WITHOUT TSNeverKeyword (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   ClassDeclaration:
+     📄 Files WITH ClassDeclaration (showing 3):
+       • src/tsc.ts
+       • src/plugin.ts
+       • src/errors.ts
+     📄 Files WITHOUT ClassDeclaration (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   ClassBody:
+     📄 Files WITH ClassBody (showing 3):
+       • src/tsc.ts
+       • src/plugin.ts
+       • src/errors.ts
+     📄 Files WITHOUT ClassBody (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   PropertyDefinition:
+     📄 Files WITH PropertyDefinition (showing 2):
+       • src/tsc.ts
+       • src/plugin.ts
+     📄 Files WITHOUT PropertyDefinition (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   TSTemplateLiteralType:
+     📄 Files WITH TSTemplateLiteralType (showing 1):
+       • src/options.ts
+     📄 Files WITHOUT TSTemplateLiteralType (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   TSIntersectionType:
+     📄 Files WITH TSIntersectionType (showing 2):
+       • src/options.ts
+       • src/esbuild/swc.ts
+     📄 Files WITHOUT TSIntersectionType (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   TSInterfaceDeclaration:
+     📄 Files WITH TSInterfaceDeclaration (showing 2):
+       • src/options.ts
+       • src/exports.ts
+     📄 Files WITHOUT TSInterfaceDeclaration (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   TSInterfaceBody:
+     📄 Files WITH TSInterfaceBody (showing 2):
+       • src/options.ts
+       • src/exports.ts
+     📄 Files WITHOUT TSInterfaceBody (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   ExportSpecifier:
+     📄 Files WITH ExportSpecifier (showing 1):
+       • src/index.ts
+     📄 Files WITHOUT ExportSpecifier (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   ExportDefaultDeclaration:
+     📄 Files WITH ExportDefaultDeclaration (showing 2):
+       • vitest-global.ts
+       • tsup.config.ts
+     📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+       • test/css.test.ts
+
+   MetaProperty:
+     📄 Files WITH MetaProperty (showing 2):
+       • test/utils.ts
+       • assets/esm_shims.js
+     📄 Files WITHOUT MetaProperty (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+
+   UpdateExpression:
+     📄 Files WITH UpdateExpression (showing 2):
+       • test/index.test.ts
+       • src/tsc.ts
+     📄 Files WITHOUT UpdateExpression (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+
+   ArrayPattern:
+     📄 Files WITH ArrayPattern (showing 2):
+       • src/utils.ts
+       • src/api-extractor.ts
+     📄 Files WITHOUT ArrayPattern (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   SwitchStatement:
+     📄 Files WITH SwitchStatement (showing 2):
+       • src/utils.ts
+       • src/log.ts
+     📄 Files WITHOUT SwitchStatement (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   TSObjectKeyword:
+     📄 Files WITH TSObjectKeyword (showing 1):
+       • src/plugin.ts
+     📄 Files WITHOUT TSObjectKeyword (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   ContinueStatement:
+     📄 Files WITH ContinueStatement (showing 2):
+       • src/fs.ts
+       • src/esbuild/index.ts
+     📄 Files WITHOUT ContinueStatement (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   Hashbang:
+     📄 Files WITH Hashbang (showing 2):
+       • src/cli-node.ts
+       • src/cli-default.ts
+     📄 Files WITHOUT Hashbang (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   TaggedTemplateExpression:
+     📄 Files WITH TaggedTemplateExpression (showing 1):
+       • test/index.test.ts
+     📄 Files WITHOUT TaggedTemplateExpression (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+       • test/dts.test.ts
+
+   TSConditionalType:
+     📄 Files WITH TSConditionalType (showing 1):
+       • src/utils.ts
+     📄 Files WITHOUT TSConditionalType (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   TSTypePredicate:
+     📄 Files WITH TSTypePredicate (showing 1):
+       • src/utils.ts
+     📄 Files WITHOUT TSTypePredicate (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   BreakStatement:
+     📄 Files WITH BreakStatement (showing 1):
+       • src/utils.ts
+     📄 Files WITHOUT BreakStatement (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   WhileStatement:
+     📄 Files WITH WhileStatement (showing 1):
+       • src/tsc.ts
+     📄 Files WITHOUT WhileStatement (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+   Super:
+     📄 Files WITH Super (showing 1):
+       • src/errors.ts
+     📄 Files WITHOUT Super (showing 10):
+       • vitest-global.ts
+       • tsup.config.ts
+       • test/utils.ts
+       • test/tsconfig.test.ts
+       • test/svelte.test.ts
+       • test/shims.test.ts
+       • test/index.test.ts
+       • test/graphql.test.ts
+       • test/experimental-dts.test.ts
+       • test/example.test.ts
+
+============================================================
+✅ Analysis complete!
