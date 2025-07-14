@@ -1,11 +1,12 @@
 AST Analysis Report for deno
-Generated on: 2025-07-13T03:17:12.021Z
+Generated on: 2025-07-14T01:41:57.361Z
 Repository: sample-repos/deno
 ================================================================================
 
 🔍 Analyzing JavaScript/TypeScript files in: /Users/camchenry/workspace/ast-analysis/sample-repos/deno
 
-📁 Found 531 files to analyze...
+📁 Found 3374 files to analyze...
+
 
 
 ============================================================
@@ -13,307 +14,3869 @@ Repository: sample-repos/deno
 ============================================================
 
 📁 FILE STATISTICS:
-   Total files found: 531
-   Successfully parsed: 531
-   Failed to parse: 0
-   Total file size: 15.6 MB
+   Total files found: 3374
+   Successfully parsed: 3372
+   Failed to parse: 2
+   Total file size: 17.8 MB
 
 🌳 NODE STATISTICS:
-   Total nodes: 1,636,973
-   Average nodes per file: 3,083
-   Average file size: 30.0 KB
+   Total nodes: 1,976,659
+   Average nodes per file: 586
+   Average file size: 5.4 KB
 
 📋 ALL NODE TYPES (BY FILE PRESENCE):
-   Program                         531 files (100.0%) -      531 total (0.03%)
-   Identifier                      506 files ( 95.3%) -  639,359 total (39.06%)
-   Literal                         442 files ( 83.2%) -  129,238 total (7.89%)
-   VariableDeclaration             416 files ( 78.3%) -   33,852 total (2.07%)
-   VariableDeclarator              416 files ( 78.3%) -   34,504 total (2.11%)
-   MemberExpression                381 files ( 71.8%) -  106,209 total (6.49%)
-   CallExpression                  354 files ( 66.7%) -   92,136 total (5.63%)
-   ImportDeclaration               353 files ( 66.5%) -    2,057 total (0.13%)
-   BlockStatement                  348 files ( 65.5%) -   50,072 total (3.06%)
-   ExpressionStatement             344 files ( 64.8%) -   41,655 total (2.54%)
-   ImportSpecifier                 343 files ( 64.6%) -    3,855 total (0.24%)
-   ExportNamedDeclaration          338 files ( 63.7%) -    2,996 total (0.18%)
-   Property                        318 files ( 59.9%) -   38,673 total (2.36%)
-   FunctionDeclaration             301 files ( 56.7%) -   13,525 total (0.83%)
-   BinaryExpression                301 files ( 56.7%) -   33,172 total (2.03%)
-   NewExpression                   296 files ( 55.7%) -    3,761 total (0.23%)
-   IfStatement                     295 files ( 55.6%) -   26,497 total (1.62%)
-   AssignmentExpression            291 files ( 54.8%) -   24,374 total (1.49%)
-   ReturnStatement                 289 files ( 54.4%) -   27,594 total (1.69%)
-   ObjectExpression                282 files ( 53.1%) -    7,944 total (0.49%)
-   UnaryExpression                 274 files ( 51.6%) -   22,381 total (1.37%)
-   TSTypeAnnotation                272 files ( 51.2%) -   56,826 total (3.47%)
-   ObjectPattern                   251 files ( 47.3%) -    1,481 total (0.09%)
-   LogicalExpression               237 files ( 44.6%) -   20,970 total (1.28%)
-   TSTypeReference                 237 files ( 44.6%) -   33,558 total (2.05%)
-   ArrowFunctionExpression         233 files ( 43.9%) -    7,784 total (0.48%)
-   ThrowStatement                  213 files ( 40.1%) -    1,685 total (0.10%)
-   TSStringKeyword                 206 files ( 38.8%) -    8,043 total (0.49%)
-   ArrayExpression                 198 files ( 37.3%) -    6,748 total (0.41%)
-   TSUnionType                     188 files ( 35.4%) -    7,259 total (0.44%)
-   ParenthesizedExpression         186 files ( 35.0%) -    6,757 total (0.41%)
-   ConditionalExpression           181 files ( 34.1%) -    8,314 total (0.51%)
-   Unknown                         180 files ( 33.9%) -    5,457 total (0.33%)
-   TSNumberKeyword                 178 files ( 33.5%) -    6,775 total (0.41%)
-   FunctionExpression              175 files ( 33.0%) -    4,239 total (0.26%)
-   TemplateElement                 169 files ( 31.8%) -    4,449 total (0.27%)
-   TSTypeParameterInstantiation    167 files ( 31.5%) -    3,440 total (0.21%)
-   TemplateLiteral                 164 files ( 30.9%) -    1,900 total (0.12%)
-   ThisExpression                  155 files ( 29.2%) -    8,822 total (0.54%)
-   TSPropertySignature             154 files ( 29.0%) -   16,519 total (1.01%)
-   ExportSpecifier                 151 files ( 28.4%) -    1,249 total (0.08%)
-   TSInterfaceDeclaration          148 files ( 27.9%) -    3,627 total (0.22%)
-   TSInterfaceBody                 148 files ( 27.9%) -    3,627 total (0.22%)
-   ClassBody                       143 files ( 26.9%) -      739 total (0.05%)
-   ClassDeclaration                142 files ( 26.7%) -      709 total (0.04%)
-   TSVoidKeyword                   139 files ( 26.2%) -    4,175 total (0.26%)
-   TSFunctionType                  137 files ( 25.8%) -    2,399 total (0.15%)
-   MethodDefinition                136 files ( 25.6%) -    3,401 total (0.21%)
-   TryStatement                    135 files ( 25.4%) -      449 total (0.03%)
-   UpdateExpression                132 files ( 24.9%) -    1,773 total (0.11%)
-   ExportDefaultDeclaration        130 files ( 24.5%) -      136 total (0.01%)
-   CatchClause                     125 files ( 23.5%) -      384 total (0.02%)
-   TSBooleanKeyword                125 files ( 23.5%) -    3,252 total (0.20%)
-   TSArrayType                     121 files ( 22.8%) -    1,971 total (0.12%)
-   ForStatement                    121 files ( 22.8%) -      855 total (0.05%)
-   AssignmentPattern               120 files ( 22.6%) -    1,031 total (0.06%)
-   TSAnyKeyword                    110 files ( 20.7%) -    2,613 total (0.16%)
-   TSTypeLiteral                   106 files ( 20.0%) -    1,323 total (0.08%)
-   PropertyDefinition              105 files ( 19.8%) -    1,156 total (0.07%)
-   ChainExpression                 103 files ( 19.4%) -      532 total (0.03%)
-   RestElement                     103 files ( 19.4%) -      542 total (0.03%)
-   TSNullKeyword                   103 files ( 19.4%) -    2,274 total (0.14%)
-   TSUndefinedKeyword              102 files ( 19.2%) -    1,452 total (0.09%)
-   AwaitExpression                 101 files ( 19.0%) -      589 total (0.04%)
-   TSMethodSignature               100 files ( 18.8%) -    6,741 total (0.41%)
-   TSTypeAliasDeclaration           94 files ( 17.7%) -    1,061 total (0.06%)
-   SpreadElement                    93 files ( 17.5%) -      902 total (0.06%)
-   TSUnknownKeyword                 90 files ( 16.9%) -      528 total (0.03%)
-   BreakStatement                   86 files ( 16.2%) -    1,745 total (0.11%)
-   WhileStatement                   85 files ( 16.0%) -      574 total (0.04%)
-   ImportNamespaceSpecifier         84 files ( 15.8%) -      175 total (0.01%)
-   TSAsExpression                   82 files ( 15.4%) -      397 total (0.02%)
-   TSTypeParameter                  81 files ( 15.3%) -    1,612 total (0.10%)
-   TSLiteralType                    81 files ( 15.3%) -    7,630 total (0.47%)
-   TSTypeParameterDeclaration       80 files ( 15.1%) -    1,380 total (0.08%)
-   ForOfStatement                   72 files ( 13.6%) -    1,093 total (0.07%)
-   ImportDefaultSpecifier           71 files ( 13.4%) -      225 total (0.01%)
-   Super                            70 files ( 13.2%) -      436 total (0.03%)
-   SwitchStatement                  68 files ( 12.8%) -    1,052 total (0.06%)
-   SwitchCase                       68 files ( 12.8%) -    9,324 total (0.57%)
-   PrivateIdentifier                66 files ( 12.4%) -    2,477 total (0.15%)
-   TSDeclareFunction                58 files ( 10.9%) -    1,238 total (0.08%)
-   TSTupleType                      58 files ( 10.9%) -      188 total (0.01%)
-   TSInterfaceHeritage              54 files ( 10.2%) -    1,676 total (0.10%)
-   ContinueStatement                51 files (  9.6%) -      553 total (0.03%)
-   TSTypeOperator                   46 files (  8.7%) -    1,096 total (0.07%)
-   TSConstructSignatureDeclaration   44 files (  8.3%) -    1,102 total (0.07%)
-   TSParenthesizedType              42 files (  7.9%) -      668 total (0.04%)
-   TSQualifiedName                  41 files (  7.7%) -      970 total (0.06%)
-   ArrayPattern                     40 files (  7.5%) -      171 total (0.01%)
-   TSNonNullExpression              34 files (  6.4%) -      213 total (0.01%)
-   TSTypeQuery                      33 files (  6.2%) -      107 total (0.01%)
-   TSIntersectionType               32 files (  6.0%) -      132 total (0.01%)
-   TSSymbolKeyword                  30 files (  5.6%) -      118 total (0.01%)
-   TSModuleDeclaration              29 files (  5.5%) -       56 total (0.00%)
-   TSModuleBlock                    29 files (  5.5%) -       56 total (0.00%)
-   TSNeverKeyword                   28 files (  5.3%) -      112 total (0.01%)
-   TSTypePredicate                  26 files (  4.9%) -      377 total (0.02%)
-   TSThisType                       25 files (  4.7%) -      596 total (0.04%)
-   MetaProperty                     24 files (  4.5%) -       38 total (0.00%)
-   TSIndexedAccessType              24 files (  4.5%) -      646 total (0.04%)
-   TSObjectKeyword                  23 files (  4.3%) -       71 total (0.00%)
-   TSIndexSignature                 23 files (  4.3%) -      100 total (0.01%)
-   Hashbang                         22 files (  4.1%) -       22 total (0.00%)
-   TSBigIntKeyword                  21 files (  4.0%) -      207 total (0.01%)
-   TSEmptyBodyFunctionExpression    20 files (  3.8%) -      876 total (0.05%)
-   TSCallSignatureDeclaration       18 files (  3.4%) -      143 total (0.01%)
-   ForInStatement                   15 files (  2.8%) -       89 total (0.01%)
-   YieldExpression                  13 files (  2.4%) -       52 total (0.00%)
-   TSEnumDeclaration                12 files (  2.3%) -       79 total (0.00%)
-   TSEnumBody                       12 files (  2.3%) -       79 total (0.00%)
-   TSEnumMember                     12 files (  2.3%) -    1,246 total (0.08%)
-   TSClassImplements                12 files (  2.3%) -       57 total (0.00%)
-   TaggedTemplateExpression         10 files (  1.9%) -       48 total (0.00%)
-   DoWhileStatement                 10 files (  1.9%) -       31 total (0.00%)
-   TSConditionalType                10 files (  1.9%) -      109 total (0.01%)
-   EmptyStatement                    8 files (  1.5%) -       12 total (0.00%)
-   TSMappedType                      8 files (  1.5%) -       20 total (0.00%)
-   ExportAllDeclaration              6 files (  1.1%) -        8 total (0.00%)
-   TSTemplateLiteralType             6 files (  1.1%) -       11 total (0.00%)
-   SequenceExpression                5 files (  0.9%) -      291 total (0.02%)
-   TSRestType                        5 files (  0.9%) -       10 total (0.00%)
-   ClassExpression                   5 files (  0.9%) -       30 total (0.00%)
-   TSInferType                       5 files (  0.9%) -       51 total (0.00%)
-   TSConstructorType                 4 files (  0.8%) -       16 total (0.00%)
-   StaticBlock                       3 files (  0.6%) -        6 total (0.00%)
-   TSNamedTupleMember                3 files (  0.6%) -       13 total (0.00%)
-   LabeledStatement                  3 files (  0.6%) -       21 total (0.00%)
-   ImportAttribute                   2 files (  0.4%) -        3 total (0.00%)
-   TSParameterProperty               2 files (  0.4%) -        2 total (0.00%)
-   TSExportAssignment                2 files (  0.4%) -        2 total (0.00%)
-   TSSatisfiesExpression             2 files (  0.4%) -        2 total (0.00%)
-   TSIntrinsicKeyword                2 files (  0.4%) -        6 total (0.00%)
-   JSXElement                        2 files (  0.4%) -       16 total (0.00%)
-   JSXOpeningElement                 2 files (  0.4%) -       16 total (0.00%)
-   JSXIdentifier                     2 files (  0.4%) -       37 total (0.00%)
-   JSXText                           2 files (  0.4%) -       27 total (0.00%)
-   JSXClosingElement                 2 files (  0.4%) -       14 total (0.00%)
-   DebuggerStatement                 1 files (  0.2%) -        1 total (0.00%)
-   TSImportType                      1 files (  0.2%) -        2 total (0.00%)
-   TSAbstractMethodDefinition        1 files (  0.2%) -        1 total (0.00%)
-   JSXAttribute                      1 files (  0.2%) -        7 total (0.00%)
-   JSXExpressionContainer            1 files (  0.2%) -        4 total (0.00%)
-   ImportExpression                  1 files (  0.2%) -        1 total (0.00%)
+   Program                        3372 files (100.0%) -    3,372 total (0.17%)
+   Identifier                     3091 files ( 91.7%) -  759,014 total (38.40%)
+   Literal                        2809 files ( 83.3%) -  162,772 total (8.23%)
+   ExpressionStatement            2292 files ( 68.0%) -   63,424 total (3.21%)
+   CallExpression                 2235 files ( 66.3%) -  123,010 total (6.22%)
+   MemberExpression               2198 files ( 65.2%) -  135,953 total (6.88%)
+   BlockStatement                 1628 files ( 48.3%) -   59,362 total (3.00%)
+   ImportDeclaration              1412 files ( 41.9%) -    3,793 total (0.19%)
+   VariableDeclaration            1373 files ( 40.7%) -   43,674 total (2.21%)
+   VariableDeclarator             1373 files ( 40.7%) -   44,338 total (2.24%)
+   ImportSpecifier                1000 files ( 29.7%) -    5,576 total (0.28%)
+   ExportNamedDeclaration          926 files ( 27.5%) -    3,828 total (0.19%)
+   Property                        903 files ( 26.8%) -   51,475 total (2.60%)
+   NewExpression                   882 files ( 26.2%) -    7,516 total (0.38%)
+   ObjectExpression                870 files ( 25.8%) -   14,276 total (0.72%)
+   FunctionDeclaration             855 files ( 25.4%) -   14,414 total (0.73%)
+   BinaryExpression                843 files ( 25.0%) -   36,128 total (1.83%)
+   ArrowFunctionExpression         838 files ( 24.9%) -   12,381 total (0.63%)
+   TSTypeAnnotation                800 files ( 23.7%) -   59,255 total (3.00%)
+   ReturnStatement                 744 files ( 22.1%) -   28,518 total (1.44%)
+   AssignmentExpression            710 files ( 21.1%) -   26,094 total (1.32%)
+   IfStatement                     578 files ( 17.1%) -   27,401 total (1.39%)
+   FunctionExpression              556 files ( 16.5%) -    6,872 total (0.35%)
+   AwaitExpression                 546 files ( 16.2%) -    5,650 total (0.29%)
+   UnaryExpression                 484 files ( 14.4%) -   23,179 total (1.17%)
+   TSTypeReference                 463 files ( 13.7%) -   34,733 total (1.76%)
+   TSStringKeyword                 454 files ( 13.5%) -    8,749 total (0.44%)
+   Unknown                         449 files ( 13.3%) -    7,763 total (0.39%)
+   ArrayExpression                 445 files ( 13.2%) -    9,361 total (0.47%)
+   ThrowStatement                  442 files ( 13.1%) -    2,160 total (0.11%)
+   TemplateElement                 426 files ( 12.6%) -    6,577 total (0.33%)
+   TemplateLiteral                 421 files ( 12.5%) -    3,021 total (0.15%)
+   ObjectPattern                   397 files ( 11.8%) -    2,195 total (0.11%)
+   TSNumberKeyword                 382 files ( 11.3%) -    7,415 total (0.38%)
+   ParenthesizedExpression         324 files (  9.6%) -    7,246 total (0.37%)
+   LogicalExpression               320 files (  9.5%) -   21,248 total (1.07%)
+   ImportDefaultSpecifier          320 files (  9.5%) -      562 total (0.03%)
+   TSTypeParameterInstantiation    307 files (  9.1%) -    4,336 total (0.22%)
+   TryStatement                    272 files (  8.1%) -      802 total (0.04%)
+   TSUnionType                     263 files (  7.8%) -    7,514 total (0.38%)
+   ConditionalExpression           260 files (  7.7%) -    8,477 total (0.43%)
+   ClassBody                       259 files (  7.7%) -      880 total (0.04%)
+   ClassDeclaration                257 files (  7.6%) -      847 total (0.04%)
+   TSVoidKeyword                   247 files (  7.3%) -    4,791 total (0.24%)
+   ExportDefaultDeclaration        241 files (  7.1%) -      248 total (0.01%)
+   CatchClause                     232 files (  6.9%) -      620 total (0.03%)
+   UpdateExpression                231 files (  6.9%) -    2,011 total (0.10%)
+   TSPropertySignature             227 files (  6.7%) -   16,864 total (0.85%)
+   ImportNamespaceSpecifier        225 files (  6.7%) -      363 total (0.02%)
+   ExportSpecifier                 198 files (  5.9%) -    1,323 total (0.07%)
+   MetaProperty                    196 files (  5.8%) -      346 total (0.02%)
+   TSArrayType                     195 files (  5.8%) -    2,156 total (0.11%)
+   TSAnyKeyword                    195 files (  5.8%) -    2,919 total (0.15%)
+   ThisExpression                  195 files (  5.8%) -    9,083 total (0.46%)
+   TSInterfaceDeclaration          194 files (  5.8%) -    3,688 total (0.19%)
+   TSInterfaceBody                 194 files (  5.8%) -    3,688 total (0.19%)
+   ForStatement                    193 files (  5.7%) -      983 total (0.05%)
+   MethodDefinition                187 files (  5.5%) -    3,514 total (0.18%)
+   ForOfStatement                  182 files (  5.4%) -    1,402 total (0.07%)
+   TSAsExpression                  176 files (  5.2%) -      782 total (0.04%)
+   TSFunctionType                  170 files (  5.0%) -    2,465 total (0.12%)
+   TSTypeLiteral                   159 files (  4.7%) -    1,492 total (0.08%)
+   TSBooleanKeyword                157 files (  4.7%) -    3,329 total (0.17%)
+   TSNullKeyword                   146 files (  4.3%) -    2,428 total (0.12%)
+   ChainExpression                 145 files (  4.3%) -      672 total (0.03%)
+   PropertyDefinition              142 files (  4.2%) -    1,215 total (0.06%)
+   TSUnknownKeyword                136 files (  4.0%) -      637 total (0.03%)
+   AssignmentPattern               133 files (  3.9%) -    1,053 total (0.05%)
+   TSLiteralType                   131 files (  3.9%) -    7,772 total (0.39%)
+   TSTypeAliasDeclaration          129 files (  3.8%) -    1,126 total (0.06%)
+   TSUndefinedKeyword              127 files (  3.8%) -    1,497 total (0.08%)
+   SpreadElement                   125 files (  3.7%) -    1,000 total (0.05%)
+   RestElement                     125 files (  3.7%) -      565 total (0.03%)
+   WhileStatement                  122 files (  3.6%) -      658 total (0.03%)
+   ImportExpression                117 files (  3.5%) -      145 total (0.01%)
+   BreakStatement                  113 files (  3.4%) -    1,838 total (0.09%)
+   TSQualifiedName                 111 files (  3.3%) -    1,241 total (0.06%)
+   TSMethodSignature               111 files (  3.3%) -    6,764 total (0.34%)
+   TSTypeParameter                  97 files (  2.9%) -    1,653 total (0.08%)
+   TSTypeParameterDeclaration       96 files (  2.8%) -    1,413 total (0.07%)
+   ArrayPattern                     92 files (  2.7%) -      318 total (0.02%)
+   TSNonNullExpression              89 files (  2.6%) -      425 total (0.02%)
+   TSDeclareFunction                85 files (  2.5%) -    1,274 total (0.06%)
+   SwitchStatement                  78 files (  2.3%) -    1,067 total (0.05%)
+   SwitchCase                       78 files (  2.3%) -    9,387 total (0.47%)
+   Super                            76 files (  2.3%) -      445 total (0.02%)
+   TSTupleType                      74 files (  2.2%) -      241 total (0.01%)
+   PrivateIdentifier                73 files (  2.2%) -    2,617 total (0.13%)
+   ContinueStatement                61 files (  1.8%) -      582 total (0.03%)
+   TSInterfaceHeritage              55 files (  1.6%) -    1,682 total (0.09%)
+   TSModuleDeclaration              52 files (  1.5%) -       87 total (0.00%)
+   TSModuleBlock                    52 files (  1.5%) -       87 total (0.00%)
+   TSTypeQuery                      49 files (  1.5%) -      156 total (0.01%)
+   TSNeverKeyword                   48 files (  1.4%) -      141 total (0.01%)
+   TSTypeOperator                   48 files (  1.4%) -    1,098 total (0.06%)
+   TSParenthesizedType              48 files (  1.4%) -      678 total (0.03%)
+   JSXElement                       45 files (  1.3%) -       73 total (0.00%)
+   JSXOpeningElement                45 files (  1.3%) -       73 total (0.00%)
+   JSXIdentifier                    45 files (  1.3%) -      149 total (0.01%)
+   TSConstructSignatureDeclaration   44 files (  1.3%) -    1,102 total (0.06%)
+   ExportAllDeclaration             41 files (  1.2%) -       51 total (0.00%)
+   ImportAttribute                  41 files (  1.2%) -       68 total (0.00%)
+   JSXClosingElement                40 files (  1.2%) -       60 total (0.00%)
+   TSIntersectionType               37 files (  1.1%) -      138 total (0.01%)
+   Hashbang                         36 files (  1.1%) -       36 total (0.00%)
+   TSIndexSignature                 36 files (  1.1%) -      114 total (0.01%)
+   TSSymbolKeyword                  31 files (  0.9%) -      119 total (0.01%)
+   TSTypePredicate                  30 files (  0.9%) -      381 total (0.02%)
+   TSObjectKeyword                  26 files (  0.8%) -       75 total (0.00%)
+   JSXText                          26 files (  0.8%) -       67 total (0.00%)
+   TSThisType                       25 files (  0.7%) -      596 total (0.03%)
+   TSIndexedAccessType              25 files (  0.7%) -      648 total (0.03%)
+   TSBigIntKeyword                  24 files (  0.7%) -      218 total (0.01%)
+   TSEmptyBodyFunctionExpression    22 files (  0.7%) -      878 total (0.04%)
+   ForInStatement                   21 files (  0.6%) -       97 total (0.00%)
+   YieldExpression                  21 files (  0.6%) -       67 total (0.00%)
+   TSCallSignatureDeclaration       19 files (  0.6%) -      144 total (0.01%)
+   TSSatisfiesExpression            19 files (  0.6%) -       23 total (0.00%)
+   TSEnumDeclaration                16 files (  0.5%) -       84 total (0.00%)
+   TSEnumBody                       16 files (  0.5%) -       84 total (0.00%)
+   TSEnumMember                     16 files (  0.5%) -    1,261 total (0.06%)
+   TSClassImplements                16 files (  0.5%) -       63 total (0.00%)
+   TSConditionalType                16 files (  0.5%) -      125 total (0.01%)
+   TaggedTemplateExpression         13 files (  0.4%) -       51 total (0.00%)
+   DoWhileStatement                 12 files (  0.4%) -       33 total (0.00%)
+   TSMappedType                      9 files (  0.3%) -       21 total (0.00%)
+   EmptyStatement                    8 files (  0.2%) -       12 total (0.00%)
+   SequenceExpression                8 files (  0.2%) -      294 total (0.01%)
+   ClassExpression                   7 files (  0.2%) -       33 total (0.00%)
+   JSXAttribute                      7 files (  0.2%) -       16 total (0.00%)
+   Decorator                         7 files (  0.2%) -       10 total (0.00%)
+   TSRestType                        6 files (  0.2%) -       11 total (0.00%)
+   TSNamedTupleMember                6 files (  0.2%) -       33 total (0.00%)
+   TSInferType                       6 files (  0.2%) -       52 total (0.00%)
+   TSTemplateLiteralType             6 files (  0.2%) -       11 total (0.00%)
+   TSExportAssignment                5 files (  0.1%) -        5 total (0.00%)
+   TSImportEqualsDeclaration         5 files (  0.1%) -        5 total (0.00%)
+   TSExternalModuleReference         5 files (  0.1%) -        5 total (0.00%)
+   TSParameterProperty               4 files (  0.1%) -        4 total (0.00%)
+   TSConstructorType                 4 files (  0.1%) -       16 total (0.00%)
+   TSImportType                      4 files (  0.1%) -        5 total (0.00%)
+   StaticBlock                       3 files (  0.1%) -        6 total (0.00%)
+   LabeledStatement                  3 files (  0.1%) -       21 total (0.00%)
+   TSTypeAssertion                   3 files (  0.1%) -       12 total (0.00%)
+   JSXExpressionContainer            3 files (  0.1%) -        6 total (0.00%)
+   DebuggerStatement                 2 files (  0.1%) -        2 total (0.00%)
+   TSIntrinsicKeyword                2 files (  0.1%) -        6 total (0.00%)
+   TSAbstractMethodDefinition        1 files (  0.0%) -        1 total (0.00%)
+   JSXFragment                       1 files (  0.0%) -        1 total (0.00%)
+   JSXOpeningFragment                1 files (  0.0%) -        1 total (0.00%)
+   JSXClosingFragment                1 files (  0.0%) -        1 total (0.00%)
+   TSNamespaceExportDeclaration      1 files (  0.0%) -        1 total (0.00%)
 
 📝 ALL NODE TYPES (BY TOTAL COUNT):
-   Identifier                      639,359 (39.06%) in 506 files (95.3%)
-   Literal                         129,238 (7.89%) in 442 files (83.2%)
-   MemberExpression                106,209 (6.49%) in 381 files (71.8%)
-   CallExpression                   92,136 (5.63%) in 354 files (66.7%)
-   TSTypeAnnotation                 56,826 (3.47%) in 272 files (51.2%)
-   BlockStatement                   50,072 (3.06%) in 348 files (65.5%)
-   ExpressionStatement              41,655 (2.54%) in 344 files (64.8%)
-   Property                         38,673 (2.36%) in 318 files (59.9%)
-   VariableDeclarator               34,504 (2.11%) in 416 files (78.3%)
-   VariableDeclaration              33,852 (2.07%) in 416 files (78.3%)
-   TSTypeReference                  33,558 (2.05%) in 237 files (44.6%)
-   BinaryExpression                 33,172 (2.03%) in 301 files (56.7%)
-   ReturnStatement                  27,594 (1.69%) in 289 files (54.4%)
-   IfStatement                      26,497 (1.62%) in 295 files (55.6%)
-   AssignmentExpression             24,374 (1.49%) in 291 files (54.8%)
-   UnaryExpression                  22,381 (1.37%) in 274 files (51.6%)
-   LogicalExpression                20,970 (1.28%) in 237 files (44.6%)
-   TSPropertySignature              16,519 (1.01%) in 154 files (29.0%)
-   FunctionDeclaration              13,525 (0.83%) in 301 files (56.7%)
-   SwitchCase                        9,324 (0.57%) in 68 files (12.8%)
-   ThisExpression                    8,822 (0.54%) in 155 files (29.2%)
-   ConditionalExpression             8,314 (0.51%) in 181 files (34.1%)
-   TSStringKeyword                   8,043 (0.49%) in 206 files (38.8%)
-   ObjectExpression                  7,944 (0.49%) in 282 files (53.1%)
-   ArrowFunctionExpression           7,784 (0.48%) in 233 files (43.9%)
-   TSLiteralType                     7,630 (0.47%) in 81 files (15.3%)
-   TSUnionType                       7,259 (0.44%) in 188 files (35.4%)
-   TSNumberKeyword                   6,775 (0.41%) in 178 files (33.5%)
-   ParenthesizedExpression           6,757 (0.41%) in 186 files (35.0%)
-   ArrayExpression                   6,748 (0.41%) in 198 files (37.3%)
-   TSMethodSignature                 6,741 (0.41%) in 100 files (18.8%)
-   Unknown                           5,457 (0.33%) in 180 files (33.9%)
-   TemplateElement                   4,449 (0.27%) in 169 files (31.8%)
-   FunctionExpression                4,239 (0.26%) in 175 files (33.0%)
-   TSVoidKeyword                     4,175 (0.26%) in 139 files (26.2%)
-   ImportSpecifier                   3,855 (0.24%) in 343 files (64.6%)
-   NewExpression                     3,761 (0.23%) in 296 files (55.7%)
-   TSInterfaceDeclaration            3,627 (0.22%) in 148 files (27.9%)
-   TSInterfaceBody                   3,627 (0.22%) in 148 files (27.9%)
-   TSTypeParameterInstantiation      3,440 (0.21%) in 167 files (31.5%)
-   MethodDefinition                  3,401 (0.21%) in 136 files (25.6%)
-   TSBooleanKeyword                  3,252 (0.20%) in 125 files (23.5%)
-   ExportNamedDeclaration            2,996 (0.18%) in 338 files (63.7%)
-   TSAnyKeyword                      2,613 (0.16%) in 110 files (20.7%)
-   PrivateIdentifier                 2,477 (0.15%) in 66 files (12.4%)
-   TSFunctionType                    2,399 (0.15%) in 137 files (25.8%)
-   TSNullKeyword                     2,274 (0.14%) in 103 files (19.4%)
-   ImportDeclaration                 2,057 (0.13%) in 353 files (66.5%)
-   TSArrayType                       1,971 (0.12%) in 121 files (22.8%)
-   TemplateLiteral                   1,900 (0.12%) in 164 files (30.9%)
-   UpdateExpression                  1,773 (0.11%) in 132 files (24.9%)
-   BreakStatement                    1,745 (0.11%) in 86 files (16.2%)
-   ThrowStatement                    1,685 (0.10%) in 213 files (40.1%)
-   TSInterfaceHeritage               1,676 (0.10%) in 54 files (10.2%)
-   TSTypeParameter                   1,612 (0.10%) in 81 files (15.3%)
-   ObjectPattern                     1,481 (0.09%) in 251 files (47.3%)
-   TSUndefinedKeyword                1,452 (0.09%) in 102 files (19.2%)
-   TSTypeParameterDeclaration        1,380 (0.08%) in 80 files (15.1%)
-   TSTypeLiteral                     1,323 (0.08%) in 106 files (20.0%)
-   ExportSpecifier                   1,249 (0.08%) in 151 files (28.4%)
-   TSEnumMember                      1,246 (0.08%) in 12 files (2.3%)
-   TSDeclareFunction                 1,238 (0.08%) in 58 files (10.9%)
-   PropertyDefinition                1,156 (0.07%) in 105 files (19.8%)
-   TSConstructSignatureDeclaration    1,102 (0.07%) in 44 files (8.3%)
-   TSTypeOperator                    1,096 (0.07%) in 46 files (8.7%)
-   ForOfStatement                    1,093 (0.07%) in 72 files (13.6%)
-   TSTypeAliasDeclaration            1,061 (0.06%) in 94 files (17.7%)
-   SwitchStatement                   1,052 (0.06%) in 68 files (12.8%)
-   AssignmentPattern                 1,031 (0.06%) in 120 files (22.6%)
-   TSQualifiedName                     970 (0.06%) in 41 files (7.7%)
-   SpreadElement                       902 (0.06%) in 93 files (17.5%)
-   TSEmptyBodyFunctionExpression       876 (0.05%) in 20 files (3.8%)
-   ForStatement                        855 (0.05%) in 121 files (22.8%)
-   ClassBody                           739 (0.05%) in 143 files (26.9%)
-   ClassDeclaration                    709 (0.04%) in 142 files (26.7%)
-   TSParenthesizedType                 668 (0.04%) in 42 files (7.9%)
-   TSIndexedAccessType                 646 (0.04%) in 24 files (4.5%)
-   TSThisType                          596 (0.04%) in 25 files (4.7%)
-   AwaitExpression                     589 (0.04%) in 101 files (19.0%)
-   WhileStatement                      574 (0.04%) in 85 files (16.0%)
-   ContinueStatement                   553 (0.03%) in 51 files (9.6%)
-   RestElement                         542 (0.03%) in 103 files (19.4%)
-   ChainExpression                     532 (0.03%) in 103 files (19.4%)
-   Program                             531 (0.03%) in 531 files (100.0%)
-   TSUnknownKeyword                    528 (0.03%) in 90 files (16.9%)
-   TryStatement                        449 (0.03%) in 135 files (25.4%)
-   Super                               436 (0.03%) in 70 files (13.2%)
-   TSAsExpression                      397 (0.02%) in 82 files (15.4%)
-   CatchClause                         384 (0.02%) in 125 files (23.5%)
-   TSTypePredicate                     377 (0.02%) in 26 files (4.9%)
-   SequenceExpression                  291 (0.02%) in 5 files (0.9%)
-   ImportDefaultSpecifier              225 (0.01%) in 71 files (13.4%)
-   TSNonNullExpression                 213 (0.01%) in 34 files (6.4%)
-   TSBigIntKeyword                     207 (0.01%) in 21 files (4.0%)
-   TSTupleType                         188 (0.01%) in 58 files (10.9%)
-   ImportNamespaceSpecifier            175 (0.01%) in 84 files (15.8%)
-   ArrayPattern                        171 (0.01%) in 40 files (7.5%)
-   TSCallSignatureDeclaration          143 (0.01%) in 18 files (3.4%)
-   ExportDefaultDeclaration            136 (0.01%) in 130 files (24.5%)
-   TSIntersectionType                  132 (0.01%) in 32 files (6.0%)
-   TSSymbolKeyword                     118 (0.01%) in 30 files (5.6%)
-   TSNeverKeyword                      112 (0.01%) in 28 files (5.3%)
-   TSConditionalType                   109 (0.01%) in 10 files (1.9%)
-   TSTypeQuery                         107 (0.01%) in 33 files (6.2%)
-   TSIndexSignature                    100 (0.01%) in 23 files (4.3%)
-   ForInStatement                       89 (0.01%) in 15 files (2.8%)
-   TSEnumDeclaration                    79 (0.00%) in 12 files (2.3%)
-   TSEnumBody                           79 (0.00%) in 12 files (2.3%)
-   TSObjectKeyword                      71 (0.00%) in 23 files (4.3%)
-   TSClassImplements                    57 (0.00%) in 12 files (2.3%)
-   TSModuleDeclaration                  56 (0.00%) in 29 files (5.5%)
-   TSModuleBlock                        56 (0.00%) in 29 files (5.5%)
-   YieldExpression                      52 (0.00%) in 13 files (2.4%)
-   TSInferType                          51 (0.00%) in 5 files (0.9%)
-   TaggedTemplateExpression             48 (0.00%) in 10 files (1.9%)
-   MetaProperty                         38 (0.00%) in 24 files (4.5%)
-   JSXIdentifier                        37 (0.00%) in 2 files (0.4%)
-   DoWhileStatement                     31 (0.00%) in 10 files (1.9%)
-   ClassExpression                      30 (0.00%) in 5 files (0.9%)
-   JSXText                              27 (0.00%) in 2 files (0.4%)
-   Hashbang                             22 (0.00%) in 22 files (4.1%)
-   LabeledStatement                     21 (0.00%) in 3 files (0.6%)
-   TSMappedType                         20 (0.00%) in 8 files (1.5%)
-   TSConstructorType                    16 (0.00%) in 4 files (0.8%)
-   JSXElement                           16 (0.00%) in 2 files (0.4%)
-   JSXOpeningElement                    16 (0.00%) in 2 files (0.4%)
-   JSXClosingElement                    14 (0.00%) in 2 files (0.4%)
-   TSNamedTupleMember                   13 (0.00%) in 3 files (0.6%)
-   EmptyStatement                       12 (0.00%) in 8 files (1.5%)
-   TSTemplateLiteralType                11 (0.00%) in 6 files (1.1%)
-   TSRestType                           10 (0.00%) in 5 files (0.9%)
-   ExportAllDeclaration                  8 (0.00%) in 6 files (1.1%)
-   JSXAttribute                          7 (0.00%) in 1 files (0.2%)
-   StaticBlock                           6 (0.00%) in 3 files (0.6%)
-   TSIntrinsicKeyword                    6 (0.00%) in 2 files (0.4%)
-   JSXExpressionContainer                4 (0.00%) in 1 files (0.2%)
-   ImportAttribute                       3 (0.00%) in 2 files (0.4%)
-   TSParameterProperty                   2 (0.00%) in 2 files (0.4%)
-   TSExportAssignment                    2 (0.00%) in 2 files (0.4%)
-   TSSatisfiesExpression                 2 (0.00%) in 2 files (0.4%)
-   TSImportType                          2 (0.00%) in 1 files (0.2%)
-   DebuggerStatement                     1 (0.00%) in 1 files (0.2%)
-   TSAbstractMethodDefinition            1 (0.00%) in 1 files (0.2%)
-   ImportExpression                      1 (0.00%) in 1 files (0.2%)
+   Identifier                      759,014 (38.40%) in 3091 files (91.7%)
+   Literal                         162,772 (8.23%) in 2809 files (83.3%)
+   MemberExpression                135,953 (6.88%) in 2198 files (65.2%)
+   CallExpression                  123,010 (6.22%) in 2235 files (66.3%)
+   ExpressionStatement              63,424 (3.21%) in 2292 files (68.0%)
+   BlockStatement                   59,362 (3.00%) in 1628 files (48.3%)
+   TSTypeAnnotation                 59,255 (3.00%) in 800 files (23.7%)
+   Property                         51,475 (2.60%) in 903 files (26.8%)
+   VariableDeclarator               44,338 (2.24%) in 1373 files (40.7%)
+   VariableDeclaration              43,674 (2.21%) in 1373 files (40.7%)
+   BinaryExpression                 36,128 (1.83%) in 843 files (25.0%)
+   TSTypeReference                  34,733 (1.76%) in 463 files (13.7%)
+   ReturnStatement                  28,518 (1.44%) in 744 files (22.1%)
+   IfStatement                      27,401 (1.39%) in 578 files (17.1%)
+   AssignmentExpression             26,094 (1.32%) in 710 files (21.1%)
+   UnaryExpression                  23,179 (1.17%) in 484 files (14.4%)
+   LogicalExpression                21,248 (1.07%) in 320 files (9.5%)
+   TSPropertySignature              16,864 (0.85%) in 227 files (6.7%)
+   FunctionDeclaration              14,414 (0.73%) in 855 files (25.4%)
+   ObjectExpression                 14,276 (0.72%) in 870 files (25.8%)
+   ArrowFunctionExpression          12,381 (0.63%) in 838 files (24.9%)
+   SwitchCase                        9,387 (0.47%) in 78 files (2.3%)
+   ArrayExpression                   9,361 (0.47%) in 445 files (13.2%)
+   ThisExpression                    9,083 (0.46%) in 195 files (5.8%)
+   TSStringKeyword                   8,749 (0.44%) in 454 files (13.5%)
+   ConditionalExpression             8,477 (0.43%) in 260 files (7.7%)
+   TSLiteralType                     7,772 (0.39%) in 131 files (3.9%)
+   Unknown                           7,763 (0.39%) in 449 files (13.3%)
+   NewExpression                     7,516 (0.38%) in 882 files (26.2%)
+   TSUnionType                       7,514 (0.38%) in 263 files (7.8%)
+   TSNumberKeyword                   7,415 (0.38%) in 382 files (11.3%)
+   ParenthesizedExpression           7,246 (0.37%) in 324 files (9.6%)
+   FunctionExpression                6,872 (0.35%) in 556 files (16.5%)
+   TSMethodSignature                 6,764 (0.34%) in 111 files (3.3%)
+   TemplateElement                   6,577 (0.33%) in 426 files (12.6%)
+   AwaitExpression                   5,650 (0.29%) in 546 files (16.2%)
+   ImportSpecifier                   5,576 (0.28%) in 1000 files (29.7%)
+   TSVoidKeyword                     4,791 (0.24%) in 247 files (7.3%)
+   TSTypeParameterInstantiation      4,336 (0.22%) in 307 files (9.1%)
+   ExportNamedDeclaration            3,828 (0.19%) in 926 files (27.5%)
+   ImportDeclaration                 3,793 (0.19%) in 1412 files (41.9%)
+   TSInterfaceDeclaration            3,688 (0.19%) in 194 files (5.8%)
+   TSInterfaceBody                   3,688 (0.19%) in 194 files (5.8%)
+   MethodDefinition                  3,514 (0.18%) in 187 files (5.5%)
+   Program                           3,372 (0.17%) in 3372 files (100.0%)
+   TSBooleanKeyword                  3,329 (0.17%) in 157 files (4.7%)
+   TemplateLiteral                   3,021 (0.15%) in 421 files (12.5%)
+   TSAnyKeyword                      2,919 (0.15%) in 195 files (5.8%)
+   PrivateIdentifier                 2,617 (0.13%) in 73 files (2.2%)
+   TSFunctionType                    2,465 (0.12%) in 170 files (5.0%)
+   TSNullKeyword                     2,428 (0.12%) in 146 files (4.3%)
+   ObjectPattern                     2,195 (0.11%) in 397 files (11.8%)
+   ThrowStatement                    2,160 (0.11%) in 442 files (13.1%)
+   TSArrayType                       2,156 (0.11%) in 195 files (5.8%)
+   UpdateExpression                  2,011 (0.10%) in 231 files (6.9%)
+   BreakStatement                    1,838 (0.09%) in 113 files (3.4%)
+   TSInterfaceHeritage               1,682 (0.09%) in 55 files (1.6%)
+   TSTypeParameter                   1,653 (0.08%) in 97 files (2.9%)
+   TSUndefinedKeyword                1,497 (0.08%) in 127 files (3.8%)
+   TSTypeLiteral                     1,492 (0.08%) in 159 files (4.7%)
+   TSTypeParameterDeclaration        1,413 (0.07%) in 96 files (2.8%)
+   ForOfStatement                    1,402 (0.07%) in 182 files (5.4%)
+   ExportSpecifier                   1,323 (0.07%) in 198 files (5.9%)
+   TSDeclareFunction                 1,274 (0.06%) in 85 files (2.5%)
+   TSEnumMember                      1,261 (0.06%) in 16 files (0.5%)
+   TSQualifiedName                   1,241 (0.06%) in 111 files (3.3%)
+   PropertyDefinition                1,215 (0.06%) in 142 files (4.2%)
+   TSTypeAliasDeclaration            1,126 (0.06%) in 129 files (3.8%)
+   TSConstructSignatureDeclaration    1,102 (0.06%) in 44 files (1.3%)
+   TSTypeOperator                    1,098 (0.06%) in 48 files (1.4%)
+   SwitchStatement                   1,067 (0.05%) in 78 files (2.3%)
+   AssignmentPattern                 1,053 (0.05%) in 133 files (3.9%)
+   SpreadElement                     1,000 (0.05%) in 125 files (3.7%)
+   ForStatement                        983 (0.05%) in 193 files (5.7%)
+   ClassBody                           880 (0.04%) in 259 files (7.7%)
+   TSEmptyBodyFunctionExpression       878 (0.04%) in 22 files (0.7%)
+   ClassDeclaration                    847 (0.04%) in 257 files (7.6%)
+   TryStatement                        802 (0.04%) in 272 files (8.1%)
+   TSAsExpression                      782 (0.04%) in 176 files (5.2%)
+   TSParenthesizedType                 678 (0.03%) in 48 files (1.4%)
+   ChainExpression                     672 (0.03%) in 145 files (4.3%)
+   WhileStatement                      658 (0.03%) in 122 files (3.6%)
+   TSIndexedAccessType                 648 (0.03%) in 25 files (0.7%)
+   TSUnknownKeyword                    637 (0.03%) in 136 files (4.0%)
+   CatchClause                         620 (0.03%) in 232 files (6.9%)
+   TSThisType                          596 (0.03%) in 25 files (0.7%)
+   ContinueStatement                   582 (0.03%) in 61 files (1.8%)
+   RestElement                         565 (0.03%) in 125 files (3.7%)
+   ImportDefaultSpecifier              562 (0.03%) in 320 files (9.5%)
+   Super                               445 (0.02%) in 76 files (2.3%)
+   TSNonNullExpression                 425 (0.02%) in 89 files (2.6%)
+   TSTypePredicate                     381 (0.02%) in 30 files (0.9%)
+   ImportNamespaceSpecifier            363 (0.02%) in 225 files (6.7%)
+   MetaProperty                        346 (0.02%) in 196 files (5.8%)
+   ArrayPattern                        318 (0.02%) in 92 files (2.7%)
+   SequenceExpression                  294 (0.01%) in 8 files (0.2%)
+   ExportDefaultDeclaration            248 (0.01%) in 241 files (7.1%)
+   TSTupleType                         241 (0.01%) in 74 files (2.2%)
+   TSBigIntKeyword                     218 (0.01%) in 24 files (0.7%)
+   TSTypeQuery                         156 (0.01%) in 49 files (1.5%)
+   JSXIdentifier                       149 (0.01%) in 45 files (1.3%)
+   ImportExpression                    145 (0.01%) in 117 files (3.5%)
+   TSCallSignatureDeclaration          144 (0.01%) in 19 files (0.6%)
+   TSNeverKeyword                      141 (0.01%) in 48 files (1.4%)
+   TSIntersectionType                  138 (0.01%) in 37 files (1.1%)
+   TSConditionalType                   125 (0.01%) in 16 files (0.5%)
+   TSSymbolKeyword                     119 (0.01%) in 31 files (0.9%)
+   TSIndexSignature                    114 (0.01%) in 36 files (1.1%)
+   ForInStatement                       97 (0.00%) in 21 files (0.6%)
+   TSModuleDeclaration                  87 (0.00%) in 52 files (1.5%)
+   TSModuleBlock                        87 (0.00%) in 52 files (1.5%)
+   TSEnumDeclaration                    84 (0.00%) in 16 files (0.5%)
+   TSEnumBody                           84 (0.00%) in 16 files (0.5%)
+   TSObjectKeyword                      75 (0.00%) in 26 files (0.8%)
+   JSXElement                           73 (0.00%) in 45 files (1.3%)
+   JSXOpeningElement                    73 (0.00%) in 45 files (1.3%)
+   ImportAttribute                      68 (0.00%) in 41 files (1.2%)
+   YieldExpression                      67 (0.00%) in 21 files (0.6%)
+   JSXText                              67 (0.00%) in 26 files (0.8%)
+   TSClassImplements                    63 (0.00%) in 16 files (0.5%)
+   JSXClosingElement                    60 (0.00%) in 40 files (1.2%)
+   TSInferType                          52 (0.00%) in 6 files (0.2%)
+   TaggedTemplateExpression             51 (0.00%) in 13 files (0.4%)
+   ExportAllDeclaration                 51 (0.00%) in 41 files (1.2%)
+   Hashbang                             36 (0.00%) in 36 files (1.1%)
+   DoWhileStatement                     33 (0.00%) in 12 files (0.4%)
+   TSNamedTupleMember                   33 (0.00%) in 6 files (0.2%)
+   ClassExpression                      33 (0.00%) in 7 files (0.2%)
+   TSSatisfiesExpression                23 (0.00%) in 19 files (0.6%)
+   LabeledStatement                     21 (0.00%) in 3 files (0.1%)
+   TSMappedType                         21 (0.00%) in 9 files (0.3%)
+   TSConstructorType                    16 (0.00%) in 4 files (0.1%)
+   JSXAttribute                         16 (0.00%) in 7 files (0.2%)
+   EmptyStatement                       12 (0.00%) in 8 files (0.2%)
+   TSTypeAssertion                      12 (0.00%) in 3 files (0.1%)
+   TSRestType                           11 (0.00%) in 6 files (0.2%)
+   TSTemplateLiteralType                11 (0.00%) in 6 files (0.2%)
+   Decorator                            10 (0.00%) in 7 files (0.2%)
+   StaticBlock                           6 (0.00%) in 3 files (0.1%)
+   TSIntrinsicKeyword                    6 (0.00%) in 2 files (0.1%)
+   JSXExpressionContainer                6 (0.00%) in 3 files (0.1%)
+   TSExportAssignment                    5 (0.00%) in 5 files (0.1%)
+   TSImportType                          5 (0.00%) in 4 files (0.1%)
+   TSImportEqualsDeclaration             5 (0.00%) in 5 files (0.1%)
+   TSExternalModuleReference             5 (0.00%) in 5 files (0.1%)
+   TSParameterProperty                   4 (0.00%) in 4 files (0.1%)
+   DebuggerStatement                     2 (0.00%) in 2 files (0.1%)
+   TSAbstractMethodDefinition            1 (0.00%) in 1 files (0.0%)
+   JSXFragment                           1 (0.00%) in 1 files (0.0%)
+   JSXOpeningFragment                    1 (0.00%) in 1 files (0.0%)
+   JSXClosingFragment                    1 (0.00%) in 1 files (0.0%)
+   TSNamespaceExportDeclaration          1 (0.00%) in 1 files (0.0%)
+
+📁 FILE EXAMPLES BY NODE TYPE:
+
+   Identifier:
+     📄 Files WITH Identifier (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+       • tools/generate_minimatch_dep.js
+     📄 Files WITHOUT Identifier (showing 10):
+       • tools/ops.d.ts
+       • tools/release/deps.ts
+       • cli/tsc/dts/lib.esnext.full.d.ts
+       • cli/tsc/dts/lib.esnext.d.ts
+       • cli/tsc/dts/lib.es6.d.ts
+       • cli/tsc/dts/lib.es2024.full.d.ts
+       • cli/tsc/dts/lib.es2024.d.ts
+       • cli/tsc/dts/lib.es2023.full.d.ts
+       • cli/tsc/dts/lib.es2023.d.ts
+       • cli/tsc/dts/lib.es2022.full.d.ts
+
+   Literal:
+     📄 Files WITH Literal (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+       • tools/generate_minimatch_dep.js
+     📄 Files WITHOUT Literal (showing 10):
+       • tools/ops.d.ts
+       • tests/testdata/navigator_languages.ts
+       • tests/testdata/navigator_language.ts
+       • tests/testdata/add.ts
+       • ext/node/polyfills/_tls_common.ts
+       • ext/node/polyfills/_events.d.ts
+       • ext/node/polyfills/00_globals.js
+       • cli/tsc/dts/lib.webworker.importscripts.d.ts
+       • cli/tsc/dts/lib.webworker.asynciterable.d.ts
+       • cli/tsc/dts/lib.scripthost.d.ts
+
+   MemberExpression:
+     📄 Files WITH MemberExpression (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+       • tools/generate_minimatch_dep.js
+     📄 Files WITHOUT MemberExpression (showing 10):
+       • tools/ops.d.ts
+       • tools/release/deps.ts
+       • runtime/features/gen.js
+       • ext/webidl/internal.d.ts
+       • ext/url/internal.d.ts
+       • ext/web/internal.d.ts
+       • ext/web/06_streams_types.d.ts
+       • ext/web/04_global_interfaces.js
+       • ext/fetch/internal.d.ts
+       • ext/console/internal.d.ts
+
+   CallExpression:
+     📄 Files WITH CallExpression (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+       • tools/generate_minimatch_dep.js
+     📄 Files WITHOUT CallExpression (showing 10):
+       • tools/ops.d.ts
+       • tools/release/deps.ts
+       • runtime/features/gen.js
+       • ext/webidl/internal.d.ts
+       • ext/url/internal.d.ts
+       • ext/web/internal.d.ts
+       • ext/web/06_streams_types.d.ts
+       • ext/fetch/internal.d.ts
+       • ext/console/internal.d.ts
+       • cli/tsc/compiler.d.ts
+
+   ExpressionStatement:
+     📄 Files WITH ExpressionStatement (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+       • tools/generate_minimatch_dep.js
+     📄 Files WITHOUT ExpressionStatement (showing 10):
+       • tools/ops.d.ts
+       • tools/release/deps.ts
+       • runtime/features/gen.js
+       • ext/webidl/internal.d.ts
+       • ext/webgpu/00_init.js
+       • ext/url/internal.d.ts
+       • ext/web/internal.d.ts
+       • ext/web/06_streams_types.d.ts
+       • ext/fetch/internal.d.ts
+       • ext/console/internal.d.ts
+
+   BlockStatement:
+     📄 Files WITH BlockStatement (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+       • tools/copyright_checker.js
+     📄 Files WITHOUT BlockStatement (showing 10):
+       • tools/ops.d.ts
+       • tools/generate_minimatch_dep.js
+       • tools/format.js
+       • tools/release/deps.ts
+       • tools/release/05_create_release_notes.ts
+       • runtime/features/gen.js
+       • runtime/js/98_global_scope_shared.js
+       • ext/webidl/internal.d.ts
+       • ext/webgpu/00_init.js
+       • ext/url/internal.d.ts
+
+   TSTypeAnnotation:
+     📄 Files WITH TSTypeAnnotation (showing 10):
+       • tools/generate_types_deno.ts
+       • tools/build_bench.ts
+       • tools/release/promote_to_release.ts
+       • tools/release/deno_workspace.ts
+       • tools/release/01_bump_crate_versions.ts
+       • tools/release/00_start_release.ts
+       • runtime/js/01_version.ts
+       • ext/webidl/internal.d.ts
+       • ext/url/internal.d.ts
+       • ext/web/internal.d.ts
+     📄 Files WITHOUT TSTypeAnnotation (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_minimatch_dep.js
+
+   Property:
+     📄 Files WITH Property (showing 10):
+       • tools/wgpu_sync.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/generate_types_deno.ts
+       • tools/generate_minimatch_dep.js
+       • tools/format.js
+       • tools/copyright_checker.js
+       • tools/build_bench.ts
+     📄 Files WITHOUT Property (showing 10):
+       • tools/verify_pr_title.js
+       • tools/ops.d.ts
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/build_benchmark_jsons.js
+       • tools/release/version_greater_latest.ts
+       • tools/release/promote_to_release.ts
+       • tools/release/deps.ts
+       • tools/release/05_create_release_notes.ts
+       • tools/release/03_publish_crates.ts
+
+   VariableDeclarator:
+     📄 Files WITH VariableDeclarator (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+       • tools/generate_minimatch_dep.js
+     📄 Files WITHOUT VariableDeclarator (showing 10):
+       • tools/ops.d.ts
+       • tools/release/deps.ts
+       • ext/web/06_streams_types.d.ts
+       • ext/console/internal.d.ts
+       • cli/js/40_lint_types.d.ts
+       • cli/bench/command.js
+       • tests/unit_node/wasi_test.ts
+       • tests/unit_node/tty_test.ts
+       • tests/unit_node/repl_test.ts
+       • tests/unit_node/querystring_test.ts
+
+   VariableDeclaration:
+     📄 Files WITH VariableDeclaration (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+       • tools/generate_minimatch_dep.js
+     📄 Files WITHOUT VariableDeclaration (showing 10):
+       • tools/ops.d.ts
+       • tools/release/deps.ts
+       • ext/web/06_streams_types.d.ts
+       • ext/console/internal.d.ts
+       • cli/js/40_lint_types.d.ts
+       • cli/bench/command.js
+       • tests/unit_node/wasi_test.ts
+       • tests/unit_node/tty_test.ts
+       • tests/unit_node/repl_test.ts
+       • tests/unit_node/querystring_test.ts
+
+   BinaryExpression:
+     📄 Files WITH BinaryExpression (showing 10):
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/generate_types_deno.ts
+       • tools/format.js
+       • tools/copyright_checker.js
+       • tools/build_benchmark_jsons.js
+       • tools/build_bench.ts
+     📄 Files WITHOUT BinaryExpression (showing 10):
+       • tools/wgpu_sync.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/install_prebuilt.js
+       • tools/generate_minimatch_dep.js
+       • tools/release/version_greater_latest.ts
+       • tools/release/deps.ts
+       • tools/release/05_create_release_notes.ts
+       • runtime/features/gen.js
+       • runtime/js/90_deno_ns.js
+
+   TSTypeReference:
+     📄 Files WITH TSTypeReference (showing 10):
+       • tools/release/deno_workspace.ts
+       • tools/release/00_start_release.ts
+       • runtime/js/01_version.ts
+       • ext/webidl/internal.d.ts
+       • ext/url/internal.d.ts
+       • ext/web/internal.d.ts
+       • ext/web/06_streams_types.d.ts
+       • ext/telemetry/util.ts
+       • ext/telemetry/telemetry.ts
+       • ext/node/update_node_stream.ts
+     📄 Files WITHOUT TSTypeReference (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   ReturnStatement:
+     📄 Files WITH ReturnStatement (showing 10):
+       • tools/wgpu_sync.js
+       • tools/util.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/generate_types_deno.ts
+       • tools/copyright_checker.js
+       • tools/build_benchmark_jsons.js
+       • tools/release/promote_to_release.ts
+       • tools/release/deno_workspace.ts
+       • tools/release/04_post_publish.ts
+     📄 Files WITHOUT ReturnStatement (showing 10):
+       • tools/verify_pr_title.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/install_prebuilt.js
+       • tools/generate_minimatch_dep.js
+       • tools/format.js
+       • tools/build_bench.ts
+       • tools/release/version_greater_latest.ts
+       • tools/release/deps.ts
+
+   IfStatement:
+     📄 Files WITH IfStatement (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/generate_types_deno.ts
+       • tools/copyright_checker.js
+       • tools/build_benchmark_jsons.js
+     📄 Files WITHOUT IfStatement (showing 10):
+       • tools/ops.d.ts
+       • tools/install_prebuilt.js
+       • tools/generate_minimatch_dep.js
+       • tools/format.js
+       • tools/release/deps.ts
+       • tools/release/deno_workspace.ts
+       • tools/release/05_create_release_notes.ts
+       • tools/release/03_publish_crates.ts
+       • tools/napi/generate_symbols_lists.js
+       • runtime/features/gen.js
+
+   AssignmentExpression:
+     📄 Files WITH AssignmentExpression (showing 10):
+       • tools/util.js
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/generate_types_deno.ts
+       • tools/copyright_checker.js
+       • tools/build_bench.ts
+       • tools/release/promote_to_release.ts
+       • tools/release/deno_workspace.ts
+       • tools/release/create_symcache.ts
+       • tools/release/04_post_publish.ts
+     📄 Files WITHOUT AssignmentExpression (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_minimatch_dep.js
+       • tools/format.js
+       • tools/build_benchmark_jsons.js
+       • tools/release/version_greater_latest.ts
+
+   UnaryExpression:
+     📄 Files WITH UnaryExpression (showing 10):
+       • tools/wgpu_sync.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/generate_types_deno.ts
+       • tools/copyright_checker.js
+       • tools/build_benchmark_jsons.js
+       • tools/release/version_greater_latest.ts
+     📄 Files WITHOUT UnaryExpression (showing 10):
+       • tools/verify_pr_title.js
+       • tools/ops.d.ts
+       • tools/install_prebuilt.js
+       • tools/generate_minimatch_dep.js
+       • tools/format.js
+       • tools/build_bench.ts
+       • tools/release/deps.ts
+       • tools/release/deno_workspace.ts
+       • tools/release/05_create_release_notes.ts
+       • tools/release/03_publish_crates.ts
+
+   LogicalExpression:
+     📄 Files WITH LogicalExpression (showing 10):
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/generate_types_deno.ts
+       • tools/copyright_checker.js
+       • tools/release/promote_to_release.ts
+       • tools/release/00_start_release.ts
+       • runtime/js/99_main.js
+     📄 Files WITHOUT LogicalExpression (showing 10):
+       • tools/wgpu_sync.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/install_prebuilt.js
+       • tools/generate_minimatch_dep.js
+       • tools/format.js
+       • tools/build_benchmark_jsons.js
+       • tools/build_bench.ts
+       • tools/release/version_greater_latest.ts
+       • tools/release/deps.ts
+
+   TSPropertySignature:
+     📄 Files WITH TSPropertySignature (showing 10):
+       • tools/release/promote_to_release.ts
+       • runtime/js/01_version.ts
+       • ext/webidl/internal.d.ts
+       • ext/web/internal.d.ts
+       • ext/web/06_streams_types.d.ts
+       • ext/telemetry/telemetry.ts
+       • ext/node/update_node_stream.ts
+       • ext/kv/01_db.ts
+       • ext/http/00_serve.ts
+       • ext/fetch/internal.d.ts
+     📄 Files WITHOUT TSPropertySignature (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   FunctionDeclaration:
+     📄 Files WITH FunctionDeclaration (showing 10):
+       • tools/wgpu_sync.js
+       • tools/util.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/generate_types_deno.ts
+       • tools/copyright_checker.js
+       • tools/build_benchmark_jsons.js
+       • tools/build_bench.ts
+       • tools/release/promote_to_release.ts
+       • tools/release/04_post_publish.ts
+     📄 Files WITHOUT FunctionDeclaration (showing 10):
+       • tools/verify_pr_title.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/install_prebuilt.js
+       • tools/generate_minimatch_dep.js
+       • tools/format.js
+       • tools/release/version_greater_latest.ts
+       • tools/release/deps.ts
+       • tools/release/deno_workspace.ts
+
+   ObjectExpression:
+     📄 Files WITH ObjectExpression (showing 10):
+       • tools/wgpu_sync.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/generate_types_deno.ts
+       • tools/generate_minimatch_dep.js
+       • tools/format.js
+       • tools/copyright_checker.js
+       • tools/build_bench.ts
+     📄 Files WITHOUT ObjectExpression (showing 10):
+       • tools/verify_pr_title.js
+       • tools/ops.d.ts
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/build_benchmark_jsons.js
+       • tools/release/version_greater_latest.ts
+       • tools/release/promote_to_release.ts
+       • tools/release/deps.ts
+       • tools/release/create_symcache.ts
+       • tools/release/05_create_release_notes.ts
+
+   ArrowFunctionExpression:
+     📄 Files WITH ArrowFunctionExpression (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/build_bench.ts
+       • tools/release/promote_to_release.ts
+       • tools/release/deno_workspace.ts
+       • tools/release/01_bump_crate_versions.ts
+       • tools/release/00_start_release.ts
+     📄 Files WITHOUT ArrowFunctionExpression (showing 10):
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+       • tools/generate_minimatch_dep.js
+       • tools/format.js
+       • tools/copyright_checker.js
+       • tools/build_benchmark_jsons.js
+       • tools/release/version_greater_latest.ts
+
+   SwitchCase:
+     📄 Files WITH SwitchCase (showing 10):
+       • runtime/js/99_main.js
+       • runtime/js/11_workers.js
+       • ext/websocket/02_websocketstream.js
+       • ext/websocket/01_websocket.js
+       • ext/webidl/00_webidl.js
+       • ext/url/01_urlpattern.js
+       • ext/web/webtransport.js
+       • ext/web/13_message_port.js
+       • ext/web/10_filereader.js
+       • ext/web/06_streams.js
+     📄 Files WITHOUT SwitchCase (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   ArrayExpression:
+     📄 Files WITH ArrayExpression (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/generate_types_deno.ts
+       • tools/generate_minimatch_dep.js
+       • tools/format.js
+     📄 Files WITHOUT ArrayExpression (showing 10):
+       • tools/ops.d.ts
+       • tools/install_prebuilt.js
+       • tools/build_benchmark_jsons.js
+       • tools/release/version_greater_latest.ts
+       • tools/release/deps.ts
+       • tools/release/deno_workspace.ts
+       • tools/release/create_symcache.ts
+       • tools/release/05_create_release_notes.ts
+       • tools/release/03_publish_crates.ts
+       • tools/release/02_create_pr.ts
+
+   ThisExpression:
+     📄 Files WITH ThisExpression (showing 10):
+       • tools/release/deno_workspace.ts
+       • runtime/js/99_main.js
+       • runtime/js/98_global_scope_worker.js
+       • runtime/js/98_global_scope_window.js
+       • runtime/js/40_fs_events.js
+       • runtime/js/11_workers.js
+       • runtime/js/10_permissions.js
+       • runtime/js/01_errors.js
+       • ext/webstorage/01_webstorage.js
+       • ext/websocket/02_websocketstream.js
+     📄 Files WITHOUT ThisExpression (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSStringKeyword:
+     📄 Files WITH TSStringKeyword (showing 10):
+       • tools/generate_types_deno.ts
+       • tools/build_bench.ts
+       • tools/release/promote_to_release.ts
+       • tools/release/deno_workspace.ts
+       • tools/release/01_bump_crate_versions.ts
+       • tools/release/00_start_release.ts
+       • runtime/js/01_version.ts
+       • ext/webidl/internal.d.ts
+       • ext/url/internal.d.ts
+       • ext/web/internal.d.ts
+     📄 Files WITHOUT TSStringKeyword (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_minimatch_dep.js
+
+   ConditionalExpression:
+     📄 Files WITH ConditionalExpression (showing 10):
+       • tools/util.js
+       • tools/generate_types_deno.ts
+       • tools/format.js
+       • tools/release/version_greater_latest.ts
+       • runtime/js/99_main.js
+       • runtime/js/41_prompt.js
+       • runtime/js/40_fs_events.js
+       • runtime/js/11_workers.js
+       • ext/websocket/02_websocketstream.js
+       • ext/websocket/01_websocket.js
+     📄 Files WITHOUT ConditionalExpression (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_minimatch_dep.js
+       • tools/copyright_checker.js
+
+   TSLiteralType:
+     📄 Files WITH TSLiteralType (showing 10):
+       • ext/webidl/internal.d.ts
+       • ext/web/internal.d.ts
+       • ext/web/06_streams_types.d.ts
+       • ext/telemetry/telemetry.ts
+       • ext/kv/01_db.ts
+       • ext/fetch/internal.d.ts
+       • cli/js/40_lint_types.d.ts
+       • tests/unit_node/net_test.ts
+       • tests/unit/tls_test.ts
+       • tests/unit/streams_test.ts
+     📄 Files WITHOUT TSLiteralType (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   Unknown:
+     📄 Files WITH Unknown (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/generate_types_deno.ts
+       • tools/copyright_checker.js
+       • tools/build_benchmark_jsons.js
+       • tools/build_bench.ts
+     📄 Files WITHOUT Unknown (showing 10):
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/install_prebuilt.js
+       • tools/generate_minimatch_dep.js
+       • tools/format.js
+       • tools/release/deps.ts
+       • tools/release/deno_workspace.ts
+       • tools/release/05_create_release_notes.ts
+       • runtime/features/gen.js
+       • runtime/js/98_global_scope_worker.js
+
+   NewExpression:
+     📄 Files WITH NewExpression (showing 10):
+       • tools/wgpu_sync.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/generate_types_deno.ts
+       • tools/generate_minimatch_dep.js
+       • tools/format.js
+       • tools/copyright_checker.js
+     📄 Files WITHOUT NewExpression (showing 10):
+       • tools/verify_pr_title.js
+       • tools/ops.d.ts
+       • tools/install_prebuilt.js
+       • tools/build_bench.ts
+       • tools/release/deps.ts
+       • tools/release/create_symcache.ts
+       • tools/release/05_create_release_notes.ts
+       • tools/release/04_post_publish.ts
+       • tools/release/03_publish_crates.ts
+       • tools/release/02_create_pr.ts
+
+   TSUnionType:
+     📄 Files WITH TSUnionType (showing 10):
+       • tools/generate_types_deno.ts
+       • ext/webidl/internal.d.ts
+       • ext/web/internal.d.ts
+       • ext/web/06_streams_types.d.ts
+       • ext/telemetry/telemetry.ts
+       • ext/kv/01_db.ts
+       • ext/http/00_serve.ts
+       • ext/fetch/internal.d.ts
+       • ext/cron/01_cron.ts
+       • cli/js/40_lint_types.d.ts
+     📄 Files WITHOUT TSUnionType (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_minimatch_dep.js
+
+   TSNumberKeyword:
+     📄 Files WITH TSNumberKeyword (showing 10):
+       • ext/webidl/internal.d.ts
+       • ext/web/internal.d.ts
+       • ext/web/06_streams_types.d.ts
+       • ext/telemetry/telemetry.ts
+       • ext/node/update_node_stream.ts
+       • ext/kv/01_db.ts
+       • ext/http/00_serve.ts
+       • ext/fetch/internal.d.ts
+       • ext/cron/01_cron.ts
+       • cli/tsc/compiler.d.ts
+     📄 Files WITHOUT TSNumberKeyword (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   ParenthesizedExpression:
+     📄 Files WITH ParenthesizedExpression (showing 10):
+       • tools/verify_pr_title.js
+       • tools/lint.js
+       • tools/generate_types_deno.ts
+       • tools/build_bench.ts
+       • tools/release/version_greater_latest.ts
+       • tools/release/promote_to_release.ts
+       • tools/release/01_bump_crate_versions.ts
+       • runtime/js/99_main.js
+       • runtime/js/10_permissions.js
+       • ext/websocket/02_websocketstream.js
+     📄 Files WITHOUT ParenthesizedExpression (showing 10):
+       • tools/wgpu_sync.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_minimatch_dep.js
+       • tools/format.js
+       • tools/copyright_checker.js
+
+   FunctionExpression:
+     📄 Files WITH FunctionExpression (showing 10):
+       • tools/build_bench.ts
+       • tools/release/deno_workspace.ts
+       • runtime/js/99_main.js
+       • runtime/js/98_global_scope_worker.js
+       • runtime/js/98_global_scope_window.js
+       • runtime/js/40_fs_events.js
+       • runtime/js/11_workers.js
+       • runtime/js/10_permissions.js
+       • runtime/js/01_errors.js
+       • ext/webstorage/01_webstorage.js
+     📄 Files WITHOUT FunctionExpression (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSMethodSignature:
+     📄 Files WITH TSMethodSignature (showing 10):
+       • ext/webidl/internal.d.ts
+       • ext/web/06_streams_types.d.ts
+       • ext/telemetry/telemetry.ts
+       • ext/fetch/internal.d.ts
+       • cli/tsc/compiler.d.ts
+       • cli/js/40_lint_types.d.ts
+       • tests/unit/serve_test.ts
+       • ext/node/polyfills/worker_threads.ts
+       • ext/node/polyfills/net.ts
+       • ext/node/polyfills/http.ts
+     📄 Files WITHOUT TSMethodSignature (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TemplateElement:
+     📄 Files WITH TemplateElement (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/generate_types_deno.ts
+       • tools/copyright_checker.js
+       • tools/build_benchmark_jsons.js
+       • tools/build_bench.ts
+     📄 Files WITHOUT TemplateElement (showing 10):
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/install_prebuilt.js
+       • tools/generate_minimatch_dep.js
+       • tools/format.js
+       • tools/release/deps.ts
+       • tools/release/deno_workspace.ts
+       • tools/release/05_create_release_notes.ts
+       • runtime/features/gen.js
+       • runtime/js/98_global_scope_worker.js
+
+   AwaitExpression:
+     📄 Files WITH AwaitExpression (showing 10):
+       • tools/wgpu_sync.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+       • tools/generate_minimatch_dep.js
+       • tools/format.js
+       • tools/copyright_checker.js
+     📄 Files WITHOUT AwaitExpression (showing 10):
+       • tools/verify_pr_title.js
+       • tools/ops.d.ts
+       • tools/jsdoc_checker.js
+       • tools/build_benchmark_jsons.js
+       • tools/release/deps.ts
+       • tools/release/create_symcache.ts
+       • runtime/features/gen.js
+       • runtime/js/98_global_scope_worker.js
+       • runtime/js/98_global_scope_window.js
+       • runtime/js/98_global_scope_shared.js
+
+   ImportSpecifier:
+     📄 Files WITH ImportSpecifier (showing 10):
+       • tools/wgpu_sync.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+       • tools/generate_minimatch_dep.js
+       • tools/format.js
+     📄 Files WITHOUT ImportSpecifier (showing 10):
+       • tools/verify_pr_title.js
+       • tools/ops.d.ts
+       • tools/build_bench.ts
+       • tools/release/deps.ts
+       • tools/napi/generate_symbols_lists.js
+       • runtime/features/gen.js
+       • ext/webidl/internal.d.ts
+       • ext/url/internal.d.ts
+       • ext/web/internal.d.ts
+       • ext/web/06_streams_types.d.ts
+
+   TSVoidKeyword:
+     📄 Files WITH TSVoidKeyword (showing 10):
+       • ext/webidl/internal.d.ts
+       • ext/web/06_streams_types.d.ts
+       • ext/telemetry/telemetry.ts
+       • ext/kv/01_db.ts
+       • ext/http/00_serve.ts
+       • ext/fetch/internal.d.ts
+       • ext/cron/01_cron.ts
+       • cli/tsc/compiler.d.ts
+       • cli/js/40_lint_types.d.ts
+       • tests/wpt/wpt.ts
+     📄 Files WITHOUT TSVoidKeyword (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSTypeParameterInstantiation:
+     📄 Files WITH TSTypeParameterInstantiation (showing 10):
+       • tools/release/deno_workspace.ts
+       • ext/webidl/internal.d.ts
+       • ext/web/internal.d.ts
+       • ext/web/06_streams_types.d.ts
+       • ext/telemetry/telemetry.ts
+       • ext/node/update_node_stream.ts
+       • ext/kv/01_db.ts
+       • ext/http/00_serve.ts
+       • ext/fetch/internal.d.ts
+       • ext/cron/01_cron.ts
+     📄 Files WITHOUT TSTypeParameterInstantiation (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   ExportNamedDeclaration:
+     📄 Files WITH ExportNamedDeclaration (showing 10):
+       • tools/util.js
+       • tools/copyright_checker.js
+       • tools/release/deno_workspace.ts
+       • runtime/features/gen.js
+       • runtime/js/98_global_scope_worker.js
+       • runtime/js/98_global_scope_window.js
+       • runtime/js/98_global_scope_shared.js
+       • runtime/js/90_deno_ns.js
+       • runtime/js/41_prompt.js
+       • runtime/js/40_tty.js
+     📄 Files WITHOUT ExportNamedDeclaration (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+       • tools/generate_minimatch_dep.js
+
+   ImportDeclaration:
+     📄 Files WITH ImportDeclaration (showing 10):
+       • tools/wgpu_sync.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+       • tools/generate_minimatch_dep.js
+       • tools/format.js
+     📄 Files WITHOUT ImportDeclaration (showing 10):
+       • tools/verify_pr_title.js
+       • tools/ops.d.ts
+       • tools/release/deps.ts
+       • runtime/features/gen.js
+       • ext/webidl/internal.d.ts
+       • ext/url/internal.d.ts
+       • ext/web/internal.d.ts
+       • ext/web/06_streams_types.d.ts
+       • ext/fetch/internal.d.ts
+       • ext/console/internal.d.ts
+
+   TSInterfaceDeclaration:
+     📄 Files WITH TSInterfaceDeclaration (showing 10):
+       • tools/release/promote_to_release.ts
+       • runtime/js/01_version.ts
+       • ext/webidl/internal.d.ts
+       • ext/web/internal.d.ts
+       • ext/web/06_streams_types.d.ts
+       • ext/telemetry/telemetry.ts
+       • ext/kv/01_db.ts
+       • cli/tsc/compiler.d.ts
+       • cli/js/40_lint_types.d.ts
+       • tests/wpt/wpt.ts
+     📄 Files WITHOUT TSInterfaceDeclaration (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSInterfaceBody:
+     📄 Files WITH TSInterfaceBody (showing 10):
+       • tools/release/promote_to_release.ts
+       • runtime/js/01_version.ts
+       • ext/webidl/internal.d.ts
+       • ext/web/internal.d.ts
+       • ext/web/06_streams_types.d.ts
+       • ext/telemetry/telemetry.ts
+       • ext/kv/01_db.ts
+       • cli/tsc/compiler.d.ts
+       • cli/js/40_lint_types.d.ts
+       • tests/wpt/wpt.ts
+     📄 Files WITHOUT TSInterfaceBody (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   MethodDefinition:
+     📄 Files WITH MethodDefinition (showing 10):
+       • tools/release/deno_workspace.ts
+       • runtime/js/98_global_scope_worker.js
+       • runtime/js/98_global_scope_window.js
+       • runtime/js/40_fs_events.js
+       • runtime/js/11_workers.js
+       • runtime/js/10_permissions.js
+       • runtime/js/01_errors.js
+       • ext/websocket/02_websocketstream.js
+       • ext/websocket/01_websocket.js
+       • ext/webgpu/01_webgpu.js
+     📄 Files WITHOUT MethodDefinition (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   Program:
+     📄 Files WITH Program (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+     📄 Files WITHOUT Program: (all files contain this node type)
+
+   TSBooleanKeyword:
+     📄 Files WITH TSBooleanKeyword (showing 10):
+       • tools/generate_types_deno.ts
+       • ext/webidl/internal.d.ts
+       • ext/web/internal.d.ts
+       • ext/web/06_streams_types.d.ts
+       • ext/telemetry/telemetry.ts
+       • ext/kv/01_db.ts
+       • ext/http/00_serve.ts
+       • ext/fetch/internal.d.ts
+       • ext/console/internal.d.ts
+       • cli/tsc/compiler.d.ts
+     📄 Files WITHOUT TSBooleanKeyword (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_minimatch_dep.js
+
+   TemplateLiteral:
+     📄 Files WITH TemplateLiteral (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/generate_types_deno.ts
+       • tools/copyright_checker.js
+       • tools/build_benchmark_jsons.js
+       • tools/build_bench.ts
+     📄 Files WITHOUT TemplateLiteral (showing 10):
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/install_prebuilt.js
+       • tools/generate_minimatch_dep.js
+       • tools/format.js
+       • tools/release/deps.ts
+       • tools/release/deno_workspace.ts
+       • tools/release/05_create_release_notes.ts
+       • runtime/features/gen.js
+       • runtime/js/98_global_scope_worker.js
+
+   TSAnyKeyword:
+     📄 Files WITH TSAnyKeyword (showing 10):
+       • tools/generate_types_deno.ts
+       • ext/webidl/internal.d.ts
+       • ext/web/06_streams_types.d.ts
+       • ext/telemetry/util.ts
+       • ext/telemetry/telemetry.ts
+       • ext/node/update_node_stream.ts
+       • ext/fetch/internal.d.ts
+       • cli/tsc/compiler.d.ts
+       • cli/js/40_lint_types.d.ts
+       • tests/unit_node/worker_threads_test.ts
+     📄 Files WITHOUT TSAnyKeyword (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_minimatch_dep.js
+
+   PrivateIdentifier:
+     📄 Files WITH PrivateIdentifier (showing 10):
+       • tools/release/deno_workspace.ts
+       • runtime/js/40_fs_events.js
+       • runtime/js/11_workers.js
+       • runtime/js/10_permissions.js
+       • ext/websocket/02_websocketstream.js
+       • ext/webgpu/01_webgpu.js
+       • ext/url/01_urlpattern.js
+       • ext/url/00_url.js
+       • ext/web/webtransport.js
+       • ext/web/16_image_data.js
+     📄 Files WITHOUT PrivateIdentifier (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSFunctionType:
+     📄 Files WITH TSFunctionType (showing 10):
+       • ext/webidl/internal.d.ts
+       • ext/web/internal.d.ts
+       • ext/web/06_streams_types.d.ts
+       • ext/telemetry/telemetry.ts
+       • ext/node/update_node_stream.ts
+       • ext/kv/01_db.ts
+       • ext/http/00_serve.ts
+       • ext/cron/01_cron.ts
+       • cli/tsc/compiler.d.ts
+       • cli/js/40_lint_types.d.ts
+     📄 Files WITHOUT TSFunctionType (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSNullKeyword:
+     📄 Files WITH TSNullKeyword (showing 10):
+       • ext/webidl/internal.d.ts
+       • ext/web/internal.d.ts
+       • ext/telemetry/telemetry.ts
+       • ext/kv/01_db.ts
+       • ext/fetch/internal.d.ts
+       • cli/js/40_lint_types.d.ts
+       • tests/unit_node/process_test.ts
+       • tests/unit_node/http_test.ts
+       • tests/unit_node/child_process_test.ts
+       • tests/unit/tls_test.ts
+     📄 Files WITHOUT TSNullKeyword (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   ObjectPattern:
+     📄 Files WITH ObjectPattern (showing 10):
+       • tools/wgpu_sync.js
+       • tools/util.js
+       • tools/lint.js
+       • tools/format.js
+       • tools/release/create_symcache.ts
+       • runtime/js/99_main.js
+       • runtime/js/98_global_scope_worker.js
+       • runtime/js/98_global_scope_window.js
+       • runtime/js/90_deno_ns.js
+       • runtime/js/41_prompt.js
+     📄 Files WITHOUT ObjectPattern (showing 10):
+       • tools/verify_pr_title.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+       • tools/generate_minimatch_dep.js
+       • tools/copyright_checker.js
+       • tools/build_benchmark_jsons.js
+
+   ThrowStatement:
+     📄 Files WITH ThrowStatement (showing 10):
+       • tools/util.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/generate_types_deno.ts
+       • tools/copyright_checker.js
+       • tools/build_benchmark_jsons.js
+       • tools/release/version_greater_latest.ts
+       • tools/release/promote_to_release.ts
+       • tools/release/01_bump_crate_versions.ts
+       • tools/release/00_start_release.ts
+     📄 Files WITHOUT ThrowStatement (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/install_prebuilt.js
+       • tools/generate_minimatch_dep.js
+       • tools/format.js
+       • tools/build_bench.ts
+       • tools/release/deps.ts
+
+   TSArrayType:
+     📄 Files WITH TSArrayType (showing 10):
+       • tools/generate_types_deno.ts
+       • ext/webidl/internal.d.ts
+       • ext/url/internal.d.ts
+       • ext/web/internal.d.ts
+       • ext/telemetry/telemetry.ts
+       • ext/node/update_node_stream.ts
+       • ext/kv/01_db.ts
+       • ext/http/00_serve.ts
+       • ext/fetch/internal.d.ts
+       • ext/cron/01_cron.ts
+     📄 Files WITHOUT TSArrayType (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_minimatch_dep.js
+
+   UpdateExpression:
+     📄 Files WITH UpdateExpression (showing 10):
+       • tools/release/promote_to_release.ts
+       • runtime/js/99_main.js
+       • runtime/js/11_workers.js
+       • ext/webidl/00_webidl.js
+       • ext/url/01_urlpattern.js
+       • ext/url/00_url.js
+       • ext/web/15_performance.js
+       • ext/web/13_message_port.js
+       • ext/web/10_filereader.js
+       • ext/web/09_file.js
+     📄 Files WITHOUT UpdateExpression (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   BreakStatement:
+     📄 Files WITH BreakStatement (showing 10):
+       • runtime/js/99_main.js
+       • runtime/js/41_prompt.js
+       • runtime/js/11_workers.js
+       • ext/websocket/02_websocketstream.js
+       • ext/websocket/01_websocket.js
+       • ext/webidl/00_webidl.js
+       • ext/url/01_urlpattern.js
+       • ext/web/webtransport.js
+       • ext/web/13_message_port.js
+       • ext/web/10_filereader.js
+     📄 Files WITHOUT BreakStatement (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSInterfaceHeritage:
+     📄 Files WITH TSInterfaceHeritage (showing 10):
+       • ext/webidl/internal.d.ts
+       • ext/node/polyfills/worker_threads.ts
+       • ext/node/polyfills/net.ts
+       • ext/node/polyfills/https.ts
+       • ext/node/polyfills/dgram.ts
+       • ext/node/polyfills/child_process.ts
+       • ext/node/polyfills/assert.ts
+       • ext/node/polyfills/_stream.d.ts
+       • ext/node/polyfills/_global.d.ts
+       • cli/tsc/dts/typescript.d.ts
+     📄 Files WITHOUT TSInterfaceHeritage (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSTypeParameter:
+     📄 Files WITH TSTypeParameter (showing 10):
+       • ext/webidl/internal.d.ts
+       • ext/web/internal.d.ts
+       • ext/web/06_streams_types.d.ts
+       • ext/telemetry/telemetry.ts
+       • ext/console/internal.d.ts
+       • tests/unit_node/child_process_test.ts
+       • tests/unit/kv_test.ts
+       • tests/unit/kv_queue_undelivered_test.ts
+       • ext/node/polyfills/util.ts
+       • ext/node/polyfills/child_process.ts
+     📄 Files WITHOUT TSTypeParameter (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSUndefinedKeyword:
+     📄 Files WITH TSUndefinedKeyword (showing 10):
+       • tools/generate_types_deno.ts
+       • ext/web/internal.d.ts
+       • ext/web/06_streams_types.d.ts
+       • ext/telemetry/telemetry.ts
+       • ext/kv/01_db.ts
+       • ext/http/00_serve.ts
+       • ext/fetch/internal.d.ts
+       • ext/cron/01_cron.ts
+       • tests/unit_node/net_test.ts
+       • tests/unit_node/http_test.ts
+     📄 Files WITHOUT TSUndefinedKeyword (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_minimatch_dep.js
+
+   TSTypeLiteral:
+     📄 Files WITH TSTypeLiteral (showing 10):
+       • ext/webidl/internal.d.ts
+       • ext/web/internal.d.ts
+       • ext/telemetry/telemetry.ts
+       • ext/node/update_node_stream.ts
+       • ext/kv/01_db.ts
+       • ext/http/00_serve.ts
+       • ext/fetch/internal.d.ts
+       • ext/cron/01_cron.ts
+       • ext/console/internal.d.ts
+       • cli/js/40_lint_types.d.ts
+     📄 Files WITHOUT TSTypeLiteral (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSTypeParameterDeclaration:
+     📄 Files WITH TSTypeParameterDeclaration (showing 10):
+       • ext/webidl/internal.d.ts
+       • ext/web/internal.d.ts
+       • ext/web/06_streams_types.d.ts
+       • ext/telemetry/telemetry.ts
+       • ext/console/internal.d.ts
+       • tests/unit_node/child_process_test.ts
+       • tests/unit/kv_test.ts
+       • tests/unit/kv_queue_undelivered_test.ts
+       • ext/node/polyfills/util.ts
+       • ext/node/polyfills/child_process.ts
+     📄 Files WITHOUT TSTypeParameterDeclaration (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   ForOfStatement:
+     📄 Files WITH ForOfStatement (showing 10):
+       • tools/verify_pr_title.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+       • tools/copyright_checker.js
+       • tools/build_bench.ts
+       • tools/release/promote_to_release.ts
+       • tools/release/03_publish_crates.ts
+       • tools/release/01_bump_crate_versions.ts
+     📄 Files WITHOUT ForOfStatement (showing 10):
+       • tools/wgpu_sync.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/generate_minimatch_dep.js
+       • tools/format.js
+       • tools/build_benchmark_jsons.js
+       • tools/release/version_greater_latest.ts
+       • tools/release/deps.ts
+
+   ExportSpecifier:
+     📄 Files WITH ExportSpecifier (showing 10):
+       • tools/util.js
+       • runtime/js/98_global_scope_worker.js
+       • runtime/js/98_global_scope_window.js
+       • runtime/js/98_global_scope_shared.js
+       • runtime/js/90_deno_ns.js
+       • runtime/js/41_prompt.js
+       • runtime/js/40_tty.js
+       • runtime/js/40_fs_events.js
+       • runtime/js/11_workers.js
+       • runtime/js/10_permissions.js
+     📄 Files WITHOUT ExportSpecifier (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+       • tools/generate_minimatch_dep.js
+
+   TSDeclareFunction:
+     📄 Files WITH TSDeclareFunction (showing 10):
+       • ext/webidl/internal.d.ts
+       • ext/url/internal.d.ts
+       • ext/web/internal.d.ts
+       • ext/web/06_streams_types.d.ts
+       • ext/fetch/internal.d.ts
+       • ext/console/internal.d.ts
+       • cli/tsc/compiler.d.ts
+       • ext/node/polyfills/net.ts
+       • ext/node/polyfills/https.ts
+       • ext/node/polyfills/http.ts
+     📄 Files WITHOUT TSDeclareFunction (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSEnumMember:
+     📄 Files WITH TSEnumMember (showing 10):
+       • ext/telemetry/telemetry.ts
+       • tests/node_compat/run_all_test_unmodified.ts
+       • ext/node/polyfills/string_decoder.ts
+       • cli/tsc/dts/typescript.d.ts
+       • cli/tsc/dts/lib.deno.ns.d.ts
+       • tests/unit_node/crypto/crypto_cipher_test.ts
+       • tests/ffi/tests/ffi_types.ts
+       • tests/ffi/tests/ffi_callback_errors.ts
+       • ext/node/polyfills/internal_binding/tcp_wrap.ts
+       • ext/node/polyfills/internal_binding/stream_wrap.ts
+     📄 Files WITHOUT TSEnumMember (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSQualifiedName:
+     📄 Files WITH TSQualifiedName (showing 10):
+       • tools/release/00_start_release.ts
+       • ext/web/internal.d.ts
+       • ext/kv/01_db.ts
+       • ext/fetch/internal.d.ts
+       • ext/cron/01_cron.ts
+       • cli/tsc/compiler.d.ts
+       • cli/js/40_lint_types.d.ts
+       • tests/unit_node/worker_threads_test.ts
+       • tests/unit_node/util_test.ts
+       • tests/unit_node/tls_test.ts
+     📄 Files WITHOUT TSQualifiedName (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   PropertyDefinition:
+     📄 Files WITH PropertyDefinition (showing 10):
+       • tools/release/deno_workspace.ts
+       • runtime/js/40_fs_events.js
+       • runtime/js/11_workers.js
+       • runtime/js/10_permissions.js
+       • ext/websocket/02_websocketstream.js
+       • ext/webgpu/01_webgpu.js
+       • ext/url/01_urlpattern.js
+       • ext/url/00_url.js
+       • ext/web/webtransport.js
+       • ext/web/16_image_data.js
+     📄 Files WITHOUT PropertyDefinition (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSTypeAliasDeclaration:
+     📄 Files WITH TSTypeAliasDeclaration (showing 10):
+       • ext/webidl/internal.d.ts
+       • ext/web/internal.d.ts
+       • ext/telemetry/telemetry.ts
+       • ext/kv/01_db.ts
+       • ext/http/00_serve.ts
+       • ext/fetch/internal.d.ts
+       • cli/js/40_lint_types.d.ts
+       • tests/unit_node/util_test.ts
+       • tests/unit/webcrypto_test.ts
+       • tests/unit/serve_test.ts
+     📄 Files WITHOUT TSTypeAliasDeclaration (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSConstructSignatureDeclaration:
+     📄 Files WITH TSConstructSignatureDeclaration (showing 10):
+       • ext/telemetry/telemetry.ts
+       • ext/node/polyfills/http.ts
+       • ext/node/polyfills/_utils.ts
+       • cli/tsc/dts/lib.webworker.d.ts
+       • cli/tsc/dts/lib.scripthost.d.ts
+       • cli/tsc/dts/lib.esnext.float16.d.ts
+       • cli/tsc/dts/lib.esnext.disposable.d.ts
+       • cli/tsc/dts/lib.es5.d.ts
+       • cli/tsc/dts/lib.es2024.sharedmemory.d.ts
+       • cli/tsc/dts/lib.es2024.arraybuffer.d.ts
+     📄 Files WITHOUT TSConstructSignatureDeclaration (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSTypeOperator:
+     📄 Files WITH TSTypeOperator (showing 10):
+       • ext/webidl/internal.d.ts
+       • ext/telemetry/telemetry.ts
+       • ext/console/internal.d.ts
+       • tests/unit/test_util.ts
+       • ext/node/polyfills/http.ts
+       • ext/node/polyfills/dns.ts
+       • ext/node/polyfills/_events.d.ts
+       • cli/tsc/dts/typescript.d.ts
+       • cli/tsc/dts/lib.webworker.d.ts
+       • cli/tsc/dts/lib.esnext.disposable.d.ts
+     📄 Files WITHOUT TSTypeOperator (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   SwitchStatement:
+     📄 Files WITH SwitchStatement (showing 10):
+       • runtime/js/99_main.js
+       • runtime/js/11_workers.js
+       • ext/websocket/02_websocketstream.js
+       • ext/websocket/01_websocket.js
+       • ext/webidl/00_webidl.js
+       • ext/url/01_urlpattern.js
+       • ext/web/webtransport.js
+       • ext/web/13_message_port.js
+       • ext/web/10_filereader.js
+       • ext/web/06_streams.js
+     📄 Files WITHOUT SwitchStatement (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   AssignmentPattern:
+     📄 Files WITH AssignmentPattern (showing 10):
+       • tools/wgpu_sync.js
+       • runtime/js/99_main.js
+       • runtime/js/41_prompt.js
+       • runtime/js/40_fs_events.js
+       • runtime/js/11_workers.js
+       • runtime/js/10_permissions.js
+       • ext/websocket/02_websocketstream.js
+       • ext/websocket/01_websocket.js
+       • ext/webidl/00_webidl.js
+       • ext/webgpu/01_webgpu.js
+     📄 Files WITHOUT AssignmentPattern (showing 10):
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+       • tools/generate_minimatch_dep.js
+
+   SpreadElement:
+     📄 Files WITH SpreadElement (showing 10):
+       • tools/wgpu_sync.js
+       • tools/util.js
+       • tools/lint.js
+       • tools/release/04_post_publish.ts
+       • tools/release/02_create_pr.ts
+       • runtime/js/99_main.js
+       • runtime/js/06_util.js
+       • ext/webstorage/01_webstorage.js
+       • ext/websocket/02_websocketstream.js
+       • ext/webgpu/01_webgpu.js
+     📄 Files WITHOUT SpreadElement (showing 10):
+       • tools/verify_pr_title.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+       • tools/generate_minimatch_dep.js
+       • tools/format.js
+       • tools/copyright_checker.js
+
+   ForStatement:
+     📄 Files WITH ForStatement (showing 10):
+       • tools/release/promote_to_release.ts
+       • runtime/js/99_main.js
+       • ext/webidl/00_webidl.js
+       • ext/url/01_urlpattern.js
+       • ext/url/00_url.js
+       • ext/web/webtransport.js
+       • ext/web/15_performance.js
+       • ext/web/13_message_port.js
+       • ext/web/10_filereader.js
+       • ext/web/09_file.js
+     📄 Files WITHOUT ForStatement (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   ClassBody:
+     📄 Files WITH ClassBody (showing 10):
+       • tools/release/deno_workspace.ts
+       • runtime/js/98_global_scope_worker.js
+       • runtime/js/98_global_scope_window.js
+       • runtime/js/40_fs_events.js
+       • runtime/js/11_workers.js
+       • runtime/js/10_permissions.js
+       • runtime/js/01_errors.js
+       • ext/websocket/02_websocketstream.js
+       • ext/websocket/01_websocket.js
+       • ext/webgpu/01_webgpu.js
+     📄 Files WITHOUT ClassBody (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSEmptyBodyFunctionExpression:
+     📄 Files WITH TSEmptyBodyFunctionExpression (showing 10):
+       • ext/telemetry/telemetry.ts
+       • ext/fetch/internal.d.ts
+       • ext/node/polyfills/net.ts
+       • ext/node/polyfills/dgram.ts
+       • ext/node/polyfills/_stream.d.ts
+       • ext/node/polyfills/_readline.d.ts
+       • ext/node/polyfills/_events.d.ts
+       • cli/tsc/dts/lib.scripthost.d.ts
+       • cli/tsc/dts/lib.esnext.iterator.d.ts
+       • cli/tsc/dts/lib.deno_webgpu.d.ts
+     📄 Files WITHOUT TSEmptyBodyFunctionExpression (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   ClassDeclaration:
+     📄 Files WITH ClassDeclaration (showing 10):
+       • tools/release/deno_workspace.ts
+       • runtime/js/98_global_scope_worker.js
+       • runtime/js/98_global_scope_window.js
+       • runtime/js/40_fs_events.js
+       • runtime/js/11_workers.js
+       • runtime/js/10_permissions.js
+       • runtime/js/01_errors.js
+       • ext/websocket/02_websocketstream.js
+       • ext/websocket/01_websocket.js
+       • ext/webgpu/01_webgpu.js
+     📄 Files WITHOUT ClassDeclaration (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TryStatement:
+     📄 Files WITH TryStatement (showing 10):
+       • tools/util.js
+       • tools/lint.js
+       • tools/copyright_checker.js
+       • tools/build_bench.ts
+       • tools/release/promote_to_release.ts
+       • tools/release/04_post_publish.ts
+       • tools/release/03_publish_crates.ts
+       • tools/release/01_bump_crate_versions.ts
+       • runtime/js/99_main.js
+       • runtime/js/40_fs_events.js
+     📄 Files WITHOUT TryStatement (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+       • tools/generate_minimatch_dep.js
+       • tools/format.js
+
+   TSAsExpression:
+     📄 Files WITH TSAsExpression (showing 10):
+       • tools/generate_types_deno.ts
+       • ext/telemetry/telemetry.ts
+       • ext/node/update_node_stream.ts
+       • ext/cron/01_cron.ts
+       • tests/wpt/wpt.ts
+       • tests/unit_node/worker_threads_test.ts
+       • tests/unit_node/v8_test.ts
+       • tests/unit_node/util_test.ts
+       • tests/unit_node/tty_test.ts
+       • tests/unit_node/tls_test.ts
+     📄 Files WITHOUT TSAsExpression (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_minimatch_dep.js
+
+   TSParenthesizedType:
+     📄 Files WITH TSParenthesizedType (showing 10):
+       • ext/telemetry/telemetry.ts
+       • ext/kv/01_db.ts
+       • ext/cron/01_cron.ts
+       • ext/console/internal.d.ts
+       • tests/unit_node/process_test.ts
+       • tests/unit_node/net_test.ts
+       • tests/unit/websocket_test.ts
+       • tests/unit/streams_test.ts
+       • tests/unit/event_target_test.ts
+       • ext/node/polyfills/timers.ts
+     📄 Files WITHOUT TSParenthesizedType (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   ChainExpression:
+     📄 Files WITH ChainExpression (showing 10):
+       • tools/lint.js
+       • tools/generate_types_deno.ts
+       • tools/release/01_bump_crate_versions.ts
+       • runtime/js/99_main.js
+       • runtime/js/11_workers.js
+       • runtime/js/10_permissions.js
+       • ext/websocket/02_websocketstream.js
+       • ext/webidl/00_webidl.js
+       • ext/web/12_location.js
+       • ext/web/10_filereader.js
+     📄 Files WITHOUT ChainExpression (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_minimatch_dep.js
+       • tools/format.js
+
+   WhileStatement:
+     📄 Files WITH WhileStatement (showing 10):
+       • tools/util.js
+       • tools/copyright_checker.js
+       • runtime/js/99_main.js
+       • runtime/js/41_prompt.js
+       • runtime/js/11_workers.js
+       • ext/websocket/02_websocketstream.js
+       • ext/websocket/01_websocket.js
+       • ext/webidl/00_webidl.js
+       • ext/url/00_url.js
+       • ext/web/webtransport.js
+     📄 Files WITHOUT WhileStatement (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+       • tools/generate_minimatch_dep.js
+
+   TSIndexedAccessType:
+     📄 Files WITH TSIndexedAccessType (showing 10):
+       • ext/telemetry/telemetry.ts
+       • ext/node/polyfills/worker_threads.ts
+       • ext/node/polyfills/net.ts
+       • ext/node/polyfills/http.ts
+       • cli/tsc/dts/typescript.d.ts
+       • cli/tsc/dts/lib.webworker.d.ts
+       • cli/tsc/dts/lib.es5.d.ts
+       • cli/tsc/dts/lib.es2021.promise.d.ts
+       • cli/tsc/dts/lib.es2020.promise.d.ts
+       • cli/tsc/dts/lib.es2019.array.d.ts
+     📄 Files WITHOUT TSIndexedAccessType (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSUnknownKeyword:
+     📄 Files WITH TSUnknownKeyword (showing 10):
+       • ext/web/internal.d.ts
+       • ext/web/06_streams_types.d.ts
+       • ext/telemetry/telemetry.ts
+       • ext/kv/01_db.ts
+       • ext/http/00_serve.ts
+       • ext/console/internal.d.ts
+       • cli/tsc/compiler.d.ts
+       • cli/js/40_lint_types.d.ts
+       • tests/unit_node/worker_threads_test.ts
+       • tests/unit_node/v8_test.ts
+     📄 Files WITHOUT TSUnknownKeyword (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   CatchClause:
+     📄 Files WITH CatchClause (showing 10):
+       • tools/util.js
+       • tools/lint.js
+       • tools/release/promote_to_release.ts
+       • tools/release/04_post_publish.ts
+       • tools/release/01_bump_crate_versions.ts
+       • runtime/js/99_main.js
+       • runtime/js/40_fs_events.js
+       • runtime/js/11_workers.js
+       • runtime/js/10_permissions.js
+       • ext/websocket/02_websocketstream.js
+     📄 Files WITHOUT CatchClause (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+       • tools/generate_minimatch_dep.js
+       • tools/format.js
+
+   TSThisType:
+     📄 Files WITH TSThisType (showing 10):
+       • ext/telemetry/telemetry.ts
+       • ext/kv/01_db.ts
+       • ext/node/polyfills/net.ts
+       • ext/node/polyfills/http.ts
+       • ext/node/polyfills/dgram.ts
+       • ext/node/polyfills/_tls_wrap.ts
+       • ext/node/polyfills/_stream.d.ts
+       • ext/node/polyfills/_readline.d.ts
+       • ext/node/polyfills/_global.d.ts
+       • ext/node/polyfills/_events.d.ts
+     📄 Files WITHOUT TSThisType (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   ContinueStatement:
+     📄 Files WITH ContinueStatement (showing 10):
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/generate_types_deno.ts
+       • tools/copyright_checker.js
+       • ext/webidl/00_webidl.js
+       • ext/web/webtransport.js
+       • ext/web/03_abort_signal.js
+       • ext/web/02_event.js
+       • ext/web/01_mimesniff.js
+       • ext/node/update_node_stream.ts
+     📄 Files WITHOUT ContinueStatement (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/install_prebuilt.js
+       • tools/generate_minimatch_dep.js
+       • tools/format.js
+       • tools/build_benchmark_jsons.js
+
+   RestElement:
+     📄 Files WITH RestElement (showing 10):
+       • runtime/js/99_main.js
+       • runtime/js/06_util.js
+       • ext/webidl/internal.d.ts
+       • ext/webidl/00_webidl.js
+       • ext/web/webtransport.js
+       • ext/web/13_message_port.js
+       • ext/web/10_filereader.js
+       • ext/web/02_timers.js
+       • ext/telemetry/telemetry.ts
+       • ext/net/03_quic.js
+     📄 Files WITHOUT RestElement (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   ImportDefaultSpecifier:
+     📄 Files WITH ImportDefaultSpecifier (showing 10):
+       • tools/generate_types_deno.ts
+       • tools/build_bench.ts
+       • tools/release/create_symcache.ts
+       • tools/napi/generate_symbols_lists.js
+       • runtime/js/98_global_scope_shared.js
+       • ext/node/update_node_stream.ts
+       • cli/bench/sqlite.js
+       • tests/unit_node/worker_threads_test.ts
+       • tests/unit_node/wasi_test.ts
+       • tests/unit_node/util_test.ts
+     📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_minimatch_dep.js
+
+   Super:
+     📄 Files WITH Super (showing 10):
+       • runtime/js/11_workers.js
+       • runtime/js/10_permissions.js
+       • runtime/js/01_errors.js
+       • ext/websocket/02_websocketstream.js
+       • ext/websocket/01_websocket.js
+       • ext/webgpu/01_webgpu.js
+       • ext/web/webtransport.js
+       • ext/web/15_performance.js
+       • ext/web/13_message_port.js
+       • ext/web/10_filereader.js
+     📄 Files WITHOUT Super (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSNonNullExpression:
+     📄 Files WITH TSNonNullExpression (showing 10):
+       • tools/generate_types_deno.ts
+       • tools/release/01_bump_crate_versions.ts
+       • tools/release/00_start_release.ts
+       • cli/tsc/_analyze_types_node.ts
+       • tests/unit_node/zlib_test.ts
+       • tests/unit_node/worker_threads_test.ts
+       • tests/unit_node/tls_test.ts
+       • tests/unit_node/module_test.ts
+       • tests/unit_node/http_test.ts
+       • tests/unit_node/http2_test.ts
+     📄 Files WITHOUT TSNonNullExpression (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_minimatch_dep.js
+
+   TSTypePredicate:
+     📄 Files WITH TSTypePredicate (showing 10):
+       • ext/telemetry/telemetry.ts
+       • ext/node/polyfills/worker_threads.ts
+       • ext/node/polyfills/net.ts
+       • ext/node/polyfills/dgram.ts
+       • ext/node/polyfills/assert.ts
+       • ext/node/polyfills/_stream.d.ts
+       • cli/tsc/dts/typescript.d.ts
+       • cli/tsc/dts/lib.esnext.iterator.d.ts
+       • cli/tsc/dts/lib.esnext.float16.d.ts
+       • cli/tsc/dts/lib.es5.d.ts
+     📄 Files WITHOUT TSTypePredicate (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   ImportNamespaceSpecifier:
+     📄 Files WITH ImportNamespaceSpecifier (showing 10):
+       • tools/lint.js
+       • tools/generate_types_deno.ts
+       • runtime/js/99_main.js
+       • runtime/js/98_global_scope_worker.js
+       • runtime/js/98_global_scope_window.js
+       • runtime/js/98_global_scope_shared.js
+       • runtime/js/90_deno_ns.js
+       • runtime/js/11_workers.js
+       • ext/websocket/02_websocketstream.js
+       • ext/websocket/01_websocket.js
+     📄 Files WITHOUT ImportNamespaceSpecifier (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_minimatch_dep.js
+       • tools/format.js
+
+   MetaProperty:
+     📄 Files WITH MetaProperty (showing 10):
+       • tools/util.js
+       • tools/node_compat_tests.js
+       • tools/generate_types_deno.ts
+       • tools/copyright_checker.js
+       • tools/release/deno_workspace.ts
+       • tools/release/00_start_release.ts
+       • tools/napi/generate_symbols_lists.js
+       • runtime/js/99_main.js
+       • ext/web/06_streams.js
+       • ext/web/01_dom_exception.js
+     📄 Files WITHOUT MetaProperty (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_minimatch_dep.js
+       • tools/format.js
+       • tools/build_benchmark_jsons.js
+
+   ArrayPattern:
+     📄 Files WITH ArrayPattern (showing 10):
+       • tools/lint.js
+       • tools/release/03_publish_crates.ts
+       • tools/napi/generate_symbols_lists.js
+       • ext/console/01_console.js
+       • cli/tsc/98_lsp.js
+       • cli/tsc/97_ts_host.js
+       • cli/tsc/00_typescript.js
+       • cli/js/40_test_common.js
+       • cli/js/40_lint.js
+       • cli/js/40_jupyter.js
+     📄 Files WITHOUT ArrayPattern (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+       • tools/generate_minimatch_dep.js
+
+   SequenceExpression:
+     📄 Files WITH SequenceExpression (showing 8):
+       • ext/web/01_mimesniff.js
+       • cli/tsc/00_typescript.js
+       • tests/unit_node/process_test.ts
+       • tests/unit/image_bitmap_test.ts
+       • cli/tools/doc/prism.js
+       • cli/bench/testdata/react-dom.js
+       • ext/node/polyfills/deps/minimatch.js
+       • tests/specs/node/require_export_from_parent_with_no_filename/main.cjs
+     📄 Files WITHOUT SequenceExpression (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   ExportDefaultDeclaration:
+     📄 Files WITH ExportDefaultDeclaration (showing 10):
+       • ext/web/06_streams.js
+       • ext/node/polyfills/zlib.ts
+       • ext/node/polyfills/worker_threads.ts
+       • ext/node/polyfills/wasi.ts
+       • ext/node/polyfills/vm.js
+       • ext/node/polyfills/v8.ts
+       • ext/node/polyfills/util.ts
+       • ext/node/polyfills/url.ts
+       • ext/node/polyfills/tty.js
+       • ext/node/polyfills/trace_events.ts
+     📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSTupleType:
+     📄 Files WITH TSTupleType (showing 10):
+       • ext/url/internal.d.ts
+       • ext/web/internal.d.ts
+       • ext/telemetry/telemetry.ts
+       • ext/kv/01_db.ts
+       • ext/http/00_serve.ts
+       • ext/fetch/internal.d.ts
+       • tests/wpt/wpt.ts
+       • tests/unit_node/vm_test.ts
+       • tests/unit/url_search_params_test.ts
+       • tests/unit/tls_test.ts
+     📄 Files WITHOUT TSTupleType (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSBigIntKeyword:
+     📄 Files WITH TSBigIntKeyword (showing 10):
+       • ext/kv/01_db.ts
+       • tests/unit/kv_test.ts
+       • ext/node/polyfills/process.ts
+       • cli/tsc/dts/lib.webworker.d.ts
+       • cli/tsc/dts/lib.es5.d.ts
+       • cli/tsc/dts/lib.es2024.sharedmemory.d.ts
+       • cli/tsc/dts/lib.es2023.intl.d.ts
+       • cli/tsc/dts/lib.es2023.array.d.ts
+       • cli/tsc/dts/lib.es2022.array.d.ts
+       • cli/tsc/dts/lib.es2021.intl.d.ts
+     📄 Files WITHOUT TSBigIntKeyword (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSTypeQuery:
+     📄 Files WITH TSTypeQuery (showing 10):
+       • ext/url/internal.d.ts
+       • ext/web/internal.d.ts
+       • ext/telemetry/telemetry.ts
+       • ext/fetch/internal.d.ts
+       • cli/tsc/compiler.d.ts
+       • tests/unit_node/net_test.ts
+       • tests/unit_node/http2_test.ts
+       • tests/unit_node/child_process_test.ts
+       • tests/unit/urlpattern_test.ts
+       • tests/unit/tls_test.ts
+     📄 Files WITHOUT TSTypeQuery (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   JSXIdentifier:
+     📄 Files WITH JSXIdentifier (showing 10):
+       • cli/bench/testdata/bun_reactdom_ssr.jsx
+       • cli/bench/fs/serve.jsx
+       • tests/testdata/subdir/mt_video_vdn_tsx.t2.tsx
+       • tests/testdata/subdir/mt_video_mp2t_tsx.t3.tsx
+       • tests/testdata/subdir/mt_text_typescript_tsx.t1.tsx
+       • tests/testdata/subdir/mt_text_javascript_jsx.j1.jsx
+       • tests/testdata/subdir/mt_text_ecmascript_jsx.j3.jsx
+       • tests/testdata/subdir/mt_javascript_jsx.jsx
+       • tests/testdata/subdir/mt_application_x_typescript_tsx.t4.tsx
+       • tests/testdata/subdir/mt_application_x_javascript_jsx.j4.jsx
+     📄 Files WITHOUT JSXIdentifier (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   ImportExpression:
+     📄 Files WITH ImportExpression (showing 10):
+       • tests/unit_node/http_test.ts
+       • tests/unit_node/async_hooks_test.ts
+       • cli/bench/fs/run.mjs
+       • tests/testdata/workers/dynamic_remote.ts
+       • tests/testdata/run/extension_dynamic_import.ts
+       • tests/testdata/run/error_016_dynamic_import_permissions2.js
+       • tests/testdata/run/013_dynamic_import.ts
+       • tests/testdata/module_graph/file_tests-dynamicimport.ts
+       • tests/testdata/import_attributes/dynamic_import.ts
+       • tests/testdata/import_attributes/dynamic_error.ts
+     📄 Files WITHOUT ImportExpression (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSCallSignatureDeclaration:
+     📄 Files WITH TSCallSignatureDeclaration (showing 10):
+       • ext/web/06_streams_types.d.ts
+       • cli/tsc/dts/typescript.d.ts
+       • cli/tsc/dts/lib.webworker.d.ts
+       • cli/tsc/dts/lib.esnext.disposable.d.ts
+       • cli/tsc/dts/lib.es5.d.ts
+       • cli/tsc/dts/lib.es2022.error.d.ts
+       • cli/tsc/dts/lib.es2021.promise.d.ts
+       • cli/tsc/dts/lib.es2020.intl.d.ts
+       • cli/tsc/dts/lib.es2020.bigint.d.ts
+       • cli/tsc/dts/lib.es2018.intl.d.ts
+     📄 Files WITHOUT TSCallSignatureDeclaration (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSNeverKeyword:
+     📄 Files WITH TSNeverKeyword (showing 10):
+       • ext/webidl/internal.d.ts
+       • tests/unit_node/http_no_cert_flag_test.ts
+       • tests/unit/tls_test.ts
+       • tests/unit/timers_test.ts
+       • tests/unit/fetch_test.ts
+       • tests/unit/console_test.ts
+       • ext/node/polyfills/net.ts
+       • ext/node/polyfills/dns.ts
+       • ext/node/polyfills/assert.ts
+       • ext/node/polyfills/_utils.ts
+     📄 Files WITHOUT TSNeverKeyword (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSIntersectionType:
+     📄 Files WITH TSIntersectionType (showing 10):
+       • ext/telemetry/telemetry.ts
+       • tests/unit/webcrypto_test.ts
+       • tests/node_compat/run_all_test_unmodified.ts
+       • tests/node_compat/add_day_summary_to_month_summary.ts
+       • ext/node/polyfills/worker_threads.ts
+       • ext/node/polyfills/http.ts
+       • ext/node/polyfills/cluster.ts
+       • ext/node/polyfills/child_process.ts
+       • cli/tsc/dts/typescript.d.ts
+       • cli/tsc/dts/lib.webworker.d.ts
+     📄 Files WITHOUT TSIntersectionType (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSConditionalType:
+     📄 Files WITH TSConditionalType (showing 10):
+       • ext/node/polyfills/_utils.ts
+       • ext/node/polyfills/_stream.d.ts
+       • cli/tsc/dts/lib.webworker.d.ts
+       • cli/tsc/dts/lib.es5.d.ts
+       • cli/tsc/dts/lib.es2020.intl.d.ts
+       • cli/tsc/dts/lib.es2019.array.d.ts
+       • cli/tsc/dts/lib.es2015.reflect.d.ts
+       • cli/tsc/dts/lib.deno_net.d.ts
+       • cli/tsc/dts/lib.deno.ns.d.ts
+       • cli/tsc/dts/lib.decorators.d.ts
+     📄 Files WITHOUT TSConditionalType (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSSymbolKeyword:
+     📄 Files WITH TSSymbolKeyword (showing 10):
+       • ext/webidl/internal.d.ts
+       • ext/telemetry/telemetry.ts
+       • ext/kv/01_db.ts
+       • ext/fetch/internal.d.ts
+       • ext/node/polyfills/worker_threads.ts
+       • ext/node/polyfills/_stream.d.ts
+       • ext/node/polyfills/_readline.d.ts
+       • ext/node/polyfills/_events.d.ts
+       • cli/tsc/dts/lib.esnext.disposable.d.ts
+       • cli/tsc/dts/lib.esnext.decorators.d.ts
+     📄 Files WITHOUT TSSymbolKeyword (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSIndexSignature:
+     📄 Files WITH TSIndexSignature (showing 10):
+       • ext/webidl/internal.d.ts
+       • ext/telemetry/telemetry.ts
+       • tests/wpt/wpt.ts
+       • ext/node/polyfills/url.ts
+       • ext/node/polyfills/os.ts
+       • ext/node/polyfills/dns.ts
+       • ext/node/polyfills/assertion_error.ts
+       • cli/tsc/dts/typescript.d.ts
+       • cli/tsc/dts/lib.webworker.d.ts
+       • cli/tsc/dts/lib.esnext.float16.d.ts
+     📄 Files WITHOUT TSIndexSignature (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   ForInStatement:
+     📄 Files WITH ForInStatement (showing 10):
+       • ext/webidl/00_webidl.js
+       • ext/ffi/00_ffi.js
+       • ext/fetch/20_headers.js
+       • ext/crypto/00_crypto.js
+       • cli/tsc/00_typescript.js
+       • cli/js/40_lint.js
+       • cli/js/40_jupyter.js
+       • ext/node/polyfills/worker_threads.ts
+       • ext/node/polyfills/http.ts
+       • ext/node/polyfills/_http_outgoing.ts
+     📄 Files WITHOUT ForInStatement (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSModuleDeclaration:
+     📄 Files WITH TSModuleDeclaration (showing 10):
+       • ext/webidl/internal.d.ts
+       • ext/url/internal.d.ts
+       • ext/web/internal.d.ts
+       • ext/web/06_streams_types.d.ts
+       • ext/fetch/internal.d.ts
+       • ext/console/internal.d.ts
+       • cli/tsc/compiler.d.ts
+       • ext/node/polyfills/_stream.d.ts
+       • cli/tsc/dts/typescript.d.ts
+       • cli/tsc/dts/lib.webworker.d.ts
+     📄 Files WITHOUT TSModuleDeclaration (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSModuleBlock:
+     📄 Files WITH TSModuleBlock (showing 10):
+       • ext/webidl/internal.d.ts
+       • ext/url/internal.d.ts
+       • ext/web/internal.d.ts
+       • ext/web/06_streams_types.d.ts
+       • ext/fetch/internal.d.ts
+       • ext/console/internal.d.ts
+       • cli/tsc/compiler.d.ts
+       • ext/node/polyfills/_stream.d.ts
+       • cli/tsc/dts/typescript.d.ts
+       • cli/tsc/dts/lib.webworker.d.ts
+     📄 Files WITHOUT TSModuleBlock (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSEnumDeclaration:
+     📄 Files WITH TSEnumDeclaration (showing 10):
+       • ext/telemetry/telemetry.ts
+       • tests/node_compat/run_all_test_unmodified.ts
+       • ext/node/polyfills/string_decoder.ts
+       • cli/tsc/dts/typescript.d.ts
+       • cli/tsc/dts/lib.deno.ns.d.ts
+       • tests/unit_node/crypto/crypto_cipher_test.ts
+       • tests/ffi/tests/ffi_types.ts
+       • tests/ffi/tests/ffi_callback_errors.ts
+       • ext/node/polyfills/internal_binding/tcp_wrap.ts
+       • ext/node/polyfills/internal_binding/stream_wrap.ts
+     📄 Files WITHOUT TSEnumDeclaration (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSEnumBody:
+     📄 Files WITH TSEnumBody (showing 10):
+       • ext/telemetry/telemetry.ts
+       • tests/node_compat/run_all_test_unmodified.ts
+       • ext/node/polyfills/string_decoder.ts
+       • cli/tsc/dts/typescript.d.ts
+       • cli/tsc/dts/lib.deno.ns.d.ts
+       • tests/unit_node/crypto/crypto_cipher_test.ts
+       • tests/ffi/tests/ffi_types.ts
+       • tests/ffi/tests/ffi_callback_errors.ts
+       • ext/node/polyfills/internal_binding/tcp_wrap.ts
+       • ext/node/polyfills/internal_binding/stream_wrap.ts
+     📄 Files WITHOUT TSEnumBody (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSObjectKeyword:
+     📄 Files WITH TSObjectKeyword (showing 10):
+       • ext/webidl/internal.d.ts
+       • ext/web/internal.d.ts
+       • ext/telemetry/telemetry.ts
+       • tests/unit/jupyter_test.ts
+       • ext/node/polyfills/worker_threads.ts
+       • ext/node/polyfills/v8.ts
+       • ext/node/polyfills/timers.ts
+       • ext/node/polyfills/dns.ts
+       • cli/tsc/dts/typescript.d.ts
+       • cli/tsc/dts/lib.es5.d.ts
+     📄 Files WITHOUT TSObjectKeyword (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   JSXElement:
+     📄 Files WITH JSXElement (showing 10):
+       • cli/bench/testdata/bun_reactdom_ssr.jsx
+       • cli/bench/fs/serve.jsx
+       • tests/testdata/subdir/mt_video_vdn_tsx.t2.tsx
+       • tests/testdata/subdir/mt_video_mp2t_tsx.t3.tsx
+       • tests/testdata/subdir/mt_text_typescript_tsx.t1.tsx
+       • tests/testdata/subdir/mt_text_javascript_jsx.j1.jsx
+       • tests/testdata/subdir/mt_text_ecmascript_jsx.j3.jsx
+       • tests/testdata/subdir/mt_javascript_jsx.jsx
+       • tests/testdata/subdir/mt_application_x_typescript_tsx.t4.tsx
+       • tests/testdata/subdir/mt_application_x_javascript_jsx.j4.jsx
+     📄 Files WITHOUT JSXElement (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   JSXOpeningElement:
+     📄 Files WITH JSXOpeningElement (showing 10):
+       • cli/bench/testdata/bun_reactdom_ssr.jsx
+       • cli/bench/fs/serve.jsx
+       • tests/testdata/subdir/mt_video_vdn_tsx.t2.tsx
+       • tests/testdata/subdir/mt_video_mp2t_tsx.t3.tsx
+       • tests/testdata/subdir/mt_text_typescript_tsx.t1.tsx
+       • tests/testdata/subdir/mt_text_javascript_jsx.j1.jsx
+       • tests/testdata/subdir/mt_text_ecmascript_jsx.j3.jsx
+       • tests/testdata/subdir/mt_javascript_jsx.jsx
+       • tests/testdata/subdir/mt_application_x_typescript_tsx.t4.tsx
+       • tests/testdata/subdir/mt_application_x_javascript_jsx.j4.jsx
+     📄 Files WITHOUT JSXOpeningElement (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   ImportAttribute:
+     📄 Files WITH ImportAttribute (showing 10):
+       • tools/napi/generate_symbols_lists.js
+       • cli/bench/fs/serve.jsx
+       • tests/unit_node/crypto/crypto_sign_test.ts
+       • tests/unit_node/crypto/crypto_pbkdf2_test.ts
+       • tests/unit_node/crypto/crypto_import_export.ts
+       • tests/unit_node/crypto/crypto_hkdf_test.ts
+       • tests/unit_node/crypto/crypto_cipher_gcm_test.ts
+       • tests/testdata/subdir/mod8.js
+       • tests/testdata/subdir/mod7.js
+       • tests/testdata/import_attributes/type_check.ts
+     📄 Files WITHOUT ImportAttribute (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   YieldExpression:
+     📄 Files WITH YieldExpression (showing 10):
+       • ext/web/09_file.js
+       • ext/net/03_quic.js
+       • ext/net/01_net.js
+       • ext/fs/30_fs.js
+       • cli/tsc/00_typescript.js
+       • tests/unit/url_search_params_test.ts
+       • tests/unit/globals_test.ts
+       • tests/unit/fetch_test.ts
+       • ext/node/polyfills/timers.ts
+       • tests/registry/npm/trim_registry_files.js
+     📄 Files WITHOUT YieldExpression (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   JSXText:
+     📄 Files WITH JSXText (showing 10):
+       • cli/bench/testdata/bun_reactdom_ssr.jsx
+       • cli/bench/fs/serve.jsx
+       • tests/testdata/run/jsx_import_from_ts.App.jsx
+       • tests/testdata/module_graph/https_deno.land-x-transpile.tsx
+       • tests/specs/permission/allow_import_jsx/main.tsx
+       • tests/specs/publish/missing_constraint_jsx_import_source/foo.tsx
+       • tests/specs/publish/jsx_tsx/foo.tsx
+       • tests/specs/publish/jsx_tsx/foo.jsx
+       • tests/specs/run/tsx_imports/046_jsx_test.tsx
+       • tests/specs/run/jsx_import_from_ts/jsx_import_from_ts.App.jsx
+     📄 Files WITHOUT JSXText (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSClassImplements:
+     📄 Files WITH TSClassImplements (showing 10):
+       • ext/telemetry/telemetry.ts
+       • ext/kv/01_db.ts
+       • tests/unit/test_util.ts
+       • ext/node/polyfills/child_process.ts
+       • ext/node/polyfills/_stream.d.ts
+       • cli/tsc/dts/lib.deno_webgpu.d.ts
+       • cli/tsc/dts/lib.deno.unstable.d.ts
+       • cli/tsc/dts/lib.deno.ns.d.ts
+       • cli/bench/testdata/code_lens.ts
+       • tests/testdata/subdir/export_types.ts
+     📄 Files WITHOUT TSClassImplements (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   JSXClosingElement:
+     📄 Files WITH JSXClosingElement (showing 10):
+       • cli/bench/testdata/bun_reactdom_ssr.jsx
+       • cli/bench/fs/serve.jsx
+       • tests/testdata/subdir/mt_video_vdn_tsx.t2.tsx
+       • tests/testdata/subdir/mt_video_mp2t_tsx.t3.tsx
+       • tests/testdata/subdir/mt_text_typescript_tsx.t1.tsx
+       • tests/testdata/subdir/mt_text_javascript_jsx.j1.jsx
+       • tests/testdata/subdir/mt_text_ecmascript_jsx.j3.jsx
+       • tests/testdata/subdir/mt_javascript_jsx.jsx
+       • tests/testdata/subdir/mt_application_x_typescript_tsx.t4.tsx
+       • tests/testdata/subdir/mt_application_x_javascript_jsx.j4.jsx
+     📄 Files WITHOUT JSXClosingElement (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSInferType:
+     📄 Files WITH TSInferType (showing 6):
+       • ext/node/polyfills/_stream.d.ts
+       • cli/tsc/dts/lib.es5.d.ts
+       • cli/tsc/dts/lib.es2020.intl.d.ts
+       • cli/tsc/dts/lib.es2019.array.d.ts
+       • cli/tsc/dts/lib.deno.ns.d.ts
+       • tests/registry/npm/@denotest/types-pkg-json-import/1.0.0/src/index.d.ts
+     📄 Files WITHOUT TSInferType (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TaggedTemplateExpression:
+     📄 Files WITH TaggedTemplateExpression (showing 10):
+       • tools/generate_types_deno.ts
+       • tools/build_bench.ts
+       • tools/release/promote_to_release.ts
+       • tools/release/01_bump_crate_versions.ts
+       • ext/node/update_node_stream.ts
+       • cli/tsc/00_typescript.js
+       • tools/release/npm/build.ts
+       • ext/websocket/autobahn/fuzzingclient.js
+       • tests/specs/fmt/external_formatter/syntax_error_in_html.js
+       • tests/specs/fmt/external_formatter/syntax_error_in_css.js
+     📄 Files WITHOUT TaggedTemplateExpression (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_minimatch_dep.js
+
+   ExportAllDeclaration:
+     📄 Files WITH ExportAllDeclaration (showing 10):
+       • tools/release/deps.ts
+       • ext/node/polyfills/sys.ts
+       • ext/node/polyfills/path.ts
+       • tests/testdata/tsc2/file_exportc.ts
+       • tests/testdata/subdir/indirect_throws.js
+       • tests/testdata/subdir/indirect_import_error.js
+       • tests/testdata/subdir/evil_remote_import.js
+       • tests/testdata/module_graph/https_deno.land-x-lib-mod.js
+       • tests/testdata/module_graph/https_deno.land-x-lib-mod.d.ts
+       • tests/testdata/module_graph/https_deno.land-x-a-mod.ts
+     📄 Files WITHOUT ExportAllDeclaration (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   Hashbang:
+     📄 Files WITH Hashbang (showing 10):
+       • tools/wgpu_sync.js
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+       • tools/generate_minimatch_dep.js
+       • tools/format.js
+       • tools/copyright_checker.js
+       • tools/build_bench.ts
+     📄 Files WITHOUT Hashbang (showing 10):
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/build_benchmark_jsons.js
+       • tools/release/version_greater_latest.ts
+       • tools/release/deps.ts
+       • tools/release/deno_workspace.ts
+       • tools/release/create_symcache.ts
+       • runtime/features/gen.js
+
+   DoWhileStatement:
+     📄 Files WITH DoWhileStatement (showing 10):
+       • ext/node/update_node_stream.ts
+       • ext/console/01_console.js
+       • cli/tsc/00_typescript.js
+       • ext/node/polyfills/_zlib.mjs
+       • ext/node/polyfills/_next_tick.ts
+       • cli/bench/testdata/react-dom.js
+       • tests/testdata/run/textproto.ts
+       • ext/node/polyfills/deps/minimatch.js
+       • ext/node/polyfills/_fs/_fs_mkdtemp.ts
+       • ext/node/polyfills/internal/util/inspect.mjs
+     📄 Files WITHOUT DoWhileStatement (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSNamedTupleMember:
+     📄 Files WITH TSNamedTupleMember (showing 6):
+       • ext/http/00_serve.ts
+       • tests/node_compat/run_all_test_unmodified.ts
+       • ext/node/polyfills/v8.ts
+       • ext/node/polyfills/child_process.ts
+       • tests/wpt/runner/utils.ts
+       • tests/ffi/tests/ffi_types.ts
+     📄 Files WITHOUT TSNamedTupleMember (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   ClassExpression:
+     📄 Files WITH ClassExpression (showing 7):
+       • ext/console/01_console.js
+       • cli/tsc/00_typescript.js
+       • ext/node/polyfills/_tls_wrap.ts
+       • ext/node/polyfills/deps/minimatch.js
+       • ext/node/polyfills/internal/errors.ts
+       • tests/registry/npm/@denotest/check-error/1.0.0/index.js
+       • tests/specs/run/decorators/experimental/ts/main.ts
+     📄 Files WITHOUT ClassExpression (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSSatisfiesExpression:
+     📄 Files WITH TSSatisfiesExpression (showing 10):
+       • tests/unit/kv_test.ts
+       • tests/node_compat/run_all_test_unmodified.ts
+       • ext/node/polyfills/worker_threads.ts
+       • ext/node/polyfills/http.ts
+       • tests/specs/serve/type_check/main.ts
+       • tests/specs/serve/type_check2/main.ts
+       • tests/specs/serve/basic/main.ts
+       • tests/specs/serve/auto_serve/main.ts
+       • tests/specs/serve/on_listen/type_check_bad_prop.ts
+       • tests/specs/serve/on_listen/ok.ts
+     📄 Files WITHOUT TSSatisfiesExpression (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   LabeledStatement:
+     📄 Files WITH LabeledStatement (showing 3):
+       • cli/tsc/00_typescript.js
+       • cli/bench/testdata/react-dom.js
+       • ext/node/polyfills/deps/minimatch.js
+     📄 Files WITHOUT LabeledStatement (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSMappedType:
+     📄 Files WITH TSMappedType (showing 9):
+       • ext/node/polyfills/http.ts
+       • cli/tsc/dts/lib.es5.d.ts
+       • cli/tsc/dts/lib.es2020.promise.d.ts
+       • cli/tsc/dts/lib.es2017.object.d.ts
+       • cli/tsc/dts/lib.es2015.symbol.wellknown.d.ts
+       • cli/tsc/dts/lib.es2015.promise.d.ts
+       • cli/tsc/dts/lib.deno.unstable.d.ts
+       • cli/tsc/dts/lib.deno.ns.d.ts
+       • tests/unit_node/crypto/crypto_pbkdf2_test.ts
+     📄 Files WITHOUT TSMappedType (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSConstructorType:
+     📄 Files WITH TSConstructorType (showing 4):
+       • ext/node/polyfills/util.ts
+       • cli/tsc/dts/lib.es5.d.ts
+       • cli/tsc/dts/lib.es2015.reflect.d.ts
+       • cli/tsc/dts/lib.decorators.d.ts
+     📄 Files WITHOUT TSConstructorType (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   JSXAttribute:
+     📄 Files WITH JSXAttribute (showing 7):
+       • cli/bench/fs/serve.jsx
+       • tests/specs/run/tsx_imports/046_jsx_test.tsx
+       • tests/specs/run/_047_jsx/047_jsx_test.jsx
+       • tests/specs/run/_046_tsx/046_jsx_test.tsx
+       • tests/testdata/fmt/with_config/subdir/d.tsx
+       • tests/specs/run/jsx_import_source/jsx_precompile/skip.tsx
+       • tests/specs/npm/sub_paths/sub_paths/main.jsx
+     📄 Files WITHOUT JSXAttribute (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   EmptyStatement:
+     📄 Files WITH EmptyStatement (showing 8):
+       • ext/web/09_file.js
+       • ext/web/00_infra.js
+       • cli/tsc/00_typescript.js
+       • ext/node/polyfills/url.ts
+       • ext/node/benchmarks/child_process_ipc.mjs
+       • cli/bench/testdata/react-dom.js
+       • ext/node/polyfills/internal/streams/readable.js
+       • ext/node/polyfills/internal/streams/operators.js
+     📄 Files WITHOUT EmptyStatement (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSTypeAssertion:
+     📄 Files WITH TSTypeAssertion (showing 3):
+       • tests/unit/tls_test.ts
+       • tests/unit/serve_test.ts
+       • tests/ffi/tests/ffi_types.ts
+     📄 Files WITHOUT TSTypeAssertion (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSRestType:
+     📄 Files WITH TSRestType (showing 6):
+       • ext/telemetry/telemetry.ts
+       • cli/tsc/dts/lib.es5.d.ts
+       • cli/tsc/dts/lib.deno.unstable.d.ts
+       • cli/tsc/dts/lib.deno.ns.d.ts
+       • tests/wpt/runner/utils.ts
+       • ext/node/polyfills/internal/child_process.ts
+     📄 Files WITHOUT TSRestType (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSTemplateLiteralType:
+     📄 Files WITH TSTemplateLiteralType (showing 6):
+       • cli/tsc/dts/lib.webworker.d.ts
+       • cli/tsc/dts/lib.es2023.intl.d.ts
+       • cli/tsc/dts/lib.dom.d.ts
+       • cli/tsc/dts/lib.deno_crypto.d.ts
+       • cli/tsc/dts/lib.deno.unstable.d.ts
+       • ext/node/polyfills/internal/child_process.ts
+     📄 Files WITHOUT TSTemplateLiteralType (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   Decorator:
+     📄 Files WITH Decorator (showing 7):
+       • tests/testdata/subdir/more_decorators.ts
+       • tests/testdata/run/runtime_decorators.ts
+       • tests/testdata/compile/compiler_options/main.ts
+       • tests/specs/run/decorators/tc39_proposal/main.ts
+       • tests/specs/run/decorators/experimental/ts/main.ts
+       • tests/specs/run/decorators/experimental/runtime/main.ts
+       • tests/specs/run/decorators/experimental/no_check/main.ts
+     📄 Files WITHOUT Decorator (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   StaticBlock:
+     📄 Files WITH StaticBlock (showing 3):
+       • ext/telemetry/telemetry.ts
+       • ext/net/03_quic.js
+       • ext/http/01_http.js
+     📄 Files WITHOUT StaticBlock (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSIntrinsicKeyword:
+     📄 Files WITH TSIntrinsicKeyword (showing 2):
+       • cli/tsc/dts/lib.es5.d.ts
+       • cli/tsc/dts/lib.es2015.iterable.d.ts
+     📄 Files WITHOUT TSIntrinsicKeyword (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   JSXExpressionContainer:
+     📄 Files WITH JSXExpressionContainer (showing 3):
+       • cli/bench/fs/serve.jsx
+       • tests/testdata/fmt/with_config/subdir/d.tsx
+       • tests/specs/npm/sub_paths/sub_paths/main.jsx
+     📄 Files WITHOUT JSXExpressionContainer (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSExportAssignment:
+     📄 Files WITH TSExportAssignment (showing 5):
+       • cli/tsc/compiler.d.ts
+       • cli/tsc/dts/typescript.d.ts
+       • tests/specs/check/export_equals_declaration_file/other.d.ts
+       • tests/registry/npm/@denotest/cjs-module-export-assignment-number/1.0.0/index.d.ts
+       • tests/registry/npm/@denotest/cjs-module-export-assignment/1.0.0/index.d.ts
+     📄 Files WITHOUT TSExportAssignment (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSImportType:
+     📄 Files WITH TSImportType (showing 4):
+       • ext/node/polyfills/util.ts
+       • tests/specs/node/dynamic_import_and_require_dual/resolution_mode_require_import_type.ts
+       • tests/specs/run/ts_type_imports/ts_type_imports.ts
+       • tests/registry/npm/@denotest/d-ext/1.0.0/index.d.ts
+     📄 Files WITHOUT TSImportType (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSImportEqualsDeclaration:
+     📄 Files WITH TSImportEqualsDeclaration (showing 5):
+       • tests/specs/node/unstable_detect_cjs/type_module/main.ts
+       • tests/specs/node/unstable_detect_cjs/no_type_field/main.ts
+       • tests/specs/node/unstable_detect_cjs/no_pkg_json/main.ts
+       • tests/specs/npm/dual_cjs_esm/ts_referrer_type_cjs/main.ts
+       • tests/specs/run/package_json_type/commonjs/jsx/tsx.tsx
+     📄 Files WITHOUT TSImportEqualsDeclaration (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSExternalModuleReference:
+     📄 Files WITH TSExternalModuleReference (showing 5):
+       • tests/specs/node/unstable_detect_cjs/type_module/main.ts
+       • tests/specs/node/unstable_detect_cjs/no_type_field/main.ts
+       • tests/specs/node/unstable_detect_cjs/no_pkg_json/main.ts
+       • tests/specs/npm/dual_cjs_esm/ts_referrer_type_cjs/main.ts
+       • tests/specs/run/package_json_type/commonjs/jsx/tsx.tsx
+     📄 Files WITHOUT TSExternalModuleReference (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSParameterProperty:
+     📄 Files WITH TSParameterProperty (showing 4):
+       • ext/telemetry/telemetry.ts
+       • ext/node/polyfills/_tls_wrap.ts
+       • tests/testdata/run/textproto.ts
+       • tests/specs/run/_091_use_define_for_class_fields/091_use_define_for_class_fields.ts
+     📄 Files WITHOUT TSParameterProperty (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   DebuggerStatement:
+     📄 Files WITH DebuggerStatement (showing 2):
+       • cli/tsc/00_typescript.js
+       • tests/testdata/inspector/inspector3.js
+     📄 Files WITHOUT DebuggerStatement (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSAbstractMethodDefinition:
+     📄 Files WITH TSAbstractMethodDefinition (showing 1):
+       • cli/tsc/dts/lib.esnext.iterator.d.ts
+     📄 Files WITHOUT TSAbstractMethodDefinition (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   JSXFragment:
+     📄 Files WITH JSXFragment (showing 1):
+       • tests/specs/check/jsx_not_checked/jsx_not_checked/main.jsx
+     📄 Files WITHOUT JSXFragment (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   JSXOpeningFragment:
+     📄 Files WITH JSXOpeningFragment (showing 1):
+       • tests/specs/check/jsx_not_checked/jsx_not_checked/main.jsx
+     📄 Files WITHOUT JSXOpeningFragment (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   JSXClosingFragment:
+     📄 Files WITH JSXClosingFragment (showing 1):
+       • tests/specs/check/jsx_not_checked/jsx_not_checked/main.jsx
+     📄 Files WITHOUT JSXClosingFragment (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+   TSNamespaceExportDeclaration:
+     📄 Files WITH TSNamespaceExportDeclaration (showing 1):
+       • tests/registry/npm/@denotest/types-pkg-json-import/1.0.0/src/index.d.ts
+     📄 Files WITHOUT TSNamespaceExportDeclaration (showing 10):
+       • tools/wgpu_sync.js
+       • tools/verify_pr_title.js
+       • tools/util.js
+       • tools/upload_wptfyi.js
+       • tools/ops.d.ts
+       • tools/node_compat_tests.js
+       • tools/lint.js
+       • tools/jsdoc_checker.js
+       • tools/install_prebuilt.js
+       • tools/generate_types_deno.ts
+
+❌ FAILED FILES:
+   /Users/camchenry/workspace/ast-analysis/sample-repos/deno/tests/registry/npm/fraction.js: EISDIR: illegal operation on a directory, read
+   /Users/camchenry/workspace/ast-analysis/sample-repos/deno/tests/registry/npm/cli.ts: EISDIR: illegal operation on a directory, read
 
 ============================================================
 ✅ Analysis complete!
+
+
+Warnings/Errors:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/deno/tests/testdata/run/dynamic_import_syntax_error_import.js:
+   `await` is only allowed within async functions and at the top levels of modules
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/deno/tests/testdata/file_extensions/ts_with_js_extension.js:
+   Expected a semicolon or an implicit semicolon after a statement, but found none
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/deno/tests/testdata/encoding/utf-16le.ts:
+   Invalid Character `�`
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/deno/tests/testdata/encoding/utf-16be.ts:
+   Invalid Character `�`
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/deno/tests/ffi/tests/test.js:
+   Unexpected token
+❌ Failed to parse /Users/camchenry/workspace/ast-analysis/sample-repos/deno/tests/registry/npm/fraction.js: EISDIR: illegal operation on a directory, read
+❌ Failed to parse /Users/camchenry/workspace/ast-analysis/sample-repos/deno/tests/registry/npm/cli.ts: EISDIR: illegal operation on a directory, read
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/deno/tests/specs/test/default_ts/as_ts.js:
+   Missing initializer in const declaration
+   Expected a semicolon or an implicit semicolon after a statement, but found none
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/deno/tests/specs/publish/no_check_surfaces_syntax_error/mod.ts:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/deno/tests/specs/run/swc_syntax_error/swc_syntax_error.ts:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/deno/tests/specs/run/ext_flag_takes_precedence_over_extension/ts_with_js_extension.js:
+   Expected a semicolon or an implicit semicolon after a statement, but found none
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/deno/tests/specs/run/error_syntax_empty_trailing_line/error_syntax_empty_trailing_line.mjs:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/deno/tests/specs/run/error_syntax/error_syntax.js:
+   Expected `,` but found `Identifier`
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/deno/tests/specs/run/error_for_await/error_for_await.ts:
+   `await` is only allowed within async functions and at the top levels of modules
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/deno/tests/specs/run/dynamic_import_syntax_error/dynamic_import_syntax_error_import.js:
+   `await` is only allowed within async functions and at the top levels of modules
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/deno/tests/specs/run/default_ts/as_ts.js:
+   Missing initializer in const declaration
+   Expected a semicolon or an implicit semicolon after a statement, but found none
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/deno/tests/specs/lint/syntax_error_reporting/script.ts:
+   Unterminated string
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/deno/tests/specs/lint/json/malformed.js:
+   Expected `{` but found `Identifier`
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/deno/tests/specs/lint/default_ts/as_ts.js:
+   Missing initializer in const declaration
+   Expected a semicolon or an implicit semicolon after a statement, but found none
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/deno/tests/specs/fmt/parse_error/parse_error.ts:
+   Expected `{` but found `EOF`
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/deno/tests/specs/fmt/default_ts/as_ts.js:
+   Missing initializer in const declaration
+   Expected a semicolon or an implicit semicolon after a statement, but found none
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/deno/tests/specs/bench/default_ts/as_ts.js:
+   Missing initializer in const declaration
+   Expected a semicolon or an implicit semicolon after a statement, but found none
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/deno/tests/specs/lint/glob/without_config/malformed.js:
+   Expected `{` but found `Identifier`
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/deno/tests/specs/lint/ignore/without_config/malformed.js:
+   Expected `{` but found `Identifier`

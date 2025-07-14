@@ -108,10 +108,9 @@ async function findFiles(directory) {
       "**/coverage/**",
       "**/*.min.js",
       "**/*.bundle.js",
-      "**/test/**",
-      "**/tests/**",
       "**/fixture/**",
       "**/fixtures/**",
+      "**/*conformance*",
     ],
   });
 
@@ -141,7 +140,9 @@ function formatFileSize(bytes) {
 /**
  * Main analysis function
  */
-async function analyzeDirectory(targetDirectory) {
+async function analyzeDirectory(targetDirectory, options = {}) {
+  const { exampleCount } = options;
+
   console.log(
     `🔍 Analyzing JavaScript/TypeScript files in: ${targetDirectory}\n`
   );
@@ -162,6 +163,8 @@ async function analyzeDirectory(targetDirectory) {
   const results = [];
   const globalNodeCounts = {};
   const nodeFilePresence = {}; // Track which files contain each node type
+  const nodeFileExamples = {}; // Track file examples for each node type
+  const filesWithoutNodeType = {}; // Track files that don't contain each node type
   let totalNodes = 0;
   let successfulFiles = 0;
   let totalSize = 0;
@@ -188,7 +191,7 @@ async function analyzeDirectory(targetDirectory) {
       successfulFiles++;
       totalNodes += result.totalNodes;
 
-      // Aggregate node counts
+      // Aggregate node counts and track file presence
       for (const [nodeType, count] of Object.entries(result.nodeCounts)) {
         globalNodeCounts[nodeType] = (globalNodeCounts[nodeType] || 0) + count;
 
@@ -197,6 +200,28 @@ async function analyzeDirectory(targetDirectory) {
           nodeFilePresence[nodeType] = new Set();
         }
         nodeFilePresence[nodeType].add(file);
+
+        // Track file examples for this node type (limit to exampleCount)
+        if (!nodeFileExamples[nodeType]) {
+          nodeFileExamples[nodeType] = [];
+        }
+        if (nodeFileExamples[nodeType].length < exampleCount) {
+          nodeFileExamples[nodeType].push(file);
+        }
+      }
+    }
+  }
+
+  // Second pass: find files that don't contain each node type
+  for (const nodeType of Object.keys(globalNodeCounts)) {
+    filesWithoutNodeType[nodeType] = [];
+    const filesWithThisNode = nodeFilePresence[nodeType] || new Set();
+
+    for (const result of results) {
+      if (result.success && !filesWithThisNode.has(result.filePath)) {
+        if (filesWithoutNodeType[nodeType].length < exampleCount) {
+          filesWithoutNodeType[nodeType].push(result.filePath);
+        }
       }
     }
   }
@@ -271,6 +296,46 @@ async function analyzeDirectory(targetDirectory) {
     );
   });
 
+  // File examples for each node type
+  console.log("\n📁 FILE EXAMPLES BY NODE TYPE:");
+  allNodeTypes.forEach(([nodeType, _count]) => {
+    console.log(`\n   ${nodeType}:`);
+
+    // Files WITH this node type
+    const filesWithNode = nodeFileExamples[nodeType] || [];
+    const filesWithoutNode = filesWithoutNodeType[nodeType] || [];
+
+    if (filesWithNode.length > 0) {
+      console.log(
+        `     📄 Files WITH ${nodeType} (showing ${filesWithNode.length}):`
+      );
+      filesWithNode.forEach((file) => {
+        const relativePath = file
+          .replace(targetDirectory, "")
+          .replace(/^\//, "");
+        console.log(`       • ${relativePath}`);
+      });
+    } else {
+      console.log(`     📄 Files WITH ${nodeType}: (none found)`);
+    }
+
+    if (filesWithoutNode.length > 0) {
+      console.log(
+        `     📄 Files WITHOUT ${nodeType} (showing ${filesWithoutNode.length}):`
+      );
+      filesWithoutNode.forEach((file) => {
+        const relativePath = file
+          .replace(targetDirectory, "")
+          .replace(/^\//, "");
+        console.log(`       • ${relativePath}`);
+      });
+    } else {
+      console.log(
+        `     📄 Files WITHOUT ${nodeType}: (all files contain this node type)`
+      );
+    }
+  });
+
   // Failed files (if any)
   const failedFiles = results.filter((r) => !r.success);
   if (failedFiles.length > 0) {
@@ -289,12 +354,18 @@ async function main() {
   const args = process.argv.slice(2);
 
   if (args.length === 0) {
-    console.log("Usage: npm run analyze <directory>");
-    console.log("Example: npm run analyze ./src");
+    console.log("Usage: npm run analyze <directory> [exampleCount]");
+    console.log("Example: npm run analyze ./src 5");
     process.exit(1);
   }
 
   const targetDirectory = args[0];
+  const exampleCount = args[1] ? parseInt(args[1], 10) : 10;
+
+  if (isNaN(exampleCount) || exampleCount < 1) {
+    console.error("❌ Error: exampleCount must be a positive number");
+    process.exit(1);
+  }
 
   try {
     const stats = statSync(targetDirectory);
@@ -307,7 +378,7 @@ async function main() {
     process.exit(1);
   }
 
-  await analyzeDirectory(targetDirectory);
+  await analyzeDirectory(targetDirectory, { exampleCount });
 }
 
 // Run the script

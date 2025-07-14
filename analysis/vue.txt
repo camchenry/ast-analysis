@@ -1,11 +1,12 @@
 AST Analysis Report for vue
-Generated on: 2025-07-13T03:17:40.601Z
+Generated on: 2025-07-14T01:42:57.029Z
 Repository: sample-repos/vue
 ================================================================================
 
 🔍 Analyzing JavaScript/TypeScript files in: /Users/camchenry/workspace/ast-analysis/sample-repos/vue
 
-📁 Found 250 files to analyze...
+📁 Found 417 files to analyze...
+
 
 
 ============================================================
@@ -13,261 +14,3124 @@ Repository: sample-repos/vue
 ============================================================
 
 📁 FILE STATISTICS:
-   Total files found: 250
-   Successfully parsed: 250
+   Total files found: 417
+   Successfully parsed: 417
    Failed to parse: 0
-   Total file size: 781.8 KB
+   Total file size: 1.9 MB
 
 🌳 NODE STATISTICS:
-   Total nodes: 113,920
-   Average nodes per file: 456
-   Average file size: 3.1 KB
+   Total nodes: 291,988
+   Average nodes per file: 700
+   Average file size: 4.7 KB
 
 📋 ALL NODE TYPES (BY FILE PRESENCE):
-   Program                         250 files (100.0%) -      250 total (0.22%)
-   Literal                         249 files ( 99.6%) -    5,278 total (4.63%)
-   Identifier                      247 files ( 98.8%) -   42,392 total (37.21%)
-   ImportDeclaration               202 files ( 80.8%) -      795 total (0.70%)
-   CallExpression                  191 files ( 76.4%) -    4,440 total (3.90%)
-   ImportSpecifier                 190 files ( 76.0%) -    1,274 total (1.12%)
-   TSTypeAnnotation                190 files ( 76.0%) -    5,196 total (4.56%)
-   MemberExpression                187 files ( 74.8%) -    7,586 total (6.66%)
-   VariableDeclaration             185 files ( 74.0%) -    2,232 total (1.96%)
-   VariableDeclarator              185 files ( 74.0%) -    2,329 total (2.04%)
-   BlockStatement                  183 files ( 73.2%) -    3,753 total (3.29%)
-   ExpressionStatement             181 files ( 72.4%) -    3,191 total (2.80%)
-   TSTypeReference                 179 files ( 71.6%) -    4,257 total (3.74%)
-   ExportNamedDeclaration          169 files ( 67.6%) -      822 total (0.72%)
-   AssignmentExpression            166 files ( 66.4%) -    1,782 total (1.56%)
-   IfStatement                     164 files ( 65.6%) -    2,019 total (1.77%)
-   ReturnStatement                 164 files ( 65.6%) -    1,086 total (0.95%)
-   LogicalExpression               159 files ( 63.6%) -    1,399 total (1.23%)
-   FunctionDeclaration             154 files ( 61.6%) -      674 total (0.59%)
-   BinaryExpression                153 files ( 61.2%) -    1,855 total (1.63%)
-   TSStringKeyword                 147 files ( 58.8%) -    1,463 total (1.28%)
-   ObjectExpression                144 files ( 57.6%) -      625 total (0.55%)
-   UnaryExpression                 136 files ( 54.4%) -      749 total (0.66%)
-   Property                        131 files ( 52.4%) -    1,511 total (1.33%)
-   TSAnyKeyword                    120 files ( 48.0%) -      748 total (0.66%)
-   Unknown                         118 files ( 47.2%) -    1,684 total (1.48%)
-   TSUnionType                     115 files ( 46.0%) -      632 total (0.55%)
-   ParenthesizedExpression         111 files ( 44.4%) -      475 total (0.42%)
-   TemplateElement                 103 files ( 41.2%) -    1,416 total (1.24%)
-   TemplateLiteral                 102 files ( 40.8%) -      764 total (0.67%)
-   TSTypeParameterInstantiation    101 files ( 40.4%) -      834 total (0.73%)
-   ArrowFunctionExpression         100 files ( 40.0%) -      420 total (0.37%)
-   ImportDefaultSpecifier           92 files ( 36.8%) -      139 total (0.12%)
-   TSBooleanKeyword                 91 files ( 36.4%) -      374 total (0.33%)
-   ArrayExpression                  90 files ( 36.0%) -      293 total (0.26%)
-   ConditionalExpression            90 files ( 36.0%) -      344 total (0.30%)
-   FunctionExpression               82 files ( 32.8%) -      251 total (0.22%)
-   UpdateExpression                 69 files ( 27.6%) -      198 total (0.17%)
-   TSPropertySignature              68 files ( 27.2%) -    1,862 total (1.63%)
-   NewExpression                    67 files ( 26.8%) -      125 total (0.11%)
-   TSNullKeyword                    66 files ( 26.4%) -      170 total (0.15%)
-   TSArrayType                      64 files ( 25.6%) -      212 total (0.19%)
-   TSTypeLiteral                    64 files ( 25.6%) -      335 total (0.29%)
-   ExportDefaultDeclaration         63 files ( 25.2%) -       63 total (0.06%)
-   TSUndefinedKeyword               63 files ( 25.2%) -      154 total (0.14%)
-   TSFunctionType                   62 files ( 24.8%) -      288 total (0.25%)
-   TSVoidKeyword                    59 files ( 23.6%) -      201 total (0.18%)
-   ForStatement                     56 files ( 22.4%) -      135 total (0.12%)
-   TSNumberKeyword                  55 files ( 22.0%) -      191 total (0.17%)
-   ThisExpression                   51 files ( 20.4%) -      535 total (0.47%)
-   TSTypeAliasDeclaration           50 files ( 20.0%) -      226 total (0.20%)
-   TSAsExpression                   50 files ( 20.0%) -      112 total (0.10%)
-   ObjectPattern                    43 files ( 17.2%) -       85 total (0.07%)
-   TSInterfaceDeclaration           42 files ( 16.8%) -      165 total (0.14%)
-   TSInterfaceBody                  42 files ( 16.8%) -      165 total (0.14%)
-   WhileStatement                   36 files ( 14.4%) -       62 total (0.05%)
-   TSTypeParameterDeclaration       34 files ( 13.6%) -      219 total (0.19%)
-   TSTypeParameter                  34 files ( 13.6%) -      522 total (0.46%)
-   ForInStatement                   34 files ( 13.6%) -       67 total (0.06%)
-   TSLiteralType                    33 files ( 13.2%) -      283 total (0.25%)
-   AssignmentPattern                33 files ( 13.2%) -       70 total (0.06%)
-   TSIndexSignature                 31 files ( 12.4%) -       92 total (0.08%)
-   TSNonNullExpression              31 files ( 12.4%) -      164 total (0.14%)
-   TSParenthesizedType              26 files ( 10.4%) -       53 total (0.05%)
-   TryStatement                     26 files ( 10.4%) -       39 total (0.03%)
-   CatchClause                      25 files ( 10.0%) -       37 total (0.03%)
-   TSTypeQuery                      20 files (  8.0%) -       42 total (0.04%)
-   TSIntersectionType               20 files (  8.0%) -       60 total (0.05%)
-   TSObjectKeyword                  19 files (  7.6%) -       72 total (0.06%)
-   ThrowStatement                   19 files (  7.6%) -       34 total (0.03%)
-   RestElement                      18 files (  7.2%) -       35 total (0.03%)
-   EmptyStatement                   18 files (  7.2%) -       22 total (0.02%)
-   TSUnknownKeyword                 17 files (  6.8%) -       32 total (0.03%)
-   TSInterfaceHeritage              17 files (  6.8%) -       83 total (0.07%)
-   BreakStatement                   17 files (  6.8%) -       46 total (0.04%)
-   TSTypeOperator                   16 files (  6.4%) -       42 total (0.04%)
-   TSIndexedAccessType              16 files (  6.4%) -       62 total (0.05%)
-   ClassBody                        16 files (  6.4%) -       16 total (0.01%)
-   ClassDeclaration                 15 files (  6.0%) -       15 total (0.01%)
-   MethodDefinition                 15 files (  6.0%) -       56 total (0.05%)
-   TSConditionalType                14 files (  5.6%) -       74 total (0.06%)
-   TSDeclareFunction                14 files (  5.6%) -       56 total (0.05%)
-   ContinueStatement                14 files (  5.6%) -       21 total (0.02%)
-   PropertyDefinition               13 files (  5.2%) -      205 total (0.18%)
-   TSNeverKeyword                   12 files (  4.8%) -       43 total (0.04%)
-   ExportSpecifier                  12 files (  4.8%) -      160 total (0.14%)
-   TSSymbolKeyword                  11 files (  4.4%) -       16 total (0.01%)
-   TSMappedType                     11 files (  4.4%) -       25 total (0.02%)
-   TSMethodSignature                10 files (  4.0%) -       87 total (0.08%)
-   TSTupleType                       9 files (  3.6%) -       24 total (0.02%)
-   ExportAllDeclaration              9 files (  3.6%) -       28 total (0.02%)
-   SpreadElement                     9 files (  3.6%) -       35 total (0.03%)
-   TSInferType                       8 files (  3.2%) -       34 total (0.03%)
-   SwitchStatement                   7 files (  2.8%) -       12 total (0.01%)
-   SwitchCase                        7 files (  2.8%) -      120 total (0.11%)
-   ImportNamespaceSpecifier          6 files (  2.4%) -        6 total (0.01%)
-   SequenceExpression                6 files (  2.4%) -       10 total (0.01%)
-   TSCallSignatureDeclaration        5 files (  2.0%) -        6 total (0.01%)
-   TSConstructSignatureDeclaration    5 files (  2.0%) -       10 total (0.01%)
-   TSModuleDeclaration               4 files (  1.6%) -        6 total (0.01%)
-   TSModuleBlock                     4 files (  1.6%) -        6 total (0.01%)
-   ForOfStatement                    4 files (  1.6%) -       33 total (0.03%)
-   TSTypePredicate                   4 files (  1.6%) -       10 total (0.01%)
-   TSEnumDeclaration                 4 files (  1.6%) -        5 total (0.00%)
-   TSEnumBody                        4 files (  1.6%) -        5 total (0.00%)
-   TSEnumMember                      4 files (  1.6%) -       22 total (0.02%)
-   TSQualifiedName                   3 files (  1.2%) -       33 total (0.03%)
-   TSExportAssignment                3 files (  1.2%) -        3 total (0.00%)
-   ArrayPattern                      3 files (  1.2%) -        4 total (0.00%)
-   ChainExpression                   3 files (  1.2%) -        4 total (0.00%)
-   AwaitExpression                   2 files (  0.8%) -       17 total (0.01%)
-   TSParameterProperty               2 files (  0.8%) -        4 total (0.00%)
-   TSClassImplements                 2 files (  0.8%) -        2 total (0.00%)
-   Super                             2 files (  0.8%) -        2 total (0.00%)
-   TSThisType                        1 files (  0.4%) -        7 total (0.01%)
-   TSNamespaceExportDeclaration      1 files (  0.4%) -        1 total (0.00%)
-   TSTemplateLiteralType             1 files (  0.4%) -        1 total (0.00%)
-   TSRestType                        1 files (  0.4%) -        1 total (0.00%)
-   TSEmptyBodyFunctionExpression     1 files (  0.4%) -        1 total (0.00%)
-   TSBigIntKeyword                   1 files (  0.4%) -        1 total (0.00%)
-   ClassExpression                   1 files (  0.4%) -        1 total (0.00%)
+   Program                         417 files (100.0%) -      417 total (0.14%)
+   Identifier                      414 files ( 99.3%) -  103,207 total (35.35%)
+   Literal                         414 files ( 99.3%) -   21,721 total (7.44%)
+   ImportDeclaration               357 files ( 85.6%) -    1,100 total (0.38%)
+   CallExpression                  351 files ( 84.2%) -   24,849 total (8.51%)
+   MemberExpression                347 files ( 83.2%) -   28,605 total (9.80%)
+   BlockStatement                  344 files ( 82.5%) -    8,605 total (2.95%)
+   VariableDeclaration             342 files ( 82.0%) -    5,479 total (1.88%)
+   VariableDeclarator              342 files ( 82.0%) -    5,596 total (1.92%)
+   ExpressionStatement             342 files ( 82.0%) -   15,352 total (5.26%)
+   ObjectExpression                292 files ( 70.0%) -    5,541 total (1.90%)
+   ImportSpecifier                 289 files ( 69.3%) -    1,640 total (0.56%)
+   Property                        280 files ( 67.1%) -    9,468 total (3.24%)
+   AssignmentExpression            276 files ( 66.2%) -    3,240 total (1.11%)
+   TSTypeAnnotation                258 files ( 61.9%) -    5,761 total (1.97%)
+   ArrowFunctionExpression         253 files ( 60.7%) -    4,501 total (1.54%)
+   ReturnStatement                 252 files ( 60.4%) -    1,698 total (0.58%)
+   BinaryExpression                239 files ( 57.3%) -    2,750 total (0.94%)
+   TSTypeReference                 225 files ( 54.0%) -    4,661 total (1.60%)
+   Unknown                         219 files ( 52.5%) -    3,680 total (1.26%)
+   IfStatement                     215 files ( 51.6%) -    2,139 total (0.73%)
+   ImportDefaultSpecifier          210 files ( 50.4%) -      280 total (0.10%)
+   FunctionDeclaration             202 files ( 48.4%) -      820 total (0.28%)
+   TemplateElement                 201 files ( 48.2%) -    3,318 total (1.14%)
+   TemplateLiteral                 200 files ( 48.0%) -    2,426 total (0.83%)
+   ArrayExpression                 194 files ( 46.5%) -    1,459 total (0.50%)
+   NewExpression                   189 files ( 45.3%) -    1,581 total (0.54%)
+   LogicalExpression               186 files ( 44.6%) -    1,451 total (0.50%)
+   UnaryExpression                 181 files ( 43.4%) -      845 total (0.29%)
+   ExportNamedDeclaration          179 files ( 42.9%) -      847 total (0.29%)
+   FunctionExpression              177 files ( 42.4%) -    1,147 total (0.39%)
+   TSStringKeyword                 176 files ( 42.2%) -    1,644 total (0.56%)
+   ParenthesizedExpression         167 files ( 40.0%) -      676 total (0.23%)
+   TSAnyKeyword                    166 files ( 39.8%) -      947 total (0.32%)
+   TSUnionType                     136 files ( 32.6%) -      710 total (0.24%)
+   TSTypeParameterInstantiation    134 files ( 32.1%) -    1,326 total (0.45%)
+   UpdateExpression                115 files ( 27.6%) -      358 total (0.12%)
+   ConditionalExpression           112 files ( 26.9%) -      405 total (0.14%)
+   ThisExpression                  109 files ( 26.1%) -    1,152 total (0.39%)
+   TSBooleanKeyword                 98 files ( 23.5%) -      414 total (0.14%)
+   TSArrayType                      92 files ( 22.1%) -      283 total (0.10%)
+   TSPropertySignature              90 files ( 21.6%) -    1,998 total (0.68%)
+   TSAsExpression                   83 files ( 19.9%) -      234 total (0.08%)
+   TSTypeLiteral                    82 files ( 19.7%) -      400 total (0.14%)
+   TSNumberKeyword                  80 files ( 19.2%) -      420 total (0.14%)
+   TSFunctionType                   75 files ( 18.0%) -      338 total (0.12%)
+   ObjectPattern                    74 files ( 17.7%) -      223 total (0.08%)
+   TSVoidKeyword                    71 files ( 17.0%) -      244 total (0.08%)
+   TSNullKeyword                    70 files ( 16.8%) -      175 total (0.06%)
+   TSUndefinedKeyword               69 files ( 16.5%) -      195 total (0.07%)
+   ExportDefaultDeclaration         68 files ( 16.3%) -       68 total (0.02%)
+   ForStatement                     63 files ( 15.1%) -      148 total (0.05%)
+   TSTypeAliasDeclaration           58 files ( 13.9%) -      237 total (0.08%)
+   TSInterfaceDeclaration           49 files ( 11.8%) -      179 total (0.06%)
+   TSInterfaceBody                  49 files ( 11.8%) -      179 total (0.06%)
+   TSNonNullExpression              48 files ( 11.5%) -      243 total (0.08%)
+   TSLiteralType                    45 files ( 10.8%) -      403 total (0.14%)
+   WhileStatement                   41 files (  9.8%) -       68 total (0.02%)
+   TSTypeParameterDeclaration       40 files (  9.6%) -      230 total (0.08%)
+   TSTypeParameter                  40 files (  9.6%) -      536 total (0.18%)
+   AssignmentPattern                38 files (  9.1%) -       75 total (0.03%)
+   ForInStatement                   36 files (  8.6%) -       69 total (0.02%)
+   TryStatement                     35 files (  8.4%) -       52 total (0.02%)
+   CatchClause                      34 files (  8.2%) -       50 total (0.02%)
+   TSIndexSignature                 31 files (  7.4%) -       92 total (0.03%)
+   TSParenthesizedType              29 files (  7.0%) -       66 total (0.02%)
+   ThrowStatement                   29 files (  7.0%) -       69 total (0.02%)
+   TSTypeQuery                      28 files (  6.7%) -       56 total (0.02%)
+   AwaitExpression                  28 files (  6.7%) -      542 total (0.19%)
+   TSIntersectionType               24 files (  5.8%) -       64 total (0.02%)
+   EmptyStatement                   24 files (  5.8%) -       28 total (0.01%)
+   ClassBody                        22 files (  5.3%) -       24 total (0.01%)
+   TSObjectKeyword                  21 files (  5.0%) -       74 total (0.03%)
+   ClassDeclaration                 21 files (  5.0%) -       23 total (0.01%)
+   BreakStatement                   21 files (  5.0%) -       52 total (0.02%)
+   RestElement                      20 files (  4.8%) -       37 total (0.01%)
+   TSUnknownKeyword                 20 files (  4.8%) -       37 total (0.01%)
+   TSTypeOperator                   19 files (  4.6%) -       45 total (0.02%)
+   TSInterfaceHeritage              19 files (  4.6%) -       85 total (0.03%)
+   TSIndexedAccessType              19 files (  4.6%) -      128 total (0.04%)
+   PropertyDefinition               19 files (  4.6%) -      216 total (0.07%)
+   TSDeclareFunction                18 files (  4.3%) -       66 total (0.02%)
+   MethodDefinition                 18 files (  4.3%) -       66 total (0.02%)
+   SpreadElement                    16 files (  3.8%) -       46 total (0.02%)
+   TSConditionalType                15 files (  3.6%) -       78 total (0.03%)
+   TSTupleType                      14 files (  3.4%) -       37 total (0.01%)
+   TSNeverKeyword                   14 files (  3.4%) -       45 total (0.02%)
+   ExportSpecifier                  14 files (  3.4%) -      163 total (0.06%)
+   ContinueStatement                14 files (  3.4%) -       21 total (0.01%)
+   TSMethodSignature                12 files (  2.9%) -       99 total (0.03%)
+   TSMappedType                     12 files (  2.9%) -       26 total (0.01%)
+   TSSymbolKeyword                  11 files (  2.6%) -       16 total (0.01%)
+   ExportAllDeclaration              9 files (  2.2%) -       28 total (0.01%)
+   TSQualifiedName                   8 files (  1.9%) -       58 total (0.02%)
+   TSInferType                       8 files (  1.9%) -       34 total (0.01%)
+   SwitchStatement                   8 files (  1.9%) -       13 total (0.00%)
+   SwitchCase                        8 files (  1.9%) -      123 total (0.04%)
+   TSCallSignatureDeclaration        7 files (  1.7%) -        9 total (0.00%)
+   ImportNamespaceSpecifier          7 files (  1.7%) -        7 total (0.00%)
+   ArrayPattern                      7 files (  1.7%) -       18 total (0.01%)
+   ChainExpression                   7 files (  1.7%) -       19 total (0.01%)
+   TSModuleDeclaration               6 files (  1.4%) -        9 total (0.00%)
+   TSModuleBlock                     6 files (  1.4%) -        9 total (0.00%)
+   SequenceExpression                6 files (  1.4%) -       10 total (0.00%)
+   TSConstructSignatureDeclaration    5 files (  1.2%) -       10 total (0.00%)
+   ForOfStatement                    4 files (  1.0%) -       33 total (0.01%)
+   TSTypePredicate                   4 files (  1.0%) -       10 total (0.00%)
+   TSEnumDeclaration                 4 files (  1.0%) -        5 total (0.00%)
+   TSEnumBody                        4 files (  1.0%) -        5 total (0.00%)
+   TSEnumMember                      4 files (  1.0%) -       22 total (0.01%)
+   TSExportAssignment                3 files (  0.7%) -        3 total (0.00%)
+   TSThisType                        2 files (  0.5%) -        9 total (0.00%)
+   TSParameterProperty               2 files (  0.5%) -        4 total (0.00%)
+   TSClassImplements                 2 files (  0.5%) -        2 total (0.00%)
+   JSXElement                        2 files (  0.5%) -       48 total (0.02%)
+   JSXOpeningElement                 2 files (  0.5%) -       48 total (0.02%)
+   JSXIdentifier                     2 files (  0.5%) -      136 total (0.05%)
+   JSXAttribute                      2 files (  0.5%) -       88 total (0.03%)
+   JSXExpressionContainer            2 files (  0.5%) -       52 total (0.02%)
+   JSXSpreadAttribute                2 files (  0.5%) -        2 total (0.00%)
+   Super                             2 files (  0.5%) -        2 total (0.00%)
+   TSNamespaceExportDeclaration      1 files (  0.2%) -        1 total (0.00%)
+   TSTemplateLiteralType             1 files (  0.2%) -        1 total (0.00%)
+   TSRestType                        1 files (  0.2%) -        1 total (0.00%)
+   TSEmptyBodyFunctionExpression     1 files (  0.2%) -        1 total (0.00%)
+   Decorator                         1 files (  0.2%) -        1 total (0.00%)
+   ImportExpression                  1 files (  0.2%) -        1 total (0.00%)
+   TSBigIntKeyword                   1 files (  0.2%) -        1 total (0.00%)
+   ClassExpression                   1 files (  0.2%) -        1 total (0.00%)
 
 📝 ALL NODE TYPES (BY TOTAL COUNT):
-   Identifier                       42,392 (37.21%) in 247 files (98.8%)
-   MemberExpression                  7,586 (6.66%) in 187 files (74.8%)
-   Literal                           5,278 (4.63%) in 249 files (99.6%)
-   TSTypeAnnotation                  5,196 (4.56%) in 190 files (76.0%)
-   CallExpression                    4,440 (3.90%) in 191 files (76.4%)
-   TSTypeReference                   4,257 (3.74%) in 179 files (71.6%)
-   BlockStatement                    3,753 (3.29%) in 183 files (73.2%)
-   ExpressionStatement               3,191 (2.80%) in 181 files (72.4%)
-   VariableDeclarator                2,329 (2.04%) in 185 files (74.0%)
-   VariableDeclaration               2,232 (1.96%) in 185 files (74.0%)
-   IfStatement                       2,019 (1.77%) in 164 files (65.6%)
-   TSPropertySignature               1,862 (1.63%) in 68 files (27.2%)
-   BinaryExpression                  1,855 (1.63%) in 153 files (61.2%)
-   AssignmentExpression              1,782 (1.56%) in 166 files (66.4%)
-   Unknown                           1,684 (1.48%) in 118 files (47.2%)
-   Property                          1,511 (1.33%) in 131 files (52.4%)
-   TSStringKeyword                   1,463 (1.28%) in 147 files (58.8%)
-   TemplateElement                   1,416 (1.24%) in 103 files (41.2%)
-   LogicalExpression                 1,399 (1.23%) in 159 files (63.6%)
-   ImportSpecifier                   1,274 (1.12%) in 190 files (76.0%)
-   ReturnStatement                   1,086 (0.95%) in 164 files (65.6%)
-   TSTypeParameterInstantiation        834 (0.73%) in 101 files (40.4%)
-   ExportNamedDeclaration              822 (0.72%) in 169 files (67.6%)
-   ImportDeclaration                   795 (0.70%) in 202 files (80.8%)
-   TemplateLiteral                     764 (0.67%) in 102 files (40.8%)
-   UnaryExpression                     749 (0.66%) in 136 files (54.4%)
-   TSAnyKeyword                        748 (0.66%) in 120 files (48.0%)
-   FunctionDeclaration                 674 (0.59%) in 154 files (61.6%)
-   TSUnionType                         632 (0.55%) in 115 files (46.0%)
-   ObjectExpression                    625 (0.55%) in 144 files (57.6%)
-   ThisExpression                      535 (0.47%) in 51 files (20.4%)
-   TSTypeParameter                     522 (0.46%) in 34 files (13.6%)
-   ParenthesizedExpression             475 (0.42%) in 111 files (44.4%)
-   ArrowFunctionExpression             420 (0.37%) in 100 files (40.0%)
-   TSBooleanKeyword                    374 (0.33%) in 91 files (36.4%)
-   ConditionalExpression               344 (0.30%) in 90 files (36.0%)
-   TSTypeLiteral                       335 (0.29%) in 64 files (25.6%)
-   ArrayExpression                     293 (0.26%) in 90 files (36.0%)
-   TSFunctionType                      288 (0.25%) in 62 files (24.8%)
-   TSLiteralType                       283 (0.25%) in 33 files (13.2%)
-   FunctionExpression                  251 (0.22%) in 82 files (32.8%)
-   Program                             250 (0.22%) in 250 files (100.0%)
-   TSTypeAliasDeclaration              226 (0.20%) in 50 files (20.0%)
-   TSTypeParameterDeclaration          219 (0.19%) in 34 files (13.6%)
-   TSArrayType                         212 (0.19%) in 64 files (25.6%)
-   PropertyDefinition                  205 (0.18%) in 13 files (5.2%)
-   TSVoidKeyword                       201 (0.18%) in 59 files (23.6%)
-   UpdateExpression                    198 (0.17%) in 69 files (27.6%)
-   TSNumberKeyword                     191 (0.17%) in 55 files (22.0%)
-   TSNullKeyword                       170 (0.15%) in 66 files (26.4%)
-   TSInterfaceDeclaration              165 (0.14%) in 42 files (16.8%)
-   TSInterfaceBody                     165 (0.14%) in 42 files (16.8%)
-   TSNonNullExpression                 164 (0.14%) in 31 files (12.4%)
-   ExportSpecifier                     160 (0.14%) in 12 files (4.8%)
-   TSUndefinedKeyword                  154 (0.14%) in 63 files (25.2%)
-   ImportDefaultSpecifier              139 (0.12%) in 92 files (36.8%)
-   ForStatement                        135 (0.12%) in 56 files (22.4%)
-   NewExpression                       125 (0.11%) in 67 files (26.8%)
-   SwitchCase                          120 (0.11%) in 7 files (2.8%)
-   TSAsExpression                      112 (0.10%) in 50 files (20.0%)
-   TSIndexSignature                     92 (0.08%) in 31 files (12.4%)
-   TSMethodSignature                    87 (0.08%) in 10 files (4.0%)
-   ObjectPattern                        85 (0.07%) in 43 files (17.2%)
-   TSInterfaceHeritage                  83 (0.07%) in 17 files (6.8%)
-   TSConditionalType                    74 (0.06%) in 14 files (5.6%)
-   TSObjectKeyword                      72 (0.06%) in 19 files (7.6%)
-   AssignmentPattern                    70 (0.06%) in 33 files (13.2%)
-   ForInStatement                       67 (0.06%) in 34 files (13.6%)
-   ExportDefaultDeclaration             63 (0.06%) in 63 files (25.2%)
-   TSIndexedAccessType                  62 (0.05%) in 16 files (6.4%)
-   WhileStatement                       62 (0.05%) in 36 files (14.4%)
-   TSIntersectionType                   60 (0.05%) in 20 files (8.0%)
-   TSDeclareFunction                    56 (0.05%) in 14 files (5.6%)
-   MethodDefinition                     56 (0.05%) in 15 files (6.0%)
-   TSParenthesizedType                  53 (0.05%) in 26 files (10.4%)
-   BreakStatement                       46 (0.04%) in 17 files (6.8%)
-   TSNeverKeyword                       43 (0.04%) in 12 files (4.8%)
-   TSTypeQuery                          42 (0.04%) in 20 files (8.0%)
-   TSTypeOperator                       42 (0.04%) in 16 files (6.4%)
-   TryStatement                         39 (0.03%) in 26 files (10.4%)
-   CatchClause                          37 (0.03%) in 25 files (10.0%)
-   RestElement                          35 (0.03%) in 18 files (7.2%)
-   SpreadElement                        35 (0.03%) in 9 files (3.6%)
-   TSInferType                          34 (0.03%) in 8 files (3.2%)
-   ThrowStatement                       34 (0.03%) in 19 files (7.6%)
-   TSQualifiedName                      33 (0.03%) in 3 files (1.2%)
-   ForOfStatement                       33 (0.03%) in 4 files (1.6%)
-   TSUnknownKeyword                     32 (0.03%) in 17 files (6.8%)
-   ExportAllDeclaration                 28 (0.02%) in 9 files (3.6%)
-   TSMappedType                         25 (0.02%) in 11 files (4.4%)
-   TSTupleType                          24 (0.02%) in 9 files (3.6%)
-   EmptyStatement                       22 (0.02%) in 18 files (7.2%)
-   TSEnumMember                         22 (0.02%) in 4 files (1.6%)
-   ContinueStatement                    21 (0.02%) in 14 files (5.6%)
-   AwaitExpression                      17 (0.01%) in 2 files (0.8%)
-   TSSymbolKeyword                      16 (0.01%) in 11 files (4.4%)
-   ClassBody                            16 (0.01%) in 16 files (6.4%)
-   ClassDeclaration                     15 (0.01%) in 15 files (6.0%)
-   SwitchStatement                      12 (0.01%) in 7 files (2.8%)
-   TSConstructSignatureDeclaration       10 (0.01%) in 5 files (2.0%)
-   SequenceExpression                   10 (0.01%) in 6 files (2.4%)
-   TSTypePredicate                      10 (0.01%) in 4 files (1.6%)
-   TSThisType                            7 (0.01%) in 1 files (0.4%)
-   TSCallSignatureDeclaration            6 (0.01%) in 5 files (2.0%)
-   TSModuleDeclaration                   6 (0.01%) in 4 files (1.6%)
-   TSModuleBlock                         6 (0.01%) in 4 files (1.6%)
-   ImportNamespaceSpecifier              6 (0.01%) in 6 files (2.4%)
-   TSEnumDeclaration                     5 (0.00%) in 4 files (1.6%)
-   TSEnumBody                            5 (0.00%) in 4 files (1.6%)
-   ArrayPattern                          4 (0.00%) in 3 files (1.2%)
-   TSParameterProperty                   4 (0.00%) in 2 files (0.8%)
-   ChainExpression                       4 (0.00%) in 3 files (1.2%)
-   TSExportAssignment                    3 (0.00%) in 3 files (1.2%)
-   TSClassImplements                     2 (0.00%) in 2 files (0.8%)
-   Super                                 2 (0.00%) in 2 files (0.8%)
-   TSNamespaceExportDeclaration          1 (0.00%) in 1 files (0.4%)
-   TSTemplateLiteralType                 1 (0.00%) in 1 files (0.4%)
-   TSRestType                            1 (0.00%) in 1 files (0.4%)
-   TSEmptyBodyFunctionExpression         1 (0.00%) in 1 files (0.4%)
-   TSBigIntKeyword                       1 (0.00%) in 1 files (0.4%)
-   ClassExpression                       1 (0.00%) in 1 files (0.4%)
+   Identifier                      103,207 (35.35%) in 414 files (99.3%)
+   MemberExpression                 28,605 (9.80%) in 347 files (83.2%)
+   CallExpression                   24,849 (8.51%) in 351 files (84.2%)
+   Literal                          21,721 (7.44%) in 414 files (99.3%)
+   ExpressionStatement              15,352 (5.26%) in 342 files (82.0%)
+   Property                          9,468 (3.24%) in 280 files (67.1%)
+   BlockStatement                    8,605 (2.95%) in 344 files (82.5%)
+   TSTypeAnnotation                  5,761 (1.97%) in 258 files (61.9%)
+   VariableDeclarator                5,596 (1.92%) in 342 files (82.0%)
+   ObjectExpression                  5,541 (1.90%) in 292 files (70.0%)
+   VariableDeclaration               5,479 (1.88%) in 342 files (82.0%)
+   TSTypeReference                   4,661 (1.60%) in 225 files (54.0%)
+   ArrowFunctionExpression           4,501 (1.54%) in 253 files (60.7%)
+   Unknown                           3,680 (1.26%) in 219 files (52.5%)
+   TemplateElement                   3,318 (1.14%) in 201 files (48.2%)
+   AssignmentExpression              3,240 (1.11%) in 276 files (66.2%)
+   BinaryExpression                  2,750 (0.94%) in 239 files (57.3%)
+   TemplateLiteral                   2,426 (0.83%) in 200 files (48.0%)
+   IfStatement                       2,139 (0.73%) in 215 files (51.6%)
+   TSPropertySignature               1,998 (0.68%) in 90 files (21.6%)
+   ReturnStatement                   1,698 (0.58%) in 252 files (60.4%)
+   TSStringKeyword                   1,644 (0.56%) in 176 files (42.2%)
+   ImportSpecifier                   1,640 (0.56%) in 289 files (69.3%)
+   NewExpression                     1,581 (0.54%) in 189 files (45.3%)
+   ArrayExpression                   1,459 (0.50%) in 194 files (46.5%)
+   LogicalExpression                 1,451 (0.50%) in 186 files (44.6%)
+   TSTypeParameterInstantiation      1,326 (0.45%) in 134 files (32.1%)
+   ThisExpression                    1,152 (0.39%) in 109 files (26.1%)
+   FunctionExpression                1,147 (0.39%) in 177 files (42.4%)
+   ImportDeclaration                 1,100 (0.38%) in 357 files (85.6%)
+   TSAnyKeyword                        947 (0.32%) in 166 files (39.8%)
+   ExportNamedDeclaration              847 (0.29%) in 179 files (42.9%)
+   UnaryExpression                     845 (0.29%) in 181 files (43.4%)
+   FunctionDeclaration                 820 (0.28%) in 202 files (48.4%)
+   TSUnionType                         710 (0.24%) in 136 files (32.6%)
+   ParenthesizedExpression             676 (0.23%) in 167 files (40.0%)
+   AwaitExpression                     542 (0.19%) in 28 files (6.7%)
+   TSTypeParameter                     536 (0.18%) in 40 files (9.6%)
+   TSNumberKeyword                     420 (0.14%) in 80 files (19.2%)
+   Program                             417 (0.14%) in 417 files (100.0%)
+   TSBooleanKeyword                    414 (0.14%) in 98 files (23.5%)
+   ConditionalExpression               405 (0.14%) in 112 files (26.9%)
+   TSLiteralType                       403 (0.14%) in 45 files (10.8%)
+   TSTypeLiteral                       400 (0.14%) in 82 files (19.7%)
+   UpdateExpression                    358 (0.12%) in 115 files (27.6%)
+   TSFunctionType                      338 (0.12%) in 75 files (18.0%)
+   TSArrayType                         283 (0.10%) in 92 files (22.1%)
+   ImportDefaultSpecifier              280 (0.10%) in 210 files (50.4%)
+   TSVoidKeyword                       244 (0.08%) in 71 files (17.0%)
+   TSNonNullExpression                 243 (0.08%) in 48 files (11.5%)
+   TSTypeAliasDeclaration              237 (0.08%) in 58 files (13.9%)
+   TSAsExpression                      234 (0.08%) in 83 files (19.9%)
+   TSTypeParameterDeclaration          230 (0.08%) in 40 files (9.6%)
+   ObjectPattern                       223 (0.08%) in 74 files (17.7%)
+   PropertyDefinition                  216 (0.07%) in 19 files (4.6%)
+   TSUndefinedKeyword                  195 (0.07%) in 69 files (16.5%)
+   TSInterfaceDeclaration              179 (0.06%) in 49 files (11.8%)
+   TSInterfaceBody                     179 (0.06%) in 49 files (11.8%)
+   TSNullKeyword                       175 (0.06%) in 70 files (16.8%)
+   ExportSpecifier                     163 (0.06%) in 14 files (3.4%)
+   ForStatement                        148 (0.05%) in 63 files (15.1%)
+   JSXIdentifier                       136 (0.05%) in 2 files (0.5%)
+   TSIndexedAccessType                 128 (0.04%) in 19 files (4.6%)
+   SwitchCase                          123 (0.04%) in 8 files (1.9%)
+   TSMethodSignature                    99 (0.03%) in 12 files (2.9%)
+   TSIndexSignature                     92 (0.03%) in 31 files (7.4%)
+   JSXAttribute                         88 (0.03%) in 2 files (0.5%)
+   TSInterfaceHeritage                  85 (0.03%) in 19 files (4.6%)
+   TSConditionalType                    78 (0.03%) in 15 files (3.6%)
+   AssignmentPattern                    75 (0.03%) in 38 files (9.1%)
+   TSObjectKeyword                      74 (0.03%) in 21 files (5.0%)
+   ThrowStatement                       69 (0.02%) in 29 files (7.0%)
+   ForInStatement                       69 (0.02%) in 36 files (8.6%)
+   ExportDefaultDeclaration             68 (0.02%) in 68 files (16.3%)
+   WhileStatement                       68 (0.02%) in 41 files (9.8%)
+   TSDeclareFunction                    66 (0.02%) in 18 files (4.3%)
+   TSParenthesizedType                  66 (0.02%) in 29 files (7.0%)
+   MethodDefinition                     66 (0.02%) in 18 files (4.3%)
+   TSIntersectionType                   64 (0.02%) in 24 files (5.8%)
+   TSQualifiedName                      58 (0.02%) in 8 files (1.9%)
+   TSTypeQuery                          56 (0.02%) in 28 files (6.7%)
+   TryStatement                         52 (0.02%) in 35 files (8.4%)
+   BreakStatement                       52 (0.02%) in 21 files (5.0%)
+   JSXExpressionContainer               52 (0.02%) in 2 files (0.5%)
+   CatchClause                          50 (0.02%) in 34 files (8.2%)
+   JSXElement                           48 (0.02%) in 2 files (0.5%)
+   JSXOpeningElement                    48 (0.02%) in 2 files (0.5%)
+   SpreadElement                        46 (0.02%) in 16 files (3.8%)
+   TSNeverKeyword                       45 (0.02%) in 14 files (3.4%)
+   TSTypeOperator                       45 (0.02%) in 19 files (4.6%)
+   RestElement                          37 (0.01%) in 20 files (4.8%)
+   TSTupleType                          37 (0.01%) in 14 files (3.4%)
+   TSUnknownKeyword                     37 (0.01%) in 20 files (4.8%)
+   TSInferType                          34 (0.01%) in 8 files (1.9%)
+   ForOfStatement                       33 (0.01%) in 4 files (1.0%)
+   ExportAllDeclaration                 28 (0.01%) in 9 files (2.2%)
+   EmptyStatement                       28 (0.01%) in 24 files (5.8%)
+   TSMappedType                         26 (0.01%) in 12 files (2.9%)
+   ClassBody                            24 (0.01%) in 22 files (5.3%)
+   ClassDeclaration                     23 (0.01%) in 21 files (5.0%)
+   TSEnumMember                         22 (0.01%) in 4 files (1.0%)
+   ContinueStatement                    21 (0.01%) in 14 files (3.4%)
+   ChainExpression                      19 (0.01%) in 7 files (1.7%)
+   ArrayPattern                         18 (0.01%) in 7 files (1.7%)
+   TSSymbolKeyword                      16 (0.01%) in 11 files (2.6%)
+   SwitchStatement                      13 (0.00%) in 8 files (1.9%)
+   TSConstructSignatureDeclaration       10 (0.00%) in 5 files (1.2%)
+   SequenceExpression                   10 (0.00%) in 6 files (1.4%)
+   TSTypePredicate                      10 (0.00%) in 4 files (1.0%)
+   TSThisType                            9 (0.00%) in 2 files (0.5%)
+   TSModuleDeclaration                   9 (0.00%) in 6 files (1.4%)
+   TSModuleBlock                         9 (0.00%) in 6 files (1.4%)
+   TSCallSignatureDeclaration            9 (0.00%) in 7 files (1.7%)
+   ImportNamespaceSpecifier              7 (0.00%) in 7 files (1.7%)
+   TSEnumDeclaration                     5 (0.00%) in 4 files (1.0%)
+   TSEnumBody                            5 (0.00%) in 4 files (1.0%)
+   TSParameterProperty                   4 (0.00%) in 2 files (0.5%)
+   TSExportAssignment                    3 (0.00%) in 3 files (0.7%)
+   TSClassImplements                     2 (0.00%) in 2 files (0.5%)
+   JSXSpreadAttribute                    2 (0.00%) in 2 files (0.5%)
+   Super                                 2 (0.00%) in 2 files (0.5%)
+   TSNamespaceExportDeclaration          1 (0.00%) in 1 files (0.2%)
+   TSTemplateLiteralType                 1 (0.00%) in 1 files (0.2%)
+   TSRestType                            1 (0.00%) in 1 files (0.2%)
+   TSEmptyBodyFunctionExpression         1 (0.00%) in 1 files (0.2%)
+   Decorator                             1 (0.00%) in 1 files (0.2%)
+   ImportExpression                      1 (0.00%) in 1 files (0.2%)
+   TSBigIntKeyword                       1 (0.00%) in 1 files (0.2%)
+   ClassExpression                       1 (0.00%) in 1 files (0.2%)
+
+📁 FILE EXAMPLES BY NODE TYPE:
+
+   Identifier:
+     📄 Files WITH Identifier (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+     📄 Files WITHOUT Identifier (showing 3):
+       • compiler-sfc/index.mjs
+       • compiler-sfc/index.d.ts
+       • src/core/vdom/helpers/index.ts
+
+   MemberExpression:
+     📄 Files WITH MemberExpression (showing 10):
+       • test/vitest.setup.ts
+       • types/umd.d.ts
+       • types/jsx.d.ts
+       • scripts/verify-commit-msg.js
+       • scripts/release.js
+       • scripts/gen-release-note.js
+       • scripts/feature-flags.js
+       • scripts/config.js
+       • scripts/build.js
+       • scripts/alias.js
+     📄 Files WITHOUT MemberExpression (showing 10):
+       • vitest.config.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+
+   CallExpression:
+     📄 Files WITH CallExpression (showing 10):
+       • vitest.config.ts
+       • scripts/verify-commit-msg.js
+       • scripts/release.js
+       • scripts/gen-release-note.js
+       • scripts/config.js
+       • scripts/build.js
+       • scripts/alias.js
+       • compiler-sfc/index.js
+       • test/e2e/tree.spec.ts
+       • test/e2e/todomvc.spec.ts
+     📄 Files WITHOUT CallExpression (showing 10):
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+
+   Literal:
+     📄 Files WITH Literal (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-define-async-component.d.ts
+     📄 Files WITHOUT Literal (showing 3):
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/test/es-module.ts
+
+   ExpressionStatement:
+     📄 Files WITH ExpressionStatement (showing 10):
+       • test/vitest.setup.ts
+       • scripts/verify-commit-msg.js
+       • scripts/release.js
+       • scripts/gen-release-note.js
+       • scripts/feature-flags.js
+       • scripts/config.js
+       • scripts/build.js
+       • scripts/alias.js
+       • compiler-sfc/index.js
+       • test/e2e/tree.spec.ts
+     📄 Files WITHOUT ExpressionStatement (showing 10):
+       • vitest.config.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+
+   Property:
+     📄 Files WITH Property (showing 10):
+       • vitest.config.ts
+       • scripts/release.js
+       • scripts/gen-release-note.js
+       • scripts/feature-flags.js
+       • scripts/config.js
+       • scripts/build.js
+       • scripts/alias.js
+       • test/e2e/tree.spec.ts
+       • test/e2e/todomvc.spec.ts
+       • test/e2e/svg.spec.ts
+     📄 Files WITHOUT Property (showing 10):
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+
+   BlockStatement:
+     📄 Files WITH BlockStatement (showing 10):
+       • scripts/verify-commit-msg.js
+       • scripts/release.js
+       • scripts/gen-release-note.js
+       • scripts/config.js
+       • scripts/build.js
+       • test/e2e/tree.spec.ts
+       • test/e2e/todomvc.spec.ts
+       • test/e2e/svg.spec.ts
+       • test/e2e/markdown.spec.ts
+       • test/e2e/grid.spec.ts
+     📄 Files WITHOUT BlockStatement (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TSTypeAnnotation:
+     📄 Files WITH TSTypeAnnotation (showing 10):
+       • vitest.config.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+     📄 Files WITHOUT TSTypeAnnotation (showing 10):
+       • test/vitest.setup.ts
+       • types/umd.d.ts
+       • types/index.d.ts
+       • scripts/verify-commit-msg.js
+       • scripts/release.js
+       • scripts/gen-release-note.js
+       • scripts/feature-flags.js
+       • scripts/config.js
+       • scripts/build.js
+       • scripts/alias.js
+
+   VariableDeclarator:
+     📄 Files WITH VariableDeclarator (showing 10):
+       • vitest.config.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/built-in-components.d.ts
+       • scripts/verify-commit-msg.js
+       • scripts/release.js
+       • scripts/gen-release-note.js
+     📄 Files WITHOUT VariableDeclarator (showing 10):
+       • test/vitest.setup.ts
+       • types/vnode.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-define-async-component.d.ts
+       • types/v3-component-public-instance.d.ts
+       • types/v3-component-props.d.ts
+       • types/v3-component-options.d.ts
+       • types/umd.d.ts
+
+   ObjectExpression:
+     📄 Files WITH ObjectExpression (showing 10):
+       • vitest.config.ts
+       • scripts/release.js
+       • scripts/gen-release-note.js
+       • scripts/feature-flags.js
+       • scripts/config.js
+       • scripts/build.js
+       • scripts/alias.js
+       • test/e2e/tree.spec.ts
+       • test/e2e/todomvc.spec.ts
+       • test/e2e/grid.spec.ts
+     📄 Files WITHOUT ObjectExpression (showing 10):
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+
+   VariableDeclaration:
+     📄 Files WITH VariableDeclaration (showing 10):
+       • vitest.config.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/built-in-components.d.ts
+       • scripts/verify-commit-msg.js
+       • scripts/release.js
+       • scripts/gen-release-note.js
+     📄 Files WITHOUT VariableDeclaration (showing 10):
+       • test/vitest.setup.ts
+       • types/vnode.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-define-async-component.d.ts
+       • types/v3-component-public-instance.d.ts
+       • types/v3-component-props.d.ts
+       • types/v3-component-options.d.ts
+       • types/umd.d.ts
+
+   TSTypeReference:
+     📄 Files WITH TSTypeReference (showing 10):
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-define-async-component.d.ts
+     📄 Files WITHOUT TSTypeReference (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • types/index.d.ts
+       • scripts/verify-commit-msg.js
+       • scripts/release.js
+       • scripts/gen-release-note.js
+       • scripts/feature-flags.js
+       • scripts/config.js
+       • scripts/build.js
+       • scripts/alias.js
+
+   ArrowFunctionExpression:
+     📄 Files WITH ArrowFunctionExpression (showing 10):
+       • vitest.config.ts
+       • scripts/release.js
+       • scripts/gen-release-note.js
+       • scripts/config.js
+       • scripts/build.js
+       • scripts/alias.js
+       • test/e2e/tree.spec.ts
+       • test/e2e/todomvc.spec.ts
+       • test/e2e/svg.spec.ts
+       • test/e2e/markdown.spec.ts
+     📄 Files WITHOUT ArrowFunctionExpression (showing 10):
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+
+   Unknown:
+     📄 Files WITH Unknown (showing 10):
+       • types/jsx.d.ts
+       • scripts/verify-commit-msg.js
+       • scripts/release.js
+       • scripts/gen-release-note.js
+       • scripts/config.js
+       • scripts/build.js
+       • test/e2e/todomvc.spec.ts
+       • test/e2e/svg.spec.ts
+       • test/e2e/grid.spec.ts
+       • test/e2e/e2eUtils.ts
+     📄 Files WITHOUT Unknown (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TemplateElement:
+     📄 Files WITH TemplateElement (showing 10):
+       • types/jsx.d.ts
+       • scripts/verify-commit-msg.js
+       • scripts/release.js
+       • scripts/gen-release-note.js
+       • scripts/config.js
+       • test/e2e/todomvc.spec.ts
+       • test/e2e/svg.spec.ts
+       • test/e2e/grid.spec.ts
+       • test/e2e/e2eUtils.ts
+       • test/e2e/basic-ssr.spec.ts
+     📄 Files WITHOUT TemplateElement (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   AssignmentExpression:
+     📄 Files WITH AssignmentExpression (showing 10):
+       • test/vitest.setup.ts
+       • scripts/release.js
+       • scripts/gen-release-note.js
+       • scripts/feature-flags.js
+       • scripts/config.js
+       • scripts/build.js
+       • scripts/alias.js
+       • compiler-sfc/index.js
+       • test/e2e/e2eUtils.ts
+       • test/transition/transition.spec.ts
+     📄 Files WITHOUT AssignmentExpression (showing 10):
+       • vitest.config.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+
+   BinaryExpression:
+     📄 Files WITH BinaryExpression (showing 10):
+       • scripts/verify-commit-msg.js
+       • scripts/release.js
+       • scripts/config.js
+       • scripts/build.js
+       • test/e2e/todomvc.spec.ts
+       • test/e2e/svg.spec.ts
+       • test/e2e/markdown.spec.ts
+       • test/e2e/grid.spec.ts
+       • test/e2e/e2eUtils.ts
+       • test/transition/transition.spec.ts
+     📄 Files WITHOUT BinaryExpression (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TemplateLiteral:
+     📄 Files WITH TemplateLiteral (showing 10):
+       • scripts/verify-commit-msg.js
+       • scripts/release.js
+       • scripts/gen-release-note.js
+       • scripts/config.js
+       • test/e2e/todomvc.spec.ts
+       • test/e2e/svg.spec.ts
+       • test/e2e/grid.spec.ts
+       • test/e2e/e2eUtils.ts
+       • test/e2e/basic-ssr.spec.ts
+       • test/e2e/async-edge-cases.spec.ts
+     📄 Files WITHOUT TemplateLiteral (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   IfStatement:
+     📄 Files WITH IfStatement (showing 10):
+       • scripts/verify-commit-msg.js
+       • scripts/release.js
+       • scripts/config.js
+       • scripts/build.js
+       • test/e2e/e2eUtils.ts
+       • test/e2e/commits.spec.ts
+       • test/transition/transition-group.spec.ts
+       • test/transition/helpers.ts
+       • test/helpers/wait-for-update.ts
+       • test/helpers/trigger-event.ts
+     📄 Files WITHOUT IfStatement (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TSPropertySignature:
+     📄 Files WITH TSPropertySignature (showing 10):
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-define-async-component.d.ts
+       • types/v3-component-public-instance.d.ts
+     📄 Files WITHOUT TSPropertySignature (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • types/v3-setup-helpers.d.ts
+       • types/umd.d.ts
+       • types/index.d.ts
+       • types/common.d.ts
+       • scripts/verify-commit-msg.js
+       • scripts/release.js
+       • scripts/gen-release-note.js
+       • scripts/feature-flags.js
+
+   ReturnStatement:
+     📄 Files WITH ReturnStatement (showing 10):
+       • scripts/release.js
+       • scripts/gen-release-note.js
+       • scripts/config.js
+       • scripts/build.js
+       • test/e2e/svg.spec.ts
+       • test/e2e/e2eUtils.ts
+       • test/transition/transition.spec.ts
+       • test/transition/transition-group.spec.ts
+       • test/transition/helpers.ts
+       • test/helpers/wait-for-update.ts
+     📄 Files WITHOUT ReturnStatement (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TSStringKeyword:
+     📄 Files WITH TSStringKeyword (showing 10):
+       • vitest.config.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-component-public-instance.d.ts
+     📄 Files WITHOUT TSStringKeyword (showing 10):
+       • test/vitest.setup.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-define-async-component.d.ts
+       • types/umd.d.ts
+       • types/index.d.ts
+       • scripts/verify-commit-msg.js
+       • scripts/release.js
+       • scripts/gen-release-note.js
+       • scripts/feature-flags.js
+       • scripts/config.js
+
+   ImportSpecifier:
+     📄 Files WITH ImportSpecifier (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-define-async-component.d.ts
+     📄 Files WITHOUT ImportSpecifier (showing 10):
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/common.d.ts
+       • scripts/verify-commit-msg.js
+       • scripts/release.js
+       • scripts/gen-release-note.js
+       • scripts/feature-flags.js
+       • scripts/config.js
+       • scripts/build.js
+       • scripts/alias.js
+
+   NewExpression:
+     📄 Files WITH NewExpression (showing 10):
+       • scripts/release.js
+       • scripts/config.js
+       • scripts/build.js
+       • test/e2e/e2eUtils.ts
+       • test/transition/transition.spec.ts
+       • test/transition/transition-with-keep-alive.spec.ts
+       • test/transition/transition-mode.spec.ts
+       • test/transition/transition-group.spec.ts
+       • test/helpers/wait-for-update.ts
+       • test/helpers/vdom.ts
+     📄 Files WITHOUT NewExpression (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   ArrayExpression:
+     📄 Files WITH ArrayExpression (showing 10):
+       • scripts/release.js
+       • scripts/config.js
+       • scripts/build.js
+       • test/e2e/svg.spec.ts
+       • test/e2e/grid.spec.ts
+       • test/e2e/e2eUtils.ts
+       • test/e2e/commits.mock.ts
+       • test/transition/transition.spec.ts
+       • test/transition/transition-with-keep-alive.spec.ts
+       • test/transition/transition-group.spec.ts
+     📄 Files WITHOUT ArrayExpression (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   LogicalExpression:
+     📄 Files WITH LogicalExpression (showing 10):
+       • scripts/release.js
+       • scripts/gen-release-note.js
+       • scripts/config.js
+       • scripts/build.js
+       • test/e2e/e2eUtils.ts
+       • test/transition/transition.spec.ts
+       • test/helpers/wait-for-update.ts
+       • test/helpers/shim-done.ts
+       • test/helpers/classlist.ts
+       • src/v3/h.ts
+     📄 Files WITHOUT LogicalExpression (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TSTypeParameterInstantiation:
+     📄 Files WITH TSTypeParameterInstantiation (showing 10):
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-define-async-component.d.ts
+       • types/v3-component-public-instance.d.ts
+       • types/v3-component-props.d.ts
+       • types/v3-component-options.d.ts
+     📄 Files WITHOUT TSTypeParameterInstantiation (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/index.d.ts
+       • scripts/verify-commit-msg.js
+       • scripts/release.js
+       • scripts/gen-release-note.js
+       • scripts/feature-flags.js
+
+   ThisExpression:
+     📄 Files WITH ThisExpression (showing 10):
+       • test/transition/transition.spec.ts
+       • test/transition/transition-with-keep-alive.spec.ts
+       • src/shared/util.ts
+       • src/core/index.ts
+       • types/test/vue-test.ts
+       • types/test/options-test.ts
+       • types/test/augmentation-test.ts
+       • benchmarks/dbmon/ENV.js
+       • test/unit/features/error-handling.spec.ts
+       • src/v3/reactivity/effectScope.ts
+     📄 Files WITHOUT ThisExpression (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   FunctionExpression:
+     📄 Files WITH FunctionExpression (showing 10):
+       • scripts/gen-release-note.js
+       • test/transition/transition.spec.ts
+       • test/transition/transition-with-keep-alive.spec.ts
+       • test/transition/transition-mode.spec.ts
+       • test/transition/transition-group.spec.ts
+       • test/transition/karma.conf.js
+       • test/helpers/to-have-warned.ts
+       • test/helpers/classlist.ts
+       • src/v3/apiSetup.ts
+       • src/shared/util.ts
+     📄 Files WITHOUT FunctionExpression (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   ImportDeclaration:
+     📄 Files WITH ImportDeclaration (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-define-async-component.d.ts
+     📄 Files WITHOUT ImportDeclaration (showing 10):
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/common.d.ts
+       • scripts/verify-commit-msg.js
+       • scripts/release.js
+       • scripts/gen-release-note.js
+       • scripts/feature-flags.js
+       • scripts/config.js
+       • scripts/build.js
+       • scripts/alias.js
+
+   TSAnyKeyword:
+     📄 Files WITH TSAnyKeyword (showing 10):
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-define-async-component.d.ts
+       • types/v3-component-public-instance.d.ts
+     📄 Files WITHOUT TSAnyKeyword (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • types/v3-manual-apis.d.ts
+       • types/index.d.ts
+       • types/built-in-components.d.ts
+       • scripts/verify-commit-msg.js
+       • scripts/release.js
+       • scripts/gen-release-note.js
+       • scripts/feature-flags.js
+       • scripts/config.js
+
+   ExportNamedDeclaration:
+     📄 Files WITH ExportNamedDeclaration (showing 10):
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-define-async-component.d.ts
+       • types/v3-component-public-instance.d.ts
+       • types/v3-component-props.d.ts
+     📄 Files WITHOUT ExportNamedDeclaration (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • scripts/verify-commit-msg.js
+       • scripts/release.js
+       • scripts/gen-release-note.js
+       • scripts/feature-flags.js
+       • scripts/config.js
+       • scripts/build.js
+
+   UnaryExpression:
+     📄 Files WITH UnaryExpression (showing 10):
+       • scripts/verify-commit-msg.js
+       • scripts/release.js
+       • scripts/config.js
+       • scripts/build.js
+       • test/e2e/svg.spec.ts
+       • test/e2e/e2eUtils.ts
+       • test/e2e/commits.spec.ts
+       • test/transition/transition-group.spec.ts
+       • test/transition/karma.conf.js
+       • test/transition/helpers.ts
+     📄 Files WITHOUT UnaryExpression (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   FunctionDeclaration:
+     📄 Files WITH FunctionDeclaration (showing 10):
+       • scripts/release.js
+       • scripts/config.js
+       • scripts/build.js
+       • test/e2e/tree.spec.ts
+       • test/e2e/todomvc.spec.ts
+       • test/e2e/svg.spec.ts
+       • test/e2e/markdown.spec.ts
+       • test/e2e/grid.spec.ts
+       • test/e2e/e2eUtils.ts
+       • test/e2e/commits.spec.ts
+     📄 Files WITHOUT FunctionDeclaration (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TSUnionType:
+     📄 Files WITH TSUnionType (showing 10):
+       • test/test-env.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-async-component.d.ts
+       • types/v3-component-public-instance.d.ts
+       • types/v3-component-props.d.ts
+     📄 Files WITHOUT TSUnionType (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • src/global.d.ts
+       • types/v3-define-component.d.ts
+       • types/umd.d.ts
+       • types/plugin.d.ts
+       • types/index.d.ts
+       • types/common.d.ts
+       • scripts/verify-commit-msg.js
+       • scripts/release.js
+
+   ParenthesizedExpression:
+     📄 Files WITH ParenthesizedExpression (showing 10):
+       • scripts/release.js
+       • scripts/config.js
+       • scripts/build.js
+       • test/e2e/todomvc.spec.ts
+       • test/e2e/svg.spec.ts
+       • test/e2e/e2eUtils.ts
+       • test/transition/transition.spec.ts
+       • test/transition/transition-mode.spec.ts
+       • test/helpers/wait-for-update.ts
+       • test/helpers/trigger-event.ts
+     📄 Files WITHOUT ParenthesizedExpression (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   AwaitExpression:
+     📄 Files WITH AwaitExpression (showing 10):
+       • scripts/release.js
+       • scripts/build.js
+       • test/e2e/tree.spec.ts
+       • test/e2e/todomvc.spec.ts
+       • test/e2e/svg.spec.ts
+       • test/e2e/markdown.spec.ts
+       • test/e2e/grid.spec.ts
+       • test/e2e/e2eUtils.ts
+       • test/e2e/commits.spec.ts
+       • test/e2e/basic-ssr.spec.ts
+     📄 Files WITHOUT AwaitExpression (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TSTypeParameter:
+     📄 Files WITH TSTypeParameter (showing 10):
+       • test/test-env.d.ts
+       • types/vue.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-define-async-component.d.ts
+       • types/v3-component-public-instance.d.ts
+       • types/v3-component-props.d.ts
+       • types/v3-component-options.d.ts
+     📄 Files WITHOUT TSTypeParameter (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • src/global.d.ts
+       • types/vnode.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/index.d.ts
+       • scripts/verify-commit-msg.js
+       • scripts/release.js
+       • scripts/gen-release-note.js
+       • scripts/feature-flags.js
+
+   TSNumberKeyword:
+     📄 Files WITH TSNumberKeyword (showing 10):
+       • test/test-env.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-define-async-component.d.ts
+       • types/options.d.ts
+       • types/jsx.d.ts
+       • types/built-in-components.d.ts
+       • test/e2e/todomvc.spec.ts
+       • test/e2e/svg.spec.ts
+     📄 Files WITHOUT TSNumberKeyword (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • src/global.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-component-public-instance.d.ts
+       • types/v3-component-props.d.ts
+       • types/v3-component-options.d.ts
+
+   Program:
+     📄 Files WITH Program (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+     📄 Files WITHOUT Program: (all files contain this node type)
+
+   TSBooleanKeyword:
+     📄 Files WITH TSBooleanKeyword (showing 10):
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-component-public-instance.d.ts
+       • types/v3-component-props.d.ts
+       • types/options.d.ts
+       • types/jsx.d.ts
+       • types/built-in-components.d.ts
+     📄 Files WITHOUT TSBooleanKeyword (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-define-async-component.d.ts
+       • types/v3-component-options.d.ts
+       • types/umd.d.ts
+       • types/plugin.d.ts
+
+   ConditionalExpression:
+     📄 Files WITH ConditionalExpression (showing 10):
+       • scripts/release.js
+       • scripts/gen-release-note.js
+       • scripts/config.js
+       • scripts/build.js
+       • test/e2e/e2eUtils.ts
+       • test/transition/transition.spec.ts
+       • test/transition/transition-group.spec.ts
+       • test/transition/helpers.ts
+       • test/helpers/wait-for-update.ts
+       • test/helpers/to-have-warned.ts
+     📄 Files WITHOUT ConditionalExpression (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TSLiteralType:
+     📄 Files WITH TSLiteralType (showing 10):
+       • types/vue.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-component-public-instance.d.ts
+       • types/v3-component-props.d.ts
+       • types/v3-component-options.d.ts
+       • types/jsx.d.ts
+       • types/common.d.ts
+       • types/built-in-components.d.ts
+       • test/e2e/tree.spec.ts
+     📄 Files WITHOUT TSLiteralType (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-async-component.d.ts
+       • types/umd.d.ts
+
+   TSTypeLiteral:
+     📄 Files WITH TSTypeLiteral (showing 10):
+       • test/test-env.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-define-async-component.d.ts
+       • types/v3-component-public-instance.d.ts
+       • types/v3-component-props.d.ts
+       • types/v3-component-options.d.ts
+     📄 Files WITHOUT TSTypeLiteral (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • src/global.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-directive.d.ts
+       • types/umd.d.ts
+       • types/plugin.d.ts
+       • types/index.d.ts
+       • scripts/verify-commit-msg.js
+       • scripts/release.js
+
+   UpdateExpression:
+     📄 Files WITH UpdateExpression (showing 10):
+       • scripts/build.js
+       • test/e2e/svg.spec.ts
+       • test/e2e/grid.spec.ts
+       • test/e2e/e2eUtils.ts
+       • test/transition/transition-with-keep-alive.spec.ts
+       • test/transition/helpers.ts
+       • test/helpers/to-have-warned.ts
+       • src/v3/apiAsyncComponent.ts
+       • src/shared/util.ts
+       • src/compiler/optimizer.ts
+     📄 Files WITHOUT UpdateExpression (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TSFunctionType:
+     📄 Files WITH TSFunctionType (showing 10):
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-define-async-component.d.ts
+       • types/v3-component-public-instance.d.ts
+     📄 Files WITHOUT TSFunctionType (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • types/v3-manual-apis.d.ts
+       • types/umd.d.ts
+       • types/index.d.ts
+       • scripts/verify-commit-msg.js
+       • scripts/release.js
+       • scripts/gen-release-note.js
+       • scripts/feature-flags.js
+       • scripts/config.js
+
+   TSArrayType:
+     📄 Files WITH TSArrayType (showing 10):
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-component-public-instance.d.ts
+       • types/v3-component-props.d.ts
+       • types/v3-component-options.d.ts
+     📄 Files WITHOUT TSArrayType (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-async-component.d.ts
+       • types/umd.d.ts
+       • types/plugin.d.ts
+       • types/index.d.ts
+       • types/common.d.ts
+       • scripts/verify-commit-msg.js
+
+   ImportDefaultSpecifier:
+     📄 Files WITH ImportDefaultSpecifier (showing 10):
+       • test/e2e/e2eUtils.ts
+       • test/e2e/commits.spec.ts
+       • test/e2e/basic-ssr.spec.ts
+       • test/e2e/async-edge-cases.spec.ts
+       • test/transition/transition.spec.ts
+       • test/transition/transition-with-keep-alive.spec.ts
+       • test/transition/transition-mode.spec.ts
+       • test/transition/transition-group.spec.ts
+       • test/helpers/wait-for-update.ts
+       • test/helpers/vdom.ts
+     📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TSVoidKeyword:
+     📄 Files WITH TSVoidKeyword (showing 10):
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-async-component.d.ts
+       • types/v3-component-public-instance.d.ts
+       • types/v3-component-options.d.ts
+     📄 Files WITHOUT TSVoidKeyword (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-component-props.d.ts
+       • types/umd.d.ts
+       • types/index.d.ts
+       • scripts/verify-commit-msg.js
+       • scripts/release.js
+       • scripts/gen-release-note.js
+
+   TSNonNullExpression:
+     📄 Files WITH TSNonNullExpression (showing 10):
+       • test/e2e/todomvc.spec.ts
+       • test/e2e/svg.spec.ts
+       • test/e2e/e2eUtils.ts
+       • test/helpers/wait-for-update.ts
+       • src/v3/h.ts
+       • src/v3/apiSetup.ts
+       • src/compiler/create-compiler.ts
+       • types/test/options-test.ts
+       • src/v3/sfc-helpers/useCssVars.ts
+       • src/v3/reactivity/effectScope.ts
+     📄 Files WITHOUT TSNonNullExpression (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TSTypeAliasDeclaration:
+     📄 Files WITH TSTypeAliasDeclaration (showing 10):
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-define-async-component.d.ts
+       • types/v3-component-public-instance.d.ts
+       • types/v3-component-props.d.ts
+       • types/v3-component-options.d.ts
+     📄 Files WITHOUT TSTypeAliasDeclaration (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/index.d.ts
+       • scripts/verify-commit-msg.js
+       • scripts/release.js
+       • scripts/gen-release-note.js
+       • scripts/feature-flags.js
+
+   TSAsExpression:
+     📄 Files WITH TSAsExpression (showing 10):
+       • test/e2e/grid.spec.ts
+       • test/e2e/e2eUtils.ts
+       • test/e2e/commits.spec.ts
+       • test/transition/transition.spec.ts
+       • test/helpers/trigger-event.ts
+       • test/helpers/shim-done.ts
+       • src/v3/apiWatch.ts
+       • src/v3/apiSetup.ts
+       • src/v3/apiInject.ts
+       • src/v3/apiAsyncComponent.ts
+     📄 Files WITHOUT TSAsExpression (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TSTypeParameterDeclaration:
+     📄 Files WITH TSTypeParameterDeclaration (showing 10):
+       • test/test-env.d.ts
+       • types/vue.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-define-async-component.d.ts
+       • types/v3-component-public-instance.d.ts
+       • types/v3-component-props.d.ts
+       • types/v3-component-options.d.ts
+     📄 Files WITHOUT TSTypeParameterDeclaration (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • src/global.d.ts
+       • types/vnode.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/index.d.ts
+       • scripts/verify-commit-msg.js
+       • scripts/release.js
+       • scripts/gen-release-note.js
+       • scripts/feature-flags.js
+
+   ObjectPattern:
+     📄 Files WITH ObjectPattern (showing 10):
+       • scripts/release.js
+       • scripts/build.js
+       • test/e2e/tree.spec.ts
+       • test/e2e/todomvc.spec.ts
+       • test/e2e/svg.spec.ts
+       • test/e2e/markdown.spec.ts
+       • test/e2e/grid.spec.ts
+       • test/e2e/commits.spec.ts
+       • test/e2e/basic-ssr.spec.ts
+       • test/e2e/async-edge-cases.spec.ts
+     📄 Files WITHOUT ObjectPattern (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   PropertyDefinition:
+     📄 Files WITH PropertyDefinition (showing 10):
+       • src/types/component.ts
+       • types/test/vue-test.ts
+       • types/test/plugin-test.ts
+       • types/test/options-test.ts
+       • src/v3/reactivity/effectScope.ts
+       • src/core/vdom/vnode.ts
+       • src/core/util/env.ts
+       • src/core/observer/watcher.ts
+       • src/core/observer/index.ts
+       • src/core/observer/dep.ts
+     📄 Files WITHOUT PropertyDefinition (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TSUndefinedKeyword:
+     📄 Files WITH TSUndefinedKeyword (showing 10):
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-component-props.d.ts
+       • types/v3-component-options.d.ts
+       • types/options.d.ts
+       • types/jsx.d.ts
+       • src/v3/apiWatch.ts
+       • src/v3/apiInject.ts
+     📄 Files WITHOUT TSUndefinedKeyword (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-define-async-component.d.ts
+       • types/v3-component-public-instance.d.ts
+       • types/umd.d.ts
+
+   TSInterfaceDeclaration:
+     📄 Files WITH TSInterfaceDeclaration (showing 10):
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-async-component.d.ts
+       • types/v3-component-public-instance.d.ts
+       • types/v3-component-props.d.ts
+       • types/v3-component-options.d.ts
+     📄 Files WITHOUT TSInterfaceDeclaration (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-define-component.d.ts
+       • types/umd.d.ts
+       • types/index.d.ts
+       • types/common.d.ts
+       • scripts/verify-commit-msg.js
+       • scripts/release.js
+
+   TSInterfaceBody:
+     📄 Files WITH TSInterfaceBody (showing 10):
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-async-component.d.ts
+       • types/v3-component-public-instance.d.ts
+       • types/v3-component-props.d.ts
+       • types/v3-component-options.d.ts
+     📄 Files WITHOUT TSInterfaceBody (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-define-component.d.ts
+       • types/umd.d.ts
+       • types/index.d.ts
+       • types/common.d.ts
+       • scripts/verify-commit-msg.js
+       • scripts/release.js
+
+   TSNullKeyword:
+     📄 Files WITH TSNullKeyword (showing 10):
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-component-public-instance.d.ts
+       • types/v3-component-props.d.ts
+       • types/v3-component-options.d.ts
+       • types/options.d.ts
+     📄 Files WITHOUT TSNullKeyword (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-define-async-component.d.ts
+       • types/umd.d.ts
+       • types/plugin.d.ts
+       • types/jsx.d.ts
+       • types/index.d.ts
+
+   ExportSpecifier:
+     📄 Files WITH ExportSpecifier (showing 10):
+       • types/v3-component-options.d.ts
+       • types/index.d.ts
+       • test/transition/helpers.ts
+       • test/helpers/wait-for-update.ts
+       • src/v3/index.ts
+       • src/platforms/web/entry-compiler.ts
+       • src/core/util/index.ts
+       • src/core/util/env.ts
+       • src/core/instance/proxy.ts
+       • packages/compiler-sfc/src/index.ts
+     📄 Files WITHOUT ExportSpecifier (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   ForStatement:
+     📄 Files WITH ForStatement (showing 10):
+       • test/e2e/svg.spec.ts
+       • test/e2e/grid.spec.ts
+       • test/e2e/e2eUtils.ts
+       • src/shared/util.ts
+       • src/compiler/optimizer.ts
+       • src/compiler/helpers.ts
+       • src/compiler/error-detector.ts
+       • src/compiler/codeframe.ts
+       • benchmarks/ssr/common.js
+       • benchmarks/dbmon/ENV.js
+     📄 Files WITHOUT ForStatement (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   JSXIdentifier:
+     📄 Files WITH JSXIdentifier (showing 2):
+       • types/test/v3/tsx-test.tsx
+       • types/test/v3/define-component-test.tsx
+     📄 Files WITHOUT JSXIdentifier (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TSIndexedAccessType:
+     📄 Files WITH TSIndexedAccessType (showing 10):
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-component-public-instance.d.ts
+       • types/v3-component-props.d.ts
+       • types/v3-component-options.d.ts
+       • types/options.d.ts
+       • types/jsx.d.ts
+       • types/common.d.ts
+       • src/v3/apiWatch.ts
+     📄 Files WITHOUT TSIndexedAccessType (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-define-async-component.d.ts
+       • types/umd.d.ts
+
+   SwitchCase:
+     📄 Files WITH SwitchCase (showing 8):
+       • src/core/observer/array.ts
+       • src/compiler/parser/filter-parser.ts
+       • types/test/v3/reactivity-test.ts
+       • packages/compiler-sfc/src/cssVars.ts
+       • packages/compiler-sfc/src/compileScript.ts
+       • packages/compiler-sfc/src/babelUtils.ts
+       • packages/server-renderer/src/render-context.ts
+       • packages/server-renderer/src/optimizing-compiler/codegen.ts
+     📄 Files WITHOUT SwitchCase (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TSMethodSignature:
+     📄 Files WITH TSMethodSignature (showing 10):
+       • test/test-env.d.ts
+       • types/vue.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-component-props.d.ts
+       • types/options.d.ts
+       • src/types/options.ts
+       • src/types/modules.d.ts
+       • types/test/augmentation-test.ts
+       • src/core/util/env.ts
+       • src/core/observer/dep.ts
+     📄 Files WITHOUT TSMethodSignature (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • src/global.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-define-async-component.d.ts
+       • types/v3-component-public-instance.d.ts
+
+   TSIndexSignature:
+     📄 Files WITH TSIndexSignature (showing 10):
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-component-options.d.ts
+       • types/plugin.d.ts
+       • types/options.d.ts
+       • types/jsx.d.ts
+       • types/common.d.ts
+       • src/types/vnode.ts
+       • src/types/options.ts
+       • src/types/global-api.ts
+     📄 Files WITHOUT TSIndexSignature (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-define-async-component.d.ts
+
+   JSXAttribute:
+     📄 Files WITH JSXAttribute (showing 2):
+       • types/test/v3/tsx-test.tsx
+       • types/test/v3/define-component-test.tsx
+     📄 Files WITHOUT JSXAttribute (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TSInterfaceHeritage:
+     📄 Files WITH TSInterfaceHeritage (showing 10):
+       • types/vnode.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-component-public-instance.d.ts
+       • types/v3-component-options.d.ts
+       • types/options.d.ts
+       • types/jsx.d.ts
+       • test/helpers/wait-for-update.ts
+       • src/v3/apiWatch.ts
+       • src/v3/apiInject.ts
+       • types/test/options-test.ts
+     📄 Files WITHOUT TSInterfaceHeritage (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-define-async-component.d.ts
+
+   TSConditionalType:
+     📄 Files WITH TSConditionalType (showing 10):
+       • types/vue.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-component-public-instance.d.ts
+       • types/v3-component-props.d.ts
+       • types/v3-component-options.d.ts
+       • types/jsx.d.ts
+       • types/common.d.ts
+       • src/v3/apiWatch.ts
+     📄 Files WITHOUT TSConditionalType (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vnode.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-async-component.d.ts
+       • types/umd.d.ts
+       • types/plugin.d.ts
+
+   AssignmentPattern:
+     📄 Files WITH AssignmentPattern (showing 10):
+       • scripts/release.js
+       • test/transition/transition-group.spec.ts
+       • src/v3/currentInstance.ts
+       • src/v3/apiWatch.ts
+       • src/v3/apiLifecycle.ts
+       • src/v3/apiInject.ts
+       • src/v3/apiAsyncComponent.ts
+       • src/compiler/codeframe.ts
+       • src/v3/sfc-helpers/useCssModule.ts
+       • src/v3/reactivity/effectScope.ts
+     📄 Files WITHOUT AssignmentPattern (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TSObjectKeyword:
+     📄 Files WITH TSObjectKeyword (showing 10):
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-component-props.d.ts
+       • types/options.d.ts
+       • src/v3/debug.ts
+       • src/v3/apiWatch.ts
+       • src/types/options.ts
+       • src/types/global-api.ts
+       • src/shared/util.ts
+       • types/test/options-test.ts
+     📄 Files WITHOUT TSObjectKeyword (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-define-async-component.d.ts
+
+   ThrowStatement:
+     📄 Files WITH ThrowStatement (showing 10):
+       • scripts/release.js
+       • test/helpers/wait-for-update.ts
+       • test/helpers/to-have-warned.ts
+       • src/v3/apiAsyncComponent.ts
+       • packages/template-compiler/index.js
+       • packages/server-renderer/index.js
+       • benchmarks/ssr/renderToString.js
+       • test/unit/features/error-handling.spec.ts
+       • src/core/util/error.ts
+       • src/core/observer/watcher.ts
+     📄 Files WITHOUT ThrowStatement (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   ForInStatement:
+     📄 Files WITH ForInStatement (showing 10):
+       • test/transition/karma.conf.js
+       • src/v3/apiSetup.ts
+       • src/shared/util.ts
+       • src/compiler/error-detector.ts
+       • src/compiler/create-compiler.ts
+       • types/test/vue-test.ts
+       • benchmarks/dbmon/ENV.js
+       • src/v3/sfc-helpers/useCssVars.ts
+       • src/v3/reactivity/ref.ts
+       • src/core/vdom/patch.ts
+     📄 Files WITHOUT ForInStatement (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   ExportDefaultDeclaration:
+     📄 Files WITH ExportDefaultDeclaration (showing 10):
+       • vitest.config.ts
+       • types/index.d.ts
+       • test/e2e/commits.mock.ts
+       • test/helpers/test-object-option.ts
+       • src/types/modules.d.ts
+       • src/core/index.ts
+       • src/core/config.ts
+       • types/test/es-module.ts
+       • src/platforms/web/runtime-with-compiler.ts
+       • src/platforms/web/entry-runtime.ts
+     📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+
+   WhileStatement:
+     📄 Files WITH WhileStatement (showing 10):
+       • test/transition/helpers.ts
+       • src/shared/util.ts
+       • src/compiler/optimizer.ts
+       • src/compiler/codeframe.ts
+       • src/core/vdom/patch.ts
+       • src/core/util/options.ts
+       • src/core/util/error.ts
+       • src/core/util/debug.ts
+       • src/core/observer/watcher.ts
+       • src/core/observer/traverse.ts
+     📄 Files WITHOUT WhileStatement (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TSDeclareFunction:
+     📄 Files WITH TSDeclareFunction (showing 10):
+       • test/test-env.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-define-async-component.d.ts
+       • test/e2e/svg.spec.ts
+       • src/v3/apiWatch.ts
+       • src/v3/apiInject.ts
+       • src/types/modules.d.ts
+       • types/test/vue-test.ts
+     📄 Files WITHOUT TSDeclareFunction (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-component-public-instance.d.ts
+       • types/v3-component-props.d.ts
+       • types/v3-component-options.d.ts
+
+   TSParenthesizedType:
+     📄 Files WITH TSParenthesizedType (showing 10):
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-component-props.d.ts
+       • types/v3-component-options.d.ts
+       • types/options.d.ts
+       • types/common.d.ts
+       • types/built-in-components.d.ts
+       • src/v3/apiWatch.ts
+     📄 Files WITHOUT TSParenthesizedType (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-define-async-component.d.ts
+       • types/v3-component-public-instance.d.ts
+       • types/umd.d.ts
+
+   MethodDefinition:
+     📄 Files WITH MethodDefinition (showing 10):
+       • src/types/component.ts
+       • types/test/vue-test.ts
+       • src/v3/reactivity/effectScope.ts
+       • src/core/vdom/vnode.ts
+       • src/core/util/env.ts
+       • src/core/observer/watcher.ts
+       • src/core/observer/index.ts
+       • src/core/observer/dep.ts
+       • src/compiler/codegen/index.ts
+       • packages/server-renderer/src/render-stream.ts
+     📄 Files WITHOUT MethodDefinition (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TSIntersectionType:
+     📄 Files WITH TSIntersectionType (showing 10):
+       • types/vue.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-component-public-instance.d.ts
+       • types/v3-component-props.d.ts
+       • types/v3-component-options.d.ts
+       • types/options.d.ts
+       • types/jsx.d.ts
+       • types/common.d.ts
+       • types/built-in-components.d.ts
+     📄 Files WITHOUT TSIntersectionType (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-async-component.d.ts
+       • types/umd.d.ts
+
+   TSQualifiedName:
+     📄 Files WITH TSQualifiedName (showing 8):
+       • types/vue.d.ts
+       • types/umd.d.ts
+       • test/e2e/e2eUtils.ts
+       • types/test/umd-test.ts
+       • types/test/v3/tsx-test.tsx
+       • types/test/v3/define-component-test.tsx
+       • packages/server-renderer/test/compile-with-webpack.ts
+       • packages/compiler-sfc/src/stylePlugins/scoped.ts
+     📄 Files WITHOUT TSQualifiedName (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+
+   TSTypeQuery:
+     📄 Files WITH TSTypeQuery (showing 10):
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/plugin.d.ts
+       • types/options.d.ts
+       • src/types/vnode.ts
+       • src/types/options.ts
+       • src/types/global-api.ts
+       • src/types/component.ts
+       • types/test/vue-test.ts
+     📄 Files WITHOUT TSTypeQuery (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-define-async-component.d.ts
+       • types/v3-component-public-instance.d.ts
+
+   TryStatement:
+     📄 Files WITH TryStatement (showing 10):
+       • scripts/release.js
+       • test/helpers/wait-for-update.ts
+       • src/shared/util.ts
+       • src/compiler/to-function.ts
+       • src/compiler/error-detector.ts
+       • packages/template-compiler/index.js
+       • packages/server-renderer/index.js
+       • test/unit/features/error-handling.spec.ts
+       • src/v3/reactivity/effectScope.ts
+       • src/core/util/props.ts
+     📄 Files WITHOUT TryStatement (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   BreakStatement:
+     📄 Files WITH BreakStatement (showing 10):
+       • test/e2e/e2eUtils.ts
+       • src/compiler/helpers.ts
+       • src/compiler/codeframe.ts
+       • src/core/vdom/patch.ts
+       • src/core/observer/scheduler.ts
+       • src/core/observer/array.ts
+       • src/core/instance/events.ts
+       • src/compiler/parser/html-parser.ts
+       • src/compiler/parser/filter-parser.ts
+       • src/compiler/directives/model.ts
+     📄 Files WITHOUT BreakStatement (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   JSXExpressionContainer:
+     📄 Files WITH JSXExpressionContainer (showing 2):
+       • types/test/v3/tsx-test.tsx
+       • types/test/v3/define-component-test.tsx
+     📄 Files WITHOUT JSXExpressionContainer (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   CatchClause:
+     📄 Files WITH CatchClause (showing 10):
+       • scripts/release.js
+       • test/helpers/wait-for-update.ts
+       • src/shared/util.ts
+       • src/compiler/to-function.ts
+       • src/compiler/error-detector.ts
+       • packages/template-compiler/index.js
+       • packages/server-renderer/index.js
+       • test/unit/features/error-handling.spec.ts
+       • src/core/util/props.ts
+       • src/core/util/next-tick.ts
+     📄 Files WITHOUT CatchClause (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   JSXElement:
+     📄 Files WITH JSXElement (showing 2):
+       • types/test/v3/tsx-test.tsx
+       • types/test/v3/define-component-test.tsx
+     📄 Files WITHOUT JSXElement (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   JSXOpeningElement:
+     📄 Files WITH JSXOpeningElement (showing 2):
+       • types/test/v3/tsx-test.tsx
+       • types/test/v3/define-component-test.tsx
+     📄 Files WITHOUT JSXOpeningElement (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   SpreadElement:
+     📄 Files WITH SpreadElement (showing 10):
+       • scripts/release.js
+       • scripts/config.js
+       • test/e2e/e2eUtils.ts
+       • src/v3/apiWatch.ts
+       • src/core/observer/dep.ts
+       • types/test/v3/define-component-test.tsx
+       • packages/compiler-sfc/test/util.ts
+       • packages/compiler-sfc/src/stylePreprocessors.ts
+       • packages/compiler-sfc/src/prefixIdentifiers.ts
+       • packages/compiler-sfc/src/compileTemplate.ts
+     📄 Files WITHOUT SpreadElement (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TSNeverKeyword:
+     📄 Files WITH TSNeverKeyword (showing 10):
+       • types/vue.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-component-public-instance.d.ts
+       • types/v3-component-props.d.ts
+       • types/v3-component-options.d.ts
+       • types/umd.d.ts
+       • types/options.d.ts
+       • types/common.d.ts
+       • src/v3/apiWatch.ts
+     📄 Files WITHOUT TSNeverKeyword (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-async-component.d.ts
+       • types/plugin.d.ts
+
+   TSTypeOperator:
+     📄 Files WITH TSTypeOperator (showing 10):
+       • types/vue.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-component-public-instance.d.ts
+       • types/v3-component-props.d.ts
+       • types/v3-component-options.d.ts
+       • types/options.d.ts
+       • types/jsx.d.ts
+       • types/common.d.ts
+       • src/v3/apiWatch.ts
+     📄 Files WITHOUT TSTypeOperator (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vnode.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-define-async-component.d.ts
+       • types/umd.d.ts
+
+   RestElement:
+     📄 Files WITH RestElement (showing 10):
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-component-public-instance.d.ts
+       • types/v3-component-props.d.ts
+       • types/v3-component-options.d.ts
+       • types/options.d.ts
+       • types/jsx.d.ts
+       • src/v3/apiSetup.ts
+     📄 Files WITHOUT RestElement (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-define-async-component.d.ts
+       • types/umd.d.ts
+       • types/plugin.d.ts
+
+   TSTupleType:
+     📄 Files WITH TSTupleType (showing 10):
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-component-props.d.ts
+       • types/options.d.ts
+       • test/helpers/shim-done.ts
+       • src/v3/apiWatch.ts
+       • src/types/options.ts
+       • src/types/compiler.ts
+       • src/v3/reactivity/ref.ts
+       • src/compiler/parser/text-parser.ts
+     📄 Files WITHOUT TSTupleType (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-define-async-component.d.ts
+
+   TSUnknownKeyword:
+     📄 Files WITH TSUnknownKeyword (showing 10):
+       • types/vnode.d.ts
+       • types/v3-component-public-instance.d.ts
+       • types/v3-component-props.d.ts
+       • types/v3-component-options.d.ts
+       • types/options.d.ts
+       • types/common.d.ts
+       • src/v3/apiWatch.ts
+       • src/v3/apiLifecycle.ts
+       • src/v3/apiInject.ts
+       • src/types/options.ts
+     📄 Files WITHOUT TSUnknownKeyword (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+
+   TSInferType:
+     📄 Files WITH TSInferType (showing 8):
+       • types/v3-setup-context.d.ts
+       • types/v3-component-public-instance.d.ts
+       • types/v3-component-props.d.ts
+       • types/v3-component-options.d.ts
+       • types/common.d.ts
+       • src/v3/apiWatch.ts
+       • src/v3/reactivity/ref.ts
+       • src/v3/reactivity/readonly.ts
+     📄 Files WITHOUT TSInferType (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+
+   ForOfStatement:
+     📄 Files WITH ForOfStatement (showing 4):
+       • scripts/release.js
+       • packages/compiler-sfc/src/rewriteDefault.ts
+       • packages/compiler-sfc/src/compileScript.ts
+       • packages/compiler-sfc/src/babelUtils.ts
+     📄 Files WITHOUT ForOfStatement (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   ExportAllDeclaration:
+     📄 Files WITH ExportAllDeclaration (showing 9):
+       • types/index.d.ts
+       • compiler-sfc/index.mjs
+       • compiler-sfc/index.d.ts
+       • src/v3/index.ts
+       • src/platforms/web/entry-runtime-with-compiler-esm.ts
+       • src/platforms/web/entry-runtime-esm.ts
+       • src/core/util/index.ts
+       • src/platforms/web/util/index.ts
+       • src/core/vdom/helpers/index.ts
+     📄 Files WITHOUT ExportAllDeclaration (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   EmptyStatement:
+     📄 Files WITH EmptyStatement (showing 10):
+       • test/e2e/e2eUtils.ts
+       • test/transition/transition.spec.ts
+       • test/helpers/trigger-event.ts
+       • src/v3/apiWatch.ts
+       • src/compiler/helpers.ts
+       • src/compiler/create-compiler.ts
+       • types/test/options-test.ts
+       • test/unit/features/error-handling.spec.ts
+       • src/core/vdom/create-functional-component.ts
+       • src/core/observer/index.ts
+     📄 Files WITHOUT EmptyStatement (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TSMappedType:
+     📄 Files WITH TSMappedType (showing 10):
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-component-props.d.ts
+       • types/v3-component-options.d.ts
+       • types/options.d.ts
+       • types/jsx.d.ts
+       • types/common.d.ts
+       • src/v3/apiWatch.ts
+       • src/v3/reactivity/ref.ts
+     📄 Files WITHOUT TSMappedType (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-async-component.d.ts
+       • types/v3-component-public-instance.d.ts
+
+   ClassBody:
+     📄 Files WITH ClassBody (showing 10):
+       • types/umd.d.ts
+       • src/types/component.ts
+       • types/test/vue-test.ts
+       • types/test/plugin-test.ts
+       • types/test/options-test.ts
+       • src/v3/reactivity/effectScope.ts
+       • src/core/vdom/vnode.ts
+       • src/core/util/env.ts
+       • src/core/observer/watcher.ts
+       • src/core/observer/index.ts
+     📄 Files WITHOUT ClassBody (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   ClassDeclaration:
+     📄 Files WITH ClassDeclaration (showing 10):
+       • types/umd.d.ts
+       • src/types/component.ts
+       • types/test/vue-test.ts
+       • types/test/plugin-test.ts
+       • types/test/options-test.ts
+       • src/v3/reactivity/effectScope.ts
+       • src/core/vdom/vnode.ts
+       • src/core/observer/watcher.ts
+       • src/core/observer/index.ts
+       • src/core/observer/dep.ts
+     📄 Files WITHOUT ClassDeclaration (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TSEnumMember:
+     📄 Files WITH TSEnumMember (showing 4):
+       • src/v3/reactivity/reactive.ts
+       • src/v3/reactivity/operations.ts
+       • packages/compiler-sfc/src/types.ts
+       • packages/compiler-sfc/src/cssVars.ts
+     📄 Files WITHOUT TSEnumMember (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   ContinueStatement:
+     📄 Files WITH ContinueStatement (showing 10):
+       • src/compiler/codeframe.ts
+       • src/core/util/options.ts
+       • src/core/util/debug.ts
+       • src/core/instance/inject.ts
+       • src/compiler/parser/html-parser.ts
+       • src/compiler/directives/model.ts
+       • src/compiler/codegen/index.ts
+       • packages/compiler-sfc/src/rewriteDefault.ts
+       • packages/compiler-sfc/src/compileScript.ts
+       • packages/compiler-sfc/src/babelUtils.ts
+     📄 Files WITHOUT ContinueStatement (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   ChainExpression:
+     📄 Files WITH ChainExpression (showing 7):
+       • test/helpers/to-have-warned.ts
+       • types/test/v3/setup-test.ts
+       • packages/compiler-sfc/src/prefixIdentifiers.ts
+       • packages/compiler-sfc/src/compileScript.ts
+       • packages/compiler-sfc/src/babelUtils.ts
+       • test/unit/features/options/mixins.spec.ts
+       • test/unit/features/instance/properties.spec.ts
+     📄 Files WITHOUT ChainExpression (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   ArrayPattern:
+     📄 Files WITH ArrayPattern (showing 7):
+       • scripts/build.js
+       • test/helpers/shim-done.ts
+       • test/unit/features/error-handling.spec.ts
+       • packages/compiler-sfc/src/compileScript.ts
+       • test/unit/features/v3/apiWatch.spec.ts
+       • test/unit/features/directives/class.spec.ts
+       • packages/compiler-sfc/src/templateCompilerModules/srcset.ts
+     📄 Files WITHOUT ArrayPattern (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TSSymbolKeyword:
+     📄 Files WITH TSSymbolKeyword (showing 10):
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/options.d.ts
+       • types/jsx.d.ts
+       • src/v3/apiInject.ts
+       • src/types/options.ts
+       • src/v3/reactivity/ref.ts
+       • src/v3/reactivity/readonly.ts
+       • src/v3/reactivity/reactive.ts
+       • src/v3/reactivity/computed.ts
+     📄 Files WITHOUT TSSymbolKeyword (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-define-async-component.d.ts
+
+   SwitchStatement:
+     📄 Files WITH SwitchStatement (showing 8):
+       • src/core/observer/array.ts
+       • src/compiler/parser/filter-parser.ts
+       • types/test/v3/reactivity-test.ts
+       • packages/compiler-sfc/src/cssVars.ts
+       • packages/compiler-sfc/src/compileScript.ts
+       • packages/compiler-sfc/src/babelUtils.ts
+       • packages/server-renderer/src/render-context.ts
+       • packages/server-renderer/src/optimizing-compiler/codegen.ts
+     📄 Files WITHOUT SwitchStatement (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TSConstructSignatureDeclaration:
+     📄 Files WITH TSConstructSignatureDeclaration (showing 5):
+       • types/vue.d.ts
+       • types/v3-component-public-instance.d.ts
+       • types/v3-component-props.d.ts
+       • types/options.d.ts
+       • packages/server-renderer/types/plugin.d.ts
+     📄 Files WITHOUT TSConstructSignatureDeclaration (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+
+   SequenceExpression:
+     📄 Files WITH SequenceExpression (showing 6):
+       • src/v3/apiSetup.ts
+       • src/v3/reactivity/effectScope.ts
+       • src/compiler/parser/index.ts
+       • src/compiler/codegen/index.ts
+       • src/core/instance/render-helpers/render-list.ts
+       • packages/server-renderer/src/optimizing-compiler/runtime-helpers.ts
+     📄 Files WITHOUT SequenceExpression (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TSTypePredicate:
+     📄 Files WITH TSTypePredicate (showing 4):
+       • src/shared/util.ts
+       • src/v3/reactivity/ref.ts
+       • packages/compiler-sfc/src/compileScript.ts
+       • packages/compiler-sfc/src/babelUtils.ts
+     📄 Files WITHOUT TSTypePredicate (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TSThisType:
+     📄 Files WITH TSThisType (showing 2):
+       • test/test-env.d.ts
+       • types/vue.d.ts
+     📄 Files WITHOUT TSThisType (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • src/global.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-define-async-component.d.ts
+
+   TSModuleDeclaration:
+     📄 Files WITH TSModuleDeclaration (showing 6):
+       • test/test-env.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/umd.d.ts
+       • types/jsx.d.ts
+       • src/types/modules.d.ts
+       • types/test/augmentation-test.ts
+     📄 Files WITHOUT TSModuleDeclaration (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-define-async-component.d.ts
+
+   TSModuleBlock:
+     📄 Files WITH TSModuleBlock (showing 6):
+       • test/test-env.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/umd.d.ts
+       • types/jsx.d.ts
+       • src/types/modules.d.ts
+       • types/test/augmentation-test.ts
+     📄 Files WITHOUT TSModuleBlock (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-define-async-component.d.ts
+
+   TSCallSignatureDeclaration:
+     📄 Files WITH TSCallSignatureDeclaration (showing 7):
+       • test/test-env.d.ts
+       • types/vue.d.ts
+       • types/v3-component-props.d.ts
+       • types/options.d.ts
+       • src/types/global-api.ts
+       • types/test/setup-helpers-test.ts
+       • src/core/vdom/helpers/resolve-async-component.ts
+     📄 Files WITHOUT TSCallSignatureDeclaration (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • src/global.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+       • types/v3-define-component.d.ts
+       • types/v3-define-async-component.d.ts
+
+   ImportNamespaceSpecifier:
+     📄 Files WITH ImportNamespaceSpecifier (showing 7):
+       • types/umd.d.ts
+       • types/jsx.d.ts
+       • src/platforms/web/entry-runtime.ts
+       • src/platforms/web/entry-runtime-with-compiler.ts
+       • packages/compiler-sfc/src/compileTemplate.ts
+       • src/platforms/web/runtime/patch.ts
+       • test/unit/modules/vdom/patch/hooks.spec.ts
+     📄 Files WITHOUT ImportNamespaceSpecifier (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TSEnumDeclaration:
+     📄 Files WITH TSEnumDeclaration (showing 4):
+       • src/v3/reactivity/reactive.ts
+       • src/v3/reactivity/operations.ts
+       • packages/compiler-sfc/src/types.ts
+       • packages/compiler-sfc/src/cssVars.ts
+     📄 Files WITHOUT TSEnumDeclaration (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TSEnumBody:
+     📄 Files WITH TSEnumBody (showing 4):
+       • src/v3/reactivity/reactive.ts
+       • src/v3/reactivity/operations.ts
+       • packages/compiler-sfc/src/types.ts
+       • packages/compiler-sfc/src/cssVars.ts
+     📄 Files WITHOUT TSEnumBody (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TSParameterProperty:
+     📄 Files WITH TSParameterProperty (showing 2):
+       • src/v3/reactivity/effectScope.ts
+       • src/core/observer/index.ts
+     📄 Files WITHOUT TSParameterProperty (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TSExportAssignment:
+     📄 Files WITH TSExportAssignment (showing 3):
+       • types/umd.d.ts
+       • packages/server-renderer/server-plugin.d.ts
+       • packages/server-renderer/client-plugin.d.ts
+     📄 Files WITHOUT TSExportAssignment (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TSClassImplements:
+     📄 Files WITH TSClassImplements (showing 2):
+       • src/core/util/env.ts
+       • src/core/observer/watcher.ts
+     📄 Files WITHOUT TSClassImplements (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   JSXSpreadAttribute:
+     📄 Files WITH JSXSpreadAttribute (showing 2):
+       • types/test/v3/tsx-test.tsx
+       • types/test/v3/define-component-test.tsx
+     📄 Files WITHOUT JSXSpreadAttribute (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   Super:
+     📄 Files WITH Super (showing 2):
+       • packages/server-renderer/src/render-stream.ts
+       • packages/server-renderer/src/template-renderer/template-stream.ts
+     📄 Files WITHOUT Super (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TSNamespaceExportDeclaration:
+     📄 Files WITH TSNamespaceExportDeclaration (showing 1):
+       • types/umd.d.ts
+     📄 Files WITHOUT TSNamespaceExportDeclaration (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TSTemplateLiteralType:
+     📄 Files WITH TSTemplateLiteralType (showing 1):
+       • types/jsx.d.ts
+     📄 Files WITHOUT TSTemplateLiteralType (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TSRestType:
+     📄 Files WITH TSRestType (showing 1):
+       • src/v3/apiWatch.ts
+     📄 Files WITHOUT TSRestType (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TSEmptyBodyFunctionExpression:
+     📄 Files WITH TSEmptyBodyFunctionExpression (showing 1):
+       • src/types/component.ts
+     📄 Files WITHOUT TSEmptyBodyFunctionExpression (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   Decorator:
+     📄 Files WITH Decorator (showing 1):
+       • types/test/vue-test.ts
+     📄 Files WITHOUT Decorator (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   ImportExpression:
+     📄 Files WITH ImportExpression (showing 1):
+       • types/test/options-test.ts
+     📄 Files WITHOUT ImportExpression (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   TSBigIntKeyword:
+     📄 Files WITH TSBigIntKeyword (showing 1):
+       • src/v3/reactivity/readonly.ts
+     📄 Files WITHOUT TSBigIntKeyword (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
+
+   ClassExpression:
+     📄 Files WITH ClassExpression (showing 1):
+       • src/core/util/env.ts
+     📄 Files WITHOUT ClassExpression (showing 10):
+       • vitest.config.ts
+       • test/vitest.setup.ts
+       • test/test-env.d.ts
+       • src/global.d.ts
+       • types/vue.d.ts
+       • types/vnode.d.ts
+       • types/v3-setup-helpers.d.ts
+       • types/v3-setup-context.d.ts
+       • types/v3-manual-apis.d.ts
+       • types/v3-directive.d.ts
 
 ============================================================
 ✅ Analysis complete!

@@ -1,11 +1,12 @@
 AST Analysis Report for fastify
-Generated on: 2025-07-13T03:17:12.530Z
+Generated on: 2025-07-14T01:41:58.746Z
 Repository: sample-repos/fastify
 ================================================================================
 
 🔍 Analyzing JavaScript/TypeScript files in: /Users/camchenry/workspace/ast-analysis/sample-repos/fastify
 
-📁 Found 65 files to analyze...
+📁 Found 283 files to analyze...
+
 
 
 ============================================================
@@ -13,217 +14,2550 @@ Repository: sample-repos/fastify
 ============================================================
 
 📁 FILE STATISTICS:
-   Total files found: 65
-   Successfully parsed: 65
+   Total files found: 283
+   Successfully parsed: 283
    Failed to parse: 0
-   Total file size: 396.8 KB
+   Total file size: 1.9 MB
 
 🌳 NODE STATISTICS:
-   Total nodes: 51,414
-   Average nodes per file: 791
-   Average file size: 6.1 KB
+   Total nodes: 328,165
+   Average nodes per file: 1,160
+   Average file size: 6.8 KB
 
 📋 ALL NODE TYPES (BY FILE PRESENCE):
-   Program                          65 files (100.0%) -       65 total (0.13%)
-   Literal                          65 files (100.0%) -    2,846 total (5.54%)
-   Identifier                       65 files (100.0%) -   20,437 total (39.75%)
-   MemberExpression                 51 files ( 78.5%) -    3,304 total (6.43%)
-   ExpressionStatement              49 files ( 75.4%) -    1,516 total (2.95%)
-   Property                         49 files ( 75.4%) -    1,591 total (3.09%)
-   VariableDeclaration              48 files ( 73.8%) -      789 total (1.53%)
-   VariableDeclarator               48 files ( 73.8%) -      793 total (1.54%)
-   CallExpression                   48 files ( 73.8%) -    1,654 total (3.22%)
-   ObjectExpression                 48 files ( 73.8%) -      499 total (0.97%)
-   BlockStatement                   46 files ( 70.8%) -    1,490 total (2.90%)
-   IfStatement                      39 files ( 60.0%) -      827 total (1.61%)
-   FunctionExpression               35 files ( 53.8%) -      192 total (0.37%)
-   AssignmentExpression             34 files ( 52.3%) -      818 total (1.59%)
-   ReturnStatement                  30 files ( 46.2%) -      430 total (0.84%)
-   FunctionDeclaration              29 files ( 44.6%) -      215 total (0.42%)
-   ThrowStatement                   29 files ( 44.6%) -      101 total (0.20%)
-   ArrowFunctionExpression          26 files ( 40.0%) -       91 total (0.18%)
-   ObjectPattern                    25 files ( 38.5%) -      100 total (0.19%)
-   BinaryExpression                 25 files ( 38.5%) -      885 total (1.72%)
-   UnaryExpression                  25 files ( 38.5%) -      386 total (0.75%)
-   LogicalExpression                24 files ( 36.9%) -      451 total (0.88%)
-   NewExpression                    21 files ( 32.3%) -      143 total (0.28%)
-   ParenthesizedExpression          20 files ( 30.8%) -      171 total (0.33%)
-   ConditionalExpression            18 files ( 27.7%) -       46 total (0.09%)
-   ImportDeclaration                18 files ( 27.7%) -      120 total (0.23%)
-   ImportSpecifier                  17 files ( 26.2%) -      332 total (0.65%)
-   TSTypeReference                  17 files ( 26.2%) -    4,942 total (9.61%)
-   ArrayExpression                  16 files ( 24.6%) -      101 total (0.20%)
-   Unknown                          16 files ( 24.6%) -       99 total (0.19%)
-   ExportNamedDeclaration           16 files ( 24.6%) -      149 total (0.29%)
-   TSTypeParameterInstantiation     16 files ( 24.6%) -      840 total (1.63%)
-   ThisExpression                   15 files ( 23.1%) -      604 total (1.17%)
-   TSTypeAnnotation                 15 files ( 23.1%) -      939 total (1.83%)
-   TSTypeAliasDeclaration           15 files ( 23.1%) -      108 total (0.21%)
-   TSTypeParameterDeclaration       15 files ( 23.1%) -      164 total (0.32%)
-   TSTypeParameter                  15 files ( 23.1%) -      668 total (1.30%)
-   TSUnionType                      15 files ( 23.1%) -      145 total (0.28%)
-   TSStringKeyword                  15 files ( 23.1%) -      179 total (0.35%)
-   TSInterfaceDeclaration           14 files ( 21.5%) -       74 total (0.14%)
-   TSInterfaceBody                  14 files ( 21.5%) -       74 total (0.14%)
-   TSPropertySignature              13 files ( 20.0%) -      300 total (0.58%)
-   TemplateElement                  12 files ( 18.5%) -       77 total (0.15%)
-   TSIntersectionType               12 files ( 18.5%) -       35 total (0.07%)
-   TSTypeLiteral                    12 files ( 18.5%) -       54 total (0.11%)
-   TSLiteralType                    12 files ( 18.5%) -      261 total (0.51%)
-   TSVoidKeyword                    12 files ( 18.5%) -       69 total (0.13%)
-   TemplateLiteral                  11 files ( 16.9%) -       24 total (0.05%)
-   TSFunctionType                   11 files ( 16.9%) -       67 total (0.13%)
-   TSUnknownKeyword                 11 files ( 16.9%) -      108 total (0.21%)
-   UpdateExpression                 11 files ( 16.9%) -       38 total (0.07%)
-   ForOfStatement                   10 files ( 15.4%) -       20 total (0.04%)
-   TryStatement                     10 files ( 15.4%) -       26 total (0.05%)
-   CatchClause                      10 files ( 15.4%) -       24 total (0.05%)
-   TSNumberKeyword                  10 files ( 15.4%) -       45 total (0.09%)
-   TSAnyKeyword                      9 files ( 13.8%) -       35 total (0.07%)
-   TSCallSignatureDeclaration        9 files ( 13.8%) -       52 total (0.10%)
-   AssignmentPattern                 8 files ( 12.3%) -       16 total (0.03%)
-   TSConditionalType                 8 files ( 12.3%) -      119 total (0.23%)
-   TSBooleanKeyword                  8 files ( 12.3%) -       52 total (0.10%)
-   ForStatement                      8 files ( 12.3%) -       11 total (0.02%)
-   TSArrayType                       7 files ( 10.8%) -       39 total (0.08%)
-   TSNullKeyword                     7 files ( 10.8%) -       15 total (0.03%)
-   TSMethodSignature                 7 files ( 10.8%) -      100 total (0.19%)
-   TSParenthesizedType               7 files ( 10.8%) -       19 total (0.04%)
-   TSIndexSignature                  6 files (  9.2%) -       18 total (0.04%)
-   TSNeverKeyword                    6 files (  9.2%) -       32 total (0.06%)
-   TSIndexedAccessType               6 files (  9.2%) -       54 total (0.11%)
-   ChainExpression                   6 files (  9.2%) -       24 total (0.05%)
-   SpreadElement                     5 files (  7.7%) -       10 total (0.02%)
-   TSQualifiedName                   5 files (  7.7%) -       50 total (0.10%)
-   TSInterfaceHeritage               5 files (  7.7%) -        9 total (0.02%)
-   ImportNamespaceSpecifier          4 files (  6.2%) -       10 total (0.02%)
-   TSTypeOperator                    4 files (  6.2%) -       21 total (0.04%)
-   TSUndefinedKeyword                4 files (  6.2%) -       16 total (0.03%)
-   RestElement                       3 files (  4.6%) -        6 total (0.01%)
-   TSTupleType                       3 files (  4.6%) -        5 total (0.01%)
-   TSSymbolKeyword                   3 files (  4.6%) -       12 total (0.02%)
-   ContinueStatement                 3 files (  4.6%) -        5 total (0.01%)
-   TSInferType                       2 files (  3.1%) -        8 total (0.02%)
-   TSMappedType                      2 files (  3.1%) -        5 total (0.01%)
-   ImportDefaultSpecifier            2 files (  3.1%) -        2 total (0.00%)
-   BreakStatement                    2 files (  3.1%) -        3 total (0.01%)
-   WhileStatement                    2 files (  3.1%) -        3 total (0.01%)
-   ForInStatement                    2 files (  3.1%) -        4 total (0.01%)
-   TSModuleDeclaration               1 files (  1.5%) -        2 total (0.00%)
-   TSModuleBlock                     1 files (  1.5%) -        2 total (0.00%)
-   TSTypeQuery                       1 files (  1.5%) -        1 total (0.00%)
-   ExportSpecifier                   1 files (  1.5%) -       94 total (0.18%)
-   TSDeclareFunction                 1 files (  1.5%) -        4 total (0.01%)
-   TSExportAssignment                1 files (  1.5%) -        1 total (0.00%)
-   TSTemplateLiteralType             1 files (  1.5%) -        8 total (0.02%)
-   ClassDeclaration                  1 files (  1.5%) -        1 total (0.00%)
-   ClassBody                         1 files (  1.5%) -        1 total (0.00%)
-   MethodDefinition                  1 files (  1.5%) -       12 total (0.02%)
-   SwitchStatement                   1 files (  1.5%) -        1 total (0.00%)
-   SwitchCase                        1 files (  1.5%) -        4 total (0.01%)
-   ArrayPattern                      1 files (  1.5%) -        1 total (0.00%)
-   AwaitExpression                   1 files (  1.5%) -        1 total (0.00%)
+   Program                         283 files (100.0%) -      283 total (0.09%)
+   Literal                         283 files (100.0%) -   26,496 total (8.07%)
+   Identifier                      283 files (100.0%) -  127,153 total (38.75%)
+   MemberExpression                267 files ( 94.3%) -   38,559 total (11.75%)
+   ExpressionStatement             265 files ( 93.6%) -   22,759 total (6.94%)
+   CallExpression                  264 files ( 93.3%) -   30,037 total (9.15%)
+   VariableDeclaration             259 files ( 91.5%) -    5,865 total (1.79%)
+   VariableDeclarator              259 files ( 91.5%) -    5,870 total (1.79%)
+   BlockStatement                  254 files ( 89.8%) -    9,223 total (2.81%)
+   Property                        250 files ( 88.3%) -   14,625 total (4.46%)
+   ObjectExpression                240 files ( 84.8%) -    8,121 total (2.47%)
+   ArrowFunctionExpression         227 files ( 80.2%) -    5,727 total (1.75%)
+   ObjectPattern                   203 files ( 71.7%) -      538 total (0.16%)
+   FunctionExpression              185 files ( 65.4%) -    1,835 total (0.56%)
+   AssignmentExpression            143 files ( 50.5%) -    1,360 total (0.41%)
+   AwaitExpression                 143 files ( 50.5%) -    1,981 total (0.60%)
+   BinaryExpression                138 files ( 48.8%) -    1,761 total (0.54%)
+   ReturnStatement                 133 files ( 47.0%) -    1,089 total (0.33%)
+   NewExpression                   112 files ( 39.6%) -      700 total (0.21%)
+   UnaryExpression                 110 files ( 38.9%) -      843 total (0.26%)
+   Unknown                         103 files ( 36.4%) -      973 total (0.30%)
+   IfStatement                     100 files ( 35.3%) -    1,035 total (0.32%)
+   ArrayExpression                  93 files ( 32.9%) -      559 total (0.17%)
+   TryStatement                     85 files ( 30.0%) -      280 total (0.09%)
+   CatchClause                      84 files ( 29.7%) -      277 total (0.08%)
+   FunctionDeclaration              83 files ( 29.3%) -      454 total (0.14%)
+   TemplateElement                  83 files ( 29.3%) -      735 total (0.22%)
+   TemplateLiteral                  82 files ( 29.0%) -      347 total (0.11%)
+   ThrowStatement                   56 files ( 19.8%) -      199 total (0.06%)
+   ParenthesizedExpression          48 files ( 17.0%) -      248 total (0.08%)
+   ThisExpression                   45 files ( 15.9%) -      825 total (0.25%)
+   UpdateExpression                 42 files ( 14.8%) -      208 total (0.06%)
+   LogicalExpression                41 files ( 14.5%) -      506 total (0.15%)
+   ImportDeclaration                40 files ( 14.1%) -      213 total (0.06%)
+   ImportSpecifier                  39 files ( 13.8%) -      542 total (0.17%)
+   TSTypeReference                  34 files ( 12.0%) -    6,492 total (1.98%)
+   TSTypeParameterInstantiation     33 files ( 11.7%) -    2,318 total (0.71%)
+   ForOfStatement                   32 files ( 11.3%) -       91 total (0.03%)
+   TSTypeAnnotation                 30 files ( 10.6%) -    1,482 total (0.45%)
+   ConditionalExpression            27 files (  9.5%) -       60 total (0.02%)
+   TSStringKeyword                  26 files (  9.2%) -      461 total (0.14%)
+   TSInterfaceDeclaration           25 files (  8.8%) -      113 total (0.03%)
+   TSInterfaceBody                  25 files (  8.8%) -      113 total (0.03%)
+   TSPropertySignature              25 files (  8.8%) -      427 total (0.13%)
+   TSVoidKeyword                    24 files (  8.5%) -      176 total (0.05%)
+   TSTypeAliasDeclaration           23 files (  8.1%) -      127 total (0.04%)
+   TSUnionType                      22 files (  7.8%) -      266 total (0.08%)
+   TSIntersectionType               21 files (  7.4%) -       90 total (0.03%)
+   TSTypeLiteral                    20 files (  7.1%) -      102 total (0.03%)
+   TSLiteralType                    20 files (  7.1%) -      350 total (0.11%)
+   TSFunctionType                   20 files (  7.1%) -      158 total (0.05%)
+   TSTypeParameterDeclaration       19 files (  6.7%) -      170 total (0.05%)
+   TSTypeParameter                  19 files (  6.7%) -      681 total (0.21%)
+   TSUnknownKeyword                 19 files (  6.7%) -      161 total (0.05%)
+   ImportDefaultSpecifier           18 files (  6.4%) -       20 total (0.01%)
+   ExportNamedDeclaration           17 files (  6.0%) -      150 total (0.05%)
+   TSNumberKeyword                  17 files (  6.0%) -      173 total (0.05%)
+   ArrayPattern                     17 files (  6.0%) -       53 total (0.02%)
+   TSBooleanKeyword                 15 files (  5.3%) -      138 total (0.04%)
+   BreakStatement                   14 files (  4.9%) -       91 total (0.03%)
+   TSAnyKeyword                     14 files (  4.9%) -       58 total (0.02%)
+   SpreadElement                    13 files (  4.6%) -       19 total (0.01%)
+   TSArrayType                      13 files (  4.6%) -       97 total (0.03%)
+   TSQualifiedName                  13 files (  4.6%) -      199 total (0.06%)
+   ForStatement                     13 files (  4.6%) -       22 total (0.01%)
+   TSIndexedAccessType              12 files (  4.2%) -       79 total (0.02%)
+   TSNullKeyword                    11 files (  3.9%) -       28 total (0.01%)
+   TSInterfaceHeritage              11 files (  3.9%) -       24 total (0.01%)
+   TSUndefinedKeyword               11 files (  3.9%) -       77 total (0.02%)
+   AssignmentPattern                10 files (  3.5%) -       18 total (0.01%)
+   TSConditionalType                10 files (  3.5%) -      124 total (0.04%)
+   ImportNamespaceSpecifier          9 files (  3.2%) -       18 total (0.01%)
+   TSIndexSignature                  9 files (  3.2%) -       32 total (0.01%)
+   TSMethodSignature                 9 files (  3.2%) -      104 total (0.03%)
+   TSParenthesizedType               9 files (  3.2%) -       32 total (0.01%)
+   SwitchStatement                   9 files (  3.2%) -       23 total (0.01%)
+   SwitchCase                        9 files (  3.2%) -       98 total (0.03%)
+   TSCallSignatureDeclaration        9 files (  3.2%) -       52 total (0.02%)
+   ChainExpression                   8 files (  2.8%) -       26 total (0.01%)
+   ClassDeclaration                  6 files (  2.1%) -        9 total (0.00%)
+   ClassBody                         6 files (  2.1%) -        9 total (0.00%)
+   TSNeverKeyword                    6 files (  2.1%) -       32 total (0.01%)
+   RestElement                       5 files (  1.8%) -       17 total (0.01%)
+   TSTypeQuery                       5 files (  1.8%) -       15 total (0.00%)
+   TSAsExpression                    5 files (  1.8%) -       39 total (0.01%)
+   TSModuleDeclaration               4 files (  1.4%) -        5 total (0.00%)
+   TSModuleBlock                     4 files (  1.4%) -        5 total (0.00%)
+   ContinueStatement                 4 files (  1.4%) -        6 total (0.00%)
+   TSTypeOperator                    4 files (  1.4%) -       21 total (0.01%)
+   ImportExpression                  4 files (  1.4%) -        7 total (0.00%)
+   TSTupleType                       3 files (  1.1%) -        5 total (0.00%)
+   ForInStatement                    3 files (  1.1%) -        5 total (0.00%)
+   TSSymbolKeyword                   3 files (  1.1%) -       12 total (0.00%)
+   ExportDefaultDeclaration          3 files (  1.1%) -        3 total (0.00%)
+   MethodDefinition                  2 files (  0.7%) -       21 total (0.01%)
+   WhileStatement                    2 files (  0.7%) -        3 total (0.00%)
+   TSInferType                       2 files (  0.7%) -        8 total (0.00%)
+   TSMappedType                      2 files (  0.7%) -        5 total (0.00%)
+   PropertyDefinition                2 files (  0.7%) -        2 total (0.00%)
+   ExportSpecifier                   1 files (  0.4%) -       94 total (0.03%)
+   TSDeclareFunction                 1 files (  0.4%) -        4 total (0.00%)
+   TSExportAssignment                1 files (  0.4%) -        1 total (0.00%)
+   TSTemplateLiteralType             1 files (  0.4%) -        8 total (0.00%)
+   TSThisType                        1 files (  0.4%) -        8 total (0.00%)
+   TSClassImplements                 1 files (  0.4%) -        1 total (0.00%)
+   TSNonNullExpression               1 files (  0.4%) -        1 total (0.00%)
 
 📝 ALL NODE TYPES (BY TOTAL COUNT):
-   Identifier                       20,437 (39.75%) in 65 files (100.0%)
-   TSTypeReference                   4,942 (9.61%) in 17 files (26.2%)
-   MemberExpression                  3,304 (6.43%) in 51 files (78.5%)
-   Literal                           2,846 (5.54%) in 65 files (100.0%)
-   CallExpression                    1,654 (3.22%) in 48 files (73.8%)
-   Property                          1,591 (3.09%) in 49 files (75.4%)
-   ExpressionStatement               1,516 (2.95%) in 49 files (75.4%)
-   BlockStatement                    1,490 (2.90%) in 46 files (70.8%)
-   TSTypeAnnotation                    939 (1.83%) in 15 files (23.1%)
-   BinaryExpression                    885 (1.72%) in 25 files (38.5%)
-   TSTypeParameterInstantiation        840 (1.63%) in 16 files (24.6%)
-   IfStatement                         827 (1.61%) in 39 files (60.0%)
-   AssignmentExpression                818 (1.59%) in 34 files (52.3%)
-   VariableDeclarator                  793 (1.54%) in 48 files (73.8%)
-   VariableDeclaration                 789 (1.53%) in 48 files (73.8%)
-   TSTypeParameter                     668 (1.30%) in 15 files (23.1%)
-   ThisExpression                      604 (1.17%) in 15 files (23.1%)
-   ObjectExpression                    499 (0.97%) in 48 files (73.8%)
-   LogicalExpression                   451 (0.88%) in 24 files (36.9%)
-   ReturnStatement                     430 (0.84%) in 30 files (46.2%)
-   UnaryExpression                     386 (0.75%) in 25 files (38.5%)
-   ImportSpecifier                     332 (0.65%) in 17 files (26.2%)
-   TSPropertySignature                 300 (0.58%) in 13 files (20.0%)
-   TSLiteralType                       261 (0.51%) in 12 files (18.5%)
-   FunctionDeclaration                 215 (0.42%) in 29 files (44.6%)
-   FunctionExpression                  192 (0.37%) in 35 files (53.8%)
-   TSStringKeyword                     179 (0.35%) in 15 files (23.1%)
-   ParenthesizedExpression             171 (0.33%) in 20 files (30.8%)
-   TSTypeParameterDeclaration          164 (0.32%) in 15 files (23.1%)
-   ExportNamedDeclaration              149 (0.29%) in 16 files (24.6%)
-   TSUnionType                         145 (0.28%) in 15 files (23.1%)
-   NewExpression                       143 (0.28%) in 21 files (32.3%)
-   ImportDeclaration                   120 (0.23%) in 18 files (27.7%)
-   TSConditionalType                   119 (0.23%) in 8 files (12.3%)
-   TSTypeAliasDeclaration              108 (0.21%) in 15 files (23.1%)
-   TSUnknownKeyword                    108 (0.21%) in 11 files (16.9%)
-   ArrayExpression                     101 (0.20%) in 16 files (24.6%)
-   ThrowStatement                      101 (0.20%) in 29 files (44.6%)
-   ObjectPattern                       100 (0.19%) in 25 files (38.5%)
-   TSMethodSignature                   100 (0.19%) in 7 files (10.8%)
-   Unknown                              99 (0.19%) in 16 files (24.6%)
-   ExportSpecifier                      94 (0.18%) in 1 files (1.5%)
-   ArrowFunctionExpression              91 (0.18%) in 26 files (40.0%)
-   TemplateElement                      77 (0.15%) in 12 files (18.5%)
-   TSInterfaceDeclaration               74 (0.14%) in 14 files (21.5%)
-   TSInterfaceBody                      74 (0.14%) in 14 files (21.5%)
-   TSVoidKeyword                        69 (0.13%) in 12 files (18.5%)
-   TSFunctionType                       67 (0.13%) in 11 files (16.9%)
-   Program                              65 (0.13%) in 65 files (100.0%)
-   TSTypeLiteral                        54 (0.11%) in 12 files (18.5%)
-   TSIndexedAccessType                  54 (0.11%) in 6 files (9.2%)
-   TSBooleanKeyword                     52 (0.10%) in 8 files (12.3%)
-   TSCallSignatureDeclaration           52 (0.10%) in 9 files (13.8%)
-   TSQualifiedName                      50 (0.10%) in 5 files (7.7%)
-   ConditionalExpression                46 (0.09%) in 18 files (27.7%)
-   TSNumberKeyword                      45 (0.09%) in 10 files (15.4%)
-   TSArrayType                          39 (0.08%) in 7 files (10.8%)
-   UpdateExpression                     38 (0.07%) in 11 files (16.9%)
-   TSIntersectionType                   35 (0.07%) in 12 files (18.5%)
-   TSAnyKeyword                         35 (0.07%) in 9 files (13.8%)
-   TSNeverKeyword                       32 (0.06%) in 6 files (9.2%)
-   TryStatement                         26 (0.05%) in 10 files (15.4%)
-   TemplateLiteral                      24 (0.05%) in 11 files (16.9%)
-   CatchClause                          24 (0.05%) in 10 files (15.4%)
-   ChainExpression                      24 (0.05%) in 6 files (9.2%)
-   TSTypeOperator                       21 (0.04%) in 4 files (6.2%)
-   ForOfStatement                       20 (0.04%) in 10 files (15.4%)
-   TSParenthesizedType                  19 (0.04%) in 7 files (10.8%)
-   TSIndexSignature                     18 (0.04%) in 6 files (9.2%)
-   AssignmentPattern                    16 (0.03%) in 8 files (12.3%)
-   TSUndefinedKeyword                   16 (0.03%) in 4 files (6.2%)
-   TSNullKeyword                        15 (0.03%) in 7 files (10.8%)
-   TSSymbolKeyword                      12 (0.02%) in 3 files (4.6%)
-   MethodDefinition                     12 (0.02%) in 1 files (1.5%)
-   ForStatement                         11 (0.02%) in 8 files (12.3%)
-   SpreadElement                        10 (0.02%) in 5 files (7.7%)
-   ImportNamespaceSpecifier             10 (0.02%) in 4 files (6.2%)
-   TSInterfaceHeritage                   9 (0.02%) in 5 files (7.7%)
-   TSTemplateLiteralType                 8 (0.02%) in 1 files (1.5%)
-   TSInferType                           8 (0.02%) in 2 files (3.1%)
-   RestElement                           6 (0.01%) in 3 files (4.6%)
-   TSTupleType                           5 (0.01%) in 3 files (4.6%)
-   TSMappedType                          5 (0.01%) in 2 files (3.1%)
-   ContinueStatement                     5 (0.01%) in 3 files (4.6%)
-   TSDeclareFunction                     4 (0.01%) in 1 files (1.5%)
-   SwitchCase                            4 (0.01%) in 1 files (1.5%)
-   ForInStatement                        4 (0.01%) in 2 files (3.1%)
-   BreakStatement                        3 (0.01%) in 2 files (3.1%)
-   WhileStatement                        3 (0.01%) in 2 files (3.1%)
-   TSModuleDeclaration                   2 (0.00%) in 1 files (1.5%)
-   TSModuleBlock                         2 (0.00%) in 1 files (1.5%)
-   ImportDefaultSpecifier                2 (0.00%) in 2 files (3.1%)
-   TSTypeQuery                           1 (0.00%) in 1 files (1.5%)
-   TSExportAssignment                    1 (0.00%) in 1 files (1.5%)
-   ClassDeclaration                      1 (0.00%) in 1 files (1.5%)
-   ClassBody                             1 (0.00%) in 1 files (1.5%)
-   SwitchStatement                       1 (0.00%) in 1 files (1.5%)
-   ArrayPattern                          1 (0.00%) in 1 files (1.5%)
-   AwaitExpression                       1 (0.00%) in 1 files (1.5%)
+   Identifier                      127,153 (38.75%) in 283 files (100.0%)
+   MemberExpression                 38,559 (11.75%) in 267 files (94.3%)
+   CallExpression                   30,037 (9.15%) in 264 files (93.3%)
+   Literal                          26,496 (8.07%) in 283 files (100.0%)
+   ExpressionStatement              22,759 (6.94%) in 265 files (93.6%)
+   Property                         14,625 (4.46%) in 250 files (88.3%)
+   BlockStatement                    9,223 (2.81%) in 254 files (89.8%)
+   ObjectExpression                  8,121 (2.47%) in 240 files (84.8%)
+   TSTypeReference                   6,492 (1.98%) in 34 files (12.0%)
+   VariableDeclarator                5,870 (1.79%) in 259 files (91.5%)
+   VariableDeclaration               5,865 (1.79%) in 259 files (91.5%)
+   ArrowFunctionExpression           5,727 (1.75%) in 227 files (80.2%)
+   TSTypeParameterInstantiation      2,318 (0.71%) in 33 files (11.7%)
+   AwaitExpression                   1,981 (0.60%) in 143 files (50.5%)
+   FunctionExpression                1,835 (0.56%) in 185 files (65.4%)
+   BinaryExpression                  1,761 (0.54%) in 138 files (48.8%)
+   TSTypeAnnotation                  1,482 (0.45%) in 30 files (10.6%)
+   AssignmentExpression              1,360 (0.41%) in 143 files (50.5%)
+   ReturnStatement                   1,089 (0.33%) in 133 files (47.0%)
+   IfStatement                       1,035 (0.32%) in 100 files (35.3%)
+   Unknown                             973 (0.30%) in 103 files (36.4%)
+   UnaryExpression                     843 (0.26%) in 110 files (38.9%)
+   ThisExpression                      825 (0.25%) in 45 files (15.9%)
+   TemplateElement                     735 (0.22%) in 83 files (29.3%)
+   NewExpression                       700 (0.21%) in 112 files (39.6%)
+   TSTypeParameter                     681 (0.21%) in 19 files (6.7%)
+   ArrayExpression                     559 (0.17%) in 93 files (32.9%)
+   ImportSpecifier                     542 (0.17%) in 39 files (13.8%)
+   ObjectPattern                       538 (0.16%) in 203 files (71.7%)
+   LogicalExpression                   506 (0.15%) in 41 files (14.5%)
+   TSStringKeyword                     461 (0.14%) in 26 files (9.2%)
+   FunctionDeclaration                 454 (0.14%) in 83 files (29.3%)
+   TSPropertySignature                 427 (0.13%) in 25 files (8.8%)
+   TSLiteralType                       350 (0.11%) in 20 files (7.1%)
+   TemplateLiteral                     347 (0.11%) in 82 files (29.0%)
+   Program                             283 (0.09%) in 283 files (100.0%)
+   TryStatement                        280 (0.09%) in 85 files (30.0%)
+   CatchClause                         277 (0.08%) in 84 files (29.7%)
+   TSUnionType                         266 (0.08%) in 22 files (7.8%)
+   ParenthesizedExpression             248 (0.08%) in 48 files (17.0%)
+   ImportDeclaration                   213 (0.06%) in 40 files (14.1%)
+   UpdateExpression                    208 (0.06%) in 42 files (14.8%)
+   ThrowStatement                      199 (0.06%) in 56 files (19.8%)
+   TSQualifiedName                     199 (0.06%) in 13 files (4.6%)
+   TSVoidKeyword                       176 (0.05%) in 24 files (8.5%)
+   TSNumberKeyword                     173 (0.05%) in 17 files (6.0%)
+   TSTypeParameterDeclaration          170 (0.05%) in 19 files (6.7%)
+   TSUnknownKeyword                    161 (0.05%) in 19 files (6.7%)
+   TSFunctionType                      158 (0.05%) in 20 files (7.1%)
+   ExportNamedDeclaration              150 (0.05%) in 17 files (6.0%)
+   TSBooleanKeyword                    138 (0.04%) in 15 files (5.3%)
+   TSTypeAliasDeclaration              127 (0.04%) in 23 files (8.1%)
+   TSConditionalType                   124 (0.04%) in 10 files (3.5%)
+   TSInterfaceDeclaration              113 (0.03%) in 25 files (8.8%)
+   TSInterfaceBody                     113 (0.03%) in 25 files (8.8%)
+   TSMethodSignature                   104 (0.03%) in 9 files (3.2%)
+   TSTypeLiteral                       102 (0.03%) in 20 files (7.1%)
+   SwitchCase                           98 (0.03%) in 9 files (3.2%)
+   TSArrayType                          97 (0.03%) in 13 files (4.6%)
+   ExportSpecifier                      94 (0.03%) in 1 files (0.4%)
+   ForOfStatement                       91 (0.03%) in 32 files (11.3%)
+   BreakStatement                       91 (0.03%) in 14 files (4.9%)
+   TSIntersectionType                   90 (0.03%) in 21 files (7.4%)
+   TSIndexedAccessType                  79 (0.02%) in 12 files (4.2%)
+   TSUndefinedKeyword                   77 (0.02%) in 11 files (3.9%)
+   ConditionalExpression                60 (0.02%) in 27 files (9.5%)
+   TSAnyKeyword                         58 (0.02%) in 14 files (4.9%)
+   ArrayPattern                         53 (0.02%) in 17 files (6.0%)
+   TSCallSignatureDeclaration           52 (0.02%) in 9 files (3.2%)
+   TSAsExpression                       39 (0.01%) in 5 files (1.8%)
+   TSIndexSignature                     32 (0.01%) in 9 files (3.2%)
+   TSParenthesizedType                  32 (0.01%) in 9 files (3.2%)
+   TSNeverKeyword                       32 (0.01%) in 6 files (2.1%)
+   TSNullKeyword                        28 (0.01%) in 11 files (3.9%)
+   ChainExpression                      26 (0.01%) in 8 files (2.8%)
+   TSInterfaceHeritage                  24 (0.01%) in 11 files (3.9%)
+   SwitchStatement                      23 (0.01%) in 9 files (3.2%)
+   ForStatement                         22 (0.01%) in 13 files (4.6%)
+   MethodDefinition                     21 (0.01%) in 2 files (0.7%)
+   TSTypeOperator                       21 (0.01%) in 4 files (1.4%)
+   ImportDefaultSpecifier               20 (0.01%) in 18 files (6.4%)
+   SpreadElement                        19 (0.01%) in 13 files (4.6%)
+   AssignmentPattern                    18 (0.01%) in 10 files (3.5%)
+   ImportNamespaceSpecifier             18 (0.01%) in 9 files (3.2%)
+   RestElement                          17 (0.01%) in 5 files (1.8%)
+   TSTypeQuery                          15 (0.00%) in 5 files (1.8%)
+   TSSymbolKeyword                      12 (0.00%) in 3 files (1.1%)
+   ClassDeclaration                      9 (0.00%) in 6 files (2.1%)
+   ClassBody                             9 (0.00%) in 6 files (2.1%)
+   TSTemplateLiteralType                 8 (0.00%) in 1 files (0.4%)
+   TSInferType                           8 (0.00%) in 2 files (0.7%)
+   TSThisType                            8 (0.00%) in 1 files (0.4%)
+   ImportExpression                      7 (0.00%) in 4 files (1.4%)
+   ContinueStatement                     6 (0.00%) in 4 files (1.4%)
+   TSModuleDeclaration                   5 (0.00%) in 4 files (1.4%)
+   TSModuleBlock                         5 (0.00%) in 4 files (1.4%)
+   TSTupleType                           5 (0.00%) in 3 files (1.1%)
+   ForInStatement                        5 (0.00%) in 3 files (1.1%)
+   TSMappedType                          5 (0.00%) in 2 files (0.7%)
+   TSDeclareFunction                     4 (0.00%) in 1 files (0.4%)
+   WhileStatement                        3 (0.00%) in 2 files (0.7%)
+   ExportDefaultDeclaration              3 (0.00%) in 3 files (1.1%)
+   PropertyDefinition                    2 (0.00%) in 2 files (0.7%)
+   TSExportAssignment                    1 (0.00%) in 1 files (0.4%)
+   TSClassImplements                     1 (0.00%) in 1 files (0.4%)
+   TSNonNullExpression                   1 (0.00%) in 1 files (0.4%)
+
+📁 FILE EXAMPLES BY NODE TYPE:
+
+   Identifier:
+     📄 Files WITH Identifier (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+     📄 Files WITHOUT Identifier: (all files contain this node type)
+
+   MemberExpression:
+     📄 Files WITH MemberExpression (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+     📄 Files WITHOUT MemberExpression (showing 10):
+       • fastify.d.ts
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
+
+   CallExpression:
+     📄 Files WITH CallExpression (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+     📄 Files WITHOUT CallExpression (showing 10):
+       • fastify.d.ts
+       • lib/noop-set.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+
+   Literal:
+     📄 Files WITH Literal (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+     📄 Files WITHOUT Literal: (all files contain this node type)
+
+   ExpressionStatement:
+     📄 Files WITH ExpressionStatement (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+     📄 Files WITHOUT ExpressionStatement (showing 10):
+       • fastify.d.ts
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
+
+   Property:
+     📄 Files WITH Property (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+     📄 Files WITHOUT Property (showing 10):
+       • fastify.d.ts
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
+
+   BlockStatement:
+     📄 Files WITH BlockStatement (showing 10):
+       • fastify.js
+       • lib/wrapThenable.js
+       • lib/validation.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+       • lib/request.js
+       • lib/reqIdGenFactory.js
+       • lib/reply.js
+     📄 Files WITHOUT BlockStatement (showing 10):
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/warnings.js
+       • lib/symbols.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+
+   ObjectExpression:
+     📄 Files WITH ObjectExpression (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+     📄 Files WITHOUT ObjectExpression (showing 10):
+       • fastify.d.ts
+       • lib/pluginOverride.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+
+   TSTypeReference:
+     📄 Files WITH TSTypeReference (showing 10):
+       • fastify.d.ts
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
+     📄 Files WITHOUT TSTypeReference (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   VariableDeclarator:
+     📄 Files WITH VariableDeclarator (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+     📄 Files WITHOUT VariableDeclarator (showing 10):
+       • lib/noop-set.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
+
+   VariableDeclaration:
+     📄 Files WITH VariableDeclaration (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+     📄 Files WITHOUT VariableDeclaration (showing 10):
+       • lib/noop-set.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
+
+   ArrowFunctionExpression:
+     📄 Files WITH ArrowFunctionExpression (showing 10):
+       • fastify.js
+       • lib/validation.js
+       • lib/server.js
+       • lib/schema-controller.js
+       • lib/route.js
+       • lib/request.js
+       • lib/reply.js
+       • lib/promise.js
+       • lib/pluginUtils.js
+       • lib/logger-factory.js
+     📄 Files WITHOUT ArrowFunctionExpression (showing 10):
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/symbols.js
+       • lib/schemas.js
+       • lib/reqIdGenFactory.js
+       • lib/pluginOverride.js
+       • lib/noop-set.js
+       • lib/logger-pino.js
+
+   TSTypeParameterInstantiation:
+     📄 Files WITH TSTypeParameterInstantiation (showing 10):
+       • fastify.d.ts
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
+     📄 Files WITHOUT TSTypeParameterInstantiation (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   AwaitExpression:
+     📄 Files WITH AwaitExpression (showing 10):
+       • test/wrap-thenable.test.js
+       • test/web-api.test.js
+       • test/versioned-routes.test.js
+       • test/validation-error-handling.test.js
+       • test/use-semicolon-delimiter.test.js
+       • test/url-rewriting.test.js
+       • test/upgrade.test.js
+       • test/trust-proxy.test.js
+       • test/throw.test.js
+       • test/sync-routes.test.js
+     📄 Files WITHOUT AwaitExpression (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+
+   FunctionExpression:
+     📄 Files WITH FunctionExpression (showing 10):
+       • fastify.js
+       • lib/wrapThenable.js
+       • lib/validation.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+       • lib/request.js
+       • lib/reqIdGenFactory.js
+       • lib/reply.js
+     📄 Files WITHOUT FunctionExpression (showing 10):
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/warnings.js
+       • lib/symbols.js
+       • lib/promise.js
+       • lib/pluginUtils.js
+       • lib/logger-factory.js
+       • lib/initialConfigValidation.js
+       • lib/headRoute.js
+       • lib/handleRequest.js
+
+   BinaryExpression:
+     📄 Files WITH BinaryExpression (showing 10):
+       • fastify.js
+       • lib/wrapThenable.js
+       • lib/validation.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+       • lib/request.js
+       • lib/reqIdGenFactory.js
+       • lib/reply.js
+     📄 Files WITHOUT BinaryExpression (showing 10):
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/warnings.js
+       • lib/symbols.js
+       • lib/noop-set.js
+       • lib/logger-pino.js
+       • lib/errors.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+
+   TSTypeAnnotation:
+     📄 Files WITH TSTypeAnnotation (showing 10):
+       • fastify.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
+       • types/logger.d.ts
+     📄 Files WITHOUT TSTypeAnnotation (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   AssignmentExpression:
+     📄 Files WITH AssignmentExpression (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+     📄 Files WITHOUT AssignmentExpression (showing 10):
+       • fastify.d.ts
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
+
+   ReturnStatement:
+     📄 Files WITH ReturnStatement (showing 10):
+       • fastify.js
+       • lib/wrapThenable.js
+       • lib/validation.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+       • lib/request.js
+       • lib/reqIdGenFactory.js
+       • lib/reply.js
+     📄 Files WITHOUT ReturnStatement (showing 10):
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/warnings.js
+       • lib/symbols.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+
+   IfStatement:
+     📄 Files WITH IfStatement (showing 10):
+       • fastify.js
+       • lib/wrapThenable.js
+       • lib/validation.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+       • lib/request.js
+       • lib/reqIdGenFactory.js
+       • lib/reply.js
+     📄 Files WITHOUT IfStatement (showing 10):
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/warnings.js
+       • lib/symbols.js
+       • lib/promise.js
+       • lib/noop-set.js
+       • lib/errors.js
+       • lib/context.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+
+   Unknown:
+     📄 Files WITH Unknown (showing 10):
+       • fastify.js
+       • lib/validation.js
+       • lib/server.js
+       • lib/route.js
+       • lib/reqIdGenFactory.js
+       • lib/reply.js
+       • lib/pluginUtils.js
+       • lib/hooks.js
+       • lib/fourOhFour.js
+       • lib/configValidator.js
+     📄 Files WITHOUT Unknown (showing 10):
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/symbols.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/request.js
+       • lib/promise.js
+       • lib/pluginOverride.js
+
+   UnaryExpression:
+     📄 Files WITH UnaryExpression (showing 10):
+       • fastify.js
+       • lib/wrapThenable.js
+       • lib/validation.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+       • lib/request.js
+       • lib/reply.js
+       • lib/promise.js
+     📄 Files WITHOUT UnaryExpression (showing 10):
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/warnings.js
+       • lib/symbols.js
+       • lib/reqIdGenFactory.js
+       • lib/noop-set.js
+       • lib/errors.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+
+   ThisExpression:
+     📄 Files WITH ThisExpression (showing 10):
+       • fastify.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+       • lib/request.js
+       • lib/reply.js
+       • lib/pluginUtils.js
+       • lib/hooks.js
+       • lib/handleRequest.js
+     📄 Files WITHOUT ThisExpression (showing 10):
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/reqIdGenFactory.js
+       • lib/promise.js
+       • lib/pluginOverride.js
+       • lib/noop-set.js
+
+   TemplateElement:
+     📄 Files WITH TemplateElement (showing 10):
+       • fastify.js
+       • lib/server.js
+       • lib/route.js
+       • lib/reqIdGenFactory.js
+       • lib/reply.js
+       • lib/pluginUtils.js
+       • lib/hooks.js
+       • lib/fourOhFour.js
+       • types/utils.d.ts
+       • integration/server.js
+     📄 Files WITHOUT TemplateElement (showing 10):
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/request.js
+       • lib/promise.js
+
+   NewExpression:
+     📄 Files WITH NewExpression (showing 10):
+       • fastify.js
+       • lib/validation.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+       • lib/request.js
+       • lib/reply.js
+       • lib/promise.js
+       • lib/pluginUtils.js
+     📄 Files WITHOUT NewExpression (showing 10):
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/symbols.js
+       • lib/reqIdGenFactory.js
+       • lib/pluginOverride.js
+       • lib/noop-set.js
+       • lib/headRoute.js
+       • lib/handleRequest.js
+
+   TSTypeParameter:
+     📄 Files WITH TSTypeParameter (showing 10):
+       • fastify.d.ts
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
+     📄 Files WITHOUT TSTypeParameter (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   ArrayExpression:
+     📄 Files WITH ArrayExpression (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/route.js
+       • lib/request.js
+       • lib/reply.js
+       • lib/pluginOverride.js
+       • lib/logger-factory.js
+       • lib/hooks.js
+     📄 Files WITHOUT ArrayExpression (showing 10):
+       • fastify.d.ts
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/schema-controller.js
+       • lib/reqIdGenFactory.js
+       • lib/promise.js
+       • lib/pluginUtils.js
+       • lib/noop-set.js
+
+   ImportSpecifier:
+     📄 Files WITH ImportSpecifier (showing 10):
+       • fastify.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
+       • types/logger.d.ts
+     📄 Files WITHOUT ImportSpecifier (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   ObjectPattern:
+     📄 Files WITH ObjectPattern (showing 10):
+       • fastify.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+       • lib/request.js
+       • lib/reply.js
+     📄 Files WITHOUT ObjectPattern (showing 10):
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/symbols.js
+       • lib/reqIdGenFactory.js
+       • lib/noop-set.js
+       • lib/headRoute.js
+       • lib/errors.js
+       • lib/error-serializer.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+
+   LogicalExpression:
+     📄 Files WITH LogicalExpression (showing 10):
+       • fastify.js
+       • lib/wrapThenable.js
+       • lib/validation.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+       • lib/request.js
+       • lib/reqIdGenFactory.js
+       • lib/reply.js
+     📄 Files WITHOUT LogicalExpression (showing 10):
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/warnings.js
+       • lib/symbols.js
+       • lib/promise.js
+       • lib/noop-set.js
+       • lib/headRoute.js
+       • lib/errors.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+
+   TSStringKeyword:
+     📄 Files WITH TSStringKeyword (showing 10):
+       • fastify.d.ts
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
+     📄 Files WITHOUT TSStringKeyword (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   FunctionDeclaration:
+     📄 Files WITH FunctionDeclaration (showing 10):
+       • fastify.js
+       • lib/wrapThenable.js
+       • lib/validation.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+       • lib/request.js
+       • lib/reqIdGenFactory.js
+       • lib/reply.js
+     📄 Files WITHOUT FunctionDeclaration (showing 10):
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/warnings.js
+       • lib/symbols.js
+       • lib/noop-set.js
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+
+   TSPropertySignature:
+     📄 Files WITH TSPropertySignature (showing 10):
+       • fastify.d.ts
+       • types/type-provider.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/logger.d.ts
+       • types/instance.d.ts
+       • types/hooks.d.ts
+     📄 Files WITHOUT TSPropertySignature (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   TSLiteralType:
+     📄 Files WITH TSLiteralType (showing 10):
+       • fastify.d.ts
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/logger.d.ts
+       • types/instance.d.ts
+       • types/hooks.d.ts
+     📄 Files WITHOUT TSLiteralType (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   TemplateLiteral:
+     📄 Files WITH TemplateLiteral (showing 10):
+       • fastify.js
+       • lib/server.js
+       • lib/route.js
+       • lib/reqIdGenFactory.js
+       • lib/reply.js
+       • lib/pluginUtils.js
+       • lib/hooks.js
+       • lib/fourOhFour.js
+       • integration/server.js
+       • examples/typescript-server.ts
+     📄 Files WITHOUT TemplateLiteral (showing 10):
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/request.js
+       • lib/promise.js
+
+   Program:
+     📄 Files WITH Program (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+     📄 Files WITHOUT Program: (all files contain this node type)
+
+   TryStatement:
+     📄 Files WITH TryStatement (showing 10):
+       • fastify.js
+       • lib/wrapThenable.js
+       • lib/route.js
+       • lib/reply.js
+       • lib/hooks.js
+       • lib/handleRequest.js
+       • lib/error-handler.js
+       • lib/contentTypeParser.js
+       • examples/parser.js
+       • test/validation-error-handling.test.js
+     📄 Files WITHOUT TryStatement (showing 10):
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/request.js
+       • lib/reqIdGenFactory.js
+
+   CatchClause:
+     📄 Files WITH CatchClause (showing 10):
+       • fastify.js
+       • lib/wrapThenable.js
+       • lib/route.js
+       • lib/reply.js
+       • lib/hooks.js
+       • lib/handleRequest.js
+       • lib/error-handler.js
+       • lib/contentTypeParser.js
+       • examples/parser.js
+       • test/validation-error-handling.test.js
+     📄 Files WITHOUT CatchClause (showing 10):
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/request.js
+       • lib/reqIdGenFactory.js
+
+   TSUnionType:
+     📄 Files WITH TSUnionType (showing 10):
+       • fastify.d.ts
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
+     📄 Files WITHOUT TSUnionType (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   ParenthesizedExpression:
+     📄 Files WITH ParenthesizedExpression (showing 10):
+       • fastify.js
+       • lib/wrapThenable.js
+       • lib/validation.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+       • lib/request.js
+       • lib/reqIdGenFactory.js
+       • lib/reply.js
+     📄 Files WITHOUT ParenthesizedExpression (showing 10):
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/warnings.js
+       • lib/symbols.js
+       • lib/promise.js
+       • lib/pluginUtils.js
+       • lib/pluginOverride.js
+       • lib/noop-set.js
+       • lib/logger-pino.js
+       • lib/hooks.js
+
+   ImportDeclaration:
+     📄 Files WITH ImportDeclaration (showing 10):
+       • fastify.d.ts
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
+     📄 Files WITHOUT ImportDeclaration (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   UpdateExpression:
+     📄 Files WITH UpdateExpression (showing 10):
+       • lib/server.js
+       • lib/schemas.js
+       • lib/route.js
+       • lib/request.js
+       • lib/reply.js
+       • lib/pluginUtils.js
+       • lib/hooks.js
+       • lib/decorate.js
+       • lib/context.js
+       • lib/contentTypeParser.js
+     📄 Files WITHOUT UpdateExpression (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/schema-controller.js
+       • lib/reqIdGenFactory.js
+       • lib/promise.js
+
+   ThrowStatement:
+     📄 Files WITH ThrowStatement (showing 10):
+       • fastify.js
+       • lib/validation.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/route.js
+       • lib/request.js
+       • lib/reply.js
+       • lib/pluginUtils.js
+       • lib/logger-pino.js
+       • lib/logger-factory.js
+     📄 Files WITHOUT ThrowStatement (showing 10):
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/symbols.js
+       • lib/schema-controller.js
+       • lib/reqIdGenFactory.js
+       • lib/promise.js
+       • lib/pluginOverride.js
+       • lib/noop-set.js
+
+   TSQualifiedName:
+     📄 Files WITH TSQualifiedName (showing 10):
+       • fastify.d.ts
+       • types/utils.d.ts
+       • types/serverFactory.d.ts
+       • types/logger.d.ts
+       • types/instance.d.ts
+       • test/types/using.test-d.ts
+       • test/types/serverFactory.test-d.ts
+       • test/types/route.test-d.ts
+       • test/types/plugin.test-d.ts
+       • test/types/logger.test-d.ts
+     📄 Files WITHOUT TSQualifiedName (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   TSVoidKeyword:
+     📄 Files WITH TSVoidKeyword (showing 10):
+       • fastify.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
+       • types/logger.d.ts
+       • types/instance.d.ts
+     📄 Files WITHOUT TSVoidKeyword (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   TSNumberKeyword:
+     📄 Files WITH TSNumberKeyword (showing 10):
+       • fastify.d.ts
+       • types/utils.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/logger.d.ts
+       • types/instance.d.ts
+       • types/hooks.d.ts
+       • types/content-type-parser.d.ts
+       • examples/typescript-server.ts
+     📄 Files WITHOUT TSNumberKeyword (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   TSTypeParameterDeclaration:
+     📄 Files WITH TSTypeParameterDeclaration (showing 10):
+       • fastify.d.ts
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
+     📄 Files WITHOUT TSTypeParameterDeclaration (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   TSUnknownKeyword:
+     📄 Files WITH TSUnknownKeyword (showing 10):
+       • fastify.d.ts
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/logger.d.ts
+       • types/instance.d.ts
+     📄 Files WITHOUT TSUnknownKeyword (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   TSFunctionType:
+     📄 Files WITH TSFunctionType (showing 10):
+       • fastify.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
+       • types/logger.d.ts
+       • types/instance.d.ts
+       • types/hooks.d.ts
+     📄 Files WITHOUT TSFunctionType (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   ExportNamedDeclaration:
+     📄 Files WITH ExportNamedDeclaration (showing 10):
+       • fastify.d.ts
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
+     📄 Files WITHOUT ExportNamedDeclaration (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   TSBooleanKeyword:
+     📄 Files WITH TSBooleanKeyword (showing 10):
+       • fastify.d.ts
+       • types/utils.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/instance.d.ts
+       • types/content-type-parser.d.ts
+       • test/types/type-provider.test-d.ts
+       • test/types/route.test-d.ts
+     📄 Files WITHOUT TSBooleanKeyword (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   TSTypeAliasDeclaration:
+     📄 Files WITH TSTypeAliasDeclaration (showing 10):
+       • fastify.d.ts
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
+     📄 Files WITHOUT TSTypeAliasDeclaration (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   TSConditionalType:
+     📄 Files WITH TSConditionalType (showing 10):
+       • fastify.d.ts
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/reply.d.ts
+       • types/instance.d.ts
+       • types/hooks.d.ts
+       • types/content-type-parser.d.ts
+       • test/types/type-provider.test-d.ts
+       • test/types/route.test-d.ts
+     📄 Files WITHOUT TSConditionalType (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   TSInterfaceDeclaration:
+     📄 Files WITH TSInterfaceDeclaration (showing 10):
+       • fastify.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/logger.d.ts
+       • types/instance.d.ts
+     📄 Files WITHOUT TSInterfaceDeclaration (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   TSInterfaceBody:
+     📄 Files WITH TSInterfaceBody (showing 10):
+       • fastify.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/logger.d.ts
+       • types/instance.d.ts
+     📄 Files WITHOUT TSInterfaceBody (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   TSMethodSignature:
+     📄 Files WITH TSMethodSignature (showing 9):
+       • fastify.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/logger.d.ts
+       • types/instance.d.ts
+       • test/types/logger.test-d.ts
+       • test/types/instance.test-d.ts
+     📄 Files WITHOUT TSMethodSignature (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   TSTypeLiteral:
+     📄 Files WITH TSTypeLiteral (showing 10):
+       • fastify.d.ts
+       • types/type-provider.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/logger.d.ts
+       • types/instance.d.ts
+       • types/hooks.d.ts
+     📄 Files WITHOUT TSTypeLiteral (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   SwitchCase:
+     📄 Files WITH SwitchCase (showing 9):
+       • lib/route.js
+       • test/schema-special-usage.test.js
+       • test/schema-serialization.test.js
+       • test/schema-feature.test.js
+       • test/listen.5.test.js
+       • test/content-type.test.js
+       • test/types/type-provider.test-d.ts
+       • test/internals/request-validate.test.js
+       • test/internals/reply.test.js
+     📄 Files WITHOUT SwitchCase (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+
+   TSArrayType:
+     📄 Files WITH TSArrayType (showing 10):
+       • fastify.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/instance.d.ts
+       • types/content-type-parser.d.ts
+       • test/types/type-provider.test-d.ts
+       • test/types/route.test-d.ts
+       • test/types/request.test-d.ts
+     📄 Files WITHOUT TSArrayType (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   ExportSpecifier:
+     📄 Files WITH ExportSpecifier (showing 1):
+       • fastify.d.ts
+     📄 Files WITHOUT ExportSpecifier (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   ForOfStatement:
+     📄 Files WITH ForOfStatement (showing 10):
+       • fastify.js
+       • lib/validation.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/route.js
+       • lib/reply.js
+       • lib/pluginOverride.js
+       • lib/initialConfigValidation.js
+       • lib/fourOhFour.js
+       • lib/contentTypeParser.js
+     📄 Files WITHOUT ForOfStatement (showing 10):
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/symbols.js
+       • lib/schema-controller.js
+       • lib/request.js
+       • lib/reqIdGenFactory.js
+       • lib/promise.js
+       • lib/pluginUtils.js
+
+   BreakStatement:
+     📄 Files WITH BreakStatement (showing 10):
+       • lib/route.js
+       • lib/configValidator.js
+       • test/server.test.js
+       • test/schema-serialization.test.js
+       • test/schema-feature.test.js
+       • test/listen.5.test.js
+       • test/logger/response.test.js
+       • test/logger/request.test.js
+       • test/logger/options.test.js
+       • test/logger/logging.test.js
+     📄 Files WITHOUT BreakStatement (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+
+   TSIntersectionType:
+     📄 Files WITH TSIntersectionType (showing 10):
+       • fastify.d.ts
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/serverFactory.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/logger.d.ts
+       • types/instance.d.ts
+     📄 Files WITHOUT TSIntersectionType (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   TSIndexedAccessType:
+     📄 Files WITH TSIndexedAccessType (showing 10):
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/instance.d.ts
+       • test/types/using.test-d.ts
+       • test/types/type-provider.test-d.ts
+       • test/types/request.test-d.ts
+       • test/types/reply.test-d.ts
+     📄 Files WITHOUT TSIndexedAccessType (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+
+   TSUndefinedKeyword:
+     📄 Files WITH TSUndefinedKeyword (showing 10):
+       • types/type-provider.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/instance.d.ts
+       • test/types/type-provider.test-d.ts
+       • test/types/request.test-d.ts
+       • test/types/reply.test-d.ts
+       • test/types/plugin.test-d.ts
+       • test/types/instance.test-d.ts
+       • test/types/hooks.test-d.ts
+     📄 Files WITHOUT TSUndefinedKeyword (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+
+   ConditionalExpression:
+     📄 Files WITH ConditionalExpression (showing 10):
+       • fastify.js
+       • lib/validation.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/route.js
+       • lib/request.js
+       • lib/reply.js
+       • lib/promise.js
+       • lib/pluginUtils.js
+       • lib/logger-pino.js
+     📄 Files WITHOUT ConditionalExpression (showing 10):
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/symbols.js
+       • lib/schema-controller.js
+       • lib/reqIdGenFactory.js
+       • lib/pluginOverride.js
+       • lib/noop-set.js
+       • lib/handleRequest.js
+
+   TSAnyKeyword:
+     📄 Files WITH TSAnyKeyword (showing 10):
+       • types/type-provider.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/plugin.d.ts
+       • types/instance.d.ts
+       • types/content-type-parser.d.ts
+       • test/types/request.test-d.ts
+     📄 Files WITHOUT TSAnyKeyword (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+
+   ArrayPattern:
+     📄 Files WITH ArrayPattern (showing 10):
+       • lib/reply.js
+       • test/versioned-routes.test.js
+       • test/trust-proxy.test.js
+       • test/listen.4.test.js
+       • test/listen.3.test.js
+       • test/listen.2.test.js
+       • test/listen.1.test.js
+       • test/hooks.on-listen.test.js
+       • test/close-pipelining.test.js
+       • test/logger/response.test.js
+     📄 Files WITHOUT ArrayPattern (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+
+   TSCallSignatureDeclaration:
+     📄 Files WITH TSCallSignatureDeclaration (showing 9):
+       • types/serverFactory.d.ts
+       • types/schema.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/register.d.ts
+       • types/logger.d.ts
+       • types/instance.d.ts
+       • types/hooks.d.ts
+       • types/content-type-parser.d.ts
+     📄 Files WITHOUT TSCallSignatureDeclaration (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+
+   TSAsExpression:
+     📄 Files WITH TSAsExpression (showing 5):
+       • test/types/type-provider.test-d.ts
+       • test/types/route.test-d.ts
+       • test/types/reply.test-d.ts
+       • test/types/logger.test-d.ts
+       • test/types/instance.test-d.ts
+     📄 Files WITHOUT TSAsExpression (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+
+   TSIndexSignature:
+     📄 Files WITH TSIndexSignature (showing 9):
+       • fastify.d.ts
+       • types/type-provider.d.ts
+       • types/route.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/logger.d.ts
+       • test/types/type-provider.test-d.ts
+       • test/types/request.test-d.ts
+       • test/types/reply.test-d.ts
+     📄 Files WITHOUT TSIndexSignature (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   TSParenthesizedType:
+     📄 Files WITH TSParenthesizedType (showing 9):
+       • fastify.d.ts
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/reply.d.ts
+       • types/register.d.ts
+       • types/instance.d.ts
+       • types/content-type-parser.d.ts
+       • test/types/reply.test-d.ts
+       • test/types/instance.test-d.ts
+     📄 Files WITHOUT TSParenthesizedType (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   TSNeverKeyword:
+     📄 Files WITH TSNeverKeyword (showing 6):
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/reply.d.ts
+       • types/plugin.d.ts
+       • types/instance.d.ts
+       • types/hooks.d.ts
+     📄 Files WITHOUT TSNeverKeyword (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+
+   TSNullKeyword:
+     📄 Files WITH TSNullKeyword (showing 10):
+       • fastify.d.ts
+       • types/schema.d.ts
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/instance.d.ts
+       • types/hooks.d.ts
+       • types/content-type-parser.d.ts
+       • test/types/route.test-d.ts
+       • test/types/reply.test-d.ts
+       • test/types/instance.test-d.ts
+     📄 Files WITHOUT TSNullKeyword (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   ChainExpression:
+     📄 Files WITH ChainExpression (showing 8):
+       • lib/schema-controller.js
+       • lib/route.js
+       • lib/request.js
+       • lib/reply.js
+       • lib/pluginUtils.js
+       • lib/hooks.js
+       • test/content-parser.test.js
+       • test/types/fastify.test-d.ts
+     📄 Files WITHOUT ChainExpression (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/reqIdGenFactory.js
+
+   TSInterfaceHeritage:
+     📄 Files WITH TSInterfaceHeritage (showing 10):
+       • fastify.d.ts
+       • types/type-provider.d.ts
+       • types/route.d.ts
+       • types/logger.d.ts
+       • types/hooks.d.ts
+       • test/types/type-provider.test-d.ts
+       • test/types/serverFactory.test-d.ts
+       • test/types/request.test-d.ts
+       • test/types/register.test-d.ts
+       • test/types/plugin.test-d.ts
+     📄 Files WITHOUT TSInterfaceHeritage (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   SwitchStatement:
+     📄 Files WITH SwitchStatement (showing 9):
+       • lib/route.js
+       • test/schema-special-usage.test.js
+       • test/schema-serialization.test.js
+       • test/schema-feature.test.js
+       • test/listen.5.test.js
+       • test/content-type.test.js
+       • test/types/type-provider.test-d.ts
+       • test/internals/request-validate.test.js
+       • test/internals/reply.test.js
+     📄 Files WITHOUT SwitchStatement (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+
+   ForStatement:
+     📄 Files WITH ForStatement (showing 10):
+       • lib/schemas.js
+       • lib/route.js
+       • lib/request.js
+       • lib/reply.js
+       • lib/pluginUtils.js
+       • lib/decorate.js
+       • lib/context.js
+       • lib/contentTypeParser.js
+       • test/toolkit.js
+       • test/route.8.test.js
+     📄 Files WITHOUT ForStatement (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schema-controller.js
+       • lib/reqIdGenFactory.js
+
+   MethodDefinition:
+     📄 Files WITH MethodDefinition (showing 2):
+       • lib/schema-controller.js
+       • test/types/logger.test-d.ts
+     📄 Files WITHOUT MethodDefinition (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/route.js
+
+   TSTypeOperator:
+     📄 Files WITH TSTypeOperator (showing 4):
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+       • types/reply.d.ts
+       • types/instance.d.ts
+     📄 Files WITHOUT TSTypeOperator (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+
+   ImportDefaultSpecifier:
+     📄 Files WITH ImportDefaultSpecifier (showing 10):
+       • types/logger.d.ts
+       • examples/typescript-server.ts
+       • test/types/using.test-d.ts
+       • test/types/type-provider.test-d.ts
+       • test/types/serverFactory.test-d.ts
+       • test/types/schema.test-d.ts
+       • test/types/route.test-d.ts
+       • test/types/request.test-d.ts
+       • test/types/reply.test-d.ts
+       • test/types/register.test-d.ts
+     📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+
+   SpreadElement:
+     📄 Files WITH SpreadElement (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/route.js
+       • lib/reply.js
+       • lib/headRoute.js
+       • test/reply-code.test.js
+       • test/listen.4.test.js
+       • test/issue-4959.test.js
+       • test/find-route.test.js
+       • test/types/plugin.test-d.ts
+     📄 Files WITHOUT SpreadElement (showing 10):
+       • fastify.d.ts
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/request.js
+       • lib/reqIdGenFactory.js
+
+   AssignmentPattern:
+     📄 Files WITH AssignmentPattern (showing 10):
+       • fastify.js
+       • lib/server.js
+       • lib/route.js
+       • lib/request.js
+       • lib/reply.js
+       • lib/error-handler.js
+       • lib/contentTypeParser.js
+       • lib/configValidator.js
+       • test/helper.js
+       • test/logger/logger-test-utils.js
+     📄 Files WITHOUT AssignmentPattern (showing 10):
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/reqIdGenFactory.js
+       • lib/promise.js
+
+   ImportNamespaceSpecifier:
+     📄 Files WITH ImportNamespaceSpecifier (showing 9):
+       • fastify.d.ts
+       • types/utils.d.ts
+       • types/serverFactory.d.ts
+       • types/instance.d.ts
+       • test/types/serverFactory.test-d.ts
+       • test/types/route.test-d.ts
+       • test/types/plugin.test-d.ts
+       • test/types/logger.test-d.ts
+       • test/types/fastify.test-d.ts
+     📄 Files WITHOUT ImportNamespaceSpecifier (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   RestElement:
+     📄 Files WITH RestElement (showing 5):
+       • fastify.js
+       • types/route.d.ts
+       • types/instance.d.ts
+       • test/stream.2.test.js
+       • test/types/logger.test-d.ts
+     📄 Files WITHOUT RestElement (showing 10):
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   TSTypeQuery:
+     📄 Files WITH TSTypeQuery (showing 5):
+       • fastify.d.ts
+       • test/types/using.test-d.ts
+       • test/types/type-provider.test-d.ts
+       • test/types/register.test-d.ts
+       • test/types/instance.test-d.ts
+     📄 Files WITHOUT TSTypeQuery (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   TSSymbolKeyword:
+     📄 Files WITH TSSymbolKeyword (showing 3):
+       • types/request.d.ts
+       • types/reply.d.ts
+       • types/instance.d.ts
+     📄 Files WITHOUT TSSymbolKeyword (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+
+   ClassDeclaration:
+     📄 Files WITH ClassDeclaration (showing 6):
+       • lib/schema-controller.js
+       • test/schema-validation.test.js
+       • test/schema-feature.test.js
+       • test/types/logger.test-d.ts
+       • test/types/instance.test-d.ts
+       • test/internals/validation.test.js
+     📄 Files WITHOUT ClassDeclaration (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/route.js
+
+   ClassBody:
+     📄 Files WITH ClassBody (showing 6):
+       • lib/schema-controller.js
+       • test/schema-validation.test.js
+       • test/schema-feature.test.js
+       • test/types/logger.test-d.ts
+       • test/types/instance.test-d.ts
+       • test/internals/validation.test.js
+     📄 Files WITHOUT ClassBody (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/route.js
+
+   TSTemplateLiteralType:
+     📄 Files WITH TSTemplateLiteralType (showing 1):
+       • types/utils.d.ts
+     📄 Files WITHOUT TSTemplateLiteralType (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+
+   TSInferType:
+     📄 Files WITH TSInferType (showing 2):
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+     📄 Files WITHOUT TSInferType (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+
+   TSThisType:
+     📄 Files WITH TSThisType (showing 1):
+       • test/types/type-provider.test-d.ts
+     📄 Files WITHOUT TSThisType (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+
+   ImportExpression:
+     📄 Files WITH ImportExpression (showing 4):
+       • test/types/plugin.test-d.ts
+       • test/esm/named-exports.mjs
+       • test/esm/index.test.js
+       • test/esm/esm.test.mjs
+     📄 Files WITHOUT ImportExpression (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+
+   ContinueStatement:
+     📄 Files WITH ContinueStatement (showing 4):
+       • lib/schemas.js
+       • lib/reply.js
+       • lib/initialConfigValidation.js
+       • test/logger/logging.test.js
+     📄 Files WITHOUT ContinueStatement (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   TSModuleDeclaration:
+     📄 Files WITH TSModuleDeclaration (showing 4):
+       • fastify.d.ts
+       • test/types/route.test-d.ts
+       • test/types/instance.test-d.ts
+       • test/types/decorate-request-reply.test-d.ts
+     📄 Files WITHOUT TSModuleDeclaration (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   TSModuleBlock:
+     📄 Files WITH TSModuleBlock (showing 4):
+       • fastify.d.ts
+       • test/types/route.test-d.ts
+       • test/types/instance.test-d.ts
+       • test/types/decorate-request-reply.test-d.ts
+     📄 Files WITHOUT TSModuleBlock (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   TSTupleType:
+     📄 Files WITH TSTupleType (showing 3):
+       • fastify.d.ts
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+     📄 Files WITHOUT TSTupleType (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   ForInStatement:
+     📄 Files WITH ForInStatement (showing 3):
+       • lib/reply.js
+       • lib/configValidator.js
+       • test/versioned-routes.test.js
+     📄 Files WITHOUT ForInStatement (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+
+   TSMappedType:
+     📄 Files WITH TSMappedType (showing 2):
+       • types/utils.d.ts
+       • types/type-provider.d.ts
+     📄 Files WITHOUT TSMappedType (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+
+   TSDeclareFunction:
+     📄 Files WITH TSDeclareFunction (showing 1):
+       • fastify.d.ts
+     📄 Files WITHOUT TSDeclareFunction (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   WhileStatement:
+     📄 Files WITH WhileStatement (showing 2):
+       • lib/route.js
+       • lib/hooks.js
+     📄 Files WITHOUT WhileStatement (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+
+   ExportDefaultDeclaration:
+     📄 Files WITH ExportDefaultDeclaration (showing 3):
+       • test/types/dummy-plugin.ts
+       • test/esm/plugin.mjs
+       • test/esm/other.mjs
+     📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+
+   PropertyDefinition:
+     📄 Files WITH PropertyDefinition (showing 2):
+       • test/types/logger.test-d.ts
+       • test/types/instance.test-d.ts
+     📄 Files WITHOUT PropertyDefinition (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+
+   TSExportAssignment:
+     📄 Files WITH TSExportAssignment (showing 1):
+       • fastify.d.ts
+     📄 Files WITHOUT TSExportAssignment (showing 10):
+       • fastify.js
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+       • lib/route.js
+
+   TSClassImplements:
+     📄 Files WITH TSClassImplements (showing 1):
+       • test/types/logger.test-d.ts
+     📄 Files WITHOUT TSClassImplements (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
+
+   TSNonNullExpression:
+     📄 Files WITH TSNonNullExpression (showing 1):
+       • test/types/fastify.test-d.ts
+     📄 Files WITHOUT TSNonNullExpression (showing 10):
+       • fastify.js
+       • fastify.d.ts
+       • eslint.config.js
+       • lib/wrapThenable.js
+       • lib/warnings.js
+       • lib/validation.js
+       • lib/symbols.js
+       • lib/server.js
+       • lib/schemas.js
+       • lib/schema-controller.js
 
 ============================================================
 ✅ Analysis complete!

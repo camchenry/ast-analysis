@@ -1,11 +1,12 @@
 AST Analysis Report for cypress
-Generated on: 2025-07-13T03:17:10.067Z
+Generated on: 2025-07-14T01:41:54.608Z
 Repository: sample-repos/cypress
 ================================================================================
 
 🔍 Analyzing JavaScript/TypeScript files in: /Users/camchenry/workspace/ast-analysis/sample-repos/cypress
 
-📁 Found 3565 files to analyze...
+📁 Found 4104 files to analyze...
+
 
 
 ============================================================
@@ -13,325 +14,3815 @@ Repository: sample-repos/cypress
 ============================================================
 
 📁 FILE STATISTICS:
-   Total files found: 3565
-   Successfully parsed: 3565
+   Total files found: 4104
+   Successfully parsed: 4104
    Failed to parse: 0
-   Total file size: 14.6 MB
+   Total file size: 17.7 MB
 
 🌳 NODE STATISTICS:
-   Total nodes: 1,848,349
-   Average nodes per file: 518
-   Average file size: 4.2 KB
+   Total nodes: 2,258,390
+   Average nodes per file: 550
+   Average file size: 4.4 KB
 
 📋 ALL NODE TYPES (BY FILE PRESENCE):
-   Program                        3565 files (100.0%) -    3,565 total (0.19%)
-   Identifier                     3265 files ( 91.6%) -  652,250 total (35.29%)
-   Literal                        3256 files ( 91.3%) -  168,096 total (9.09%)
-   MemberExpression               2826 files ( 79.3%) -  208,761 total (11.29%)
-   ExpressionStatement            2810 files ( 78.8%) -   84,665 total (4.58%)
-   CallExpression                 2744 files ( 77.0%) -  160,584 total (8.69%)
-   BlockStatement                 2536 files ( 71.1%) -   54,472 total (2.95%)
-   ArrowFunctionExpression        2191 files ( 61.5%) -   31,386 total (1.70%)
-   Property                       2168 files ( 60.8%) -   57,377 total (3.10%)
-   ObjectExpression               2122 files ( 59.5%) -   23,663 total (1.28%)
-   VariableDeclaration            1970 files ( 55.3%) -   29,504 total (1.60%)
-   VariableDeclarator             1970 files ( 55.3%) -   36,928 total (2.00%)
-   ImportDeclaration              1767 files ( 49.6%) -    6,366 total (0.34%)
-   AssignmentExpression           1568 files ( 44.0%) -   23,545 total (1.27%)
-   ReturnStatement                1487 files ( 41.7%) -   18,590 total (1.01%)
-   ImportSpecifier                1454 files ( 40.8%) -    5,248 total (0.28%)
-   ImportDefaultSpecifier         1115 files ( 31.3%) -    2,596 total (0.14%)
-   ArrayExpression                1084 files ( 30.4%) -    7,828 total (0.42%)
-   Unknown                        1080 files ( 30.3%) -   17,694 total (0.96%)
-   TSTypeAnnotation               1079 files ( 30.3%) -   18,254 total (0.99%)
-   IfStatement                    1028 files ( 28.8%) -   12,093 total (0.65%)
-   TemplateElement                1003 files ( 28.1%) -   14,896 total (0.81%)
-   TemplateLiteral                 999 files ( 28.0%) -    7,421 total (0.40%)
-   TSTypeReference                 974 files ( 27.3%) -   12,850 total (0.70%)
-   ExportNamedDeclaration          922 files ( 25.9%) -    2,501 total (0.14%)
-   BinaryExpression                900 files ( 25.2%) -   20,126 total (1.09%)
-   FunctionExpression              897 files ( 25.2%) -   11,076 total (0.60%)
-   ObjectPattern                   854 files ( 24.0%) -    3,230 total (0.17%)
-   NewExpression                   779 files ( 21.9%) -    4,754 total (0.26%)
-   UnaryExpression                 713 files ( 20.0%) -   11,672 total (0.63%)
-   TSStringKeyword                 695 files ( 19.5%) -    4,927 total (0.27%)
-   LogicalExpression               679 files ( 19.0%) -   13,846 total (0.75%)
-   ParenthesizedExpression         675 files ( 18.9%) -    7,144 total (0.39%)
-   TSTypeParameterInstantiation    601 files ( 16.9%) -    3,267 total (0.18%)
-   FunctionDeclaration             537 files ( 15.1%) -    3,430 total (0.19%)
-   TSPropertySignature             512 files ( 14.4%) -    5,410 total (0.29%)
-   ThrowStatement                  449 files ( 12.6%) -    2,358 total (0.13%)
-   TSUnionType                     418 files ( 11.7%) -    1,678 total (0.09%)
-   TSAnyKeyword                    415 files ( 11.6%) -    1,784 total (0.10%)
-   JSXElement                      414 files ( 11.6%) -    1,929 total (0.10%)
-   JSXOpeningElement               414 files ( 11.6%) -    1,929 total (0.10%)
-   JSXIdentifier                   414 files ( 11.6%) -    5,601 total (0.30%)
-   AwaitExpression                 411 files ( 11.5%) -    3,627 total (0.20%)
-   ConditionalExpression           408 files ( 11.4%) -    4,920 total (0.27%)
-   TSAsExpression                  400 files ( 11.2%) -    1,228 total (0.07%)
-   ThisExpression                  388 files ( 10.9%) -   21,202 total (1.15%)
-   TSTypeLiteral                   381 files ( 10.7%) -    1,085 total (0.06%)
-   TSArrayType                     381 files ( 10.7%) -    1,262 total (0.07%)
-   SpreadElement                   372 files ( 10.4%) -    1,330 total (0.07%)
-   ExportDefaultDeclaration        359 files ( 10.1%) -      367 total (0.02%)
-   AssignmentPattern               354 files (  9.9%) -    1,248 total (0.07%)
-   ChainExpression                 347 files (  9.7%) -    1,584 total (0.09%)
-   TSBooleanKeyword                340 files (  9.5%) -    1,143 total (0.06%)
-   TSInterfaceDeclaration          323 files (  9.1%) -      776 total (0.04%)
-   TSInterfaceBody                 323 files (  9.1%) -      776 total (0.04%)
-   JSXAttribute                    322 files (  9.0%) -    2,657 total (0.14%)
-   TSTypeAliasDeclaration          314 files (  8.8%) -      771 total (0.04%)
-   TSQualifiedName                 314 files (  8.8%) -    1,181 total (0.06%)
-   TSNumberKeyword                 303 files (  8.5%) -    1,184 total (0.06%)
-   TSLiteralType                   288 files (  8.1%) -    2,235 total (0.12%)
-   JSXExpressionContainer          286 files (  8.0%) -    1,767 total (0.10%)
-   TryStatement                    278 files (  7.8%) -      922 total (0.05%)
-   CatchClause                     271 files (  7.6%) -      871 total (0.05%)
-   JSXClosingElement               268 files (  7.5%) -      989 total (0.05%)
-   JSXText                         252 files (  7.1%) -    1,740 total (0.09%)
-   ClassBody                       240 files (  6.7%) -      564 total (0.03%)
-   ClassDeclaration                238 files (  6.7%) -      279 total (0.02%)
-   TSVoidKeyword                   227 files (  6.4%) -      879 total (0.05%)
-   MethodDefinition                217 files (  6.1%) -    3,927 total (0.21%)
-   TSFunctionType                  214 files (  6.0%) -      743 total (0.04%)
-   TSUndefinedKeyword              185 files (  5.2%) -      404 total (0.02%)
-   RestElement                     184 files (  5.2%) -      494 total (0.03%)
-   ArrayPattern                    175 files (  4.9%) -      505 total (0.03%)
-   TSNullKeyword                   172 files (  4.8%) -      452 total (0.02%)
-   PropertyDefinition              162 files (  4.5%) -    1,010 total (0.05%)
-   TSTypeQuery                     157 files (  4.4%) -      294 total (0.02%)
-   TSIndexedAccessType             156 files (  4.4%) -      550 total (0.03%)
-   ImportNamespaceSpecifier        125 files (  3.5%) -      220 total (0.01%)
-   UpdateExpression                124 files (  3.5%) -    1,099 total (0.06%)
-   TSIntersectionType              123 files (  3.5%) -      341 total (0.02%)
-   TSTypeParameter                 110 files (  3.1%) -      513 total (0.03%)
-   ForOfStatement                  109 files (  3.1%) -      937 total (0.05%)
-   TSTypeParameterDeclaration      109 files (  3.1%) -      398 total (0.02%)
-   TSNonNullExpression             108 files (  3.0%) -      215 total (0.01%)
-   SwitchStatement                  86 files (  2.4%) -      248 total (0.01%)
-   SwitchCase                       86 files (  2.4%) -    1,385 total (0.07%)
-   TSModuleDeclaration              84 files (  2.4%) -      139 total (0.01%)
-   TSModuleBlock                    84 files (  2.4%) -      139 total (0.01%)
-   TSInterfaceHeritage              84 files (  2.4%) -      190 total (0.01%)
-   TSParameterProperty              83 files (  2.3%) -      168 total (0.01%)
-   TSTypeOperator                   77 files (  2.2%) -      233 total (0.01%)
-   TSUnknownKeyword                 73 files (  2.0%) -      180 total (0.01%)
-   TSParenthesizedType              63 files (  1.8%) -      104 total (0.01%)
-   TaggedTemplateExpression         58 files (  1.6%) -      426 total (0.02%)
-   TSIndexSignature                 58 files (  1.6%) -      123 total (0.01%)
-   TSMethodSignature                54 files (  1.5%) -      553 total (0.03%)
-   ExportSpecifier                  54 files (  1.5%) -      176 total (0.01%)
-   ExportAllDeclaration             49 files (  1.4%) -      216 total (0.01%)
-   BreakStatement                   46 files (  1.3%) -      490 total (0.03%)
-   Super                            44 files (  1.2%) -      339 total (0.02%)
-   TSObjectKeyword                  35 files (  1.0%) -       76 total (0.00%)
-   ForStatement                     34 files (  1.0%) -      749 total (0.04%)
-   Decorator                        34 files (  1.0%) -       45 total (0.00%)
-   TSTypePredicate                  32 files (  0.9%) -       54 total (0.00%)
-   TSTupleType                      31 files (  0.9%) -       49 total (0.00%)
-   WhileStatement                   28 files (  0.8%) -       96 total (0.01%)
-   TSExportAssignment               27 files (  0.8%) -       28 total (0.00%)
-   TSNeverKeyword                   27 files (  0.8%) -       43 total (0.00%)
-   ContinueStatement                26 files (  0.7%) -      275 total (0.01%)
-   TSClassImplements                25 files (  0.7%) -       40 total (0.00%)
-   TSImportType                     22 files (  0.6%) -       30 total (0.00%)
-   TSMappedType                     20 files (  0.6%) -       31 total (0.00%)
-   ForInStatement                   19 files (  0.5%) -      132 total (0.01%)
-   JSXSpreadAttribute               19 files (  0.5%) -       34 total (0.00%)
-   JSXFragment                      18 files (  0.5%) -       32 total (0.00%)
-   JSXOpeningFragment               18 files (  0.5%) -       32 total (0.00%)
-   JSXClosingFragment               18 files (  0.5%) -       32 total (0.00%)
-   ImportExpression                 17 files (  0.5%) -       27 total (0.00%)
-   PrivateIdentifier                17 files (  0.5%) -      326 total (0.02%)
-   TSConditionalType                16 files (  0.4%) -       33 total (0.00%)
-   TSTemplateLiteralType            13 files (  0.4%) -       23 total (0.00%)
-   SequenceExpression               12 files (  0.3%) -    6,101 total (0.33%)
+   Program                        4104 files (100.0%) -    4,104 total (0.18%)
+   Identifier                     3790 files ( 92.3%) -  793,107 total (35.12%)
+   Literal                        3771 files ( 91.9%) -  210,616 total (9.33%)
+   MemberExpression               3320 files ( 80.9%) -  261,017 total (11.56%)
+   ExpressionStatement            3299 files ( 80.4%) -  109,094 total (4.83%)
+   CallExpression                 3247 files ( 79.1%) -  203,612 total (9.02%)
+   BlockStatement                 3028 files ( 73.8%) -   66,297 total (2.94%)
+   ArrowFunctionExpression        2660 files ( 64.8%) -   40,032 total (1.77%)
+   Property                       2629 files ( 64.1%) -   79,132 total (3.50%)
+   ObjectExpression               2575 files ( 62.7%) -   33,253 total (1.47%)
+   VariableDeclaration            2421 files ( 59.0%) -   36,902 total (1.63%)
+   VariableDeclarator             2421 files ( 59.0%) -   44,332 total (1.96%)
+   ImportDeclaration              2050 files ( 50.0%) -    7,709 total (0.34%)
+   AssignmentExpression           1830 files ( 44.6%) -   26,204 total (1.16%)
+   ReturnStatement                1794 files ( 43.7%) -   22,061 total (0.98%)
+   ImportSpecifier                1669 files ( 40.7%) -    6,257 total (0.28%)
+   Unknown                        1345 files ( 32.8%) -   21,314 total (0.94%)
+   ImportDefaultSpecifier         1337 files ( 32.6%) -    3,211 total (0.14%)
+   ArrayExpression                1332 files ( 32.5%) -   10,298 total (0.46%)
+   TemplateElement                1251 files ( 30.5%) -   18,118 total (0.80%)
+   TemplateLiteral                1246 files ( 30.4%) -    9,165 total (0.41%)
+   TSTypeAnnotation               1237 files ( 30.1%) -   19,422 total (0.86%)
+   FunctionExpression             1129 files ( 27.5%) -   13,955 total (0.62%)
+   IfStatement                    1125 files ( 27.4%) -   12,412 total (0.55%)
+   TSTypeReference                1119 files ( 27.3%) -   14,282 total (0.63%)
+   ObjectPattern                  1037 files ( 25.3%) -    3,774 total (0.17%)
+   BinaryExpression               1018 files ( 24.8%) -   20,525 total (0.91%)
+   NewExpression                   975 files ( 23.8%) -    5,634 total (0.25%)
+   ExportNamedDeclaration          953 files ( 23.2%) -    2,573 total (0.11%)
+   UnaryExpression                 792 files ( 19.3%) -   11,921 total (0.53%)
+   TSStringKeyword                 773 files ( 18.8%) -    5,150 total (0.23%)
+   ParenthesizedExpression         763 files ( 18.6%) -    7,345 total (0.33%)
+   LogicalExpression               724 files ( 17.6%) -   13,974 total (0.62%)
+   TSTypeParameterInstantiation    669 files ( 16.3%) -    3,641 total (0.16%)
+   FunctionDeclaration             597 files ( 14.5%) -    3,575 total (0.16%)
+   AwaitExpression                 596 files ( 14.5%) -    5,497 total (0.24%)
+   TSPropertySignature             554 files ( 13.5%) -    5,597 total (0.25%)
+   ThisExpression                  512 files ( 12.5%) -   25,807 total (1.14%)
+   ThrowStatement                  508 files ( 12.4%) -    2,547 total (0.11%)
+   TSAsExpression                  493 files ( 12.0%) -    1,717 total (0.08%)
+   TSAnyKeyword                    478 files ( 11.6%) -    2,001 total (0.09%)
+   TSUnionType                     449 files ( 10.9%) -    1,737 total (0.08%)
+   ConditionalExpression           442 files ( 10.8%) -    4,991 total (0.22%)
+   SpreadElement                   434 files ( 10.6%) -    1,518 total (0.07%)
+   JSXElement                      432 files ( 10.5%) -    1,972 total (0.09%)
+   JSXOpeningElement               432 files ( 10.5%) -    1,972 total (0.09%)
+   JSXIdentifier                   432 files ( 10.5%) -    5,743 total (0.25%)
+   TSTypeLiteral                   417 files ( 10.2%) -    1,157 total (0.05%)
+   TSArrayType                     417 files ( 10.2%) -    1,346 total (0.06%)
+   AssignmentPattern               395 files (  9.6%) -    1,367 total (0.06%)
+   ExportDefaultDeclaration        384 files (  9.4%) -      392 total (0.02%)
+   ChainExpression                 379 files (  9.2%) -    1,781 total (0.08%)
+   TSQualifiedName                 374 files (  9.1%) -    1,488 total (0.07%)
+   TSBooleanKeyword                353 files (  8.6%) -    1,167 total (0.05%)
+   TSInterfaceDeclaration          337 files (  8.2%) -      801 total (0.04%)
+   TSInterfaceBody                 337 files (  8.2%) -      801 total (0.04%)
+   TSNumberKeyword                 334 files (  8.1%) -    1,253 total (0.06%)
+   TSTypeAliasDeclaration          334 files (  8.1%) -      801 total (0.04%)
+   JSXAttribute                    334 files (  8.1%) -    2,726 total (0.12%)
+   TSLiteralType                   332 files (  8.1%) -    2,380 total (0.11%)
+   TryStatement                    312 files (  7.6%) -      994 total (0.04%)
+   CatchClause                     302 files (  7.4%) -      940 total (0.04%)
+   JSXExpressionContainer          298 files (  7.3%) -    1,830 total (0.08%)
+   JSXClosingElement               285 files (  6.9%) -    1,019 total (0.05%)
+   JSXText                         269 files (  6.6%) -    1,788 total (0.08%)
+   ClassBody                       251 files (  6.1%) -      576 total (0.03%)
+   ClassDeclaration                248 files (  6.0%) -      290 total (0.01%)
+   TSVoidKeyword                   242 files (  5.9%) -      920 total (0.04%)
+   TSFunctionType                  229 files (  5.6%) -      776 total (0.03%)
+   MethodDefinition                227 files (  5.5%) -    3,965 total (0.18%)
+   ArrayPattern                    208 files (  5.1%) -      550 total (0.02%)
+   RestElement                     206 files (  5.0%) -      534 total (0.02%)
+   TSUndefinedKeyword              197 files (  4.8%) -      426 total (0.02%)
+   TSTypeQuery                     195 files (  4.8%) -      371 total (0.02%)
+   TSIndexedAccessType             182 files (  4.4%) -      620 total (0.03%)
+   TSNullKeyword                   176 files (  4.3%) -      459 total (0.02%)
+   PropertyDefinition              167 files (  4.1%) -    1,030 total (0.05%)
+   ImportNamespaceSpecifier        166 files (  4.0%) -      274 total (0.01%)
+   TSIntersectionType              142 files (  3.5%) -      380 total (0.02%)
+   UpdateExpression                135 files (  3.3%) -    1,129 total (0.05%)
+   ForOfStatement                  133 files (  3.2%) -      982 total (0.04%)
+   TSTypeParameter                 119 files (  2.9%) -      532 total (0.02%)
+   TSTypeParameterDeclaration      118 files (  2.9%) -      414 total (0.02%)
+   TSNonNullExpression             116 files (  2.8%) -      341 total (0.02%)
+   SwitchStatement                  93 files (  2.3%) -      255 total (0.01%)
+   SwitchCase                       93 files (  2.3%) -    1,421 total (0.06%)
+   TSUnknownKeyword                 93 files (  2.3%) -      214 total (0.01%)
+   TSModuleDeclaration              89 files (  2.2%) -      148 total (0.01%)
+   TSModuleBlock                    89 files (  2.2%) -      148 total (0.01%)
+   TSParameterProperty              85 files (  2.1%) -      170 total (0.01%)
+   TSInterfaceHeritage              85 files (  2.1%) -      191 total (0.01%)
+   TSTypeOperator                   83 files (  2.0%) -      246 total (0.01%)
+   TaggedTemplateExpression         77 files (  1.9%) -      508 total (0.02%)
+   TSParenthesizedType              68 files (  1.7%) -      110 total (0.00%)
+   TSIndexSignature                 59 files (  1.4%) -      124 total (0.01%)
+   ExportSpecifier                  58 files (  1.4%) -      181 total (0.01%)
+   TSMethodSignature                56 files (  1.4%) -      555 total (0.02%)
+   ExportAllDeclaration             49 files (  1.2%) -      216 total (0.01%)
+   BreakStatement                   47 files (  1.1%) -      491 total (0.02%)
+   Super                            47 files (  1.1%) -      342 total (0.02%)
+   TSTupleType                      39 files (  1.0%) -       65 total (0.00%)
+   TSObjectKeyword                  39 files (  1.0%) -       83 total (0.00%)
+   ForStatement                     37 files (  0.9%) -      756 total (0.03%)
+   TSImportType                     34 files (  0.8%) -       51 total (0.00%)
+   Decorator                        34 files (  0.8%) -       45 total (0.00%)
+   TSTypePredicate                  32 files (  0.8%) -       54 total (0.00%)
+   WhileStatement                   30 files (  0.7%) -       99 total (0.00%)
+   TSNeverKeyword                   30 files (  0.7%) -       47 total (0.00%)
+   TSExportAssignment               27 files (  0.7%) -       28 total (0.00%)
+   ContinueStatement                26 files (  0.6%) -      275 total (0.01%)
+   TSClassImplements                25 files (  0.6%) -       40 total (0.00%)
+   TSMappedType                     23 files (  0.6%) -       35 total (0.00%)
+   ForInStatement                   22 files (  0.5%) -      135 total (0.01%)
+   JSXSpreadAttribute               20 files (  0.5%) -       35 total (0.00%)
+   JSXFragment                      19 files (  0.5%) -       33 total (0.00%)
+   JSXOpeningFragment               19 files (  0.5%) -       33 total (0.00%)
+   JSXClosingFragment               19 files (  0.5%) -       33 total (0.00%)
+   TSConditionalType                18 files (  0.4%) -       37 total (0.00%)
+   ImportExpression                 17 files (  0.4%) -       27 total (0.00%)
+   PrivateIdentifier                17 files (  0.4%) -      326 total (0.01%)
+   SequenceExpression               16 files (  0.4%) -    6,105 total (0.27%)
+   TSTemplateLiteralType            14 files (  0.3%) -       24 total (0.00%)
    JSXMemberExpression              11 files (  0.3%) -       23 total (0.00%)
-   Hashbang                          9 files (  0.3%) -        9 total (0.00%)
+   Hashbang                          9 files (  0.2%) -        9 total (0.00%)
    TSInferType                       8 files (  0.2%) -       11 total (0.00%)
    MetaProperty                      7 files (  0.2%) -        7 total (0.00%)
    TSDeclareFunction                 7 files (  0.2%) -       20 total (0.00%)
-   TSThisType                        6 files (  0.2%) -       29 total (0.00%)
-   TSCallSignatureDeclaration        6 files (  0.2%) -      369 total (0.02%)
+   TSTypeAssertion                   7 files (  0.2%) -       15 total (0.00%)
+   TSThisType                        6 files (  0.1%) -       29 total (0.00%)
+   TSCallSignatureDeclaration        6 files (  0.1%) -      369 total (0.02%)
    DoWhileStatement                  5 files (  0.1%) -       34 total (0.00%)
+   LabeledStatement                  5 files (  0.1%) -       10 total (0.00%)
    TSEmptyBodyFunctionExpression     5 files (  0.1%) -       37 total (0.00%)
-   TSTypeAssertion                   5 files (  0.1%) -       13 total (0.00%)
    TSEnumDeclaration                 5 files (  0.1%) -        5 total (0.00%)
    TSEnumBody                        5 files (  0.1%) -        5 total (0.00%)
    TSEnumMember                      5 files (  0.1%) -       18 total (0.00%)
    TSSymbolKeyword                   4 files (  0.1%) -       17 total (0.00%)
+   ClassExpression                   4 files (  0.1%) -      286 total (0.01%)
    YieldExpression                   4 files (  0.1%) -       22 total (0.00%)
    TSBigIntKeyword                   4 files (  0.1%) -        8 total (0.00%)
+   TSConstructSignatureDeclaration    4 files (  0.1%) -        7 total (0.00%)
+   TSNamedTupleMember                4 files (  0.1%) -       14 total (0.00%)
    TSImportEqualsDeclaration         3 files (  0.1%) -        5 total (0.00%)
    TSExternalModuleReference         3 files (  0.1%) -        5 total (0.00%)
    TSNamespaceExportDeclaration      3 files (  0.1%) -        3 total (0.00%)
-   ClassExpression                   3 files (  0.1%) -      285 total (0.02%)
    DebuggerStatement                 3 files (  0.1%) -        3 total (0.00%)
-   TSConstructSignatureDeclaration    3 files (  0.1%) -        6 total (0.00%)
-   LabeledStatement                  2 files (  0.1%) -        7 total (0.00%)
-   TSConstructorType                 2 files (  0.1%) -        2 total (0.00%)
-   JSXNamespacedName                 2 files (  0.1%) -        3 total (0.00%)
+   TSConstructorType                 3 files (  0.1%) -        3 total (0.00%)
+   JSXNamespacedName                 2 files (  0.0%) -        3 total (0.00%)
    EmptyStatement                    1 files (  0.0%) -       12 total (0.00%)
    TSOptionalType                    1 files (  0.0%) -        1 total (0.00%)
    TSAbstractMethodDefinition        1 files (  0.0%) -        4 total (0.00%)
    JSXEmptyExpression                1 files (  0.0%) -        1 total (0.00%)
    TSRestType                        1 files (  0.0%) -        1 total (0.00%)
-   TSNamedTupleMember                1 files (  0.0%) -        4 total (0.00%)
 
 📝 ALL NODE TYPES (BY TOTAL COUNT):
-   Identifier                      652,250 (35.29%) in 3265 files (91.6%)
-   MemberExpression                208,761 (11.29%) in 2826 files (79.3%)
-   Literal                         168,096 (9.09%) in 3256 files (91.3%)
-   CallExpression                  160,584 (8.69%) in 2744 files (77.0%)
-   ExpressionStatement              84,665 (4.58%) in 2810 files (78.8%)
-   Property                         57,377 (3.10%) in 2168 files (60.8%)
-   BlockStatement                   54,472 (2.95%) in 2536 files (71.1%)
-   VariableDeclarator               36,928 (2.00%) in 1970 files (55.3%)
-   ArrowFunctionExpression          31,386 (1.70%) in 2191 files (61.5%)
-   VariableDeclaration              29,504 (1.60%) in 1970 files (55.3%)
-   ObjectExpression                 23,663 (1.28%) in 2122 files (59.5%)
-   AssignmentExpression             23,545 (1.27%) in 1568 files (44.0%)
-   ThisExpression                   21,202 (1.15%) in 388 files (10.9%)
-   BinaryExpression                 20,126 (1.09%) in 900 files (25.2%)
-   ReturnStatement                  18,590 (1.01%) in 1487 files (41.7%)
-   TSTypeAnnotation                 18,254 (0.99%) in 1079 files (30.3%)
-   Unknown                          17,694 (0.96%) in 1080 files (30.3%)
-   TemplateElement                  14,896 (0.81%) in 1003 files (28.1%)
-   LogicalExpression                13,846 (0.75%) in 679 files (19.0%)
-   TSTypeReference                  12,850 (0.70%) in 974 files (27.3%)
-   IfStatement                      12,093 (0.65%) in 1028 files (28.8%)
-   UnaryExpression                  11,672 (0.63%) in 713 files (20.0%)
-   FunctionExpression               11,076 (0.60%) in 897 files (25.2%)
-   ArrayExpression                   7,828 (0.42%) in 1084 files (30.4%)
-   TemplateLiteral                   7,421 (0.40%) in 999 files (28.0%)
-   ParenthesizedExpression           7,144 (0.39%) in 675 files (18.9%)
-   ImportDeclaration                 6,366 (0.34%) in 1767 files (49.6%)
-   SequenceExpression                6,101 (0.33%) in 12 files (0.3%)
-   JSXIdentifier                     5,601 (0.30%) in 414 files (11.6%)
-   TSPropertySignature               5,410 (0.29%) in 512 files (14.4%)
-   ImportSpecifier                   5,248 (0.28%) in 1454 files (40.8%)
-   TSStringKeyword                   4,927 (0.27%) in 695 files (19.5%)
-   ConditionalExpression             4,920 (0.27%) in 408 files (11.4%)
-   NewExpression                     4,754 (0.26%) in 779 files (21.9%)
-   MethodDefinition                  3,927 (0.21%) in 217 files (6.1%)
-   AwaitExpression                   3,627 (0.20%) in 411 files (11.5%)
-   Program                           3,565 (0.19%) in 3565 files (100.0%)
-   FunctionDeclaration               3,430 (0.19%) in 537 files (15.1%)
-   TSTypeParameterInstantiation      3,267 (0.18%) in 601 files (16.9%)
-   ObjectPattern                     3,230 (0.17%) in 854 files (24.0%)
-   JSXAttribute                      2,657 (0.14%) in 322 files (9.0%)
-   ImportDefaultSpecifier            2,596 (0.14%) in 1115 files (31.3%)
-   ExportNamedDeclaration            2,501 (0.14%) in 922 files (25.9%)
-   ThrowStatement                    2,358 (0.13%) in 449 files (12.6%)
-   TSLiteralType                     2,235 (0.12%) in 288 files (8.1%)
-   JSXElement                        1,929 (0.10%) in 414 files (11.6%)
-   JSXOpeningElement                 1,929 (0.10%) in 414 files (11.6%)
-   TSAnyKeyword                      1,784 (0.10%) in 415 files (11.6%)
-   JSXExpressionContainer            1,767 (0.10%) in 286 files (8.0%)
-   JSXText                           1,740 (0.09%) in 252 files (7.1%)
-   TSUnionType                       1,678 (0.09%) in 418 files (11.7%)
-   ChainExpression                   1,584 (0.09%) in 347 files (9.7%)
-   SwitchCase                        1,385 (0.07%) in 86 files (2.4%)
-   SpreadElement                     1,330 (0.07%) in 372 files (10.4%)
-   TSArrayType                       1,262 (0.07%) in 381 files (10.7%)
-   AssignmentPattern                 1,248 (0.07%) in 354 files (9.9%)
-   TSAsExpression                    1,228 (0.07%) in 400 files (11.2%)
-   TSNumberKeyword                   1,184 (0.06%) in 303 files (8.5%)
-   TSQualifiedName                   1,181 (0.06%) in 314 files (8.8%)
-   TSBooleanKeyword                  1,143 (0.06%) in 340 files (9.5%)
-   UpdateExpression                  1,099 (0.06%) in 124 files (3.5%)
-   TSTypeLiteral                     1,085 (0.06%) in 381 files (10.7%)
-   PropertyDefinition                1,010 (0.05%) in 162 files (4.5%)
-   JSXClosingElement                   989 (0.05%) in 268 files (7.5%)
-   ForOfStatement                      937 (0.05%) in 109 files (3.1%)
-   TryStatement                        922 (0.05%) in 278 files (7.8%)
-   TSVoidKeyword                       879 (0.05%) in 227 files (6.4%)
-   CatchClause                         871 (0.05%) in 271 files (7.6%)
-   TSInterfaceDeclaration              776 (0.04%) in 323 files (9.1%)
-   TSInterfaceBody                     776 (0.04%) in 323 files (9.1%)
-   TSTypeAliasDeclaration              771 (0.04%) in 314 files (8.8%)
-   ForStatement                        749 (0.04%) in 34 files (1.0%)
-   TSFunctionType                      743 (0.04%) in 214 files (6.0%)
-   ClassBody                           564 (0.03%) in 240 files (6.7%)
-   TSMethodSignature                   553 (0.03%) in 54 files (1.5%)
-   TSIndexedAccessType                 550 (0.03%) in 156 files (4.4%)
-   TSTypeParameter                     513 (0.03%) in 110 files (3.1%)
-   ArrayPattern                        505 (0.03%) in 175 files (4.9%)
-   RestElement                         494 (0.03%) in 184 files (5.2%)
-   BreakStatement                      490 (0.03%) in 46 files (1.3%)
-   TSNullKeyword                       452 (0.02%) in 172 files (4.8%)
-   TaggedTemplateExpression            426 (0.02%) in 58 files (1.6%)
-   TSUndefinedKeyword                  404 (0.02%) in 185 files (5.2%)
-   TSTypeParameterDeclaration          398 (0.02%) in 109 files (3.1%)
-   TSCallSignatureDeclaration          369 (0.02%) in 6 files (0.2%)
-   ExportDefaultDeclaration            367 (0.02%) in 359 files (10.1%)
-   TSIntersectionType                  341 (0.02%) in 123 files (3.5%)
-   Super                               339 (0.02%) in 44 files (1.2%)
-   PrivateIdentifier                   326 (0.02%) in 17 files (0.5%)
-   TSTypeQuery                         294 (0.02%) in 157 files (4.4%)
-   ClassExpression                     285 (0.02%) in 3 files (0.1%)
-   ClassDeclaration                    279 (0.02%) in 238 files (6.7%)
-   ContinueStatement                   275 (0.01%) in 26 files (0.7%)
-   SwitchStatement                     248 (0.01%) in 86 files (2.4%)
-   TSTypeOperator                      233 (0.01%) in 77 files (2.2%)
-   ImportNamespaceSpecifier            220 (0.01%) in 125 files (3.5%)
-   ExportAllDeclaration                216 (0.01%) in 49 files (1.4%)
-   TSNonNullExpression                 215 (0.01%) in 108 files (3.0%)
-   TSInterfaceHeritage                 190 (0.01%) in 84 files (2.4%)
-   TSUnknownKeyword                    180 (0.01%) in 73 files (2.0%)
-   ExportSpecifier                     176 (0.01%) in 54 files (1.5%)
-   TSParameterProperty                 168 (0.01%) in 83 files (2.3%)
-   TSModuleDeclaration                 139 (0.01%) in 84 files (2.4%)
-   TSModuleBlock                       139 (0.01%) in 84 files (2.4%)
-   ForInStatement                      132 (0.01%) in 19 files (0.5%)
-   TSIndexSignature                    123 (0.01%) in 58 files (1.6%)
-   TSParenthesizedType                 104 (0.01%) in 63 files (1.8%)
-   WhileStatement                       96 (0.01%) in 28 files (0.8%)
-   TSObjectKeyword                      76 (0.00%) in 35 files (1.0%)
-   TSTypePredicate                      54 (0.00%) in 32 files (0.9%)
-   TSTupleType                          49 (0.00%) in 31 files (0.9%)
-   Decorator                            45 (0.00%) in 34 files (1.0%)
-   TSNeverKeyword                       43 (0.00%) in 27 files (0.8%)
-   TSClassImplements                    40 (0.00%) in 25 files (0.7%)
+   Identifier                      793,107 (35.12%) in 3790 files (92.3%)
+   MemberExpression                261,017 (11.56%) in 3320 files (80.9%)
+   Literal                         210,616 (9.33%) in 3771 files (91.9%)
+   CallExpression                  203,612 (9.02%) in 3247 files (79.1%)
+   ExpressionStatement             109,094 (4.83%) in 3299 files (80.4%)
+   Property                         79,132 (3.50%) in 2629 files (64.1%)
+   BlockStatement                   66,297 (2.94%) in 3028 files (73.8%)
+   VariableDeclarator               44,332 (1.96%) in 2421 files (59.0%)
+   ArrowFunctionExpression          40,032 (1.77%) in 2660 files (64.8%)
+   VariableDeclaration              36,902 (1.63%) in 2421 files (59.0%)
+   ObjectExpression                 33,253 (1.47%) in 2575 files (62.7%)
+   AssignmentExpression             26,204 (1.16%) in 1830 files (44.6%)
+   ThisExpression                   25,807 (1.14%) in 512 files (12.5%)
+   ReturnStatement                  22,061 (0.98%) in 1794 files (43.7%)
+   Unknown                          21,314 (0.94%) in 1345 files (32.8%)
+   BinaryExpression                 20,525 (0.91%) in 1018 files (24.8%)
+   TSTypeAnnotation                 19,422 (0.86%) in 1237 files (30.1%)
+   TemplateElement                  18,118 (0.80%) in 1251 files (30.5%)
+   TSTypeReference                  14,282 (0.63%) in 1119 files (27.3%)
+   LogicalExpression                13,974 (0.62%) in 724 files (17.6%)
+   FunctionExpression               13,955 (0.62%) in 1129 files (27.5%)
+   IfStatement                      12,412 (0.55%) in 1125 files (27.4%)
+   UnaryExpression                  11,921 (0.53%) in 792 files (19.3%)
+   ArrayExpression                  10,298 (0.46%) in 1332 files (32.5%)
+   TemplateLiteral                   9,165 (0.41%) in 1246 files (30.4%)
+   ImportDeclaration                 7,709 (0.34%) in 2050 files (50.0%)
+   ParenthesizedExpression           7,345 (0.33%) in 763 files (18.6%)
+   ImportSpecifier                   6,257 (0.28%) in 1669 files (40.7%)
+   SequenceExpression                6,105 (0.27%) in 16 files (0.4%)
+   JSXIdentifier                     5,743 (0.25%) in 432 files (10.5%)
+   NewExpression                     5,634 (0.25%) in 975 files (23.8%)
+   TSPropertySignature               5,597 (0.25%) in 554 files (13.5%)
+   AwaitExpression                   5,497 (0.24%) in 596 files (14.5%)
+   TSStringKeyword                   5,150 (0.23%) in 773 files (18.8%)
+   ConditionalExpression             4,991 (0.22%) in 442 files (10.8%)
+   Program                           4,104 (0.18%) in 4104 files (100.0%)
+   MethodDefinition                  3,965 (0.18%) in 227 files (5.5%)
+   ObjectPattern                     3,774 (0.17%) in 1037 files (25.3%)
+   TSTypeParameterInstantiation      3,641 (0.16%) in 669 files (16.3%)
+   FunctionDeclaration               3,575 (0.16%) in 597 files (14.5%)
+   ImportDefaultSpecifier            3,211 (0.14%) in 1337 files (32.6%)
+   JSXAttribute                      2,726 (0.12%) in 334 files (8.1%)
+   ExportNamedDeclaration            2,573 (0.11%) in 953 files (23.2%)
+   ThrowStatement                    2,547 (0.11%) in 508 files (12.4%)
+   TSLiteralType                     2,380 (0.11%) in 332 files (8.1%)
+   TSAnyKeyword                      2,001 (0.09%) in 478 files (11.6%)
+   JSXElement                        1,972 (0.09%) in 432 files (10.5%)
+   JSXOpeningElement                 1,972 (0.09%) in 432 files (10.5%)
+   JSXExpressionContainer            1,830 (0.08%) in 298 files (7.3%)
+   JSXText                           1,788 (0.08%) in 269 files (6.6%)
+   ChainExpression                   1,781 (0.08%) in 379 files (9.2%)
+   TSUnionType                       1,737 (0.08%) in 449 files (10.9%)
+   TSAsExpression                    1,717 (0.08%) in 493 files (12.0%)
+   SpreadElement                     1,518 (0.07%) in 434 files (10.6%)
+   TSQualifiedName                   1,488 (0.07%) in 374 files (9.1%)
+   SwitchCase                        1,421 (0.06%) in 93 files (2.3%)
+   AssignmentPattern                 1,367 (0.06%) in 395 files (9.6%)
+   TSArrayType                       1,346 (0.06%) in 417 files (10.2%)
+   TSNumberKeyword                   1,253 (0.06%) in 334 files (8.1%)
+   TSBooleanKeyword                  1,167 (0.05%) in 353 files (8.6%)
+   TSTypeLiteral                     1,157 (0.05%) in 417 files (10.2%)
+   UpdateExpression                  1,129 (0.05%) in 135 files (3.3%)
+   PropertyDefinition                1,030 (0.05%) in 167 files (4.1%)
+   JSXClosingElement                 1,019 (0.05%) in 285 files (6.9%)
+   TryStatement                        994 (0.04%) in 312 files (7.6%)
+   ForOfStatement                      982 (0.04%) in 133 files (3.2%)
+   CatchClause                         940 (0.04%) in 302 files (7.4%)
+   TSVoidKeyword                       920 (0.04%) in 242 files (5.9%)
+   TSTypeAliasDeclaration              801 (0.04%) in 334 files (8.1%)
+   TSInterfaceDeclaration              801 (0.04%) in 337 files (8.2%)
+   TSInterfaceBody                     801 (0.04%) in 337 files (8.2%)
+   TSFunctionType                      776 (0.03%) in 229 files (5.6%)
+   ForStatement                        756 (0.03%) in 37 files (0.9%)
+   TSIndexedAccessType                 620 (0.03%) in 182 files (4.4%)
+   ClassBody                           576 (0.03%) in 251 files (6.1%)
+   TSMethodSignature                   555 (0.02%) in 56 files (1.4%)
+   ArrayPattern                        550 (0.02%) in 208 files (5.1%)
+   RestElement                         534 (0.02%) in 206 files (5.0%)
+   TSTypeParameter                     532 (0.02%) in 119 files (2.9%)
+   TaggedTemplateExpression            508 (0.02%) in 77 files (1.9%)
+   BreakStatement                      491 (0.02%) in 47 files (1.1%)
+   TSNullKeyword                       459 (0.02%) in 176 files (4.3%)
+   TSUndefinedKeyword                  426 (0.02%) in 197 files (4.8%)
+   TSTypeParameterDeclaration          414 (0.02%) in 118 files (2.9%)
+   ExportDefaultDeclaration            392 (0.02%) in 384 files (9.4%)
+   TSIntersectionType                  380 (0.02%) in 142 files (3.5%)
+   TSTypeQuery                         371 (0.02%) in 195 files (4.8%)
+   TSCallSignatureDeclaration          369 (0.02%) in 6 files (0.1%)
+   Super                               342 (0.02%) in 47 files (1.1%)
+   TSNonNullExpression                 341 (0.02%) in 116 files (2.8%)
+   PrivateIdentifier                   326 (0.01%) in 17 files (0.4%)
+   ClassDeclaration                    290 (0.01%) in 248 files (6.0%)
+   ClassExpression                     286 (0.01%) in 4 files (0.1%)
+   ContinueStatement                   275 (0.01%) in 26 files (0.6%)
+   ImportNamespaceSpecifier            274 (0.01%) in 166 files (4.0%)
+   SwitchStatement                     255 (0.01%) in 93 files (2.3%)
+   TSTypeOperator                      246 (0.01%) in 83 files (2.0%)
+   ExportAllDeclaration                216 (0.01%) in 49 files (1.2%)
+   TSUnknownKeyword                    214 (0.01%) in 93 files (2.3%)
+   TSInterfaceHeritage                 191 (0.01%) in 85 files (2.1%)
+   ExportSpecifier                     181 (0.01%) in 58 files (1.4%)
+   TSParameterProperty                 170 (0.01%) in 85 files (2.1%)
+   TSModuleDeclaration                 148 (0.01%) in 89 files (2.2%)
+   TSModuleBlock                       148 (0.01%) in 89 files (2.2%)
+   ForInStatement                      135 (0.01%) in 22 files (0.5%)
+   TSIndexSignature                    124 (0.01%) in 59 files (1.4%)
+   TSParenthesizedType                 110 (0.00%) in 68 files (1.7%)
+   WhileStatement                       99 (0.00%) in 30 files (0.7%)
+   TSObjectKeyword                      83 (0.00%) in 39 files (1.0%)
+   TSTupleType                          65 (0.00%) in 39 files (1.0%)
+   TSTypePredicate                      54 (0.00%) in 32 files (0.8%)
+   TSImportType                         51 (0.00%) in 34 files (0.8%)
+   TSNeverKeyword                       47 (0.00%) in 30 files (0.7%)
+   Decorator                            45 (0.00%) in 34 files (0.8%)
+   TSClassImplements                    40 (0.00%) in 25 files (0.6%)
+   TSConditionalType                    37 (0.00%) in 18 files (0.4%)
    TSEmptyBodyFunctionExpression        37 (0.00%) in 5 files (0.1%)
+   TSMappedType                         35 (0.00%) in 23 files (0.6%)
+   JSXSpreadAttribute                   35 (0.00%) in 20 files (0.5%)
    DoWhileStatement                     34 (0.00%) in 5 files (0.1%)
-   JSXSpreadAttribute                   34 (0.00%) in 19 files (0.5%)
-   TSConditionalType                    33 (0.00%) in 16 files (0.4%)
-   JSXFragment                          32 (0.00%) in 18 files (0.5%)
-   JSXOpeningFragment                   32 (0.00%) in 18 files (0.5%)
-   JSXClosingFragment                   32 (0.00%) in 18 files (0.5%)
-   TSMappedType                         31 (0.00%) in 20 files (0.6%)
-   TSImportType                         30 (0.00%) in 22 files (0.6%)
-   TSThisType                           29 (0.00%) in 6 files (0.2%)
-   TSExportAssignment                   28 (0.00%) in 27 files (0.8%)
-   ImportExpression                     27 (0.00%) in 17 files (0.5%)
-   TSTemplateLiteralType                23 (0.00%) in 13 files (0.4%)
+   JSXFragment                          33 (0.00%) in 19 files (0.5%)
+   JSXOpeningFragment                   33 (0.00%) in 19 files (0.5%)
+   JSXClosingFragment                   33 (0.00%) in 19 files (0.5%)
+   TSThisType                           29 (0.00%) in 6 files (0.1%)
+   TSExportAssignment                   28 (0.00%) in 27 files (0.7%)
+   ImportExpression                     27 (0.00%) in 17 files (0.4%)
+   TSTemplateLiteralType                24 (0.00%) in 14 files (0.3%)
    JSXMemberExpression                  23 (0.00%) in 11 files (0.3%)
    YieldExpression                      22 (0.00%) in 4 files (0.1%)
    TSDeclareFunction                    20 (0.00%) in 7 files (0.2%)
    TSEnumMember                         18 (0.00%) in 5 files (0.1%)
    TSSymbolKeyword                      17 (0.00%) in 4 files (0.1%)
-   TSTypeAssertion                      13 (0.00%) in 5 files (0.1%)
+   TSTypeAssertion                      15 (0.00%) in 7 files (0.2%)
+   TSNamedTupleMember                   14 (0.00%) in 4 files (0.1%)
    EmptyStatement                       12 (0.00%) in 1 files (0.0%)
    TSInferType                          11 (0.00%) in 8 files (0.2%)
-   Hashbang                              9 (0.00%) in 9 files (0.3%)
+   LabeledStatement                     10 (0.00%) in 5 files (0.1%)
+   Hashbang                              9 (0.00%) in 9 files (0.2%)
    TSBigIntKeyword                       8 (0.00%) in 4 files (0.1%)
    MetaProperty                          7 (0.00%) in 7 files (0.2%)
-   LabeledStatement                      7 (0.00%) in 2 files (0.1%)
-   TSConstructSignatureDeclaration        6 (0.00%) in 3 files (0.1%)
+   TSConstructSignatureDeclaration        7 (0.00%) in 4 files (0.1%)
    TSImportEqualsDeclaration             5 (0.00%) in 3 files (0.1%)
    TSExternalModuleReference             5 (0.00%) in 3 files (0.1%)
    TSEnumDeclaration                     5 (0.00%) in 5 files (0.1%)
    TSEnumBody                            5 (0.00%) in 5 files (0.1%)
    TSAbstractMethodDefinition            4 (0.00%) in 1 files (0.0%)
-   TSNamedTupleMember                    4 (0.00%) in 1 files (0.0%)
    TSNamespaceExportDeclaration          3 (0.00%) in 3 files (0.1%)
    DebuggerStatement                     3 (0.00%) in 3 files (0.1%)
-   JSXNamespacedName                     3 (0.00%) in 2 files (0.1%)
-   TSConstructorType                     2 (0.00%) in 2 files (0.1%)
+   TSConstructorType                     3 (0.00%) in 3 files (0.1%)
+   JSXNamespacedName                     3 (0.00%) in 2 files (0.0%)
    TSOptionalType                        1 (0.00%) in 1 files (0.0%)
    JSXEmptyExpression                    1 (0.00%) in 1 files (0.0%)
    TSRestType                            1 (0.00%) in 1 files (0.0%)
+
+📁 FILE EXAMPLES BY NODE TYPE:
+
+   Identifier:
+     📄 Files WITH Identifier (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+     📄 Files WITHOUT Identifier (showing 10):
+       • packages/web-config/index.d.ts
+       • packages/runner/index.d.ts
+       • packages/reporter/index.ts
+       • packages/launchpad/vite-env.d.ts
+       • packages/icons/index.d.ts
+       • packages/frontend-shared/vite-env.d.ts
+       • packages/app/vite-env.d.ts
+       • npm/vite-plugin-cypress-esm/index.d.ts
+       • npm/vite-dev-server/index.d.ts
+       • cli/types/index.d.ts
+
+   MemberExpression:
+     📄 Files WITH MemberExpression (showing 10):
+       • apollo.config.js
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/spec-helper.js
+       • scripts/sanitize.js
+       • scripts/sanitize-mocha-results.js
+     📄 Files WITHOUT MemberExpression (showing 10):
+       • gulpfile.js
+       • system-tests/globals.d.ts
+       • scripts/start.js
+       • scripts/unit/utils-spec.js
+       • packages/web-config/index.d.ts
+       • packages/ts/register.js
+       • packages/ts/index.d.ts
+       • packages/server/v8-snapshot-entry.js
+       • packages/server/index.d.ts
+       • packages/runner/index.d.ts
+
+   Literal:
+     📄 Files WITH Literal (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+     📄 Files WITHOUT Literal (showing 10):
+       • scripts/get-platform-key.js
+       • packages/web-config/index.d.ts
+       • packages/server/index.d.ts
+       • packages/runner/index.d.ts
+       • packages/launchpad/vite-env.d.ts
+       • packages/launchpad/postcss.config.js
+       • packages/frontend-shared/vite-env.d.ts
+       • packages/frontend-shared/postcss.config.js
+       • packages/driver/index.d.ts
+       • packages/app/vite-env.d.ts
+
+   CallExpression:
+     📄 Files WITH CallExpression (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+       • scripts/spec-helper.js
+     📄 Files WITHOUT CallExpression (showing 10):
+       • system-tests/globals.d.ts
+       • __snapshots__/utils-spec.js
+       • __snapshots__/util-upload-spec.js
+       • __snapshots__/upload-spec.js
+       • __snapshots__/questions-remain-spec.js
+       • __snapshots__/prepare-release-artifacts-spec.js
+       • __snapshots__/packages-spec.js
+       • __snapshots__/move-binaries-spec.js
+       • system-tests/__snapshots__/xhr_spec.js
+       • system-tests/__snapshots__/websockets_spec.js
+
+   ExpressionStatement:
+     📄 Files WITH ExpressionStatement (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+       • scripts/spec-helper.js
+     📄 Files WITHOUT ExpressionStatement (showing 10):
+       • system-tests/globals.d.ts
+       • cli/index.mjs
+       • scripts/gulp/monorepoPaths.ts
+       • scripts/gulp/gulpConstants.ts
+       • scripts/binary/meta.ts
+       • packages/web-config/index.d.ts
+       • packages/ts/index.d.ts
+       • packages/server/index.d.ts
+       • packages/runner/unified-runner.tsx
+       • packages/runner/index.d.ts
+
+   Property:
+     📄 Files WITH Property (showing 10):
+       • apollo.config.js
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/sanitize.js
+       • scripts/sanitize-mocha-results.js
+       • scripts/run-webpack.js
+     📄 Files WITHOUT Property (showing 10):
+       • gulpfile.js
+       • system-tests/globals.d.ts
+       • scripts/start.js
+       • scripts/spec-helper.js
+       • scripts/get-platform-key.js
+       • scripts/format-workflow-file.js
+       • scripts/check-terminal.js
+       • scripts/check-node-version.js
+       • scripts/binary.js
+       • cli/index.mjs
+
+   BlockStatement:
+     📄 Files WITH BlockStatement (showing 10):
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/spec-helper.js
+       • scripts/sanitize.js
+       • scripts/sanitize-mocha-results.js
+       • scripts/run-webpack.js
+     📄 Files WITHOUT BlockStatement (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/start.js
+       • scripts/run-postInstall.js
+       • scripts/get-platform-key.js
+       • cli/index.mjs
+       • cli/index.js
+       • __snapshots__/utils-spec.js
+       • __snapshots__/util-upload-spec.js
+
+   VariableDeclarator:
+     📄 Files WITH VariableDeclarator (showing 10):
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/spec-helper.js
+       • scripts/sanitize.js
+     📄 Files WITHOUT VariableDeclarator (showing 10):
+       • gulpfile.js
+       • scripts/start.js
+       • scripts/get-platform-key.js
+       • __snapshots__/utils-spec.js
+       • __snapshots__/util-upload-spec.js
+       • __snapshots__/upload-spec.js
+       • __snapshots__/questions-remain-spec.js
+       • __snapshots__/prepare-release-artifacts-spec.js
+       • __snapshots__/packages-spec.js
+       • __snapshots__/move-binaries-spec.js
+
+   ArrowFunctionExpression:
+     📄 Files WITH ArrowFunctionExpression (showing 10):
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/sanitize.js
+       • scripts/sanitize-mocha-results.js
+       • scripts/prepare-release-artifacts.js
+       • scripts/npm-release.js
+       • scripts/get-next-version.js
+     📄 Files WITHOUT ArrowFunctionExpression (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/start.js
+       • scripts/spec-helper.js
+       • scripts/run-webpack.js
+       • scripts/run-postInstall.js
+       • scripts/import.js
+       • scripts/get-platform-key.js
+
+   VariableDeclaration:
+     📄 Files WITH VariableDeclaration (showing 10):
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/spec-helper.js
+       • scripts/sanitize.js
+     📄 Files WITHOUT VariableDeclaration (showing 10):
+       • gulpfile.js
+       • scripts/start.js
+       • scripts/get-platform-key.js
+       • __snapshots__/utils-spec.js
+       • __snapshots__/util-upload-spec.js
+       • __snapshots__/upload-spec.js
+       • __snapshots__/questions-remain-spec.js
+       • __snapshots__/prepare-release-artifacts-spec.js
+       • __snapshots__/packages-spec.js
+       • __snapshots__/move-binaries-spec.js
+
+   ObjectExpression:
+     📄 Files WITH ObjectExpression (showing 10):
+       • apollo.config.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/sanitize.js
+       • scripts/sanitize-mocha-results.js
+       • scripts/run-webpack.js
+       • scripts/run-postInstall.js
+     📄 Files WITHOUT ObjectExpression (showing 10):
+       • gulpfile.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/start.js
+       • scripts/spec-helper.js
+       • scripts/get-platform-key.js
+       • scripts/format-workflow-file.js
+       • scripts/check-terminal.js
+       • scripts/check-node-version.js
+       • scripts/binary.js
+
+   AssignmentExpression:
+     📄 Files WITH AssignmentExpression (showing 10):
+       • apollo.config.js
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/spec-helper.js
+       • scripts/sanitize-mocha-results.js
+       • scripts/npm-release.js
+       • scripts/get-next-version.js
+     📄 Files WITHOUT AssignmentExpression (showing 10):
+       • gulpfile.js
+       • system-tests/globals.d.ts
+       • scripts/verify-accessibility-results.js
+       • scripts/start.js
+       • scripts/sanitize.js
+       • scripts/run-webpack.js
+       • scripts/run-postInstall.js
+       • scripts/prepare-release-artifacts.js
+       • scripts/import.js
+       • scripts/get-platform-key.js
+
+   ThisExpression:
+     📄 Files WITH ThisExpression (showing 10):
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/spec_helper.js
+       • system-tests/lib/serverStub.ts
+       • system-tests/lib/docker.ts
+       • system-tests/test/window_open_spec.js
+       • system-tests/test/vite_dev_server_fresh_spec.ts
+       • system-tests/test/video_compression_spec.js
+       • system-tests/test/uncaught_support_file_spec.js
+       • system-tests/test/typescript_spec_support_spec.ts
+       • system-tests/test/typescript_plugins_spec.ts
+     📄 Files WITHOUT ThisExpression (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   ReturnStatement:
+     📄 Files WITH ReturnStatement (showing 10):
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sanitize.js
+       • scripts/sanitize-mocha-results.js
+       • scripts/run-webpack.js
+       • scripts/npm-release.js
+       • scripts/get-next-version.js
+       • scripts/ensure-icons.js
+     📄 Files WITHOUT ReturnStatement (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+       • scripts/spec-helper.js
+       • scripts/run-postInstall.js
+       • scripts/prepare-release-artifacts.js
+       • scripts/import.js
+
+   Unknown:
+     📄 Files WITH Unknown (showing 10):
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/sanitize.js
+       • scripts/sanitize-mocha-results.js
+       • scripts/run-webpack.js
+       • scripts/prepare-release-artifacts.js
+     📄 Files WITHOUT Unknown (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/start.js
+       • scripts/spec-helper.js
+       • scripts/run-postInstall.js
+       • scripts/format-workflow-file.js
+       • scripts/check-node-version.js
+       • scripts/binary.js
+       • cli/index.mjs
+
+   BinaryExpression:
+     📄 Files WITH BinaryExpression (showing 10):
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/sanitize-mocha-results.js
+       • scripts/npm-release.js
+       • scripts/get-next-version.js
+       • scripts/ensure-icons.js
+       • scripts/cypress.js
+     📄 Files WITHOUT BinaryExpression (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/start.js
+       • scripts/spec-helper.js
+       • scripts/sanitize.js
+       • scripts/run-webpack.js
+       • scripts/run-postInstall.js
+       • scripts/prepare-release-artifacts.js
+
+   TSTypeAnnotation:
+     📄 Files WITH TSTypeAnnotation (showing 10):
+       • system-tests/globals.d.ts
+       • system-tests/test-binary/node_versions_spec.ts
+       • system-tests/test-binary/ci_environments_spec.ts
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/serverStub.ts
+       • system-tests/lib/resultsUtils.ts
+       • system-tests/lib/normalizeStdout.ts
+       • system-tests/lib/fixtures.ts
+       • system-tests/lib/docker.ts
+       • system-tests/test/webpack_dev_server_fresh_spec.ts
+     📄 Files WITHOUT TSTypeAnnotation (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+       • scripts/spec-helper.js
+
+   TemplateElement:
+     📄 Files WITH TemplateElement (showing 10):
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/sanitize.js
+       • scripts/sanitize-mocha-results.js
+       • scripts/run-webpack.js
+       • scripts/prepare-release-artifacts.js
+     📄 Files WITHOUT TemplateElement (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/start.js
+       • scripts/spec-helper.js
+       • scripts/run-postInstall.js
+       • scripts/format-workflow-file.js
+       • scripts/check-node-version.js
+       • scripts/binary.js
+       • cli/index.mjs
+
+   TSTypeReference:
+     📄 Files WITH TSTypeReference (showing 10):
+       • system-tests/test-binary/ci_environments_spec.ts
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/serverStub.ts
+       • system-tests/lib/fixtures.ts
+       • system-tests/lib/docker.ts
+       • system-tests/test/webpack_dev_server_fresh_spec.ts
+       • system-tests/test/vite_dev_server_fresh_spec.ts
+       • system-tests/test/testConfigOverrides_spec.ts
+       • system-tests/test/subdomain_spec.ts
+       • system-tests/test/subdomain_injectDocumentDomain_spec.ts
+     📄 Files WITHOUT TSTypeReference (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   LogicalExpression:
+     📄 Files WITH LogicalExpression (showing 10):
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/type_check.js
+       • scripts/sanitize-mocha-results.js
+       • scripts/run-webpack.js
+       • scripts/npm-release.js
+       • scripts/import.js
+       • scripts/get-next-version.js
+       • scripts/circle-env.js
+       • scripts/check-terminal.js
+     📄 Files WITHOUT LogicalExpression (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+       • scripts/spec-helper.js
+       • scripts/sanitize.js
+       • scripts/run-postInstall.js
+
+   FunctionExpression:
+     📄 Files WITH FunctionExpression (showing 10):
+       • scripts/spec-helper.js
+       • scripts/sanitize.js
+       • scripts/after-sign-hook.js
+       • scripts/after-pack-hook.js
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/spec_helper.js
+       • system-tests/lib/serverStub.ts
+       • system-tests/lib/resultsUtils.ts
+       • system-tests/lib/pluginUtils.js
+       • system-tests/lib/normalizeStdout.ts
+     📄 Files WITHOUT FunctionExpression (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   IfStatement:
+     📄 Files WITH IfStatement (showing 10):
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/sanitize-mocha-results.js
+       • scripts/prepare-release-artifacts.js
+       • scripts/npm-release.js
+       • scripts/get-next-version.js
+     📄 Files WITHOUT IfStatement (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/start.js
+       • scripts/spec-helper.js
+       • scripts/sanitize.js
+       • scripts/run-webpack.js
+       • scripts/run-postInstall.js
+       • scripts/import.js
+       • scripts/get-platform-key.js
+
+   UnaryExpression:
+     📄 Files WITH UnaryExpression (showing 10):
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/sanitize-mocha-results.js
+       • scripts/prepare-release-artifacts.js
+       • scripts/npm-release.js
+       • scripts/get-next-version.js
+       • scripts/debug.js
+       • scripts/cypress.js
+       • scripts/circle-env.js
+     📄 Files WITHOUT UnaryExpression (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/start.js
+       • scripts/spec-helper.js
+       • scripts/sanitize.js
+       • scripts/run-webpack.js
+
+   ArrayExpression:
+     📄 Files WITH ArrayExpression (showing 10):
+       • apollo.config.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sanitize.js
+       • scripts/sanitize-mocha-results.js
+       • scripts/npm-release.js
+       • scripts/get-next-version.js
+       • scripts/circle-cache.js
+       • scripts/after-pack-hook.js
+     📄 Files WITHOUT ArrayExpression (showing 10):
+       • gulpfile.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+       • scripts/spec-helper.js
+       • scripts/run-webpack.js
+       • scripts/run-postInstall.js
+       • scripts/prepare-release-artifacts.js
+
+   TemplateLiteral:
+     📄 Files WITH TemplateLiteral (showing 10):
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/sanitize.js
+       • scripts/sanitize-mocha-results.js
+       • scripts/run-webpack.js
+       • scripts/prepare-release-artifacts.js
+     📄 Files WITHOUT TemplateLiteral (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/start.js
+       • scripts/spec-helper.js
+       • scripts/run-postInstall.js
+       • scripts/format-workflow-file.js
+       • scripts/check-node-version.js
+       • scripts/binary.js
+       • cli/index.mjs
+
+   ImportDeclaration:
+     📄 Files WITH ImportDeclaration (showing 10):
+       • system-tests/globals.d.ts
+       • cli/index.mjs
+       • system-tests/test-binary/node_versions_spec.ts
+       • system-tests/test-binary/module_api_spec.ts
+       • system-tests/test-binary/ci_environments_spec.ts
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/serverStub.ts
+       • system-tests/lib/resultsUtils.ts
+       • system-tests/lib/normalizeStdout.ts
+       • system-tests/lib/fixtures.ts
+     📄 Files WITHOUT ImportDeclaration (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+       • scripts/spec-helper.js
+
+   ParenthesizedExpression:
+     📄 Files WITH ParenthesizedExpression (showing 10):
+       • scripts/sanitize-mocha-results.js
+       • scripts/npm-release.js
+       • scripts/get-next-version.js
+       • system-tests/scripts/projects-yarn-install.js
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/serverStub.ts
+       • system-tests/lib/normalizeStdout.ts
+       • system-tests/lib/docker.ts
+       • system-tests/test/system_node_spec.js
+       • system-tests/test/subdomain_spec.ts
+     📄 Files WITHOUT ParenthesizedExpression (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   ImportSpecifier:
+     📄 Files WITH ImportSpecifier (showing 10):
+       • system-tests/globals.d.ts
+       • system-tests/test-binary/ci_environments_spec.ts
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/serverStub.ts
+       • system-tests/lib/fixtures.ts
+       • system-tests/lib/docker.ts
+       • system-tests/test/webpack_dev_server_spec.ts
+       • system-tests/test/webpack_dev_server_fresh_spec.ts
+       • system-tests/test/vite_dev_server_fresh_spec.ts
+       • system-tests/test/testConfigOverrides_spec.ts
+     📄 Files WITHOUT ImportSpecifier (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+       • scripts/spec-helper.js
+
+   SequenceExpression:
+     📄 Files WITH SequenceExpression (showing 10):
+       • system-tests/projects/yarn-v3.1.1-pnp/yarn-3.1.1.cjs
+       • cli/lib/exec/spawn.js
+       • tooling/v8-snapshot/test/unit/doctor.spec.ts
+       • system-tests/projects/ct-public-api-solid-js/cypress-ct-solid-js/definition.js
+       • system-tests/projects/e2e/static/jquery.js
+       • packages/server/lib/browsers/browser-cri-client.ts
+       • packages/app/src/specs/SpecItem.cy.tsx
+       • packages/app/src/runner/index.ts
+       • npm/webpack-dev-server/src/helpers/sourceRelativeWebpackModules.ts
+       • packages/proxy/test/unit/http/request-middleware.spec.ts
+     📄 Files WITHOUT SequenceExpression (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   JSXIdentifier:
+     📄 Files WITH JSXIdentifier (showing 10):
+       • packages/reporter/src/main.tsx
+       • system-tests/project-fixtures/react/src/mount.cy.jsx
+       • system-tests/project-fixtures/react/src/Unmount.cy.jsx
+       • system-tests/project-fixtures/react/src/Rerendering.cy.jsx
+       • system-tests/project-fixtures/react/src/MissingReactInSpec.cy.jsx
+       • system-tests/project-fixtures/react/src/MissingReact.jsx
+       • system-tests/project-fixtures/react/src/MissingReact.cy.jsx
+       • system-tests/project-fixtures/react/src/Errors.cy.jsx
+       • system-tests/project-fixtures/react/src/App.jsx
+       • system-tests/project-fixtures/react/src/App.cy.jsx
+     📄 Files WITHOUT JSXIdentifier (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   NewExpression:
+     📄 Files WITH NewExpression (showing 10):
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/sanitize.js
+       • scripts/sanitize-mocha-results.js
+       • scripts/prepare-release-artifacts.js
+       • scripts/npm-release.js
+       • scripts/get-next-version.js
+     📄 Files WITHOUT NewExpression (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/start.js
+       • scripts/spec-helper.js
+       • scripts/run-webpack.js
+       • scripts/run-postInstall.js
+       • scripts/import.js
+       • scripts/get-platform-key.js
+
+   TSPropertySignature:
+     📄 Files WITH TSPropertySignature (showing 10):
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/serverStub.ts
+       • system-tests/lib/resultsUtils.ts
+       • system-tests/lib/docker.ts
+       • scripts/gulp/gulpConstants.ts
+       • scripts/binary/move-binaries.ts
+       • scripts/binary/build.ts
+       • packages/web-config/webpack.config.base.ts
+       • packages/ts/index.d.ts
+       • packages/server/index.d.ts
+     📄 Files WITHOUT TSPropertySignature (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   AwaitExpression:
+     📄 Files WITH AwaitExpression (showing 10):
+       • scripts/verify-mocha-results.js
+       • scripts/utils.js
+       • scripts/sanitize-mocha-results.js
+       • scripts/npm-release.js
+       • scripts/get-next-version.js
+       • scripts/ensure-icons.js
+       • scripts/circle-cache.js
+       • scripts/after-sign-hook.js
+       • scripts/after-pack-hook.js
+       • system-tests/test-binary/ci_environments_spec.ts
+     📄 Files WITHOUT AwaitExpression (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-accessibility-results.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+       • scripts/spec-helper.js
+       • scripts/sanitize.js
+
+   TSStringKeyword:
+     📄 Files WITH TSStringKeyword (showing 10):
+       • system-tests/test-binary/node_versions_spec.ts
+       • system-tests/test-binary/ci_environments_spec.ts
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/serverStub.ts
+       • system-tests/lib/resultsUtils.ts
+       • system-tests/lib/normalizeStdout.ts
+       • system-tests/lib/fixtures.ts
+       • system-tests/lib/docker.ts
+       • system-tests/test/request_spec.ts
+       • system-tests/test/non_root_read_only_fs_spec.ts
+     📄 Files WITHOUT TSStringKeyword (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   ConditionalExpression:
+     📄 Files WITH ConditionalExpression (showing 10):
+       • scripts/windows-sign.js
+       • scripts/verify-accessibility-results.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/run-webpack.js
+       • scripts/run-postInstall.js
+       • scripts/prepare-release-artifacts.js
+       • scripts/get-next-version.js
+       • scripts/add-install-comment.js
+       • system-tests/scripts/run.js
+     📄 Files WITHOUT ConditionalExpression (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/verify-mocha-results.js
+       • scripts/utils.js
+       • scripts/start.js
+       • scripts/spec-helper.js
+       • scripts/sanitize.js
+       • scripts/sanitize-mocha-results.js
+       • scripts/npm-release.js
+
+   Program:
+     📄 Files WITH Program (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+     📄 Files WITHOUT Program: (all files contain this node type)
+
+   MethodDefinition:
+     📄 Files WITH MethodDefinition (showing 10):
+       • system-tests/lib/docker.ts
+       • cli/lib/VerboseRenderer.js
+       • tooling/packherd/src/generate-entry.ts
+       • tooling/electron-mksnapshot/src/metadata.ts
+       • tooling/electron-mksnapshot/src/config.ts
+       • system-tests/lib/protocol-stubs/protocolStubWithRuntimeError.ts
+       • system-tests/lib/protocol-stubs/protocolStubWithNonFatalError.ts
+       • system-tests/lib/protocol-stubs/protocolStubWithMissingArchive.ts
+       • system-tests/lib/protocol-stubs/protocolStubWithBeforeTestError.ts
+       • system-tests/lib/protocol-stubs/protocolStubWithBeforeSpecError.ts
+     📄 Files WITHOUT MethodDefinition (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   ObjectPattern:
+     📄 Files WITH ObjectPattern (showing 10):
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/sanitize-mocha-results.js
+       • scripts/run-postInstall.js
+       • scripts/prepare-release-artifacts.js
+       • scripts/npm-release.js
+     📄 Files WITHOUT ObjectPattern (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/start.js
+       • scripts/spec-helper.js
+       • scripts/sanitize.js
+       • scripts/run-webpack.js
+       • scripts/get-platform-key.js
+       • scripts/format-workflow-file.js
+       • scripts/debug.js
+
+   TSTypeParameterInstantiation:
+     📄 Files WITH TSTypeParameterInstantiation (showing 10):
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/serverStub.ts
+       • system-tests/lib/fixtures.ts
+       • system-tests/lib/docker.ts
+       • system-tests/test/request_spec.ts
+       • scripts/binary/s3-api.ts
+       • scripts/binary/build.ts
+       • packages/ts/index.d.ts
+       • packages/launchpad/vue-shims.d.ts
+       • packages/frontend-shared/vue-shims.d.ts
+     📄 Files WITHOUT TSTypeParameterInstantiation (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   FunctionDeclaration:
+     📄 Files WITH FunctionDeclaration (showing 10):
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/utils.js
+       • scripts/sanitize-mocha-results.js
+       • scripts/run-webpack.js
+       • scripts/import.js
+       • scripts/ensure-icons.js
+       • scripts/circle-env.js
+       • scripts/circle-cache.js
+       • system-tests/test-binary/node_versions_spec.ts
+     📄 Files WITHOUT FunctionDeclaration (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/verify-accessibility-results.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+       • scripts/spec-helper.js
+       • scripts/sanitize.js
+       • scripts/run-postInstall.js
+
+   ImportDefaultSpecifier:
+     📄 Files WITH ImportDefaultSpecifier (showing 10):
+       • system-tests/globals.d.ts
+       • cli/index.mjs
+       • system-tests/test-binary/node_versions_spec.ts
+       • system-tests/test-binary/module_api_spec.ts
+       • system-tests/test-binary/ci_environments_spec.ts
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/serverStub.ts
+       • system-tests/lib/resultsUtils.ts
+       • system-tests/lib/normalizeStdout.ts
+       • system-tests/lib/fixtures.ts
+     📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+       • scripts/spec-helper.js
+
+   JSXAttribute:
+     📄 Files WITH JSXAttribute (showing 10):
+       • packages/reporter/src/main.tsx
+       • system-tests/project-fixtures/react/src/mount.cy.jsx
+       • system-tests/project-fixtures/react/src/Unmount.cy.jsx
+       • system-tests/project-fixtures/react/src/Rerendering.cy.jsx
+       • system-tests/project-fixtures/react/src/Errors.cy.jsx
+       • system-tests/project-fixtures/react/src/App.jsx
+       • system-tests/project-fixtures/next/cypress/Errors.cy.jsx
+       • system-tests/projects/webpack-dev-server-relative/src/relative-url.cy.jsx
+       • system-tests/projects/tailwind-vite/src/App.cy.jsx
+       • system-tests/projects/runner-ct-specs/src/Errors.jsx
+     📄 Files WITHOUT JSXAttribute (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   ExportNamedDeclaration:
+     📄 Files WITH ExportNamedDeclaration (showing 10):
+       • cli/index.mjs
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/serverStub.ts
+       • system-tests/lib/resultsUtils.ts
+       • system-tests/lib/normalizeStdout.ts
+       • system-tests/lib/fixtures.ts
+       • system-tests/lib/docker.ts
+       • scripts/gulp/monorepoPaths.ts
+       • scripts/gulp/gulpConstants.ts
+       • scripts/binary/s3-api.ts
+     📄 Files WITHOUT ExportNamedDeclaration (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   ThrowStatement:
+     📄 Files WITH ThrowStatement (showing 10):
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/type_check.js
+       • scripts/sanitize.js
+       • scripts/sanitize-mocha-results.js
+       • scripts/prepare-release-artifacts.js
+       • scripts/npm-release.js
+       • scripts/get-next-version.js
+       • scripts/ensure-icons.js
+       • scripts/debug.js
+     📄 Files WITHOUT ThrowStatement (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/utils.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+       • scripts/spec-helper.js
+       • scripts/run-webpack.js
+       • scripts/run-postInstall.js
+
+   TSLiteralType:
+     📄 Files WITH TSLiteralType (showing 10):
+       • system-tests/test-binary/ci_environments_spec.ts
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/serverStub.ts
+       • system-tests/lib/normalizeStdout.ts
+       • scripts/gulp/gulpConstants.ts
+       • scripts/binary/move-binaries.ts
+       • packages/ts/index.d.ts
+       • packages/extension/index.d.ts
+       • packages/extension/gulpfile.ts
+       • npm/webpack-preprocessor/index.ts
+     📄 Files WITHOUT TSLiteralType (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSAnyKeyword:
+     📄 Files WITH TSAnyKeyword (showing 10):
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/serverStub.ts
+       • system-tests/lib/normalizeStdout.ts
+       • scripts/binary/meta.ts
+       • packages/ts/index.d.ts
+       • packages/server/index.d.ts
+       • packages/reporter/index.d.ts
+       • packages/app/index.d.ts
+       • npm/webpack-preprocessor/index.ts
+       • cli/types/cypress.d.ts
+     📄 Files WITHOUT TSAnyKeyword (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   JSXElement:
+     📄 Files WITH JSXElement (showing 10):
+       • packages/reporter/src/main.tsx
+       • system-tests/project-fixtures/react/src/mount.cy.jsx
+       • system-tests/project-fixtures/react/src/Unmount.cy.jsx
+       • system-tests/project-fixtures/react/src/Rerendering.cy.jsx
+       • system-tests/project-fixtures/react/src/MissingReactInSpec.cy.jsx
+       • system-tests/project-fixtures/react/src/MissingReact.jsx
+       • system-tests/project-fixtures/react/src/MissingReact.cy.jsx
+       • system-tests/project-fixtures/react/src/Errors.cy.jsx
+       • system-tests/project-fixtures/react/src/App.jsx
+       • system-tests/project-fixtures/react/src/App.cy.jsx
+     📄 Files WITHOUT JSXElement (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   JSXOpeningElement:
+     📄 Files WITH JSXOpeningElement (showing 10):
+       • packages/reporter/src/main.tsx
+       • system-tests/project-fixtures/react/src/mount.cy.jsx
+       • system-tests/project-fixtures/react/src/Unmount.cy.jsx
+       • system-tests/project-fixtures/react/src/Rerendering.cy.jsx
+       • system-tests/project-fixtures/react/src/MissingReactInSpec.cy.jsx
+       • system-tests/project-fixtures/react/src/MissingReact.jsx
+       • system-tests/project-fixtures/react/src/MissingReact.cy.jsx
+       • system-tests/project-fixtures/react/src/Errors.cy.jsx
+       • system-tests/project-fixtures/react/src/App.jsx
+       • system-tests/project-fixtures/react/src/App.cy.jsx
+     📄 Files WITHOUT JSXOpeningElement (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   JSXExpressionContainer:
+     📄 Files WITH JSXExpressionContainer (showing 10):
+       • packages/reporter/src/main.tsx
+       • system-tests/project-fixtures/react/src/mount.cy.jsx
+       • system-tests/project-fixtures/react/src/Unmount.cy.jsx
+       • system-tests/project-fixtures/react/src/Rerendering.cy.jsx
+       • system-tests/project-fixtures/react/src/Errors.cy.jsx
+       • system-tests/project-fixtures/react/src/App.jsx
+       • system-tests/project-fixtures/next/cypress/Errors.cy.jsx
+       • system-tests/projects/runner-ct-specs/src/Errors.jsx
+       • system-tests/projects/react-vite-ts-configured/src/App.tsx
+       • system-tests/projects/react-vite-ts-unconfigured/src/App.tsx
+     📄 Files WITHOUT JSXExpressionContainer (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   JSXText:
+     📄 Files WITH JSXText (showing 10):
+       • packages/reporter/src/main.tsx
+       • system-tests/project-fixtures/react/src/Unmount.cy.jsx
+       • system-tests/project-fixtures/react/src/Rerendering.cy.jsx
+       • system-tests/project-fixtures/react/src/MissingReact.jsx
+       • system-tests/project-fixtures/react/src/Errors.cy.jsx
+       • system-tests/project-fixtures/react/src/App.jsx
+       • system-tests/project-fixtures/next/cypress/Errors.cy.jsx
+       • system-tests/projects/vite-simple/src/main.jsx
+       • system-tests/projects/vite-simple/src/App.jsx
+       • system-tests/projects/tailwind-vite/src/App.cy.jsx
+     📄 Files WITHOUT JSXText (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   ChainExpression:
+     📄 Files WITH ChainExpression (showing 10):
+       • system-tests/scripts/scaffold.js
+       • system-tests/lib/serverStub.ts
+       • system-tests/test/record_spec.js
+       • system-tests/test/error_ui_spec.ts
+       • scripts/semantic-commits/get-binary-release-data.js
+       • packages/server/start-cypress.js
+       • packages/frontend-shared/vite.config.mjs
+       • npm/webpack-preprocessor/index.ts
+       • npm/webpack-batteries-included-preprocessor/index.js
+       • cli/lib/cli.js
+     📄 Files WITHOUT ChainExpression (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSUnionType:
+     📄 Files WITH TSUnionType (showing 10):
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/serverStub.ts
+       • system-tests/lib/resultsUtils.ts
+       • system-tests/lib/normalizeStdout.ts
+       • system-tests/lib/docker.ts
+       • system-tests/test/request_spec.ts
+       • scripts/gulp/gulpConstants.ts
+       • scripts/binary/move-binaries.ts
+       • packages/ts/index.d.ts
+       • packages/server/index.d.ts
+     📄 Files WITHOUT TSUnionType (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSAsExpression:
+     📄 Files WITH TSAsExpression (showing 10):
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/serverStub.ts
+       • system-tests/lib/fixtures.ts
+       • system-tests/test/subdomain_spec.ts
+       • system-tests/test/subdomain_injectDocumentDomain_spec.ts
+       • system-tests/test/headless_spec.ts
+       • system-tests/test/component_testing_spec.ts
+       • scripts/gulp/monorepoPaths.ts
+       • scripts/binary/move-binaries.ts
+       • scripts/binary/meta.ts
+     📄 Files WITHOUT TSAsExpression (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   SpreadElement:
+     📄 Files WITH SpreadElement (showing 10):
+       • scripts/run-webpack.js
+       • scripts/prepare-release-artifacts.js
+       • scripts/import.js
+       • scripts/debug.js
+       • system-tests/scripts/projects-yarn-install.js
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/serverStub.ts
+       • system-tests/lib/performance.js
+       • system-tests/lib/docker.ts
+       • system-tests/test/screenshots_spec.js
+     📄 Files WITHOUT SpreadElement (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSQualifiedName:
+     📄 Files WITH TSQualifiedName (showing 10):
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/fixtures.ts
+       • scripts/binary/build.ts
+       • packages/server/index.d.ts
+       • packages/runner/webpack.config.ts
+       • packages/driver/index.ts
+       • packages/driver/index.d.ts
+       • packages/driver/cypress.config.ts
+       • npm/webpack-preprocessor/index.ts
+       • cli/types/cypress.d.ts
+     📄 Files WITHOUT TSQualifiedName (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   SwitchCase:
+     📄 Files WITH SwitchCase (showing 10):
+       • scripts/sanitize.js
+       • scripts/circle-cache.js
+       • cli/index.js
+       • system-tests/lib/resultsUtils.ts
+       • system-tests/test/subdomain_spec.ts
+       • system-tests/test/subdomain_injectDocumentDomain_spec.ts
+       • system-tests/test/request_spec.ts
+       • scripts/binary/meta.ts
+       • tooling/v8-snapshot/src/utils.ts
+       • system-tests/projects/yarn-v3.1.1-pnp/yarn-3.1.1.cjs
+     📄 Files WITHOUT SwitchCase (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   AssignmentPattern:
+     📄 Files WITH AssignmentPattern (showing 10):
+       • scripts/utils.js
+       • scripts/import.js
+       • scripts/ensure-icons.js
+       • system-tests/scripts/scaffold.js
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/serverStub.ts
+       • system-tests/lib/resultsUtils.ts
+       • system-tests/lib/normalizeStdout.ts
+       • system-tests/lib/fixtures.ts
+       • system-tests/test/studio_spec.ts
+     📄 Files WITHOUT AssignmentPattern (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+       • scripts/spec-helper.js
+
+   TSArrayType:
+     📄 Files WITH TSArrayType (showing 10):
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/docker.ts
+       • system-tests/test/webpack_dev_server_fresh_spec.ts
+       • system-tests/test/vite_dev_server_fresh_spec.ts
+       • system-tests/test/testConfigOverrides_spec.ts
+       • system-tests/test/headless_spec.ts
+       • scripts/gulp/gulpfile.ts
+       • scripts/binary/s3-api.ts
+       • scripts/binary/move-binaries.ts
+       • scripts/binary/meta.ts
+     📄 Files WITHOUT TSArrayType (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSNumberKeyword:
+     📄 Files WITH TSNumberKeyword (showing 10):
+       • system-tests/test-binary/ci_environments_spec.ts
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/resultsUtils.ts
+       • system-tests/lib/normalizeStdout.ts
+       • system-tests/test/webpack_dev_server_fresh_spec.ts
+       • system-tests/test/vite_dev_server_fresh_spec.ts
+       • system-tests/test/request_spec.ts
+       • system-tests/test/non_root_read_only_fs_spec.ts
+       • scripts/binary/move-binaries.ts
+       • packages/ts/index.d.ts
+     📄 Files WITHOUT TSNumberKeyword (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSBooleanKeyword:
+     📄 Files WITH TSBooleanKeyword (showing 10):
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/resultsUtils.ts
+       • system-tests/lib/normalizeStdout.ts
+       • system-tests/lib/docker.ts
+       • scripts/binary/build.ts
+       • packages/web-config/webpack.config.base.ts
+       • packages/ts/index.d.ts
+       • packages/server/index.d.ts
+       • packages/extension/gulpfile.ts
+       • npm/webpack-preprocessor/index.ts
+     📄 Files WITHOUT TSBooleanKeyword (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSTypeLiteral:
+     📄 Files WITH TSTypeLiteral (showing 10):
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/serverStub.ts
+       • system-tests/lib/resultsUtils.ts
+       • system-tests/lib/docker.ts
+       • packages/web-config/webpack.config.base.ts
+       • packages/ts/index.d.ts
+       • packages/app/index.d.ts
+       • npm/webpack-preprocessor/index.ts
+       • cli/types/cypress.d.ts
+       • cli/types/cypress-npm-api.d.ts
+     📄 Files WITHOUT TSTypeLiteral (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   UpdateExpression:
+     📄 Files WITH UpdateExpression (showing 10):
+       • scripts/unit/get-next-version-spec.js
+       • scripts/semantic-commits/parse-changelog.js
+       • scripts/binary/binary-integrity-check-source.js
+       • system-tests/projects/yarn-v3.1.1-pnp/yarn-3.1.1.cjs
+       • system-tests/projects/remote-debugging-disconnect/plugins.js
+       • scripts/gulp/utils/prefixStream.ts
+       • scripts/binary/util/transform-requires.js
+       • scripts/binary/util/testStaticAssets.js
+       • packages/socket/test/socket_spec.js
+       • packages/server/lib/video_capture.ts
+     📄 Files WITHOUT UpdateExpression (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   PropertyDefinition:
+     📄 Files WITH PropertyDefinition (showing 10):
+       • system-tests/lib/docker.ts
+       • tooling/packherd/src/generate-entry.ts
+       • system-tests/lib/protocol-stubs/protocolStubWithRuntimeError.ts
+       • system-tests/lib/protocol-stubs/protocolStubWithNonFatalError.ts
+       • system-tests/lib/protocol-stubs/protocolStubWithMissingArchive.ts
+       • system-tests/lib/protocol-stubs/protocolStubWithBeforeTestError.ts
+       • system-tests/lib/protocol-stubs/protocolStubWithBeforeSpecError.ts
+       • system-tests/lib/protocol-stubs/protocolStubServiceWorker.ts
+       • system-tests/lib/protocol-stubs/protocolStubFontFlooding.ts
+       • system-tests/lib/protocol-stubs/protocolStub.ts
+     📄 Files WITHOUT PropertyDefinition (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   JSXClosingElement:
+     📄 Files WITH JSXClosingElement (showing 10):
+       • packages/reporter/src/main.tsx
+       • system-tests/project-fixtures/react/src/mount.cy.jsx
+       • system-tests/project-fixtures/react/src/Unmount.cy.jsx
+       • system-tests/project-fixtures/react/src/Rerendering.cy.jsx
+       • system-tests/project-fixtures/react/src/MissingReact.jsx
+       • system-tests/project-fixtures/react/src/Errors.cy.jsx
+       • system-tests/project-fixtures/react/src/App.jsx
+       • system-tests/project-fixtures/next/cypress/Errors.cy.jsx
+       • system-tests/projects/vite-simple/src/main.jsx
+       • system-tests/projects/vite-simple/src/App.jsx
+     📄 Files WITHOUT JSXClosingElement (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TryStatement:
+     📄 Files WITH TryStatement (showing 10):
+       • scripts/verify-mocha-results.js
+       • scripts/sanitize-mocha-results.js
+       • scripts/npm-release.js
+       • scripts/after-sign-hook.js
+       • scripts/after-pack-hook.js
+       • system-tests/scripts/scaffold.js
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/serverStub.ts
+       • system-tests/lib/resultsUtils.ts
+       • system-tests/lib/fixtures.ts
+     📄 Files WITHOUT TryStatement (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+       • scripts/spec-helper.js
+
+   ForOfStatement:
+     📄 Files WITH ForOfStatement (showing 10):
+       • scripts/npm-release.js
+       • scripts/get-next-version.js
+       • scripts/after-pack-hook.js
+       • system-tests/scripts/scaffold.js
+       • system-tests/scripts/projects-yarn-install.js
+       • system-tests/lib/system-tests.ts
+       • system-tests/projects/rename.js
+       • system-tests/test/webpack_dev_server_fresh_spec.ts
+       • system-tests/test/vite_dev_server_fresh_spec.ts
+       • system-tests/test/component_testing_spec.ts
+     📄 Files WITHOUT ForOfStatement (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   CatchClause:
+     📄 Files WITH CatchClause (showing 10):
+       • scripts/verify-mocha-results.js
+       • scripts/sanitize-mocha-results.js
+       • scripts/npm-release.js
+       • scripts/after-sign-hook.js
+       • scripts/after-pack-hook.js
+       • system-tests/scripts/scaffold.js
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/serverStub.ts
+       • system-tests/lib/resultsUtils.ts
+       • system-tests/lib/fixtures.ts
+     📄 Files WITHOUT CatchClause (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+       • scripts/spec-helper.js
+
+   TSVoidKeyword:
+     📄 Files WITH TSVoidKeyword (showing 10):
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/serverStub.ts
+       • system-tests/lib/docker.ts
+       • scripts/binary/build.ts
+       • packages/ts/index.d.ts
+       • packages/server/index.d.ts
+       • packages/app/index.d.ts
+       • npm/webpack-preprocessor/index.ts
+       • npm/puppeteer/cypress.config.ts
+       • cli/types/cypress.d.ts
+     📄 Files WITHOUT TSVoidKeyword (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSTypeAliasDeclaration:
+     📄 Files WITH TSTypeAliasDeclaration (showing 10):
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/serverStub.ts
+       • system-tests/test/webpack_dev_server_fresh_spec.ts
+       • system-tests/test/vite_dev_server_fresh_spec.ts
+       • scripts/gulp/gulpConstants.ts
+       • scripts/binary/move-binaries.ts
+       • scripts/binary/meta.ts
+       • packages/ts/index.d.ts
+       • npm/webpack-preprocessor/index.ts
+       • cli/types/cypress.d.ts
+     📄 Files WITHOUT TSTypeAliasDeclaration (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSInterfaceDeclaration:
+     📄 Files WITH TSInterfaceDeclaration (showing 10):
+       • scripts/gulp/gulpConstants.ts
+       • scripts/binary/move-binaries.ts
+       • scripts/binary/build.ts
+       • packages/ts/index.d.ts
+       • packages/server/index.d.ts
+       • packages/reporter/index.d.ts
+       • packages/driver/index.ts
+       • packages/app/index.d.ts
+       • npm/webpack-preprocessor/index.ts
+       • cli/types/cypress.d.ts
+     📄 Files WITHOUT TSInterfaceDeclaration (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSInterfaceBody:
+     📄 Files WITH TSInterfaceBody (showing 10):
+       • scripts/gulp/gulpConstants.ts
+       • scripts/binary/move-binaries.ts
+       • scripts/binary/build.ts
+       • packages/ts/index.d.ts
+       • packages/server/index.d.ts
+       • packages/reporter/index.d.ts
+       • packages/driver/index.ts
+       • packages/app/index.d.ts
+       • npm/webpack-preprocessor/index.ts
+       • cli/types/cypress.d.ts
+     📄 Files WITHOUT TSInterfaceBody (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSFunctionType:
+     📄 Files WITH TSFunctionType (showing 10):
+       • system-tests/lib/system-tests.ts
+       • packages/ts/index.d.ts
+       • packages/server/index.d.ts
+       • packages/app/index.d.ts
+       • npm/webpack-preprocessor/index.ts
+       • cli/types/cypress.d.ts
+       • cli/types/cypress-eventemitter.d.ts
+       • tooling/v8-snapshot/src/types.ts
+       • tooling/packherd/src/types.ts
+       • tooling/packherd/src/generate-entry.ts
+     📄 Files WITHOUT TSFunctionType (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   ForStatement:
+     📄 Files WITH ForStatement (showing 10):
+       • scripts/binary/binary-integrity-check-source.js
+       • system-tests/projects/yarn-v3.1.1-pnp/yarn-3.1.1.cjs
+       • packages/socket/test/socket_spec.js
+       • packages/runner/injection/cross-origin.js
+       • packages/packherd-require/src/sourcemap-support.ts
+       • packages/https-proxy/lib/ca.js
+       • packages/errors/src/stripIndent.ts
+       • packages/config/src/validation.ts
+       • tooling/v8-snapshot/src/sourcemap/process-sourcemap.ts
+       • tooling/v8-snapshot/src/doctor/snapshot-doctor.ts
+     📄 Files WITHOUT ForStatement (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSIndexedAccessType:
+     📄 Files WITH TSIndexedAccessType (showing 10):
+       • system-tests/test-binary/ci_environments_spec.ts
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/serverStub.ts
+       • system-tests/test/webpack_dev_server_fresh_spec.ts
+       • system-tests/test/vite_dev_server_fresh_spec.ts
+       • scripts/binary/meta.ts
+       • cli/types/cypress.d.ts
+       • tooling/v8-snapshot/src/types.ts
+       • tooling/packherd/src/types.ts
+       • system-tests/project-fixtures/react/cypress-webpack-no-support.config.ts
+     📄 Files WITHOUT TSIndexedAccessType (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   ClassBody:
+     📄 Files WITH ClassBody (showing 10):
+       • system-tests/lib/docker.ts
+       • cli/lib/VerboseRenderer.js
+       • tooling/packherd/src/generate-entry.ts
+       • tooling/electron-mksnapshot/src/metadata.ts
+       • tooling/electron-mksnapshot/src/config.ts
+       • system-tests/lib/protocol-stubs/protocolStubWithRuntimeError.ts
+       • system-tests/lib/protocol-stubs/protocolStubWithNonFatalError.ts
+       • system-tests/lib/protocol-stubs/protocolStubWithMissingArchive.ts
+       • system-tests/lib/protocol-stubs/protocolStubWithBeforeTestError.ts
+       • system-tests/lib/protocol-stubs/protocolStubWithBeforeSpecError.ts
+     📄 Files WITHOUT ClassBody (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSMethodSignature:
+     📄 Files WITH TSMethodSignature (showing 10):
+       • system-tests/lib/system-tests.ts
+       • packages/ts/index.d.ts
+       • packages/reporter/index.d.ts
+       • cli/types/cypress.d.ts
+       • cli/types/cypress-npm-api.d.ts
+       • cli/types/cypress-eventemitter.d.ts
+       • cli/types/cy-chai.d.ts
+       • packages/types/src/protocol.ts
+       • packages/types/src/cloud.ts
+       • packages/telemetry/src/index.ts
+     📄 Files WITHOUT TSMethodSignature (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   ArrayPattern:
+     📄 Files WITH ArrayPattern (showing 10):
+       • scripts/debug.js
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/serverStub.ts
+       • system-tests/lib/fixtures.ts
+       • system-tests/test/cookies_spec.ts
+       • scripts/semantic-commits/validate-changelog.js
+       • scripts/semantic-commits/get-binary-release-data.js
+       • scripts/semantic-commits/change-categories.js
+       • scripts/binary/move-binaries.ts
+       • scripts/binary/binary-cleanup.js
+     📄 Files WITHOUT ArrayPattern (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   RestElement:
+     📄 Files WITH RestElement (showing 10):
+       • scripts/type_check.js
+       • scripts/prepare-release-artifacts.js
+       • scripts/debug.js
+       • system-tests/scripts/projects-yarn-install.js
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/spec_helper.js
+       • system-tests/lib/normalizeStdout.ts
+       • system-tests/lib/docker.ts
+       • system-tests/test/screenshots_spec.js
+       • system-tests/test/cookies_spec.ts
+     📄 Files WITHOUT RestElement (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+       • scripts/spec-helper.js
+
+   TSTypeParameter:
+     📄 Files WITH TSTypeParameter (showing 10):
+       • system-tests/lib/serverStub.ts
+       • packages/ts/index.d.ts
+       • cli/types/cypress.d.ts
+       • cli/types/cypress-type-helpers.d.ts
+       • cli/types/cypress-npm-api.d.ts
+       • cli/types/cy-bluebird.d.ts
+       • tooling/v8-snapshot/src/types.ts
+       • packages/v8-snapshot-require/src/types.ts
+       • packages/types/src/util.ts
+       • packages/types/src/server.ts
+     📄 Files WITHOUT TSTypeParameter (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TaggedTemplateExpression:
+     📄 Files WITH TaggedTemplateExpression (showing 10):
+       • scripts/add-install-comment.js
+       • system-tests/test/record_spec.js
+       • scripts/gulp/gulpfile.ts
+       • cli/lib/util.js
+       • cli/lib/errors.js
+       • scripts/gulp/tasks/gulpMakePackage.ts
+       • scripts/binary/util/testStaticAssets.js
+       • packages/scaffold-config/src/supportFile.ts
+       • packages/scaffold-config/src/component-index-template.ts
+       • packages/scaffold-config/src/commandFile.ts
+     📄 Files WITHOUT TaggedTemplateExpression (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   BreakStatement:
+     📄 Files WITH BreakStatement (showing 10):
+       • scripts/sanitize.js
+       • cli/index.js
+       • system-tests/lib/system-tests.ts
+       • scripts/semantic-commits/parse-changelog.js
+       • scripts/semantic-commits/get-binary-release-data.js
+       • tooling/v8-snapshot/src/utils.ts
+       • system-tests/projects/yarn-v3.1.1-pnp/yarn-3.1.1.cjs
+       • scripts/github-actions/semantic-pull-request/validate-pr-title.js
+       • scripts/binary/util/testStaticAssets.js
+       • packages/server/lib/reporter.js
+     📄 Files WITHOUT BreakStatement (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSNullKeyword:
+     📄 Files WITH TSNullKeyword (showing 10):
+       • system-tests/lib/docker.ts
+       • system-tests/test/request_spec.ts
+       • scripts/binary/s3-api.ts
+       • scripts/binary/move-binaries.ts
+       • packages/ts/index.d.ts
+       • cli/types/cypress.d.ts
+       • cli/types/cypress-type-helpers.d.ts
+       • cli/types/cypress-npm-api.d.ts
+       • cli/types/cypress-eventemitter.d.ts
+       • tooling/electron-mksnapshot/src/metadata.ts
+     📄 Files WITHOUT TSNullKeyword (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSUndefinedKeyword:
+     📄 Files WITH TSUndefinedKeyword (showing 10):
+       • system-tests/lib/serverStub.ts
+       • system-tests/lib/resultsUtils.ts
+       • system-tests/lib/normalizeStdout.ts
+       • cli/types/cypress.d.ts
+       • tooling/v8-snapshot/src/utils.ts
+       • tooling/v8-snapshot/src/types.ts
+       • system-tests/lib/protocol-stubs/protocolStubWithMissingArchive.ts
+       • scripts/gulp/tasks/gulpCypress.ts
+       • packages/v8-snapshot-require/src/snapshot-require.ts
+       • packages/types/src/util.ts
+     📄 Files WITHOUT TSUndefinedKeyword (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSTypeParameterDeclaration:
+     📄 Files WITH TSTypeParameterDeclaration (showing 10):
+       • system-tests/lib/serverStub.ts
+       • packages/ts/index.d.ts
+       • cli/types/cypress.d.ts
+       • cli/types/cypress-type-helpers.d.ts
+       • cli/types/cypress-npm-api.d.ts
+       • cli/types/cy-bluebird.d.ts
+       • tooling/v8-snapshot/src/types.ts
+       • packages/v8-snapshot-require/src/types.ts
+       • packages/types/src/util.ts
+       • packages/types/src/server.ts
+     📄 Files WITHOUT TSTypeParameterDeclaration (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   ExportDefaultDeclaration:
+     📄 Files WITH ExportDefaultDeclaration (showing 10):
+       • cli/index.mjs
+       • system-tests/lib/fixtures.ts
+       • packages/server/index.d.ts
+       • packages/runner/webpack.config.ts
+       • packages/reporter/webpack.config.ts
+       • packages/reporter/index.d.ts
+       • packages/reporter/cypress.config.ts
+       • packages/launchpad/vue-shims.d.ts
+       • packages/launchpad/vite.config.mjs
+       • packages/launchpad/cypress.config.ts
+     📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSIntersectionType:
+     📄 Files WITH TSIntersectionType (showing 10):
+       • system-tests/lib/system-tests.ts
+       • cli/types/cypress.d.ts
+       • cli/types/cypress-npm-api.d.ts
+       • cli/types/cypress-global-vars.d.ts
+       • tooling/v8-snapshot/src/types.ts
+       • tooling/packherd/src/types.ts
+       • tooling/packherd/src/create-bundle.ts
+       • tooling/electron-mksnapshot/src/config.ts
+       • system-tests/project-fixtures/react/cypress-webpack.config.ts
+       • packages/v8-snapshot-require/src/types.ts
+     📄 Files WITHOUT TSIntersectionType (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSTypeQuery:
+     📄 Files WITH TSTypeQuery (showing 10):
+       • system-tests/globals.d.ts
+       • system-tests/lib/serverStub.ts
+       • system-tests/test/webpack_dev_server_fresh_spec.ts
+       • system-tests/test/vite_dev_server_fresh_spec.ts
+       • scripts/binary/meta.ts
+       • packages/extension/index.d.ts
+       • packages/app/index.d.ts
+       • npm/webpack-dev-server/cypress.config.ts
+       • npm/vite-dev-server/cypress.config.ts
+       • cli/types/cypress.d.ts
+     📄 Files WITHOUT TSTypeQuery (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+       • scripts/spec-helper.js
+
+   TSCallSignatureDeclaration:
+     📄 Files WITH TSCallSignatureDeclaration (showing 6):
+       • cli/types/cypress.d.ts
+       • packages/driver/types/internal-types.d.ts
+       • packages/driver/types/internal-types-lite.d.ts
+       • packages/driver/src/cypress/state.ts
+       • packages/driver/src/cypress/setter_getter.d.ts
+       • packages/driver/src/cy/commands/actions/press.ts
+     📄 Files WITHOUT TSCallSignatureDeclaration (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   Super:
+     📄 Files WITH Super (showing 10):
+       • system-tests/lib/docker.ts
+       • system-tests/projects/yarn-v3.1.1-pnp/yarn-3.1.1.cjs
+       • packages/socket/lib/socket.ts
+       • packages/socket/lib/cdp-socket.ts
+       • packages/socket/lib/cdp-browser.ts
+       • packages/server/lib/studio.ts
+       • packages/server/lib/socket-e2e.ts
+       • packages/server/lib/socket-ct.ts
+       • packages/server/lib/project-base.ts
+       • packages/network/lib/agent.ts
+     📄 Files WITHOUT Super (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSNonNullExpression:
+     📄 Files WITH TSNonNullExpression (showing 10):
+       • npm/puppeteer/cypress.config.ts
+       • scripts/gulp/tasks/gulpCloudDeliveredTypes.ts
+       • packages/telemetry/src/index.ts
+       • packages/server/lib/server-base.ts
+       • packages/server/lib/project-base.ts
+       • packages/server/lib/open_project.ts
+       • packages/rewriter/lib/deferred-source-map-cache.ts
+       • packages/network/lib/concat-stream.ts
+       • packages/network/lib/agent.ts
+       • packages/errors/src/errors.ts
+     📄 Files WITHOUT TSNonNullExpression (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   PrivateIdentifier:
+     📄 Files WITH PrivateIdentifier (showing 10):
+       • packages/server/lib/socket-ct.ts
+       • packages/data-context/src/DataContext.ts
+       • packages/data-context/src/polling/poller.ts
+       • packages/data-context/src/util/DocumentNodeBuilder.ts
+       • packages/data-context/src/actions/NotificationActions.ts
+       • packages/data-context/src/actions/DataEmitterActions.ts
+       • packages/data-context/src/actions/AuthActions.ts
+       • packages/data-context/src/sources/VersionsDataSource.ts
+       • packages/data-context/src/sources/RemoteRequestDataSource.ts
+       • packages/data-context/src/sources/RelevantRunsDataSource.ts
+     📄 Files WITHOUT PrivateIdentifier (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   ClassDeclaration:
+     📄 Files WITH ClassDeclaration (showing 10):
+       • system-tests/lib/docker.ts
+       • cli/lib/VerboseRenderer.js
+       • tooling/packherd/src/generate-entry.ts
+       • tooling/electron-mksnapshot/src/metadata.ts
+       • tooling/electron-mksnapshot/src/config.ts
+       • system-tests/lib/protocol-stubs/protocolStubWithRuntimeError.ts
+       • system-tests/lib/protocol-stubs/protocolStubWithNonFatalError.ts
+       • system-tests/lib/protocol-stubs/protocolStubWithMissingArchive.ts
+       • system-tests/lib/protocol-stubs/protocolStubWithBeforeTestError.ts
+       • system-tests/lib/protocol-stubs/protocolStubWithBeforeSpecError.ts
+     📄 Files WITHOUT ClassDeclaration (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   ClassExpression:
+     📄 Files WITH ClassExpression (showing 4):
+       • system-tests/projects/yarn-v3.1.1-pnp/yarn-3.1.1.cjs
+       • packages/driver/cypress/e2e/dom/visibility_shadow_dom.cy.ts
+       • packages/driver/cypress/e2e/e2e/uncaught_errors.cy.js
+       • packages/server/test/unit/cloud/studio/StudioLifecycleManager_spec.ts
+     📄 Files WITHOUT ClassExpression (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   ContinueStatement:
+     📄 Files WITH ContinueStatement (showing 10):
+       • system-tests/scripts/projects-yarn-install.js
+       • system-tests/lib/docker.ts
+       • scripts/semantic-commits/get-binary-release-data.js
+       • tooling/v8-snapshot/src/utils.ts
+       • system-tests/projects/yarn-v3.1.1-pnp/yarn-3.1.1.cjs
+       • scripts/binary/util/packages.ts
+       • packages/v8-snapshot-require/src/dependency-map.ts
+       • packages/errors/src/stripIndent.ts
+       • packages/config/src/validation.ts
+       • tooling/v8-snapshot/src/meta/dependency-map.ts
+     📄 Files WITHOUT ContinueStatement (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   ImportNamespaceSpecifier:
+     📄 Files WITH ImportNamespaceSpecifier (showing 10):
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/serverStub.ts
+       • system-tests/test/non_root_read_only_fs_spec.ts
+       • scripts/binary/build.ts
+       • packages/runner/unified-runner.tsx
+       • packages/extension/gulpfile.ts
+       • npm/webpack-preprocessor/index.ts
+       • cli/types/cy-blob-util.d.ts
+       • tooling/packherd/test/packherd.spec.ts
+       • tooling/packherd/test/entry-generator.spec.ts
+     📄 Files WITHOUT ImportNamespaceSpecifier (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   SwitchStatement:
+     📄 Files WITH SwitchStatement (showing 10):
+       • scripts/sanitize.js
+       • scripts/circle-cache.js
+       • cli/index.js
+       • system-tests/lib/resultsUtils.ts
+       • system-tests/test/subdomain_spec.ts
+       • system-tests/test/subdomain_injectDocumentDomain_spec.ts
+       • system-tests/test/request_spec.ts
+       • scripts/binary/meta.ts
+       • tooling/v8-snapshot/src/utils.ts
+       • system-tests/projects/yarn-v3.1.1-pnp/yarn-3.1.1.cjs
+     📄 Files WITHOUT SwitchStatement (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSTypeOperator:
+     📄 Files WITH TSTypeOperator (showing 10):
+       • system-tests/lib/serverStub.ts
+       • scripts/binary/meta.ts
+       • cli/types/cypress.d.ts
+       • tooling/v8-snapshot/src/types.ts
+       • packages/v8-snapshot-require/src/types.ts
+       • packages/types/src/server.ts
+       • packages/types/src/protocol.ts
+       • packages/types/src/preferences.ts
+       • packages/types/src/driver.ts
+       • packages/types/src/config.ts
+     📄 Files WITHOUT TSTypeOperator (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   ExportAllDeclaration:
+     📄 Files WITH ExportAllDeclaration (showing 10):
+       • packages/reporter/index.ts
+       • packages/icons/index.d.ts
+       • packages/launcher/index.ts
+       • packages/driver/index.ts
+       • npm/vite-plugin-cypress-esm/index.d.ts
+       • npm/vite-dev-server/index.d.ts
+       • tooling/v8-snapshot/src/v8-snapshot.ts
+       • tooling/packherd/src/packherd.ts
+       • packages/v8-snapshot-require/src/snapshot-require.ts
+       • packages/types/src/index.ts
+     📄 Files WITHOUT ExportAllDeclaration (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSUnknownKeyword:
+     📄 Files WITH TSUnknownKeyword (showing 10):
+       • cli/types/cypress.d.ts
+       • tooling/packherd/test/packherd.spec.ts
+       • tooling/packherd/test/entry-generator.spec.ts
+       • tooling/packherd/src/create-bundle.ts
+       • packages/v8-snapshot-require/test/dependency-map.spec.ts
+       • packages/v8-snapshot-require/test/dependency-map.circular.spec.ts
+       • packages/types/src/server.ts
+       • packages/server/lib/socket-base.ts
+       • packages/server/lib/server-base.ts
+       • packages/server/lib/routes.ts
+     📄 Files WITHOUT TSUnknownKeyword (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSInterfaceHeritage:
+     📄 Files WITH TSInterfaceHeritage (showing 10):
+       • packages/ts/index.d.ts
+       • npm/webpack-preprocessor/index.ts
+       • cli/types/cypress.d.ts
+       • cli/types/cypress-npm-api.d.ts
+       • cli/types/cypress-eventemitter.d.ts
+       • cli/types/cy-bluebird.d.ts
+       • scripts/gulp/utils/nexusTypegenUtil.ts
+       • scripts/gulp/utils/childProcessUtils.ts
+       • packages/types/src/spec.ts
+       • packages/types/src/reporter.ts
+     📄 Files WITHOUT TSInterfaceHeritage (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   ExportSpecifier:
+     📄 Files WITH ExportSpecifier (showing 10):
+       • system-tests/lib/system-tests.ts
+       • system-tests/lib/fixtures.ts
+       • packages/web-config/webpack.config.base.ts
+       • packages/launcher/index.ts
+       • packages/example/index.d.ts
+       • tooling/v8-snapshot/src/v8-snapshot.ts
+       • packages/types/src/index.ts
+       • packages/telemetry/src/node.ts
+       • packages/telemetry/src/browser.ts
+       • packages/socket/lib/socket.ts
+     📄 Files WITHOUT ExportSpecifier (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSParameterProperty:
+     📄 Files WITH TSParameterProperty (showing 10):
+       • system-tests/lib/docker.ts
+       • tooling/packherd/src/generate-entry.ts
+       • tooling/electron-mksnapshot/src/metadata.ts
+       • tooling/electron-mksnapshot/src/config.ts
+       • packages/v8-snapshot-require/src/dependency-map.ts
+       • packages/server/lib/remote_states.ts
+       • packages/packherd-require/src/sourcemap-support.ts
+       • packages/packherd-require/src/loader.ts
+       • packages/errors/src/errTemplate.ts
+       • packages/data-context/src/DataActions.ts
+     📄 Files WITHOUT TSParameterProperty (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSModuleDeclaration:
+     📄 Files WITH TSModuleDeclaration (showing 10):
+       • system-tests/globals.d.ts
+       • scripts/gulp/gulpConstants.ts
+       • packages/ts/index.d.ts
+       • packages/server/index.d.ts
+       • packages/reporter/index.d.ts
+       • packages/launchpad/vue-shims.d.ts
+       • packages/frontend-shared/vue-shims.d.ts
+       • packages/driver/index.ts
+       • packages/app/vue-shims.d.ts
+       • packages/app/index.d.ts
+     📄 Files WITHOUT TSModuleDeclaration (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+       • scripts/spec-helper.js
+
+   TSModuleBlock:
+     📄 Files WITH TSModuleBlock (showing 10):
+       • system-tests/globals.d.ts
+       • scripts/gulp/gulpConstants.ts
+       • packages/ts/index.d.ts
+       • packages/server/index.d.ts
+       • packages/reporter/index.d.ts
+       • packages/launchpad/vue-shims.d.ts
+       • packages/frontend-shared/vue-shims.d.ts
+       • packages/driver/index.ts
+       • packages/app/vue-shims.d.ts
+       • packages/app/index.d.ts
+     📄 Files WITHOUT TSModuleBlock (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+       • scripts/spec-helper.js
+
+   ForInStatement:
+     📄 Files WITH ForInStatement (showing 10):
+       • scripts/sanitize-mocha-results.js
+       • scripts/npm-release.js
+       • system-tests/lib/docker.ts
+       • system-tests/lib/dep-installer/index.ts
+       • system-tests/projects/yarn-v3.1.1-pnp/yarn-3.1.1.cjs
+       • packages/frontend-shared/script/generate-shiki-theme-ts.ts
+       • packages/config/src/validation.ts
+       • system-tests/projects/e2e/static/jquery.js
+       • packages/server/lib/util/shell.js
+       • packages/server/test/performance/proxy_performance_spec.js
+     📄 Files WITHOUT ForInStatement (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSIndexSignature:
+     📄 Files WITH TSIndexSignature (showing 10):
+       • system-tests/lib/system-tests.ts
+       • packages/ts/index.d.ts
+       • npm/webpack-preprocessor/index.ts
+       • cli/types/cypress.d.ts
+       • packages/types/src/server.ts
+       • packages/types/src/config.ts
+       • packages/telemetry/src/index.ts
+       • packages/socket/lib/cdp-browser.ts
+       • packages/socket/lib/browser.ts
+       • packages/server/lib/server-base.ts
+     📄 Files WITHOUT TSIndexSignature (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSParenthesizedType:
+     📄 Files WITH TSParenthesizedType (showing 10):
+       • cli/types/cypress.d.ts
+       • scripts/gulp/utils/prefixStream.ts
+       • packages/types/src/server.ts
+       • packages/types/src/modeOptions.ts
+       • packages/socket/lib/cdp-socket.ts
+       • packages/server/lib/server-base.ts
+       • packages/server/lib/open_project.ts
+       • packages/reporter/src/main.tsx
+       • packages/packherd-require/src/loader.ts
+       • packages/network/lib/agent.ts
+     📄 Files WITHOUT TSParenthesizedType (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   WhileStatement:
+     📄 Files WITH WhileStatement (showing 10):
+       • scripts/semantic-commits/parse-changelog.js
+       • scripts/binary/binary-cleanup.js
+       • scripts/gulp/utils/prefixStream.ts
+       • scripts/binary/util/testStaticAssets.js
+       • packages/packherd-require/src/loader.ts
+       • tooling/v8-snapshot/src/doctor/snapshot-doctor.ts
+       • system-tests/projects/e2e/static/jquery.js
+       • packages/server/lib/privileged-commands/privileged-channel.js
+       • packages/server/lib/util/stream_buffer.ts
+       • packages/server/lib/util/newlines.js
+     📄 Files WITHOUT WhileStatement (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSObjectKeyword:
+     📄 Files WITH TSObjectKeyword (showing 10):
+       • system-tests/lib/serverStub.ts
+       • system-tests/lib/resultsUtils.ts
+       • cli/types/cypress.d.ts
+       • cli/types/cypress-npm-api.d.ts
+       • packages/types/src/preferences.ts
+       • packages/server/lib/project-base.ts
+       • packages/net-stubbing/lib/external-types.ts
+       • packages/frontend-shared/script/testStubSpecs.ts
+       • packages/errors/src/errors.ts
+       • packages/errors/src/errTemplate.ts
+     📄 Files WITHOUT TSObjectKeyword (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSTupleType:
+     📄 Files WITH TSTupleType (showing 10):
+       • system-tests/lib/serverStub.ts
+       • cli/types/cypress.d.ts
+       • tooling/v8-snapshot/src/types.ts
+       • packages/v8-snapshot-require/src/types.ts
+       • packages/types/src/server.ts
+       • packages/server/lib/server-base.ts
+       • packages/errors/src/stackUtils.ts
+       • packages/data-context/src/DataContext.ts
+       • packages/reporter/src/lib/util.ts
+       • packages/network/test/unit/client_certificates_spec.ts
+     📄 Files WITHOUT TSTupleType (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSTypePredicate:
+     📄 Files WITH TSTypePredicate (showing 10):
+       • cli/types/cypress.d.ts
+       • packages/types/src/platform.ts
+       • packages/graphql/src/makeGraphQLServer.ts
+       • packages/errors/src/errorUtils.ts
+       • packages/errors/src/errTemplate.ts
+       • tooling/v8-snapshot/src/generator/write-config-json.ts
+       • packages/server/lib/automation/automation_not_implemented.ts
+       • packages/server/lib/browsers/firefox.ts
+       • packages/server/lib/browsers/cri-errors.ts
+       • packages/frontend-shared/src/graphql/urqlExchangePubsub.ts
+     📄 Files WITHOUT TSTypePredicate (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSImportType:
+     📄 Files WITH TSImportType (showing 10):
+       • packages/extension/index.d.ts
+       • npm/webpack-dev-server/cypress.config.ts
+       • npm/vite-dev-server/cypress.config.ts
+       • cli/types/cypress-eventemitter.d.ts
+       • packages/resolve-dist/lib/index.ts
+       • packages/packherd-require/src/types.ts
+       • packages/driver/types/internal-types.d.ts
+       • packages/driver/types/internal-types-lite.d.ts
+       • npm/webpack-preprocessor/lib/typescript-overrides.ts
+       • npm/webpack-dev-server/test/devServer-unit.spec.ts
+     📄 Files WITHOUT TSImportType (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSNeverKeyword:
+     📄 Files WITH TSNeverKeyword (showing 10):
+       • cli/types/cypress.d.ts
+       • packages/types/src/util.ts
+       • packages/graphql/test/stubCloudTypes.ts
+       • packages/errors/src/errors.ts
+       • packages/server/lib/cloud/protocol.ts
+       • packages/server/lib/automation/automation.ts
+       • packages/server/lib/browsers/utils.ts
+       • packages/frontend-shared/cypress/support/e2e.ts
+       • packages/frontend-shared/cypress/e2e/e2ePluginSetup.ts
+       • packages/graphql/src/utils/graphqlTypeUtils.ts
+     📄 Files WITHOUT TSNeverKeyword (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   Decorator:
+     📄 Files WITH Decorator (showing 10):
+       • npm/angular/src/mount.ts
+       • system-tests/project-fixtures/angular/src/app/mount.cy.ts
+       • system-tests/project-fixtures/angular/src/app/app.module.ts
+       • system-tests/project-fixtures/angular/src/app/app.component.ts
+       • system-tests/projects/angular-signals/src/signals-required/signals-required.component.ts
+       • system-tests/projects/angular-signals/src/signals-optional/signals-optional.component.ts
+       • system-tests/projects/angular-signals/src/signals-complex/signals-complex.component.ts
+       • system-tests/projects/angular-signals/src/control-flow/control-flow.component.ts
+       • system-tests/projects/angular-custom-config/src/app/my-component.ts
+       • system-tests/projects/angular-cli-unconfigured/src/app/app.component.ts
+     📄 Files WITHOUT Decorator (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSClassImplements:
+     📄 Files WITH TSClassImplements (showing 10):
+       • system-tests/lib/docker.ts
+       • system-tests/lib/protocol-stubs/protocolStubWithRuntimeError.ts
+       • system-tests/lib/protocol-stubs/protocolStubWithNonFatalError.ts
+       • system-tests/lib/protocol-stubs/protocolStubWithMissingArchive.ts
+       • system-tests/lib/protocol-stubs/protocolStubWithBeforeTestError.ts
+       • system-tests/lib/protocol-stubs/protocolStubWithBeforeSpecError.ts
+       • system-tests/lib/protocol-stubs/protocolStubServiceWorker.ts
+       • system-tests/lib/protocol-stubs/protocolStubFontFlooding.ts
+       • system-tests/lib/protocol-stubs/protocolStub.ts
+       • packages/telemetry/src/index.ts
+     📄 Files WITHOUT TSClassImplements (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSConditionalType:
+     📄 Files WITH TSConditionalType (showing 10):
+       • cli/types/cypress.d.ts
+       • packages/types/src/util.ts
+       • packages/graphql/test/stubCloudTypes.ts
+       • npm/vue/src/index.ts
+       • npm/angular/src/mount.ts
+       • packages/server/lib/cloud/protocol.ts
+       • packages/server/lib/automation/automation.ts
+       • packages/reporter/src/runnables/runnables-store.ts
+       • packages/frontend-shared/cypress/support/e2e.ts
+       • packages/frontend-shared/cypress/e2e/e2ePluginSetup.ts
+     📄 Files WITHOUT TSConditionalType (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSEmptyBodyFunctionExpression:
+     📄 Files WITH TSEmptyBodyFunctionExpression (showing 5):
+       • packages/network/lib/document-domain-injection.ts
+       • packages/data-context/src/globalPubSub.ts
+       • packages/data-context/src/data/ProjectConfigIpc.ts
+       • packages/data-context/src/data/LegacyPluginsIpc.ts
+       • packages/app/src/runner/event-manager.ts
+     📄 Files WITHOUT TSEmptyBodyFunctionExpression (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSMappedType:
+     📄 Files WITH TSMappedType (showing 10):
+       • system-tests/lib/serverStub.ts
+       • scripts/binary/meta.ts
+       • cli/types/cypress.d.ts
+       • tooling/v8-snapshot/src/types.ts
+       • packages/v8-snapshot-require/src/types.ts
+       • packages/types/src/config.ts
+       • packages/graphql/test/stubCloudTypes.ts
+       • npm/vue/src/index.ts
+       • npm/angular/src/mount.ts
+       • packages/server/lib/cloud/protocol.ts
+     📄 Files WITHOUT TSMappedType (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   JSXSpreadAttribute:
+     📄 Files WITH JSXSpreadAttribute (showing 10):
+       • packages/reporter/src/main.tsx
+       • packages/reporter/src/sessions/sessions.tsx
+       • packages/reporter/src/lib/state-icon.tsx
+       • packages/reporter/src/commands/command.tsx
+       • packages/reporter/src/attempts/attempts.tsx
+       • packages/frontend-shared/src/warning/Warning.cy.tsx
+       • packages/frontend-shared/src/components/StandardModal.cy.tsx
+       • packages/frontend-shared/src/components/Select.cy.tsx
+       • packages/frontend-shared/src/components/Alert.cy.tsx
+       • packages/app/src/specs/SpecsListBanners.cy.tsx
+     📄 Files WITHOUT JSXSpreadAttribute (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   DoWhileStatement:
+     📄 Files WITH DoWhileStatement (showing 5):
+       • system-tests/projects/yarn-v3.1.1-pnp/yarn-3.1.1.cjs
+       • system-tests/projects/e2e/static/jquery.js
+       • packages/server/lib/util/async_retry.ts
+       • packages/driver/src/cy/actionability.ts
+       • packages/driver/src/util/serialization/index.ts
+     📄 Files WITHOUT DoWhileStatement (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   JSXFragment:
+     📄 Files WITH JSXFragment (showing 10):
+       • packages/reporter/src/sessions/sessions.tsx
+       • packages/reporter/src/runnables/runnables.tsx
+       • packages/reporter/src/runnables/runnable-header.tsx
+       • packages/reporter/src/runnables/runnable-and-suite.tsx
+       • packages/reporter/src/test/test.tsx
+       • packages/reporter/src/errors/error-stack.tsx
+       • packages/reporter/src/commands/command.tsx
+       • packages/frontend-shared/src/gql-components/CopyButton.cy.tsx
+       • packages/frontend-shared/src/components/ListRowHeader.cy.tsx
+       • packages/frontend-shared/src/components/Collapsible.cy.tsx
+     📄 Files WITHOUT JSXFragment (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   JSXOpeningFragment:
+     📄 Files WITH JSXOpeningFragment (showing 10):
+       • packages/reporter/src/sessions/sessions.tsx
+       • packages/reporter/src/runnables/runnables.tsx
+       • packages/reporter/src/runnables/runnable-header.tsx
+       • packages/reporter/src/runnables/runnable-and-suite.tsx
+       • packages/reporter/src/test/test.tsx
+       • packages/reporter/src/errors/error-stack.tsx
+       • packages/reporter/src/commands/command.tsx
+       • packages/frontend-shared/src/gql-components/CopyButton.cy.tsx
+       • packages/frontend-shared/src/components/ListRowHeader.cy.tsx
+       • packages/frontend-shared/src/components/Collapsible.cy.tsx
+     📄 Files WITHOUT JSXOpeningFragment (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   JSXClosingFragment:
+     📄 Files WITH JSXClosingFragment (showing 10):
+       • packages/reporter/src/sessions/sessions.tsx
+       • packages/reporter/src/runnables/runnables.tsx
+       • packages/reporter/src/runnables/runnable-header.tsx
+       • packages/reporter/src/runnables/runnable-and-suite.tsx
+       • packages/reporter/src/test/test.tsx
+       • packages/reporter/src/errors/error-stack.tsx
+       • packages/reporter/src/commands/command.tsx
+       • packages/frontend-shared/src/gql-components/CopyButton.cy.tsx
+       • packages/frontend-shared/src/components/ListRowHeader.cy.tsx
+       • packages/frontend-shared/src/components/Collapsible.cy.tsx
+     📄 Files WITHOUT JSXClosingFragment (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSThisType:
+     📄 Files WITH TSThisType (showing 6):
+       • packages/ts/index.d.ts
+       • cli/types/cypress-eventemitter.d.ts
+       • packages/net-stubbing/lib/external-types.ts
+       • packages/data-context/src/globalPubSub.ts
+       • packages/data-context/src/data/ProjectConfigIpc.ts
+       • packages/data-context/src/data/LegacyPluginsIpc.ts
+     📄 Files WITHOUT TSThisType (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSExportAssignment:
+     📄 Files WITH TSExportAssignment (showing 10):
+       • packages/ts/index.d.ts
+       • npm/webpack-preprocessor/index.ts
+       • cli/types/cypress-npm-api.d.ts
+       • cli/types/cy-minimatch.d.ts
+       • cli/types/cy-bluebird.d.ts
+       • cli/types/cy-blob-util.d.ts
+       • packages/server/lib/screenshots.ts
+       • packages/server/lib/cypress.ts
+       • packages/server/lib/cohorts.ts
+       • packages/server/lib/gui/menu.ts
+     📄 Files WITHOUT TSExportAssignment (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   ImportExpression:
+     📄 Files WITH ImportExpression (showing 10):
+       • scripts/binary/binary-byte-node-entry-point-source.js
+       • system-tests/project-fixtures/react/cypress-webpack-dev-server-async-config.config.ts
+       • npm/vite-dev-server/client/initCypressTests.js
+       • system-tests/projects/config-cjs-and-esm/config-with-ts-module/cypress.config.ts
+       • system-tests/projects/config-cjs-and-esm/config-with-ts-module-component/cypress.config.ts
+       • packages/server/lib/browsers/webkit.ts
+       • packages/server/lib/browsers/utils.ts
+       • packages/server/lib/browsers/index.ts
+       • packages/data-context/src/actions/CodegenActions.ts
+       • npm/vite-plugin-cypress-esm/cypress/component/ignoreModuleList.cy.ts
+     📄 Files WITHOUT ImportExpression (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSTemplateLiteralType:
+     📄 Files WITH TSTemplateLiteralType (showing 10):
+       • scripts/gulp/utils/childProcessUtils.ts
+       • packages/types/src/automation.ts
+       • packages/socket/lib/cdp-browser.ts
+       • packages/launchpad/cypress/e2e/scaffold-component-testing.cy.ts
+       • packages/frontend-shared/cypress/support/e2e.ts
+       • packages/graphql/src/utils/graphqlTypeUtils.ts
+       • packages/driver/src/dom/dimensions.ts
+       • packages/data-context/src/data/ProjectConfigIpc.ts
+       • packages/data-context/src/codegen/spec-options.ts
+       • packages/data-context/test/unit/helper.ts
+     📄 Files WITHOUT TSTemplateLiteralType (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   JSXMemberExpression:
+     📄 Files WITH JSXMemberExpression (showing 10):
+       • system-tests/projects/vite-simple/src/main.jsx
+       • system-tests/projects/react-vite-ts-configured/src/main.tsx
+       • system-tests/projects/react-vite-ts-unconfigured/src/main.tsx
+       • system-tests/projects/no-specs-custom-pattern/src/index.jsx
+       • system-tests/projects/no-specs/src/index.jsx
+       • npm/vite-plugin-cypress-esm/cypress/component/stub.cy.tsx
+       • npm/vite-plugin-cypress-esm/cypress/component/edgeCases.cy.tsx
+       • npm/react/cypress/component/basic/error-boundary.jsx
+       • npm/react/cypress/component/advanced/lazy-loaded-suspense/LazyComponent.tsx
+       • npm/react/cypress/component/advanced/context/Mock-context.cy.jsx
+     📄 Files WITHOUT JSXMemberExpression (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   YieldExpression:
+     📄 Files WITH YieldExpression (showing 4):
+       • system-tests/projects/yarn-v3.1.1-pnp/yarn-3.1.1.cjs
+       • scripts/unit/github-actions/semantic-pull-request/validate-pr-title-spec.js
+       • packages/server/lib/util/app_data.js
+       • packages/net-stubbing/lib/server/route-matching.ts
+     📄 Files WITHOUT YieldExpression (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSDeclareFunction:
+     📄 Files WITH TSDeclareFunction (showing 7):
+       • packages/ts/index.d.ts
+       • cli/types/cy-minimatch.d.ts
+       • packages/app/src/paths.ts
+       • npm/vue/test-tsd/index.d.ts
+       • npm/vue/src/index.ts
+       • system-tests/projects/ct-public-api-solid-js/cypress-ct-solid-js/index.d.ts
+       • packages/server/lib/browsers/utils.ts
+     📄 Files WITHOUT TSDeclareFunction (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSEnumMember:
+     📄 Files WITH TSEnumMember (showing 5):
+       • tooling/v8-snapshot/src/generator/snapshot-generator-flags.ts
+       • tooling/v8-snapshot/src/doctor/warnings-processor.ts
+       • packages/proxy/lib/http/index.ts
+       • npm/cypress-schematic/src/schematics/utils/dependencies.ts
+       • packages/driver/src/cy/commands/sessions/utils.ts
+     📄 Files WITHOUT TSEnumMember (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSSymbolKeyword:
+     📄 Files WITH TSSymbolKeyword (showing 4):
+       • packages/ts/index.d.ts
+       • cli/types/cypress-eventemitter.d.ts
+       • packages/reporter/src/lib/events.ts
+       • packages/proxy/lib/http/response-middleware.ts
+     📄 Files WITHOUT TSSymbolKeyword (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSTypeAssertion:
+     📄 Files WITH TSTypeAssertion (showing 7):
+       • packages/network/lib/agent.ts
+       • packages/network/test/unit/agent_spec.ts
+       • packages/network/test/support/servers.ts
+       • packages/net-stubbing/lib/server/driver-events.ts
+       • packages/proxy/lib/http/response-middleware.ts
+       • packages/app/src/specs/spec-utils.ts
+       • packages/driver/src/cy/net-stubbing/add-command.ts
+     📄 Files WITHOUT TSTypeAssertion (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSNamedTupleMember:
+     📄 Files WITH TSNamedTupleMember (showing 4):
+       • packages/network/test/support/servers.ts
+       • packages/driver/src/cy/listeners.ts
+       • packages/data-context/test/unit/sources/GitDataSource_unit.spec.ts
+       • packages/server/test/unit/cloud/api/put_protocol_artifact_spec.ts
+     📄 Files WITHOUT TSNamedTupleMember (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   EmptyStatement:
+     📄 Files WITH EmptyStatement (showing 1):
+       • system-tests/projects/yarn-v3.1.1-pnp/yarn-3.1.1.cjs
+     📄 Files WITHOUT EmptyStatement (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSInferType:
+     📄 Files WITH TSInferType (showing 8):
+       • cli/types/cypress.d.ts
+       • npm/vue/src/index.ts
+       • npm/angular/src/mount.ts
+       • packages/frontend-shared/cypress/support/e2e.ts
+       • packages/frontend-shared/cypress/e2e/e2ePluginSetup.ts
+       • packages/graphql/src/utils/graphqlTypeUtils.ts
+       • packages/data-context/src/sources/CloudDataSource.ts
+       • packages/frontend-shared/cypress/support/mock-graphql/clientTestUtils.ts
+     📄 Files WITHOUT TSInferType (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   LabeledStatement:
+     📄 Files WITH LabeledStatement (showing 5):
+       • system-tests/projects/yarn-v3.1.1-pnp/yarn-3.1.1.cjs
+       • packages/net-stubbing/lib/server/intercepted-request.ts
+       • system-tests/projects/todos/tests/_fixtures/trailing_new_line.js
+       • system-tests/projects/todos/tests/_fixtures/bar.js
+       • system-tests/projects/todos/tests/_fixtures/nested/fixture.js
+     📄 Files WITHOUT LabeledStatement (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   Hashbang:
+     📄 Files WITH Hashbang (showing 9):
+       • cli/scripts/start-build.js
+       • cli/scripts/post-install.js
+       • system-tests/projects/yarn-v3.1.1-pnp/yarn-3.1.1.cjs
+       • packages/example/bin/convert.js
+       • packages/example/bin/build.js
+       • npm/eslint-plugin-dev/lib/scripts/lint-staged.js
+       • npm/eslint-plugin-dev/lib/scripts/lint-pre-push.js
+       • npm/eslint-plugin-dev/lib/scripts/lint-pre-commit.js
+       • npm/eslint-plugin-dev/lib/scripts/lint-changed.js
+     📄 Files WITHOUT Hashbang (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSBigIntKeyword:
+     📄 Files WITH TSBigIntKeyword (showing 4):
+       • packages/types/src/protocol.ts
+       • packages/server/lib/cloud/api/index.ts
+       • packages/server/lib/cloud/artifacts/protocol_artifact.ts
+       • packages/server/lib/cloud/artifacts/artifact.ts
+     📄 Files WITHOUT TSBigIntKeyword (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   MetaProperty:
+     📄 Files WITH MetaProperty (showing 7):
+       • cli/index.mjs
+       • packages/frontend-shared/vite.config.mjs
+       • system-tests/projects/no-specs-vue/vite.config.ts
+       • tooling/v8-snapshot/src/blueprint/globals.js
+       • packages/frontend-shared/src/graphql/urqlClient.ts
+       • packages/frontend-shared/src/components/highlight.ts
+       • packages/frontend-shared/cypress/support/mock-graphql/clientTestUrqlClient.ts
+     📄 Files WITHOUT MetaProperty (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSConstructSignatureDeclaration:
+     📄 Files WITH TSConstructSignatureDeclaration (showing 4):
+       • packages/driver/types/window.d.ts
+       • npm/vue/src/index.ts
+       • npm/webpack-dev-server/src/helpers/sourceRelativeWebpackModules.ts
+       • packages/data-context/test/unit/sources/GitDataSource_unit.spec.ts
+     📄 Files WITHOUT TSConstructSignatureDeclaration (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSImportEqualsDeclaration:
+     📄 Files WITH TSImportEqualsDeclaration (showing 3):
+       • packages/web-config/webpack.config.base.ts
+       • cli/types/cy-bluebird.d.ts
+       • npm/cypress-schematic/src/schematics/ng-generate/component/index.ts
+     📄 Files WITHOUT TSImportEqualsDeclaration (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSExternalModuleReference:
+     📄 Files WITH TSExternalModuleReference (showing 3):
+       • packages/web-config/webpack.config.base.ts
+       • cli/types/cy-bluebird.d.ts
+       • npm/cypress-schematic/src/schematics/ng-generate/component/index.ts
+     📄 Files WITHOUT TSExternalModuleReference (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSEnumDeclaration:
+     📄 Files WITH TSEnumDeclaration (showing 5):
+       • tooling/v8-snapshot/src/generator/snapshot-generator-flags.ts
+       • tooling/v8-snapshot/src/doctor/warnings-processor.ts
+       • packages/proxy/lib/http/index.ts
+       • npm/cypress-schematic/src/schematics/utils/dependencies.ts
+       • packages/driver/src/cy/commands/sessions/utils.ts
+     📄 Files WITHOUT TSEnumDeclaration (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSEnumBody:
+     📄 Files WITH TSEnumBody (showing 5):
+       • tooling/v8-snapshot/src/generator/snapshot-generator-flags.ts
+       • tooling/v8-snapshot/src/doctor/warnings-processor.ts
+       • packages/proxy/lib/http/index.ts
+       • npm/cypress-schematic/src/schematics/utils/dependencies.ts
+       • packages/driver/src/cy/commands/sessions/utils.ts
+     📄 Files WITHOUT TSEnumBody (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSAbstractMethodDefinition:
+     📄 Files WITH TSAbstractMethodDefinition (showing 1):
+       • packages/network/lib/document-domain-injection.ts
+     📄 Files WITHOUT TSAbstractMethodDefinition (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSNamespaceExportDeclaration:
+     📄 Files WITH TSNamespaceExportDeclaration (showing 3):
+       • cli/types/cy-minimatch.d.ts
+       • cli/types/cy-bluebird.d.ts
+       • cli/types/cy-blob-util.d.ts
+     📄 Files WITHOUT TSNamespaceExportDeclaration (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   DebuggerStatement:
+     📄 Files WITH DebuggerStatement (showing 3):
+       • packages/packherd-require/src/transpile-ts.ts
+       • system-tests/projects/v8-snapshot/esm/entry.mjs
+       • packages/driver/src/cy/commands/debugging.ts
+     📄 Files WITHOUT DebuggerStatement (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSConstructorType:
+     📄 Files WITH TSConstructorType (showing 3):
+       • packages/server/lib/cloud/protocol.ts
+       • packages/frontend-shared/cypress/support/common.ts
+       • packages/server/test/unit/browsers/cdp-connection_spec.ts
+     📄 Files WITHOUT TSConstructorType (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   JSXNamespacedName:
+     📄 Files WITH JSXNamespacedName (showing 2):
+       • packages/frontend-shared/src/components/Radio.cy.tsx
+       • packages/frontend-shared/src/components/Checkbox.cy.tsx
+     📄 Files WITHOUT JSXNamespacedName (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSOptionalType:
+     📄 Files WITH TSOptionalType (showing 1):
+       • packages/server/lib/server-base.ts
+     📄 Files WITHOUT TSOptionalType (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   JSXEmptyExpression:
+     📄 Files WITH JSXEmptyExpression (showing 1):
+       • packages/reporter/src/agents/agents.tsx
+     📄 Files WITHOUT JSXEmptyExpression (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
+
+   TSRestType:
+     📄 Files WITH TSRestType (showing 1):
+       • packages/driver/src/cypress/state.ts
+     📄 Files WITHOUT TSRestType (showing 10):
+       • gulpfile.js
+       • apollo.config.js
+       • system-tests/globals.d.ts
+       • scripts/windows-sign.js
+       • scripts/verify-mocha-results.js
+       • scripts/verify-accessibility-results.js
+       • scripts/utils.js
+       • scripts/type_check.js
+       • scripts/sync-exported-npm-with-cli.js
+       • scripts/start.js
 
 ============================================================
 ✅ Analysis complete!
@@ -354,6 +3845,8 @@ Warnings/Errors:
    Expected `}` but found `EOF`
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/projects/config-with-ts-module-error/cypress.config.ts:
    Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/cli/types/tests/cypress-tests.ts:
+   Expected `,` but found `Identifier`
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/project-fixtures/react/src/AppCompilationError.cy.jsx:
    Expected `,` but found `}`
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/project-fixtures/next/pages/styles.cy.js:
@@ -366,8 +3859,6 @@ Warnings/Errors:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/projects/qwik-app/cypress-ct-bad-syntax/definition.js:
    Expected a semicolon or an implicit semicolon after a statement, but found none
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/projects/no-specs/src/Invalid.jsx:
-   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/projects/nextjs-unconfigured/pages/index.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/projects/nextjs-unconfigured/pages/_app.js:
@@ -376,11 +3867,23 @@ Warnings/Errors:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/projects/nextjs-configured/pages/_app.js:
    Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/projects/no-specs/src/Invalid.jsx:
+   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/projects/e2e/lib/fail.js:
    Expected `}` but found `EOF`
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/packages/server/test/scripts/run.js:
+   A 'return' statement can only be used within a function body.
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/projects/todos/tests/_fixtures/user.js:
+   Expected a semicolon or an implicit semicolon after a statement, but found none
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/projects/todos/tests/_fixtures/no_format.js:
+   Expected a semicolon or an implicit semicolon after a statement, but found none
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/projects/todos/tests/_fixtures/bad_js.js:
+   Unterminated string
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/projects/failures/cypress/e2e/syntax_error.js:
    Expected `)` but found `EOF`
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/projects/e2e/cypress/e2e/typescript_syntax_error.cy.ts:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/system-tests/projects/e2e/cypress/e2e/stdout_exit_early_failing.cy.js:
    Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/cypress/npm/webpack-preprocessor/cypress/tests/e2e/compile-error.js:
+   Expected `,` but found `=>`

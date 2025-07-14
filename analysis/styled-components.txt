@@ -1,11 +1,12 @@
 AST Analysis Report for styled-components
-Generated on: 2025-07-13T03:17:32.714Z
+Generated on: 2025-07-14T01:42:31.857Z
 Repository: sample-repos/styled-components
 ================================================================================
 
 🔍 Analyzing JavaScript/TypeScript files in: /Users/camchenry/workspace/ast-analysis/sample-repos/styled-components
 
-📁 Found 151 files to analyze...
+📁 Found 200 files to analyze...
+
 
 
 ============================================================
@@ -13,267 +14,2999 @@ Repository: sample-repos/styled-components
 ============================================================
 
 📁 FILE STATISTICS:
-   Total files found: 151
-   Successfully parsed: 151
+   Total files found: 200
+   Successfully parsed: 200
    Failed to parse: 0
-   Total file size: 187.7 KB
+   Total file size: 429.4 KB
 
 🌳 NODE STATISTICS:
-   Total nodes: 20,247
-   Average nodes per file: 134
-   Average file size: 1.2 KB
+   Total nodes: 54,359
+   Average nodes per file: 272
+   Average file size: 2.1 KB
 
 📋 ALL NODE TYPES (BY FILE PRESENCE):
-   Program                         151 files (100.0%) -      151 total (0.75%)
-   Literal                         128 files ( 84.8%) -    1,463 total (7.23%)
-   Identifier                      127 files ( 84.1%) -    7,054 total (34.84%)
-   ImportDeclaration                98 files ( 64.9%) -      328 total (1.62%)
-   MemberExpression                 91 files ( 60.3%) -    1,036 total (5.12%)
-   ExportDefaultDeclaration         89 files ( 58.9%) -       91 total (0.45%)
-   CallExpression                   81 files ( 53.6%) -      664 total (3.28%)
-   ImportDefaultSpecifier           78 files ( 51.7%) -      212 total (1.05%)
-   VariableDeclaration              75 files ( 49.7%) -      456 total (2.25%)
-   VariableDeclarator               75 files ( 49.7%) -      463 total (2.29%)
-   BlockStatement                   69 files ( 45.7%) -      394 total (1.95%)
-   BinaryExpression                 67 files ( 44.4%) -      310 total (1.53%)
-   ObjectExpression                 62 files ( 41.1%) -      198 total (0.98%)
-   ImportSpecifier                  61 files ( 40.4%) -      249 total (1.23%)
-   Property                         60 files ( 39.7%) -      538 total (2.66%)
-   ReturnStatement                  60 files ( 39.7%) -      188 total (0.93%)
-   TSTypeAnnotation                 59 files ( 39.1%) -      553 total (2.73%)
-   ExpressionStatement              57 files ( 37.7%) -      325 total (1.61%)
-   ArrowFunctionExpression          55 files ( 36.4%) -      176 total (0.87%)
-   Unknown                          50 files ( 33.1%) -      320 total (1.58%)
-   AssignmentExpression             49 files ( 32.5%) -      169 total (0.83%)
-   LogicalExpression                49 files ( 32.5%) -      170 total (0.84%)
-   TSTypeReference                  48 files ( 31.8%) -      824 total (4.07%)
-   TemplateElement                  45 files ( 29.8%) -      284 total (1.40%)
-   ParenthesizedExpression          44 files ( 29.1%) -       85 total (0.42%)
-   TemplateLiteral                  44 files ( 29.1%) -      122 total (0.60%)
-   IfStatement                      41 files ( 27.2%) -      161 total (0.80%)
-   FunctionDeclaration              38 files ( 25.2%) -       59 total (0.29%)
-   UnaryExpression                  36 files ( 23.8%) -       94 total (0.46%)
-   ExportNamedDeclaration           36 files ( 23.8%) -      137 total (0.68%)
-   TSTypeParameterInstantiation     36 files ( 23.8%) -      273 total (1.35%)
-   TSStringKeyword                  36 files ( 23.8%) -      168 total (0.83%)
-   TSAnyKeyword                     31 files ( 20.5%) -       76 total (0.38%)
-   ArrayExpression                  29 files ( 19.2%) -       75 total (0.37%)
-   ConditionalExpression            26 files ( 17.2%) -       62 total (0.31%)
-   TSArrayType                      26 files ( 17.2%) -       56 total (0.28%)
-   TSAsExpression                   26 files ( 17.2%) -       83 total (0.41%)
-   TSUnionType                      22 files ( 14.6%) -       94 total (0.46%)
-   TSNumberKeyword                  20 files ( 13.2%) -       63 total (0.31%)
-   NewExpression                    19 files ( 12.6%) -       32 total (0.16%)
-   ObjectPattern                    18 files ( 11.9%) -       24 total (0.12%)
-   TSUndefinedKeyword               18 files ( 11.9%) -       63 total (0.31%)
-   TSTypeParameterDeclaration       17 files ( 11.3%) -       63 total (0.31%)
-   TSTypeParameter                  17 files ( 11.3%) -      109 total (0.54%)
-   TSObjectKeyword                  17 files ( 11.3%) -       76 total (0.38%)
-   TSQualifiedName                  17 files ( 11.3%) -       56 total (0.28%)
-   SpreadElement                    16 files ( 10.6%) -       42 total (0.21%)
-   TSTypeLiteral                    16 files ( 10.6%) -       37 total (0.18%)
-   ForStatement                     15 files (  9.9%) -       22 total (0.11%)
-   TSPropertySignature              15 files (  9.9%) -       87 total (0.43%)
-   TaggedTemplateExpression         14 files (  9.3%) -       22 total (0.11%)
-   FunctionExpression               13 files (  8.6%) -       50 total (0.25%)
-   UpdateExpression                 13 files (  8.6%) -       28 total (0.14%)
-   TSLiteralType                    13 files (  8.6%) -       49 total (0.24%)
-   TSTypeAliasDeclaration           13 files (  8.6%) -       52 total (0.26%)
-   TSIntersectionType               13 files (  8.6%) -       38 total (0.19%)
-   TSBooleanKeyword                 13 files (  8.6%) -       23 total (0.11%)
-   TSVoidKeyword                    11 files (  7.3%) -       26 total (0.13%)
-   JSXElement                       10 files (  6.6%) -       37 total (0.18%)
-   JSXOpeningElement                10 files (  6.6%) -       37 total (0.18%)
-   JSXIdentifier                    10 files (  6.6%) -      112 total (0.55%)
-   AssignmentPattern                10 files (  6.6%) -       25 total (0.12%)
-   ThisExpression                   10 files (  6.6%) -      151 total (0.75%)
-   ThrowStatement                    9 files (  6.0%) -       17 total (0.08%)
-   ExportSpecifier                   9 files (  6.0%) -       82 total (0.40%)
-   ClassBody                         9 files (  6.0%) -       11 total (0.05%)
-   MethodDefinition                  9 files (  6.0%) -       43 total (0.21%)
-   TSTypeOperator                    8 files (  5.3%) -       20 total (0.10%)
-   TSTypeQuery                       8 files (  5.3%) -       24 total (0.12%)
-   JSXAttribute                      8 files (  5.3%) -       45 total (0.22%)
-   JSXExpressionContainer            8 files (  5.3%) -       48 total (0.24%)
-   JSXClosingElement                 8 files (  5.3%) -       22 total (0.11%)
-   RestElement                       8 files (  5.3%) -       13 total (0.06%)
-   PropertyDefinition                8 files (  5.3%) -       36 total (0.18%)
-   TSInterfaceDeclaration            7 files (  4.6%) -       26 total (0.13%)
-   TSInterfaceBody                   7 files (  4.6%) -       26 total (0.13%)
-   TSTypePredicate                   7 files (  4.6%) -        7 total (0.03%)
-   TSMappedType                      6 files (  4.0%) -        9 total (0.04%)
-   TSIndexedAccessType               6 files (  4.0%) -       13 total (0.06%)
-   TSParenthesizedType               6 files (  4.0%) -       15 total (0.07%)
-   TSFunctionType                    6 files (  4.0%) -       10 total (0.05%)
-   JSXText                           6 files (  4.0%) -       35 total (0.17%)
-   ClassDeclaration                  6 files (  4.0%) -        6 total (0.03%)
-   TSUnknownKeyword                  6 files (  4.0%) -        9 total (0.04%)
-   SwitchStatement                   6 files (  4.0%) -        6 total (0.03%)
-   SwitchCase                        6 files (  4.0%) -       39 total (0.19%)
-   ImportNamespaceSpecifier          5 files (  3.3%) -        5 total (0.02%)
-   TSConditionalType                 5 files (  3.3%) -       28 total (0.14%)
-   TSIndexSignature                  5 files (  3.3%) -       10 total (0.05%)
-   TSNullKeyword                     5 files (  3.3%) -        7 total (0.03%)
-   TSTupleType                       5 files (  3.3%) -        5 total (0.02%)
-   ForInStatement                    5 files (  3.3%) -        7 total (0.03%)
-   TSClassImplements                 5 files (  3.3%) -        7 total (0.03%)
-   ArrayPattern                      4 files (  2.6%) -        4 total (0.02%)
-   TryStatement                      4 files (  2.6%) -        4 total (0.02%)
-   TSInterfaceHeritage               3 files (  2.0%) -       11 total (0.05%)
-   TSNeverKeyword                    3 files (  2.0%) -       14 total (0.07%)
-   JSXSpreadAttribute                3 files (  2.0%) -        3 total (0.01%)
-   CatchClause                       3 files (  2.0%) -        3 total (0.01%)
-   WhileStatement                    3 files (  2.0%) -        3 total (0.01%)
-   ContinueStatement                 3 files (  2.0%) -        5 total (0.02%)
-   ClassExpression                   3 files (  2.0%) -        5 total (0.02%)
-   JSXMemberExpression               3 files (  2.0%) -        8 total (0.04%)
-   AwaitExpression                   2 files (  1.3%) -       12 total (0.06%)
-   TSCallSignatureDeclaration        2 files (  1.3%) -        7 total (0.03%)
-   TSMethodSignature                 2 files (  1.3%) -       17 total (0.08%)
-   ExportAllDeclaration              2 files (  1.3%) -        2 total (0.01%)
-   TSDeclareFunction                 2 files (  1.3%) -        8 total (0.04%)
-   MetaProperty                      1 files (  0.7%) -        1 total (0.00%)
-   ChainExpression                   1 files (  0.7%) -        1 total (0.00%)
-   TSSymbolKeyword                   1 files (  0.7%) -        2 total (0.01%)
-   TSTemplateLiteralType             1 files (  0.7%) -        1 total (0.00%)
-   TSConstructSignatureDeclaration    1 files (  0.7%) -        1 total (0.00%)
-   TSModuleDeclaration               1 files (  0.7%) -        4 total (0.02%)
-   TSModuleBlock                     1 files (  0.7%) -        4 total (0.02%)
-   JSXFragment                       1 files (  0.7%) -        1 total (0.00%)
-   JSXOpeningFragment                1 files (  0.7%) -        1 total (0.00%)
-   JSXClosingFragment                1 files (  0.7%) -        1 total (0.00%)
-   ForOfStatement                    1 files (  0.7%) -        1 total (0.00%)
-   TSNonNullExpression               1 files (  0.7%) -        1 total (0.00%)
-   TSRestType                        1 files (  0.7%) -        1 total (0.00%)
-   TSImportType                      1 files (  0.7%) -        1 total (0.00%)
-   TSInferType                       1 files (  0.7%) -        2 total (0.01%)
-   BreakStatement                    1 files (  0.7%) -        2 total (0.01%)
+   Program                         200 files (100.0%) -      200 total (0.37%)
+   Literal                         177 files ( 88.5%) -    4,288 total (7.89%)
+   Identifier                      176 files ( 88.0%) -   16,317 total (30.02%)
+   ImportDeclaration               145 files ( 72.5%) -      495 total (0.91%)
+   MemberExpression                138 files ( 69.0%) -    3,665 total (6.74%)
+   CallExpression                  127 files ( 63.5%) -    3,906 total (7.19%)
+   ImportDefaultSpecifier          117 files ( 58.5%) -      312 total (0.57%)
+   BlockStatement                  115 files ( 57.5%) -    1,071 total (1.97%)
+   VariableDeclaration             113 files ( 56.5%) -    1,393 total (2.56%)
+   VariableDeclarator              113 files ( 56.5%) -    1,400 total (2.58%)
+   ExpressionStatement             104 files ( 52.0%) -    2,051 total (3.77%)
+   ArrowFunctionExpression         101 files ( 50.5%) -    1,066 total (1.96%)
+   TSTypeAnnotation                 93 files ( 46.5%) -      822 total (1.51%)
+   ImportSpecifier                  91 files ( 45.5%) -      363 total (0.67%)
+   ObjectExpression                 90 files ( 45.0%) -      659 total (1.21%)
+   ExportDefaultDeclaration         89 files ( 44.5%) -       91 total (0.17%)
+   Property                         88 files ( 44.0%) -    1,169 total (2.15%)
+   Unknown                          86 files ( 43.0%) -    1,267 total (2.33%)
+   AssignmentExpression             80 files ( 40.0%) -      298 total (0.55%)
+   BinaryExpression                 79 files ( 39.5%) -      349 total (0.64%)
+   ReturnStatement                  79 files ( 39.5%) -      246 total (0.45%)
+   TSTypeReference                  79 files ( 39.5%) -      976 total (1.80%)
+   TemplateElement                  78 files ( 39.0%) -    1,197 total (2.20%)
+   TemplateLiteral                  77 files ( 38.5%) -      814 total (1.50%)
+   TSTypeParameterInstantiation     64 files ( 32.0%) -      461 total (0.85%)
+   ParenthesizedExpression          60 files ( 30.0%) -      194 total (0.36%)
+   LogicalExpression                57 files ( 28.5%) -      186 total (0.34%)
+   TSStringKeyword                  53 files ( 26.5%) -      259 total (0.48%)
+   ArrayExpression                  49 files ( 24.5%) -      226 total (0.42%)
+   UnaryExpression                  46 files ( 23.0%) -      122 total (0.22%)
+   FunctionDeclaration              46 files ( 23.0%) -       70 total (0.13%)
+   IfStatement                      45 files ( 22.5%) -      169 total (0.31%)
+   TSAnyKeyword                     43 files ( 21.5%) -      130 total (0.24%)
+   TaggedTemplateExpression         40 files ( 20.0%) -      454 total (0.84%)
+   ExportNamedDeclaration           39 files ( 19.5%) -      147 total (0.27%)
+   ConditionalExpression            36 files ( 18.0%) -       90 total (0.17%)
+   JSXElement                       35 files ( 17.5%) -      662 total (1.22%)
+   JSXOpeningElement                35 files ( 17.5%) -      662 total (1.22%)
+   JSXIdentifier                    35 files ( 17.5%) -    1,303 total (2.40%)
+   TSTypeLiteral                    34 files ( 17.0%) -      139 total (0.26%)
+   TSPropertySignature              34 files ( 17.0%) -      232 total (0.43%)
+   NewExpression                    32 files ( 16.0%) -       94 total (0.17%)
+   TSAsExpression                   32 files ( 16.0%) -       97 total (0.18%)
+   TSUnionType                      31 files ( 15.5%) -      116 total (0.21%)
+   TSQualifiedName                  31 files ( 15.5%) -       95 total (0.17%)
+   ObjectPattern                    30 files ( 15.0%) -       95 total (0.17%)
+   TSTypeQuery                      30 files ( 15.0%) -       57 total (0.10%)
+   TSNumberKeyword                  29 files ( 14.5%) -       82 total (0.15%)
+   TSArrayType                      28 files ( 14.0%) -       59 total (0.11%)
+   JSXAttribute                     26 files ( 13.0%) -      354 total (0.65%)
+   TSLiteralType                    25 files ( 12.5%) -      660 total (1.21%)
+   JSXExpressionContainer           25 files ( 12.5%) -      235 total (0.43%)
+   FunctionExpression               24 files ( 12.0%) -       84 total (0.15%)
+   TSBooleanKeyword                 23 files ( 11.5%) -       51 total (0.09%)
+   JSXClosingElement                22 files ( 11.0%) -      241 total (0.44%)
+   ClassBody                        22 files ( 11.0%) -       44 total (0.08%)
+   TSUndefinedKeyword               21 files ( 10.5%) -       67 total (0.12%)
+   JSXText                          21 files ( 10.5%) -      447 total (0.82%)
+   SpreadElement                    19 files (  9.5%) -       50 total (0.09%)
+   TSObjectKeyword                  19 files (  9.5%) -       80 total (0.15%)
+   MethodDefinition                 19 files (  9.5%) -       73 total (0.13%)
+   ClassDeclaration                 18 files (  9.0%) -       38 total (0.07%)
+   TSTypeParameterDeclaration       17 files (  8.5%) -       63 total (0.12%)
+   TSTypeParameter                  17 files (  8.5%) -      109 total (0.20%)
+   ThisExpression                   17 files (  8.5%) -      182 total (0.33%)
+   ForStatement                     16 files (  8.0%) -       25 total (0.05%)
+   TSTypeAliasDeclaration           16 files (  8.0%) -       60 total (0.11%)
+   AssignmentPattern                16 files (  8.0%) -       32 total (0.06%)
+   UpdateExpression                 15 files (  7.5%) -       32 total (0.06%)
+   TSIntersectionType               14 files (  7.0%) -       39 total (0.07%)
+   PropertyDefinition               14 files (  7.0%) -       47 total (0.09%)
+   TSIndexedAccessType              13 files (  6.5%) -       25 total (0.05%)
+   ThrowStatement                   12 files (  6.0%) -       23 total (0.04%)
+   TSInterfaceDeclaration           12 files (  6.0%) -       36 total (0.07%)
+   TSInterfaceBody                  12 files (  6.0%) -       36 total (0.07%)
+   TSVoidKeyword                    12 files (  6.0%) -       31 total (0.06%)
+   JSXSpreadAttribute               12 files (  6.0%) -       30 total (0.06%)
+   RestElement                      11 files (  5.5%) -       17 total (0.03%)
+   ImportNamespaceSpecifier         10 files (  5.0%) -       10 total (0.02%)
+   ExportSpecifier                   9 files (  4.5%) -       82 total (0.15%)
+   TSTypeOperator                    9 files (  4.5%) -       21 total (0.04%)
+   TSNonNullExpression               8 files (  4.0%) -       33 total (0.06%)
+   JSXMemberExpression               8 files (  4.0%) -       46 total (0.08%)
+   TSTupleType                       7 files (  3.5%) -        8 total (0.01%)
+   TryStatement                      7 files (  3.5%) -        7 total (0.01%)
+   TSTypePredicate                   7 files (  3.5%) -        7 total (0.01%)
+   TSMappedType                      6 files (  3.0%) -        9 total (0.02%)
+   TSParenthesizedType               6 files (  3.0%) -       15 total (0.03%)
+   TSIndexSignature                  6 files (  3.0%) -       11 total (0.02%)
+   TSNullKeyword                     6 files (  3.0%) -       12 total (0.02%)
+   TSFunctionType                    6 files (  3.0%) -       10 total (0.02%)
+   ArrayPattern                      6 files (  3.0%) -        8 total (0.01%)
+   JSXFragment                       6 files (  3.0%) -        7 total (0.01%)
+   JSXOpeningFragment                6 files (  3.0%) -        7 total (0.01%)
+   JSXClosingFragment                6 files (  3.0%) -        7 total (0.01%)
+   TSUnknownKeyword                  6 files (  3.0%) -        9 total (0.02%)
+   SwitchStatement                   6 files (  3.0%) -        6 total (0.01%)
+   SwitchCase                        6 files (  3.0%) -       39 total (0.07%)
+   TSConditionalType                 5 files (  2.5%) -       28 total (0.05%)
+   ForInStatement                    5 files (  2.5%) -        7 total (0.01%)
+   TSClassImplements                 5 files (  2.5%) -        7 total (0.01%)
+   CatchClause                       5 files (  2.5%) -        5 total (0.01%)
+   TSInterfaceHeritage               4 files (  2.0%) -       12 total (0.02%)
+   TSModuleDeclaration               4 files (  2.0%) -        8 total (0.01%)
+   TSModuleBlock                     4 files (  2.0%) -        8 total (0.01%)
+   WhileStatement                    4 files (  2.0%) -        4 total (0.01%)
+   ClassExpression                   4 files (  2.0%) -        6 total (0.01%)
+   AwaitExpression                   3 files (  1.5%) -       13 total (0.02%)
+   ChainExpression                   3 files (  1.5%) -       12 total (0.02%)
+   TSNeverKeyword                    3 files (  1.5%) -       14 total (0.03%)
+   ContinueStatement                 3 files (  1.5%) -        5 total (0.01%)
+   TSCallSignatureDeclaration        2 files (  1.0%) -        7 total (0.01%)
+   TSMethodSignature                 2 files (  1.0%) -       17 total (0.03%)
+   ExportAllDeclaration              2 files (  1.0%) -        2 total (0.00%)
+   TSDeclareFunction                 2 files (  1.0%) -        8 total (0.01%)
+   TSImportType                      2 files (  1.0%) -        3 total (0.01%)
+   MetaProperty                      1 files (  0.5%) -        1 total (0.00%)
+   TSSymbolKeyword                   1 files (  0.5%) -        2 total (0.00%)
+   TSTemplateLiteralType             1 files (  0.5%) -        1 total (0.00%)
+   TSConstructSignatureDeclaration    1 files (  0.5%) -        1 total (0.00%)
+   TSInferType                       1 files (  0.5%) -        2 total (0.00%)
+   ForOfStatement                    1 files (  0.5%) -        1 total (0.00%)
+   TSRestType                        1 files (  0.5%) -        1 total (0.00%)
+   BreakStatement                    1 files (  0.5%) -        2 total (0.00%)
+   Super                             1 files (  0.5%) -        1 total (0.00%)
 
 📝 ALL NODE TYPES (BY TOTAL COUNT):
-   Identifier                        7,054 (34.84%) in 127 files (84.1%)
-   Literal                           1,463 (7.23%) in 128 files (84.8%)
-   MemberExpression                  1,036 (5.12%) in 91 files (60.3%)
-   TSTypeReference                     824 (4.07%) in 48 files (31.8%)
-   CallExpression                      664 (3.28%) in 81 files (53.6%)
-   TSTypeAnnotation                    553 (2.73%) in 59 files (39.1%)
-   Property                            538 (2.66%) in 60 files (39.7%)
-   VariableDeclarator                  463 (2.29%) in 75 files (49.7%)
-   VariableDeclaration                 456 (2.25%) in 75 files (49.7%)
-   BlockStatement                      394 (1.95%) in 69 files (45.7%)
-   ImportDeclaration                   328 (1.62%) in 98 files (64.9%)
-   ExpressionStatement                 325 (1.61%) in 57 files (37.7%)
-   Unknown                             320 (1.58%) in 50 files (33.1%)
-   BinaryExpression                    310 (1.53%) in 67 files (44.4%)
-   TemplateElement                     284 (1.40%) in 45 files (29.8%)
-   TSTypeParameterInstantiation        273 (1.35%) in 36 files (23.8%)
-   ImportSpecifier                     249 (1.23%) in 61 files (40.4%)
-   ImportDefaultSpecifier              212 (1.05%) in 78 files (51.7%)
-   ObjectExpression                    198 (0.98%) in 62 files (41.1%)
-   ReturnStatement                     188 (0.93%) in 60 files (39.7%)
-   ArrowFunctionExpression             176 (0.87%) in 55 files (36.4%)
-   LogicalExpression                   170 (0.84%) in 49 files (32.5%)
-   AssignmentExpression                169 (0.83%) in 49 files (32.5%)
-   TSStringKeyword                     168 (0.83%) in 36 files (23.8%)
-   IfStatement                         161 (0.80%) in 41 files (27.2%)
-   Program                             151 (0.75%) in 151 files (100.0%)
-   ThisExpression                      151 (0.75%) in 10 files (6.6%)
-   ExportNamedDeclaration              137 (0.68%) in 36 files (23.8%)
-   TemplateLiteral                     122 (0.60%) in 44 files (29.1%)
-   JSXIdentifier                       112 (0.55%) in 10 files (6.6%)
-   TSTypeParameter                     109 (0.54%) in 17 files (11.3%)
-   UnaryExpression                      94 (0.46%) in 36 files (23.8%)
-   TSUnionType                          94 (0.46%) in 22 files (14.6%)
-   ExportDefaultDeclaration             91 (0.45%) in 89 files (58.9%)
-   TSPropertySignature                  87 (0.43%) in 15 files (9.9%)
-   ParenthesizedExpression              85 (0.42%) in 44 files (29.1%)
-   TSAsExpression                       83 (0.41%) in 26 files (17.2%)
-   ExportSpecifier                      82 (0.40%) in 9 files (6.0%)
-   TSAnyKeyword                         76 (0.38%) in 31 files (20.5%)
-   TSObjectKeyword                      76 (0.38%) in 17 files (11.3%)
-   ArrayExpression                      75 (0.37%) in 29 files (19.2%)
-   TSTypeParameterDeclaration           63 (0.31%) in 17 files (11.3%)
-   TSUndefinedKeyword                   63 (0.31%) in 18 files (11.9%)
-   TSNumberKeyword                      63 (0.31%) in 20 files (13.2%)
-   ConditionalExpression                62 (0.31%) in 26 files (17.2%)
-   FunctionDeclaration                  59 (0.29%) in 38 files (25.2%)
-   TSQualifiedName                      56 (0.28%) in 17 files (11.3%)
-   TSArrayType                          56 (0.28%) in 26 files (17.2%)
-   TSTypeAliasDeclaration               52 (0.26%) in 13 files (8.6%)
-   FunctionExpression                   50 (0.25%) in 13 files (8.6%)
-   TSLiteralType                        49 (0.24%) in 13 files (8.6%)
-   JSXExpressionContainer               48 (0.24%) in 8 files (5.3%)
-   JSXAttribute                         45 (0.22%) in 8 files (5.3%)
-   MethodDefinition                     43 (0.21%) in 9 files (6.0%)
-   SpreadElement                        42 (0.21%) in 16 files (10.6%)
-   SwitchCase                           39 (0.19%) in 6 files (4.0%)
-   TSIntersectionType                   38 (0.19%) in 13 files (8.6%)
-   TSTypeLiteral                        37 (0.18%) in 16 files (10.6%)
-   JSXElement                           37 (0.18%) in 10 files (6.6%)
-   JSXOpeningElement                    37 (0.18%) in 10 files (6.6%)
-   PropertyDefinition                   36 (0.18%) in 8 files (5.3%)
-   JSXText                              35 (0.17%) in 6 files (4.0%)
-   NewExpression                        32 (0.16%) in 19 files (12.6%)
-   UpdateExpression                     28 (0.14%) in 13 files (8.6%)
-   TSConditionalType                    28 (0.14%) in 5 files (3.3%)
-   TSInterfaceDeclaration               26 (0.13%) in 7 files (4.6%)
-   TSInterfaceBody                      26 (0.13%) in 7 files (4.6%)
-   TSVoidKeyword                        26 (0.13%) in 11 files (7.3%)
-   AssignmentPattern                    25 (0.12%) in 10 files (6.6%)
-   ObjectPattern                        24 (0.12%) in 18 files (11.9%)
-   TSTypeQuery                          24 (0.12%) in 8 files (5.3%)
-   TSBooleanKeyword                     23 (0.11%) in 13 files (8.6%)
-   ForStatement                         22 (0.11%) in 15 files (9.9%)
-   TaggedTemplateExpression             22 (0.11%) in 14 files (9.3%)
-   JSXClosingElement                    22 (0.11%) in 8 files (5.3%)
-   TSTypeOperator                       20 (0.10%) in 8 files (5.3%)
-   ThrowStatement                       17 (0.08%) in 9 files (6.0%)
-   TSMethodSignature                    17 (0.08%) in 2 files (1.3%)
-   TSParenthesizedType                  15 (0.07%) in 6 files (4.0%)
-   TSNeverKeyword                       14 (0.07%) in 3 files (2.0%)
-   TSIndexedAccessType                  13 (0.06%) in 6 files (4.0%)
-   RestElement                          13 (0.06%) in 8 files (5.3%)
-   AwaitExpression                      12 (0.06%) in 2 files (1.3%)
-   TSInterfaceHeritage                  11 (0.05%) in 3 files (2.0%)
-   ClassBody                            11 (0.05%) in 9 files (6.0%)
-   TSIndexSignature                     10 (0.05%) in 5 files (3.3%)
-   TSFunctionType                       10 (0.05%) in 6 files (4.0%)
-   TSMappedType                          9 (0.04%) in 6 files (4.0%)
-   TSUnknownKeyword                      9 (0.04%) in 6 files (4.0%)
-   TSDeclareFunction                     8 (0.04%) in 2 files (1.3%)
-   JSXMemberExpression                   8 (0.04%) in 3 files (2.0%)
-   TSCallSignatureDeclaration            7 (0.03%) in 2 files (1.3%)
-   TSNullKeyword                         7 (0.03%) in 5 files (3.3%)
-   ForInStatement                        7 (0.03%) in 5 files (3.3%)
-   TSTypePredicate                       7 (0.03%) in 7 files (4.6%)
-   TSClassImplements                     7 (0.03%) in 5 files (3.3%)
-   ClassDeclaration                      6 (0.03%) in 6 files (4.0%)
-   SwitchStatement                       6 (0.03%) in 6 files (4.0%)
-   ImportNamespaceSpecifier              5 (0.02%) in 5 files (3.3%)
-   TSTupleType                           5 (0.02%) in 5 files (3.3%)
-   ContinueStatement                     5 (0.02%) in 3 files (2.0%)
-   ClassExpression                       5 (0.02%) in 3 files (2.0%)
-   TSModuleDeclaration                   4 (0.02%) in 1 files (0.7%)
-   TSModuleBlock                         4 (0.02%) in 1 files (0.7%)
-   ArrayPattern                          4 (0.02%) in 4 files (2.6%)
-   TryStatement                          4 (0.02%) in 4 files (2.6%)
-   JSXSpreadAttribute                    3 (0.01%) in 3 files (2.0%)
-   CatchClause                           3 (0.01%) in 3 files (2.0%)
-   WhileStatement                        3 (0.01%) in 3 files (2.0%)
-   TSSymbolKeyword                       2 (0.01%) in 1 files (0.7%)
-   ExportAllDeclaration                  2 (0.01%) in 2 files (1.3%)
-   TSInferType                           2 (0.01%) in 1 files (0.7%)
-   BreakStatement                        2 (0.01%) in 1 files (0.7%)
-   MetaProperty                          1 (0.00%) in 1 files (0.7%)
-   ChainExpression                       1 (0.00%) in 1 files (0.7%)
-   TSTemplateLiteralType                 1 (0.00%) in 1 files (0.7%)
-   TSConstructSignatureDeclaration        1 (0.00%) in 1 files (0.7%)
-   JSXFragment                           1 (0.00%) in 1 files (0.7%)
-   JSXOpeningFragment                    1 (0.00%) in 1 files (0.7%)
-   JSXClosingFragment                    1 (0.00%) in 1 files (0.7%)
-   ForOfStatement                        1 (0.00%) in 1 files (0.7%)
-   TSNonNullExpression                   1 (0.00%) in 1 files (0.7%)
-   TSRestType                            1 (0.00%) in 1 files (0.7%)
-   TSImportType                          1 (0.00%) in 1 files (0.7%)
+   Identifier                       16,317 (30.02%) in 176 files (88.0%)
+   Literal                           4,288 (7.89%) in 177 files (88.5%)
+   CallExpression                    3,906 (7.19%) in 127 files (63.5%)
+   MemberExpression                  3,665 (6.74%) in 138 files (69.0%)
+   ExpressionStatement               2,051 (3.77%) in 104 files (52.0%)
+   VariableDeclarator                1,400 (2.58%) in 113 files (56.5%)
+   VariableDeclaration               1,393 (2.56%) in 113 files (56.5%)
+   JSXIdentifier                     1,303 (2.40%) in 35 files (17.5%)
+   Unknown                           1,267 (2.33%) in 86 files (43.0%)
+   TemplateElement                   1,197 (2.20%) in 78 files (39.0%)
+   Property                          1,169 (2.15%) in 88 files (44.0%)
+   BlockStatement                    1,071 (1.97%) in 115 files (57.5%)
+   ArrowFunctionExpression           1,066 (1.96%) in 101 files (50.5%)
+   TSTypeReference                     976 (1.80%) in 79 files (39.5%)
+   TSTypeAnnotation                    822 (1.51%) in 93 files (46.5%)
+   TemplateLiteral                     814 (1.50%) in 77 files (38.5%)
+   JSXElement                          662 (1.22%) in 35 files (17.5%)
+   JSXOpeningElement                   662 (1.22%) in 35 files (17.5%)
+   TSLiteralType                       660 (1.21%) in 25 files (12.5%)
+   ObjectExpression                    659 (1.21%) in 90 files (45.0%)
+   ImportDeclaration                   495 (0.91%) in 145 files (72.5%)
+   TSTypeParameterInstantiation        461 (0.85%) in 64 files (32.0%)
+   TaggedTemplateExpression            454 (0.84%) in 40 files (20.0%)
+   JSXText                             447 (0.82%) in 21 files (10.5%)
+   ImportSpecifier                     363 (0.67%) in 91 files (45.5%)
+   JSXAttribute                        354 (0.65%) in 26 files (13.0%)
+   BinaryExpression                    349 (0.64%) in 79 files (39.5%)
+   ImportDefaultSpecifier              312 (0.57%) in 117 files (58.5%)
+   AssignmentExpression                298 (0.55%) in 80 files (40.0%)
+   TSStringKeyword                     259 (0.48%) in 53 files (26.5%)
+   ReturnStatement                     246 (0.45%) in 79 files (39.5%)
+   JSXClosingElement                   241 (0.44%) in 22 files (11.0%)
+   JSXExpressionContainer              235 (0.43%) in 25 files (12.5%)
+   TSPropertySignature                 232 (0.43%) in 34 files (17.0%)
+   ArrayExpression                     226 (0.42%) in 49 files (24.5%)
+   Program                             200 (0.37%) in 200 files (100.0%)
+   ParenthesizedExpression             194 (0.36%) in 60 files (30.0%)
+   LogicalExpression                   186 (0.34%) in 57 files (28.5%)
+   ThisExpression                      182 (0.33%) in 17 files (8.5%)
+   IfStatement                         169 (0.31%) in 45 files (22.5%)
+   ExportNamedDeclaration              147 (0.27%) in 39 files (19.5%)
+   TSTypeLiteral                       139 (0.26%) in 34 files (17.0%)
+   TSAnyKeyword                        130 (0.24%) in 43 files (21.5%)
+   UnaryExpression                     122 (0.22%) in 46 files (23.0%)
+   TSUnionType                         116 (0.21%) in 31 files (15.5%)
+   TSTypeParameter                     109 (0.20%) in 17 files (8.5%)
+   TSAsExpression                       97 (0.18%) in 32 files (16.0%)
+   ObjectPattern                        95 (0.17%) in 30 files (15.0%)
+   TSQualifiedName                      95 (0.17%) in 31 files (15.5%)
+   NewExpression                        94 (0.17%) in 32 files (16.0%)
+   ExportDefaultDeclaration             91 (0.17%) in 89 files (44.5%)
+   ConditionalExpression                90 (0.17%) in 36 files (18.0%)
+   FunctionExpression                   84 (0.15%) in 24 files (12.0%)
+   ExportSpecifier                      82 (0.15%) in 9 files (4.5%)
+   TSNumberKeyword                      82 (0.15%) in 29 files (14.5%)
+   TSObjectKeyword                      80 (0.15%) in 19 files (9.5%)
+   MethodDefinition                     73 (0.13%) in 19 files (9.5%)
+   FunctionDeclaration                  70 (0.13%) in 46 files (23.0%)
+   TSUndefinedKeyword                   67 (0.12%) in 21 files (10.5%)
+   TSTypeParameterDeclaration           63 (0.12%) in 17 files (8.5%)
+   TSTypeAliasDeclaration               60 (0.11%) in 16 files (8.0%)
+   TSArrayType                          59 (0.11%) in 28 files (14.0%)
+   TSTypeQuery                          57 (0.10%) in 30 files (15.0%)
+   TSBooleanKeyword                     51 (0.09%) in 23 files (11.5%)
+   SpreadElement                        50 (0.09%) in 19 files (9.5%)
+   PropertyDefinition                   47 (0.09%) in 14 files (7.0%)
+   JSXMemberExpression                  46 (0.08%) in 8 files (4.0%)
+   ClassBody                            44 (0.08%) in 22 files (11.0%)
+   TSIntersectionType                   39 (0.07%) in 14 files (7.0%)
+   SwitchCase                           39 (0.07%) in 6 files (3.0%)
+   ClassDeclaration                     38 (0.07%) in 18 files (9.0%)
+   TSInterfaceDeclaration               36 (0.07%) in 12 files (6.0%)
+   TSInterfaceBody                      36 (0.07%) in 12 files (6.0%)
+   TSNonNullExpression                  33 (0.06%) in 8 files (4.0%)
+   UpdateExpression                     32 (0.06%) in 15 files (7.5%)
+   AssignmentPattern                    32 (0.06%) in 16 files (8.0%)
+   TSVoidKeyword                        31 (0.06%) in 12 files (6.0%)
+   JSXSpreadAttribute                   30 (0.06%) in 12 files (6.0%)
+   TSConditionalType                    28 (0.05%) in 5 files (2.5%)
+   ForStatement                         25 (0.05%) in 16 files (8.0%)
+   TSIndexedAccessType                  25 (0.05%) in 13 files (6.5%)
+   ThrowStatement                       23 (0.04%) in 12 files (6.0%)
+   TSTypeOperator                       21 (0.04%) in 9 files (4.5%)
+   TSMethodSignature                    17 (0.03%) in 2 files (1.0%)
+   RestElement                          17 (0.03%) in 11 files (5.5%)
+   TSParenthesizedType                  15 (0.03%) in 6 files (3.0%)
+   TSNeverKeyword                       14 (0.03%) in 3 files (1.5%)
+   AwaitExpression                      13 (0.02%) in 3 files (1.5%)
+   ChainExpression                      12 (0.02%) in 3 files (1.5%)
+   TSInterfaceHeritage                  12 (0.02%) in 4 files (2.0%)
+   TSNullKeyword                        12 (0.02%) in 6 files (3.0%)
+   TSIndexSignature                     11 (0.02%) in 6 files (3.0%)
+   ImportNamespaceSpecifier             10 (0.02%) in 10 files (5.0%)
+   TSFunctionType                       10 (0.02%) in 6 files (3.0%)
+   TSMappedType                          9 (0.02%) in 6 files (3.0%)
+   TSUnknownKeyword                      9 (0.02%) in 6 files (3.0%)
+   TSTupleType                           8 (0.01%) in 7 files (3.5%)
+   TSModuleDeclaration                   8 (0.01%) in 4 files (2.0%)
+   TSModuleBlock                         8 (0.01%) in 4 files (2.0%)
+   TSDeclareFunction                     8 (0.01%) in 2 files (1.0%)
+   ArrayPattern                          8 (0.01%) in 6 files (3.0%)
+   TSCallSignatureDeclaration            7 (0.01%) in 2 files (1.0%)
+   ForInStatement                        7 (0.01%) in 5 files (2.5%)
+   JSXFragment                           7 (0.01%) in 6 files (3.0%)
+   JSXOpeningFragment                    7 (0.01%) in 6 files (3.0%)
+   JSXClosingFragment                    7 (0.01%) in 6 files (3.0%)
+   TryStatement                          7 (0.01%) in 7 files (3.5%)
+   TSClassImplements                     7 (0.01%) in 5 files (2.5%)
+   TSTypePredicate                       7 (0.01%) in 7 files (3.5%)
+   ClassExpression                       6 (0.01%) in 4 files (2.0%)
+   SwitchStatement                       6 (0.01%) in 6 files (3.0%)
+   CatchClause                           5 (0.01%) in 5 files (2.5%)
+   ContinueStatement                     5 (0.01%) in 3 files (1.5%)
+   WhileStatement                        4 (0.01%) in 4 files (2.0%)
+   TSImportType                          3 (0.01%) in 2 files (1.0%)
+   TSSymbolKeyword                       2 (0.00%) in 1 files (0.5%)
+   ExportAllDeclaration                  2 (0.00%) in 2 files (1.0%)
+   TSInferType                           2 (0.00%) in 1 files (0.5%)
+   BreakStatement                        2 (0.00%) in 1 files (0.5%)
+   MetaProperty                          1 (0.00%) in 1 files (0.5%)
+   TSTemplateLiteralType                 1 (0.00%) in 1 files (0.5%)
+   TSConstructSignatureDeclaration        1 (0.00%) in 1 files (0.5%)
+   ForOfStatement                        1 (0.00%) in 1 files (0.5%)
+   TSRestType                            1 (0.00%) in 1 files (0.5%)
+   Super                                 1 (0.00%) in 1 files (0.5%)
+
+📁 FILE EXAMPLES BY NODE TYPE:
+
+   Identifier:
+     📄 Files WITH Identifier (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/benchmarks/webpack.config.js
+       • packages/benchmarks/run-headless.js
+     📄 Files WITHOUT Identifier (showing 10):
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/src/index.js
+       • packages/styled-components/src/utils/errors.ts
+       • packages/benchmarks/src/app/Text.js
+       • packages/benchmarks/src/app/ReportCard.js
+       • packages/benchmarks/src/app/Layout.js
+       • packages/benchmarks/src/app/Icons.js
+       • packages/benchmarks/src/app/Button.js
+       • packages/benchmarks/src/app/App.js
+       • packages/benchmarks/src/implementations/styletron-react/Provider.js
+
+   Literal:
+     📄 Files WITH Literal (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/benchmarks/webpack.config.js
+       • packages/benchmarks/run-headless.js
+     📄 Files WITHOUT Literal (showing 10):
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/src/index.js
+       • packages/benchmarks/src/app/Text.js
+       • packages/benchmarks/src/app/ReportCard.js
+       • packages/benchmarks/src/app/Layout.js
+       • packages/benchmarks/src/app/Icons.js
+       • packages/benchmarks/src/app/Button.js
+       • packages/benchmarks/src/app/App.js
+       • packages/benchmarks/src/implementations/styletron-react/Provider.js
+       • packages/benchmarks/src/implementations/styled-jsx/View.js
+
+   CallExpression:
+     📄 Files WITH CallExpression (showing 10):
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/benchmarks/webpack.config.js
+       • packages/benchmarks/run-headless.js
+       • packages/styled-components/test-utils/setupTestFramework.ts
+       • packages/styled-components/test-utils/index.ts
+       • packages/styled-components/src/constants.ts
+       • packages/styled-components/src/base.ts
+     📄 Files WITHOUT CallExpression (showing 10):
+       • babel.config.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/babel.config.js
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/secretInternals.ts
+       • packages/styled-components/src/index.ts
+       • packages/styled-components/src/index-standalone.ts
+
+   MemberExpression:
+     📄 Files WITH MemberExpression (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/benchmarks/webpack.config.js
+       • packages/benchmarks/run-headless.js
+     📄 Files WITHOUT MemberExpression (showing 10):
+       • packages/sandbox/next-env.d.ts
+       • packages/styled-components/src/secretInternals.ts
+       • packages/styled-components/src/index.ts
+       • packages/styled-components/src/global.d.ts
+       • packages/benchmarks/src/index.js
+       • packages/styled-components/src/test/veryLargeUnionType.ts
+       • packages/styled-components/src/test/test.d.ts
+       • packages/styled-components/src/sheet/types.ts
+       • packages/styled-components/src/sheet/index.ts
+       • packages/styled-components/src/utils/nonce.ts
+
+   ExpressionStatement:
+     📄 Files WITH ExpressionStatement (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/benchmarks/webpack.config.js
+       • packages/benchmarks/run-headless.js
+     📄 Files WITHOUT ExpressionStatement (showing 10):
+       • packages/sandbox/next-env.d.ts
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/secretInternals.ts
+       • packages/styled-components/src/index.ts
+       • packages/styled-components/src/global.d.ts
+       • packages/styled-components/src/constants.ts
+       • packages/sandbox/src/Button.example.tsx
+       • packages/sandbox/pages/index.tsx
+       • packages/benchmarks/src/index.js
+       • packages/styled-components/src/test/veryLargeUnionType.ts
+
+   VariableDeclarator:
+     📄 Files WITH VariableDeclarator (showing 10):
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/benchmarks/webpack.config.js
+       • packages/benchmarks/run-headless.js
+       • packages/styled-components/test-utils/setupTestFramework.ts
+       • packages/styled-components/src/secretInternals.ts
+       • packages/styled-components/src/index-standalone.ts
+       • packages/styled-components/src/constants.ts
+     📄 Files WITHOUT VariableDeclarator (showing 10):
+       • babel.config.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/babel.config.js
+       • packages/styled-components/test-utils/index.ts
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/index.ts
+       • packages/styled-components/src/global.d.ts
+
+   VariableDeclaration:
+     📄 Files WITH VariableDeclaration (showing 10):
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/benchmarks/webpack.config.js
+       • packages/benchmarks/run-headless.js
+       • packages/styled-components/test-utils/setupTestFramework.ts
+       • packages/styled-components/src/secretInternals.ts
+       • packages/styled-components/src/index-standalone.ts
+       • packages/styled-components/src/constants.ts
+     📄 Files WITHOUT VariableDeclaration (showing 10):
+       • babel.config.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/babel.config.js
+       • packages/styled-components/test-utils/index.ts
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/index.ts
+       • packages/styled-components/src/global.d.ts
+
+   JSXIdentifier:
+     📄 Files WITH JSXIdentifier (showing 10):
+       • packages/sandbox/src/Button.example.tsx
+       • packages/sandbox/pages/index.tsx
+       • packages/sandbox/pages/_document.tsx
+       • packages/styled-components/src/test/warnTooManyClasses.test.tsx
+       • packages/styled-components/src/test/warnOnDynamicCreation.test.tsx
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/theme.test.tsx
+       • packages/styled-components/src/test/styles.test.tsx
+       • packages/styled-components/src/test/ssr.test.tsx
+       • packages/styled-components/src/test/rehydration.test.tsx
+     📄 Files WITHOUT JSXIdentifier (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   Unknown:
+     📄 Files WITH Unknown (showing 10):
+       • packages/styled-components/rollup.config.mjs
+       • packages/benchmarks/webpack.config.js
+       • packages/benchmarks/run-headless.js
+       • packages/styled-components/test-utils/index.ts
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/base.ts
+       • packages/styled-components/scripts/generateErrorMap.js
+       • packages/sandbox/src/Button.example.tsx
+       • packages/sandbox/pages/index.tsx
+       • packages/benchmarks/src/impl.js
+     📄 Files WITHOUT Unknown (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/babel.config.js
+       • packages/styled-components/test-utils/setupTestFramework.ts
+
+   TemplateElement:
+     📄 Files WITH TemplateElement (showing 10):
+       • packages/benchmarks/run-headless.js
+       • packages/styled-components/test-utils/index.ts
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/base.ts
+       • packages/styled-components/scripts/generateErrorMap.js
+       • packages/sandbox/src/Button.example.tsx
+       • packages/sandbox/pages/index.tsx
+       • packages/styled-components/src/test/warnTooManyClasses.test.tsx
+       • packages/styled-components/src/test/warnOnDynamicCreation.test.tsx
+       • packages/styled-components/src/test/types.tsx
+     📄 Files WITHOUT TemplateElement (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   Property:
+     📄 Files WITH Property (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/benchmarks/webpack.config.js
+       • packages/benchmarks/run-headless.js
+     📄 Files WITHOUT Property (showing 10):
+       • packages/sandbox/next-env.d.ts
+       • packages/styled-components/test-utils/setupTestFramework.ts
+       • packages/styled-components/test-utils/index.ts
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/index.ts
+       • packages/styled-components/src/index-standalone.ts
+       • packages/styled-components/src/constants.ts
+       • packages/styled-components/src/base.ts
+       • packages/styled-components/scripts/generateErrorMap.js
+       • packages/sandbox/src/Button.example.tsx
+
+   BlockStatement:
+     📄 Files WITH BlockStatement (showing 10):
+       • packages/styled-components/rollup.config.mjs
+       • packages/benchmarks/run-headless.js
+       • packages/styled-components/test-utils/setupTestFramework.ts
+       • packages/styled-components/test-utils/index.ts
+       • packages/styled-components/src/index-standalone.ts
+       • packages/styled-components/src/base.ts
+       • packages/styled-components/scripts/generateErrorMap.js
+       • packages/sandbox/src/Button.example.tsx
+       • packages/sandbox/pages/_document.tsx
+       • packages/benchmarks/src/impl.js
+     📄 Files WITHOUT BlockStatement (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+       • packages/benchmarks/babel.config.js
+
+   ArrowFunctionExpression:
+     📄 Files WITH ArrowFunctionExpression (showing 10):
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/benchmarks/run-headless.js
+       • packages/styled-components/test-utils/setupTestFramework.ts
+       • packages/styled-components/scripts/generateErrorMap.js
+       • packages/sandbox/src/Button.example.tsx
+       • packages/sandbox/pages/index.tsx
+       • packages/sandbox/pages/_document.tsx
+       • packages/benchmarks/src/impl.js
+       • packages/styled-components/src/test/warnTooManyClasses.test.tsx
+     📄 Files WITHOUT ArrowFunctionExpression (showing 10):
+       • babel.config.js
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+       • packages/benchmarks/babel.config.js
+       • packages/styled-components/test-utils/index.ts
+
+   TSTypeReference:
+     📄 Files WITH TSTypeReference (showing 10):
+       • packages/styled-components/test-utils/index.ts
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/global.d.ts
+       • packages/sandbox/pages/_document.tsx
+       • packages/styled-components/src/test/warnTooManyClasses.test.tsx
+       • packages/styled-components/src/test/warnOnDynamicCreation.test.tsx
+       • packages/styled-components/src/test/utils.ts
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/theme.test.tsx
+       • packages/styled-components/src/test/test.d.ts
+     📄 Files WITHOUT TSTypeReference (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSTypeAnnotation:
+     📄 Files WITH TSTypeAnnotation (showing 10):
+       • packages/styled-components/test-utils/setupTestFramework.ts
+       • packages/styled-components/test-utils/index.ts
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/global.d.ts
+       • packages/styled-components/src/constants.ts
+       • packages/sandbox/src/Button.example.tsx
+       • packages/sandbox/pages/_document.tsx
+       • packages/styled-components/src/test/warnTooManyClasses.test.tsx
+       • packages/styled-components/src/test/warnOnDynamicCreation.test.tsx
+       • packages/styled-components/src/test/utils.ts
+     📄 Files WITHOUT TSTypeAnnotation (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TemplateLiteral:
+     📄 Files WITH TemplateLiteral (showing 10):
+       • packages/benchmarks/run-headless.js
+       • packages/styled-components/test-utils/index.ts
+       • packages/styled-components/src/base.ts
+       • packages/styled-components/scripts/generateErrorMap.js
+       • packages/sandbox/src/Button.example.tsx
+       • packages/sandbox/pages/index.tsx
+       • packages/styled-components/src/test/warnTooManyClasses.test.tsx
+       • packages/styled-components/src/test/warnOnDynamicCreation.test.tsx
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/theme.test.tsx
+     📄 Files WITHOUT TemplateLiteral (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   JSXElement:
+     📄 Files WITH JSXElement (showing 10):
+       • packages/sandbox/src/Button.example.tsx
+       • packages/sandbox/pages/index.tsx
+       • packages/sandbox/pages/_document.tsx
+       • packages/styled-components/src/test/warnTooManyClasses.test.tsx
+       • packages/styled-components/src/test/warnOnDynamicCreation.test.tsx
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/theme.test.tsx
+       • packages/styled-components/src/test/styles.test.tsx
+       • packages/styled-components/src/test/ssr.test.tsx
+       • packages/styled-components/src/test/rehydration.test.tsx
+     📄 Files WITHOUT JSXElement (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   JSXOpeningElement:
+     📄 Files WITH JSXOpeningElement (showing 10):
+       • packages/sandbox/src/Button.example.tsx
+       • packages/sandbox/pages/index.tsx
+       • packages/sandbox/pages/_document.tsx
+       • packages/styled-components/src/test/warnTooManyClasses.test.tsx
+       • packages/styled-components/src/test/warnOnDynamicCreation.test.tsx
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/theme.test.tsx
+       • packages/styled-components/src/test/styles.test.tsx
+       • packages/styled-components/src/test/ssr.test.tsx
+       • packages/styled-components/src/test/rehydration.test.tsx
+     📄 Files WITHOUT JSXOpeningElement (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSLiteralType:
+     📄 Files WITH TSLiteralType (showing 10):
+       • packages/styled-components/test-utils/index.ts
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/test/veryLargeUnionType.ts
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/styles.test.tsx
+       • packages/styled-components/src/test/rehydration.test.tsx
+       • packages/styled-components/src/test/props.test.tsx
+       • packages/styled-components/src/test/expanded-api.test.tsx
+       • packages/styled-components/src/test/basic.test.tsx
+       • packages/styled-components/src/test/attrs.test.tsx
+     📄 Files WITHOUT TSLiteralType (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   ObjectExpression:
+     📄 Files WITH ObjectExpression (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/benchmarks/webpack.config.js
+       • packages/benchmarks/run-headless.js
+     📄 Files WITHOUT ObjectExpression (showing 10):
+       • packages/sandbox/next-env.d.ts
+       • packages/styled-components/test-utils/setupTestFramework.ts
+       • packages/styled-components/test-utils/index.ts
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/index.ts
+       • packages/styled-components/src/index-standalone.ts
+       • packages/styled-components/src/base.ts
+       • packages/sandbox/src/Button.example.tsx
+       • packages/sandbox/pages/index.tsx
+       • packages/benchmarks/src/index.js
+
+   ImportDeclaration:
+     📄 Files WITH ImportDeclaration (showing 10):
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/test-utils/index.ts
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/secretInternals.ts
+       • packages/styled-components/src/index.ts
+       • packages/styled-components/src/index-standalone.ts
+       • packages/styled-components/src/global.d.ts
+       • packages/styled-components/src/base.ts
+       • packages/sandbox/src/Button.example.tsx
+       • packages/sandbox/pages/index.tsx
+     📄 Files WITHOUT ImportDeclaration (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+       • packages/benchmarks/run-headless.js
+
+   TSTypeParameterInstantiation:
+     📄 Files WITH TSTypeParameterInstantiation (showing 10):
+       • packages/styled-components/test-utils/index.ts
+       • packages/styled-components/src/types.ts
+       • packages/sandbox/src/Button.example.tsx
+       • packages/styled-components/src/test/warnTooManyClasses.test.tsx
+       • packages/styled-components/src/test/warnOnDynamicCreation.test.tsx
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/theme.test.tsx
+       • packages/styled-components/src/test/test.d.ts
+       • packages/styled-components/src/test/styles.test.tsx
+       • packages/styled-components/src/test/staticCaching.test.ts
+     📄 Files WITHOUT TSTypeParameterInstantiation (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TaggedTemplateExpression:
+     📄 Files WITH TaggedTemplateExpression (showing 10):
+       • packages/sandbox/src/Button.example.tsx
+       • packages/sandbox/pages/index.tsx
+       • packages/styled-components/src/test/warnTooManyClasses.test.tsx
+       • packages/styled-components/src/test/warnOnDynamicCreation.test.tsx
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/theme.test.tsx
+       • packages/styled-components/src/test/styles.test.tsx
+       • packages/styled-components/src/test/staticCaching.test.ts
+       • packages/styled-components/src/test/ssr.test.tsx
+       • packages/styled-components/src/test/rehydration.test.tsx
+     📄 Files WITHOUT TaggedTemplateExpression (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   JSXText:
+     📄 Files WITH JSXText (showing 10):
+       • packages/sandbox/src/Button.example.tsx
+       • packages/sandbox/pages/index.tsx
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/theme.test.tsx
+       • packages/styled-components/src/test/styles.test.tsx
+       • packages/styled-components/src/test/ssr.test.tsx
+       • packages/styled-components/src/test/props.test.tsx
+       • packages/styled-components/src/test/expanded-api.test.tsx
+       • packages/styled-components/src/test/basic.test.tsx
+       • packages/styled-components/src/test/attrs.test.tsx
+     📄 Files WITHOUT JSXText (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   ImportSpecifier:
+     📄 Files WITH ImportSpecifier (showing 10):
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/test-utils/index.ts
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/secretInternals.ts
+       • packages/styled-components/src/index.ts
+       • packages/styled-components/src/global.d.ts
+       • packages/styled-components/src/base.ts
+       • packages/sandbox/src/Button.example.tsx
+       • packages/sandbox/pages/index.tsx
+       • packages/sandbox/pages/_document.tsx
+     📄 Files WITHOUT ImportSpecifier (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+       • packages/benchmarks/run-headless.js
+
+   JSXAttribute:
+     📄 Files WITH JSXAttribute (showing 10):
+       • packages/sandbox/src/Button.example.tsx
+       • packages/styled-components/src/test/warnTooManyClasses.test.tsx
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/theme.test.tsx
+       • packages/styled-components/src/test/styles.test.tsx
+       • packages/styled-components/src/test/ssr.test.tsx
+       • packages/styled-components/src/test/rehydration.test.tsx
+       • packages/styled-components/src/test/props.test.tsx
+       • packages/styled-components/src/test/overriding.test.tsx
+       • packages/styled-components/src/test/expanded-api.test.tsx
+     📄 Files WITHOUT JSXAttribute (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   BinaryExpression:
+     📄 Files WITH BinaryExpression (showing 10):
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/benchmarks/run-headless.js
+       • packages/styled-components/test-utils/setupTestFramework.ts
+       • packages/styled-components/test-utils/index.ts
+       • packages/styled-components/src/constants.ts
+       • packages/styled-components/src/base.ts
+       • packages/styled-components/src/test/warnTooManyClasses.test.tsx
+       • packages/styled-components/src/test/utils.ts
+       • packages/styled-components/src/test/types.tsx
+     📄 Files WITHOUT BinaryExpression (showing 10):
+       • babel.config.js
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+       • packages/benchmarks/babel.config.js
+       • packages/styled-components/src/types.ts
+
+   ImportDefaultSpecifier:
+     📄 Files WITH ImportDefaultSpecifier (showing 10):
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/secretInternals.ts
+       • packages/styled-components/src/index.ts
+       • packages/styled-components/src/index-standalone.ts
+       • packages/styled-components/src/base.ts
+       • packages/sandbox/src/Button.example.tsx
+       • packages/sandbox/pages/index.tsx
+       • packages/sandbox/pages/_document.tsx
+       • packages/benchmarks/src/impl.js
+     📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+       • packages/benchmarks/run-headless.js
+
+   AssignmentExpression:
+     📄 Files WITH AssignmentExpression (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/benchmarks/webpack.config.js
+       • packages/benchmarks/babel.config.js
+     📄 Files WITHOUT AssignmentExpression (showing 10):
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/run-headless.js
+       • packages/styled-components/test-utils/index.ts
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/secretInternals.ts
+       • packages/styled-components/src/index.ts
+       • packages/styled-components/src/global.d.ts
+       • packages/styled-components/src/constants.ts
+       • packages/sandbox/src/Button.example.tsx
+       • packages/sandbox/pages/index.tsx
+
+   TSStringKeyword:
+     📄 Files WITH TSStringKeyword (showing 10):
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/global.d.ts
+       • packages/styled-components/src/constants.ts
+       • packages/styled-components/src/test/utils.ts
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/theme.test.tsx
+       • packages/styled-components/src/test/test.d.ts
+       • packages/styled-components/src/test/styles.test.tsx
+       • packages/styled-components/src/test/ssr.test.tsx
+       • packages/styled-components/src/test/rehydration.test.tsx
+     📄 Files WITHOUT TSStringKeyword (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   ReturnStatement:
+     📄 Files WITH ReturnStatement (showing 10):
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/test-utils/index.ts
+       • packages/styled-components/scripts/generateErrorMap.js
+       • packages/sandbox/src/Button.example.tsx
+       • packages/sandbox/pages/_document.tsx
+       • packages/benchmarks/src/impl.js
+       • packages/styled-components/src/test/warnOnDynamicCreation.test.tsx
+       • packages/styled-components/src/test/utils.ts
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/theme.test.tsx
+     📄 Files WITHOUT ReturnStatement (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+       • packages/benchmarks/run-headless.js
+
+   JSXClosingElement:
+     📄 Files WITH JSXClosingElement (showing 10):
+       • packages/sandbox/src/Button.example.tsx
+       • packages/sandbox/pages/index.tsx
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/theme.test.tsx
+       • packages/styled-components/src/test/styles.test.tsx
+       • packages/styled-components/src/test/ssr.test.tsx
+       • packages/styled-components/src/test/props.test.tsx
+       • packages/styled-components/src/test/basic.test.tsx
+       • packages/styled-components/src/test/attrs.test.tsx
+       • packages/styled-components/src/models/ThemeProvider.tsx
+     📄 Files WITHOUT JSXClosingElement (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   JSXExpressionContainer:
+     📄 Files WITH JSXExpressionContainer (showing 10):
+       • packages/sandbox/src/Button.example.tsx
+       • packages/styled-components/src/test/warnTooManyClasses.test.tsx
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/theme.test.tsx
+       • packages/styled-components/src/test/styles.test.tsx
+       • packages/styled-components/src/test/ssr.test.tsx
+       • packages/styled-components/src/test/rehydration.test.tsx
+       • packages/styled-components/src/test/props.test.tsx
+       • packages/styled-components/src/test/expanded-api.test.tsx
+       • packages/styled-components/src/test/basic.test.tsx
+     📄 Files WITHOUT JSXExpressionContainer (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSPropertySignature:
+     📄 Files WITH TSPropertySignature (showing 10):
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/global.d.ts
+       • packages/sandbox/src/Button.example.tsx
+       • packages/styled-components/src/test/warnTooManyClasses.test.tsx
+       • packages/styled-components/src/test/utils.ts
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/theme.test.tsx
+       • packages/styled-components/src/test/test.d.ts
+       • packages/styled-components/src/test/styles.test.tsx
+       • packages/styled-components/src/test/ssr.test.tsx
+     📄 Files WITHOUT TSPropertySignature (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   ArrayExpression:
+     📄 Files WITH ArrayExpression (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/benchmarks/webpack.config.js
+       • packages/benchmarks/run-headless.js
+       • packages/benchmarks/babel.config.js
+     📄 Files WITHOUT ArrayExpression (showing 10):
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/styled-components/test-utils/index.ts
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/secretInternals.ts
+       • packages/styled-components/src/index.ts
+       • packages/styled-components/src/index-standalone.ts
+       • packages/styled-components/src/global.d.ts
+       • packages/styled-components/src/constants.ts
+       • packages/styled-components/src/base.ts
+
+   Program:
+     📄 Files WITH Program (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+     📄 Files WITHOUT Program: (all files contain this node type)
+
+   ParenthesizedExpression:
+     📄 Files WITH ParenthesizedExpression (showing 10):
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/benchmarks/run-headless.js
+       • packages/styled-components/test-utils/index.ts
+       • packages/styled-components/src/constants.ts
+       • packages/sandbox/src/Button.example.tsx
+       • packages/sandbox/pages/index.tsx
+       • packages/styled-components/src/test/utils.ts
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/theme.test.tsx
+     📄 Files WITHOUT ParenthesizedExpression (showing 10):
+       • babel.config.js
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+       • packages/benchmarks/babel.config.js
+       • packages/styled-components/test-utils/setupTestFramework.ts
+
+   LogicalExpression:
+     📄 Files WITH LogicalExpression (showing 10):
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/test-utils/setupTestFramework.ts
+       • packages/styled-components/test-utils/index.ts
+       • packages/styled-components/src/constants.ts
+       • packages/styled-components/src/base.ts
+       • packages/sandbox/src/Button.example.tsx
+       • packages/benchmarks/src/impl.js
+       • packages/styled-components/src/test/utils.ts
+       • packages/styled-components/src/test/types.tsx
+     📄 Files WITHOUT LogicalExpression (showing 10):
+       • babel.config.js
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+       • packages/benchmarks/run-headless.js
+       • packages/benchmarks/babel.config.js
+
+   ThisExpression:
+     📄 Files WITH ThisExpression (showing 10):
+       • packages/styled-components/src/test/theme.test.tsx
+       • packages/styled-components/src/test/basic.test.tsx
+       • packages/styled-components/src/test/attrs.test.tsx
+       • packages/styled-components/src/sheet/Tag.ts
+       • packages/styled-components/src/sheet/Sheet.ts
+       • packages/styled-components/src/sheet/GroupedTag.ts
+       • packages/styled-components/src/models/StyledNativeComponent.ts
+       • packages/styled-components/src/models/StyledComponent.ts
+       • packages/styled-components/src/models/ServerStyleSheet.tsx
+       • packages/styled-components/src/models/Keyframes.ts
+     📄 Files WITHOUT ThisExpression (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   IfStatement:
+     📄 Files WITH IfStatement (showing 10):
+       • packages/styled-components/rollup.config.mjs
+       • packages/benchmarks/run-headless.js
+       • packages/styled-components/test-utils/setupTestFramework.ts
+       • packages/styled-components/test-utils/index.ts
+       • packages/styled-components/src/base.ts
+       • packages/styled-components/src/test/utils.ts
+       • packages/styled-components/src/native/index.ts
+       • packages/styled-components/src/sheet/dom.ts
+       • packages/styled-components/src/sheet/Tag.ts
+       • packages/styled-components/src/sheet/Sheet.ts
+     📄 Files WITHOUT IfStatement (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+       • packages/benchmarks/babel.config.js
+
+   ExportNamedDeclaration:
+     📄 Files WITH ExportNamedDeclaration (showing 10):
+       • packages/styled-components/test-utils/index.ts
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/secretInternals.ts
+       • packages/styled-components/src/index.ts
+       • packages/styled-components/src/global.d.ts
+       • packages/styled-components/src/constants.ts
+       • packages/styled-components/src/base.ts
+       • packages/styled-components/src/test/veryLargeUnionType.ts
+       • packages/styled-components/src/test/utils.ts
+       • packages/styled-components/src/test/constants.test.tsx
+     📄 Files WITHOUT ExportNamedDeclaration (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSTypeLiteral:
+     📄 Files WITH TSTypeLiteral (showing 10):
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/global.d.ts
+       • packages/sandbox/src/Button.example.tsx
+       • packages/styled-components/src/test/warnTooManyClasses.test.tsx
+       • packages/styled-components/src/test/utils.ts
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/theme.test.tsx
+       • packages/styled-components/src/test/test.d.ts
+       • packages/styled-components/src/test/styles.test.tsx
+       • packages/styled-components/src/test/ssr.test.tsx
+     📄 Files WITHOUT TSTypeLiteral (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSAnyKeyword:
+     📄 Files WITH TSAnyKeyword (showing 10):
+       • packages/styled-components/test-utils/setupTestFramework.ts
+       • packages/styled-components/test-utils/index.ts
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/global.d.ts
+       • packages/styled-components/src/test/theme.test.tsx
+       • packages/styled-components/src/test/test.d.ts
+       • packages/styled-components/src/test/styles.test.tsx
+       • packages/styled-components/src/test/rehydration.test.tsx
+       • packages/styled-components/src/test/props.test.tsx
+       • packages/styled-components/src/test/expanded-api.test.tsx
+     📄 Files WITHOUT TSAnyKeyword (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   UnaryExpression:
+     📄 Files WITH UnaryExpression (showing 10):
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.base.js
+       • packages/benchmarks/run-headless.js
+       • packages/styled-components/test-utils/setupTestFramework.ts
+       • packages/styled-components/test-utils/index.ts
+       • packages/styled-components/src/constants.ts
+       • packages/styled-components/src/base.ts
+       • packages/styled-components/src/test/utils.ts
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/theme.test.tsx
+     📄 Files WITHOUT UnaryExpression (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+       • packages/benchmarks/babel.config.js
+       • packages/styled-components/src/types.ts
+
+   TSUnionType:
+     📄 Files WITH TSUnionType (showing 10):
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/global.d.ts
+       • packages/styled-components/src/constants.ts
+       • packages/styled-components/src/test/veryLargeUnionType.ts
+       • packages/styled-components/src/test/utils.ts
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/styles.test.tsx
+       • packages/styled-components/src/test/expanded-api.test.tsx
+       • packages/styled-components/src/test/constants.test.tsx
+       • packages/styled-components/src/test/basic.test.tsx
+     📄 Files WITHOUT TSUnionType (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSTypeParameter:
+     📄 Files WITH TSTypeParameter (showing 10):
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/native/index.ts
+       • packages/styled-components/src/models/ThemeProvider.tsx
+       • packages/styled-components/src/models/StyledNativeComponent.ts
+       • packages/styled-components/src/models/StyledComponent.ts
+       • packages/styled-components/src/models/InlineStyle.ts
+       • packages/styled-components/src/models/GlobalStyle.ts
+       • packages/styled-components/src/constructors/styled.tsx
+       • packages/styled-components/src/constructors/keyframes.ts
+       • packages/styled-components/src/constructors/css.ts
+     📄 Files WITHOUT TSTypeParameter (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSAsExpression:
+     📄 Files WITH TSAsExpression (showing 10):
+       • packages/styled-components/src/global.d.ts
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/basic.test.tsx
+       • packages/styled-components/src/test/attrs.test.tsx
+       • packages/styled-components/src/native/index.ts
+       • packages/styled-components/src/sheet/dom.ts
+       • packages/styled-components/src/sheet/Tag.ts
+       • packages/styled-components/src/sheet/Sheet.ts
+       • packages/styled-components/src/sheet/Rehydration.ts
+       • packages/styled-components/src/sheet/GroupIDAllocator.ts
+     📄 Files WITHOUT TSAsExpression (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   ObjectPattern:
+     📄 Files WITH ObjectPattern (showing 10):
+       • babel-preset.js
+       • packages/styled-components/src/global.d.ts
+       • packages/benchmarks/src/impl.js
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/theme.test.tsx
+       • packages/styled-components/src/test/styles.test.tsx
+       • packages/styled-components/src/test/props.test.tsx
+       • packages/styled-components/src/test/constants.test.tsx
+       • packages/styled-components/src/test/basic.test.tsx
+       • packages/styled-components/src/test/attrs.test.tsx
+     📄 Files WITHOUT ObjectPattern (showing 10):
+       • babel.config.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+       • packages/benchmarks/run-headless.js
+
+   TSQualifiedName:
+     📄 Files WITH TSQualifiedName (showing 10):
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/global.d.ts
+       • packages/styled-components/src/test/warnOnDynamicCreation.test.tsx
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/theme.test.tsx
+       • packages/styled-components/src/test/ssr.test.tsx
+       • packages/styled-components/src/test/props.test.tsx
+       • packages/styled-components/src/test/expanded-api.test.tsx
+       • packages/styled-components/src/test/basic.test.tsx
+       • packages/styled-components/src/test/attrs.test.tsx
+     📄 Files WITHOUT TSQualifiedName (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   NewExpression:
+     📄 Files WITH NewExpression (showing 10):
+       • packages/benchmarks/webpack.config.js
+       • packages/styled-components/test-utils/index.ts
+       • packages/sandbox/pages/_document.tsx
+       • packages/styled-components/src/test/utils.ts
+       • packages/styled-components/src/test/theme.test.tsx
+       • packages/styled-components/src/test/ssr.test.tsx
+       • packages/styled-components/src/native/index.ts
+       • packages/styled-components/src/sheet/Tag.ts
+       • packages/styled-components/src/sheet/Sheet.ts
+       • packages/styled-components/src/sheet/Rehydration.ts
+     📄 Files WITHOUT NewExpression (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/run-headless.js
+
+   ExportDefaultDeclaration:
+     📄 Files WITH ExportDefaultDeclaration (showing 10):
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/src/index-standalone.ts
+       • packages/styled-components/src/global.d.ts
+       • packages/sandbox/src/Button.example.tsx
+       • packages/sandbox/pages/index.tsx
+       • packages/sandbox/pages/_document.tsx
+       • packages/benchmarks/src/impl.js
+       • packages/styled-components/src/sheet/Sheet.ts
+       • packages/styled-components/src/models/ThemeProvider.tsx
+       • packages/styled-components/src/models/StyledNativeComponent.ts
+     📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+       • packages/benchmarks/run-headless.js
+
+   ConditionalExpression:
+     📄 Files WITH ConditionalExpression (showing 10):
+       • babel-preset.js
+       • packages/styled-components/src/constants.ts
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/theme.test.tsx
+       • packages/styled-components/src/test/styles.test.tsx
+       • packages/styled-components/src/test/props.test.tsx
+       • packages/styled-components/src/test/attrs.test.tsx
+       • packages/styled-components/src/sheet/dom.ts
+       • packages/styled-components/src/models/ThemeProvider.tsx
+       • packages/styled-components/src/models/StyledNativeComponent.ts
+     📄 Files WITHOUT ConditionalExpression (showing 10):
+       • babel.config.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+       • packages/benchmarks/run-headless.js
+
+   FunctionExpression:
+     📄 Files WITH FunctionExpression (showing 10):
+       • packages/styled-components/rollup.config.mjs
+       • packages/sandbox/pages/_document.tsx
+       • packages/styled-components/src/test/theme.test.tsx
+       • packages/styled-components/src/test/basic.test.tsx
+       • packages/styled-components/src/test/attrs.test.tsx
+       • packages/styled-components/src/native/index.ts
+       • packages/styled-components/src/sheet/Tag.ts
+       • packages/styled-components/src/sheet/Sheet.ts
+       • packages/styled-components/src/sheet/GroupedTag.ts
+       • packages/styled-components/src/models/StyledNativeComponent.ts
+     📄 Files WITHOUT FunctionExpression (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+       • packages/benchmarks/run-headless.js
+
+   ExportSpecifier:
+     📄 Files WITH ExportSpecifier (showing 9):
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/index.ts
+       • packages/styled-components/src/base.ts
+       • packages/styled-components/src/native/index.ts
+       • packages/styled-components/src/sheet/index.ts
+       • packages/styled-components/src/constructors/styled.tsx
+       • packages/benchmarks/src/implementations/styled-jsx/Provider.js
+       • packages/benchmarks/src/implementations/emotion/Provider.js
+       • packages/benchmarks/src/implementations/aphrodite/Provider.js
+     📄 Files WITHOUT ExportSpecifier (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSNumberKeyword:
+     📄 Files WITH TSNumberKeyword (showing 10):
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/global.d.ts
+       • packages/styled-components/src/test/warnTooManyClasses.test.tsx
+       • packages/styled-components/src/test/utils.ts
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/theme.test.tsx
+       • packages/styled-components/src/test/test.d.ts
+       • packages/styled-components/src/test/ssr.test.tsx
+       • packages/styled-components/src/test/attrs.test.tsx
+       • packages/styled-components/src/native/index.ts
+     📄 Files WITHOUT TSNumberKeyword (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSObjectKeyword:
+     📄 Files WITH TSObjectKeyword (showing 10):
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/attrs.test.tsx
+       • packages/styled-components/src/native/index.ts
+       • packages/styled-components/src/models/ThemeProvider.tsx
+       • packages/styled-components/src/models/StyledNativeComponent.ts
+       • packages/styled-components/src/models/StyledComponent.ts
+       • packages/styled-components/src/models/InlineStyle.ts
+       • packages/styled-components/src/models/GlobalStyle.ts
+       • packages/styled-components/src/constructors/styled.tsx
+     📄 Files WITHOUT TSObjectKeyword (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   MethodDefinition:
+     📄 Files WITH MethodDefinition (showing 10):
+       • packages/sandbox/pages/_document.tsx
+       • packages/styled-components/src/test/theme.test.tsx
+       • packages/styled-components/src/test/basic.test.tsx
+       • packages/styled-components/src/test/attrs.test.tsx
+       • packages/styled-components/src/sheet/Tag.ts
+       • packages/styled-components/src/sheet/Sheet.ts
+       • packages/styled-components/src/sheet/GroupedTag.ts
+       • packages/styled-components/src/models/ServerStyleSheet.tsx
+       • packages/styled-components/src/models/Keyframes.ts
+       • packages/styled-components/src/models/InlineStyle.ts
+     📄 Files WITHOUT MethodDefinition (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   FunctionDeclaration:
+     📄 Files WITH FunctionDeclaration (showing 10):
+       • packages/styled-components/test-utils/index.ts
+       • packages/sandbox/src/Button.example.tsx
+       • packages/styled-components/src/test/utils.ts
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/ssr.test.tsx
+       • packages/styled-components/src/test/constants.test.tsx
+       • packages/styled-components/src/test/basic.test.tsx
+       • packages/styled-components/src/models/ThemeProvider.tsx
+       • packages/styled-components/src/models/StyledNativeComponent.ts
+       • packages/styled-components/src/models/StyledComponent.ts
+     📄 Files WITHOUT FunctionDeclaration (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSUndefinedKeyword:
+     📄 Files WITH TSUndefinedKeyword (showing 10):
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/global.d.ts
+       • packages/styled-components/src/constants.ts
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/basic.test.tsx
+       • packages/styled-components/src/test/attrs.test.tsx
+       • packages/styled-components/src/sheet/types.ts
+       • packages/styled-components/src/sheet/dom.ts
+       • packages/styled-components/src/sheet/Tag.ts
+       • packages/styled-components/src/sheet/Sheet.ts
+     📄 Files WITHOUT TSUndefinedKeyword (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSTypeParameterDeclaration:
+     📄 Files WITH TSTypeParameterDeclaration (showing 10):
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/native/index.ts
+       • packages/styled-components/src/models/ThemeProvider.tsx
+       • packages/styled-components/src/models/StyledNativeComponent.ts
+       • packages/styled-components/src/models/StyledComponent.ts
+       • packages/styled-components/src/models/InlineStyle.ts
+       • packages/styled-components/src/models/GlobalStyle.ts
+       • packages/styled-components/src/constructors/styled.tsx
+       • packages/styled-components/src/constructors/keyframes.ts
+       • packages/styled-components/src/constructors/css.ts
+     📄 Files WITHOUT TSTypeParameterDeclaration (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSTypeAliasDeclaration:
+     📄 Files WITH TSTypeAliasDeclaration (showing 10):
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/global.d.ts
+       • packages/styled-components/src/test/veryLargeUnionType.ts
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/attrs.test.tsx
+       • packages/styled-components/src/native/index.ts
+       • packages/styled-components/src/sheet/types.ts
+       • packages/styled-components/src/sheet/Sheet.ts
+       • packages/styled-components/src/models/ThemeProvider.tsx
+       • packages/styled-components/src/models/StyleSheetManager.tsx
+     📄 Files WITHOUT TSTypeAliasDeclaration (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSArrayType:
+     📄 Files WITH TSArrayType (showing 10):
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/global.d.ts
+       • packages/styled-components/src/test/utils.ts
+       • packages/styled-components/src/native/index.ts
+       • packages/styled-components/src/sheet/types.ts
+       • packages/styled-components/src/sheet/Tag.ts
+       • packages/styled-components/src/sheet/Sheet.ts
+       • packages/styled-components/src/sheet/Rehydration.ts
+       • packages/styled-components/src/sheet/GroupedTag.ts
+       • packages/styled-components/src/models/StyledNativeComponent.ts
+     📄 Files WITHOUT TSArrayType (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSTypeQuery:
+     📄 Files WITH TSTypeQuery (showing 10):
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/test/warnTooManyClasses.test.tsx
+       • packages/styled-components/src/test/warnOnDynamicCreation.test.tsx
+       • packages/styled-components/src/test/theme.test.tsx
+       • packages/styled-components/src/test/styles.test.tsx
+       • packages/styled-components/src/test/staticCaching.test.ts
+       • packages/styled-components/src/test/ssr.test.tsx
+       • packages/styled-components/src/test/rehydration.test.tsx
+       • packages/styled-components/src/test/props.test.tsx
+       • packages/styled-components/src/test/overriding.test.tsx
+     📄 Files WITHOUT TSTypeQuery (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSBooleanKeyword:
+     📄 Files WITH TSBooleanKeyword (showing 10):
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/global.d.ts
+       • packages/styled-components/src/constants.ts
+       • packages/sandbox/src/Button.example.tsx
+       • packages/styled-components/src/test/utils.ts
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/styles.test.tsx
+       • packages/styled-components/src/test/props.test.tsx
+       • packages/styled-components/src/test/globals.ts
+       • packages/styled-components/src/test/constants.test.tsx
+     📄 Files WITHOUT TSBooleanKeyword (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   SpreadElement:
+     📄 Files WITH SpreadElement (showing 10):
+       • packages/styled-components/rollup.config.mjs
+       • packages/sandbox/pages/_document.tsx
+       • packages/styled-components/src/test/attrs.test.tsx
+       • packages/styled-components/src/sheet/Sheet.ts
+       • packages/styled-components/src/models/ThemeProvider.tsx
+       • packages/styled-components/src/models/StyledNativeComponent.ts
+       • packages/styled-components/src/models/StyledComponent.ts
+       • packages/styled-components/src/constructors/keyframes.ts
+       • packages/styled-components/src/constructors/css.ts
+       • packages/styled-components/src/constructors/createGlobalStyle.ts
+     📄 Files WITHOUT SpreadElement (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+       • packages/benchmarks/run-headless.js
+
+   PropertyDefinition:
+     📄 Files WITH PropertyDefinition (showing 10):
+       • packages/styled-components/src/test/theme.test.tsx
+       • packages/styled-components/src/test/basic.test.tsx
+       • packages/styled-components/src/test/attrs.test.tsx
+       • packages/styled-components/src/sheet/Tag.ts
+       • packages/styled-components/src/sheet/Sheet.ts
+       • packages/styled-components/src/sheet/GroupedTag.ts
+       • packages/styled-components/src/models/ServerStyleSheet.tsx
+       • packages/styled-components/src/models/Keyframes.ts
+       • packages/styled-components/src/models/InlineStyle.ts
+       • packages/styled-components/src/models/GlobalStyle.ts
+     📄 Files WITHOUT PropertyDefinition (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   JSXMemberExpression:
+     📄 Files WITH JSXMemberExpression (showing 8):
+       • packages/styled-components/src/test/styles.test.tsx
+       • packages/styled-components/src/test/ssr.test.tsx
+       • packages/styled-components/src/models/ThemeProvider.tsx
+       • packages/styled-components/src/models/StyleSheetManager.tsx
+       • packages/benchmarks/src/cases/SierpinskiTriangle.tsx
+       • packages/styled-components/src/models/test/ThemeProvider.test.tsx
+       • packages/styled-components/src/constructors/test/keyframes.test.tsx
+       • packages/styled-components/src/constructors/test/createGlobalStyle.test.tsx
+     📄 Files WITHOUT JSXMemberExpression (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   ClassBody:
+     📄 Files WITH ClassBody (showing 10):
+       • packages/sandbox/pages/_document.tsx
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/theme.test.tsx
+       • packages/styled-components/src/test/basic.test.tsx
+       • packages/styled-components/src/test/attrs.test.tsx
+       • packages/styled-components/src/sheet/Tag.ts
+       • packages/styled-components/src/sheet/Sheet.ts
+       • packages/styled-components/src/sheet/GroupedTag.ts
+       • packages/styled-components/src/models/ServerStyleSheet.tsx
+       • packages/styled-components/src/models/Keyframes.ts
+     📄 Files WITHOUT ClassBody (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSIntersectionType:
+     📄 Files WITH TSIntersectionType (showing 10):
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/native/index.ts
+       • packages/styled-components/src/models/StyledNativeComponent.ts
+       • packages/styled-components/src/models/StyledComponent.ts
+       • packages/styled-components/src/models/InlineStyle.ts
+       • packages/styled-components/src/models/GlobalStyle.ts
+       • packages/styled-components/src/constructors/styled.tsx
+       • packages/styled-components/src/constructors/css.ts
+       • packages/styled-components/src/constructors/createGlobalStyle.ts
+     📄 Files WITHOUT TSIntersectionType (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   SwitchCase:
+     📄 Files WITH SwitchCase (showing 6):
+       • packages/benchmarks/src/cases/SierpinskiTriangle.tsx
+       • packages/benchmarks/src/implementations/styled-components-v6/Box.js
+       • packages/benchmarks/src/implementations/styled-components-v5/Box.js
+       • packages/benchmarks/src/implementations/styled-components-object/Box.js
+       • packages/benchmarks/src/implementations/styled-components/Box.js
+       • packages/benchmarks/src/implementations/goober/Box.js
+     📄 Files WITHOUT SwitchCase (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   ClassDeclaration:
+     📄 Files WITH ClassDeclaration (showing 10):
+       • packages/sandbox/pages/_document.tsx
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/theme.test.tsx
+       • packages/styled-components/src/test/basic.test.tsx
+       • packages/styled-components/src/test/attrs.test.tsx
+       • packages/styled-components/src/sheet/Sheet.ts
+       • packages/styled-components/src/models/ServerStyleSheet.tsx
+       • packages/styled-components/src/models/Keyframes.ts
+       • packages/styled-components/src/models/GlobalStyle.ts
+       • packages/styled-components/src/models/ComponentStyle.ts
+     📄 Files WITHOUT ClassDeclaration (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSInterfaceDeclaration:
+     📄 Files WITH TSInterfaceDeclaration (showing 10):
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/global.d.ts
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/test.d.ts
+       • packages/styled-components/src/test/styles.test.tsx
+       • packages/styled-components/src/test/constants.test.tsx
+       • packages/styled-components/src/sheet/types.ts
+       • packages/styled-components/src/models/ThemeProvider.tsx
+       • packages/styled-components/src/models/StyledNativeComponent.ts
+       • packages/styled-components/src/constructors/constructWithOptions.ts
+     📄 Files WITHOUT TSInterfaceDeclaration (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSInterfaceBody:
+     📄 Files WITH TSInterfaceBody (showing 10):
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/global.d.ts
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/test.d.ts
+       • packages/styled-components/src/test/styles.test.tsx
+       • packages/styled-components/src/test/constants.test.tsx
+       • packages/styled-components/src/sheet/types.ts
+       • packages/styled-components/src/models/ThemeProvider.tsx
+       • packages/styled-components/src/models/StyledNativeComponent.ts
+       • packages/styled-components/src/constructors/constructWithOptions.ts
+     📄 Files WITHOUT TSInterfaceBody (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSNonNullExpression:
+     📄 Files WITH TSNonNullExpression (showing 8):
+       • packages/styled-components/src/test/theme.test.tsx
+       • packages/styled-components/src/test/styles.test.tsx
+       • packages/styled-components/src/test/overriding.test.tsx
+       • packages/styled-components/src/test/attrs.test.tsx
+       • packages/styled-components/src/utils/hoist.ts
+       • packages/styled-components/src/sheet/test/Rehydration.test.tsx
+       • packages/styled-components/src/models/test/StyleSheetManager.test.tsx
+       • packages/styled-components/src/constructors/test/createGlobalStyle.test.tsx
+     📄 Files WITHOUT TSNonNullExpression (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   UpdateExpression:
+     📄 Files WITH UpdateExpression (showing 10):
+       • packages/benchmarks/run-headless.js
+       • packages/styled-components/src/test/warnTooManyClasses.test.tsx
+       • packages/styled-components/src/test/utils.ts
+       • packages/styled-components/src/sheet/dom.ts
+       • packages/styled-components/src/sheet/Tag.ts
+       • packages/styled-components/src/sheet/Rehydration.ts
+       • packages/styled-components/src/sheet/GroupedTag.ts
+       • packages/styled-components/src/sheet/GroupIDAllocator.ts
+       • packages/styled-components/src/models/ComponentStyle.ts
+       • packages/styled-components/src/utils/mixinDeep.ts
+     📄 Files WITHOUT UpdateExpression (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   AssignmentPattern:
+     📄 Files WITH AssignmentPattern (showing 10):
+       • packages/styled-components/src/test/utils.ts
+       • packages/styled-components/src/test/props.test.tsx
+       • packages/styled-components/src/sheet/Sheet.ts
+       • packages/styled-components/src/models/StyledNativeComponent.ts
+       • packages/styled-components/src/models/StyledComponent.ts
+       • packages/styled-components/src/models/Keyframes.ts
+       • packages/styled-components/src/constructors/constructWithOptions.ts
+       • packages/styled-components/src/utils/stylis.ts
+       • packages/styled-components/src/utils/mixinDeep.ts
+       • packages/styled-components/src/utils/determineTheme.ts
+     📄 Files WITHOUT AssignmentPattern (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSVoidKeyword:
+     📄 Files WITH TSVoidKeyword (showing 10):
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/test/ssr.test.tsx
+       • packages/styled-components/src/sheet/types.ts
+       • packages/styled-components/src/sheet/dom.ts
+       • packages/styled-components/src/sheet/Tag.ts
+       • packages/styled-components/src/sheet/Sheet.ts
+       • packages/styled-components/src/sheet/GroupIDAllocator.ts
+       • packages/styled-components/src/models/StyleSheetManager.tsx
+       • packages/styled-components/src/models/ServerStyleSheet.tsx
+       • packages/styled-components/src/models/Keyframes.ts
+     📄 Files WITHOUT TSVoidKeyword (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   JSXSpreadAttribute:
+     📄 Files WITH JSXSpreadAttribute (showing 10):
+       • packages/sandbox/pages/_document.tsx
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/theme.test.tsx
+       • packages/styled-components/src/test/props.test.tsx
+       • packages/styled-components/src/test/expanded-api.test.tsx
+       • packages/styled-components/src/test/basic.test.tsx
+       • packages/styled-components/src/test/attrs.test.tsx
+       • packages/styled-components/src/models/ServerStyleSheet.tsx
+       • packages/styled-components/src/hoc/withTheme.tsx
+       • packages/styled-components/src/native/test/native.test.tsx
+     📄 Files WITHOUT JSXSpreadAttribute (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSConditionalType:
+     📄 Files WITH TSConditionalType (showing 5):
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/native/index.ts
+       • packages/styled-components/src/constructors/styled.tsx
+       • packages/styled-components/src/constructors/constructWithOptions.ts
+       • packages/styled-components/src/utils/hoist.ts
+     📄 Files WITHOUT TSConditionalType (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   ForStatement:
+     📄 Files WITH ForStatement (showing 10):
+       • packages/benchmarks/run-headless.js
+       • packages/styled-components/src/test/warnTooManyClasses.test.tsx
+       • packages/styled-components/src/sheet/dom.ts
+       • packages/styled-components/src/sheet/Rehydration.ts
+       • packages/styled-components/src/sheet/GroupedTag.ts
+       • packages/styled-components/src/models/StyledComponent.ts
+       • packages/styled-components/src/models/ComponentStyle.ts
+       • packages/styled-components/src/utils/mixinDeep.ts
+       • packages/styled-components/src/utils/joinStrings.ts
+       • packages/styled-components/src/utils/isStaticRules.ts
+     📄 Files WITHOUT ForStatement (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSIndexedAccessType:
+     📄 Files WITH TSIndexedAccessType (showing 10):
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/rehydration.test.tsx
+       • packages/styled-components/src/test/props.test.tsx
+       • packages/styled-components/src/test/basic.test.tsx
+       • packages/styled-components/src/test/attrs.test.tsx
+       • packages/styled-components/src/native/index.ts
+       • packages/styled-components/src/models/StyleSheetManager.tsx
+       • packages/styled-components/src/constructors/styled.tsx
+       • packages/styled-components/src/utils/hoist.ts
+     📄 Files WITHOUT TSIndexedAccessType (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   ThrowStatement:
+     📄 Files WITH ThrowStatement (showing 10):
+       • packages/styled-components/test-utils/index.ts
+       • packages/styled-components/src/test/utils.ts
+       • packages/styled-components/src/test/ssr.test.tsx
+       • packages/styled-components/src/native/index.ts
+       • packages/styled-components/src/sheet/dom.ts
+       • packages/styled-components/src/sheet/GroupedTag.ts
+       • packages/styled-components/src/sheet/GroupIDAllocator.ts
+       • packages/styled-components/src/models/ThemeProvider.tsx
+       • packages/styled-components/src/models/ServerStyleSheet.tsx
+       • packages/styled-components/src/models/Keyframes.ts
+     📄 Files WITHOUT ThrowStatement (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSTypeOperator:
+     📄 Files WITH TSTypeOperator (showing 9):
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/test/overriding.test.tsx
+       • packages/styled-components/src/native/index.ts
+       • packages/styled-components/src/models/ThemeProvider.tsx
+       • packages/styled-components/src/models/StyledNativeComponent.ts
+       • packages/styled-components/src/models/StyledComponent.ts
+       • packages/styled-components/src/constructors/constructWithOptions.ts
+       • packages/styled-components/src/utils/interleave.ts
+       • packages/styled-components/src/utils/hoist.ts
+     📄 Files WITHOUT TSTypeOperator (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSMethodSignature:
+     📄 Files WITH TSMethodSignature (showing 2):
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/sheet/types.ts
+     📄 Files WITHOUT TSMethodSignature (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   RestElement:
+     📄 Files WITH RestElement (showing 10):
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/props.test.tsx
+       • packages/styled-components/src/constructors/keyframes.ts
+       • packages/styled-components/src/constructors/css.ts
+       • packages/styled-components/src/constructors/createGlobalStyle.ts
+       • packages/styled-components/src/constructors/constructWithOptions.ts
+       • packages/styled-components/src/utils/mixinDeep.ts
+       • packages/styled-components/src/utils/error.ts
+       • packages/styled-components/src/utils/checkDynamicCreation.ts
+       • packages/styled-components/src/native/test/native.test.tsx
+     📄 Files WITHOUT RestElement (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSParenthesizedType:
+     📄 Files WITH TSParenthesizedType (showing 6):
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/native/index.ts
+       • packages/styled-components/src/constructors/constructWithOptions.ts
+       • packages/styled-components/src/utils/hoist.ts
+       • packages/styled-components/src/utils/flatten.ts
+       • packages/styled-components/src/utils/domElements.ts
+     📄 Files WITHOUT TSParenthesizedType (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSNeverKeyword:
+     📄 Files WITH TSNeverKeyword (showing 3):
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/native/index.ts
+       • packages/styled-components/src/constructors/constructWithOptions.ts
+     📄 Files WITHOUT TSNeverKeyword (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   AwaitExpression:
+     📄 Files WITH AwaitExpression (showing 3):
+       • packages/benchmarks/run-headless.js
+       • packages/sandbox/pages/_document.tsx
+       • packages/styled-components/src/models/test/StyleSheetManager.test.tsx
+     📄 Files WITHOUT AwaitExpression (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   ChainExpression:
+     📄 Files WITH ChainExpression (showing 3):
+       • packages/styled-components/test-utils/index.ts
+       • packages/styled-components/src/test/theme.test.tsx
+       • packages/styled-components/src/models/test/StyleSheetManager.test.tsx
+     📄 Files WITHOUT ChainExpression (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSInterfaceHeritage:
+     📄 Files WITH TSInterfaceHeritage (showing 4):
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/models/ThemeProvider.tsx
+       • packages/styled-components/src/models/StyledNativeComponent.ts
+     📄 Files WITHOUT TSInterfaceHeritage (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSNullKeyword:
+     📄 Files WITH TSNullKeyword (showing 6):
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/constants.ts
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/models/ThemeProvider.tsx
+       • packages/styled-components/src/models/ComponentStyle.ts
+       • packages/styled-components/src/utils/flatten.ts
+     📄 Files WITHOUT TSNullKeyword (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSIndexSignature:
+     📄 Files WITH TSIndexSignature (showing 6):
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/global.d.ts
+       • packages/styled-components/src/test/utils.ts
+       • packages/styled-components/src/sheet/Sheet.ts
+       • packages/styled-components/src/models/StyledComponent.ts
+       • packages/styled-components/src/utils/hoist.ts
+     📄 Files WITHOUT TSIndexSignature (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   ImportNamespaceSpecifier:
+     📄 Files WITH ImportNamespaceSpecifier (showing 10):
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/index-standalone.ts
+       • packages/styled-components/src/test/styles.test.tsx
+       • packages/styled-components/src/test/attrs.test.tsx
+       • packages/styled-components/src/models/ServerStyleSheet.tsx
+       • packages/styled-components/src/constructors/styled.tsx
+       • packages/styled-components/src/utils/stylis.ts
+       • packages/styled-components/src/sheet/test/Rehydration.test.tsx
+       • packages/styled-components/src/sheet/test/GroupIDAllocator.test.ts
+       • packages/styled-components/src/constructors/test/createGlobalStyle.test.tsx
+     📄 Files WITHOUT ImportNamespaceSpecifier (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSFunctionType:
+     📄 Files WITH TSFunctionType (showing 6):
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/models/ThemeProvider.tsx
+       • packages/styled-components/src/constructors/styled.tsx
+       • packages/styled-components/src/constructors/constructWithOptions.ts
+       • packages/styled-components/src/utils/setToString.ts
+       • packages/styled-components/src/utils/flatten.ts
+     📄 Files WITHOUT TSFunctionType (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSMappedType:
+     📄 Files WITH TSMappedType (showing 6):
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/native/index.ts
+       • packages/styled-components/src/models/StyledNativeComponent.ts
+       • packages/styled-components/src/models/StyledComponent.ts
+       • packages/styled-components/src/constructors/styled.tsx
+       • packages/styled-components/src/utils/hoist.ts
+     📄 Files WITHOUT TSMappedType (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSUnknownKeyword:
+     📄 Files WITH TSUnknownKeyword (showing 6):
+       • packages/styled-components/src/models/StyledNativeComponent.ts
+       • packages/styled-components/src/models/StyledComponent.ts
+       • packages/styled-components/src/constructors/createGlobalStyle.ts
+       • packages/styled-components/src/utils/stylis.ts
+       • packages/styled-components/src/utils/hoist.ts
+       • packages/styled-components/src/utils/flatten.ts
+     📄 Files WITHOUT TSUnknownKeyword (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSTupleType:
+     📄 Files WITH TSTupleType (showing 7):
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/global.d.ts
+       • packages/styled-components/src/native/index.ts
+       • packages/styled-components/src/models/InlineStyle.ts
+       • packages/styled-components/src/utils/error.ts
+       • packages/styled-components/src/sheet/test/Tag.test.ts
+       • packages/styled-components/src/utils/test/addUnitIfNeeded.test.ts
+     📄 Files WITHOUT TSTupleType (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSModuleDeclaration:
+     📄 Files WITH TSModuleDeclaration (showing 4):
+       • packages/styled-components/src/global.d.ts
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/test.d.ts
+       • packages/styled-components/src/test/constants.test.tsx
+     📄 Files WITHOUT TSModuleDeclaration (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSModuleBlock:
+     📄 Files WITH TSModuleBlock (showing 4):
+       • packages/styled-components/src/global.d.ts
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/test.d.ts
+       • packages/styled-components/src/test/constants.test.tsx
+     📄 Files WITHOUT TSModuleBlock (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSDeclareFunction:
+     📄 Files WITH TSDeclareFunction (showing 2):
+       • packages/styled-components/src/global.d.ts
+       • packages/styled-components/src/constructors/css.ts
+     📄 Files WITHOUT TSDeclareFunction (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   ArrayPattern:
+     📄 Files WITH ArrayPattern (showing 6):
+       • packages/styled-components/scripts/generateErrorMap.js
+       • packages/styled-components/src/test/ssr.test.tsx
+       • packages/styled-components/src/models/StyledNativeComponent.ts
+       • packages/styled-components/src/models/StyleSheetManager.tsx
+       • packages/styled-components/src/utils/test/addUnitIfNeeded.test.ts
+       • packages/benchmarks/src/app/Benchmark/timing.js
+     📄 Files WITHOUT ArrayPattern (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSCallSignatureDeclaration:
+     📄 Files WITH TSCallSignatureDeclaration (showing 2):
+       • packages/styled-components/src/types.ts
+       • packages/styled-components/src/constructors/constructWithOptions.ts
+     📄 Files WITHOUT TSCallSignatureDeclaration (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   ForInStatement:
+     📄 Files WITH ForInStatement (showing 5):
+       • packages/styled-components/src/index-standalone.ts
+       • packages/styled-components/src/models/StyledNativeComponent.ts
+       • packages/styled-components/src/models/StyledComponent.ts
+       • packages/styled-components/src/utils/mixinDeep.ts
+       • packages/styled-components/src/utils/flatten.ts
+     📄 Files WITHOUT ForInStatement (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   JSXFragment:
+     📄 Files WITH JSXFragment (showing 6):
+       • packages/sandbox/src/Button.example.tsx
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/props.test.tsx
+       • packages/styled-components/src/test/expanded-api.test.tsx
+       • packages/styled-components/src/constructors/test/keyframes.test.tsx
+       • packages/styled-components/src/constructors/test/createGlobalStyle.test.tsx
+     📄 Files WITHOUT JSXFragment (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   JSXOpeningFragment:
+     📄 Files WITH JSXOpeningFragment (showing 6):
+       • packages/sandbox/src/Button.example.tsx
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/props.test.tsx
+       • packages/styled-components/src/test/expanded-api.test.tsx
+       • packages/styled-components/src/constructors/test/keyframes.test.tsx
+       • packages/styled-components/src/constructors/test/createGlobalStyle.test.tsx
+     📄 Files WITHOUT JSXOpeningFragment (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   JSXClosingFragment:
+     📄 Files WITH JSXClosingFragment (showing 6):
+       • packages/sandbox/src/Button.example.tsx
+       • packages/styled-components/src/test/types.tsx
+       • packages/styled-components/src/test/props.test.tsx
+       • packages/styled-components/src/test/expanded-api.test.tsx
+       • packages/styled-components/src/constructors/test/keyframes.test.tsx
+       • packages/styled-components/src/constructors/test/createGlobalStyle.test.tsx
+     📄 Files WITHOUT JSXClosingFragment (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TryStatement:
+     📄 Files WITH TryStatement (showing 7):
+       • packages/sandbox/pages/_document.tsx
+       • packages/styled-components/src/sheet/Tag.ts
+       • packages/styled-components/src/utils/hoist.ts
+       • packages/styled-components/src/utils/checkDynamicCreation.ts
+       • packages/styled-components/src/native/test/native.test.tsx
+       • packages/styled-components/src/models/test/StyleSheetManager.test.tsx
+       • packages/styled-components/src/constructors/test/createGlobalStyle.test.tsx
+     📄 Files WITHOUT TryStatement (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSClassImplements:
+     📄 Files WITH TSClassImplements (showing 5):
+       • packages/styled-components/src/sheet/Tag.ts
+       • packages/styled-components/src/sheet/Sheet.ts
+       • packages/styled-components/src/sheet/GroupedTag.ts
+       • packages/styled-components/src/models/Keyframes.ts
+       • packages/styled-components/src/models/InlineStyle.ts
+     📄 Files WITHOUT TSClassImplements (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSTypePredicate:
+     📄 Files WITH TSTypePredicate (showing 7):
+       • packages/styled-components/src/utils/isTag.ts
+       • packages/styled-components/src/utils/isStyledComponent.ts
+       • packages/styled-components/src/utils/isStatelessFunction.ts
+       • packages/styled-components/src/utils/isPlainObject.ts
+       • packages/styled-components/src/utils/isFunction.ts
+       • packages/styled-components/src/utils/hoist.ts
+       • packages/styled-components/src/utils/flatten.ts
+     📄 Files WITHOUT TSTypePredicate (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   ClassExpression:
+     📄 Files WITH ClassExpression (showing 4):
+       • packages/styled-components/src/sheet/Tag.ts
+       • packages/styled-components/src/sheet/GroupedTag.ts
+       • packages/styled-components/src/models/InlineStyle.ts
+       • packages/styled-components/src/utils/test/isStyledComponent.test.ts
+     📄 Files WITHOUT ClassExpression (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   SwitchStatement:
+     📄 Files WITH SwitchStatement (showing 6):
+       • packages/benchmarks/src/cases/SierpinskiTriangle.tsx
+       • packages/benchmarks/src/implementations/styled-components-v6/Box.js
+       • packages/benchmarks/src/implementations/styled-components-v5/Box.js
+       • packages/benchmarks/src/implementations/styled-components-object/Box.js
+       • packages/benchmarks/src/implementations/styled-components/Box.js
+       • packages/benchmarks/src/implementations/goober/Box.js
+     📄 Files WITHOUT SwitchStatement (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   CatchClause:
+     📄 Files WITH CatchClause (showing 5):
+       • packages/styled-components/src/sheet/Tag.ts
+       • packages/styled-components/src/utils/hoist.ts
+       • packages/styled-components/src/utils/checkDynamicCreation.ts
+       • packages/styled-components/src/models/test/StyleSheetManager.test.tsx
+       • packages/styled-components/src/constructors/test/createGlobalStyle.test.tsx
+     📄 Files WITHOUT CatchClause (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   ContinueStatement:
+     📄 Files WITH ContinueStatement (showing 3):
+       • packages/styled-components/src/sheet/Rehydration.ts
+       • packages/styled-components/src/models/StyledNativeComponent.ts
+       • packages/styled-components/src/utils/flatten.ts
+     📄 Files WITHOUT ContinueStatement (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   WhileStatement:
+     📄 Files WITH WhileStatement (showing 4):
+       • packages/styled-components/src/test/utils.ts
+       • packages/styled-components/src/sheet/GroupedTag.ts
+       • packages/styled-components/src/sheet/GroupIDAllocator.ts
+       • packages/styled-components/src/utils/hash.ts
+     📄 Files WITHOUT WhileStatement (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSImportType:
+     📄 Files WITH TSImportType (showing 2):
+       • packages/styled-components/src/test/rehydration.test.tsx
+       • packages/styled-components/src/native/index.ts
+     📄 Files WITHOUT TSImportType (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSSymbolKeyword:
+     📄 Files WITH TSSymbolKeyword (showing 1):
+       • packages/styled-components/src/types.ts
+     📄 Files WITHOUT TSSymbolKeyword (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   ExportAllDeclaration:
+     📄 Files WITH ExportAllDeclaration (showing 2):
+       • packages/styled-components/src/index.ts
+       • packages/styled-components/src/base.ts
+     📄 Files WITHOUT ExportAllDeclaration (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSInferType:
+     📄 Files WITH TSInferType (showing 1):
+       • packages/styled-components/src/constructors/constructWithOptions.ts
+     📄 Files WITHOUT TSInferType (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   BreakStatement:
+     📄 Files WITH BreakStatement (showing 1):
+       • packages/benchmarks/src/cases/SierpinskiTriangle.tsx
+     📄 Files WITHOUT BreakStatement (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   MetaProperty:
+     📄 Files WITH MetaProperty (showing 1):
+       • packages/styled-components/rollup.config.mjs
+     📄 Files WITHOUT MetaProperty (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+       • packages/benchmarks/run-headless.js
+
+   TSTemplateLiteralType:
+     📄 Files WITH TSTemplateLiteralType (showing 1):
+       • packages/styled-components/src/types.ts
+     📄 Files WITHOUT TSTemplateLiteralType (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSConstructSignatureDeclaration:
+     📄 Files WITH TSConstructSignatureDeclaration (showing 1):
+       • packages/styled-components/src/types.ts
+     📄 Files WITHOUT TSConstructSignatureDeclaration (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   ForOfStatement:
+     📄 Files WITH ForOfStatement (showing 1):
+       • packages/styled-components/src/utils/mixinDeep.ts
+     📄 Files WITHOUT ForOfStatement (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   TSRestType:
+     📄 Files WITH TSRestType (showing 1):
+       • packages/styled-components/src/utils/error.ts
+     📄 Files WITHOUT TSRestType (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
+
+   Super:
+     📄 Files WITH Super (showing 1):
+       • packages/styled-components/src/constructors/test/createGlobalStyle.test.tsx
+     📄 Files WITHOUT Super (showing 10):
+       • babel.config.js
+       • babel-preset.js
+       • packages/styled-components/rollup.config.mjs
+       • packages/styled-components/jest.config.native.js
+       • packages/styled-components/jest.config.main.js
+       • packages/styled-components/jest.config.base.js
+       • packages/styled-components/babel.config.js
+       • packages/sandbox/next.config.js
+       • packages/sandbox/next-env.d.ts
+       • packages/benchmarks/webpack.config.js
 
 ============================================================
 ✅ Analysis complete!
@@ -294,13 +3027,13 @@ Warnings/Errors:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/styled-components/packages/benchmarks/src/app/App.js:
    Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/styled-components/packages/benchmarks/src/implementations/styletron-react/Provider.js:
+   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/styled-components/packages/benchmarks/src/implementations/styled-jsx/View.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/styled-components/packages/benchmarks/src/implementations/styled-jsx/Dot.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/styled-components/packages/benchmarks/src/implementations/styled-jsx/Box.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/styled-components/packages/benchmarks/src/implementations/styletron-react/Provider.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/styled-components/packages/benchmarks/src/implementations/react-native-web/Box.js:
    Unexpected token

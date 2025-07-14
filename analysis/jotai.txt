@@ -1,11 +1,12 @@
 AST Analysis Report for jotai
-Generated on: 2025-07-13T03:17:13.607Z
+Generated on: 2025-07-14T01:41:59.944Z
 Repository: sample-repos/jotai
 ================================================================================
 
 🔍 Analyzing JavaScript/TypeScript files in: /Users/camchenry/workspace/ast-analysis/sample-repos/jotai
 
-📁 Found 123 files to analyze...
+📁 Found 172 files to analyze...
+
 
 
 ============================================================
@@ -13,247 +14,2879 @@ Repository: sample-repos/jotai
 ============================================================
 
 📁 FILE STATISTICS:
-   Total files found: 123
-   Successfully parsed: 123
+   Total files found: 172
+   Successfully parsed: 172
    Failed to parse: 0
-   Total file size: 221.6 KB
+   Total file size: 594.8 KB
 
 🌳 NODE STATISTICS:
-   Total nodes: 22,572
-   Average nodes per file: 184
-   Average file size: 1.8 KB
+   Total nodes: 87,208
+   Average nodes per file: 507
+   Average file size: 3.5 KB
 
 📋 ALL NODE TYPES (BY FILE PRESENCE):
-   Program                         123 files (100.0%) -      123 total (0.54%)
-   Literal                          77 files ( 62.6%) -    1,016 total (4.50%)
-   Identifier                       76 files ( 61.8%) -    7,951 total (35.23%)
-   CallExpression                   66 files ( 53.7%) -    1,033 total (4.58%)
-   ImportDeclaration                63 files ( 51.2%) -      190 total (0.84%)
-   ImportSpecifier                  58 files ( 47.2%) -      200 total (0.89%)
-   VariableDeclaration              55 files ( 44.7%) -      508 total (2.25%)
-   VariableDeclarator               55 files ( 44.7%) -      508 total (2.25%)
-   MemberExpression                 53 files ( 43.1%) -      910 total (4.03%)
-   BlockStatement                   50 files ( 40.7%) -      519 total (2.30%)
-   ReturnStatement                  49 files ( 39.8%) -      207 total (0.92%)
-   ExpressionStatement              47 files ( 38.2%) -      419 total (1.86%)
-   Property                         44 files ( 35.8%) -      669 total (2.96%)
-   ObjectExpression                 41 files ( 33.3%) -      262 total (1.16%)
-   ArrowFunctionExpression          39 files ( 31.7%) -      339 total (1.50%)
-   TSTypeAnnotation                 39 files ( 31.7%) -      962 total (4.26%)
-   TSTypeReference                  38 files ( 30.9%) -    1,251 total (5.54%)
-   ExportNamedDeclaration           37 files ( 30.1%) -      167 total (0.74%)
-   ArrayExpression                  36 files ( 29.3%) -      132 total (0.58%)
-   FunctionDeclaration              36 files ( 29.3%) -       55 total (0.24%)
-   IfStatement                      34 files ( 27.6%) -      188 total (0.83%)
-   TSTypeParameterInstantiation     34 files ( 27.6%) -      407 total (1.80%)
-   BinaryExpression                 32 files ( 26.0%) -      153 total (0.68%)
-   UnaryExpression                  30 files ( 24.4%) -       97 total (0.43%)
-   AssignmentExpression             29 files ( 23.6%) -      108 total (0.48%)
-   ParenthesizedExpression          25 files ( 20.3%) -       82 total (0.36%)
-   TSFunctionType                   25 files ( 20.3%) -      151 total (0.67%)
-   ImportDefaultSpecifier           24 files ( 19.5%) -       45 total (0.20%)
-   ExportDefaultDeclaration         24 files ( 19.5%) -       24 total (0.11%)
-   TSTypeAliasDeclaration           24 files ( 19.5%) -      127 total (0.56%)
-   TSTypeParameterDeclaration       24 files ( 19.5%) -      143 total (0.63%)
-   TSTypeParameter                  24 files ( 19.5%) -      223 total (0.99%)
-   TSAsExpression                   23 files ( 18.7%) -       87 total (0.39%)
-   TSPropertySignature              22 files ( 17.9%) -      148 total (0.66%)
-   TSUnionType                      22 files ( 17.9%) -      103 total (0.46%)
-   LogicalExpression                21 files ( 17.1%) -       92 total (0.41%)
-   ChainExpression                  21 files ( 17.1%) -       76 total (0.34%)
-   TSTypeLiteral                    21 files ( 17.1%) -       72 total (0.32%)
-   NewExpression                    20 files ( 16.3%) -       63 total (0.28%)
-   ArrayPattern                     20 files ( 16.3%) -       43 total (0.19%)
-   TSUnknownKeyword                 20 files ( 16.3%) -      121 total (0.54%)
-   SpreadElement                    19 files ( 15.4%) -       52 total (0.23%)
-   TSVoidKeyword                    19 files ( 15.4%) -      112 total (0.50%)
-   TSArrayType                      19 files ( 15.4%) -       81 total (0.36%)
-   TSTypeQuery                      19 files ( 15.4%) -       51 total (0.23%)
-   TSTupleType                      18 files ( 14.6%) -       50 total (0.22%)
-   TSLiteralType                    17 files ( 13.8%) -       43 total (0.19%)
-   ObjectPattern                    16 files ( 13.0%) -       25 total (0.11%)
-   ConditionalExpression            15 files ( 12.2%) -       30 total (0.13%)
-   TSDeclareFunction                15 files ( 12.2%) -       42 total (0.19%)
-   Unknown                          14 files ( 11.4%) -      196 total (0.87%)
-   TemplateLiteral                  14 files ( 11.4%) -      136 total (0.60%)
-   TemplateElement                  14 files ( 11.4%) -      178 total (0.79%)
-   MetaProperty                     14 files ( 11.4%) -       24 total (0.11%)
-   TSUndefinedKeyword               13 files ( 10.6%) -       44 total (0.19%)
-   TSNeverKeyword                   13 files ( 10.6%) -       25 total (0.11%)
-   JSXElement                       13 files ( 10.6%) -      113 total (0.50%)
-   JSXOpeningElement                13 files ( 10.6%) -      113 total (0.50%)
-   JSXIdentifier                    13 files ( 10.6%) -      284 total (1.26%)
-   TSIndexedAccessType              12 files (  9.8%) -       26 total (0.12%)
-   TSNonNullExpression              12 files (  9.8%) -       24 total (0.11%)
-   ThrowStatement                   11 files (  8.9%) -       21 total (0.09%)
-   TSStringKeyword                  10 files (  8.1%) -       61 total (0.27%)
-   TSIntersectionType               10 files (  8.1%) -       20 total (0.09%)
-   RestElement                      10 files (  8.1%) -       31 total (0.14%)
-   TSAnyKeyword                     10 files (  8.1%) -       14 total (0.06%)
-   TSBooleanKeyword                 10 files (  8.1%) -       21 total (0.09%)
-   JSXText                          10 files (  8.1%) -      153 total (0.68%)
-   JSXClosingElement                10 files (  8.1%) -       72 total (0.32%)
-   TSParenthesizedType               9 files (  7.3%) -       14 total (0.06%)
-   FunctionExpression                8 files (  6.5%) -       14 total (0.06%)
-   TSNumberKeyword                   8 files (  6.5%) -       19 total (0.08%)
-   JSXAttribute                      8 files (  6.5%) -       89 total (0.39%)
-   AssignmentPattern                 7 files (  5.7%) -       18 total (0.08%)
-   TryStatement                      7 files (  5.7%) -       20 total (0.09%)
-   TSTypePredicate                   7 files (  5.7%) -       13 total (0.06%)
-   JSXExpressionContainer            7 files (  5.7%) -       69 total (0.31%)
-   UpdateExpression                  6 files (  4.9%) -        9 total (0.04%)
-   AwaitExpression                   6 files (  4.9%) -        7 total (0.03%)
-   CatchClause                       6 files (  4.9%) -       11 total (0.05%)
-   TSTypeOperator                    6 files (  4.9%) -       13 total (0.06%)
-   ExportSpecifier                   5 files (  4.1%) -       41 total (0.18%)
-   TSInterfaceDeclaration            5 files (  4.1%) -        9 total (0.04%)
-   TSInterfaceBody                   5 files (  4.1%) -        9 total (0.04%)
-   ForOfStatement                    5 files (  4.1%) -       17 total (0.08%)
-   TSObjectKeyword                   5 files (  4.1%) -       15 total (0.07%)
-   JSXFragment                       5 files (  4.1%) -        5 total (0.02%)
-   JSXOpeningFragment                5 files (  4.1%) -        5 total (0.02%)
-   JSXClosingFragment                5 files (  4.1%) -        5 total (0.02%)
-   ForStatement                      4 files (  3.3%) -        4 total (0.02%)
-   TSMethodSignature                 4 files (  3.3%) -       30 total (0.13%)
-   TSQualifiedName                   4 files (  3.3%) -        8 total (0.04%)
-   Hashbang                          3 files (  2.4%) -        3 total (0.01%)
-   TSConditionalType                 3 files (  2.4%) -        6 total (0.03%)
-   TSInferType                       3 files (  2.4%) -        9 total (0.04%)
-   TSNullKeyword                     3 files (  2.4%) -        8 total (0.04%)
-   TSCallSignatureDeclaration        3 files (  2.4%) -        5 total (0.02%)
-   BreakStatement                    3 files (  2.4%) -        6 total (0.03%)
-   ThisExpression                    3 files (  2.4%) -        9 total (0.04%)
-   JSXMemberExpression               3 files (  2.4%) -       10 total (0.04%)
-   ExportAllDeclaration              2 files (  1.6%) -        4 total (0.02%)
-   ImportNamespaceSpecifier          2 files (  1.6%) -        2 total (0.01%)
-   TSMappedType                      2 files (  1.6%) -        2 total (0.01%)
-   TSSymbolKeyword                   2 files (  1.6%) -        2 total (0.01%)
-   EmptyStatement                    1 files (  0.8%) -        1 total (0.00%)
-   TSNamedTupleMember                1 files (  0.8%) -       33 total (0.15%)
-   DoWhileStatement                  1 files (  0.8%) -        1 total (0.00%)
-   WhileStatement                    1 files (  0.8%) -        2 total (0.01%)
-   ContinueStatement                 1 files (  0.8%) -        2 total (0.01%)
-   TSInterfaceHeritage               1 files (  0.8%) -        1 total (0.00%)
-   SwitchStatement                   1 files (  0.8%) -        1 total (0.00%)
-   SwitchCase                        1 files (  0.8%) -        3 total (0.01%)
-   TSOptionalType                    1 files (  0.8%) -        1 total (0.00%)
-   JSXSpreadAttribute                1 files (  0.8%) -        1 total (0.00%)
+   Program                         172 files (100.0%) -      172 total (0.20%)
+   Literal                         126 files ( 73.3%) -    4,810 total (5.52%)
+   Identifier                      124 files ( 72.1%) -   27,986 total (32.09%)
+   CallExpression                  114 files ( 66.3%) -    9,310 total (10.68%)
+   ImportDeclaration               112 files ( 65.1%) -      456 total (0.52%)
+   ImportSpecifier                 106 files ( 61.6%) -      714 total (0.82%)
+   VariableDeclaration             103 files ( 59.9%) -    2,686 total (3.08%)
+   VariableDeclarator              103 files ( 59.9%) -    2,686 total (3.08%)
+   MemberExpression                101 files ( 58.7%) -    4,971 total (5.70%)
+   BlockStatement                   98 files ( 57.0%) -    2,149 total (2.46%)
+   ExpressionStatement              95 files ( 55.2%) -    3,975 total (4.56%)
+   ArrowFunctionExpression          87 files ( 50.6%) -    2,683 total (3.08%)
+   ReturnStatement                  85 files ( 49.4%) -      770 total (0.88%)
+   TSTypeAnnotation                 82 files ( 47.7%) -    1,502 total (1.72%)
+   Property                         78 files ( 45.3%) -    1,040 total (1.19%)
+   ObjectExpression                 74 files ( 43.0%) -      459 total (0.53%)
+   BinaryExpression                 70 files ( 40.7%) -      524 total (0.60%)
+   ArrayExpression                  65 files ( 37.8%) -      314 total (0.36%)
+   TSTypeParameterInstantiation     65 files ( 37.8%) -      705 total (0.81%)
+   TSTypeReference                  65 files ( 37.8%) -    1,493 total (1.71%)
+   AssignmentExpression             60 files ( 34.9%) -      305 total (0.35%)
+   ParenthesizedExpression          58 files ( 33.7%) -      418 total (0.48%)
+   IfStatement                      55 files ( 32.0%) -      276 total (0.32%)
+   ImportDefaultSpecifier           54 files ( 31.4%) -       76 total (0.09%)
+   UnaryExpression                  51 files ( 29.7%) -      174 total (0.20%)
+   NewExpression                    48 files ( 27.9%) -      275 total (0.32%)
+   FunctionDeclaration              45 files ( 26.2%) -       76 total (0.09%)
+   TSFunctionType                   45 files ( 26.2%) -      244 total (0.28%)
+   TSVoidKeyword                    45 files ( 26.2%) -      258 total (0.30%)
+   ArrayPattern                     45 files ( 26.2%) -      338 total (0.39%)
+   TSUnionType                      43 files ( 25.0%) -      164 total (0.19%)
+   JSXElement                       40 files ( 23.3%) -    1,198 total (1.37%)
+   JSXOpeningElement                40 files ( 23.3%) -    1,198 total (1.37%)
+   JSXIdentifier                    40 files ( 23.3%) -    2,512 total (2.88%)
+   TSPropertySignature              39 files ( 22.7%) -      242 total (0.28%)
+   TSAsExpression                   39 files ( 22.7%) -      151 total (0.17%)
+   AwaitExpression                  39 files ( 22.7%) -    1,153 total (1.32%)
+   TSTypeLiteral                    38 files ( 22.1%) -      133 total (0.15%)
+   ExportNamedDeclaration           37 files ( 21.5%) -      167 total (0.19%)
+   TSNumberKeyword                  37 files ( 21.5%) -      243 total (0.28%)
+   TSArrayType                      37 files ( 21.5%) -      137 total (0.16%)
+   JSXText                          37 files ( 21.5%) -    2,005 total (2.30%)
+   JSXClosingElement                37 files ( 21.5%) -      830 total (0.95%)
+   LogicalExpression                36 files ( 20.9%) -      128 total (0.15%)
+   JSXAttribute                     35 files ( 20.3%) -      474 total (0.54%)
+   JSXExpressionContainer           34 files ( 19.8%) -      696 total (0.80%)
+   ChainExpression                  33 files ( 19.2%) -      100 total (0.11%)
+   TSTypeAliasDeclaration           33 files ( 19.2%) -      144 total (0.17%)
+   JSXFragment                      32 files ( 18.6%) -      243 total (0.28%)
+   JSXOpeningFragment               32 files ( 18.6%) -      243 total (0.28%)
+   JSXClosingFragment               32 files ( 18.6%) -      243 total (0.28%)
+   ObjectPattern                    31 files ( 18.0%) -       83 total (0.10%)
+   TSUnknownKeyword                 31 files ( 18.0%) -      143 total (0.16%)
+   SpreadElement                    30 files ( 17.4%) -       73 total (0.08%)
+   ConditionalExpression            30 files ( 17.4%) -       64 total (0.07%)
+   TSStringKeyword                  29 files ( 16.9%) -      150 total (0.17%)
+   TSTypeQuery                      29 files ( 16.9%) -       97 total (0.11%)
+   TSLiteralType                    27 files ( 15.7%) -       69 total (0.08%)
+   TSTypeParameterDeclaration       27 files ( 15.7%) -      148 total (0.17%)
+   TSTypeParameter                  27 files ( 15.7%) -      230 total (0.26%)
+   TSTupleType                      26 files ( 15.1%) -       69 total (0.08%)
+   Unknown                          25 files ( 14.5%) -      294 total (0.34%)
+   ExportDefaultDeclaration         24 files ( 14.0%) -       24 total (0.03%)
+   ThrowStatement                   23 files ( 13.4%) -       63 total (0.07%)
+   TemplateLiteral                  22 files ( 12.8%) -      204 total (0.23%)
+   TemplateElement                  22 files ( 12.8%) -      268 total (0.31%)
+   TSUndefinedKeyword               21 files ( 12.2%) -       69 total (0.08%)
+   TSParenthesizedType              20 files ( 11.6%) -       51 total (0.06%)
+   TSBooleanKeyword                 19 files ( 11.0%) -       44 total (0.05%)
+   UpdateExpression                 18 files ( 10.5%) -       50 total (0.06%)
+   TSNeverKeyword                   18 files ( 10.5%) -       33 total (0.04%)
+   TSAnyKeyword                     18 files ( 10.5%) -       32 total (0.04%)
+   TSNonNullExpression              17 files (  9.9%) -       43 total (0.05%)
+   TSIndexedAccessType              16 files (  9.3%) -       36 total (0.04%)
+   TSDeclareFunction                15 files (  8.7%) -       42 total (0.05%)
+   MetaProperty                     14 files (  8.1%) -       24 total (0.03%)
+   FunctionExpression               13 files (  7.6%) -       38 total (0.04%)
+   RestElement                      13 files (  7.6%) -       36 total (0.04%)
+   TSNullKeyword                    13 files (  7.6%) -       25 total (0.03%)
+   TryStatement                     12 files (  7.0%) -       39 total (0.04%)
+   TSIntersectionType               12 files (  7.0%) -       22 total (0.03%)
+   CatchClause                       9 files (  5.2%) -       27 total (0.03%)
+   AssignmentPattern                 8 files (  4.7%) -       20 total (0.02%)
+   TSTypeOperator                    8 files (  4.7%) -       17 total (0.02%)
+   TSTypePredicate                   8 files (  4.7%) -       14 total (0.02%)
+   TSObjectKeyword                   7 files (  4.1%) -       27 total (0.03%)
+   ForOfStatement                    6 files (  3.5%) -       18 total (0.02%)
+   ThisExpression                    6 files (  3.5%) -       28 total (0.03%)
+   ExportSpecifier                   5 files (  2.9%) -       41 total (0.05%)
+   TSInterfaceDeclaration            5 files (  2.9%) -        9 total (0.01%)
+   TSInterfaceBody                   5 files (  2.9%) -        9 total (0.01%)
+   ForStatement                      4 files (  2.3%) -        4 total (0.00%)
+   TSMethodSignature                 4 files (  2.3%) -       30 total (0.03%)
+   TSQualifiedName                   4 files (  2.3%) -        8 total (0.01%)
+   SwitchStatement                   4 files (  2.3%) -        6 total (0.01%)
+   SwitchCase                        4 files (  2.3%) -       16 total (0.02%)
+   Hashbang                          3 files (  1.7%) -        3 total (0.00%)
+   TSConditionalType                 3 files (  1.7%) -        6 total (0.01%)
+   TSInferType                       3 files (  1.7%) -        9 total (0.01%)
+   EmptyStatement                    3 files (  1.7%) -        7 total (0.01%)
+   TSCallSignatureDeclaration        3 files (  1.7%) -        5 total (0.01%)
+   BreakStatement                    3 files (  1.7%) -        6 total (0.01%)
+   ClassDeclaration                  3 files (  1.7%) -        4 total (0.00%)
+   ClassBody                         3 files (  1.7%) -        4 total (0.00%)
+   MethodDefinition                  3 files (  1.7%) -       11 total (0.01%)
+   Super                             3 files (  1.7%) -        3 total (0.00%)
+   JSXMemberExpression               3 files (  1.7%) -       10 total (0.01%)
+   ExportAllDeclaration              2 files (  1.2%) -        4 total (0.00%)
+   ImportNamespaceSpecifier          2 files (  1.2%) -        2 total (0.00%)
+   TSMappedType                      2 files (  1.2%) -        2 total (0.00%)
+   TSSymbolKeyword                   2 files (  1.2%) -        2 total (0.00%)
+   DoWhileStatement                  2 files (  1.2%) -        2 total (0.00%)
+   TSNamedTupleMember                1 files (  0.6%) -       33 total (0.04%)
+   WhileStatement                    1 files (  0.6%) -        2 total (0.00%)
+   ContinueStatement                 1 files (  0.6%) -        2 total (0.00%)
+   TSInterfaceHeritage               1 files (  0.6%) -        1 total (0.00%)
+   TSRestType                        1 files (  0.6%) -        1 total (0.00%)
+   TSOptionalType                    1 files (  0.6%) -        1 total (0.00%)
+   JSXSpreadAttribute                1 files (  0.6%) -        1 total (0.00%)
+   PropertyDefinition                1 files (  0.6%) -        1 total (0.00%)
 
 📝 ALL NODE TYPES (BY TOTAL COUNT):
-   Identifier                        7,951 (35.23%) in 76 files (61.8%)
-   TSTypeReference                   1,251 (5.54%) in 38 files (30.9%)
-   CallExpression                    1,033 (4.58%) in 66 files (53.7%)
-   Literal                           1,016 (4.50%) in 77 files (62.6%)
-   TSTypeAnnotation                    962 (4.26%) in 39 files (31.7%)
-   MemberExpression                    910 (4.03%) in 53 files (43.1%)
-   Property                            669 (2.96%) in 44 files (35.8%)
-   BlockStatement                      519 (2.30%) in 50 files (40.7%)
-   VariableDeclaration                 508 (2.25%) in 55 files (44.7%)
-   VariableDeclarator                  508 (2.25%) in 55 files (44.7%)
-   ExpressionStatement                 419 (1.86%) in 47 files (38.2%)
-   TSTypeParameterInstantiation        407 (1.80%) in 34 files (27.6%)
-   ArrowFunctionExpression             339 (1.50%) in 39 files (31.7%)
-   JSXIdentifier                       284 (1.26%) in 13 files (10.6%)
-   ObjectExpression                    262 (1.16%) in 41 files (33.3%)
-   TSTypeParameter                     223 (0.99%) in 24 files (19.5%)
-   ReturnStatement                     207 (0.92%) in 49 files (39.8%)
-   ImportSpecifier                     200 (0.89%) in 58 files (47.2%)
-   Unknown                             196 (0.87%) in 14 files (11.4%)
-   ImportDeclaration                   190 (0.84%) in 63 files (51.2%)
-   IfStatement                         188 (0.83%) in 34 files (27.6%)
-   TemplateElement                     178 (0.79%) in 14 files (11.4%)
-   ExportNamedDeclaration              167 (0.74%) in 37 files (30.1%)
-   BinaryExpression                    153 (0.68%) in 32 files (26.0%)
-   JSXText                             153 (0.68%) in 10 files (8.1%)
-   TSFunctionType                      151 (0.67%) in 25 files (20.3%)
-   TSPropertySignature                 148 (0.66%) in 22 files (17.9%)
-   TSTypeParameterDeclaration          143 (0.63%) in 24 files (19.5%)
-   TemplateLiteral                     136 (0.60%) in 14 files (11.4%)
-   ArrayExpression                     132 (0.58%) in 36 files (29.3%)
-   TSTypeAliasDeclaration              127 (0.56%) in 24 files (19.5%)
-   Program                             123 (0.54%) in 123 files (100.0%)
-   TSUnknownKeyword                    121 (0.54%) in 20 files (16.3%)
-   JSXElement                          113 (0.50%) in 13 files (10.6%)
-   JSXOpeningElement                   113 (0.50%) in 13 files (10.6%)
-   TSVoidKeyword                       112 (0.50%) in 19 files (15.4%)
-   AssignmentExpression                108 (0.48%) in 29 files (23.6%)
-   TSUnionType                         103 (0.46%) in 22 files (17.9%)
-   UnaryExpression                      97 (0.43%) in 30 files (24.4%)
-   LogicalExpression                    92 (0.41%) in 21 files (17.1%)
-   JSXAttribute                         89 (0.39%) in 8 files (6.5%)
-   TSAsExpression                       87 (0.39%) in 23 files (18.7%)
-   ParenthesizedExpression              82 (0.36%) in 25 files (20.3%)
-   TSArrayType                          81 (0.36%) in 19 files (15.4%)
-   ChainExpression                      76 (0.34%) in 21 files (17.1%)
-   TSTypeLiteral                        72 (0.32%) in 21 files (17.1%)
-   JSXClosingElement                    72 (0.32%) in 10 files (8.1%)
-   JSXExpressionContainer               69 (0.31%) in 7 files (5.7%)
-   NewExpression                        63 (0.28%) in 20 files (16.3%)
-   TSStringKeyword                      61 (0.27%) in 10 files (8.1%)
-   FunctionDeclaration                  55 (0.24%) in 36 files (29.3%)
-   SpreadElement                        52 (0.23%) in 19 files (15.4%)
-   TSTypeQuery                          51 (0.23%) in 19 files (15.4%)
-   TSTupleType                          50 (0.22%) in 18 files (14.6%)
-   ImportDefaultSpecifier               45 (0.20%) in 24 files (19.5%)
-   TSUndefinedKeyword                   44 (0.19%) in 13 files (10.6%)
-   ArrayPattern                         43 (0.19%) in 20 files (16.3%)
-   TSLiteralType                        43 (0.19%) in 17 files (13.8%)
-   TSDeclareFunction                    42 (0.19%) in 15 files (12.2%)
-   ExportSpecifier                      41 (0.18%) in 5 files (4.1%)
-   TSNamedTupleMember                   33 (0.15%) in 1 files (0.8%)
-   RestElement                          31 (0.14%) in 10 files (8.1%)
-   ConditionalExpression                30 (0.13%) in 15 files (12.2%)
-   TSMethodSignature                    30 (0.13%) in 4 files (3.3%)
-   TSIndexedAccessType                  26 (0.12%) in 12 files (9.8%)
-   ObjectPattern                        25 (0.11%) in 16 files (13.0%)
-   TSNeverKeyword                       25 (0.11%) in 13 files (10.6%)
-   ExportDefaultDeclaration             24 (0.11%) in 24 files (19.5%)
-   MetaProperty                         24 (0.11%) in 14 files (11.4%)
-   TSNonNullExpression                  24 (0.11%) in 12 files (9.8%)
-   ThrowStatement                       21 (0.09%) in 11 files (8.9%)
-   TSBooleanKeyword                     21 (0.09%) in 10 files (8.1%)
-   TryStatement                         20 (0.09%) in 7 files (5.7%)
-   TSIntersectionType                   20 (0.09%) in 10 files (8.1%)
-   TSNumberKeyword                      19 (0.08%) in 8 files (6.5%)
-   AssignmentPattern                    18 (0.08%) in 7 files (5.7%)
-   ForOfStatement                       17 (0.08%) in 5 files (4.1%)
-   TSObjectKeyword                      15 (0.07%) in 5 files (4.1%)
-   FunctionExpression                   14 (0.06%) in 8 files (6.5%)
-   TSAnyKeyword                         14 (0.06%) in 10 files (8.1%)
-   TSParenthesizedType                  14 (0.06%) in 9 files (7.3%)
-   TSTypeOperator                       13 (0.06%) in 6 files (4.9%)
-   TSTypePredicate                      13 (0.06%) in 7 files (5.7%)
-   CatchClause                          11 (0.05%) in 6 files (4.9%)
-   JSXMemberExpression                  10 (0.04%) in 3 files (2.4%)
-   TSInterfaceDeclaration                9 (0.04%) in 5 files (4.1%)
-   TSInterfaceBody                       9 (0.04%) in 5 files (4.1%)
-   UpdateExpression                      9 (0.04%) in 6 files (4.9%)
-   TSInferType                           9 (0.04%) in 3 files (2.4%)
-   ThisExpression                        9 (0.04%) in 3 files (2.4%)
-   TSNullKeyword                         8 (0.04%) in 3 files (2.4%)
-   TSQualifiedName                       8 (0.04%) in 4 files (3.3%)
-   AwaitExpression                       7 (0.03%) in 6 files (4.9%)
-   TSConditionalType                     6 (0.03%) in 3 files (2.4%)
-   BreakStatement                        6 (0.03%) in 3 files (2.4%)
-   TSCallSignatureDeclaration            5 (0.02%) in 3 files (2.4%)
-   JSXFragment                           5 (0.02%) in 5 files (4.1%)
-   JSXOpeningFragment                    5 (0.02%) in 5 files (4.1%)
-   JSXClosingFragment                    5 (0.02%) in 5 files (4.1%)
-   ExportAllDeclaration                  4 (0.02%) in 2 files (1.6%)
-   ForStatement                          4 (0.02%) in 4 files (3.3%)
-   Hashbang                              3 (0.01%) in 3 files (2.4%)
-   SwitchCase                            3 (0.01%) in 1 files (0.8%)
-   ImportNamespaceSpecifier              2 (0.01%) in 2 files (1.6%)
-   TSMappedType                          2 (0.01%) in 2 files (1.6%)
-   TSSymbolKeyword                       2 (0.01%) in 2 files (1.6%)
-   WhileStatement                        2 (0.01%) in 1 files (0.8%)
-   ContinueStatement                     2 (0.01%) in 1 files (0.8%)
-   EmptyStatement                        1 (0.00%) in 1 files (0.8%)
-   DoWhileStatement                      1 (0.00%) in 1 files (0.8%)
-   TSInterfaceHeritage                   1 (0.00%) in 1 files (0.8%)
-   SwitchStatement                       1 (0.00%) in 1 files (0.8%)
-   TSOptionalType                        1 (0.00%) in 1 files (0.8%)
-   JSXSpreadAttribute                    1 (0.00%) in 1 files (0.8%)
+   Identifier                       27,986 (32.09%) in 124 files (72.1%)
+   CallExpression                    9,310 (10.68%) in 114 files (66.3%)
+   MemberExpression                  4,971 (5.70%) in 101 files (58.7%)
+   Literal                           4,810 (5.52%) in 126 files (73.3%)
+   ExpressionStatement               3,975 (4.56%) in 95 files (55.2%)
+   VariableDeclaration               2,686 (3.08%) in 103 files (59.9%)
+   VariableDeclarator                2,686 (3.08%) in 103 files (59.9%)
+   ArrowFunctionExpression           2,683 (3.08%) in 87 files (50.6%)
+   JSXIdentifier                     2,512 (2.88%) in 40 files (23.3%)
+   BlockStatement                    2,149 (2.46%) in 98 files (57.0%)
+   JSXText                           2,005 (2.30%) in 37 files (21.5%)
+   TSTypeAnnotation                  1,502 (1.72%) in 82 files (47.7%)
+   TSTypeReference                   1,493 (1.71%) in 65 files (37.8%)
+   JSXElement                        1,198 (1.37%) in 40 files (23.3%)
+   JSXOpeningElement                 1,198 (1.37%) in 40 files (23.3%)
+   AwaitExpression                   1,153 (1.32%) in 39 files (22.7%)
+   Property                          1,040 (1.19%) in 78 files (45.3%)
+   JSXClosingElement                   830 (0.95%) in 37 files (21.5%)
+   ReturnStatement                     770 (0.88%) in 85 files (49.4%)
+   ImportSpecifier                     714 (0.82%) in 106 files (61.6%)
+   TSTypeParameterInstantiation        705 (0.81%) in 65 files (37.8%)
+   JSXExpressionContainer              696 (0.80%) in 34 files (19.8%)
+   BinaryExpression                    524 (0.60%) in 70 files (40.7%)
+   JSXAttribute                        474 (0.54%) in 35 files (20.3%)
+   ObjectExpression                    459 (0.53%) in 74 files (43.0%)
+   ImportDeclaration                   456 (0.52%) in 112 files (65.1%)
+   ParenthesizedExpression             418 (0.48%) in 58 files (33.7%)
+   ArrayPattern                        338 (0.39%) in 45 files (26.2%)
+   ArrayExpression                     314 (0.36%) in 65 files (37.8%)
+   AssignmentExpression                305 (0.35%) in 60 files (34.9%)
+   Unknown                             294 (0.34%) in 25 files (14.5%)
+   IfStatement                         276 (0.32%) in 55 files (32.0%)
+   NewExpression                       275 (0.32%) in 48 files (27.9%)
+   TemplateElement                     268 (0.31%) in 22 files (12.8%)
+   TSVoidKeyword                       258 (0.30%) in 45 files (26.2%)
+   TSFunctionType                      244 (0.28%) in 45 files (26.2%)
+   TSNumberKeyword                     243 (0.28%) in 37 files (21.5%)
+   JSXFragment                         243 (0.28%) in 32 files (18.6%)
+   JSXOpeningFragment                  243 (0.28%) in 32 files (18.6%)
+   JSXClosingFragment                  243 (0.28%) in 32 files (18.6%)
+   TSPropertySignature                 242 (0.28%) in 39 files (22.7%)
+   TSTypeParameter                     230 (0.26%) in 27 files (15.7%)
+   TemplateLiteral                     204 (0.23%) in 22 files (12.8%)
+   UnaryExpression                     174 (0.20%) in 51 files (29.7%)
+   Program                             172 (0.20%) in 172 files (100.0%)
+   ExportNamedDeclaration              167 (0.19%) in 37 files (21.5%)
+   TSUnionType                         164 (0.19%) in 43 files (25.0%)
+   TSAsExpression                      151 (0.17%) in 39 files (22.7%)
+   TSStringKeyword                     150 (0.17%) in 29 files (16.9%)
+   TSTypeParameterDeclaration          148 (0.17%) in 27 files (15.7%)
+   TSTypeAliasDeclaration              144 (0.17%) in 33 files (19.2%)
+   TSUnknownKeyword                    143 (0.16%) in 31 files (18.0%)
+   TSArrayType                         137 (0.16%) in 37 files (21.5%)
+   TSTypeLiteral                       133 (0.15%) in 38 files (22.1%)
+   LogicalExpression                   128 (0.15%) in 36 files (20.9%)
+   ChainExpression                     100 (0.11%) in 33 files (19.2%)
+   TSTypeQuery                          97 (0.11%) in 29 files (16.9%)
+   ObjectPattern                        83 (0.10%) in 31 files (18.0%)
+   ImportDefaultSpecifier               76 (0.09%) in 54 files (31.4%)
+   FunctionDeclaration                  76 (0.09%) in 45 files (26.2%)
+   SpreadElement                        73 (0.08%) in 30 files (17.4%)
+   TSUndefinedKeyword                   69 (0.08%) in 21 files (12.2%)
+   TSLiteralType                        69 (0.08%) in 27 files (15.7%)
+   TSTupleType                          69 (0.08%) in 26 files (15.1%)
+   ConditionalExpression                64 (0.07%) in 30 files (17.4%)
+   ThrowStatement                       63 (0.07%) in 23 files (13.4%)
+   TSParenthesizedType                  51 (0.06%) in 20 files (11.6%)
+   UpdateExpression                     50 (0.06%) in 18 files (10.5%)
+   TSBooleanKeyword                     44 (0.05%) in 19 files (11.0%)
+   TSNonNullExpression                  43 (0.05%) in 17 files (9.9%)
+   TSDeclareFunction                    42 (0.05%) in 15 files (8.7%)
+   ExportSpecifier                      41 (0.05%) in 5 files (2.9%)
+   TryStatement                         39 (0.04%) in 12 files (7.0%)
+   FunctionExpression                   38 (0.04%) in 13 files (7.6%)
+   TSIndexedAccessType                  36 (0.04%) in 16 files (9.3%)
+   RestElement                          36 (0.04%) in 13 files (7.6%)
+   TSNeverKeyword                       33 (0.04%) in 18 files (10.5%)
+   TSNamedTupleMember                   33 (0.04%) in 1 files (0.6%)
+   TSAnyKeyword                         32 (0.04%) in 18 files (10.5%)
+   TSMethodSignature                    30 (0.03%) in 4 files (2.3%)
+   ThisExpression                       28 (0.03%) in 6 files (3.5%)
+   CatchClause                          27 (0.03%) in 9 files (5.2%)
+   TSObjectKeyword                      27 (0.03%) in 7 files (4.1%)
+   TSNullKeyword                        25 (0.03%) in 13 files (7.6%)
+   ExportDefaultDeclaration             24 (0.03%) in 24 files (14.0%)
+   MetaProperty                         24 (0.03%) in 14 files (8.1%)
+   TSIntersectionType                   22 (0.03%) in 12 files (7.0%)
+   AssignmentPattern                    20 (0.02%) in 8 files (4.7%)
+   ForOfStatement                       18 (0.02%) in 6 files (3.5%)
+   TSTypeOperator                       17 (0.02%) in 8 files (4.7%)
+   SwitchCase                           16 (0.02%) in 4 files (2.3%)
+   TSTypePredicate                      14 (0.02%) in 8 files (4.7%)
+   MethodDefinition                     11 (0.01%) in 3 files (1.7%)
+   JSXMemberExpression                  10 (0.01%) in 3 files (1.7%)
+   TSInterfaceDeclaration                9 (0.01%) in 5 files (2.9%)
+   TSInterfaceBody                       9 (0.01%) in 5 files (2.9%)
+   TSInferType                           9 (0.01%) in 3 files (1.7%)
+   TSQualifiedName                       8 (0.01%) in 4 files (2.3%)
+   EmptyStatement                        7 (0.01%) in 3 files (1.7%)
+   TSConditionalType                     6 (0.01%) in 3 files (1.7%)
+   BreakStatement                        6 (0.01%) in 3 files (1.7%)
+   SwitchStatement                       6 (0.01%) in 4 files (2.3%)
+   TSCallSignatureDeclaration            5 (0.01%) in 3 files (1.7%)
+   ExportAllDeclaration                  4 (0.00%) in 2 files (1.2%)
+   ForStatement                          4 (0.00%) in 4 files (2.3%)
+   ClassDeclaration                      4 (0.00%) in 3 files (1.7%)
+   ClassBody                             4 (0.00%) in 3 files (1.7%)
+   Hashbang                              3 (0.00%) in 3 files (1.7%)
+   Super                                 3 (0.00%) in 3 files (1.7%)
+   ImportNamespaceSpecifier              2 (0.00%) in 2 files (1.2%)
+   TSMappedType                          2 (0.00%) in 2 files (1.2%)
+   TSSymbolKeyword                       2 (0.00%) in 2 files (1.2%)
+   DoWhileStatement                      2 (0.00%) in 2 files (1.2%)
+   WhileStatement                        2 (0.00%) in 1 files (0.6%)
+   ContinueStatement                     2 (0.00%) in 1 files (0.6%)
+   TSInterfaceHeritage                   1 (0.00%) in 1 files (0.6%)
+   TSRestType                            1 (0.00%) in 1 files (0.6%)
+   TSOptionalType                        1 (0.00%) in 1 files (0.6%)
+   JSXSpreadAttribute                    1 (0.00%) in 1 files (0.6%)
+   PropertyDefinition                    1 (0.00%) in 1 files (0.6%)
+
+📁 FILE EXAMPLES BY NODE TYPE:
+
+   Identifier:
+     📄 Files WITH Identifier (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+       • website/gatsby-browser.js
+       • src/vanilla.ts
+     📄 Files WITHOUT Identifier (showing 10):
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • src/utils.ts
+       • src/index.ts
+       • tests/setup.ts
+       • website/src/pages/index.js
+       • website/src/components/wrapper.js
+       • website/src/components/utilities-demo.js
+       • website/src/components/toggle.js
+       • website/src/components/toc.js
+
+   CallExpression:
+     📄 Files WITH CallExpression (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+       • benchmarks/subscribe-write.ts
+       • benchmarks/simple-write.ts
+       • benchmarks/simple-read.ts
+     📄 Files WITHOUT CallExpression (showing 10):
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-browser.js
+       • src/vanilla.ts
+       • src/utils.ts
+       • src/types.d.ts
+       • src/react.ts
+       • src/index.ts
+       • tests/setup.ts
+
+   MemberExpression:
+     📄 Files WITH MemberExpression (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+       • benchmarks/subscribe-write.ts
+       • benchmarks/simple-write.ts
+     📄 Files WITHOUT MemberExpression (showing 10):
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-browser.js
+       • src/vanilla.ts
+       • src/utils.ts
+       • src/types.d.ts
+       • src/react.ts
+       • src/index.ts
+       • tests/setup.ts
+       • src/vanilla/utils.ts
+
+   Literal:
+     📄 Files WITH Literal (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+       • website/gatsby-browser.js
+       • src/vanilla.ts
+     📄 Files WITHOUT Literal (showing 10):
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • src/types.d.ts
+       • website/src/pages/index.js
+       • website/src/components/wrapper.js
+       • website/src/components/utilities-demo.js
+       • website/src/components/toggle.js
+       • website/src/components/toc.js
+       • website/src/components/tabs.js
+       • website/src/components/support.js
+
+   ExpressionStatement:
+     📄 Files WITH ExpressionStatement (showing 10):
+       • rollup.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+       • benchmarks/subscribe-write.ts
+       • benchmarks/simple-write.ts
+       • benchmarks/simple-read.ts
+       • website/api/contact.js
+     📄 Files WITHOUT ExpressionStatement (showing 10):
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-browser.js
+       • src/vanilla.ts
+       • src/utils.ts
+       • src/types.d.ts
+       • src/react.ts
+       • src/index.ts
+
+   VariableDeclaration:
+     📄 Files WITH VariableDeclaration (showing 10):
+       • rollup.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+       • benchmarks/subscribe-write.ts
+       • benchmarks/simple-write.ts
+       • benchmarks/simple-read.ts
+       • website/api/contact.js
+       • src/vanilla/store.ts
+     📄 Files WITHOUT VariableDeclaration (showing 10):
+       • eslint.config.mjs
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-browser.js
+       • src/vanilla.ts
+       • src/utils.ts
+       • src/types.d.ts
+       • src/react.ts
+
+   VariableDeclarator:
+     📄 Files WITH VariableDeclarator (showing 10):
+       • rollup.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+       • benchmarks/subscribe-write.ts
+       • benchmarks/simple-write.ts
+       • benchmarks/simple-read.ts
+       • website/api/contact.js
+       • src/vanilla/store.ts
+     📄 Files WITHOUT VariableDeclarator (showing 10):
+       • eslint.config.mjs
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-browser.js
+       • src/vanilla.ts
+       • src/utils.ts
+       • src/types.d.ts
+       • src/react.ts
+
+   ArrowFunctionExpression:
+     📄 Files WITH ArrowFunctionExpression (showing 10):
+       • rollup.config.mjs
+       • babel.config.mjs
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+       • benchmarks/subscribe-write.ts
+       • benchmarks/simple-write.ts
+       • benchmarks/simple-read.ts
+       • src/vanilla/store.ts
+       • src/vanilla/internals.ts
+       • src/react/useSetAtom.ts
+     📄 Files WITHOUT ArrowFunctionExpression (showing 10):
+       • eslint.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-browser.js
+       • src/vanilla.ts
+       • src/utils.ts
+       • src/types.d.ts
+
+   JSXIdentifier:
+     📄 Files WITH JSXIdentifier (showing 10):
+       • tests/react/useSetAtom.test.tsx
+       • tests/react/useAtomValue.test.tsx
+       • tests/react/transition.test.tsx
+       • tests/react/provider.test.tsx
+       • tests/react/optimization.test.tsx
+       • tests/react/onmount.test.tsx
+       • tests/react/items.test.tsx
+       • tests/react/error.test.tsx
+       • tests/react/dependency.test.tsx
+       • tests/react/basic.test.tsx
+     📄 Files WITHOUT JSXIdentifier (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   BlockStatement:
+     📄 Files WITH BlockStatement (showing 10):
+       • rollup.config.mjs
+       • babel.config.mjs
+       • website/reach-router.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+       • benchmarks/subscribe-write.ts
+       • benchmarks/simple-write.ts
+       • benchmarks/simple-read.ts
+       • website/api/contact.js
+       • src/vanilla/store.ts
+     📄 Files WITHOUT BlockStatement (showing 10):
+       • eslint.config.mjs
+       • website/tailwind.config.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-browser.js
+       • src/vanilla.ts
+       • src/utils.ts
+       • src/types.d.ts
+       • src/react.ts
+
+   JSXText:
+     📄 Files WITH JSXText (showing 10):
+       • tests/react/useSetAtom.test.tsx
+       • tests/react/useAtomValue.test.tsx
+       • tests/react/transition.test.tsx
+       • tests/react/provider.test.tsx
+       • tests/react/optimization.test.tsx
+       • tests/react/onmount.test.tsx
+       • tests/react/items.test.tsx
+       • tests/react/error.test.tsx
+       • tests/react/dependency.test.tsx
+       • tests/react/basic.test.tsx
+     📄 Files WITHOUT JSXText (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSTypeAnnotation:
+     📄 Files WITH TSTypeAnnotation (showing 10):
+       • src/types.d.ts
+       • benchmarks/subscribe-write.ts
+       • benchmarks/simple-write.ts
+       • benchmarks/simple-read.ts
+       • src/vanilla/store.ts
+       • src/vanilla/internals.ts
+       • src/vanilla/atom.ts
+       • src/react/useSetAtom.ts
+       • src/react/useAtomValue.ts
+       • src/react/useAtom.ts
+     📄 Files WITHOUT TSTypeAnnotation (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSTypeReference:
+     📄 Files WITH TSTypeReference (showing 10):
+       • benchmarks/subscribe-write.ts
+       • benchmarks/simple-write.ts
+       • benchmarks/simple-read.ts
+       • src/vanilla/typeUtils.ts
+       • src/vanilla/store.ts
+       • src/vanilla/internals.ts
+       • src/vanilla/atom.ts
+       • src/react/useSetAtom.ts
+       • src/react/useAtomValue.ts
+       • src/react/useAtom.ts
+     📄 Files WITHOUT TSTypeReference (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   JSXElement:
+     📄 Files WITH JSXElement (showing 10):
+       • tests/react/useSetAtom.test.tsx
+       • tests/react/useAtomValue.test.tsx
+       • tests/react/transition.test.tsx
+       • tests/react/provider.test.tsx
+       • tests/react/optimization.test.tsx
+       • tests/react/onmount.test.tsx
+       • tests/react/items.test.tsx
+       • tests/react/error.test.tsx
+       • tests/react/dependency.test.tsx
+       • tests/react/basic.test.tsx
+     📄 Files WITHOUT JSXElement (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   JSXOpeningElement:
+     📄 Files WITH JSXOpeningElement (showing 10):
+       • tests/react/useSetAtom.test.tsx
+       • tests/react/useAtomValue.test.tsx
+       • tests/react/transition.test.tsx
+       • tests/react/provider.test.tsx
+       • tests/react/optimization.test.tsx
+       • tests/react/onmount.test.tsx
+       • tests/react/items.test.tsx
+       • tests/react/error.test.tsx
+       • tests/react/dependency.test.tsx
+       • tests/react/basic.test.tsx
+     📄 Files WITHOUT JSXOpeningElement (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   AwaitExpression:
+     📄 Files WITH AwaitExpression (showing 10):
+       • benchmarks/subscribe-write.ts
+       • benchmarks/simple-write.ts
+       • benchmarks/simple-read.ts
+       • website/api/contact.js
+       • tests/react/useSetAtom.test.tsx
+       • tests/react/useAtomValue.test.tsx
+       • tests/react/transition.test.tsx
+       • tests/react/provider.test.tsx
+       • tests/react/optimization.test.tsx
+       • tests/react/onmount.test.tsx
+     📄 Files WITHOUT AwaitExpression (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   Property:
+     📄 Files WITH Property (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/postcss.config.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+       • benchmarks/subscribe-write.ts
+       • benchmarks/simple-write.ts
+       • benchmarks/simple-read.ts
+     📄 Files WITHOUT Property (showing 10):
+       • website/reach-router.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-browser.js
+       • src/vanilla.ts
+       • src/utils.ts
+       • src/types.d.ts
+       • src/react.ts
+       • src/index.ts
+       • tests/setup.ts
+
+   JSXClosingElement:
+     📄 Files WITH JSXClosingElement (showing 10):
+       • tests/react/useSetAtom.test.tsx
+       • tests/react/useAtomValue.test.tsx
+       • tests/react/transition.test.tsx
+       • tests/react/provider.test.tsx
+       • tests/react/optimization.test.tsx
+       • tests/react/onmount.test.tsx
+       • tests/react/items.test.tsx
+       • tests/react/error.test.tsx
+       • tests/react/dependency.test.tsx
+       • tests/react/basic.test.tsx
+     📄 Files WITHOUT JSXClosingElement (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   ReturnStatement:
+     📄 Files WITH ReturnStatement (showing 10):
+       • rollup.config.mjs
+       • babel.config.mjs
+       • website/reach-router.js
+       • website/gatsby-config.js
+       • benchmarks/subscribe-write.ts
+       • benchmarks/simple-write.ts
+       • benchmarks/simple-read.ts
+       • website/api/contact.js
+       • src/vanilla/store.ts
+       • src/vanilla/internals.ts
+     📄 Files WITHOUT ReturnStatement (showing 10):
+       • eslint.config.mjs
+       • website/tailwind.config.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-browser.js
+       • src/vanilla.ts
+       • src/utils.ts
+       • src/types.d.ts
+
+   ImportSpecifier:
+     📄 Files WITH ImportSpecifier (showing 10):
+       • benchmarks/subscribe-write.ts
+       • benchmarks/simple-write.ts
+       • benchmarks/simple-read.ts
+       • src/vanilla/typeUtils.ts
+       • src/vanilla/store.ts
+       • src/vanilla/internals.ts
+       • src/vanilla/atom.ts
+       • src/react/useSetAtom.ts
+       • src/react/useAtomValue.ts
+       • src/react/useAtom.ts
+     📄 Files WITHOUT ImportSpecifier (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSTypeParameterInstantiation:
+     📄 Files WITH TSTypeParameterInstantiation (showing 10):
+       • benchmarks/subscribe-write.ts
+       • benchmarks/simple-write.ts
+       • benchmarks/simple-read.ts
+       • src/vanilla/typeUtils.ts
+       • src/vanilla/store.ts
+       • src/vanilla/internals.ts
+       • src/vanilla/atom.ts
+       • src/react/useSetAtom.ts
+       • src/react/useAtomValue.ts
+       • src/react/useAtom.ts
+     📄 Files WITHOUT TSTypeParameterInstantiation (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   JSXExpressionContainer:
+     📄 Files WITH JSXExpressionContainer (showing 10):
+       • tests/react/useSetAtom.test.tsx
+       • tests/react/useAtomValue.test.tsx
+       • tests/react/transition.test.tsx
+       • tests/react/provider.test.tsx
+       • tests/react/optimization.test.tsx
+       • tests/react/onmount.test.tsx
+       • tests/react/items.test.tsx
+       • tests/react/error.test.tsx
+       • tests/react/dependency.test.tsx
+       • tests/react/basic.test.tsx
+     📄 Files WITHOUT JSXExpressionContainer (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   BinaryExpression:
+     📄 Files WITH BinaryExpression (showing 10):
+       • rollup.config.mjs
+       • website/reach-router.js
+       • website/gatsby-config.js
+       • benchmarks/subscribe-write.ts
+       • benchmarks/simple-write.ts
+       • benchmarks/simple-read.ts
+       • src/vanilla/store.ts
+       • src/vanilla/internals.ts
+       • src/vanilla/atom.ts
+       • src/react/useSetAtom.ts
+     📄 Files WITHOUT BinaryExpression (showing 10):
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-browser.js
+       • src/vanilla.ts
+       • src/utils.ts
+
+   JSXAttribute:
+     📄 Files WITH JSXAttribute (showing 10):
+       • tests/react/useSetAtom.test.tsx
+       • tests/react/useAtomValue.test.tsx
+       • tests/react/transition.test.tsx
+       • tests/react/provider.test.tsx
+       • tests/react/optimization.test.tsx
+       • tests/react/onmount.test.tsx
+       • tests/react/items.test.tsx
+       • tests/react/error.test.tsx
+       • tests/react/dependency.test.tsx
+       • tests/react/basic.test.tsx
+     📄 Files WITHOUT JSXAttribute (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   ObjectExpression:
+     📄 Files WITH ObjectExpression (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/postcss.config.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+       • benchmarks/subscribe-write.ts
+       • benchmarks/simple-write.ts
+       • benchmarks/simple-read.ts
+     📄 Files WITHOUT ObjectExpression (showing 10):
+       • website/reach-router.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-browser.js
+       • src/vanilla.ts
+       • src/utils.ts
+       • src/types.d.ts
+       • src/react.ts
+       • src/index.ts
+       • tests/setup.ts
+
+   ImportDeclaration:
+     📄 Files WITH ImportDeclaration (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • website/gatsby-browser.js
+       • tests/setup.ts
+       • benchmarks/subscribe-write.ts
+       • benchmarks/simple-write.ts
+       • benchmarks/simple-read.ts
+       • website/api/contact.js
+       • src/vanilla/typeUtils.ts
+       • src/vanilla/store.ts
+     📄 Files WITHOUT ImportDeclaration (showing 10):
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+       • src/vanilla.ts
+       • src/utils.ts
+
+   ParenthesizedExpression:
+     📄 Files WITH ParenthesizedExpression (showing 10):
+       • rollup.config.mjs
+       • src/vanilla/store.ts
+       • src/vanilla/internals.ts
+       • src/vanilla/atom.ts
+       • src/react/useSetAtom.ts
+       • src/react/useAtomValue.ts
+       • src/babel/plugin-react-refresh.ts
+       • src/babel/plugin-debug-label.ts
+       • tests/react/useSetAtom.test.tsx
+       • tests/react/useAtomValue.test.tsx
+     📄 Files WITHOUT ParenthesizedExpression (showing 10):
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+       • website/gatsby-browser.js
+
+   ArrayPattern:
+     📄 Files WITH ArrayPattern (showing 10):
+       • benchmarks/subscribe-write.ts
+       • benchmarks/simple-write.ts
+       • benchmarks/simple-read.ts
+       • src/vanilla/store.ts
+       • src/vanilla/internals.ts
+       • src/react/useAtomValue.ts
+       • tests/react/types.test.tsx
+       • tests/react/transition.test.tsx
+       • tests/react/provider.test.tsx
+       • tests/react/optimization.test.tsx
+     📄 Files WITHOUT ArrayPattern (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   ArrayExpression:
+     📄 Files WITH ArrayExpression (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+       • benchmarks/subscribe-write.ts
+       • benchmarks/simple-write.ts
+       • benchmarks/simple-read.ts
+       • src/vanilla/internals.ts
+     📄 Files WITHOUT ArrayExpression (showing 10):
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-browser.js
+       • src/vanilla.ts
+       • src/utils.ts
+       • src/types.d.ts
+       • src/react.ts
+       • src/index.ts
+
+   AssignmentExpression:
+     📄 Files WITH AssignmentExpression (showing 10):
+       • rollup.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+       • benchmarks/subscribe-write.ts
+       • benchmarks/simple-write.ts
+       • benchmarks/simple-read.ts
+       • src/vanilla/store.ts
+     📄 Files WITHOUT AssignmentExpression (showing 10):
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-browser.js
+       • src/vanilla.ts
+       • src/utils.ts
+       • src/types.d.ts
+       • src/react.ts
+       • src/index.ts
+
+   Unknown:
+     📄 Files WITH Unknown (showing 10):
+       • rollup.config.mjs
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+       • benchmarks/subscribe-write.ts
+       • benchmarks/simple-write.ts
+       • benchmarks/simple-read.ts
+       • website/api/contact.js
+       • src/vanilla/atom.ts
+       • src/babel/plugin-react-refresh.ts
+       • src/babel/plugin-debug-label.ts
+     📄 Files WITHOUT Unknown (showing 10):
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-browser.js
+       • src/vanilla.ts
+       • src/utils.ts
+
+   IfStatement:
+     📄 Files WITH IfStatement (showing 10):
+       • rollup.config.mjs
+       • website/reach-router.js
+       • website/gatsby-config.js
+       • benchmarks/subscribe-write.ts
+       • benchmarks/simple-write.ts
+       • benchmarks/simple-read.ts
+       • website/api/contact.js
+       • src/vanilla/store.ts
+       • src/vanilla/internals.ts
+       • src/vanilla/atom.ts
+     📄 Files WITHOUT IfStatement (showing 10):
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-browser.js
+       • src/vanilla.ts
+       • src/utils.ts
+
+   NewExpression:
+     📄 Files WITH NewExpression (showing 10):
+       • benchmarks/subscribe-write.ts
+       • benchmarks/simple-write.ts
+       • benchmarks/simple-read.ts
+       • website/api/contact.js
+       • src/vanilla/store.ts
+       • src/vanilla/internals.ts
+       • src/react/useSetAtom.ts
+       • src/react/useAtomValue.ts
+       • src/babel/plugin-react-refresh.ts
+       • tests/react/useAtomValue.test.tsx
+     📄 Files WITHOUT NewExpression (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TemplateElement:
+     📄 Files WITH TemplateElement (showing 10):
+       • rollup.config.mjs
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+       • benchmarks/subscribe-write.ts
+       • benchmarks/simple-write.ts
+       • benchmarks/simple-read.ts
+       • website/api/contact.js
+       • src/vanilla/atom.ts
+       • src/babel/plugin-react-refresh.ts
+       • src/babel/plugin-debug-label.ts
+     📄 Files WITHOUT TemplateElement (showing 10):
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-browser.js
+       • src/vanilla.ts
+       • src/utils.ts
+
+   TSVoidKeyword:
+     📄 Files WITH TSVoidKeyword (showing 10):
+       • benchmarks/subscribe-write.ts
+       • src/vanilla/store.ts
+       • src/vanilla/internals.ts
+       • src/vanilla/atom.ts
+       • src/react/useAtom.ts
+       • tests/react/useSetAtom.test.tsx
+       • tests/react/types.test.tsx
+       • tests/react/transition.test.tsx
+       • tests/react/onmount.test.tsx
+       • tests/react/items.test.tsx
+     📄 Files WITHOUT TSVoidKeyword (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSFunctionType:
+     📄 Files WITH TSFunctionType (showing 10):
+       • benchmarks/subscribe-write.ts
+       • src/vanilla/store.ts
+       • src/vanilla/internals.ts
+       • src/vanilla/atom.ts
+       • src/react/useSetAtom.ts
+       • src/react/useAtomValue.ts
+       • src/react/useAtom.ts
+       • tests/react/useSetAtom.test.tsx
+       • tests/react/types.test.tsx
+       • tests/react/onmount.test.tsx
+     📄 Files WITHOUT TSFunctionType (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSNumberKeyword:
+     📄 Files WITH TSNumberKeyword (showing 10):
+       • benchmarks/subscribe-write.ts
+       • benchmarks/simple-write.ts
+       • benchmarks/simple-read.ts
+       • src/vanilla/internals.ts
+       • src/react/useAtomValue.ts
+       • tests/react/types.test.tsx
+       • tests/react/transition.test.tsx
+       • tests/react/onmount.test.tsx
+       • tests/react/dependency.test.tsx
+       • tests/react/basic.test.tsx
+     📄 Files WITHOUT TSNumberKeyword (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   JSXFragment:
+     📄 Files WITH JSXFragment (showing 10):
+       • tests/react/useSetAtom.test.tsx
+       • tests/react/useAtomValue.test.tsx
+       • tests/react/transition.test.tsx
+       • tests/react/provider.test.tsx
+       • tests/react/optimization.test.tsx
+       • tests/react/onmount.test.tsx
+       • tests/react/items.test.tsx
+       • tests/react/error.test.tsx
+       • tests/react/dependency.test.tsx
+       • tests/react/basic.test.tsx
+     📄 Files WITHOUT JSXFragment (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   JSXOpeningFragment:
+     📄 Files WITH JSXOpeningFragment (showing 10):
+       • tests/react/useSetAtom.test.tsx
+       • tests/react/useAtomValue.test.tsx
+       • tests/react/transition.test.tsx
+       • tests/react/provider.test.tsx
+       • tests/react/optimization.test.tsx
+       • tests/react/onmount.test.tsx
+       • tests/react/items.test.tsx
+       • tests/react/error.test.tsx
+       • tests/react/dependency.test.tsx
+       • tests/react/basic.test.tsx
+     📄 Files WITHOUT JSXOpeningFragment (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   JSXClosingFragment:
+     📄 Files WITH JSXClosingFragment (showing 10):
+       • tests/react/useSetAtom.test.tsx
+       • tests/react/useAtomValue.test.tsx
+       • tests/react/transition.test.tsx
+       • tests/react/provider.test.tsx
+       • tests/react/optimization.test.tsx
+       • tests/react/onmount.test.tsx
+       • tests/react/items.test.tsx
+       • tests/react/error.test.tsx
+       • tests/react/dependency.test.tsx
+       • tests/react/basic.test.tsx
+     📄 Files WITHOUT JSXClosingFragment (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSPropertySignature:
+     📄 Files WITH TSPropertySignature (showing 10):
+       • src/types.d.ts
+       • src/vanilla/store.ts
+       • src/vanilla/internals.ts
+       • src/vanilla/atom.ts
+       • src/react/useAtomValue.ts
+       • src/react/Provider.ts
+       • src/babel/utils.ts
+       • src/babel/preset.ts
+       • tests/react/useSetAtom.test.tsx
+       • tests/react/useAtomValue.test.tsx
+     📄 Files WITHOUT TSPropertySignature (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSTypeParameter:
+     📄 Files WITH TSTypeParameter (showing 10):
+       • src/vanilla/typeUtils.ts
+       • src/vanilla/internals.ts
+       • src/vanilla/atom.ts
+       • src/react/useSetAtom.ts
+       • src/react/useAtomValue.ts
+       • src/react/useAtom.ts
+       • tests/react/types.test.tsx
+       • tests/vanilla/effect.test.ts
+       • src/vanilla/utils/unwrap.ts
+       • src/vanilla/utils/splitAtom.ts
+     📄 Files WITHOUT TSTypeParameter (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TemplateLiteral:
+     📄 Files WITH TemplateLiteral (showing 10):
+       • rollup.config.mjs
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+       • benchmarks/subscribe-write.ts
+       • benchmarks/simple-write.ts
+       • benchmarks/simple-read.ts
+       • website/api/contact.js
+       • src/vanilla/atom.ts
+       • src/babel/plugin-react-refresh.ts
+       • src/babel/plugin-debug-label.ts
+     📄 Files WITHOUT TemplateLiteral (showing 10):
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-browser.js
+       • src/vanilla.ts
+       • src/utils.ts
+
+   UnaryExpression:
+     📄 Files WITH UnaryExpression (showing 10):
+       • rollup.config.mjs
+       • website/gatsby-config.js
+       • benchmarks/subscribe-write.ts
+       • benchmarks/simple-write.ts
+       • benchmarks/simple-read.ts
+       • website/api/contact.js
+       • src/vanilla/store.ts
+       • src/vanilla/internals.ts
+       • src/vanilla/atom.ts
+       • src/react/useSetAtom.ts
+     📄 Files WITHOUT UnaryExpression (showing 10):
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-browser.js
+       • src/vanilla.ts
+
+   Program:
+     📄 Files WITH Program (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+     📄 Files WITHOUT Program: (all files contain this node type)
+
+   ExportNamedDeclaration:
+     📄 Files WITH ExportNamedDeclaration (showing 10):
+       • rollup.config.mjs
+       • website/gatsby-browser.js
+       • src/vanilla.ts
+       • src/react.ts
+       • src/vanilla/utils.ts
+       • src/vanilla/typeUtils.ts
+       • src/vanilla/store.ts
+       • src/vanilla/internals.ts
+       • src/vanilla/atom.ts
+       • src/react/utils.ts
+     📄 Files WITHOUT ExportNamedDeclaration (showing 10):
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+       • src/utils.ts
+
+   TSUnionType:
+     📄 Files WITH TSUnionType (showing 10):
+       • benchmarks/subscribe-write.ts
+       • benchmarks/simple-write.ts
+       • benchmarks/simple-read.ts
+       • src/vanilla/store.ts
+       • src/vanilla/internals.ts
+       • src/vanilla/atom.ts
+       • src/react/useAtomValue.ts
+       • src/react/useAtom.ts
+       • src/react/Provider.ts
+       • src/babel/utils.ts
+     📄 Files WITHOUT TSUnionType (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSAsExpression:
+     📄 Files WITH TSAsExpression (showing 10):
+       • benchmarks/subscribe-write.ts
+       • benchmarks/simple-write.ts
+       • benchmarks/simple-read.ts
+       • src/vanilla/store.ts
+       • src/vanilla/internals.ts
+       • src/vanilla/atom.ts
+       • src/react/useAtomValue.ts
+       • src/react/useAtom.ts
+       • src/babel/plugin-react-refresh.ts
+       • src/babel/plugin-debug-label.ts
+     📄 Files WITHOUT TSAsExpression (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSStringKeyword:
+     📄 Files WITH TSStringKeyword (showing 10):
+       • src/types.d.ts
+       • src/vanilla/atom.ts
+       • src/babel/utils.ts
+       • tests/react/types.test.tsx
+       • tests/react/items.test.tsx
+       • tests/react/error.test.tsx
+       • tests/react/basic.test.tsx
+       • tests/react/async2.test.tsx
+       • tests/react/async.test.tsx
+       • tests/babel/preset.test.ts
+     📄 Files WITHOUT TSStringKeyword (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSTypeParameterDeclaration:
+     📄 Files WITH TSTypeParameterDeclaration (showing 10):
+       • src/vanilla/typeUtils.ts
+       • src/vanilla/internals.ts
+       • src/vanilla/atom.ts
+       • src/react/useSetAtom.ts
+       • src/react/useAtomValue.ts
+       • src/react/useAtom.ts
+       • tests/react/types.test.tsx
+       • tests/vanilla/effect.test.ts
+       • src/vanilla/utils/unwrap.ts
+       • src/vanilla/utils/splitAtom.ts
+     📄 Files WITHOUT TSTypeParameterDeclaration (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSTypeAliasDeclaration:
+     📄 Files WITH TSTypeAliasDeclaration (showing 10):
+       • src/vanilla/typeUtils.ts
+       • src/vanilla/store.ts
+       • src/vanilla/internals.ts
+       • src/vanilla/atom.ts
+       • src/react/useSetAtom.ts
+       • src/react/useAtomValue.ts
+       • src/react/useAtom.ts
+       • src/react/Provider.ts
+       • tests/react/items.test.tsx
+       • tests/react/basic.test.tsx
+     📄 Files WITHOUT TSTypeAliasDeclaration (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSUnknownKeyword:
+     📄 Files WITH TSUnknownKeyword (showing 10):
+       • src/vanilla/typeUtils.ts
+       • src/vanilla/store.ts
+       • src/vanilla/internals.ts
+       • src/vanilla/atom.ts
+       • src/react/useSetAtom.ts
+       • src/react/useAtomValue.ts
+       • src/react/useAtom.ts
+       • tests/vanilla/storedev.test.tsx
+       • tests/vanilla/memoryleaks.test.ts
+       • tests/vanilla/internals.test.tsx
+     📄 Files WITHOUT TSUnknownKeyword (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSArrayType:
+     📄 Files WITH TSArrayType (showing 10):
+       • src/vanilla/typeUtils.ts
+       • src/vanilla/internals.ts
+       • src/vanilla/atom.ts
+       • src/react/useSetAtom.ts
+       • src/react/useAtom.ts
+       • src/babel/utils.ts
+       • src/babel/preset.ts
+       • src/babel/plugin-debug-label.ts
+       • tests/react/transition.test.tsx
+       • tests/react/onmount.test.tsx
+     📄 Files WITHOUT TSArrayType (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSTypeLiteral:
+     📄 Files WITH TSTypeLiteral (showing 10):
+       • src/types.d.ts
+       • src/vanilla/store.ts
+       • src/vanilla/internals.ts
+       • src/vanilla/atom.ts
+       • src/react/useAtomValue.ts
+       • src/react/Provider.ts
+       • src/babel/preset.ts
+       • tests/react/useSetAtom.test.tsx
+       • tests/react/useAtomValue.test.tsx
+       • tests/react/transition.test.tsx
+     📄 Files WITHOUT TSTypeLiteral (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   LogicalExpression:
+     📄 Files WITH LogicalExpression (showing 10):
+       • rollup.config.mjs
+       • website/gatsby-config.js
+       • website/api/contact.js
+       • src/vanilla/internals.ts
+       • src/vanilla/atom.ts
+       • src/react/useSetAtom.ts
+       • src/react/useAtomValue.ts
+       • src/react/Provider.ts
+       • src/babel/utils.ts
+       • src/babel/plugin-react-refresh.ts
+     📄 Files WITHOUT LogicalExpression (showing 10):
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-browser.js
+       • src/vanilla.ts
+
+   ChainExpression:
+     📄 Files WITH ChainExpression (showing 10):
+       • website/gatsby-config.js
+       • src/vanilla/store.ts
+       • src/vanilla/internals.ts
+       • src/vanilla/atom.ts
+       • src/react/useSetAtom.ts
+       • src/react/useAtomValue.ts
+       • src/react/Provider.ts
+       • src/babel/plugin-react-refresh.ts
+       • src/babel/plugin-debug-label.ts
+       • tests/react/error.test.tsx
+     📄 Files WITHOUT ChainExpression (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-browser.js
+
+   TSTypeQuery:
+     📄 Files WITH TSTypeQuery (showing 10):
+       • src/vanilla/store.ts
+       • src/vanilla/internals.ts
+       • src/react/useSetAtom.ts
+       • src/react/useAtomValue.ts
+       • src/react/useAtom.ts
+       • src/react/Provider.ts
+       • src/babel/utils.ts
+       • src/babel/preset.ts
+       • src/babel/plugin-react-refresh.ts
+       • src/babel/plugin-debug-label.ts
+     📄 Files WITHOUT TSTypeQuery (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   ObjectPattern:
+     📄 Files WITH ObjectPattern (showing 10):
+       • rollup.config.mjs
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+       • src/react/useAtomValue.ts
+       • src/react/Provider.ts
+       • src/babel/utils.ts
+       • src/babel/plugin-react-refresh.ts
+       • src/babel/plugin-debug-label.ts
+       • tests/react/useSetAtom.test.tsx
+       • tests/react/transition.test.tsx
+     📄 Files WITHOUT ObjectPattern (showing 10):
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-browser.js
+       • src/vanilla.ts
+       • src/utils.ts
+
+   ImportDefaultSpecifier:
+     📄 Files WITH ImportDefaultSpecifier (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • src/react/useAtomValue.ts
+       • src/babel/preset.ts
+       • src/babel/plugin-react-refresh.ts
+       • src/babel/plugin-debug-label.ts
+       • examples/todos_with_atomFamily/vite.config.ts
+       • examples/text_length/vite.config.ts
+       • examples/todos/vite.config.ts
+       • examples/starter/vite.config.ts
+     📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+       • website/gatsby-browser.js
+       • src/vanilla.ts
+
+   FunctionDeclaration:
+     📄 Files WITH FunctionDeclaration (showing 10):
+       • rollup.config.mjs
+       • website/api/contact.js
+       • src/vanilla/store.ts
+       • src/vanilla/atom.ts
+       • src/react/useSetAtom.ts
+       • src/react/useAtomValue.ts
+       • src/react/useAtom.ts
+       • src/react/Provider.ts
+       • src/babel/utils.ts
+       • src/babel/preset.ts
+     📄 Files WITHOUT FunctionDeclaration (showing 10):
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+       • website/gatsby-browser.js
+
+   SpreadElement:
+     📄 Files WITH SpreadElement (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • website/tailwind.config.js
+       • benchmarks/subscribe-write.ts
+       • benchmarks/simple-write.ts
+       • benchmarks/simple-read.ts
+       • src/vanilla/store.ts
+       • src/vanilla/internals.ts
+       • src/react/useSetAtom.ts
+       • src/babel/utils.ts
+     📄 Files WITHOUT SpreadElement (showing 10):
+       • babel.config.mjs
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+       • website/gatsby-browser.js
+       • src/vanilla.ts
+       • src/utils.ts
+
+   TSUndefinedKeyword:
+     📄 Files WITH TSUndefinedKeyword (showing 10):
+       • benchmarks/subscribe-write.ts
+       • benchmarks/simple-write.ts
+       • benchmarks/simple-read.ts
+       • src/vanilla/store.ts
+       • src/vanilla/internals.ts
+       • src/vanilla/atom.ts
+       • src/react/useAtomValue.ts
+       • src/react/Provider.ts
+       • tests/react/dependency.test.tsx
+       • tests/react/async.test.tsx
+     📄 Files WITHOUT TSUndefinedKeyword (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSLiteralType:
+     📄 Files WITH TSLiteralType (showing 10):
+       • src/vanilla/typeUtils.ts
+       • src/vanilla/internals.ts
+       • src/react/useSetAtom.ts
+       • src/react/useAtomValue.ts
+       • src/react/useAtom.ts
+       • src/babel/utils.ts
+       • tests/react/items.test.tsx
+       • tests/react/error.test.tsx
+       • tests/vanilla/store.test.tsx
+       • tests/vanilla/effect.test.ts
+     📄 Files WITHOUT TSLiteralType (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSTupleType:
+     📄 Files WITH TSTupleType (showing 10):
+       • src/vanilla/store.ts
+       • src/vanilla/internals.ts
+       • src/vanilla/atom.ts
+       • src/react/useAtomValue.ts
+       • src/react/useAtom.ts
+       • tests/react/types.test.tsx
+       • tests/vanilla/types.test.tsx
+       • tests/vanilla/storedev.test.tsx
+       • tests/vanilla/store.test.tsx
+       • src/vanilla/utils/unwrap.ts
+     📄 Files WITHOUT TSTupleType (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   ConditionalExpression:
+     📄 Files WITH ConditionalExpression (showing 10):
+       • rollup.config.mjs
+       • babel.config.mjs
+       • website/gatsby-config.js
+       • src/vanilla/internals.ts
+       • src/vanilla/atom.ts
+       • tests/react/onmount.test.tsx
+       • tests/react/items.test.tsx
+       • tests/react/error.test.tsx
+       • tests/react/dependency.test.tsx
+       • tests/react/basic.test.tsx
+     📄 Files WITHOUT ConditionalExpression (showing 10):
+       • eslint.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-browser.js
+       • src/vanilla.ts
+       • src/utils.ts
+
+   ThrowStatement:
+     📄 Files WITH ThrowStatement (showing 10):
+       • benchmarks/subscribe-write.ts
+       • benchmarks/simple-write.ts
+       • benchmarks/simple-read.ts
+       • src/vanilla/internals.ts
+       • src/react/useSetAtom.ts
+       • src/react/useAtomValue.ts
+       • src/babel/plugin-react-refresh.ts
+       • tests/react/useAtomValue.test.tsx
+       • tests/react/error.test.tsx
+       • tests/react/basic.test.tsx
+     📄 Files WITHOUT ThrowStatement (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSParenthesizedType:
+     📄 Files WITH TSParenthesizedType (showing 10):
+       • src/vanilla/store.ts
+       • src/vanilla/internals.ts
+       • src/vanilla/atom.ts
+       • tests/react/types.test.tsx
+       • tests/react/dependency.test.tsx
+       • tests/react/basic.test.tsx
+       • tests/react/async2.test.tsx
+       • tests/react/async.test.tsx
+       • tests/react/abortable.test.tsx
+       • tests/vanilla/store.test.tsx
+     📄 Files WITHOUT TSParenthesizedType (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   UpdateExpression:
+     📄 Files WITH UpdateExpression (showing 10):
+       • benchmarks/subscribe-write.ts
+       • benchmarks/simple-write.ts
+       • benchmarks/simple-read.ts
+       • src/vanilla/store.ts
+       • src/vanilla/internals.ts
+       • src/vanilla/atom.ts
+       • tests/react/optimization.test.tsx
+       • tests/react/items.test.tsx
+       • tests/react/dependency.test.tsx
+       • tests/react/abortable.test.tsx
+     📄 Files WITHOUT UpdateExpression (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSBooleanKeyword:
+     📄 Files WITH TSBooleanKeyword (showing 10):
+       • src/vanilla/internals.ts
+       • src/vanilla/atom.ts
+       • src/react/useAtomValue.ts
+       • src/babel/utils.ts
+       • tests/react/types.test.tsx
+       • tests/react/transition.test.tsx
+       • tests/react/items.test.tsx
+       • tests/react/dependency.test.tsx
+       • tests/vanilla/store.test.tsx
+       • src/vanilla/utils/selectAtom.ts
+     📄 Files WITHOUT TSBooleanKeyword (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSNonNullExpression:
+     📄 Files WITH TSNonNullExpression (showing 10):
+       • src/vanilla/internals.ts
+       • src/react/useAtomValue.ts
+       • src/babel/plugin-debug-label.ts
+       • tests/react/async2.test.tsx
+       • tests/vanilla/store.test.tsx
+       • tests/vanilla/effect.test.ts
+       • src/vanilla/utils/splitAtom.ts
+       • src/vanilla/utils/atomFamily.ts
+       • examples/todos_with_atomFamily/src/index.tsx
+       • examples/text_length/src/index.tsx
+     📄 Files WITHOUT TSNonNullExpression (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSDeclareFunction:
+     📄 Files WITH TSDeclareFunction (showing 10):
+       • src/vanilla/atom.ts
+       • src/react/useSetAtom.ts
+       • src/react/useAtomValue.ts
+       • src/react/useAtom.ts
+       • src/vanilla/utils/unwrap.ts
+       • src/vanilla/utils/splitAtom.ts
+       • src/vanilla/utils/selectAtom.ts
+       • src/vanilla/utils/freezeAtom.ts
+       • src/vanilla/utils/atomWithStorage.ts
+       • src/vanilla/utils/atomWithRefresh.ts
+     📄 Files WITHOUT TSDeclareFunction (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   ExportSpecifier:
+     📄 Files WITH ExportSpecifier (showing 5):
+       • website/gatsby-browser.js
+       • src/vanilla.ts
+       • src/react.ts
+       • src/vanilla/utils.ts
+       • src/react/utils.ts
+     📄 Files WITHOUT ExportSpecifier (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TryStatement:
+     📄 Files WITH TryStatement (showing 10):
+       • website/api/contact.js
+       • src/vanilla/store.ts
+       • src/vanilla/internals.ts
+       • src/react/useAtomValue.ts
+       • tests/react/error.test.tsx
+       • tests/vanilla/storedev.test.tsx
+       • tests/vanilla/store.test.tsx
+       • tests/vanilla/effect.test.ts
+       • website/src/api/contact.js
+       • src/vanilla/utils/loadable.ts
+     📄 Files WITHOUT TryStatement (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   FunctionExpression:
+     📄 Files WITH FunctionExpression (showing 10):
+       • website/reach-router.js
+       • src/vanilla/internals.ts
+       • src/vanilla/atom.ts
+       • src/babel/plugin-react-refresh.ts
+       • src/babel/plugin-debug-label.ts
+       • tests/react/useAtomValue.test.tsx
+       • tests/react/error.test.tsx
+       • tests/vanilla/effect.test.ts
+       • src/vanilla/utils/freezeAtom.ts
+       • src/vanilla/utils/atomWithReducer.ts
+     📄 Files WITHOUT FunctionExpression (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+       • website/gatsby-browser.js
+
+   TSIndexedAccessType:
+     📄 Files WITH TSIndexedAccessType (showing 10):
+       • src/vanilla/typeUtils.ts
+       • src/vanilla/internals.ts
+       • src/react/useSetAtom.ts
+       • src/react/useAtomValue.ts
+       • src/react/useAtom.ts
+       • src/babel/utils.ts
+       • tests/react/basic.test.tsx
+       • tests/vanilla/store.test.tsx
+       • tests/vanilla/derive.test.tsx
+       • src/vanilla/utils/atomWithRefresh.ts
+     📄 Files WITHOUT TSIndexedAccessType (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   RestElement:
+     📄 Files WITH RestElement (showing 10):
+       • src/vanilla/store.ts
+       • src/vanilla/internals.ts
+       • src/vanilla/atom.ts
+       • src/react/useSetAtom.ts
+       • src/react/useAtom.ts
+       • tests/vanilla/storedev.test.tsx
+       • tests/vanilla/effect.test.ts
+       • src/vanilla/utils/unwrap.ts
+       • src/vanilla/utils/splitAtom.ts
+       • src/vanilla/utils/freezeAtom.ts
+     📄 Files WITHOUT RestElement (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSNeverKeyword:
+     📄 Files WITH TSNeverKeyword (showing 10):
+       • src/vanilla/typeUtils.ts
+       • src/vanilla/store.ts
+       • src/vanilla/internals.ts
+       • src/vanilla/atom.ts
+       • src/react/useSetAtom.ts
+       • src/react/useAtom.ts
+       • tests/react/types.test.tsx
+       • tests/react/async2.test.tsx
+       • tests/vanilla/storedev.test.tsx
+       • tests/vanilla/store.test.tsx
+     📄 Files WITHOUT TSNeverKeyword (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSNamedTupleMember:
+     📄 Files WITH TSNamedTupleMember (showing 1):
+       • src/vanilla/internals.ts
+     📄 Files WITHOUT TSNamedTupleMember (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSAnyKeyword:
+     📄 Files WITH TSAnyKeyword (showing 10):
+       • src/vanilla/store.ts
+       • src/vanilla/internals.ts
+       • src/react/useAtomValue.ts
+       • src/babel/plugin-react-refresh.ts
+       • src/babel/plugin-debug-label.ts
+       • tests/vanilla/storedev.test.tsx
+       • tests/vanilla/effect.test.ts
+       • src/vanilla/utils/unwrap.ts
+       • src/vanilla/utils/loadable.ts
+       • src/vanilla/utils/freezeAtom.ts
+     📄 Files WITHOUT TSAnyKeyword (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSMethodSignature:
+     📄 Files WITH TSMethodSignature (showing 4):
+       • src/vanilla/internals.ts
+       • src/vanilla/atom.ts
+       • src/vanilla/utils/atomWithObservable.ts
+       • src/vanilla/utils/atomFamily.ts
+     📄 Files WITHOUT TSMethodSignature (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   ThisExpression:
+     📄 Files WITH ThisExpression (showing 6):
+       • src/vanilla/atom.ts
+       • tests/react/useAtomValue.test.tsx
+       • tests/react/error.test.tsx
+       • src/vanilla/utils/freezeAtom.ts
+       • src/vanilla/utils/atomWithReducer.ts
+       • tests/react/vanilla-utils/atomWithObservable.test.tsx
+     📄 Files WITHOUT ThisExpression (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   CatchClause:
+     📄 Files WITH CatchClause (showing 9):
+       • website/api/contact.js
+       • src/vanilla/internals.ts
+       • src/react/useAtomValue.ts
+       • tests/react/error.test.tsx
+       • tests/vanilla/store.test.tsx
+       • website/src/api/contact.js
+       • src/vanilla/utils/loadable.ts
+       • src/vanilla/utils/atomWithStorage.ts
+       • tests/react/vanilla-utils/atomWithStorage.test.tsx
+     📄 Files WITHOUT CatchClause (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSObjectKeyword:
+     📄 Files WITH TSObjectKeyword (showing 7):
+       • src/vanilla/internals.ts
+       • tests/react/async2.test.tsx
+       • tests/vanilla/memoryleaks.test.ts
+       • src/vanilla/utils/unwrap.ts
+       • src/vanilla/utils/splitAtom.ts
+       • src/vanilla/utils/selectAtom.ts
+       • src/vanilla/utils/loadable.ts
+     📄 Files WITHOUT TSObjectKeyword (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSNullKeyword:
+     📄 Files WITH TSNullKeyword (showing 10):
+       • src/vanilla/store.ts
+       • tests/react/useAtomValue.test.tsx
+       • tests/react/types.test.tsx
+       • tests/react/dependency.test.tsx
+       • tests/react/async2.test.tsx
+       • tests/react/async.test.tsx
+       • tests/vanilla/types.test.tsx
+       • tests/vanilla/storedev.test.tsx
+       • tests/vanilla/store.test.tsx
+       • src/vanilla/utils/atomWithStorage.ts
+     📄 Files WITHOUT TSNullKeyword (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   ExportDefaultDeclaration:
+     📄 Files WITH ExportDefaultDeclaration (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/api/contact.js
+       • src/babel/preset.ts
+       • src/babel/plugin-react-refresh.ts
+       • src/babel/plugin-debug-label.ts
+       • examples/todos_with_atomFamily/vite.config.ts
+       • examples/text_length/vite.config.ts
+       • examples/todos/vite.config.ts
+     📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+       • website/gatsby-browser.js
+       • src/vanilla.ts
+       • src/utils.ts
+
+   MetaProperty:
+     📄 Files WITH MetaProperty (showing 10):
+       • src/vanilla/store.ts
+       • src/vanilla/internals.ts
+       • src/vanilla/atom.ts
+       • src/react/useSetAtom.ts
+       • src/vanilla/utils/unwrap.ts
+       • src/vanilla/utils/splitAtom.ts
+       • src/vanilla/utils/loadable.ts
+       • src/vanilla/utils/freezeAtom.ts
+       • src/vanilla/utils/constants.ts
+       • src/vanilla/utils/atomWithStorage.ts
+     📄 Files WITHOUT MetaProperty (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSIntersectionType:
+     📄 Files WITH TSIntersectionType (showing 10):
+       • src/vanilla/store.ts
+       • src/vanilla/internals.ts
+       • src/vanilla/atom.ts
+       • src/react/useAtomValue.ts
+       • tests/react/dependency.test.tsx
+       • tests/vanilla/storedev.test.tsx
+       • src/vanilla/utils/unwrap.ts
+       • src/vanilla/utils/splitAtom.ts
+       • src/vanilla/utils/selectAtom.ts
+       • src/vanilla/utils/atomWithReset.ts
+     📄 Files WITHOUT TSIntersectionType (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   AssignmentPattern:
+     📄 Files WITH AssignmentPattern (showing 8):
+       • rollup.config.mjs
+       • src/vanilla/internals.ts
+       • src/react/useAtomValue.ts
+       • src/babel/utils.ts
+       • src/vanilla/utils/unwrap.ts
+       • src/vanilla/utils/selectAtom.ts
+       • src/vanilla/utils/atomWithStorage.ts
+       • tests/react/utils/useHydrateAtoms.test.tsx
+     📄 Files WITHOUT AssignmentPattern (showing 10):
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+       • website/gatsby-browser.js
+
+   ForOfStatement:
+     📄 Files WITH ForOfStatement (showing 6):
+       • src/vanilla/store.ts
+       • src/vanilla/internals.ts
+       • tests/vanilla/storedev.test.tsx
+       • src/vanilla/utils/freezeAtom.ts
+       • src/vanilla/utils/atomFamily.ts
+       • src/react/utils/useHydrateAtoms.ts
+     📄 Files WITHOUT ForOfStatement (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSTypeOperator:
+     📄 Files WITH TSTypeOperator (showing 8):
+       • src/vanilla/store.ts
+       • src/vanilla/internals.ts
+       • src/react/useAtomValue.ts
+       • tests/react/types.test.tsx
+       • tests/vanilla/storedev.test.tsx
+       • src/vanilla/utils/selectAtom.ts
+       • src/vanilla/utils/constants.ts
+       • src/react/utils/useHydrateAtoms.ts
+     📄 Files WITHOUT TSTypeOperator (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   SwitchCase:
+     📄 Files WITH SwitchCase (showing 4):
+       • src/vanilla/utils/splitAtom.ts
+       • tests/react/vanilla-utils/atomWithReducer.test.tsx
+       • tests/react/utils/useResetAtom.test.tsx
+       • tests/react/utils/useReducerAtom.test.tsx
+     📄 Files WITHOUT SwitchCase (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSTypePredicate:
+     📄 Files WITH TSTypePredicate (showing 8):
+       • src/vanilla/internals.ts
+       • src/react/useAtomValue.ts
+       • src/vanilla/utils/unwrap.ts
+       • src/vanilla/utils/splitAtom.ts
+       • src/vanilla/utils/loadable.ts
+       • src/vanilla/utils/atomWithStorage.ts
+       • src/vanilla/utils/atomWithObservable.ts
+       • tests/react/vanilla-utils/atomWithStorage.test.tsx
+     📄 Files WITHOUT TSTypePredicate (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   MethodDefinition:
+     📄 Files WITH MethodDefinition (showing 3):
+       • tests/react/useAtomValue.test.tsx
+       • tests/react/error.test.tsx
+       • tests/react/vanilla-utils/atomWithObservable.test.tsx
+     📄 Files WITHOUT MethodDefinition (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   JSXMemberExpression:
+     📄 Files WITH JSXMemberExpression (showing 3):
+       • examples/todos_with_atomFamily/src/App.tsx
+       • examples/todos/src/App.tsx
+       • examples/hacker_news/src/App.tsx
+     📄 Files WITHOUT JSXMemberExpression (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSInterfaceDeclaration:
+     📄 Files WITH TSInterfaceDeclaration (showing 5):
+       • src/types.d.ts
+       • src/vanilla/atom.ts
+       • src/babel/utils.ts
+       • src/vanilla/utils/atomWithStorage.ts
+       • src/vanilla/utils/atomFamily.ts
+     📄 Files WITHOUT TSInterfaceDeclaration (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSInterfaceBody:
+     📄 Files WITH TSInterfaceBody (showing 5):
+       • src/types.d.ts
+       • src/vanilla/atom.ts
+       • src/babel/utils.ts
+       • src/vanilla/utils/atomWithStorage.ts
+       • src/vanilla/utils/atomFamily.ts
+     📄 Files WITHOUT TSInterfaceBody (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSInferType:
+     📄 Files WITH TSInferType (showing 3):
+       • src/vanilla/typeUtils.ts
+       • src/vanilla/internals.ts
+       • src/react/utils/useHydrateAtoms.ts
+     📄 Files WITHOUT TSInferType (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSQualifiedName:
+     📄 Files WITH TSQualifiedName (showing 4):
+       • src/babel/utils.ts
+       • src/babel/preset.ts
+       • src/babel/plugin-react-refresh.ts
+       • src/babel/plugin-debug-label.ts
+     📄 Files WITHOUT TSQualifiedName (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   EmptyStatement:
+     📄 Files WITH EmptyStatement (showing 3):
+       • src/vanilla/store.ts
+       • tests/react/vanilla-utils/atomWithStorage.test.tsx
+       • tests/react/vanilla-utils/atomWithObservable.test.tsx
+     📄 Files WITHOUT EmptyStatement (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSConditionalType:
+     📄 Files WITH TSConditionalType (showing 3):
+       • src/vanilla/typeUtils.ts
+       • src/vanilla/internals.ts
+       • src/react/utils/useHydrateAtoms.ts
+     📄 Files WITHOUT TSConditionalType (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   BreakStatement:
+     📄 Files WITH BreakStatement (showing 3):
+       • src/vanilla/internals.ts
+       • src/vanilla/utils/splitAtom.ts
+       • src/vanilla/utils/atomFamily.ts
+     📄 Files WITHOUT BreakStatement (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   SwitchStatement:
+     📄 Files WITH SwitchStatement (showing 4):
+       • src/vanilla/utils/splitAtom.ts
+       • tests/react/vanilla-utils/atomWithReducer.test.tsx
+       • tests/react/utils/useResetAtom.test.tsx
+       • tests/react/utils/useReducerAtom.test.tsx
+     📄 Files WITHOUT SwitchStatement (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSCallSignatureDeclaration:
+     📄 Files WITH TSCallSignatureDeclaration (showing 3):
+       • src/vanilla/internals.ts
+       • src/vanilla/utils/atomWithStorage.ts
+       • src/vanilla/utils/atomFamily.ts
+     📄 Files WITHOUT TSCallSignatureDeclaration (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   ExportAllDeclaration:
+     📄 Files WITH ExportAllDeclaration (showing 2):
+       • src/utils.ts
+       • src/index.ts
+     📄 Files WITHOUT ExportAllDeclaration (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   ForStatement:
+     📄 Files WITH ForStatement (showing 4):
+       • benchmarks/subscribe-write.ts
+       • benchmarks/simple-write.ts
+       • benchmarks/simple-read.ts
+       • src/vanilla/internals.ts
+     📄 Files WITHOUT ForStatement (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   ClassDeclaration:
+     📄 Files WITH ClassDeclaration (showing 3):
+       • tests/react/useAtomValue.test.tsx
+       • tests/react/error.test.tsx
+       • tests/react/vanilla-utils/atomWithObservable.test.tsx
+     📄 Files WITHOUT ClassDeclaration (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   ClassBody:
+     📄 Files WITH ClassBody (showing 3):
+       • tests/react/useAtomValue.test.tsx
+       • tests/react/error.test.tsx
+       • tests/react/vanilla-utils/atomWithObservable.test.tsx
+     📄 Files WITHOUT ClassBody (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   Hashbang:
+     📄 Files WITH Hashbang (showing 3):
+       • benchmarks/subscribe-write.ts
+       • benchmarks/simple-write.ts
+       • benchmarks/simple-read.ts
+     📄 Files WITHOUT Hashbang (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   Super:
+     📄 Files WITH Super (showing 3):
+       • tests/react/useAtomValue.test.tsx
+       • tests/react/error.test.tsx
+       • tests/react/vanilla-utils/atomWithObservable.test.tsx
+     📄 Files WITHOUT Super (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   ImportNamespaceSpecifier:
+     📄 Files WITH ImportNamespaceSpecifier (showing 2):
+       • website/api/contact.js
+       • website/src/api/contact.js
+     📄 Files WITHOUT ImportNamespaceSpecifier (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSMappedType:
+     📄 Files WITH TSMappedType (showing 2):
+       • src/vanilla/internals.ts
+       • src/react/utils/useHydrateAtoms.ts
+     📄 Files WITHOUT TSMappedType (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSSymbolKeyword:
+     📄 Files WITH TSSymbolKeyword (showing 2):
+       • src/vanilla/internals.ts
+       • src/vanilla/utils/constants.ts
+     📄 Files WITHOUT TSSymbolKeyword (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   DoWhileStatement:
+     📄 Files WITH DoWhileStatement (showing 2):
+       • src/vanilla/internals.ts
+       • tests/vanilla/effect.test.ts
+     📄 Files WITHOUT DoWhileStatement (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   WhileStatement:
+     📄 Files WITH WhileStatement (showing 1):
+       • src/vanilla/internals.ts
+     📄 Files WITHOUT WhileStatement (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   ContinueStatement:
+     📄 Files WITH ContinueStatement (showing 1):
+       • src/vanilla/internals.ts
+     📄 Files WITHOUT ContinueStatement (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSInterfaceHeritage:
+     📄 Files WITH TSInterfaceHeritage (showing 1):
+       • src/vanilla/atom.ts
+     📄 Files WITHOUT TSInterfaceHeritage (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSRestType:
+     📄 Files WITH TSRestType (showing 1):
+       • tests/vanilla/store.test.tsx
+     📄 Files WITHOUT TSRestType (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   TSOptionalType:
+     📄 Files WITH TSOptionalType (showing 1):
+       • src/vanilla/utils/atomWithReducer.ts
+     📄 Files WITHOUT TSOptionalType (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   JSXSpreadAttribute:
+     📄 Files WITH JSXSpreadAttribute (showing 1):
+       • examples/todos/src/App.tsx
+     📄 Files WITHOUT JSXSpreadAttribute (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
+
+   PropertyDefinition:
+     📄 Files WITH PropertyDefinition (showing 1):
+       • tests/react/vanilla-utils/atomWithObservable.test.tsx
+     📄 Files WITHOUT PropertyDefinition (showing 10):
+       • rollup.config.mjs
+       • eslint.config.mjs
+       • babel.config.mjs
+       • website/tailwind.config.js
+       • website/reach-router.js
+       • website/postcss.config.js
+       • website/gatsby-ssr.js
+       • website/gatsby-shared.js
+       • website/gatsby-node.js
+       • website/gatsby-config.js
 
 ============================================================
 ✅ Analysis complete!

@@ -1,11 +1,12 @@
 AST Analysis Report for alpine
-Generated on: 2025-07-13T03:17:03.637Z
+Generated on: 2025-07-14T01:41:46.676Z
 Repository: sample-repos/alpine
 ================================================================================
 
 🔍 Analyzing JavaScript/TypeScript files in: /Users/camchenry/workspace/ast-analysis/sample-repos/alpine
 
-📁 Found 118 files to analyze...
+📁 Found 186 files to analyze...
+
 
 
 ============================================================
@@ -13,137 +14,1422 @@ Repository: sample-repos/alpine
 ============================================================
 
 📁 FILE STATISTICS:
-   Total files found: 118
-   Successfully parsed: 118
+   Total files found: 186
+   Successfully parsed: 186
    Failed to parse: 0
-   Total file size: 272.6 KB
+   Total file size: 734.1 KB
 
 🌳 NODE STATISTICS:
-   Total nodes: 35,761
-   Average nodes per file: 303
-   Average file size: 2.3 KB
+   Total nodes: 78,425
+   Average nodes per file: 422
+   Average file size: 3.9 KB
 
 📋 ALL NODE TYPES (BY FILE PRESENCE):
-   Program                         118 files (100.0%) -      118 total (0.33%)
-   Identifier                      116 files ( 98.3%) -   13,439 total (37.58%)
-   Literal                         115 files ( 97.5%) -    2,323 total (6.50%)
-   ExpressionStatement             101 files ( 85.6%) -    1,723 total (4.82%)
-   CallExpression                   99 files ( 83.9%) -    2,695 total (7.54%)
-   BlockStatement                   92 files ( 78.0%) -    1,547 total (4.33%)
-   MemberExpression                 91 files ( 77.1%) -    3,883 total (10.86%)
-   ArrowFunctionExpression          90 files ( 76.3%) -      651 total (1.82%)
-   ImportDeclaration                83 files ( 70.3%) -      240 total (0.67%)
-   VariableDeclaration              70 files ( 59.3%) -      727 total (2.03%)
-   VariableDeclarator               70 files ( 59.3%) -      746 total (2.09%)
-   AssignmentExpression             70 files ( 59.3%) -      590 total (1.65%)
-   FunctionDeclaration              65 files ( 55.1%) -      301 total (0.84%)
-   ReturnStatement                  62 files ( 52.5%) -      700 total (1.96%)
-   Property                         60 files ( 50.8%) -    1,008 total (2.82%)
-   IfStatement                      59 files ( 50.0%) -      654 total (1.83%)
-   UnaryExpression                  57 files ( 48.3%) -      362 total (1.01%)
-   ObjectExpression                 56 files ( 47.5%) -      260 total (0.73%)
-   ImportSpecifier                  54 files ( 45.8%) -      258 total (0.72%)
-   BinaryExpression                 50 files ( 42.4%) -      513 total (1.43%)
-   ExportNamedDeclaration           49 files ( 41.5%) -      133 total (0.37%)
-   LogicalExpression                46 files ( 39.0%) -      325 total (0.91%)
-   ArrayExpression                  40 files ( 33.9%) -      139 total (0.39%)
-   ObjectPattern                    39 files ( 33.1%) -       85 total (0.24%)
-   ExportDefaultDeclaration         38 files ( 32.2%) -       38 total (0.11%)
-   ConditionalExpression            37 files ( 31.4%) -      102 total (0.29%)
-   ImportDefaultSpecifier           37 files ( 31.4%) -       46 total (0.13%)
-   Unknown                          35 files ( 29.7%) -      234 total (0.65%)
-   TemplateLiteral                  31 files ( 26.3%) -       76 total (0.21%)
-   TemplateElement                  31 files ( 26.3%) -      176 total (0.49%)
-   FunctionExpression               29 files ( 24.6%) -      440 total (1.23%)
-   AssignmentPattern                23 files ( 19.5%) -       66 total (0.18%)
-   NewExpression                    21 files ( 17.8%) -       35 total (0.10%)
-   ParenthesizedExpression          19 files ( 16.1%) -       44 total (0.12%)
-   ThisExpression                   19 files ( 16.1%) -      812 total (2.27%)
-   SpreadElement                    16 files ( 13.6%) -       26 total (0.07%)
-   ExportSpecifier                  16 files ( 13.6%) -       22 total (0.06%)
-   UpdateExpression                 12 files ( 10.2%) -       32 total (0.09%)
-   ArrayPattern                     12 files ( 10.2%) -       21 total (0.06%)
-   WhileStatement                   11 files (  9.3%) -       22 total (0.06%)
-   ForStatement                     10 files (  8.5%) -       23 total (0.06%)
-   RestElement                       8 files (  6.8%) -       10 total (0.03%)
-   BreakStatement                    7 files (  5.9%) -       23 total (0.06%)
-   ThrowStatement                    6 files (  5.1%) -        7 total (0.02%)
-   ContinueStatement                 5 files (  4.2%) -       17 total (0.05%)
-   ChainExpression                   4 files (  3.4%) -        7 total (0.02%)
-   AwaitExpression                   3 files (  2.5%) -       24 total (0.07%)
-   ForOfStatement                    3 files (  2.5%) -        4 total (0.01%)
-   TryStatement                      3 files (  2.5%) -        3 total (0.01%)
-   CatchClause                       3 files (  2.5%) -        3 total (0.01%)
-   SwitchStatement                   2 files (  1.7%) -        2 total (0.01%)
-   SwitchCase                        2 files (  1.7%) -       13 total (0.04%)
-   ForInStatement                    1 files (  0.8%) -        2 total (0.01%)
-   SequenceExpression                1 files (  0.8%) -        1 total (0.00%)
-   ClassDeclaration                  1 files (  0.8%) -        1 total (0.00%)
-   ClassBody                         1 files (  0.8%) -        1 total (0.00%)
-   MethodDefinition                  1 files (  0.8%) -        6 total (0.02%)
-   TaggedTemplateExpression          1 files (  0.8%) -        1 total (0.00%)
-   EmptyStatement                    1 files (  0.8%) -        1 total (0.00%)
+   Program                         186 files (100.0%) -      186 total (0.24%)
+   Identifier                      183 files ( 98.4%) -   26,480 total (33.76%)
+   Literal                         181 files ( 97.3%) -    8,760 total (11.17%)
+   ExpressionStatement             168 files ( 90.3%) -    5,267 total (6.72%)
+   CallExpression                  165 files ( 88.7%) -   11,957 total (15.25%)
+   MemberExpression                157 files ( 84.4%) -    7,765 total (9.90%)
+   ArrowFunctionExpression         155 files ( 83.3%) -    1,317 total (1.68%)
+   BlockStatement                  153 files ( 82.3%) -    2,148 total (2.74%)
+   ImportDeclaration               142 files ( 76.3%) -      300 total (0.38%)
+   Property                        124 files ( 66.7%) -    1,701 total (2.17%)
+   ImportSpecifier                 112 files ( 60.2%) -      575 total (0.73%)
+   ObjectPattern                   101 files ( 54.3%) -      585 total (0.75%)
+   Unknown                          96 files ( 51.6%) -      841 total (1.07%)
+   TemplateLiteral                  92 files ( 49.5%) -      671 total (0.86%)
+   TemplateElement                  92 files ( 49.5%) -      783 total (1.00%)
+   VariableDeclaration              83 files ( 44.6%) -      862 total (1.10%)
+   VariableDeclarator               83 files ( 44.6%) -      889 total (1.13%)
+   AssignmentExpression             77 files ( 41.4%) -      648 total (0.83%)
+   ArrayExpression                  77 files ( 41.4%) -      574 total (0.73%)
+   FunctionDeclaration              70 files ( 37.6%) -      312 total (0.40%)
+   ObjectExpression                 68 files ( 36.6%) -      375 total (0.48%)
+   ReturnStatement                  68 files ( 36.6%) -      731 total (0.93%)
+   IfStatement                      64 files ( 34.4%) -      687 total (0.88%)
+   UnaryExpression                  61 files ( 32.8%) -      372 total (0.47%)
+   TaggedTemplateExpression         59 files ( 31.7%) -      531 total (0.68%)
+   BinaryExpression                 57 files ( 30.6%) -      560 total (0.71%)
+   ExportNamedDeclaration           51 files ( 27.4%) -      164 total (0.21%)
+   LogicalExpression                49 files ( 26.3%) -      338 total (0.43%)
+   ConditionalExpression            39 files ( 21.0%) -      104 total (0.13%)
+   ExportDefaultDeclaration         38 files ( 20.4%) -       38 total (0.05%)
+   ImportDefaultSpecifier           37 files ( 19.9%) -       46 total (0.06%)
+   FunctionExpression               35 files ( 18.8%) -      478 total (0.61%)
+   AssignmentPattern                25 files ( 13.4%) -       78 total (0.10%)
+   NewExpression                    23 files ( 12.4%) -       37 total (0.05%)
+   ParenthesizedExpression          21 files ( 11.3%) -       47 total (0.06%)
+   ThisExpression                   20 files ( 10.8%) -      858 total (1.09%)
+   ArrayPattern                     18 files (  9.7%) -       53 total (0.07%)
+   SpreadElement                    17 files (  9.1%) -       47 total (0.06%)
+   ExportSpecifier                  16 files (  8.6%) -       22 total (0.03%)
+   UpdateExpression                 13 files (  7.0%) -       33 total (0.04%)
+   WhileStatement                   12 files (  6.5%) -       31 total (0.04%)
+   ForStatement                     10 files (  5.4%) -       23 total (0.03%)
+   RestElement                      10 files (  5.4%) -       12 total (0.02%)
+   ThrowStatement                    7 files (  3.8%) -        8 total (0.01%)
+   BreakStatement                    7 files (  3.8%) -       23 total (0.03%)
+   AwaitExpression                   6 files (  3.2%) -       46 total (0.06%)
+   ContinueStatement                 5 files (  2.7%) -       17 total (0.02%)
+   ChainExpression                   4 files (  2.2%) -        7 total (0.01%)
+   ForOfStatement                    3 files (  1.6%) -        4 total (0.01%)
+   TryStatement                      3 files (  1.6%) -        3 total (0.00%)
+   CatchClause                       3 files (  1.6%) -        3 total (0.00%)
+   ForInStatement                    2 files (  1.1%) -        3 total (0.00%)
+   SwitchStatement                   2 files (  1.1%) -        2 total (0.00%)
+   SwitchCase                        2 files (  1.1%) -       13 total (0.02%)
+   SequenceExpression                1 files (  0.5%) -        1 total (0.00%)
+   ClassDeclaration                  1 files (  0.5%) -        1 total (0.00%)
+   ClassBody                         1 files (  0.5%) -        1 total (0.00%)
+   MethodDefinition                  1 files (  0.5%) -        6 total (0.01%)
+   EmptyStatement                    1 files (  0.5%) -        1 total (0.00%)
 
 📝 ALL NODE TYPES (BY TOTAL COUNT):
-   Identifier                       13,439 (37.58%) in 116 files (98.3%)
-   MemberExpression                  3,883 (10.86%) in 91 files (77.1%)
-   CallExpression                    2,695 (7.54%) in 99 files (83.9%)
-   Literal                           2,323 (6.50%) in 115 files (97.5%)
-   ExpressionStatement               1,723 (4.82%) in 101 files (85.6%)
-   BlockStatement                    1,547 (4.33%) in 92 files (78.0%)
-   Property                          1,008 (2.82%) in 60 files (50.8%)
-   ThisExpression                      812 (2.27%) in 19 files (16.1%)
-   VariableDeclarator                  746 (2.09%) in 70 files (59.3%)
-   VariableDeclaration                 727 (2.03%) in 70 files (59.3%)
-   ReturnStatement                     700 (1.96%) in 62 files (52.5%)
-   IfStatement                         654 (1.83%) in 59 files (50.0%)
-   ArrowFunctionExpression             651 (1.82%) in 90 files (76.3%)
-   AssignmentExpression                590 (1.65%) in 70 files (59.3%)
-   BinaryExpression                    513 (1.43%) in 50 files (42.4%)
-   FunctionExpression                  440 (1.23%) in 29 files (24.6%)
-   UnaryExpression                     362 (1.01%) in 57 files (48.3%)
-   LogicalExpression                   325 (0.91%) in 46 files (39.0%)
-   FunctionDeclaration                 301 (0.84%) in 65 files (55.1%)
-   ObjectExpression                    260 (0.73%) in 56 files (47.5%)
-   ImportSpecifier                     258 (0.72%) in 54 files (45.8%)
-   ImportDeclaration                   240 (0.67%) in 83 files (70.3%)
-   Unknown                             234 (0.65%) in 35 files (29.7%)
-   TemplateElement                     176 (0.49%) in 31 files (26.3%)
-   ArrayExpression                     139 (0.39%) in 40 files (33.9%)
-   ExportNamedDeclaration              133 (0.37%) in 49 files (41.5%)
-   Program                             118 (0.33%) in 118 files (100.0%)
-   ConditionalExpression               102 (0.29%) in 37 files (31.4%)
-   ObjectPattern                        85 (0.24%) in 39 files (33.1%)
-   TemplateLiteral                      76 (0.21%) in 31 files (26.3%)
-   AssignmentPattern                    66 (0.18%) in 23 files (19.5%)
-   ImportDefaultSpecifier               46 (0.13%) in 37 files (31.4%)
-   ParenthesizedExpression              44 (0.12%) in 19 files (16.1%)
-   ExportDefaultDeclaration             38 (0.11%) in 38 files (32.2%)
-   NewExpression                        35 (0.10%) in 21 files (17.8%)
-   UpdateExpression                     32 (0.09%) in 12 files (10.2%)
-   SpreadElement                        26 (0.07%) in 16 files (13.6%)
-   AwaitExpression                      24 (0.07%) in 3 files (2.5%)
-   ForStatement                         23 (0.06%) in 10 files (8.5%)
-   BreakStatement                       23 (0.06%) in 7 files (5.9%)
-   WhileStatement                       22 (0.06%) in 11 files (9.3%)
-   ExportSpecifier                      22 (0.06%) in 16 files (13.6%)
-   ArrayPattern                         21 (0.06%) in 12 files (10.2%)
-   ContinueStatement                    17 (0.05%) in 5 files (4.2%)
-   SwitchCase                           13 (0.04%) in 2 files (1.7%)
-   RestElement                          10 (0.03%) in 8 files (6.8%)
-   ThrowStatement                        7 (0.02%) in 6 files (5.1%)
-   ChainExpression                       7 (0.02%) in 4 files (3.4%)
-   MethodDefinition                      6 (0.02%) in 1 files (0.8%)
-   ForOfStatement                        4 (0.01%) in 3 files (2.5%)
-   TryStatement                          3 (0.01%) in 3 files (2.5%)
-   CatchClause                           3 (0.01%) in 3 files (2.5%)
-   ForInStatement                        2 (0.01%) in 1 files (0.8%)
-   SwitchStatement                       2 (0.01%) in 2 files (1.7%)
-   SequenceExpression                    1 (0.00%) in 1 files (0.8%)
-   ClassDeclaration                      1 (0.00%) in 1 files (0.8%)
-   ClassBody                             1 (0.00%) in 1 files (0.8%)
-   TaggedTemplateExpression              1 (0.00%) in 1 files (0.8%)
-   EmptyStatement                        1 (0.00%) in 1 files (0.8%)
+   Identifier                       26,480 (33.76%) in 183 files (98.4%)
+   CallExpression                   11,957 (15.25%) in 165 files (88.7%)
+   Literal                           8,760 (11.17%) in 181 files (97.3%)
+   MemberExpression                  7,765 (9.90%) in 157 files (84.4%)
+   ExpressionStatement               5,267 (6.72%) in 168 files (90.3%)
+   BlockStatement                    2,148 (2.74%) in 153 files (82.3%)
+   Property                          1,701 (2.17%) in 124 files (66.7%)
+   ArrowFunctionExpression           1,317 (1.68%) in 155 files (83.3%)
+   VariableDeclarator                  889 (1.13%) in 83 files (44.6%)
+   VariableDeclaration                 862 (1.10%) in 83 files (44.6%)
+   ThisExpression                      858 (1.09%) in 20 files (10.8%)
+   Unknown                             841 (1.07%) in 96 files (51.6%)
+   TemplateElement                     783 (1.00%) in 92 files (49.5%)
+   ReturnStatement                     731 (0.93%) in 68 files (36.6%)
+   IfStatement                         687 (0.88%) in 64 files (34.4%)
+   TemplateLiteral                     671 (0.86%) in 92 files (49.5%)
+   AssignmentExpression                648 (0.83%) in 77 files (41.4%)
+   ObjectPattern                       585 (0.75%) in 101 files (54.3%)
+   ImportSpecifier                     575 (0.73%) in 112 files (60.2%)
+   ArrayExpression                     574 (0.73%) in 77 files (41.4%)
+   BinaryExpression                    560 (0.71%) in 57 files (30.6%)
+   TaggedTemplateExpression            531 (0.68%) in 59 files (31.7%)
+   FunctionExpression                  478 (0.61%) in 35 files (18.8%)
+   ObjectExpression                    375 (0.48%) in 68 files (36.6%)
+   UnaryExpression                     372 (0.47%) in 61 files (32.8%)
+   LogicalExpression                   338 (0.43%) in 49 files (26.3%)
+   FunctionDeclaration                 312 (0.40%) in 70 files (37.6%)
+   ImportDeclaration                   300 (0.38%) in 142 files (76.3%)
+   Program                             186 (0.24%) in 186 files (100.0%)
+   ExportNamedDeclaration              164 (0.21%) in 51 files (27.4%)
+   ConditionalExpression               104 (0.13%) in 39 files (21.0%)
+   AssignmentPattern                    78 (0.10%) in 25 files (13.4%)
+   ArrayPattern                         53 (0.07%) in 18 files (9.7%)
+   ParenthesizedExpression              47 (0.06%) in 21 files (11.3%)
+   SpreadElement                        47 (0.06%) in 17 files (9.1%)
+   AwaitExpression                      46 (0.06%) in 6 files (3.2%)
+   ImportDefaultSpecifier               46 (0.06%) in 37 files (19.9%)
+   ExportDefaultDeclaration             38 (0.05%) in 38 files (20.4%)
+   NewExpression                        37 (0.05%) in 23 files (12.4%)
+   UpdateExpression                     33 (0.04%) in 13 files (7.0%)
+   WhileStatement                       31 (0.04%) in 12 files (6.5%)
+   ForStatement                         23 (0.03%) in 10 files (5.4%)
+   BreakStatement                       23 (0.03%) in 7 files (3.8%)
+   ExportSpecifier                      22 (0.03%) in 16 files (8.6%)
+   ContinueStatement                    17 (0.02%) in 5 files (2.7%)
+   SwitchCase                           13 (0.02%) in 2 files (1.1%)
+   RestElement                          12 (0.02%) in 10 files (5.4%)
+   ThrowStatement                        8 (0.01%) in 7 files (3.8%)
+   ChainExpression                       7 (0.01%) in 4 files (2.2%)
+   MethodDefinition                      6 (0.01%) in 1 files (0.5%)
+   ForOfStatement                        4 (0.01%) in 3 files (1.6%)
+   ForInStatement                        3 (0.00%) in 2 files (1.1%)
+   TryStatement                          3 (0.00%) in 3 files (1.6%)
+   CatchClause                           3 (0.00%) in 3 files (1.6%)
+   SwitchStatement                       2 (0.00%) in 2 files (1.1%)
+   SequenceExpression                    1 (0.00%) in 1 files (0.5%)
+   ClassDeclaration                      1 (0.00%) in 1 files (0.5%)
+   ClassBody                             1 (0.00%) in 1 files (0.5%)
+   EmptyStatement                        1 (0.00%) in 1 files (0.5%)
+
+📁 FILE EXAMPLES BY NODE TYPE:
+
+   Identifier:
+     📄 Files WITH Identifier (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+     📄 Files WITHOUT Identifier (showing 3):
+       • packages/navigate/src/index.js
+       • packages/history/src/index.js
+       • tests/cypress/support/commands.js
+
+   CallExpression:
+     📄 Files WITH CallExpression (showing 10):
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+       • packages/ui/src/menu.js
+     📄 Files WITHOUT CallExpression (showing 10):
+       • jest.config.js
+       • packages/ui/builds/module.js
+       • packages/sort/builds/module.js
+       • packages/resize/builds/module.js
+       • packages/persist/builds/module.js
+       • packages/navigate/src/index.js
+       • packages/navigate/builds/module.js
+       • packages/morph/src/index.js
+       • packages/morph/builds/module.js
+       • packages/mask/builds/module.js
+
+   Literal:
+     📄 Files WITH Literal (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+     📄 Files WITHOUT Literal (showing 5):
+       • packages/navigate/src/index.js
+       • packages/history/src/index.js
+       • tests/cypress/support/commands.js
+       • tests/cypress/plugins/index.js
+       • packages/alpinejs/src/utils/warn.js
+
+   MemberExpression:
+     📄 Files WITH MemberExpression (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+     📄 Files WITHOUT MemberExpression (showing 10):
+       • packages/ui/src/index.js
+       • packages/ui/builds/module.js
+       • packages/sort/builds/module.js
+       • packages/resize/builds/module.js
+       • packages/persist/builds/module.js
+       • packages/navigate/src/index.js
+       • packages/navigate/builds/module.js
+       • packages/morph/builds/module.js
+       • packages/mask/builds/module.js
+       • packages/intersect/builds/module.js
+
+   ExpressionStatement:
+     📄 Files WITH ExpressionStatement (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+     📄 Files WITHOUT ExpressionStatement (showing 10):
+       • packages/ui/builds/module.js
+       • packages/sort/builds/module.js
+       • packages/resize/builds/module.js
+       • packages/persist/builds/module.js
+       • packages/navigate/src/index.js
+       • packages/navigate/builds/module.js
+       • packages/morph/builds/module.js
+       • packages/mask/builds/module.js
+       • packages/intersect/builds/module.js
+       • packages/history/src/index.js
+
+   BlockStatement:
+     📄 Files WITH BlockStatement (showing 10):
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+       • packages/ui/src/menu.js
+     📄 Files WITHOUT BlockStatement (showing 10):
+       • jest.config.js
+       • packages/ui/builds/module.js
+       • packages/sort/builds/module.js
+       • packages/resize/builds/module.js
+       • packages/persist/builds/module.js
+       • packages/navigate/src/index.js
+       • packages/navigate/builds/module.js
+       • packages/morph/builds/module.js
+       • packages/mask/builds/module.js
+       • packages/intersect/builds/module.js
+
+   Property:
+     📄 Files WITH Property (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+     📄 Files WITHOUT Property (showing 10):
+       • packages/ui/src/index.js
+       • packages/ui/builds/module.js
+       • packages/ui/builds/cdn.js
+       • packages/sort/builds/module.js
+       • packages/sort/builds/cdn.js
+       • packages/resize/builds/module.js
+       • packages/resize/builds/cdn.js
+       • packages/persist/builds/module.js
+       • packages/persist/builds/cdn.js
+       • packages/navigate/src/index.js
+
+   ArrowFunctionExpression:
+     📄 Files WITH ArrowFunctionExpression (showing 10):
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+       • packages/ui/src/menu.js
+     📄 Files WITHOUT ArrowFunctionExpression (showing 10):
+       • jest.config.js
+       • packages/ui/src/index.js
+       • packages/ui/builds/module.js
+       • packages/sort/builds/module.js
+       • packages/resize/builds/module.js
+       • packages/persist/builds/module.js
+       • packages/navigate/src/index.js
+       • packages/navigate/builds/module.js
+       • packages/morph/src/index.js
+       • packages/morph/builds/module.js
+
+   VariableDeclarator:
+     📄 Files WITH VariableDeclarator (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+     📄 Files WITHOUT VariableDeclarator (showing 10):
+       • packages/ui/src/index.js
+       • packages/ui/builds/module.js
+       • packages/ui/builds/cdn.js
+       • packages/sort/builds/module.js
+       • packages/sort/builds/cdn.js
+       • packages/resize/builds/module.js
+       • packages/resize/builds/cdn.js
+       • packages/persist/builds/module.js
+       • packages/persist/builds/cdn.js
+       • packages/navigate/src/index.js
+
+   VariableDeclaration:
+     📄 Files WITH VariableDeclaration (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+     📄 Files WITHOUT VariableDeclaration (showing 10):
+       • packages/ui/src/index.js
+       • packages/ui/builds/module.js
+       • packages/ui/builds/cdn.js
+       • packages/sort/builds/module.js
+       • packages/sort/builds/cdn.js
+       • packages/resize/builds/module.js
+       • packages/resize/builds/cdn.js
+       • packages/persist/builds/module.js
+       • packages/persist/builds/cdn.js
+       • packages/navigate/src/index.js
+
+   ThisExpression:
+     📄 Files WITH ThisExpression (showing 10):
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+       • packages/ui/src/menu.js
+       • packages/ui/src/listbox.js
+       • packages/ui/src/list-context.js
+       • packages/ui/src/disclosure.js
+       • packages/ui/src/dialog.js
+       • packages/ui/src/combobox.js
+     📄 Files WITHOUT ThisExpression (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/index.js
+       • packages/ui/builds/module.js
+       • packages/ui/builds/cdn.js
+       • packages/sort/src/index.js
+
+   Unknown:
+     📄 Files WITH Unknown (showing 10):
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • packages/ui/src/list-context.js
+       • packages/persist/src/index.js
+       • packages/morph/src/old_morph.js
+       • packages/morph/src/morph.js
+       • packages/mask/src/index.js
+       • packages/intersect/src/index.js
+     📄 Files WITHOUT Unknown (showing 10):
+       • jest.config.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+       • packages/ui/src/menu.js
+       • packages/ui/src/listbox.js
+       • packages/ui/src/index.js
+       • packages/ui/src/disclosure.js
+
+   TemplateElement:
+     📄 Files WITH TemplateElement (showing 10):
+       • scripts/utils.js
+       • scripts/release.js
+       • scripts/build.js
+       • packages/ui/src/list-context.js
+       • packages/persist/src/index.js
+       • packages/morph/src/old_morph.js
+       • packages/morph/src/morph.js
+       • packages/mask/src/index.js
+       • packages/intersect/src/index.js
+       • packages/focus/src/index.js
+     📄 Files WITHOUT TemplateElement (showing 10):
+       • jest.config.js
+       • scripts/update-docs.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+       • packages/ui/src/menu.js
+       • packages/ui/src/listbox.js
+       • packages/ui/src/index.js
+
+   ReturnStatement:
+     📄 Files WITH ReturnStatement (showing 10):
+       • scripts/utils.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+       • packages/ui/src/menu.js
+       • packages/ui/src/listbox.js
+     📄 Files WITHOUT ReturnStatement (showing 10):
+       • jest.config.js
+       • scripts/update-docs.js
+       • packages/ui/src/index.js
+       • packages/ui/builds/module.js
+       • packages/ui/builds/cdn.js
+       • packages/sort/builds/module.js
+       • packages/sort/builds/cdn.js
+       • packages/resize/builds/module.js
+       • packages/resize/builds/cdn.js
+       • packages/persist/builds/module.js
+
+   IfStatement:
+     📄 Files WITH IfStatement (showing 10):
+       • scripts/utils.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+       • packages/ui/src/menu.js
+       • packages/ui/src/listbox.js
+     📄 Files WITHOUT IfStatement (showing 10):
+       • jest.config.js
+       • scripts/update-docs.js
+       • packages/ui/src/index.js
+       • packages/ui/builds/module.js
+       • packages/ui/builds/cdn.js
+       • packages/sort/builds/module.js
+       • packages/sort/builds/cdn.js
+       • packages/resize/builds/module.js
+       • packages/resize/builds/cdn.js
+       • packages/persist/builds/module.js
+
+   TemplateLiteral:
+     📄 Files WITH TemplateLiteral (showing 10):
+       • scripts/utils.js
+       • scripts/release.js
+       • scripts/build.js
+       • packages/ui/src/list-context.js
+       • packages/persist/src/index.js
+       • packages/morph/src/old_morph.js
+       • packages/morph/src/morph.js
+       • packages/mask/src/index.js
+       • packages/intersect/src/index.js
+       • packages/focus/src/index.js
+     📄 Files WITHOUT TemplateLiteral (showing 10):
+       • jest.config.js
+       • scripts/update-docs.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+       • packages/ui/src/menu.js
+       • packages/ui/src/listbox.js
+       • packages/ui/src/index.js
+
+   AssignmentExpression:
+     📄 Files WITH AssignmentExpression (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+       • packages/ui/src/menu.js
+     📄 Files WITHOUT AssignmentExpression (showing 10):
+       • scripts/update-docs.js
+       • packages/ui/src/index.js
+       • packages/ui/builds/module.js
+       • packages/ui/builds/cdn.js
+       • packages/sort/builds/module.js
+       • packages/sort/builds/cdn.js
+       • packages/resize/builds/module.js
+       • packages/resize/builds/cdn.js
+       • packages/persist/builds/module.js
+       • packages/persist/builds/cdn.js
+
+   ObjectPattern:
+     📄 Files WITH ObjectPattern (showing 10):
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • packages/ui/src/popover.js
+       • packages/ui/src/combobox.js
+       • packages/sort/src/index.js
+       • packages/resize/src/index.js
+       • packages/persist/src/index.js
+       • tests/jest/mask.spec.js
+     📄 Files WITHOUT ObjectPattern (showing 10):
+       • jest.config.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/menu.js
+       • packages/ui/src/listbox.js
+       • packages/ui/src/list-context.js
+       • packages/ui/src/index.js
+       • packages/ui/src/disclosure.js
+
+   ImportSpecifier:
+     📄 Files WITH ImportSpecifier (showing 10):
+       • packages/ui/src/listbox.js
+       • packages/ui/src/combobox.js
+       • packages/morph/src/old_morph.js
+       • packages/morph/src/index.js
+       • packages/mask/builds/module.js
+       • packages/history/builds/module.js
+       • packages/focus/src/index.js
+       • packages/csp/src/index.js
+       • packages/csp/src/evaluator.js
+       • packages/anchor/src/index.js
+     📄 Files WITHOUT ImportSpecifier (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+
+   ArrayExpression:
+     📄 Files WITH ArrayExpression (showing 10):
+       • scripts/utils.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+       • packages/ui/src/menu.js
+       • packages/ui/src/listbox.js
+       • packages/ui/src/list-context.js
+     📄 Files WITHOUT ArrayExpression (showing 10):
+       • jest.config.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • packages/ui/src/index.js
+       • packages/ui/builds/module.js
+       • packages/ui/builds/cdn.js
+       • packages/sort/builds/module.js
+       • packages/sort/builds/cdn.js
+       • packages/resize/builds/module.js
+       • packages/resize/builds/cdn.js
+
+   BinaryExpression:
+     📄 Files WITH BinaryExpression (showing 10):
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+       • packages/ui/src/menu.js
+     📄 Files WITHOUT BinaryExpression (showing 10):
+       • jest.config.js
+       • packages/ui/src/index.js
+       • packages/ui/builds/module.js
+       • packages/ui/builds/cdn.js
+       • packages/sort/builds/module.js
+       • packages/sort/builds/cdn.js
+       • packages/resize/src/index.js
+       • packages/resize/builds/module.js
+       • packages/resize/builds/cdn.js
+       • packages/persist/builds/module.js
+
+   TaggedTemplateExpression:
+     📄 Files WITH TaggedTemplateExpression (showing 10):
+       • packages/alpinejs/src/directives.js
+       • tests/cypress/integration/store.spec.js
+       • tests/cypress/integration/scope.spec.js
+       • tests/cypress/integration/mutation.spec.js
+       • tests/cypress/integration/error-handling.spec.js
+       • tests/cypress/integration/entangle.spec.js
+       • tests/cypress/integration/custom-prefix.spec.js
+       • tests/cypress/integration/custom-magics.spec.js
+       • tests/cypress/integration/custom-interceptors.spec.js
+       • tests/cypress/integration/custom-directives.spec.js
+     📄 Files WITHOUT TaggedTemplateExpression (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+
+   FunctionExpression:
+     📄 Files WITH FunctionExpression (showing 10):
+       • scripts/utils.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+       • packages/ui/src/menu.js
+       • packages/ui/src/listbox.js
+       • packages/ui/src/list-context.js
+       • packages/ui/src/disclosure.js
+     📄 Files WITHOUT FunctionExpression (showing 10):
+       • jest.config.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • packages/ui/src/index.js
+       • packages/ui/builds/module.js
+       • packages/ui/builds/cdn.js
+       • packages/sort/builds/module.js
+       • packages/sort/builds/cdn.js
+       • packages/resize/src/index.js
+
+   ObjectExpression:
+     📄 Files WITH ObjectExpression (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+       • packages/ui/src/menu.js
+     📄 Files WITHOUT ObjectExpression (showing 10):
+       • scripts/update-docs.js
+       • packages/ui/src/index.js
+       • packages/ui/builds/module.js
+       • packages/ui/builds/cdn.js
+       • packages/sort/builds/module.js
+       • packages/sort/builds/cdn.js
+       • packages/resize/builds/module.js
+       • packages/resize/builds/cdn.js
+       • packages/persist/builds/module.js
+       • packages/persist/builds/cdn.js
+
+   UnaryExpression:
+     📄 Files WITH UnaryExpression (showing 10):
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+       • packages/ui/src/menu.js
+       • packages/ui/src/listbox.js
+       • packages/ui/src/list-context.js
+     📄 Files WITHOUT UnaryExpression (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • packages/ui/src/index.js
+       • packages/ui/builds/module.js
+       • packages/ui/builds/cdn.js
+       • packages/sort/builds/module.js
+       • packages/sort/builds/cdn.js
+       • packages/resize/builds/module.js
+       • packages/resize/builds/cdn.js
+
+   LogicalExpression:
+     📄 Files WITH LogicalExpression (showing 10):
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+       • packages/ui/src/menu.js
+       • packages/ui/src/listbox.js
+       • packages/ui/src/list-context.js
+     📄 Files WITHOUT LogicalExpression (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • packages/ui/src/index.js
+       • packages/ui/builds/module.js
+       • packages/ui/builds/cdn.js
+       • packages/sort/builds/module.js
+       • packages/sort/builds/cdn.js
+       • packages/resize/src/index.js
+       • packages/resize/builds/module.js
+
+   FunctionDeclaration:
+     📄 Files WITH FunctionDeclaration (showing 10):
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+       • packages/ui/src/menu.js
+       • packages/ui/src/listbox.js
+     📄 Files WITHOUT FunctionDeclaration (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • packages/ui/builds/module.js
+       • packages/ui/builds/cdn.js
+       • packages/sort/builds/module.js
+       • packages/sort/builds/cdn.js
+       • packages/resize/builds/module.js
+       • packages/resize/builds/cdn.js
+       • packages/persist/builds/module.js
+       • packages/persist/builds/cdn.js
+
+   ImportDeclaration:
+     📄 Files WITH ImportDeclaration (showing 10):
+       • packages/ui/src/listbox.js
+       • packages/ui/src/index.js
+       • packages/ui/src/combobox.js
+       • packages/ui/builds/module.js
+       • packages/ui/builds/cdn.js
+       • packages/sort/src/index.js
+       • packages/sort/builds/module.js
+       • packages/sort/builds/cdn.js
+       • packages/resize/builds/module.js
+       • packages/resize/builds/cdn.js
+     📄 Files WITHOUT ImportDeclaration (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+
+   Program:
+     📄 Files WITH Program (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+     📄 Files WITHOUT Program: (all files contain this node type)
+
+   ExportNamedDeclaration:
+     📄 Files WITH ExportNamedDeclaration (showing 10):
+       • tests/cypress/utils.js
+       • packages/ui/src/list-context.js
+       • packages/ui/builds/module.js
+       • packages/sort/builds/module.js
+       • packages/resize/builds/module.js
+       • packages/persist/builds/module.js
+       • packages/navigate/builds/module.js
+       • packages/morph/src/old_morph.js
+       • packages/morph/src/morph.js
+       • packages/morph/src/index.js
+     📄 Files WITHOUT ExportNamedDeclaration (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+       • packages/ui/src/menu.js
+
+   ConditionalExpression:
+     📄 Files WITH ConditionalExpression (showing 10):
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/popover.js
+       • packages/ui/src/menu.js
+       • packages/ui/src/listbox.js
+       • packages/ui/src/list-context.js
+       • packages/ui/src/combobox.js
+       • packages/sort/src/index.js
+       • packages/resize/src/index.js
+     📄 Files WITHOUT ConditionalExpression (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/index.js
+       • packages/ui/src/disclosure.js
+       • packages/ui/src/dialog.js
+       • packages/ui/builds/module.js
+
+   AssignmentPattern:
+     📄 Files WITH AssignmentPattern (showing 10):
+       • scripts/release.js
+       • tests/cypress/utils.js
+       • packages/ui/src/menu.js
+       • packages/ui/src/listbox.js
+       • packages/ui/src/list-context.js
+       • packages/ui/src/combobox.js
+       • packages/persist/src/index.js
+       • packages/morph/src/old_morph.js
+       • packages/morph/src/morph.js
+       • packages/mask/src/index.js
+     📄 Files WITHOUT AssignmentPattern (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/build.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+       • packages/ui/src/index.js
+       • packages/ui/src/disclosure.js
+
+   ArrayPattern:
+     📄 Files WITH ArrayPattern (showing 10):
+       • tests/cypress/utils.js
+       • packages/resize/src/index.js
+       • packages/alpinejs/src/mutation.js
+       • packages/alpinejs/src/magics.js
+       • packages/alpinejs/src/lifecycle.js
+       • packages/alpinejs/src/interceptor.js
+       • packages/alpinejs/src/directives.js
+       • packages/alpinejs/src/datas.js
+       • packages/alpinejs/src/binds.js
+       • tests/cypress/support/drag.js
+     📄 Files WITHOUT ArrayPattern (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+       • packages/ui/src/menu.js
+
+   ParenthesizedExpression:
+     📄 Files WITH ParenthesizedExpression (showing 10):
+       • scripts/update-docs.js
+       • scripts/build.js
+       • packages/ui/src/popover.js
+       • packages/ui/src/listbox.js
+       • packages/ui/src/dialog.js
+       • packages/ui/src/combobox.js
+       • packages/morph/src/old_morph.js
+       • packages/morph/src/morph.js
+       • packages/intersect/src/index.js
+       • packages/alpinejs/src/interceptor.js
+     📄 Files WITHOUT ParenthesizedExpression (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/release.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/menu.js
+       • packages/ui/src/list-context.js
+       • packages/ui/src/index.js
+
+   SpreadElement:
+     📄 Files WITH SpreadElement (showing 10):
+       • scripts/build.js
+       • packages/sort/src/index.js
+       • packages/morph/src/old_morph.js
+       • packages/morph/src/morph.js
+       • packages/csp/src/evaluator.js
+       • packages/alpinejs/src/scope.js
+       • packages/alpinejs/src/magics.js
+       • packages/alpinejs/src/evaluator.js
+       • packages/alpinejs/src/datas.js
+       • packages/alpinejs/src/clone.js
+     📄 Files WITHOUT SpreadElement (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+       • packages/ui/src/menu.js
+
+   AwaitExpression:
+     📄 Files WITH AwaitExpression (showing 6):
+       • scripts/release.js
+       • packages/ui/src/combobox.js
+       • packages/morph/src/old_morph.js
+       • tests/jest/morph/internal.spec.js
+       • tests/jest/morph/hooks.spec.js
+       • tests/jest/morph/external.spec.js
+     📄 Files WITHOUT AwaitExpression (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+       • packages/ui/src/menu.js
+
+   ImportDefaultSpecifier:
+     📄 Files WITH ImportDefaultSpecifier (showing 10):
+       • packages/ui/src/index.js
+       • packages/ui/builds/module.js
+       • packages/ui/builds/cdn.js
+       • packages/sort/src/index.js
+       • packages/sort/builds/module.js
+       • packages/sort/builds/cdn.js
+       • packages/resize/builds/module.js
+       • packages/resize/builds/cdn.js
+       • packages/persist/builds/module.js
+       • packages/persist/builds/cdn.js
+     📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+
+   ExportDefaultDeclaration:
+     📄 Files WITH ExportDefaultDeclaration (showing 10):
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+       • packages/ui/src/menu.js
+       • packages/ui/src/listbox.js
+       • packages/ui/src/index.js
+       • packages/ui/src/disclosure.js
+       • packages/ui/src/dialog.js
+       • packages/ui/src/combobox.js
+     📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/list-context.js
+       • packages/ui/builds/cdn.js
+       • packages/sort/builds/cdn.js
+       • packages/resize/builds/cdn.js
+
+   NewExpression:
+     📄 Files WITH NewExpression (showing 10):
+       • scripts/utils.js
+       • tests/cypress/utils.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/listbox.js
+       • packages/ui/src/combobox.js
+       • packages/sort/src/index.js
+       • packages/resize/src/index.js
+       • packages/persist/src/index.js
+       • packages/morph/src/old_morph.js
+       • packages/morph/src/morph.js
+     📄 Files WITHOUT NewExpression (showing 10):
+       • jest.config.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/popover.js
+       • packages/ui/src/menu.js
+       • packages/ui/src/list-context.js
+       • packages/ui/src/index.js
+
+   UpdateExpression:
+     📄 Files WITH UpdateExpression (showing 10):
+       • packages/ui/src/radio.js
+       • packages/ui/src/menu.js
+       • packages/ui/src/list-context.js
+       • packages/morph/src/old_morph.js
+       • packages/morph/src/morph.js
+       • packages/mask/src/index.js
+       • packages/intersect/src/index.js
+       • packages/alpinejs/src/scheduler.js
+       • packages/alpinejs/src/mutation.js
+       • packages/alpinejs/src/lifecycle.js
+     📄 Files WITHOUT UpdateExpression (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/popover.js
+       • packages/ui/src/listbox.js
+
+   WhileStatement:
+     📄 Files WITH WhileStatement (showing 10):
+       • packages/ui/src/radio.js
+       • packages/sort/src/index.js
+       • packages/morph/src/old_morph.js
+       • packages/morph/src/morph.js
+       • packages/focus/src/index.js
+       • packages/alpinejs/src/nextTick.js
+       • packages/alpinejs/src/mutation.js
+       • packages/alpinejs/src/directives.js
+       • packages/alpinejs/src/binds.js
+       • packages/alpinejs/src/utils/walk.js
+     📄 Files WITHOUT WhileStatement (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/popover.js
+       • packages/ui/src/menu.js
+
+   ForStatement:
+     📄 Files WITH ForStatement (showing 10):
+       • packages/ui/src/radio.js
+       • packages/ui/src/menu.js
+       • packages/ui/src/list-context.js
+       • packages/morph/src/old_morph.js
+       • packages/morph/src/morph.js
+       • packages/mask/src/index.js
+       • packages/intersect/src/index.js
+       • packages/alpinejs/src/scheduler.js
+       • packages/alpinejs/src/mutation.js
+       • packages/alpinejs/src/directives/x-for.js
+     📄 Files WITHOUT ForStatement (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/popover.js
+       • packages/ui/src/listbox.js
+
+   BreakStatement:
+     📄 Files WITH BreakStatement (showing 7):
+       • packages/ui/src/radio.js
+       • packages/ui/src/menu.js
+       • packages/ui/src/list-context.js
+       • packages/sort/src/index.js
+       • packages/morph/src/morph.js
+       • packages/mask/src/index.js
+       • packages/alpinejs/src/utils/bind.js
+     📄 Files WITHOUT BreakStatement (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/popover.js
+       • packages/ui/src/listbox.js
+
+   ExportSpecifier:
+     📄 Files WITH ExportSpecifier (showing 10):
+       • packages/ui/builds/module.js
+       • packages/sort/builds/module.js
+       • packages/resize/builds/module.js
+       • packages/persist/builds/module.js
+       • packages/navigate/builds/module.js
+       • packages/morph/src/index.js
+       • packages/morph/builds/module.js
+       • packages/mask/builds/module.js
+       • packages/intersect/builds/module.js
+       • packages/history/builds/module.js
+     📄 Files WITHOUT ExportSpecifier (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+
+   ContinueStatement:
+     📄 Files WITH ContinueStatement (showing 5):
+       • packages/morph/src/old_morph.js
+       • packages/morph/src/morph.js
+       • packages/mask/src/index.js
+       • packages/alpinejs/src/mutation.js
+       • packages/alpinejs/src/directives/x-for.js
+     📄 Files WITHOUT ContinueStatement (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+
+   SwitchCase:
+     📄 Files WITH SwitchCase (showing 2):
+       • packages/ui/src/list-context.js
+       • packages/alpinejs/src/utils/bind.js
+     📄 Files WITHOUT SwitchCase (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+
+   RestElement:
+     📄 Files WITH RestElement (showing 10):
+       • packages/morph/src/old_morph.js
+       • packages/morph/src/morph.js
+       • packages/alpinejs/src/evaluator.js
+       • packages/alpinejs/src/datas.js
+       • packages/alpinejs/src/clone.js
+       • packages/alpinejs/src/binds.js
+       • tests/cypress/support/drag.js
+       • tests/cypress/integration/error-handling.spec.js
+       • packages/alpinejs/src/utils/warn.js
+       • packages/alpinejs/src/utils/error.js
+     📄 Files WITHOUT RestElement (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+
+   ThrowStatement:
+     📄 Files WITH ThrowStatement (showing 7):
+       • tests/cypress/utils.js
+       • packages/ui/src/listbox.js
+       • packages/ui/src/combobox.js
+       • packages/anchor/src/index.js
+       • packages/alpinejs/src/interceptor.js
+       • packages/alpinejs/src/utils/error.js
+       • packages/alpinejs/src/directives/x-transition.js
+     📄 Files WITHOUT ThrowStatement (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+       • packages/ui/src/menu.js
+
+   ChainExpression:
+     📄 Files WITH ChainExpression (showing 4):
+       • packages/ui/src/combobox.js
+       • packages/alpinejs/src/scope.js
+       • packages/alpinejs/src/mutation.js
+       • packages/alpinejs/src/directives/x-transition.js
+     📄 Files WITHOUT ChainExpression (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+
+   MethodDefinition:
+     📄 Files WITH MethodDefinition (showing 1):
+       • packages/morph/src/morph.js
+     📄 Files WITHOUT MethodDefinition (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+
+   ForOfStatement:
+     📄 Files WITH ForOfStatement (showing 3):
+       • packages/resize/src/index.js
+       • packages/morph/src/morph.js
+       • packages/alpinejs/src/mutation.js
+     📄 Files WITHOUT ForOfStatement (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+
+   ForInStatement:
+     📄 Files WITH ForInStatement (showing 2):
+       • packages/ui/src/list-context.js
+       • tests/cypress/integration/plugins/ui/radio.spec.js
+     📄 Files WITHOUT ForInStatement (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+
+   TryStatement:
+     📄 Files WITH TryStatement (showing 3):
+       • packages/persist/src/index.js
+       • packages/alpinejs/src/evaluator.js
+       • packages/alpinejs/src/utils/error.js
+     📄 Files WITHOUT TryStatement (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+
+   CatchClause:
+     📄 Files WITH CatchClause (showing 3):
+       • packages/persist/src/index.js
+       • packages/alpinejs/src/evaluator.js
+       • packages/alpinejs/src/utils/error.js
+     📄 Files WITHOUT CatchClause (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+
+   SwitchStatement:
+     📄 Files WITH SwitchStatement (showing 2):
+       • packages/ui/src/list-context.js
+       • packages/alpinejs/src/utils/bind.js
+     📄 Files WITHOUT SwitchStatement (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+
+   SequenceExpression:
+     📄 Files WITH SequenceExpression (showing 1):
+       • packages/persist/src/index.js
+     📄 Files WITHOUT SequenceExpression (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+
+   ClassDeclaration:
+     📄 Files WITH ClassDeclaration (showing 1):
+       • packages/morph/src/morph.js
+     📄 Files WITHOUT ClassDeclaration (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+
+   ClassBody:
+     📄 Files WITH ClassBody (showing 1):
+       • packages/morph/src/morph.js
+     📄 Files WITHOUT ClassBody (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
+
+   EmptyStatement:
+     📄 Files WITH EmptyStatement (showing 1):
+       • packages/alpinejs/src/directives/x-transition.js
+     📄 Files WITHOUT EmptyStatement (showing 10):
+       • jest.config.js
+       • scripts/utils.js
+       • scripts/update-docs.js
+       • scripts/release.js
+       • scripts/build.js
+       • tests/cypress/utils.js
+       • packages/ui/src/tabs.js
+       • packages/ui/src/switch.js
+       • packages/ui/src/radio.js
+       • packages/ui/src/popover.js
 
 ============================================================
 ✅ Analysis complete!

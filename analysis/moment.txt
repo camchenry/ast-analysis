@@ -1,11 +1,12 @@
 AST Analysis Report for moment
-Generated on: 2025-07-13T03:17:20.799Z
+Generated on: 2025-07-14T01:42:07.010Z
 Repository: sample-repos/moment
 ================================================================================
 
 🔍 Analyzing JavaScript/TypeScript files in: /Users/camchenry/workspace/ast-analysis/sample-repos/moment
 
-📁 Found 426 files to analyze...
+📁 Found 625 files to analyze...
+
 
 
 ============================================================
@@ -13,171 +14,1725 @@ Repository: sample-repos/moment
 ============================================================
 
 📁 FILE STATISTICS:
-   Total files found: 426
-   Successfully parsed: 426
+   Total files found: 625
+   Successfully parsed: 625
    Failed to parse: 0
-   Total file size: 7.6 MB
+   Total file size: 10.3 MB
 
 🌳 NODE STATISTICS:
-   Total nodes: 968,096
+   Total nodes: 1,420,401
    Average nodes per file: 2,273
-   Average file size: 18.3 KB
+   Average file size: 16.9 KB
 
 📋 ALL NODE TYPES (BY FILE PRESENCE):
-   Program                         426 files (100.0%) -      426 total (0.04%)
-   Identifier                      422 files ( 99.1%) -  315,269 total (32.57%)
-   Literal                         415 files ( 97.4%) -  191,824 total (19.81%)
-   CallExpression                  404 files ( 94.8%) -  110,970 total (11.46%)
-   MemberExpression                403 files ( 94.6%) -   99,021 total (10.23%)
-   BlockStatement                  391 files ( 91.8%) -   21,260 total (2.20%)
-   ReturnStatement                 374 files ( 87.8%) -    7,521 total (0.78%)
-   BinaryExpression                356 files ( 83.6%) -   28,160 total (2.91%)
-   ObjectExpression                336 files ( 78.9%) -   10,209 total (1.05%)
-   VariableDeclaration             335 files ( 78.6%) -    5,968 total (0.62%)
-   VariableDeclarator              335 files ( 78.6%) -   11,603 total (1.20%)
-   Property                        327 files ( 76.8%) -   34,915 total (3.61%)
-   FunctionExpression              319 files ( 74.9%) -    7,997 total (0.83%)
-   ExpressionStatement             289 files ( 67.8%) -   45,063 total (4.65%)
-   ConditionalExpression           283 files ( 66.4%) -    2,932 total (0.30%)
-   Unknown                         275 files ( 64.6%) -    4,728 total (0.49%)
-   LogicalExpression               263 files ( 61.7%) -    4,364 total (0.45%)
-   IfStatement                     247 files ( 58.0%) -    6,171 total (0.64%)
-   ParenthesizedExpression         245 files ( 57.5%) -    2,369 total (0.24%)
-   UnaryExpression                 230 files ( 54.0%) -    4,334 total (0.45%)
-   ArrayExpression                 227 files ( 53.3%) -   17,265 total (1.78%)
-   ThisExpression                  226 files ( 53.1%) -    3,157 total (0.33%)
-   ImportDeclaration               217 files ( 50.9%) -      538 total (0.06%)
-   ImportDefaultSpecifier          193 files ( 45.3%) -      250 total (0.03%)
-   AssignmentExpression            186 files ( 43.7%) -   12,240 total (1.26%)
-   FunctionDeclaration             164 files ( 38.5%) -    3,444 total (0.36%)
-   ExportDefaultDeclaration        162 files ( 38.0%) -      162 total (0.02%)
-   EmptyStatement                  142 files ( 33.3%) -      331 total (0.03%)
-   SwitchStatement                  91 files ( 21.4%) -      298 total (0.03%)
-   SwitchCase                       91 files ( 21.4%) -    2,082 total (0.22%)
-   ExportNamedDeclaration           84 files ( 19.7%) -      362 total (0.04%)
-   ImportSpecifier                  64 files ( 15.0%) -      481 total (0.05%)
-   NewExpression                    31 files (  7.3%) -    1,821 total (0.19%)
-   ForStatement                     29 files (  6.8%) -    2,402 total (0.25%)
-   UpdateExpression                 25 files (  5.9%) -    2,256 total (0.23%)
-   ExportSpecifier                  17 files (  4.0%) -       77 total (0.01%)
-   BreakStatement                   16 files (  3.8%) -      297 total (0.03%)
-   ForInStatement                   13 files (  3.1%) -      190 total (0.02%)
-   WhileStatement                   10 files (  2.3%) -       19 total (0.00%)
-   SequenceExpression                7 files (  1.6%) -       44 total (0.00%)
-   TryStatement                      6 files (  1.4%) -       16 total (0.00%)
-   CatchClause                       6 files (  1.4%) -        9 total (0.00%)
-   ThrowStatement                    6 files (  1.4%) -      569 total (0.06%)
-   TSTypeAnnotation                  4 files (  0.9%) -    1,507 total (0.16%)
-   TSTypeReference                   4 files (  0.9%) -      582 total (0.06%)
-   TSQualifiedName                   4 files (  0.9%) -       60 total (0.01%)
-   TSStringKeyword                   4 files (  0.9%) -      434 total (0.04%)
-   TSUnionType                       4 files (  0.9%) -      100 total (0.01%)
-   TSNumberKeyword                   4 files (  0.9%) -      398 total (0.04%)
-   TSBooleanKeyword                  3 files (  0.7%) -      166 total (0.02%)
-   TSVoidKeyword                     3 files (  0.7%) -       17 total (0.00%)
-   TSDeclareFunction                 2 files (  0.5%) -      134 total (0.01%)
-   TSModuleDeclaration               2 files (  0.5%) -        4 total (0.00%)
-   TSModuleBlock                     2 files (  0.5%) -        4 total (0.00%)
-   TSTypeAliasDeclaration            2 files (  0.5%) -       47 total (0.00%)
-   TSLiteralType                     2 files (  0.5%) -      168 total (0.02%)
-   TSInterfaceDeclaration            2 files (  0.5%) -       43 total (0.00%)
-   TSInterfaceBody                   2 files (  0.5%) -       43 total (0.00%)
-   TSMethodSignature                 2 files (  0.5%) -      371 total (0.04%)
-   TSArrayType                       2 files (  0.5%) -       90 total (0.01%)
-   TSPropertySignature               2 files (  0.5%) -      385 total (0.04%)
-   TSParenthesizedType               2 files (  0.5%) -       16 total (0.00%)
-   TSFunctionType                    2 files (  0.5%) -       22 total (0.00%)
-   TSIndexSignature                  2 files (  0.5%) -        4 total (0.00%)
-   TSAnyKeyword                      2 files (  0.5%) -       42 total (0.00%)
-   TSInterfaceHeritage               2 files (  0.5%) -        6 total (0.00%)
-   TSTypePredicate                   2 files (  0.5%) -        6 total (0.00%)
-   RestElement                       2 files (  0.5%) -        4 total (0.00%)
-   TSTypeLiteral                     2 files (  0.5%) -        2 total (0.00%)
-   TSExportAssignment                2 files (  0.5%) -        2 total (0.00%)
-   TSImportEqualsDeclaration         2 files (  0.5%) -        2 total (0.00%)
-   TSExternalModuleReference         2 files (  0.5%) -        2 total (0.00%)
-   TSNullKeyword                     2 files (  0.5%) -       13 total (0.00%)
-   TSTupleType                       2 files (  0.5%) -        2 total (0.00%)
+   Program                         625 files (100.0%) -      625 total (0.04%)
+   Identifier                      621 files ( 99.4%) -  449,396 total (31.64%)
+   Literal                         613 files ( 98.1%) -  307,232 total (21.63%)
+   CallExpression                  603 files ( 96.5%) -  180,533 total (12.71%)
+   MemberExpression                601 files ( 96.2%) -  155,049 total (10.92%)
+   BlockStatement                  590 files ( 94.4%) -   25,316 total (1.78%)
+   BinaryExpression                525 files ( 84.0%) -   33,471 total (2.36%)
+   VariableDeclaration             524 files ( 83.8%) -    7,668 total (0.54%)
+   VariableDeclarator              524 files ( 83.8%) -   14,853 total (1.05%)
+   FunctionExpression              513 files ( 82.1%) -   10,711 total (0.75%)
+   ObjectExpression                505 files ( 80.8%) -   16,754 total (1.18%)
+   Property                        493 files ( 78.9%) -   41,992 total (2.96%)
+   ExpressionStatement             486 files ( 77.8%) -   69,307 total (4.88%)
+   ImportDeclaration               414 files ( 66.2%) -    1,080 total (0.08%)
+   ReturnStatement                 411 files ( 65.8%) -    7,646 total (0.54%)
+   ArrayExpression                 402 files ( 64.3%) -   31,399 total (2.21%)
+   ImportDefaultSpecifier          389 files ( 62.2%) -      455 total (0.03%)
+   ParenthesizedExpression         388 files ( 62.1%) -    2,708 total (0.19%)
+   AssignmentExpression            355 files ( 56.8%) -   14,145 total (1.00%)
+   FunctionDeclaration             317 files ( 50.7%) -    3,756 total (0.26%)
+   ConditionalExpression           300 files ( 48.0%) -    3,020 total (0.21%)
+   UnaryExpression                 285 files ( 45.6%) -    5,151 total (0.36%)
+   Unknown                         282 files ( 45.1%) -    4,768 total (0.34%)
+   LogicalExpression               277 files ( 44.3%) -    4,396 total (0.31%)
+   IfStatement                     270 files ( 43.2%) -    6,237 total (0.44%)
+   ImportSpecifier                 257 files ( 41.1%) -      870 total (0.06%)
+   ThisExpression                  227 files ( 36.3%) -    3,158 total (0.22%)
+   NewExpression                   196 files ( 31.4%) -    2,858 total (0.20%)
+   ForStatement                    185 files ( 29.6%) -    3,313 total (0.23%)
+   UpdateExpression                180 files ( 28.8%) -    3,164 total (0.22%)
+   ExportDefaultDeclaration        166 files ( 26.6%) -      166 total (0.01%)
+   EmptyStatement                  142 files ( 22.7%) -      331 total (0.02%)
+   SwitchStatement                 105 files ( 16.8%) -      319 total (0.02%)
+   SwitchCase                      105 files ( 16.8%) -    2,224 total (0.16%)
+   ExportNamedDeclaration           89 files ( 14.2%) -      369 total (0.03%)
+   BreakStatement                   19 files (  3.0%) -      326 total (0.02%)
+   ForInStatement                   17 files (  2.7%) -      194 total (0.01%)
+   ExportSpecifier                  17 files (  2.7%) -       77 total (0.01%)
+   SequenceExpression               11 files (  1.8%) -       48 total (0.00%)
+   WhileStatement                   11 files (  1.8%) -       21 total (0.00%)
+   TryStatement                     10 files (  1.6%) -       27 total (0.00%)
+   ThrowStatement                    9 files (  1.4%) -      573 total (0.04%)
+   CatchClause                       7 files (  1.1%) -       13 total (0.00%)
+   TSTypeAnnotation                  4 files (  0.6%) -    1,507 total (0.11%)
+   TSTypeReference                   4 files (  0.6%) -      582 total (0.04%)
+   TSQualifiedName                   4 files (  0.6%) -       60 total (0.00%)
+   TSStringKeyword                   4 files (  0.6%) -      434 total (0.03%)
+   TSUnionType                       4 files (  0.6%) -      100 total (0.01%)
+   TSNumberKeyword                   4 files (  0.6%) -      398 total (0.03%)
+   TSBooleanKeyword                  3 files (  0.5%) -      166 total (0.01%)
+   TSVoidKeyword                     3 files (  0.5%) -       17 total (0.00%)
+   TSDeclareFunction                 2 files (  0.3%) -      134 total (0.01%)
+   TSModuleDeclaration               2 files (  0.3%) -        4 total (0.00%)
+   TSModuleBlock                     2 files (  0.3%) -        4 total (0.00%)
+   TSTypeAliasDeclaration            2 files (  0.3%) -       47 total (0.00%)
+   TSLiteralType                     2 files (  0.3%) -      168 total (0.01%)
+   TSInterfaceDeclaration            2 files (  0.3%) -       43 total (0.00%)
+   TSInterfaceBody                   2 files (  0.3%) -       43 total (0.00%)
+   TSMethodSignature                 2 files (  0.3%) -      371 total (0.03%)
+   TSArrayType                       2 files (  0.3%) -       90 total (0.01%)
+   TSPropertySignature               2 files (  0.3%) -      385 total (0.03%)
+   TSParenthesizedType               2 files (  0.3%) -       16 total (0.00%)
+   TSFunctionType                    2 files (  0.3%) -       22 total (0.00%)
+   TSIndexSignature                  2 files (  0.3%) -        4 total (0.00%)
+   TSAnyKeyword                      2 files (  0.3%) -       42 total (0.00%)
+   TSInterfaceHeritage               2 files (  0.3%) -        6 total (0.00%)
+   TSTypePredicate                   2 files (  0.3%) -        6 total (0.00%)
+   RestElement                       2 files (  0.3%) -        4 total (0.00%)
+   TSTypeLiteral                     2 files (  0.3%) -        2 total (0.00%)
+   TSExportAssignment                2 files (  0.3%) -        2 total (0.00%)
+   TSNullKeyword                     2 files (  0.3%) -       13 total (0.00%)
+   TSTupleType                       2 files (  0.3%) -        2 total (0.00%)
+   TSImportEqualsDeclaration         2 files (  0.3%) -        2 total (0.00%)
+   TSExternalModuleReference         2 files (  0.3%) -        2 total (0.00%)
    TSUndefinedKeyword                1 files (  0.2%) -        5 total (0.00%)
    TSNamespaceExportDeclaration      1 files (  0.2%) -        1 total (0.00%)
 
 📝 ALL NODE TYPES (BY TOTAL COUNT):
-   Identifier                      315,269 (32.57%) in 422 files (99.1%)
-   Literal                         191,824 (19.81%) in 415 files (97.4%)
-   CallExpression                  110,970 (11.46%) in 404 files (94.8%)
-   MemberExpression                 99,021 (10.23%) in 403 files (94.6%)
-   ExpressionStatement              45,063 (4.65%) in 289 files (67.8%)
-   Property                         34,915 (3.61%) in 327 files (76.8%)
-   BinaryExpression                 28,160 (2.91%) in 356 files (83.6%)
-   BlockStatement                   21,260 (2.20%) in 391 files (91.8%)
-   ArrayExpression                  17,265 (1.78%) in 227 files (53.3%)
-   AssignmentExpression             12,240 (1.26%) in 186 files (43.7%)
-   VariableDeclarator               11,603 (1.20%) in 335 files (78.6%)
-   ObjectExpression                 10,209 (1.05%) in 336 files (78.9%)
-   FunctionExpression                7,997 (0.83%) in 319 files (74.9%)
-   ReturnStatement                   7,521 (0.78%) in 374 files (87.8%)
-   IfStatement                       6,171 (0.64%) in 247 files (58.0%)
-   VariableDeclaration               5,968 (0.62%) in 335 files (78.6%)
-   Unknown                           4,728 (0.49%) in 275 files (64.6%)
-   LogicalExpression                 4,364 (0.45%) in 263 files (61.7%)
-   UnaryExpression                   4,334 (0.45%) in 230 files (54.0%)
-   FunctionDeclaration               3,444 (0.36%) in 164 files (38.5%)
-   ThisExpression                    3,157 (0.33%) in 226 files (53.1%)
-   ConditionalExpression             2,932 (0.30%) in 283 files (66.4%)
-   ForStatement                      2,402 (0.25%) in 29 files (6.8%)
-   ParenthesizedExpression           2,369 (0.24%) in 245 files (57.5%)
-   UpdateExpression                  2,256 (0.23%) in 25 files (5.9%)
-   SwitchCase                        2,082 (0.22%) in 91 files (21.4%)
-   NewExpression                     1,821 (0.19%) in 31 files (7.3%)
-   TSTypeAnnotation                  1,507 (0.16%) in 4 files (0.9%)
-   TSTypeReference                     582 (0.06%) in 4 files (0.9%)
-   ThrowStatement                      569 (0.06%) in 6 files (1.4%)
-   ImportDeclaration                   538 (0.06%) in 217 files (50.9%)
-   ImportSpecifier                     481 (0.05%) in 64 files (15.0%)
-   TSStringKeyword                     434 (0.04%) in 4 files (0.9%)
-   Program                             426 (0.04%) in 426 files (100.0%)
-   TSNumberKeyword                     398 (0.04%) in 4 files (0.9%)
-   TSPropertySignature                 385 (0.04%) in 2 files (0.5%)
-   TSMethodSignature                   371 (0.04%) in 2 files (0.5%)
-   ExportNamedDeclaration              362 (0.04%) in 84 files (19.7%)
-   EmptyStatement                      331 (0.03%) in 142 files (33.3%)
-   SwitchStatement                     298 (0.03%) in 91 files (21.4%)
-   BreakStatement                      297 (0.03%) in 16 files (3.8%)
-   ImportDefaultSpecifier              250 (0.03%) in 193 files (45.3%)
-   ForInStatement                      190 (0.02%) in 13 files (3.1%)
-   TSLiteralType                       168 (0.02%) in 2 files (0.5%)
-   TSBooleanKeyword                    166 (0.02%) in 3 files (0.7%)
-   ExportDefaultDeclaration            162 (0.02%) in 162 files (38.0%)
-   TSDeclareFunction                   134 (0.01%) in 2 files (0.5%)
-   TSUnionType                         100 (0.01%) in 4 files (0.9%)
-   TSArrayType                          90 (0.01%) in 2 files (0.5%)
-   ExportSpecifier                      77 (0.01%) in 17 files (4.0%)
-   TSQualifiedName                      60 (0.01%) in 4 files (0.9%)
-   TSTypeAliasDeclaration               47 (0.00%) in 2 files (0.5%)
-   SequenceExpression                   44 (0.00%) in 7 files (1.6%)
-   TSInterfaceDeclaration               43 (0.00%) in 2 files (0.5%)
-   TSInterfaceBody                      43 (0.00%) in 2 files (0.5%)
-   TSAnyKeyword                         42 (0.00%) in 2 files (0.5%)
-   TSFunctionType                       22 (0.00%) in 2 files (0.5%)
-   WhileStatement                       19 (0.00%) in 10 files (2.3%)
-   TSVoidKeyword                        17 (0.00%) in 3 files (0.7%)
-   TryStatement                         16 (0.00%) in 6 files (1.4%)
-   TSParenthesizedType                  16 (0.00%) in 2 files (0.5%)
-   TSNullKeyword                        13 (0.00%) in 2 files (0.5%)
-   CatchClause                           9 (0.00%) in 6 files (1.4%)
-   TSInterfaceHeritage                   6 (0.00%) in 2 files (0.5%)
-   TSTypePredicate                       6 (0.00%) in 2 files (0.5%)
+   Identifier                      449,396 (31.64%) in 621 files (99.4%)
+   Literal                         307,232 (21.63%) in 613 files (98.1%)
+   CallExpression                  180,533 (12.71%) in 603 files (96.5%)
+   MemberExpression                155,049 (10.92%) in 601 files (96.2%)
+   ExpressionStatement              69,307 (4.88%) in 486 files (77.8%)
+   Property                         41,992 (2.96%) in 493 files (78.9%)
+   BinaryExpression                 33,471 (2.36%) in 525 files (84.0%)
+   ArrayExpression                  31,399 (2.21%) in 402 files (64.3%)
+   BlockStatement                   25,316 (1.78%) in 590 files (94.4%)
+   ObjectExpression                 16,754 (1.18%) in 505 files (80.8%)
+   VariableDeclarator               14,853 (1.05%) in 524 files (83.8%)
+   AssignmentExpression             14,145 (1.00%) in 355 files (56.8%)
+   FunctionExpression               10,711 (0.75%) in 513 files (82.1%)
+   VariableDeclaration               7,668 (0.54%) in 524 files (83.8%)
+   ReturnStatement                   7,646 (0.54%) in 411 files (65.8%)
+   IfStatement                       6,237 (0.44%) in 270 files (43.2%)
+   UnaryExpression                   5,151 (0.36%) in 285 files (45.6%)
+   Unknown                           4,768 (0.34%) in 282 files (45.1%)
+   LogicalExpression                 4,396 (0.31%) in 277 files (44.3%)
+   FunctionDeclaration               3,756 (0.26%) in 317 files (50.7%)
+   ForStatement                      3,313 (0.23%) in 185 files (29.6%)
+   UpdateExpression                  3,164 (0.22%) in 180 files (28.8%)
+   ThisExpression                    3,158 (0.22%) in 227 files (36.3%)
+   ConditionalExpression             3,020 (0.21%) in 300 files (48.0%)
+   NewExpression                     2,858 (0.20%) in 196 files (31.4%)
+   ParenthesizedExpression           2,708 (0.19%) in 388 files (62.1%)
+   SwitchCase                        2,224 (0.16%) in 105 files (16.8%)
+   TSTypeAnnotation                  1,507 (0.11%) in 4 files (0.6%)
+   ImportDeclaration                 1,080 (0.08%) in 414 files (66.2%)
+   ImportSpecifier                     870 (0.06%) in 257 files (41.1%)
+   Program                             625 (0.04%) in 625 files (100.0%)
+   TSTypeReference                     582 (0.04%) in 4 files (0.6%)
+   ThrowStatement                      573 (0.04%) in 9 files (1.4%)
+   ImportDefaultSpecifier              455 (0.03%) in 389 files (62.2%)
+   TSStringKeyword                     434 (0.03%) in 4 files (0.6%)
+   TSNumberKeyword                     398 (0.03%) in 4 files (0.6%)
+   TSPropertySignature                 385 (0.03%) in 2 files (0.3%)
+   TSMethodSignature                   371 (0.03%) in 2 files (0.3%)
+   ExportNamedDeclaration              369 (0.03%) in 89 files (14.2%)
+   EmptyStatement                      331 (0.02%) in 142 files (22.7%)
+   BreakStatement                      326 (0.02%) in 19 files (3.0%)
+   SwitchStatement                     319 (0.02%) in 105 files (16.8%)
+   ForInStatement                      194 (0.01%) in 17 files (2.7%)
+   TSLiteralType                       168 (0.01%) in 2 files (0.3%)
+   TSBooleanKeyword                    166 (0.01%) in 3 files (0.5%)
+   ExportDefaultDeclaration            166 (0.01%) in 166 files (26.6%)
+   TSDeclareFunction                   134 (0.01%) in 2 files (0.3%)
+   TSUnionType                         100 (0.01%) in 4 files (0.6%)
+   TSArrayType                          90 (0.01%) in 2 files (0.3%)
+   ExportSpecifier                      77 (0.01%) in 17 files (2.7%)
+   TSQualifiedName                      60 (0.00%) in 4 files (0.6%)
+   SequenceExpression                   48 (0.00%) in 11 files (1.8%)
+   TSTypeAliasDeclaration               47 (0.00%) in 2 files (0.3%)
+   TSInterfaceDeclaration               43 (0.00%) in 2 files (0.3%)
+   TSInterfaceBody                      43 (0.00%) in 2 files (0.3%)
+   TSAnyKeyword                         42 (0.00%) in 2 files (0.3%)
+   TryStatement                         27 (0.00%) in 10 files (1.6%)
+   TSFunctionType                       22 (0.00%) in 2 files (0.3%)
+   WhileStatement                       21 (0.00%) in 11 files (1.8%)
+   TSVoidKeyword                        17 (0.00%) in 3 files (0.5%)
+   TSParenthesizedType                  16 (0.00%) in 2 files (0.3%)
+   CatchClause                          13 (0.00%) in 7 files (1.1%)
+   TSNullKeyword                        13 (0.00%) in 2 files (0.3%)
+   TSInterfaceHeritage                   6 (0.00%) in 2 files (0.3%)
+   TSTypePredicate                       6 (0.00%) in 2 files (0.3%)
    TSUndefinedKeyword                    5 (0.00%) in 1 files (0.2%)
-   TSModuleDeclaration                   4 (0.00%) in 2 files (0.5%)
-   TSModuleBlock                         4 (0.00%) in 2 files (0.5%)
-   TSIndexSignature                      4 (0.00%) in 2 files (0.5%)
-   RestElement                           4 (0.00%) in 2 files (0.5%)
-   TSTypeLiteral                         2 (0.00%) in 2 files (0.5%)
-   TSExportAssignment                    2 (0.00%) in 2 files (0.5%)
-   TSImportEqualsDeclaration             2 (0.00%) in 2 files (0.5%)
-   TSExternalModuleReference             2 (0.00%) in 2 files (0.5%)
-   TSTupleType                           2 (0.00%) in 2 files (0.5%)
+   TSModuleDeclaration                   4 (0.00%) in 2 files (0.3%)
+   TSModuleBlock                         4 (0.00%) in 2 files (0.3%)
+   TSIndexSignature                      4 (0.00%) in 2 files (0.3%)
+   RestElement                           4 (0.00%) in 2 files (0.3%)
+   TSTypeLiteral                         2 (0.00%) in 2 files (0.3%)
+   TSExportAssignment                    2 (0.00%) in 2 files (0.3%)
+   TSTupleType                           2 (0.00%) in 2 files (0.3%)
+   TSImportEqualsDeclaration             2 (0.00%) in 2 files (0.3%)
+   TSExternalModuleReference             2 (0.00%) in 2 files (0.3%)
    TSNamespaceExportDeclaration          1 (0.00%) in 1 files (0.2%)
+
+📁 FILE EXAMPLES BY NODE TYPE:
+
+   Identifier:
+     📄 Files WITH Identifier (showing 10):
+       • package.js
+       • moment.js
+       • moment.d.ts
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typings/moment.d.ts
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • tasks/update_index.js
+       • tasks/transpile.js
+     📄 Files WITHOUT Identifier (showing 4):
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+
+   Literal:
+     📄 Files WITH Literal (showing 10):
+       • package.js
+       • moment.js
+       • moment.d.ts
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typings/moment.d.ts
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • tasks/update_index.js
+       • tasks/transpile.js
+     📄 Files WITHOUT Literal (showing 10):
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+       • meteor/export.js
+       • src/lib/utils/mod.js
+       • src/lib/utils/has-own-prop.js
+       • src/lib/locale/pre-post-format.js
+       • src/lib/moment/now.js
+       • src/lib/moment/creation-data.js
+
+   CallExpression:
+     📄 Files WITH CallExpression (showing 10):
+       • package.js
+       • moment.js
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • tasks/update_index.js
+       • tasks/transpile.js
+       • tasks/qtest.js
+       • tasks/nuget.js
+     📄 Files WITHOUT CallExpression (showing 10):
+       • moment.d.ts
+       • ts3.1-typings/moment.d.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+       • meteor/export.js
+       • src/lib/utils/mod.js
+       • src/lib/utils/is-undefined.js
+       • src/lib/utils/is-string.js
+
+   MemberExpression:
+     📄 Files WITH MemberExpression (showing 10):
+       • package.js
+       • moment.js
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • tasks/update_index.js
+       • tasks/transpile.js
+       • tasks/qtest.js
+       • tasks/nuget.js
+     📄 Files WITHOUT MemberExpression (showing 10):
+       • moment.d.ts
+       • ts3.1-typings/moment.d.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+       • src/lib/utils/to-int.js
+       • src/lib/utils/mod.js
+       • src/lib/utils/is-undefined.js
+       • src/lib/utils/is-string.js
+
+   ExpressionStatement:
+     📄 Files WITH ExpressionStatement (showing 10):
+       • moment.js
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • tasks/update_index.js
+       • tasks/transpile.js
+       • tasks/qtest.js
+       • tasks/nuget.js
+       • tasks/component.js
+     📄 Files WITHOUT ExpressionStatement (showing 10):
+       • package.js
+       • moment.d.ts
+       • ts3.1-typings/moment.d.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+       • src/locale/yo.js
+       • src/locale/x-pseudo.js
+       • src/locale/vi.js
+
+   Property:
+     📄 Files WITH Property (showing 10):
+       • package.js
+       • moment.js
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • tasks/update_index.js
+       • tasks/transpile.js
+       • tasks/qtest.js
+       • tasks/nuget.js
+     📄 Files WITHOUT Property (showing 10):
+       • moment.d.ts
+       • ts3.1-typings/moment.d.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+       • tasks/component.js
+       • tasks/check_sauce_creds.js
+       • meteor/export.js
+       • src/lib/utils/zero-fill.js
+
+   BinaryExpression:
+     📄 Files WITH BinaryExpression (showing 10):
+       • package.js
+       • moment.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • tasks/transpile.js
+       • tasks/qtest.js
+       • tasks/component.js
+       • tasks/check_sauce_creds.js
+       • tasks/bump_version.js
+     📄 Files WITHOUT BinaryExpression (showing 10):
+       • moment.d.ts
+       • ender.js
+       • ts3.1-typings/moment.d.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+       • tasks/update_index.js
+       • tasks/nuget.js
+       • src/moment.js
+
+   ArrayExpression:
+     📄 Files WITH ArrayExpression (showing 10):
+       • moment.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • tasks/update_index.js
+       • tasks/transpile.js
+       • tasks/nuget.js
+       • tasks/bump_version.js
+       • scripts/locales.js
+       • min/tests.js
+     📄 Files WITHOUT ArrayExpression (showing 10):
+       • package.js
+       • moment.d.ts
+       • ender.js
+       • ts3.1-typings/moment.d.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+       • tasks/qtest.js
+       • tasks/component.js
+
+   BlockStatement:
+     📄 Files WITH BlockStatement (showing 10):
+       • package.js
+       • moment.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • tasks/update_index.js
+       • tasks/transpile.js
+       • tasks/qtest.js
+       • tasks/nuget.js
+       • tasks/component.js
+     📄 Files WITHOUT BlockStatement (showing 10):
+       • moment.d.ts
+       • ender.js
+       • ts3.1-typings/moment.d.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+       • src/moment.js
+       • src/locale/yo.js
+       • src/locale/uz.js
+
+   ObjectExpression:
+     📄 Files WITH ObjectExpression (showing 10):
+       • package.js
+       • moment.js
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • tasks/update_index.js
+       • tasks/transpile.js
+       • tasks/qtest.js
+       • tasks/nuget.js
+     📄 Files WITHOUT ObjectExpression (showing 10):
+       • moment.d.ts
+       • ts3.1-typings/moment.d.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+       • tasks/component.js
+       • tasks/check_sauce_creds.js
+       • meteor/export.js
+       • src/lib/utils/zero-fill.js
+
+   VariableDeclarator:
+     📄 Files WITH VariableDeclarator (showing 10):
+       • package.js
+       • moment.js
+       • moment.d.ts
+       • Gruntfile.js
+       • ts3.1-typings/moment.d.ts
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • tasks/transpile.js
+       • tasks/qtest.js
+       • tasks/component.js
+     📄 Files WITHOUT VariableDeclarator (showing 10):
+       • ender.js
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+       • tasks/update_index.js
+       • tasks/nuget.js
+       • tasks/check_sauce_creds.js
+       • tasks/bump_version.js
+       • src/moment.js
+
+   AssignmentExpression:
+     📄 Files WITH AssignmentExpression (showing 10):
+       • moment.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • tasks/update_index.js
+       • tasks/transpile.js
+       • tasks/qtest.js
+       • tasks/nuget.js
+       • tasks/component.js
+       • tasks/check_sauce_creds.js
+     📄 Files WITHOUT AssignmentExpression (showing 10):
+       • package.js
+       • moment.d.ts
+       • ender.js
+       • ts3.1-typings/moment.d.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+       • meteor/test.js
+       • meteor/package.js
+
+   FunctionExpression:
+     📄 Files WITH FunctionExpression (showing 10):
+       • package.js
+       • moment.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • tasks/update_index.js
+       • tasks/transpile.js
+       • tasks/qtest.js
+       • tasks/nuget.js
+       • tasks/component.js
+     📄 Files WITHOUT FunctionExpression (showing 10):
+       • moment.d.ts
+       • ender.js
+       • ts3.1-typings/moment.d.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+       • src/moment.js
+       • meteor/export.js
+       • src/locale/yo.js
+
+   VariableDeclaration:
+     📄 Files WITH VariableDeclaration (showing 10):
+       • package.js
+       • moment.js
+       • moment.d.ts
+       • Gruntfile.js
+       • ts3.1-typings/moment.d.ts
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • tasks/transpile.js
+       • tasks/qtest.js
+       • tasks/component.js
+     📄 Files WITHOUT VariableDeclaration (showing 10):
+       • ender.js
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+       • tasks/update_index.js
+       • tasks/nuget.js
+       • tasks/check_sauce_creds.js
+       • tasks/bump_version.js
+       • src/moment.js
+
+   ReturnStatement:
+     📄 Files WITH ReturnStatement (showing 10):
+       • package.js
+       • moment.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • tasks/transpile.js
+       • tasks/qtest.js
+       • scripts/locales.js
+       • min/tests.js
+       • min/moment-with-locales.js
+     📄 Files WITHOUT ReturnStatement (showing 10):
+       • moment.d.ts
+       • ender.js
+       • ts3.1-typings/moment.d.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+       • tasks/update_index.js
+       • tasks/nuget.js
+       • tasks/component.js
+
+   IfStatement:
+     📄 Files WITH IfStatement (showing 10):
+       • moment.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • tasks/transpile.js
+       • tasks/qtest.js
+       • tasks/check_sauce_creds.js
+       • tasks/bump_version.js
+       • scripts/locales.js
+       • min/tests.js
+     📄 Files WITHOUT IfStatement (showing 10):
+       • package.js
+       • moment.d.ts
+       • ender.js
+       • ts3.1-typings/moment.d.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+       • tasks/update_index.js
+       • tasks/nuget.js
+
+   UnaryExpression:
+     📄 Files WITH UnaryExpression (showing 10):
+       • moment.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • tasks/transpile.js
+       • tasks/bump_version.js
+       • min/tests.js
+       • min/moment-with-locales.js
+       • min/locales.js
+       • meteor/moment.js
+       • meteor/export.js
+     📄 Files WITHOUT UnaryExpression (showing 10):
+       • package.js
+       • moment.d.ts
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typings/moment.d.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+       • tasks/update_index.js
+
+   Unknown:
+     📄 Files WITH Unknown (showing 10):
+       • package.js
+       • moment.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • tasks/bump_version.js
+       • scripts/locales.js
+       • min/tests.js
+       • min/moment-with-locales.js
+       • min/locales.js
+     📄 Files WITHOUT Unknown (showing 10):
+       • moment.d.ts
+       • ender.js
+       • ts3.1-typings/moment.d.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+       • tasks/update_index.js
+       • tasks/transpile.js
+       • tasks/qtest.js
+
+   LogicalExpression:
+     📄 Files WITH LogicalExpression (showing 10):
+       • moment.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • tasks/transpile.js
+       • tasks/bump_version.js
+       • min/tests.js
+       • min/moment-with-locales.js
+       • min/locales.js
+       • meteor/moment.js
+       • locale/zh-tw.js
+     📄 Files WITHOUT LogicalExpression (showing 10):
+       • package.js
+       • moment.d.ts
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typings/moment.d.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+       • tasks/update_index.js
+
+   FunctionDeclaration:
+     📄 Files WITH FunctionDeclaration (showing 10):
+       • moment.js
+       • tasks/transpile.js
+       • scripts/locales.js
+       • min/tests.js
+       • min/moment-with-locales.js
+       • min/locales.js
+       • meteor/moment.js
+       • benchmarks/subtract.js
+       • benchmarks/startOf.js
+       • benchmarks/set.js
+     📄 Files WITHOUT FunctionDeclaration (showing 10):
+       • package.js
+       • moment.d.ts
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typings/moment.d.ts
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+
+   ForStatement:
+     📄 Files WITH ForStatement (showing 10):
+       • moment.js
+       • tasks/transpile.js
+       • scripts/locales.js
+       • min/tests.js
+       • min/moment-with-locales.js
+       • meteor/moment.js
+       • src/lib/utils/some.js
+       • src/lib/utils/map.js
+       • src/lib/utils/is-moment-input.js
+       • src/lib/utils/is-calendar-spec.js
+     📄 Files WITHOUT ForStatement (showing 10):
+       • package.js
+       • moment.d.ts
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typings/moment.d.ts
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+
+   UpdateExpression:
+     📄 Files WITH UpdateExpression (showing 10):
+       • moment.js
+       • min/tests.js
+       • min/moment-with-locales.js
+       • meteor/moment.js
+       • src/lib/utils/some.js
+       • src/lib/utils/map.js
+       • src/lib/utils/index-of.js
+       • src/lib/utils/deprecate.js
+       • src/lib/utils/compare-arrays.js
+       • src/lib/locale/locales.js
+     📄 Files WITHOUT UpdateExpression (showing 10):
+       • package.js
+       • moment.d.ts
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typings/moment.d.ts
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+
+   ThisExpression:
+     📄 Files WITH ThisExpression (showing 10):
+       • moment.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • tasks/transpile.js
+       • tasks/qtest.js
+       • min/tests.js
+       • min/moment-with-locales.js
+       • min/locales.js
+       • meteor/moment.js
+       • meteor/export.js
+     📄 Files WITHOUT ThisExpression (showing 10):
+       • package.js
+       • moment.d.ts
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typings/moment.d.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+       • tasks/update_index.js
+
+   ConditionalExpression:
+     📄 Files WITH ConditionalExpression (showing 10):
+       • moment.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • tasks/transpile.js
+       • min/tests.js
+       • min/moment-with-locales.js
+       • min/locales.js
+       • meteor/moment.js
+       • benchmarks/zeroFill.js
+     📄 Files WITHOUT ConditionalExpression (showing 10):
+       • package.js
+       • moment.d.ts
+       • ender.js
+       • ts3.1-typings/moment.d.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+       • tasks/update_index.js
+       • tasks/qtest.js
+
+   NewExpression:
+     📄 Files WITH NewExpression (showing 10):
+       • moment.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • tasks/transpile.js
+       • tasks/qtest.js
+       • min/tests.js
+       • min/moment-with-locales.js
+       • meteor/moment.js
+       • benchmarks/fromDateUtc.js
+       • benchmarks/fromDate.js
+     📄 Files WITHOUT NewExpression (showing 10):
+       • package.js
+       • moment.d.ts
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typings/moment.d.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+       • tasks/update_index.js
+
+   ParenthesizedExpression:
+     📄 Files WITH ParenthesizedExpression (showing 10):
+       • moment.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • tasks/transpile.js
+       • min/tests.js
+       • min/moment-with-locales.js
+       • min/locales.js
+       • meteor/moment.js
+       • benchmarks/zeroFill.js
+       • benchmarks/isObjectEmpty.js
+     📄 Files WITHOUT ParenthesizedExpression (showing 10):
+       • package.js
+       • moment.d.ts
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typings/moment.d.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+       • tasks/update_index.js
+
+   SwitchCase:
+     📄 Files WITH SwitchCase (showing 10):
+       • moment.js
+       • scripts/locales.js
+       • min/tests.js
+       • min/moment-with-locales.js
+       • min/locales.js
+       • meteor/moment.js
+       • locale/zh-tw.js
+       • locale/zh-mo.js
+       • locale/zh-hk.js
+       • locale/zh-cn.js
+     📄 Files WITHOUT SwitchCase (showing 10):
+       • package.js
+       • moment.d.ts
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typings/moment.d.ts
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+
+   TSTypeAnnotation:
+     📄 Files WITH TSTypeAnnotation (showing 4):
+       • moment.d.ts
+       • ts3.1-typings/moment.d.ts
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+     📄 Files WITHOUT TSTypeAnnotation (showing 10):
+       • package.js
+       • moment.js
+       • ender.js
+       • Gruntfile.js
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+       • tasks/update_index.js
+       • tasks/transpile.js
+
+   ImportDeclaration:
+     📄 Files WITH ImportDeclaration (showing 10):
+       • src/moment.js
+       • src/test/qunit.js
+       • src/test/qunit-locale.js
+       • src/locale/zh-tw.js
+       • src/locale/zh-mo.js
+       • src/locale/zh-hk.js
+       • src/locale/zh-cn.js
+       • src/locale/yo.js
+       • src/locale/x-pseudo.js
+       • src/locale/vi.js
+     📄 Files WITHOUT ImportDeclaration (showing 10):
+       • package.js
+       • moment.js
+       • moment.d.ts
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typings/moment.d.ts
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+
+   ImportSpecifier:
+     📄 Files WITH ImportSpecifier (showing 10):
+       • src/moment.js
+       • src/test/qunit.js
+       • src/test/qunit-locale.js
+       • src/lib/utils/is-moment-input.js
+       • src/lib/utils/deprecate.js
+       • src/lib/locale/prototype.js
+       • src/lib/locale/locales.js
+       • src/lib/locale/locale.js
+       • src/lib/locale/lists.js
+       • src/lib/locale/formats.js
+     📄 Files WITHOUT ImportSpecifier (showing 10):
+       • package.js
+       • moment.js
+       • moment.d.ts
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typings/moment.d.ts
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+
+   Program:
+     📄 Files WITH Program (showing 10):
+       • package.js
+       • moment.js
+       • moment.d.ts
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typings/moment.d.ts
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+     📄 Files WITHOUT Program: (all files contain this node type)
+
+   TSTypeReference:
+     📄 Files WITH TSTypeReference (showing 4):
+       • moment.d.ts
+       • ts3.1-typings/moment.d.ts
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+     📄 Files WITHOUT TSTypeReference (showing 10):
+       • package.js
+       • moment.js
+       • ender.js
+       • Gruntfile.js
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+       • tasks/update_index.js
+       • tasks/transpile.js
+
+   ThrowStatement:
+     📄 Files WITH ThrowStatement (showing 9):
+       • moment.js
+       • tasks/transpile.js
+       • min/tests.js
+       • min/moment-with-locales.js
+       • meteor/moment.js
+       • src/test/qunit.js
+       • src/test/qunit-locale.js
+       • src/lib/duration/as.js
+       • src/test/helpers/deprecation-handler.js
+     📄 Files WITHOUT ThrowStatement (showing 10):
+       • package.js
+       • moment.d.ts
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typings/moment.d.ts
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+
+   ImportDefaultSpecifier:
+     📄 Files WITH ImportDefaultSpecifier (showing 10):
+       • src/moment.js
+       • src/test/qunit.js
+       • src/test/qunit-locale.js
+       • src/locale/zh-tw.js
+       • src/locale/zh-mo.js
+       • src/locale/zh-hk.js
+       • src/locale/zh-cn.js
+       • src/locale/yo.js
+       • src/locale/x-pseudo.js
+       • src/locale/vi.js
+     📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
+       • package.js
+       • moment.js
+       • moment.d.ts
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typings/moment.d.ts
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+
+   TSStringKeyword:
+     📄 Files WITH TSStringKeyword (showing 4):
+       • moment.d.ts
+       • ts3.1-typings/moment.d.ts
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+     📄 Files WITHOUT TSStringKeyword (showing 10):
+       • package.js
+       • moment.js
+       • ender.js
+       • Gruntfile.js
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+       • tasks/update_index.js
+       • tasks/transpile.js
+
+   TSNumberKeyword:
+     📄 Files WITH TSNumberKeyword (showing 4):
+       • moment.d.ts
+       • ts3.1-typings/moment.d.ts
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+     📄 Files WITHOUT TSNumberKeyword (showing 10):
+       • package.js
+       • moment.js
+       • ender.js
+       • Gruntfile.js
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+       • tasks/update_index.js
+       • tasks/transpile.js
+
+   TSPropertySignature:
+     📄 Files WITH TSPropertySignature (showing 2):
+       • moment.d.ts
+       • ts3.1-typings/moment.d.ts
+     📄 Files WITHOUT TSPropertySignature (showing 10):
+       • package.js
+       • moment.js
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+
+   TSMethodSignature:
+     📄 Files WITH TSMethodSignature (showing 2):
+       • moment.d.ts
+       • ts3.1-typings/moment.d.ts
+     📄 Files WITHOUT TSMethodSignature (showing 10):
+       • package.js
+       • moment.js
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+
+   ExportNamedDeclaration:
+     📄 Files WITH ExportNamedDeclaration (showing 10):
+       • moment.d.ts
+       • ts3.1-typings/moment.d.ts
+       • src/test/qunit.js
+       • src/test/qunit-locale.js
+       • src/lib/utils/some.js
+       • src/lib/utils/keys.js
+       • src/lib/utils/is-moment-input.js
+       • src/lib/utils/is-leap-year.js
+       • src/lib/utils/index-of.js
+       • src/lib/utils/hooks.js
+     📄 Files WITHOUT ExportNamedDeclaration (showing 10):
+       • package.js
+       • moment.js
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+
+   EmptyStatement:
+     📄 Files WITH EmptyStatement (showing 10):
+       • moment.js
+       • min/tests.js
+       • min/moment-with-locales.js
+       • min/locales.js
+       • meteor/moment.js
+       • locale/zh-tw.js
+       • locale/zh-mo.js
+       • locale/zh-hk.js
+       • locale/zh-cn.js
+       • locale/yo.js
+     📄 Files WITHOUT EmptyStatement (showing 10):
+       • package.js
+       • moment.d.ts
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typings/moment.d.ts
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+
+   BreakStatement:
+     📄 Files WITH BreakStatement (showing 10):
+       • moment.js
+       • scripts/locales.js
+       • min/tests.js
+       • min/moment-with-locales.js
+       • min/locales.js
+       • meteor/moment.js
+       • locale/mr.js
+       • locale/fi.js
+       • src/locale/mr.js
+       • src/locale/fi.js
+     📄 Files WITHOUT BreakStatement (showing 10):
+       • package.js
+       • moment.d.ts
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typings/moment.d.ts
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+
+   SwitchStatement:
+     📄 Files WITH SwitchStatement (showing 10):
+       • moment.js
+       • scripts/locales.js
+       • min/tests.js
+       • min/moment-with-locales.js
+       • min/locales.js
+       • meteor/moment.js
+       • locale/zh-tw.js
+       • locale/zh-mo.js
+       • locale/zh-hk.js
+       • locale/zh-cn.js
+     📄 Files WITHOUT SwitchStatement (showing 10):
+       • package.js
+       • moment.d.ts
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typings/moment.d.ts
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+
+   ForInStatement:
+     📄 Files WITH ForInStatement (showing 10):
+       • moment.js
+       • min/tests.js
+       • min/moment-with-locales.js
+       • meteor/moment.js
+       • benchmarks/isObjectEmpty.js
+       • src/lib/utils/keys.js
+       • src/lib/utils/is-object-empty.js
+       • src/lib/utils/extend.js
+       • src/lib/utils/deprecate.js
+       • src/lib/locale/set.js
+     📄 Files WITHOUT ForInStatement (showing 10):
+       • package.js
+       • moment.d.ts
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typings/moment.d.ts
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+
+   TSLiteralType:
+     📄 Files WITH TSLiteralType (showing 2):
+       • moment.d.ts
+       • ts3.1-typings/moment.d.ts
+     📄 Files WITHOUT TSLiteralType (showing 10):
+       • package.js
+       • moment.js
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+
+   TSBooleanKeyword:
+     📄 Files WITH TSBooleanKeyword (showing 3):
+       • moment.d.ts
+       • ts3.1-typings/moment.d.ts
+       • ts3.1-typing-tests/moment-tests.ts
+     📄 Files WITHOUT TSBooleanKeyword (showing 10):
+       • package.js
+       • moment.js
+       • ender.js
+       • Gruntfile.js
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+       • tasks/update_index.js
+
+   ExportDefaultDeclaration:
+     📄 Files WITH ExportDefaultDeclaration (showing 10):
+       • src/moment.js
+       • src/locale/zh-tw.js
+       • src/locale/zh-mo.js
+       • src/locale/zh-hk.js
+       • src/locale/zh-cn.js
+       • src/locale/yo.js
+       • src/locale/x-pseudo.js
+       • src/locale/vi.js
+       • src/locale/uz.js
+       • src/locale/uz-latn.js
+     📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
+       • package.js
+       • moment.js
+       • moment.d.ts
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typings/moment.d.ts
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+
+   TSDeclareFunction:
+     📄 Files WITH TSDeclareFunction (showing 2):
+       • moment.d.ts
+       • ts3.1-typings/moment.d.ts
+     📄 Files WITHOUT TSDeclareFunction (showing 10):
+       • package.js
+       • moment.js
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+
+   TSUnionType:
+     📄 Files WITH TSUnionType (showing 4):
+       • moment.d.ts
+       • ts3.1-typings/moment.d.ts
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+     📄 Files WITHOUT TSUnionType (showing 10):
+       • package.js
+       • moment.js
+       • ender.js
+       • Gruntfile.js
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+       • tasks/update_index.js
+       • tasks/transpile.js
+
+   TSArrayType:
+     📄 Files WITH TSArrayType (showing 2):
+       • moment.d.ts
+       • ts3.1-typings/moment.d.ts
+     📄 Files WITHOUT TSArrayType (showing 10):
+       • package.js
+       • moment.js
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+
+   ExportSpecifier:
+     📄 Files WITH ExportSpecifier (showing 10):
+       • src/lib/utils/some.js
+       • src/lib/utils/keys.js
+       • src/lib/utils/index-of.js
+       • src/lib/utils/hooks.js
+       • src/lib/locale/ordinal.js
+       • src/lib/locale/locale.js
+       • src/lib/parse/regex.js
+       • src/lib/format/format.js
+       • src/lib/units/year.js
+       • src/lib/units/units.js
+     📄 Files WITHOUT ExportSpecifier (showing 10):
+       • package.js
+       • moment.js
+       • moment.d.ts
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typings/moment.d.ts
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+
+   TSQualifiedName:
+     📄 Files WITH TSQualifiedName (showing 4):
+       • moment.d.ts
+       • ts3.1-typings/moment.d.ts
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+     📄 Files WITHOUT TSQualifiedName (showing 10):
+       • package.js
+       • moment.js
+       • ender.js
+       • Gruntfile.js
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+       • tasks/update_index.js
+       • tasks/transpile.js
+
+   SequenceExpression:
+     📄 Files WITH SequenceExpression (showing 10):
+       • moment.js
+       • min/tests.js
+       • min/moment-with-locales.js
+       • meteor/moment.js
+       • src/lib/format/format.js
+       • src/lib/units/era.js
+       • src/lib/create/from-string.js
+       • src/test/locale/ku-kmr.js
+       • src/test/locale/ko.js
+       • src/test/locale/ja.js
+     📄 Files WITHOUT SequenceExpression (showing 10):
+       • package.js
+       • moment.d.ts
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typings/moment.d.ts
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+
+   TSTypeAliasDeclaration:
+     📄 Files WITH TSTypeAliasDeclaration (showing 2):
+       • moment.d.ts
+       • ts3.1-typings/moment.d.ts
+     📄 Files WITHOUT TSTypeAliasDeclaration (showing 10):
+       • package.js
+       • moment.js
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+
+   TSInterfaceDeclaration:
+     📄 Files WITH TSInterfaceDeclaration (showing 2):
+       • moment.d.ts
+       • ts3.1-typings/moment.d.ts
+     📄 Files WITHOUT TSInterfaceDeclaration (showing 10):
+       • package.js
+       • moment.js
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+
+   TSInterfaceBody:
+     📄 Files WITH TSInterfaceBody (showing 2):
+       • moment.d.ts
+       • ts3.1-typings/moment.d.ts
+     📄 Files WITHOUT TSInterfaceBody (showing 10):
+       • package.js
+       • moment.js
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+
+   TSAnyKeyword:
+     📄 Files WITH TSAnyKeyword (showing 2):
+       • moment.d.ts
+       • ts3.1-typings/moment.d.ts
+     📄 Files WITHOUT TSAnyKeyword (showing 10):
+       • package.js
+       • moment.js
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+
+   TryStatement:
+     📄 Files WITH TryStatement (showing 10):
+       • moment.js
+       • min/tests.js
+       • min/moment-with-locales.js
+       • meteor/moment.js
+       • meteor/export.js
+       • src/lib/locale/locales.js
+       • src/test/moment/now.js
+       • src/test/moment/is_valid.js
+       • src/test/moment/create.js
+       • src/test/moment/calendar.js
+     📄 Files WITHOUT TryStatement (showing 10):
+       • package.js
+       • moment.d.ts
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typings/moment.d.ts
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+
+   TSFunctionType:
+     📄 Files WITH TSFunctionType (showing 2):
+       • moment.d.ts
+       • ts3.1-typings/moment.d.ts
+     📄 Files WITHOUT TSFunctionType (showing 10):
+       • package.js
+       • moment.js
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+
+   WhileStatement:
+     📄 Files WITH WhileStatement (showing 10):
+       • moment.js
+       • min/tests.js
+       • min/moment-with-locales.js
+       • min/locales.js
+       • meteor/moment.js
+       • benchmarks/zeroFill.js
+       • locale/lb.js
+       • src/locale/lb.js
+       • src/lib/locale/locales.js
+       • src/lib/format/format.js
+     📄 Files WITHOUT WhileStatement (showing 10):
+       • package.js
+       • moment.d.ts
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typings/moment.d.ts
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+
+   TSVoidKeyword:
+     📄 Files WITH TSVoidKeyword (showing 3):
+       • moment.d.ts
+       • ts3.1-typings/moment.d.ts
+       • typing-tests/moment-tests.ts
+     📄 Files WITHOUT TSVoidKeyword (showing 10):
+       • package.js
+       • moment.js
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+       • tasks/update_index.js
+
+   TSParenthesizedType:
+     📄 Files WITH TSParenthesizedType (showing 2):
+       • moment.d.ts
+       • ts3.1-typings/moment.d.ts
+     📄 Files WITHOUT TSParenthesizedType (showing 10):
+       • package.js
+       • moment.js
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+
+   CatchClause:
+     📄 Files WITH CatchClause (showing 7):
+       • moment.js
+       • min/tests.js
+       • min/moment-with-locales.js
+       • meteor/moment.js
+       • meteor/export.js
+       • src/lib/locale/locales.js
+       • src/test/moment/is_valid.js
+     📄 Files WITHOUT CatchClause (showing 10):
+       • package.js
+       • moment.d.ts
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typings/moment.d.ts
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+
+   TSNullKeyword:
+     📄 Files WITH TSNullKeyword (showing 2):
+       • ts3.1-typings/moment.d.ts
+       • ts3.1-typing-tests/moment-tests.ts
+     📄 Files WITHOUT TSNullKeyword (showing 10):
+       • package.js
+       • moment.js
+       • moment.d.ts
+       • ender.js
+       • Gruntfile.js
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+
+   TSInterfaceHeritage:
+     📄 Files WITH TSInterfaceHeritage (showing 2):
+       • moment.d.ts
+       • ts3.1-typings/moment.d.ts
+     📄 Files WITHOUT TSInterfaceHeritage (showing 10):
+       • package.js
+       • moment.js
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+
+   TSTypePredicate:
+     📄 Files WITH TSTypePredicate (showing 2):
+       • moment.d.ts
+       • ts3.1-typings/moment.d.ts
+     📄 Files WITHOUT TSTypePredicate (showing 10):
+       • package.js
+       • moment.js
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+
+   TSUndefinedKeyword:
+     📄 Files WITH TSUndefinedKeyword (showing 1):
+       • ts3.1-typings/moment.d.ts
+     📄 Files WITHOUT TSUndefinedKeyword (showing 10):
+       • package.js
+       • moment.js
+       • moment.d.ts
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+
+   TSModuleDeclaration:
+     📄 Files WITH TSModuleDeclaration (showing 2):
+       • moment.d.ts
+       • ts3.1-typings/moment.d.ts
+     📄 Files WITHOUT TSModuleDeclaration (showing 10):
+       • package.js
+       • moment.js
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+
+   TSModuleBlock:
+     📄 Files WITH TSModuleBlock (showing 2):
+       • moment.d.ts
+       • ts3.1-typings/moment.d.ts
+     📄 Files WITHOUT TSModuleBlock (showing 10):
+       • package.js
+       • moment.js
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+
+   TSIndexSignature:
+     📄 Files WITH TSIndexSignature (showing 2):
+       • moment.d.ts
+       • ts3.1-typings/moment.d.ts
+     📄 Files WITHOUT TSIndexSignature (showing 10):
+       • package.js
+       • moment.js
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+
+   RestElement:
+     📄 Files WITH RestElement (showing 2):
+       • moment.d.ts
+       • ts3.1-typings/moment.d.ts
+     📄 Files WITHOUT RestElement (showing 10):
+       • package.js
+       • moment.js
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+
+   TSTypeLiteral:
+     📄 Files WITH TSTypeLiteral (showing 2):
+       • moment.d.ts
+       • ts3.1-typings/moment.d.ts
+     📄 Files WITHOUT TSTypeLiteral (showing 10):
+       • package.js
+       • moment.js
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+
+   TSExportAssignment:
+     📄 Files WITH TSExportAssignment (showing 2):
+       • moment.d.ts
+       • ts3.1-typings/moment.d.ts
+     📄 Files WITHOUT TSExportAssignment (showing 10):
+       • package.js
+       • moment.js
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+
+   TSTupleType:
+     📄 Files WITH TSTupleType (showing 2):
+       • ts3.1-typings/moment.d.ts
+       • ts3.1-typing-tests/moment-tests.ts
+     📄 Files WITHOUT TSTupleType (showing 10):
+       • package.js
+       • moment.js
+       • moment.d.ts
+       • ender.js
+       • Gruntfile.js
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+
+   TSImportEqualsDeclaration:
+     📄 Files WITH TSImportEqualsDeclaration (showing 2):
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+     📄 Files WITHOUT TSImportEqualsDeclaration (showing 10):
+       • package.js
+       • moment.js
+       • moment.d.ts
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typings/moment.d.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+
+   TSExternalModuleReference:
+     📄 Files WITH TSExternalModuleReference (showing 2):
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+     📄 Files WITHOUT TSExternalModuleReference (showing 10):
+       • package.js
+       • moment.js
+       • moment.d.ts
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typings/moment.d.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
+       • templates/default.js
+
+   TSNamespaceExportDeclaration:
+     📄 Files WITH TSNamespaceExportDeclaration (showing 1):
+       • ts3.1-typings/moment.d.ts
+     📄 Files WITHOUT TSNamespaceExportDeclaration (showing 10):
+       • package.js
+       • moment.js
+       • moment.d.ts
+       • ender.js
+       • Gruntfile.js
+       • ts3.1-typing-tests/moment-tests.ts
+       • typing-tests/moment-tests.ts
+       • templates/test-header.js
+       • templates/locale-header.js
+       • templates/empty.js
 
 ============================================================
 ✅ Analysis complete!

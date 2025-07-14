@@ -1,11 +1,12 @@
 AST Analysis Report for ramda
-Generated on: 2025-07-13T03:17:29.414Z
+Generated on: 2025-07-14T01:42:26.463Z
 Repository: sample-repos/ramda
 ================================================================================
 
 🔍 Analyzing JavaScript/TypeScript files in: /Users/camchenry/workspace/ast-analysis/sample-repos/ramda
 
-📁 Found 404 files to analyze...
+📁 Found 683 files to analyze...
+
 
 
 ============================================================
@@ -13,103 +14,1115 @@ Repository: sample-repos/ramda
 ============================================================
 
 📁 FILE STATISTICS:
-   Total files found: 404
-   Successfully parsed: 404
+   Total files found: 683
+   Successfully parsed: 683
    Failed to parse: 0
-   Total file size: 394.2 KB
+   Total file size: 740.8 KB
 
 🌳 NODE STATISTICS:
-   Total nodes: 27,781
-   Average nodes per file: 69
-   Average file size: 999.0 B
+   Total nodes: 101,009
+   Average nodes per file: 148
+   Average file size: 1.1 KB
 
 📋 ALL NODE TYPES (BY FILE PRESENCE):
-   Program                         404 files (100.0%) -      404 total (1.45%)
-   Identifier                      402 files ( 99.5%) -   10,558 total (38.00%)
-   Literal                         397 files ( 98.3%) -    2,752 total (9.91%)
-   CallExpression                  382 files ( 94.6%) -    1,662 total (5.98%)
-   ExportDefaultDeclaration        368 files ( 91.1%) -      368 total (1.32%)
-   BlockStatement                  358 files ( 88.6%) -    1,098 total (3.95%)
-   ReturnStatement                 348 files ( 86.1%) -      804 total (2.89%)
-   VariableDeclaration             344 files ( 85.1%) -      786 total (2.83%)
-   VariableDeclarator              344 files ( 85.1%) -      796 total (2.87%)
-   ImportDeclaration               327 files ( 80.9%) -      757 total (2.72%)
-   ImportDefaultSpecifier          327 files ( 80.9%) -      757 total (2.72%)
-   FunctionExpression              313 files ( 77.5%) -      575 total (2.07%)
-   MemberExpression                263 files ( 65.1%) -    1,895 total (6.82%)
-   BinaryExpression                187 files ( 46.3%) -      577 total (2.08%)
-   ExpressionStatement             166 files ( 41.1%) -      621 total (2.24%)
-   AssignmentExpression            157 files ( 38.9%) -      486 total (1.75%)
-   ArrayExpression                 122 files ( 30.2%) -      202 total (0.73%)
-   IfStatement                     108 files ( 26.7%) -      245 total (0.88%)
-   FunctionDeclaration             104 files ( 25.7%) -      136 total (0.49%)
-   UnaryExpression                  91 files ( 22.5%) -      179 total (0.64%)
-   ConditionalExpression            82 files ( 20.3%) -      151 total (0.54%)
-   LogicalExpression                78 files ( 19.3%) -      148 total (0.53%)
-   ObjectExpression                 73 files ( 18.1%) -      180 total (0.65%)
-   WhileStatement                   70 files ( 17.3%) -       79 total (0.28%)
-   ThisExpression                   61 files ( 15.1%) -      294 total (1.06%)
-   NewExpression                    55 files ( 13.6%) -       77 total (0.28%)
-   Property                         43 files ( 10.6%) -      342 total (1.23%)
-   ParenthesizedExpression          40 files (  9.9%) -       69 total (0.25%)
-   ThrowStatement                   20 files (  5.0%) -       23 total (0.08%)
-   ForInStatement                   19 files (  4.7%) -       22 total (0.08%)
-   SwitchStatement                  14 files (  3.5%) -       16 total (0.06%)
-   SwitchCase                       14 files (  3.5%) -      126 total (0.45%)
-   ForStatement                      7 files (  1.7%) -        8 total (0.03%)
-   BreakStatement                    5 files (  1.2%) -        9 total (0.03%)
-   Unknown                           4 files (  1.0%) -       26 total (0.09%)
-   ObjectPattern                     2 files (  0.5%) -        3 total (0.01%)
-   ArrowFunctionExpression           2 files (  0.5%) -        3 total (0.01%)
-   ExportAllDeclaration              1 files (  0.2%) -        1 total (0.00%)
-   TryStatement                      1 files (  0.2%) -        1 total (0.00%)
-   CatchClause                       1 files (  0.2%) -        1 total (0.00%)
-   ExportNamedDeclaration            1 files (  0.2%) -      272 total (0.98%)
-   ExportSpecifier                   1 files (  0.2%) -      272 total (0.98%)
+   Program                         683 files (100.0%) -      683 total (0.68%)
+   Identifier                      681 files ( 99.7%) -   34,278 total (33.94%)
+   Literal                         676 files ( 99.0%) -   16,309 total (16.15%)
+   CallExpression                  661 files ( 96.8%) -   10,983 total (10.87%)
+   BlockStatement                  637 files ( 93.3%) -    3,363 total (3.33%)
+   VariableDeclaration             622 files ( 91.1%) -    2,691 total (2.66%)
+   VariableDeclarator              622 files ( 91.1%) -    2,714 total (2.69%)
+   FunctionExpression              592 files ( 86.7%) -    2,661 total (2.63%)
+   MemberExpression                539 files ( 78.9%) -    6,710 total (6.64%)
+   ReturnStatement                 488 files ( 71.4%) -    1,324 total (1.31%)
+   ExpressionStatement             445 files ( 65.2%) -    5,281 total (5.23%)
+   ExportDefaultDeclaration        368 files ( 53.9%) -      368 total (0.36%)
+   ArrayExpression                 328 files ( 48.0%) -    2,617 total (2.59%)
+   ImportDeclaration               327 files ( 47.9%) -      757 total (0.75%)
+   ImportDefaultSpecifier          327 files ( 47.9%) -      757 total (0.75%)
+   BinaryExpression                303 files ( 44.4%) -    1,126 total (1.11%)
+   AssignmentExpression            222 files ( 32.5%) -      745 total (0.74%)
+   ObjectExpression                213 files ( 31.2%) -    1,455 total (1.44%)
+   UnaryExpression                 198 files ( 29.0%) -      511 total (0.51%)
+   Property                        196 files ( 28.7%) -    2,692 total (2.67%)
+   FunctionDeclaration             156 files ( 22.8%) -      252 total (0.25%)
+   NewExpression                   123 files ( 18.0%) -      444 total (0.44%)
+   IfStatement                     119 files ( 17.4%) -      280 total (0.28%)
+   LogicalExpression               114 files ( 16.7%) -      208 total (0.21%)
+   ConditionalExpression           104 files ( 15.2%) -      193 total (0.19%)
+   ThisExpression                  100 files ( 14.6%) -      427 total (0.42%)
+   WhileStatement                   72 files ( 10.5%) -       82 total (0.08%)
+   ParenthesizedExpression          71 files ( 10.4%) -      136 total (0.13%)
+   ObjectPattern                    33 files (  4.8%) -       37 total (0.04%)
+   ThrowStatement                   23 files (  3.4%) -       28 total (0.03%)
+   ForInStatement                   20 files (  2.9%) -       25 total (0.02%)
+   Unknown                          18 files (  2.6%) -      117 total (0.12%)
+   ArrowFunctionExpression          15 files (  2.2%) -       23 total (0.02%)
+   SwitchStatement                  15 files (  2.2%) -       17 total (0.02%)
+   SwitchCase                       15 files (  2.2%) -      128 total (0.13%)
+   ForStatement                      8 files (  1.2%) -        9 total (0.01%)
+   BreakStatement                    5 files (  0.7%) -        9 total (0.01%)
+   TryStatement                      3 files (  0.4%) -        7 total (0.01%)
+   CatchClause                       3 files (  0.4%) -        7 total (0.01%)
+   TemplateLiteral                   2 files (  0.3%) -        2 total (0.00%)
+   TemplateElement                   2 files (  0.3%) -        5 total (0.00%)
+   SpreadElement                     2 files (  0.3%) -        2 total (0.00%)
+   ExportAllDeclaration              1 files (  0.1%) -        1 total (0.00%)
+   ExportNamedDeclaration            1 files (  0.1%) -      272 total (0.27%)
+   ExportSpecifier                   1 files (  0.1%) -      272 total (0.27%)
+   RestElement                       1 files (  0.1%) -        1 total (0.00%)
 
 📝 ALL NODE TYPES (BY TOTAL COUNT):
-   Identifier                       10,558 (38.00%) in 402 files (99.5%)
-   Literal                           2,752 (9.91%) in 397 files (98.3%)
-   MemberExpression                  1,895 (6.82%) in 263 files (65.1%)
-   CallExpression                    1,662 (5.98%) in 382 files (94.6%)
-   BlockStatement                    1,098 (3.95%) in 358 files (88.6%)
-   ReturnStatement                     804 (2.89%) in 348 files (86.1%)
-   VariableDeclarator                  796 (2.87%) in 344 files (85.1%)
-   VariableDeclaration                 786 (2.83%) in 344 files (85.1%)
-   ImportDeclaration                   757 (2.72%) in 327 files (80.9%)
-   ImportDefaultSpecifier              757 (2.72%) in 327 files (80.9%)
-   ExpressionStatement                 621 (2.24%) in 166 files (41.1%)
-   BinaryExpression                    577 (2.08%) in 187 files (46.3%)
-   FunctionExpression                  575 (2.07%) in 313 files (77.5%)
-   AssignmentExpression                486 (1.75%) in 157 files (38.9%)
-   Program                             404 (1.45%) in 404 files (100.0%)
-   ExportDefaultDeclaration            368 (1.32%) in 368 files (91.1%)
-   Property                            342 (1.23%) in 43 files (10.6%)
-   ThisExpression                      294 (1.06%) in 61 files (15.1%)
-   ExportNamedDeclaration              272 (0.98%) in 1 files (0.2%)
-   ExportSpecifier                     272 (0.98%) in 1 files (0.2%)
-   IfStatement                         245 (0.88%) in 108 files (26.7%)
-   ArrayExpression                     202 (0.73%) in 122 files (30.2%)
-   ObjectExpression                    180 (0.65%) in 73 files (18.1%)
-   UnaryExpression                     179 (0.64%) in 91 files (22.5%)
-   ConditionalExpression               151 (0.54%) in 82 files (20.3%)
-   LogicalExpression                   148 (0.53%) in 78 files (19.3%)
-   FunctionDeclaration                 136 (0.49%) in 104 files (25.7%)
-   SwitchCase                          126 (0.45%) in 14 files (3.5%)
-   WhileStatement                       79 (0.28%) in 70 files (17.3%)
-   NewExpression                        77 (0.28%) in 55 files (13.6%)
-   ParenthesizedExpression              69 (0.25%) in 40 files (9.9%)
-   Unknown                              26 (0.09%) in 4 files (1.0%)
-   ThrowStatement                       23 (0.08%) in 20 files (5.0%)
-   ForInStatement                       22 (0.08%) in 19 files (4.7%)
-   SwitchStatement                      16 (0.06%) in 14 files (3.5%)
-   BreakStatement                        9 (0.03%) in 5 files (1.2%)
-   ForStatement                          8 (0.03%) in 7 files (1.7%)
-   ObjectPattern                         3 (0.01%) in 2 files (0.5%)
-   ArrowFunctionExpression               3 (0.01%) in 2 files (0.5%)
-   ExportAllDeclaration                  1 (0.00%) in 1 files (0.2%)
-   TryStatement                          1 (0.00%) in 1 files (0.2%)
-   CatchClause                           1 (0.00%) in 1 files (0.2%)
+   Identifier                       34,278 (33.94%) in 681 files (99.7%)
+   Literal                          16,309 (16.15%) in 676 files (99.0%)
+   CallExpression                   10,983 (10.87%) in 661 files (96.8%)
+   MemberExpression                  6,710 (6.64%) in 539 files (78.9%)
+   ExpressionStatement               5,281 (5.23%) in 445 files (65.2%)
+   BlockStatement                    3,363 (3.33%) in 637 files (93.3%)
+   VariableDeclarator                2,714 (2.69%) in 622 files (91.1%)
+   Property                          2,692 (2.67%) in 196 files (28.7%)
+   VariableDeclaration               2,691 (2.66%) in 622 files (91.1%)
+   FunctionExpression                2,661 (2.63%) in 592 files (86.7%)
+   ArrayExpression                   2,617 (2.59%) in 328 files (48.0%)
+   ObjectExpression                  1,455 (1.44%) in 213 files (31.2%)
+   ReturnStatement                   1,324 (1.31%) in 488 files (71.4%)
+   BinaryExpression                  1,126 (1.11%) in 303 files (44.4%)
+   ImportDeclaration                   757 (0.75%) in 327 files (47.9%)
+   ImportDefaultSpecifier              757 (0.75%) in 327 files (47.9%)
+   AssignmentExpression                745 (0.74%) in 222 files (32.5%)
+   Program                             683 (0.68%) in 683 files (100.0%)
+   UnaryExpression                     511 (0.51%) in 198 files (29.0%)
+   NewExpression                       444 (0.44%) in 123 files (18.0%)
+   ThisExpression                      427 (0.42%) in 100 files (14.6%)
+   ExportDefaultDeclaration            368 (0.36%) in 368 files (53.9%)
+   IfStatement                         280 (0.28%) in 119 files (17.4%)
+   ExportNamedDeclaration              272 (0.27%) in 1 files (0.1%)
+   ExportSpecifier                     272 (0.27%) in 1 files (0.1%)
+   FunctionDeclaration                 252 (0.25%) in 156 files (22.8%)
+   LogicalExpression                   208 (0.21%) in 114 files (16.7%)
+   ConditionalExpression               193 (0.19%) in 104 files (15.2%)
+   ParenthesizedExpression             136 (0.13%) in 71 files (10.4%)
+   SwitchCase                          128 (0.13%) in 15 files (2.2%)
+   Unknown                             117 (0.12%) in 18 files (2.6%)
+   WhileStatement                       82 (0.08%) in 72 files (10.5%)
+   ObjectPattern                        37 (0.04%) in 33 files (4.8%)
+   ThrowStatement                       28 (0.03%) in 23 files (3.4%)
+   ForInStatement                       25 (0.02%) in 20 files (2.9%)
+   ArrowFunctionExpression              23 (0.02%) in 15 files (2.2%)
+   SwitchStatement                      17 (0.02%) in 15 files (2.2%)
+   ForStatement                          9 (0.01%) in 8 files (1.2%)
+   BreakStatement                        9 (0.01%) in 5 files (0.7%)
+   TryStatement                          7 (0.01%) in 3 files (0.4%)
+   CatchClause                           7 (0.01%) in 3 files (0.4%)
+   TemplateElement                       5 (0.00%) in 2 files (0.3%)
+   TemplateLiteral                       2 (0.00%) in 2 files (0.3%)
+   SpreadElement                         2 (0.00%) in 2 files (0.3%)
+   ExportAllDeclaration                  1 (0.00%) in 1 files (0.1%)
+   RestElement                           1 (0.00%) in 1 files (0.1%)
+
+📁 FILE EXAMPLES BY NODE TYPE:
+
+   Identifier:
+     📄 Files WITH Identifier (showing 10):
+       • rollup.config.js
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+       • source/xor.js
+     📄 Files WITHOUT Identifier (showing 2):
+       • mod.ts
+       • source/__.js
+
+   Literal:
+     📄 Files WITH Literal (showing 10):
+       • rollup.config.js
+       • mod.ts
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+     📄 Files WITHOUT Literal (showing 7):
+       • source/internal/_promap.js
+       • source/internal/_pipeP.js
+       • source/internal/_pipe.js
+       • source/internal/_identity.js
+       • source/internal/_has.js
+       • source/internal/_complement.js
+       • source/internal/_arrayFromIterator.js
+
+   CallExpression:
+     📄 Files WITH CallExpression (showing 10):
+       • rollup.config.js
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+       • source/xor.js
+     📄 Files WITHOUT CallExpression (showing 10):
+       • mod.ts
+       • source/index.js
+       • source/__.js
+       • source/T.js
+       • source/F.js
+       • lib/sauce/windows.js
+       • lib/sauce/server.js
+       • lib/sauce/linux.js
+       • lib/sauce/ios.js
+       • lib/sauce/apple.js
+
+   MemberExpression:
+     📄 Files WITH MemberExpression (showing 10):
+       • rollup.config.js
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+       • source/without.js
+     📄 Files WITHOUT MemberExpression (showing 10):
+       • mod.ts
+       • source/xor.js
+       • source/whereEq.js
+       • source/when.js
+       • source/update.js
+       • source/until.js
+       • source/unnest.js
+       • source/unless.js
+       • source/uniq.js
+       • source/unionWith.js
+
+   ExpressionStatement:
+     📄 Files WITH ExpressionStatement (showing 10):
+       • rollup.config.js
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+       • source/without.js
+     📄 Files WITHOUT ExpressionStatement (showing 10):
+       • mod.ts
+       • source/xor.js
+       • source/whereEq.js
+       • source/whereAny.js
+       • source/where.js
+       • source/when.js
+       • source/view.js
+       • source/update.js
+       • source/unwind.js
+       • source/unnest.js
+
+   BlockStatement:
+     📄 Files WITH BlockStatement (showing 10):
+       • rollup.config.js
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+       • source/xor.js
+       • source/without.js
+     📄 Files WITHOUT BlockStatement (showing 10):
+       • mod.ts
+       • scripts/addModulePackageScope.js
+       • source/unnest.js
+       • source/uniq.js
+       • source/union.js
+       • source/toUpper.js
+       • source/toPairs.js
+       • source/toLower.js
+       • source/tail.js
+       • source/sum.js
+
+   VariableDeclarator:
+     📄 Files WITH VariableDeclarator (showing 10):
+       • rollup.config.js
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+       • source/xor.js
+     📄 Files WITHOUT VariableDeclarator (showing 10):
+       • mod.ts
+       • source/pipe.js
+       • source/index.js
+       • source/compose.js
+       • source/__.js
+       • lib/sauce/windows.js
+       • lib/sauce/server.js
+       • lib/sauce/linux.js
+       • lib/sauce/ios.js
+       • lib/sauce/apple.js
+
+   Property:
+     📄 Files WITH Property (showing 10):
+       • rollup.config.js
+       • scripts/partialBuild.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/view.js
+       • source/traverse.js
+       • source/sequence.js
+       • source/over.js
+       • source/keys.js
+       • source/descendNatural.js
+     📄 Files WITHOUT Property (showing 10):
+       • mod.ts
+       • scripts/bookmarklet.tmpl.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+       • source/xor.js
+       • source/without.js
+       • source/whereEq.js
+       • source/whereAny.js
+
+   VariableDeclaration:
+     📄 Files WITH VariableDeclaration (showing 10):
+       • rollup.config.js
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+       • source/xor.js
+     📄 Files WITHOUT VariableDeclaration (showing 10):
+       • mod.ts
+       • source/pipe.js
+       • source/index.js
+       • source/compose.js
+       • source/__.js
+       • lib/sauce/windows.js
+       • lib/sauce/server.js
+       • lib/sauce/linux.js
+       • lib/sauce/ios.js
+       • lib/sauce/apple.js
+
+   FunctionExpression:
+     📄 Files WITH FunctionExpression (showing 10):
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+       • source/xor.js
+       • source/without.js
+       • source/whereEq.js
+     📄 Files WITHOUT FunctionExpression (showing 10):
+       • rollup.config.js
+       • mod.ts
+       • scripts/addModulePackageScope.js
+       • source/unnest.js
+       • source/uniq.js
+       • source/union.js
+       • source/toUpper.js
+       • source/toPairs.js
+       • source/toLower.js
+       • source/tail.js
+
+   ArrayExpression:
+     📄 Files WITH ArrayExpression (showing 10):
+       • rollup.config.js
+       • scripts/partialBuild.js
+       • source/zip.js
+       • source/xprod.js
+       • source/valuesIn.js
+       • source/values.js
+       • source/useWith.js
+       • source/unwind.js
+       • source/uniqWith.js
+       • source/uniqBy.js
+     📄 Files WITHOUT ArrayExpression (showing 10):
+       • mod.ts
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/xor.js
+       • source/without.js
+       • source/whereEq.js
+       • source/whereAny.js
+
+   ObjectExpression:
+     📄 Files WITH ObjectExpression (showing 10):
+       • rollup.config.js
+       • scripts/partialBuild.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/zipObj.js
+       • source/view.js
+       • source/traverse.js
+       • source/sequence.js
+       • source/reduceBy.js
+       • source/pickBy.js
+     📄 Files WITHOUT ObjectExpression (showing 10):
+       • mod.ts
+       • scripts/bookmarklet.tmpl.js
+       • source/zipWith.js
+       • source/zip.js
+       • source/xprod.js
+       • source/xor.js
+       • source/without.js
+       • source/whereEq.js
+       • source/whereAny.js
+       • source/where.js
+
+   ReturnStatement:
+     📄 Files WITH ReturnStatement (showing 10):
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+       • source/xor.js
+       • source/without.js
+       • source/whereEq.js
+     📄 Files WITHOUT ReturnStatement (showing 10):
+       • rollup.config.js
+       • mod.ts
+       • scripts/addModulePackageScope.js
+       • source/unnest.js
+       • source/uniq.js
+       • source/union.js
+       • source/toUpper.js
+       • source/toPairs.js
+       • source/toLower.js
+       • source/tail.js
+
+   BinaryExpression:
+     📄 Files WITH BinaryExpression (showing 10):
+       • rollup.config.js
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+       • source/xor.js
+       • source/without.js
+     📄 Files WITHOUT BinaryExpression (showing 10):
+       • mod.ts
+       • scripts/addModulePackageScope.js
+       • source/whereEq.js
+       • source/whereAny.js
+       • source/where.js
+       • source/when.js
+       • source/view.js
+       • source/valuesIn.js
+       • source/update.js
+       • source/until.js
+
+   ImportDeclaration:
+     📄 Files WITH ImportDeclaration (showing 10):
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+       • source/xor.js
+       • source/without.js
+       • source/whereEq.js
+       • source/whereAny.js
+       • source/where.js
+       • source/when.js
+     📄 Files WITHOUT ImportDeclaration (showing 10):
+       • rollup.config.js
+       • mod.ts
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/index.js
+       • source/__.js
+       • source/T.js
+       • source/F.js
+
+   ImportDefaultSpecifier:
+     📄 Files WITH ImportDefaultSpecifier (showing 10):
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+       • source/xor.js
+       • source/without.js
+       • source/whereEq.js
+       • source/whereAny.js
+       • source/where.js
+       • source/when.js
+     📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
+       • rollup.config.js
+       • mod.ts
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/index.js
+       • source/__.js
+       • source/T.js
+       • source/F.js
+
+   AssignmentExpression:
+     📄 Files WITH AssignmentExpression (showing 10):
+       • rollup.config.js
+       • scripts/bookmarklet.tmpl.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+       • source/without.js
+       • source/valuesIn.js
+       • source/values.js
+       • source/useWith.js
+     📄 Files WITHOUT AssignmentExpression (showing 10):
+       • mod.ts
+       • scripts/partialBuild.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/xor.js
+       • source/whereEq.js
+       • source/whereAny.js
+       • source/where.js
+       • source/when.js
+       • source/view.js
+
+   Program:
+     📄 Files WITH Program (showing 10):
+       • rollup.config.js
+       • mod.ts
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+     📄 Files WITHOUT Program: (all files contain this node type)
+
+   UnaryExpression:
+     📄 Files WITH UnaryExpression (showing 10):
+       • scripts/bookmarklet.tmpl.js
+       • source/xor.js
+       • source/where.js
+       • source/unwind.js
+       • source/until.js
+       • source/uniqWith.js
+       • source/uncurryN.js
+       • source/type.js
+       • source/trim.js
+       • source/traverse.js
+     📄 Files WITHOUT UnaryExpression (showing 10):
+       • rollup.config.js
+       • mod.ts
+       • scripts/partialBuild.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+       • source/without.js
+
+   NewExpression:
+     📄 Files WITH NewExpression (showing 10):
+       • rollup.config.js
+       • scripts/beforePublish.js
+       • source/without.js
+       • source/uniqBy.js
+       • source/trim.js
+       • source/times.js
+       • source/test.js
+       • source/splitEvery.js
+       • source/range.js
+       • source/pipe.js
+     📄 Files WITHOUT NewExpression (showing 10):
+       • mod.ts
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/addModulePackageScope.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+       • source/xor.js
+       • source/whereEq.js
+
+   ThisExpression:
+     📄 Files WITH ThisExpression (showing 10):
+       • source/view.js
+       • source/useWith.js
+       • source/uncurryN.js
+       • source/tryCatch.js
+       • source/thunkify.js
+       • source/pipeWith.js
+       • source/once.js
+       • source/nAry.js
+       • source/memoizeWith.js
+       • source/map.js
+     📄 Files WITHOUT ThisExpression (showing 10):
+       • rollup.config.js
+       • mod.ts
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+
+   ExportDefaultDeclaration:
+     📄 Files WITH ExportDefaultDeclaration (showing 10):
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+       • source/xor.js
+       • source/without.js
+       • source/whereEq.js
+       • source/whereAny.js
+       • source/where.js
+       • source/when.js
+     📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
+       • rollup.config.js
+       • mod.ts
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/index.js
+       • test/zipWith.js
+       • test/zipObj.js
+       • test/zip.js
+
+   IfStatement:
+     📄 Files WITH IfStatement (showing 10):
+       • rollup.config.js
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • source/whereAny.js
+       • source/where.js
+       • source/unwind.js
+       • source/uniqWith.js
+       • source/uniqBy.js
+       • source/transpose.js
+       • source/times.js
+     📄 Files WITHOUT IfStatement (showing 10):
+       • mod.ts
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+       • source/xor.js
+       • source/without.js
+       • source/whereEq.js
+
+   ExportNamedDeclaration:
+     📄 Files WITH ExportNamedDeclaration (showing 1):
+       • source/index.js
+     📄 Files WITHOUT ExportNamedDeclaration (showing 10):
+       • rollup.config.js
+       • mod.ts
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+
+   ExportSpecifier:
+     📄 Files WITH ExportSpecifier (showing 1):
+       • source/index.js
+     📄 Files WITHOUT ExportSpecifier (showing 10):
+       • rollup.config.js
+       • mod.ts
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+
+   FunctionDeclaration:
+     📄 Files WITH FunctionDeclaration (showing 10):
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • source/pipe.js
+       • source/min.js
+       • source/max.js
+       • source/dissocPath.js
+       • source/compose.js
+       • source/applySpec.js
+       • test/whereEq.js
+       • test/whereAny.js
+     📄 Files WITHOUT FunctionDeclaration (showing 10):
+       • rollup.config.js
+       • mod.ts
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+       • source/xor.js
+       • source/without.js
+
+   LogicalExpression:
+     📄 Files WITH LogicalExpression (showing 10):
+       • source/whereAny.js
+       • source/where.js
+       • source/unwind.js
+       • source/unfold.js
+       • source/uncurryN.js
+       • source/trim.js
+       • source/times.js
+       • source/takeWhile.js
+       • source/takeLastWhile.js
+       • source/swap.js
+     📄 Files WITHOUT LogicalExpression (showing 10):
+       • rollup.config.js
+       • mod.ts
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+
+   ConditionalExpression:
+     📄 Files WITH ConditionalExpression (showing 10):
+       • source/when.js
+       • source/unless.js
+       • source/uncurryN.js
+       • source/type.js
+       • source/trim.js
+       • source/traverse.js
+       • source/transduce.js
+       • source/takeLast.js
+       • source/take.js
+       • source/swap.js
+     📄 Files WITHOUT ConditionalExpression (showing 10):
+       • rollup.config.js
+       • mod.ts
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+
+   ParenthesizedExpression:
+     📄 Files WITH ParenthesizedExpression (showing 10):
+       • scripts/bookmarklet.tmpl.js
+       • source/xprod.js
+       • source/unwind.js
+       • source/trim.js
+       • source/traverse.js
+       • source/splitWhenever.js
+       • source/sequence.js
+       • source/range.js
+       • source/of.js
+       • source/min.js
+     📄 Files WITHOUT ParenthesizedExpression (showing 10):
+       • rollup.config.js
+       • mod.ts
+       • scripts/partialBuild.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xor.js
+       • source/without.js
+
+   SwitchCase:
+     📄 Files WITH SwitchCase (showing 10):
+       • source/nAry.js
+       • source/map.js
+       • source/identical.js
+       • source/dissocPath.js
+       • source/constructN.js
+       • test/memoizeWith.js
+       • lib/sauce/ie8-shim.js
+       • source/internal/_toString.js
+       • source/internal/_indexOf.js
+       • source/internal/_equals.js
+     📄 Files WITHOUT SwitchCase (showing 10):
+       • rollup.config.js
+       • mod.ts
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+
+   Unknown:
+     📄 Files WITH Unknown (showing 10):
+       • scripts/beforePublish.js
+       • test/type.js
+       • test/toString.js
+       • test/test.js
+       • test/replace.js
+       • test/match.js
+       • test/is.js
+       • test/index.js
+       • test/identical.js
+       • test/hasPath.js
+     📄 Files WITHOUT Unknown (showing 10):
+       • rollup.config.js
+       • mod.ts
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/addModulePackageScope.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+       • source/xor.js
+
+   WhileStatement:
+     📄 Files WITH WhileStatement (showing 10):
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+       • source/values.js
+       • source/useWith.js
+       • source/until.js
+       • source/uniqWith.js
+       • source/uniqBy.js
+       • source/unfold.js
+     📄 Files WITHOUT WhileStatement (showing 10):
+       • rollup.config.js
+       • mod.ts
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/xor.js
+       • source/without.js
+       • source/whereEq.js
+       • source/whereAny.js
+
+   ObjectPattern:
+     📄 Files WITH ObjectPattern (showing 10):
+       • rollup.config.js
+       • scripts/addModulePackageScope.js
+       • test/without.js
+       • test/unnest.js
+       • test/uniqBy.js
+       • test/uniq.js
+       • test/union.js
+       • test/traverse.js
+       • test/toString.js
+       • test/symmetricDifference.js
+     📄 Files WITHOUT ObjectPattern (showing 10):
+       • mod.ts
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+       • source/xor.js
+       • source/without.js
+
+   ThrowStatement:
+     📄 Files WITH ThrowStatement (showing 10):
+       • source/times.js
+       • source/test.js
+       • source/splitEvery.js
+       • source/range.js
+       • source/pipe.js
+       • source/nAry.js
+       • source/invoker.js
+       • source/constructN.js
+       • source/concat.js
+       • source/compose.js
+     📄 Files WITHOUT ThrowStatement (showing 10):
+       • rollup.config.js
+       • mod.ts
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+
+   ForInStatement:
+     📄 Files WITH ForInStatement (showing 10):
+       • source/whereAny.js
+       • source/where.js
+       • source/valuesIn.js
+       • source/toPairsIn.js
+       • source/pickBy.js
+       • source/omit.js
+       • source/mergeWithKey.js
+       • source/keysIn.js
+       • source/keys.js
+       • source/evolve.js
+     📄 Files WITHOUT ForInStatement (showing 10):
+       • rollup.config.js
+       • mod.ts
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+
+   ArrowFunctionExpression:
+     📄 Files WITH ArrowFunctionExpression (showing 10):
+       • scripts/partialBuild.js
+       • test/traverse.js
+       • test/takeWhile.js
+       • test/symmetricDifference.js
+       • test/splitWhenever.js
+       • test/reduceBy.js
+       • test/indexBy.js
+       • test/identical.js
+       • test/groupBy.js
+       • test/dropWhile.js
+     📄 Files WITHOUT ArrowFunctionExpression (showing 10):
+       • rollup.config.js
+       • mod.ts
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+       • source/xor.js
+
+   SwitchStatement:
+     📄 Files WITH SwitchStatement (showing 10):
+       • source/nAry.js
+       • source/map.js
+       • source/identical.js
+       • source/dissocPath.js
+       • source/constructN.js
+       • test/memoizeWith.js
+       • lib/sauce/ie8-shim.js
+       • source/internal/_toString.js
+       • source/internal/_indexOf.js
+       • source/internal/_equals.js
+     📄 Files WITHOUT SwitchStatement (showing 10):
+       • rollup.config.js
+       • mod.ts
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+
+   ForStatement:
+     📄 Files WITH ForStatement (showing 8):
+       • source/without.js
+       • source/splitWhenever.js
+       • source/intersection.js
+       • source/difference.js
+       • test/reduce.js
+       • lib/sauce/ie8-shim.js
+       • source/internal/_path.js
+       • source/internal/_clone.js
+     📄 Files WITHOUT ForStatement (showing 10):
+       • rollup.config.js
+       • mod.ts
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+
+   BreakStatement:
+     📄 Files WITH BreakStatement (showing 5):
+       • source/reduceRight.js
+       • source/internal/_xreduceBy.js
+       • source/internal/_xReduce.js
+       • source/internal/_xArrayReduce.js
+       • source/internal/_equals.js
+     📄 Files WITHOUT BreakStatement (showing 10):
+       • rollup.config.js
+       • mod.ts
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+
+   TryStatement:
+     📄 Files WITH TryStatement (showing 3):
+       • source/tryCatch.js
+       • test/prop.js
+       • test/equals.js
+     📄 Files WITHOUT TryStatement (showing 10):
+       • rollup.config.js
+       • mod.ts
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+
+   CatchClause:
+     📄 Files WITH CatchClause (showing 3):
+       • source/tryCatch.js
+       • test/prop.js
+       • test/equals.js
+     📄 Files WITHOUT CatchClause (showing 10):
+       • rollup.config.js
+       • mod.ts
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+
+   TemplateElement:
+     📄 Files WITH TemplateElement (showing 2):
+       • test/identical.js
+       • test/shared/Pair.js
+     📄 Files WITHOUT TemplateElement (showing 10):
+       • rollup.config.js
+       • mod.ts
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+
+   TemplateLiteral:
+     📄 Files WITH TemplateLiteral (showing 2):
+       • test/identical.js
+       • test/shared/Pair.js
+     📄 Files WITHOUT TemplateLiteral (showing 10):
+       • rollup.config.js
+       • mod.ts
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+
+   SpreadElement:
+     📄 Files WITH SpreadElement (showing 2):
+       • test/dropRepeatsBy.js
+       • test/curry.js
+     📄 Files WITHOUT SpreadElement (showing 10):
+       • rollup.config.js
+       • mod.ts
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+
+   ExportAllDeclaration:
+     📄 Files WITH ExportAllDeclaration (showing 1):
+       • mod.ts
+     📄 Files WITHOUT ExportAllDeclaration (showing 10):
+       • rollup.config.js
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
+       • source/xor.js
+
+   RestElement:
+     📄 Files WITH RestElement (showing 1):
+       • test/dropRepeatsBy.js
+     📄 Files WITHOUT RestElement (showing 10):
+       • rollup.config.js
+       • mod.ts
+       • scripts/partialBuild.js
+       • scripts/bookmarklet.tmpl.js
+       • scripts/beforePublish.js
+       • scripts/addModulePackageScope.js
+       • source/zipWith.js
+       • source/zipObj.js
+       • source/zip.js
+       • source/xprod.js
 
 ============================================================
 ✅ Analysis complete!

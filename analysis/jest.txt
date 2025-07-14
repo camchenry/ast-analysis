@@ -1,11 +1,12 @@
 AST Analysis Report for jest
-Generated on: 2025-07-13T03:17:13.503Z
+Generated on: 2025-07-14T01:41:59.720Z
 Repository: sample-repos/jest
 ================================================================================
 
 🔍 Analyzing JavaScript/TypeScript files in: /Users/camchenry/workspace/ast-analysis/sample-repos/jest
 
 📁 Found 1834 files to analyze...
+
 
 
 ============================================================
@@ -70,15 +71,15 @@ Repository: sample-repos/jest
    TSPropertySignature             175 files (  9.5%) -    1,878 total (0.34%)
    TSUnknownKeyword                174 files (  9.5%) -    1,038 total (0.19%)
    TSNumberKeyword                 172 files (  9.4%) -    1,070 total (0.19%)
-   ClassBody                       170 files (  9.3%) -      309 total (0.06%)
    TSTypeLiteral                   170 files (  9.3%) -      522 total (0.09%)
+   ClassBody                       170 files (  9.3%) -      309 total (0.06%)
    TSBooleanKeyword                165 files (  9.0%) -      752 total (0.14%)
    TSVoidKeyword                   164 files (  8.9%) -    1,297 total (0.24%)
    ClassDeclaration                157 files (  8.6%) -      253 total (0.05%)
    ForOfStatement                  154 files (  8.4%) -      418 total (0.08%)
    MethodDefinition                154 files (  8.4%) -    1,066 total (0.19%)
-   ThisExpression                  145 files (  7.9%) -    3,416 total (0.62%)
    TSAsExpression                  145 files (  7.9%) -    1,134 total (0.21%)
+   ThisExpression                  145 files (  7.9%) -    3,416 total (0.62%)
    TSTypeAliasDeclaration          141 files (  7.7%) -      555 total (0.10%)
    TSLiteralType                   140 files (  7.6%) -      637 total (0.12%)
    TSFunctionType                  126 files (  6.9%) -      640 total (0.12%)
@@ -125,8 +126,8 @@ Repository: sample-repos/jest
    MetaProperty                     15 files (  0.8%) -       30 total (0.01%)
    ContinueStatement                14 files (  0.8%) -       22 total (0.00%)
    TSParameterProperty              14 files (  0.8%) -       25 total (0.00%)
-   TSNeverKeyword                   13 files (  0.7%) -       26 total (0.00%)
    ForInStatement                   13 files (  0.7%) -       14 total (0.00%)
+   TSNeverKeyword                   13 files (  0.7%) -       26 total (0.00%)
    TSSymbolKeyword                  12 files (  0.7%) -       28 total (0.01%)
    TSCallSignatureDeclaration       11 files (  0.6%) -       41 total (0.01%)
    TSNamedTupleMember               10 files (  0.5%) -       90 total (0.02%)
@@ -137,9 +138,9 @@ Repository: sample-repos/jest
    TSDeclareFunction                 7 files (  0.4%) -       20 total (0.00%)
    TSConstructorType                 7 files (  0.4%) -       11 total (0.00%)
    PrivateIdentifier                 7 files (  0.4%) -       53 total (0.01%)
+   TSRestType                        6 files (  0.3%) -       10 total (0.00%)
    TSMappedType                      6 files (  0.3%) -       11 total (0.00%)
    TSInferType                       6 files (  0.3%) -       22 total (0.00%)
-   TSRestType                        6 files (  0.3%) -       10 total (0.00%)
    Hashbang                          5 files (  0.3%) -        5 total (0.00%)
    SequenceExpression                5 files (  0.3%) -       13 total (0.00%)
    Decorator                         4 files (  0.2%) -        4 total (0.00%)
@@ -285,8 +286,8 @@ Repository: sample-repos/jest
    ExportAllDeclaration                 11 (0.00%) in 9 files (0.5%)
    TSConstructorType                    11 (0.00%) in 7 files (0.4%)
    TSMappedType                         11 (0.00%) in 6 files (0.3%)
-   TSEnumMember                         10 (0.00%) in 2 files (0.1%)
    TSRestType                           10 (0.00%) in 6 files (0.3%)
+   TSEnumMember                         10 (0.00%) in 2 files (0.1%)
    JSXAttribute                          9 (0.00%) in 2 files (0.1%)
    JSXExpressionContainer                7 (0.00%) in 2 files (0.1%)
    Hashbang                              5 (0.00%) in 5 files (0.3%)
@@ -304,6 +305,3127 @@ Repository: sample-repos/jest
    TSConstructSignatureDeclaration        1 (0.00%) in 1 files (0.1%)
    TSSatisfiesExpression                 1 (0.00%) in 1 files (0.1%)
    ImportAttribute                       1 (0.00%) in 1 files (0.1%)
+
+📁 FILE EXAMPLES BY NODE TYPE:
+
+   Identifier:
+     📄 Files WITH Identifier (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+     📄 Files WITHOUT Identifier (showing 10):
+       • examples/snapshot/Link.js
+       • examples/snapshot/Clock.js
+       • examples/react-testing-library/CheckboxWithLabel.js
+       • examples/react-native/index.js
+       • examples/react-native/Intro.js
+       • examples/react/CheckboxWithLabel.js
+       • e2e/resolve-async/some-other-file.js
+       • e2e/require-main-after-create-require/empty.js
+       • e2e/native-esm/reexport.js
+       • e2e/native-esm/dynamicImport.js
+
+   CallExpression:
+     📄 Files WITH CallExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+     📄 Files WITHOUT CallExpression (showing 10):
+       • jest.config.ts.mjs
+       • jest.config.ci.mjs
+       • website/i18n.js
+       • examples/typescript/utils.ts
+       • examples/typescript/sum.ts
+       • examples/typescript/sum.js
+       • examples/typescript/Memory.ts
+       • examples/snapshot/Link.js
+       • examples/snapshot/Clock.js
+       • examples/react-testing-library/CheckboxWithLabel.js
+
+   Literal:
+     📄 Files WITH Literal (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+     📄 Files WITHOUT Literal (showing 10):
+       • examples/typescript/sum.ts
+       • examples/typescript/sum.js
+       • examples/snapshot/Link.js
+       • examples/snapshot/Clock.js
+       • examples/react-testing-library/CheckboxWithLabel.js
+       • examples/react-native/index.js
+       • examples/react-native/Intro.js
+       • examples/react/CheckboxWithLabel.js
+       • examples/getting-started/sum.js
+       • e2e/typescript-coverage/covered.ts
+
+   MemberExpression:
+     📄 Files WITH MemberExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+     📄 Files WITHOUT MemberExpression (showing 10):
+       • jest.config.ci.mjs
+       • examples/typescript/sum.ts
+       • examples/typescript/sub.ts
+       • examples/typescript/CheckboxWithLabel.tsx
+       • examples/snapshot/Link.js
+       • examples/snapshot/Clock.js
+       • examples/react-testing-library/CheckboxWithLabel.js
+       • examples/react-native/index.js
+       • examples/react-native/Intro.js
+       • examples/react/CheckboxWithLabel.js
+
+   ExpressionStatement:
+     📄 Files WITH ExpressionStatement (showing 10):
+       • yarn.config.cjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+       • scripts/remove-examples.mjs
+       • scripts/mapCoverage.mjs
+     📄 Files WITHOUT ExpressionStatement (showing 10):
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • examples/typescript/utils.ts
+       • examples/typescript/sum.ts
+       • examples/typescript/sub.ts
+       • examples/snapshot/Link.js
+       • examples/snapshot/Clock.js
+       • examples/react-testing-library/CheckboxWithLabel.js
+
+   Property:
+     📄 Files WITH Property (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/verifyPnP.mjs
+     📄 Files WITHOUT Property (showing 10):
+       • scripts/watch.mjs
+       • scripts/checkChangelog.mjs
+       • examples/typescript/utils.ts
+       • examples/typescript/sum.ts
+       • examples/typescript/sum.js
+       • examples/typescript/sub.ts
+       • examples/typescript/calc.ts
+       • examples/typescript/Memory.ts
+       • examples/timer/timerGame.js
+       • examples/timer/infiniteTimerGame.js
+
+   BlockStatement:
+     📄 Files WITH BlockStatement (showing 10):
+       • yarn.config.cjs
+       • eslint.config.mjs
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+       • scripts/mapCoverage.mjs
+       • scripts/lintTs.mjs
+     📄 Files WITHOUT BlockStatement (showing 10):
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • babel.config.js
+       • scripts/remove-examples.mjs
+       • website/i18n.js
+       • website/babel.config.js
+       • packages/babel-preset-jest/index.js
+       • examples/typescript/sum.ts
+       • examples/typescript/sub.ts
+
+   VariableDeclarator:
+     📄 Files WITH VariableDeclarator (showing 10):
+       • yarn.config.cjs
+       • jest.config.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+     📄 Files WITHOUT VariableDeclarator (showing 10):
+       • jest.config.ts.mjs
+       • jest.config.ci.mjs
+       • website/babel.config.js
+       • examples/typescript/utils.ts
+       • examples/typescript/sum.js
+       • examples/typescript/Memory.ts
+       • examples/timer/timerGame.js
+       • examples/timer/infiniteTimerGame.js
+       • examples/snapshot/Link.js
+       • examples/snapshot/Clock.js
+
+   VariableDeclaration:
+     📄 Files WITH VariableDeclaration (showing 10):
+       • yarn.config.cjs
+       • jest.config.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+     📄 Files WITHOUT VariableDeclaration (showing 10):
+       • jest.config.ts.mjs
+       • jest.config.ci.mjs
+       • website/babel.config.js
+       • examples/typescript/utils.ts
+       • examples/typescript/sum.js
+       • examples/typescript/Memory.ts
+       • examples/timer/timerGame.js
+       • examples/timer/infiniteTimerGame.js
+       • examples/snapshot/Link.js
+       • examples/snapshot/Clock.js
+
+   TSTypeAnnotation:
+     📄 Files WITH TSTypeAnnotation (showing 10):
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • examples/typescript/sum.ts
+       • examples/typescript/sub.ts
+       • examples/typescript/calc.ts
+       • examples/typescript/Memory.ts
+       • examples/typescript/CheckboxWithLabel.tsx
+       • examples/expect-extend/toBeWithinRange.ts
+       • examples/angular/app.component.ts
+       • examples/angular/app.component.spec.ts
+     📄 Files WITHOUT TSTypeAnnotation (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+
+   ArrowFunctionExpression:
+     📄 Files WITH ArrowFunctionExpression (showing 10):
+       • yarn.config.cjs
+       • eslint.config.mjs
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyOldTs.mjs
+       • scripts/mapCoverage.mjs
+       • scripts/lintTs.mjs
+       • scripts/cleanE2e.mjs
+     📄 Files WITHOUT ArrowFunctionExpression (showing 10):
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • babel.config.js
+       • scripts/verifyPnP.mjs
+       • scripts/remove-examples.mjs
+       • scripts/checkChangelog.mjs
+       • website/i18n.js
+       • website/babel.config.js
+       • examples/typescript/utils.ts
+
+   ObjectExpression:
+     📄 Files WITH ObjectExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+     📄 Files WITHOUT ObjectExpression (showing 10):
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/checkChangelog.mjs
+       • scripts/build.mjs
+       • website/fetchSupporters.js
+       • examples/typescript/utils.ts
+       • examples/typescript/sum.ts
+       • examples/typescript/sum.js
+       • examples/typescript/sub.ts
+       • examples/typescript/calc.ts
+       • examples/typescript/Memory.ts
+
+   TSTypeReference:
+     📄 Files WITH TSTypeReference (showing 10):
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • examples/typescript/calc.ts
+       • examples/typescript/CheckboxWithLabel.tsx
+       • examples/expect-extend/toBeWithinRange.ts
+       • examples/angular/app.component.ts
+       • examples/angular/app.component.spec.ts
+       • e2e/coverage-remapping/covered.ts
+       • e2e/babel-plugin-jest-hoist/entry.ts
+       • e2e/__tests__/wrongEnv.test.ts
+     📄 Files WITHOUT TSTypeReference (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+
+   ArrayExpression:
+     📄 Files WITH ArrayExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+     📄 Files WITHOUT ArrayExpression (showing 10):
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/remove-examples.mjs
+       • scripts/checkChangelog.mjs
+       • scripts/build.mjs
+       • examples/typescript/utils.ts
+       • examples/typescript/sum.ts
+       • examples/typescript/sum.js
+       • examples/typescript/sub.ts
+       • examples/typescript/calc.ts
+
+   Unknown:
+     📄 Files WITH Unknown (showing 10):
+       • yarn.config.cjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+       • scripts/remove-examples.mjs
+       • scripts/mapCoverage.mjs
+       • scripts/lintTs.mjs
+     📄 Files WITHOUT Unknown (showing 10):
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/cleanE2e.mjs
+       • website/i18n.js
+       • website/babel.config.js
+       • packages/babel-preset-jest/index.js
+       • examples/typescript/utils.ts
+
+   TemplateElement:
+     📄 Files WITH TemplateElement (showing 10):
+       • yarn.config.cjs
+       • eslint.config.mjs
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+       • scripts/remove-examples.mjs
+       • scripts/lintTs.mjs
+       • scripts/checkCopyrightHeaders.mjs
+       • scripts/checkChangelog.mjs
+     📄 Files WITHOUT TemplateElement (showing 10):
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • babel.config.js
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/mapCoverage.mjs
+       • scripts/cleanE2e.mjs
+       • website/i18n.js
+       • website/babel.config.js
+
+   BinaryExpression:
+     📄 Files WITH BinaryExpression (showing 10):
+       • yarn.config.cjs
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/lintTs.mjs
+       • scripts/checkCopyrightHeaders.mjs
+       • scripts/checkChangelog.mjs
+       • scripts/bundleTs.mjs
+       • scripts/buildUtils.mjs
+       • scripts/buildTs.mjs
+       • scripts/build.mjs
+     📄 Files WITHOUT BinaryExpression (showing 10):
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+       • scripts/remove-examples.mjs
+
+   AssignmentExpression:
+     📄 Files WITH AssignmentExpression (showing 10):
+       • yarn.config.cjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/mapCoverage.mjs
+       • scripts/lintTs.mjs
+       • scripts/checkChangelog.mjs
+       • scripts/bundleTs.mjs
+     📄 Files WITHOUT AssignmentExpression (showing 10):
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+       • scripts/remove-examples.mjs
+       • scripts/cleanE2e.mjs
+       • scripts/checkCopyrightHeaders.mjs
+       • examples/typescript/utils.ts
+
+   TSTypeParameterInstantiation:
+     📄 Files WITH TSTypeParameterInstantiation (showing 10):
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • examples/typescript/calc.ts
+       • examples/typescript/CheckboxWithLabel.tsx
+       • examples/expect-extend/toBeWithinRange.ts
+       • examples/angular/app.component.spec.ts
+       • e2e/__tests__/wrongEnv.test.ts
+       • e2e/__tests__/watchModeUpdateSnapshot.test.ts
+       • e2e/__tests__/watchModePatterns.test.ts
+       • e2e/__tests__/watchModeOnlyFailed.test.ts
+     📄 Files WITHOUT TSTypeParameterInstantiation (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+
+   ThisExpression:
+     📄 Files WITH ThisExpression (showing 10):
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/buildUtils.mjs
+       • examples/typescript/Memory.ts
+       • examples/expect-extend/toBeWithinRange.ts
+       • examples/angular/app.component.ts
+       • e2e/test-environment-run-script/EnvUsingRunScript.js
+       • e2e/test-environment-esm/EnvESM.js
+       • e2e/test-environment-async/TestEnvironment.js
+       • e2e/test-environment/EsmDefaultEnvironment.js
+       • e2e/test-environment/DocblockPragmasEnvironment.js
+     📄 Files WITHOUT ThisExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+
+   ReturnStatement:
+     📄 Files WITH ReturnStatement (showing 10):
+       • eslint.config.mjs
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • scripts/mapCoverage.mjs
+       • scripts/checkCopyrightHeaders.mjs
+       • scripts/buildUtils.mjs
+       • scripts/buildTs.mjs
+       • scripts/babel-plugin-jest-native-globals.js
+       • website/fetchSupporters.js
+       • website/docusaurus.config.js
+     📄 Files WITHOUT ReturnStatement (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • babel.config.js
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+       • scripts/remove-examples.mjs
+
+   ImportSpecifier:
+     📄 Files WITH ImportSpecifier (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+       • scripts/remove-examples.mjs
+       • scripts/mapCoverage.mjs
+       • scripts/lintTs.mjs
+     📄 Files WITHOUT ImportSpecifier (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.ci.mjs
+       • babel.config.js
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/checkChangelog.mjs
+       • scripts/babel-plugin-jest-native-globals.js
+       • website/i18n.js
+       • website/fetchSupporters.js
+       • website/docusaurus.config.js
+
+   TSStringKeyword:
+     📄 Files WITH TSStringKeyword (showing 10):
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • examples/typescript/CheckboxWithLabel.tsx
+       • examples/angular/app.component.ts
+       • e2e/stack-trace-source-maps-with-coverage/lib.ts
+       • e2e/__tests__/wrongEnv.test.ts
+       • e2e/__tests__/workerForceExit.test.ts
+       • e2e/__tests__/watchModeUpdateSnapshot.test.ts
+       • e2e/__tests__/watchModePatterns.test.ts
+       • e2e/__tests__/watchModeOnlyFailed.test.ts
+     📄 Files WITHOUT TSStringKeyword (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+
+   IfStatement:
+     📄 Files WITH IfStatement (showing 10):
+       • yarn.config.cjs
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/lintTs.mjs
+       • scripts/checkCopyrightHeaders.mjs
+       • scripts/checkChangelog.mjs
+       • scripts/bundleTs.mjs
+       • scripts/buildUtils.mjs
+     📄 Files WITHOUT IfStatement (showing 10):
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+       • scripts/remove-examples.mjs
+       • scripts/mapCoverage.mjs
+       • scripts/cleanE2e.mjs
+
+   ImportDeclaration:
+     📄 Files WITH ImportDeclaration (showing 10):
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+       • scripts/remove-examples.mjs
+     📄 Files WITHOUT ImportDeclaration (showing 10):
+       • yarn.config.cjs
+       • babel.config.js
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/babel-plugin-jest-native-globals.js
+       • website/i18n.js
+       • website/fetchSupporters.js
+       • website/docusaurus.config.js
+       • website/babel.config.js
+       • packages/babel-preset-jest/index.js
+       • examples/typescript/utils.ts
+
+   NewExpression:
+     📄 Files WITH NewExpression (showing 10):
+       • yarn.config.cjs
+       • eslint.config.mjs
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • scripts/lintTs.mjs
+       • scripts/checkCopyrightHeaders.mjs
+       • scripts/bundleTs.mjs
+       • scripts/buildUtils.mjs
+       • scripts/buildTs.mjs
+       • scripts/build.mjs
+     📄 Files WITHOUT NewExpression (showing 10):
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • babel.config.js
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+       • scripts/remove-examples.mjs
+       • scripts/mapCoverage.mjs
+
+   TemplateLiteral:
+     📄 Files WITH TemplateLiteral (showing 10):
+       • yarn.config.cjs
+       • eslint.config.mjs
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+       • scripts/remove-examples.mjs
+       • scripts/lintTs.mjs
+       • scripts/checkCopyrightHeaders.mjs
+       • scripts/checkChangelog.mjs
+     📄 Files WITHOUT TemplateLiteral (showing 10):
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • babel.config.js
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/mapCoverage.mjs
+       • scripts/cleanE2e.mjs
+       • website/i18n.js
+       • website/babel.config.js
+
+   TSPropertySignature:
+     📄 Files WITH TSPropertySignature (showing 10):
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • examples/typescript/CheckboxWithLabel.tsx
+       • e2e/stack-trace-source-maps-with-coverage/lib.ts
+       • e2e/__tests__/watchModeUpdateSnapshot.test.ts
+       • e2e/__tests__/watchModePatterns.test.ts
+       • e2e/__tests__/watchModeOnlyFailed.test.ts
+       • e2e/__tests__/readInitialOptions.test.ts
+       • e2e/__tests__/multiProjectRunner.test.ts
+       • e2e/__tests__/circularRefInBuiltInObj.test.ts
+     📄 Files WITHOUT TSPropertySignature (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+
+   Program:
+     📄 Files WITH Program (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+     📄 Files WITHOUT Program: (all files contain this node type)
+
+   LogicalExpression:
+     📄 Files WITH LogicalExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.mjs
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • scripts/watch.mjs
+       • scripts/checkCopyrightHeaders.mjs
+       • scripts/bundleTs.mjs
+       • scripts/buildUtils.mjs
+       • scripts/buildTs.mjs
+       • scripts/build.mjs
+     📄 Files WITHOUT LogicalExpression (showing 10):
+       • jest.config.ts.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+       • scripts/remove-examples.mjs
+       • scripts/mapCoverage.mjs
+       • scripts/lintTs.mjs
+
+   FunctionExpression:
+     📄 Files WITH FunctionExpression (showing 10):
+       • yarn.config.cjs
+       • e2e/runJest.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/buildUtils.mjs
+       • scripts/babel-plugin-jest-native-globals.js
+       • examples/typescript/Memory.ts
+       • examples/expect-extend/toBeWithinRange.ts
+       • examples/angular/app.component.ts
+       • e2e/worker-restart-before-send/testSequencer.js
+       • e2e/typescript-coverage/typescriptPreprocessor.js
+     📄 Files WITHOUT FunctionExpression (showing 10):
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/Utils.ts
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+       • scripts/remove-examples.mjs
+
+   AwaitExpression:
+     📄 Files WITH AwaitExpression (showing 10):
+       • e2e/runJest.ts
+       • scripts/lintTs.mjs
+       • scripts/bundleTs.mjs
+       • scripts/buildTs.mjs
+       • scripts/build.mjs
+       • examples/angular/app.component.spec.ts
+       • e2e/test-environment-circus-async/CircusAsyncHandleTestEventEnvironment.js
+       • e2e/setup-files/setup-fetchdata.js
+       • e2e/setup-files-after-env-config/setupAsyncFunction.js
+       • e2e/resolve-async/resolver.cjs
+     📄 Files WITHOUT AwaitExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+
+   ObjectPattern:
+     📄 Files WITH ObjectPattern (showing 10):
+       • yarn.config.cjs
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/lintTs.mjs
+       • scripts/bundleTs.mjs
+       • scripts/buildUtils.mjs
+       • scripts/buildTs.mjs
+       • scripts/build.mjs
+       • scripts/babel-plugin-jest-native-globals.js
+     📄 Files WITHOUT ObjectPattern (showing 10):
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+       • scripts/remove-examples.mjs
+       • scripts/mapCoverage.mjs
+
+   UnaryExpression:
+     📄 Files WITH UnaryExpression (showing 10):
+       • yarn.config.cjs
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/remove-examples.mjs
+       • scripts/lintTs.mjs
+       • scripts/checkCopyrightHeaders.mjs
+       • scripts/bundleTs.mjs
+       • scripts/buildUtils.mjs
+     📄 Files WITHOUT UnaryExpression (showing 10):
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+       • scripts/mapCoverage.mjs
+       • scripts/cleanE2e.mjs
+       • scripts/checkChangelog.mjs
+
+   TSVoidKeyword:
+     📄 Files WITH TSVoidKeyword (showing 10):
+       • e2e/runJest.ts
+       • examples/expect-extend/toBeWithinRange.ts
+       • packages/test-utils/src/ConditionalTest.ts
+       • packages/jest-watcher/src/types.ts
+       • packages/jest-watcher/src/TestWatcher.ts
+       • packages/jest-watcher/src/PatternPrompt.ts
+       • packages/jest-watcher/src/BaseWatchPlugin.ts
+       • packages/jest-util/src/setGlobal.ts
+       • packages/jest-util/src/preRunMessage.ts
+       • packages/jest-util/src/garbage-collection-utils.ts
+     📄 Files WITHOUT TSVoidKeyword (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+
+   TSAsExpression:
+     📄 Files WITH TSAsExpression (showing 10):
+       • e2e/Utils.ts
+       • e2e/__tests__/watchModeUpdateSnapshot.test.ts
+       • e2e/__tests__/nativeEsm.test.ts
+       • e2e/__tests__/jsonReporter.test.ts
+       • packages/jest-util/src/isPromise.ts
+       • packages/jest-util/src/installCommonGlobals.ts
+       • packages/pretty-format/src/index.ts
+       • packages/pretty-format/src/collections.ts
+       • packages/jest-validate/src/validateCLIOptions.ts
+       • packages/jest-validate/src/condition.ts
+     📄 Files WITHOUT TSAsExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+
+   TSNumberKeyword:
+     📄 Files WITH TSNumberKeyword (showing 10):
+       • e2e/runJest.ts
+       • examples/typescript/sum.ts
+       • examples/typescript/sub.ts
+       • examples/typescript/calc.ts
+       • examples/typescript/Memory.ts
+       • examples/expect-extend/toBeWithinRange.ts
+       • e2e/typescript-coverage/covered.ts
+       • e2e/stack-trace-source-maps-with-coverage/lib.ts
+       • e2e/native-esm-typescript/double.ts
+       • e2e/coverage-remapping/covered.ts
+     📄 Files WITHOUT TSNumberKeyword (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+
+   MethodDefinition:
+     📄 Files WITH MethodDefinition (showing 10):
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/buildUtils.mjs
+       • examples/typescript/Memory.ts
+       • examples/angular/app.component.ts
+       • e2e/worker-restart-before-send/testSequencer.js
+       • e2e/test-environment-run-script/EnvUsingRunScript.js
+       • e2e/test-environment-circus/CircusHandleTestEventEnvironment.js
+       • e2e/test-environment-esm/EnvESM.js
+       • e2e/test-environment-async/TestEnvironment.js
+       • e2e/test-environment/EsmDefaultEnvironment.js
+     📄 Files WITHOUT MethodDefinition (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+
+   ExportNamedDeclaration:
+     📄 Files WITH ExportNamedDeclaration (showing 10):
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • scripts/buildUtils.mjs
+       • examples/typescript/utils.ts
+       • examples/module-mock/fruit.js
+       • examples/manual-mocks/utils.js
+       • examples/async/user.js
+       • examples/angular/app.module.ts
+       • examples/angular/app.component.ts
+       • e2e/typescript-coverage/covered.ts
+     📄 Files WITHOUT ExportNamedDeclaration (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+
+   TSUnknownKeyword:
+     📄 Files WITH TSUnknownKeyword (showing 10):
+       • examples/expect-extend/toBeWithinRange.ts
+       • e2e/__tests__/circularRefInBuiltInObj.test.ts
+       • packages/test-utils/src/alignedAnsiStyleSerializer.ts
+       • packages/jest-watcher/src/types.ts
+       • packages/jest-util/src/setGlobal.ts
+       • packages/jest-util/src/isPromise.ts
+       • packages/jest-util/src/invariant.ts
+       • packages/jest-util/src/installCommonGlobals.ts
+       • packages/jest-util/src/garbage-collection-utils.ts
+       • packages/jest-util/src/createProcessObject.ts
+     📄 Files WITHOUT TSUnknownKeyword (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   ParenthesizedExpression:
+     📄 Files WITH ParenthesizedExpression (showing 10):
+       • eslint.config.mjs
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • scripts/buildUtils.mjs
+       • website/docusaurus.config.js
+       • examples/typescript/CheckboxWithLabel.tsx
+       • examples/manual-mocks/FileSummarizer.js
+       • examples/async/request.js
+       • examples/angular/app.component.spec.ts
+       • e2e/worker-restart-before-send/testSequencer.js
+     📄 Files WITHOUT ParenthesizedExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • babel.config.js
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+       • scripts/remove-examples.mjs
+
+   TSQualifiedName:
+     📄 Files WITH TSQualifiedName (showing 10):
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • examples/typescript/CheckboxWithLabel.tsx
+       • e2e/__tests__/nativeEsm.test.ts
+       • packages/test-utils/src/config.ts
+       • packages/test-globals/src/index.ts
+       • packages/jest-watcher/src/types.ts
+       • packages/jest-watcher/src/PatternPrompt.ts
+       • packages/jest-watcher/src/BaseWatchPlugin.ts
+       • packages/jest-util/src/setGlobal.ts
+     📄 Files WITHOUT TSQualifiedName (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+
+   TSUnionType:
+     📄 Files WITH TSUnionType (showing 10):
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • examples/typescript/calc.ts
+       • e2e/babel-plugin-jest-hoist/types.ts
+       • e2e/__tests__/readInitialOptions.test.ts
+       • packages/test-globals/src/index.ts
+       • packages/jest-watcher/src/types.ts
+       • packages/jest-watcher/src/JestHooks.ts
+       • packages/jest-watcher/src/BaseWatchPlugin.ts
+       • packages/jest-util/src/setGlobal.ts
+     📄 Files WITHOUT TSUnionType (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+
+   ImportDefaultSpecifier:
+     📄 Files WITH ImportDefaultSpecifier (showing 10):
+       • jest.config.ts.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+       • scripts/remove-examples.mjs
+       • scripts/mapCoverage.mjs
+     📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
+       • yarn.config.cjs
+       • jest.config.mjs
+       • babel.config.js
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/babel-plugin-jest-native-globals.js
+       • website/i18n.js
+       • website/fetchSupporters.js
+       • website/docusaurus.config.js
+       • website/babel.config.js
+       • packages/babel-preset-jest/index.js
+
+   TSBooleanKeyword:
+     📄 Files WITH TSBooleanKeyword (showing 10):
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/coverage-remapping/covered.ts
+       • packages/test-utils/src/ConditionalTest.ts
+       • packages/jest-watcher/src/types.ts
+       • packages/jest-watcher/src/TestWatcher.ts
+       • packages/jest-watcher/src/JestHooks.ts
+       • packages/jest-watcher/src/BaseWatchPlugin.ts
+       • packages/jest-util/src/requireOrImportModule.ts
+       • packages/jest-util/src/isInteractive.ts
+     📄 Files WITHOUT TSBooleanKeyword (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+
+   ConditionalExpression:
+     📄 Files WITH ConditionalExpression (showing 10):
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • scripts/lintTs.mjs
+       • scripts/checkChangelog.mjs
+       • scripts/buildUtils.mjs
+       • website/docusaurus.config.js
+       • examples/typescript/CheckboxWithLabel.tsx
+       • examples/jquery/displayUser.js
+       • e2e/worker-restart-before-send/testSequencer.js
+       • e2e/test-environment-circus/CircusHandleTestEventEnvironment.js
+     📄 Files WITHOUT ConditionalExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+
+   SpreadElement:
+     📄 Files WITH SpreadElement (showing 10):
+       • yarn.config.cjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • scripts/lintTs.mjs
+       • scripts/checkCopyrightHeaders.mjs
+       • scripts/bundleTs.mjs
+       • scripts/buildUtils.mjs
+       • scripts/buildTs.mjs
+     📄 Files WITHOUT SpreadElement (showing 10):
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • babel.config.js
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+       • scripts/remove-examples.mjs
+       • scripts/mapCoverage.mjs
+       • scripts/cleanE2e.mjs
+
+   TSFunctionType:
+     📄 Files WITH TSFunctionType (showing 10):
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • packages/test-utils/src/ConditionalTest.ts
+       • packages/jest-watcher/src/types.ts
+       • packages/jest-watcher/src/PatternPrompt.ts
+       • packages/jest-util/src/globsToMatcher.ts
+       • packages/jest-util/src/ErrorWithStack.ts
+       • packages/pretty-format/src/types.ts
+       • packages/jest-validate/src/types.ts
+       • packages/jest-types/src/Global.ts
+     📄 Files WITHOUT TSFunctionType (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+
+   TSLiteralType:
+     📄 Files WITH TSLiteralType (showing 10):
+       • e2e/runJest.ts
+       • examples/typescript/calc.ts
+       • e2e/babel-plugin-jest-hoist/types.ts
+       • packages/test-globals/src/index.ts
+       • packages/jest-watcher/src/types.ts
+       • packages/jest-watcher/src/JestHooks.ts
+       • packages/jest-util/src/setGlobal.ts
+       • packages/jest-util/src/garbage-collection-utils.ts
+       • packages/pretty-format/src/types.ts
+       • packages/jest-types/src/TestResult.ts
+     📄 Files WITHOUT TSLiteralType (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+
+   ThrowStatement:
+     📄 Files WITH ThrowStatement (showing 10):
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • scripts/lintTs.mjs
+       • scripts/bundleTs.mjs
+       • scripts/buildUtils.mjs
+       • scripts/buildTs.mjs
+       • scripts/build.mjs
+       • examples/typescript/calc.ts
+       • examples/expect-extend/toBeWithinRange.ts
+       • e2e/stack-trace-source-maps-with-coverage/lib.ts
+     📄 Files WITHOUT ThrowStatement (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+
+   FunctionDeclaration:
+     📄 Files WITH FunctionDeclaration (showing 10):
+       • eslint.config.mjs
+       • e2e/runJest.ts
+       • scripts/verifyOldTs.mjs
+       • scripts/checkCopyrightHeaders.mjs
+       • scripts/buildUtils.mjs
+       • scripts/build.mjs
+       • examples/typescript/utils.ts
+       • examples/typescript/sum.js
+       • examples/typescript/CheckboxWithLabel.tsx
+       • examples/timer/timerGame.js
+     📄 Files WITHOUT FunctionDeclaration (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • babel.config.js
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/remove-examples.mjs
+
+   TSTypeAliasDeclaration:
+     📄 Files WITH TSTypeAliasDeclaration (showing 10):
+       • e2e/runJest.ts
+       • examples/typescript/calc.ts
+       • examples/typescript/CheckboxWithLabel.tsx
+       • e2e/babel-plugin-jest-hoist/types.ts
+       • e2e/__tests__/circularRefInBuiltInObj.test.ts
+       • packages/test-globals/src/index.ts
+       • packages/jest-watcher/src/types.ts
+       • packages/jest-watcher/src/TestWatcher.ts
+       • packages/jest-watcher/src/JestHooks.ts
+       • packages/jest-util/src/globsToMatcher.ts
+     📄 Files WITHOUT TSTypeAliasDeclaration (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+
+   PropertyDefinition:
+     📄 Files WITH PropertyDefinition (showing 10):
+       • examples/typescript/Memory.ts
+       • examples/angular/app.component.ts
+       • e2e/resolve-conditions/custom-env.js
+       • packages/jest-watcher/src/TestWatcher.ts
+       • packages/jest-watcher/src/PatternPrompt.ts
+       • packages/jest-watcher/src/JestHooks.ts
+       • packages/jest-watcher/src/BaseWatchPlugin.ts
+       • packages/jest-validate/src/utils.ts
+       • packages/jest-worker/src/index.ts
+       • packages/jest-worker/src/PriorityQueue.ts
+     📄 Files WITHOUT PropertyDefinition (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   TSTypeLiteral:
+     📄 Files WITH TSTypeLiteral (showing 10):
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • examples/typescript/CheckboxWithLabel.tsx
+       • e2e/__tests__/watchModeUpdateSnapshot.test.ts
+       • e2e/__tests__/watchModePatterns.test.ts
+       • e2e/__tests__/watchModeOnlyFailed.test.ts
+       • e2e/__tests__/multiProjectRunner.test.ts
+       • e2e/__tests__/circularRefInBuiltInObj.test.ts
+       • packages/jest-watcher/src/types.ts
+       • packages/jest-watcher/src/TestWatcher.ts
+     📄 Files WITHOUT TSTypeLiteral (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+
+   TSTypeQuery:
+     📄 Files WITH TSTypeQuery (showing 10):
+       • e2e/Utils.ts
+       • e2e/__tests__/watchModeNoAccess.test.ts
+       • e2e/__tests__/readInitialOptions.test.ts
+       • packages/jest-util/src/setGlobal.ts
+       • packages/jest-util/src/installCommonGlobals.ts
+       • packages/jest-util/src/garbage-collection-utils.ts
+       • packages/jest-util/src/createProcessObject.ts
+       • packages/pretty-format/src/index.ts
+       • packages/jest-types/src/Global.ts
+       • packages/jest-types/src/Config.ts
+     📄 Files WITHOUT TSTypeQuery (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+
+   ForOfStatement:
+     📄 Files WITH ForOfStatement (showing 10):
+       • yarn.config.cjs
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/mapCoverage.mjs
+       • scripts/cleanE2e.mjs
+       • scripts/checkChangelog.mjs
+       • scripts/buildUtils.mjs
+       • scripts/buildTs.mjs
+     📄 Files WITHOUT ForOfStatement (showing 10):
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+       • scripts/remove-examples.mjs
+       • scripts/lintTs.mjs
+       • scripts/checkCopyrightHeaders.mjs
+
+   TSAnyKeyword:
+     📄 Files WITH TSAnyKeyword (showing 10):
+       • e2e/runJest.ts
+       • e2e/__tests__/testRetries.test.ts
+       • e2e/__tests__/jsonReporter.test.ts
+       • packages/jest-util/src/tryRealpath.ts
+       • packages/jest-util/src/requireOrImportModule.ts
+       • packages/jest-util/src/isPromise.ts
+       • packages/jest-util/src/interopRequireDefault.ts
+       • packages/jest-util/src/installCommonGlobals.ts
+       • packages/jest-util/src/deepCyclicCopy.ts
+       • packages/jest-util/src/createProcessObject.ts
+     📄 Files WITHOUT TSAnyKeyword (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+
+   SwitchCase:
+     📄 Files WITH SwitchCase (showing 10):
+       • examples/typescript/calc.ts
+       • packages/test-utils/src/alignedAnsiStyleSerializer.ts
+       • packages/jest-util/src/convertDescriptorToString.ts
+       • packages/jest-worker/src/Farm.ts
+       • packages/jest-snapshot-utils/src/utils.ts
+       • packages/jest-reporters/src/getSummary.ts
+       • packages/jest-reporters/src/GitHubActionsReporter.ts
+       • packages/jest-reporters/src/CoverageReporter.ts
+       • packages/jest-mock/src/index.ts
+       • packages/jest-haste-map/src/ModuleMap.ts
+     📄 Files WITHOUT SwitchCase (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   ImportNamespaceSpecifier:
+     📄 Files WITH ImportNamespaceSpecifier (showing 10):
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+       • scripts/remove-examples.mjs
+       • scripts/lintTs.mjs
+       • scripts/bundleTs.mjs
+       • scripts/buildUtils.mjs
+       • scripts/buildTs.mjs
+       • scripts/build.mjs
+     📄 Files WITHOUT ImportNamespaceSpecifier (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/mapCoverage.mjs
+       • scripts/cleanE2e.mjs
+
+   ClassBody:
+     📄 Files WITH ClassBody (showing 10):
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/buildUtils.mjs
+       • examples/typescript/Memory.ts
+       • examples/angular/app.module.ts
+       • examples/angular/app.component.ts
+       • e2e/worker-restart-before-send/testSequencer.js
+       • e2e/test-environment-run-script/EnvUsingRunScript.js
+       • e2e/test-environment-circus/CircusHandleTestEventEnvironment.js
+       • e2e/test-environment-esm/EnvESM.js
+       • e2e/test-environment-async/TestEnvironment.js
+     📄 Files WITHOUT ClassBody (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+
+   TSNullKeyword:
+     📄 Files WITH TSNullKeyword (showing 10):
+       • e2e/Utils.ts
+       • packages/jest-watcher/src/types.ts
+       • packages/jest-watcher/src/BaseWatchPlugin.ts
+       • packages/pretty-format/src/types.ts
+       • packages/pretty-format/src/index.ts
+       • packages/jest-validate/src/utils.ts
+       • packages/jest-types/src/Transform.ts
+       • packages/jest-types/src/TestResult.ts
+       • packages/jest-types/src/Config.ts
+       • packages/jest-types/src/Circus.ts
+     📄 Files WITHOUT TSNullKeyword (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+
+   ExportSpecifier:
+     📄 Files WITH ExportSpecifier (showing 10):
+       • e2e/native-esm/fromCjs.mjs
+       • e2e/native-esm/deepReexport.js
+       • packages/test-utils/src/index.ts
+       • packages/jest-watcher/src/index.ts
+       • packages/jest-util/src/index.ts
+       • packages/pretty-format/src/index.ts
+       • packages/jest-validate/src/index.ts
+       • packages/jest-types/src/index.ts
+       • packages/jest-types/src/Config.ts
+       • packages/jest-worker/src/index.ts
+     📄 Files WITHOUT ExportSpecifier (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   ExportDefaultDeclaration:
+     📄 Files WITH ExportDefaultDeclaration (showing 10):
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • e2e/runJest.ts
+       • examples/typescript/sum.ts
+       • examples/typescript/sub.ts
+       • examples/typescript/calc.ts
+       • examples/typescript/Memory.ts
+       • examples/typescript/CheckboxWithLabel.tsx
+     📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
+       • yarn.config.cjs
+       • babel.config.js
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+       • scripts/remove-examples.mjs
+       • scripts/mapCoverage.mjs
+       • scripts/lintTs.mjs
+
+   TSTypeParameter:
+     📄 Files WITH TSTypeParameter (showing 10):
+       • examples/expect-extend/toBeWithinRange.ts
+       • packages/test-globals/src/index.ts
+       • packages/jest-util/src/requireOrImportModule.ts
+       • packages/jest-util/src/isPromise.ts
+       • packages/jest-util/src/isNonNullable.ts
+       • packages/jest-util/src/garbage-collection-utils.ts
+       • packages/jest-util/src/deepCyclicCopy.ts
+       • packages/pretty-format/src/index.ts
+       • packages/jest-validate/src/condition.ts
+       • packages/jest-types/src/Global.ts
+     📄 Files WITHOUT TSTypeParameter (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   ClassDeclaration:
+     📄 Files WITH ClassDeclaration (showing 10):
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/buildUtils.mjs
+       • examples/typescript/Memory.ts
+       • examples/angular/app.module.ts
+       • examples/angular/app.component.ts
+       • e2e/worker-restart-before-send/testSequencer.js
+       • e2e/test-environment-circus/CircusHandleTestEventEnvironment.js
+       • e2e/test-environment-esm/EnvESM.js
+       • e2e/test-environment-async/TestEnvironment.js
+       • e2e/test-environment/EsmDefaultEnvironment.js
+     📄 Files WITHOUT ClassDeclaration (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+
+   TSUndefinedKeyword:
+     📄 Files WITH TSUndefinedKeyword (showing 10):
+       • e2e/__tests__/readInitialOptions.test.ts
+       • packages/jest-util/src/garbage-collection-utils.ts
+       • packages/jest-util/src/convertDescriptorToString.ts
+       • packages/jest-util/src/ErrorWithStack.ts
+       • packages/pretty-format/src/types.ts
+       • packages/jest-types/src/TestResult.ts
+       • packages/jest-types/src/Global.ts
+       • packages/jest-types/src/Config.ts
+       • packages/jest-types/src/Circus.ts
+       • packages/jest-types/__typetests__/each.test.ts
+     📄 Files WITHOUT TSUndefinedKeyword (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   TSMethodSignature:
+     📄 Files WITH TSMethodSignature (showing 10):
+       • examples/expect-extend/toBeWithinRange.ts
+       • packages/jest-worker/src/types.ts
+       • packages/jest-snapshot/src/types.ts
+       • packages/jest-snapshot/src/SnapshotResolver.ts
+       • packages/jest-runner/src/types.ts
+       • packages/jest-mock/src/index.ts
+       • packages/jest-mock/__typetests__/utility-types.test.ts
+       • packages/jest-mock/__typetests__/mock-functions.test.ts
+       • packages/jest-jasmine2/src/types.ts
+       • packages/jest-haste-map/src/types.ts
+     📄 Files WITHOUT TSMethodSignature (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   TryStatement:
+     📄 Files WITH TryStatement (showing 10):
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+       • scripts/lintTs.mjs
+       • scripts/bundleTs.mjs
+       • scripts/buildTs.mjs
+       • scripts/build.mjs
+       • e2e/__tests__/testRetries.test.ts
+       • e2e/__tests__/snapshot.test.ts
+     📄 Files WITHOUT TryStatement (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/remove-examples.mjs
+       • scripts/mapCoverage.mjs
+
+   TSTypeParameterDeclaration:
+     📄 Files WITH TSTypeParameterDeclaration (showing 10):
+       • examples/expect-extend/toBeWithinRange.ts
+       • packages/test-globals/src/index.ts
+       • packages/jest-util/src/requireOrImportModule.ts
+       • packages/jest-util/src/isPromise.ts
+       • packages/jest-util/src/isNonNullable.ts
+       • packages/jest-util/src/garbage-collection-utils.ts
+       • packages/jest-util/src/deepCyclicCopy.ts
+       • packages/pretty-format/src/index.ts
+       • packages/jest-validate/src/condition.ts
+       • packages/jest-types/src/Global.ts
+     📄 Files WITHOUT TSTypeParameterDeclaration (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   CatchClause:
+     📄 Files WITH CatchClause (showing 10):
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • scripts/lintTs.mjs
+       • scripts/bundleTs.mjs
+       • scripts/buildTs.mjs
+       • scripts/build.mjs
+       • e2e/__tests__/testRetries.test.ts
+       • e2e/__tests__/snapshot.test.ts
+       • e2e/__tests__/resolveConditions.test.ts
+       • e2e/__tests__/nativeEsm.test.ts
+     📄 Files WITHOUT CatchClause (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+
+   TSIndexedAccessType:
+     📄 Files WITH TSIndexedAccessType (showing 10):
+       • packages/test-globals/src/index.ts
+       • packages/pretty-format/src/types.ts
+       • packages/jest-validate/src/condition.ts
+       • packages/jest-types/src/Global.ts
+       • packages/jest-types/src/Config.ts
+       • packages/jest-types/__typetests__/jest.test.ts
+       • packages/jest-worker/src/types.ts
+       • packages/jest-worker/src/Farm.ts
+       • packages/jest-test-result/src/types.ts
+       • packages/jest-snapshot/src/mockSerializer.ts
+     📄 Files WITHOUT TSIndexedAccessType (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   BreakStatement:
+     📄 Files WITH BreakStatement (showing 10):
+       • packages/jest-util/src/convertDescriptorToString.ts
+       • packages/pretty-format/src/collections.ts
+       • packages/jest-worker/src/PriorityQueue.ts
+       • packages/jest-worker/src/Farm.ts
+       • packages/jest-snapshot/src/index.ts
+       • packages/jest-reporters/src/getSummary.ts
+       • packages/jest-reporters/src/GitHubActionsReporter.ts
+       • packages/jest-reporters/src/CoverageReporter.ts
+       • packages/jest-resolve/src/resolver.ts
+       • packages/jest-mock/src/index.ts
+     📄 Files WITHOUT BreakStatement (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   TSTupleType:
+     📄 Files WITH TSTupleType (showing 10):
+       • examples/expect-extend/toBeWithinRange.ts
+       • e2e/__tests__/randomize.test.ts
+       • packages/pretty-format/src/collections.ts
+       • packages/jest-types/src/Global.ts
+       • packages/jest-types/src/Config.ts
+       • packages/jest-types/src/Circus.ts
+       • packages/jest-types/__typetests__/jest.test.ts
+       • packages/jest-types/__typetests__/each.test.ts
+       • packages/jest-worker/src/types.ts
+       • packages/jest-transform/src/ScriptTransformer.ts
+     📄 Files WITHOUT TSTupleType (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   UpdateExpression:
+     📄 Files WITH UpdateExpression (showing 10):
+       • e2e/Utils.ts
+       • scripts/checkChangelog.mjs
+       • e2e/native-esm/stateful.mjs
+       • e2e/native-esm/stateful.cjs
+       • e2e/__tests__/resolveConditions.test.ts
+       • packages/jest-util/src/globsToMatcher.ts
+       • packages/jest-util/src/deepCyclicCopy.ts
+       • packages/pretty-format/src/index.ts
+       • packages/pretty-format/src/collections.ts
+       • packages/pretty-format/__benchmarks__/test.js
+     📄 Files WITHOUT UpdateExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+
+   RestElement:
+     📄 Files WITH RestElement (showing 10):
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/test-environment-esm/EnvESM.js
+       • e2e/coverage-transform-instrumented/covered.js
+       • e2e/coverage-without-transform/some-random-file.js
+       • e2e/console-debugging/stdout-spy.js
+       • e2e/__tests__/readInitialOptions.test.ts
+       • packages/jest-util/src/installCommonGlobals.ts
+       • packages/jest-util/src/ErrorWithStack.ts
+       • packages/pretty-format/src/index.ts
+     📄 Files WITHOUT RestElement (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+
+   ArrayPattern:
+     📄 Files WITH ArrayPattern (showing 10):
+       • e2e/Utils.ts
+       • scripts/bundleTs.mjs
+       • scripts/buildUtils.mjs
+       • scripts/buildTs.mjs
+       • website/docusaurus.config.js
+       • examples/typescript/calc.ts
+       • examples/typescript/CheckboxWithLabel.tsx
+       • e2e/__tests__/workerForceExit.test.ts
+       • e2e/__tests__/randomize.test.ts
+       • e2e/__tests__/overrideGlobals.test.ts
+     📄 Files WITHOUT ArrayPattern (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+
+   ChainExpression:
+     📄 Files WITH ChainExpression (showing 10):
+       • e2e/__tests__/tsIntegration.test.ts
+       • e2e/__tests__/readInitialOptions.test.ts
+       • e2e/__tests__/onlyChanged.test.ts
+       • e2e/__tests__/jestChangedFiles.test.ts
+       • e2e/__tests__/declarationErrors.test.ts
+       • packages/jest-watcher/src/PatternPrompt.ts
+       • packages/jest-watcher/src/JestHooks.ts
+       • packages/jest-util/src/garbage-collection-utils.ts
+       • packages/pretty-format/src/index.ts
+       • packages/jest-worker/__benchmarks__/test.js
+     📄 Files WITHOUT ChainExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   AssignmentPattern:
+     📄 Files WITH AssignmentPattern (showing 10):
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • scripts/buildUtils.mjs
+       • e2e/__tests__/nonSerializableStructuresInequality.test.ts
+       • packages/test-utils/src/config.ts
+       • packages/jest-watcher/src/PatternPrompt.ts
+       • packages/jest-util/src/setGlobal.ts
+       • packages/jest-util/src/requireOrImportModule.ts
+       • packages/jest-util/src/pluralize.ts
+       • packages/jest-util/src/invariant.ts
+     📄 Files WITHOUT AssignmentPattern (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+
+   TSNonNullExpression:
+     📄 Files WITH TSNonNullExpression (showing 10):
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/__tests__/workerForceExit.test.ts
+       • e2e/__tests__/overrideGlobals.test.ts
+       • packages/jest-util/src/globsToMatcher.ts
+       • packages/pretty-format/src/collections.ts
+       • packages/jest-worker/src/PriorityQueue.ts
+       • packages/jest-transform/src/shouldInstrument.ts
+       • packages/jest-snapshot/src/utils.ts
+       • packages/jest-snapshot/src/index.ts
+     📄 Files WITHOUT TSNonNullExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+
+   TSImportType:
+     📄 Files WITH TSImportType (showing 10):
+       • packages/jest-snapshot/src/worker.ts
+       • packages/jest-snapshot/src/utils.ts
+       • packages/jest-snapshot/src/InlineSnapshots.ts
+       • packages/jest-reporters/src/NotifyReporter.ts
+       • packages/jest-reporters/src/CoverageReporter.ts
+       • packages/jest-runner/src/runTest.ts
+       • packages/jest-runner/src/index.ts
+       • packages/jest-jasmine2/src/index.ts
+       • packages/jest-haste-map/src/index.ts
+       • packages/jest/__typetests__/jest.test.ts
+     📄 Files WITHOUT TSImportType (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   TSInterfaceDeclaration:
+     📄 Files WITH TSInterfaceDeclaration (showing 10):
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • examples/expect-extend/toBeWithinRange.ts
+       • e2e/stack-trace-source-maps-with-coverage/lib.ts
+       • e2e/__tests__/readInitialOptions.test.ts
+       • e2e/__tests__/circularRefInBuiltInObj.test.ts
+       • packages/jest-watcher/src/types.ts
+       • packages/pretty-format/src/types.ts
+       • packages/jest-types/src/Global.ts
+       • packages/jest-types/src/Config.ts
+     📄 Files WITHOUT TSInterfaceDeclaration (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+
+   TSInterfaceBody:
+     📄 Files WITH TSInterfaceBody (showing 10):
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • examples/expect-extend/toBeWithinRange.ts
+       • e2e/stack-trace-source-maps-with-coverage/lib.ts
+       • e2e/__tests__/readInitialOptions.test.ts
+       • e2e/__tests__/circularRefInBuiltInObj.test.ts
+       • packages/jest-watcher/src/types.ts
+       • packages/pretty-format/src/types.ts
+       • packages/jest-types/src/Global.ts
+       • packages/jest-types/src/Config.ts
+     📄 Files WITHOUT TSInterfaceBody (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+
+   TSNamedTupleMember:
+     📄 Files WITH TSNamedTupleMember (showing 10):
+       • examples/expect-extend/toBeWithinRange.ts
+       • packages/jest-types/__typetests__/jest.test.ts
+       • packages/jest-worker/src/types.ts
+       • packages/jest-test-sequencer/src/index.ts
+       • packages/jest-snapshot/src/index.ts
+       • packages/jest-mock/__typetests__/mock-functions.test.ts
+       • packages/jest-mock/__typetests__/ModuleMocker.test.ts
+       • packages/jest-mock/__typetests__/Mocked.test.ts
+       • packages/jest-haste-map/src/types.ts
+       • packages/expect/__typetests__/expect.test.ts
+     📄 Files WITHOUT TSNamedTupleMember (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   TaggedTemplateExpression:
+     📄 Files WITH TaggedTemplateExpression (showing 10):
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • scripts/verifyPnP.mjs
+       • scripts/build.mjs
+       • website/fetchSupporters.js
+       • e2e/coverage-handlebars/transform-handlebars.js
+       • e2e/__tests__/requireAfterTeardownJasmine.test.ts
+       • e2e/__tests__/injectGlobals.test.ts
+       • e2e/__tests__/environmentAfterTeardownJasmine.test.ts
+       • packages/jest-types/__typetests__/each.test.ts
+     📄 Files WITHOUT TaggedTemplateExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyOldTs.mjs
+       • scripts/remove-examples.mjs
+
+   TSIntersectionType:
+     📄 Files WITH TSIntersectionType (showing 10):
+       • e2e/__tests__/circularRefInBuiltInObj.test.ts
+       • packages/jest-watcher/src/types.ts
+       • packages/jest-util/src/installCommonGlobals.ts
+       • packages/jest-validate/src/validateCLIOptions.ts
+       • packages/jest-types/src/Global.ts
+       • packages/jest-types/src/Config.ts
+       • packages/jest-types/__typetests__/jest.test.ts
+       • packages/jest-worker/src/index.ts
+       • packages/jest-test-sequencer/src/index.ts
+       • packages/jest-test-result/src/types.ts
+     📄 Files WITHOUT TSIntersectionType (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   TSTypeOperator:
+     📄 Files WITH TSTypeOperator (showing 10):
+       • packages/jest-util/src/garbage-collection-utils.ts
+       • packages/pretty-format/src/index.ts
+       • packages/jest-types/src/Global.ts
+       • packages/jest-types/src/Config.ts
+       • packages/jest-worker/src/types.ts
+       • packages/jest-test-result/src/types.ts
+       • packages/jest-snapshot/src/types.ts
+       • packages/jest-snapshot/src/SnapshotResolver.ts
+       • packages/jest-runtime/src/index.ts
+       • packages/jest-reporters/src/getWatermarks.ts
+     📄 Files WITHOUT TSTypeOperator (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   ForStatement:
+     📄 Files WITH ForStatement (showing 10):
+       • e2e/Utils.ts
+       • e2e/__tests__/resolveConditions.test.ts
+       • packages/jest-util/src/deepCyclicCopy.ts
+       • packages/pretty-format/src/collections.ts
+       • packages/pretty-format/__benchmarks__/test.js
+       • packages/jest-worker/__benchmarks__/test.js
+       • packages/jest-worker/src/Farm.ts
+       • packages/jest-snapshot/src/utils.ts
+       • packages/jest-snapshot/src/index.ts
+       • packages/jest-runtime/src/index.ts
+     📄 Files WITHOUT ForStatement (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+
+   Super:
+     📄 Files WITH Super (showing 10):
+       • e2e/test-environment-esm/EnvESM.js
+       • e2e/test-environment-async/TestEnvironment.js
+       • e2e/test-environment/EsmDefaultEnvironment.js
+       • e2e/test-environment/DocblockPragmasEnvironment.js
+       • e2e/environment-teardown-error/EnvironmentWithTeardownError.js
+       • e2e/custom-test-sequencer/testSequencerWithSeed.js
+       • packages/jest-watcher/src/TestWatcher.ts
+       • packages/jest-util/src/ErrorWithStack.ts
+       • packages/pretty-format/src/index.ts
+       • packages/jest-validate/src/utils.ts
+     📄 Files WITHOUT Super (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   WhileStatement:
+     📄 Files WITH WhileStatement (showing 10):
+       • e2e/Utils.ts
+       • packages/jest-util/src/createProcessObject.ts
+       • packages/pretty-format/src/collections.ts
+       • packages/jest-worker/src/PriorityQueue.ts
+       • packages/jest-snapshot/src/index.ts
+       • packages/jest-snapshot/src/dedentLines.ts
+       • packages/jest-reporters/src/wrapAnsiString.ts
+       • packages/jest-resolve-dependencies/src/index.ts
+       • packages/jest-resolve/src/nodeModulesPaths.ts
+       • packages/jest-resolve/src/fileWalkers.ts
+     📄 Files WITHOUT WhileStatement (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+
+   ClassExpression:
+     📄 Files WITH ClassExpression (showing 10):
+       • e2e/test-environment-run-script/EnvUsingRunScript.js
+       • e2e/shard/sharding-test-sequencer.js
+       • e2e/shard/no-sharding-test-sequencer.js
+       • e2e/resolve-conditions/custom-env.js
+       • e2e/resolve-conditions/custom-env-conditions-method-override.js
+       • e2e/explicit-resource-management/index.js
+       • packages/jest-types/__typetests__/globals.test.ts
+       • e2e/auto-restore-mocks/without-auto-restore/index.js
+       • e2e/auto-restore-mocks/with-auto-restore/index.js
+       • packages/jest-util/src/__tests__/convertDescriptorToString.test.ts
+     📄 Files WITHOUT ClassExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   PrivateIdentifier:
+     📄 Files WITH PrivateIdentifier (showing 7):
+       • packages/jest-reporters/src/GitHubActionsReporter.ts
+       • packages/jest-runner/src/index.ts
+       • packages/jest-runner/__typetests__/jest-runner.test.ts
+       • packages/jest-mock/__typetests__/utility-types.test.ts
+       • packages/jest-fake-timers/src/legacyFakeTimers.ts
+       • packages/jest-worker/src/workers/WorkerAbstract.ts
+       • packages/jest-matcher-utils/src/__tests__/deepCyclicCopyReplaceable.test.ts
+     📄 Files WITHOUT PrivateIdentifier (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   SwitchStatement:
+     📄 Files WITH SwitchStatement (showing 10):
+       • examples/typescript/calc.ts
+       • packages/test-utils/src/alignedAnsiStyleSerializer.ts
+       • packages/jest-util/src/convertDescriptorToString.ts
+       • packages/jest-worker/src/Farm.ts
+       • packages/jest-snapshot-utils/src/utils.ts
+       • packages/jest-reporters/src/getSummary.ts
+       • packages/jest-reporters/src/GitHubActionsReporter.ts
+       • packages/jest-reporters/src/CoverageReporter.ts
+       • packages/jest-mock/src/index.ts
+       • packages/jest-haste-map/src/ModuleMap.ts
+     📄 Files WITHOUT SwitchStatement (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   TSTypePredicate:
+     📄 Files WITH TSTypePredicate (showing 10):
+       • packages/test-utils/src/alignedAnsiStyleSerializer.ts
+       • packages/jest-util/src/isPromise.ts
+       • packages/jest-util/src/isNonNullable.ts
+       • packages/jest-util/src/invariant.ts
+       • packages/jest-util/src/garbage-collection-utils.ts
+       • packages/pretty-format/src/index.ts
+       • packages/pretty-format/src/collections.ts
+       • packages/jest-transform/src/ScriptTransformer.ts
+       • packages/jest-mock/src/index.ts
+       • packages/jest-message-util/src/index.ts
+     📄 Files WITHOUT TSTypePredicate (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   TSObjectKeyword:
+     📄 Files WITH TSObjectKeyword (showing 10):
+       • packages/test-globals/src/index.ts
+       • packages/jest-util/src/garbage-collection-utils.ts
+       • packages/jest-snapshot/src/utils.ts
+       • packages/jest-snapshot/src/types.ts
+       • packages/jest-snapshot/src/printSnapshot.ts
+       • packages/jest-snapshot/src/index.ts
+       • packages/jest-mock/src/index.ts
+       • packages/jest-globals/src/index.ts
+       • packages/jest-leak-detector/src/index.ts
+       • packages/expect-utils/src/utils.ts
+     📄 Files WITHOUT TSObjectKeyword (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   ImportExpression:
+     📄 Files WITH ImportExpression (showing 9):
+       • e2e/native-esm/fromEsm.cjs
+       • packages/jest-util/src/requireOrImportModule.ts
+       • packages/jest-config/src/readConfigFileAndSetRootDir.ts
+       • e2e/native-esm/__tests__/native-esm.test.js
+       • e2e/native-esm/__tests__/native-esm-wasm.test.js
+       • e2e/native-esm/__tests__/native-esm-mocks.test.js
+       • e2e/native-esm/__tests__/native-esm-missing-import-assertions.test.js
+       • e2e/native-esm/__tests__/native-esm-import-assertions.test.js
+       • e2e/isolate-modules-async/__tests__/main.js
+     📄 Files WITHOUT ImportExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   TSCallSignatureDeclaration:
+     📄 Files WITH TSCallSignatureDeclaration (showing 10):
+       • packages/jest-types/src/Global.ts
+       • packages/jest-types/src/Circus.ts
+       • packages/jest-mock/src/index.ts
+       • packages/jest-mock/__typetests__/Mocked.test.ts
+       • packages/jest-jasmine2/src/types.ts
+       • packages/jest-jasmine2/src/queueRunner.ts
+       • packages/jest-expect/src/types.ts
+       • packages/expect/src/types.ts
+       • packages/pretty-format/src/__tests__/ReactElement.test.ts
+       • packages/jest-jasmine2/src/jasmine/createSpy.ts
+     📄 Files WITHOUT TSCallSignatureDeclaration (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   TSInterfaceHeritage:
+     📄 Files WITH TSInterfaceHeritage (showing 10):
+       • e2e/runJest.ts
+       • e2e/__tests__/readInitialOptions.test.ts
+       • packages/pretty-format/src/types.ts
+       • packages/jest-types/src/Global.ts
+       • packages/jest-types/src/Circus.ts
+       • packages/jest-worker/src/types.ts
+       • packages/jest-transform/src/types.ts
+       • packages/jest-transform/src/enhanceUnexpectedTokenMessage.ts
+       • packages/jest-snapshot/src/types.ts
+       • packages/jest-runtime/src/index.ts
+     📄 Files WITHOUT TSInterfaceHeritage (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+
+   TSConditionalType:
+     📄 Files WITH TSConditionalType (showing 8):
+       • packages/jest-types/src/Config.ts
+       • packages/jest-worker/src/types.ts
+       • packages/jest-reporters/src/CoverageWorker.ts
+       • packages/jest-runner/src/types.ts
+       • packages/jest-mock/src/index.ts
+       • packages/jest-haste-map/src/types.ts
+       • packages/jest-circus/src/index.ts
+       • packages/expect/src/types.ts
+     📄 Files WITHOUT TSConditionalType (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   TSParenthesizedType:
+     📄 Files WITH TSParenthesizedType (showing 10):
+       • e2e/Utils.ts
+       • packages/pretty-format/src/types.ts
+       • packages/jest-types/src/Config.ts
+       • packages/jest-runtime/src/index.ts
+       • packages/jest-resolve/src/resolver.ts
+       • packages/jest-mock/src/index.ts
+       • packages/jest-mock/__typetests__/utility-types.test.ts
+       • packages/jest-mock/__typetests__/mock-functions.test.ts
+       • packages/jest-jasmine2/src/queueRunner.ts
+       • packages/jest-jasmine2/src/pTimeout.ts
+     📄 Files WITHOUT TSParenthesizedType (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+
+   MetaProperty:
+     📄 Files WITH MetaProperty (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • scripts/verifyPnP.mjs
+       • scripts/verifyOldTs.mjs
+       • scripts/remove-examples.mjs
+       • scripts/mapCoverage.mjs
+       • scripts/lintTs.mjs
+       • scripts/cleanE2e.mjs
+       • scripts/bundleTs.mjs
+       • scripts/buildUtils.mjs
+     📄 Files WITHOUT MetaProperty (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.ci.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/checkCopyrightHeaders.mjs
+       • scripts/checkChangelog.mjs
+
+   TSIndexSignature:
+     📄 Files WITH TSIndexSignature (showing 10):
+       • e2e/Utils.ts
+       • e2e/__tests__/circularRefInBuiltInObj.test.ts
+       • packages/jest-types/src/Global.ts
+       • packages/jest-types/src/Config.ts
+       • packages/jest-test-sequencer/src/index.ts
+       • packages/jest-schemas/src/raw-types.ts
+       • packages/jest-reporters/src/CoverageReporter.ts
+       • packages/jest-resolve/src/types.ts
+       • packages/jest-mock/__typetests__/utility-types.test.ts
+       • packages/jest-mock/__typetests__/mock-functions.test.ts
+     📄 Files WITHOUT TSIndexSignature (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+
+   TSSymbolKeyword:
+     📄 Files WITH TSSymbolKeyword (showing 10):
+       • packages/jest-util/src/setGlobal.ts
+       • packages/jest-util/src/garbage-collection-utils.ts
+       • packages/pretty-format/src/index.ts
+       • packages/pretty-format/src/collections.ts
+       • packages/jest-mock/__typetests__/ModuleMocker.test.ts
+       • packages/jest-matcher-utils/src/deepCyclicCopyReplaceable.ts
+       • packages/jest-environment-node/src/index.ts
+       • packages/expect-utils/src/utils.ts
+       • packages/expect-utils/src/jasmineUtils.ts
+       • packages/expect/src/asymmetricMatchers.ts
+     📄 Files WITHOUT TSSymbolKeyword (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   TSNeverKeyword:
+     📄 Files WITH TSNeverKeyword (showing 10):
+       • packages/jest-types/src/Config.ts
+       • packages/jest-types/__typetests__/jest.test.ts
+       • packages/jest-worker/src/types.ts
+       • packages/jest-runtime/src/index.ts
+       • packages/jest-reporters/src/GitHubActionsReporter.ts
+       • packages/jest-resolve/src/resolver.ts
+       • packages/jest-mock/src/index.ts
+       • packages/jest-mock/__typetests__/mock-functions.test.ts
+       • packages/jest-jasmine2/src/PCancelable.ts
+       • packages/jest-haste-map/src/types.ts
+     📄 Files WITHOUT TSNeverKeyword (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   TSParameterProperty:
+     📄 Files WITH TSParameterProperty (showing 10):
+       • packages/jest-watcher/src/PatternPrompt.ts
+       • packages/jest-worker/src/PriorityQueue.ts
+       • packages/jest-worker/src/Farm.ts
+       • packages/jest-transform/src/ScriptTransformer.ts
+       • packages/jest-reporters/src/Status.ts
+       • packages/jest-runner/src/types.ts
+       • packages/jest-pattern/src/TestPathPatterns.ts
+       • packages/jest-mock/__typetests__/utility-types.test.ts
+       • packages/jest-core/src/FailedTestsInteractiveMode.ts
+       • packages/expect/src/asymmetricMatchers.ts
+     📄 Files WITHOUT TSParameterProperty (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   TSEmptyBodyFunctionExpression:
+     📄 Files WITH TSEmptyBodyFunctionExpression (showing 4):
+       • packages/jest-runner/src/types.ts
+       • packages/jest-mock/src/index.ts
+       • packages/jest-environment/src/index.ts
+       • packages/expect/src/asymmetricMatchers.ts
+     📄 Files WITHOUT TSEmptyBodyFunctionExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   TSClassImplements:
+     📄 Files WITH TSClassImplements (showing 10):
+       • packages/jest-watcher/src/BaseWatchPlugin.ts
+       • packages/jest-worker/src/WorkerPool.ts
+       • packages/jest-worker/src/PriorityQueue.ts
+       • packages/jest-worker/src/FifoQueue.ts
+       • packages/jest-reporters/src/BaseReporter.ts
+       • packages/jest-runner/src/types.ts
+       • packages/jest-runner/__typetests__/jest-runner.test.ts
+       • packages/jest-jasmine2/src/reporter.ts
+       • packages/jest-jasmine2/src/PCancelable.ts
+       • packages/jest-haste-map/src/index.ts
+     📄 Files WITHOUT TSClassImplements (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   ContinueStatement:
+     📄 Files WITH ContinueStatement (showing 10):
+       • yarn.config.cjs
+       • scripts/build.mjs
+       • packages/jest-util/src/deepCyclicCopy.ts
+       • packages/jest-worker/src/index.ts
+       • packages/jest-mock/src/index.ts
+       • packages/jest-message-util/src/index.ts
+       • packages/jest-haste-map/src/index.ts
+       • packages/jest-core/src/watch.ts
+       • packages/jest-core/src/runGlobalHook.ts
+       • packages/jest-core/src/collectHandles.ts
+     📄 Files WITHOUT ContinueStatement (showing 10):
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+
+   TSModuleDeclaration:
+     📄 Files WITH TSModuleDeclaration (showing 10):
+       • examples/expect-extend/toBeWithinRange.ts
+       • packages/test-globals/src/index.ts
+       • packages/jest-jasmine2/src/types.ts
+       • packages/jest-globals/src/index.ts
+       • packages/jest-expect/src/types.ts
+       • packages/jest-expect/__typetests__/jest-expect.test.ts
+       • packages/expect/__typetests__/expectTyped.test.ts
+       • packages/expect/__typetests__/expect.test.ts
+       • packages/jest-util/src/__tests__/installCommonGlobals.test.ts
+       • packages/pretty-format/src/__tests__/setPrettyPrint.ts
+     📄 Files WITHOUT TSModuleDeclaration (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   TSModuleBlock:
+     📄 Files WITH TSModuleBlock (showing 10):
+       • examples/expect-extend/toBeWithinRange.ts
+       • packages/test-globals/src/index.ts
+       • packages/jest-jasmine2/src/types.ts
+       • packages/jest-globals/src/index.ts
+       • packages/jest-expect/src/types.ts
+       • packages/jest-expect/__typetests__/jest-expect.test.ts
+       • packages/expect/__typetests__/expectTyped.test.ts
+       • packages/expect/__typetests__/expect.test.ts
+       • packages/jest-util/src/__tests__/installCommonGlobals.test.ts
+       • packages/pretty-format/src/__tests__/setPrettyPrint.ts
+     📄 Files WITHOUT TSModuleBlock (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   TSInferType:
+     📄 Files WITH TSInferType (showing 6):
+       • packages/jest-worker/src/types.ts
+       • packages/jest-reporters/src/CoverageWorker.ts
+       • packages/jest-runner/src/types.ts
+       • packages/jest-mock/src/index.ts
+       • packages/jest-haste-map/src/types.ts
+       • packages/expect/src/types.ts
+     📄 Files WITHOUT TSInferType (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   TSDeclareFunction:
+     📄 Files WITH TSDeclareFunction (showing 7):
+       • e2e/runJest.ts
+       • packages/jest-resolve/src/defaultResolver.ts
+       • packages/jest-mock/src/index.ts
+       • packages/jest-config/src/stringToBytes.ts
+       • packages/jest-util/src/__tests__/installCommonGlobals.test.ts
+       • packages/jest-types/__typetests__/expect/toHaveBeenCalledWith.test.ts
+       • packages/jest-each/src/table/interpolation.ts
+     📄 Files WITHOUT TSDeclareFunction (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+       • scripts/verifyPnP.mjs
+
+   YieldExpression:
+     📄 Files WITH YieldExpression (showing 8):
+       • e2e/generator-mock/index.js
+       • packages/jest-haste-map/src/HasteFS.ts
+       • e2e/jasmine-async/__tests__/generator.test.js
+       • packages/pretty-format/src/__tests__/prettyFormat.test.ts
+       • packages/expect-utils/src/__tests__/utils.test.ts
+       • packages/expect/src/__tests__/matchers.test.js
+       • packages/expect/src/__tests__/customEqualityTestersRecursive.test.ts
+       • packages/expect/src/__tests__/customEqualityTesters.test.ts
+     📄 Files WITHOUT YieldExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   ForInStatement:
+     📄 Files WITH ForInStatement (showing 10):
+       • packages/jest-util/src/createProcessObject.ts
+       • packages/jest-validate/src/validate.ts
+       • packages/jest-config/src/utils.ts
+       • packages/expect-utils/src/jasmineUtils.ts
+       • packages/create-jest/src/generateConfigFile.ts
+       • examples/manual-mocks/__mocks__/fs.js
+       • packages/jest-worker/src/workers/NodeThreadsWorker.ts
+       • packages/jest-worker/src/workers/ChildProcessWorker.ts
+       • packages/jest-transform/src/__tests__/ScriptTransformer.test.ts
+       • packages/jest-jasmine2/src/jasmine/createSpy.ts
+     📄 Files WITHOUT ForInStatement (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   JSXIdentifier:
+     📄 Files WITH JSXIdentifier (showing 2):
+       • examples/typescript/CheckboxWithLabel.tsx
+       • examples/typescript/__tests__/CheckboxWithLabel-test.tsx
+     📄 Files WITHOUT JSXIdentifier (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   TSBigIntKeyword:
+     📄 Files WITH TSBigIntKeyword (showing 3):
+       • packages/pretty-format/src/index.ts
+       • packages/expect/src/types.ts
+       • packages/expect/src/matchers.ts
+     📄 Files WITHOUT TSBigIntKeyword (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   TSThisType:
+     📄 Files WITH TSThisType (showing 1):
+       • packages/jest-mock/src/index.ts
+     📄 Files WITHOUT TSThisType (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   SequenceExpression:
+     📄 Files WITH SequenceExpression (showing 5):
+       • packages/jest-diff/src/diffLines.ts
+       • packages/diff-sequences/src/index.ts
+       • e2e/native-esm/wasm-bindgen/index_bg.js
+       • packages/diff-sequences/src/__tests__/index.test.ts
+       • packages/diff-sequences/src/__tests__/index.property.test.ts
+     📄 Files WITHOUT SequenceExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   ExportAllDeclaration:
+     📄 Files WITH ExportAllDeclaration (showing 9):
+       • e2e/native-esm/reexport.js
+       • e2e/native-esm/namespaceExport.js
+       • e2e/native-esm/dynamicImport.js
+       • e2e/native-esm/anotherDynamicImport.js
+       • packages/jest-watcher/src/index.ts
+       • packages/jest-snapshot-utils/src/index.ts
+       • packages/jest-resolve/src/index.ts
+       • packages/expect-utils/src/index.ts
+       • e2e/native-esm/wasm-bindgen/index.js
+     📄 Files WITHOUT ExportAllDeclaration (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   TSConstructorType:
+     📄 Files WITH TSConstructorType (showing 7):
+       • packages/jest-watcher/src/types.ts
+       • packages/pretty-format/src/index.ts
+       • packages/jest-worker/src/types.ts
+       • packages/jest-mock/src/index.ts
+       • packages/jest-mock/__typetests__/utility-types.test.ts
+       • packages/jest-mock/__typetests__/mock-functions.test.ts
+       • packages/jest-core/src/TestScheduler.ts
+     📄 Files WITHOUT TSConstructorType (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   TSMappedType:
+     📄 Files WITH TSMappedType (showing 6):
+       • packages/jest-worker/src/types.ts
+       • packages/jest-reporters/src/CoverageWorker.ts
+       • packages/jest-runner/src/types.ts
+       • packages/jest-mock/src/index.ts
+       • packages/jest-config/src/Descriptions.ts
+       • packages/expect/src/types.ts
+     📄 Files WITHOUT TSMappedType (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   TSRestType:
+     📄 Files WITH TSRestType (showing 6):
+       • packages/jest-types/src/Global.ts
+       • packages/jest-runtime/src/index.ts
+       • packages/expect/src/spyMatchers.ts
+       • packages/expect/src/jestMatchersObject.ts
+       • packages/jest-worker/src/__tests__/thread-integration.test.ts
+       • packages/jest-worker/src/__tests__/process-integration.test.ts
+     📄 Files WITHOUT TSRestType (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   TSEnumMember:
+     📄 Files WITH TSEnumMember (showing 2):
+       • packages/jest-worker/src/types.ts
+       • packages/jest-resolve/src/fileWalkers.ts
+     📄 Files WITHOUT TSEnumMember (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   JSXAttribute:
+     📄 Files WITH JSXAttribute (showing 2):
+       • examples/typescript/CheckboxWithLabel.tsx
+       • examples/typescript/__tests__/CheckboxWithLabel-test.tsx
+     📄 Files WITHOUT JSXAttribute (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   JSXExpressionContainer:
+     📄 Files WITH JSXExpressionContainer (showing 2):
+       • examples/typescript/CheckboxWithLabel.tsx
+       • examples/typescript/__tests__/CheckboxWithLabel-test.tsx
+     📄 Files WITHOUT JSXExpressionContainer (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   Hashbang:
+     📄 Files WITH Hashbang (showing 5):
+       • website/fetchSupporters.js
+       • e2e/run-programmatically/index.js
+       • packages/jest-cli/bin/jest.js
+       • packages/jest/bin/jest.js
+       • packages/create-jest/bin/create-jest.js
+     📄 Files WITHOUT Hashbang (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   TSAbstractMethodDefinition:
+     📄 Files WITH TSAbstractMethodDefinition (showing 2):
+       • packages/jest-runner/src/types.ts
+       • packages/expect/src/asymmetricMatchers.ts
+     📄 Files WITHOUT TSAbstractMethodDefinition (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   Decorator:
+     📄 Files WITH Decorator (showing 4):
+       • examples/angular/app.module.ts
+       • examples/angular/app.component.ts
+       • examples/angular/shared/sub.service.ts
+       • examples/angular/shared/data.service.ts
+     📄 Files WITHOUT Decorator (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   DoWhileStatement:
+     📄 Files WITH DoWhileStatement (showing 3):
+       • packages/jest-mock/src/index.ts
+       • packages/jest-matcher-utils/src/deepCyclicCopyReplaceable.ts
+       • packages/jest-circus/src/utils.ts
+     📄 Files WITHOUT DoWhileStatement (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   JSXElement:
+     📄 Files WITH JSXElement (showing 2):
+       • examples/typescript/CheckboxWithLabel.tsx
+       • examples/typescript/__tests__/CheckboxWithLabel-test.tsx
+     📄 Files WITHOUT JSXElement (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   JSXOpeningElement:
+     📄 Files WITH JSXOpeningElement (showing 2):
+       • examples/typescript/CheckboxWithLabel.tsx
+       • examples/typescript/__tests__/CheckboxWithLabel-test.tsx
+     📄 Files WITHOUT JSXOpeningElement (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   JSXText:
+     📄 Files WITH JSXText (showing 1):
+       • examples/typescript/CheckboxWithLabel.tsx
+     📄 Files WITHOUT JSXText (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   TSEnumDeclaration:
+     📄 Files WITH TSEnumDeclaration (showing 2):
+       • packages/jest-worker/src/types.ts
+       • packages/jest-resolve/src/fileWalkers.ts
+     📄 Files WITHOUT TSEnumDeclaration (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   TSEnumBody:
+     📄 Files WITH TSEnumBody (showing 2):
+       • packages/jest-worker/src/types.ts
+       • packages/jest-resolve/src/fileWalkers.ts
+     📄 Files WITHOUT TSEnumBody (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   JSXClosingElement:
+     📄 Files WITH JSXClosingElement (showing 1):
+       • examples/typescript/CheckboxWithLabel.tsx
+     📄 Files WITHOUT JSXClosingElement (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   TSOptionalType:
+     📄 Files WITH TSOptionalType (showing 1):
+       • packages/jest-types/__typetests__/each.test.ts
+     📄 Files WITHOUT TSOptionalType (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   TSAbstractPropertyDefinition:
+     📄 Files WITH TSAbstractPropertyDefinition (showing 1):
+       • packages/jest-runner/src/types.ts
+     📄 Files WITHOUT TSAbstractPropertyDefinition (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   TSConstructSignatureDeclaration:
+     📄 Files WITH TSConstructSignatureDeclaration (showing 1):
+       • packages/jest-mock/src/index.ts
+     📄 Files WITHOUT TSConstructSignatureDeclaration (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   TSSatisfiesExpression:
+     📄 Files WITH TSSatisfiesExpression (showing 1):
+       • packages/babel-jest/src/index.ts
+     📄 Files WITHOUT TSSatisfiesExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
+
+   ImportAttribute:
+     📄 Files WITH ImportAttribute (showing 1):
+       • e2e/native-esm/__tests__/native-esm-import-assertions.test.js
+     📄 Files WITHOUT ImportAttribute (showing 10):
+       • yarn.config.cjs
+       • jest.config.ts.mjs
+       • jest.config.mjs
+       • jest.config.ci.mjs
+       • eslint.config.mjs
+       • babel.config.js
+       • e2e/runJest.ts
+       • e2e/Utils.ts
+       • e2e/MockStdinWatchPlugin.js
+       • scripts/watch.mjs
 
 ============================================================
 ✅ Analysis complete!
@@ -338,12 +3460,6 @@ Warnings/Errors:
    Expected `,` but found `:`
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/jest/e2e/coverage-report/notRequiredInTestSuite.js:
    Expected `,` but found `:`
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/jest/website/src/pages/versions.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/jest/website/src/pages/index.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/jest/website/src/pages/help.js:
-   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/jest/examples/snapshot/__tests__/link.test.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/jest/examples/snapshot/__tests__/clock.test.js:
@@ -368,11 +3484,11 @@ Warnings/Errors:
    Expected `,` but found `:`
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/jest/e2e/babel-plugin-jest-hoist/__tests__/integration.test.js:
    Expected `,` but found `:`
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/jest/website/src/components/v1/MarkdownBlock.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/jest/website/src/pages/versions.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/jest/website/src/components/v1/GridBlock.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/jest/website/src/pages/index.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/jest/website/src/components/v1/Container.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/jest/website/src/pages/help.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/jest/e2e/transform/transformer-config/this-directory-is-covered/Covered.js:
    Empty parenthesized expression
@@ -402,3 +3518,9 @@ Warnings/Errors:
    Expected `,` but found `:`
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/jest/e2e/multi-project-babel/prj-3/src/index.js:
    Expected `,` but found `:`
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/jest/website/src/components/v1/MarkdownBlock.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/jest/website/src/components/v1/GridBlock.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/jest/website/src/components/v1/Container.js:
+   Unexpected token

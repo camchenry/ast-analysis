@@ -1,11 +1,12 @@
 AST Analysis Report for eslint
-Generated on: 2025-07-13T03:17:12.336Z
+Generated on: 2025-07-14T01:41:58.285Z
 Repository: sample-repos/eslint
 ================================================================================
 
 🔍 Analyzing JavaScript/TypeScript files in: /Users/camchenry/workspace/ast-analysis/sample-repos/eslint
 
-📁 Found 479 files to analyze...
+📁 Found 836 files to analyze...
+
 
 
 ============================================================
@@ -13,239 +14,2609 @@ Repository: sample-repos/eslint
 ============================================================
 
 📁 FILE STATISTICS:
-   Total files found: 479
-   Successfully parsed: 479
+   Total files found: 836
+   Successfully parsed: 836
    Failed to parse: 0
-   Total file size: 3.0 MB
+   Total file size: 11.6 MB
 
 🌳 NODE STATISTICS:
-   Total nodes: 263,407
-   Average nodes per file: 550
-   Average file size: 6.5 KB
+   Total nodes: 1,228,051
+   Average nodes per file: 1,469
+   Average file size: 14.2 KB
 
 📋 ALL NODE TYPES (BY FILE PRESENCE):
-   Program                         479 files (100.0%) -      479 total (0.18%)
-   Literal                         478 files ( 99.8%) -   22,843 total (8.67%)
-   Identifier                      478 files ( 99.8%) -   99,627 total (37.82%)
-   MemberExpression                468 files ( 97.7%) -   26,349 total (10.00%)
-   ExpressionStatement             467 files ( 97.5%) -    6,200 total (2.35%)
-   AssignmentExpression            461 files ( 96.2%) -    2,578 total (0.98%)
-   CallExpression                  450 files ( 93.9%) -   12,468 total (4.73%)
-   BlockStatement                  438 files ( 91.4%) -    9,070 total (3.44%)
-   VariableDeclaration             435 files ( 90.8%) -    6,186 total (2.35%)
-   VariableDeclarator              435 files ( 90.8%) -    6,737 total (2.56%)
-   Property                        430 files ( 89.8%) -   15,643 total (5.94%)
-   ReturnStatement                 426 files ( 88.9%) -    4,034 total (1.53%)
-   ObjectExpression                411 files ( 85.8%) -    5,421 total (2.06%)
-   FunctionExpression              400 files ( 83.5%) -    1,811 total (0.69%)
-   BinaryExpression                377 files ( 78.7%) -    5,614 total (2.13%)
-   ArrayExpression                 374 files ( 78.1%) -    1,826 total (0.69%)
-   IfStatement                     374 files ( 78.1%) -    4,255 total (1.62%)
-   LogicalExpression               337 files ( 70.4%) -    4,306 total (1.63%)
-   FunctionDeclaration             313 files ( 65.3%) -    1,747 total (0.66%)
-   UnaryExpression                 312 files ( 65.1%) -    2,307 total (0.88%)
-   ParenthesizedExpression         249 files ( 52.0%) -    1,279 total (0.49%)
-   ArrowFunctionExpression         221 files ( 46.1%) -    1,136 total (0.43%)
-   ConditionalExpression           213 files ( 44.5%) -      767 total (0.29%)
-   Unknown                         197 files ( 41.1%) -    2,041 total (0.77%)
-   ObjectPattern                   190 files ( 39.7%) -      540 total (0.21%)
-   NewExpression                   169 files ( 35.3%) -      625 total (0.24%)
-   TemplateLiteral                 137 files ( 28.6%) -      619 total (0.23%)
-   TemplateElement                 137 files ( 28.6%) -    1,477 total (0.56%)
-   ArrayPattern                    110 files ( 23.0%) -      156 total (0.06%)
-   ForOfStatement                   74 files ( 15.4%) -      180 total (0.07%)
-   UpdateExpression                 73 files ( 15.2%) -      179 total (0.07%)
-   ForStatement                     72 files ( 15.0%) -      149 total (0.06%)
-   SpreadElement                    71 files ( 14.8%) -      205 total (0.08%)
-   WhileStatement                   63 files ( 13.2%) -      100 total (0.04%)
-   ThisExpression                   62 files ( 12.9%) -    1,085 total (0.41%)
-   ClassBody                        56 files ( 11.7%) -       86 total (0.03%)
-   MethodDefinition                 54 files ( 11.3%) -      466 total (0.18%)
-   SwitchStatement                  48 files ( 10.0%) -       86 total (0.03%)
-   SwitchCase                       48 files ( 10.0%) -      657 total (0.25%)
-   ContinueStatement                44 files (  9.2%) -      109 total (0.04%)
-   ClassDeclaration                 44 files (  9.2%) -       74 total (0.03%)
-   AssignmentPattern                42 files (  8.8%) -      138 total (0.05%)
-   BreakStatement                   42 files (  8.8%) -      169 total (0.06%)
-   TryStatement                     41 files (  8.6%) -       78 total (0.03%)
-   CatchClause                      41 files (  8.6%) -       75 total (0.03%)
-   ThrowStatement                   41 files (  8.6%) -      199 total (0.08%)
-   ChainExpression                  22 files (  4.6%) -       43 total (0.02%)
-   YieldExpression                  19 files (  4.0%) -      109 total (0.04%)
-   RestElement                      19 files (  4.0%) -       30 total (0.01%)
-   Super                            19 files (  4.0%) -       40 total (0.02%)
-   AwaitExpression                  17 files (  3.5%) -       93 total (0.04%)
-   PropertyDefinition               16 files (  3.3%) -       73 total (0.03%)
-   ClassExpression                  12 files (  2.5%) -       12 total (0.00%)
-   DoWhileStatement                 11 files (  2.3%) -       15 total (0.01%)
-   ImportDeclaration                11 files (  2.3%) -       14 total (0.01%)
-   ImportSpecifier                  10 files (  2.1%) -       22 total (0.01%)
-   TSTypeAnnotation                  9 files (  1.9%) -    2,108 total (0.80%)
-   TSTypeReference                   9 files (  1.9%) -    1,438 total (0.55%)
-   TSQualifiedName                   9 files (  1.9%) -      827 total (0.31%)
-   PrivateIdentifier                 8 files (  1.7%) -      101 total (0.04%)
-   TSArrayType                       7 files (  1.5%) -      156 total (0.06%)
-   ForInStatement                    7 files (  1.5%) -       13 total (0.00%)
-   ExportNamedDeclaration            6 files (  1.3%) -       27 total (0.01%)
-   TSTypeParameterInstantiation      5 files (  1.0%) -      561 total (0.21%)
-   TSExportAssignment                5 files (  1.0%) -        5 total (0.00%)
-   TaggedTemplateExpression          4 files (  0.8%) -        5 total (0.00%)
-   SequenceExpression                4 files (  0.8%) -       86 total (0.03%)
-   TSStringKeyword                   4 files (  0.8%) -      282 total (0.11%)
-   TSTypeLiteral                     4 files (  0.8%) -      275 total (0.10%)
-   TSPropertySignature               4 files (  0.8%) -    1,330 total (0.50%)
-   TSLiteralType                     4 files (  0.8%) -      511 total (0.19%)
-   TSBooleanKeyword                  3 files (  0.6%) -      357 total (0.14%)
-   TSUnionType                       3 files (  0.6%) -      679 total (0.26%)
-   ExportSpecifier                   3 files (  0.6%) -        4 total (0.00%)
-   TSUndefinedKeyword                3 files (  0.6%) -      344 total (0.13%)
-   ImportExpression                  3 files (  0.6%) -        5 total (0.00%)
-   TSEmptyBodyFunctionExpression     2 files (  0.4%) -       65 total (0.02%)
-   TSAnyKeyword                      2 files (  0.4%) -       30 total (0.01%)
-   TSVoidKeyword                     2 files (  0.4%) -      157 total (0.06%)
-   TSIndexedAccessType               2 files (  0.4%) -        7 total (0.00%)
-   TSDeclareFunction                 2 files (  0.4%) -        4 total (0.00%)
-   TSInterfaceDeclaration            2 files (  0.4%) -       68 total (0.03%)
-   TSInterfaceBody                   2 files (  0.4%) -       68 total (0.03%)
-   TSTypeAliasDeclaration            2 files (  0.4%) -       40 total (0.02%)
-   TSIntersectionType                2 files (  0.4%) -      156 total (0.06%)
-   TSInterfaceHeritage               2 files (  0.4%) -       16 total (0.01%)
-   TSTupleType                       2 files (  0.4%) -      308 total (0.12%)
-   TSNumberKeyword                   2 files (  0.4%) -      129 total (0.05%)
-   TSNullKeyword                     2 files (  0.4%) -       44 total (0.02%)
-   TSRestType                        2 files (  0.4%) -        9 total (0.00%)
-   TSParenthesizedType               2 files (  0.4%) -      185 total (0.07%)
-   TSTypeOperator                    2 files (  0.4%) -        4 total (0.00%)
-   Hashbang                          1 files (  0.2%) -        1 total (0.00%)
-   TSNeverKeyword                    1 files (  0.2%) -       18 total (0.01%)
-   TSOptionalType                    1 files (  0.2%) -        1 total (0.00%)
-   ImportNamespaceSpecifier          1 files (  0.2%) -        1 total (0.00%)
-   TSModuleDeclaration               1 files (  0.2%) -        7 total (0.00%)
-   TSModuleBlock                     1 files (  0.2%) -        7 total (0.00%)
-   TSMethodSignature                 1 files (  0.2%) -       28 total (0.01%)
-   TSClassImplements                 1 files (  0.2%) -        1 total (0.00%)
-   TSFunctionType                    1 files (  0.2%) -      194 total (0.07%)
-   TSIndexSignature                  1 files (  0.2%) -       14 total (0.01%)
-   TSCallSignatureDeclaration        1 files (  0.2%) -       24 total (0.01%)
-   TSTypeParameterDeclaration        1 files (  0.2%) -       23 total (0.01%)
-   TSTypeParameter                   1 files (  0.2%) -       25 total (0.01%)
-   TSTypePredicate                   1 files (  0.2%) -       18 total (0.01%)
-   TSUnknownKeyword                  1 files (  0.2%) -        8 total (0.00%)
-   TSTypeQuery                       1 files (  0.2%) -        4 total (0.00%)
-   ImportDefaultSpecifier            1 files (  0.2%) -        1 total (0.00%)
-   LabeledStatement                  1 files (  0.2%) -        1 total (0.00%)
+   Program                         836 files (100.0%) -      836 total (0.07%)
+   Literal                         835 files ( 99.9%) -  242,600 total (19.75%)
+   Identifier                      835 files ( 99.9%) -  386,910 total (31.51%)
+   MemberExpression                825 files ( 98.7%) -   72,394 total (5.90%)
+   ExpressionStatement             824 files ( 98.6%) -   29,511 total (2.40%)
+   CallExpression                  805 files ( 96.3%) -   47,199 total (3.84%)
+   VariableDeclaration             791 files ( 94.6%) -   15,171 total (1.24%)
+   VariableDeclarator              791 files ( 94.6%) -   16,632 total (1.35%)
+   Property                        783 files ( 93.7%) -  177,623 total (14.46%)
+   ObjectExpression                758 files ( 90.7%) -   76,344 total (6.22%)
+   ArrayExpression                 715 files ( 85.5%) -   38,685 total (3.15%)
+   BlockStatement                  530 files ( 63.4%) -   19,075 total (1.55%)
+   AssignmentExpression            512 files ( 61.2%) -    6,834 total (0.56%)
+   NewExpression                   500 files ( 59.8%) -    2,624 total (0.21%)
+   ReturnStatement                 490 files ( 58.6%) -    5,914 total (0.48%)
+   BinaryExpression                434 files ( 51.9%) -   11,285 total (0.92%)
+   FunctionExpression              432 files ( 51.7%) -    3,302 total (0.27%)
+   IfStatement                     402 files ( 48.1%) -    6,575 total (0.54%)
+   FunctionDeclaration             370 files ( 44.3%) -    2,204 total (0.18%)
+   LogicalExpression               358 files ( 42.8%) -    5,700 total (0.46%)
+   UnaryExpression                 355 files ( 42.5%) -    3,801 total (0.31%)
+   Unknown                         325 files ( 38.9%) -    9,131 total (0.74%)
+   ArrowFunctionExpression         298 files ( 35.6%) -    7,506 total (0.61%)
+   ParenthesizedExpression         280 files ( 33.5%) -    2,001 total (0.16%)
+   TemplateLiteral                 255 files ( 30.5%) -    5,740 total (0.47%)
+   TemplateElement                 255 files ( 30.5%) -    7,553 total (0.62%)
+   ObjectPattern                   250 files ( 29.9%) -      873 total (0.07%)
+   ConditionalExpression           232 files ( 27.8%) -      979 total (0.08%)
+   ArrayPattern                    127 files ( 15.2%) -      249 total (0.02%)
+   SpreadElement                   110 files ( 13.2%) -      525 total (0.04%)
+   UpdateExpression                 86 files ( 10.3%) -      323 total (0.03%)
+   ForOfStatement                   86 files ( 10.3%) -      217 total (0.02%)
+   ForStatement                     83 files (  9.9%) -      282 total (0.02%)
+   ThisExpression                   73 files (  8.7%) -    2,315 total (0.19%)
+   WhileStatement                   68 files (  8.1%) -      165 total (0.01%)
+   ClassBody                        58 files (  6.9%) -       88 total (0.01%)
+   MethodDefinition                 55 files (  6.6%) -      470 total (0.04%)
+   TryStatement                     53 files (  6.3%) -      139 total (0.01%)
+   AssignmentPattern                51 files (  6.1%) -      159 total (0.01%)
+   CatchClause                      51 files (  6.1%) -      131 total (0.01%)
+   ThrowStatement                   51 files (  6.1%) -      279 total (0.02%)
+   SwitchStatement                  50 files (  6.0%) -      151 total (0.01%)
+   SwitchCase                       50 files (  6.0%) -    1,087 total (0.09%)
+   ContinueStatement                48 files (  5.7%) -      128 total (0.01%)
+   ClassDeclaration                 46 files (  5.5%) -       76 total (0.01%)
+   BreakStatement                   45 files (  5.4%) -      411 total (0.03%)
+   RestElement                      31 files (  3.7%) -       50 total (0.00%)
+   AwaitExpression                  28 files (  3.3%) -    1,513 total (0.12%)
+   TaggedTemplateExpression         25 files (  3.0%) -    2,368 total (0.19%)
+   ChainExpression                  24 files (  2.9%) -       49 total (0.00%)
+   YieldExpression                  22 files (  2.6%) -      127 total (0.01%)
+   Super                            19 files (  2.3%) -       40 total (0.00%)
+   PropertyDefinition               16 files (  1.9%) -       73 total (0.01%)
+   DoWhileStatement                 13 files (  1.6%) -       26 total (0.00%)
+   ImportDeclaration                13 files (  1.6%) -       23 total (0.00%)
+   ImportSpecifier                  12 files (  1.4%) -       51 total (0.00%)
+   ClassExpression                  12 files (  1.4%) -       12 total (0.00%)
+   TSTypeAnnotation                 11 files (  1.3%) -    2,284 total (0.19%)
+   TSTypeReference                  11 files (  1.3%) -    1,578 total (0.13%)
+   TSQualifiedName                  11 files (  1.3%) -      932 total (0.08%)
+   TSArrayType                       9 files (  1.1%) -      165 total (0.01%)
+   ForInStatement                    9 files (  1.1%) -       81 total (0.01%)
+   PrivateIdentifier                 8 files (  1.0%) -      101 total (0.01%)
+   ExportNamedDeclaration            6 files (  0.7%) -       27 total (0.00%)
+   TSTypeParameterInstantiation      6 files (  0.7%) -      582 total (0.05%)
+   TSStringKeyword                   6 files (  0.7%) -      301 total (0.02%)
+   SequenceExpression                5 files (  0.6%) -       93 total (0.01%)
+   TSTypeLiteral                     5 files (  0.6%) -      303 total (0.02%)
+   TSPropertySignature               5 files (  0.6%) -    1,364 total (0.11%)
+   TSLiteralType                     5 files (  0.6%) -      545 total (0.04%)
+   TSExportAssignment                5 files (  0.6%) -        5 total (0.00%)
+   TSBooleanKeyword                  4 files (  0.5%) -      362 total (0.03%)
+   TSUnionType                       4 files (  0.5%) -      686 total (0.06%)
+   ExportSpecifier                   3 files (  0.4%) -        4 total (0.00%)
+   TSVoidKeyword                     3 files (  0.4%) -      158 total (0.01%)
+   TSUndefinedKeyword                3 files (  0.4%) -      344 total (0.03%)
+   TSIndexedAccessType               3 files (  0.4%) -        9 total (0.00%)
+   TSInterfaceDeclaration            3 files (  0.4%) -       69 total (0.01%)
+   TSInterfaceBody                   3 files (  0.4%) -       69 total (0.01%)
+   TSTypeAliasDeclaration            3 files (  0.4%) -       41 total (0.00%)
+   TSIntersectionType                3 files (  0.4%) -      178 total (0.01%)
+   TSTupleType                       3 files (  0.4%) -      313 total (0.03%)
+   TSNumberKeyword                   3 files (  0.4%) -      135 total (0.01%)
+   TSParenthesizedType               3 files (  0.4%) -      186 total (0.02%)
+   TSTypeOperator                    3 files (  0.4%) -        5 total (0.00%)
+   ImportExpression                  3 files (  0.4%) -        5 total (0.00%)
+   TSEmptyBodyFunctionExpression     2 files (  0.2%) -       65 total (0.01%)
+   TSAnyKeyword                      2 files (  0.2%) -       30 total (0.00%)
+   TSDeclareFunction                 2 files (  0.2%) -        4 total (0.00%)
+   TSNeverKeyword                    2 files (  0.2%) -       19 total (0.00%)
+   TSInterfaceHeritage               2 files (  0.2%) -       16 total (0.00%)
+   TSNullKeyword                     2 files (  0.2%) -       44 total (0.00%)
+   TSRestType                        2 files (  0.2%) -        9 total (0.00%)
+   TSFunctionType                    2 files (  0.2%) -      195 total (0.02%)
+   TSIndexSignature                  2 files (  0.2%) -       15 total (0.00%)
+   TSTypePredicate                   2 files (  0.2%) -       35 total (0.00%)
+   TSUnknownKeyword                  2 files (  0.2%) -        9 total (0.00%)
+   TSTypeQuery                       2 files (  0.2%) -        8 total (0.00%)
+   TSSatisfiesExpression             2 files (  0.2%) -       17 total (0.00%)
+   ImportDefaultSpecifier            2 files (  0.2%) -        2 total (0.00%)
+   Hashbang                          1 files (  0.1%) -        1 total (0.00%)
+   TSOptionalType                    1 files (  0.1%) -        1 total (0.00%)
+   ImportNamespaceSpecifier          1 files (  0.1%) -        1 total (0.00%)
+   TSModuleDeclaration               1 files (  0.1%) -        7 total (0.00%)
+   TSModuleBlock                     1 files (  0.1%) -        7 total (0.00%)
+   TSMethodSignature                 1 files (  0.1%) -       28 total (0.00%)
+   TSClassImplements                 1 files (  0.1%) -        1 total (0.00%)
+   TSCallSignatureDeclaration        1 files (  0.1%) -       24 total (0.00%)
+   TSTypeParameterDeclaration        1 files (  0.1%) -       23 total (0.00%)
+   TSTypeParameter                   1 files (  0.1%) -       25 total (0.00%)
+   EmptyStatement                    1 files (  0.1%) -        4 total (0.00%)
+   TSAsExpression                    1 files (  0.1%) -        3 total (0.00%)
+   TSMappedType                      1 files (  0.1%) -        1 total (0.00%)
+   TSConditionalType                 1 files (  0.1%) -        1 total (0.00%)
+   TSNonNullExpression               1 files (  0.1%) -        1 total (0.00%)
+   LabeledStatement                  1 files (  0.1%) -        1 total (0.00%)
 
 📝 ALL NODE TYPES (BY TOTAL COUNT):
-   Identifier                       99,627 (37.82%) in 478 files (99.8%)
-   MemberExpression                 26,349 (10.00%) in 468 files (97.7%)
-   Literal                          22,843 (8.67%) in 478 files (99.8%)
-   Property                         15,643 (5.94%) in 430 files (89.8%)
-   CallExpression                   12,468 (4.73%) in 450 files (93.9%)
-   BlockStatement                    9,070 (3.44%) in 438 files (91.4%)
-   VariableDeclarator                6,737 (2.56%) in 435 files (90.8%)
-   ExpressionStatement               6,200 (2.35%) in 467 files (97.5%)
-   VariableDeclaration               6,186 (2.35%) in 435 files (90.8%)
-   BinaryExpression                  5,614 (2.13%) in 377 files (78.7%)
-   ObjectExpression                  5,421 (2.06%) in 411 files (85.8%)
-   LogicalExpression                 4,306 (1.63%) in 337 files (70.4%)
-   IfStatement                       4,255 (1.62%) in 374 files (78.1%)
-   ReturnStatement                   4,034 (1.53%) in 426 files (88.9%)
-   AssignmentExpression              2,578 (0.98%) in 461 files (96.2%)
-   UnaryExpression                   2,307 (0.88%) in 312 files (65.1%)
-   TSTypeAnnotation                  2,108 (0.80%) in 9 files (1.9%)
-   Unknown                           2,041 (0.77%) in 197 files (41.1%)
-   ArrayExpression                   1,826 (0.69%) in 374 files (78.1%)
-   FunctionExpression                1,811 (0.69%) in 400 files (83.5%)
-   FunctionDeclaration               1,747 (0.66%) in 313 files (65.3%)
-   TemplateElement                   1,477 (0.56%) in 137 files (28.6%)
-   TSTypeReference                   1,438 (0.55%) in 9 files (1.9%)
-   TSPropertySignature               1,330 (0.50%) in 4 files (0.8%)
-   ParenthesizedExpression           1,279 (0.49%) in 249 files (52.0%)
-   ArrowFunctionExpression           1,136 (0.43%) in 221 files (46.1%)
-   ThisExpression                    1,085 (0.41%) in 62 files (12.9%)
-   TSQualifiedName                     827 (0.31%) in 9 files (1.9%)
-   ConditionalExpression               767 (0.29%) in 213 files (44.5%)
-   TSUnionType                         679 (0.26%) in 3 files (0.6%)
-   SwitchCase                          657 (0.25%) in 48 files (10.0%)
-   NewExpression                       625 (0.24%) in 169 files (35.3%)
-   TemplateLiteral                     619 (0.23%) in 137 files (28.6%)
-   TSTypeParameterInstantiation        561 (0.21%) in 5 files (1.0%)
-   ObjectPattern                       540 (0.21%) in 190 files (39.7%)
-   TSLiteralType                       511 (0.19%) in 4 files (0.8%)
-   Program                             479 (0.18%) in 479 files (100.0%)
-   MethodDefinition                    466 (0.18%) in 54 files (11.3%)
-   TSBooleanKeyword                    357 (0.14%) in 3 files (0.6%)
-   TSUndefinedKeyword                  344 (0.13%) in 3 files (0.6%)
-   TSTupleType                         308 (0.12%) in 2 files (0.4%)
-   TSStringKeyword                     282 (0.11%) in 4 files (0.8%)
-   TSTypeLiteral                       275 (0.10%) in 4 files (0.8%)
-   SpreadElement                       205 (0.08%) in 71 files (14.8%)
-   ThrowStatement                      199 (0.08%) in 41 files (8.6%)
-   TSFunctionType                      194 (0.07%) in 1 files (0.2%)
-   TSParenthesizedType                 185 (0.07%) in 2 files (0.4%)
-   ForOfStatement                      180 (0.07%) in 74 files (15.4%)
-   UpdateExpression                    179 (0.07%) in 73 files (15.2%)
-   BreakStatement                      169 (0.06%) in 42 files (8.8%)
-   TSVoidKeyword                       157 (0.06%) in 2 files (0.4%)
-   ArrayPattern                        156 (0.06%) in 110 files (23.0%)
-   TSArrayType                         156 (0.06%) in 7 files (1.5%)
-   TSIntersectionType                  156 (0.06%) in 2 files (0.4%)
-   ForStatement                        149 (0.06%) in 72 files (15.0%)
-   AssignmentPattern                   138 (0.05%) in 42 files (8.8%)
-   TSNumberKeyword                     129 (0.05%) in 2 files (0.4%)
-   ContinueStatement                   109 (0.04%) in 44 files (9.2%)
-   YieldExpression                     109 (0.04%) in 19 files (4.0%)
-   PrivateIdentifier                   101 (0.04%) in 8 files (1.7%)
-   WhileStatement                      100 (0.04%) in 63 files (13.2%)
-   AwaitExpression                      93 (0.04%) in 17 files (3.5%)
-   SequenceExpression                   86 (0.03%) in 4 files (0.8%)
-   ClassBody                            86 (0.03%) in 56 files (11.7%)
-   SwitchStatement                      86 (0.03%) in 48 files (10.0%)
-   TryStatement                         78 (0.03%) in 41 files (8.6%)
-   CatchClause                          75 (0.03%) in 41 files (8.6%)
-   ClassDeclaration                     74 (0.03%) in 44 files (9.2%)
-   PropertyDefinition                   73 (0.03%) in 16 files (3.3%)
-   TSInterfaceDeclaration               68 (0.03%) in 2 files (0.4%)
-   TSInterfaceBody                      68 (0.03%) in 2 files (0.4%)
-   TSEmptyBodyFunctionExpression        65 (0.02%) in 2 files (0.4%)
-   TSNullKeyword                        44 (0.02%) in 2 files (0.4%)
-   ChainExpression                      43 (0.02%) in 22 files (4.6%)
-   TSTypeAliasDeclaration               40 (0.02%) in 2 files (0.4%)
-   Super                                40 (0.02%) in 19 files (4.0%)
-   TSAnyKeyword                         30 (0.01%) in 2 files (0.4%)
-   RestElement                          30 (0.01%) in 19 files (4.0%)
-   TSMethodSignature                    28 (0.01%) in 1 files (0.2%)
-   ExportNamedDeclaration               27 (0.01%) in 6 files (1.3%)
-   TSTypeParameter                      25 (0.01%) in 1 files (0.2%)
-   TSCallSignatureDeclaration           24 (0.01%) in 1 files (0.2%)
-   TSTypeParameterDeclaration           23 (0.01%) in 1 files (0.2%)
-   ImportSpecifier                      22 (0.01%) in 10 files (2.1%)
-   TSNeverKeyword                       18 (0.01%) in 1 files (0.2%)
-   TSTypePredicate                      18 (0.01%) in 1 files (0.2%)
-   TSInterfaceHeritage                  16 (0.01%) in 2 files (0.4%)
-   DoWhileStatement                     15 (0.01%) in 11 files (2.3%)
-   ImportDeclaration                    14 (0.01%) in 11 files (2.3%)
-   TSIndexSignature                     14 (0.01%) in 1 files (0.2%)
-   ForInStatement                       13 (0.00%) in 7 files (1.5%)
-   ClassExpression                      12 (0.00%) in 12 files (2.5%)
-   TSRestType                            9 (0.00%) in 2 files (0.4%)
-   TSUnknownKeyword                      8 (0.00%) in 1 files (0.2%)
-   TSIndexedAccessType                   7 (0.00%) in 2 files (0.4%)
-   TSModuleDeclaration                   7 (0.00%) in 1 files (0.2%)
-   TSModuleBlock                         7 (0.00%) in 1 files (0.2%)
-   TaggedTemplateExpression              5 (0.00%) in 4 files (0.8%)
-   ImportExpression                      5 (0.00%) in 3 files (0.6%)
-   TSExportAssignment                    5 (0.00%) in 5 files (1.0%)
-   ExportSpecifier                       4 (0.00%) in 3 files (0.6%)
-   TSDeclareFunction                     4 (0.00%) in 2 files (0.4%)
-   TSTypeOperator                        4 (0.00%) in 2 files (0.4%)
-   TSTypeQuery                           4 (0.00%) in 1 files (0.2%)
-   Hashbang                              1 (0.00%) in 1 files (0.2%)
-   TSOptionalType                        1 (0.00%) in 1 files (0.2%)
-   ImportNamespaceSpecifier              1 (0.00%) in 1 files (0.2%)
-   TSClassImplements                     1 (0.00%) in 1 files (0.2%)
-   ImportDefaultSpecifier                1 (0.00%) in 1 files (0.2%)
-   LabeledStatement                      1 (0.00%) in 1 files (0.2%)
+   Identifier                      386,910 (31.51%) in 835 files (99.9%)
+   Literal                         242,600 (19.75%) in 835 files (99.9%)
+   Property                        177,623 (14.46%) in 783 files (93.7%)
+   ObjectExpression                 76,344 (6.22%) in 758 files (90.7%)
+   MemberExpression                 72,394 (5.90%) in 825 files (98.7%)
+   CallExpression                   47,199 (3.84%) in 805 files (96.3%)
+   ArrayExpression                  38,685 (3.15%) in 715 files (85.5%)
+   ExpressionStatement              29,511 (2.40%) in 824 files (98.6%)
+   BlockStatement                   19,075 (1.55%) in 530 files (63.4%)
+   VariableDeclarator               16,632 (1.35%) in 791 files (94.6%)
+   VariableDeclaration              15,171 (1.24%) in 791 files (94.6%)
+   BinaryExpression                 11,285 (0.92%) in 434 files (51.9%)
+   Unknown                           9,131 (0.74%) in 325 files (38.9%)
+   TemplateElement                   7,553 (0.62%) in 255 files (30.5%)
+   ArrowFunctionExpression           7,506 (0.61%) in 298 files (35.6%)
+   AssignmentExpression              6,834 (0.56%) in 512 files (61.2%)
+   IfStatement                       6,575 (0.54%) in 402 files (48.1%)
+   ReturnStatement                   5,914 (0.48%) in 490 files (58.6%)
+   TemplateLiteral                   5,740 (0.47%) in 255 files (30.5%)
+   LogicalExpression                 5,700 (0.46%) in 358 files (42.8%)
+   UnaryExpression                   3,801 (0.31%) in 355 files (42.5%)
+   FunctionExpression                3,302 (0.27%) in 432 files (51.7%)
+   NewExpression                     2,624 (0.21%) in 500 files (59.8%)
+   TaggedTemplateExpression          2,368 (0.19%) in 25 files (3.0%)
+   ThisExpression                    2,315 (0.19%) in 73 files (8.7%)
+   TSTypeAnnotation                  2,284 (0.19%) in 11 files (1.3%)
+   FunctionDeclaration               2,204 (0.18%) in 370 files (44.3%)
+   ParenthesizedExpression           2,001 (0.16%) in 280 files (33.5%)
+   TSTypeReference                   1,578 (0.13%) in 11 files (1.3%)
+   AwaitExpression                   1,513 (0.12%) in 28 files (3.3%)
+   TSPropertySignature               1,364 (0.11%) in 5 files (0.6%)
+   SwitchCase                        1,087 (0.09%) in 50 files (6.0%)
+   ConditionalExpression               979 (0.08%) in 232 files (27.8%)
+   TSQualifiedName                     932 (0.08%) in 11 files (1.3%)
+   ObjectPattern                       873 (0.07%) in 250 files (29.9%)
+   Program                             836 (0.07%) in 836 files (100.0%)
+   TSUnionType                         686 (0.06%) in 4 files (0.5%)
+   TSTypeParameterInstantiation        582 (0.05%) in 6 files (0.7%)
+   TSLiteralType                       545 (0.04%) in 5 files (0.6%)
+   SpreadElement                       525 (0.04%) in 110 files (13.2%)
+   MethodDefinition                    470 (0.04%) in 55 files (6.6%)
+   BreakStatement                      411 (0.03%) in 45 files (5.4%)
+   TSBooleanKeyword                    362 (0.03%) in 4 files (0.5%)
+   TSUndefinedKeyword                  344 (0.03%) in 3 files (0.4%)
+   UpdateExpression                    323 (0.03%) in 86 files (10.3%)
+   TSTupleType                         313 (0.03%) in 3 files (0.4%)
+   TSTypeLiteral                       303 (0.02%) in 5 files (0.6%)
+   TSStringKeyword                     301 (0.02%) in 6 files (0.7%)
+   ForStatement                        282 (0.02%) in 83 files (9.9%)
+   ThrowStatement                      279 (0.02%) in 51 files (6.1%)
+   ArrayPattern                        249 (0.02%) in 127 files (15.2%)
+   ForOfStatement                      217 (0.02%) in 86 files (10.3%)
+   TSFunctionType                      195 (0.02%) in 2 files (0.2%)
+   TSParenthesizedType                 186 (0.02%) in 3 files (0.4%)
+   TSIntersectionType                  178 (0.01%) in 3 files (0.4%)
+   WhileStatement                      165 (0.01%) in 68 files (8.1%)
+   TSArrayType                         165 (0.01%) in 9 files (1.1%)
+   AssignmentPattern                   159 (0.01%) in 51 files (6.1%)
+   TSVoidKeyword                       158 (0.01%) in 3 files (0.4%)
+   SwitchStatement                     151 (0.01%) in 50 files (6.0%)
+   TryStatement                        139 (0.01%) in 53 files (6.3%)
+   TSNumberKeyword                     135 (0.01%) in 3 files (0.4%)
+   CatchClause                         131 (0.01%) in 51 files (6.1%)
+   ContinueStatement                   128 (0.01%) in 48 files (5.7%)
+   YieldExpression                     127 (0.01%) in 22 files (2.6%)
+   PrivateIdentifier                   101 (0.01%) in 8 files (1.0%)
+   SequenceExpression                   93 (0.01%) in 5 files (0.6%)
+   ClassBody                            88 (0.01%) in 58 files (6.9%)
+   ForInStatement                       81 (0.01%) in 9 files (1.1%)
+   ClassDeclaration                     76 (0.01%) in 46 files (5.5%)
+   PropertyDefinition                   73 (0.01%) in 16 files (1.9%)
+   TSInterfaceDeclaration               69 (0.01%) in 3 files (0.4%)
+   TSInterfaceBody                      69 (0.01%) in 3 files (0.4%)
+   TSEmptyBodyFunctionExpression        65 (0.01%) in 2 files (0.2%)
+   ImportSpecifier                      51 (0.00%) in 12 files (1.4%)
+   RestElement                          50 (0.00%) in 31 files (3.7%)
+   ChainExpression                      49 (0.00%) in 24 files (2.9%)
+   TSNullKeyword                        44 (0.00%) in 2 files (0.2%)
+   TSTypeAliasDeclaration               41 (0.00%) in 3 files (0.4%)
+   Super                                40 (0.00%) in 19 files (2.3%)
+   TSTypePredicate                      35 (0.00%) in 2 files (0.2%)
+   TSAnyKeyword                         30 (0.00%) in 2 files (0.2%)
+   TSMethodSignature                    28 (0.00%) in 1 files (0.1%)
+   ExportNamedDeclaration               27 (0.00%) in 6 files (0.7%)
+   DoWhileStatement                     26 (0.00%) in 13 files (1.6%)
+   TSTypeParameter                      25 (0.00%) in 1 files (0.1%)
+   TSCallSignatureDeclaration           24 (0.00%) in 1 files (0.1%)
+   ImportDeclaration                    23 (0.00%) in 13 files (1.6%)
+   TSTypeParameterDeclaration           23 (0.00%) in 1 files (0.1%)
+   TSNeverKeyword                       19 (0.00%) in 2 files (0.2%)
+   TSSatisfiesExpression                17 (0.00%) in 2 files (0.2%)
+   TSInterfaceHeritage                  16 (0.00%) in 2 files (0.2%)
+   TSIndexSignature                     15 (0.00%) in 2 files (0.2%)
+   ClassExpression                      12 (0.00%) in 12 files (1.4%)
+   TSIndexedAccessType                   9 (0.00%) in 3 files (0.4%)
+   TSRestType                            9 (0.00%) in 2 files (0.2%)
+   TSUnknownKeyword                      9 (0.00%) in 2 files (0.2%)
+   TSTypeQuery                           8 (0.00%) in 2 files (0.2%)
+   TSModuleDeclaration                   7 (0.00%) in 1 files (0.1%)
+   TSModuleBlock                         7 (0.00%) in 1 files (0.1%)
+   TSTypeOperator                        5 (0.00%) in 3 files (0.4%)
+   ImportExpression                      5 (0.00%) in 3 files (0.4%)
+   TSExportAssignment                    5 (0.00%) in 5 files (0.6%)
+   ExportSpecifier                       4 (0.00%) in 3 files (0.4%)
+   TSDeclareFunction                     4 (0.00%) in 2 files (0.2%)
+   EmptyStatement                        4 (0.00%) in 1 files (0.1%)
+   TSAsExpression                        3 (0.00%) in 1 files (0.1%)
+   ImportDefaultSpecifier                2 (0.00%) in 2 files (0.2%)
+   Hashbang                              1 (0.00%) in 1 files (0.1%)
+   TSOptionalType                        1 (0.00%) in 1 files (0.1%)
+   ImportNamespaceSpecifier              1 (0.00%) in 1 files (0.1%)
+   TSClassImplements                     1 (0.00%) in 1 files (0.1%)
+   TSMappedType                          1 (0.00%) in 1 files (0.1%)
+   TSConditionalType                     1 (0.00%) in 1 files (0.1%)
+   TSNonNullExpression                   1 (0.00%) in 1 files (0.1%)
+   LabeledStatement                      1 (0.00%) in 1 files (0.1%)
+
+📁 FILE EXAMPLES BY NODE TYPE:
+
+   Identifier:
+     📄 Files WITH Identifier (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+     📄 Files WITHOUT Identifier (showing 1):
+       • docs/src/static/serviceworker.js
+
+   Literal:
+     📄 Files WITH Literal (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+     📄 Files WITHOUT Literal (showing 1):
+       • docs/src/static/serviceworker.js
+
+   Property:
+     📄 Files WITH Property (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+     📄 Files WITHOUT Property (showing 10):
+       • messages/print-config-with-directory-path.js
+       • messages/config-file-missing.js
+       • lib/types/use-at-your-own-risk.d.ts
+       • lib/types/universal.d.ts
+       • lib/types/rules.d.ts
+       • lib/types/index.d.ts
+       • lib/types/config-api.d.ts
+       • lib/shared/traverser.js
+       • lib/shared/text-table.js
+       • lib/shared/relative-module-resolver.js
+
+   ObjectExpression:
+     📄 Files WITH ObjectExpression (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+     📄 Files WITHOUT ObjectExpression (showing 10):
+       • messages/whitespace-found.js
+       • messages/print-config-with-directory-path.js
+       • messages/plugin-missing.js
+       • messages/plugin-invalid.js
+       • messages/plugin-conflict.js
+       • messages/no-config-found.js
+       • messages/invalid-rule-severity.js
+       • messages/invalid-rule-options.js
+       • messages/file-not-found.js
+       • messages/failed-to-read-json.js
+
+   MemberExpression:
+     📄 Files WITH MemberExpression (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+     📄 Files WITHOUT MemberExpression (showing 10):
+       • lib/types/use-at-your-own-risk.d.ts
+       • lib/types/universal.d.ts
+       • lib/types/config-api.d.ts
+       • packages/js/types/index.d.ts
+       • packages/eslint-config-eslint/types/nodejs.d.ts
+       • packages/eslint-config-eslint/types/index.d.ts
+       • packages/eslint-config-eslint/types/formatting.d.ts
+       • packages/eslint-config-eslint/types/cjs.d.ts
+       • packages/eslint-config-eslint/types/base.d.ts
+       • docs/_examples/custom-rule-tutorial-code/example.js
+
+   CallExpression:
+     📄 Files WITH CallExpression (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+     📄 Files WITHOUT CallExpression (showing 10):
+       • messages/plugin-conflict.js
+       • conf/globals.js
+       • conf/ecma-version.js
+       • conf/default-cli-options.js
+       • packages/eslint-config-eslint/formatting.js
+       • lib/types/use-at-your-own-risk.d.ts
+       • lib/types/universal.d.ts
+       • lib/types/rules.d.ts
+       • lib/types/index.d.ts
+       • lib/types/config-api.d.ts
+
+   ArrayExpression:
+     📄 Files WITH ArrayExpression (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+       • tools/config-rule.js
+       • tools/code-sample-minimizer.js
+     📄 Files WITHOUT ArrayExpression (showing 10):
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/check-emfile-handling.js
+       • messages/whitespace-found.js
+       • messages/shared.js
+       • messages/print-config-with-directory-path.js
+       • messages/plugin-missing.js
+       • messages/plugin-invalid.js
+       • messages/plugin-conflict.js
+       • messages/no-config-found.js
+
+   ExpressionStatement:
+     📄 Files WITH ExpressionStatement (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+     📄 Files WITHOUT ExpressionStatement (showing 10):
+       • lib/types/use-at-your-own-risk.d.ts
+       • lib/types/universal.d.ts
+       • lib/types/rules.d.ts
+       • lib/types/index.d.ts
+       • lib/types/config-api.d.ts
+       • packages/js/types/index.d.ts
+       • packages/eslint-config-eslint/types/nodejs.d.ts
+       • packages/eslint-config-eslint/types/index.d.ts
+       • packages/eslint-config-eslint/types/formatting.d.ts
+       • packages/eslint-config-eslint/types/cjs.d.ts
+
+   BlockStatement:
+     📄 Files WITH BlockStatement (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+     📄 Files WITHOUT BlockStatement (showing 10):
+       • lib/unsupported-api.js
+       • lib/universal.js
+       • lib/config-api.js
+       • docs/postcss.config.js
+       • conf/globals.js
+       • conf/ecma-version.js
+       • conf/default-cli-options.js
+       • tools/internal-rules/index.js
+       • packages/eslint-config-eslint/nodejs.js
+       • packages/eslint-config-eslint/index.js
+
+   VariableDeclarator:
+     📄 Files WITH VariableDeclarator (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+     📄 Files WITHOUT VariableDeclarator (showing 10):
+       • messages/shared.js
+       • messages/print-config-with-directory-path.js
+       • messages/config-file-missing.js
+       • docs/postcss.config.js
+       • conf/default-cli-options.js
+       • lib/types/universal.d.ts
+       • lib/types/rules.d.ts
+       • lib/types/index.d.ts
+       • lib/types/config-api.d.ts
+       • lib/services/warning-service.js
+
+   VariableDeclaration:
+     📄 Files WITH VariableDeclaration (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+     📄 Files WITHOUT VariableDeclaration (showing 10):
+       • messages/shared.js
+       • messages/print-config-with-directory-path.js
+       • messages/config-file-missing.js
+       • docs/postcss.config.js
+       • conf/default-cli-options.js
+       • lib/types/universal.d.ts
+       • lib/types/rules.d.ts
+       • lib/types/index.d.ts
+       • lib/types/config-api.d.ts
+       • lib/services/warning-service.js
+
+   BinaryExpression:
+     📄 Files WITH BinaryExpression (showing 10):
+       • eslint.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+       • tools/config-rule.js
+       • tools/code-sample-minimizer.js
+       • tools/check-rule-examples.js
+     📄 Files WITHOUT BinaryExpression (showing 10):
+       • webpack.config.js
+       • cypress.config.js
+       • tools/update-eslint-all.js
+       • messages/whitespace-found.js
+       • messages/shared.js
+       • messages/print-config-with-directory-path.js
+       • messages/plugin-missing.js
+       • messages/plugin-invalid.js
+       • messages/plugin-conflict.js
+       • messages/no-config-found.js
+
+   Unknown:
+     📄 Files WITH Unknown (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/code-sample-minimizer.js
+       • tools/check-rule-examples.js
+       • tools/check-emfile-handling.js
+     📄 Files WITHOUT Unknown (showing 10):
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+       • tools/config-rule.js
+       • lib/unsupported-api.js
+       • lib/universal.js
+       • lib/config-api.js
+       • lib/api.js
+       • docs/postcss.config.js
+       • conf/globals.js
+
+   TemplateElement:
+     📄 Files WITH TemplateElement (showing 10):
+       • eslint.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/code-sample-minimizer.js
+       • tools/check-rule-examples.js
+       • tools/check-emfile-handling.js
+       • messages/whitespace-found.js
+       • messages/shared.js
+     📄 Files WITHOUT TemplateElement (showing 10):
+       • webpack.config.js
+       • cypress.config.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+       • tools/config-rule.js
+       • lib/unsupported-api.js
+       • lib/universal.js
+       • lib/config-api.js
+       • lib/api.js
+
+   ArrowFunctionExpression:
+     📄 Files WITH ArrowFunctionExpression (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+       • tools/config-rule.js
+       • tools/code-sample-minimizer.js
+     📄 Files WITHOUT ArrowFunctionExpression (showing 10):
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • messages/whitespace-found.js
+       • messages/shared.js
+       • messages/print-config-with-directory-path.js
+       • messages/plugin-missing.js
+       • messages/plugin-invalid.js
+       • messages/plugin-conflict.js
+       • messages/no-config-found.js
+       • messages/invalid-rule-severity.js
+
+   AssignmentExpression:
+     📄 Files WITH AssignmentExpression (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+     📄 Files WITHOUT AssignmentExpression (showing 10):
+       • lib/types/use-at-your-own-risk.d.ts
+       • lib/types/universal.d.ts
+       • lib/types/rules.d.ts
+       • lib/types/index.d.ts
+       • lib/types/config-api.d.ts
+       • tests/tools/code-sample-minimizer.js
+       • tests/tools/check-rule-examples.js
+       • tests/conf/eslint-recommended.js
+       • tests/conf/eslint-all.js
+       • tests/lib/unsupported-api.js
+
+   IfStatement:
+     📄 Files WITH IfStatement (showing 10):
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-eslint-all.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+       • tools/config-rule.js
+       • tools/code-sample-minimizer.js
+       • tools/check-rule-examples.js
+       • tools/check-emfile-handling.js
+       • lib/options.js
+     📄 Files WITHOUT IfStatement (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • tools/update-readme.js
+       • tools/fuzzer-runner.js
+       • messages/whitespace-found.js
+       • messages/shared.js
+       • messages/print-config-with-directory-path.js
+       • messages/plugin-missing.js
+       • messages/plugin-invalid.js
+
+   ReturnStatement:
+     📄 Files WITH ReturnStatement (showing 10):
+       • eslint.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+       • tools/config-rule.js
+       • tools/code-sample-minimizer.js
+       • tools/check-rule-examples.js
+     📄 Files WITHOUT ReturnStatement (showing 10):
+       • webpack.config.js
+       • cypress.config.js
+       • tools/update-eslint-all.js
+       • lib/unsupported-api.js
+       • lib/universal.js
+       • lib/config-api.js
+       • docs/postcss.config.js
+       • conf/globals.js
+       • conf/ecma-version.js
+       • conf/default-cli-options.js
+
+   TemplateLiteral:
+     📄 Files WITH TemplateLiteral (showing 10):
+       • eslint.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/code-sample-minimizer.js
+       • tools/check-rule-examples.js
+       • tools/check-emfile-handling.js
+       • messages/whitespace-found.js
+       • messages/shared.js
+     📄 Files WITHOUT TemplateLiteral (showing 10):
+       • webpack.config.js
+       • cypress.config.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+       • tools/config-rule.js
+       • lib/unsupported-api.js
+       • lib/universal.js
+       • lib/config-api.js
+       • lib/api.js
+
+   LogicalExpression:
+     📄 Files WITH LogicalExpression (showing 10):
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/eslint-fuzzer.js
+       • tools/config-rule.js
+       • tools/code-sample-minimizer.js
+       • tools/check-rule-examples.js
+       • messages/eslintrc-plugins.js
+       • messages/config-serialize-function.js
+       • lib/cli.js
+       • lib/api.js
+     📄 Files WITHOUT LogicalExpression (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/check-emfile-handling.js
+       • messages/whitespace-found.js
+       • messages/shared.js
+
+   UnaryExpression:
+     📄 Files WITH UnaryExpression (showing 10):
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-eslint-all.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+       • tools/config-rule.js
+       • tools/code-sample-minimizer.js
+       • tools/check-rule-examples.js
+       • messages/eslintrc-plugins.js
+       • lib/options.js
+     📄 Files WITHOUT UnaryExpression (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • tools/update-readme.js
+       • tools/fuzzer-runner.js
+       • tools/check-emfile-handling.js
+       • messages/whitespace-found.js
+       • messages/shared.js
+       • messages/print-config-with-directory-path.js
+       • messages/plugin-missing.js
+
+   FunctionExpression:
+     📄 Files WITH FunctionExpression (showing 10):
+       • cypress.config.js
+       • Makefile.js
+       • tools/fuzzer-runner.js
+       • tools/eslint-fuzzer.js
+       • tools/config-rule.js
+       • tools/check-rule-examples.js
+       • messages/whitespace-found.js
+       • messages/print-config-with-directory-path.js
+       • messages/plugin-missing.js
+       • messages/plugin-invalid.js
+     📄 Files WITHOUT FunctionExpression (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fetch-docs-links.js
+       • tools/code-sample-minimizer.js
+       • tools/check-emfile-handling.js
+       • messages/shared.js
+       • lib/unsupported-api.js
+
+   NewExpression:
+     📄 Files WITH NewExpression (showing 10):
+       • webpack.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/config-rule.js
+       • tools/check-rule-examples.js
+       • tools/check-emfile-handling.js
+       • lib/cli.js
+     📄 Files WITHOUT NewExpression (showing 10):
+       • eslint.config.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/eslint-fuzzer.js
+       • tools/code-sample-minimizer.js
+       • messages/whitespace-found.js
+       • messages/shared.js
+       • messages/print-config-with-directory-path.js
+       • messages/plugin-missing.js
+       • messages/plugin-invalid.js
+
+   TaggedTemplateExpression:
+     📄 Files WITH TaggedTemplateExpression (showing 10):
+       • tools/update-readme.js
+       • lib/linter/apply-disable-directives.js
+       • lib/rules/quotes.js
+       • lib/rules/padding-line-between-statements.js
+       • tests/lib/shared/runtime-info.js
+       • tests/lib/eslint/legacy-eslint.js
+       • tests/lib/eslint/eslint.js
+       • tests/lib/linter/linter.js
+       • tests/lib/cli-engine/cli-engine.js
+       • tests/lib/rules/prefer-named-capture-group.js
+     📄 Files WITHOUT TaggedTemplateExpression (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+       • tools/config-rule.js
+
+   ThisExpression:
+     📄 Files WITH ThisExpression (showing 10):
+       • tools/config-rule.js
+       • lib/services/warning-service.js
+       • lib/services/suppressions-service.js
+       • lib/rule-tester/rule-tester.js
+       • lib/shared/traverser.js
+       • lib/linter/vfile.js
+       • lib/linter/source-code-visitor.js
+       • lib/linter/source-code-traverser.js
+       • lib/linter/source-code-fixer.js
+       • lib/linter/rules.js
+     📄 Files WITHOUT ThisExpression (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSTypeAnnotation:
+     📄 Files WITH TSTypeAnnotation (showing 10):
+       • lib/types/use-at-your-own-risk.d.ts
+       • lib/types/rules.d.ts
+       • lib/types/index.d.ts
+       • packages/js/types/index.d.ts
+       • packages/eslint-config-eslint/types/nodejs.d.ts
+       • packages/eslint-config-eslint/types/index.d.ts
+       • packages/eslint-config-eslint/types/formatting.d.ts
+       • packages/eslint-config-eslint/types/cjs.d.ts
+       • packages/eslint-config-eslint/types/base.d.ts
+       • tests/lib/types/types.test.ts
+     📄 Files WITHOUT TSTypeAnnotation (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   FunctionDeclaration:
+     📄 Files WITH FunctionDeclaration (showing 10):
+       • eslint.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+       • tools/config-rule.js
+       • tools/code-sample-minimizer.js
+       • tools/check-rule-examples.js
+     📄 Files WITHOUT FunctionDeclaration (showing 10):
+       • webpack.config.js
+       • cypress.config.js
+       • tools/update-eslint-all.js
+       • messages/whitespace-found.js
+       • messages/print-config-with-directory-path.js
+       • messages/plugin-missing.js
+       • messages/plugin-invalid.js
+       • messages/plugin-conflict.js
+       • messages/no-config-found.js
+       • messages/invalid-rule-severity.js
+
+   ParenthesizedExpression:
+     📄 Files WITH ParenthesizedExpression (showing 10):
+       • eslint.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+       • tools/code-sample-minimizer.js
+       • tools/check-rule-examples.js
+       • messages/config-serialize-function.js
+       • lib/cli.js
+     📄 Files WITHOUT ParenthesizedExpression (showing 10):
+       • webpack.config.js
+       • cypress.config.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/config-rule.js
+       • tools/check-emfile-handling.js
+       • messages/whitespace-found.js
+       • messages/shared.js
+       • messages/print-config-with-directory-path.js
+       • messages/plugin-missing.js
+
+   TSTypeReference:
+     📄 Files WITH TSTypeReference (showing 10):
+       • lib/types/use-at-your-own-risk.d.ts
+       • lib/types/rules.d.ts
+       • lib/types/index.d.ts
+       • packages/js/types/index.d.ts
+       • packages/eslint-config-eslint/types/nodejs.d.ts
+       • packages/eslint-config-eslint/types/index.d.ts
+       • packages/eslint-config-eslint/types/formatting.d.ts
+       • packages/eslint-config-eslint/types/cjs.d.ts
+       • packages/eslint-config-eslint/types/base.d.ts
+       • tests/lib/types/types.test.ts
+     📄 Files WITHOUT TSTypeReference (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   AwaitExpression:
+     📄 Files WITH AwaitExpression (showing 10):
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/fetch-docs-links.js
+       • tools/check-rule-examples.js
+       • tools/check-emfile-handling.js
+       • lib/cli.js
+       • lib/api.js
+       • bin/eslint.js
+       • lib/services/suppressions-service.js
+       • lib/eslint/legacy-eslint.js
+     📄 Files WITHOUT AwaitExpression (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/eslint-fuzzer.js
+       • tools/config-rule.js
+       • tools/code-sample-minimizer.js
+       • messages/whitespace-found.js
+
+   TSPropertySignature:
+     📄 Files WITH TSPropertySignature (showing 5):
+       • lib/types/use-at-your-own-risk.d.ts
+       • lib/types/rules.d.ts
+       • lib/types/index.d.ts
+       • packages/js/types/index.d.ts
+       • tests/lib/types/types.test.ts
+     📄 Files WITHOUT TSPropertySignature (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   SwitchCase:
+     📄 Files WITH SwitchCase (showing 10):
+       • lib/linter/source-code-traverser.js
+       • lib/linter/linter.js
+       • lib/linter/esquery.js
+       • lib/linter/apply-disable-directives.js
+       • lib/eslint/eslint-helpers.js
+       • lib/rules/rest-spread-spacing.js
+       • lib/rules/radix.js
+       • lib/rules/quotes.js
+       • lib/rules/prefer-regex-literals.js
+       • lib/rules/prefer-object-spread.js
+     📄 Files WITHOUT SwitchCase (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   ConditionalExpression:
+     📄 Files WITH ConditionalExpression (showing 10):
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/fuzzer-runner.js
+       • tools/eslint-fuzzer.js
+       • tools/config-rule.js
+       • tools/code-sample-minimizer.js
+       • tools/check-rule-examples.js
+       • messages/shared.js
+       • messages/file-not-found.js
+     📄 Files WITHOUT ConditionalExpression (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • tools/update-eslint-all.js
+       • tools/fetch-docs-links.js
+       • tools/check-emfile-handling.js
+       • messages/whitespace-found.js
+       • messages/print-config-with-directory-path.js
+       • messages/plugin-missing.js
+       • messages/plugin-invalid.js
+
+   TSQualifiedName:
+     📄 Files WITH TSQualifiedName (showing 10):
+       • lib/types/use-at-your-own-risk.d.ts
+       • lib/types/rules.d.ts
+       • lib/types/index.d.ts
+       • packages/js/types/index.d.ts
+       • packages/eslint-config-eslint/types/nodejs.d.ts
+       • packages/eslint-config-eslint/types/index.d.ts
+       • packages/eslint-config-eslint/types/formatting.d.ts
+       • packages/eslint-config-eslint/types/cjs.d.ts
+       • packages/eslint-config-eslint/types/base.d.ts
+       • tests/lib/types/types.test.ts
+     📄 Files WITHOUT TSQualifiedName (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   ObjectPattern:
+     📄 Files WITH ObjectPattern (showing 10):
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+       • tools/code-sample-minimizer.js
+       • tools/check-rule-examples.js
+     📄 Files WITHOUT ObjectPattern (showing 10):
+       • webpack.config.js
+       • tools/update-eslint-all.js
+       • tools/config-rule.js
+       • messages/shared.js
+       • messages/print-config-with-directory-path.js
+       • messages/config-file-missing.js
+       • lib/options.js
+       • docs/postcss.config.js
+       • conf/globals.js
+       • conf/ecma-version.js
+
+   Program:
+     📄 Files WITH Program (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+     📄 Files WITHOUT Program: (all files contain this node type)
+
+   TSUnionType:
+     📄 Files WITH TSUnionType (showing 4):
+       • lib/types/use-at-your-own-risk.d.ts
+       • lib/types/rules.d.ts
+       • lib/types/index.d.ts
+       • tests/lib/types/types.test.ts
+     📄 Files WITHOUT TSUnionType (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSTypeParameterInstantiation:
+     📄 Files WITH TSTypeParameterInstantiation (showing 6):
+       • lib/types/use-at-your-own-risk.d.ts
+       • lib/types/rules.d.ts
+       • lib/types/index.d.ts
+       • packages/js/types/index.d.ts
+       • packages/eslint-config-eslint/types/formatting.d.ts
+       • tests/lib/types/types.test.ts
+     📄 Files WITHOUT TSTypeParameterInstantiation (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSLiteralType:
+     📄 Files WITH TSLiteralType (showing 5):
+       • lib/types/use-at-your-own-risk.d.ts
+       • lib/types/rules.d.ts
+       • lib/types/index.d.ts
+       • packages/eslint-config-eslint/types/formatting.d.ts
+       • tests/lib/types/types.test.ts
+     📄 Files WITHOUT TSLiteralType (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   SpreadElement:
+     📄 Files WITH SpreadElement (showing 10):
+       • eslint.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/eslint-fuzzer.js
+       • tools/code-sample-minimizer.js
+       • tools/check-rule-examples.js
+       • lib/cli.js
+       • conf/globals.js
+       • tools/internal-rules/index.js
+       • packages/eslint-config-eslint/nodejs.js
+     📄 Files WITHOUT SpreadElement (showing 10):
+       • webpack.config.js
+       • cypress.config.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/config-rule.js
+       • tools/check-emfile-handling.js
+       • messages/whitespace-found.js
+       • messages/shared.js
+
+   MethodDefinition:
+     📄 Files WITH MethodDefinition (showing 10):
+       • tools/config-rule.js
+       • lib/types/use-at-your-own-risk.d.ts
+       • lib/types/index.d.ts
+       • lib/services/warning-service.js
+       • lib/services/suppressions-service.js
+       • lib/services/processor-service.js
+       • lib/services/parser-service.js
+       • lib/rule-tester/rule-tester.js
+       • lib/shared/traverser.js
+       • lib/linter/vfile.js
+     📄 Files WITHOUT MethodDefinition (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   BreakStatement:
+     📄 Files WITH BreakStatement (showing 10):
+       • tools/config-rule.js
+       • lib/linter/source-code-traverser.js
+       • lib/linter/linter.js
+       • lib/linter/apply-disable-directives.js
+       • lib/eslint/eslint-helpers.js
+       • lib/config/config.js
+       • lib/rules/vars-on-top.js
+       • lib/rules/strict.js
+       • lib/rules/rest-spread-spacing.js
+       • lib/rules/require-atomic-updates.js
+     📄 Files WITHOUT BreakStatement (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSBooleanKeyword:
+     📄 Files WITH TSBooleanKeyword (showing 4):
+       • lib/types/use-at-your-own-risk.d.ts
+       • lib/types/rules.d.ts
+       • lib/types/index.d.ts
+       • tests/lib/types/types.test.ts
+     📄 Files WITHOUT TSBooleanKeyword (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSUndefinedKeyword:
+     📄 Files WITH TSUndefinedKeyword (showing 3):
+       • lib/types/use-at-your-own-risk.d.ts
+       • lib/types/rules.d.ts
+       • lib/types/index.d.ts
+     📄 Files WITHOUT TSUndefinedKeyword (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   UpdateExpression:
+     📄 Files WITH UpdateExpression (showing 10):
+       • Makefile.js
+       • tools/eslint-fuzzer.js
+       • tools/config-rule.js
+       • tools/code-sample-minimizer.js
+       • tools/check-emfile-handling.js
+       • tools/internal-rules/no-invalid-meta.js
+       • lib/services/suppressions-service.js
+       • lib/rule-tester/rule-tester.js
+       • lib/shared/traverser.js
+       • lib/shared/string-utils.js
+     📄 Files WITHOUT UpdateExpression (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/check-rule-examples.js
+       • messages/whitespace-found.js
+
+   TSTupleType:
+     📄 Files WITH TSTupleType (showing 3):
+       • lib/types/rules.d.ts
+       • lib/types/index.d.ts
+       • tests/lib/types/types.test.ts
+     📄 Files WITHOUT TSTupleType (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSTypeLiteral:
+     📄 Files WITH TSTypeLiteral (showing 5):
+       • lib/types/use-at-your-own-risk.d.ts
+       • lib/types/rules.d.ts
+       • lib/types/index.d.ts
+       • packages/js/types/index.d.ts
+       • tests/lib/types/types.test.ts
+     📄 Files WITHOUT TSTypeLiteral (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSStringKeyword:
+     📄 Files WITH TSStringKeyword (showing 6):
+       • lib/types/use-at-your-own-risk.d.ts
+       • lib/types/rules.d.ts
+       • lib/types/index.d.ts
+       • packages/js/types/index.d.ts
+       • tests/lib/types/types.test.ts
+       • packages/js/tests/types/types.test.ts
+     📄 Files WITHOUT TSStringKeyword (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   ForStatement:
+     📄 Files WITH ForStatement (showing 10):
+       • Makefile.js
+       • tools/eslint-fuzzer.js
+       • tools/config-rule.js
+       • tools/code-sample-minimizer.js
+       • tools/check-emfile-handling.js
+       • tools/internal-rules/no-invalid-meta.js
+       • lib/rule-tester/rule-tester.js
+       • lib/shared/traverser.js
+       • lib/linter/timing.js
+       • lib/linter/apply-disable-directives.js
+     📄 Files WITHOUT ForStatement (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/check-rule-examples.js
+       • messages/whitespace-found.js
+
+   ThrowStatement:
+     📄 Files WITH ThrowStatement (showing 10):
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/check-emfile-handling.js
+       • lib/cli.js
+       • lib/services/suppressions-service.js
+       • lib/services/processor-service.js
+       • lib/services/parser-service.js
+       • lib/rule-tester/rule-tester.js
+       • lib/shared/severity.js
+       • lib/shared/runtime-info.js
+     📄 Files WITHOUT ThrowStatement (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+       • tools/config-rule.js
+       • tools/code-sample-minimizer.js
+
+   ArrayPattern:
+     📄 Files WITH ArrayPattern (showing 10):
+       • eslint.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/eslint-fuzzer.js
+       • tools/config-rule.js
+       • tools/code-sample-minimizer.js
+       • lib/rule-tester/rule-tester.js
+       • lib/shared/runtime-info.js
+     📄 Files WITHOUT ArrayPattern (showing 10):
+       • webpack.config.js
+       • cypress.config.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/check-rule-examples.js
+       • tools/check-emfile-handling.js
+       • messages/whitespace-found.js
+       • messages/shared.js
+       • messages/print-config-with-directory-path.js
+       • messages/plugin-missing.js
+
+   ForOfStatement:
+     📄 Files WITH ForOfStatement (showing 10):
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-eslint-all.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+       • tools/config-rule.js
+       • tools/code-sample-minimizer.js
+       • tools/check-rule-examples.js
+       • messages/plugin-conflict.js
+       • lib/cli.js
+     📄 Files WITHOUT ForOfStatement (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • tools/update-readme.js
+       • tools/fuzzer-runner.js
+       • tools/check-emfile-handling.js
+       • messages/whitespace-found.js
+       • messages/shared.js
+       • messages/print-config-with-directory-path.js
+       • messages/plugin-missing.js
+
+   TSFunctionType:
+     📄 Files WITH TSFunctionType (showing 2):
+       • lib/types/index.d.ts
+       • tests/lib/types/types.test.ts
+     📄 Files WITHOUT TSFunctionType (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSParenthesizedType:
+     📄 Files WITH TSParenthesizedType (showing 3):
+       • lib/types/rules.d.ts
+       • lib/types/index.d.ts
+       • tests/lib/types/types.test.ts
+     📄 Files WITHOUT TSParenthesizedType (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSIntersectionType:
+     📄 Files WITH TSIntersectionType (showing 3):
+       • lib/types/rules.d.ts
+       • lib/types/index.d.ts
+       • tests/lib/types/types.test.ts
+     📄 Files WITHOUT TSIntersectionType (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   WhileStatement:
+     📄 Files WITH WhileStatement (showing 10):
+       • bin/eslint.js
+       • lib/linter/source-code-traverser.js
+       • lib/linter/linter.js
+       • lib/linter/apply-disable-directives.js
+       • lib/rules/require-atomic-updates.js
+       • lib/rules/prefer-template.js
+       • lib/rules/prefer-object-spread.js
+       • lib/rules/prefer-const.js
+       • lib/rules/prefer-arrow-callback.js
+       • lib/rules/padding-line-between-statements.js
+     📄 Files WITHOUT WhileStatement (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSArrayType:
+     📄 Files WITH TSArrayType (showing 9):
+       • lib/types/use-at-your-own-risk.d.ts
+       • lib/types/rules.d.ts
+       • lib/types/index.d.ts
+       • packages/eslint-config-eslint/types/nodejs.d.ts
+       • packages/eslint-config-eslint/types/index.d.ts
+       • packages/eslint-config-eslint/types/cjs.d.ts
+       • packages/eslint-config-eslint/types/base.d.ts
+       • tests/lib/types/types.test.ts
+       • packages/js/tests/types/types.test.ts
+     📄 Files WITHOUT TSArrayType (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   AssignmentPattern:
+     📄 Files WITH AssignmentPattern (showing 10):
+       • eslint.config.js
+       • Makefile.js
+       • tools/fuzzer-runner.js
+       • tools/config-rule.js
+       • tools/code-sample-minimizer.js
+       • tools/check-rule-examples.js
+       • lib/cli.js
+       • lib/api.js
+       • lib/services/warning-service.js
+       • lib/rule-tester/rule-tester.js
+     📄 Files WITHOUT AssignmentPattern (showing 10):
+       • webpack.config.js
+       • cypress.config.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+       • tools/check-emfile-handling.js
+       • messages/whitespace-found.js
+       • messages/shared.js
+
+   TSVoidKeyword:
+     📄 Files WITH TSVoidKeyword (showing 3):
+       • lib/types/use-at-your-own-risk.d.ts
+       • lib/types/index.d.ts
+       • tests/lib/types/types.test.ts
+     📄 Files WITHOUT TSVoidKeyword (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   SwitchStatement:
+     📄 Files WITH SwitchStatement (showing 10):
+       • lib/linter/source-code-traverser.js
+       • lib/linter/linter.js
+       • lib/linter/esquery.js
+       • lib/linter/apply-disable-directives.js
+       • lib/eslint/eslint-helpers.js
+       • lib/rules/rest-spread-spacing.js
+       • lib/rules/radix.js
+       • lib/rules/quotes.js
+       • lib/rules/prefer-regex-literals.js
+       • lib/rules/prefer-object-spread.js
+     📄 Files WITHOUT SwitchStatement (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TryStatement:
+     📄 Files WITH TryStatement (showing 10):
+       • Makefile.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+       • tools/code-sample-minimizer.js
+       • tools/check-rule-examples.js
+       • tools/check-emfile-handling.js
+       • lib/cli.js
+       • bin/eslint.js
+       • lib/services/suppressions-service.js
+       • lib/services/processor-service.js
+     📄 Files WITHOUT TryStatement (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/config-rule.js
+       • messages/whitespace-found.js
+       • messages/shared.js
+
+   TSNumberKeyword:
+     📄 Files WITH TSNumberKeyword (showing 3):
+       • lib/types/rules.d.ts
+       • lib/types/index.d.ts
+       • tests/lib/types/types.test.ts
+     📄 Files WITHOUT TSNumberKeyword (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   CatchClause:
+     📄 Files WITH CatchClause (showing 10):
+       • Makefile.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+       • tools/code-sample-minimizer.js
+       • tools/check-rule-examples.js
+       • tools/check-emfile-handling.js
+       • lib/cli.js
+       • bin/eslint.js
+       • lib/services/suppressions-service.js
+       • lib/services/processor-service.js
+     📄 Files WITHOUT CatchClause (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/config-rule.js
+       • messages/whitespace-found.js
+       • messages/shared.js
+
+   ContinueStatement:
+     📄 Files WITH ContinueStatement (showing 10):
+       • tools/eslint-fuzzer.js
+       • tools/code-sample-minimizer.js
+       • tools/check-rule-examples.js
+       • lib/services/suppressions-service.js
+       • lib/linter/linter.js
+       • lib/linter/apply-disable-directives.js
+       • lib/eslint/legacy-eslint.js
+       • lib/eslint/eslint.js
+       • lib/eslint/eslint-helpers.js
+       • lib/config/flat-config-schema.js
+     📄 Files WITHOUT ContinueStatement (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/config-rule.js
+
+   YieldExpression:
+     📄 Files WITH YieldExpression (showing 10):
+       • lib/linter/rules.js
+       • lib/linter/linter.js
+       • lib/cli-engine/file-enumerator.js
+       • lib/cli-engine/cli-engine.js
+       • lib/rules/prefer-object-spread.js
+       • lib/rules/prefer-arrow-callback.js
+       • lib/rules/no-useless-escape.js
+       • lib/rules/no-useless-constructor.js
+       • lib/rules/no-useless-assignment.js
+       • lib/rules/no-redeclare.js
+     📄 Files WITHOUT YieldExpression (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   PrivateIdentifier:
+     📄 Files WITH PrivateIdentifier (showing 8):
+       • lib/linter/source-code-visitor.js
+       • lib/linter/source-code-traverser.js
+       • lib/linter/rule-fixer.js
+       • lib/linter/linter.js
+       • lib/eslint/eslint.js
+       • lib/config/config.js
+       • lib/config/config-loader.js
+       • lib/languages/js/source-code/source-code.js
+     📄 Files WITHOUT PrivateIdentifier (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   SequenceExpression:
+     📄 Files WITH SequenceExpression (showing 5):
+       • tools/eslint-fuzzer.js
+       • lib/rules/no-unused-vars.js
+       • tests/performance/jshint.js
+       • docs/src/assets/js/inert-polyfill.js
+       • docs/src/assets/js/css-vars-ponyfill@2.js
+     📄 Files WITHOUT SequenceExpression (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/config-rule.js
+
+   ClassBody:
+     📄 Files WITH ClassBody (showing 10):
+       • tools/config-rule.js
+       • lib/types/use-at-your-own-risk.d.ts
+       • lib/types/index.d.ts
+       • lib/services/warning-service.js
+       • lib/services/suppressions-service.js
+       • lib/services/processor-service.js
+       • lib/services/parser-service.js
+       • lib/rule-tester/rule-tester.js
+       • lib/shared/traverser.js
+       • lib/linter/vfile.js
+     📄 Files WITHOUT ClassBody (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   ForInStatement:
+     📄 Files WITH ForInStatement (showing 9):
+       • lib/services/suppressions-service.js
+       • lib/rule-tester/rule-tester.js
+       • lib/shared/serialization.js
+       • lib/eslint/legacy-eslint.js
+       • tests/performance/jshint.js
+       • tests/bench/large.js
+       • lib/linter/code-path-analysis/debug-helpers.js
+       • docs/src/assets/js/tabs.js
+       • docs/src/assets/js/css-vars-ponyfill@2.js
+     📄 Files WITHOUT ForInStatement (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   ClassDeclaration:
+     📄 Files WITH ClassDeclaration (showing 10):
+       • tools/config-rule.js
+       • lib/types/use-at-your-own-risk.d.ts
+       • lib/types/index.d.ts
+       • lib/services/warning-service.js
+       • lib/services/suppressions-service.js
+       • lib/services/processor-service.js
+       • lib/services/parser-service.js
+       • lib/rule-tester/rule-tester.js
+       • lib/shared/traverser.js
+       • lib/linter/vfile.js
+     📄 Files WITHOUT ClassDeclaration (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   PropertyDefinition:
+     📄 Files WITH PropertyDefinition (showing 10):
+       • lib/types/use-at-your-own-risk.d.ts
+       • lib/types/index.d.ts
+       • lib/services/suppressions-service.js
+       • lib/linter/vfile.js
+       • lib/linter/source-code-visitor.js
+       • lib/linter/source-code-traverser.js
+       • lib/linter/rule-fixer.js
+       • lib/linter/file-context.js
+       • lib/linter/esquery.js
+       • lib/eslint/legacy-eslint.js
+     📄 Files WITHOUT PropertyDefinition (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSInterfaceDeclaration:
+     📄 Files WITH TSInterfaceDeclaration (showing 3):
+       • lib/types/rules.d.ts
+       • lib/types/index.d.ts
+       • tests/lib/types/types.test.ts
+     📄 Files WITHOUT TSInterfaceDeclaration (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSInterfaceBody:
+     📄 Files WITH TSInterfaceBody (showing 3):
+       • lib/types/rules.d.ts
+       • lib/types/index.d.ts
+       • tests/lib/types/types.test.ts
+     📄 Files WITHOUT TSInterfaceBody (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSEmptyBodyFunctionExpression:
+     📄 Files WITH TSEmptyBodyFunctionExpression (showing 2):
+       • lib/types/use-at-your-own-risk.d.ts
+       • lib/types/index.d.ts
+     📄 Files WITHOUT TSEmptyBodyFunctionExpression (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   ImportSpecifier:
+     📄 Files WITH ImportSpecifier (showing 10):
+       • lib/types/use-at-your-own-risk.d.ts
+       • lib/types/rules.d.ts
+       • lib/types/index.d.ts
+       • lib/types/config-api.d.ts
+       • packages/js/types/index.d.ts
+       • packages/eslint-config-eslint/types/nodejs.d.ts
+       • packages/eslint-config-eslint/types/index.d.ts
+       • packages/eslint-config-eslint/types/formatting.d.ts
+       • packages/eslint-config-eslint/types/cjs.d.ts
+       • packages/eslint-config-eslint/types/base.d.ts
+     📄 Files WITHOUT ImportSpecifier (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   RestElement:
+     📄 Files WITH RestElement (showing 10):
+       • lib/types/index.d.ts
+       • lib/rule-tester/rule-tester.js
+       • lib/shared/logging.js
+       • lib/linter/timing.js
+       • lib/linter/source-code-visitor.js
+       • lib/linter/report-translator.js
+       • lib/linter/linter.js
+       • lib/linter/esquery.js
+       • lib/eslint/legacy-eslint.js
+       • lib/eslint/eslint.js
+     📄 Files WITHOUT RestElement (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   ChainExpression:
+     📄 Files WITH ChainExpression (showing 10):
+       • tools/update-rule-type-headers.js
+       • tools/check-rule-examples.js
+       • tools/check-emfile-handling.js
+       • bin/eslint.js
+       • lib/services/warning-service.js
+       • lib/linter/source-code-traverser.js
+       • lib/linter/linter.js
+       • lib/eslint/eslint.js
+       • lib/config/config.js
+       • lib/config/config-loader.js
+     📄 Files WITHOUT ChainExpression (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+       • tools/config-rule.js
+
+   TSNullKeyword:
+     📄 Files WITH TSNullKeyword (showing 2):
+       • lib/types/rules.d.ts
+       • lib/types/index.d.ts
+     📄 Files WITHOUT TSNullKeyword (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSTypeAliasDeclaration:
+     📄 Files WITH TSTypeAliasDeclaration (showing 3):
+       • lib/types/rules.d.ts
+       • lib/types/index.d.ts
+       • tests/lib/types/types.test.ts
+     📄 Files WITHOUT TSTypeAliasDeclaration (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   Super:
+     📄 Files WITH Super (showing 10):
+       • lib/eslint/legacy-eslint.js
+       • lib/eslint/eslint-helpers.js
+       • lib/config/flat-config-schema.js
+       • lib/config/flat-config-array.js
+       • lib/config/config.js
+       • lib/config/config-loader.js
+       • lib/cli-engine/file-enumerator.js
+       • lib/linter/code-path-analysis/code-path-state.js
+       • lib/rules/utils/lazy-loading-rule-map.js
+       • lib/languages/js/source-code/source-code.js
+     📄 Files WITHOUT Super (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSTypePredicate:
+     📄 Files WITH TSTypePredicate (showing 2):
+       • lib/types/index.d.ts
+       • tests/lib/types/types.test.ts
+     📄 Files WITHOUT TSTypePredicate (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSAnyKeyword:
+     📄 Files WITH TSAnyKeyword (showing 2):
+       • lib/types/use-at-your-own-risk.d.ts
+       • lib/types/index.d.ts
+     📄 Files WITHOUT TSAnyKeyword (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSMethodSignature:
+     📄 Files WITH TSMethodSignature (showing 1):
+       • lib/types/index.d.ts
+     📄 Files WITHOUT TSMethodSignature (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   ExportNamedDeclaration:
+     📄 Files WITH ExportNamedDeclaration (showing 6):
+       • lib/types/use-at-your-own-risk.d.ts
+       • lib/types/universal.d.ts
+       • lib/types/rules.d.ts
+       • lib/types/index.d.ts
+       • lib/types/config-api.d.ts
+       • packages/eslint-config-eslint/types/nodejs.d.ts
+     📄 Files WITHOUT ExportNamedDeclaration (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   DoWhileStatement:
+     📄 Files WITH DoWhileStatement (showing 10):
+       • Makefile.js
+       • tools/eslint-fuzzer.js
+       • lib/linter/linter.js
+       • lib/rules/padding-line-between-statements.js
+       • lib/rules/padded-blocks.js
+       • lib/rules/no-useless-backreference.js
+       • lib/rules/no-cond-assign.js
+       • lib/rules/no-array-constructor.js
+       • lib/rules/max-lines.js
+       • lib/rules/max-len.js
+     📄 Files WITHOUT DoWhileStatement (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/config-rule.js
+       • tools/code-sample-minimizer.js
+
+   TSTypeParameter:
+     📄 Files WITH TSTypeParameter (showing 1):
+       • lib/types/index.d.ts
+     📄 Files WITHOUT TSTypeParameter (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSCallSignatureDeclaration:
+     📄 Files WITH TSCallSignatureDeclaration (showing 1):
+       • lib/types/index.d.ts
+     📄 Files WITHOUT TSCallSignatureDeclaration (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   ImportDeclaration:
+     📄 Files WITH ImportDeclaration (showing 10):
+       • lib/types/use-at-your-own-risk.d.ts
+       • lib/types/rules.d.ts
+       • lib/types/index.d.ts
+       • lib/types/config-api.d.ts
+       • packages/js/types/index.d.ts
+       • packages/eslint-config-eslint/types/nodejs.d.ts
+       • packages/eslint-config-eslint/types/index.d.ts
+       • packages/eslint-config-eslint/types/formatting.d.ts
+       • packages/eslint-config-eslint/types/cjs.d.ts
+       • packages/eslint-config-eslint/types/base.d.ts
+     📄 Files WITHOUT ImportDeclaration (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSTypeParameterDeclaration:
+     📄 Files WITH TSTypeParameterDeclaration (showing 1):
+       • lib/types/index.d.ts
+     📄 Files WITHOUT TSTypeParameterDeclaration (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSNeverKeyword:
+     📄 Files WITH TSNeverKeyword (showing 2):
+       • lib/types/rules.d.ts
+       • tests/lib/types/types.test.ts
+     📄 Files WITHOUT TSNeverKeyword (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSSatisfiesExpression:
+     📄 Files WITH TSSatisfiesExpression (showing 2):
+       • tests/lib/types/types.test.ts
+       • packages/js/tests/types/types.test.ts
+     📄 Files WITHOUT TSSatisfiesExpression (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSInterfaceHeritage:
+     📄 Files WITH TSInterfaceHeritage (showing 2):
+       • lib/types/rules.d.ts
+       • lib/types/index.d.ts
+     📄 Files WITHOUT TSInterfaceHeritage (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSIndexSignature:
+     📄 Files WITH TSIndexSignature (showing 2):
+       • lib/types/index.d.ts
+       • tests/lib/types/types.test.ts
+     📄 Files WITHOUT TSIndexSignature (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   ClassExpression:
+     📄 Files WITH ClassExpression (showing 10):
+       • lib/rules/no-control-regex.js
+       • lib/languages/js/source-code/token-store/skip-cursor.js
+       • lib/languages/js/source-code/token-store/padded-token-cursor.js
+       • lib/languages/js/source-code/token-store/limit-cursor.js
+       • lib/languages/js/source-code/token-store/index.js
+       • lib/languages/js/source-code/token-store/forward-token-cursor.js
+       • lib/languages/js/source-code/token-store/forward-token-comment-cursor.js
+       • lib/languages/js/source-code/token-store/filter-cursor.js
+       • lib/languages/js/source-code/token-store/decorative-cursor.js
+       • lib/languages/js/source-code/token-store/cursor.js
+     📄 Files WITHOUT ClassExpression (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSIndexedAccessType:
+     📄 Files WITH TSIndexedAccessType (showing 3):
+       • lib/types/use-at-your-own-risk.d.ts
+       • lib/types/index.d.ts
+       • tests/lib/types/types.test.ts
+     📄 Files WITHOUT TSIndexedAccessType (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSRestType:
+     📄 Files WITH TSRestType (showing 2):
+       • lib/types/rules.d.ts
+       • lib/types/index.d.ts
+     📄 Files WITHOUT TSRestType (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSUnknownKeyword:
+     📄 Files WITH TSUnknownKeyword (showing 2):
+       • lib/types/index.d.ts
+       • tests/lib/types/types.test.ts
+     📄 Files WITHOUT TSUnknownKeyword (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSTypeQuery:
+     📄 Files WITH TSTypeQuery (showing 2):
+       • lib/types/index.d.ts
+       • tests/lib/types/types.test.ts
+     📄 Files WITHOUT TSTypeQuery (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSModuleDeclaration:
+     📄 Files WITH TSModuleDeclaration (showing 1):
+       • lib/types/index.d.ts
+     📄 Files WITHOUT TSModuleDeclaration (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSModuleBlock:
+     📄 Files WITH TSModuleBlock (showing 1):
+       • lib/types/index.d.ts
+     📄 Files WITHOUT TSModuleBlock (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSTypeOperator:
+     📄 Files WITH TSTypeOperator (showing 3):
+       • lib/types/rules.d.ts
+       • lib/types/index.d.ts
+       • tests/lib/types/types.test.ts
+     📄 Files WITHOUT TSTypeOperator (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   ImportExpression:
+     📄 Files WITH ImportExpression (showing 3):
+       • lib/eslint/eslint.js
+       • lib/eslint/eslint-helpers.js
+       • lib/config/config-loader.js
+     📄 Files WITHOUT ImportExpression (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSExportAssignment:
+     📄 Files WITH TSExportAssignment (showing 5):
+       • packages/js/types/index.d.ts
+       • packages/eslint-config-eslint/types/index.d.ts
+       • packages/eslint-config-eslint/types/formatting.d.ts
+       • packages/eslint-config-eslint/types/cjs.d.ts
+       • packages/eslint-config-eslint/types/base.d.ts
+     📄 Files WITHOUT TSExportAssignment (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   ExportSpecifier:
+     📄 Files WITH ExportSpecifier (showing 3):
+       • lib/types/use-at-your-own-risk.d.ts
+       • lib/types/universal.d.ts
+       • lib/types/config-api.d.ts
+     📄 Files WITHOUT ExportSpecifier (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSDeclareFunction:
+     📄 Files WITH TSDeclareFunction (showing 2):
+       • lib/types/use-at-your-own-risk.d.ts
+       • lib/types/index.d.ts
+     📄 Files WITHOUT TSDeclareFunction (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   EmptyStatement:
+     📄 Files WITH EmptyStatement (showing 1):
+       • tests/performance/jshint.js
+     📄 Files WITHOUT EmptyStatement (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSAsExpression:
+     📄 Files WITH TSAsExpression (showing 1):
+       • tests/lib/types/types.test.ts
+     📄 Files WITHOUT TSAsExpression (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   ImportDefaultSpecifier:
+     📄 Files WITH ImportDefaultSpecifier (showing 2):
+       • packages/js/tests/types/types.test.ts
+       • docs/src/assets/js/search.js
+     📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   Hashbang:
+     📄 Files WITH Hashbang (showing 1):
+       • bin/eslint.js
+     📄 Files WITHOUT Hashbang (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSOptionalType:
+     📄 Files WITH TSOptionalType (showing 1):
+       • lib/types/rules.d.ts
+     📄 Files WITHOUT TSOptionalType (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   ImportNamespaceSpecifier:
+     📄 Files WITH ImportNamespaceSpecifier (showing 1):
+       • lib/types/index.d.ts
+     📄 Files WITHOUT ImportNamespaceSpecifier (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSClassImplements:
+     📄 Files WITH TSClassImplements (showing 1):
+       • lib/types/index.d.ts
+     📄 Files WITHOUT TSClassImplements (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSMappedType:
+     📄 Files WITH TSMappedType (showing 1):
+       • tests/lib/types/types.test.ts
+     📄 Files WITHOUT TSMappedType (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSConditionalType:
+     📄 Files WITH TSConditionalType (showing 1):
+       • tests/lib/types/types.test.ts
+     📄 Files WITHOUT TSConditionalType (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   TSNonNullExpression:
+     📄 Files WITH TSNonNullExpression (showing 1):
+       • tests/lib/types/types.test.ts
+     📄 Files WITHOUT TSNonNullExpression (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
+
+   LabeledStatement:
+     📄 Files WITH LabeledStatement (showing 1):
+       • docs/src/assets/js/inert-polyfill.js
+     📄 Files WITHOUT LabeledStatement (showing 10):
+       • webpack.config.js
+       • eslint.config.js
+       • cypress.config.js
+       • Makefile.js
+       • tools/update-rule-type-headers.js
+       • tools/update-readme.js
+       • tools/update-eslint-all.js
+       • tools/fuzzer-runner.js
+       • tools/fetch-docs-links.js
+       • tools/eslint-fuzzer.js
 
 ============================================================
 ✅ Analysis complete!

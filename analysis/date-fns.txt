@@ -1,11 +1,12 @@
 AST Analysis Report for date-fns
-Generated on: 2025-07-13T03:17:10.613Z
+Generated on: 2025-07-14T01:41:55.134Z
 Repository: sample-repos/date-fns
 ================================================================================
 
 🔍 Analyzing JavaScript/TypeScript files in: /Users/camchenry/workspace/ast-analysis/sample-repos/date-fns
 
-📁 Found 1518 files to analyze...
+📁 Found 1538 files to analyze...
+
 
 
 ============================================================
@@ -13,112 +14,112 @@ Repository: sample-repos/date-fns
 ============================================================
 
 📁 FILE STATISTICS:
-   Total files found: 1518
-   Successfully parsed: 1518
+   Total files found: 1538
+   Successfully parsed: 1538
    Failed to parse: 0
    Total file size: 2.7 MB
 
 🌳 NODE STATISTICS:
-   Total nodes: 318,786
-   Average nodes per file: 210
+   Total nodes: 321,369
+   Average nodes per file: 209
    Average file size: 1.8 KB
 
 📋 ALL NODE TYPES (BY FILE PRESENCE):
-   Program                        1518 files (100.0%) -    1,518 total (0.48%)
-   Literal                        1515 files ( 99.8%) -   60,169 total (18.87%)
-   Identifier                     1513 files ( 99.7%) -   99,970 total (31.36%)
-   ImportDeclaration              1501 files ( 98.9%) -    4,303 total (1.35%)
-   ImportSpecifier                1499 files ( 98.7%) -    5,594 total (1.75%)
-   VariableDeclaration            1360 files ( 89.6%) -    7,532 total (2.36%)
-   VariableDeclarator             1360 files ( 89.6%) -    7,532 total (2.36%)
-   CallExpression                 1348 files ( 88.8%) -   21,560 total (6.76%)
-   ExportNamedDeclaration         1231 files ( 81.1%) -    1,579 total (0.50%)
-   TSTypeReference                 995 files ( 65.5%) -    7,006 total (2.20%)
-   TSTypeAnnotation                922 files ( 60.7%) -    3,182 total (1.00%)
-   Property                        810 files ( 53.4%) -   23,911 total (7.50%)
-   ObjectExpression                804 files ( 53.0%) -    7,557 total (2.37%)
-   BlockStatement                  763 files ( 50.3%) -    5,698 total (1.79%)
-   MemberExpression                715 files ( 47.1%) -    8,187 total (2.57%)
-   ArrowFunctionExpression         631 files ( 41.6%) -    4,448 total (1.40%)
-   BinaryExpression                623 files ( 41.0%) -    2,464 total (0.77%)
-   TSTypeParameterInstantiation    614 files ( 40.4%) -    1,847 total (0.58%)
-   ReturnStatement                 538 files ( 35.4%) -    1,554 total (0.49%)
-   ExpressionStatement             487 files ( 32.1%) -    8,861 total (2.78%)
-   FunctionDeclaration             380 files ( 25.0%) -      502 total (0.16%)
-   ChainExpression                 313 files ( 20.6%) -      459 total (0.14%)
-   LogicalExpression               309 files ( 20.4%) -      737 total (0.23%)
-   UnaryExpression                 305 files ( 20.1%) -      640 total (0.20%)
-   TSNumberKeyword                 288 files ( 19.0%) -      548 total (0.17%)
-   TSUnionType                     285 files ( 18.8%) -      400 total (0.13%)
-   ArrayExpression                 276 files ( 18.2%) -    2,439 total (0.77%)
-   NewExpression                   263 files ( 17.3%) -    4,174 total (1.31%)
-   TSTypeParameterDeclaration      244 files ( 16.1%) -      459 total (0.14%)
-   TSTypeParameter                 244 files ( 16.1%) -      723 total (0.23%)
-   IfStatement                     214 files ( 14.1%) -      806 total (0.25%)
-   TSStringKeyword                 212 files ( 14.0%) -      712 total (0.22%)
-   TSAsExpression                  209 files ( 13.8%) -    1,891 total (0.59%)
-   TSInterfaceDeclaration          208 files ( 13.7%) -      241 total (0.08%)
-   TSInterfaceBody                 208 files ( 13.7%) -      241 total (0.08%)
-   TSInterfaceHeritage             194 files ( 12.8%) -      268 total (0.08%)
-   TSTypeLiteral                   191 files ( 12.6%) -      271 total (0.09%)
-   ParenthesizedExpression         177 files ( 11.7%) -      270 total (0.08%)
-   TSUndefinedKeyword              160 files ( 10.5%) -      204 total (0.06%)
-   AssignmentExpression            139 files (  9.2%) -      488 total (0.15%)
-   Unknown                         126 files (  8.3%) -   12,499 total (3.92%)
-   TSTypeQuery                     123 files (  8.1%) -      366 total (0.11%)
-   TSQualifiedName                 121 files (  8.0%) -      374 total (0.12%)
-   TSTypeAliasDeclaration          109 files (  7.2%) -      177 total (0.06%)
-   TSPropertySignature             107 files (  7.0%) -      419 total (0.13%)
+   Program                        1538 files (100.0%) -    1,538 total (0.48%)
+   Literal                        1535 files ( 99.8%) -   60,908 total (18.95%)
+   Identifier                     1533 files ( 99.7%) -  100,673 total (31.33%)
+   ImportDeclaration              1519 files ( 98.8%) -    4,341 total (1.35%)
+   ImportSpecifier                1517 files ( 98.6%) -    5,618 total (1.75%)
+   CallExpression                 1368 files ( 88.9%) -   21,768 total (6.77%)
+   VariableDeclaration            1363 files ( 88.6%) -    7,560 total (2.35%)
+   VariableDeclarator             1363 files ( 88.6%) -    7,560 total (2.35%)
+   ExportNamedDeclaration         1235 files ( 80.3%) -    1,590 total (0.49%)
+   TSTypeReference                 998 files ( 64.9%) -    7,036 total (2.19%)
+   TSTypeAnnotation                926 files ( 60.2%) -    3,214 total (1.00%)
+   Property                        814 files ( 52.9%) -   23,928 total (7.45%)
+   ObjectExpression                808 files ( 52.5%) -    7,565 total (2.35%)
+   BlockStatement                  767 files ( 49.9%) -    5,733 total (1.78%)
+   MemberExpression                733 files ( 47.7%) -    8,374 total (2.61%)
+   BinaryExpression                638 files ( 41.5%) -    2,513 total (0.78%)
+   ArrowFunctionExpression         635 files ( 41.3%) -    4,458 total (1.39%)
+   TSTypeParameterInstantiation    616 files ( 40.1%) -    1,855 total (0.58%)
+   ReturnStatement                 542 files ( 35.2%) -    1,569 total (0.49%)
+   ExpressionStatement             507 files ( 33.0%) -    8,940 total (2.78%)
+   FunctionDeclaration             384 files ( 25.0%) -      518 total (0.16%)
+   ChainExpression                 325 files ( 21.1%) -      472 total (0.15%)
+   LogicalExpression               321 files ( 20.9%) -      752 total (0.23%)
+   UnaryExpression                 308 files ( 20.0%) -      650 total (0.20%)
+   TSNumberKeyword                 291 files ( 18.9%) -      554 total (0.17%)
+   TSUnionType                     287 files ( 18.7%) -      405 total (0.13%)
+   ArrayExpression                 281 files ( 18.3%) -    2,444 total (0.76%)
+   NewExpression                   279 files ( 18.1%) -    4,234 total (1.32%)
+   TSTypeParameterDeclaration      246 files ( 16.0%) -      462 total (0.14%)
+   TSTypeParameter                 246 files ( 16.0%) -      727 total (0.23%)
+   IfStatement                     230 files ( 15.0%) -      839 total (0.26%)
+   TSStringKeyword                 213 files ( 13.8%) -      714 total (0.22%)
+   TSAsExpression                  209 files ( 13.6%) -    1,891 total (0.59%)
+   TSInterfaceDeclaration          208 files ( 13.5%) -      241 total (0.07%)
+   TSInterfaceBody                 208 files ( 13.5%) -      241 total (0.07%)
+   TSInterfaceHeritage             194 files ( 12.6%) -      268 total (0.08%)
+   TSTypeLiteral                   192 files ( 12.5%) -      272 total (0.08%)
+   ParenthesizedExpression         177 files ( 11.5%) -      270 total (0.08%)
+   TSUndefinedKeyword              162 files ( 10.5%) -      207 total (0.06%)
+   AssignmentExpression            142 files (  9.2%) -      502 total (0.16%)
+   Unknown                         139 files (  9.0%) -   12,531 total (3.90%)
+   TSTypeQuery                     123 files (  8.0%) -      366 total (0.11%)
+   TSQualifiedName                 122 files (  7.9%) -      375 total (0.12%)
+   TSTypeAliasDeclaration          111 files (  7.2%) -      179 total (0.06%)
+   TSPropertySignature             108 files (  7.0%) -      421 total (0.13%)
    TSIntersectionType              107 files (  7.0%) -      153 total (0.05%)
-   TSBooleanKeyword                 98 files (  6.5%) -      128 total (0.04%)
-   ConditionalExpression            82 files (  5.4%) -      170 total (0.05%)
-   SwitchStatement                  65 files (  4.3%) -      100 total (0.03%)
-   SwitchCase                       65 files (  4.3%) -      556 total (0.17%)
+   TSBooleanKeyword                 98 files (  6.4%) -      128 total (0.04%)
+   ConditionalExpression            84 files (  5.5%) -      173 total (0.05%)
+   SwitchStatement                  65 files (  4.2%) -      100 total (0.03%)
+   SwitchCase                       65 files (  4.2%) -      556 total (0.17%)
    FunctionExpression               50 files (  3.3%) -      150 total (0.05%)
-   TSLiteralType                    48 files (  3.2%) -      286 total (0.09%)
-   ClassDeclaration                 36 files (  2.4%) -       38 total (0.01%)
-   ClassBody                        36 files (  2.4%) -       38 total (0.01%)
+   TSLiteralType                    49 files (  3.2%) -      289 total (0.09%)
+   ClassDeclaration                 36 files (  2.3%) -       38 total (0.01%)
+   ClassBody                        36 files (  2.3%) -       38 total (0.01%)
    ObjectPattern                    34 files (  2.2%) -       40 total (0.01%)
    MethodDefinition                 34 files (  2.2%) -       91 total (0.03%)
-   ArrayPattern                     33 files (  2.2%) -       64 total (0.02%)
-   PropertyDefinition               33 files (  2.2%) -       69 total (0.02%)
-   TemplateLiteral                  31 files (  2.0%) -      216 total (0.07%)
-   TemplateElement                  31 files (  2.0%) -      471 total (0.15%)
-   TSArrayType                      30 files (  2.0%) -       72 total (0.02%)
+   TemplateLiteral                  33 files (  2.1%) -      220 total (0.07%)
+   TemplateElement                  33 files (  2.1%) -      481 total (0.15%)
+   ArrayPattern                     33 files (  2.1%) -       64 total (0.02%)
+   PropertyDefinition               33 files (  2.1%) -       69 total (0.02%)
+   TSArrayType                      32 files (  2.1%) -       74 total (0.02%)
+   ThrowStatement                   29 files (  1.9%) -       49 total (0.02%)
+   ImportDefaultSpecifier           26 files (  1.7%) -       32 total (0.01%)
+   TSFunctionType                   15 files (  1.0%) -       27 total (0.01%)
    TSTypeOperator                   15 files (  1.0%) -       30 total (0.01%)
-   ThrowStatement                   15 files (  1.0%) -       24 total (0.01%)
    TSIndexedAccessType              15 files (  1.0%) -       55 total (0.02%)
-   TSFunctionType                   14 files (  0.9%) -       25 total (0.01%)
-   TSConditionalType                14 files (  0.9%) -       52 total (0.02%)
+   TSConditionalType                15 files (  1.0%) -       54 total (0.02%)
    SpreadElement                    12 files (  0.8%) -       13 total (0.00%)
    TSNonNullExpression              12 files (  0.8%) -       52 total (0.02%)
-   ImportDefaultSpecifier           11 files (  0.7%) -       17 total (0.01%)
+   WhileStatement                   11 files (  0.7%) -       11 total (0.00%)
    AssignmentPattern                11 files (  0.7%) -       36 total (0.01%)
    TSInferType                      11 files (  0.7%) -       12 total (0.00%)
-   WhileStatement                   10 files (  0.7%) -       10 total (0.00%)
    TSTupleType                       9 files (  0.6%) -       32 total (0.01%)
-   TSUnknownKeyword                  7 files (  0.5%) -       11 total (0.00%)
-   TSAnyKeyword                      6 files (  0.4%) -       10 total (0.00%)
+   TSUnknownKeyword                  8 files (  0.5%) -       12 total (0.00%)
+   TSAnyKeyword                      7 files (  0.5%) -       11 total (0.00%)
+   TSTypePredicate                   6 files (  0.4%) -        6 total (0.00%)
+   AwaitExpression                   6 files (  0.4%) -        9 total (0.00%)
    ExportDefaultDeclaration          5 files (  0.3%) -        5 total (0.00%)
-   TSTypePredicate                   5 files (  0.3%) -        5 total (0.00%)
+   BreakStatement                    5 files (  0.3%) -       22 total (0.01%)
+   TSVoidKeyword                     5 files (  0.3%) -        6 total (0.00%)
    TSMappedType                      5 files (  0.3%) -       11 total (0.00%)
    TSParenthesizedType               5 files (  0.3%) -        8 total (0.00%)
    ExportAllDeclaration              4 files (  0.3%) -      741 total (0.23%)
-   BreakStatement                    4 files (  0.3%) -       21 total (0.01%)
-   AwaitExpression                   4 files (  0.3%) -        7 total (0.00%)
+   UpdateExpression                  4 files (  0.3%) -       10 total (0.00%)
+   TryStatement                      4 files (  0.3%) -       16 total (0.00%)
+   CatchClause                       4 files (  0.3%) -       16 total (0.00%)
    ExportSpecifier                   4 files (  0.3%) -        8 total (0.00%)
    RestElement                       4 files (  0.3%) -        7 total (0.00%)
+   TSNeverKeyword                    4 files (  0.3%) -        5 total (0.00%)
+   ForStatement                      3 files (  0.2%) -        9 total (0.00%)
    TSIndexSignature                  3 files (  0.2%) -        3 total (0.00%)
-   TSVoidKeyword                     3 files (  0.2%) -        3 total (0.00%)
-   TryStatement                      3 files (  0.2%) -       15 total (0.00%)
-   CatchClause                       3 files (  0.2%) -       15 total (0.00%)
    TSNullKeyword                     3 files (  0.2%) -        3 total (0.00%)
-   UpdateExpression                  3 files (  0.2%) -        9 total (0.00%)
-   TSNeverKeyword                    3 files (  0.2%) -        3 total (0.00%)
    ImportNamespaceSpecifier          2 files (  0.1%) -        2 total (0.00%)
    ForInStatement                    2 files (  0.1%) -        3 total (0.00%)
    TSDeclareFunction                 2 files (  0.1%) -        7 total (0.00%)
-   ForStatement                      2 files (  0.1%) -        8 total (0.00%)
    JSXElement                        2 files (  0.1%) -        5 total (0.00%)
    JSXOpeningElement                 2 files (  0.1%) -        5 total (0.00%)
    JSXIdentifier                     2 files (  0.1%) -       12 total (0.00%)
@@ -130,9 +131,11 @@ Repository: sample-repos/date-fns
    ThisExpression                    2 files (  0.1%) -       12 total (0.00%)
    MetaProperty                      1 files (  0.1%) -        1 total (0.00%)
    TSConstructSignatureDeclaration    1 files (  0.1%) -        3 total (0.00%)
+   DoWhileStatement                  1 files (  0.1%) -        2 total (0.00%)
    TSOptionalType                    1 files (  0.1%) -       13 total (0.00%)
    ForOfStatement                    1 files (  0.1%) -        2 total (0.00%)
    TSCallSignatureDeclaration        1 files (  0.1%) -       14 total (0.00%)
+   TaggedTemplateExpression          1 files (  0.1%) -        1 total (0.00%)
    JSXMemberExpression               1 files (  0.1%) -        2 total (0.00%)
    JSXFragment                       1 files (  0.1%) -        1 total (0.00%)
    JSXOpeningFragment                1 files (  0.1%) -        1 total (0.00%)
@@ -141,125 +144,2664 @@ Repository: sample-repos/date-fns
    JSXClosingFragment                1 files (  0.1%) -        1 total (0.00%)
    TSParameterProperty               1 files (  0.1%) -        4 total (0.00%)
    Super                             1 files (  0.1%) -        2 total (0.00%)
+   TSModuleDeclaration               1 files (  0.1%) -        1 total (0.00%)
+   TSModuleBlock                     1 files (  0.1%) -        1 total (0.00%)
 
 📝 ALL NODE TYPES (BY TOTAL COUNT):
-   Identifier                       99,970 (31.36%) in 1513 files (99.7%)
-   Literal                          60,169 (18.87%) in 1515 files (99.8%)
-   Property                         23,911 (7.50%) in 810 files (53.4%)
-   CallExpression                   21,560 (6.76%) in 1348 files (88.8%)
-   Unknown                          12,499 (3.92%) in 126 files (8.3%)
-   ExpressionStatement               8,861 (2.78%) in 487 files (32.1%)
-   MemberExpression                  8,187 (2.57%) in 715 files (47.1%)
-   ObjectExpression                  7,557 (2.37%) in 804 files (53.0%)
-   VariableDeclaration               7,532 (2.36%) in 1360 files (89.6%)
-   VariableDeclarator                7,532 (2.36%) in 1360 files (89.6%)
-   TSTypeReference                   7,006 (2.20%) in 995 files (65.5%)
-   BlockStatement                    5,698 (1.79%) in 763 files (50.3%)
-   ImportSpecifier                   5,594 (1.75%) in 1499 files (98.7%)
-   ArrowFunctionExpression           4,448 (1.40%) in 631 files (41.6%)
-   ImportDeclaration                 4,303 (1.35%) in 1501 files (98.9%)
-   NewExpression                     4,174 (1.31%) in 263 files (17.3%)
-   TSTypeAnnotation                  3,182 (1.00%) in 922 files (60.7%)
-   BinaryExpression                  2,464 (0.77%) in 623 files (41.0%)
-   ArrayExpression                   2,439 (0.77%) in 276 files (18.2%)
-   TSAsExpression                    1,891 (0.59%) in 209 files (13.8%)
-   TSTypeParameterInstantiation      1,847 (0.58%) in 614 files (40.4%)
-   ExportNamedDeclaration            1,579 (0.50%) in 1231 files (81.1%)
-   ReturnStatement                   1,554 (0.49%) in 538 files (35.4%)
-   Program                           1,518 (0.48%) in 1518 files (100.0%)
-   IfStatement                         806 (0.25%) in 214 files (14.1%)
+   Identifier                      100,673 (31.33%) in 1533 files (99.7%)
+   Literal                          60,908 (18.95%) in 1535 files (99.8%)
+   Property                         23,928 (7.45%) in 814 files (52.9%)
+   CallExpression                   21,768 (6.77%) in 1368 files (88.9%)
+   Unknown                          12,531 (3.90%) in 139 files (9.0%)
+   ExpressionStatement               8,940 (2.78%) in 507 files (33.0%)
+   MemberExpression                  8,374 (2.61%) in 733 files (47.7%)
+   ObjectExpression                  7,565 (2.35%) in 808 files (52.5%)
+   VariableDeclaration               7,560 (2.35%) in 1363 files (88.6%)
+   VariableDeclarator                7,560 (2.35%) in 1363 files (88.6%)
+   TSTypeReference                   7,036 (2.19%) in 998 files (64.9%)
+   BlockStatement                    5,733 (1.78%) in 767 files (49.9%)
+   ImportSpecifier                   5,618 (1.75%) in 1517 files (98.6%)
+   ArrowFunctionExpression           4,458 (1.39%) in 635 files (41.3%)
+   ImportDeclaration                 4,341 (1.35%) in 1519 files (98.8%)
+   NewExpression                     4,234 (1.32%) in 279 files (18.1%)
+   TSTypeAnnotation                  3,214 (1.00%) in 926 files (60.2%)
+   BinaryExpression                  2,513 (0.78%) in 638 files (41.5%)
+   ArrayExpression                   2,444 (0.76%) in 281 files (18.3%)
+   TSAsExpression                    1,891 (0.59%) in 209 files (13.6%)
+   TSTypeParameterInstantiation      1,855 (0.58%) in 616 files (40.1%)
+   ExportNamedDeclaration            1,590 (0.49%) in 1235 files (80.3%)
+   ReturnStatement                   1,569 (0.49%) in 542 files (35.2%)
+   Program                           1,538 (0.48%) in 1538 files (100.0%)
+   IfStatement                         839 (0.26%) in 230 files (15.0%)
+   LogicalExpression                   752 (0.23%) in 321 files (20.9%)
    ExportAllDeclaration                741 (0.23%) in 4 files (0.3%)
-   LogicalExpression                   737 (0.23%) in 309 files (20.4%)
-   TSTypeParameter                     723 (0.23%) in 244 files (16.1%)
-   TSStringKeyword                     712 (0.22%) in 212 files (14.0%)
-   UnaryExpression                     640 (0.20%) in 305 files (20.1%)
-   SwitchCase                          556 (0.17%) in 65 files (4.3%)
-   TSNumberKeyword                     548 (0.17%) in 288 files (19.0%)
-   FunctionDeclaration                 502 (0.16%) in 380 files (25.0%)
-   AssignmentExpression                488 (0.15%) in 139 files (9.2%)
-   TemplateElement                     471 (0.15%) in 31 files (2.0%)
-   TSTypeParameterDeclaration          459 (0.14%) in 244 files (16.1%)
-   ChainExpression                     459 (0.14%) in 313 files (20.6%)
-   TSPropertySignature                 419 (0.13%) in 107 files (7.0%)
-   TSUnionType                         400 (0.13%) in 285 files (18.8%)
-   TSQualifiedName                     374 (0.12%) in 121 files (8.0%)
-   TSTypeQuery                         366 (0.11%) in 123 files (8.1%)
-   TSLiteralType                       286 (0.09%) in 48 files (3.2%)
-   TSTypeLiteral                       271 (0.09%) in 191 files (12.6%)
-   ParenthesizedExpression             270 (0.08%) in 177 files (11.7%)
-   TSInterfaceHeritage                 268 (0.08%) in 194 files (12.8%)
-   TSInterfaceDeclaration              241 (0.08%) in 208 files (13.7%)
-   TSInterfaceBody                     241 (0.08%) in 208 files (13.7%)
-   TemplateLiteral                     216 (0.07%) in 31 files (2.0%)
-   TSUndefinedKeyword                  204 (0.06%) in 160 files (10.5%)
-   TSTypeAliasDeclaration              177 (0.06%) in 109 files (7.2%)
-   ConditionalExpression               170 (0.05%) in 82 files (5.4%)
+   TSTypeParameter                     727 (0.23%) in 246 files (16.0%)
+   TSStringKeyword                     714 (0.22%) in 213 files (13.8%)
+   UnaryExpression                     650 (0.20%) in 308 files (20.0%)
+   SwitchCase                          556 (0.17%) in 65 files (4.2%)
+   TSNumberKeyword                     554 (0.17%) in 291 files (18.9%)
+   FunctionDeclaration                 518 (0.16%) in 384 files (25.0%)
+   AssignmentExpression                502 (0.16%) in 142 files (9.2%)
+   TemplateElement                     481 (0.15%) in 33 files (2.1%)
+   ChainExpression                     472 (0.15%) in 325 files (21.1%)
+   TSTypeParameterDeclaration          462 (0.14%) in 246 files (16.0%)
+   TSPropertySignature                 421 (0.13%) in 108 files (7.0%)
+   TSUnionType                         405 (0.13%) in 287 files (18.7%)
+   TSQualifiedName                     375 (0.12%) in 122 files (7.9%)
+   TSTypeQuery                         366 (0.11%) in 123 files (8.0%)
+   TSLiteralType                       289 (0.09%) in 49 files (3.2%)
+   TSTypeLiteral                       272 (0.08%) in 192 files (12.5%)
+   ParenthesizedExpression             270 (0.08%) in 177 files (11.5%)
+   TSInterfaceHeritage                 268 (0.08%) in 194 files (12.6%)
+   TSInterfaceDeclaration              241 (0.07%) in 208 files (13.5%)
+   TSInterfaceBody                     241 (0.07%) in 208 files (13.5%)
+   TemplateLiteral                     220 (0.07%) in 33 files (2.1%)
+   TSUndefinedKeyword                  207 (0.06%) in 162 files (10.5%)
+   TSTypeAliasDeclaration              179 (0.06%) in 111 files (7.2%)
+   ConditionalExpression               173 (0.05%) in 84 files (5.5%)
    TSIntersectionType                  153 (0.05%) in 107 files (7.0%)
    FunctionExpression                  150 (0.05%) in 50 files (3.3%)
-   TSBooleanKeyword                    128 (0.04%) in 98 files (6.5%)
-   SwitchStatement                     100 (0.03%) in 65 files (4.3%)
+   TSBooleanKeyword                    128 (0.04%) in 98 files (6.4%)
+   SwitchStatement                     100 (0.03%) in 65 files (4.2%)
    MethodDefinition                     91 (0.03%) in 34 files (2.2%)
-   TSArrayType                          72 (0.02%) in 30 files (2.0%)
-   PropertyDefinition                   69 (0.02%) in 33 files (2.2%)
-   ArrayPattern                         64 (0.02%) in 33 files (2.2%)
+   TSArrayType                          74 (0.02%) in 32 files (2.1%)
+   PropertyDefinition                   69 (0.02%) in 33 files (2.1%)
+   ArrayPattern                         64 (0.02%) in 33 files (2.1%)
    TSIndexedAccessType                  55 (0.02%) in 15 files (1.0%)
+   TSConditionalType                    54 (0.02%) in 15 files (1.0%)
    TSNonNullExpression                  52 (0.02%) in 12 files (0.8%)
-   TSConditionalType                    52 (0.02%) in 14 files (0.9%)
+   ThrowStatement                       49 (0.02%) in 29 files (1.9%)
    ObjectPattern                        40 (0.01%) in 34 files (2.2%)
-   ClassDeclaration                     38 (0.01%) in 36 files (2.4%)
-   ClassBody                            38 (0.01%) in 36 files (2.4%)
+   ClassDeclaration                     38 (0.01%) in 36 files (2.3%)
+   ClassBody                            38 (0.01%) in 36 files (2.3%)
    AssignmentPattern                    36 (0.01%) in 11 files (0.7%)
+   ImportDefaultSpecifier               32 (0.01%) in 26 files (1.7%)
    TSTupleType                          32 (0.01%) in 9 files (0.6%)
    TSTypeOperator                       30 (0.01%) in 15 files (1.0%)
-   TSFunctionType                       25 (0.01%) in 14 files (0.9%)
-   ThrowStatement                       24 (0.01%) in 15 files (1.0%)
-   BreakStatement                       21 (0.01%) in 4 files (0.3%)
-   ImportDefaultSpecifier               17 (0.01%) in 11 files (0.7%)
-   TryStatement                         15 (0.00%) in 3 files (0.2%)
-   CatchClause                          15 (0.00%) in 3 files (0.2%)
+   TSFunctionType                       27 (0.01%) in 15 files (1.0%)
+   BreakStatement                       22 (0.01%) in 5 files (0.3%)
+   TryStatement                         16 (0.00%) in 4 files (0.3%)
+   CatchClause                          16 (0.00%) in 4 files (0.3%)
    TSCallSignatureDeclaration           14 (0.00%) in 1 files (0.1%)
    SpreadElement                        13 (0.00%) in 12 files (0.8%)
    TSOptionalType                       13 (0.00%) in 1 files (0.1%)
+   TSUnknownKeyword                     12 (0.00%) in 8 files (0.5%)
    TSInferType                          12 (0.00%) in 11 files (0.7%)
    JSXIdentifier                        12 (0.00%) in 2 files (0.1%)
    ThisExpression                       12 (0.00%) in 2 files (0.1%)
-   TSUnknownKeyword                     11 (0.00%) in 7 files (0.5%)
+   WhileStatement                       11 (0.00%) in 11 files (0.7%)
+   TSAnyKeyword                         11 (0.00%) in 7 files (0.5%)
    TSMappedType                         11 (0.00%) in 5 files (0.3%)
-   TSAnyKeyword                         10 (0.00%) in 6 files (0.4%)
-   WhileStatement                       10 (0.00%) in 10 files (0.7%)
-   UpdateExpression                      9 (0.00%) in 3 files (0.2%)
+   UpdateExpression                     10 (0.00%) in 4 files (0.3%)
+   ForStatement                          9 (0.00%) in 3 files (0.2%)
+   AwaitExpression                       9 (0.00%) in 6 files (0.4%)
    ExportSpecifier                       8 (0.00%) in 4 files (0.3%)
-   ForStatement                          8 (0.00%) in 2 files (0.1%)
    TSParenthesizedType                   8 (0.00%) in 5 files (0.3%)
    JSXText                               8 (0.00%) in 2 files (0.1%)
-   AwaitExpression                       7 (0.00%) in 4 files (0.3%)
    TSDeclareFunction                     7 (0.00%) in 2 files (0.1%)
    RestElement                           7 (0.00%) in 4 files (0.3%)
+   TSTypePredicate                       6 (0.00%) in 6 files (0.4%)
+   TSVoidKeyword                         6 (0.00%) in 5 files (0.3%)
    ExportDefaultDeclaration              5 (0.00%) in 5 files (0.3%)
-   TSTypePredicate                       5 (0.00%) in 5 files (0.3%)
+   TSNeverKeyword                        5 (0.00%) in 4 files (0.3%)
    JSXElement                            5 (0.00%) in 2 files (0.1%)
    JSXOpeningElement                     5 (0.00%) in 2 files (0.1%)
    JSXClosingElement                     4 (0.00%) in 2 files (0.1%)
    TSParameterProperty                   4 (0.00%) in 1 files (0.1%)
    TSConstructSignatureDeclaration        3 (0.00%) in 1 files (0.1%)
    TSIndexSignature                      3 (0.00%) in 3 files (0.2%)
-   TSVoidKeyword                         3 (0.00%) in 3 files (0.2%)
    ForInStatement                        3 (0.00%) in 2 files (0.1%)
    TSNullKeyword                         3 (0.00%) in 3 files (0.2%)
-   TSNeverKeyword                        3 (0.00%) in 3 files (0.2%)
    TSAbstractPropertyDefinition          3 (0.00%) in 2 files (0.1%)
    TSAbstractMethodDefinition            3 (0.00%) in 2 files (0.1%)
    TSEmptyBodyFunctionExpression         3 (0.00%) in 2 files (0.1%)
+   DoWhileStatement                      2 (0.00%) in 1 files (0.1%)
    ImportNamespaceSpecifier              2 (0.00%) in 2 files (0.1%)
    ForOfStatement                        2 (0.00%) in 1 files (0.1%)
    JSXMemberExpression                   2 (0.00%) in 1 files (0.1%)
    Super                                 2 (0.00%) in 1 files (0.1%)
    MetaProperty                          1 (0.00%) in 1 files (0.1%)
+   TaggedTemplateExpression              1 (0.00%) in 1 files (0.1%)
    JSXFragment                           1 (0.00%) in 1 files (0.1%)
    JSXOpeningFragment                    1 (0.00%) in 1 files (0.1%)
    JSXAttribute                          1 (0.00%) in 1 files (0.1%)
    JSXExpressionContainer                1 (0.00%) in 1 files (0.1%)
    JSXClosingFragment                    1 (0.00%) in 1 files (0.1%)
+   TSModuleDeclaration                   1 (0.00%) in 1 files (0.1%)
+   TSModuleBlock                         1 (0.00%) in 1 files (0.1%)
+
+📁 FILE EXAMPLES BY NODE TYPE:
+
+   Identifier:
+     📄 Files WITH Identifier (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+     📄 Files WITHOUT Identifier (showing 5):
+       • src/index.ts
+       • scripts/maintain/switchToPR.ts
+       • src/locale/index.ts
+       • src/fp/index.ts
+       • examples/vite/src/vite-env.d.ts
+
+   Literal:
+     📄 Files WITH Literal (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+     📄 Files WITHOUT Literal (showing 3):
+       • scripts/maintain/switchToPR.ts
+       • src/isExists/index.ts
+       • examples/vite/src/vite-env.d.ts
+
+   Property:
+     📄 Files WITH Property (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • codemods/expectify.js
+       • test/dst/tzOffsetTransitions.ts
+       • scripts/release/buildChangelog.ts
+       • scripts/_lib/listLocales.ts
+       • scripts/_lib/listFns.ts
+       • scripts/_lib/listFPFns.ts
+       • examples/webpack/webpack.config.js
+     📄 Files WITHOUT Property (showing 10):
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+       • test/formatRFC3339/australia.ts
+       • test/formatISO/india.ts
+       • scripts/test/tzOffset.ts
+
+   CallExpression:
+     📄 Files WITH CallExpression (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+       • test/formatRFC3339/australia.ts
+       • test/formatISO/india.ts
+       • test/dst/tzOffsetTransitions.ts
+     📄 Files WITHOUT CallExpression (showing 10):
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • scripts/maintain/switchToPR.ts
+       • src/secondsToMilliseconds/index.ts
+       • src/locale/types.ts
+       • src/locale/index.ts
+       • src/fp/types.ts
+       • src/fp/index.ts
+
+   Unknown:
+     📄 Files WITH Unknown (showing 10):
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+       • test/formatRFC3339/australia.ts
+       • test/formatISO/india.ts
+       • scripts/release/buildChangelog.ts
+       • scripts/_lib/listLocales.ts
+       • scripts/_lib/listFns.ts
+       • scripts/_lib/listFPFns.ts
+     📄 Files WITHOUT Unknown (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/dst/tzOffsetTransitions.ts
+       • scripts/test/tzOffset.ts
+       • scripts/test/tzIANA.ts
+
+   ExpressionStatement:
+     📄 Files WITH ExpressionStatement (showing 10):
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+       • test/formatRFC3339/australia.ts
+       • test/formatISO/india.ts
+       • test/dst/tzOffsetTransitions.ts
+       • scripts/test/tzOffset.ts
+       • scripts/test/tzIANA.ts
+     📄 Files WITHOUT ExpressionStatement (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • scripts/maintain/switchToPR.ts
+       • scripts/_lib/listLocales.ts
+       • scripts/_lib/listFns.ts
+       • scripts/_lib/listFPFns.ts
+
+   MemberExpression:
+     📄 Files WITH MemberExpression (showing 10):
+       • eslint.config.mjs
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+       • test/formatRFC3339/australia.ts
+       • test/formatISO/india.ts
+       • test/dst/tzOffsetTransitions.ts
+       • scripts/release/buildChangelog.ts
+     📄 Files WITHOUT MemberExpression (showing 10):
+       • vitest.config.ts
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • scripts/test/tzOffset.ts
+       • scripts/test/tzIANA.ts
+       • scripts/maintain/switchToPR.ts
+       • examples/vite/vite.config.ts
+       • src/toDate/index.ts
+
+   ObjectExpression:
+     📄 Files WITH ObjectExpression (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • codemods/expectify.js
+       • test/dst/tzOffsetTransitions.ts
+       • scripts/release/buildChangelog.ts
+       • scripts/_lib/listLocales.ts
+       • scripts/_lib/listFns.ts
+       • scripts/_lib/listFPFns.ts
+       • examples/webpack/webpack.config.js
+     📄 Files WITHOUT ObjectExpression (showing 10):
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+       • test/formatRFC3339/australia.ts
+       • test/formatISO/india.ts
+       • scripts/test/tzOffset.ts
+
+   VariableDeclaration:
+     📄 Files WITH VariableDeclaration (showing 10):
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • codemods/expectify.js
+       • test/dst/tzOffsetTransitions.ts
+       • scripts/release/buildChangelog.ts
+       • scripts/_lib/listLocales.ts
+       • scripts/_lib/listFns.ts
+       • scripts/_lib/listFPFns.ts
+       • examples/webpack/webpack.config.js
+     📄 Files WITHOUT VariableDeclaration (showing 10):
+       • vitest.config.ts
+       • src/types.ts
+       • src/index.ts
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+       • test/formatRFC3339/australia.ts
+       • test/formatISO/india.ts
+       • scripts/test/tzOffset.ts
+
+   VariableDeclarator:
+     📄 Files WITH VariableDeclarator (showing 10):
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • codemods/expectify.js
+       • test/dst/tzOffsetTransitions.ts
+       • scripts/release/buildChangelog.ts
+       • scripts/_lib/listLocales.ts
+       • scripts/_lib/listFns.ts
+       • scripts/_lib/listFPFns.ts
+       • examples/webpack/webpack.config.js
+     📄 Files WITHOUT VariableDeclarator (showing 10):
+       • vitest.config.ts
+       • src/types.ts
+       • src/index.ts
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+       • test/formatRFC3339/australia.ts
+       • test/formatISO/india.ts
+       • scripts/test/tzOffset.ts
+
+   TSTypeReference:
+     📄 Files WITH TSTypeReference (showing 10):
+       • docs/config.d.ts
+       • src/types.ts
+       • test/dst/tzOffsetTransitions.ts
+       • scripts/release/buildChangelog.ts
+       • scripts/_lib/listLocales.ts
+       • scripts/_lib/listFns.ts
+       • scripts/_lib/listFPFns.ts
+       • src/transpose/index.ts
+       • src/toDate/test.ts
+       • src/toDate/index.ts
+     📄 Files WITHOUT TSTypeReference (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+       • test/formatRFC3339/australia.ts
+
+   BlockStatement:
+     📄 Files WITH BlockStatement (showing 10):
+       • codemods/expectify.js
+       • test/dst/tzOffsetTransitions.ts
+       • scripts/release/buildChangelog.ts
+       • scripts/_lib/listLocales.ts
+       • scripts/_lib/listFns.ts
+       • scripts/_lib/listFPFns.ts
+       • examples/rollup/rollup.config.js
+       • examples/cdn/locales.js
+       • examples/cdn/locale.js
+       • examples/cdn/fp.js
+     📄 Files WITHOUT BlockStatement (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+
+   ImportSpecifier:
+     📄 Files WITH ImportSpecifier (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.d.ts
+       • src/types.ts
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+       • test/formatRFC3339/australia.ts
+       • test/formatISO/india.ts
+     📄 Files WITHOUT ImportSpecifier (showing 10):
+       • docs/config.js
+       • src/index.ts
+       • codemods/expectify.js
+       • test/dst/tzOffsetTransitions.ts
+       • scripts/maintain/switchToPR.ts
+       • examples/webpack/webpack.config.js
+       • examples/rollup/rollup.config.js
+       • examples/lodash-fp/example.js
+       • src/locale/index.ts
+       • src/isExists/index.ts
+
+   ArrowFunctionExpression:
+     📄 Files WITH ArrowFunctionExpression (showing 10):
+       • codemods/expectify.js
+       • scripts/release/buildChangelog.ts
+       • scripts/_lib/listLocales.ts
+       • scripts/_lib/listFns.ts
+       • scripts/_lib/listFPFns.ts
+       • examples/webpack/fp.js
+       • examples/typescript/fp.ts
+       • examples/rollup/rollup.config.js
+       • examples/rollup/fp.js
+       • examples/node-esm/fp.js
+     📄 Files WITHOUT ArrowFunctionExpression (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+
+   ImportDeclaration:
+     📄 Files WITH ImportDeclaration (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.d.ts
+       • src/types.ts
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+       • test/formatRFC3339/australia.ts
+       • test/formatISO/india.ts
+     📄 Files WITHOUT ImportDeclaration (showing 10):
+       • docs/config.js
+       • src/index.ts
+       • codemods/expectify.js
+       • test/dst/tzOffsetTransitions.ts
+       • scripts/maintain/switchToPR.ts
+       • examples/webpack/webpack.config.js
+       • examples/lodash-fp/example.js
+       • src/locale/index.ts
+       • src/isExists/index.ts
+       • src/isDate/index.ts
+
+   NewExpression:
+     📄 Files WITH NewExpression (showing 10):
+       • eslint.config.mjs
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+       • test/formatRFC3339/australia.ts
+       • test/formatISO/india.ts
+       • test/dst/tzOffsetTransitions.ts
+       • scripts/release/buildChangelog.ts
+       • examples/webpack/misc.js
+     📄 Files WITHOUT NewExpression (showing 10):
+       • vitest.config.ts
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • scripts/test/tzOffset.ts
+       • scripts/test/tzIANA.ts
+       • scripts/maintain/switchToPR.ts
+       • scripts/_lib/listLocales.ts
+
+   TSTypeAnnotation:
+     📄 Files WITH TSTypeAnnotation (showing 10):
+       • docs/config.d.ts
+       • src/types.ts
+       • test/dst/tzOffsetTransitions.ts
+       • scripts/release/buildChangelog.ts
+       • scripts/_lib/listLocales.ts
+       • scripts/_lib/listFns.ts
+       • scripts/_lib/listFPFns.ts
+       • src/yearsToQuarters/index.ts
+       • src/yearsToMonths/index.ts
+       • src/yearsToDays/index.ts
+     📄 Files WITHOUT TSTypeAnnotation (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+       • test/formatRFC3339/australia.ts
+
+   BinaryExpression:
+     📄 Files WITH BinaryExpression (showing 10):
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+       • test/formatRFC3339/australia.ts
+       • test/formatISO/india.ts
+       • test/dst/tzOffsetTransitions.ts
+       • scripts/release/buildChangelog.ts
+       • scripts/_lib/listLocales.ts
+     📄 Files WITHOUT BinaryExpression (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • scripts/test/tzOffset.ts
+       • scripts/test/tzIANA.ts
+       • scripts/maintain/switchToPR.ts
+       • scripts/_lib/listFns.ts
+
+   ArrayExpression:
+     📄 Files WITH ArrayExpression (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • codemods/expectify.js
+       • test/dst/tzOffsetTransitions.ts
+       • scripts/test/tzOffset.ts
+       • scripts/test/tzIANA.ts
+       • scripts/release/buildChangelog.ts
+       • scripts/_lib/listFns.ts
+       • examples/webpack/fp.js
+     📄 Files WITHOUT ArrayExpression (showing 10):
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+       • test/formatRFC3339/australia.ts
+       • test/formatISO/india.ts
+       • scripts/maintain/switchToPR.ts
+
+   TSAsExpression:
+     📄 Files WITH TSAsExpression (showing 10):
+       • scripts/release/buildChangelog.ts
+       • src/setDefaultOptions/index.ts
+       • src/parseISO/index.ts
+       • src/min/index.ts
+       • src/max/index.ts
+       • src/lightFormat/index.ts
+       • src/lastDayOfMonth/index.ts
+       • src/isDate/test.ts
+       • src/interval/index.ts
+       • src/formatDuration/index.ts
+     📄 Files WITHOUT TSAsExpression (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   TSTypeParameterInstantiation:
+     📄 Files WITH TSTypeParameterInstantiation (showing 10):
+       • src/types.ts
+       • scripts/release/buildChangelog.ts
+       • scripts/_lib/listLocales.ts
+       • scripts/_lib/listFns.ts
+       • scripts/_lib/listFPFns.ts
+       • src/transpose/index.ts
+       • src/toDate/test.ts
+       • src/toDate/index.ts
+       • src/subYears/test.ts
+       • src/subYears/index.ts
+     📄 Files WITHOUT TSTypeParameterInstantiation (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+
+   ExportNamedDeclaration:
+     📄 Files WITH ExportNamedDeclaration (showing 10):
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • test/dst/tzOffsetTransitions.ts
+       • scripts/_lib/listLocales.ts
+       • scripts/_lib/listFns.ts
+       • scripts/_lib/listFPFns.ts
+       • examples/cdn/dom.js
+       • src/yearsToQuarters/index.ts
+       • src/yearsToMonths/index.ts
+     📄 Files WITHOUT ExportNamedDeclaration (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+       • test/formatRFC3339/australia.ts
+       • test/formatISO/india.ts
+
+   ReturnStatement:
+     📄 Files WITH ReturnStatement (showing 10):
+       • codemods/expectify.js
+       • test/dst/tzOffsetTransitions.ts
+       • scripts/release/buildChangelog.ts
+       • scripts/_lib/listLocales.ts
+       • scripts/_lib/listFns.ts
+       • scripts/_lib/listFPFns.ts
+       • examples/rollup/rollup.config.js
+       • examples/cdn/dom.js
+       • src/yearsToQuarters/index.ts
+       • src/yearsToMonths/index.ts
+     📄 Files WITHOUT ReturnStatement (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+
+   Program:
+     📄 Files WITH Program (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+     📄 Files WITHOUT Program: (all files contain this node type)
+
+   IfStatement:
+     📄 Files WITH IfStatement (showing 10):
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+       • test/formatRFC3339/australia.ts
+       • test/formatISO/india.ts
+       • test/dst/tzOffsetTransitions.ts
+       • scripts/release/buildChangelog.ts
+       • src/setYear/index.ts
+     📄 Files WITHOUT IfStatement (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • scripts/test/tzOffset.ts
+       • scripts/test/tzIANA.ts
+       • scripts/maintain/switchToPR.ts
+       • scripts/_lib/listLocales.ts
+
+   LogicalExpression:
+     📄 Files WITH LogicalExpression (showing 10):
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+       • test/formatRFC3339/australia.ts
+       • test/formatISO/india.ts
+       • test/dst/tzOffsetTransitions.ts
+       • scripts/release/buildChangelog.ts
+       • scripts/_lib/listFns.ts
+     📄 Files WITHOUT LogicalExpression (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • scripts/test/tzOffset.ts
+       • scripts/test/tzIANA.ts
+       • scripts/maintain/switchToPR.ts
+       • scripts/_lib/listLocales.ts
+
+   ExportAllDeclaration:
+     📄 Files WITH ExportAllDeclaration (showing 4):
+       • src/types.ts
+       • src/index.ts
+       • src/locale/index.ts
+       • src/fp/index.ts
+     📄 Files WITHOUT ExportAllDeclaration (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+       • test/formatRFC3339/australia.ts
+
+   TSTypeParameter:
+     📄 Files WITH TSTypeParameter (showing 10):
+       • src/types.ts
+       • src/transpose/index.ts
+       • src/toDate/index.ts
+       • src/subYears/index.ts
+       • src/subSeconds/index.ts
+       • src/subQuarters/index.ts
+       • src/subMinutes/index.ts
+       • src/subWeeks/index.ts
+       • src/subMonths/index.ts
+       • src/subMilliseconds/index.ts
+     📄 Files WITHOUT TSTypeParameter (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+
+   TSStringKeyword:
+     📄 Files WITH TSStringKeyword (showing 10):
+       • src/types.ts
+       • scripts/release/buildChangelog.ts
+       • scripts/_lib/listLocales.ts
+       • scripts/_lib/listFns.ts
+       • scripts/_lib/listFPFns.ts
+       • src/parseJSON/index.ts
+       • src/parseISO/index.ts
+       • src/parse/test.ts
+       • src/parse/index.ts
+       • src/lightFormat/index.ts
+     📄 Files WITHOUT TSStringKeyword (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+
+   UnaryExpression:
+     📄 Files WITH UnaryExpression (showing 10):
+       • codemods/expectify.js
+       • test/dst/tzOffsetTransitions.ts
+       • scripts/release/buildChangelog.ts
+       • scripts/_lib/listLocales.ts
+       • scripts/_lib/listFns.ts
+       • scripts/_lib/listFPFns.ts
+       • src/yearsToQuarters/test.ts
+       • src/yearsToMonths/test.ts
+       • src/yearsToDays/test.ts
+       • src/weeksToDays/test.ts
+     📄 Files WITHOUT UnaryExpression (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+
+   SwitchCase:
+     📄 Files WITH SwitchCase (showing 10):
+       • codemods/expectify.js
+       • scripts/release/buildChangelog.ts
+       • src/parse/_lib/utils.ts
+       • src/parse/_lib/parsers/YearParser.ts
+       • src/parse/_lib/parsers/StandAloneQuarterParser.ts
+       • src/parse/_lib/parsers/StandAloneMonthParser.ts
+       • src/parse/_lib/parsers/StandAloneLocalDayParser.ts
+       • src/parse/_lib/parsers/SecondParser.ts
+       • src/parse/_lib/parsers/QuarterParser.ts
+       • src/parse/_lib/parsers/MonthParser.ts
+     📄 Files WITHOUT SwitchCase (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+
+   TSNumberKeyword:
+     📄 Files WITH TSNumberKeyword (showing 10):
+       • src/types.ts
+       • test/dst/tzOffsetTransitions.ts
+       • scripts/release/buildChangelog.ts
+       • src/yearsToQuarters/index.ts
+       • src/yearsToMonths/index.ts
+       • src/yearsToDays/index.ts
+       • src/weeksToDays/index.ts
+       • src/subYears/index.ts
+       • src/subSeconds/index.ts
+       • src/subQuarters/index.ts
+     📄 Files WITHOUT TSNumberKeyword (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+
+   FunctionDeclaration:
+     📄 Files WITH FunctionDeclaration (showing 10):
+       • test/dst/tzOffsetTransitions.ts
+       • scripts/release/buildChangelog.ts
+       • scripts/_lib/listLocales.ts
+       • scripts/_lib/listFns.ts
+       • scripts/_lib/listFPFns.ts
+       • examples/cdn/dom.js
+       • src/yearsToQuarters/index.ts
+       • src/yearsToMonths/index.ts
+       • src/yearsToDays/index.ts
+       • src/weeksToDays/index.ts
+     📄 Files WITHOUT FunctionDeclaration (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   AssignmentExpression:
+     📄 Files WITH AssignmentExpression (showing 10):
+       • codemods/expectify.js
+       • test/dst/tzOffsetTransitions.ts
+       • scripts/release/buildChangelog.ts
+       • examples/webpack/webpack.config.js
+       • src/setISOWeekYear/index.ts
+       • src/setDefaultOptions/index.ts
+       • src/set/index.ts
+       • src/previousDay/index.ts
+       • src/parseISO/index.ts
+       • src/parse/index.ts
+     📄 Files WITHOUT AssignmentExpression (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+
+   TemplateElement:
+     📄 Files WITH TemplateElement (showing 10):
+       • scripts/release/buildChangelog.ts
+       • scripts/_lib/listLocales.ts
+       • scripts/_lib/listFns.ts
+       • scripts/_lib/listFPFns.ts
+       • examples/rollup/rollup.config.js
+       • examples/cdn/locales.js
+       • examples/cdn/locale.js
+       • examples/cdn/fp.js
+       • examples/cdn/dom.js
+       • examples/cdn/basic.js
+     📄 Files WITHOUT TemplateElement (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   ChainExpression:
+     📄 Files WITH ChainExpression (showing 10):
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+       • test/formatRFC3339/australia.ts
+       • test/formatISO/india.ts
+       • scripts/release/buildChangelog.ts
+       • src/transpose/index.ts
+       • src/sub/index.ts
+       • src/startOfYear/index.ts
+     📄 Files WITHOUT ChainExpression (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/dst/tzOffsetTransitions.ts
+       • scripts/test/tzOffset.ts
+       • scripts/test/tzIANA.ts
+
+   TSTypeParameterDeclaration:
+     📄 Files WITH TSTypeParameterDeclaration (showing 10):
+       • src/types.ts
+       • src/transpose/index.ts
+       • src/toDate/index.ts
+       • src/subYears/index.ts
+       • src/subSeconds/index.ts
+       • src/subQuarters/index.ts
+       • src/subMinutes/index.ts
+       • src/subWeeks/index.ts
+       • src/subMonths/index.ts
+       • src/subMilliseconds/index.ts
+     📄 Files WITHOUT TSTypeParameterDeclaration (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+
+   TSPropertySignature:
+     📄 Files WITH TSPropertySignature (showing 10):
+       • src/types.ts
+       • test/dst/tzOffsetTransitions.ts
+       • scripts/release/buildChangelog.ts
+       • scripts/_lib/listLocales.ts
+       • scripts/_lib/listFns.ts
+       • scripts/_lib/listFPFns.ts
+       • src/parseISO/index.ts
+       • src/parse/test.ts
+       • src/parse/index.ts
+       • src/locale/types.ts
+     📄 Files WITHOUT TSPropertySignature (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+
+   TSUnionType:
+     📄 Files WITH TSUnionType (showing 10):
+       • src/types.ts
+       • test/dst/tzOffsetTransitions.ts
+       • scripts/release/buildChangelog.ts
+       • src/transpose/index.ts
+       • src/toDate/index.ts
+       • src/subSeconds/index.ts
+       • src/subMinutes/index.ts
+       • src/subWeeks/index.ts
+       • src/subMonths/index.ts
+       • src/subMilliseconds/index.ts
+     📄 Files WITHOUT TSUnionType (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+
+   TSQualifiedName:
+     📄 Files WITH TSQualifiedName (showing 10):
+       • docs/config.d.ts
+       • src/toDate/test.ts
+       • src/subYears/test.ts
+       • src/subSeconds/test.ts
+       • src/subQuarters/test.ts
+       • src/subMinutes/test.ts
+       • src/subWeeks/test.ts
+       • src/subMonths/test.ts
+       • src/subMilliseconds/test.ts
+       • src/subISOWeekYears/test.ts
+     📄 Files WITHOUT TSQualifiedName (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+
+   TSTypeQuery:
+     📄 Files WITH TSTypeQuery (showing 10):
+       • src/toDate/test.ts
+       • src/subYears/test.ts
+       • src/subSeconds/test.ts
+       • src/subQuarters/test.ts
+       • src/subMinutes/test.ts
+       • src/subWeeks/test.ts
+       • src/subMonths/test.ts
+       • src/subMilliseconds/test.ts
+       • src/subISOWeekYears/test.ts
+       • src/subHours/test.ts
+     📄 Files WITHOUT TSTypeQuery (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   TSLiteralType:
+     📄 Files WITH TSLiteralType (showing 10):
+       • src/types.ts
+       • scripts/release/buildChangelog.ts
+       • src/startOfWeekYear/index.ts
+       • src/startOfWeek/index.ts
+       • src/setWeekYear/index.ts
+       • src/setWeek/index.ts
+       • src/setDay/index.ts
+       • src/parseISO/index.ts
+       • src/parse/index.ts
+       • src/lastDayOfWeek/index.ts
+     📄 Files WITHOUT TSLiteralType (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+
+   TSTypeLiteral:
+     📄 Files WITH TSTypeLiteral (showing 10):
+       • src/types.ts
+       • test/dst/tzOffsetTransitions.ts
+       • scripts/release/buildChangelog.ts
+       • src/parse/test.ts
+       • src/parse/index.ts
+       • src/lightFormat/index.ts
+       • src/isYesterday/index.ts
+       • src/isWeekend/index.ts
+       • src/locale/types.ts
+       • src/isWednesday/index.ts
+     📄 Files WITHOUT TSTypeLiteral (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+
+   ParenthesizedExpression:
+     📄 Files WITH ParenthesizedExpression (showing 10):
+       • scripts/release/buildChangelog.ts
+       • scripts/_lib/listLocales.ts
+       • scripts/_lib/listFns.ts
+       • scripts/_lib/listFPFns.ts
+       • src/transpose/index.ts
+       • src/startOfWeek/index.ts
+       • src/startOfQuarter/index.ts
+       • src/setDefaultOptions/index.ts
+       • src/setDay/index.ts
+       • src/parseJSON/index.ts
+     📄 Files WITHOUT ParenthesizedExpression (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   TSInterfaceHeritage:
+     📄 Files WITH TSInterfaceHeritage (showing 10):
+       • src/types.ts
+       • src/subYears/index.ts
+       • src/subSeconds/index.ts
+       • src/subQuarters/index.ts
+       • src/subMinutes/index.ts
+       • src/subWeeks/index.ts
+       • src/subMonths/index.ts
+       • src/subMilliseconds/index.ts
+       • src/subISOWeekYears/index.ts
+       • src/subHours/index.ts
+     📄 Files WITHOUT TSInterfaceHeritage (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+
+   TSInterfaceDeclaration:
+     📄 Files WITH TSInterfaceDeclaration (showing 10):
+       • src/types.ts
+       • scripts/release/buildChangelog.ts
+       • scripts/_lib/listLocales.ts
+       • scripts/_lib/listFns.ts
+       • scripts/_lib/listFPFns.ts
+       • src/subYears/index.ts
+       • src/subSeconds/index.ts
+       • src/subQuarters/index.ts
+       • src/subMinutes/index.ts
+       • src/subWeeks/index.ts
+     📄 Files WITHOUT TSInterfaceDeclaration (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+
+   TSInterfaceBody:
+     📄 Files WITH TSInterfaceBody (showing 10):
+       • src/types.ts
+       • scripts/release/buildChangelog.ts
+       • scripts/_lib/listLocales.ts
+       • scripts/_lib/listFns.ts
+       • scripts/_lib/listFPFns.ts
+       • src/subYears/index.ts
+       • src/subSeconds/index.ts
+       • src/subQuarters/index.ts
+       • src/subMinutes/index.ts
+       • src/subWeeks/index.ts
+     📄 Files WITHOUT TSInterfaceBody (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+
+   TemplateLiteral:
+     📄 Files WITH TemplateLiteral (showing 10):
+       • scripts/release/buildChangelog.ts
+       • scripts/_lib/listLocales.ts
+       • scripts/_lib/listFns.ts
+       • scripts/_lib/listFPFns.ts
+       • examples/rollup/rollup.config.js
+       • examples/cdn/locales.js
+       • examples/cdn/locale.js
+       • examples/cdn/fp.js
+       • examples/cdn/dom.js
+       • examples/cdn/basic.js
+     📄 Files WITHOUT TemplateLiteral (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   TSUndefinedKeyword:
+     📄 Files WITH TSUndefinedKeyword (showing 10):
+       • src/types.ts
+       • test/dst/tzOffsetTransitions.ts
+       • scripts/release/buildChangelog.ts
+       • src/toDate/index.ts
+       • src/subSeconds/index.ts
+       • src/subMinutes/index.ts
+       • src/subWeeks/index.ts
+       • src/subMonths/index.ts
+       • src/subMilliseconds/index.ts
+       • src/subISOWeekYears/index.ts
+     📄 Files WITHOUT TSUndefinedKeyword (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+
+   TSTypeAliasDeclaration:
+     📄 Files WITH TSTypeAliasDeclaration (showing 10):
+       • src/types.ts
+       • test/dst/tzOffsetTransitions.ts
+       • scripts/release/buildChangelog.ts
+       • src/lightFormat/index.ts
+       • src/locale/types.ts
+       • src/intlFormat/index.ts
+       • src/intlFormatDistance/index.ts
+       • src/interval/index.ts
+       • src/fp/types.ts
+       • src/formatDistanceStrict/index.ts
+     📄 Files WITHOUT TSTypeAliasDeclaration (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+
+   ConditionalExpression:
+     📄 Files WITH ConditionalExpression (showing 10):
+       • test/dst/tzOffsetTransitions.ts
+       • scripts/release/buildChangelog.ts
+       • scripts/_lib/listLocales.ts
+       • src/transpose/index.ts
+       • src/startOfWeek/index.ts
+       • src/setDay/index.ts
+       • src/parseJSON/index.ts
+       • src/parseISO/index.ts
+       • src/parse/index.ts
+       • src/lastDayOfWeek/index.ts
+     📄 Files WITHOUT ConditionalExpression (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   TSIntersectionType:
+     📄 Files WITH TSIntersectionType (showing 10):
+       • src/types.ts
+       • src/lightFormat/index.ts
+       • src/isYesterday/index.ts
+       • src/isWeekend/index.ts
+       • src/locale/types.ts
+       • src/isWednesday/index.ts
+       • src/isWithinInterval/index.ts
+       • src/isTuesday/index.ts
+       • src/isTomorrow/index.ts
+       • src/isToday/index.ts
+     📄 Files WITHOUT TSIntersectionType (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+
+   FunctionExpression:
+     📄 Files WITH FunctionExpression (showing 10):
+       • codemods/expectify.js
+       • examples/cdn/dom.js
+       • src/formatDistanceToNow/test.ts
+       • src/parse/_lib/Setter.ts
+       • src/parse/_lib/Parser.ts
+       • src/locale/fr/test.ts
+       • src/parse/_lib/parsers/YearParser.ts
+       • src/parse/_lib/parsers/TimestampSecondsParser.ts
+       • src/parse/_lib/parsers/TimestampMillisecondsParser.ts
+       • src/parse/_lib/parsers/StandAloneQuarterParser.ts
+     📄 Files WITHOUT FunctionExpression (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+
+   TSBooleanKeyword:
+     📄 Files WITH TSBooleanKeyword (showing 10):
+       • src/types.ts
+       • scripts/release/buildChangelog.ts
+       • src/parseISO/index.ts
+       • src/parse/test.ts
+       • src/isYesterday/index.ts
+       • src/isWeekend/index.ts
+       • src/locale/types.ts
+       • src/isWednesday/index.ts
+       • src/isValid/index.ts
+       • src/isWithinInterval/index.ts
+     📄 Files WITHOUT TSBooleanKeyword (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+
+   SwitchStatement:
+     📄 Files WITH SwitchStatement (showing 10):
+       • codemods/expectify.js
+       • scripts/release/buildChangelog.ts
+       • src/parse/_lib/utils.ts
+       • src/parse/_lib/parsers/YearParser.ts
+       • src/parse/_lib/parsers/StandAloneQuarterParser.ts
+       • src/parse/_lib/parsers/StandAloneMonthParser.ts
+       • src/parse/_lib/parsers/StandAloneLocalDayParser.ts
+       • src/parse/_lib/parsers/SecondParser.ts
+       • src/parse/_lib/parsers/QuarterParser.ts
+       • src/parse/_lib/parsers/MonthParser.ts
+     📄 Files WITHOUT SwitchStatement (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+
+   MethodDefinition:
+     📄 Files WITH MethodDefinition (showing 10):
+       • examples/cdn/dom.js
+       • src/parse/_lib/Setter.ts
+       • src/parse/_lib/Parser.ts
+       • src/parse/_lib/parsers/YearParser.ts
+       • src/parse/_lib/parsers/TimestampSecondsParser.ts
+       • src/parse/_lib/parsers/TimestampMillisecondsParser.ts
+       • src/parse/_lib/parsers/StandAloneQuarterParser.ts
+       • src/parse/_lib/parsers/StandAloneMonthParser.ts
+       • src/parse/_lib/parsers/StandAloneLocalDayParser.ts
+       • src/parse/_lib/parsers/SecondParser.ts
+     📄 Files WITHOUT MethodDefinition (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   TSArrayType:
+     📄 Files WITH TSArrayType (showing 10):
+       • src/types.ts
+       • scripts/release/buildChangelog.ts
+       • scripts/_lib/listLocales.ts
+       • scripts/_lib/listFns.ts
+       • scripts/_lib/listFPFns.ts
+       • src/parse/index.ts
+       • src/max/index.ts
+       • src/locale/types.ts
+       • src/fp/types.ts
+       • src/formatDuration/index.ts
+     📄 Files WITHOUT TSArrayType (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+
+   PropertyDefinition:
+     📄 Files WITH PropertyDefinition (showing 10):
+       • src/parse/_lib/Setter.ts
+       • src/parse/_lib/Parser.ts
+       • src/parse/_lib/parsers/YearParser.ts
+       • src/parse/_lib/parsers/TimestampSecondsParser.ts
+       • src/parse/_lib/parsers/TimestampMillisecondsParser.ts
+       • src/parse/_lib/parsers/StandAloneQuarterParser.ts
+       • src/parse/_lib/parsers/StandAloneMonthParser.ts
+       • src/parse/_lib/parsers/StandAloneLocalDayParser.ts
+       • src/parse/_lib/parsers/SecondParser.ts
+       • src/parse/_lib/parsers/QuarterParser.ts
+     📄 Files WITHOUT PropertyDefinition (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   ArrayPattern:
+     📄 Files WITH ArrayPattern (showing 10):
+       • src/parse/test.ts
+       • src/isWithinInterval/index.ts
+       • src/isSameMonth/index.ts
+       • src/isSameYear/index.ts
+       • src/isSameWeek/index.ts
+       • src/isSameQuarter/index.ts
+       • src/isSameHour/index.ts
+       • src/isSameISOWeekYear/index.ts
+       • src/isSameDay/index.ts
+       • src/intlFormatDistance/index.ts
+     📄 Files WITHOUT ArrayPattern (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   TSIndexedAccessType:
+     📄 Files WITH TSIndexedAccessType (showing 10):
+       • src/intlFormat/index.ts
+       • src/intlFormatDistance/index.ts
+       • src/fp/types.ts
+       • src/eachYearOfInterval/index.ts
+       • src/eachWeekendOfYear/test.ts
+       • src/eachWeekendOfInterval/index.ts
+       • src/eachWeekOfInterval/index.ts
+       • src/eachQuarterOfInterval/index.ts
+       • src/eachMonthOfInterval/index.ts
+       • src/eachMinuteOfInterval/index.ts
+     📄 Files WITHOUT TSIndexedAccessType (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   TSConditionalType:
+     📄 Files WITH TSConditionalType (showing 10):
+       • src/interval/index.ts
+       • src/fp/types.ts
+       • src/eachYearOfInterval/index.ts
+       • src/eachWeekendOfInterval/index.ts
+       • src/eachWeekOfInterval/index.ts
+       • src/eachQuarterOfInterval/index.ts
+       • src/eachMonthOfInterval/index.ts
+       • src/eachMinuteOfInterval/index.ts
+       • src/eachHourOfInterval/index.ts
+       • src/eachDayOfInterval/index.ts
+     📄 Files WITHOUT TSConditionalType (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   TSNonNullExpression:
+     📄 Files WITH TSNonNullExpression (showing 10):
+       • scripts/release/buildChangelog.ts
+       • src/parse/index.ts
+       • src/isDate/test.ts
+       • src/formatDistanceToNowStrict/test.ts
+       • src/formatDistanceToNow/test.ts
+       • src/formatDistanceStrict/test.ts
+       • src/formatDistance/test.ts
+       • src/format/index.ts
+       • src/addMonths/test.ts
+       • src/addDays/test.ts
+     📄 Files WITHOUT TSNonNullExpression (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   ThrowStatement:
+     📄 Files WITH ThrowStatement (showing 10):
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+       • test/formatRFC3339/australia.ts
+       • test/formatISO/india.ts
+       • test/dst/tzOffsetTransitions.ts
+       • scripts/release/buildChangelog.ts
+       • src/parse/index.ts
+       • src/lightFormat/index.ts
+     📄 Files WITHOUT ThrowStatement (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • scripts/test/tzOffset.ts
+       • scripts/test/tzIANA.ts
+       • scripts/maintain/switchToPR.ts
+
+   ObjectPattern:
+     📄 Files WITH ObjectPattern (showing 10):
+       • scripts/release/buildChangelog.ts
+       • examples/lodash-fp/example.js
+       • examples/cdn/dom.js
+       • src/sub/index.ts
+       • src/startOfYesterday/test.ts
+       • src/startOfToday/test.ts
+       • src/startOfTomorrow/test.ts
+       • src/parse/index.ts
+       • src/milliseconds/index.ts
+       • src/isYesterday/test.ts
+     📄 Files WITHOUT ObjectPattern (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   ClassDeclaration:
+     📄 Files WITH ClassDeclaration (showing 10):
+       • examples/cdn/dom.js
+       • src/constructNow/test.ts
+       • src/constructFrom/test.ts
+       • src/parse/_lib/Setter.ts
+       • src/parse/_lib/Parser.ts
+       • src/parse/_lib/parsers/YearParser.ts
+       • src/parse/_lib/parsers/TimestampSecondsParser.ts
+       • src/parse/_lib/parsers/TimestampMillisecondsParser.ts
+       • src/parse/_lib/parsers/StandAloneQuarterParser.ts
+       • src/parse/_lib/parsers/StandAloneMonthParser.ts
+     📄 Files WITHOUT ClassDeclaration (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   ClassBody:
+     📄 Files WITH ClassBody (showing 10):
+       • examples/cdn/dom.js
+       • src/constructNow/test.ts
+       • src/constructFrom/test.ts
+       • src/parse/_lib/Setter.ts
+       • src/parse/_lib/Parser.ts
+       • src/parse/_lib/parsers/YearParser.ts
+       • src/parse/_lib/parsers/TimestampSecondsParser.ts
+       • src/parse/_lib/parsers/TimestampMillisecondsParser.ts
+       • src/parse/_lib/parsers/StandAloneQuarterParser.ts
+       • src/parse/_lib/parsers/StandAloneMonthParser.ts
+     📄 Files WITHOUT ClassBody (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   AssignmentPattern:
+     📄 Files WITH AssignmentPattern (showing 10):
+       • src/sub/index.ts
+       • src/roundToNearestMinutes/test.ts
+       • src/roundToNearestHours/test.ts
+       • src/formatISODuration/index.ts
+       • src/addMonths/test.ts
+       • src/add/index.ts
+       • src/locale/_lib/buildMatchPatternFn/index.ts
+       • src/locale/_lib/buildMatchFn/index.ts
+       • src/locale/_lib/buildFormatLongFn/index.ts
+       • src/fp/_lib/convertToFP/index.ts
+     📄 Files WITHOUT AssignmentPattern (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   ImportDefaultSpecifier:
+     📄 Files WITH ImportDefaultSpecifier (showing 10):
+       • eslint.config.mjs
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+       • test/formatRFC3339/australia.ts
+       • test/formatISO/india.ts
+       • scripts/release/buildChangelog.ts
+       • scripts/_lib/listLocales.ts
+       • scripts/_lib/listFns.ts
+     📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
+       • vitest.config.ts
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/dst/tzOffsetTransitions.ts
+       • scripts/test/tzOffset.ts
+       • scripts/test/tzIANA.ts
+       • scripts/maintain/switchToPR.ts
+
+   TSTupleType:
+     📄 Files WITH TSTupleType (showing 9):
+       • scripts/release/buildChangelog.ts
+       • src/parse/test.ts
+       • src/parse/_lib/Setter.ts
+       • src/parse/_lib/Parser.ts
+       • src/_lib/normalizeDates/index.ts
+       • src/parse/_lib/parsers/TimestampSecondsParser.ts
+       • src/parse/_lib/parsers/TimestampMillisecondsParser.ts
+       • src/locale/_lib/buildMatchFn/index.ts
+       • src/locale/_lib/buildLocalizeFn/index.ts
+     📄 Files WITHOUT TSTupleType (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   TSTypeOperator:
+     📄 Files WITH TSTypeOperator (showing 10):
+       • src/types.ts
+       • src/setDefaultOptions/index.ts
+       • src/lightFormat/index.ts
+       • src/_lib/defaultOptions/index.ts
+       • src/locale/_lib/buildMatchFn/index.ts
+       • src/locale/_lib/buildLocalizeFn/index.ts
+       • src/locale/sk/_lib/formatDistance/index.ts
+       • src/locale/sl/_lib/formatDistance/index.ts
+       • src/locale/pl/_lib/formatRelative/index.ts
+       • src/locale/pl/_lib/formatDistance/index.ts
+     📄 Files WITHOUT TSTypeOperator (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+
+   TSFunctionType:
+     📄 Files WITH TSFunctionType (showing 10):
+       • src/types.ts
+       • src/locale/types.ts
+       • src/fp/types.ts
+       • scripts/test/_lib/queue.ts
+       • src/parse/_lib/utils.ts
+       • src/parse/_lib/Setter.ts
+       • src/locale/_lib/buildMatchFn/index.ts
+       • src/locale/_lib/buildLocalizeFn/index.ts
+       • src/_lib/format/longFormatters/index.ts
+       • src/_lib/format/formatters/index.ts
+     📄 Files WITHOUT TSFunctionType (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+
+   BreakStatement:
+     📄 Files WITH BreakStatement (showing 5):
+       • codemods/expectify.js
+       • test/dst/tzOffsetTransitions.ts
+       • src/_lib/format/longFormatters/index.ts
+       • src/locale/oc/_lib/localize/index.ts
+       • src/locale/mn/_lib/formatDistance/index.ts
+     📄 Files WITHOUT BreakStatement (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+
+   TryStatement:
+     📄 Files WITH TryStatement (showing 4):
+       • src/parse/test.ts
+       • src/intlFormat/test.ts
+       • src/format/test.ts
+       • scripts/test/_lib/tz.ts
+     📄 Files WITHOUT TryStatement (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   CatchClause:
+     📄 Files WITH CatchClause (showing 4):
+       • src/parse/test.ts
+       • src/intlFormat/test.ts
+       • src/format/test.ts
+       • scripts/test/_lib/tz.ts
+     📄 Files WITHOUT CatchClause (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   TSCallSignatureDeclaration:
+     📄 Files WITH TSCallSignatureDeclaration (showing 1):
+       • src/fp/types.ts
+     📄 Files WITHOUT TSCallSignatureDeclaration (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   SpreadElement:
+     📄 Files WITH SpreadElement (showing 10):
+       • eslint.config.mjs
+       • codemods/expectify.js
+       • scripts/release/buildChangelog.ts
+       • src/startOfISOWeek/index.ts
+       • src/lastDayOfISOWeek/index.ts
+       • src/isSameISOWeek/index.ts
+       • src/intlFormatDistance/index.ts
+       • src/formatDistanceStrict/index.ts
+       • src/formatDistance/index.ts
+       • src/endOfISOWeek/index.ts
+     📄 Files WITHOUT SpreadElement (showing 10):
+       • vitest.config.ts
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+       • test/formatRFC3339/australia.ts
+
+   TSOptionalType:
+     📄 Files WITH TSOptionalType (showing 1):
+       • src/parse/test.ts
+     📄 Files WITHOUT TSOptionalType (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   TSUnknownKeyword:
+     📄 Files WITH TSUnknownKeyword (showing 8):
+       • test/dst/tzOffsetTransitions.ts
+       • src/transpose/index.ts
+       • src/locale/types.ts
+       • src/isValid/index.ts
+       • src/isDate/test.ts
+       • src/isDate/index.ts
+       • src/fp/_lib/convertToFP/test.ts
+       • src/fp/_lib/convertToFP/index.ts
+     📄 Files WITHOUT TSUnknownKeyword (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   TSInferType:
+     📄 Files WITH TSInferType (showing 10):
+       • src/interval/index.ts
+       • src/eachYearOfInterval/index.ts
+       • src/eachWeekendOfInterval/index.ts
+       • src/eachWeekOfInterval/index.ts
+       • src/eachQuarterOfInterval/index.ts
+       • src/eachMonthOfInterval/index.ts
+       • src/eachMinuteOfInterval/index.ts
+       • src/eachHourOfInterval/index.ts
+       • src/eachDayOfInterval/index.ts
+       • src/closestTo/index.ts
+     📄 Files WITHOUT TSInferType (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   JSXIdentifier:
+     📄 Files WITH JSXIdentifier (showing 2):
+       • examples/vite/src/main.tsx
+       • examples/vite/src/App.tsx
+     📄 Files WITHOUT JSXIdentifier (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   ThisExpression:
+     📄 Files WITH ThisExpression (showing 2):
+       • src/parse/_lib/Setter.ts
+       • src/parse/_lib/Parser.ts
+     📄 Files WITHOUT ThisExpression (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   WhileStatement:
+     📄 Files WITH WhileStatement (showing 10):
+       • test/dst/tzOffsetTransitions.ts
+       • src/eachYearOfInterval/index.ts
+       • src/eachWeekendOfInterval/index.ts
+       • src/eachWeekOfInterval/index.ts
+       • src/eachQuarterOfInterval/index.ts
+       • src/eachMonthOfInterval/index.ts
+       • src/eachMinuteOfInterval/index.ts
+       • src/eachHourOfInterval/index.ts
+       • src/eachDayOfInterval/index.ts
+       • src/differenceInBusinessDays/index.ts
+     📄 Files WITHOUT WhileStatement (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   TSAnyKeyword:
+     📄 Files WITH TSAnyKeyword (showing 7):
+       • src/setDefaultOptions/index.ts
+       • src/isDate/test.ts
+       • src/fp/types.ts
+       • scripts/test/_lib/tz.ts
+       • src/parse/_lib/parsers/index.ts
+       • src/locale/_lib/buildMatchPatternFn/index.ts
+       • src/locale/_lib/buildMatchFn/index.ts
+     📄 Files WITHOUT TSAnyKeyword (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   TSMappedType:
+     📄 Files WITH TSMappedType (showing 5):
+       • src/locale/types.ts
+       • src/locale/_lib/buildMatchFn/index.ts
+       • src/locale/_lib/buildLocalizeFn/index.ts
+       • src/locale/_lib/buildFormatLongFn/index.ts
+       • src/locale/hi/_lib/localize/index.ts
+     📄 Files WITHOUT TSMappedType (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   UpdateExpression:
+     📄 Files WITH UpdateExpression (showing 4):
+       • test/dst/tzOffsetTransitions.ts
+       • src/format/test.ts
+       • src/eachWeekendOfInterval/index.ts
+       • src/locale/_lib/buildMatchFn/index.ts
+     📄 Files WITHOUT UpdateExpression (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   ForStatement:
+     📄 Files WITH ForStatement (showing 3):
+       • test/dst/tzOffsetTransitions.ts
+       • src/format/test.ts
+       • src/locale/_lib/buildMatchFn/index.ts
+     📄 Files WITHOUT ForStatement (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   AwaitExpression:
+     📄 Files WITH AwaitExpression (showing 6):
+       • scripts/release/buildChangelog.ts
+       • scripts/_lib/listLocales.ts
+       • scripts/_lib/listFns.ts
+       • scripts/_lib/listFPFns.ts
+       • scripts/test/_lib/tz.ts
+       • scripts/test/_lib/queue.ts
+     📄 Files WITHOUT AwaitExpression (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   ExportSpecifier:
+     📄 Files WITH ExportSpecifier (showing 4):
+       • src/parse/index.ts
+       • src/lightFormat/index.ts
+       • src/format/index.ts
+       • src/_lib/defaultLocale/index.ts
+     📄 Files WITHOUT ExportSpecifier (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   TSParenthesizedType:
+     📄 Files WITH TSParenthesizedType (showing 5):
+       • src/eachWeekendOfYear/test.ts
+       • src/eachHourOfInterval/test.ts
+       • src/eachWeekendOfMonth/test.ts
+       • src/locale/_lib/buildLocalizeFn/index.ts
+       • src/locale/kk/_lib/formatDistance/index.ts
+     📄 Files WITHOUT TSParenthesizedType (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   JSXText:
+     📄 Files WITH JSXText (showing 2):
+       • examples/vite/src/main.tsx
+       • examples/vite/src/App.tsx
+     📄 Files WITHOUT JSXText (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   TSDeclareFunction:
+     📄 Files WITH TSDeclareFunction (showing 2):
+       • src/intlFormat/index.ts
+       • src/_lib/normalizeDates/index.ts
+     📄 Files WITHOUT TSDeclareFunction (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   RestElement:
+     📄 Files WITH RestElement (showing 4):
+       • src/fp/types.ts
+       • src/closestTo/index.ts
+       • src/_lib/normalizeDates/index.ts
+       • src/fp/_lib/convertToFP/index.ts
+     📄 Files WITHOUT RestElement (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   TSTypePredicate:
+     📄 Files WITH TSTypePredicate (showing 6):
+       • test/dst/tzOffsetTransitions.ts
+       • src/transpose/index.ts
+       • src/isDate/index.ts
+       • src/intlFormat/index.ts
+       • src/locale/ta/_lib/formatDistance/index.ts
+       • src/locale/sl/_lib/formatDistance/index.ts
+     📄 Files WITHOUT TSTypePredicate (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   TSVoidKeyword:
+     📄 Files WITH TSVoidKeyword (showing 5):
+       • src/setDefaultOptions/index.ts
+       • scripts/test/_lib/queue.ts
+       • src/_lib/protectedTokens/index.ts
+       • src/_lib/test/index.ts
+       • src/_lib/defaultOptions/index.ts
+     📄 Files WITHOUT TSVoidKeyword (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   ExportDefaultDeclaration:
+     📄 Files WITH ExportDefaultDeclaration (showing 5):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • examples/vite/vite.config.ts
+       • examples/rollup/rollup.config.js
+       • examples/vite/src/App.tsx
+     📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+       • test/formatRFC3339/australia.ts
+
+   TSNeverKeyword:
+     📄 Files WITH TSNeverKeyword (showing 4):
+       • src/fp/types.ts
+       • src/_lib/test/index.ts
+       • src/locale/_lib/buildMatchFn/index.ts
+       • src/locale/_lib/buildLocalizeFn/index.ts
+     📄 Files WITHOUT TSNeverKeyword (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   JSXElement:
+     📄 Files WITH JSXElement (showing 2):
+       • examples/vite/src/main.tsx
+       • examples/vite/src/App.tsx
+     📄 Files WITHOUT JSXElement (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   JSXOpeningElement:
+     📄 Files WITH JSXOpeningElement (showing 2):
+       • examples/vite/src/main.tsx
+       • examples/vite/src/App.tsx
+     📄 Files WITHOUT JSXOpeningElement (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   JSXClosingElement:
+     📄 Files WITH JSXClosingElement (showing 2):
+       • examples/vite/src/main.tsx
+       • examples/vite/src/App.tsx
+     📄 Files WITHOUT JSXClosingElement (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   TSParameterProperty:
+     📄 Files WITH TSParameterProperty (showing 1):
+       • src/parse/_lib/Setter.ts
+     📄 Files WITHOUT TSParameterProperty (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   TSConstructSignatureDeclaration:
+     📄 Files WITH TSConstructSignatureDeclaration (showing 1):
+       • src/types.ts
+     📄 Files WITHOUT TSConstructSignatureDeclaration (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+
+   TSIndexSignature:
+     📄 Files WITH TSIndexSignature (showing 3):
+       • scripts/release/buildChangelog.ts
+       • src/_lib/format/formatters/index.ts
+       • src/locale/az/_lib/localize/index.ts
+     📄 Files WITHOUT TSIndexSignature (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   ForInStatement:
+     📄 Files WITH ForInStatement (showing 2):
+       • src/setDefaultOptions/index.ts
+       • src/locale/_lib/buildMatchFn/index.ts
+     📄 Files WITHOUT ForInStatement (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   TSNullKeyword:
+     📄 Files WITH TSNullKeyword (showing 3):
+       • src/locale/types.ts
+       • src/parse/_lib/types.ts
+       • src/parse/_lib/Parser.ts
+     📄 Files WITHOUT TSNullKeyword (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   TSAbstractPropertyDefinition:
+     📄 Files WITH TSAbstractPropertyDefinition (showing 2):
+       • src/parse/_lib/Setter.ts
+       • src/parse/_lib/Parser.ts
+     📄 Files WITHOUT TSAbstractPropertyDefinition (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   TSAbstractMethodDefinition:
+     📄 Files WITH TSAbstractMethodDefinition (showing 2):
+       • src/parse/_lib/Setter.ts
+       • src/parse/_lib/Parser.ts
+     📄 Files WITHOUT TSAbstractMethodDefinition (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   TSEmptyBodyFunctionExpression:
+     📄 Files WITH TSEmptyBodyFunctionExpression (showing 2):
+       • src/parse/_lib/Setter.ts
+       • src/parse/_lib/Parser.ts
+     📄 Files WITHOUT TSEmptyBodyFunctionExpression (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   DoWhileStatement:
+     📄 Files WITH DoWhileStatement (showing 1):
+       • test/dst/tzOffsetTransitions.ts
+     📄 Files WITHOUT DoWhileStatement (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   ImportNamespaceSpecifier:
+     📄 Files WITH ImportNamespaceSpecifier (showing 2):
+       • examples/typescript/misc.ts
+       • examples/node-esm/misc.js
+     📄 Files WITHOUT ImportNamespaceSpecifier (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   ForOfStatement:
+     📄 Files WITH ForOfStatement (showing 1):
+       • src/parse/index.ts
+     📄 Files WITHOUT ForOfStatement (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   JSXMemberExpression:
+     📄 Files WITH JSXMemberExpression (showing 1):
+       • examples/vite/src/main.tsx
+     📄 Files WITHOUT JSXMemberExpression (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   Super:
+     📄 Files WITH Super (showing 1):
+       • src/parse/_lib/Setter.ts
+     📄 Files WITHOUT Super (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   MetaProperty:
+     📄 Files WITH MetaProperty (showing 1):
+       • eslint.config.mjs
+     📄 Files WITHOUT MetaProperty (showing 10):
+       • vitest.config.ts
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+       • test/formatRFC3339/india.ts
+
+   TaggedTemplateExpression:
+     📄 Files WITH TaggedTemplateExpression (showing 1):
+       • scripts/test/_lib/tz.ts
+     📄 Files WITHOUT TaggedTemplateExpression (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   JSXFragment:
+     📄 Files WITH JSXFragment (showing 1):
+       • examples/vite/src/App.tsx
+     📄 Files WITHOUT JSXFragment (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   JSXOpeningFragment:
+     📄 Files WITH JSXOpeningFragment (showing 1):
+       • examples/vite/src/App.tsx
+     📄 Files WITHOUT JSXOpeningFragment (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   JSXAttribute:
+     📄 Files WITH JSXAttribute (showing 1):
+       • examples/vite/src/App.tsx
+     📄 Files WITHOUT JSXAttribute (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   JSXExpressionContainer:
+     📄 Files WITH JSXExpressionContainer (showing 1):
+       • examples/vite/src/App.tsx
+     📄 Files WITHOUT JSXExpressionContainer (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   JSXClosingFragment:
+     📄 Files WITH JSXClosingFragment (showing 1):
+       • examples/vite/src/App.tsx
+     📄 Files WITHOUT JSXClosingFragment (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   TSModuleDeclaration:
+     📄 Files WITH TSModuleDeclaration (showing 1):
+       • src/_lib/test/index.ts
+     📄 Files WITHOUT TSModuleDeclaration (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
+
+   TSModuleBlock:
+     📄 Files WITH TSModuleBlock (showing 1):
+       • src/_lib/test/index.ts
+     📄 Files WITHOUT TSModuleBlock (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • docs/config.js
+       • docs/config.d.ts
+       • src/types.ts
+       • src/index.ts
+       • codemods/expectify.js
+       • test/formatRFC3339/poland.ts
+       • test/formatRFC3339/newzealand.ts
+       • test/formatRFC3339/newfoundland.ts
 
 ============================================================
 ✅ Analysis complete!

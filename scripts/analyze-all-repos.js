@@ -12,17 +12,28 @@ const projectRoot = join(__dirname, "..");
 const sampleReposDir = join(projectRoot, "sample-repos");
 const analysisDir = join(projectRoot, "analysis");
 
+// Configuration
+const EXAMPLE_COUNT = 10; // Number of files to show per node type category
+
 /**
  * Run the analysis script on a specific repository and capture output
  */
 function analyzeRepository(repoName, repoPath) {
   return new Promise((resolve, reject) => {
     console.log(`🔍 Analyzing ${repoName}...`);
-    
-    const child = spawn("node", [join(projectRoot, "src", "index.js"), repoPath], {
-      stdio: ["pipe", "pipe", "pipe"],
-      cwd: projectRoot,
-    });
+
+    const child = spawn(
+      "node",
+      [
+        join(projectRoot, "src", "index.js"),
+        repoPath,
+        EXAMPLE_COUNT.toString(),
+      ],
+      {
+        stdio: ["pipe", "pipe", "pipe"],
+        cwd: projectRoot,
+      }
+    );
 
     let stdout = "";
     let stderr = "";
@@ -38,14 +49,19 @@ function analyzeRepository(repoName, repoPath) {
     child.on("close", (code) => {
       // Filter out progress lines from stdout
       const cleanedStdout = stdout
-        .split('\n')
-        .filter(line => !line.includes('📊 Analyzing...'))
-        .join('\n');
+        .split("\n")
+        .filter((line) => !line.includes("📊 Analyzing..."))
+        .join("\n");
 
       if (code === 0) {
         resolve({ stdout: cleanedStdout, stderr, success: true });
       } else {
-        resolve({ stdout: cleanedStdout, stderr, success: false, exitCode: code });
+        resolve({
+          stdout: cleanedStdout,
+          stderr,
+          success: false,
+          exitCode: code,
+        });
       }
     });
 
@@ -159,15 +175,16 @@ async function main() {
         console.log(`${progress} ✅ ${repo.name} - Analysis completed`);
       } else {
         results.failed++;
-        console.log(`${progress} ❌ ${repo.name} - Analysis failed (exit code: ${result.exitCode})`);
+        console.log(
+          `${progress} ❌ ${repo.name} - Analysis failed (exit code: ${result.exitCode})`
+        );
       }
 
       saveResults(repo.name, result);
-
     } catch (error) {
       results.failed++;
       console.error(`${progress} ❌ ${repo.name} - Error: ${error.message}`);
-      
+
       // Save error information
       saveResults(repo.name, {
         success: false,
@@ -191,7 +208,9 @@ async function main() {
   console.log("=".repeat(60));
 
   if (results.failed > 0) {
-    console.log("\n⚠️  Some analyses failed. Check the individual result files for details.");
+    console.log(
+      "\n⚠️  Some analyses failed. Check the individual result files for details."
+    );
     process.exit(1);
   } else {
     console.log("\n🎉 All analyses completed successfully!");

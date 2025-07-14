@@ -1,11 +1,12 @@
 AST Analysis Report for semantic-release
-Generated on: 2025-07-13T03:17:31.106Z
+Generated on: 2025-07-14T01:42:30.241Z
 Repository: sample-repos/semantic-release
 ================================================================================
 
 🔍 Analyzing JavaScript/TypeScript files in: /Users/camchenry/workspace/ast-analysis/sample-repos/semantic-release
 
-📁 Found 28 files to analyze...
+📁 Found 57 files to analyze...
+
 
 
 ============================================================
@@ -13,161 +14,1506 @@ Repository: sample-repos/semantic-release
 ============================================================
 
 📁 FILE STATISTICS:
-   Total files found: 28
-   Successfully parsed: 28
+   Total files found: 57
+   Successfully parsed: 57
    Failed to parse: 0
-   Total file size: 103.5 KB
+   Total file size: 402.0 KB
 
 🌳 NODE STATISTICS:
-   Total nodes: 10,889
-   Average nodes per file: 389
-   Average file size: 3.7 KB
+   Total nodes: 60,038
+   Average nodes per file: 1,053
+   Average file size: 7.1 KB
 
 📋 ALL NODE TYPES (BY FILE PRESENCE):
-   Program                          28 files (100.0%) -       28 total (0.26%)
-   Identifier                       28 files (100.0%) -    4,229 total (38.84%)
-   Literal                          28 files (100.0%) -      686 total (6.30%)
-   ImportDeclaration                27 files ( 96.4%) -      134 total (1.23%)
-   VariableDeclaration              27 files ( 96.4%) -      164 total (1.51%)
-   VariableDeclarator               27 files ( 96.4%) -      164 total (1.51%)
-   MemberExpression                 26 files ( 92.9%) -      687 total (6.31%)
-   ArrowFunctionExpression          26 files ( 92.9%) -      131 total (1.20%)
-   ImportSpecifier                  25 files ( 89.3%) -      136 total (1.25%)
-   CallExpression                   25 files ( 89.3%) -      687 total (6.31%)
-   ObjectPattern                    25 files ( 89.3%) -      120 total (1.10%)
-   Property                         25 files ( 89.3%) -      617 total (5.67%)
-   ObjectExpression                 25 files ( 89.3%) -      206 total (1.89%)
-   ImportDefaultSpecifier           24 files ( 85.7%) -       65 total (0.60%)
-   BlockStatement                   24 files ( 85.7%) -      260 total (2.39%)
-   ReturnStatement                  22 files ( 78.6%) -      118 total (1.08%)
-   IfStatement                      20 files ( 71.4%) -       81 total (0.74%)
-   ConditionalExpression            20 files ( 71.4%) -       66 total (0.61%)
-   ExportDefaultDeclaration         20 files ( 71.4%) -       20 total (0.18%)
-   LogicalExpression                19 files ( 67.9%) -      119 total (1.09%)
-   BinaryExpression                 19 files ( 67.9%) -       86 total (0.79%)
-   ArrayExpression                  19 files ( 67.9%) -       75 total (0.69%)
-   ExpressionStatement              18 files ( 64.3%) -      189 total (1.74%)
-   Unknown                          18 files ( 64.3%) -      331 total (3.04%)
-   UnaryExpression                  17 files ( 60.7%) -       49 total (0.45%)
-   TemplateLiteral                  17 files ( 60.7%) -      100 total (0.92%)
-   TemplateElement                  17 files ( 60.7%) -      305 total (2.80%)
-   AwaitExpression                  15 files ( 53.6%) -      106 total (0.97%)
-   ParenthesizedExpression          15 files ( 53.6%) -       91 total (0.84%)
-   SpreadElement                    14 files ( 50.0%) -       80 total (0.73%)
-   AssignmentExpression             12 files ( 42.9%) -       55 total (0.51%)
-   ArrayPattern                     10 files ( 35.7%) -       15 total (0.14%)
-   NewExpression                     9 files ( 32.1%) -       11 total (0.10%)
-   FunctionDeclaration               8 files ( 28.6%) -       72 total (0.66%)
-   ExportNamedDeclaration            8 files ( 28.6%) -      100 total (0.92%)
-   ThrowStatement                    7 files ( 25.0%) -       16 total (0.15%)
-   AssignmentPattern                 7 files ( 25.0%) -       17 total (0.16%)
-   RestElement                       7 files ( 25.0%) -       15 total (0.14%)
-   TryStatement                      6 files ( 21.4%) -       19 total (0.17%)
-   CatchClause                       6 files ( 21.4%) -       19 total (0.17%)
-   MetaProperty                      5 files ( 17.9%) -        5 total (0.05%)
-   ImportNamespaceSpecifier          3 files ( 10.7%) -        4 total (0.04%)
-   ImportExpression                  3 files ( 10.7%) -        4 total (0.04%)
-   ForOfStatement                    3 files ( 10.7%) -        3 total (0.03%)
-   TSInterfaceDeclaration            1 files (  3.6%) -       15 total (0.14%)
-   TSInterfaceHeritage               1 files (  3.6%) -        7 total (0.06%)
-   TSInterfaceBody                   1 files (  3.6%) -       15 total (0.14%)
-   TSPropertySignature               1 files (  3.6%) -       77 total (0.71%)
-   TSTypeAnnotation                  1 files (  3.6%) -       82 total (0.75%)
-   TSArrayType                       1 files (  3.6%) -        4 total (0.04%)
-   TSAnyKeyword                      1 files (  3.6%) -        4 total (0.04%)
-   TSModuleDeclaration               1 files (  3.6%) -        1 total (0.01%)
-   TSModuleBlock                     1 files (  3.6%) -        1 total (0.01%)
-   TSBooleanKeyword                  1 files (  3.6%) -        4 total (0.04%)
-   TSStringKeyword                   1 files (  3.6%) -       50 total (0.46%)
-   TSTypeReference                   1 files (  3.6%) -       48 total (0.44%)
-   TSQualifiedName                   1 files (  3.6%) -        4 total (0.04%)
-   TSTypeParameterInstantiation      1 files (  3.6%) -       13 total (0.12%)
-   TSUnionType                       1 files (  3.6%) -       24 total (0.22%)
-   TSLiteralType                     1 files (  3.6%) -       15 total (0.14%)
-   TSUndefinedKeyword                1 files (  3.6%) -       18 total (0.17%)
-   TSTypeAliasDeclaration            1 files (  3.6%) -        9 total (0.08%)
-   TSTypeLiteral                     1 files (  3.6%) -        5 total (0.05%)
-   TSTypeParameterDeclaration        1 files (  3.6%) -        1 total (0.01%)
-   TSTypeParameter                   1 files (  3.6%) -        1 total (0.01%)
-   TSTupleType                       1 files (  3.6%) -        1 total (0.01%)
-   TSIndexSignature                  1 files (  3.6%) -        1 total (0.01%)
-   TSDeclareFunction                 1 files (  3.6%) -        1 total (0.01%)
-   WhileStatement                    1 files (  3.6%) -        1 total (0.01%)
-   ContinueStatement                 1 files (  3.6%) -        1 total (0.01%)
-   Hashbang                          1 files (  3.6%) -        1 total (0.01%)
+   Program                          57 files (100.0%) -       57 total (0.09%)
+   Identifier                       57 files (100.0%) -   22,152 total (36.90%)
+   Literal                          57 files (100.0%) -    6,274 total (10.45%)
+   ImportDeclaration                56 files ( 98.2%) -      258 total (0.43%)
+   MemberExpression                 55 files ( 96.5%) -    5,160 total (8.59%)
+   CallExpression                   54 files ( 94.7%) -    4,848 total (8.07%)
+   Property                         54 files ( 94.7%) -    5,235 total (8.72%)
+   ObjectExpression                 54 files ( 94.7%) -    2,417 total (4.03%)
+   ArrowFunctionExpression          54 files ( 94.7%) -      650 total (1.08%)
+   VariableDeclaration              53 files ( 93.0%) -    1,079 total (1.80%)
+   VariableDeclarator               53 files ( 93.0%) -    1,082 total (1.80%)
+   BlockStatement                   53 files ( 93.0%) -      708 total (1.18%)
+   ImportDefaultSpecifier           52 files ( 91.2%) -      129 total (0.21%)
+   ImportSpecifier                  51 files ( 89.5%) -      280 total (0.47%)
+   ExpressionStatement              46 files ( 80.7%) -    2,529 total (4.21%)
+   ArrayExpression                  45 files ( 78.9%) -    1,044 total (1.74%)
+   ObjectPattern                    40 files ( 70.2%) -      349 total (0.58%)
+   Unknown                          36 files ( 63.2%) -      922 total (1.54%)
+   AwaitExpression                  35 files ( 61.4%) -    1,303 total (2.17%)
+   TemplateLiteral                  33 files ( 57.9%) -      372 total (0.62%)
+   TemplateElement                  33 files ( 57.9%) -      836 total (1.39%)
+   ParenthesizedExpression          32 files ( 56.1%) -      294 total (0.49%)
+   AssignmentExpression             27 files ( 47.4%) -      171 total (0.28%)
+   ReturnStatement                  27 files ( 47.4%) -      142 total (0.24%)
+   SpreadElement                    27 files ( 47.4%) -      214 total (0.36%)
+   BinaryExpression                 27 files ( 47.4%) -      144 total (0.24%)
+   ConditionalExpression            25 files ( 43.9%) -       76 total (0.13%)
+   IfStatement                      22 files ( 38.6%) -       84 total (0.14%)
+   UnaryExpression                  22 files ( 38.6%) -      110 total (0.18%)
+   LogicalExpression                20 files ( 35.1%) -      120 total (0.20%)
+   ExportDefaultDeclaration         20 files ( 35.1%) -       20 total (0.03%)
+   NewExpression                    17 files ( 29.8%) -      125 total (0.21%)
+   FunctionDeclaration              14 files ( 24.6%) -      108 total (0.18%)
+   ExportNamedDeclaration           13 files ( 22.8%) -      139 total (0.23%)
+   ArrayPattern                     12 files ( 21.1%) -       22 total (0.04%)
+   AssignmentPattern                10 files ( 17.5%) -       25 total (0.04%)
+   ImportNamespaceSpecifier          9 files ( 15.8%) -       13 total (0.02%)
+   ImportExpression                  9 files ( 15.8%) -       54 total (0.09%)
+   TryStatement                      9 files ( 15.8%) -       22 total (0.04%)
+   CatchClause                       9 files ( 15.8%) -       22 total (0.04%)
+   ThrowStatement                    9 files ( 15.8%) -       18 total (0.03%)
+   RestElement                       9 files ( 15.8%) -       17 total (0.03%)
+   MetaProperty                      6 files ( 10.5%) -        6 total (0.01%)
+   ForOfStatement                    4 files (  7.0%) -        4 total (0.01%)
+   TSInterfaceDeclaration            1 files (  1.8%) -       15 total (0.02%)
+   TSInterfaceHeritage               1 files (  1.8%) -        7 total (0.01%)
+   TSInterfaceBody                   1 files (  1.8%) -       15 total (0.02%)
+   TSPropertySignature               1 files (  1.8%) -       77 total (0.13%)
+   TSTypeAnnotation                  1 files (  1.8%) -       82 total (0.14%)
+   TSArrayType                       1 files (  1.8%) -        4 total (0.01%)
+   TSAnyKeyword                      1 files (  1.8%) -        4 total (0.01%)
+   TSModuleDeclaration               1 files (  1.8%) -        1 total (0.00%)
+   TSModuleBlock                     1 files (  1.8%) -        1 total (0.00%)
+   TSBooleanKeyword                  1 files (  1.8%) -        4 total (0.01%)
+   TSStringKeyword                   1 files (  1.8%) -       50 total (0.08%)
+   TSTypeReference                   1 files (  1.8%) -       48 total (0.08%)
+   TSQualifiedName                   1 files (  1.8%) -        4 total (0.01%)
+   TSTypeParameterInstantiation      1 files (  1.8%) -       13 total (0.02%)
+   TSUnionType                       1 files (  1.8%) -       24 total (0.04%)
+   TSLiteralType                     1 files (  1.8%) -       15 total (0.02%)
+   TSUndefinedKeyword                1 files (  1.8%) -       18 total (0.03%)
+   TSTypeAliasDeclaration            1 files (  1.8%) -        9 total (0.01%)
+   TSTypeLiteral                     1 files (  1.8%) -        5 total (0.01%)
+   TSTypeParameterDeclaration        1 files (  1.8%) -        1 total (0.00%)
+   TSTypeParameter                   1 files (  1.8%) -        1 total (0.00%)
+   TSTupleType                       1 files (  1.8%) -        1 total (0.00%)
+   TSIndexSignature                  1 files (  1.8%) -        1 total (0.00%)
+   TSDeclareFunction                 1 files (  1.8%) -        1 total (0.00%)
+   WhileStatement                    1 files (  1.8%) -        1 total (0.00%)
+   ContinueStatement                 1 files (  1.8%) -        1 total (0.00%)
+   Hashbang                          1 files (  1.8%) -        1 total (0.00%)
 
 📝 ALL NODE TYPES (BY TOTAL COUNT):
-   Identifier                        4,229 (38.84%) in 28 files (100.0%)
-   CallExpression                      687 (6.31%) in 25 files (89.3%)
-   MemberExpression                    687 (6.31%) in 26 files (92.9%)
-   Literal                             686 (6.30%) in 28 files (100.0%)
-   Property                            617 (5.67%) in 25 files (89.3%)
-   Unknown                             331 (3.04%) in 18 files (64.3%)
-   TemplateElement                     305 (2.80%) in 17 files (60.7%)
-   BlockStatement                      260 (2.39%) in 24 files (85.7%)
-   ObjectExpression                    206 (1.89%) in 25 files (89.3%)
-   ExpressionStatement                 189 (1.74%) in 18 files (64.3%)
-   VariableDeclaration                 164 (1.51%) in 27 files (96.4%)
-   VariableDeclarator                  164 (1.51%) in 27 files (96.4%)
-   ImportSpecifier                     136 (1.25%) in 25 files (89.3%)
-   ImportDeclaration                   134 (1.23%) in 27 files (96.4%)
-   ArrowFunctionExpression             131 (1.20%) in 26 files (92.9%)
-   ObjectPattern                       120 (1.10%) in 25 files (89.3%)
-   LogicalExpression                   119 (1.09%) in 19 files (67.9%)
-   ReturnStatement                     118 (1.08%) in 22 files (78.6%)
-   AwaitExpression                     106 (0.97%) in 15 files (53.6%)
-   TemplateLiteral                     100 (0.92%) in 17 files (60.7%)
-   ExportNamedDeclaration              100 (0.92%) in 8 files (28.6%)
-   ParenthesizedExpression              91 (0.84%) in 15 files (53.6%)
-   BinaryExpression                     86 (0.79%) in 19 files (67.9%)
-   TSTypeAnnotation                     82 (0.75%) in 1 files (3.6%)
-   IfStatement                          81 (0.74%) in 20 files (71.4%)
-   SpreadElement                        80 (0.73%) in 14 files (50.0%)
-   TSPropertySignature                  77 (0.71%) in 1 files (3.6%)
-   ArrayExpression                      75 (0.69%) in 19 files (67.9%)
-   FunctionDeclaration                  72 (0.66%) in 8 files (28.6%)
-   ConditionalExpression                66 (0.61%) in 20 files (71.4%)
-   ImportDefaultSpecifier               65 (0.60%) in 24 files (85.7%)
-   AssignmentExpression                 55 (0.51%) in 12 files (42.9%)
-   TSStringKeyword                      50 (0.46%) in 1 files (3.6%)
-   UnaryExpression                      49 (0.45%) in 17 files (60.7%)
-   TSTypeReference                      48 (0.44%) in 1 files (3.6%)
-   Program                              28 (0.26%) in 28 files (100.0%)
-   TSUnionType                          24 (0.22%) in 1 files (3.6%)
-   ExportDefaultDeclaration             20 (0.18%) in 20 files (71.4%)
-   TryStatement                         19 (0.17%) in 6 files (21.4%)
-   CatchClause                          19 (0.17%) in 6 files (21.4%)
-   TSUndefinedKeyword                   18 (0.17%) in 1 files (3.6%)
-   AssignmentPattern                    17 (0.16%) in 7 files (25.0%)
-   ThrowStatement                       16 (0.15%) in 7 files (25.0%)
-   TSInterfaceDeclaration               15 (0.14%) in 1 files (3.6%)
-   TSInterfaceBody                      15 (0.14%) in 1 files (3.6%)
-   TSLiteralType                        15 (0.14%) in 1 files (3.6%)
-   RestElement                          15 (0.14%) in 7 files (25.0%)
-   ArrayPattern                         15 (0.14%) in 10 files (35.7%)
-   TSTypeParameterInstantiation         13 (0.12%) in 1 files (3.6%)
-   NewExpression                        11 (0.10%) in 9 files (32.1%)
-   TSTypeAliasDeclaration                9 (0.08%) in 1 files (3.6%)
-   TSInterfaceHeritage                   7 (0.06%) in 1 files (3.6%)
-   MetaProperty                          5 (0.05%) in 5 files (17.9%)
-   TSTypeLiteral                         5 (0.05%) in 1 files (3.6%)
-   ImportNamespaceSpecifier              4 (0.04%) in 3 files (10.7%)
-   ImportExpression                      4 (0.04%) in 3 files (10.7%)
-   TSArrayType                           4 (0.04%) in 1 files (3.6%)
-   TSAnyKeyword                          4 (0.04%) in 1 files (3.6%)
-   TSBooleanKeyword                      4 (0.04%) in 1 files (3.6%)
-   TSQualifiedName                       4 (0.04%) in 1 files (3.6%)
-   ForOfStatement                        3 (0.03%) in 3 files (10.7%)
-   TSModuleDeclaration                   1 (0.01%) in 1 files (3.6%)
-   TSModuleBlock                         1 (0.01%) in 1 files (3.6%)
-   TSTypeParameterDeclaration            1 (0.01%) in 1 files (3.6%)
-   TSTypeParameter                       1 (0.01%) in 1 files (3.6%)
-   TSTupleType                           1 (0.01%) in 1 files (3.6%)
-   TSIndexSignature                      1 (0.01%) in 1 files (3.6%)
-   TSDeclareFunction                     1 (0.01%) in 1 files (3.6%)
-   WhileStatement                        1 (0.01%) in 1 files (3.6%)
-   ContinueStatement                     1 (0.01%) in 1 files (3.6%)
-   Hashbang                              1 (0.01%) in 1 files (3.6%)
+   Identifier                       22,152 (36.90%) in 57 files (100.0%)
+   Literal                           6,274 (10.45%) in 57 files (100.0%)
+   Property                          5,235 (8.72%) in 54 files (94.7%)
+   MemberExpression                  5,160 (8.59%) in 55 files (96.5%)
+   CallExpression                    4,848 (8.07%) in 54 files (94.7%)
+   ExpressionStatement               2,529 (4.21%) in 46 files (80.7%)
+   ObjectExpression                  2,417 (4.03%) in 54 files (94.7%)
+   AwaitExpression                   1,303 (2.17%) in 35 files (61.4%)
+   VariableDeclarator                1,082 (1.80%) in 53 files (93.0%)
+   VariableDeclaration               1,079 (1.80%) in 53 files (93.0%)
+   ArrayExpression                   1,044 (1.74%) in 45 files (78.9%)
+   Unknown                             922 (1.54%) in 36 files (63.2%)
+   TemplateElement                     836 (1.39%) in 33 files (57.9%)
+   BlockStatement                      708 (1.18%) in 53 files (93.0%)
+   ArrowFunctionExpression             650 (1.08%) in 54 files (94.7%)
+   TemplateLiteral                     372 (0.62%) in 33 files (57.9%)
+   ObjectPattern                       349 (0.58%) in 40 files (70.2%)
+   ParenthesizedExpression             294 (0.49%) in 32 files (56.1%)
+   ImportSpecifier                     280 (0.47%) in 51 files (89.5%)
+   ImportDeclaration                   258 (0.43%) in 56 files (98.2%)
+   SpreadElement                       214 (0.36%) in 27 files (47.4%)
+   AssignmentExpression                171 (0.28%) in 27 files (47.4%)
+   BinaryExpression                    144 (0.24%) in 27 files (47.4%)
+   ReturnStatement                     142 (0.24%) in 27 files (47.4%)
+   ExportNamedDeclaration              139 (0.23%) in 13 files (22.8%)
+   ImportDefaultSpecifier              129 (0.21%) in 52 files (91.2%)
+   NewExpression                       125 (0.21%) in 17 files (29.8%)
+   LogicalExpression                   120 (0.20%) in 20 files (35.1%)
+   UnaryExpression                     110 (0.18%) in 22 files (38.6%)
+   FunctionDeclaration                 108 (0.18%) in 14 files (24.6%)
+   IfStatement                          84 (0.14%) in 22 files (38.6%)
+   TSTypeAnnotation                     82 (0.14%) in 1 files (1.8%)
+   TSPropertySignature                  77 (0.13%) in 1 files (1.8%)
+   ConditionalExpression                76 (0.13%) in 25 files (43.9%)
+   Program                              57 (0.09%) in 57 files (100.0%)
+   ImportExpression                     54 (0.09%) in 9 files (15.8%)
+   TSStringKeyword                      50 (0.08%) in 1 files (1.8%)
+   TSTypeReference                      48 (0.08%) in 1 files (1.8%)
+   AssignmentPattern                    25 (0.04%) in 10 files (17.5%)
+   TSUnionType                          24 (0.04%) in 1 files (1.8%)
+   TryStatement                         22 (0.04%) in 9 files (15.8%)
+   CatchClause                          22 (0.04%) in 9 files (15.8%)
+   ArrayPattern                         22 (0.04%) in 12 files (21.1%)
+   ExportDefaultDeclaration             20 (0.03%) in 20 files (35.1%)
+   ThrowStatement                       18 (0.03%) in 9 files (15.8%)
+   TSUndefinedKeyword                   18 (0.03%) in 1 files (1.8%)
+   RestElement                          17 (0.03%) in 9 files (15.8%)
+   TSInterfaceDeclaration               15 (0.02%) in 1 files (1.8%)
+   TSInterfaceBody                      15 (0.02%) in 1 files (1.8%)
+   TSLiteralType                        15 (0.02%) in 1 files (1.8%)
+   ImportNamespaceSpecifier             13 (0.02%) in 9 files (15.8%)
+   TSTypeParameterInstantiation         13 (0.02%) in 1 files (1.8%)
+   TSTypeAliasDeclaration                9 (0.01%) in 1 files (1.8%)
+   TSInterfaceHeritage                   7 (0.01%) in 1 files (1.8%)
+   MetaProperty                          6 (0.01%) in 6 files (10.5%)
+   TSTypeLiteral                         5 (0.01%) in 1 files (1.8%)
+   ForOfStatement                        4 (0.01%) in 4 files (7.0%)
+   TSArrayType                           4 (0.01%) in 1 files (1.8%)
+   TSAnyKeyword                          4 (0.01%) in 1 files (1.8%)
+   TSBooleanKeyword                      4 (0.01%) in 1 files (1.8%)
+   TSQualifiedName                       4 (0.01%) in 1 files (1.8%)
+   TSModuleDeclaration                   1 (0.00%) in 1 files (1.8%)
+   TSModuleBlock                         1 (0.00%) in 1 files (1.8%)
+   TSTypeParameterDeclaration            1 (0.00%) in 1 files (1.8%)
+   TSTypeParameter                       1 (0.00%) in 1 files (1.8%)
+   TSTupleType                           1 (0.00%) in 1 files (1.8%)
+   TSIndexSignature                      1 (0.00%) in 1 files (1.8%)
+   TSDeclareFunction                     1 (0.00%) in 1 files (1.8%)
+   WhileStatement                        1 (0.00%) in 1 files (1.8%)
+   ContinueStatement                     1 (0.00%) in 1 files (1.8%)
+   Hashbang                              1 (0.00%) in 1 files (1.8%)
+
+📁 FILE EXAMPLES BY NODE TYPE:
+
+   Identifier:
+     📄 Files WITH Identifier (showing 10):
+       • index.js
+       • index.d.ts
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+     📄 Files WITHOUT Identifier: (all files contain this node type)
+
+   Literal:
+     📄 Files WITH Literal (showing 10):
+       • index.js
+       • index.d.ts
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+     📄 Files WITHOUT Literal: (all files contain this node type)
+
+   Property:
+     📄 Files WITH Property (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+     📄 Files WITHOUT Property (showing 3):
+       • index.d.ts
+       • lib/hide-sensitive.js
+       • lib/definitions/constants.js
+
+   MemberExpression:
+     📄 Files WITH MemberExpression (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+     📄 Files WITHOUT MemberExpression (showing 2):
+       • index.d.ts
+       • lib/definitions/constants.js
+
+   CallExpression:
+     📄 Files WITH CallExpression (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+     📄 Files WITHOUT CallExpression (showing 3):
+       • index.d.ts
+       • lib/get-logger.js
+       • lib/definitions/constants.js
+
+   ExpressionStatement:
+     📄 Files WITH ExpressionStatement (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+     📄 Files WITHOUT ExpressionStatement (showing 10):
+       • index.d.ts
+       • lib/hide-sensitive.js
+       • lib/get-release-to-add.js
+       • lib/get-logger.js
+       • lib/get-last-release.js
+       • lib/get-error.js
+       • test/helpers/npm-utils.js
+       • lib/definitions/errors.js
+       • lib/definitions/constants.js
+       • lib/definitions/branches.js
+
+   ObjectExpression:
+     📄 Files WITH ObjectExpression (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+     📄 Files WITHOUT ObjectExpression (showing 3):
+       • index.d.ts
+       • lib/hide-sensitive.js
+       • lib/definitions/constants.js
+
+   AwaitExpression:
+     📄 Files WITH AwaitExpression (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/integration.test.js
+       • test/git.test.js
+       • test/get-git-auth-url.test.js
+       • test/get-config.test.js
+       • test/get-commits.test.js
+       • test/e2e.test.js
+       • test/cli.test.js
+     📄 Files WITHOUT AwaitExpression (showing 10):
+       • index.d.ts
+       • test/utils.test.js
+       • test/hide-sensitive.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+       • test/get-last-release.test.js
+       • lib/utils.js
+       • lib/hide-sensitive.js
+       • lib/get-release-to-add.js
+
+   VariableDeclarator:
+     📄 Files WITH VariableDeclarator (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-logger.test.js
+       • test/get-last-release.test.js
+     📄 Files WITHOUT VariableDeclarator (showing 4):
+       • index.d.ts
+       • test/get-next-version.test.js
+       • test/definitions/branches.test.js
+       • test/helpers/npm-utils.js
+
+   VariableDeclaration:
+     📄 Files WITH VariableDeclaration (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-logger.test.js
+       • test/get-last-release.test.js
+     📄 Files WITHOUT VariableDeclaration (showing 4):
+       • index.d.ts
+       • test/get-next-version.test.js
+       • test/definitions/branches.test.js
+       • test/helpers/npm-utils.js
+
+   ArrayExpression:
+     📄 Files WITH ArrayExpression (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-last-release.test.js
+       • test/get-config.test.js
+     📄 Files WITHOUT ArrayExpression (showing 10):
+       • index.d.ts
+       • test/hide-sensitive.test.js
+       • test/get-logger.test.js
+       • test/get-git-auth-url.test.js
+       • lib/hide-sensitive.js
+       • lib/get-release-to-add.js
+       • lib/get-next-version.js
+       • lib/get-last-release.js
+       • lib/get-error.js
+       • lib/get-commits.js
+
+   Unknown:
+     📄 Files WITH Unknown (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/get-release-to-add.test.js
+       • test/get-logger.test.js
+       • test/get-last-release.test.js
+       • test/get-config.test.js
+     📄 Files WITHOUT Unknown (showing 10):
+       • index.d.ts
+       • test/git.test.js
+       • test/get-next-version.test.js
+       • test/get-git-auth-url.test.js
+       • test/get-commits.test.js
+       • lib/get-release-to-add.js
+       • lib/get-logger.js
+       • lib/get-last-release.js
+       • lib/get-error.js
+       • test/definitions/branches.test.js
+
+   TemplateElement:
+     📄 Files WITH TemplateElement (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/get-release-to-add.test.js
+       • test/get-last-release.test.js
+       • test/get-config.test.js
+       • test/e2e.test.js
+     📄 Files WITHOUT TemplateElement (showing 10):
+       • index.d.ts
+       • test/git.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+       • test/get-git-auth-url.test.js
+       • test/get-commits.test.js
+       • lib/verify.js
+       • lib/get-release-to-add.js
+       • lib/get-logger.js
+       • lib/get-last-release.js
+
+   BlockStatement:
+     📄 Files WITH BlockStatement (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+     📄 Files WITHOUT BlockStatement (showing 4):
+       • index.d.ts
+       • lib/get-logger.js
+       • lib/definitions/constants.js
+       • lib/definitions/branches.js
+
+   ArrowFunctionExpression:
+     📄 Files WITH ArrowFunctionExpression (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+     📄 Files WITHOUT ArrowFunctionExpression (showing 3):
+       • index.d.ts
+       • test/helpers/npm-utils.js
+       • lib/definitions/constants.js
+
+   TemplateLiteral:
+     📄 Files WITH TemplateLiteral (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/get-release-to-add.test.js
+       • test/get-last-release.test.js
+       • test/get-config.test.js
+       • test/e2e.test.js
+     📄 Files WITHOUT TemplateLiteral (showing 10):
+       • index.d.ts
+       • test/git.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+       • test/get-git-auth-url.test.js
+       • test/get-commits.test.js
+       • lib/verify.js
+       • lib/get-release-to-add.js
+       • lib/get-logger.js
+       • lib/get-last-release.js
+
+   ObjectPattern:
+     📄 Files WITH ObjectPattern (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/integration.test.js
+       • test/git.test.js
+       • test/get-git-auth-url.test.js
+       • test/get-config.test.js
+       • test/get-commits.test.js
+       • test/e2e.test.js
+       • lib/verify.js
+     📄 Files WITHOUT ObjectPattern (showing 10):
+       • index.d.ts
+       • test/utils.test.js
+       • test/hide-sensitive.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+       • test/get-last-release.test.js
+       • test/cli.test.js
+       • lib/hide-sensitive.js
+       • test/definitions/plugins.test.js
+
+   ParenthesizedExpression:
+     📄 Files WITH ParenthesizedExpression (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/integration.test.js
+       • test/git.test.js
+       • test/get-config.test.js
+       • test/e2e.test.js
+       • test/cli.test.js
+       • lib/verify.js
+       • lib/utils.js
+     📄 Files WITHOUT ParenthesizedExpression (showing 10):
+       • index.d.ts
+       • test/utils.test.js
+       • test/hide-sensitive.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+       • test/get-last-release.test.js
+       • test/get-git-auth-url.test.js
+       • test/get-commits.test.js
+       • lib/hide-sensitive.js
+
+   ImportSpecifier:
+     📄 Files WITH ImportSpecifier (showing 10):
+       • index.js
+       • index.d.ts
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+     📄 Files WITHOUT ImportSpecifier (showing 6):
+       • test/get-release-to-add.test.js
+       • test/get-last-release.test.js
+       • lib/get-logger.js
+       • lib/get-error.js
+       • test/branches/normalize.test.js
+       • lib/definitions/constants.js
+
+   ImportDeclaration:
+     📄 Files WITH ImportDeclaration (showing 10):
+       • index.js
+       • index.d.ts
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+     📄 Files WITHOUT ImportDeclaration (showing 1):
+       • lib/definitions/constants.js
+
+   SpreadElement:
+     📄 Files WITH SpreadElement (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/integration.test.js
+       • test/get-git-auth-url.test.js
+       • test/get-config.test.js
+       • test/e2e.test.js
+       • test/cli.test.js
+       • lib/utils.js
+       • lib/git.js
+     📄 Files WITHOUT SpreadElement (showing 10):
+       • index.d.ts
+       • test/utils.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+       • test/get-last-release.test.js
+       • test/get-commits.test.js
+       • lib/verify.js
+
+   AssignmentExpression:
+     📄 Files WITH AssignmentExpression (showing 10):
+       • index.js
+       • test/integration.test.js
+       • test/git.test.js
+       • test/get-next-version.test.js
+       • test/get-last-release.test.js
+       • test/get-config.test.js
+       • test/get-commits.test.js
+       • test/e2e.test.js
+       • test/cli.test.js
+       • lib/utils.js
+     📄 Files WITHOUT AssignmentExpression (showing 10):
+       • index.d.ts
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/hide-sensitive.test.js
+       • test/get-release-to-add.test.js
+       • test/get-logger.test.js
+       • test/get-git-auth-url.test.js
+       • lib/verify.js
+       • lib/hide-sensitive.js
+
+   BinaryExpression:
+     📄 Files WITH BinaryExpression (showing 10):
+       • index.js
+       • cli.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/get-commits.test.js
+       • test/e2e.test.js
+       • test/cli.test.js
+       • lib/verify.js
+       • lib/utils.js
+       • lib/hide-sensitive.js
+     📄 Files WITHOUT BinaryExpression (showing 10):
+       • index.d.ts
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+       • test/get-last-release.test.js
+       • test/get-git-auth-url.test.js
+       • test/get-config.test.js
+
+   ReturnStatement:
+     📄 Files WITH ReturnStatement (showing 10):
+       • index.js
+       • cli.js
+       • lib/utils.js
+       • lib/hide-sensitive.js
+       • lib/git.js
+       • lib/get-release-to-add.js
+       • lib/get-next-version.js
+       • lib/get-last-release.js
+       • lib/get-git-auth-url.js
+       • lib/get-error.js
+     📄 Files WITHOUT ReturnStatement (showing 10):
+       • index.d.ts
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+       • test/get-last-release.test.js
+
+   ExportNamedDeclaration:
+     📄 Files WITH ExportNamedDeclaration (showing 10):
+       • index.d.ts
+       • lib/utils.js
+       • lib/git.js
+       • test/helpers/npm-utils.js
+       • test/helpers/npm-registry.js
+       • test/helpers/mockserver.js
+       • test/helpers/gitbox.js
+       • test/helpers/git-utils.js
+       • lib/plugins/utils.js
+       • lib/definitions/errors.js
+     📄 Files WITHOUT ExportNamedDeclaration (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+
+   ImportDefaultSpecifier:
+     📄 Files WITH ImportDefaultSpecifier (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+     📄 Files WITHOUT ImportDefaultSpecifier (showing 5):
+       • index.d.ts
+       • lib/hide-sensitive.js
+       • test/helpers/npm-utils.js
+       • lib/definitions/errors.js
+       • lib/definitions/constants.js
+
+   NewExpression:
+     📄 Files WITH NewExpression (showing 10):
+       • index.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/e2e.test.js
+       • test/cli.test.js
+       • lib/verify.js
+       • lib/hide-sensitive.js
+       • lib/git.js
+       • lib/get-logger.js
+       • lib/get-error.js
+     📄 Files WITHOUT NewExpression (showing 10):
+       • index.d.ts
+       • cli.js
+       • test/verify.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+       • test/get-last-release.test.js
+       • test/get-git-auth-url.test.js
+
+   LogicalExpression:
+     📄 Files WITH LogicalExpression (showing 10):
+       • index.js
+       • cli.js
+       • lib/verify.js
+       • lib/utils.js
+       • lib/hide-sensitive.js
+       • lib/git.js
+       • lib/get-release-to-add.js
+       • lib/get-next-version.js
+       • lib/get-last-release.js
+       • lib/get-git-auth-url.js
+     📄 Files WITHOUT LogicalExpression (showing 10):
+       • index.d.ts
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+       • test/get-last-release.test.js
+
+   UnaryExpression:
+     📄 Files WITH UnaryExpression (showing 10):
+       • index.js
+       • test/get-commits.test.js
+       • test/e2e.test.js
+       • lib/verify.js
+       • lib/utils.js
+       • lib/git.js
+       • lib/get-release-to-add.js
+       • lib/get-last-release.js
+       • lib/get-git-auth-url.js
+       • lib/get-config.js
+     📄 Files WITHOUT UnaryExpression (showing 10):
+       • index.d.ts
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+
+   FunctionDeclaration:
+     📄 Files WITH FunctionDeclaration (showing 10):
+       • index.js
+       • test/integration.test.js
+       • lib/utils.js
+       • lib/git.js
+       • lib/get-git-auth-url.js
+       • lib/get-config.js
+       • test/helpers/npm-utils.js
+       • test/helpers/npm-registry.js
+       • test/helpers/mockserver.js
+       • test/helpers/gitbox.js
+     📄 Files WITHOUT FunctionDeclaration (showing 10):
+       • index.d.ts
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+       • test/get-last-release.test.js
+
+   IfStatement:
+     📄 Files WITH IfStatement (showing 10):
+       • index.js
+       • cli.js
+       • test/integration.test.js
+       • lib/verify.js
+       • lib/utils.js
+       • lib/hide-sensitive.js
+       • lib/git.js
+       • lib/get-release-to-add.js
+       • lib/get-next-version.js
+       • lib/get-last-release.js
+     📄 Files WITHOUT IfStatement (showing 10):
+       • index.d.ts
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+       • test/get-last-release.test.js
+       • test/get-git-auth-url.test.js
+
+   TSTypeAnnotation:
+     📄 Files WITH TSTypeAnnotation (showing 1):
+       • index.d.ts
+     📄 Files WITHOUT TSTypeAnnotation (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+
+   TSPropertySignature:
+     📄 Files WITH TSPropertySignature (showing 1):
+       • index.d.ts
+     📄 Files WITHOUT TSPropertySignature (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+
+   ConditionalExpression:
+     📄 Files WITH ConditionalExpression (showing 10):
+       • index.js
+       • cli.js
+       • test/e2e.test.js
+       • lib/utils.js
+       • lib/hide-sensitive.js
+       • lib/git.js
+       • lib/get-release-to-add.js
+       • lib/get-next-version.js
+       • lib/get-last-release.js
+       • lib/get-git-auth-url.js
+     📄 Files WITHOUT ConditionalExpression (showing 10):
+       • index.d.ts
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+       • test/get-last-release.test.js
+
+   Program:
+     📄 Files WITH Program (showing 10):
+       • index.js
+       • index.d.ts
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+     📄 Files WITHOUT Program: (all files contain this node type)
+
+   ImportExpression:
+     📄 Files WITH ImportExpression (showing 9):
+       • index.js
+       • cli.js
+       • test/integration.test.js
+       • test/get-config.test.js
+       • test/e2e.test.js
+       • test/cli.test.js
+       • test/branches/branches.test.js
+       • test/plugins/utils.test.js
+       • lib/plugins/utils.js
+     📄 Files WITHOUT ImportExpression (showing 10):
+       • index.d.ts
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+       • test/get-last-release.test.js
+       • test/get-git-auth-url.test.js
+
+   TSStringKeyword:
+     📄 Files WITH TSStringKeyword (showing 1):
+       • index.d.ts
+     📄 Files WITHOUT TSStringKeyword (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+
+   TSTypeReference:
+     📄 Files WITH TSTypeReference (showing 1):
+       • index.d.ts
+     📄 Files WITHOUT TSTypeReference (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+
+   AssignmentPattern:
+     📄 Files WITH AssignmentPattern (showing 10):
+       • index.js
+       • lib/utils.js
+       • lib/get-last-release.js
+       • lib/get-error.js
+       • lib/get-commits.js
+       • test/helpers/mockserver.js
+       • test/helpers/gitbox.js
+       • test/helpers/git-utils.js
+       • lib/plugins/pipeline.js
+       • lib/plugins/index.js
+     📄 Files WITHOUT AssignmentPattern (showing 10):
+       • index.d.ts
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+
+   TSUnionType:
+     📄 Files WITH TSUnionType (showing 1):
+       • index.d.ts
+     📄 Files WITHOUT TSUnionType (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+
+   TryStatement:
+     📄 Files WITH TryStatement (showing 9):
+       • index.js
+       • cli.js
+       • test/integration.test.js
+       • lib/git.js
+       • lib/get-git-auth-url.js
+       • test/helpers/npm-registry.js
+       • test/helpers/mockserver.js
+       • lib/plugins/pipeline.js
+       • lib/plugins/normalize.js
+     📄 Files WITHOUT TryStatement (showing 10):
+       • index.d.ts
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+       • test/get-last-release.test.js
+       • test/get-git-auth-url.test.js
+
+   CatchClause:
+     📄 Files WITH CatchClause (showing 9):
+       • index.js
+       • cli.js
+       • test/integration.test.js
+       • lib/git.js
+       • lib/get-git-auth-url.js
+       • test/helpers/npm-registry.js
+       • test/helpers/mockserver.js
+       • lib/plugins/pipeline.js
+       • lib/plugins/normalize.js
+     📄 Files WITHOUT CatchClause (showing 10):
+       • index.d.ts
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+       • test/get-last-release.test.js
+       • test/get-git-auth-url.test.js
+
+   ArrayPattern:
+     📄 Files WITH ArrayPattern (showing 10):
+       • test/git.test.js
+       • lib/git.js
+       • lib/get-last-release.js
+       • lib/get-git-auth-url.js
+       • lib/get-config.js
+       • test/plugins/plugins.test.js
+       • lib/plugins/utils.js
+       • lib/plugins/normalize.js
+       • lib/plugins/index.js
+       • lib/definitions/errors.js
+     📄 Files WITHOUT ArrayPattern (showing 10):
+       • index.js
+       • index.d.ts
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+
+   ExportDefaultDeclaration:
+     📄 Files WITH ExportDefaultDeclaration (showing 10):
+       • index.js
+       • index.d.ts
+       • cli.js
+       • lib/verify.js
+       • lib/hide-sensitive.js
+       • lib/get-release-to-add.js
+       • lib/get-next-version.js
+       • lib/get-logger.js
+       • lib/get-last-release.js
+       • lib/get-git-auth-url.js
+     📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+       • test/get-last-release.test.js
+       • test/get-git-auth-url.test.js
+
+   ThrowStatement:
+     📄 Files WITH ThrowStatement (showing 9):
+       • index.js
+       • lib/verify.js
+       • lib/git.js
+       • test/helpers/npm-registry.js
+       • test/helpers/mockserver.js
+       • lib/plugins/pipeline.js
+       • lib/plugins/normalize.js
+       • lib/plugins/index.js
+       • lib/branches/index.js
+     📄 Files WITHOUT ThrowStatement (showing 10):
+       • index.d.ts
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+
+   TSUndefinedKeyword:
+     📄 Files WITH TSUndefinedKeyword (showing 1):
+       • index.d.ts
+     📄 Files WITHOUT TSUndefinedKeyword (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+
+   RestElement:
+     📄 Files WITH RestElement (showing 9):
+       • cli.js
+       • test/e2e.test.js
+       • lib/git.js
+       • lib/get-git-auth-url.js
+       • lib/get-config.js
+       • test/plugins/utils.test.js
+       • lib/plugins/utils.js
+       • lib/definitions/plugins.js
+       • lib/branches/normalize.js
+     📄 Files WITHOUT RestElement (showing 10):
+       • index.js
+       • index.d.ts
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+
+   TSInterfaceDeclaration:
+     📄 Files WITH TSInterfaceDeclaration (showing 1):
+       • index.d.ts
+     📄 Files WITHOUT TSInterfaceDeclaration (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+
+   TSInterfaceBody:
+     📄 Files WITH TSInterfaceBody (showing 1):
+       • index.d.ts
+     📄 Files WITHOUT TSInterfaceBody (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+
+   TSLiteralType:
+     📄 Files WITH TSLiteralType (showing 1):
+       • index.d.ts
+     📄 Files WITHOUT TSLiteralType (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+
+   ImportNamespaceSpecifier:
+     📄 Files WITH ImportNamespaceSpecifier (showing 9):
+       • index.js
+       • test/integration.test.js
+       • test/get-config.test.js
+       • test/e2e.test.js
+       • test/cli.test.js
+       • lib/get-error.js
+       • test/branches/normalize.test.js
+       • test/branches/branches.test.js
+       • lib/branches/index.js
+     📄 Files WITHOUT ImportNamespaceSpecifier (showing 10):
+       • index.d.ts
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+       • test/get-last-release.test.js
+
+   TSTypeParameterInstantiation:
+     📄 Files WITH TSTypeParameterInstantiation (showing 1):
+       • index.d.ts
+     📄 Files WITHOUT TSTypeParameterInstantiation (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+
+   TSTypeAliasDeclaration:
+     📄 Files WITH TSTypeAliasDeclaration (showing 1):
+       • index.d.ts
+     📄 Files WITHOUT TSTypeAliasDeclaration (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+
+   TSInterfaceHeritage:
+     📄 Files WITH TSInterfaceHeritage (showing 1):
+       • index.d.ts
+     📄 Files WITHOUT TSInterfaceHeritage (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+
+   MetaProperty:
+     📄 Files WITH MetaProperty (showing 6):
+       • index.js
+       • lib/get-config.js
+       • bin/semantic-release.js
+       • test/helpers/npm-registry.js
+       • lib/plugins/utils.js
+       • lib/definitions/errors.js
+     📄 Files WITHOUT MetaProperty (showing 10):
+       • index.d.ts
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+
+   TSTypeLiteral:
+     📄 Files WITH TSTypeLiteral (showing 1):
+       • index.d.ts
+     📄 Files WITHOUT TSTypeLiteral (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+
+   ForOfStatement:
+     📄 Files WITH ForOfStatement (showing 4):
+       • index.js
+       • lib/git.js
+       • lib/get-git-auth-url.js
+       • test/plugins/normalize.test.js
+     📄 Files WITHOUT ForOfStatement (showing 10):
+       • index.d.ts
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+
+   TSArrayType:
+     📄 Files WITH TSArrayType (showing 1):
+       • index.d.ts
+     📄 Files WITHOUT TSArrayType (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+
+   TSAnyKeyword:
+     📄 Files WITH TSAnyKeyword (showing 1):
+       • index.d.ts
+     📄 Files WITHOUT TSAnyKeyword (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+
+   TSBooleanKeyword:
+     📄 Files WITH TSBooleanKeyword (showing 1):
+       • index.d.ts
+     📄 Files WITHOUT TSBooleanKeyword (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+
+   TSQualifiedName:
+     📄 Files WITH TSQualifiedName (showing 1):
+       • index.d.ts
+     📄 Files WITHOUT TSQualifiedName (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+
+   TSModuleDeclaration:
+     📄 Files WITH TSModuleDeclaration (showing 1):
+       • index.d.ts
+     📄 Files WITHOUT TSModuleDeclaration (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+
+   TSModuleBlock:
+     📄 Files WITH TSModuleBlock (showing 1):
+       • index.d.ts
+     📄 Files WITHOUT TSModuleBlock (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+
+   TSTypeParameterDeclaration:
+     📄 Files WITH TSTypeParameterDeclaration (showing 1):
+       • index.d.ts
+     📄 Files WITHOUT TSTypeParameterDeclaration (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+
+   TSTypeParameter:
+     📄 Files WITH TSTypeParameter (showing 1):
+       • index.d.ts
+     📄 Files WITHOUT TSTypeParameter (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+
+   TSTupleType:
+     📄 Files WITH TSTupleType (showing 1):
+       • index.d.ts
+     📄 Files WITHOUT TSTupleType (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+
+   TSIndexSignature:
+     📄 Files WITH TSIndexSignature (showing 1):
+       • index.d.ts
+     📄 Files WITHOUT TSIndexSignature (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+
+   TSDeclareFunction:
+     📄 Files WITH TSDeclareFunction (showing 1):
+       • index.d.ts
+     📄 Files WITHOUT TSDeclareFunction (showing 10):
+       • index.js
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+       • test/get-logger.test.js
+
+   WhileStatement:
+     📄 Files WITH WhileStatement (showing 1):
+       • lib/utils.js
+     📄 Files WITHOUT WhileStatement (showing 10):
+       • index.js
+       • index.d.ts
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+
+   ContinueStatement:
+     📄 Files WITH ContinueStatement (showing 1):
+       • lib/git.js
+     📄 Files WITHOUT ContinueStatement (showing 10):
+       • index.js
+       • index.d.ts
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
+
+   Hashbang:
+     📄 Files WITH Hashbang (showing 1):
+       • bin/semantic-release.js
+     📄 Files WITHOUT Hashbang (showing 10):
+       • index.js
+       • index.d.ts
+       • cli.js
+       • test/verify.test.js
+       • test/utils.test.js
+       • test/integration.test.js
+       • test/hide-sensitive.test.js
+       • test/git.test.js
+       • test/get-release-to-add.test.js
+       • test/get-next-version.test.js
 
 ============================================================
 ✅ Analysis complete!

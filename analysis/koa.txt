@@ -1,11 +1,12 @@
 AST Analysis Report for koa
-Generated on: 2025-07-13T03:17:13.701Z
+Generated on: 2025-07-14T01:42:00.045Z
 Repository: sample-repos/koa
 ================================================================================
 
 🔍 Analyzing JavaScript/TypeScript files in: /Users/camchenry/workspace/ast-analysis/sample-repos/koa
 
 📁 Found 82 files to analyze...
+
 
 
 ============================================================
@@ -124,6 +125,895 @@ Repository: sample-repos/koa
    ClassExpression                       1 (0.00%) in 1 files (1.2%)
    Super                                 1 (0.00%) in 1 files (1.2%)
    ChainExpression                       1 (0.00%) in 1 files (1.2%)
+
+📁 FILE EXAMPLES BY NODE TYPE:
+
+   Identifier:
+     📄 Files WITH Identifier (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/response.js
+       • lib/request.js
+       • lib/only.js
+       • lib/is-stream.js
+       • lib/context.js
+       • lib/application.js
+       • __tests__/load-with-esm.test.js
+     📄 Files WITHOUT Identifier: (all files contain this node type)
+
+   MemberExpression:
+     📄 Files WITH MemberExpression (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/response.js
+       • lib/request.js
+       • lib/only.js
+       • lib/is-stream.js
+       • lib/context.js
+       • lib/application.js
+       • __tests__/load-with-esm.test.js
+     📄 Files WITHOUT MemberExpression: (all files contain this node type)
+
+   Literal:
+     📄 Files WITH Literal (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/response.js
+       • lib/request.js
+       • lib/only.js
+       • lib/is-stream.js
+       • lib/context.js
+       • lib/application.js
+       • __tests__/load-with-esm.test.js
+     📄 Files WITHOUT Literal: (all files contain this node type)
+
+   CallExpression:
+     📄 Files WITH CallExpression (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/response.js
+       • lib/request.js
+       • lib/is-stream.js
+       • lib/context.js
+       • lib/application.js
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/writable.test.js
+     📄 Files WITHOUT CallExpression (showing 1):
+       • lib/only.js
+
+   ExpressionStatement:
+     📄 Files WITH ExpressionStatement (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/response.js
+       • lib/request.js
+       • lib/only.js
+       • lib/is-stream.js
+       • lib/context.js
+       • lib/application.js
+       • __tests__/load-with-esm.test.js
+     📄 Files WITHOUT ExpressionStatement: (all files contain this node type)
+
+   BlockStatement:
+     📄 Files WITH BlockStatement (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/response.js
+       • lib/request.js
+       • lib/only.js
+       • lib/is-stream.js
+       • lib/context.js
+       • lib/application.js
+       • __tests__/load-with-esm.test.js
+     📄 Files WITHOUT BlockStatement: (all files contain this node type)
+
+   VariableDeclaration:
+     📄 Files WITH VariableDeclaration (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/response.js
+       • lib/request.js
+       • lib/only.js
+       • lib/is-stream.js
+       • lib/context.js
+       • lib/application.js
+       • __tests__/load-with-esm.test.js
+     📄 Files WITHOUT VariableDeclaration: (all files contain this node type)
+
+   VariableDeclarator:
+     📄 Files WITH VariableDeclarator (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/response.js
+       • lib/request.js
+       • lib/only.js
+       • lib/is-stream.js
+       • lib/context.js
+       • lib/application.js
+       • __tests__/load-with-esm.test.js
+     📄 Files WITHOUT VariableDeclarator: (all files contain this node type)
+
+   ArrowFunctionExpression:
+     📄 Files WITH ArrowFunctionExpression (showing 10):
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/response.js
+       • lib/request.js
+       • lib/only.js
+       • lib/is-stream.js
+       • lib/context.js
+       • lib/application.js
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/writable.test.js
+     📄 Files WITHOUT ArrowFunctionExpression (showing 1):
+       • test-helpers/stream.js
+
+   AssignmentExpression:
+     📄 Files WITH AssignmentExpression (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/response.js
+       • lib/request.js
+       • lib/only.js
+       • lib/is-stream.js
+       • lib/context.js
+       • lib/application.js
+       • __tests__/response/writable.test.js
+     📄 Files WITHOUT AssignmentExpression (showing 10):
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/vary.test.js
+       • __tests__/response/socket.test.js
+       • __tests__/response/set.test.js
+       • __tests__/response/remove.test.js
+       • __tests__/response/has.test.js
+       • __tests__/response/append.test.js
+       • __tests__/lib/search-params.test.js
+       • __tests__/context/state.test.js
+       • __tests__/context/inspect.test.js
+
+   Property:
+     📄 Files WITH Property (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/response.js
+       • lib/request.js
+       • lib/context.js
+       • lib/application.js
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/writable.test.js
+       • __tests__/response/vary.test.js
+     📄 Files WITHOUT Property (showing 2):
+       • lib/only.js
+       • lib/is-stream.js
+
+   ThisExpression:
+     📄 Files WITH ThisExpression (showing 4):
+       • lib/response.js
+       • lib/request.js
+       • lib/context.js
+       • lib/application.js
+     📄 Files WITHOUT ThisExpression (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/only.js
+       • lib/is-stream.js
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/writable.test.js
+       • __tests__/response/vary.test.js
+       • __tests__/response/type.test.js
+       • __tests__/response/status.test.js
+
+   NewExpression:
+     📄 Files WITH NewExpression (showing 10):
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/response.js
+       • lib/request.js
+       • lib/context.js
+       • lib/application.js
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/writable.test.js
+       • __tests__/response/status.test.js
+       • __tests__/response/redirect.test.js
+     📄 Files WITHOUT NewExpression (showing 10):
+       • test-helpers/stream.js
+       • lib/only.js
+       • lib/is-stream.js
+       • __tests__/response/vary.test.js
+       • __tests__/response/type.test.js
+       • __tests__/response/socket.test.js
+       • __tests__/response/set.test.js
+       • __tests__/response/remove.test.js
+       • __tests__/response/message.test.js
+       • __tests__/response/length.test.js
+
+   ReturnStatement:
+     📄 Files WITH ReturnStatement (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/response.js
+       • lib/request.js
+       • lib/only.js
+       • lib/is-stream.js
+       • lib/context.js
+       • lib/application.js
+       • __tests__/response/redirect.test.js
+     📄 Files WITHOUT ReturnStatement (showing 10):
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/writable.test.js
+       • __tests__/response/vary.test.js
+       • __tests__/response/type.test.js
+       • __tests__/response/status.test.js
+       • __tests__/response/socket.test.js
+       • __tests__/response/set.test.js
+       • __tests__/response/remove.test.js
+       • __tests__/response/message.test.js
+       • __tests__/response/length.test.js
+
+   ObjectExpression:
+     📄 Files WITH ObjectExpression (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/response.js
+       • lib/request.js
+       • lib/only.js
+       • lib/context.js
+       • lib/application.js
+       • __tests__/response/status.test.js
+       • __tests__/response/set.test.js
+     📄 Files WITHOUT ObjectExpression (showing 10):
+       • lib/is-stream.js
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/writable.test.js
+       • __tests__/response/vary.test.js
+       • __tests__/response/type.test.js
+       • __tests__/response/socket.test.js
+       • __tests__/response/message.test.js
+       • __tests__/response/last-modified.test.js
+       • __tests__/response/is.test.js
+       • __tests__/response/has.test.js
+
+   BinaryExpression:
+     📄 Files WITH BinaryExpression (showing 10):
+       • lib/search-params.js
+       • lib/response.js
+       • lib/request.js
+       • lib/only.js
+       • lib/is-stream.js
+       • lib/context.js
+       • lib/application.js
+       • __tests__/response/writable.test.js
+       • __tests__/response/status.test.js
+       • __tests__/response/socket.test.js
+     📄 Files WITHOUT BinaryExpression (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/vary.test.js
+       • __tests__/response/type.test.js
+       • __tests__/response/set.test.js
+       • __tests__/response/remove.test.js
+       • __tests__/response/redirect.test.js
+       • __tests__/response/message.test.js
+       • __tests__/response/length.test.js
+
+   IfStatement:
+     📄 Files WITH IfStatement (showing 6):
+       • lib/search-params.js
+       • lib/response.js
+       • lib/request.js
+       • lib/only.js
+       • lib/context.js
+       • lib/application.js
+     📄 Files WITHOUT IfStatement (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/is-stream.js
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/writable.test.js
+       • __tests__/response/vary.test.js
+       • __tests__/response/type.test.js
+       • __tests__/response/status.test.js
+       • __tests__/response/socket.test.js
+       • __tests__/response/set.test.js
+
+   FunctionExpression:
+     📄 Files WITH FunctionExpression (showing 7):
+       • test-helpers/stream.js
+       • lib/response.js
+       • lib/request.js
+       • lib/context.js
+       • lib/application.js
+       • __tests__/context/cookies.test.js
+       • __tests__/application/compose.test.js
+     📄 Files WITHOUT FunctionExpression (showing 10):
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/only.js
+       • lib/is-stream.js
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/writable.test.js
+       • __tests__/response/vary.test.js
+       • __tests__/response/type.test.js
+       • __tests__/response/status.test.js
+       • __tests__/response/socket.test.js
+
+   ObjectPattern:
+     📄 Files WITH ObjectPattern (showing 10):
+       • test-helpers/stream.js
+       • lib/response.js
+       • lib/request.js
+       • lib/context.js
+       • lib/application.js
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/writable.test.js
+       • __tests__/response/vary.test.js
+       • __tests__/response/type.test.js
+       • __tests__/response/status.test.js
+     📄 Files WITHOUT ObjectPattern (showing 4):
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/only.js
+       • lib/is-stream.js
+
+   UnaryExpression:
+     📄 Files WITH UnaryExpression (showing 10):
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/response.js
+       • lib/request.js
+       • lib/is-stream.js
+       • lib/context.js
+       • lib/application.js
+       • __tests__/response/writable.test.js
+       • __tests__/response/type.test.js
+       • __tests__/response/status.test.js
+     📄 Files WITHOUT UnaryExpression (showing 10):
+       • test-helpers/stream.js
+       • lib/only.js
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/vary.test.js
+       • __tests__/response/socket.test.js
+       • __tests__/response/set.test.js
+       • __tests__/response/remove.test.js
+       • __tests__/response/redirect.test.js
+       • __tests__/response/message.test.js
+       • __tests__/response/length.test.js
+
+   Program:
+     📄 Files WITH Program (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/response.js
+       • lib/request.js
+       • lib/only.js
+       • lib/is-stream.js
+       • lib/context.js
+       • lib/application.js
+       • __tests__/load-with-esm.test.js
+     📄 Files WITHOUT Program: (all files contain this node type)
+
+   Unknown:
+     📄 Files WITH Unknown (showing 10):
+       • lib/response.js
+       • lib/request.js
+       • lib/application.js
+       • __tests__/response/writable.test.js
+       • __tests__/response/status.test.js
+       • __tests__/response/redirect.test.js
+       • __tests__/response/attachment.test.js
+       • __tests__/context/cookies.test.js
+       • __tests__/application/use.test.js
+       • __tests__/application/respond.test.js
+     📄 Files WITHOUT Unknown (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/only.js
+       • lib/is-stream.js
+       • lib/context.js
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/vary.test.js
+       • __tests__/response/type.test.js
+       • __tests__/response/socket.test.js
+
+   AwaitExpression:
+     📄 Files WITH AwaitExpression (showing 10):
+       • lib/application.js
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/writable.test.js
+       • __tests__/response/status.test.js
+       • __tests__/response/redirect.test.js
+       • __tests__/response/header.test.js
+       • __tests__/response/flushHeaders.test.js
+       • __tests__/request/href.test.js
+       • __tests__/context/onerror.test.js
+       • __tests__/context/cookies.test.js
+     📄 Files WITHOUT AwaitExpression (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/response.js
+       • lib/request.js
+       • lib/only.js
+       • lib/is-stream.js
+       • lib/context.js
+       • __tests__/response/vary.test.js
+       • __tests__/response/type.test.js
+
+   ArrayExpression:
+     📄 Files WITH ArrayExpression (showing 10):
+       • lib/response.js
+       • lib/request.js
+       • lib/application.js
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/writable.test.js
+       • __tests__/response/set.test.js
+       • __tests__/response/is.test.js
+       • __tests__/response/flushHeaders.test.js
+       • __tests__/response/body.test.js
+       • __tests__/response/append.test.js
+     📄 Files WITHOUT ArrayExpression (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/only.js
+       • lib/is-stream.js
+       • lib/context.js
+       • __tests__/response/vary.test.js
+       • __tests__/response/type.test.js
+       • __tests__/response/status.test.js
+       • __tests__/response/socket.test.js
+
+   LogicalExpression:
+     📄 Files WITH LogicalExpression (showing 8):
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/response.js
+       • lib/request.js
+       • lib/is-stream.js
+       • lib/context.js
+       • lib/application.js
+       • __tests__/application/compose.test.js
+     📄 Files WITHOUT LogicalExpression (showing 10):
+       • test-helpers/stream.js
+       • lib/only.js
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/writable.test.js
+       • __tests__/response/vary.test.js
+       • __tests__/response/type.test.js
+       • __tests__/response/status.test.js
+       • __tests__/response/socket.test.js
+       • __tests__/response/set.test.js
+       • __tests__/response/remove.test.js
+
+   TemplateElement:
+     📄 Files WITH TemplateElement (showing 4):
+       • lib/response.js
+       • lib/request.js
+       • lib/application.js
+       • __tests__/response/redirect.test.js
+     📄 Files WITHOUT TemplateElement (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/only.js
+       • lib/is-stream.js
+       • lib/context.js
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/writable.test.js
+       • __tests__/response/vary.test.js
+       • __tests__/response/type.test.js
+
+   ThrowStatement:
+     📄 Files WITH ThrowStatement (showing 8):
+       • lib/context.js
+       • lib/application.js
+       • __tests__/response/flushHeaders.test.js
+       • __tests__/context/onerror.test.js
+       • __tests__/context/assert.test.js
+       • __tests__/application/respond.test.js
+       • __tests__/application/index.test.js
+       • __tests__/application/currentContext.test.js
+     📄 Files WITHOUT ThrowStatement (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/response.js
+       • lib/request.js
+       • lib/only.js
+       • lib/is-stream.js
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/writable.test.js
+       • __tests__/response/vary.test.js
+
+   TryStatement:
+     📄 Files WITH TryStatement (showing 8):
+       • lib/request.js
+       • __tests__/response/flushHeaders.test.js
+       • __tests__/context/throw.test.js
+       • __tests__/context/onerror.test.js
+       • __tests__/context/cookies.test.js
+       • __tests__/context/assert.test.js
+       • __tests__/application/index.test.js
+       • __tests__/application/currentContext.test.js
+     📄 Files WITHOUT TryStatement (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/response.js
+       • lib/only.js
+       • lib/is-stream.js
+       • lib/context.js
+       • lib/application.js
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/writable.test.js
+
+   CatchClause:
+     📄 Files WITH CatchClause (showing 6):
+       • lib/request.js
+       • __tests__/context/throw.test.js
+       • __tests__/context/onerror.test.js
+       • __tests__/context/cookies.test.js
+       • __tests__/context/assert.test.js
+       • __tests__/application/currentContext.test.js
+     📄 Files WITHOUT CatchClause (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/response.js
+       • lib/only.js
+       • lib/is-stream.js
+       • lib/context.js
+       • lib/application.js
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/writable.test.js
+
+   MethodDefinition:
+     📄 Files WITH MethodDefinition (showing 2):
+       • test-helpers/stream.js
+       • lib/application.js
+     📄 Files WITHOUT MethodDefinition (showing 10):
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/response.js
+       • lib/request.js
+       • lib/only.js
+       • lib/is-stream.js
+       • lib/context.js
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/writable.test.js
+       • __tests__/response/vary.test.js
+
+   TemplateLiteral:
+     📄 Files WITH TemplateLiteral (showing 4):
+       • lib/response.js
+       • lib/request.js
+       • lib/application.js
+       • __tests__/response/redirect.test.js
+     📄 Files WITHOUT TemplateLiteral (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/only.js
+       • lib/is-stream.js
+       • lib/context.js
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/writable.test.js
+       • __tests__/response/vary.test.js
+       • __tests__/response/type.test.js
+
+   ConditionalExpression:
+     📄 Files WITH ConditionalExpression (showing 4):
+       • lib/search-params.js
+       • lib/response.js
+       • lib/request.js
+       • lib/context.js
+     📄 Files WITHOUT ConditionalExpression (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/only.js
+       • lib/is-stream.js
+       • lib/application.js
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/writable.test.js
+       • __tests__/response/vary.test.js
+       • __tests__/response/type.test.js
+       • __tests__/response/status.test.js
+
+   SpreadElement:
+     📄 Files WITH SpreadElement (showing 5):
+       • lib/response.js
+       • lib/request.js
+       • lib/context.js
+       • lib/application.js
+       • __tests__/load-with-esm.test.js
+     📄 Files WITHOUT SpreadElement (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/only.js
+       • lib/is-stream.js
+       • __tests__/response/writable.test.js
+       • __tests__/response/vary.test.js
+       • __tests__/response/type.test.js
+       • __tests__/response/status.test.js
+       • __tests__/response/socket.test.js
+
+   ParenthesizedExpression:
+     📄 Files WITH ParenthesizedExpression (showing 5):
+       • lib/request.js
+       • lib/is-stream.js
+       • lib/application.js
+       • __tests__/response/last-modified.test.js
+       • __tests__/response/header.test.js
+     📄 Files WITHOUT ParenthesizedExpression (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/response.js
+       • lib/only.js
+       • lib/context.js
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/writable.test.js
+       • __tests__/response/vary.test.js
+       • __tests__/response/type.test.js
+
+   RestElement:
+     📄 Files WITH RestElement (showing 4):
+       • lib/response.js
+       • lib/request.js
+       • lib/context.js
+       • lib/application.js
+     📄 Files WITHOUT RestElement (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/only.js
+       • lib/is-stream.js
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/writable.test.js
+       • __tests__/response/vary.test.js
+       • __tests__/response/type.test.js
+       • __tests__/response/status.test.js
+
+   UpdateExpression:
+     📄 Files WITH UpdateExpression (showing 5):
+       • lib/search-params.js
+       • lib/only.js
+       • __tests__/response/writable.test.js
+       • __tests__/context/onerror.test.js
+       • __tests__/application/compose.test.js
+     📄 Files WITHOUT UpdateExpression (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/response.js
+       • lib/request.js
+       • lib/is-stream.js
+       • lib/context.js
+       • lib/application.js
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/vary.test.js
+       • __tests__/response/type.test.js
+
+   FunctionDeclaration:
+     📄 Files WITH FunctionDeclaration (showing 5):
+       • lib/request.js
+       • lib/application.js
+       • __tests__/response/status.test.js
+       • __tests__/response/redirect.test.js
+       • __tests__/request/idempotent.test.js
+     📄 Files WITHOUT FunctionDeclaration (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/response.js
+       • lib/only.js
+       • lib/is-stream.js
+       • lib/context.js
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/writable.test.js
+       • __tests__/response/vary.test.js
+
+   ForOfStatement:
+     📄 Files WITH ForOfStatement (showing 3):
+       • lib/search-params.js
+       • lib/response.js
+       • __tests__/load-with-esm.test.js
+     📄 Files WITHOUT ForOfStatement (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/request.js
+       • lib/only.js
+       • lib/is-stream.js
+       • lib/context.js
+       • lib/application.js
+       • __tests__/response/writable.test.js
+       • __tests__/response/vary.test.js
+       • __tests__/response/type.test.js
+
+   ArrayPattern:
+     📄 Files WITH ArrayPattern (showing 3):
+       • lib/search-params.js
+       • __tests__/response/flushHeaders.test.js
+       • __tests__/application/index.test.js
+     📄 Files WITHOUT ArrayPattern (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/response.js
+       • lib/request.js
+       • lib/only.js
+       • lib/is-stream.js
+       • lib/context.js
+       • lib/application.js
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/writable.test.js
+
+   SwitchCase:
+     📄 Files WITH SwitchCase (showing 1):
+       • lib/request.js
+     📄 Files WITHOUT SwitchCase (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/response.js
+       • lib/only.js
+       • lib/is-stream.js
+       • lib/context.js
+       • lib/application.js
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/writable.test.js
+
+   ClassBody:
+     📄 Files WITH ClassBody (showing 2):
+       • test-helpers/stream.js
+       • lib/application.js
+     📄 Files WITHOUT ClassBody (showing 10):
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/response.js
+       • lib/request.js
+       • lib/only.js
+       • lib/is-stream.js
+       • lib/context.js
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/writable.test.js
+       • __tests__/response/vary.test.js
+
+   ForStatement:
+     📄 Files WITH ForStatement (showing 2):
+       • lib/search-params.js
+       • lib/only.js
+     📄 Files WITHOUT ForStatement (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/response.js
+       • lib/request.js
+       • lib/is-stream.js
+       • lib/context.js
+       • lib/application.js
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/writable.test.js
+       • __tests__/response/vary.test.js
+
+   ImportExpression:
+     📄 Files WITH ImportExpression (showing 1):
+       • __tests__/load-with-esm.test.js
+     📄 Files WITHOUT ImportExpression (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/response.js
+       • lib/request.js
+       • lib/only.js
+       • lib/is-stream.js
+       • lib/context.js
+       • lib/application.js
+       • __tests__/response/writable.test.js
+
+   ClassDeclaration:
+     📄 Files WITH ClassDeclaration (showing 1):
+       • test-helpers/stream.js
+     📄 Files WITHOUT ClassDeclaration (showing 10):
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/response.js
+       • lib/request.js
+       • lib/only.js
+       • lib/is-stream.js
+       • lib/context.js
+       • lib/application.js
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/writable.test.js
+
+   SwitchStatement:
+     📄 Files WITH SwitchStatement (showing 1):
+       • lib/request.js
+     📄 Files WITHOUT SwitchStatement (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/response.js
+       • lib/only.js
+       • lib/is-stream.js
+       • lib/context.js
+       • lib/application.js
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/writable.test.js
+
+   ContinueStatement:
+     📄 Files WITH ContinueStatement (showing 1):
+       • lib/only.js
+     📄 Files WITHOUT ContinueStatement (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/response.js
+       • lib/request.js
+       • lib/is-stream.js
+       • lib/context.js
+       • lib/application.js
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/writable.test.js
+
+   ClassExpression:
+     📄 Files WITH ClassExpression (showing 1):
+       • lib/application.js
+     📄 Files WITHOUT ClassExpression (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/response.js
+       • lib/request.js
+       • lib/only.js
+       • lib/is-stream.js
+       • lib/context.js
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/writable.test.js
+
+   Super:
+     📄 Files WITH Super (showing 1):
+       • lib/application.js
+     📄 Files WITHOUT Super (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/response.js
+       • lib/request.js
+       • lib/only.js
+       • lib/is-stream.js
+       • lib/context.js
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/writable.test.js
+
+   ChainExpression:
+     📄 Files WITH ChainExpression (showing 1):
+       • lib/application.js
+     📄 Files WITHOUT ChainExpression (showing 10):
+       • test-helpers/stream.js
+       • test-helpers/context.js
+       • lib/search-params.js
+       • lib/response.js
+       • lib/request.js
+       • lib/only.js
+       • lib/is-stream.js
+       • lib/context.js
+       • __tests__/load-with-esm.test.js
+       • __tests__/response/writable.test.js
 
 ============================================================
 ✅ Analysis complete!

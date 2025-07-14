@@ -1,11 +1,12 @@
 AST Analysis Report for babel
-Generated on: 2025-07-13T03:17:07.361Z
+Generated on: 2025-07-14T01:41:51.822Z
 Repository: sample-repos/babel
 ================================================================================
 
 🔍 Analyzing JavaScript/TypeScript files in: /Users/camchenry/workspace/ast-analysis/sample-repos/babel
 
-📁 Found 969 files to analyze...
+📁 Found 1424 files to analyze...
+
 
 
 ============================================================
@@ -13,291 +14,3479 @@ Repository: sample-repos/babel
 ============================================================
 
 📁 FILE STATISTICS:
-   Total files found: 969
-   Successfully parsed: 969
+   Total files found: 1424
+   Successfully parsed: 1424
    Failed to parse: 0
-   Total file size: 4.6 MB
+   Total file size: 5.7 MB
 
 🌳 NODE STATISTICS:
-   Total nodes: 645,517
-   Average nodes per file: 666
-   Average file size: 4.9 KB
+   Total nodes: 772,687
+   Average nodes per file: 543
+   Average file size: 4.1 KB
 
 📋 ALL NODE TYPES (BY FILE PRESENCE):
-   Program                         969 files (100.0%) -      969 total (0.15%)
-   Identifier                      964 files ( 99.5%) -  244,178 total (37.83%)
-   Literal                         944 files ( 97.4%) -   40,277 total (6.24%)
-   BlockStatement                  872 files ( 90.0%) -   17,395 total (2.69%)
-   CallExpression                  852 files ( 87.9%) -   32,402 total (5.02%)
-   MemberExpression                800 files ( 82.6%) -   50,814 total (7.87%)
-   ReturnStatement                 761 files ( 78.5%) -    8,244 total (1.28%)
-   ImportDeclaration               726 files ( 74.9%) -    2,817 total (0.44%)
-   ExpressionStatement             706 files ( 72.9%) -   15,247 total (2.36%)
-   FunctionDeclaration             704 files ( 72.7%) -    3,402 total (0.53%)
-   VariableDeclaration             680 files ( 70.2%) -   10,369 total (1.61%)
-   VariableDeclarator              680 files ( 70.2%) -   12,810 total (1.98%)
-   IfStatement                     614 files ( 63.4%) -    9,512 total (1.47%)
-   BinaryExpression                591 files ( 61.0%) -    9,763 total (1.51%)
-   UnaryExpression                 548 files ( 56.6%) -    5,620 total (0.87%)
-   AssignmentExpression            543 files ( 56.0%) -    7,268 total (1.13%)
-   TSTypeAnnotation                538 files ( 55.5%) -   19,956 total (3.09%)
-   ObjectExpression                532 files ( 54.9%) -    5,455 total (0.85%)
-   Property                        531 files ( 54.8%) -   17,199 total (2.66%)
-   TSTypeReference                 494 files ( 51.0%) -   27,385 total (4.24%)
-   LogicalExpression               492 files ( 50.8%) -    6,329 total (0.98%)
-   ImportSpecifier                 490 files ( 50.6%) -    2,599 total (0.40%)
-   ImportDefaultSpecifier          477 files ( 49.2%) -    1,309 total (0.20%)
-   ExportDefaultDeclaration        464 files ( 47.9%) -      483 total (0.07%)
-   NewExpression                   430 files ( 44.4%) -    1,582 total (0.25%)
-   ExportNamedDeclaration          429 files ( 44.3%) -    3,173 total (0.49%)
-   ArrowFunctionExpression         394 files ( 40.7%) -    2,143 total (0.33%)
-   FunctionExpression              380 files ( 39.2%) -    3,174 total (0.49%)
-   ArrayExpression                 376 files ( 38.8%) -    3,566 total (0.55%)
-   ParenthesizedExpression         363 files ( 37.5%) -    2,658 total (0.41%)
-   ConditionalExpression           344 files ( 35.5%) -    2,026 total (0.31%)
-   TSTypeParameterInstantiation    323 files ( 33.3%) -    4,910 total (0.76%)
-   TSUnionType                     308 files ( 31.8%) -    3,960 total (0.61%)
-   Unknown                         304 files ( 31.4%) -    3,793 total (0.59%)
-   TSStringKeyword                 292 files ( 30.1%) -    1,772 total (0.27%)
-   ObjectPattern                   287 files ( 29.6%) -    1,443 total (0.22%)
-   ThrowStatement                  285 files ( 29.4%) -    1,076 total (0.17%)
-   TSQualifiedName                 274 files ( 28.3%) -    8,474 total (1.31%)
-   TemplateElement                 270 files ( 27.9%) -    3,205 total (0.50%)
-   TemplateLiteral                 267 files ( 27.6%) -    1,497 total (0.23%)
-   TSAsExpression                  229 files ( 23.6%) -    1,084 total (0.17%)
-   TSBooleanKeyword                225 files ( 23.2%) -    1,573 total (0.24%)
-   TSPropertySignature             220 files ( 22.7%) -    4,147 total (0.64%)
-   ForOfStatement                  205 files ( 21.2%) -      586 total (0.09%)
-   TSArrayType                     205 files ( 21.2%) -      774 total (0.12%)
-   ExportSpecifier                 200 files ( 20.6%) -      901 total (0.14%)
-   TSTypeLiteral                   200 files ( 20.6%) -      569 total (0.09%)
-   ImportNamespaceSpecifier        190 files ( 19.6%) -      247 total (0.04%)
-   TSLiteralType                   189 files ( 19.5%) -    1,992 total (0.31%)
-   TSAnyKeyword                    183 files ( 18.9%) -      644 total (0.10%)
-   ThisExpression                  169 files ( 17.4%) -    9,390 total (1.45%)
-   TSTypeAliasDeclaration          169 files ( 17.4%) -      544 total (0.08%)
-   TSTypeParameterDeclaration      156 files ( 16.1%) -      378 total (0.06%)
-   TSTypeParameter                 156 files ( 16.1%) -      488 total (0.08%)
-   UpdateExpression                155 files ( 16.0%) -      520 total (0.08%)
-   ForStatement                    151 files ( 15.6%) -      390 total (0.06%)
-   SpreadElement                   143 files ( 14.8%) -      508 total (0.08%)
-   TSNullKeyword                   141 files ( 14.6%) -    2,242 total (0.35%)
-   ChainExpression                 126 files ( 13.0%) -      360 total (0.06%)
-   TSNumberKeyword                 126 files ( 13.0%) -      555 total (0.09%)
-   TSFunctionType                  116 files ( 12.0%) -      330 total (0.05%)
-   TSUndefinedKeyword              115 files ( 11.9%) -    1,051 total (0.16%)
-   AssignmentPattern               111 files ( 11.5%) -      533 total (0.08%)
-   TSVoidKeyword                   111 files ( 11.5%) -      469 total (0.07%)
-   TSIndexedAccessType             107 files ( 11.0%) -      381 total (0.06%)
-   TryStatement                    103 files ( 10.6%) -      314 total (0.05%)
-   TSUnknownKeyword                 96 files (  9.9%) -      238 total (0.04%)
-   TSInterfaceDeclaration           93 files (  9.6%) -      632 total (0.10%)
-   TSInterfaceBody                  93 files (  9.6%) -      632 total (0.10%)
-   TSTypeQuery                      92 files (  9.5%) -      224 total (0.03%)
-   ContinueStatement                90 files (  9.3%) -      220 total (0.03%)
-   BreakStatement                   87 files (  9.0%) -      445 total (0.07%)
-   CatchClause                      85 files (  8.8%) -      261 total (0.04%)
-   SequenceExpression               78 files (  8.0%) -    1,055 total (0.16%)
-   TSIntersectionType               71 files (  7.3%) -      152 total (0.02%)
-   TSTypeOperator                   65 files (  6.7%) -      102 total (0.02%)
-   ArrayPattern                     64 files (  6.6%) -      160 total (0.02%)
-   ClassBody                        62 files (  6.4%) -       90 total (0.01%)
-   MethodDefinition                 62 files (  6.4%) -    1,260 total (0.20%)
-   SwitchStatement                  61 files (  6.3%) -      182 total (0.03%)
-   SwitchCase                       61 files (  6.3%) -    1,798 total (0.28%)
-   TSTupleType                      60 files (  6.2%) -      121 total (0.02%)
-   TSParenthesizedType              59 files (  6.1%) -      104 total (0.02%)
-   WhileStatement                   54 files (  5.6%) -      112 total (0.02%)
-   TSTypePredicate                  54 files (  5.6%) -    1,312 total (0.20%)
-   TSObjectKeyword                  54 files (  5.6%) -      709 total (0.11%)
-   ClassDeclaration                 53 files (  5.5%) -       79 total (0.01%)
-   TaggedTemplateExpression         49 files (  5.1%) -      153 total (0.02%)
-   PropertyDefinition               47 files (  4.9%) -      369 total (0.06%)
-   RestElement                      43 files (  4.4%) -       98 total (0.02%)
-   MetaProperty                     39 files (  4.0%) -       56 total (0.01%)
-   TSIndexSignature                 39 files (  4.0%) -       59 total (0.01%)
-   YieldExpression                  33 files (  3.4%) -      176 total (0.03%)
-   TSDeclareFunction                33 files (  3.4%) -       77 total (0.01%)
-   ForInStatement                   28 files (  2.9%) -       43 total (0.01%)
-   DoWhileStatement                 25 files (  2.6%) -       56 total (0.01%)
-   ImportAttribute                  24 files (  2.5%) -       30 total (0.00%)
-   TSEnumDeclaration                23 files (  2.4%) -       30 total (0.00%)
-   TSEnumBody                       23 files (  2.4%) -       30 total (0.00%)
-   TSEnumMember                     23 files (  2.4%) -      167 total (0.03%)
-   TSMethodSignature                21 files (  2.2%) -      684 total (0.11%)
-   AwaitExpression                  20 files (  2.1%) -      169 total (0.03%)
-   TSInterfaceHeritage              20 files (  2.1%) -      535 total (0.08%)
-   TSNeverKeyword                   18 files (  1.9%) -       28 total (0.00%)
-   TSConditionalType                17 files (  1.8%) -       43 total (0.01%)
-   Super                            14 files (  1.4%) -      250 total (0.04%)
-   TSCallSignatureDeclaration       14 files (  1.4%) -       62 total (0.01%)
-   TSNonNullExpression              13 files (  1.3%) -       56 total (0.01%)
-   TSImportType                     12 files (  1.2%) -       16 total (0.00%)
-   TSConstructorType                12 files (  1.2%) -       16 total (0.00%)
-   TSMappedType                     12 files (  1.2%) -       13 total (0.00%)
-   TSSatisfiesExpression            11 files (  1.1%) -       11 total (0.00%)
-   TSSymbolKeyword                  11 files (  1.1%) -       21 total (0.00%)
-   ClassExpression                  10 files (  1.0%) -       11 total (0.00%)
-   TSClassImplements                10 files (  1.0%) -       11 total (0.00%)
-   TSEmptyBodyFunctionExpression    10 files (  1.0%) -       43 total (0.01%)
-   Hashbang                          9 files (  0.9%) -        9 total (0.00%)
-   TSNamedTupleMember                9 files (  0.9%) -       28 total (0.00%)
-   TSRestType                        9 files (  0.9%) -       11 total (0.00%)
-   ImportExpression                  8 files (  0.8%) -        9 total (0.00%)
-   ExportAllDeclaration              8 files (  0.8%) -       32 total (0.00%)
-   TSBigIntKeyword                   8 files (  0.8%) -        9 total (0.00%)
-   TSModuleDeclaration               7 files (  0.7%) -       41 total (0.01%)
-   TSModuleBlock                     7 files (  0.7%) -       41 total (0.01%)
-   TSInferType                       7 files (  0.7%) -       15 total (0.00%)
-   LabeledStatement                  6 files (  0.6%) -        7 total (0.00%)
-   TSTemplateLiteralType             5 files (  0.5%) -        8 total (0.00%)
-   TSThisType                        5 files (  0.5%) -      631 total (0.10%)
-   TSOptionalType                    4 files (  0.4%) -        6 total (0.00%)
-   EmptyStatement                    3 files (  0.3%) -        3 total (0.00%)
-   TSExportAssignment                3 files (  0.3%) -       35 total (0.01%)
-   TSAbstractMethodDefinition        3 files (  0.3%) -       16 total (0.00%)
-   PrivateIdentifier                 2 files (  0.2%) -      156 total (0.02%)
-   Decorator                         2 files (  0.2%) -       18 total (0.00%)
-   AccessorProperty                  2 files (  0.2%) -       16 total (0.00%)
+   Program                        1424 files (100.0%) -    1,424 total (0.18%)
+   Identifier                     1404 files ( 98.6%) -  285,167 total (36.91%)
+   Literal                        1295 files ( 90.9%) -   56,270 total (7.28%)
+   CallExpression                 1181 files ( 82.9%) -   48,607 total (6.29%)
+   ExpressionStatement            1144 files ( 80.3%) -   23,559 total (3.05%)
+   MemberExpression               1134 files ( 79.6%) -   61,884 total (8.01%)
+   BlockStatement                 1052 files ( 73.9%) -   21,697 total (2.81%)
+   ImportDeclaration              1015 files ( 71.3%) -    3,462 total (0.45%)
+   VariableDeclaration             862 files ( 60.5%) -   13,104 total (1.70%)
+   VariableDeclarator              862 files ( 60.5%) -   15,559 total (2.01%)
+   ReturnStatement                 848 files ( 59.6%) -    8,728 total (1.13%)
+   FunctionDeclaration             783 files ( 55.0%) -    3,757 total (0.49%)
+   BinaryExpression                713 files ( 50.1%) -   10,453 total (1.35%)
+   ObjectExpression                701 files ( 49.2%) -    8,160 total (1.06%)
+   Property                        699 files ( 49.1%) -   21,965 total (2.84%)
+   ImportDefaultSpecifier          698 files ( 49.0%) -    1,637 total (0.21%)
+   IfStatement                     673 files ( 47.3%) -    9,785 total (1.27%)
+   AssignmentExpression            653 files ( 45.9%) -    7,757 total (1.00%)
+   ImportSpecifier                 643 files ( 45.2%) -    2,965 total (0.38%)
+   UnaryExpression                 622 files ( 43.7%) -    5,889 total (0.76%)
+   LogicalExpression               577 files ( 40.5%) -    6,597 total (0.85%)
+   ArrowFunctionExpression         542 files ( 38.1%) -    4,621 total (0.60%)
+   TSTypeAnnotation                538 files ( 37.8%) -   19,956 total (2.58%)
+   ArrayExpression                 519 files ( 36.4%) -    5,671 total (0.73%)
+   NewExpression                   506 files ( 35.5%) -    1,816 total (0.24%)
+   TSTypeReference                 494 files ( 34.7%) -   27,385 total (3.54%)
+   FunctionExpression              479 files ( 33.6%) -    4,513 total (0.58%)
+   ExportDefaultDeclaration        477 files ( 33.5%) -      496 total (0.06%)
+   ExportNamedDeclaration          435 files ( 30.5%) -    3,187 total (0.41%)
+   ParenthesizedExpression         415 files ( 29.1%) -    2,859 total (0.37%)
+   Unknown                         410 files ( 28.8%) -    5,590 total (0.72%)
+   ConditionalExpression           386 files ( 27.1%) -    2,159 total (0.28%)
+   TemplateElement                 364 files ( 25.6%) -    4,698 total (0.61%)
+   TemplateLiteral                 361 files ( 25.4%) -    2,691 total (0.35%)
+   ObjectPattern                   339 files ( 23.8%) -    1,590 total (0.21%)
+   TSTypeParameterInstantiation    323 files ( 22.7%) -    4,910 total (0.64%)
+   TSUnionType                     308 files ( 21.6%) -    3,960 total (0.51%)
+   ThrowStatement                  303 files ( 21.3%) -    1,127 total (0.15%)
+   TSStringKeyword                 292 files ( 20.5%) -    1,772 total (0.23%)
+   TSQualifiedName                 274 files ( 19.2%) -    8,474 total (1.10%)
+   ImportNamespaceSpecifier        246 files ( 17.3%) -      306 total (0.04%)
+   TSAsExpression                  229 files ( 16.1%) -    1,084 total (0.14%)
+   TSBooleanKeyword                225 files ( 15.8%) -    1,573 total (0.20%)
+   ForOfStatement                  223 files ( 15.7%) -      619 total (0.08%)
+   MetaProperty                    220 files ( 15.4%) -      252 total (0.03%)
+   TSPropertySignature             220 files ( 15.4%) -    4,147 total (0.54%)
+   TSArrayType                     205 files ( 14.4%) -      774 total (0.10%)
+   ExportSpecifier                 200 files ( 14.0%) -      901 total (0.12%)
+   TSTypeLiteral                   200 files ( 14.0%) -      569 total (0.07%)
+   TSLiteralType                   189 files ( 13.3%) -    1,992 total (0.26%)
+   TSAnyKeyword                    183 files ( 12.9%) -      644 total (0.08%)
+   UpdateExpression                181 files ( 12.7%) -      588 total (0.08%)
+   ThisExpression                  178 files ( 12.5%) -    9,447 total (1.22%)
+   SpreadElement                   175 files ( 12.3%) -      626 total (0.08%)
+   TSTypeAliasDeclaration          169 files ( 11.9%) -      544 total (0.07%)
+   ForStatement                    161 files ( 11.3%) -      422 total (0.05%)
+   TSTypeParameterDeclaration      156 files ( 11.0%) -      378 total (0.05%)
+   TSTypeParameter                 156 files ( 11.0%) -      488 total (0.06%)
+   TSNullKeyword                   141 files (  9.9%) -    2,242 total (0.29%)
+   AssignmentPattern               135 files (  9.5%) -      573 total (0.07%)
+   ChainExpression                 126 files (  8.8%) -      360 total (0.05%)
+   TSNumberKeyword                 126 files (  8.8%) -      555 total (0.07%)
+   TryStatement                    123 files (  8.6%) -      414 total (0.05%)
+   TSFunctionType                  116 files (  8.1%) -      330 total (0.04%)
+   TSUndefinedKeyword              115 files (  8.1%) -    1,051 total (0.14%)
+   TSVoidKeyword                   111 files (  7.8%) -      469 total (0.06%)
+   TSIndexedAccessType             107 files (  7.5%) -      381 total (0.05%)
+   CatchClause                     102 files (  7.2%) -      326 total (0.04%)
+   ContinueStatement                98 files (  6.9%) -      237 total (0.03%)
+   TSUnknownKeyword                 96 files (  6.7%) -      238 total (0.03%)
+   TSInterfaceDeclaration           93 files (  6.5%) -      632 total (0.08%)
+   TSInterfaceBody                  93 files (  6.5%) -      632 total (0.08%)
+   TSTypeQuery                      92 files (  6.5%) -      224 total (0.03%)
+   BreakStatement                   90 files (  6.3%) -      466 total (0.06%)
+   SequenceExpression               82 files (  5.8%) -    1,063 total (0.14%)
+   ArrayPattern                     81 files (  5.7%) -      194 total (0.03%)
+   TSIntersectionType               71 files (  5.0%) -      152 total (0.02%)
+   ClassBody                        66 files (  4.6%) -      107 total (0.01%)
+   MethodDefinition                 66 files (  4.6%) -    1,276 total (0.17%)
+   SwitchStatement                  65 files (  4.6%) -      188 total (0.02%)
+   SwitchCase                       65 files (  4.6%) -    1,823 total (0.24%)
+   TSTypeOperator                   65 files (  4.6%) -      102 total (0.01%)
+   TSTupleType                      60 files (  4.2%) -      121 total (0.02%)
+   TSParenthesizedType              59 files (  4.1%) -      104 total (0.01%)
+   WhileStatement                   58 files (  4.1%) -      128 total (0.02%)
+   ClassDeclaration                 57 files (  4.0%) -       91 total (0.01%)
+   TaggedTemplateExpression         56 files (  3.9%) -      182 total (0.02%)
+   TSTypePredicate                  54 files (  3.8%) -    1,312 total (0.17%)
+   TSObjectKeyword                  54 files (  3.8%) -      709 total (0.09%)
+   RestElement                      49 files (  3.4%) -      105 total (0.01%)
+   PropertyDefinition               48 files (  3.4%) -      370 total (0.05%)
+   AwaitExpression                  46 files (  3.2%) -      324 total (0.04%)
+   YieldExpression                  41 files (  2.9%) -      527 total (0.07%)
+   TSIndexSignature                 39 files (  2.7%) -       59 total (0.01%)
+   TSDeclareFunction                33 files (  2.3%) -       77 total (0.01%)
+   ForInStatement                   31 files (  2.2%) -       53 total (0.01%)
+   DoWhileStatement                 26 files (  1.8%) -       59 total (0.01%)
+   ImportAttribute                  24 files (  1.7%) -       30 total (0.00%)
+   TSEnumDeclaration                23 files (  1.6%) -       30 total (0.00%)
+   TSEnumBody                       23 files (  1.6%) -       30 total (0.00%)
+   TSEnumMember                     23 files (  1.6%) -      167 total (0.02%)
+   TSMethodSignature                21 files (  1.5%) -      684 total (0.09%)
+   TSInterfaceHeritage              20 files (  1.4%) -      535 total (0.07%)
+   TSNeverKeyword                   18 files (  1.3%) -       28 total (0.00%)
+   Super                            17 files (  1.2%) -      253 total (0.03%)
+   TSConditionalType                17 files (  1.2%) -       43 total (0.01%)
+   TSCallSignatureDeclaration       14 files (  1.0%) -       62 total (0.01%)
+   TSNonNullExpression              13 files (  0.9%) -       56 total (0.01%)
+   ClassExpression                  12 files (  0.8%) -       16 total (0.00%)
+   TSImportType                     12 files (  0.8%) -       16 total (0.00%)
+   TSConstructorType                12 files (  0.8%) -       16 total (0.00%)
+   TSMappedType                     12 files (  0.8%) -       13 total (0.00%)
+   TSSatisfiesExpression            11 files (  0.8%) -       11 total (0.00%)
+   TSSymbolKeyword                  11 files (  0.8%) -       21 total (0.00%)
+   ImportExpression                 10 files (  0.7%) -       16 total (0.00%)
+   TSClassImplements                10 files (  0.7%) -       11 total (0.00%)
+   TSEmptyBodyFunctionExpression    10 files (  0.7%) -       43 total (0.01%)
+   Hashbang                          9 files (  0.6%) -        9 total (0.00%)
+   TSNamedTupleMember                9 files (  0.6%) -       28 total (0.00%)
+   TSRestType                        9 files (  0.6%) -       11 total (0.00%)
+   LabeledStatement                  8 files (  0.6%) -       18 total (0.00%)
+   ExportAllDeclaration              8 files (  0.6%) -       32 total (0.00%)
+   TSBigIntKeyword                   8 files (  0.6%) -        9 total (0.00%)
+   TSModuleDeclaration               7 files (  0.5%) -       41 total (0.01%)
+   TSModuleBlock                     7 files (  0.5%) -       41 total (0.01%)
+   TSInferType                       7 files (  0.5%) -       15 total (0.00%)
+   TSTemplateLiteralType             5 files (  0.4%) -        8 total (0.00%)
+   TSThisType                        5 files (  0.4%) -      631 total (0.08%)
+   EmptyStatement                    4 files (  0.3%) -        4 total (0.00%)
+   TSOptionalType                    4 files (  0.3%) -        6 total (0.00%)
+   TSExportAssignment                3 files (  0.2%) -       35 total (0.00%)
+   TSAbstractMethodDefinition        3 files (  0.2%) -       16 total (0.00%)
+   PrivateIdentifier                 2 files (  0.1%) -      156 total (0.02%)
+   Decorator                         2 files (  0.1%) -       18 total (0.00%)
+   AccessorProperty                  2 files (  0.1%) -       16 total (0.00%)
    TSConstructSignatureDeclaration    1 files (  0.1%) -        1 total (0.00%)
 
 📝 ALL NODE TYPES (BY TOTAL COUNT):
-   Identifier                      244,178 (37.83%) in 964 files (99.5%)
-   MemberExpression                 50,814 (7.87%) in 800 files (82.6%)
-   Literal                          40,277 (6.24%) in 944 files (97.4%)
-   CallExpression                   32,402 (5.02%) in 852 files (87.9%)
-   TSTypeReference                  27,385 (4.24%) in 494 files (51.0%)
-   TSTypeAnnotation                 19,956 (3.09%) in 538 files (55.5%)
-   BlockStatement                   17,395 (2.69%) in 872 files (90.0%)
-   Property                         17,199 (2.66%) in 531 files (54.8%)
-   ExpressionStatement              15,247 (2.36%) in 706 files (72.9%)
-   VariableDeclarator               12,810 (1.98%) in 680 files (70.2%)
-   VariableDeclaration              10,369 (1.61%) in 680 files (70.2%)
-   BinaryExpression                  9,763 (1.51%) in 591 files (61.0%)
-   IfStatement                       9,512 (1.47%) in 614 files (63.4%)
-   ThisExpression                    9,390 (1.45%) in 169 files (17.4%)
-   TSQualifiedName                   8,474 (1.31%) in 274 files (28.3%)
-   ReturnStatement                   8,244 (1.28%) in 761 files (78.5%)
-   AssignmentExpression              7,268 (1.13%) in 543 files (56.0%)
-   LogicalExpression                 6,329 (0.98%) in 492 files (50.8%)
-   UnaryExpression                   5,620 (0.87%) in 548 files (56.6%)
-   ObjectExpression                  5,455 (0.85%) in 532 files (54.9%)
-   TSTypeParameterInstantiation      4,910 (0.76%) in 323 files (33.3%)
-   TSPropertySignature               4,147 (0.64%) in 220 files (22.7%)
-   TSUnionType                       3,960 (0.61%) in 308 files (31.8%)
-   Unknown                           3,793 (0.59%) in 304 files (31.4%)
-   ArrayExpression                   3,566 (0.55%) in 376 files (38.8%)
-   FunctionDeclaration               3,402 (0.53%) in 704 files (72.7%)
-   TemplateElement                   3,205 (0.50%) in 270 files (27.9%)
-   FunctionExpression                3,174 (0.49%) in 380 files (39.2%)
-   ExportNamedDeclaration            3,173 (0.49%) in 429 files (44.3%)
-   ImportDeclaration                 2,817 (0.44%) in 726 files (74.9%)
-   ParenthesizedExpression           2,658 (0.41%) in 363 files (37.5%)
-   ImportSpecifier                   2,599 (0.40%) in 490 files (50.6%)
-   TSNullKeyword                     2,242 (0.35%) in 141 files (14.6%)
-   ArrowFunctionExpression           2,143 (0.33%) in 394 files (40.7%)
-   ConditionalExpression             2,026 (0.31%) in 344 files (35.5%)
-   TSLiteralType                     1,992 (0.31%) in 189 files (19.5%)
-   SwitchCase                        1,798 (0.28%) in 61 files (6.3%)
-   TSStringKeyword                   1,772 (0.27%) in 292 files (30.1%)
-   NewExpression                     1,582 (0.25%) in 430 files (44.4%)
-   TSBooleanKeyword                  1,573 (0.24%) in 225 files (23.2%)
-   TemplateLiteral                   1,497 (0.23%) in 267 files (27.6%)
-   ObjectPattern                     1,443 (0.22%) in 287 files (29.6%)
-   TSTypePredicate                   1,312 (0.20%) in 54 files (5.6%)
-   ImportDefaultSpecifier            1,309 (0.20%) in 477 files (49.2%)
-   MethodDefinition                  1,260 (0.20%) in 62 files (6.4%)
-   TSAsExpression                    1,084 (0.17%) in 229 files (23.6%)
-   ThrowStatement                    1,076 (0.17%) in 285 files (29.4%)
-   SequenceExpression                1,055 (0.16%) in 78 files (8.0%)
-   TSUndefinedKeyword                1,051 (0.16%) in 115 files (11.9%)
-   Program                             969 (0.15%) in 969 files (100.0%)
-   ExportSpecifier                     901 (0.14%) in 200 files (20.6%)
-   TSArrayType                         774 (0.12%) in 205 files (21.2%)
-   TSObjectKeyword                     709 (0.11%) in 54 files (5.6%)
-   TSMethodSignature                   684 (0.11%) in 21 files (2.2%)
-   TSAnyKeyword                        644 (0.10%) in 183 files (18.9%)
-   TSInterfaceDeclaration              632 (0.10%) in 93 files (9.6%)
-   TSInterfaceBody                     632 (0.10%) in 93 files (9.6%)
-   TSThisType                          631 (0.10%) in 5 files (0.5%)
-   ForOfStatement                      586 (0.09%) in 205 files (21.2%)
-   TSTypeLiteral                       569 (0.09%) in 200 files (20.6%)
-   TSNumberKeyword                     555 (0.09%) in 126 files (13.0%)
-   TSTypeAliasDeclaration              544 (0.08%) in 169 files (17.4%)
-   TSInterfaceHeritage                 535 (0.08%) in 20 files (2.1%)
-   AssignmentPattern                   533 (0.08%) in 111 files (11.5%)
-   UpdateExpression                    520 (0.08%) in 155 files (16.0%)
-   SpreadElement                       508 (0.08%) in 143 files (14.8%)
-   TSTypeParameter                     488 (0.08%) in 156 files (16.1%)
-   ExportDefaultDeclaration            483 (0.07%) in 464 files (47.9%)
-   TSVoidKeyword                       469 (0.07%) in 111 files (11.5%)
-   BreakStatement                      445 (0.07%) in 87 files (9.0%)
-   ForStatement                        390 (0.06%) in 151 files (15.6%)
-   TSIndexedAccessType                 381 (0.06%) in 107 files (11.0%)
-   TSTypeParameterDeclaration          378 (0.06%) in 156 files (16.1%)
-   PropertyDefinition                  369 (0.06%) in 47 files (4.9%)
-   ChainExpression                     360 (0.06%) in 126 files (13.0%)
-   TSFunctionType                      330 (0.05%) in 116 files (12.0%)
-   TryStatement                        314 (0.05%) in 103 files (10.6%)
-   CatchClause                         261 (0.04%) in 85 files (8.8%)
-   Super                               250 (0.04%) in 14 files (1.4%)
-   ImportNamespaceSpecifier            247 (0.04%) in 190 files (19.6%)
-   TSUnknownKeyword                    238 (0.04%) in 96 files (9.9%)
-   TSTypeQuery                         224 (0.03%) in 92 files (9.5%)
-   ContinueStatement                   220 (0.03%) in 90 files (9.3%)
-   SwitchStatement                     182 (0.03%) in 61 files (6.3%)
-   YieldExpression                     176 (0.03%) in 33 files (3.4%)
-   AwaitExpression                     169 (0.03%) in 20 files (2.1%)
-   TSEnumMember                        167 (0.03%) in 23 files (2.4%)
-   ArrayPattern                        160 (0.02%) in 64 files (6.6%)
-   PrivateIdentifier                   156 (0.02%) in 2 files (0.2%)
-   TaggedTemplateExpression            153 (0.02%) in 49 files (5.1%)
-   TSIntersectionType                  152 (0.02%) in 71 files (7.3%)
-   TSTupleType                         121 (0.02%) in 60 files (6.2%)
-   WhileStatement                      112 (0.02%) in 54 files (5.6%)
-   TSParenthesizedType                 104 (0.02%) in 59 files (6.1%)
-   TSTypeOperator                      102 (0.02%) in 65 files (6.7%)
-   RestElement                          98 (0.02%) in 43 files (4.4%)
-   ClassBody                            90 (0.01%) in 62 files (6.4%)
-   ClassDeclaration                     79 (0.01%) in 53 files (5.5%)
-   TSDeclareFunction                    77 (0.01%) in 33 files (3.4%)
-   TSCallSignatureDeclaration           62 (0.01%) in 14 files (1.4%)
-   TSIndexSignature                     59 (0.01%) in 39 files (4.0%)
-   MetaProperty                         56 (0.01%) in 39 files (4.0%)
-   DoWhileStatement                     56 (0.01%) in 25 files (2.6%)
-   TSNonNullExpression                  56 (0.01%) in 13 files (1.3%)
-   ForInStatement                       43 (0.01%) in 28 files (2.9%)
-   TSConditionalType                    43 (0.01%) in 17 files (1.8%)
-   TSEmptyBodyFunctionExpression        43 (0.01%) in 10 files (1.0%)
-   TSModuleDeclaration                  41 (0.01%) in 7 files (0.7%)
-   TSModuleBlock                        41 (0.01%) in 7 files (0.7%)
-   TSExportAssignment                   35 (0.01%) in 3 files (0.3%)
-   ExportAllDeclaration                 32 (0.00%) in 8 files (0.8%)
-   ImportAttribute                      30 (0.00%) in 24 files (2.5%)
-   TSEnumDeclaration                    30 (0.00%) in 23 files (2.4%)
-   TSEnumBody                           30 (0.00%) in 23 files (2.4%)
-   TSNamedTupleMember                   28 (0.00%) in 9 files (0.9%)
-   TSNeverKeyword                       28 (0.00%) in 18 files (1.9%)
-   TSSymbolKeyword                      21 (0.00%) in 11 files (1.1%)
-   Decorator                            18 (0.00%) in 2 files (0.2%)
-   TSImportType                         16 (0.00%) in 12 files (1.2%)
-   TSConstructorType                    16 (0.00%) in 12 files (1.2%)
-   AccessorProperty                     16 (0.00%) in 2 files (0.2%)
-   TSAbstractMethodDefinition           16 (0.00%) in 3 files (0.3%)
-   TSInferType                          15 (0.00%) in 7 files (0.7%)
-   TSMappedType                         13 (0.00%) in 12 files (1.2%)
-   ClassExpression                      11 (0.00%) in 10 files (1.0%)
-   TSClassImplements                    11 (0.00%) in 10 files (1.0%)
-   TSRestType                           11 (0.00%) in 9 files (0.9%)
-   TSSatisfiesExpression                11 (0.00%) in 11 files (1.1%)
-   ImportExpression                      9 (0.00%) in 8 files (0.8%)
-   Hashbang                              9 (0.00%) in 9 files (0.9%)
-   TSBigIntKeyword                       9 (0.00%) in 8 files (0.8%)
-   TSTemplateLiteralType                 8 (0.00%) in 5 files (0.5%)
-   LabeledStatement                      7 (0.00%) in 6 files (0.6%)
-   TSOptionalType                        6 (0.00%) in 4 files (0.4%)
-   EmptyStatement                        3 (0.00%) in 3 files (0.3%)
+   Identifier                      285,167 (36.91%) in 1404 files (98.6%)
+   MemberExpression                 61,884 (8.01%) in 1134 files (79.6%)
+   Literal                          56,270 (7.28%) in 1295 files (90.9%)
+   CallExpression                   48,607 (6.29%) in 1181 files (82.9%)
+   TSTypeReference                  27,385 (3.54%) in 494 files (34.7%)
+   ExpressionStatement              23,559 (3.05%) in 1144 files (80.3%)
+   Property                         21,965 (2.84%) in 699 files (49.1%)
+   BlockStatement                   21,697 (2.81%) in 1052 files (73.9%)
+   TSTypeAnnotation                 19,956 (2.58%) in 538 files (37.8%)
+   VariableDeclarator               15,559 (2.01%) in 862 files (60.5%)
+   VariableDeclaration              13,104 (1.70%) in 862 files (60.5%)
+   BinaryExpression                 10,453 (1.35%) in 713 files (50.1%)
+   IfStatement                       9,785 (1.27%) in 673 files (47.3%)
+   ThisExpression                    9,447 (1.22%) in 178 files (12.5%)
+   ReturnStatement                   8,728 (1.13%) in 848 files (59.6%)
+   TSQualifiedName                   8,474 (1.10%) in 274 files (19.2%)
+   ObjectExpression                  8,160 (1.06%) in 701 files (49.2%)
+   AssignmentExpression              7,757 (1.00%) in 653 files (45.9%)
+   LogicalExpression                 6,597 (0.85%) in 577 files (40.5%)
+   UnaryExpression                   5,889 (0.76%) in 622 files (43.7%)
+   ArrayExpression                   5,671 (0.73%) in 519 files (36.4%)
+   Unknown                           5,590 (0.72%) in 410 files (28.8%)
+   TSTypeParameterInstantiation      4,910 (0.64%) in 323 files (22.7%)
+   TemplateElement                   4,698 (0.61%) in 364 files (25.6%)
+   ArrowFunctionExpression           4,621 (0.60%) in 542 files (38.1%)
+   FunctionExpression                4,513 (0.58%) in 479 files (33.6%)
+   TSPropertySignature               4,147 (0.54%) in 220 files (15.4%)
+   TSUnionType                       3,960 (0.51%) in 308 files (21.6%)
+   FunctionDeclaration               3,757 (0.49%) in 783 files (55.0%)
+   ImportDeclaration                 3,462 (0.45%) in 1015 files (71.3%)
+   ExportNamedDeclaration            3,187 (0.41%) in 435 files (30.5%)
+   ImportSpecifier                   2,965 (0.38%) in 643 files (45.2%)
+   ParenthesizedExpression           2,859 (0.37%) in 415 files (29.1%)
+   TemplateLiteral                   2,691 (0.35%) in 361 files (25.4%)
+   TSNullKeyword                     2,242 (0.29%) in 141 files (9.9%)
+   ConditionalExpression             2,159 (0.28%) in 386 files (27.1%)
+   TSLiteralType                     1,992 (0.26%) in 189 files (13.3%)
+   SwitchCase                        1,823 (0.24%) in 65 files (4.6%)
+   NewExpression                     1,816 (0.24%) in 506 files (35.5%)
+   TSStringKeyword                   1,772 (0.23%) in 292 files (20.5%)
+   ImportDefaultSpecifier            1,637 (0.21%) in 698 files (49.0%)
+   ObjectPattern                     1,590 (0.21%) in 339 files (23.8%)
+   TSBooleanKeyword                  1,573 (0.20%) in 225 files (15.8%)
+   Program                           1,424 (0.18%) in 1424 files (100.0%)
+   TSTypePredicate                   1,312 (0.17%) in 54 files (3.8%)
+   MethodDefinition                  1,276 (0.17%) in 66 files (4.6%)
+   ThrowStatement                    1,127 (0.15%) in 303 files (21.3%)
+   TSAsExpression                    1,084 (0.14%) in 229 files (16.1%)
+   SequenceExpression                1,063 (0.14%) in 82 files (5.8%)
+   TSUndefinedKeyword                1,051 (0.14%) in 115 files (8.1%)
+   ExportSpecifier                     901 (0.12%) in 200 files (14.0%)
+   TSArrayType                         774 (0.10%) in 205 files (14.4%)
+   TSObjectKeyword                     709 (0.09%) in 54 files (3.8%)
+   TSMethodSignature                   684 (0.09%) in 21 files (1.5%)
+   TSAnyKeyword                        644 (0.08%) in 183 files (12.9%)
+   TSInterfaceDeclaration              632 (0.08%) in 93 files (6.5%)
+   TSInterfaceBody                     632 (0.08%) in 93 files (6.5%)
+   TSThisType                          631 (0.08%) in 5 files (0.4%)
+   SpreadElement                       626 (0.08%) in 175 files (12.3%)
+   ForOfStatement                      619 (0.08%) in 223 files (15.7%)
+   UpdateExpression                    588 (0.08%) in 181 files (12.7%)
+   AssignmentPattern                   573 (0.07%) in 135 files (9.5%)
+   TSTypeLiteral                       569 (0.07%) in 200 files (14.0%)
+   TSNumberKeyword                     555 (0.07%) in 126 files (8.8%)
+   TSTypeAliasDeclaration              544 (0.07%) in 169 files (11.9%)
+   TSInterfaceHeritage                 535 (0.07%) in 20 files (1.4%)
+   YieldExpression                     527 (0.07%) in 41 files (2.9%)
+   ExportDefaultDeclaration            496 (0.06%) in 477 files (33.5%)
+   TSTypeParameter                     488 (0.06%) in 156 files (11.0%)
+   TSVoidKeyword                       469 (0.06%) in 111 files (7.8%)
+   BreakStatement                      466 (0.06%) in 90 files (6.3%)
+   ForStatement                        422 (0.05%) in 161 files (11.3%)
+   TryStatement                        414 (0.05%) in 123 files (8.6%)
+   TSIndexedAccessType                 381 (0.05%) in 107 files (7.5%)
+   TSTypeParameterDeclaration          378 (0.05%) in 156 files (11.0%)
+   PropertyDefinition                  370 (0.05%) in 48 files (3.4%)
+   ChainExpression                     360 (0.05%) in 126 files (8.8%)
+   TSFunctionType                      330 (0.04%) in 116 files (8.1%)
+   CatchClause                         326 (0.04%) in 102 files (7.2%)
+   AwaitExpression                     324 (0.04%) in 46 files (3.2%)
+   ImportNamespaceSpecifier            306 (0.04%) in 246 files (17.3%)
+   Super                               253 (0.03%) in 17 files (1.2%)
+   MetaProperty                        252 (0.03%) in 220 files (15.4%)
+   TSUnknownKeyword                    238 (0.03%) in 96 files (6.7%)
+   ContinueStatement                   237 (0.03%) in 98 files (6.9%)
+   TSTypeQuery                         224 (0.03%) in 92 files (6.5%)
+   ArrayPattern                        194 (0.03%) in 81 files (5.7%)
+   SwitchStatement                     188 (0.02%) in 65 files (4.6%)
+   TaggedTemplateExpression            182 (0.02%) in 56 files (3.9%)
+   TSEnumMember                        167 (0.02%) in 23 files (1.6%)
+   PrivateIdentifier                   156 (0.02%) in 2 files (0.1%)
+   TSIntersectionType                  152 (0.02%) in 71 files (5.0%)
+   WhileStatement                      128 (0.02%) in 58 files (4.1%)
+   TSTupleType                         121 (0.02%) in 60 files (4.2%)
+   ClassBody                           107 (0.01%) in 66 files (4.6%)
+   RestElement                         105 (0.01%) in 49 files (3.4%)
+   TSParenthesizedType                 104 (0.01%) in 59 files (4.1%)
+   TSTypeOperator                      102 (0.01%) in 65 files (4.6%)
+   ClassDeclaration                     91 (0.01%) in 57 files (4.0%)
+   TSDeclareFunction                    77 (0.01%) in 33 files (2.3%)
+   TSCallSignatureDeclaration           62 (0.01%) in 14 files (1.0%)
+   DoWhileStatement                     59 (0.01%) in 26 files (1.8%)
+   TSIndexSignature                     59 (0.01%) in 39 files (2.7%)
+   TSNonNullExpression                  56 (0.01%) in 13 files (0.9%)
+   ForInStatement                       53 (0.01%) in 31 files (2.2%)
+   TSConditionalType                    43 (0.01%) in 17 files (1.2%)
+   TSEmptyBodyFunctionExpression        43 (0.01%) in 10 files (0.7%)
+   TSModuleDeclaration                  41 (0.01%) in 7 files (0.5%)
+   TSModuleBlock                        41 (0.01%) in 7 files (0.5%)
+   TSExportAssignment                   35 (0.00%) in 3 files (0.2%)
+   ExportAllDeclaration                 32 (0.00%) in 8 files (0.6%)
+   ImportAttribute                      30 (0.00%) in 24 files (1.7%)
+   TSEnumDeclaration                    30 (0.00%) in 23 files (1.6%)
+   TSEnumBody                           30 (0.00%) in 23 files (1.6%)
+   TSNamedTupleMember                   28 (0.00%) in 9 files (0.6%)
+   TSNeverKeyword                       28 (0.00%) in 18 files (1.3%)
+   TSSymbolKeyword                      21 (0.00%) in 11 files (0.8%)
+   LabeledStatement                     18 (0.00%) in 8 files (0.6%)
+   Decorator                            18 (0.00%) in 2 files (0.1%)
+   ClassExpression                      16 (0.00%) in 12 files (0.8%)
+   ImportExpression                     16 (0.00%) in 10 files (0.7%)
+   TSImportType                         16 (0.00%) in 12 files (0.8%)
+   TSConstructorType                    16 (0.00%) in 12 files (0.8%)
+   AccessorProperty                     16 (0.00%) in 2 files (0.1%)
+   TSAbstractMethodDefinition           16 (0.00%) in 3 files (0.2%)
+   TSInferType                          15 (0.00%) in 7 files (0.5%)
+   TSMappedType                         13 (0.00%) in 12 files (0.8%)
+   TSClassImplements                    11 (0.00%) in 10 files (0.7%)
+   TSRestType                           11 (0.00%) in 9 files (0.6%)
+   TSSatisfiesExpression                11 (0.00%) in 11 files (0.8%)
+   Hashbang                              9 (0.00%) in 9 files (0.6%)
+   TSBigIntKeyword                       9 (0.00%) in 8 files (0.6%)
+   TSTemplateLiteralType                 8 (0.00%) in 5 files (0.4%)
+   TSOptionalType                        6 (0.00%) in 4 files (0.3%)
+   EmptyStatement                        4 (0.00%) in 4 files (0.3%)
    TSConstructSignatureDeclaration        1 (0.00%) in 1 files (0.1%)
+
+📁 FILE EXAMPLES BY NODE TYPE:
+
+   Identifier:
+     📄 Files WITH Identifier (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+     📄 Files WITHOUT Identifier (showing 10):
+       • benchmark/babel-helper-validator-identifier/identifier.bench.mjs
+       • test/runtime-integration/src/main-esm.mjs
+       • scripts/parser-tests/typescript/error-codes.js
+       • packages/babel-helper-transform-fixture-test-runner/src/babel-helpers-in-memory.js
+       • packages/babel-cli/bin/babel-external-helpers.mjs
+       • packages/babel-plugin-transform-regenerator/test/regenerator-fixtures/non-native.js
+       • packages/babel-generator/src/generators/index.ts
+       • packages/babel-parser/test/expressions/esprima/expression-grouping/migrated_0001/input.js
+       • packages/babel-parser/test/expressions/esprima/expression-grouping/migrated_0000/input.js
+       • packages/babel-parser/test/expressions/es2022/top-level-await/script/input.js
+
+   MemberExpression:
+     📄 Files WITH MemberExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+     📄 Files WITHOUT MemberExpression (showing 10):
+       • scripts/postinstall.js
+       • lib/third-party-libs.d.ts
+       • lib/regexpu-core.d.ts
+       • lib/libdom-minimal.d.ts
+       • lib/kexec.d.ts
+       • lib/globals.d.ts
+       • lib/babel-plugin-dynamic-import-node.d.ts
+       • lib/archived-libs.d.ts
+       • test/esm/index.js
+       • scripts/repo-utils/babel.js
+
+   Literal:
+     📄 Files WITH Literal (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+     📄 Files WITHOUT Literal (showing 10):
+       • lib/libdom-minimal.d.ts
+       • lib/globals.d.ts
+       • packages/babel-standalone/src/plugin-utils-shim.ts
+       • packages/babel-standalone/src/make-noop-plugin.ts
+       • packages/babel-standalone/src/babel-package-shim.ts
+       • packages/babel-helper-transform-fixture-test-runner/src/babel-helpers-in-memory.js
+       • packages/babel-runtime-corejs3/helpers/esm/temporalUndefined.js
+       • packages/babel-runtime-corejs3/helpers/esm/skipFirstGeneratorNext.js
+       • packages/babel-runtime-corejs3/helpers/esm/identity.js
+       • packages/babel-runtime-corejs3/helpers/esm/classApplyDescriptorGet.js
+
+   CallExpression:
+     📄 Files WITH CallExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+     📄 Files WITHOUT CallExpression (showing 10):
+       • lib/third-party-libs.d.ts
+       • lib/regexpu-core.d.ts
+       • lib/libdom-minimal.d.ts
+       • lib/kexec.d.ts
+       • lib/globals.d.ts
+       • lib/babel-plugin-dynamic-import-node.d.ts
+       • lib/archived-libs.d.ts
+       • scripts/repo-utils/babel.js
+       • scripts/babel-plugin-bit-decorator/types.d.ts
+       • packages/babel-cli/index.js
+
+   TSTypeReference:
+     📄 Files WITH TSTypeReference (showing 10):
+       • lib/third-party-libs.d.ts
+       • lib/regexpu-core.d.ts
+       • lib/babel-plugin-dynamic-import-node.d.ts
+       • lib/archived-libs.d.ts
+       • scripts/babel-plugin-bit-decorator/types.d.ts
+       • packages/babel-traverse/src/visitors.ts
+       • packages/babel-traverse/src/types.ts
+       • packages/babel-traverse/src/traverse-node.ts
+       • packages/babel-traverse/src/index.ts
+       • packages/babel-traverse/src/hub.ts
+     📄 Files WITHOUT TSTypeReference (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   ExpressionStatement:
+     📄 Files WITH ExpressionStatement (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-babel-source.js
+       • scripts/rename-proposal-to-transform.js
+     📄 Files WITHOUT ExpressionStatement (showing 10):
+       • eslint.config.mjs
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+       • lib/third-party-libs.d.ts
+       • lib/regexpu-core.d.ts
+       • lib/libdom-minimal.d.ts
+       • lib/kexec.d.ts
+       • lib/globals.d.ts
+       • lib/babel-plugin-dynamic-import-node.d.ts
+       • lib/archived-libs.d.ts
+
+   Property:
+     📄 Files WITH Property (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+     📄 Files WITHOUT Property (showing 10):
+       • scripts/postinstall.js
+       • scripts/clone-license.js
+       • lib/third-party-libs.d.ts
+       • lib/regexpu-core.d.ts
+       • lib/libdom-minimal.d.ts
+       • lib/kexec.d.ts
+       • lib/globals.d.ts
+       • lib/archived-libs.d.ts
+       • benchmark/util.mjs
+       • benchmark/update-baselines.mjs
+
+   BlockStatement:
+     📄 Files WITH BlockStatement (showing 10):
+       • yarn.config.cjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+       • scripts/rollup-plugin-babel-source.js
+     📄 Files WITHOUT BlockStatement (showing 10):
+       • jest.config.js
+       • eslint.config.mjs
+       • lib/third-party-libs.d.ts
+       • lib/regexpu-core.d.ts
+       • lib/libdom-minimal.d.ts
+       • lib/kexec.d.ts
+       • lib/globals.d.ts
+       • lib/babel-plugin-dynamic-import-node.d.ts
+       • lib/archived-libs.d.ts
+       • test/esm/babel-runtime.js
+
+   TSTypeAnnotation:
+     📄 Files WITH TSTypeAnnotation (showing 10):
+       • lib/third-party-libs.d.ts
+       • lib/regexpu-core.d.ts
+       • lib/kexec.d.ts
+       • lib/globals.d.ts
+       • lib/babel-plugin-dynamic-import-node.d.ts
+       • lib/archived-libs.d.ts
+       • scripts/babel-plugin-bit-decorator/types.d.ts
+       • packages/babel-traverse/src/visitors.ts
+       • packages/babel-traverse/src/types.ts
+       • packages/babel-traverse/src/traverse-node.ts
+     📄 Files WITHOUT TSTypeAnnotation (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   VariableDeclarator:
+     📄 Files WITH VariableDeclarator (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+     📄 Files WITHOUT VariableDeclarator (showing 10):
+       • scripts/postinstall.js
+       • lib/regexpu-core.d.ts
+       • lib/libdom-minimal.d.ts
+       • lib/kexec.d.ts
+       • lib/babel-plugin-dynamic-import-node.d.ts
+       • test/esm/index.js
+       • test/esm/babel-runtime.js
+       • test/esm/babel-runtime-corejs3.js
+       • scripts/repo-utils/babel.js
+       • scripts/babel-plugin-bit-decorator/types.d.ts
+
+   VariableDeclaration:
+     📄 Files WITH VariableDeclaration (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+     📄 Files WITHOUT VariableDeclaration (showing 10):
+       • scripts/postinstall.js
+       • lib/regexpu-core.d.ts
+       • lib/libdom-minimal.d.ts
+       • lib/kexec.d.ts
+       • lib/babel-plugin-dynamic-import-node.d.ts
+       • test/esm/index.js
+       • test/esm/babel-runtime.js
+       • test/esm/babel-runtime-corejs3.js
+       • scripts/repo-utils/babel.js
+       • scripts/babel-plugin-bit-decorator/types.d.ts
+
+   BinaryExpression:
+     📄 Files WITH BinaryExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+     📄 Files WITHOUT BinaryExpression (showing 10):
+       • scripts/rollup-plugin-dependency-condition.js
+       • scripts/postinstall.js
+       • scripts/clone-license.js
+       • scripts/assert-dir-git-clean.js
+       • lib/third-party-libs.d.ts
+       • lib/regexpu-core.d.ts
+       • lib/libdom-minimal.d.ts
+       • lib/kexec.d.ts
+       • lib/globals.d.ts
+       • lib/babel-plugin-dynamic-import-node.d.ts
+
+   IfStatement:
+     📄 Files WITH IfStatement (showing 10):
+       • yarn.config.cjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+       • scripts/rollup-plugin-babel-source.js
+     📄 Files WITHOUT IfStatement (showing 10):
+       • jest.config.js
+       • eslint.config.mjs
+       • lib/third-party-libs.d.ts
+       • lib/regexpu-core.d.ts
+       • lib/libdom-minimal.d.ts
+       • lib/kexec.d.ts
+       • lib/globals.d.ts
+       • lib/babel-plugin-dynamic-import-node.d.ts
+       • lib/archived-libs.d.ts
+       • test/esm/test-runner.js
+
+   ThisExpression:
+     📄 Files WITH ThisExpression (showing 10):
+       • babel.config.js
+       • Makefile.mjs
+       • scripts/rollup-plugin-dependency-condition.js
+       • benchmark/util.mjs
+       • scripts/parallel-tsc/tsc.js
+       • scripts/parser-tests/utils/parser-test-runner.js
+       • scripts/parser-tests/typescript/index.js
+       • scripts/parser-tests/test262/index.js
+       • scripts/parser-tests/flow/index.js
+       • packages/babel-traverse/src/visitors.ts
+     📄 Files WITHOUT ThisExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-babel-source.js
+       • scripts/rename-proposal-to-transform.js
+
+   ReturnStatement:
+     📄 Files WITH ReturnStatement (showing 10):
+       • yarn.config.cjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+       • scripts/rollup-plugin-babel-source.js
+     📄 Files WITHOUT ReturnStatement (showing 10):
+       • jest.config.js
+       • eslint.config.mjs
+       • scripts/rename-proposal-to-transform.js
+       • scripts/postinstall.js
+       • scripts/clone-license.js
+       • scripts/assert-dir-git-clean.js
+       • lib/third-party-libs.d.ts
+       • lib/regexpu-core.d.ts
+       • lib/libdom-minimal.d.ts
+       • lib/kexec.d.ts
+
+   TSQualifiedName:
+     📄 Files WITH TSQualifiedName (showing 10):
+       • lib/babel-plugin-dynamic-import-node.d.ts
+       • packages/babel-traverse/src/types.ts
+       • packages/babel-traverse/src/traverse-node.ts
+       • packages/babel-traverse/src/index.ts
+       • packages/babel-traverse/src/context.ts
+       • packages/babel-preset-typescript/src/plugin-rewrite-ts-imports.ts
+       • packages/babel-template/src/populate.ts
+       • packages/babel-template/src/parse.ts
+       • packages/babel-template/src/formatters.ts
+       • packages/babel-plugin-transform-typescript/src/namespace.ts
+     📄 Files WITHOUT TSQualifiedName (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   ObjectExpression:
+     📄 Files WITH ObjectExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+     📄 Files WITHOUT ObjectExpression (showing 10):
+       • scripts/postinstall.js
+       • scripts/clone-license.js
+       • lib/third-party-libs.d.ts
+       • lib/regexpu-core.d.ts
+       • lib/libdom-minimal.d.ts
+       • lib/kexec.d.ts
+       • lib/globals.d.ts
+       • lib/babel-plugin-dynamic-import-node.d.ts
+       • lib/archived-libs.d.ts
+       • benchmark/util.mjs
+
+   AssignmentExpression:
+     📄 Files WITH AssignmentExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-babel-source.js
+       • scripts/rename-proposal-to-transform.js
+     📄 Files WITHOUT AssignmentExpression (showing 10):
+       • eslint.config.mjs
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+       • scripts/postinstall.js
+       • scripts/clone-license.js
+       • scripts/cleanup-fixtures.js
+       • lib/third-party-libs.d.ts
+       • lib/regexpu-core.d.ts
+       • lib/libdom-minimal.d.ts
+       • lib/kexec.d.ts
+
+   LogicalExpression:
+     📄 Files WITH LogicalExpression (showing 10):
+       • yarn.config.cjs
+       • babel.config.js
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-babel-source.js
+       • scripts/rename-proposal-to-transform.js
+       • test/esm/babel-runtime-corejs3.js
+     📄 Files WITHOUT LogicalExpression (showing 10):
+       • jest.config.js
+       • eslint.config.mjs
+       • babel-worker.cjs
+       • scripts/rollup-plugin-dependency-condition.js
+       • scripts/postinstall.js
+       • scripts/pack-script.js
+       • scripts/generate-babel-7-tests.mjs
+       • scripts/clone-license.js
+       • scripts/cleanup-fixtures.js
+       • scripts/assert-dir-git-clean.js
+
+   UnaryExpression:
+     📄 Files WITH UnaryExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/rollup-plugin-dependency-condition.js
+       • scripts/rollup-plugin-babel-source.js
+       • scripts/rename-proposal-to-transform.js
+     📄 Files WITHOUT UnaryExpression (showing 10):
+       • eslint.config.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/pack-script.js
+       • scripts/assert-dir-git-clean.js
+       • lib/third-party-libs.d.ts
+       • lib/regexpu-core.d.ts
+       • lib/libdom-minimal.d.ts
+       • lib/kexec.d.ts
+       • lib/globals.d.ts
+
+   ArrayExpression:
+     📄 Files WITH ArrayExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rename-proposal-to-transform.js
+     📄 Files WITHOUT ArrayExpression (showing 10):
+       • babel-worker.cjs
+       • scripts/rollup-plugin-dependency-condition.js
+       • scripts/rollup-plugin-babel-source.js
+       • scripts/postinstall.js
+       • scripts/clone-license.js
+       • scripts/assert-dir-git-clean.js
+       • lib/third-party-libs.d.ts
+       • lib/regexpu-core.d.ts
+       • lib/libdom-minimal.d.ts
+       • lib/kexec.d.ts
+
+   Unknown:
+     📄 Files WITH Unknown (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+     📄 Files WITHOUT Unknown (showing 10):
+       • scripts/postinstall.js
+       • lib/third-party-libs.d.ts
+       • lib/regexpu-core.d.ts
+       • lib/libdom-minimal.d.ts
+       • lib/kexec.d.ts
+       • lib/globals.d.ts
+       • lib/babel-plugin-dynamic-import-node.d.ts
+       • lib/archived-libs.d.ts
+       • test/esm/test-runner.js
+       • test/esm/index.js
+
+   TSTypeParameterInstantiation:
+     📄 Files WITH TSTypeParameterInstantiation (showing 10):
+       • lib/third-party-libs.d.ts
+       • lib/archived-libs.d.ts
+       • scripts/babel-plugin-bit-decorator/types.d.ts
+       • packages/babel-traverse/src/visitors.ts
+       • packages/babel-traverse/src/types.ts
+       • packages/babel-traverse/src/traverse-node.ts
+       • packages/babel-traverse/src/index.ts
+       • packages/babel-traverse/src/context.ts
+       • packages/babel-traverse/src/cache.ts
+       • packages/babel-standalone/src/transformScriptTags.ts
+     📄 Files WITHOUT TSTypeParameterInstantiation (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   TemplateElement:
+     📄 Files WITH TemplateElement (showing 10):
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+     📄 Files WITHOUT TemplateElement (showing 10):
+       • yarn.config.cjs
+       • scripts/postinstall.js
+       • scripts/clone-license.js
+       • lib/third-party-libs.d.ts
+       • lib/regexpu-core.d.ts
+       • lib/libdom-minimal.d.ts
+       • lib/kexec.d.ts
+       • lib/globals.d.ts
+       • lib/babel-plugin-dynamic-import-node.d.ts
+       • lib/archived-libs.d.ts
+
+   ArrowFunctionExpression:
+     📄 Files WITH ArrowFunctionExpression (showing 10):
+       • yarn.config.cjs
+       • eslint.config.mjs
+       • babel.config.js
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/clone-license.js
+       • scripts/cleanup-fixtures.js
+     📄 Files WITHOUT ArrowFunctionExpression (showing 10):
+       • jest.config.js
+       • babel-worker.cjs
+       • scripts/rollup-plugin-dependency-condition.js
+       • scripts/rollup-plugin-babel-source.js
+       • scripts/rename-proposal-to-transform.js
+       • scripts/postinstall.js
+       • scripts/pack-script.js
+       • scripts/generate-babel-7-tests.mjs
+       • scripts/assert-dir-git-clean.js
+       • lib/third-party-libs.d.ts
+
+   FunctionExpression:
+     📄 Files WITH FunctionExpression (showing 10):
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+       • scripts/rollup-plugin-babel-source.js
+       • benchmark/util.mjs
+       • scripts/utils/logger.cjs
+     📄 Files WITHOUT FunctionExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • scripts/set-module-type.js
+       • scripts/rename-proposal-to-transform.js
+       • scripts/postinstall.js
+       • scripts/pack-script.js
+       • scripts/generate-babel-7-tests.mjs
+       • scripts/clone-license.js
+       • scripts/cleanup-fixtures.js
+
+   TSPropertySignature:
+     📄 Files WITH TSPropertySignature (showing 10):
+       • lib/third-party-libs.d.ts
+       • lib/regexpu-core.d.ts
+       • lib/globals.d.ts
+       • lib/archived-libs.d.ts
+       • scripts/babel-plugin-bit-decorator/types.d.ts
+       • packages/babel-traverse/src/types.ts
+       • packages/babel-traverse/src/index.ts
+       • packages/babel-standalone/src/transformScriptTags.ts
+       • packages/babel-preset-typescript/src/normalize-options.ts
+       • packages/babel-preset-react/src/index.ts
+     📄 Files WITHOUT TSPropertySignature (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   TSUnionType:
+     📄 Files WITH TSUnionType (showing 10):
+       • lib/regexpu-core.d.ts
+       • lib/globals.d.ts
+       • packages/babel-traverse/src/visitors.ts
+       • packages/babel-traverse/src/types.ts
+       • packages/babel-traverse/src/index.ts
+       • packages/babel-traverse/src/hub.ts
+       • packages/babel-traverse/src/context.ts
+       • packages/babel-standalone/src/transformScriptTags.ts
+       • packages/babel-preset-typescript/src/plugin-rewrite-ts-imports.ts
+       • packages/babel-preset-react/src/index.ts
+     📄 Files WITHOUT TSUnionType (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   FunctionDeclaration:
+     📄 Files WITH FunctionDeclaration (showing 10):
+       • yarn.config.cjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+       • scripts/rollup-plugin-babel-source.js
+       • scripts/rename-proposal-to-transform.js
+     📄 Files WITHOUT FunctionDeclaration (showing 10):
+       • jest.config.js
+       • eslint.config.mjs
+       • scripts/set-module-type.js
+       • scripts/postinstall.js
+       • scripts/clone-license.js
+       • scripts/cleanup-fixtures.js
+       • scripts/assert-dir-git-clean.js
+       • lib/third-party-libs.d.ts
+       • lib/regexpu-core.d.ts
+       • lib/libdom-minimal.d.ts
+
+   ImportDeclaration:
+     📄 Files WITH ImportDeclaration (showing 10):
+       • eslint.config.mjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-babel-source.js
+       • scripts/rename-proposal-to-transform.js
+       • scripts/postinstall.js
+       • scripts/pack-script.js
+     📄 Files WITHOUT ImportDeclaration (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • babel.config.js
+       • babel-worker.cjs
+       • scripts/rollup-plugin-dependency-condition.js
+       • lib/regexpu-core.d.ts
+       • lib/libdom-minimal.d.ts
+       • lib/kexec.d.ts
+       • lib/globals.d.ts
+       • test/runtime-integration/node.cjs
+
+   ExportNamedDeclaration:
+     📄 Files WITH ExportNamedDeclaration (showing 10):
+       • lib/third-party-libs.d.ts
+       • lib/regexpu-core.d.ts
+       • lib/globals.d.ts
+       • lib/babel-plugin-dynamic-import-node.d.ts
+       • benchmark/util.mjs
+       • scripts/repo-utils/babel.js
+       • scripts/babel-plugin-bit-decorator/types.d.ts
+       • packages/babel-traverse/src/visitors.ts
+       • packages/babel-traverse/src/types.ts
+       • packages/babel-traverse/src/traverse-node.ts
+     📄 Files WITHOUT ExportNamedDeclaration (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   ImportSpecifier:
+     📄 Files WITH ImportSpecifier (showing 10):
+       • eslint.config.mjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-babel-source.js
+       • scripts/rename-proposal-to-transform.js
+       • scripts/postinstall.js
+       • scripts/pack-script.js
+     📄 Files WITHOUT ImportSpecifier (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • babel.config.js
+       • babel-worker.cjs
+       • scripts/rollup-plugin-dependency-condition.js
+       • lib/regexpu-core.d.ts
+       • lib/libdom-minimal.d.ts
+       • lib/kexec.d.ts
+       • lib/globals.d.ts
+       • benchmark/util.mjs
+
+   ParenthesizedExpression:
+     📄 Files WITH ParenthesizedExpression (showing 10):
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/rename-proposal-to-transform.js
+       • test/esm/index.js
+       • test/runtime-integration/node.cjs
+       • scripts/parallel-tsc/tsc.js
+       • scripts/babel-plugin-transform-node-protocol-import/plugin.cjs
+     📄 Files WITHOUT ParenthesizedExpression (showing 10):
+       • yarn.config.cjs
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+       • scripts/rollup-plugin-babel-source.js
+       • scripts/postinstall.js
+       • scripts/pack-script.js
+       • scripts/generate-babel-7-tests.mjs
+
+   TemplateLiteral:
+     📄 Files WITH TemplateLiteral (showing 10):
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+     📄 Files WITHOUT TemplateLiteral (showing 10):
+       • yarn.config.cjs
+       • scripts/postinstall.js
+       • scripts/clone-license.js
+       • lib/third-party-libs.d.ts
+       • lib/regexpu-core.d.ts
+       • lib/libdom-minimal.d.ts
+       • lib/kexec.d.ts
+       • lib/globals.d.ts
+       • lib/babel-plugin-dynamic-import-node.d.ts
+       • lib/archived-libs.d.ts
+
+   TSNullKeyword:
+     📄 Files WITH TSNullKeyword (showing 10):
+       • packages/babel-traverse/src/visitors.ts
+       • packages/babel-traverse/src/context.ts
+       • packages/babel-standalone/src/transformScriptTags.ts
+       • packages/babel-template/src/options.ts
+       • packages/babel-preset-env/src/shipped-proposals.ts
+       • packages/babel-preset-env/src/normalize-options.ts
+       • packages/babel-preset-env/src/index.ts
+       • packages/babel-plugin-transform-typescript/src/namespace.ts
+       • packages/babel-plugin-transform-runtime/src/index.ts
+       • packages/babel-plugin-transform-react-jsx-source/src/index.ts
+     📄 Files WITHOUT TSNullKeyword (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   ConditionalExpression:
+     📄 Files WITH ConditionalExpression (showing 10):
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+       • scripts/rollup-plugin-babel-source.js
+       • scripts/generate-babel-7-tests.mjs
+     📄 Files WITHOUT ConditionalExpression (showing 10):
+       • yarn.config.cjs
+       • babel-worker.cjs
+       • scripts/set-module-type.js
+       • scripts/rename-proposal-to-transform.js
+       • scripts/postinstall.js
+       • scripts/pack-script.js
+       • scripts/clone-license.js
+       • scripts/assert-dir-git-clean.js
+       • lib/third-party-libs.d.ts
+       • lib/regexpu-core.d.ts
+
+   TSLiteralType:
+     📄 Files WITH TSLiteralType (showing 10):
+       • lib/regexpu-core.d.ts
+       • lib/babel-plugin-dynamic-import-node.d.ts
+       • scripts/babel-plugin-bit-decorator/types.d.ts
+       • packages/babel-traverse/src/visitors.ts
+       • packages/babel-traverse/src/types.ts
+       • packages/babel-traverse/src/index.ts
+       • packages/babel-standalone/src/transformScriptTags.ts
+       • packages/babel-standalone/src/index.ts
+       • packages/babel-preset-typescript/src/normalize-options.ts
+       • packages/babel-preset-react/src/index.ts
+     📄 Files WITHOUT TSLiteralType (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   SwitchCase:
+     📄 Files WITH SwitchCase (showing 10):
+       • babel.config.js
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • eslint/babel-eslint-parser/test/typescript-estree.test.js
+       • packages/babel-traverse/test/scope.js
+       • packages/babel-types/test/fields.js
+       • packages/babel-plugin-transform-typescript/src/namespace.ts
+       • packages/babel-plugin-transform-typescript/src/index.ts
+       • packages/babel-plugin-transform-typescript/src/enum.ts
+       • packages/babel-plugin-transform-react-jsx/src/create-plugin.ts
+     📄 Files WITHOUT SwitchCase (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+       • scripts/rollup-plugin-babel-source.js
+       • scripts/rename-proposal-to-transform.js
+
+   NewExpression:
+     📄 Files WITH NewExpression (showing 10):
+       • yarn.config.cjs
+       • babel.config.js
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rename-proposal-to-transform.js
+       • benchmark/util.mjs
+       • scripts/utils/logger.cjs
+     📄 Files WITHOUT NewExpression (showing 10):
+       • jest.config.js
+       • eslint.config.mjs
+       • babel-worker.cjs
+       • scripts/rollup-plugin-dependency-condition.js
+       • scripts/rollup-plugin-babel-source.js
+       • scripts/postinstall.js
+       • scripts/pack-script.js
+       • scripts/generate-babel-7-tests.mjs
+       • scripts/clone-license.js
+       • scripts/cleanup-fixtures.js
+
+   TSStringKeyword:
+     📄 Files WITH TSStringKeyword (showing 10):
+       • lib/regexpu-core.d.ts
+       • lib/kexec.d.ts
+       • lib/globals.d.ts
+       • packages/babel-traverse/src/visitors.ts
+       • packages/babel-traverse/src/types.ts
+       • packages/babel-traverse/src/traverse-node.ts
+       • packages/babel-traverse/src/index.ts
+       • packages/babel-traverse/src/hub.ts
+       • packages/babel-traverse/src/context.ts
+       • packages/babel-standalone/src/transformScriptTags.ts
+     📄 Files WITHOUT TSStringKeyword (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   ImportDefaultSpecifier:
+     📄 Files WITH ImportDefaultSpecifier (showing 10):
+       • eslint.config.mjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-babel-source.js
+       • scripts/rename-proposal-to-transform.js
+       • scripts/postinstall.js
+       • scripts/pack-script.js
+     📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • babel.config.js
+       • babel-worker.cjs
+       • scripts/rollup-plugin-dependency-condition.js
+       • scripts/generate-babel-7-tests.mjs
+       • scripts/assert-dir-git-clean.js
+       • lib/third-party-libs.d.ts
+       • lib/regexpu-core.d.ts
+       • lib/libdom-minimal.d.ts
+
+   ObjectPattern:
+     📄 Files WITH ObjectPattern (showing 10):
+       • yarn.config.cjs
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-babel-source.js
+       • scripts/pack-script.js
+       • lib/babel-plugin-dynamic-import-node.d.ts
+     📄 Files WITHOUT ObjectPattern (showing 10):
+       • jest.config.js
+       • Makefile.source.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-dependency-condition.js
+       • scripts/rename-proposal-to-transform.js
+       • scripts/postinstall.js
+       • scripts/generate-babel-7-tests.mjs
+       • scripts/clone-license.js
+       • scripts/cleanup-fixtures.js
+       • scripts/assert-dir-git-clean.js
+
+   TSBooleanKeyword:
+     📄 Files WITH TSBooleanKeyword (showing 10):
+       • lib/globals.d.ts
+       • scripts/babel-plugin-bit-decorator/types.d.ts
+       • packages/babel-traverse/src/traverse-node.ts
+       • packages/babel-traverse/src/index.ts
+       • packages/babel-traverse/src/context.ts
+       • packages/babel-standalone/src/transformScriptTags.ts
+       • packages/babel-preset-typescript/src/normalize-options.ts
+       • packages/babel-preset-typescript/src/index.ts
+       • packages/babel-preset-react/src/index.ts
+       • packages/babel-template/src/parse.ts
+     📄 Files WITHOUT TSBooleanKeyword (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   Program:
+     📄 Files WITH Program (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+     📄 Files WITHOUT Program: (all files contain this node type)
+
+   TSTypePredicate:
+     📄 Files WITH TSTypePredicate (showing 10):
+       • packages/babel-traverse/src/visitors.ts
+       • packages/babel-plugin-transform-typescript/src/namespace.ts
+       • packages/babel-plugin-transform-react-display-name/src/index.ts
+       • packages/babel-plugin-transform-proto-to-assign/src/index.ts
+       • packages/babel-plugin-transform-optional-chaining/src/transform.ts
+       • packages/babel-plugin-transform-object-rest-spread/src/shouldStoreRHSInTemporaryVariable.ts
+       • packages/babel-plugin-transform-explicit-resource-management/src/index.ts
+       • packages/babel-plugin-transform-destructuring/src/util.ts
+       • packages/babel-plugin-transform-block-scoping/src/index.ts
+       • packages/babel-plugin-proposal-pipeline-operator/src/buildOptimizedSequenceExpression.ts
+     📄 Files WITHOUT TSTypePredicate (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   MethodDefinition:
+     📄 Files WITH MethodDefinition (showing 10):
+       • Makefile.mjs
+       • benchmark/util.mjs
+       • scripts/parallel-tsc/tsc.js
+       • scripts/parser-tests/utils/parser-test-runner.js
+       • packages/babel-traverse/src/hub.ts
+       • packages/babel-traverse/src/context.ts
+       • packages/babel-plugin-transform-destructuring/src/util.ts
+       • packages/babel-helper-validator-option/src/validator.ts
+       • packages/babel-helper-replace-supers/src/index.ts
+       • packages/babel-helper-module-imports/src/import-injector.ts
+     📄 Files WITHOUT MethodDefinition (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+
+   ThrowStatement:
+     📄 Files WITH ThrowStatement (showing 10):
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/repo-utils/index.cjs
+       • scripts/babel-plugin-bit-decorator/plugin.cjs
+       • scripts/generators/tsconfig.js
+       • scripts/actions/repl.js
+     📄 Files WITHOUT ThrowStatement (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+       • scripts/rollup-plugin-babel-source.js
+       • scripts/rename-proposal-to-transform.js
+       • scripts/postinstall.js
+       • scripts/pack-script.js
+       • scripts/generate-babel-7-tests.mjs
+
+   TSAsExpression:
+     📄 Files WITH TSAsExpression (showing 10):
+       • packages/babel-traverse/src/visitors.ts
+       • packages/babel-traverse/src/index.ts
+       • packages/babel-traverse/src/context.ts
+       • packages/babel-standalone/src/transformScriptTags.ts
+       • packages/babel-standalone/src/make-noop-plugin.ts
+       • packages/babel-preset-typescript/src/plugin-rewrite-ts-imports.ts
+       • packages/babel-template/src/populate.ts
+       • packages/babel-template/src/parse.ts
+       • packages/babel-template/src/options.ts
+       • packages/babel-template/src/index.ts
+     📄 Files WITHOUT TSAsExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   SequenceExpression:
+     📄 Files WITH SequenceExpression (showing 10):
+       • Makefile.mjs
+       • packages/babel-runtime-corejs2/helpers/typeof.js
+       • packages/babel-runtime-corejs2/helpers/toArray.js
+       • packages/babel-runtime-corejs2/helpers/temporalRef.js
+       • packages/babel-runtime-corejs2/helpers/possibleConstructorReturn.js
+       • packages/babel-runtime-corejs2/helpers/iterableToArray.js
+       • packages/babel-runtime-corejs3/helpers/dispose.js
+       • packages/babel-runtime/helpers/typeof.js
+       • packages/babel-runtime/helpers/toArray.js
+       • packages/babel-runtime/helpers/temporalRef.js
+     📄 Files WITHOUT SequenceExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+
+   TSUndefinedKeyword:
+     📄 Files WITH TSUndefinedKeyword (showing 10):
+       • packages/babel-traverse/src/visitors.ts
+       • packages/babel-traverse/src/index.ts
+       • packages/babel-traverse/src/context.ts
+       • packages/babel-standalone/src/transformScriptTags.ts
+       • packages/babel-preset-env/src/normalize-options.ts
+       • packages/babel-preset-env/src/index.ts
+       • packages/babel-plugin-transform-typescript/src/enum.ts
+       • packages/babel-plugin-transform-property-mutators/src/index.ts
+       • packages/babel-plugin-transform-classes/src/transformClass.ts
+       • packages/babel-plugin-transform-block-scoping/src/validation.ts
+     📄 Files WITHOUT TSUndefinedKeyword (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   ExportSpecifier:
+     📄 Files WITH ExportSpecifier (showing 10):
+       • lib/third-party-libs.d.ts
+       • lib/regexpu-core.d.ts
+       • lib/babel-plugin-dynamic-import-node.d.ts
+       • benchmark/util.mjs
+       • scripts/repo-utils/babel.js
+       • packages/babel-traverse/src/visitors.ts
+       • packages/babel-traverse/src/index.ts
+       • packages/babel-traverse/src/cache.ts
+       • packages/babel-standalone/src/plugin-utils-shim.ts
+       • packages/babel-types/src/index.ts
+     📄 Files WITHOUT ExportSpecifier (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   TSArrayType:
+     📄 Files WITH TSArrayType (showing 10):
+       • lib/kexec.d.ts
+       • packages/babel-traverse/src/visitors.ts
+       • packages/babel-traverse/src/types.ts
+       • packages/babel-traverse/src/traverse-node.ts
+       • packages/babel-traverse/src/index.ts
+       • packages/babel-traverse/src/context.ts
+       • packages/babel-standalone/src/transformScriptTags.ts
+       • packages/babel-preset-flow/src/index.ts
+       • packages/babel-preset-env/src/plugins-compat-data.ts
+       • packages/babel-preset-env/src/normalize-options.ts
+     📄 Files WITHOUT TSArrayType (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   TSObjectKeyword:
+     📄 Files WITH TSObjectKeyword (showing 10):
+       • packages/babel-preset-env/src/plugins-compat-data.ts
+       • packages/babel-plugin-transform-block-scoping/src/loop.ts
+       • packages/babel-plugin-syntax-import-assertions/src/index.ts
+       • packages/babel-plugin-proposal-record-and-tuple/src/index.ts
+       • packages/babel-parser/src/types.ts
+       • packages/babel-parser/src/parse-error.ts
+       • packages/babel-helper-validator-option/src/validator.ts
+       • packages/babel-helper-transform-fixture-test-runner/src/helpers.ts
+       • packages/babel-helper-plugin-utils/src/index.ts
+       • packages/babel-helper-module-transforms/src/rewrite-live-references.ts
+     📄 Files WITHOUT TSObjectKeyword (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   TSMethodSignature:
+     📄 Files WITH TSMethodSignature (showing 10):
+       • scripts/babel-plugin-bit-decorator/types.d.ts
+       • packages/babel-traverse/src/hub.ts
+       • packages/babel-plugin-transform-modules-commonjs/src/hooks.ts
+       • packages/babel-parser/src/types.ts
+       • packages/babel-helper-string-parser/src/index.ts
+       • packages/babel-helper-replace-supers/src/index.ts
+       • packages/babel-helper-member-expression-to-functions/src/index.ts
+       • packages/babel-helper-create-class-features-plugin/src/fields.ts
+       • packages/babel-generator/src/printer.ts
+       • packages/babel-generator/src/index.ts
+     📄 Files WITHOUT TSMethodSignature (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   TSAnyKeyword:
+     📄 Files WITH TSAnyKeyword (showing 10):
+       • packages/babel-traverse/src/visitors.ts
+       • packages/babel-traverse/src/index.ts
+       • packages/babel-traverse/src/hub.ts
+       • packages/babel-standalone/src/preset-stage-3.ts
+       • packages/babel-standalone/src/preset-stage-2.ts
+       • packages/babel-standalone/src/preset-stage-1.ts
+       • packages/babel-standalone/src/preset-stage-0.ts
+       • packages/babel-standalone/src/preset-es2015.ts
+       • packages/babel-standalone/src/plugin-utils-shim.ts
+       • packages/babel-standalone/src/make-noop-plugin.ts
+     📄 Files WITHOUT TSAnyKeyword (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   TSInterfaceDeclaration:
+     📄 Files WITH TSInterfaceDeclaration (showing 10):
+       • lib/libdom-minimal.d.ts
+       • lib/globals.d.ts
+       • packages/babel-traverse/src/types.ts
+       • packages/babel-traverse/src/hub.ts
+       • packages/babel-preset-typescript/src/normalize-options.ts
+       • packages/babel-preset-react/src/index.ts
+       • packages/babel-plugin-transform-unicode-property-regex/src/index.ts
+       • packages/babel-plugin-transform-typescript/src/index.ts
+       • packages/babel-plugin-transform-runtime/src/index.ts
+       • packages/babel-plugin-transform-template-literals/src/index.ts
+     📄 Files WITHOUT TSInterfaceDeclaration (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   TSInterfaceBody:
+     📄 Files WITH TSInterfaceBody (showing 10):
+       • lib/libdom-minimal.d.ts
+       • lib/globals.d.ts
+       • packages/babel-traverse/src/types.ts
+       • packages/babel-traverse/src/hub.ts
+       • packages/babel-preset-typescript/src/normalize-options.ts
+       • packages/babel-preset-react/src/index.ts
+       • packages/babel-plugin-transform-unicode-property-regex/src/index.ts
+       • packages/babel-plugin-transform-typescript/src/index.ts
+       • packages/babel-plugin-transform-runtime/src/index.ts
+       • packages/babel-plugin-transform-template-literals/src/index.ts
+     📄 Files WITHOUT TSInterfaceBody (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   TSThisType:
+     📄 Files WITH TSThisType (showing 5):
+       • packages/babel-traverse/src/path/index.ts
+       • packages/babel-parser/src/util/expression-scope.ts
+       • packages/babel-traverse/src/path/lib/virtual-types-validator.ts
+       • packages/babel-traverse/src/path/generated/validators.d.ts
+       • packages/babel-traverse/src/path/generated/asserts.d.ts
+     📄 Files WITHOUT TSThisType (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   SpreadElement:
+     📄 Files WITH SpreadElement (showing 10):
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/generate-babel-7-tests.mjs
+       • scripts/utils/logger.cjs
+     📄 Files WITHOUT SpreadElement (showing 10):
+       • yarn.config.cjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-dependency-condition.js
+       • scripts/rollup-plugin-babel-source.js
+       • scripts/rename-proposal-to-transform.js
+       • scripts/postinstall.js
+       • scripts/pack-script.js
+       • scripts/clone-license.js
+       • scripts/cleanup-fixtures.js
+       • scripts/assert-dir-git-clean.js
+
+   ForOfStatement:
+     📄 Files WITH ForOfStatement (showing 10):
+       • yarn.config.cjs
+       • babel.config.js
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/rename-proposal-to-transform.js
+       • scripts/generate-babel-7-tests.mjs
+       • scripts/cleanup-fixtures.js
+       • benchmark/update-baselines.mjs
+       • test/esm/test-runner.js
+     📄 Files WITHOUT ForOfStatement (showing 10):
+       • jest.config.js
+       • eslint.config.mjs
+       • babel-worker.cjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+       • scripts/rollup-plugin-babel-source.js
+       • scripts/postinstall.js
+       • scripts/pack-script.js
+       • scripts/clone-license.js
+
+   UpdateExpression:
+     📄 Files WITH UpdateExpression (showing 10):
+       • babel.config.js
+       • Makefile.mjs
+       • scripts/parallel-tsc/tsc.js
+       • scripts/generators/tsconfig.js
+       • scripts/actions/repl.js
+       • eslint/babel-eslint-parser/test/typescript-estree.test.js
+       • packages/babel-traverse/test/traverse.js
+       • packages/babel-traverse/test/replacement.js
+       • packages/babel-traverse/test/modification.js
+       • packages/babel-traverse/src/visitors.ts
+     📄 Files WITHOUT UpdateExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+       • scripts/rollup-plugin-babel-source.js
+
+   AssignmentPattern:
+     📄 Files WITH AssignmentPattern (showing 10):
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/parser-tests/utils/parser-test-runner.js
+       • scripts/parser-tests/typescript/index.js
+       • scripts/parser-tests/flow/index.js
+       • eslint/babel-eslint-parser/test/typescript-estree.test.js
+       • eslint/babel-eslint-parser/test/index.js
+       • packages/babel-traverse/test/introspection.js
+     📄 Files WITHOUT AssignmentPattern (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+       • scripts/rollup-plugin-babel-source.js
+       • scripts/rename-proposal-to-transform.js
+       • scripts/postinstall.js
+
+   TSTypeLiteral:
+     📄 Files WITH TSTypeLiteral (showing 10):
+       • lib/third-party-libs.d.ts
+       • lib/regexpu-core.d.ts
+       • lib/globals.d.ts
+       • lib/archived-libs.d.ts
+       • scripts/babel-plugin-bit-decorator/types.d.ts
+       • packages/babel-traverse/src/index.ts
+       • packages/babel-standalone/src/transformScriptTags.ts
+       • packages/babel-standalone/src/index.ts
+       • packages/babel-template/src/parse.ts
+       • packages/babel-template/src/options.ts
+     📄 Files WITHOUT TSTypeLiteral (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   TSNumberKeyword:
+     📄 Files WITH TSNumberKeyword (showing 10):
+       • lib/regexpu-core.d.ts
+       • lib/globals.d.ts
+       • scripts/babel-plugin-bit-decorator/types.d.ts
+       • packages/babel-traverse/src/context.ts
+       • packages/babel-template/src/parse.ts
+       • packages/babel-preset-env/src/normalize-options.ts
+       • packages/babel-preset-env/src/available-plugins.ts
+       • packages/babel-plugin-transform-typescript/src/enum.ts
+       • packages/babel-plugin-transform-unicode-escapes/src/index.ts
+       • packages/babel-plugin-transform-runtime/src/index.ts
+     📄 Files WITHOUT TSNumberKeyword (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   TSTypeAliasDeclaration:
+     📄 Files WITH TSTypeAliasDeclaration (showing 10):
+       • lib/regexpu-core.d.ts
+       • scripts/babel-plugin-bit-decorator/types.d.ts
+       • packages/babel-traverse/src/visitors.ts
+       • packages/babel-traverse/src/types.ts
+       • packages/babel-traverse/src/index.ts
+       • packages/babel-standalone/src/transformScriptTags.ts
+       • packages/babel-template/src/parse.ts
+       • packages/babel-template/src/options.ts
+       • packages/babel-template/src/index.ts
+       • packages/babel-template/src/formatters.ts
+     📄 Files WITHOUT TSTypeAliasDeclaration (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   TSInterfaceHeritage:
+     📄 Files WITH TSInterfaceHeritage (showing 10):
+       • packages/babel-traverse/src/types.ts
+       • packages/babel-plugin-transform-typescript/src/index.ts
+       • packages/babel-plugin-transform-modules-umd/src/index.ts
+       • packages/babel-plugin-transform-modules-systemjs/src/index.ts
+       • packages/babel-plugin-transform-modules-commonjs/src/index.ts
+       • packages/babel-plugin-transform-modules-amd/src/index.ts
+       • packages/babel-plugin-transform-destructuring/src/util.ts
+       • packages/babel-plugin-proposal-record-and-tuple/src/index.ts
+       • packages/babel-plugin-proposal-decorators/src/index.ts
+       • packages/babel-parser/src/types.ts
+     📄 Files WITHOUT TSInterfaceHeritage (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   YieldExpression:
+     📄 Files WITH YieldExpression (showing 10):
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/parser-tests/utils/parser-test-runner.js
+       • scripts/parser-tests/typescript/index.js
+       • scripts/parser-tests/test262/index.js
+       • scripts/parser-tests/flow/index.js
+       • packages/babel-plugin-transform-object-rest-spread/src/index.ts
+       • packages/babel-plugin-proposal-discard-binding/src/utils.ts
+       • packages/babel-plugin-proposal-destructuring-private/test/util.skip-bundled.js
+       • packages/babel-plugin-proposal-destructuring-private/src/util.ts
+     📄 Files WITHOUT YieldExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+       • scripts/rollup-plugin-babel-source.js
+
+   ExportDefaultDeclaration:
+     📄 Files WITH ExportDefaultDeclaration (showing 10):
+       • eslint.config.mjs
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+       • scripts/rollup-plugin-babel-source.js
+       • lib/regexpu-core.d.ts
+       • test/esm/test-runner.js
+       • test/esm/babel-runtime.js
+       • test/esm/babel-runtime-corejs3.js
+       • scripts/utils/formatCode.js
+       • scripts/actions/repl.js
+     📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rename-proposal-to-transform.js
+       • scripts/postinstall.js
+
+   TSTypeParameter:
+     📄 Files WITH TSTypeParameter (showing 10):
+       • lib/libdom-minimal.d.ts
+       • scripts/babel-plugin-bit-decorator/types.d.ts
+       • packages/babel-traverse/src/visitors.ts
+       • packages/babel-traverse/src/types.ts
+       • packages/babel-traverse/src/traverse-node.ts
+       • packages/babel-traverse/src/index.ts
+       • packages/babel-traverse/src/context.ts
+       • packages/babel-template/src/string.ts
+       • packages/babel-template/src/parse.ts
+       • packages/babel-template/src/literal.ts
+     📄 Files WITHOUT TSTypeParameter (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   TSVoidKeyword:
+     📄 Files WITH TSVoidKeyword (showing 10):
+       • lib/regexpu-core.d.ts
+       • lib/babel-plugin-dynamic-import-node.d.ts
+       • scripts/babel-plugin-bit-decorator/types.d.ts
+       • packages/babel-traverse/src/types.ts
+       • packages/babel-traverse/src/index.ts
+       • packages/babel-traverse/src/hub.ts
+       • packages/babel-standalone/src/transformScriptTags.ts
+       • packages/babel-standalone/src/index.ts
+       • packages/babel-template/src/options.ts
+       • packages/babel-template/src/formatters.ts
+     📄 Files WITHOUT TSVoidKeyword (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   BreakStatement:
+     📄 Files WITH BreakStatement (showing 10):
+       • babel.config.js
+       • Makefile.mjs
+       • scripts/rename-proposal-to-transform.js
+       • scripts/babel-plugin-bit-decorator/plugin.cjs
+       • scripts/actions/repl.js
+       • eslint/babel-eslint-parser/test/typescript-estree.test.js
+       • packages/babel-traverse/src/traverse-node.ts
+       • packages/babel-traverse/src/context.ts
+       • packages/babel-standalone/src/transformScriptTags.ts
+       • packages/babel-plugin-transform-typescript/src/namespace.ts
+     📄 Files WITHOUT BreakStatement (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+       • scripts/rollup-plugin-babel-source.js
+
+   ForStatement:
+     📄 Files WITH ForStatement (showing 10):
+       • babel.config.js
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • scripts/parallel-tsc/tsc.js
+       • scripts/generators/tsconfig.js
+       • scripts/actions/repl.js
+       • eslint/babel-eslint-parser/test/typescript-estree.test.js
+       • packages/babel-traverse/src/visitors.ts
+       • packages/babel-traverse/src/traverse-node.ts
+       • packages/babel-traverse/src/context.ts
+     📄 Files WITHOUT ForStatement (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel-worker.cjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+       • scripts/rollup-plugin-babel-source.js
+       • scripts/rename-proposal-to-transform.js
+
+   TryStatement:
+     📄 Files WITH TryStatement (showing 10):
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-babel-source.js
+       • scripts/rename-proposal-to-transform.js
+       • scripts/generate-babel-7-tests.mjs
+       • test/esm/test-runner.js
+     📄 Files WITHOUT TryStatement (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+       • scripts/postinstall.js
+       • scripts/pack-script.js
+       • scripts/clone-license.js
+       • scripts/cleanup-fixtures.js
+       • scripts/assert-dir-git-clean.js
+
+   TSIndexedAccessType:
+     📄 Files WITH TSIndexedAccessType (showing 10):
+       • packages/babel-traverse/src/types.ts
+       • packages/babel-traverse/src/index.ts
+       • packages/babel-standalone/src/transformScriptTags.ts
+       • packages/babel-standalone/src/index.ts
+       • packages/babel-preset-env/src/types.d.ts
+       • packages/babel-preset-env/src/plugins-compat-data.ts
+       • packages/babel-preset-env/src/normalize-options.ts
+       • packages/babel-preset-env/src/index.ts
+       • packages/babel-preset-env/src/available-plugins.ts
+       • packages/babel-plugin-transform-react-jsx/src/create-plugin.ts
+     📄 Files WITHOUT TSIndexedAccessType (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   TSTypeParameterDeclaration:
+     📄 Files WITH TSTypeParameterDeclaration (showing 10):
+       • lib/libdom-minimal.d.ts
+       • scripts/babel-plugin-bit-decorator/types.d.ts
+       • packages/babel-traverse/src/visitors.ts
+       • packages/babel-traverse/src/types.ts
+       • packages/babel-traverse/src/traverse-node.ts
+       • packages/babel-traverse/src/index.ts
+       • packages/babel-traverse/src/context.ts
+       • packages/babel-template/src/string.ts
+       • packages/babel-template/src/parse.ts
+       • packages/babel-template/src/literal.ts
+     📄 Files WITHOUT TSTypeParameterDeclaration (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   PropertyDefinition:
+     📄 Files WITH PropertyDefinition (showing 10):
+       • Makefile.mjs
+       • scripts/parallel-tsc/tsc.js
+       • packages/babel-traverse/src/context.ts
+       • packages/babel-plugin-transform-destructuring/src/util.ts
+       • packages/babel-helper-validator-option/src/validator.ts
+       • packages/babel-helper-replace-supers/src/index.ts
+       • packages/babel-helper-module-imports/src/import-injector.ts
+       • packages/babel-helper-module-imports/src/import-builder.ts
+       • packages/babel-helper-member-expression-to-functions/src/index.ts
+       • packages/babel-generator/src/token-map.ts
+     📄 Files WITHOUT PropertyDefinition (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+
+   ChainExpression:
+     📄 Files WITH ChainExpression (showing 10):
+       • yarn.config.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/rename-proposal-to-transform.js
+       • scripts/parallel-tsc/tsc.js
+       • scripts/generators/tsconfig.js
+       • scripts/parser-tests/typescript/index.js
+       • packages/babel-traverse/src/visitors.ts
+       • packages/babel-traverse/src/traverse-node.ts
+     📄 Files WITHOUT ChainExpression (showing 10):
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+       • scripts/rollup-plugin-babel-source.js
+       • scripts/postinstall.js
+       • scripts/pack-script.js
+
+   TSFunctionType:
+     📄 Files WITH TSFunctionType (showing 10):
+       • lib/regexpu-core.d.ts
+       • lib/babel-plugin-dynamic-import-node.d.ts
+       • scripts/babel-plugin-bit-decorator/types.d.ts
+       • packages/babel-traverse/src/visitors.ts
+       • packages/babel-traverse/src/types.ts
+       • packages/babel-traverse/src/index.ts
+       • packages/babel-standalone/src/transformScriptTags.ts
+       • packages/babel-standalone/src/index.ts
+       • packages/babel-template/src/string.ts
+       • packages/babel-template/src/parse.ts
+     📄 Files WITHOUT TSFunctionType (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   CatchClause:
+     📄 Files WITH CatchClause (showing 10):
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-babel-source.js
+       • scripts/rename-proposal-to-transform.js
+       • scripts/generate-babel-7-tests.mjs
+       • test/esm/test-runner.js
+     📄 Files WITHOUT CatchClause (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+       • scripts/postinstall.js
+       • scripts/pack-script.js
+       • scripts/clone-license.js
+       • scripts/cleanup-fixtures.js
+       • scripts/assert-dir-git-clean.js
+
+   AwaitExpression:
+     📄 Files WITH AwaitExpression (showing 10):
+       • babel-worker.cjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/rename-proposal-to-transform.js
+       • scripts/pack-script.js
+       • test/esm/test-runner.js
+       • test/esm/index.js
+       • scripts/utils/formatCode.js
+       • scripts/parallel-tsc/tsc.js
+       • scripts/actions/repl.js
+     📄 Files WITHOUT AwaitExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • Makefile.source.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+       • scripts/rollup-plugin-babel-source.js
+       • scripts/postinstall.js
+
+   ImportNamespaceSpecifier:
+     📄 Files WITH ImportNamespaceSpecifier (showing 10):
+       • lib/babel-plugin-dynamic-import-node.d.ts
+       • benchmark/util.mjs
+       • scripts/utils/formatCode.js
+       • packages/babel-traverse/test/traverse.js
+       • packages/babel-traverse/test/scope.js
+       • packages/babel-traverse/test/replacement.js
+       • packages/babel-traverse/test/modification.js
+       • packages/babel-traverse/test/inference.js
+       • packages/babel-traverse/test/family.js
+       • packages/babel-traverse/test/conversion.js
+     📄 Files WITHOUT ImportNamespaceSpecifier (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   Super:
+     📄 Files WITH Super (showing 10):
+       • Makefile.mjs
+       • packages/babel-plugin-transform-regenerator/src/regenerator/leap.ts
+       • packages/babel-plugin-transform-regenerator/test/regenerator-fixtures/class.js
+       • packages/babel-plugin-transform-regenerator/test/regenerator-fixtures/async.js
+       • packages/babel-parser/src/util/expression-scope.ts
+       • packages/babel-parser/src/tokenizer/index.ts
+       • packages/babel-parser/src/plugins/v8intrinsic.ts
+       • packages/babel-parser/src/plugins/placeholders.ts
+       • packages/babel-parser/src/plugins/estree.ts
+       • packages/babel-parser/src/parser/index.ts
+     📄 Files WITHOUT Super (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+
+   MetaProperty:
+     📄 Files WITH MetaProperty (showing 10):
+       • eslint.config.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-babel-source.js
+       • scripts/pack-script.js
+       • benchmark/update-baselines.mjs
+       • scripts/parallel-tsc/tsc.js
+       • scripts/generators/tsconfig.js
+       • scripts/generators/readmes.js
+     📄 Files WITHOUT MetaProperty (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • scripts/rollup-plugin-dependency-condition.js
+       • scripts/rename-proposal-to-transform.js
+       • scripts/postinstall.js
+       • scripts/generate-babel-7-tests.mjs
+
+   TSUnknownKeyword:
+     📄 Files WITH TSUnknownKeyword (showing 10):
+       • scripts/babel-plugin-bit-decorator/types.d.ts
+       • packages/babel-traverse/src/visitors.ts
+       • packages/babel-traverse/src/types.ts
+       • packages/babel-traverse/src/traverse-node.ts
+       • packages/babel-traverse/src/context.ts
+       • packages/babel-standalone/src/index.ts
+       • packages/babel-template/src/string.ts
+       • packages/babel-template/src/options.ts
+       • packages/babel-template/src/literal.ts
+       • packages/babel-template/src/builder.ts
+     📄 Files WITHOUT TSUnknownKeyword (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   ContinueStatement:
+     📄 Files WITH ContinueStatement (showing 10):
+       • yarn.config.cjs
+       • babel.config.js
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/cleanup-fixtures.js
+       • benchmark/update-baselines.mjs
+       • test/runtime-integration/generate-absolute-runtime.cjs
+       • scripts/parallel-tsc/tsc.js
+       • scripts/generators/npm-ignore.js
+       • scripts/parser-tests/typescript/index.js
+     📄 Files WITHOUT ContinueStatement (showing 10):
+       • jest.config.js
+       • eslint.config.mjs
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+       • scripts/rollup-plugin-babel-source.js
+       • scripts/rename-proposal-to-transform.js
+       • scripts/postinstall.js
+
+   TSTypeQuery:
+     📄 Files WITH TSTypeQuery (showing 10):
+       • lib/third-party-libs.d.ts
+       • lib/babel-plugin-dynamic-import-node.d.ts
+       • lib/archived-libs.d.ts
+       • packages/babel-traverse/src/visitors.ts
+       • packages/babel-standalone/src/transformScriptTags.ts
+       • packages/babel-standalone/src/index.ts
+       • packages/babel-template/src/index.ts
+       • packages/babel-preset-env/src/types.d.ts
+       • packages/babel-preset-env/src/shipped-proposals.ts
+       • packages/babel-preset-env/src/plugins-compat-data.ts
+     📄 Files WITHOUT TSTypeQuery (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   ArrayPattern:
+     📄 Files WITH ArrayPattern (showing 10):
+       • Makefile.mjs
+       • test/esm/test-runner.js
+       • test/runtime-integration/node.cjs
+       • scripts/parallel-tsc/tsc.js
+       • scripts/generators/tsconfig.js
+       • scripts/parser-tests/typescript/index.js
+       • scripts/parser-tests/flow/index.js
+       • eslint/babel-eslint-parser/test/typescript-estree.test.js
+       • eslint/babel-eslint-parser/test/index.js
+       • packages/babel-traverse/test/scope.js
+     📄 Files WITHOUT ArrayPattern (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+
+   SwitchStatement:
+     📄 Files WITH SwitchStatement (showing 10):
+       • babel.config.js
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • eslint/babel-eslint-parser/test/typescript-estree.test.js
+       • packages/babel-traverse/test/scope.js
+       • packages/babel-types/test/fields.js
+       • packages/babel-plugin-transform-typescript/src/namespace.ts
+       • packages/babel-plugin-transform-typescript/src/index.ts
+       • packages/babel-plugin-transform-typescript/src/enum.ts
+       • packages/babel-plugin-transform-react-jsx/src/create-plugin.ts
+     📄 Files WITHOUT SwitchStatement (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+       • scripts/rollup-plugin-babel-source.js
+       • scripts/rename-proposal-to-transform.js
+
+   TaggedTemplateExpression:
+     📄 Files WITH TaggedTemplateExpression (showing 10):
+       • babel.config.js
+       • Gulpfile.mjs
+       • scripts/babel-plugin-bit-decorator/plugin.cjs
+       • packages/babel-preset-typescript/src/plugin-rewrite-ts-imports.ts
+       • packages/babel-template/test/index.js
+       • packages/babel-preset-env/test/normalize-options.skip-bundled.js
+       • packages/babel-plugin-transform-typeof-symbol/test/helper.spec.js
+       • packages/babel-plugin-transform-typescript/src/namespace.ts
+       • packages/babel-plugin-transform-typescript/src/index.ts
+       • packages/babel-plugin-transform-runtime/scripts/build-dist.js
+     📄 Files WITHOUT TaggedTemplateExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+       • scripts/rollup-plugin-babel-source.js
+
+   TSEnumMember:
+     📄 Files WITH TSEnumMember (showing 10):
+       • packages/babel-plugin-transform-explicit-resource-management/src/index.ts
+       • packages/babel-parser/src/options.ts
+       • packages/babel-helper-replace-supers/src/index.ts
+       • packages/babel-helper-create-class-features-plugin/src/fields.ts
+       • packages/babel-generator/src/printer.ts
+       • packages/babel-plugin-transform-regenerator/src/regenerator/emit.ts
+       • packages/babel-parser/src/util/scopeflags.ts
+       • packages/babel-parser/src/util/scope.ts
+       • packages/babel-parser/src/util/production-parameter.ts
+       • packages/babel-parser/src/util/expression-scope.ts
+     📄 Files WITHOUT TSEnumMember (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   PrivateIdentifier:
+     📄 Files WITH PrivateIdentifier (showing 2):
+       • Makefile.mjs
+       • scripts/parallel-tsc/tsc.js
+     📄 Files WITHOUT PrivateIdentifier (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+
+   TSIntersectionType:
+     📄 Files WITH TSIntersectionType (showing 10):
+       • scripts/babel-plugin-bit-decorator/types.d.ts
+       • packages/babel-traverse/src/index.ts
+       • packages/babel-template/src/options.ts
+       • packages/babel-template/src/index.ts
+       • packages/babel-preset-env/src/types.d.ts
+       • packages/babel-preset-env/src/plugins-compat-data.ts
+       • packages/babel-plugin-transform-typescript/src/namespace.ts
+       • packages/babel-plugin-transform-typescript/src/index.ts
+       • packages/babel-plugin-transform-typescript/src/const-enum.ts
+       • packages/babel-plugin-transform-react-display-name/src/index.ts
+     📄 Files WITHOUT TSIntersectionType (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   WhileStatement:
+     📄 Files WITH WhileStatement (showing 10):
+       • test/runtime-integration/node.cjs
+       • scripts/parallel-tsc/tsc.js
+       • scripts/generators/tsconfig.js
+       • packages/babel-plugin-transform-typescript/src/namespace.ts
+       • packages/babel-plugin-transform-unicode-escapes/src/index.ts
+       • packages/babel-plugin-transform-react-constant-elements/src/index.ts
+       • packages/babel-plugin-transform-private-property-in-object/src/index.ts
+       • packages/babel-plugin-transform-optional-chaining/src/transform.ts
+       • packages/babel-plugin-transform-new-target/src/index.ts
+       • packages/babel-plugin-proposal-do-expressions/src/index.ts
+     📄 Files WITHOUT WhileStatement (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   TSTupleType:
+     📄 Files WITH TSTupleType (showing 10):
+       • packages/babel-preset-env/src/types.d.ts
+       • packages/babel-preset-env/src/shipped-proposals.ts
+       • packages/babel-plugin-transform-typescript/src/enum.ts
+       • packages/babel-plugin-transform-react-pure-annotations/src/index.ts
+       • packages/babel-plugin-transform-react-display-name/src/index.ts
+       • packages/babel-plugin-transform-object-rest-spread/src/index.ts
+       • packages/babel-plugin-transform-for-of/src/index.ts
+       • packages/babel-plugin-transform-flow-comments/src/index.ts
+       • packages/babel-plugin-transform-block-scoping/src/loop.ts
+       • packages/babel-plugin-syntax-import-assertions/src/index.ts
+     📄 Files WITHOUT TSTupleType (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   ClassBody:
+     📄 Files WITH ClassBody (showing 10):
+       • Makefile.mjs
+       • benchmark/util.mjs
+       • scripts/parallel-tsc/tsc.js
+       • scripts/parser-tests/utils/parser-test-runner.js
+       • packages/babel-traverse/src/hub.ts
+       • packages/babel-traverse/src/context.ts
+       • packages/babel-plugin-transform-destructuring/src/util.ts
+       • packages/babel-helper-validator-option/src/validator.ts
+       • packages/babel-helper-replace-supers/src/index.ts
+       • packages/babel-helper-module-imports/src/import-injector.ts
+     📄 Files WITHOUT ClassBody (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+
+   RestElement:
+     📄 Files WITH RestElement (showing 10):
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/utils/logger.cjs
+       • scripts/parser-tests/utils/parser-test-runner.js
+       • packages/babel-template/src/options.ts
+       • packages/babel-template/src/builder.ts
+       • packages/babel-plugin-transform-modules-commonjs/src/hooks.ts
+       • packages/babel-parser/src/plugin-utils.ts
+       • packages/babel-parser/src/parse-error.ts
+     📄 Files WITHOUT RestElement (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+       • scripts/rollup-plugin-babel-source.js
+       • scripts/rename-proposal-to-transform.js
+
+   TSParenthesizedType:
+     📄 Files WITH TSParenthesizedType (showing 10):
+       • packages/babel-traverse/src/visitors.ts
+       • packages/babel-preset-env/src/types.d.ts
+       • packages/babel-preset-env/src/plugins-compat-data.ts
+       • packages/babel-plugin-transform-typescript/src/index.ts
+       • packages/babel-plugin-transform-object-rest-spread/src/shouldStoreRHSInTemporaryVariable.ts
+       • packages/babel-plugin-transform-modules-commonjs/src/lazy.ts
+       • packages/babel-plugin-transform-flow-comments/src/index.ts
+       • packages/babel-plugin-transform-duplicate-keys/src/index.ts
+       • packages/babel-plugin-transform-destructuring/src/util.ts
+       • packages/babel-plugin-transform-classes/src/transformClass.ts
+     📄 Files WITHOUT TSParenthesizedType (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   TSTypeOperator:
+     📄 Files WITH TSTypeOperator (showing 10):
+       • packages/babel-traverse/src/visitors.ts
+       • packages/babel-preset-typescript/src/normalize-options.ts
+       • packages/babel-preset-env/src/types.d.ts
+       • packages/babel-preset-env/src/shipped-proposals.ts
+       • packages/babel-preset-env/src/plugins-compat-data.ts
+       • packages/babel-preset-env/src/module-transformations.ts
+       • packages/babel-preset-env/src/filter-items.ts
+       • packages/babel-parser/src/parse-error.ts
+       • packages/babel-parser/src/options.ts
+       • packages/babel-parser/src/index.ts
+     📄 Files WITHOUT TSTypeOperator (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   ClassDeclaration:
+     📄 Files WITH ClassDeclaration (showing 10):
+       • Makefile.mjs
+       • benchmark/util.mjs
+       • scripts/parallel-tsc/tsc.js
+       • scripts/parser-tests/utils/parser-test-runner.js
+       • packages/babel-traverse/src/hub.ts
+       • packages/babel-traverse/src/context.ts
+       • packages/babel-plugin-transform-destructuring/src/util.ts
+       • packages/babel-helper-validator-option/src/validator.ts
+       • packages/babel-helper-replace-supers/src/index.ts
+       • packages/babel-helper-module-imports/src/import-injector.ts
+     📄 Files WITHOUT ClassDeclaration (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+
+   TSDeclareFunction:
+     📄 Files WITH TSDeclareFunction (showing 10):
+       • lib/regexpu-core.d.ts
+       • lib/kexec.d.ts
+       • lib/globals.d.ts
+       • lib/babel-plugin-dynamic-import-node.d.ts
+       • packages/babel-traverse/src/visitors.ts
+       • packages/babel-traverse/src/index.ts
+       • packages/babel-plugin-transform-block-scoping/src/validation.ts
+       • packages/babel-plugin-proposal-record-and-tuple/src/index.ts
+       • packages/babel-parser/typings/babel-parser.d.ts
+       • packages/babel-parser/src/parse-error.ts
+     📄 Files WITHOUT TSDeclareFunction (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   TSCallSignatureDeclaration:
+     📄 Files WITH TSCallSignatureDeclaration (showing 10):
+       • scripts/babel-plugin-bit-decorator/types.d.ts
+       • packages/babel-template/src/builder.ts
+       • packages/babel-core/src/transform.ts
+       • packages/babel-core/src/transform-file-browser.ts
+       • packages/babel-core/src/transform-ast.ts
+       • packages/babel-core/src/parse.ts
+       • packages/babel-types/src/retrievers/getOuterBindingIdentifiers.ts
+       • packages/babel-types/src/converters/valueToNode.ts
+       • packages/babel-types/src/converters/toStatement.ts
+       • packages/babel-types/src/converters/toExpression.ts
+     📄 Files WITHOUT TSCallSignatureDeclaration (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   DoWhileStatement:
+     📄 Files WITH DoWhileStatement (showing 10):
+       • Makefile.mjs
+       • packages/babel-template/src/literal.ts
+       • packages/babel-plugin-transform-typescript/src/index.ts
+       • packages/babel-plugin-transform-react-jsx-self/src/index.ts
+       • packages/babel-plugin-transform-react-jsx/src/create-plugin.ts
+       • packages/babel-plugin-transform-modules-commonjs/src/index.ts
+       • packages/babel-plugin-transform-flow-strip-types/src/index.ts
+       • packages/babel-plugin-transform-class-static-block/src/index.ts
+       • packages/babel-plugin-transform-block-scoping/src/annex-B_3_3.ts
+       • packages/babel-helper-module-transforms/src/rewrite-live-references.ts
+     📄 Files WITHOUT DoWhileStatement (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+
+   TSIndexSignature:
+     📄 Files WITH TSIndexSignature (showing 10):
+       • packages/babel-traverse/src/types.ts
+       • packages/babel-standalone/src/index.ts
+       • packages/babel-template/src/options.ts
+       • packages/babel-preset-env/src/plugins-compat-data.ts
+       • packages/babel-preset-env/src/module-transformations.ts
+       • packages/babel-preset-env/src/index.ts
+       • packages/babel-preset-env/src/filter-items.ts
+       • packages/babel-preset-env/src/debug.ts
+       • packages/babel-parser/typings/babel-parser.source.d.ts
+       • packages/babel-parser/typings/babel-parser.d.ts
+     📄 Files WITHOUT TSIndexSignature (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   TSNonNullExpression:
+     📄 Files WITH TSNonNullExpression (showing 10):
+       • packages/babel-helper-create-class-features-plugin/src/decorators.ts
+       • packages/babel-helpers/src/helpers/wrapRegExp.ts
+       • packages/babel-helpers/src/helpers/wrapAsyncGenerator.ts
+       • packages/babel-helpers/src/helpers/setFunctionName.ts
+       • packages/babel-helpers/src/helpers/set.ts
+       • packages/babel-helpers/src/helpers/regeneratorRuntime.ts
+       • packages/babel-helpers/src/helpers/regeneratorKeys.ts
+       • packages/babel-helpers/src/helpers/regenerator.ts
+       • packages/babel-helpers/src/helpers/objectSpread2.ts
+       • packages/babel-helpers/src/helpers/objectSpread.ts
+     📄 Files WITHOUT TSNonNullExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   ForInStatement:
+     📄 Files WITH ForInStatement (showing 10):
+       • Makefile.mjs
+       • scripts/rollup-plugin-babel-source.js
+       • packages/babel-standalone/src/index.ts
+       • packages/babel-types/test/fields.js
+       • packages/babel-plugin-transform-typescript/src/namespace.ts
+       • packages/babel-helper-fixtures/src/index.ts
+       • packages/babel-helper-compilation-targets/src/filter-items.ts
+       • packages/babel-compat-data/scripts/utils-build-data.mjs
+       • benchmark/babel-types/builders/stringLiteral.mjs
+       • benchmark/babel-types/builders/multiple.mjs
+     📄 Files WITHOUT ForInStatement (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+
+   TSConditionalType:
+     📄 Files WITH TSConditionalType (showing 10):
+       • packages/babel-parser/typings/babel-parser.d.ts
+       • packages/babel-parser/src/typings.d.ts
+       • packages/babel-parser/src/parse-error.ts
+       • packages/babel-traverse/src/path/modification.ts
+       • packages/babel-traverse/src/path/index.ts
+       • packages/babel-traverse/src/path/family.ts
+       • packages/babel-parser/src/parse-error/pipeline-operator-errors.ts
+       • packages/babel-helpers/src/helpers/unsupportedIterableToArray.ts
+       • packages/babel-helpers/src/helpers/objectSpread2.ts
+       • packages/babel-helpers/src/helpers/objectSpread.ts
+     📄 Files WITHOUT TSConditionalType (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   TSEmptyBodyFunctionExpression:
+     📄 Files WITH TSEmptyBodyFunctionExpression (showing 10):
+       • packages/babel-traverse/src/path/index.ts
+       • packages/babel-parser/src/parser/util.ts
+       • packages/babel-parser/src/parser/statement.ts
+       • packages/babel-parser/src/parser/lval.ts
+       • packages/babel-parser/src/parser/expression.ts
+       • packages/babel-helpers/src/helpers/wrapRegExp.ts
+       • packages/babel-helpers/src/helpers/wrapAsyncGenerator.ts
+       • packages/babel-helpers/src/helpers/asyncIterator.ts
+       • packages/babel-helpers/src/helpers/OverloadYield.ts
+       • packages/babel-parser/src/plugins/typescript/index.ts
+     📄 Files WITHOUT TSEmptyBodyFunctionExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   TSModuleDeclaration:
+     📄 Files WITH TSModuleDeclaration (showing 7):
+       • lib/third-party-libs.d.ts
+       • lib/regexpu-core.d.ts
+       • lib/kexec.d.ts
+       • lib/globals.d.ts
+       • lib/babel-plugin-dynamic-import-node.d.ts
+       • lib/archived-libs.d.ts
+       • packages/babel-traverse/src/scope/index.ts
+     📄 Files WITHOUT TSModuleDeclaration (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   TSModuleBlock:
+     📄 Files WITH TSModuleBlock (showing 7):
+       • lib/third-party-libs.d.ts
+       • lib/regexpu-core.d.ts
+       • lib/kexec.d.ts
+       • lib/globals.d.ts
+       • lib/babel-plugin-dynamic-import-node.d.ts
+       • lib/archived-libs.d.ts
+       • packages/babel-traverse/src/scope/index.ts
+     📄 Files WITHOUT TSModuleBlock (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   TSExportAssignment:
+     📄 Files WITH TSExportAssignment (showing 3):
+       • lib/third-party-libs.d.ts
+       • lib/kexec.d.ts
+       • lib/archived-libs.d.ts
+     📄 Files WITHOUT TSExportAssignment (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   ExportAllDeclaration:
+     📄 Files WITH ExportAllDeclaration (showing 8):
+       • lib/third-party-libs.d.ts
+       • scripts/repo-utils/babel.js
+       • packages/babel-standalone/src/packages.ts
+       • packages/babel-standalone/src/index.ts
+       • packages/babel-types/src/index.ts
+       • packages/babel-core/src/index.ts
+       • packages/babel-generator/src/generators/index.ts
+       • packages/babel-types/src/builders/generated/index.ts
+     📄 Files WITHOUT ExportAllDeclaration (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   ImportAttribute:
+     📄 Files WITH ImportAttribute (showing 10):
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/generators/tsconfig.js
+       • scripts/generators/archived-libs-typings.js
+       • packages/babel-types/src/index.ts
+       • packages/babel-preset-env/src/plugins-compat-data.ts
+       • packages/babel-preset-env/src/normalize-options.ts
+       • packages/babel-preset-env/src/index.ts
+       • packages/babel-preset-env/src/debug.ts
+       • packages/babel-preset-env/src/available-plugins.ts
+       • packages/babel-plugin-transform-runtime/src/index.ts
+     📄 Files WITHOUT ImportAttribute (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-dependency-condition.js
+
+   TSEnumDeclaration:
+     📄 Files WITH TSEnumDeclaration (showing 10):
+       • packages/babel-plugin-transform-explicit-resource-management/src/index.ts
+       • packages/babel-parser/src/options.ts
+       • packages/babel-helper-replace-supers/src/index.ts
+       • packages/babel-helper-create-class-features-plugin/src/fields.ts
+       • packages/babel-generator/src/printer.ts
+       • packages/babel-plugin-transform-regenerator/src/regenerator/emit.ts
+       • packages/babel-parser/src/util/scopeflags.ts
+       • packages/babel-parser/src/util/scope.ts
+       • packages/babel-parser/src/util/production-parameter.ts
+       • packages/babel-parser/src/util/expression-scope.ts
+     📄 Files WITHOUT TSEnumDeclaration (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   TSEnumBody:
+     📄 Files WITH TSEnumBody (showing 10):
+       • packages/babel-plugin-transform-explicit-resource-management/src/index.ts
+       • packages/babel-parser/src/options.ts
+       • packages/babel-helper-replace-supers/src/index.ts
+       • packages/babel-helper-create-class-features-plugin/src/fields.ts
+       • packages/babel-generator/src/printer.ts
+       • packages/babel-plugin-transform-regenerator/src/regenerator/emit.ts
+       • packages/babel-parser/src/util/scopeflags.ts
+       • packages/babel-parser/src/util/scope.ts
+       • packages/babel-parser/src/util/production-parameter.ts
+       • packages/babel-parser/src/util/expression-scope.ts
+     📄 Files WITHOUT TSEnumBody (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   TSNamedTupleMember:
+     📄 Files WITH TSNamedTupleMember (showing 9):
+       • packages/babel-plugin-transform-typescript/src/enum.ts
+       • packages/babel-plugin-bugfix-v8-static-class-fields-redefine-readonly/src/util.ts
+       • packages/babel-helpers/src/helpers/regenerator.ts
+       • packages/babel-helpers/src/helpers/extends.ts
+       • packages/babel-helpers/src/helpers/applyDecs2311.ts
+       • packages/babel-helpers/src/helpers/applyDecs2305.ts
+       • packages/babel-core/src/gensync-utils/fs.ts
+       • packages/babel-core/src/gensync-utils/async.ts
+       • packages/babel-core/src/config/caching.ts
+     📄 Files WITHOUT TSNamedTupleMember (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   TSNeverKeyword:
+     📄 Files WITH TSNeverKeyword (showing 10):
+       • packages/babel-parser/typings/babel-parser.d.ts
+       • packages/babel-parser/src/typings.d.ts
+       • packages/babel-core/src/transform-file-browser.ts
+       • packages/babel-traverse/src/path/modification.ts
+       • packages/babel-traverse/src/path/index.ts
+       • packages/babel-traverse/src/path/family.ts
+       • packages/babel-parser/src/tokenizer/index.ts
+       • packages/babel-parser/src/parser/util.ts
+       • packages/babel-parser/src/parser/node.ts
+       • packages/babel-helpers/src/helpers/unsupportedIterableToArray.ts
+     📄 Files WITHOUT TSNeverKeyword (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   TSSymbolKeyword:
+     📄 Files WITH TSSymbolKeyword (showing 10):
+       • packages/babel-traverse/src/scope/index.ts
+       • packages/babel-traverse/src/path/index.ts
+       • packages/babel-types/src/modifications/removeProperties.ts
+       • packages/babel-helpers/src/helpers/setFunctionName.ts
+       • packages/babel-helpers/src/helpers/objectSpread2.ts
+       • packages/babel-helpers/src/helpers/jsx.ts
+       • packages/babel-helpers/src/helpers/importDeferProxy.ts
+       • packages/babel-helpers/src/helpers/defineEnumerableProperties.ts
+       • packages/babel-helpers/src/helpers/defineAccessor.ts
+       • packages/babel-helpers/src/helpers/applyDecs2311.ts
+     📄 Files WITHOUT TSSymbolKeyword (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   LabeledStatement:
+     📄 Files WITH LabeledStatement (showing 8):
+       • babel.config.js
+       • scripts/rename-proposal-to-transform.js
+       • packages/babel-plugin-transform-block-scoping/src/annex-B_3_3.ts
+       • packages/babel-traverse/src/path/ancestry.ts
+       • packages/babel-plugin-transform-regenerator/test/regenerator-fixtures/tests.es6.js
+       • packages/babel-plugin-transform-regenerator/test/regenerator-fixtures/async-custom-promise.js
+       • packages/babel-parser/src/tokenizer/index.ts
+       • packages/babel-parser/src/plugins/jsx/index.ts
+     📄 Files WITHOUT LabeledStatement (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+
+   Decorator:
+     📄 Files WITH Decorator (showing 2):
+       • packages/babel-traverse/src/path/index.ts
+       • packages/babel-parser/src/tokenizer/state.ts
+     📄 Files WITHOUT Decorator (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   ClassExpression:
+     📄 Files WITH ClassExpression (showing 10):
+       • Makefile.mjs
+       • packages/babel-core/src/index.ts
+       • packages/babel-generator/src/index.ts
+       • packages/babel-traverse/src/path/index.ts
+       • packages/babel-plugin-transform-regenerator/test/regenerator-fixtures/class.js
+       • packages/babel-parser/src/plugins/v8intrinsic.ts
+       • packages/babel-parser/src/plugins/placeholders.ts
+       • packages/babel-parser/src/plugins/estree.ts
+       • packages/babel-parser/test/helpers/fixture-error.js
+       • packages/babel-parser/src/plugins/typescript/index.ts
+     📄 Files WITHOUT ClassExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+
+   ImportExpression:
+     📄 Files WITH ImportExpression (showing 10):
+       • Gulpfile.mjs
+       • scripts/rename-proposal-to-transform.js
+       • test/esm/babel-runtime.js
+       • test/esm/babel-runtime-corejs3.js
+       • scripts/parser-tests/test262/index.js
+       • scripts/integration-tests/utils/bump-babel-dependencies.js
+       • packages/babel-node/src/babel-node.ts
+       • packages/babel-helpers/scripts/generate-regenerator-runtime.js
+       • packages/babel-core/src/config/files/module-types.ts
+       • packages/babel-core/src/config/files/import.cjs
+     📄 Files WITHOUT ImportExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+
+   TSImportType:
+     📄 Files WITH TSImportType (showing 10):
+       • lib/babel-plugin-dynamic-import-node.d.ts
+       • packages/babel-preset-env/src/module-transformations.ts
+       • packages/babel-preset-env/src/index.ts
+       • packages/babel-plugin-transform-typescript/src/const-enum.ts
+       • packages/babel-plugin-transform-react-jsx-development/src/index.ts
+       • packages/babel-core/src/transform-file.ts
+       • packages/babel-core/src/index.ts
+       • packages/babel-traverse/src/path/index.ts
+       • packages/babel-parser/src/tokenizer/state.ts
+       • packages/babel-core/src/config/resolve-targets.ts
+     📄 Files WITHOUT TSImportType (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   TSConstructorType:
+     📄 Files WITH TSConstructorType (showing 10):
+       • packages/babel-traverse/src/hub.ts
+       • packages/babel-parser/src/plugin-utils.ts
+       • packages/babel-parser/src/index.ts
+       • packages/babel-traverse/src/path/index.ts
+       • packages/babel-parser/src/parser/util.ts
+       • packages/babel-parser/src/parser/index.ts
+       • packages/babel-helpers/src/helpers/createClass.ts
+       • packages/babel-helpers/src/helpers/classCallCheck.ts
+       • packages/babel-core/src/config/caching.ts
+       • packages/babel-parser/src/plugins/typescript/index.ts
+     📄 Files WITHOUT TSConstructorType (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   AccessorProperty:
+     📄 Files WITH AccessorProperty (showing 2):
+       • packages/babel-traverse/src/path/index.ts
+       • packages/babel-parser/src/tokenizer/state.ts
+     📄 Files WITHOUT AccessorProperty (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   TSAbstractMethodDefinition:
+     📄 Files WITH TSAbstractMethodDefinition (showing 3):
+       • packages/babel-parser/src/parser/util.ts
+       • packages/babel-parser/src/parser/lval.ts
+       • packages/babel-parser/src/parser/expression.ts
+     📄 Files WITHOUT TSAbstractMethodDefinition (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   TSInferType:
+     📄 Files WITH TSInferType (showing 7):
+       • packages/babel-traverse/src/path/modification.ts
+       • packages/babel-traverse/src/path/family.ts
+       • packages/babel-parser/src/parse-error/pipeline-operator-errors.ts
+       • packages/babel-helpers/src/helpers/objectSpread2.ts
+       • packages/babel-helpers/src/helpers/objectSpread.ts
+       • packages/babel-helpers/src/helpers/extends.ts
+       • packages/babel-parser/src/plugins/jsx/index.ts
+     📄 Files WITHOUT TSInferType (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   TSMappedType:
+     📄 Files WITH TSMappedType (showing 10):
+       • packages/babel-preset-typescript/src/normalize-options.ts
+       • packages/babel-preset-env/src/plugins-compat-data.ts
+       • packages/babel-parser/src/parse-error.ts
+       • packages/babel-helper-compilation-targets/src/types.d.ts
+       • packages/babel-code-frame/src/defs.ts
+       • packages/babel-types/src/retrievers/getBindingIdentifiers.ts
+       • packages/babel-generator/src/node/index.ts
+       • packages/babel-traverse/src/path/lib/virtual-types-validator.ts
+       • packages/babel-traverse/src/path/generated/validators.d.ts
+       • packages/babel-traverse/src/path/generated/asserts.d.ts
+     📄 Files WITHOUT TSMappedType (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   TSClassImplements:
+     📄 Files WITH TSClassImplements (showing 10):
+       • packages/babel-traverse/src/hub.ts
+       • packages/babel-parser/src/plugins/v8intrinsic.ts
+       • packages/babel-parser/src/plugins/placeholders.ts
+       • packages/babel-parser/src/plugins/estree.ts
+       • packages/babel-parser/src/parser/node.ts
+       • packages/babel-helpers/src/helpers/wrapAsyncGenerator.ts
+       • packages/babel-helpers/src/helpers/asyncIterator.ts
+       • packages/babel-parser/src/plugins/typescript/index.ts
+       • packages/babel-parser/src/plugins/jsx/index.ts
+       • packages/babel-parser/src/plugins/flow/index.ts
+     📄 Files WITHOUT TSClassImplements (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   TSRestType:
+     📄 Files WITH TSRestType (showing 9):
+       • packages/babel-plugin-transform-flow-comments/src/index.ts
+       • packages/babel-helper-wrap-function/src/index.ts
+       • packages/babel-traverse/src/path/family.ts
+       • packages/babel-helpers/src/helpers/regenerator.ts
+       • packages/babel-helpers/src/helpers/objectSpread2.ts
+       • packages/babel-helpers/src/helpers/objectSpread.ts
+       • packages/babel-helpers/src/helpers/extends.ts
+       • packages/babel-helpers/src/helpers/construct.ts
+       • packages/babel-core/src/config/validation/plugins.ts
+     📄 Files WITHOUT TSRestType (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   TSSatisfiesExpression:
+     📄 Files WITH TSSatisfiesExpression (showing 10):
+       • packages/babel-plugin-bugfix-firefox-class-in-computed-class-key/src/index.ts
+       • packages/babel-helper-create-class-features-plugin/src/decorators.ts
+       • packages/babel-types/src/definitions/core.ts
+       • packages/babel-parser/src/parse-error/strict-mode-errors.ts
+       • packages/babel-parser/src/parse-error/standard-errors.ts
+       • packages/babel-parser/src/parse-error/pipeline-operator-errors.ts
+       • packages/babel-parser/src/parse-error/parse-expression-errors.ts
+       • packages/babel-parser/src/parse-error/module-errors.ts
+       • packages/babel-helpers/src/helpers/usingCtx.ts
+       • packages/babel-helpers/src/helpers/asyncIterator.ts
+     📄 Files WITHOUT TSSatisfiesExpression (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   Hashbang:
+     📄 Files WITH Hashbang (showing 9):
+       • scripts/set-module-type.js
+       • scripts/rename-proposal-to-transform.js
+       • packages/babel-parser/bin/babel-parser.js
+       • packages/babel-node/bin/babel-node.js
+       • packages/babel-cli/bin/babel.mjs
+       • packages/babel-cli/bin/babel.js
+       • packages/babel-cli/bin/babel-external-helpers.mjs
+       • packages/babel-cli/bin/babel-external-helpers.js
+       • packages/babel-cli/src/babel/index.ts
+     📄 Files WITHOUT Hashbang (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+
+   TSBigIntKeyword:
+     📄 Files WITH TSBigIntKeyword (showing 8):
+       • packages/babel-parser/src/types.ts
+       • packages/babel-traverse/src/scope/index.ts
+       • packages/babel-traverse/src/path/family.ts
+       • packages/babel-types/src/converters/valueToNode.ts
+       • packages/babel-parser/src/plugins/estree.ts
+       • packages/babel-parser/src/parser/expression.ts
+       • packages/babel-helpers/src/helpers/jsx.ts
+       • packages/babel-types/src/builders/generated/lowercase.ts
+     📄 Files WITHOUT TSBigIntKeyword (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   TSTemplateLiteralType:
+     📄 Files WITH TSTemplateLiteralType (showing 5):
+       • packages/babel-traverse/src/visitors.ts
+       • packages/babel-traverse/src/types.ts
+       • packages/babel-helper-create-class-features-plugin/src/index.ts
+       • packages/babel-traverse/src/path/family.ts
+       • packages/babel-helpers/src/helpers/regeneratorRuntime.ts
+     📄 Files WITHOUT TSTemplateLiteralType (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   TSOptionalType:
+     📄 Files WITH TSOptionalType (showing 4):
+       • packages/babel-plugin-transform-flow-comments/src/index.ts
+       • packages/babel-helper-fixtures/src/index.ts
+       • packages/babel-plugin-transform-regenerator/src/regenerator/emit.ts
+       • packages/babel-helpers/src/helpers/applyDecs2305.ts
+     📄 Files WITHOUT TSOptionalType (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+
+   EmptyStatement:
+     📄 Files WITH EmptyStatement (showing 4):
+       • Makefile.mjs
+       • packages/babel-runtime-corejs3/helpers/esm/superPropBase.js
+       • packages/babel-runtime-corejs3/helpers/esm/iterableToArrayLimit.js
+       • packages/babel-plugin-transform-regenerator/test/regenerator-fixtures/replaceWith-falsy.js
+     📄 Files WITHOUT EmptyStatement (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
+       • scripts/rollup-plugin-dependency-condition.js
+
+   TSConstructSignatureDeclaration:
+     📄 Files WITH TSConstructSignatureDeclaration (showing 1):
+       • packages/babel-helpers/src/helpers/wrapRegExp.ts
+     📄 Files WITHOUT TSConstructSignatureDeclaration (showing 10):
+       • yarn.config.cjs
+       • jest.config.js
+       • eslint.config.mjs
+       • babel.config.js
+       • babel-worker.cjs
+       • Makefile.source.mjs
+       • Makefile.mjs
+       • Gulpfile.mjs
+       • scripts/set-module-type.js
+       • scripts/rollup-plugin-standalone-internals.js
 
 ============================================================
 ✅ Analysis complete!
+
+
+Warnings/Errors:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/babel/packages/babel-plugin-transform-regenerator/test/regenerator-fixtures/non-native.js:
+   Expected `(` but found `.`
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/babel/packages/babel-parser/test/expressions/is-expression-babel-parser/fail/two-identifiers/input.js:
+   Expected a semicolon or an implicit semicolon after a statement, but found none
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/babel/packages/babel-parser/test/expressions/is-expression-babel-parser/fail/trailing-non-identifier-smp-character/input.js:
+   Invalid Character `𝅘𝅥𝅲`
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/babel/packages/babel-parser/test/expressions/is-expression-babel-parser/fail/trailing-dangle-right-bracket/input.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/babel/packages/babel-parser/test/expressions/is-expression-babel-parser/fail/leading-dangle-right-bracket/input.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/babel/packages/babel-parser/test/expressions/is-expression-babel-parser/fail/leading-dangle-eq/input.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/babel/packages/babel-parser/test/expressions/is-expression-babel-parser/fail/invalid-use-strict-in-non-simple-function/input.js:
+   Expected function name
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/babel/packages/babel-parser/test/expressions/is-expression-babel-parser/fail/dangle-var/input.js:
+   Unexpected token

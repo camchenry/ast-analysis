@@ -1,11 +1,12 @@
 AST Analysis Report for nuxt
-Generated on: 2025-07-13T03:17:28.161Z
+Generated on: 2025-07-14T01:42:23.697Z
 Repository: sample-repos/nuxt
 ================================================================================
 
 🔍 Analyzing JavaScript/TypeScript files in: /Users/camchenry/workspace/ast-analysis/sample-repos/nuxt
 
-📁 Found 314 files to analyze...
+📁 Found 404 files to analyze...
+
 
 
 ============================================================
@@ -13,261 +14,3030 @@ Repository: sample-repos/nuxt
 ============================================================
 
 📁 FILE STATISTICS:
-   Total files found: 314
-   Successfully parsed: 314
+   Total files found: 404
+   Successfully parsed: 404
    Failed to parse: 0
-   Total file size: 1.1 MB
+   Total file size: 1.5 MB
 
 🌳 NODE STATISTICS:
-   Total nodes: 149,467
-   Average nodes per file: 476
-   Average file size: 3.5 KB
+   Total nodes: 207,697
+   Average nodes per file: 514
+   Average file size: 3.9 KB
 
 📋 ALL NODE TYPES (BY FILE PRESENCE):
-   Program                         314 files (100.0%) -      314 total (0.21%)
-   Literal                         307 files ( 97.8%) -    9,481 total (6.34%)
-   Identifier                      304 files ( 96.8%) -   55,741 total (37.29%)
-   ImportDeclaration               274 files ( 87.3%) -    1,629 total (1.09%)
-   ImportSpecifier                 267 files ( 85.0%) -    2,429 total (1.63%)
-   CallExpression                  259 files ( 82.5%) -    7,375 total (4.93%)
-   BlockStatement                  251 files ( 79.9%) -    3,931 total (2.63%)
-   MemberExpression                247 files ( 78.7%) -   12,892 total (8.63%)
-   VariableDeclaration             240 files ( 76.4%) -    3,114 total (2.08%)
-   VariableDeclarator              240 files ( 76.4%) -    3,115 total (2.08%)
-   TSTypeAnnotation                227 files ( 72.3%) -    3,765 total (2.52%)
-   ObjectExpression                227 files ( 72.3%) -    2,216 total (1.48%)
-   ExpressionStatement             218 files ( 69.4%) -    2,893 total (1.94%)
-   Property                        216 files ( 68.8%) -    4,639 total (3.10%)
-   TSTypeReference                 214 files ( 68.2%) -    3,656 total (2.45%)
-   ArrowFunctionExpression         209 files ( 66.6%) -    1,566 total (1.05%)
-   ExportNamedDeclaration          209 files ( 66.6%) -      784 total (0.52%)
-   ReturnStatement                 202 files ( 64.3%) -    1,429 total (0.96%)
-   IfStatement                     200 files ( 63.7%) -    1,880 total (1.26%)
-   LogicalExpression               177 files ( 56.4%) -    1,594 total (1.07%)
-   BinaryExpression                174 files ( 55.4%) -    1,662 total (1.11%)
-   TSStringKeyword                 171 files ( 54.5%) -    1,267 total (0.85%)
-   UnaryExpression                 168 files ( 53.5%) -    1,245 total (0.83%)
-   FunctionDeclaration             164 files ( 52.2%) -      558 total (0.37%)
-   ArrayExpression                 161 files ( 51.3%) -      933 total (0.62%)
-   ConditionalExpression           153 files ( 48.7%) -      623 total (0.42%)
-   Unknown                         151 files ( 48.1%) -    1,939 total (1.30%)
-   AssignmentExpression            151 files ( 48.1%) -      965 total (0.65%)
-   TSTypeParameterInstantiation    150 files ( 47.8%) -    1,203 total (0.80%)
-   TSUnionType                     131 files ( 41.7%) -      589 total (0.39%)
-   NewExpression                   129 files ( 41.1%) -      359 total (0.24%)
-   ParenthesizedExpression         125 files ( 39.8%) -      396 total (0.26%)
-   ChainExpression                 119 files ( 37.9%) -      483 total (0.32%)
-   TemplateElement                 118 files ( 37.6%) -    1,379 total (0.92%)
-   TSAsExpression                  118 files ( 37.6%) -      433 total (0.29%)
-   TSPropertySignature             116 files ( 36.9%) -    1,326 total (0.89%)
-   TSArrayType                     116 files ( 36.9%) -      408 total (0.27%)
-   TemplateLiteral                 115 files ( 36.6%) -      590 total (0.39%)
-   FunctionExpression              113 files ( 36.0%) -      246 total (0.16%)
-   AwaitExpression                 111 files ( 35.4%) -      662 total (0.44%)
-   TSAnyKeyword                    105 files ( 33.4%) -      350 total (0.23%)
-   SpreadElement                   104 files ( 33.1%) -      428 total (0.29%)
-   TSLiteralType                   101 files ( 32.2%) -      658 total (0.44%)
-   ForOfStatement                   96 files ( 30.6%) -      284 total (0.19%)
-   TSBooleanKeyword                 96 files ( 30.6%) -      389 total (0.26%)
-   ExportDefaultDeclaration         93 files ( 29.6%) -       94 total (0.06%)
-   TSNonNullExpression              90 files ( 28.7%) -      331 total (0.22%)
-   ObjectPattern                    87 files ( 27.7%) -      196 total (0.13%)
-   ImportDefaultSpecifier           84 files ( 26.8%) -      136 total (0.09%)
-   TSTypeLiteral                    79 files ( 25.2%) -      281 total (0.19%)
-   MetaProperty                     78 files ( 24.8%) -      272 total (0.18%)
-   TSInterfaceDeclaration           78 files ( 24.8%) -      173 total (0.12%)
-   TSInterfaceBody                  78 files ( 24.8%) -      173 total (0.12%)
-   TSFunctionType                   77 files ( 24.5%) -      350 total (0.23%)
-   TSIndexedAccessType              64 files ( 20.4%) -      219 total (0.15%)
-   AssignmentPattern                58 files ( 18.5%) -      143 total (0.10%)
-   ThrowStatement                   51 files ( 16.2%) -       98 total (0.07%)
-   TSTypeAliasDeclaration           49 files ( 15.6%) -      118 total (0.08%)
-   TSTypeParameter                  48 files ( 15.3%) -      292 total (0.20%)
-   TSVoidKeyword                    47 files ( 15.0%) -      229 total (0.15%)
-   ContinueStatement                47 files ( 15.0%) -      118 total (0.08%)
-   TryStatement                     47 files ( 15.0%) -       74 total (0.05%)
-   TSUndefinedKeyword               47 files ( 15.0%) -      152 total (0.10%)
-   ArrayPattern                     46 files ( 14.6%) -      110 total (0.07%)
-   TSTypeParameterDeclaration       46 files ( 14.6%) -      154 total (0.10%)
-   CatchClause                      46 files ( 14.6%) -       73 total (0.05%)
-   TSUnknownKeyword                 45 files ( 14.3%) -      136 total (0.09%)
-   TSNumberKeyword                  41 files ( 13.1%) -      123 total (0.08%)
-   TSIntersectionType               41 files ( 13.1%) -       90 total (0.06%)
-   TSTypeOperator                   35 files ( 11.1%) -       73 total (0.05%)
-   TSTypeQuery                      34 files ( 10.8%) -       55 total (0.04%)
-   TSParenthesizedType              34 files ( 10.8%) -       97 total (0.06%)
-   TSNullKeyword                    30 files (  9.6%) -       69 total (0.05%)
-   RestElement                      26 files (  8.3%) -       68 total (0.05%)
-   ForInStatement                   26 files (  8.3%) -       38 total (0.03%)
-   TSTupleType                      23 files (  7.3%) -       29 total (0.02%)
-   TSInterfaceHeritage              22 files (  7.0%) -       38 total (0.03%)
-   TSConditionalType                21 files (  6.7%) -       94 total (0.06%)
-   TSSatisfiesExpression            21 files (  6.7%) -       29 total (0.02%)
-   ExportSpecifier                  20 files (  6.4%) -      381 total (0.25%)
-   UpdateExpression                 17 files (  5.4%) -       36 total (0.02%)
-   ThisExpression                   16 files (  5.1%) -       48 total (0.03%)
-   ImportExpression                 15 files (  4.8%) -       20 total (0.01%)
-   BreakStatement                   14 files (  4.5%) -       26 total (0.02%)
-   TSQualifiedName                  13 files (  4.1%) -       32 total (0.02%)
-   TSMethodSignature                13 files (  4.1%) -       49 total (0.03%)
-   TSDeclareFunction                12 files (  3.8%) -       41 total (0.03%)
-   TSTypePredicate                  11 files (  3.5%) -       15 total (0.01%)
-   TSIndexSignature                 11 files (  3.5%) -       17 total (0.01%)
-   TSNeverKeyword                   11 files (  3.5%) -       31 total (0.02%)
-   ExportAllDeclaration              9 files (  2.9%) -        9 total (0.01%)
-   TSMappedType                      9 files (  2.9%) -       13 total (0.01%)
-   TSModuleDeclaration               8 files (  2.5%) -       15 total (0.01%)
-   TSModuleBlock                     8 files (  2.5%) -       15 total (0.01%)
-   TSImportType                      7 files (  2.2%) -        9 total (0.01%)
-   WhileStatement                    7 files (  2.2%) -        7 total (0.00%)
-   ForStatement                      7 files (  2.2%) -        8 total (0.01%)
-   TSInferType                       6 files (  1.9%) -        9 total (0.01%)
-   ImportNamespaceSpecifier          6 files (  1.9%) -        6 total (0.00%)
-   TSTypeAssertion                   6 files (  1.9%) -        8 total (0.01%)
-   SwitchStatement                   5 files (  1.6%) -        5 total (0.00%)
-   SwitchCase                        5 files (  1.6%) -       34 total (0.02%)
-   ClassDeclaration                  5 files (  1.6%) -        5 total (0.00%)
-   ClassBody                         5 files (  1.6%) -        5 total (0.00%)
-   MethodDefinition                  5 files (  1.6%) -       11 total (0.01%)
-   TSCallSignatureDeclaration        5 files (  1.6%) -       11 total (0.01%)
-   TSObjectKeyword                   4 files (  1.3%) -        4 total (0.00%)
-   PropertyDefinition                4 files (  1.3%) -        4 total (0.00%)
-   TSSymbolKeyword                   4 files (  1.3%) -        5 total (0.00%)
-   TSTemplateLiteralType             3 files (  1.0%) -       10 total (0.01%)
-   TSOptionalType                    2 files (  0.6%) -        4 total (0.00%)
-   TSConstructorType                 2 files (  0.6%) -        2 total (0.00%)
-   TSConstructSignatureDeclaration    2 files (  0.6%) -        8 total (0.01%)
-   TaggedTemplateExpression          1 files (  0.3%) -        1 total (0.00%)
-   Hashbang                          1 files (  0.3%) -        1 total (0.00%)
-   TSClassImplements                 1 files (  0.3%) -        1 total (0.00%)
-   TSEnumDeclaration                 1 files (  0.3%) -        2 total (0.00%)
-   TSEnumBody                        1 files (  0.3%) -        2 total (0.00%)
-   TSEnumMember                      1 files (  0.3%) -       11 total (0.01%)
-   EmptyStatement                    1 files (  0.3%) -        1 total (0.00%)
-   TSNamedTupleMember                1 files (  0.3%) -        2 total (0.00%)
+   Program                         404 files (100.0%) -      404 total (0.19%)
+   Identifier                      393 files ( 97.3%) -   74,926 total (36.07%)
+   Literal                         388 files ( 96.0%) -   15,567 total (7.50%)
+   ImportDeclaration               348 files ( 86.1%) -    2,014 total (0.97%)
+   ImportSpecifier                 341 files ( 84.4%) -    3,071 total (1.48%)
+   CallExpression                  339 files ( 83.9%) -   14,514 total (6.99%)
+   BlockStatement                  333 files ( 82.4%) -    5,109 total (2.46%)
+   MemberExpression                321 files ( 79.5%) -   17,858 total (8.60%)
+   VariableDeclaration             313 files ( 77.5%) -    4,339 total (2.09%)
+   VariableDeclarator              313 files ( 77.5%) -    4,340 total (2.09%)
+   ObjectExpression                306 files ( 75.7%) -    3,477 total (1.67%)
+   Property                        290 files ( 71.8%) -    7,149 total (3.44%)
+   ExpressionStatement             289 files ( 71.5%) -    6,105 total (2.94%)
+   ArrowFunctionExpression         282 files ( 69.8%) -    3,015 total (1.45%)
+   TSTypeAnnotation                279 files ( 69.1%) -    4,090 total (1.97%)
+   TSTypeReference                 257 files ( 63.6%) -    3,842 total (1.85%)
+   ReturnStatement                 247 files ( 61.1%) -    1,574 total (0.76%)
+   IfStatement                     228 files ( 56.4%) -    1,951 total (0.94%)
+   ExportNamedDeclaration          217 files ( 53.7%) -      801 total (0.39%)
+   ArrayExpression                 215 files ( 53.2%) -    1,500 total (0.72%)
+   TSStringKeyword                 210 files ( 52.0%) -    1,549 total (0.75%)
+   BinaryExpression                209 files ( 51.7%) -    1,887 total (0.91%)
+   LogicalExpression               203 files ( 50.2%) -    1,712 total (0.82%)
+   Unknown                         197 files ( 48.8%) -    2,918 total (1.40%)
+   FunctionDeclaration             196 files ( 48.5%) -      603 total (0.29%)
+   UnaryExpression                 193 files ( 47.8%) -    1,358 total (0.65%)
+   AssignmentExpression            179 files ( 44.3%) -    1,120 total (0.54%)
+   ConditionalExpression           178 files ( 44.1%) -      687 total (0.33%)
+   TSTypeParameterInstantiation    176 files ( 43.6%) -    1,385 total (0.67%)
+   NewExpression                   173 files ( 42.8%) -      480 total (0.23%)
+   AwaitExpression                 172 files ( 42.6%) -    1,967 total (0.95%)
+   TemplateElement                 163 files ( 40.3%) -    2,180 total (1.05%)
+   ParenthesizedExpression         160 files ( 39.6%) -      487 total (0.23%)
+   TemplateLiteral                 160 files ( 39.6%) -    1,114 total (0.54%)
+   TSAsExpression                  152 files ( 37.6%) -      540 total (0.26%)
+   TSUnionType                     150 files ( 37.1%) -      617 total (0.30%)
+   ChainExpression                 149 files ( 36.9%) -      632 total (0.30%)
+   FunctionExpression              141 files ( 34.9%) -      322 total (0.16%)
+   TSArrayType                     137 files ( 33.9%) -      458 total (0.22%)
+   TSPropertySignature             136 files ( 33.7%) -    1,405 total (0.68%)
+   TSAnyKeyword                    130 files ( 32.2%) -      407 total (0.20%)
+   SpreadElement                   127 files ( 31.4%) -      486 total (0.23%)
+   ForOfStatement                  114 files ( 28.2%) -      330 total (0.16%)
+   ObjectPattern                   111 files ( 27.5%) -      394 total (0.19%)
+   TSLiteralType                   111 files ( 27.5%) -      677 total (0.33%)
+   MetaProperty                    110 files ( 27.2%) -      316 total (0.15%)
+   TSNonNullExpression             110 files ( 27.2%) -      413 total (0.20%)
+   ExportDefaultDeclaration        109 files ( 27.0%) -      110 total (0.05%)
+   TSBooleanKeyword                101 files ( 25.0%) -      397 total (0.19%)
+   TSTypeLiteral                    98 files ( 24.3%) -      332 total (0.16%)
+   TSFunctionType                   95 files ( 23.5%) -      376 total (0.18%)
+   ImportDefaultSpecifier           90 files ( 22.3%) -      145 total (0.07%)
+   TSInterfaceDeclaration           79 files ( 19.6%) -      174 total (0.08%)
+   TSInterfaceBody                  79 files ( 19.6%) -      174 total (0.08%)
+   AssignmentPattern                71 files ( 17.6%) -      166 total (0.08%)
+   TSIndexedAccessType              69 files ( 17.1%) -      228 total (0.11%)
+   ArrayPattern                     58 files ( 14.4%) -      126 total (0.06%)
+   ThrowStatement                   56 files ( 13.9%) -      106 total (0.05%)
+   TSUnknownKeyword                 55 files ( 13.6%) -      158 total (0.08%)
+   TryStatement                     54 files ( 13.4%) -       83 total (0.04%)
+   TSTypeAliasDeclaration           52 files ( 12.9%) -      121 total (0.06%)
+   CatchClause                      52 files ( 12.9%) -       80 total (0.04%)
+   TSUndefinedKeyword               51 files ( 12.6%) -      158 total (0.08%)
+   TSTypeParameter                  50 files ( 12.4%) -      294 total (0.14%)
+   TSVoidKeyword                    50 files ( 12.4%) -      239 total (0.12%)
+   ContinueStatement                49 files ( 12.1%) -      121 total (0.06%)
+   TSNumberKeyword                  49 files ( 12.1%) -      135 total (0.06%)
+   TSTypeParameterDeclaration       48 files ( 11.9%) -      156 total (0.08%)
+   TSTypeQuery                      45 files ( 11.1%) -       69 total (0.03%)
+   TSIntersectionType               44 files ( 10.9%) -       94 total (0.05%)
+   TSNullKeyword                    41 files ( 10.1%) -       81 total (0.04%)
+   TSParenthesizedType              37 files (  9.2%) -      101 total (0.05%)
+   TSTypeOperator                   37 files (  9.2%) -       75 total (0.04%)
+   RestElement                      31 files (  7.7%) -       73 total (0.04%)
+   ForInStatement                   29 files (  7.2%) -       41 total (0.02%)
+   UpdateExpression                 28 files (  6.9%) -       69 total (0.03%)
+   TSTupleType                      28 files (  6.9%) -       34 total (0.02%)
+   TSSatisfiesExpression            24 files (  5.9%) -       32 total (0.02%)
+   TSConditionalType                22 files (  5.4%) -       95 total (0.05%)
+   TSInterfaceHeritage              22 files (  5.4%) -       38 total (0.02%)
+   ExportSpecifier                  21 files (  5.2%) -      383 total (0.18%)
+   ThisExpression                   18 files (  4.5%) -       54 total (0.03%)
+   BreakStatement                   16 files (  4.0%) -       28 total (0.01%)
+   ImportExpression                 15 files (  3.7%) -       20 total (0.01%)
+   TSQualifiedName                  14 files (  3.5%) -       33 total (0.02%)
+   TSMethodSignature                13 files (  3.2%) -       49 total (0.02%)
+   TSDeclareFunction                12 files (  3.0%) -       41 total (0.02%)
+   TSImportType                     11 files (  2.7%) -       13 total (0.01%)
+   TSTypePredicate                  11 files (  2.7%) -       15 total (0.01%)
+   TSIndexSignature                 11 files (  2.7%) -       17 total (0.01%)
+   TSNeverKeyword                   11 files (  2.7%) -       31 total (0.01%)
+   ForStatement                     10 files (  2.5%) -       12 total (0.01%)
+   TSMappedType                     10 files (  2.5%) -       14 total (0.01%)
+   ExportAllDeclaration              9 files (  2.2%) -        9 total (0.00%)
+   WhileStatement                    9 files (  2.2%) -        9 total (0.00%)
+   ImportNamespaceSpecifier          9 files (  2.2%) -        9 total (0.00%)
+   TSModuleDeclaration               8 files (  2.0%) -       15 total (0.01%)
+   TSModuleBlock                     8 files (  2.0%) -       15 total (0.01%)
+   TSTypeAssertion                   7 files (  1.7%) -        9 total (0.00%)
+   TSInferType                       6 files (  1.5%) -        9 total (0.00%)
+   ClassBody                         6 files (  1.5%) -        6 total (0.00%)
+   MethodDefinition                  6 files (  1.5%) -       12 total (0.01%)
+   PropertyDefinition                5 files (  1.2%) -        9 total (0.00%)
+   SwitchStatement                   5 files (  1.2%) -        5 total (0.00%)
+   SwitchCase                        5 files (  1.2%) -       34 total (0.02%)
+   ClassDeclaration                  5 files (  1.2%) -        5 total (0.00%)
+   TSCallSignatureDeclaration        5 files (  1.2%) -       11 total (0.01%)
+   TSObjectKeyword                   4 files (  1.0%) -        4 total (0.00%)
+   TSSymbolKeyword                   4 files (  1.0%) -        5 total (0.00%)
+   TSTemplateLiteralType             3 files (  0.7%) -       10 total (0.00%)
+   TSNamedTupleMember                2 files (  0.5%) -        5 total (0.00%)
+   TSOptionalType                    2 files (  0.5%) -        4 total (0.00%)
+   TSConstructorType                 2 files (  0.5%) -        2 total (0.00%)
+   TSConstructSignatureDeclaration    2 files (  0.5%) -        8 total (0.00%)
+   DoWhileStatement                  1 files (  0.2%) -        1 total (0.00%)
+   ClassExpression                   1 files (  0.2%) -        1 total (0.00%)
+   TaggedTemplateExpression          1 files (  0.2%) -        1 total (0.00%)
+   Hashbang                          1 files (  0.2%) -        1 total (0.00%)
+   TSClassImplements                 1 files (  0.2%) -        1 total (0.00%)
+   TSEnumDeclaration                 1 files (  0.2%) -        2 total (0.00%)
+   TSEnumBody                        1 files (  0.2%) -        2 total (0.00%)
+   TSEnumMember                      1 files (  0.2%) -       11 total (0.01%)
+   EmptyStatement                    1 files (  0.2%) -        1 total (0.00%)
 
 📝 ALL NODE TYPES (BY TOTAL COUNT):
-   Identifier                       55,741 (37.29%) in 304 files (96.8%)
-   MemberExpression                 12,892 (8.63%) in 247 files (78.7%)
-   Literal                           9,481 (6.34%) in 307 files (97.8%)
-   CallExpression                    7,375 (4.93%) in 259 files (82.5%)
-   Property                          4,639 (3.10%) in 216 files (68.8%)
-   BlockStatement                    3,931 (2.63%) in 251 files (79.9%)
-   TSTypeAnnotation                  3,765 (2.52%) in 227 files (72.3%)
-   TSTypeReference                   3,656 (2.45%) in 214 files (68.2%)
-   VariableDeclarator                3,115 (2.08%) in 240 files (76.4%)
-   VariableDeclaration               3,114 (2.08%) in 240 files (76.4%)
-   ExpressionStatement               2,893 (1.94%) in 218 files (69.4%)
-   ImportSpecifier                   2,429 (1.63%) in 267 files (85.0%)
-   ObjectExpression                  2,216 (1.48%) in 227 files (72.3%)
-   Unknown                           1,939 (1.30%) in 151 files (48.1%)
-   IfStatement                       1,880 (1.26%) in 200 files (63.7%)
-   BinaryExpression                  1,662 (1.11%) in 174 files (55.4%)
-   ImportDeclaration                 1,629 (1.09%) in 274 files (87.3%)
-   LogicalExpression                 1,594 (1.07%) in 177 files (56.4%)
-   ArrowFunctionExpression           1,566 (1.05%) in 209 files (66.6%)
-   ReturnStatement                   1,429 (0.96%) in 202 files (64.3%)
-   TemplateElement                   1,379 (0.92%) in 118 files (37.6%)
-   TSPropertySignature               1,326 (0.89%) in 116 files (36.9%)
-   TSStringKeyword                   1,267 (0.85%) in 171 files (54.5%)
-   UnaryExpression                   1,245 (0.83%) in 168 files (53.5%)
-   TSTypeParameterInstantiation      1,203 (0.80%) in 150 files (47.8%)
-   AssignmentExpression                965 (0.65%) in 151 files (48.1%)
-   ArrayExpression                     933 (0.62%) in 161 files (51.3%)
-   ExportNamedDeclaration              784 (0.52%) in 209 files (66.6%)
-   AwaitExpression                     662 (0.44%) in 111 files (35.4%)
-   TSLiteralType                       658 (0.44%) in 101 files (32.2%)
-   ConditionalExpression               623 (0.42%) in 153 files (48.7%)
-   TemplateLiteral                     590 (0.39%) in 115 files (36.6%)
-   TSUnionType                         589 (0.39%) in 131 files (41.7%)
-   FunctionDeclaration                 558 (0.37%) in 164 files (52.2%)
-   ChainExpression                     483 (0.32%) in 119 files (37.9%)
-   TSAsExpression                      433 (0.29%) in 118 files (37.6%)
-   SpreadElement                       428 (0.29%) in 104 files (33.1%)
-   TSArrayType                         408 (0.27%) in 116 files (36.9%)
-   ParenthesizedExpression             396 (0.26%) in 125 files (39.8%)
-   TSBooleanKeyword                    389 (0.26%) in 96 files (30.6%)
-   ExportSpecifier                     381 (0.25%) in 20 files (6.4%)
-   NewExpression                       359 (0.24%) in 129 files (41.1%)
-   TSFunctionType                      350 (0.23%) in 77 files (24.5%)
-   TSAnyKeyword                        350 (0.23%) in 105 files (33.4%)
-   TSNonNullExpression                 331 (0.22%) in 90 files (28.7%)
-   Program                             314 (0.21%) in 314 files (100.0%)
-   TSTypeParameter                     292 (0.20%) in 48 files (15.3%)
-   ForOfStatement                      284 (0.19%) in 96 files (30.6%)
-   TSTypeLiteral                       281 (0.19%) in 79 files (25.2%)
-   MetaProperty                        272 (0.18%) in 78 files (24.8%)
-   FunctionExpression                  246 (0.16%) in 113 files (36.0%)
-   TSVoidKeyword                       229 (0.15%) in 47 files (15.0%)
-   TSIndexedAccessType                 219 (0.15%) in 64 files (20.4%)
-   ObjectPattern                       196 (0.13%) in 87 files (27.7%)
-   TSInterfaceDeclaration              173 (0.12%) in 78 files (24.8%)
-   TSInterfaceBody                     173 (0.12%) in 78 files (24.8%)
-   TSTypeParameterDeclaration          154 (0.10%) in 46 files (14.6%)
-   TSUndefinedKeyword                  152 (0.10%) in 47 files (15.0%)
-   AssignmentPattern                   143 (0.10%) in 58 files (18.5%)
-   ImportDefaultSpecifier              136 (0.09%) in 84 files (26.8%)
-   TSUnknownKeyword                    136 (0.09%) in 45 files (14.3%)
-   TSNumberKeyword                     123 (0.08%) in 41 files (13.1%)
-   TSTypeAliasDeclaration              118 (0.08%) in 49 files (15.6%)
-   ContinueStatement                   118 (0.08%) in 47 files (15.0%)
-   ArrayPattern                        110 (0.07%) in 46 files (14.6%)
-   ThrowStatement                       98 (0.07%) in 51 files (16.2%)
-   TSParenthesizedType                  97 (0.06%) in 34 files (10.8%)
-   ExportDefaultDeclaration             94 (0.06%) in 93 files (29.6%)
-   TSConditionalType                    94 (0.06%) in 21 files (6.7%)
-   TSIntersectionType                   90 (0.06%) in 41 files (13.1%)
-   TryStatement                         74 (0.05%) in 47 files (15.0%)
-   CatchClause                          73 (0.05%) in 46 files (14.6%)
-   TSTypeOperator                       73 (0.05%) in 35 files (11.1%)
-   TSNullKeyword                        69 (0.05%) in 30 files (9.6%)
-   RestElement                          68 (0.05%) in 26 files (8.3%)
-   TSTypeQuery                          55 (0.04%) in 34 files (10.8%)
-   TSMethodSignature                    49 (0.03%) in 13 files (4.1%)
-   ThisExpression                       48 (0.03%) in 16 files (5.1%)
-   TSDeclareFunction                    41 (0.03%) in 12 files (3.8%)
-   TSInterfaceHeritage                  38 (0.03%) in 22 files (7.0%)
-   ForInStatement                       38 (0.03%) in 26 files (8.3%)
-   UpdateExpression                     36 (0.02%) in 17 files (5.4%)
-   SwitchCase                           34 (0.02%) in 5 files (1.6%)
-   TSQualifiedName                      32 (0.02%) in 13 files (4.1%)
-   TSNeverKeyword                       31 (0.02%) in 11 files (3.5%)
-   TSSatisfiesExpression                29 (0.02%) in 21 files (6.7%)
-   TSTupleType                          29 (0.02%) in 23 files (7.3%)
-   BreakStatement                       26 (0.02%) in 14 files (4.5%)
-   ImportExpression                     20 (0.01%) in 15 files (4.8%)
-   TSIndexSignature                     17 (0.01%) in 11 files (3.5%)
-   TSModuleDeclaration                  15 (0.01%) in 8 files (2.5%)
-   TSModuleBlock                        15 (0.01%) in 8 files (2.5%)
-   TSTypePredicate                      15 (0.01%) in 11 files (3.5%)
-   TSMappedType                         13 (0.01%) in 9 files (2.9%)
-   MethodDefinition                     11 (0.01%) in 5 files (1.6%)
-   TSCallSignatureDeclaration           11 (0.01%) in 5 files (1.6%)
-   TSEnumMember                         11 (0.01%) in 1 files (0.3%)
-   TSTemplateLiteralType                10 (0.01%) in 3 files (1.0%)
-   TSInferType                           9 (0.01%) in 6 files (1.9%)
-   TSImportType                          9 (0.01%) in 7 files (2.2%)
-   ExportAllDeclaration                  9 (0.01%) in 9 files (2.9%)
-   TSTypeAssertion                       8 (0.01%) in 6 files (1.9%)
-   ForStatement                          8 (0.01%) in 7 files (2.2%)
-   TSConstructSignatureDeclaration        8 (0.01%) in 2 files (0.6%)
-   WhileStatement                        7 (0.00%) in 7 files (2.2%)
-   ImportNamespaceSpecifier              6 (0.00%) in 6 files (1.9%)
-   SwitchStatement                       5 (0.00%) in 5 files (1.6%)
-   ClassDeclaration                      5 (0.00%) in 5 files (1.6%)
-   ClassBody                             5 (0.00%) in 5 files (1.6%)
-   TSSymbolKeyword                       5 (0.00%) in 4 files (1.3%)
-   TSObjectKeyword                       4 (0.00%) in 4 files (1.3%)
-   PropertyDefinition                    4 (0.00%) in 4 files (1.3%)
-   TSOptionalType                        4 (0.00%) in 2 files (0.6%)
-   TSEnumDeclaration                     2 (0.00%) in 1 files (0.3%)
-   TSEnumBody                            2 (0.00%) in 1 files (0.3%)
-   TSConstructorType                     2 (0.00%) in 2 files (0.6%)
-   TSNamedTupleMember                    2 (0.00%) in 1 files (0.3%)
-   TaggedTemplateExpression              1 (0.00%) in 1 files (0.3%)
-   Hashbang                              1 (0.00%) in 1 files (0.3%)
-   TSClassImplements                     1 (0.00%) in 1 files (0.3%)
-   EmptyStatement                        1 (0.00%) in 1 files (0.3%)
+   Identifier                       74,926 (36.07%) in 393 files (97.3%)
+   MemberExpression                 17,858 (8.60%) in 321 files (79.5%)
+   Literal                          15,567 (7.50%) in 388 files (96.0%)
+   CallExpression                   14,514 (6.99%) in 339 files (83.9%)
+   Property                          7,149 (3.44%) in 290 files (71.8%)
+   ExpressionStatement               6,105 (2.94%) in 289 files (71.5%)
+   BlockStatement                    5,109 (2.46%) in 333 files (82.4%)
+   VariableDeclarator                4,340 (2.09%) in 313 files (77.5%)
+   VariableDeclaration               4,339 (2.09%) in 313 files (77.5%)
+   TSTypeAnnotation                  4,090 (1.97%) in 279 files (69.1%)
+   TSTypeReference                   3,842 (1.85%) in 257 files (63.6%)
+   ObjectExpression                  3,477 (1.67%) in 306 files (75.7%)
+   ImportSpecifier                   3,071 (1.48%) in 341 files (84.4%)
+   ArrowFunctionExpression           3,015 (1.45%) in 282 files (69.8%)
+   Unknown                           2,918 (1.40%) in 197 files (48.8%)
+   TemplateElement                   2,180 (1.05%) in 163 files (40.3%)
+   ImportDeclaration                 2,014 (0.97%) in 348 files (86.1%)
+   AwaitExpression                   1,967 (0.95%) in 172 files (42.6%)
+   IfStatement                       1,951 (0.94%) in 228 files (56.4%)
+   BinaryExpression                  1,887 (0.91%) in 209 files (51.7%)
+   LogicalExpression                 1,712 (0.82%) in 203 files (50.2%)
+   ReturnStatement                   1,574 (0.76%) in 247 files (61.1%)
+   TSStringKeyword                   1,549 (0.75%) in 210 files (52.0%)
+   ArrayExpression                   1,500 (0.72%) in 215 files (53.2%)
+   TSPropertySignature               1,405 (0.68%) in 136 files (33.7%)
+   TSTypeParameterInstantiation      1,385 (0.67%) in 176 files (43.6%)
+   UnaryExpression                   1,358 (0.65%) in 193 files (47.8%)
+   AssignmentExpression              1,120 (0.54%) in 179 files (44.3%)
+   TemplateLiteral                   1,114 (0.54%) in 160 files (39.6%)
+   ExportNamedDeclaration              801 (0.39%) in 217 files (53.7%)
+   ConditionalExpression               687 (0.33%) in 178 files (44.1%)
+   TSLiteralType                       677 (0.33%) in 111 files (27.5%)
+   ChainExpression                     632 (0.30%) in 149 files (36.9%)
+   TSUnionType                         617 (0.30%) in 150 files (37.1%)
+   FunctionDeclaration                 603 (0.29%) in 196 files (48.5%)
+   TSAsExpression                      540 (0.26%) in 152 files (37.6%)
+   ParenthesizedExpression             487 (0.23%) in 160 files (39.6%)
+   SpreadElement                       486 (0.23%) in 127 files (31.4%)
+   NewExpression                       480 (0.23%) in 173 files (42.8%)
+   TSArrayType                         458 (0.22%) in 137 files (33.9%)
+   TSNonNullExpression                 413 (0.20%) in 110 files (27.2%)
+   TSAnyKeyword                        407 (0.20%) in 130 files (32.2%)
+   Program                             404 (0.19%) in 404 files (100.0%)
+   TSBooleanKeyword                    397 (0.19%) in 101 files (25.0%)
+   ObjectPattern                       394 (0.19%) in 111 files (27.5%)
+   ExportSpecifier                     383 (0.18%) in 21 files (5.2%)
+   TSFunctionType                      376 (0.18%) in 95 files (23.5%)
+   TSTypeLiteral                       332 (0.16%) in 98 files (24.3%)
+   ForOfStatement                      330 (0.16%) in 114 files (28.2%)
+   FunctionExpression                  322 (0.16%) in 141 files (34.9%)
+   MetaProperty                        316 (0.15%) in 110 files (27.2%)
+   TSTypeParameter                     294 (0.14%) in 50 files (12.4%)
+   TSVoidKeyword                       239 (0.12%) in 50 files (12.4%)
+   TSIndexedAccessType                 228 (0.11%) in 69 files (17.1%)
+   TSInterfaceDeclaration              174 (0.08%) in 79 files (19.6%)
+   TSInterfaceBody                     174 (0.08%) in 79 files (19.6%)
+   AssignmentPattern                   166 (0.08%) in 71 files (17.6%)
+   TSUndefinedKeyword                  158 (0.08%) in 51 files (12.6%)
+   TSUnknownKeyword                    158 (0.08%) in 55 files (13.6%)
+   TSTypeParameterDeclaration          156 (0.08%) in 48 files (11.9%)
+   ImportDefaultSpecifier              145 (0.07%) in 90 files (22.3%)
+   TSNumberKeyword                     135 (0.06%) in 49 files (12.1%)
+   ArrayPattern                        126 (0.06%) in 58 files (14.4%)
+   TSTypeAliasDeclaration              121 (0.06%) in 52 files (12.9%)
+   ContinueStatement                   121 (0.06%) in 49 files (12.1%)
+   ExportDefaultDeclaration            110 (0.05%) in 109 files (27.0%)
+   ThrowStatement                      106 (0.05%) in 56 files (13.9%)
+   TSParenthesizedType                 101 (0.05%) in 37 files (9.2%)
+   TSConditionalType                    95 (0.05%) in 22 files (5.4%)
+   TSIntersectionType                   94 (0.05%) in 44 files (10.9%)
+   TryStatement                         83 (0.04%) in 54 files (13.4%)
+   TSNullKeyword                        81 (0.04%) in 41 files (10.1%)
+   CatchClause                          80 (0.04%) in 52 files (12.9%)
+   TSTypeOperator                       75 (0.04%) in 37 files (9.2%)
+   RestElement                          73 (0.04%) in 31 files (7.7%)
+   TSTypeQuery                          69 (0.03%) in 45 files (11.1%)
+   UpdateExpression                     69 (0.03%) in 28 files (6.9%)
+   ThisExpression                       54 (0.03%) in 18 files (4.5%)
+   TSMethodSignature                    49 (0.02%) in 13 files (3.2%)
+   ForInStatement                       41 (0.02%) in 29 files (7.2%)
+   TSDeclareFunction                    41 (0.02%) in 12 files (3.0%)
+   TSInterfaceHeritage                  38 (0.02%) in 22 files (5.4%)
+   TSTupleType                          34 (0.02%) in 28 files (6.9%)
+   SwitchCase                           34 (0.02%) in 5 files (1.2%)
+   TSQualifiedName                      33 (0.02%) in 14 files (3.5%)
+   TSSatisfiesExpression                32 (0.02%) in 24 files (5.9%)
+   TSNeverKeyword                       31 (0.01%) in 11 files (2.7%)
+   BreakStatement                       28 (0.01%) in 16 files (4.0%)
+   ImportExpression                     20 (0.01%) in 15 files (3.7%)
+   TSIndexSignature                     17 (0.01%) in 11 files (2.7%)
+   TSModuleDeclaration                  15 (0.01%) in 8 files (2.0%)
+   TSModuleBlock                        15 (0.01%) in 8 files (2.0%)
+   TSTypePredicate                      15 (0.01%) in 11 files (2.7%)
+   TSMappedType                         14 (0.01%) in 10 files (2.5%)
+   TSImportType                         13 (0.01%) in 11 files (2.7%)
+   ForStatement                         12 (0.01%) in 10 files (2.5%)
+   MethodDefinition                     12 (0.01%) in 6 files (1.5%)
+   TSCallSignatureDeclaration           11 (0.01%) in 5 files (1.2%)
+   TSEnumMember                         11 (0.01%) in 1 files (0.2%)
+   TSTemplateLiteralType                10 (0.00%) in 3 files (0.7%)
+   TSInferType                           9 (0.00%) in 6 files (1.5%)
+   ExportAllDeclaration                  9 (0.00%) in 9 files (2.2%)
+   WhileStatement                        9 (0.00%) in 9 files (2.2%)
+   ImportNamespaceSpecifier              9 (0.00%) in 9 files (2.2%)
+   PropertyDefinition                    9 (0.00%) in 5 files (1.2%)
+   TSTypeAssertion                       9 (0.00%) in 7 files (1.7%)
+   TSConstructSignatureDeclaration        8 (0.00%) in 2 files (0.5%)
+   ClassBody                             6 (0.00%) in 6 files (1.5%)
+   SwitchStatement                       5 (0.00%) in 5 files (1.2%)
+   TSNamedTupleMember                    5 (0.00%) in 2 files (0.5%)
+   ClassDeclaration                      5 (0.00%) in 5 files (1.2%)
+   TSSymbolKeyword                       5 (0.00%) in 4 files (1.0%)
+   TSObjectKeyword                       4 (0.00%) in 4 files (1.0%)
+   TSOptionalType                        4 (0.00%) in 2 files (0.5%)
+   TSEnumDeclaration                     2 (0.00%) in 1 files (0.2%)
+   TSEnumBody                            2 (0.00%) in 1 files (0.2%)
+   TSConstructorType                     2 (0.00%) in 2 files (0.5%)
+   DoWhileStatement                      1 (0.00%) in 1 files (0.2%)
+   ClassExpression                       1 (0.00%) in 1 files (0.2%)
+   TaggedTemplateExpression              1 (0.00%) in 1 files (0.2%)
+   Hashbang                              1 (0.00%) in 1 files (0.2%)
+   TSClassImplements                     1 (0.00%) in 1 files (0.2%)
+   EmptyStatement                        1 (0.00%) in 1 files (0.2%)
+
+📁 FILE EXAMPLES BY NODE TYPE:
+
+   Identifier:
+     📄 Files WITH Identifier (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+     📄 Files WITHOUT Identifier (showing 10):
+       • packages/ui-templates/styles.ts
+       • packages/schema/builder-env.d.ts
+       • packages/nuxt/schema.js
+       • packages/nuxt/schema.d.ts
+       • packages/nuxt/kit.js
+       • packages/nuxt/kit.d.ts
+       • packages/nuxt/app.d.ts
+       • test/mocks/app-config.ts
+       • packages/nuxt/bin/nuxt.mjs
+       • packages/nuxt/src/app/entry-spa.ts
+
+   MemberExpression:
+     📄 Files WITH MemberExpression (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • test/utils.ts
+     📄 Files WITHOUT MemberExpression (showing 10):
+       • playground/nuxt.config.ts
+       • packages/webpack/builder.mjs
+       • packages/webpack/builder.d.ts
+       • packages/webpack/build.config.ts
+       • packages/vite/build.config.ts
+       • packages/ui-templates/uno.config.ts
+       • packages/ui-templates/styles.ts
+       • packages/schema/builder-env.d.ts
+       • packages/schema/build.config.ts
+       • packages/nuxt/types.d.ts
+
+   Literal:
+     📄 Files WITH Literal (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+     📄 Files WITHOUT Literal (showing 10):
+       • packages/nuxt/config.js
+       • packages/nuxt/config.cjs
+       • test/mocks/app-config.ts
+       • packages/webpack/src/utils/index.ts
+       • packages/nuxt/src/app/utils.ts
+       • packages/nuxt/src/app/entry-spa.ts
+       • packages/nuxt/test/layers-fixture/module.ts
+       • packages/nuxt/test/pages-fixture/nuxt.config.ts
+       • packages/nuxt/src/pages/runtime/component-stub.ts
+       • packages/nuxt/test/layers-fixture/modules/module.ts
+
+   CallExpression:
+     📄 Files WITH CallExpression (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+     📄 Files WITHOUT CallExpression (showing 10):
+       • packages/webpack/builder.mjs
+       • packages/webpack/builder.d.ts
+       • packages/ui-templates/styles.ts
+       • packages/schema/builder-env.d.ts
+       • packages/rspack/builder.mjs
+       • packages/nuxt/types.d.ts
+       • packages/nuxt/schema.js
+       • packages/nuxt/schema.d.ts
+       • packages/nuxt/kit.js
+       • packages/nuxt/kit.d.ts
+
+   Property:
+     📄 Files WITH Property (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+       • test/utils.ts
+       • test/setup-runtime.ts
+     📄 Files WITHOUT Property (showing 10):
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • test/typed-router.test.ts
+       • test/setup-env.ts
+       • packages/webpack/builder.mjs
+       • packages/webpack/builder.d.ts
+       • packages/ui-templates/styles.ts
+       • packages/schema/builder-env.d.ts
+       • packages/rspack/builder.mjs
+       • packages/nuxt/types.d.ts
+
+   ExpressionStatement:
+     📄 Files WITH ExpressionStatement (showing 10):
+       • nuxt.config.ts
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • test/utils.ts
+       • test/typed-router.test.ts
+       • test/setup-runtime.ts
+       • test/setup-env.ts
+     📄 Files WITHOUT ExpressionStatement (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • eslint.config.mjs
+       • playground/nuxt.config.ts
+       • packages/webpack/builder.mjs
+       • packages/webpack/builder.d.ts
+       • packages/ui-templates/vite.config.ts
+       • packages/ui-templates/uno.config.ts
+       • packages/ui-templates/styles.ts
+       • packages/schema/builder-env.d.ts
+
+   BlockStatement:
+     📄 Files WITH BlockStatement (showing 10):
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • test/utils.ts
+       • test/typed-router.test.ts
+       • test/setup-runtime.ts
+     📄 Files WITHOUT BlockStatement (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • playground/nuxt.config.ts
+       • packages/webpack/builder.mjs
+       • packages/webpack/builder.d.ts
+       • packages/ui-templates/vite.config.ts
+       • packages/ui-templates/uno.config.ts
+       • packages/ui-templates/styles.ts
+       • packages/schema/builder-env.d.ts
+       • packages/schema/build.config.ts
+
+   VariableDeclarator:
+     📄 Files WITH VariableDeclarator (showing 10):
+       • vitest.config.ts
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • test/utils.ts
+       • test/typed-router.test.ts
+       • test/setup-env.ts
+       • test/prepare.ts
+     📄 Files WITHOUT VariableDeclarator (showing 10):
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • playground/nuxt.config.ts
+       • test/setup-runtime.ts
+       • packages/webpack/build.config.ts
+       • packages/vite/build.config.ts
+       • packages/ui-templates/uno.config.ts
+       • packages/ui-templates/styles.ts
+       • packages/schema/builder-env.d.ts
+
+   VariableDeclaration:
+     📄 Files WITH VariableDeclaration (showing 10):
+       • vitest.config.ts
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • test/utils.ts
+       • test/typed-router.test.ts
+       • test/setup-env.ts
+       • test/prepare.ts
+     📄 Files WITHOUT VariableDeclaration (showing 10):
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • playground/nuxt.config.ts
+       • test/setup-runtime.ts
+       • packages/webpack/build.config.ts
+       • packages/vite/build.config.ts
+       • packages/ui-templates/uno.config.ts
+       • packages/ui-templates/styles.ts
+       • packages/schema/builder-env.d.ts
+
+   TSTypeAnnotation:
+     📄 Files WITH TSTypeAnnotation (showing 10):
+       • vitest.config.ts
+       • scripts/_utils.ts
+       • test/utils.ts
+       • test/setup-runtime.ts
+       • test/setup-env.ts
+       • test/bundle.test.ts
+       • test/basic.test.ts
+       • debug/build-config.ts
+       • packages/webpack/builder.d.ts
+       • packages/ui-templates/vite.config.ts
+     📄 Files WITHOUT TSTypeAnnotation (showing 10):
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • playground/nuxt.config.ts
+       • test/typed-router.test.ts
+       • test/prepare.ts
+
+   TSTypeReference:
+     📄 Files WITH TSTypeReference (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • scripts/_utils.ts
+       • test/utils.ts
+       • test/setup-runtime.ts
+       • test/basic.test.ts
+       • debug/build-config.ts
+       • packages/nuxt/types.d.ts
+       • packages/nuxt/config.d.ts
+       • packages/nuxt/build.config.ts
+     📄 Files WITHOUT TSTypeReference (showing 10):
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • playground/nuxt.config.ts
+       • test/typed-router.test.ts
+       • test/setup-env.ts
+       • test/prepare.ts
+
+   ObjectExpression:
+     📄 Files WITH ObjectExpression (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+       • test/utils.ts
+       • test/setup-runtime.ts
+     📄 Files WITHOUT ObjectExpression (showing 10):
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • test/typed-router.test.ts
+       • test/setup-env.ts
+       • packages/webpack/builder.mjs
+       • packages/webpack/builder.d.ts
+       • packages/ui-templates/styles.ts
+       • packages/schema/builder-env.d.ts
+       • packages/rspack/builder.mjs
+       • packages/nuxt/types.d.ts
+
+   ImportSpecifier:
+     📄 Files WITH ImportSpecifier (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • test/utils.ts
+     📄 Files WITHOUT ImportSpecifier (showing 10):
+       • playground/nuxt.config.ts
+       • packages/webpack/builder.mjs
+       • packages/webpack/builder.d.ts
+       • packages/ui-templates/styles.ts
+       • packages/schema/builder-env.d.ts
+       • packages/rspack/builder.mjs
+       • packages/nuxt/schema.js
+       • packages/nuxt/schema.d.ts
+       • packages/nuxt/kit.js
+       • packages/nuxt/kit.d.ts
+
+   ArrowFunctionExpression:
+     📄 Files WITH ArrowFunctionExpression (showing 10):
+       • vitest.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • test/utils.ts
+       • test/typed-router.test.ts
+     📄 Files WITHOUT ArrowFunctionExpression (showing 10):
+       • playwright.config.ts
+       • playground/nuxt.config.ts
+       • debug/build-config.ts
+       • packages/webpack/builder.mjs
+       • packages/webpack/builder.d.ts
+       • packages/webpack/build.config.ts
+       • packages/vite/build.config.ts
+       • packages/ui-templates/uno.config.ts
+       • packages/ui-templates/styles.ts
+       • packages/schema/builder-env.d.ts
+
+   Unknown:
+     📄 Files WITH Unknown (showing 10):
+       • playwright.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • test/utils.ts
+       • test/typed-router.test.ts
+       • test/prepare.ts
+       • test/bundle.test.ts
+       • test/basic.test.ts
+     📄 Files WITHOUT Unknown (showing 10):
+       • vitest.config.ts
+       • nuxt.config.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • playground/nuxt.config.ts
+       • test/setup-runtime.ts
+       • test/setup-env.ts
+       • debug/build-config.ts
+       • packages/webpack/builder.mjs
+       • packages/webpack/builder.d.ts
+
+   TemplateElement:
+     📄 Files WITH TemplateElement (showing 10):
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • test/utils.ts
+       • test/typed-router.test.ts
+       • test/prepare.ts
+       • test/bundle.test.ts
+       • test/basic.test.ts
+       • packages/nuxt/build.config.ts
+     📄 Files WITHOUT TemplateElement (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • playground/nuxt.config.ts
+       • test/setup-runtime.ts
+       • test/setup-env.ts
+       • debug/build-config.ts
+       • packages/webpack/builder.mjs
+
+   ImportDeclaration:
+     📄 Files WITH ImportDeclaration (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • test/utils.ts
+     📄 Files WITHOUT ImportDeclaration (showing 10):
+       • playground/nuxt.config.ts
+       • packages/webpack/builder.mjs
+       • packages/schema/builder-env.d.ts
+       • packages/nuxt/schema.js
+       • packages/nuxt/schema.d.ts
+       • packages/nuxt/kit.js
+       • packages/nuxt/kit.d.ts
+       • packages/nuxt/index.d.ts
+       • packages/nuxt/config.js
+       • packages/nuxt/config.cjs
+
+   AwaitExpression:
+     📄 Files WITH AwaitExpression (showing 10):
+       • vitest.config.ts
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • test/utils.ts
+       • test/typed-router.test.ts
+       • test/prepare.ts
+       • test/bundle.test.ts
+     📄 Files WITHOUT AwaitExpression (showing 10):
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • playground/nuxt.config.ts
+       • test/setup-runtime.ts
+       • test/setup-env.ts
+       • debug/build-config.ts
+       • packages/webpack/builder.mjs
+       • packages/webpack/builder.d.ts
+       • packages/webpack/build.config.ts
+
+   IfStatement:
+     📄 Files WITH IfStatement (showing 10):
+       • nuxt.config.ts
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • test/utils.ts
+       • test/setup-env.ts
+       • test/bundle.test.ts
+       • test/basic.test.ts
+       • debug/build-config.ts
+     📄 Files WITHOUT IfStatement (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • eslint.config.mjs
+       • scripts/bump-rc.ts
+       • playground/nuxt.config.ts
+       • test/typed-router.test.ts
+       • test/setup-runtime.ts
+       • test/prepare.ts
+       • packages/webpack/builder.mjs
+       • packages/webpack/builder.d.ts
+
+   BinaryExpression:
+     📄 Files WITH BinaryExpression (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • scripts/update-changelog.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • test/utils.ts
+       • test/setup-env.ts
+       • test/bundle.test.ts
+       • test/basic.test.ts
+     📄 Files WITHOUT BinaryExpression (showing 10):
+       • eslint.config.mjs
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • playground/nuxt.config.ts
+       • test/typed-router.test.ts
+       • test/setup-runtime.ts
+       • test/prepare.ts
+       • debug/build-config.ts
+       • packages/webpack/builder.mjs
+       • packages/webpack/builder.d.ts
+
+   LogicalExpression:
+     📄 Files WITH LogicalExpression (showing 10):
+       • scripts/update-changelog.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • test/utils.ts
+       • test/setup-env.ts
+       • test/bundle.test.ts
+       • test/basic.test.ts
+       • packages/ui-templates/vite.config.ts
+       • test/e2e/test-utils.ts
+       • test/e2e/suspense.test.ts
+     📄 Files WITHOUT LogicalExpression (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • playground/nuxt.config.ts
+       • test/typed-router.test.ts
+       • test/setup-runtime.ts
+       • test/prepare.ts
+
+   ReturnStatement:
+     📄 Files WITH ReturnStatement (showing 10):
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/_utils.ts
+       • test/utils.ts
+       • test/setup-env.ts
+       • test/bundle.test.ts
+       • test/basic.test.ts
+       • packages/nuxt/config.js
+       • packages/nuxt/config.cjs
+     📄 Files WITHOUT ReturnStatement (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • playground/nuxt.config.ts
+       • test/typed-router.test.ts
+       • test/setup-runtime.ts
+       • test/prepare.ts
+       • debug/build-config.ts
+
+   TSStringKeyword:
+     📄 Files WITH TSStringKeyword (showing 10):
+       • vitest.config.ts
+       • scripts/_utils.ts
+       • test/utils.ts
+       • test/bundle.test.ts
+       • test/basic.test.ts
+       • packages/ui-templates/vite.config.ts
+       • packages/nuxt/types.d.ts
+       • packages/nuxt/index.d.ts
+       • test/e2e/test-utils.ts
+       • test/e2e/hmr.test.ts
+     📄 Files WITHOUT TSStringKeyword (showing 10):
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • playground/nuxt.config.ts
+       • test/typed-router.test.ts
+       • test/setup-runtime.ts
+
+   ArrayExpression:
+     📄 Files WITH ArrayExpression (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/_utils.ts
+       • test/utils.ts
+       • test/typed-router.test.ts
+       • test/setup-env.ts
+       • test/prepare.ts
+     📄 Files WITHOUT ArrayExpression (showing 10):
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • playground/nuxt.config.ts
+       • test/setup-runtime.ts
+       • packages/webpack/builder.mjs
+       • packages/webpack/builder.d.ts
+       • packages/ui-templates/styles.ts
+       • packages/schema/builder-env.d.ts
+       • packages/rspack/builder.mjs
+
+   TSPropertySignature:
+     📄 Files WITH TSPropertySignature (showing 10):
+       • scripts/_utils.ts
+       • test/utils.ts
+       • debug/build-config.ts
+       • packages/nuxt/types.d.ts
+       • packages/nuxt/index.d.ts
+       • test/e2e/test-utils.ts
+       • test/e2e/hmr.test.ts
+       • test/nuxt/use-fetch.test.ts
+       • test/nuxt/composables.test.ts
+       • test/nuxt/components.test.ts
+     📄 Files WITHOUT TSPropertySignature (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • playground/nuxt.config.ts
+       • test/typed-router.test.ts
+
+   TSTypeParameterInstantiation:
+     📄 Files WITH TSTypeParameterInstantiation (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • scripts/_utils.ts
+       • test/utils.ts
+       • test/basic.test.ts
+       • packages/nuxt/types.d.ts
+       • packages/nuxt/config.d.ts
+       • test/e2e/test-utils.ts
+       • test/e2e/hmr.test.ts
+       • test/nuxt/use-fetch.test.ts
+     📄 Files WITHOUT TSTypeParameterInstantiation (showing 10):
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • playground/nuxt.config.ts
+       • test/typed-router.test.ts
+       • test/setup-runtime.ts
+       • test/setup-env.ts
+
+   UnaryExpression:
+     📄 Files WITH UnaryExpression (showing 10):
+       • playwright.config.ts
+       • nuxt.config.ts
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • test/utils.ts
+       • test/setup-env.ts
+       • test/bundle.test.ts
+     📄 Files WITHOUT UnaryExpression (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • playground/nuxt.config.ts
+       • test/typed-router.test.ts
+       • test/setup-runtime.ts
+       • test/prepare.ts
+       • debug/build-config.ts
+       • packages/webpack/builder.mjs
+       • packages/webpack/builder.d.ts
+       • packages/webpack/build.config.ts
+
+   AssignmentExpression:
+     📄 Files WITH AssignmentExpression (showing 10):
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • test/utils.ts
+       • test/setup-env.ts
+       • test/bundle.test.ts
+       • test/basic.test.ts
+       • packages/nuxt/config.cjs
+       • packages/nuxt/build.config.ts
+       • test/e2e/test-utils.ts
+       • test/e2e/hmr.test.ts
+     📄 Files WITHOUT AssignmentExpression (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • playground/nuxt.config.ts
+       • test/typed-router.test.ts
+       • test/setup-runtime.ts
+
+   TemplateLiteral:
+     📄 Files WITH TemplateLiteral (showing 10):
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • test/utils.ts
+       • test/typed-router.test.ts
+       • test/prepare.ts
+       • test/bundle.test.ts
+       • test/basic.test.ts
+       • packages/nuxt/build.config.ts
+     📄 Files WITHOUT TemplateLiteral (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • playground/nuxt.config.ts
+       • test/setup-runtime.ts
+       • test/setup-env.ts
+       • debug/build-config.ts
+       • packages/webpack/builder.mjs
+
+   ExportNamedDeclaration:
+     📄 Files WITH ExportNamedDeclaration (showing 10):
+       • scripts/_utils.ts
+       • test/utils.ts
+       • debug/build-config.ts
+       • packages/webpack/builder.mjs
+       • packages/webpack/builder.d.ts
+       • packages/rspack/builder.mjs
+       • packages/nuxt/index.d.ts
+       • packages/nuxt/config.js
+       • packages/nuxt/config.d.ts
+       • test/e2e/test-utils.ts
+     📄 Files WITHOUT ExportNamedDeclaration (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • playground/nuxt.config.ts
+       • test/typed-router.test.ts
+
+   ConditionalExpression:
+     📄 Files WITH ConditionalExpression (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • scripts/update-changelog.ts
+       • test/utils.ts
+       • test/bundle.test.ts
+       • test/basic.test.ts
+       • debug/build-config.ts
+       • test/e2e/test-utils.ts
+       • test/e2e/suspense.test.ts
+       • test/e2e/spa-preloader-within.test.ts
+     📄 Files WITHOUT ConditionalExpression (showing 10):
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+       • test/typed-router.test.ts
+       • test/setup-runtime.ts
+       • test/setup-env.ts
+
+   TSLiteralType:
+     📄 Files WITH TSLiteralType (showing 10):
+       • debug/build-config.ts
+       • packages/webpack/builder.d.ts
+       • packages/nuxt/index.d.ts
+       • test/e2e/test-utils.ts
+       • test/nuxt/plugin.test.ts
+       • test/nuxt/nuxt-island.test.ts
+       • test/nuxt/error-boundary.test.ts
+       • test/nuxt/composables.test.ts
+       • debug/plugins/timings-unbuild.ts
+       • packages/webpack/src/webpack.ts
+     📄 Files WITHOUT TSLiteralType (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   ChainExpression:
+     📄 Files WITH ChainExpression (showing 10):
+       • scripts/update-changelog.ts
+       • test/utils.ts
+       • test/bundle.test.ts
+       • test/basic.test.ts
+       • test/e2e/test-utils.ts
+       • test/e2e/suspense.test.ts
+       • test/nuxt/use-fetch.test.ts
+       • test/nuxt/use-async-data.test.ts
+       • test/nuxt/nuxt-layout.test.ts
+       • test/nuxt/nuxt-island.test.ts
+     📄 Files WITHOUT ChainExpression (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+       • test/typed-router.test.ts
+
+   TSUnionType:
+     📄 Files WITH TSUnionType (showing 10):
+       • scripts/_utils.ts
+       • test/utils.ts
+       • packages/webpack/builder.d.ts
+       • packages/nuxt/types.d.ts
+       • packages/nuxt/index.d.ts
+       • test/e2e/test-utils.ts
+       • test/nuxt/use-async-data.test.ts
+       • test/nuxt/plugin.test.ts
+       • test/nuxt/loading-indicator.test.ts
+       • packages/webpack/src/webpack.ts
+     📄 Files WITHOUT TSUnionType (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • playground/nuxt.config.ts
+       • test/typed-router.test.ts
+
+   FunctionDeclaration:
+     📄 Files WITH FunctionDeclaration (showing 10):
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • test/utils.ts
+       • test/prepare.ts
+       • test/bundle.test.ts
+       • test/basic.test.ts
+       • debug/build-config.ts
+     📄 Files WITHOUT FunctionDeclaration (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • playground/nuxt.config.ts
+       • test/typed-router.test.ts
+       • test/setup-runtime.ts
+       • test/setup-env.ts
+       • packages/webpack/builder.mjs
+       • packages/webpack/builder.d.ts
+
+   TSAsExpression:
+     📄 Files WITH TSAsExpression (showing 10):
+       • scripts/_utils.ts
+       • test/basic.test.ts
+       • debug/build-config.ts
+       • packages/nuxt/build.config.ts
+       • test/e2e/test-utils.ts
+       • test/nuxt/use-fetch.test.ts
+       • test/nuxt/use-async-data.test.ts
+       • test/nuxt/loading-indicator.test.ts
+       • test/nuxt/composables.test.ts
+       • test/nuxt/components.test.ts
+     📄 Files WITHOUT TSAsExpression (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • playground/nuxt.config.ts
+       • test/utils.ts
+
+   ParenthesizedExpression:
+     📄 Files WITH ParenthesizedExpression (showing 10):
+       • playwright.config.ts
+       • scripts/update-changelog.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • test/utils.ts
+       • test/setup-runtime.ts
+       • test/setup-env.ts
+       • test/bundle.test.ts
+       • test/basic.test.ts
+       • debug/build-config.ts
+     📄 Files WITHOUT ParenthesizedExpression (showing 10):
+       • vitest.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • playground/nuxt.config.ts
+       • test/typed-router.test.ts
+       • test/prepare.ts
+       • packages/webpack/builder.mjs
+       • packages/webpack/builder.d.ts
+
+   SpreadElement:
+     📄 Files WITH SpreadElement (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • eslint.config.mjs
+       • test/setup-env.ts
+       • test/prepare.ts
+       • test/bundle.test.ts
+       • test/basic.test.ts
+       • packages/ui-templates/vite.config.ts
+       • packages/rspack/build.config.ts
+       • packages/nuxt/build.config.ts
+     📄 Files WITHOUT SpreadElement (showing 10):
+       • nuxt.config.ts
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+       • test/utils.ts
+       • test/typed-router.test.ts
+       • test/setup-runtime.ts
+
+   NewExpression:
+     📄 Files WITH NewExpression (showing 10):
+       • nuxt.config.ts
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/_utils.ts
+       • test/utils.ts
+       • test/typed-router.test.ts
+       • test/prepare.ts
+       • test/bundle.test.ts
+       • test/basic.test.ts
+       • debug/build-config.ts
+     📄 Files WITHOUT NewExpression (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • eslint.config.mjs
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • playground/nuxt.config.ts
+       • test/setup-runtime.ts
+       • test/setup-env.ts
+       • packages/webpack/builder.mjs
+       • packages/webpack/builder.d.ts
+
+   TSArrayType:
+     📄 Files WITH TSArrayType (showing 10):
+       • scripts/_utils.ts
+       • test/utils.ts
+       • test/setup-env.ts
+       • test/bundle.test.ts
+       • test/basic.test.ts
+       • debug/build-config.ts
+       • packages/ui-templates/vite.config.ts
+       • packages/nuxt/types.d.ts
+       • test/nuxt/use-async-data.test.ts
+       • test/nuxt/plugin.test.ts
+     📄 Files WITHOUT TSArrayType (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • playground/nuxt.config.ts
+       • test/typed-router.test.ts
+
+   TSNonNullExpression:
+     📄 Files WITH TSNonNullExpression (showing 10):
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/_utils.ts
+       • test/utils.ts
+       • test/bundle.test.ts
+       • test/basic.test.ts
+       • test/e2e/test-utils.ts
+       • test/e2e/runtime-compiler.test.ts
+       • test/nuxt/use-async-data.test.ts
+     📄 Files WITHOUT TSNonNullExpression (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/bump-edge.ts
+       • playground/nuxt.config.ts
+       • test/typed-router.test.ts
+       • test/setup-runtime.ts
+       • test/setup-env.ts
+       • test/prepare.ts
+
+   TSAnyKeyword:
+     📄 Files WITH TSAnyKeyword (showing 10):
+       • test/utils.ts
+       • test/setup-env.ts
+       • test/basic.test.ts
+       • debug/build-config.ts
+       • packages/nuxt/index.d.ts
+       • test/e2e/test-utils.ts
+       • test/nuxt/use-async-data.test.ts
+       • test/nuxt/loading-indicator.test.ts
+       • test/nuxt/composables.test.ts
+       • test/nuxt/components.test.ts
+     📄 Files WITHOUT TSAnyKeyword (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   Program:
+     📄 Files WITH Program (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+     📄 Files WITHOUT Program: (all files contain this node type)
+
+   TSBooleanKeyword:
+     📄 Files WITH TSBooleanKeyword (showing 10):
+       • scripts/_utils.ts
+       • test/utils.ts
+       • test/basic.test.ts
+       • packages/nuxt/types.d.ts
+       • packages/nuxt/index.d.ts
+       • test/e2e/test-utils.ts
+       • test/nuxt/router.option.test.ts
+       • test/nuxt/components.test.ts
+       • debug/plugins/timings-unbuild.ts
+       • packages/vite/src/client.ts
+     📄 Files WITHOUT TSBooleanKeyword (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • playground/nuxt.config.ts
+       • test/typed-router.test.ts
+
+   ObjectPattern:
+     📄 Files WITH ObjectPattern (showing 10):
+       • scripts/_utils.ts
+       • test/utils.ts
+       • test/basic.test.ts
+       • test/e2e/test-utils.ts
+       • test/e2e/suspense.test.ts
+       • test/e2e/spa-preloader-within.test.ts
+       • test/e2e/spa-preloader-body.test.ts
+       • test/e2e/runtime-compiler.test.ts
+       • test/e2e/hmr.test.ts
+       • test/nuxt/use-fetch.test.ts
+     📄 Files WITHOUT ObjectPattern (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • playground/nuxt.config.ts
+       • test/typed-router.test.ts
+
+   ExportSpecifier:
+     📄 Files WITH ExportSpecifier (showing 10):
+       • packages/webpack/builder.mjs
+       • packages/rspack/builder.mjs
+       • packages/nuxt/config.js
+       • packages/nuxt/config.d.ts
+       • test/e2e/test-utils.ts
+       • packages/webpack/src/index.ts
+       • packages/vite/src/index.ts
+       • packages/schema/src/index.ts
+       • packages/nuxt/src/index.ts
+       • packages/kit/src/index.ts
+     📄 Files WITHOUT ExportSpecifier (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TSFunctionType:
+     📄 Files WITH TSFunctionType (showing 10):
+       • scripts/_utils.ts
+       • test/utils.ts
+       • packages/nuxt/types.d.ts
+       • packages/nuxt/index.d.ts
+       • test/e2e/test-utils.ts
+       • test/nuxt/router.option.test.ts
+       • test/nuxt/nuxt-layout.test.ts
+       • test/nuxt/loading-indicator.test.ts
+       • test/nuxt/components.test.ts
+       • test/nuxt/client-only.test.ts
+     📄 Files WITHOUT TSFunctionType (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • playground/nuxt.config.ts
+       • test/typed-router.test.ts
+
+   TSTypeLiteral:
+     📄 Files WITH TSTypeLiteral (showing 10):
+       • scripts/_utils.ts
+       • test/utils.ts
+       • debug/build-config.ts
+       • packages/nuxt/types.d.ts
+       • packages/nuxt/index.d.ts
+       • test/e2e/test-utils.ts
+       • test/e2e/hmr.test.ts
+       • test/nuxt/composables.test.ts
+       • test/nuxt/components.test.ts
+       • debug/plugins/timings-unbuild.ts
+     📄 Files WITHOUT TSTypeLiteral (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • playground/nuxt.config.ts
+       • test/typed-router.test.ts
+
+   ForOfStatement:
+     📄 Files WITH ForOfStatement (showing 10):
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • test/utils.ts
+       • test/bundle.test.ts
+       • test/basic.test.ts
+       • test/e2e/runtime-compiler.test.ts
+       • test/nuxt/use-fetch.test.ts
+     📄 Files WITHOUT ForOfStatement (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • playground/nuxt.config.ts
+       • test/typed-router.test.ts
+       • test/setup-runtime.ts
+       • test/setup-env.ts
+       • test/prepare.ts
+       • debug/build-config.ts
+
+   FunctionExpression:
+     📄 Files WITH FunctionExpression (showing 10):
+       • nuxt.config.ts
+       • test/basic.test.ts
+       • packages/webpack/build.config.ts
+       • packages/vite/build.config.ts
+       • packages/rspack/build.config.ts
+       • packages/nuxt/build.config.ts
+       • packages/kit/build.config.ts
+       • test/e2e/test-utils.ts
+       • test/nuxt/use-async-data.test.ts
+       • test/nuxt/router.option.test.ts
+     📄 Files WITHOUT FunctionExpression (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+       • test/utils.ts
+
+   MetaProperty:
+     📄 Files WITH MetaProperty (showing 10):
+       • nuxt.config.ts
+       • test/typed-router.test.ts
+       • test/prepare.ts
+       • test/bundle.test.ts
+       • test/basic.test.ts
+       • debug/build-config.ts
+       • packages/ui-templates/vite.config.ts
+       • test/e2e/suspense.test.ts
+       • test/e2e/spa-preloader-within.test.ts
+       • test/e2e/spa-preloader-body.test.ts
+     📄 Files WITHOUT MetaProperty (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+       • test/utils.ts
+
+   TSTypeParameter:
+     📄 Files WITH TSTypeParameter (showing 10):
+       • scripts/_utils.ts
+       • test/e2e/test-utils.ts
+       • packages/vite/src/vite-node.ts
+       • packages/nuxt/src/utils.ts
+       • packages/kit/test/generate-types.spec.ts
+       • packages/kit/src/utils.ts
+       • packages/kit/src/template.ts
+       • packages/kit/src/context.ts
+       • packages/webpack/src/utils/index.ts
+       • packages/vite/src/utils/index.ts
+     📄 Files WITHOUT TSTypeParameter (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • playground/nuxt.config.ts
+       • test/utils.ts
+
+   TSVoidKeyword:
+     📄 Files WITH TSVoidKeyword (showing 10):
+       • scripts/_utils.ts
+       • packages/nuxt/types.d.ts
+       • packages/nuxt/index.d.ts
+       • test/nuxt/nuxt-layout.test.ts
+       • test/nuxt/loading-indicator.test.ts
+       • test/nuxt/client-only.test.ts
+       • packages/vite/src/vite.ts
+       • packages/vite/src/vite-node.ts
+       • packages/vite/src/client.ts
+       • packages/kit/src/build.ts
+     📄 Files WITHOUT TSVoidKeyword (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • playground/nuxt.config.ts
+       • test/utils.ts
+
+   TSIndexedAccessType:
+     📄 Files WITH TSIndexedAccessType (showing 10):
+       • debug/build-config.ts
+       • test/nuxt/error-boundary.test.ts
+       • test/nuxt/composables.test.ts
+       • packages/webpack/src/webpack.ts
+       • packages/vite/src/vite.ts
+       • packages/vite/src/vite-node.ts
+       • packages/vite/src/css.ts
+       • packages/vite/src/client.ts
+       • packages/nuxt/test/load-nuxt.test.ts
+       • packages/nuxt/test/app.test.ts
+     📄 Files WITHOUT TSIndexedAccessType (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TSInterfaceDeclaration:
+     📄 Files WITH TSInterfaceDeclaration (showing 10):
+       • scripts/_utils.ts
+       • packages/nuxt/types.d.ts
+       • packages/nuxt/index.d.ts
+       • packages/nuxt/config.d.ts
+       • test/nuxt/use-fetch.test.ts
+       • packages/vite/src/vite.ts
+       • packages/vite/src/vite-node.ts
+       • packages/kit/src/resolve.ts
+       • packages/kit/src/plugin.ts
+       • packages/kit/src/pages.ts
+     📄 Files WITHOUT TSInterfaceDeclaration (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • playground/nuxt.config.ts
+       • test/utils.ts
+
+   TSInterfaceBody:
+     📄 Files WITH TSInterfaceBody (showing 10):
+       • scripts/_utils.ts
+       • packages/nuxt/types.d.ts
+       • packages/nuxt/index.d.ts
+       • packages/nuxt/config.d.ts
+       • test/nuxt/use-fetch.test.ts
+       • packages/vite/src/vite.ts
+       • packages/vite/src/vite-node.ts
+       • packages/kit/src/resolve.ts
+       • packages/kit/src/plugin.ts
+       • packages/kit/src/pages.ts
+     📄 Files WITHOUT TSInterfaceBody (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • playground/nuxt.config.ts
+       • test/utils.ts
+
+   AssignmentPattern:
+     📄 Files WITH AssignmentPattern (showing 10):
+       • scripts/_utils.ts
+       • test/utils.ts
+       • test/basic.test.ts
+       • test/e2e/test-utils.ts
+       • test/nuxt/router.option.test.ts
+       • test/nuxt/plugin.test.ts
+       • packages/vite/src/vite.ts
+       • packages/nuxt/test/utils.ts
+       • packages/nuxt/test/unhead-imports.test.ts
+       • packages/nuxt/test/unctx-transform.test.ts
+     📄 Files WITHOUT AssignmentPattern (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • playground/nuxt.config.ts
+       • test/typed-router.test.ts
+
+   TSUndefinedKeyword:
+     📄 Files WITH TSUndefinedKeyword (showing 10):
+       • test/utils.ts
+       • test/e2e/test-utils.ts
+       • test/nuxt/plugin.test.ts
+       • test/nuxt/loading-indicator.test.ts
+       • packages/vite/src/vite-node.ts
+       • packages/vite/src/css.ts
+       • packages/kit/src/resolve.ts
+       • packages/webpack/src/utils/postcss.ts
+       • packages/schema/src/types/schema.ts
+       • packages/schema/src/types/router.ts
+     📄 Files WITHOUT TSUndefinedKeyword (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TSUnknownKeyword:
+     📄 Files WITH TSUnknownKeyword (showing 10):
+       • test/basic.test.ts
+       • test/nuxt/use-async-data.test.ts
+       • test/nuxt/components.test.ts
+       • packages/webpack/src/webpack.ts
+       • packages/schema/test/folder-structure.spec.ts
+       • packages/nuxt/test/virtual.test.ts
+       • packages/nuxt/test/shared-dir-config.test.ts
+       • packages/nuxt/test/pages.test.ts
+       • packages/nuxt/test/page-metadata.test.ts
+       • packages/nuxt/test/nuxt-link.test.ts
+     📄 Files WITHOUT TSUnknownKeyword (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TSTypeParameterDeclaration:
+     📄 Files WITH TSTypeParameterDeclaration (showing 10):
+       • scripts/_utils.ts
+       • test/e2e/test-utils.ts
+       • packages/vite/src/vite-node.ts
+       • packages/nuxt/src/utils.ts
+       • packages/kit/test/generate-types.spec.ts
+       • packages/kit/src/utils.ts
+       • packages/kit/src/template.ts
+       • packages/kit/src/context.ts
+       • packages/webpack/src/utils/index.ts
+       • packages/vite/src/utils/index.ts
+     📄 Files WITHOUT TSTypeParameterDeclaration (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • playground/nuxt.config.ts
+       • test/utils.ts
+
+   ImportDefaultSpecifier:
+     📄 Files WITH ImportDefaultSpecifier (showing 10):
+       • vitest.config.ts
+       • eslint.config.mjs
+       • test/bundle.test.ts
+       • debug/build-config.ts
+       • packages/webpack/builder.d.ts
+       • packages/ui-templates/vite.config.ts
+       • packages/rspack/builder.mjs
+       • packages/rspack/build.config.ts
+       • test/nuxt/nuxt-layout.test.ts
+       • test/nuxt/nuxt-island.test.ts
+     📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
+       • playwright.config.ts
+       • nuxt.config.ts
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+       • test/utils.ts
+       • test/typed-router.test.ts
+
+   TSNumberKeyword:
+     📄 Files WITH TSNumberKeyword (showing 10):
+       • test/utils.ts
+       • test/bundle.test.ts
+       • test/e2e/test-utils.ts
+       • test/nuxt/router.option.test.ts
+       • test/nuxt/nuxt-layout.test.ts
+       • test/nuxt/composables.test.ts
+       • debug/plugins/timings-unbuild.ts
+       • packages/vite/src/vite-node.ts
+       • packages/nuxt/test/treeshake-client.test.ts
+       • packages/nuxt/test/app.test.ts
+     📄 Files WITHOUT TSNumberKeyword (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   ArrayPattern:
+     📄 Files WITH ArrayPattern (showing 10):
+       • vitest.config.ts
+       • scripts/update-changelog.ts
+       • scripts/bump-edge.ts
+       • test/bundle.test.ts
+       • test/basic.test.ts
+       • test/e2e/spa-preloader-within.test.ts
+       • test/e2e/spa-preloader-body.test.ts
+       • test/nuxt/composables.test.ts
+       • debug/plugins/timings-babel.mjs
+       • packages/vite/src/vite.ts
+     📄 Files WITHOUT ArrayPattern (showing 10):
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+       • test/utils.ts
+       • test/typed-router.test.ts
+       • test/setup-runtime.ts
+
+   TSTypeAliasDeclaration:
+     📄 Files WITH TSTypeAliasDeclaration (showing 10):
+       • scripts/_utils.ts
+       • test/utils.ts
+       • test/nuxt/composables.test.ts
+       • packages/vite/src/vite-node.ts
+       • packages/kit/test/generate-types.spec.ts
+       • packages/kit/src/runtime-config.ts
+       • packages/kit/src/components.ts
+       • packages/webpack/src/utils/config.ts
+       • packages/webpack/src/plugins/warning-ignore.ts
+       • packages/schema/src/utils/definition.ts
+     📄 Files WITHOUT TSTypeAliasDeclaration (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • playground/nuxt.config.ts
+       • test/typed-router.test.ts
+
+   ContinueStatement:
+     📄 Files WITH ContinueStatement (showing 10):
+       • scripts/_utils.ts
+       • test/basic.test.ts
+       • debug/plugins/timings-babel.mjs
+       • packages/vite/src/vite-node.ts
+       • packages/vite/src/css.ts
+       • packages/nuxt/test/auto-imports.test.ts
+       • packages/kit/src/template.ts
+       • packages/kit/src/resolve.ts
+       • packages/kit/src/pages.ts
+       • packages/webpack/src/utils/postcss.ts
+     📄 Files WITHOUT ContinueStatement (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • playground/nuxt.config.ts
+       • test/utils.ts
+
+   ExportDefaultDeclaration:
+     📄 Files WITH ExportDefaultDeclaration (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • playground/nuxt.config.ts
+       • packages/webpack/build.config.ts
+       • packages/vite/build.config.ts
+       • packages/ui-templates/vite.config.ts
+       • packages/ui-templates/uno.config.ts
+       • packages/schema/build.config.ts
+     📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • test/utils.ts
+       • test/typed-router.test.ts
+       • test/setup-runtime.ts
+       • test/setup-env.ts
+       • test/prepare.ts
+
+   ThrowStatement:
+     📄 Files WITH ThrowStatement (showing 10):
+       • scripts/bump.ts
+       • scripts/_utils.ts
+       • test/utils.ts
+       • test/nuxt/router.option.test.ts
+       • test/nuxt/nuxt-island.test.ts
+       • test/nuxt/error-boundary.test.ts
+       • packages/webpack/src/webpack.ts
+       • packages/vite/src/vite-node.ts
+       • packages/vite/src/client.ts
+       • packages/nuxt/test/build-plugins.bench.ts
+     📄 Files WITHOUT ThrowStatement (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • playground/nuxt.config.ts
+       • test/typed-router.test.ts
+       • test/setup-runtime.ts
+
+   TSParenthesizedType:
+     📄 Files WITH TSParenthesizedType (showing 10):
+       • test/e2e/test-utils.ts
+       • test/nuxt/loading-indicator.test.ts
+       • packages/vite/src/css.ts
+       • packages/nuxt/test/pages.test.ts
+       • packages/kit/src/build.ts
+       • packages/webpack/src/utils/postcss.ts
+       • packages/vite/src/plugins/ssr-styles.ts
+       • packages/schema/src/utils/definition.ts
+       • packages/schema/src/types/schema.ts
+       • packages/schema/src/types/module.ts
+     📄 Files WITHOUT TSParenthesizedType (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TSConditionalType:
+     📄 Files WITH TSConditionalType (showing 10):
+       • scripts/_utils.ts
+       • packages/kit/test/generate-types.spec.ts
+       • packages/schema/src/utils/definition.ts
+       • packages/schema/src/types/schema.ts
+       • packages/schema/src/types/module.ts
+       • packages/schema/src/types/hooks.ts
+       • packages/schema/src/types/config.ts
+       • packages/schema/src/config/typescript.ts
+       • packages/schema/src/config/experimental.ts
+       • packages/nuxt/src/core/app.ts
+     📄 Files WITHOUT TSConditionalType (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • playground/nuxt.config.ts
+       • test/utils.ts
+
+   TSIntersectionType:
+     📄 Files WITH TSIntersectionType (showing 10):
+       • test/nuxt/use-async-data.test.ts
+       • debug/plugins/timings-unbuild.ts
+       • packages/vite/src/css.ts
+       • packages/vite/src/client.ts
+       • packages/nuxt/test/treeshake-client.test.ts
+       • packages/nuxt/test/nuxt-link.test.ts
+       • packages/kit/src/components.ts
+       • packages/webpack/src/utils/mfs.ts
+       • packages/schema/src/types/schema.ts
+       • packages/schema/src/types/router.ts
+     📄 Files WITHOUT TSIntersectionType (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TryStatement:
+     📄 Files WITH TryStatement (showing 10):
+       • test/utils.ts
+       • test/basic.test.ts
+       • test/e2e/test-utils.ts
+       • test/nuxt/use-async-data.test.ts
+       • debug/plugins/timings-unbuild.ts
+       • packages/vite/src/vite-node.ts
+       • packages/nuxt/test/pages.test.ts
+       • packages/nuxt/test/page-metadata.test.ts
+       • packages/nuxt/test/auto-imports.test.ts
+       • packages/kit/src/template.ts
+     📄 Files WITHOUT TryStatement (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TSNullKeyword:
+     📄 Files WITH TSNullKeyword (showing 10):
+       • test/utils.ts
+       • test/nuxt/use-async-data.test.ts
+       • packages/vite/src/vite-node.ts
+       • packages/nuxt/test/route-injection.test.ts
+       • packages/nuxt/test/prehydrate.test.ts
+       • packages/nuxt/test/page-metadata.test.ts
+       • packages/nuxt/test/island-transform.test.ts
+       • packages/nuxt/test/devonly.test.ts
+       • packages/nuxt/test/composable-keys.test.ts
+       • packages/nuxt/test/component-names.test.ts
+     📄 Files WITHOUT TSNullKeyword (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   CatchClause:
+     📄 Files WITH CatchClause (showing 10):
+       • test/utils.ts
+       • test/basic.test.ts
+       • test/e2e/test-utils.ts
+       • debug/plugins/timings-unbuild.ts
+       • packages/vite/src/vite-node.ts
+       • packages/nuxt/test/pages.test.ts
+       • packages/nuxt/test/page-metadata.test.ts
+       • packages/nuxt/test/auto-imports.test.ts
+       • packages/kit/src/template.ts
+       • packages/kit/src/runtime-config.ts
+     📄 Files WITHOUT CatchClause (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TSTypeOperator:
+     📄 Files WITH TSTypeOperator (showing 10):
+       • packages/vite/src/vite-node.ts
+       • packages/kit/test/load-nuxt-config.bench.ts
+       • packages/kit/test/generate-types.spec.ts
+       • packages/webpack/src/presets/base.ts
+       • packages/schema/src/utils/definition.ts
+       • packages/schema/src/types/module.ts
+       • packages/schema/src/types/hooks.ts
+       • packages/schema/src/types/config.ts
+       • packages/schema/src/config/postcss.ts
+       • packages/schema/src/config/build.ts
+     📄 Files WITHOUT TSTypeOperator (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   RestElement:
+     📄 Files WITH RestElement (showing 10):
+       • test/setup-env.ts
+       • packages/ui-templates/vite.config.ts
+       • test/nuxt/use-async-data.test.ts
+       • packages/webpack/src/webpack.ts
+       • packages/vite/src/vite.ts
+       • packages/ui-templates/lib/dev.ts
+       • packages/nuxt/test/scan-components.test.ts
+       • packages/nuxt/test/pages.test.ts
+       • packages/nuxt/test/nuxt-link.test.ts
+       • packages/kit/src/resolve.ts
+     📄 Files WITHOUT RestElement (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TSTypeQuery:
+     📄 Files WITH TSTypeQuery (showing 10):
+       • scripts/_utils.ts
+       • packages/webpack/builder.d.ts
+       • test/nuxt/use-async-data.test.ts
+       • test/nuxt/router.option.test.ts
+       • test/nuxt/plugin.test.ts
+       • test/nuxt/nuxt-island.test.ts
+       • test/nuxt/error-boundary.test.ts
+       • test/nuxt/composables.test.ts
+       • debug/plugins/timings-unbuild.ts
+       • packages/nuxt/test/pages.test.ts
+     📄 Files WITHOUT TSTypeQuery (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • playground/nuxt.config.ts
+       • test/utils.ts
+
+   UpdateExpression:
+     📄 Files WITH UpdateExpression (showing 10):
+       • test/utils.ts
+       • test/basic.test.ts
+       • test/nuxt/use-fetch.test.ts
+       • test/nuxt/use-async-data.test.ts
+       • test/nuxt/nuxt-page.test.ts
+       • test/nuxt/nuxt-layout.test.ts
+       • test/nuxt/nuxt-island.test.ts
+       • test/nuxt/loading-indicator.test.ts
+       • test/nuxt/composables.test.ts
+       • packages/nuxt/test/route-injection.test.ts
+     📄 Files WITHOUT UpdateExpression (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   ThisExpression:
+     📄 Files WITH ThisExpression (showing 10):
+       • test/nuxt/nuxt-island.test.ts
+       • test/nuxt/composables.test.ts
+       • packages/vite/src/vite.ts
+       • packages/webpack/src/plugins/warning-ignore.ts
+       • packages/webpack/src/plugins/rollup-compat-dynamic-import.ts
+       • packages/webpack/src/plugins/chunk.ts
+       • packages/vite/src/plugins/ssr-styles.ts
+       • packages/vite/src/plugins/sourcemap-preserver.ts
+       • packages/webpack/src/plugins/vue/server.ts
+       • packages/webpack/src/plugins/vue/client.ts
+     📄 Files WITHOUT ThisExpression (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TSMethodSignature:
+     📄 Files WITH TSMethodSignature (showing 10):
+       • packages/vite/src/vite-node.ts
+       • packages/kit/src/resolve.ts
+       • packages/webpack/src/utils/mfs.ts
+       • packages/schema/src/types/compatibility.ts
+       • packages/nuxt/src/app/nuxt.ts
+       • packages/schema/src/types/builder-env/webpack.ts
+       • packages/schema/src/types/builder-env/vite.ts
+       • packages/nuxt/src/components/plugins/tree-shake.ts
+       • packages/nuxt/src/components/plugins/loader.ts
+       • packages/nuxt/src/components/plugins/lazy-hydration-transform.ts
+     📄 Files WITHOUT TSMethodSignature (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   ForInStatement:
+     📄 Files WITH ForInStatement (showing 10):
+       • test/basic.test.ts
+       • packages/vite/src/vite.ts
+       • packages/kit/test/load-nuxt-config.spec.ts
+       • packages/kit/test/load-nuxt-config.bench.ts
+       • packages/kit/src/template.ts
+       • packages/kit/src/runtime-config.ts
+       • packages/vite/src/plugins/vue-feature-flags.ts
+       • packages/vite/src/plugins/ssr-styles.ts
+       • packages/vite/src/plugins/analyze.ts
+       • packages/schema/src/config/common.ts
+     📄 Files WITHOUT ForInStatement (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TSDeclareFunction:
+     📄 Files WITH TSDeclareFunction (showing 10):
+       • packages/nuxt/src/app/nuxt.ts
+       • packages/kit/src/module/define.ts
+       • packages/kit/src/internal/esm.ts
+       • packages/nuxt/src/app/composables/state.ts
+       • packages/nuxt/src/app/composables/ssr.ts
+       • packages/nuxt/src/app/composables/once.ts
+       • packages/nuxt/src/app/composables/manifest.ts
+       • packages/nuxt/src/app/composables/lazy-hydration.ts
+       • packages/nuxt/src/app/composables/fetch.ts
+       • packages/nuxt/src/app/composables/cookie.ts
+     📄 Files WITHOUT TSDeclareFunction (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TSInterfaceHeritage:
+     📄 Files WITH TSInterfaceHeritage (showing 10):
+       • packages/nuxt/types.d.ts
+       • packages/nuxt/config.d.ts
+       • packages/kit/src/build.ts
+       • packages/schema/src/types/nuxt.ts
+       • packages/schema/src/types/imports.ts
+       • packages/schema/src/types/hooks.ts
+       • packages/schema/src/types/config.ts
+       • packages/schema/src/types/components.ts
+       • packages/schema/src/types/compatibility.ts
+       • packages/nuxt/src/app/nuxt.ts
+     📄 Files WITHOUT TSInterfaceHeritage (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TSTupleType:
+     📄 Files WITH TSTupleType (showing 10):
+       • test/nuxt/use-async-data.test.ts
+       • packages/ui-templates/lib/render.ts
+       • packages/nuxt/test/nuxt-link.test.ts
+       • packages/nuxt/test/naming.test.ts
+       • packages/nuxt/test/load-nuxt.test.ts
+       • packages/nuxt/test/component-names.test.ts
+       • packages/webpack/src/utils/config.ts
+       • packages/vite/src/plugins/ssr-styles.ts
+       • packages/vite/src/plugins/analyze.ts
+       • packages/schema/src/types/schema.ts
+     📄 Files WITHOUT TSTupleType (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   SwitchCase:
+     📄 Files WITH SwitchCase (showing 5):
+       • packages/vite/src/vite-node.ts
+       • packages/nuxt/src/pages/utils.ts
+       • packages/nuxt/src/app/nuxt.ts
+       • packages/nuxt/src/core/plugins/composable-keys.ts
+       • packages/nuxt/src/components/plugins/loader.ts
+     📄 Files WITHOUT SwitchCase (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TSQualifiedName:
+     📄 Files WITH TSQualifiedName (showing 10):
+       • test/nuxt/router.option.test.ts
+       • packages/webpack/src/webpack.ts
+       • packages/vite/src/vite.ts
+       • packages/vite/src/vite-node.ts
+       • packages/vite/src/server.ts
+       • packages/vite/src/client.ts
+       • packages/vite/src/utils/logger.ts
+       • packages/schema/src/types/schema.ts
+       • packages/nuxt/src/head/runtime/components.ts
+       • packages/nuxt/src/app/plugins/check-outdated-build.client.ts
+     📄 Files WITHOUT TSQualifiedName (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TSSatisfiesExpression:
+     📄 Files WITH TSSatisfiesExpression (showing 10):
+       • debug/build-config.ts
+       • debug/plugins/timings-unbuild.ts
+       • packages/vite/src/vite.ts
+       • packages/vite/src/server.ts
+       • packages/vite/src/client.ts
+       • packages/nuxt/test/import-protection.test.ts
+       • packages/nuxt/test/components-transform.test.ts
+       • packages/kit/test/generate-types.spec.ts
+       • packages/kit/src/template.ts
+       • packages/webpack/src/presets/base.ts
+     📄 Files WITHOUT TSSatisfiesExpression (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TSNeverKeyword:
+     📄 Files WITH TSNeverKeyword (showing 10):
+       • packages/schema/src/utils/definition.ts
+       • packages/schema/src/types/config.ts
+       • packages/schema/src/config/typescript.ts
+       • packages/schema/src/config/experimental.ts
+       • packages/nuxt/src/core/app.ts
+       • packages/kit/src/module/install.ts
+       • packages/nuxt/src/pages/runtime/utils.ts
+       • packages/nuxt/src/app/plugins/router.ts
+       • packages/nuxt/src/app/composables/runtime-hook.ts
+       • packages/nuxt/src/app/composables/router.ts
+     📄 Files WITHOUT TSNeverKeyword (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   BreakStatement:
+     📄 Files WITH BreakStatement (showing 10):
+       • test/utils.ts
+       • test/e2e/test-utils.ts
+       • packages/vite/src/vite-node.ts
+       • packages/vite/src/manifest.ts
+       • packages/vite/src/css.ts
+       • packages/kit/src/compatibility.ts
+       • packages/webpack/src/utils/postcss.ts
+       • packages/nuxt/src/pages/utils.ts
+       • packages/nuxt/src/pages/route-rules.ts
+       • packages/nuxt/src/core/cache.ts
+     📄 Files WITHOUT BreakStatement (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   ImportExpression:
+     📄 Files WITH ImportExpression (showing 10):
+       • packages/vite/src/vite.ts
+       • packages/vite/src/client.ts
+       • packages/ui-templates/lib/prerender.ts
+       • packages/nuxt/src/core/nuxt.ts
+       • packages/nuxt/src/core/features.ts
+       • packages/nuxt/src/app/entry.async.ts
+       • packages/kit/src/loader/nuxt.ts
+       • packages/kit/src/loader/config.ts
+       • packages/kit/src/internal/esm.ts
+       • packages/nuxt/src/app/composables/payload.ts
+     📄 Files WITHOUT ImportExpression (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TSIndexSignature:
+     📄 Files WITH TSIndexSignature (showing 10):
+       • packages/webpack/src/utils/config.ts
+       • packages/schema/src/types/schema.ts
+       • packages/schema/src/types/module.ts
+       • packages/schema/src/types/config.ts
+       • packages/schema/src/types/components.ts
+       • packages/nuxt/src/pages/route-rules.ts
+       • packages/nuxt/src/pages/module.ts
+       • packages/nuxt/src/app/types.ts
+       • packages/nuxt/src/app/nuxt.ts
+       • packages/schema/src/types/builder-env/webpack.ts
+     📄 Files WITHOUT TSIndexSignature (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TSModuleDeclaration:
+     📄 Files WITH TSModuleDeclaration (showing 8):
+       • packages/webpack/builder.d.ts
+       • packages/nuxt/types.d.ts
+       • packages/nuxt/index.d.ts
+       • debug/plugins/timings-unbuild.ts
+       • packages/nuxt/src/pages/build.d.ts
+       • packages/schema/src/types/builder-env/index.ts
+       • packages/nuxt/src/pages/runtime/composables.ts
+       • packages/nuxt/src/app/types/augments.ts
+     📄 Files WITHOUT TSModuleDeclaration (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TSModuleBlock:
+     📄 Files WITH TSModuleBlock (showing 8):
+       • packages/webpack/builder.d.ts
+       • packages/nuxt/types.d.ts
+       • packages/nuxt/index.d.ts
+       • debug/plugins/timings-unbuild.ts
+       • packages/nuxt/src/pages/build.d.ts
+       • packages/schema/src/types/builder-env/index.ts
+       • packages/nuxt/src/pages/runtime/composables.ts
+       • packages/nuxt/src/app/types/augments.ts
+     📄 Files WITHOUT TSModuleBlock (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TSTypePredicate:
+     📄 Files WITH TSTypePredicate (showing 10):
+       • packages/webpack/src/utils/postcss.ts
+       • packages/schema/src/config/experimental.ts
+       • packages/nuxt/src/pages/utils.ts
+       • packages/nuxt/src/core/nitro.ts
+       • packages/nuxt/src/core/modules.ts
+       • packages/nuxt/src/app/config.ts
+       • packages/kit/src/loader/nuxt.ts
+       • packages/nuxt/src/pages/plugins/page-meta.ts
+       • packages/nuxt/src/core/plugins/plugin-metadata.ts
+       • packages/nuxt/src/components/plugins/tree-shake.ts
+     📄 Files WITHOUT TSTypePredicate (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TSMappedType:
+     📄 Files WITH TSMappedType (showing 10):
+       • packages/kit/test/generate-types.spec.ts
+       • packages/schema/src/utils/definition.ts
+       • packages/schema/src/types/module.ts
+       • packages/schema/src/types/config.ts
+       • packages/nuxt/src/core/app.ts
+       • packages/nuxt/src/app/config.ts
+       • packages/nuxt/src/app/plugins/router.ts
+       • packages/nuxt/src/app/composables/ssr.ts
+       • packages/nuxt/src/app/composables/router.ts
+       • packages/nuxt/src/app/composables/fetch.ts
+     📄 Files WITHOUT TSMappedType (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TSImportType:
+     📄 Files WITH TSImportType (showing 10):
+       • packages/webpack/builder.d.ts
+       • test/nuxt/plugin.test.ts
+       • test/nuxt/nuxt-island.test.ts
+       • debug/plugins/timings-unbuild.ts
+       • packages/nuxt/test/pages.test.ts
+       • packages/nuxt/test/load-nuxt.test.ts
+       • packages/nuxt/src/core/schema.ts
+       • packages/nuxt/src/core/nitro.ts
+       • packages/nuxt/src/core/builder.ts
+       • packages/kit/src/loader/nuxt.ts
+     📄 Files WITHOUT TSImportType (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   ForStatement:
+     📄 Files WITH ForStatement (showing 10):
+       • test/utils.ts
+       • test/basic.test.ts
+       • test/nuxt/use-async-data.test.ts
+       • packages/kit/src/utils.ts
+       • packages/vite/src/runtime/vite-node-shared.mjs
+       • packages/nuxt/src/pages/utils.ts
+       • packages/nuxt/src/app/nuxt.ts
+       • packages/nuxt/src/pages/plugins/page-meta.ts
+       • packages/nuxt/src/app/components/utils.ts
+       • packages/nuxt/src/app/components/client-fallback.server.ts
+     📄 Files WITHOUT ForStatement (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   MethodDefinition:
+     📄 Files WITH MethodDefinition (showing 6):
+       • test/nuxt/components.test.ts
+       • packages/webpack/src/plugins/warning-ignore.ts
+       • packages/webpack/src/plugins/rollup-compat-dynamic-import.ts
+       • packages/webpack/src/plugins/chunk.ts
+       • packages/webpack/src/plugins/vue/server.ts
+       • packages/webpack/src/plugins/vue/client.ts
+     📄 Files WITHOUT MethodDefinition (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TSCallSignatureDeclaration:
+     📄 Files WITH TSCallSignatureDeclaration (showing 5):
+       • packages/schema/src/types/module.ts
+       • packages/nuxt/src/app/nuxt.ts
+       • packages/schema/src/types/builder-env/vite.ts
+       • packages/nuxt/src/app/plugins/router.ts
+       • packages/nuxt/src/app/composables/router.ts
+     📄 Files WITHOUT TSCallSignatureDeclaration (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TSEnumMember:
+     📄 Files WITH TSEnumMember (showing 1):
+       • packages/nuxt/src/pages/utils.ts
+     📄 Files WITHOUT TSEnumMember (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TSTemplateLiteralType:
+     📄 Files WITH TSTemplateLiteralType (showing 3):
+       • packages/schema/src/utils/definition.ts
+       • packages/schema/src/types/nuxt.ts
+       • packages/schema/src/types/config.ts
+     📄 Files WITHOUT TSTemplateLiteralType (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TSInferType:
+     📄 Files WITH TSInferType (showing 6):
+       • scripts/_utils.ts
+       • packages/schema/src/utils/definition.ts
+       • packages/schema/src/types/config.ts
+       • packages/schema/src/config/typescript.ts
+       • packages/schema/src/config/experimental.ts
+       • packages/nuxt/src/pages/runtime/utils.ts
+     📄 Files WITHOUT TSInferType (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • playground/nuxt.config.ts
+       • test/utils.ts
+
+   ExportAllDeclaration:
+     📄 Files WITH ExportAllDeclaration (showing 9):
+       • packages/schema/builder-env.d.ts
+       • packages/nuxt/types.d.ts
+       • packages/nuxt/schema.js
+       • packages/nuxt/schema.d.ts
+       • packages/nuxt/kit.js
+       • packages/nuxt/kit.d.ts
+       • packages/nuxt/app.d.ts
+       • packages/nuxt/src/app/compat/vue-demi.ts
+       • packages/nuxt/src/app/compat/capi.ts
+     📄 Files WITHOUT ExportAllDeclaration (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   WhileStatement:
+     📄 Files WITH WhileStatement (showing 9):
+       • test/e2e/test-utils.ts
+       • test/nuxt/router.option.test.ts
+       • packages/vite/src/vite-node.ts
+       • packages/kit/src/ignore.ts
+       • packages/vite/src/runtime/vite-node-shared.mjs
+       • packages/nuxt/src/pages/utils.ts
+       • packages/nuxt/src/core/nuxt.ts
+       • packages/nuxt/src/core/utils/names.ts
+       • packages/nuxt/src/app/components/nuxt-island.ts
+     📄 Files WITHOUT WhileStatement (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   ImportNamespaceSpecifier:
+     📄 Files WITH ImportNamespaceSpecifier (showing 9):
+       • test/nuxt/composables.test.ts
+       • packages/vite/src/vite.ts
+       • packages/vite/src/server.ts
+       • packages/vite/src/client.ts
+       • packages/nuxt/test/treeshake-client.test.ts
+       • packages/nuxt/test/auto-imports.test.ts
+       • packages/kit/src/ignore.test.ts
+       • packages/vite/src/utils/logger.ts
+       • packages/nuxt/src/core/app.ts
+     📄 Files WITHOUT ImportNamespaceSpecifier (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   PropertyDefinition:
+     📄 Files WITH PropertyDefinition (showing 5):
+       • test/nuxt/components.test.ts
+       • packages/webpack/src/plugins/warning-ignore.ts
+       • packages/webpack/src/plugins/chunk.ts
+       • packages/webpack/src/plugins/vue/server.ts
+       • packages/webpack/src/plugins/vue/client.ts
+     📄 Files WITHOUT PropertyDefinition (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TSTypeAssertion:
+     📄 Files WITH TSTypeAssertion (showing 7):
+       • packages/ui-templates/lib/render.ts
+       • packages/ui-templates/lib/dev.ts
+       • test/runtime/app/router.options.ts
+       • packages/kit/src/module/define.ts
+       • packages/nuxt/src/pages/runtime/router.options.ts
+       • packages/nuxt/src/core/runtime/nitro/handlers/renderer.ts
+       • packages/nuxt/src/core/runtime/nitro/handlers/error.ts
+     📄 Files WITHOUT TSTypeAssertion (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TSConstructSignatureDeclaration:
+     📄 Files WITH TSConstructSignatureDeclaration (showing 2):
+       • packages/nuxt/src/pages/runtime/page.ts
+       • packages/nuxt/src/app/composables/lazy-hydration.ts
+     📄 Files WITHOUT TSConstructSignatureDeclaration (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   ClassBody:
+     📄 Files WITH ClassBody (showing 6):
+       • test/nuxt/components.test.ts
+       • packages/webpack/src/plugins/warning-ignore.ts
+       • packages/webpack/src/plugins/rollup-compat-dynamic-import.ts
+       • packages/webpack/src/plugins/chunk.ts
+       • packages/webpack/src/plugins/vue/server.ts
+       • packages/webpack/src/plugins/vue/client.ts
+     📄 Files WITHOUT ClassBody (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   SwitchStatement:
+     📄 Files WITH SwitchStatement (showing 5):
+       • packages/vite/src/vite-node.ts
+       • packages/nuxt/src/pages/utils.ts
+       • packages/nuxt/src/app/nuxt.ts
+       • packages/nuxt/src/core/plugins/composable-keys.ts
+       • packages/nuxt/src/components/plugins/loader.ts
+     📄 Files WITHOUT SwitchStatement (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TSNamedTupleMember:
+     📄 Files WITH TSNamedTupleMember (showing 2):
+       • packages/nuxt/test/load-nuxt.test.ts
+       • packages/nuxt/src/core/plugins/import-protection.ts
+     📄 Files WITHOUT TSNamedTupleMember (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   ClassDeclaration:
+     📄 Files WITH ClassDeclaration (showing 5):
+       • packages/webpack/src/plugins/warning-ignore.ts
+       • packages/webpack/src/plugins/rollup-compat-dynamic-import.ts
+       • packages/webpack/src/plugins/chunk.ts
+       • packages/webpack/src/plugins/vue/server.ts
+       • packages/webpack/src/plugins/vue/client.ts
+     📄 Files WITHOUT ClassDeclaration (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TSSymbolKeyword:
+     📄 Files WITH TSSymbolKeyword (showing 4):
+       • packages/schema/src/types/debug.ts
+       • packages/nuxt/src/app/nuxt.ts
+       • packages/nuxt/src/app/compat/capi.ts
+       • packages/nuxt/src/app/composables/script-stubs.ts
+     📄 Files WITHOUT TSSymbolKeyword (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TSObjectKeyword:
+     📄 Files WITH TSObjectKeyword (showing 4):
+       • packages/webpack/src/utils/postcss.ts
+       • packages/webpack/src/utils/config.ts
+       • packages/nuxt/src/app/config.ts
+       • packages/nuxt/src/app/composables/router.ts
+     📄 Files WITHOUT TSObjectKeyword (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TSOptionalType:
+     📄 Files WITH TSOptionalType (showing 2):
+       • packages/schema/src/types/schema.ts
+       • packages/nuxt/src/core/nuxt.ts
+     📄 Files WITHOUT TSOptionalType (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TSEnumDeclaration:
+     📄 Files WITH TSEnumDeclaration (showing 1):
+       • packages/nuxt/src/pages/utils.ts
+     📄 Files WITHOUT TSEnumDeclaration (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TSEnumBody:
+     📄 Files WITH TSEnumBody (showing 1):
+       • packages/nuxt/src/pages/utils.ts
+     📄 Files WITHOUT TSEnumBody (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TSConstructorType:
+     📄 Files WITH TSConstructorType (showing 2):
+       • packages/nuxt/src/pages/runtime/utils.ts
+       • packages/nuxt/src/app/components/nuxt-link.ts
+     📄 Files WITHOUT TSConstructorType (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   DoWhileStatement:
+     📄 Files WITH DoWhileStatement (showing 1):
+       • test/e2e/test-utils.ts
+     📄 Files WITHOUT DoWhileStatement (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   ClassExpression:
+     📄 Files WITH ClassExpression (showing 1):
+       • test/nuxt/components.test.ts
+     📄 Files WITHOUT ClassExpression (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TaggedTemplateExpression:
+     📄 Files WITH TaggedTemplateExpression (showing 1):
+       • packages/vite/src/vite-node.ts
+     📄 Files WITHOUT TaggedTemplateExpression (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   Hashbang:
+     📄 Files WITH Hashbang (showing 1):
+       • packages/nuxt/bin/nuxt.mjs
+     📄 Files WITHOUT Hashbang (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   TSClassImplements:
+     📄 Files WITH TSClassImplements (showing 1):
+       • packages/webpack/src/plugins/rollup-compat-dynamic-import.ts
+     📄 Files WITHOUT TSClassImplements (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
+
+   EmptyStatement:
+     📄 Files WITH EmptyStatement (showing 1):
+       • packages/kit/src/loader/config.ts
+     📄 Files WITHOUT EmptyStatement (showing 10):
+       • vitest.config.ts
+       • playwright.config.ts
+       • nuxt.config.ts
+       • eslint.config.mjs
+       • scripts/update-changelog.ts
+       • scripts/bump.ts
+       • scripts/bump-rc.ts
+       • scripts/bump-edge.ts
+       • scripts/_utils.ts
+       • playground/nuxt.config.ts
 
 ============================================================
 ✅ Analysis complete!

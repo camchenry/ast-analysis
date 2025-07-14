@@ -1,11 +1,12 @@
 AST Analysis Report for immutable-js
-Generated on: 2025-07-13T03:17:12.788Z
+Generated on: 2025-07-14T01:41:59.035Z
 Repository: sample-repos/immutable-js
 ================================================================================
 
 🔍 Analyzing JavaScript/TypeScript files in: /Users/camchenry/workspace/ast-analysis/sample-repos/immutable-js
 
 📁 Found 233 files to analyze...
+
 
 
 ============================================================
@@ -292,6 +293,2832 @@ Repository: sample-repos/immutable-js
    Super                                 1 (0.00%) in 1 files (0.4%)
    TSConstructorType                     1 (0.00%) in 1 files (0.4%)
    MetaProperty                          1 (0.00%) in 1 files (0.4%)
+
+📁 FILE EXAMPLES BY NODE TYPE:
+
+   Identifier:
+     📄 Files WITH Identifier (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+     📄 Files WITHOUT Identifier (showing 7):
+       • website/next-env.d.ts
+       • type-definitions/flow-tests/record.js
+       • type-definitions/flow-tests/predicates.js
+       • type-definitions/flow-tests/merge.js
+       • type-definitions/flow-tests/immutable-flow.js
+       • type-definitions/flow-tests/es6-collections.js
+       • type-definitions/flow-tests/covariance.js
+
+   CallExpression:
+     📄 Files WITH CallExpression (showing 10):
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+       • src/Set.js
+       • src/Seq.js
+     📄 Files WITHOUT CallExpression (showing 10):
+       • jest.config.mjs
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/PairSorting.ts
+       • src/Immutable.js
+       • resources/react-global.js
+       • website/src/SVGSet.tsx
+       • website/src/Logo.tsx
+       • website/src/DocHeader.tsx
+       • website/src/ArrowDown.tsx
+
+   Literal:
+     📄 Files WITH Literal (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+     📄 Files WITHOUT Literal (showing 10):
+       • website/next-env.d.ts
+       • resources/react-global.js
+       • type-definitions/flow-tests/record.js
+       • type-definitions/flow-tests/predicates.js
+       • type-definitions/flow-tests/merge.js
+       • type-definitions/flow-tests/immutable-flow.js
+       • type-definitions/flow-tests/es6-collections.js
+       • type-definitions/flow-tests/covariance.js
+       • src/utils/mixin.ts
+       • src/utils/invariant.ts
+
+   MemberExpression:
+     📄 Files WITH MemberExpression (showing 10):
+       • eslint.config.mjs
+       • website/next-sitemap.config.js
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+       • src/Set.js
+       • src/Seq.js
+     📄 Files WITHOUT MemberExpression (showing 10):
+       • jest.config.mjs
+       • website/next.config.mjs
+       • website/next-env.d.ts
+       • src/PairSorting.ts
+       • src/Immutable.js
+       • website/src/SVGSet.tsx
+       • website/src/Logo.tsx
+       • website/src/DocHeader.tsx
+       • website/src/ArrowDown.tsx
+       • type-definitions/flow-tests/record.js
+
+   ExpressionStatement:
+     📄 Files WITH ExpressionStatement (showing 10):
+       • website/next-sitemap.config.js
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+       • src/Set.js
+       • src/Seq.js
+       • src/Repeat.js
+       • src/Record.js
+     📄 Files WITHOUT ExpressionStatement (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/PairSorting.ts
+       • src/Immutable.js
+       • resources/rollup-config.mjs
+       • resources/copyright.mjs
+       • website/src/SVGSet.tsx
+
+   TSTypeReference:
+     📄 Files WITH TSTypeReference (showing 10):
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/TrieUtils.ts
+       • src/PairSorting.ts
+       • src/Iterator.ts
+       • src/Hash.ts
+       • src/CollectionHelperMethods.ts
+       • __tests__/zip.ts
+       • __tests__/updateIn.ts
+       • __tests__/ts-utils.ts
+     📄 Files WITHOUT TSTypeReference (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/Stack.js
+       • src/Set.js
+       • src/Seq.js
+
+   TSTypeAnnotation:
+     📄 Files WITH TSTypeAnnotation (showing 10):
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/TrieUtils.ts
+       • src/Math.ts
+       • src/Iterator.ts
+       • src/Hash.ts
+       • src/CollectionHelperMethods.ts
+       • __tests__/zip.ts
+       • __tests__/updateIn.ts
+     📄 Files WITHOUT TSTypeAnnotation (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/fromJS.js
+       • src/Stack.js
+       • src/Set.js
+       • src/Seq.js
+       • src/Repeat.js
+
+   TSTypeParameterInstantiation:
+     📄 Files WITH TSTypeParameterInstantiation (showing 10):
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/TrieUtils.ts
+       • src/Iterator.ts
+       • src/Hash.ts
+       • src/CollectionHelperMethods.ts
+       • __tests__/zip.ts
+       • __tests__/updateIn.ts
+       • __tests__/ts-utils.ts
+       • __tests__/slice.ts
+     📄 Files WITHOUT TSTypeParameterInstantiation (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/Stack.js
+       • src/Set.js
+       • src/Seq.js
+
+   BlockStatement:
+     📄 Files WITH BlockStatement (showing 10):
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+       • src/Set.js
+       • src/Seq.js
+       • src/Repeat.js
+       • src/Record.js
+       • src/Range.js
+     📄 Files WITHOUT BlockStatement (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/PairSorting.ts
+       • src/Immutable.js
+       • resources/rollup-config.mjs
+       • resources/react-global.js
+
+   Property:
+     📄 Files WITH Property (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+       • src/Record.js
+       • src/PairSorting.ts
+       • src/Map.js
+     📄 Files WITHOUT Property (showing 10):
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/Set.js
+       • src/Seq.js
+       • src/Repeat.js
+       • src/Range.js
+       • src/OrderedSet.js
+       • src/OrderedMap.js
+
+   VariableDeclarator:
+     📄 Files WITH VariableDeclarator (showing 10):
+       • jest.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • src/toJS.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+       • src/Set.js
+       • src/Seq.js
+       • src/Repeat.js
+     📄 Files WITHOUT VariableDeclarator (showing 10):
+       • eslint.config.mjs
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/is.ts
+       • src/CollectionHelperMethods.ts
+       • src/Collection.js
+       • resources/react-global.js
+       • __tests__/ts-utils.ts
+       • __tests__/sort.ts
+       • __tests__/find.ts
+
+   VariableDeclaration:
+     📄 Files WITH VariableDeclaration (showing 10):
+       • jest.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • src/toJS.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+       • src/Set.js
+       • src/Seq.js
+       • src/Repeat.js
+     📄 Files WITHOUT VariableDeclaration (showing 10):
+       • eslint.config.mjs
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/is.ts
+       • src/CollectionHelperMethods.ts
+       • src/Collection.js
+       • resources/react-global.js
+       • __tests__/ts-utils.ts
+       • __tests__/sort.ts
+       • __tests__/find.ts
+
+   TSNumberKeyword:
+     📄 Files WITH TSNumberKeyword (showing 10):
+       • type-definitions/immutable.d.ts
+       • src/TrieUtils.ts
+       • src/Math.ts
+       • src/Hash.ts
+       • src/CollectionHelperMethods.ts
+       • __tests__/zip.ts
+       • __tests__/updateIn.ts
+       • __tests__/transformerProtocol.ts
+       • __tests__/sort.ts
+       • __tests__/slice.ts
+     📄 Files WITHOUT TSNumberKeyword (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/Stack.js
+       • src/Set.js
+
+   ArrowFunctionExpression:
+     📄 Files WITH ArrowFunctionExpression (showing 10):
+       • website/next-sitemap.config.js
+       • src/toJS.ts
+       • src/fromJS.js
+       • src/Stack.js
+       • src/Set.js
+       • src/Seq.js
+       • src/Repeat.js
+       • src/Record.js
+       • src/Range.js
+       • src/OrderedSet.js
+     📄 Files WITHOUT ArrowFunctionExpression (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/is.ts
+       • src/TrieUtils.ts
+       • src/PairSorting.ts
+       • src/Math.ts
+       • src/Iterator.ts
+
+   ArrayExpression:
+     📄 Files WITH ArrayExpression (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • src/toJS.ts
+       • src/fromJS.js
+       • src/Set.js
+       • src/Seq.js
+       • src/Record.js
+       • src/OrderedMap.js
+     📄 Files WITHOUT ArrayExpression (showing 10):
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/is.ts
+       • src/TrieUtils.ts
+       • src/Stack.js
+       • src/Repeat.js
+       • src/Range.js
+       • src/PairSorting.ts
+       • src/OrderedSet.js
+       • src/Math.ts
+
+   BinaryExpression:
+     📄 Files WITH BinaryExpression (showing 10):
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+       • src/Set.js
+       • src/Seq.js
+       • src/Repeat.js
+       • src/Record.js
+       • src/Range.js
+     📄 Files WITHOUT BinaryExpression (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/PairSorting.ts
+       • src/Immutable.js
+       • src/Collection.js
+       • resources/rollup-config.mjs
+
+   ObjectExpression:
+     📄 Files WITH ObjectExpression (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • src/toJS.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+       • src/Record.js
+       • src/PairSorting.ts
+     📄 Files WITHOUT ObjectExpression (showing 10):
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/is.ts
+       • src/Set.js
+       • src/Seq.js
+       • src/Repeat.js
+       • src/Range.js
+       • src/OrderedSet.js
+       • src/OrderedMap.js
+       • src/Operations.js
+
+   ImportSpecifier:
+     📄 Files WITH ImportSpecifier (showing 10):
+       • eslint.config.mjs
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+       • src/Set.js
+       • src/Seq.js
+       • src/Repeat.js
+       • src/Record.js
+     📄 Files WITHOUT ImportSpecifier (showing 10):
+       • jest.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/PairSorting.ts
+       • src/Math.ts
+       • src/Iterator.ts
+       • resources/rollup-config.mjs
+       • resources/react-global.js
+
+   ReturnStatement:
+     📄 Files WITH ReturnStatement (showing 10):
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+       • src/Set.js
+       • src/Seq.js
+       • src/Repeat.js
+       • src/Record.js
+       • src/Range.js
+     📄 Files WITHOUT ReturnStatement (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/PairSorting.ts
+       • src/Immutable.js
+       • resources/rollup-config.mjs
+       • resources/react-global.js
+
+   JSXIdentifier:
+     📄 Files WITH JSXIdentifier (showing 10):
+       • website/src/mdx-components.tsx
+       • website/src/StarBtn.tsx
+       • website/src/SVGSet.tsx
+       • website/src/MarkdownContent.tsx
+       • website/src/Logo.tsx
+       • website/src/Header.tsx
+       • website/src/DocSearch.tsx
+       • website/src/DocHeader.tsx
+       • website/src/BurgerNav.tsx
+       • website/src/ArrowDown.tsx
+     📄 Files WITHOUT JSXIdentifier (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   TSStringKeyword:
+     📄 Files WITH TSStringKeyword (showing 10):
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/Iterator.ts
+       • src/Hash.ts
+       • src/CollectionHelperMethods.ts
+       • __tests__/zip.ts
+       • __tests__/updateIn.ts
+       • __tests__/transformerProtocol.ts
+       • __tests__/minmax.ts
+       • __tests__/merge.ts
+     📄 Files WITHOUT TSStringKeyword (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+       • src/Set.js
+
+   AssignmentExpression:
+     📄 Files WITH AssignmentExpression (showing 10):
+       • website/next-sitemap.config.js
+       • src/toJS.ts
+       • src/is.ts
+       • src/TrieUtils.ts
+       • src/Stack.js
+       • src/Set.js
+       • src/Seq.js
+       • src/Repeat.js
+       • src/Record.js
+       • src/Range.js
+     📄 Files WITHOUT AssignmentExpression (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/fromJS.js
+       • src/PairSorting.ts
+       • src/Immutable.js
+       • resources/rollup-config.mjs
+       • resources/copyright.mjs
+
+   ThisExpression:
+     📄 Files WITH ThisExpression (showing 10):
+       • src/Stack.js
+       • src/Set.js
+       • src/Seq.js
+       • src/Repeat.js
+       • src/Record.js
+       • src/Range.js
+       • src/OrderedSet.js
+       • src/OrderedMap.js
+       • src/Operations.js
+       • src/Map.js
+     📄 Files WITHOUT ThisExpression (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   TSUnknownKeyword:
+     📄 Files WITH TSUnknownKeyword (showing 10):
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/TrieUtils.ts
+       • src/Iterator.ts
+       • src/Hash.ts
+       • src/CollectionHelperMethods.ts
+       • __tests__/updateIn.ts
+       • __tests__/minmax.ts
+       • __tests__/merge.ts
+     📄 Files WITHOUT TSUnknownKeyword (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/fromJS.js
+       • src/Stack.js
+       • src/Set.js
+       • src/Seq.js
+       • src/Repeat.js
+
+   ImportDeclaration:
+     📄 Files WITH ImportDeclaration (showing 10):
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+       • src/Set.js
+       • src/Seq.js
+       • src/Repeat.js
+     📄 Files WITHOUT ImportDeclaration (showing 10):
+       • jest.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/PairSorting.ts
+       • src/Math.ts
+       • src/Iterator.ts
+       • resources/react-global.js
+       • resources/jestResolver.js
+       • resources/jestPreprocessor.js
+
+   TSTypeParameter:
+     📄 Files WITH TSTypeParameter (showing 10):
+       • type-definitions/immutable.d.ts
+       • src/Iterator.ts
+       • src/CollectionHelperMethods.ts
+       • __tests__/updateIn.ts
+       • __tests__/ts-utils.ts
+       • __tests__/minmax.ts
+       • type-definitions/ts-tests/partition.ts
+       • type-definitions/ts-tests/exports.ts
+       • src/utils/shallowCopy.ts
+       • src/utils/mixin.ts
+     📄 Files WITHOUT TSTypeParameter (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   JSXText:
+     📄 Files WITH JSXText (showing 10):
+       • website/src/mdx-components.tsx
+       • website/src/StarBtn.tsx
+       • website/src/SVGSet.tsx
+       • website/src/Logo.tsx
+       • website/src/Header.tsx
+       • website/src/DocHeader.tsx
+       • website/src/BurgerNav.tsx
+       • website/src/ArrowDown.tsx
+       • website/src/sidebar/SidebarMainLink.tsx
+       • website/src/sidebar/Sidebar.tsx
+     📄 Files WITHOUT JSXText (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   IfStatement:
+     📄 Files WITH IfStatement (showing 10):
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+       • src/Set.js
+       • src/Seq.js
+       • src/Repeat.js
+       • src/Record.js
+       • src/Range.js
+     📄 Files WITHOUT IfStatement (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/PairSorting.ts
+       • src/OrderedSet.js
+       • src/Math.ts
+       • src/Immutable.js
+
+   TSUnionType:
+     📄 Files WITH TSUnionType (showing 10):
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/Iterator.ts
+       • src/Hash.ts
+       • src/CollectionHelperMethods.ts
+       • __tests__/zip.ts
+       • __tests__/minmax.ts
+       • __tests__/merge.ts
+       • __tests__/issues.ts
+       • __tests__/flatten.ts
+     📄 Files WITHOUT TSUnionType (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+       • src/Set.js
+
+   FunctionExpression:
+     📄 Files WITH FunctionExpression (showing 10):
+       • src/Stack.js
+       • src/Set.js
+       • src/Seq.js
+       • src/Repeat.js
+       • src/Record.js
+       • src/Range.js
+       • src/OrderedSet.js
+       • src/OrderedMap.js
+       • src/Operations.js
+       • src/Math.ts
+     📄 Files WITHOUT FunctionExpression (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   TSMethodSignature:
+     📄 Files WITH TSMethodSignature (showing 1):
+       • type-definitions/immutable.d.ts
+     📄 Files WITHOUT TSMethodSignature (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   JSXAttribute:
+     📄 Files WITH JSXAttribute (showing 10):
+       • website/src/mdx-components.tsx
+       • website/src/StarBtn.tsx
+       • website/src/SVGSet.tsx
+       • website/src/MarkdownContent.tsx
+       • website/src/Logo.tsx
+       • website/src/Header.tsx
+       • website/src/DocSearch.tsx
+       • website/src/DocHeader.tsx
+       • website/src/BurgerNav.tsx
+       • website/src/ArrowDown.tsx
+     📄 Files WITHOUT JSXAttribute (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   LogicalExpression:
+     📄 Files WITH LogicalExpression (showing 10):
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+       • src/Set.js
+       • src/Seq.js
+       • src/Record.js
+       • src/Range.js
+       • src/OrderedSet.js
+     📄 Files WITHOUT LogicalExpression (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/Repeat.js
+       • src/PairSorting.ts
+       • src/Immutable.js
+       • src/CollectionHelperMethods.ts
+
+   TSTypeParameterDeclaration:
+     📄 Files WITH TSTypeParameterDeclaration (showing 10):
+       • type-definitions/immutable.d.ts
+       • src/Iterator.ts
+       • src/CollectionHelperMethods.ts
+       • __tests__/updateIn.ts
+       • __tests__/ts-utils.ts
+       • __tests__/minmax.ts
+       • type-definitions/ts-tests/partition.ts
+       • type-definitions/ts-tests/exports.ts
+       • src/utils/shallowCopy.ts
+       • src/utils/mixin.ts
+     📄 Files WITHOUT TSTypeParameterDeclaration (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   ParenthesizedExpression:
+     📄 Files WITH ParenthesizedExpression (showing 10):
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+       • src/Set.js
+       • src/Seq.js
+       • src/Repeat.js
+       • src/Record.js
+       • src/Range.js
+       • src/OrderedSet.js
+     📄 Files WITHOUT ParenthesizedExpression (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/PairSorting.ts
+       • src/Immutable.js
+       • src/CollectionHelperMethods.ts
+
+   UnaryExpression:
+     📄 Files WITH UnaryExpression (showing 10):
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+       • src/Set.js
+       • src/Seq.js
+       • src/Repeat.js
+       • src/Record.js
+     📄 Files WITHOUT UnaryExpression (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/OrderedSet.js
+       • src/Immutable.js
+       • resources/rollup-config.mjs
+       • resources/react-global.js
+       • resources/jestResolver.js
+
+   TSPropertySignature:
+     📄 Files WITH TSPropertySignature (showing 10):
+       • type-definitions/immutable.d.ts
+       • src/TrieUtils.ts
+       • __tests__/updateIn.ts
+       • __tests__/merge.ts
+       • __tests__/issues.ts
+       • __tests__/Seq.ts
+       • __tests__/Record.ts
+       • __tests__/Map.ts
+       • __tests__/List.ts
+       • __tests__/Conversion.ts
+     📄 Files WITHOUT TSPropertySignature (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/Stack.js
+       • src/Set.js
+
+   JSXExpressionContainer:
+     📄 Files WITH JSXExpressionContainer (showing 10):
+       • website/src/mdx-components.tsx
+       • website/src/StarBtn.tsx
+       • website/src/SVGSet.tsx
+       • website/src/MarkdownContent.tsx
+       • website/src/Logo.tsx
+       • website/src/Header.tsx
+       • website/src/DocSearch.tsx
+       • website/src/DocHeader.tsx
+       • website/src/BurgerNav.tsx
+       • website/src/ArrowDown.tsx
+     📄 Files WITHOUT JSXExpressionContainer (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   FunctionDeclaration:
+     📄 Files WITH FunctionDeclaration (showing 10):
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+       • src/Set.js
+       • src/Seq.js
+       • src/Record.js
+       • src/OrderedSet.js
+       • src/OrderedMap.js
+     📄 Files WITHOUT FunctionDeclaration (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/Repeat.js
+       • src/Range.js
+       • src/PairSorting.ts
+       • src/Immutable.js
+
+   ConditionalExpression:
+     📄 Files WITH ConditionalExpression (showing 10):
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+       • src/Set.js
+       • src/Seq.js
+       • src/Repeat.js
+       • src/Record.js
+       • src/Range.js
+       • src/OrderedSet.js
+       • src/OrderedMap.js
+     📄 Files WITHOUT ConditionalExpression (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/PairSorting.ts
+       • src/Immutable.js
+
+   JSXElement:
+     📄 Files WITH JSXElement (showing 10):
+       • website/src/mdx-components.tsx
+       • website/src/StarBtn.tsx
+       • website/src/SVGSet.tsx
+       • website/src/MarkdownContent.tsx
+       • website/src/Logo.tsx
+       • website/src/Header.tsx
+       • website/src/DocSearch.tsx
+       • website/src/DocHeader.tsx
+       • website/src/BurgerNav.tsx
+       • website/src/ArrowDown.tsx
+     📄 Files WITHOUT JSXElement (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   JSXOpeningElement:
+     📄 Files WITH JSXOpeningElement (showing 10):
+       • website/src/mdx-components.tsx
+       • website/src/StarBtn.tsx
+       • website/src/SVGSet.tsx
+       • website/src/MarkdownContent.tsx
+       • website/src/Logo.tsx
+       • website/src/Header.tsx
+       • website/src/DocSearch.tsx
+       • website/src/DocHeader.tsx
+       • website/src/BurgerNav.tsx
+       • website/src/ArrowDown.tsx
+     📄 Files WITHOUT JSXOpeningElement (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   Unknown:
+     📄 Files WITH Unknown (showing 10):
+       • website/next-sitemap.config.js
+       • src/Range.js
+       • resources/jestResolver.js
+       • resources/dist-stats.mjs
+       • resources/copyright.mjs
+       • resources/benchmark.js
+       • __tests__/utils.js
+       • __tests__/merge.ts
+       • __tests__/issues.ts
+       • __tests__/groupBy.ts
+     📄 Files WITHOUT Unknown (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   TemplateElement:
+     📄 Files WITH TemplateElement (showing 10):
+       • website/next-sitemap.config.js
+       • src/Range.js
+       • resources/jestResolver.js
+       • resources/dist-stats.mjs
+       • resources/copyright.mjs
+       • __tests__/utils.js
+       • __tests__/merge.ts
+       • __tests__/issues.ts
+       • __tests__/groupBy.ts
+       • __tests__/fromJS.ts
+     📄 Files WITHOUT TemplateElement (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   ExportNamedDeclaration:
+     📄 Files WITH ExportNamedDeclaration (showing 10):
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+       • src/Set.js
+       • src/Seq.js
+       • src/Repeat.js
+       • src/Record.js
+     📄 Files WITHOUT ExportNamedDeclaration (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • resources/rollup-config.mjs
+       • resources/react-global.js
+       • resources/jestResolver.js
+       • resources/jestPreprocessor.js
+       • resources/dist-stats.mjs
+
+   TSTypeLiteral:
+     📄 Files WITH TSTypeLiteral (showing 10):
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/TrieUtils.ts
+       • src/Hash.ts
+       • __tests__/updateIn.ts
+       • __tests__/merge.ts
+       • __tests__/issues.ts
+       • __tests__/Seq.ts
+       • __tests__/Record.ts
+       • __tests__/Map.ts
+     📄 Files WITHOUT TSTypeLiteral (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/Stack.js
+       • src/Set.js
+       • src/Seq.js
+
+   TSThisType:
+     📄 Files WITH TSThisType (showing 1):
+       • type-definitions/immutable.d.ts
+     📄 Files WITHOUT TSThisType (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   TSQualifiedName:
+     📄 Files WITH TSQualifiedName (showing 10):
+       • type-definitions/immutable.d.ts
+       • __tests__/zip.ts
+       • __tests__/partition.ts
+       • __tests__/Conversion.ts
+       • website/src/BurgerNav.tsx
+       • website/src/ArrowDown.tsx
+       • type-definitions/ts-tests/seq.ts
+       • type-definitions/ts-tests/repeat.ts
+       • type-definitions/ts-tests/record.ts
+       • type-definitions/ts-tests/range.ts
+     📄 Files WITHOUT TSQualifiedName (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   Program:
+     📄 Files WITH Program (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+     📄 Files WITHOUT Program: (all files contain this node type)
+
+   TSFunctionType:
+     📄 Files WITH TSFunctionType (showing 10):
+       • type-definitions/immutable.d.ts
+       • src/Iterator.ts
+       • src/CollectionHelperMethods.ts
+       • __tests__/partition.ts
+       • website/src/StarBtn.tsx
+       • type-definitions/ts-tests/exports.ts
+       • src/functional/updateIn.ts
+       • src/functional/update.ts
+       • website/src/worker/normalizeResult.ts
+       • website/src/sidebar/SidebarMainLink.tsx
+     📄 Files WITHOUT TSFunctionType (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   MethodDefinition:
+     📄 Files WITH MethodDefinition (showing 10):
+       • src/Stack.js
+       • src/Set.js
+       • src/Seq.js
+       • src/Repeat.js
+       • src/Record.js
+       • src/Range.js
+       • src/OrderedSet.js
+       • src/OrderedMap.js
+       • src/Operations.js
+       • src/Map.js
+     📄 Files WITHOUT MethodDefinition (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   JSXClosingElement:
+     📄 Files WITH JSXClosingElement (showing 10):
+       • website/src/mdx-components.tsx
+       • website/src/StarBtn.tsx
+       • website/src/SVGSet.tsx
+       • website/src/Logo.tsx
+       • website/src/Header.tsx
+       • website/src/DocHeader.tsx
+       • website/src/BurgerNav.tsx
+       • website/src/ArrowDown.tsx
+       • website/src/sidebar/SidebarMainLink.tsx
+       • website/src/sidebar/Sidebar.tsx
+     📄 Files WITHOUT JSXClosingElement (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   NewExpression:
+     📄 Files WITH NewExpression (showing 10):
+       • src/fromJS.js
+       • src/Stack.js
+       • src/Seq.js
+       • src/Repeat.js
+       • src/Record.js
+       • src/Range.js
+       • src/Operations.js
+       • src/Map.js
+       • src/List.js
+       • src/Hash.ts
+     📄 Files WITHOUT NewExpression (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/TrieUtils.ts
+       • src/Set.js
+
+   TSDeclareFunction:
+     📄 Files WITH TSDeclareFunction (showing 10):
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/Iterator.ts
+       • src/utils/shallowCopy.ts
+       • src/predicates/isOrdered.ts
+       • src/functional/updateIn.ts
+       • src/functional/update.ts
+       • src/functional/set.ts
+       • src/functional/remove.ts
+       • src/functional/get.ts
+     📄 Files WITHOUT TSDeclareFunction (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+       • src/Set.js
+
+   TSTupleType:
+     📄 Files WITH TSTupleType (showing 10):
+       • type-definitions/immutable.d.ts
+       • src/Iterator.ts
+       • src/CollectionHelperMethods.ts
+       • __tests__/transformerProtocol.ts
+       • __tests__/merge.ts
+       • __tests__/Stack.ts
+       • __tests__/Record.ts
+       • __tests__/List.ts
+       • type-definitions/ts-tests/partition.ts
+       • type-definitions/ts-tests/ordered-map.ts
+     📄 Files WITHOUT TSTupleType (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   UpdateExpression:
+     📄 Files WITH UpdateExpression (showing 10):
+       • src/Stack.js
+       • src/Set.js
+       • src/Seq.js
+       • src/Repeat.js
+       • src/Record.js
+       • src/Range.js
+       • src/Operations.js
+       • src/Map.js
+       • src/List.js
+       • src/Hash.ts
+     📄 Files WITHOUT UpdateExpression (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   TSUndefinedKeyword:
+     📄 Files WITH TSUndefinedKeyword (showing 10):
+       • type-definitions/immutable.d.ts
+       • src/Iterator.ts
+       • src/Hash.ts
+       • __tests__/ts-utils.ts
+       • __tests__/Stack.ts
+       • __tests__/Set.ts
+       • __tests__/List.ts
+       • __tests__/Conversion.ts
+       • website/src/ImmutableConsole.tsx
+       • type-definitions/ts-tests/stack.ts
+     📄 Files WITHOUT TSUndefinedKeyword (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   TemplateLiteral:
+     📄 Files WITH TemplateLiteral (showing 10):
+       • website/next-sitemap.config.js
+       • src/Range.js
+       • resources/jestResolver.js
+       • resources/dist-stats.mjs
+       • resources/copyright.mjs
+       • __tests__/utils.js
+       • __tests__/merge.ts
+       • __tests__/issues.ts
+       • __tests__/groupBy.ts
+       • __tests__/fromJS.ts
+     📄 Files WITHOUT TemplateLiteral (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   ImportDefaultSpecifier:
+     📄 Files WITH ImportDefaultSpecifier (showing 10):
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • src/toJS.ts
+       • src/fromJS.js
+       • src/Stack.js
+       • src/Set.js
+       • src/Seq.js
+       • src/Repeat.js
+       • src/Record.js
+       • src/Range.js
+     📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
+       • jest.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/is.ts
+       • src/TrieUtils.ts
+       • src/PairSorting.ts
+       • src/Operations.js
+       • src/Math.ts
+       • src/Iterator.ts
+
+   RestElement:
+     📄 Files WITH RestElement (showing 10):
+       • type-definitions/immutable.d.ts
+       • src/Set.js
+       • src/CollectionImpl.js
+       • src/CollectionHelperMethods.ts
+       • __tests__/updateIn.ts
+       • website/src/mdx-components.tsx
+       • src/utils/mixin.ts
+       • src/methods/mergeIn.js
+       • src/methods/mergeDeepIn.js
+       • src/methods/mergeDeep.js
+     📄 Files WITHOUT RestElement (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   TSTypeAliasDeclaration:
+     📄 Files WITH TSTypeAliasDeclaration (showing 10):
+       • type-definitions/immutable.d.ts
+       • src/TrieUtils.ts
+       • src/Iterator.ts
+       • __tests__/merge.ts
+       • __tests__/issues.ts
+       • __tests__/flatten.ts
+       • __tests__/Record.ts
+       • __tests__/Conversion.ts
+       • website/src/MarkdownContent.tsx
+       • website/src/Logo.tsx
+     📄 Files WITHOUT TSTypeAliasDeclaration (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/Stack.js
+       • src/Set.js
+
+   TSBooleanKeyword:
+     📄 Files WITH TSBooleanKeyword (showing 10):
+       • type-definitions/immutable.d.ts
+       • src/is.ts
+       • src/TrieUtils.ts
+       • src/CollectionHelperMethods.ts
+       • __tests__/List.ts
+       • __tests__/KeyedSeq.ts
+       • website/src/useDarkMode.ts
+       • website/src/isMobile.ts
+       • website/src/Logo.tsx
+       • website/src/DocSearch.tsx
+     📄 Files WITHOUT TSBooleanKeyword (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/fromJS.js
+       • src/Stack.js
+       • src/Set.js
+       • src/Seq.js
+
+   TSTypePredicate:
+     📄 Files WITH TSTypePredicate (showing 10):
+       • type-definitions/immutable.d.ts
+       • src/Iterator.ts
+       • __tests__/ts-utils.ts
+       • __tests__/List.ts
+       • type-definitions/ts-tests/partition.ts
+       • src/utils/isPlainObj.ts
+       • src/utils/isDataStructure.ts
+       • src/utils/isArrayLike.ts
+       • src/utils/invariant.ts
+       • src/predicates/isValueObject.ts
+     📄 Files WITHOUT TSTypePredicate (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   TSAsExpression:
+     📄 Files WITH TSAsExpression (showing 10):
+       • src/PairSorting.ts
+       • src/Hash.ts
+       • __tests__/updateIn.ts
+       • __tests__/merge.ts
+       • __tests__/issues.ts
+       • __tests__/concat.ts
+       • __tests__/Set.ts
+       • __tests__/Record.ts
+       • __tests__/Map.ts
+       • __tests__/List.ts
+     📄 Files WITHOUT TSAsExpression (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   TSIndexedAccessType:
+     📄 Files WITH TSIndexedAccessType (showing 7):
+       • type-definitions/immutable.d.ts
+       • src/functional/update.ts
+       • src/functional/set.ts
+       • src/functional/hasIn.ts
+       • src/functional/getIn.ts
+       • src/functional/get.ts
+       • website/src/app/docs/[version]/getTypeDefs.ts
+     📄 Files WITHOUT TSIndexedAccessType (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   SwitchCase:
+     📄 Files WITH SwitchCase (showing 3):
+       • src/Hash.ts
+       • website/src/app/docs/[version]/getTypeDefs.ts
+       • website/src/app/docs/[version]/Defs.tsx
+     📄 Files WITHOUT SwitchCase (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   TSTypeOperator:
+     📄 Files WITH TSTypeOperator (showing 9):
+       • type-definitions/immutable.d.ts
+       • __tests__/Comparator.ts
+       • type-definitions/ts-tests/map.ts
+       • src/functional/updateIn.ts
+       • src/functional/update.ts
+       • src/functional/set.ts
+       • src/functional/remove.ts
+       • src/functional/get.ts
+       • website/src/app/docs/[version]/getTypeDefs.ts
+     📄 Files WITHOUT TSTypeOperator (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   TSIndexSignature:
+     📄 Files WITH TSIndexSignature (showing 10):
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/Hash.ts
+       • __tests__/updateIn.ts
+       • type-definitions/ts-tests/map.ts
+       • type-definitions/ts-tests/exports.ts
+       • type-definitions/ts-tests/deepCopy.ts
+       • src/functional/updateIn.ts
+       • src/functional/update.ts
+       • src/functional/set.ts
+     📄 Files WITHOUT TSIndexSignature (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+       • src/Set.js
+
+   ForStatement:
+     📄 Files WITH ForStatement (showing 10):
+       • src/Stack.js
+       • src/Set.js
+       • src/Record.js
+       • src/Map.js
+       • src/List.js
+       • src/Hash.ts
+       • perf/toJS.js
+       • perf/Record.js
+       • perf/Map.js
+       • perf/List.js
+     📄 Files WITHOUT ForStatement (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   ObjectPattern:
+     📄 Files WITH ObjectPattern (showing 10):
+       • website/next-sitemap.config.js
+       • resources/jestPreprocessor.js
+       • __tests__/merge.ts
+       • __tests__/groupBy.ts
+       • website/src/mdx-components.tsx
+       • website/src/SVGSet.tsx
+       • website/src/MarkdownContent.tsx
+       • website/src/Logo.tsx
+       • website/src/ImmutableConsole.tsx
+       • website/src/Header.tsx
+     📄 Files WITHOUT ObjectPattern (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   ClassDeclaration:
+     📄 Files WITH ClassDeclaration (showing 10):
+       • src/Stack.js
+       • src/Set.js
+       • src/Seq.js
+       • src/Repeat.js
+       • src/Record.js
+       • src/Range.js
+       • src/OrderedSet.js
+       • src/OrderedMap.js
+       • src/Operations.js
+       • src/Map.js
+     📄 Files WITHOUT ClassDeclaration (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   ClassBody:
+     📄 Files WITH ClassBody (showing 10):
+       • src/Stack.js
+       • src/Set.js
+       • src/Seq.js
+       • src/Repeat.js
+       • src/Record.js
+       • src/Range.js
+       • src/OrderedSet.js
+       • src/OrderedMap.js
+       • src/Operations.js
+       • src/Map.js
+     📄 Files WITHOUT ClassBody (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   ChainExpression:
+     📄 Files WITH ChainExpression (showing 10):
+       • __tests__/List.ts
+       • website/src/ImmutableConsole.tsx
+       • website/src/DocSearch.tsx
+       • type-definitions/ts-tests/map.ts
+       • type-definitions/ts-tests/list.ts
+       • __tests__/functional/update.ts
+       • website/src/worker/normalizeResult.ts
+       • website/src/utils/doc.tsx
+       • website/src/sidebar/Sidebar.tsx
+       • website/src/sidebar/Focus.tsx
+     📄 Files WITHOUT ChainExpression (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   TSObjectKeyword:
+     📄 Files WITH TSObjectKeyword (showing 10):
+       • type-definitions/immutable.d.ts
+       • src/Hash.ts
+       • type-definitions/ts-tests/deepCopy.ts
+       • src/utils/shallowCopy.ts
+       • src/utils/mixin.ts
+       • src/utils/isPlainObj.ts
+       • src/utils/isDataStructure.ts
+       • src/predicates/isRecord.ts
+       • src/predicates/isImmutable.ts
+       • src/functional/updateIn.ts
+     📄 Files WITHOUT TSObjectKeyword (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   ExportSpecifier:
+     📄 Files WITH ExportSpecifier (showing 3):
+       • src/Immutable.js
+       • src/CollectionImpl.js
+       • website/src/sidebar/index.ts
+     📄 Files WITHOUT ExportSpecifier (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   TSLiteralType:
+     📄 Files WITH TSLiteralType (showing 10):
+       • type-definitions/immutable.d.ts
+       • src/TrieUtils.ts
+       • __tests__/List.ts
+       • type-definitions/ts-tests/set.ts
+       • type-definitions/ts-tests/ordered-set.ts
+       • type-definitions/ts-tests/ordered-map.ts
+       • type-definitions/ts-tests/map.ts
+       • type-definitions/ts-tests/list.ts
+       • type-definitions/ts-tests/functional.ts
+       • type-definitions/ts-tests/from-js.ts
+     📄 Files WITHOUT TSLiteralType (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/Stack.js
+       • src/Set.js
+
+   ExportDefaultDeclaration:
+     📄 Files WITH ExportDefaultDeclaration (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • resources/rollup-config.mjs
+       • resources/copyright.mjs
+       • website/src/useDarkMode.ts
+       • website/src/BurgerNav.tsx
+       • src/utils/shallowCopy.ts
+       • src/utils/quoteString.ts
+       • src/utils/mixin.ts
+     📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+       • src/Set.js
+       • src/Seq.js
+
+   ThrowStatement:
+     📄 Files WITH ThrowStatement (showing 10):
+       • src/fromJS.js
+       • src/Seq.js
+       • src/Record.js
+       • src/Operations.js
+       • src/Hash.ts
+       • resources/jestPreprocessor.js
+       • resources/dist-stats.mjs
+       • __tests__/updateIn.ts
+       • src/utils/invariant.ts
+       • src/utils/coerceKeyPath.ts
+     📄 Files WITHOUT ThrowStatement (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   WhileStatement:
+     📄 Files WITH WhileStatement (showing 10):
+       • src/Stack.js
+       • src/Seq.js
+       • src/Repeat.js
+       • src/Range.js
+       • src/Operations.js
+       • src/Map.js
+       • src/List.js
+       • src/Hash.ts
+       • __tests__/minmax.ts
+       • __tests__/concat.ts
+     📄 Files WITHOUT WhileStatement (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   ArrayPattern:
+     📄 Files WITH ArrayPattern (showing 10):
+       • src/Set.js
+       • resources/dist-stats.mjs
+       • __tests__/utils.js
+       • __tests__/transformerProtocol.ts
+       • __tests__/merge.ts
+       • __tests__/issues.ts
+       • __tests__/List.ts
+       • __tests__/KeyedSeq.ts
+       • website/src/useDarkMode.ts
+       • website/src/StarBtn.tsx
+     📄 Files WITHOUT ArrayPattern (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   SpreadElement:
+     📄 Files WITH SpreadElement (showing 10):
+       • eslint.config.mjs
+       • website/next-sitemap.config.js
+       • __tests__/splice.ts
+       • __tests__/slice.ts
+       • website/src/mdx-components.tsx
+       • src/functional/merge.js
+       • website/src/worker/normalizeResult.ts
+       • website/src/worker/jsonml-types.ts
+       • website/src/repl/Editor.tsx
+       • website/src/app/docs/[version]/page.tsx
+     📄 Files WITHOUT SpreadElement (showing 10):
+       • jest.config.mjs
+       • website/next.config.mjs
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+       • src/Set.js
+
+   TSConditionalType:
+     📄 Files WITH TSConditionalType (showing 1):
+       • type-definitions/immutable.d.ts
+     📄 Files WITHOUT TSConditionalType (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   TSVoidKeyword:
+     📄 Files WITH TSVoidKeyword (showing 10):
+       • src/TrieUtils.ts
+       • __tests__/updateIn.ts
+       • __tests__/List.ts
+       • __tests__/Equality.ts
+       • website/src/StarBtn.tsx
+       • src/utils/mixin.ts
+       • src/utils/hasCollection.ts
+       • src/utils/assertNotInfinite.ts
+       • website/src/worker/index.ts
+       • website/src/sidebar/SidebarMainLink.tsx
+     📄 Files WITHOUT TSVoidKeyword (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/Stack.js
+
+   JSXFragment:
+     📄 Files WITH JSXFragment (showing 10):
+       • website/src/mdx-components.tsx
+       • website/src/sidebar/SidebarMainLink.tsx
+       • website/src/app/page.tsx
+       • website/src/app/not-found.tsx
+       • website/src/app/play/page.tsx
+       • website/src/app/browser-extension/page.tsx
+       • website/src/app/docs/v5/page.tsx
+       • website/src/app/docs/[version]/page.tsx
+       • website/src/app/docs/[version]/SidebarV4.tsx
+       • website/src/app/docs/[version]/Defs.tsx
+     📄 Files WITHOUT JSXFragment (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   JSXOpeningFragment:
+     📄 Files WITH JSXOpeningFragment (showing 10):
+       • website/src/mdx-components.tsx
+       • website/src/sidebar/SidebarMainLink.tsx
+       • website/src/app/page.tsx
+       • website/src/app/not-found.tsx
+       • website/src/app/play/page.tsx
+       • website/src/app/browser-extension/page.tsx
+       • website/src/app/docs/v5/page.tsx
+       • website/src/app/docs/[version]/page.tsx
+       • website/src/app/docs/[version]/SidebarV4.tsx
+       • website/src/app/docs/[version]/Defs.tsx
+     📄 Files WITHOUT JSXOpeningFragment (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   JSXClosingFragment:
+     📄 Files WITH JSXClosingFragment (showing 10):
+       • website/src/mdx-components.tsx
+       • website/src/sidebar/SidebarMainLink.tsx
+       • website/src/app/page.tsx
+       • website/src/app/not-found.tsx
+       • website/src/app/play/page.tsx
+       • website/src/app/browser-extension/page.tsx
+       • website/src/app/docs/v5/page.tsx
+       • website/src/app/docs/[version]/page.tsx
+       • website/src/app/docs/[version]/SidebarV4.tsx
+       • website/src/app/docs/[version]/Defs.tsx
+     📄 Files WITHOUT JSXClosingFragment (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   TSTypeQuery:
+     📄 Files WITH TSTypeQuery (showing 7):
+       • src/Iterator.ts
+       • __tests__/updateIn.ts
+       • __tests__/Conversion.ts
+       • type-definitions/ts-tests/exports.ts
+       • src/functional/hasIn.ts
+       • src/functional/getIn.ts
+       • website/src/worker/index.ts
+     📄 Files WITHOUT TSTypeQuery (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   TSArrayType:
+     📄 Files WITH TSArrayType (showing 9):
+       • src/CollectionHelperMethods.ts
+       • __tests__/Comparator.ts
+       • type-definitions/ts-tests/set.ts
+       • type-definitions/ts-tests/list.ts
+       • type-definitions/ts-tests/functional.ts
+       • type-definitions/ts-tests/deepCopy.ts
+       • src/utils/mixin.ts
+       • website/src/worker/jsonml-types.ts
+       • website/src/worker/index.ts
+     📄 Files WITHOUT TSArrayType (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   TSInterfaceDeclaration:
+     📄 Files WITH TSInterfaceDeclaration (showing 4):
+       • type-definitions/immutable.d.ts
+       • __tests__/List.ts
+       • type-definitions/ts-tests/record.ts
+       • website/src/worker/normalizeResult.ts
+     📄 Files WITHOUT TSInterfaceDeclaration (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   TSInterfaceBody:
+     📄 Files WITH TSInterfaceBody (showing 4):
+       • type-definitions/immutable.d.ts
+       • __tests__/List.ts
+       • type-definitions/ts-tests/record.ts
+       • website/src/worker/normalizeResult.ts
+     📄 Files WITHOUT TSInterfaceBody (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   TSNeverKeyword:
+     📄 Files WITH TSNeverKeyword (showing 3):
+       • type-definitions/immutable.d.ts
+       • type-definitions/ts-tests/map.ts
+       • type-definitions/ts-tests/functional.ts
+     📄 Files WITHOUT TSNeverKeyword (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   TSInterfaceHeritage:
+     📄 Files WITH TSInterfaceHeritage (showing 1):
+       • type-definitions/immutable.d.ts
+     📄 Files WITHOUT TSInterfaceHeritage (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   ForOfStatement:
+     📄 Files WITH ForOfStatement (showing 7):
+       • __tests__/merge.ts
+       • __tests__/Record.ts
+       • type-definitions/ts-tests/list.ts
+       • website/src/static/stripUndefineds.ts
+       • website/src/app/docs/[version]/getTypeDefs.ts
+       • website/src/app/docs/[version]/collectMemberGroups.ts
+       • website/src/app/docs/[version]/Defs.tsx
+     📄 Files WITHOUT ForOfStatement (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   TSEnumMember:
+     📄 Files WITH TSEnumMember (showing 2):
+       • type-definitions/immutable.d.ts
+       • website/src/app/docs/[version]/TypeDefs.ts
+     📄 Files WITHOUT TSEnumMember (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   TSIntersectionType:
+     📄 Files WITH TSIntersectionType (showing 5):
+       • type-definitions/immutable.d.ts
+       • type-definitions/ts-tests/set.ts
+       • type-definitions/ts-tests/record.ts
+       • type-definitions/ts-tests/map.ts
+       • website/src/app/docs/[version]/getTypeDefs.ts
+     📄 Files WITHOUT TSIntersectionType (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   TSNullKeyword:
+     📄 Files WITH TSNullKeyword (showing 10):
+       • type-definitions/immutable.d.ts
+       • src/Hash.ts
+       • __tests__/Record.ts
+       • __tests__/Map.ts
+       • __tests__/Conversion.ts
+       • website/src/StarBtn.tsx
+       • website/src/DocSearch.tsx
+       • type-definitions/ts-tests/deepCopy.ts
+       • website/src/worker/normalizeResult.ts
+       • website/src/worker/jsonml-types.ts
+     📄 Files WITHOUT TSNullKeyword (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   TSModuleDeclaration:
+     📄 Files WITH TSModuleDeclaration (showing 2):
+       • type-definitions/immutable.d.ts
+       • website/src/worker/index.ts
+     📄 Files WITHOUT TSModuleDeclaration (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   TSModuleBlock:
+     📄 Files WITH TSModuleBlock (showing 2):
+       • type-definitions/immutable.d.ts
+       • website/src/worker/index.ts
+     📄 Files WITHOUT TSModuleBlock (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   AwaitExpression:
+     📄 Files WITH AwaitExpression (showing 10):
+       • resources/jestPreprocessor.js
+       • resources/dist-stats.mjs
+       • website/src/worker/index.ts
+       • website/src/app/page.tsx
+       • website/src/app/browser-extension/page.tsx
+       • website/src/app/docs/v5/page.tsx
+       • website/src/app/docs/[version]/page.tsx
+       • website/src/app/docs/[version]/layout.tsx
+       • website/src/app/docs/v5/[type]/page.tsx
+       • website/src/app/docs/[version]/[type]/page.tsx
+     📄 Files WITHOUT AwaitExpression (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   TSMappedType:
+     📄 Files WITH TSMappedType (showing 1):
+       • type-definitions/immutable.d.ts
+     📄 Files WITHOUT TSMappedType (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   TSAnyKeyword:
+     📄 Files WITH TSAnyKeyword (showing 6):
+       • __tests__/merge.ts
+       • __tests__/List.ts
+       • __tests__/Equality.ts
+       • __tests__/Conversion.ts
+       • type-definitions/ts-tests/from-js.ts
+       • website/src/app/docs/[version]/getTypeDefs.ts
+     📄 Files WITHOUT TSAnyKeyword (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   TSInferType:
+     📄 Files WITH TSInferType (showing 1):
+       • type-definitions/immutable.d.ts
+     📄 Files WITHOUT TSInferType (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   BreakStatement:
+     📄 Files WITH BreakStatement (showing 7):
+       • src/Stack.js
+       • src/Seq.js
+       • src/Repeat.js
+       • src/Range.js
+       • src/Operations.js
+       • src/Map.js
+       • src/List.js
+     📄 Files WITHOUT BreakStatement (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   TSSymbolKeyword:
+     📄 Files WITH TSSymbolKeyword (showing 6):
+       • type-definitions/immutable.d.ts
+       • src/Iterator.ts
+       • src/Hash.ts
+       • __tests__/Map.ts
+       • type-definitions/ts-tests/map.ts
+       • src/utils/mixin.ts
+     📄 Files WITHOUT TSSymbolKeyword (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   TryStatement:
+     📄 Files WITH TryStatement (showing 9):
+       • src/Record.js
+       • src/Hash.ts
+       • resources/dist-stats.mjs
+       • __tests__/Record.ts
+       • website/src/StarBtn.tsx
+       • src/utils/quoteString.ts
+       • website/src/worker/index.ts
+       • website/src/app/play/Playground.tsx
+       • website/src/app/docs/[version]/getTypeDefs.ts
+     📄 Files WITHOUT TryStatement (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   CatchClause:
+     📄 Files WITH CatchClause (showing 8):
+       • src/Record.js
+       • src/Hash.ts
+       • resources/dist-stats.mjs
+       • website/src/StarBtn.tsx
+       • src/utils/quoteString.ts
+       • website/src/worker/index.ts
+       • website/src/app/play/Playground.tsx
+       • website/src/app/docs/[version]/getTypeDefs.ts
+     📄 Files WITHOUT CatchClause (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   SwitchStatement:
+     📄 Files WITH SwitchStatement (showing 3):
+       • src/Hash.ts
+       • website/src/app/docs/[version]/getTypeDefs.ts
+       • website/src/app/docs/[version]/Defs.tsx
+     📄 Files WITHOUT SwitchStatement (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   TSRestType:
+     📄 Files WITH TSRestType (showing 2):
+       • type-definitions/immutable.d.ts
+       • website/src/worker/jsonml-types.ts
+     📄 Files WITHOUT TSRestType (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   AssignmentPattern:
+     📄 Files WITH AssignmentPattern (showing 6):
+       • src/Range.js
+       • src/List.js
+       • website/src/Logo.tsx
+       • website/src/sidebar/Sidebar.tsx
+       • website/src/app/docs/[version]/getTypeDefs.ts
+       • website/src/app/docs/[version]/SidebarV4.tsx
+     📄 Files WITHOUT AssignmentPattern (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   PropertyDefinition:
+     📄 Files WITH PropertyDefinition (showing 4):
+       • __tests__/updateIn.ts
+       • __tests__/Set.ts
+       • __tests__/Predicates.ts
+       • type-definitions/ts-tests/covariance.ts
+     📄 Files WITHOUT PropertyDefinition (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   TSNonNullExpression:
+     📄 Files WITH TSNonNullExpression (showing 3):
+       • website/src/app/docs/[version]/getTypeDefs.ts
+       • website/src/app/docs/[version]/Defs.tsx
+       • website/src/app/docs/[version]/[type]/TypeDocumentation.tsx
+     📄 Files WITHOUT TSNonNullExpression (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   TSCallSignatureDeclaration:
+     📄 Files WITH TSCallSignatureDeclaration (showing 2):
+       • type-definitions/immutable.d.ts
+       • type-definitions/ts-tests/exports.ts
+     📄 Files WITHOUT TSCallSignatureDeclaration (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   SequenceExpression:
+     📄 Files WITH SequenceExpression (showing 2):
+       • src/Operations.js
+       • src/Map.js
+     📄 Files WITHOUT SequenceExpression (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   ImportNamespaceSpecifier:
+     📄 Files WITH ImportNamespaceSpecifier (showing 5):
+       • __tests__/transformerProtocol.ts
+       • __tests__/MultiRequire.js
+       • type-definitions/ts-tests/exports.ts
+       • website/src/worker/normalizeResult.test.ts
+       • website/src/worker/index.ts
+     📄 Files WITHOUT ImportNamespaceSpecifier (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   ImportExpression:
+     📄 Files WITH ImportExpression (showing 4):
+       • website/src/worker/index.ts
+       • website/src/app/browser-extension/page.tsx
+       • website/src/app/docs/v5/page.tsx
+       • website/src/app/docs/v5/[type]/page.tsx
+     📄 Files WITHOUT ImportExpression (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   YieldExpression:
+     📄 Files WITH YieldExpression (showing 1):
+       • __tests__/fromJS.ts
+     📄 Files WITHOUT YieldExpression (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   JSXSpreadAttribute:
+     📄 Files WITH JSXSpreadAttribute (showing 2):
+       • website/src/mdx-components.tsx
+       • website/src/BurgerNav.tsx
+     📄 Files WITHOUT JSXSpreadAttribute (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   TSEnumDeclaration:
+     📄 Files WITH TSEnumDeclaration (showing 2):
+       • type-definitions/immutable.d.ts
+       • website/src/app/docs/[version]/TypeDefs.ts
+     📄 Files WITHOUT TSEnumDeclaration (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   TSEnumBody:
+     📄 Files WITH TSEnumBody (showing 2):
+       • type-definitions/immutable.d.ts
+       • website/src/app/docs/[version]/TypeDefs.ts
+     📄 Files WITHOUT TSEnumBody (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   DoWhileStatement:
+     📄 Files WITH DoWhileStatement (showing 2):
+       • src/Operations.js
+       • __tests__/KeyedSeq.ts
+     📄 Files WITHOUT DoWhileStatement (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   ContinueStatement:
+     📄 Files WITH ContinueStatement (showing 2):
+       • src/Operations.js
+       • src/Map.js
+     📄 Files WITHOUT ContinueStatement (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   TSClassImplements:
+     📄 Files WITH TSClassImplements (showing 2):
+       • src/Iterator.ts
+       • __tests__/updateIn.ts
+     📄 Files WITHOUT TSClassImplements (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   ForInStatement:
+     📄 Files WITH ForInStatement (showing 2):
+       • src/utils/shallowCopy.ts
+       • website/src/static/stripUndefineds.ts
+     📄 Files WITHOUT ForInStatement (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   JSXMemberExpression:
+     📄 Files WITH JSXMemberExpression (showing 1):
+       • website/src/app/WorkerContext.tsx
+     📄 Files WITHOUT JSXMemberExpression (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   TSNamedTupleMember:
+     📄 Files WITH TSNamedTupleMember (showing 1):
+       • website/src/app/docs/[version]/collectMemberGroups.ts
+     📄 Files WITHOUT TSNamedTupleMember (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   TSConstructSignatureDeclaration:
+     📄 Files WITH TSConstructSignatureDeclaration (showing 1):
+       • type-definitions/immutable.d.ts
+     📄 Files WITHOUT TSConstructSignatureDeclaration (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   TSExportAssignment:
+     📄 Files WITH TSExportAssignment (showing 1):
+       • type-definitions/immutable.d.ts
+     📄 Files WITHOUT TSExportAssignment (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   TSNamespaceExportDeclaration:
+     📄 Files WITH TSNamespaceExportDeclaration (showing 1):
+       • type-definitions/immutable.d.ts
+     📄 Files WITHOUT TSNamespaceExportDeclaration (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+       • src/Stack.js
+
+   TSParenthesizedType:
+     📄 Files WITH TSParenthesizedType (showing 1):
+       • src/Iterator.ts
+     📄 Files WITHOUT TSParenthesizedType (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   TaggedTemplateExpression:
+     📄 Files WITH TaggedTemplateExpression (showing 1):
+       • __tests__/groupBy.ts
+     📄 Files WITHOUT TaggedTemplateExpression (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   Super:
+     📄 Files WITH Super (showing 1):
+       • type-definitions/ts-tests/covariance.ts
+     📄 Files WITHOUT Super (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   TSConstructorType:
+     📄 Files WITH TSConstructorType (showing 1):
+       • src/utils/mixin.ts
+     📄 Files WITHOUT TSConstructorType (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
+
+   MetaProperty:
+     📄 Files WITH MetaProperty (showing 1):
+       • website/src/app/WorkerContext.tsx
+     📄 Files WITHOUT MetaProperty (showing 10):
+       • jest.config.mjs
+       • eslint.config.mjs
+       • website/next.config.mjs
+       • website/next-sitemap.config.js
+       • website/next-env.d.ts
+       • type-definitions/immutable.d.ts
+       • src/toJS.ts
+       • src/is.ts
+       • src/fromJS.js
+       • src/TrieUtils.ts
 
 ============================================================
 ✅ Analysis complete!

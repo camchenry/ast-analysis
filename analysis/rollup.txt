@@ -1,11 +1,12 @@
 AST Analysis Report for rollup
-Generated on: 2025-07-13T03:17:31.024Z
+Generated on: 2025-07-14T01:42:30.122Z
 Repository: sample-repos/rollup
 ================================================================================
 
 🔍 Analyzing JavaScript/TypeScript files in: /Users/camchenry/workspace/ast-analysis/sample-repos/rollup
 
-📁 Found 378 files to analyze...
+📁 Found 12147 files to analyze...
+
 
 
 ============================================================
@@ -13,284 +14,3500 @@ Repository: sample-repos/rollup
 ============================================================
 
 📁 FILE STATISTICS:
-   Total files found: 378
-   Successfully parsed: 378
+   Total files found: 12147
+   Successfully parsed: 12147
    Failed to parse: 0
-   Total file size: 1.2 MB
+   Total file size: 9.2 MB
 
 🌳 NODE STATISTICS:
-   Total nodes: 179,226
-   Average nodes per file: 474
-   Average file size: 3.4 KB
+   Total nodes: 1,241,523
+   Average nodes per file: 102
+   Average file size: 791.0 B
 
 📋 ALL NODE TYPES (BY FILE PRESENCE):
-   Program                         378 files (100.0%) -      378 total (0.21%)
-   Identifier                      372 files ( 98.4%) -   66,769 total (37.25%)
-   Literal                         362 files ( 95.8%) -   10,237 total (5.71%)
-   ImportDeclaration               313 files ( 82.8%) -    2,417 total (1.35%)
-   MemberExpression                309 files ( 81.7%) -   12,333 total (6.88%)
-   TSTypeAnnotation                308 files ( 81.5%) -    7,064 total (3.94%)
-   CallExpression                  305 files ( 80.7%) -    6,802 total (3.80%)
-   BlockStatement                  304 files ( 80.4%) -    4,672 total (2.61%)
-   ImportSpecifier                 284 files ( 75.1%) -    2,694 total (1.50%)
-   TSTypeReference                 283 files ( 74.9%) -    5,521 total (3.08%)
-   ExpressionStatement             278 files ( 73.5%) -    3,672 total (2.05%)
-   VariableDeclaration             277 files ( 73.3%) -    3,338 total (1.86%)
-   VariableDeclarator              277 files ( 73.3%) -    3,430 total (1.91%)
-   ReturnStatement                 265 files ( 70.1%) -    1,880 total (1.05%)
-   IfStatement                     242 files ( 64.0%) -    2,025 total (1.13%)
-   BinaryExpression                238 files ( 63.0%) -    2,679 total (1.49%)
-   AssignmentExpression            220 files ( 58.2%) -    1,570 total (0.88%)
-   ImportDefaultSpecifier          208 files ( 55.0%) -      818 total (0.46%)
-   Property                        203 files ( 53.7%) -    5,958 total (3.32%)
-   LogicalExpression               193 files ( 51.1%) -    1,178 total (0.66%)
-   ExportDefaultDeclaration        186 files ( 49.2%) -      187 total (0.10%)
-   TSStringKeyword                 183 files ( 48.4%) -    1,652 total (0.92%)
-   UnaryExpression                 180 files ( 47.6%) -      790 total (0.44%)
-   ExportNamedDeclaration          175 files ( 46.3%) -    1,026 total (0.57%)
-   FunctionExpression              173 files ( 45.8%) -    1,289 total (0.72%)
-   TSUnionType                     169 files ( 44.7%) -      824 total (0.46%)
-   TSVoidKeyword                   165 files ( 43.7%) -      518 total (0.29%)
-   ArrayExpression                 159 files ( 42.1%) -    1,167 total (0.65%)
-   FunctionDeclaration             159 files ( 42.1%) -      536 total (0.30%)
-   ObjectExpression                158 files ( 41.8%) -    1,156 total (0.64%)
-   ParenthesizedExpression         158 files ( 41.8%) -      673 total (0.38%)
-   TSBooleanKeyword                154 files ( 40.7%) -      640 total (0.36%)
-   TSArrayType                     148 files ( 39.2%) -      609 total (0.34%)
-   ClassBody                       148 files ( 39.2%) -      157 total (0.09%)
-   ObjectPattern                   147 files ( 38.9%) -      627 total (0.35%)
-   ClassDeclaration                144 files ( 38.1%) -      149 total (0.08%)
-   ThisExpression                  140 files ( 37.0%) -    3,625 total (2.02%)
-   ArrowFunctionExpression         138 files ( 36.5%) -      679 total (0.38%)
-   ConditionalExpression           138 files ( 36.5%) -      521 total (0.29%)
-   MethodDefinition                138 files ( 36.5%) -      969 total (0.54%)
-   NewExpression                   136 files ( 36.0%) -      457 total (0.25%)
-   PropertyDefinition              133 files ( 35.2%) -      630 total (0.35%)
-   TSTypeParameterInstantiation    120 files ( 31.7%) -      916 total (0.51%)
-   ForOfStatement                  119 files ( 31.5%) -      495 total (0.28%)
-   Unknown                         117 files ( 31.0%) -    2,665 total (1.49%)
-   ImportNamespaceSpecifier        108 files ( 28.6%) -      108 total (0.06%)
-   TSNullKeyword                   106 files ( 28.0%) -      343 total (0.19%)
-   TSAsExpression                  105 files ( 27.8%) -      289 total (0.16%)
-   TemplateLiteral                 100 files ( 26.5%) -      771 total (0.43%)
-   TemplateElement                 100 files ( 26.5%) -    2,495 total (1.39%)
-   TSQualifiedName                  95 files ( 25.1%) -      267 total (0.15%)
-   SpreadElement                    82 files ( 21.7%) -      282 total (0.16%)
-   TSPropertySignature              78 files ( 20.6%) -    1,130 total (0.63%)
-   ChainExpression                  76 files ( 20.1%) -      201 total (0.11%)
-   TSTypeOperator                   74 files ( 19.6%) -      178 total (0.10%)
-   Super                            73 files ( 19.3%) -      124 total (0.07%)
-   TSLiteralType                    71 files ( 18.8%) -      486 total (0.27%)
-   ArrayPattern                     66 files ( 17.5%) -      158 total (0.09%)
-   TSNonNullExpression              64 files ( 16.9%) -      238 total (0.13%)
-   AwaitExpression                  58 files ( 15.3%) -      258 total (0.14%)
-   TSTypeLiteral                    57 files ( 15.1%) -      207 total (0.12%)
-   TSFunctionType                   55 files ( 14.6%) -      208 total (0.12%)
-   TSNumberKeyword                  49 files ( 13.0%) -      318 total (0.18%)
-   TSTupleType                      47 files ( 12.4%) -       86 total (0.05%)
-   TSUndefinedKeyword               46 files ( 12.2%) -      137 total (0.08%)
-   TSInterfaceDeclaration           46 files ( 12.2%) -      149 total (0.08%)
-   TSInterfaceBody                  46 files ( 12.2%) -      149 total (0.08%)
-   UpdateExpression                 46 files ( 12.2%) -       79 total (0.04%)
-   TSTypeAliasDeclaration           41 files ( 10.8%) -      347 total (0.19%)
-   TSUnknownKeyword                 40 files ( 10.6%) -       92 total (0.05%)
-   TSAnyKeyword                     40 files ( 10.6%) -      134 total (0.07%)
-   AssignmentPattern                39 files ( 10.3%) -       59 total (0.03%)
-   TSNamedTupleMember               35 files (  9.3%) -      101 total (0.06%)
-   ThrowStatement                   34 files (  9.0%) -       56 total (0.03%)
-   TSParenthesizedType              32 files (  8.5%) -       71 total (0.04%)
-   TryStatement                     27 files (  7.1%) -       39 total (0.02%)
-   WhileStatement                   27 files (  7.1%) -       42 total (0.02%)
-   MetaProperty                     26 files (  6.9%) -       43 total (0.02%)
-   CatchClause                      26 files (  6.9%) -       37 total (0.02%)
-   TSTypeParameterDeclaration       24 files (  6.3%) -       74 total (0.04%)
-   TSTypeParameter                  24 files (  6.3%) -       85 total (0.05%)
-   TSTypeQuery                      24 files (  6.3%) -       40 total (0.02%)
-   ContinueStatement                23 files (  6.1%) -       54 total (0.03%)
-   BreakStatement                   22 files (  5.8%) -       39 total (0.02%)
-   SwitchStatement                  22 files (  5.8%) -       25 total (0.01%)
-   SwitchCase                       22 files (  5.8%) -      116 total (0.06%)
-   ForStatement                     22 files (  5.8%) -       31 total (0.02%)
-   TSClassImplements                21 files (  5.6%) -       25 total (0.01%)
-   TSIntersectionType               19 files (  5.0%) -       55 total (0.03%)
-   TSParameterProperty              19 files (  5.0%) -       53 total (0.03%)
-   RestElement                      18 files (  4.8%) -       33 total (0.02%)
-   TSIndexedAccessType              18 files (  4.8%) -       85 total (0.05%)
-   TSNeverKeyword                   17 files (  4.5%) -       26 total (0.01%)
-   TSThisType                       15 files (  4.0%) -       24 total (0.01%)
-   DoWhileStatement                 12 files (  3.2%) -       12 total (0.01%)
-   ExportSpecifier                  10 files (  2.6%) -       24 total (0.01%)
-   TSMethodSignature                10 files (  2.6%) -       74 total (0.04%)
-   TSDeclareFunction                 8 files (  2.1%) -       24 total (0.01%)
-   TSInterfaceHeritage               8 files (  2.1%) -       40 total (0.02%)
-   TSIndexSignature                  8 files (  2.1%) -       14 total (0.01%)
-   TSTypePredicate                   7 files (  1.9%) -       18 total (0.01%)
-   ImportExpression                  7 files (  1.9%) -        8 total (0.00%)
-   TSModuleDeclaration               6 files (  1.6%) -       10 total (0.01%)
-   TSModuleBlock                     6 files (  1.6%) -       10 total (0.01%)
-   Hashbang                          6 files (  1.6%) -        6 total (0.00%)
-   TSObjectKeyword                   5 files (  1.3%) -        7 total (0.00%)
-   ClassExpression                   5 files (  1.3%) -        8 total (0.00%)
-   TSEmptyBodyFunctionExpression     4 files (  1.1%) -        7 total (0.00%)
-   TSMappedType                      4 files (  1.1%) -        8 total (0.00%)
-   TSEnumDeclaration                 4 files (  1.1%) -        4 total (0.00%)
-   TSEnumBody                        4 files (  1.1%) -        4 total (0.00%)
-   TSEnumMember                      4 files (  1.1%) -       38 total (0.02%)
-   TSInstantiationExpression         3 files (  0.8%) -        7 total (0.00%)
-   TSConditionalType                 3 files (  0.8%) -        8 total (0.00%)
-   TSRestType                        3 files (  0.8%) -        3 total (0.00%)
-   LabeledStatement                  3 files (  0.8%) -        3 total (0.00%)
-   ExportAllDeclaration              3 files (  0.8%) -        3 total (0.00%)
-   ForInStatement                    2 files (  0.5%) -        3 total (0.00%)
-   EmptyStatement                    2 files (  0.5%) -        2 total (0.00%)
-   SequenceExpression                2 files (  0.5%) -        4 total (0.00%)
-   YieldExpression                   2 files (  0.5%) -        2 total (0.00%)
-   TSBigIntKeyword                   2 files (  0.5%) -       19 total (0.01%)
-   TSAbstractMethodDefinition        2 files (  0.5%) -        2 total (0.00%)
-   TSSymbolKeyword                   1 files (  0.3%) -        1 total (0.00%)
-   TSInferType                       1 files (  0.3%) -        3 total (0.00%)
-   TSTemplateLiteralType             1 files (  0.3%) -        1 total (0.00%)
-   PrivateIdentifier                 1 files (  0.3%) -        6 total (0.00%)
-   TSSatisfiesExpression             1 files (  0.3%) -        1 total (0.00%)
-   TSCallSignatureDeclaration        1 files (  0.3%) -        3 total (0.00%)
+   Program                        12147 files (100.0%) -   12,147 total (0.98%)
+   Literal                        11765 files ( 96.9%) -  103,007 total (8.30%)
+   Identifier                     11627 files ( 95.7%) -  419,254 total (33.77%)
+   ExpressionStatement            9837 files ( 81.0%) -   73,764 total (5.94%)
+   MemberExpression               9589 files ( 78.9%) -  131,719 total (10.61%)
+   CallExpression                 9499 files ( 78.2%) -   72,356 total (5.83%)
+   BlockStatement                 5843 files ( 48.1%) -   37,730 total (3.04%)
+   VariableDeclaration            5774 files ( 47.5%) -   26,736 total (2.15%)
+   VariableDeclarator             5774 files ( 47.5%) -   29,024 total (2.34%)
+   ObjectExpression               5032 files ( 41.4%) -   15,961 total (1.29%)
+   AssignmentExpression           4990 files ( 41.1%) -   28,898 total (2.33%)
+   Property                       4951 files ( 40.8%) -   34,211 total (2.76%)
+   FunctionExpression             4458 files ( 36.7%) -   13,182 total (1.06%)
+   ArrayExpression                3564 files ( 29.3%) -    7,631 total (0.61%)
+   ParenthesizedExpression        3289 files ( 27.1%) -   16,458 total (1.33%)
+   ReturnStatement                3213 files ( 26.5%) -   11,816 total (0.95%)
+   ExportNamedDeclaration         2237 files ( 18.4%) -    3,619 total (0.29%)
+   ImportDeclaration              2151 files ( 17.7%) -    5,350 total (0.43%)
+   FunctionDeclaration            1907 files ( 15.7%) -    4,003 total (0.32%)
+   BinaryExpression               1540 files ( 12.7%) -   22,887 total (1.84%)
+   ImportSpecifier                1284 files ( 10.6%) -    4,326 total (0.35%)
+   IfStatement                    1175 files (  9.7%) -    9,365 total (0.75%)
+   ArrowFunctionExpression        1171 files (  9.6%) -    3,551 total (0.29%)
+   ExportSpecifier                1096 files (  9.0%) -    1,926 total (0.16%)
+   UnaryExpression                 966 files (  8.0%) -    6,074 total (0.49%)
+   ExportDefaultDeclaration        943 files (  7.8%) -      945 total (0.08%)
+   LogicalExpression               889 files (  7.3%) -    8,377 total (0.67%)
+   ConditionalExpression           871 files (  7.2%) -    2,756 total (0.22%)
+   NewExpression                   828 files (  6.8%) -    3,993 total (0.32%)
+   ThisExpression                  712 files (  5.9%) -   46,646 total (3.76%)
+   ImportDefaultSpecifier          704 files (  5.8%) -    1,502 total (0.12%)
+   ObjectPattern                   584 files (  4.8%) -    1,462 total (0.12%)
+   Unknown                         576 files (  4.7%) -    4,647 total (0.37%)
+   ClassBody                       522 files (  4.3%) -      759 total (0.06%)
+   TemplateLiteral                 506 files (  4.2%) -    1,624 total (0.13%)
+   TemplateElement                 506 files (  4.2%) -    3,975 total (0.32%)
+   ClassDeclaration                490 files (  4.0%) -      672 total (0.05%)
+   ImportExpression                414 files (  3.4%) -      773 total (0.06%)
+   MethodDefinition                401 files (  3.3%) -    2,278 total (0.18%)
+   ImportNamespaceSpecifier        340 files (  2.8%) -      428 total (0.03%)
+   TSTypeAnnotation                318 files (  2.6%) -    7,190 total (0.58%)
+   TSTypeReference                 293 files (  2.4%) -    5,578 total (0.45%)
+   ThrowStatement                  286 files (  2.4%) -    1,823 total (0.15%)
+   SequenceExpression              244 files (  2.0%) -      430 total (0.03%)
+   UpdateExpression                233 files (  1.9%) -      744 total (0.06%)
+   AwaitExpression                 191 files (  1.6%) -      721 total (0.06%)
+   ForOfStatement                  188 files (  1.5%) -      625 total (0.05%)
+   TSStringKeyword                 185 files (  1.5%) -    1,680 total (0.14%)
+   PropertyDefinition              182 files (  1.5%) -      752 total (0.06%)
+   ExportAllDeclaration            177 files (  1.5%) -      247 total (0.02%)
+   TSUnionType                     171 files (  1.4%) -      846 total (0.07%)
+   TSVoidKeyword                   166 files (  1.4%) -      550 total (0.04%)
+   TSBooleanKeyword                155 files (  1.3%) -      657 total (0.05%)
+   SpreadElement                   152 files (  1.3%) -      432 total (0.03%)
+   TSArrayType                     150 files (  1.2%) -      624 total (0.05%)
+   TryStatement                    144 files (  1.2%) -    1,241 total (0.10%)
+   CatchClause                     142 files (  1.2%) -    1,232 total (0.10%)
+   TSTypeParameterInstantiation    122 files (  1.0%) -      932 total (0.08%)
+   ArrayPattern                    114 files (  0.9%) -      270 total (0.02%)
+   AssignmentPattern               114 files (  0.9%) -      267 total (0.02%)
+   TSNullKeyword                   107 files (  0.9%) -      344 total (0.03%)
+   TSAsExpression                  105 files (  0.9%) -      289 total (0.02%)
+   ChainExpression                 103 files (  0.8%) -      295 total (0.02%)
+   TSQualifiedName                  96 files (  0.8%) -      271 total (0.02%)
+   Super                            96 files (  0.8%) -      167 total (0.01%)
+   MetaProperty                     89 files (  0.7%) -      153 total (0.01%)
+   ForStatement                     88 files (  0.7%) -      256 total (0.02%)
+   SwitchStatement                  87 files (  0.7%) -    1,128 total (0.09%)
+   SwitchCase                       87 files (  0.7%) -   26,458 total (2.13%)
+   ForInStatement                   84 files (  0.7%) -      127 total (0.01%)
+   TSPropertySignature              80 files (  0.7%) -    1,196 total (0.10%)
+   BreakStatement                   77 files (  0.6%) -    2,999 total (0.24%)
+   WhileStatement                   75 files (  0.6%) -      595 total (0.05%)
+   TSTypeOperator                   74 files (  0.6%) -      178 total (0.01%)
+   TSLiteralType                    72 files (  0.6%) -      487 total (0.04%)
+   ClassExpression                  70 files (  0.6%) -       87 total (0.01%)
+   RestElement                      66 files (  0.5%) -      136 total (0.01%)
+   TSNonNullExpression              64 files (  0.5%) -      238 total (0.02%)
+   TSTypeLiteral                    58 files (  0.5%) -      209 total (0.02%)
+   TSFunctionType                   56 files (  0.5%) -      229 total (0.02%)
+   TSNumberKeyword                  51 files (  0.4%) -      323 total (0.03%)
+   EmptyStatement                   50 files (  0.4%) -       57 total (0.00%)
+   TSInterfaceDeclaration           48 files (  0.4%) -      158 total (0.01%)
+   TSInterfaceBody                  48 files (  0.4%) -      158 total (0.01%)
+   TSUndefinedKeyword               47 files (  0.4%) -      139 total (0.01%)
+   TSTupleType                      47 files (  0.4%) -       86 total (0.01%)
+   TSTypeAliasDeclaration           41 files (  0.3%) -      347 total (0.03%)
+   TSAnyKeyword                     41 files (  0.3%) -      138 total (0.01%)
+   TSUnknownKeyword                 40 files (  0.3%) -       92 total (0.01%)
+   TSNamedTupleMember               35 files (  0.3%) -      101 total (0.01%)
+   ContinueStatement                35 files (  0.3%) -      108 total (0.01%)
+   TSParenthesizedType              33 files (  0.3%) -       72 total (0.01%)
+   DoWhileStatement                 31 files (  0.3%) -       86 total (0.01%)
+   Hashbang                         30 files (  0.2%) -       30 total (0.00%)
+   TSTypeParameterDeclaration       24 files (  0.2%) -       74 total (0.01%)
+   TSTypeParameter                  24 files (  0.2%) -       85 total (0.01%)
+   TSTypeQuery                      24 files (  0.2%) -       40 total (0.00%)
+   TSClassImplements                21 files (  0.2%) -       25 total (0.00%)
+   LabeledStatement                 21 files (  0.2%) -       68 total (0.01%)
+   TSIntersectionType               19 files (  0.2%) -       55 total (0.00%)
+   TSParameterProperty              19 files (  0.2%) -       53 total (0.00%)
+   TSIndexedAccessType              19 files (  0.2%) -       86 total (0.01%)
+   TSNeverKeyword                   17 files (  0.1%) -       26 total (0.00%)
+   ImportAttribute                  17 files (  0.1%) -       88 total (0.01%)
+   TSDeclareFunction                15 files (  0.1%) -       31 total (0.00%)
+   TSThisType                       15 files (  0.1%) -       24 total (0.00%)
+   StaticBlock                      15 files (  0.1%) -       35 total (0.00%)
+   TSModuleDeclaration              13 files (  0.1%) -       17 total (0.00%)
+   TSModuleBlock                    13 files (  0.1%) -       17 total (0.00%)
+   Decorator                        13 files (  0.1%) -       42 total (0.00%)
+   TSMethodSignature                10 files (  0.1%) -       74 total (0.01%)
+   TSInterfaceHeritage               9 files (  0.1%) -       47 total (0.00%)
+   YieldExpression                   9 files (  0.1%) -       19 total (0.00%)
+   TaggedTemplateExpression          9 files (  0.1%) -       21 total (0.00%)
+   TSIndexSignature                  8 files (  0.1%) -       14 total (0.00%)
+   DebuggerStatement                 8 files (  0.1%) -       10 total (0.00%)
+   TSTypePredicate                   7 files (  0.1%) -       18 total (0.00%)
+   TSObjectKeyword                   5 files (  0.0%) -        7 total (0.00%)
+   PrivateIdentifier                 5 files (  0.0%) -       28 total (0.00%)
+   TSEmptyBodyFunctionExpression     4 files (  0.0%) -        7 total (0.00%)
+   TSMappedType                      4 files (  0.0%) -        8 total (0.00%)
+   TSEnumDeclaration                 4 files (  0.0%) -        4 total (0.00%)
+   TSEnumBody                        4 files (  0.0%) -        4 total (0.00%)
+   TSEnumMember                      4 files (  0.0%) -       38 total (0.00%)
+   TSInstantiationExpression         3 files (  0.0%) -        7 total (0.00%)
+   TSConditionalType                 3 files (  0.0%) -        8 total (0.00%)
+   TSRestType                        3 files (  0.0%) -        3 total (0.00%)
+   TSBigIntKeyword                   2 files (  0.0%) -       19 total (0.00%)
+   TSAbstractMethodDefinition        2 files (  0.0%) -        2 total (0.00%)
+   TSSymbolKeyword                   1 files (  0.0%) -        1 total (0.00%)
+   TSInferType                       1 files (  0.0%) -        3 total (0.00%)
+   TSTemplateLiteralType             1 files (  0.0%) -        1 total (0.00%)
+   TSSatisfiesExpression             1 files (  0.0%) -        1 total (0.00%)
+   TSCallSignatureDeclaration        1 files (  0.0%) -        3 total (0.00%)
 
 📝 ALL NODE TYPES (BY TOTAL COUNT):
-   Identifier                       66,769 (37.25%) in 372 files (98.4%)
-   MemberExpression                 12,333 (6.88%) in 309 files (81.7%)
-   Literal                          10,237 (5.71%) in 362 files (95.8%)
-   TSTypeAnnotation                  7,064 (3.94%) in 308 files (81.5%)
-   CallExpression                    6,802 (3.80%) in 305 files (80.7%)
-   Property                          5,958 (3.32%) in 203 files (53.7%)
-   TSTypeReference                   5,521 (3.08%) in 283 files (74.9%)
-   BlockStatement                    4,672 (2.61%) in 304 files (80.4%)
-   ExpressionStatement               3,672 (2.05%) in 278 files (73.5%)
-   ThisExpression                    3,625 (2.02%) in 140 files (37.0%)
-   VariableDeclarator                3,430 (1.91%) in 277 files (73.3%)
-   VariableDeclaration               3,338 (1.86%) in 277 files (73.3%)
-   ImportSpecifier                   2,694 (1.50%) in 284 files (75.1%)
-   BinaryExpression                  2,679 (1.49%) in 238 files (63.0%)
-   Unknown                           2,665 (1.49%) in 117 files (31.0%)
-   TemplateElement                   2,495 (1.39%) in 100 files (26.5%)
-   ImportDeclaration                 2,417 (1.35%) in 313 files (82.8%)
-   IfStatement                       2,025 (1.13%) in 242 files (64.0%)
-   ReturnStatement                   1,880 (1.05%) in 265 files (70.1%)
-   TSStringKeyword                   1,652 (0.92%) in 183 files (48.4%)
-   AssignmentExpression              1,570 (0.88%) in 220 files (58.2%)
-   FunctionExpression                1,289 (0.72%) in 173 files (45.8%)
-   LogicalExpression                 1,178 (0.66%) in 193 files (51.1%)
-   ArrayExpression                   1,167 (0.65%) in 159 files (42.1%)
-   ObjectExpression                  1,156 (0.64%) in 158 files (41.8%)
-   TSPropertySignature               1,130 (0.63%) in 78 files (20.6%)
-   ExportNamedDeclaration            1,026 (0.57%) in 175 files (46.3%)
-   MethodDefinition                    969 (0.54%) in 138 files (36.5%)
-   TSTypeParameterInstantiation        916 (0.51%) in 120 files (31.7%)
-   TSUnionType                         824 (0.46%) in 169 files (44.7%)
-   ImportDefaultSpecifier              818 (0.46%) in 208 files (55.0%)
-   UnaryExpression                     790 (0.44%) in 180 files (47.6%)
-   TemplateLiteral                     771 (0.43%) in 100 files (26.5%)
-   ArrowFunctionExpression             679 (0.38%) in 138 files (36.5%)
-   ParenthesizedExpression             673 (0.38%) in 158 files (41.8%)
-   TSBooleanKeyword                    640 (0.36%) in 154 files (40.7%)
-   PropertyDefinition                  630 (0.35%) in 133 files (35.2%)
-   ObjectPattern                       627 (0.35%) in 147 files (38.9%)
-   TSArrayType                         609 (0.34%) in 148 files (39.2%)
-   FunctionDeclaration                 536 (0.30%) in 159 files (42.1%)
-   ConditionalExpression               521 (0.29%) in 138 files (36.5%)
-   TSVoidKeyword                       518 (0.29%) in 165 files (43.7%)
-   ForOfStatement                      495 (0.28%) in 119 files (31.5%)
-   TSLiteralType                       486 (0.27%) in 71 files (18.8%)
-   NewExpression                       457 (0.25%) in 136 files (36.0%)
-   Program                             378 (0.21%) in 378 files (100.0%)
-   TSTypeAliasDeclaration              347 (0.19%) in 41 files (10.8%)
-   TSNullKeyword                       343 (0.19%) in 106 files (28.0%)
-   TSNumberKeyword                     318 (0.18%) in 49 files (13.0%)
-   TSAsExpression                      289 (0.16%) in 105 files (27.8%)
-   SpreadElement                       282 (0.16%) in 82 files (21.7%)
-   TSQualifiedName                     267 (0.15%) in 95 files (25.1%)
-   AwaitExpression                     258 (0.14%) in 58 files (15.3%)
-   TSNonNullExpression                 238 (0.13%) in 64 files (16.9%)
-   TSFunctionType                      208 (0.12%) in 55 files (14.6%)
-   TSTypeLiteral                       207 (0.12%) in 57 files (15.1%)
-   ChainExpression                     201 (0.11%) in 76 files (20.1%)
-   ExportDefaultDeclaration            187 (0.10%) in 186 files (49.2%)
-   TSTypeOperator                      178 (0.10%) in 74 files (19.6%)
-   ArrayPattern                        158 (0.09%) in 66 files (17.5%)
-   ClassBody                           157 (0.09%) in 148 files (39.2%)
-   TSInterfaceDeclaration              149 (0.08%) in 46 files (12.2%)
-   TSInterfaceBody                     149 (0.08%) in 46 files (12.2%)
-   ClassDeclaration                    149 (0.08%) in 144 files (38.1%)
-   TSUndefinedKeyword                  137 (0.08%) in 46 files (12.2%)
-   TSAnyKeyword                        134 (0.07%) in 40 files (10.6%)
-   Super                               124 (0.07%) in 73 files (19.3%)
-   SwitchCase                          116 (0.06%) in 22 files (5.8%)
-   ImportNamespaceSpecifier            108 (0.06%) in 108 files (28.6%)
-   TSNamedTupleMember                  101 (0.06%) in 35 files (9.3%)
-   TSUnknownKeyword                     92 (0.05%) in 40 files (10.6%)
-   TSTupleType                          86 (0.05%) in 47 files (12.4%)
-   TSTypeParameter                      85 (0.05%) in 24 files (6.3%)
-   TSIndexedAccessType                  85 (0.05%) in 18 files (4.8%)
-   UpdateExpression                     79 (0.04%) in 46 files (12.2%)
-   TSTypeParameterDeclaration           74 (0.04%) in 24 files (6.3%)
-   TSMethodSignature                    74 (0.04%) in 10 files (2.6%)
-   TSParenthesizedType                  71 (0.04%) in 32 files (8.5%)
-   AssignmentPattern                    59 (0.03%) in 39 files (10.3%)
-   ThrowStatement                       56 (0.03%) in 34 files (9.0%)
-   TSIntersectionType                   55 (0.03%) in 19 files (5.0%)
-   ContinueStatement                    54 (0.03%) in 23 files (6.1%)
-   TSParameterProperty                  53 (0.03%) in 19 files (5.0%)
-   MetaProperty                         43 (0.02%) in 26 files (6.9%)
-   WhileStatement                       42 (0.02%) in 27 files (7.1%)
-   TSTypeQuery                          40 (0.02%) in 24 files (6.3%)
-   TSInterfaceHeritage                  40 (0.02%) in 8 files (2.1%)
-   TryStatement                         39 (0.02%) in 27 files (7.1%)
-   BreakStatement                       39 (0.02%) in 22 files (5.8%)
-   TSEnumMember                         38 (0.02%) in 4 files (1.1%)
-   CatchClause                          37 (0.02%) in 26 files (6.9%)
-   RestElement                          33 (0.02%) in 18 files (4.8%)
-   ForStatement                         31 (0.02%) in 22 files (5.8%)
-   TSNeverKeyword                       26 (0.01%) in 17 files (4.5%)
-   SwitchStatement                      25 (0.01%) in 22 files (5.8%)
-   TSClassImplements                    25 (0.01%) in 21 files (5.6%)
-   TSDeclareFunction                    24 (0.01%) in 8 files (2.1%)
-   ExportSpecifier                      24 (0.01%) in 10 files (2.6%)
-   TSThisType                           24 (0.01%) in 15 files (4.0%)
-   TSBigIntKeyword                      19 (0.01%) in 2 files (0.5%)
-   TSTypePredicate                      18 (0.01%) in 7 files (1.9%)
-   TSIndexSignature                     14 (0.01%) in 8 files (2.1%)
-   DoWhileStatement                     12 (0.01%) in 12 files (3.2%)
-   TSModuleDeclaration                  10 (0.01%) in 6 files (1.6%)
-   TSModuleBlock                        10 (0.01%) in 6 files (1.6%)
-   TSMappedType                          8 (0.00%) in 4 files (1.1%)
-   TSConditionalType                     8 (0.00%) in 3 files (0.8%)
-   ImportExpression                      8 (0.00%) in 7 files (1.9%)
-   ClassExpression                       8 (0.00%) in 5 files (1.3%)
-   TSObjectKeyword                       7 (0.00%) in 5 files (1.3%)
-   TSInstantiationExpression             7 (0.00%) in 3 files (0.8%)
-   TSEmptyBodyFunctionExpression         7 (0.00%) in 4 files (1.1%)
-   Hashbang                              6 (0.00%) in 6 files (1.6%)
-   PrivateIdentifier                     6 (0.00%) in 1 files (0.3%)
-   TSEnumDeclaration                     4 (0.00%) in 4 files (1.1%)
-   TSEnumBody                            4 (0.00%) in 4 files (1.1%)
-   SequenceExpression                    4 (0.00%) in 2 files (0.5%)
-   ForInStatement                        3 (0.00%) in 2 files (0.5%)
-   TSInferType                           3 (0.00%) in 1 files (0.3%)
-   TSRestType                            3 (0.00%) in 3 files (0.8%)
-   LabeledStatement                      3 (0.00%) in 3 files (0.8%)
-   ExportAllDeclaration                  3 (0.00%) in 3 files (0.8%)
-   TSCallSignatureDeclaration            3 (0.00%) in 1 files (0.3%)
-   EmptyStatement                        2 (0.00%) in 2 files (0.5%)
-   YieldExpression                       2 (0.00%) in 2 files (0.5%)
-   TSAbstractMethodDefinition            2 (0.00%) in 2 files (0.5%)
-   TSSymbolKeyword                       1 (0.00%) in 1 files (0.3%)
-   TSTemplateLiteralType                 1 (0.00%) in 1 files (0.3%)
-   TSSatisfiesExpression                 1 (0.00%) in 1 files (0.3%)
+   Identifier                      419,254 (33.77%) in 11627 files (95.7%)
+   MemberExpression                131,719 (10.61%) in 9589 files (78.9%)
+   Literal                         103,007 (8.30%) in 11765 files (96.9%)
+   ExpressionStatement              73,764 (5.94%) in 9837 files (81.0%)
+   CallExpression                   72,356 (5.83%) in 9499 files (78.2%)
+   ThisExpression                   46,646 (3.76%) in 712 files (5.9%)
+   BlockStatement                   37,730 (3.04%) in 5843 files (48.1%)
+   Property                         34,211 (2.76%) in 4951 files (40.8%)
+   VariableDeclarator               29,024 (2.34%) in 5774 files (47.5%)
+   AssignmentExpression             28,898 (2.33%) in 4990 files (41.1%)
+   VariableDeclaration              26,736 (2.15%) in 5774 files (47.5%)
+   SwitchCase                       26,458 (2.13%) in 87 files (0.7%)
+   BinaryExpression                 22,887 (1.84%) in 1540 files (12.7%)
+   ParenthesizedExpression          16,458 (1.33%) in 3289 files (27.1%)
+   ObjectExpression                 15,961 (1.29%) in 5032 files (41.4%)
+   FunctionExpression               13,182 (1.06%) in 4458 files (36.7%)
+   Program                          12,147 (0.98%) in 12147 files (100.0%)
+   ReturnStatement                  11,816 (0.95%) in 3213 files (26.5%)
+   IfStatement                       9,365 (0.75%) in 1175 files (9.7%)
+   LogicalExpression                 8,377 (0.67%) in 889 files (7.3%)
+   ArrayExpression                   7,631 (0.61%) in 3564 files (29.3%)
+   TSTypeAnnotation                  7,190 (0.58%) in 318 files (2.6%)
+   UnaryExpression                   6,074 (0.49%) in 966 files (8.0%)
+   TSTypeReference                   5,578 (0.45%) in 293 files (2.4%)
+   ImportDeclaration                 5,350 (0.43%) in 2151 files (17.7%)
+   Unknown                           4,647 (0.37%) in 576 files (4.7%)
+   ImportSpecifier                   4,326 (0.35%) in 1284 files (10.6%)
+   FunctionDeclaration               4,003 (0.32%) in 1907 files (15.7%)
+   NewExpression                     3,993 (0.32%) in 828 files (6.8%)
+   TemplateElement                   3,975 (0.32%) in 506 files (4.2%)
+   ExportNamedDeclaration            3,619 (0.29%) in 2237 files (18.4%)
+   ArrowFunctionExpression           3,551 (0.29%) in 1171 files (9.6%)
+   BreakStatement                    2,999 (0.24%) in 77 files (0.6%)
+   ConditionalExpression             2,756 (0.22%) in 871 files (7.2%)
+   MethodDefinition                  2,278 (0.18%) in 401 files (3.3%)
+   ExportSpecifier                   1,926 (0.16%) in 1096 files (9.0%)
+   ThrowStatement                    1,823 (0.15%) in 286 files (2.4%)
+   TSStringKeyword                   1,680 (0.14%) in 185 files (1.5%)
+   TemplateLiteral                   1,624 (0.13%) in 506 files (4.2%)
+   ImportDefaultSpecifier            1,502 (0.12%) in 704 files (5.8%)
+   ObjectPattern                     1,462 (0.12%) in 584 files (4.8%)
+   TryStatement                      1,241 (0.10%) in 144 files (1.2%)
+   CatchClause                       1,232 (0.10%) in 142 files (1.2%)
+   TSPropertySignature               1,196 (0.10%) in 80 files (0.7%)
+   SwitchStatement                   1,128 (0.09%) in 87 files (0.7%)
+   ExportDefaultDeclaration            945 (0.08%) in 943 files (7.8%)
+   TSTypeParameterInstantiation        932 (0.08%) in 122 files (1.0%)
+   TSUnionType                         846 (0.07%) in 171 files (1.4%)
+   ImportExpression                    773 (0.06%) in 414 files (3.4%)
+   ClassBody                           759 (0.06%) in 522 files (4.3%)
+   PropertyDefinition                  752 (0.06%) in 182 files (1.5%)
+   UpdateExpression                    744 (0.06%) in 233 files (1.9%)
+   AwaitExpression                     721 (0.06%) in 191 files (1.6%)
+   ClassDeclaration                    672 (0.05%) in 490 files (4.0%)
+   TSBooleanKeyword                    657 (0.05%) in 155 files (1.3%)
+   ForOfStatement                      625 (0.05%) in 188 files (1.5%)
+   TSArrayType                         624 (0.05%) in 150 files (1.2%)
+   WhileStatement                      595 (0.05%) in 75 files (0.6%)
+   TSVoidKeyword                       550 (0.04%) in 166 files (1.4%)
+   TSLiteralType                       487 (0.04%) in 72 files (0.6%)
+   SpreadElement                       432 (0.03%) in 152 files (1.3%)
+   SequenceExpression                  430 (0.03%) in 244 files (2.0%)
+   ImportNamespaceSpecifier            428 (0.03%) in 340 files (2.8%)
+   TSTypeAliasDeclaration              347 (0.03%) in 41 files (0.3%)
+   TSNullKeyword                       344 (0.03%) in 107 files (0.9%)
+   TSNumberKeyword                     323 (0.03%) in 51 files (0.4%)
+   ChainExpression                     295 (0.02%) in 103 files (0.8%)
+   TSAsExpression                      289 (0.02%) in 105 files (0.9%)
+   TSQualifiedName                     271 (0.02%) in 96 files (0.8%)
+   ArrayPattern                        270 (0.02%) in 114 files (0.9%)
+   AssignmentPattern                   267 (0.02%) in 114 files (0.9%)
+   ForStatement                        256 (0.02%) in 88 files (0.7%)
+   ExportAllDeclaration                247 (0.02%) in 177 files (1.5%)
+   TSNonNullExpression                 238 (0.02%) in 64 files (0.5%)
+   TSFunctionType                      229 (0.02%) in 56 files (0.5%)
+   TSTypeLiteral                       209 (0.02%) in 58 files (0.5%)
+   TSTypeOperator                      178 (0.01%) in 74 files (0.6%)
+   Super                               167 (0.01%) in 96 files (0.8%)
+   TSInterfaceDeclaration              158 (0.01%) in 48 files (0.4%)
+   TSInterfaceBody                     158 (0.01%) in 48 files (0.4%)
+   MetaProperty                        153 (0.01%) in 89 files (0.7%)
+   TSUndefinedKeyword                  139 (0.01%) in 47 files (0.4%)
+   TSAnyKeyword                        138 (0.01%) in 41 files (0.3%)
+   RestElement                         136 (0.01%) in 66 files (0.5%)
+   ForInStatement                      127 (0.01%) in 84 files (0.7%)
+   ContinueStatement                   108 (0.01%) in 35 files (0.3%)
+   TSNamedTupleMember                  101 (0.01%) in 35 files (0.3%)
+   TSUnknownKeyword                     92 (0.01%) in 40 files (0.3%)
+   ImportAttribute                      88 (0.01%) in 17 files (0.1%)
+   ClassExpression                      87 (0.01%) in 70 files (0.6%)
+   TSTupleType                          86 (0.01%) in 47 files (0.4%)
+   DoWhileStatement                     86 (0.01%) in 31 files (0.3%)
+   TSIndexedAccessType                  86 (0.01%) in 19 files (0.2%)
+   TSTypeParameter                      85 (0.01%) in 24 files (0.2%)
+   TSMethodSignature                    74 (0.01%) in 10 files (0.1%)
+   TSTypeParameterDeclaration           74 (0.01%) in 24 files (0.2%)
+   TSParenthesizedType                  72 (0.01%) in 33 files (0.3%)
+   LabeledStatement                     68 (0.01%) in 21 files (0.2%)
+   EmptyStatement                       57 (0.00%) in 50 files (0.4%)
+   TSIntersectionType                   55 (0.00%) in 19 files (0.2%)
+   TSParameterProperty                  53 (0.00%) in 19 files (0.2%)
+   TSInterfaceHeritage                  47 (0.00%) in 9 files (0.1%)
+   Decorator                            42 (0.00%) in 13 files (0.1%)
+   TSTypeQuery                          40 (0.00%) in 24 files (0.2%)
+   TSEnumMember                         38 (0.00%) in 4 files (0.0%)
+   StaticBlock                          35 (0.00%) in 15 files (0.1%)
+   TSDeclareFunction                    31 (0.00%) in 15 files (0.1%)
+   Hashbang                             30 (0.00%) in 30 files (0.2%)
+   PrivateIdentifier                    28 (0.00%) in 5 files (0.0%)
+   TSNeverKeyword                       26 (0.00%) in 17 files (0.1%)
+   TSClassImplements                    25 (0.00%) in 21 files (0.2%)
+   TSThisType                           24 (0.00%) in 15 files (0.1%)
+   TaggedTemplateExpression             21 (0.00%) in 9 files (0.1%)
+   YieldExpression                      19 (0.00%) in 9 files (0.1%)
+   TSBigIntKeyword                      19 (0.00%) in 2 files (0.0%)
+   TSTypePredicate                      18 (0.00%) in 7 files (0.1%)
+   TSModuleDeclaration                  17 (0.00%) in 13 files (0.1%)
+   TSModuleBlock                        17 (0.00%) in 13 files (0.1%)
+   TSIndexSignature                     14 (0.00%) in 8 files (0.1%)
+   DebuggerStatement                    10 (0.00%) in 8 files (0.1%)
+   TSMappedType                          8 (0.00%) in 4 files (0.0%)
+   TSConditionalType                     8 (0.00%) in 3 files (0.0%)
+   TSEmptyBodyFunctionExpression         7 (0.00%) in 4 files (0.0%)
+   TSObjectKeyword                       7 (0.00%) in 5 files (0.0%)
+   TSInstantiationExpression             7 (0.00%) in 3 files (0.0%)
+   TSEnumDeclaration                     4 (0.00%) in 4 files (0.0%)
+   TSEnumBody                            4 (0.00%) in 4 files (0.0%)
+   TSInferType                           3 (0.00%) in 1 files (0.0%)
+   TSRestType                            3 (0.00%) in 3 files (0.0%)
+   TSCallSignatureDeclaration            3 (0.00%) in 1 files (0.0%)
+   TSAbstractMethodDefinition            2 (0.00%) in 2 files (0.0%)
+   TSSymbolKeyword                       1 (0.00%) in 1 files (0.0%)
+   TSTemplateLiteralType                 1 (0.00%) in 1 files (0.0%)
+   TSSatisfiesExpression                 1 (0.00%) in 1 files (0.0%)
+
+📁 FILE EXAMPLES BY NODE TYPE:
+
+   Identifier:
+     📄 Files WITH Identifier (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+     📄 Files WITHOUT Identifier (showing 10):
+       • scripts/generate-ast-converters.js
+       • src/utils/fs.ts
+       • src/utils/convert-ast-strings.ts
+       • test/watch/samples/watch-files/main.js
+       • test/watch/samples/skip-writes/main.js
+       • test/watch/samples/multiple/main2.js
+       • test/watch/samples/multiple/main1.js
+       • test/watch/samples/error/main.js
+       • test/watch/samples/ignored/foo.js
+       • test/watch/samples/ignored/bar.js
+
+   MemberExpression:
+     📄 Files WITH MemberExpression (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • eslint.config.mjs
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/publish-wasm-node-package.js
+       • scripts/prepublish.js
+     📄 Files WITHOUT MemberExpression (showing 10):
+       • native.d.ts
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/release-constants.js
+       • scripts/generate-ast-converters.js
+       • scripts/declarations.d.ts
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • src/node-entry.ts
+
+   Literal:
+     📄 Files WITH Literal (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • eslint.config.mjs
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/release-constants.js
+       • scripts/publish-wasm-node-package.js
+     📄 Files WITHOUT Literal (showing 10):
+       • native.d.ts
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • src/ast/DeoptimizableEntity.ts
+       • src/utils/iterators.ts
+       • src/utils/initWasm.ts
+       • src/utils/getter.ts
+       • src/utils/getOrCreate.ts
+       • src/utils/getId.ts
+       • src/utils/doNothing.ts
+
+   ExpressionStatement:
+     📄 Files WITH ExpressionStatement (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • scripts/update-snapshots.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/publish-wasm-node-package.js
+       • scripts/prepublish.js
+       • scripts/prepare-release.js
+       • scripts/postpublish.js
+     📄 Files WITHOUT ExpressionStatement (showing 10):
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/test-package.js
+       • scripts/release-constants.js
+       • scripts/generate-ast-converters.js
+       • scripts/declarations.d.ts
+       • scripts/colors.js
+       • scripts/ast-types.js
+
+   CallExpression:
+     📄 Files WITH CallExpression (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • eslint.config.mjs
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/publish-wasm-node-package.js
+       • scripts/prepublish.js
+     📄 Files WITHOUT CallExpression (showing 10):
+       • native.d.ts
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/release-constants.js
+       • scripts/generate-ast-converters.js
+       • scripts/declarations.d.ts
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • src/node-entry.ts
+
+   ThisExpression:
+     📄 Files WITH ThisExpression (showing 10):
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
+       • src/Bundle.ts
+       • test/test.js
+       • build-plugins/external-native-import.ts
+       • build-plugins/emit-wasm-file.ts
+     📄 Files WITHOUT ThisExpression (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   BlockStatement:
+     📄 Files WITH BlockStatement (showing 10):
+       • rollup.config.ts
+       • native.js
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/publish-wasm-node-package.js
+       • scripts/prepublish.js
+       • scripts/prepare-release.js
+       • scripts/postpublish.js
+     📄 Files WITHOUT BlockStatement (showing 10):
+       • native.wasm.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/release-constants.js
+       • scripts/generate-string-constants.js
+       • scripts/generate-node-types.js
+       • scripts/generate-node-index.js
+       • scripts/generate-ast-converters.js
+
+   Property:
+     📄 Files WITH Property (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • eslint.config.mjs
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/publish-wasm-node-package.js
+       • scripts/prepublish.js
+       • scripts/prepare-release.js
+       • scripts/postpublish.js
+     📄 Files WITHOUT Property (showing 10):
+       • native.d.ts
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/release-constants.js
+       • scripts/lint-native-js.js
+       • scripts/generate-string-constants.js
+       • scripts/generate-node-types.js
+       • scripts/generate-node-index.js
+
+   VariableDeclarator:
+     📄 Files WITH VariableDeclarator (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/release-constants.js
+       • scripts/publish-wasm-node-package.js
+     📄 Files WITHOUT VariableDeclarator (showing 10):
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm.d.ts
+       • scripts/generate-ast-converters.js
+       • scripts/declarations.d.ts
+       • scripts/check-release.js
+       • src/node-entry.ts
+       • src/browser-entry.ts
+       • test/types.d.ts
+       • test/test.js
+
+   AssignmentExpression:
+     📄 Files WITH AssignmentExpression (showing 10):
+       • native.wasm.js
+       • native.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/prepare-release.js
+       • scripts/postpublish.js
+       • scripts/helpers.js
+       • scripts/generate-rust-constants.js
+       • scripts/generate-child-node-keys.js
+       • scripts/generate-buffer-to-ast.js
+     📄 Files WITHOUT AssignmentExpression (showing 10):
+       • rollup.config.ts
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/release-constants.js
+       • scripts/publish-wasm-node-package.js
+       • scripts/prepublish.js
+
+   VariableDeclaration:
+     📄 Files WITH VariableDeclaration (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/release-constants.js
+       • scripts/publish-wasm-node-package.js
+     📄 Files WITHOUT VariableDeclaration (showing 10):
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm.d.ts
+       • scripts/generate-ast-converters.js
+       • scripts/declarations.d.ts
+       • scripts/check-release.js
+       • src/node-entry.ts
+       • src/browser-entry.ts
+       • test/types.d.ts
+       • test/test.js
+
+   SwitchCase:
+     📄 Files WITH SwitchCase (showing 10):
+       • scripts/generate-rust-constants.js
+       • scripts/generate-buffer-to-ast.js
+       • scripts/generate-buffer-parsers.js
+       • scripts/generate-ast-macros.js
+       • src/Chunk.ts
+       • test/testHelpers.js
+       • src/ast/values.ts
+       • src/utils/timers.ts
+       • src/utils/hookActions.ts
+       • src/utils/bufferToAst.ts
+     📄 Files WITHOUT SwitchCase (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   BinaryExpression:
+     📄 Files WITH BinaryExpression (showing 10):
+       • rollup.config.ts
+       • native.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/prepublish.js
+       • scripts/prepare-release.js
+       • scripts/postpublish.js
+       • scripts/lint-native-js.js
+       • scripts/helpers.js
+     📄 Files WITHOUT BinaryExpression (showing 10):
+       • native.wasm.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/release-constants.js
+       • scripts/publish-wasm-node-package.js
+       • scripts/generate-node-types.js
+       • scripts/generate-node-index.js
+
+   ParenthesizedExpression:
+     📄 Files WITH ParenthesizedExpression (showing 10):
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/prepare-release.js
+       • scripts/postpublish.js
+       • scripts/helpers.js
+       • scripts/generate-child-node-keys.js
+       • scripts/generate-buffer-to-ast.js
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+     📄 Files WITHOUT ParenthesizedExpression (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/release-constants.js
+
+   ObjectExpression:
+     📄 Files WITH ObjectExpression (showing 10):
+       • rollup.config.ts
+       • native.js
+       • eslint.config.mjs
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/publish-wasm-node-package.js
+       • scripts/prepublish.js
+       • scripts/prepare-release.js
+       • scripts/postpublish.js
+       • scripts/helpers.js
+     📄 Files WITHOUT ObjectExpression (showing 10):
+       • native.wasm.js
+       • native.d.ts
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/release-constants.js
+       • scripts/lint-native-js.js
+       • scripts/generate-string-constants.js
+       • scripts/generate-rust-constants.js
+
+   FunctionExpression:
+     📄 Files WITH FunctionExpression (showing 10):
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
+       • src/Bundle.ts
+       • test/testHelpers.js
+       • test/test.js
+       • build-plugins/replace-browser-modules.ts
+     📄 Files WITHOUT FunctionExpression (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   Program:
+     📄 Files WITH Program (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+     📄 Files WITHOUT Program: (all files contain this node type)
+
+   ReturnStatement:
+     📄 Files WITH ReturnStatement (showing 10):
+       • rollup.config.ts
+       • native.js
+       • scripts/release-helpers.js
+       • scripts/publish-wasm-node-package.js
+       • scripts/prepublish.js
+       • scripts/prepare-release.js
+       • scripts/postpublish.js
+       • scripts/helpers.js
+       • scripts/generate-rust-constants.js
+       • scripts/generate-buffer-to-ast.js
+     📄 Files WITHOUT ReturnStatement (showing 10):
+       • native.wasm.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-constants.js
+       • scripts/lint-native-js.js
+
+   IfStatement:
+     📄 Files WITH IfStatement (showing 10):
+       • rollup.config.ts
+       • native.js
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/prepublish.js
+       • scripts/prepare-release.js
+       • scripts/postpublish.js
+       • scripts/lint-native-js.js
+     📄 Files WITHOUT IfStatement (showing 10):
+       • native.wasm.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/release-constants.js
+       • scripts/publish-wasm-node-package.js
+       • scripts/generate-string-constants.js
+       • scripts/generate-node-types.js
+       • scripts/generate-node-index.js
+
+   LogicalExpression:
+     📄 Files WITH LogicalExpression (showing 10):
+       • rollup.config.ts
+       • native.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/postpublish.js
+       • scripts/generate-rust-constants.js
+       • scripts/generate-node-types.js
+       • scripts/generate-node-index.js
+       • scripts/generate-child-node-keys.js
+     📄 Files WITHOUT LogicalExpression (showing 10):
+       • native.wasm.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/release-constants.js
+       • scripts/publish-wasm-node-package.js
+       • scripts/prepublish.js
+       • scripts/prepare-release.js
+
+   ArrayExpression:
+     📄 Files WITH ArrayExpression (showing 10):
+       • rollup.config.ts
+       • native.js
+       • eslint.config.mjs
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/publish-wasm-node-package.js
+       • scripts/prepublish.js
+       • scripts/prepare-release.js
+       • scripts/postpublish.js
+       • scripts/lint-native-js.js
+     📄 Files WITHOUT ArrayExpression (showing 10):
+       • native.wasm.js
+       • native.d.ts
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/release-constants.js
+       • scripts/generate-ast-macros.js
+       • scripts/generate-ast-converters.js
+       • scripts/declarations.d.ts
+
+   TSTypeAnnotation:
+     📄 Files WITH TSTypeAnnotation (showing 10):
+       • rollup.config.ts
+       • native.d.ts
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/declarations.d.ts
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • src/ModuleLoader.ts
+       • src/Module.ts
+     📄 Files WITHOUT TSTypeAnnotation (showing 10):
+       • native.wasm.js
+       • native.js
+       • eslint.config.mjs
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/release-constants.js
+       • scripts/publish-wasm-node-package.js
+       • scripts/prepublish.js
+
+   UnaryExpression:
+     📄 Files WITH UnaryExpression (showing 10):
+       • rollup.config.ts
+       • native.js
+       • scripts/update-snapshots.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/publish-wasm-node-package.js
+       • scripts/prepublish.js
+       • scripts/prepare-release.js
+       • scripts/postpublish.js
+       • scripts/lint-native-js.js
+     📄 Files WITHOUT UnaryExpression (showing 10):
+       • native.wasm.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/test-package.js
+       • scripts/release-constants.js
+       • scripts/generate-string-constants.js
+       • scripts/generate-rust-constants.js
+       • scripts/generate-node-types.js
+
+   TSTypeReference:
+     📄 Files WITH TSTypeReference (showing 10):
+       • rollup.config.ts
+       • native.d.ts
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/declarations.d.ts
+       • typings/declarations.ts
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
+     📄 Files WITHOUT TSTypeReference (showing 10):
+       • native.wasm.js
+       • native.js
+       • eslint.config.mjs
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/release-constants.js
+       • scripts/publish-wasm-node-package.js
+       • scripts/prepublish.js
+
+   ImportDeclaration:
+     📄 Files WITH ImportDeclaration (showing 10):
+       • rollup.config.ts
+       • eslint.config.mjs
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/publish-wasm-node-package.js
+       • scripts/prepublish.js
+       • scripts/prepare-release.js
+       • scripts/postpublish.js
+     📄 Files WITHOUT ImportDeclaration (showing 10):
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/release-constants.js
+       • scripts/declarations.d.ts
+       • scripts/ast-types.js
+       • typings/package.json.ts
+       • typings/fsevents.ts
+
+   Unknown:
+     📄 Files WITH Unknown (showing 10):
+       • native.js
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/prepublish.js
+       • scripts/prepare-release.js
+       • scripts/postpublish.js
+       • scripts/lint-native-js.js
+       • scripts/helpers.js
+     📄 Files WITHOUT Unknown (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/release-constants.js
+       • scripts/publish-wasm-node-package.js
+       • scripts/generate-ast-converters.js
+       • scripts/declarations.d.ts
+
+   ImportSpecifier:
+     📄 Files WITH ImportSpecifier (showing 10):
+       • rollup.config.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/publish-wasm-node-package.js
+       • scripts/prepublish.js
+       • scripts/prepare-release.js
+       • scripts/postpublish.js
+       • scripts/helpers.js
+     📄 Files WITHOUT ImportSpecifier (showing 10):
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/release-constants.js
+       • scripts/lint-native-js.js
+       • scripts/generate-ast-converters.js
+       • scripts/declarations.d.ts
+
+   FunctionDeclaration:
+     📄 Files WITH FunctionDeclaration (showing 10):
+       • rollup.config.ts
+       • native.js
+       • scripts/release-helpers.js
+       • scripts/publish-wasm-node-package.js
+       • scripts/prepublish.js
+       • scripts/prepare-release.js
+       • scripts/postpublish.js
+       • scripts/helpers.js
+       • scripts/generate-buffer-to-ast.js
+       • scripts/generate-buffer-parsers.js
+     📄 Files WITHOUT FunctionDeclaration (showing 10):
+       • native.wasm.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-constants.js
+       • scripts/lint-native-js.js
+
+   NewExpression:
+     📄 Files WITH NewExpression (showing 10):
+       • rollup.config.ts
+       • native.js
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/publish-wasm-node-package.js
+       • scripts/prepublish.js
+       • scripts/prepare-release.js
+       • scripts/postpublish.js
+     📄 Files WITHOUT NewExpression (showing 10):
+       • native.wasm.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/release-constants.js
+       • scripts/generate-ast-converters.js
+       • scripts/declarations.d.ts
+       • scripts/colors.js
+       • scripts/check-release.js
+
+   TemplateElement:
+     📄 Files WITH TemplateElement (showing 10):
+       • native.js
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/prepublish.js
+       • scripts/prepare-release.js
+       • scripts/postpublish.js
+       • scripts/lint-native-js.js
+       • scripts/helpers.js
+     📄 Files WITHOUT TemplateElement (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/release-constants.js
+       • scripts/publish-wasm-node-package.js
+       • scripts/generate-ast-converters.js
+       • scripts/declarations.d.ts
+
+   ExportNamedDeclaration:
+     📄 Files WITH ExportNamedDeclaration (showing 10):
+       • native.d.ts
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/release-helpers.js
+       • scripts/release-constants.js
+       • scripts/helpers.js
+       • scripts/declarations.d.ts
+       • scripts/colors.js
+       • scripts/ast-types.js
+       • typings/declarations.ts
+     📄 Files WITHOUT ExportNamedDeclaration (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • eslint.config.mjs
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/publish-wasm-node-package.js
+       • scripts/prepublish.js
+       • scripts/prepare-release.js
+
+   ArrowFunctionExpression:
+     📄 Files WITH ArrowFunctionExpression (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • scripts/update-snapshots.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/publish-wasm-node-package.js
+       • scripts/prepare-release.js
+       • scripts/postpublish.js
+       • scripts/helpers.js
+     📄 Files WITHOUT ArrowFunctionExpression (showing 10):
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/test-package.js
+       • scripts/release-constants.js
+       • scripts/prepublish.js
+       • scripts/lint-native-js.js
+       • scripts/generate-ast-converters.js
+       • scripts/declarations.d.ts
+
+   BreakStatement:
+     📄 Files WITH BreakStatement (showing 10):
+       • scripts/prepare-release.js
+       • scripts/generate-rust-constants.js
+       • scripts/generate-ast-macros.js
+       • src/Module.ts
+       • src/Chunk.ts
+       • src/watch/watch-proxy.ts
+       • src/utils/renderHelpers.ts
+       • src/utils/collapseSourcemaps.ts
+       • src/utils/chunkAssignment.ts
+       • cli/run/watch-cli.ts
+     📄 Files WITHOUT BreakStatement (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   ConditionalExpression:
+     📄 Files WITH ConditionalExpression (showing 10):
+       • native.js
+       • scripts/release-helpers.js
+       • scripts/prepare-release.js
+       • scripts/postpublish.js
+       • scripts/helpers.js
+       • scripts/generate-rust-constants.js
+       • scripts/generate-child-node-keys.js
+       • scripts/generate-buffer-to-ast.js
+       • scripts/generate-buffer-parsers.js
+       • scripts/ast-types.js
+     📄 Files WITHOUT ConditionalExpression (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-constants.js
+
+   MethodDefinition:
+     📄 Files WITH MethodDefinition (showing 10):
+       • scripts/declarations.d.ts
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
+       • src/Bundle.ts
+       • scripts/perf-report/report-collector.js
+       • src/watch/watch.ts
+     📄 Files WITHOUT MethodDefinition (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   ExportSpecifier:
+     📄 Files WITH ExportSpecifier (showing 10):
+       • src/node-entry.ts
+       • src/browser-entry.ts
+       • scripts/perf-report/rollup-artefacts.js
+       • src/utils/process.ts
+       • src/utils/performance.ts
+       • src/utils/path.ts
+       • browser/src/wasm.ts
+       • src/ast/nodes/shared/Node.ts
+       • test/watch/samples/virtual/main.js
+       • test/watch/samples/ignored/main.js
+     📄 Files WITHOUT ExportSpecifier (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   ThrowStatement:
+     📄 Files WITH ThrowStatement (showing 10):
+       • rollup.config.ts
+       • native.js
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/prepublish.js
+       • scripts/prepare-release.js
+       • scripts/postpublish.js
+       • scripts/lint-native-js.js
+     📄 Files WITHOUT ThrowStatement (showing 10):
+       • native.wasm.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/release-constants.js
+       • scripts/publish-wasm-node-package.js
+       • scripts/helpers.js
+       • scripts/generate-string-constants.js
+       • scripts/generate-rust-constants.js
+
+   TSStringKeyword:
+     📄 Files WITH TSStringKeyword (showing 10):
+       • rollup.config.ts
+       • native.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/declarations.d.ts
+       • typings/package.json.ts
+       • typings/declarations.ts
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
+     📄 Files WITHOUT TSStringKeyword (showing 10):
+       • native.wasm.js
+       • native.js
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/release-constants.js
+       • scripts/publish-wasm-node-package.js
+
+   TemplateLiteral:
+     📄 Files WITH TemplateLiteral (showing 10):
+       • native.js
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/prepublish.js
+       • scripts/prepare-release.js
+       • scripts/postpublish.js
+       • scripts/lint-native-js.js
+       • scripts/helpers.js
+     📄 Files WITHOUT TemplateLiteral (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/release-constants.js
+       • scripts/publish-wasm-node-package.js
+       • scripts/generate-ast-converters.js
+       • scripts/declarations.d.ts
+
+   ImportDefaultSpecifier:
+     📄 Files WITH ImportDefaultSpecifier (showing 10):
+       • rollup.config.ts
+       • eslint.config.mjs
+       • scripts/update-snapshots.js
+       • scripts/release-helpers.js
+       • scripts/publish-wasm-node-package.js
+       • scripts/prepublish.js
+       • scripts/prepare-release.js
+       • scripts/postpublish.js
+       • scripts/lint-native-js.js
+       • scripts/helpers.js
+     📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-constants.js
+       • scripts/generate-string-constants.js
+       • scripts/generate-rust-constants.js
+
+   ObjectPattern:
+     📄 Files WITH ObjectPattern (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/prepublish.js
+       • scripts/prepare-release.js
+       • scripts/postpublish.js
+       • scripts/generate-rust-constants.js
+       • scripts/generate-buffer-to-ast.js
+     📄 Files WITHOUT ObjectPattern (showing 10):
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/release-constants.js
+       • scripts/publish-wasm-node-package.js
+       • scripts/lint-native-js.js
+       • scripts/helpers.js
+
+   TryStatement:
+     📄 Files WITH TryStatement (showing 10):
+       • native.js
+       • scripts/release-helpers.js
+       • scripts/prepare-release.js
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Bundle.ts
+       • test/testHelpers.js
+       • cli/cli.ts
+       • build-plugins/fs-events-replacement.ts
+       • src/watch/watch.ts
+     📄 Files WITHOUT TryStatement (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-constants.js
+
+   CatchClause:
+     📄 Files WITH CatchClause (showing 10):
+       • native.js
+       • scripts/release-helpers.js
+       • scripts/prepare-release.js
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Bundle.ts
+       • test/testHelpers.js
+       • cli/cli.ts
+       • build-plugins/fs-events-replacement.ts
+       • src/watch/watch.ts
+     📄 Files WITHOUT CatchClause (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-constants.js
+
+   TSPropertySignature:
+     📄 Files WITH TSPropertySignature (showing 10):
+       • wasm/bindings_wasm.d.ts
+       • scripts/declarations.d.ts
+       • typings/declarations.ts
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Chunk.ts
+       • test/types.d.ts
+       • docs/types.d.ts
+       • build-plugins/generate-license-file.ts
+       • src/watch/watch.ts
+     📄 Files WITHOUT TSPropertySignature (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+
+   SwitchStatement:
+     📄 Files WITH SwitchStatement (showing 10):
+       • scripts/generate-rust-constants.js
+       • scripts/generate-buffer-to-ast.js
+       • scripts/generate-buffer-parsers.js
+       • scripts/generate-ast-macros.js
+       • src/Chunk.ts
+       • test/testHelpers.js
+       • src/ast/values.ts
+       • src/utils/timers.ts
+       • src/utils/hookActions.ts
+       • src/utils/bufferToAst.ts
+     📄 Files WITHOUT SwitchStatement (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   ExportDefaultDeclaration:
+     📄 Files WITH ExportDefaultDeclaration (showing 10):
+       • rollup.config.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm.d.ts
+       • scripts/publish-wasm-node-package.js
+       • scripts/declarations.d.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
+     📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/release-constants.js
+       • scripts/prepublish.js
+
+   TSTypeParameterInstantiation:
+     📄 Files WITH TSTypeParameterInstantiation (showing 10):
+       • rollup.config.ts
+       • native.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/declarations.d.ts
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
+     📄 Files WITHOUT TSTypeParameterInstantiation (showing 10):
+       • native.wasm.js
+       • native.js
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/release-constants.js
+       • scripts/publish-wasm-node-package.js
+
+   TSUnionType:
+     📄 Files WITH TSUnionType (showing 10):
+       • rollup.config.ts
+       • native.d.ts
+       • wasm/bindings_wasm.d.ts
+       • typings/declarations.ts
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
+     📄 Files WITHOUT TSUnionType (showing 10):
+       • native.wasm.js
+       • native.js
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/release-constants.js
+       • scripts/publish-wasm-node-package.js
+
+   ImportExpression:
+     📄 Files WITH ImportExpression (showing 10):
+       • src/watch/watch-proxy.ts
+       • src/watch/fsevents-importer.ts
+       • test/misc/parse-ast.js
+       • test/misc/in-memory-sourcemaps.js
+       • cli/run/loadConfigFile.ts
+       • cli/run/index.ts
+       • cli/run/commandPlugins.ts
+       • docs/repl/stores/rollup.ts
+       • test/watch/samples/hashing/main-dynamic.js
+       • test/file-hashes/samples/name-pattern/main.js
+     📄 Files WITHOUT ImportExpression (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   ClassBody:
+     📄 Files WITH ClassBody (showing 10):
+       • scripts/declarations.d.ts
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
+       • src/Bundle.ts
+       • scripts/perf-report/report-collector.js
+       • src/watch/watch.ts
+     📄 Files WITHOUT ClassBody (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   PropertyDefinition:
+     📄 Files WITH PropertyDefinition (showing 10):
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
+       • src/Bundle.ts
+       • scripts/perf-report/report-collector.js
+       • src/watch/watch.ts
+       • src/watch/fileWatcher.ts
+     📄 Files WITHOUT PropertyDefinition (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   UpdateExpression:
+     📄 Files WITH UpdateExpression (showing 10):
+       • scripts/generate-buffer-to-ast.js
+       • scripts/generate-buffer-parsers.js
+       • src/ModuleLoader.ts
+       • src/Graph.ts
+       • src/Bundle.ts
+       • test/testHelpers.js
+       • build-plugins/esm-dynamic-import.ts
+       • scripts/perf-report/index.js
+       • src/ast/bufferParsers.ts
+       • src/finalisers/es.ts
+     📄 Files WITHOUT UpdateExpression (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   AwaitExpression:
+     📄 Files WITH AwaitExpression (showing 10):
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/publish-wasm-node-package.js
+       • scripts/prepublish.js
+       • scripts/prepare-release.js
+       • scripts/postpublish.js
+       • scripts/lint-native-js.js
+       • scripts/helpers.js
+       • scripts/generate-string-constants.js
+     📄 Files WITHOUT AwaitExpression (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/release-constants.js
+       • scripts/generate-ast-converters.js
+
+   ClassDeclaration:
+     📄 Files WITH ClassDeclaration (showing 10):
+       • scripts/declarations.d.ts
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
+       • src/Bundle.ts
+       • src/watch/watch.ts
+       • src/watch/fileWatcher.ts
+     📄 Files WITHOUT ClassDeclaration (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSBooleanKeyword:
+     📄 Files WITH TSBooleanKeyword (showing 10):
+       • native.d.ts
+       • wasm/bindings_wasm.d.ts
+       • typings/declarations.ts
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/ExternalModule.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
+       • src/Bundle.ts
+       • test/types.d.ts
+     📄 Files WITHOUT TSBooleanKeyword (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/release-constants.js
+
+   ForOfStatement:
+     📄 Files WITH ForOfStatement (showing 10):
+       • scripts/update-snapshots.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/postpublish.js
+       • scripts/lint-native-js.js
+       • scripts/generate-rust-constants.js
+       • scripts/generate-child-node-keys.js
+       • scripts/generate-buffer-to-ast.js
+       • scripts/generate-buffer-parsers.js
+       • scripts/generate-ast-macros.js
+     📄 Files WITHOUT ForOfStatement (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/test-package.js
+       • scripts/release-constants.js
+       • scripts/publish-wasm-node-package.js
+
+   TSArrayType:
+     📄 Files WITH TSArrayType (showing 10):
+       • rollup.config.ts
+       • scripts/declarations.d.ts
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
+       • src/Bundle.ts
+       • test/types.d.ts
+     📄 Files WITHOUT TSArrayType (showing 10):
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+
+   WhileStatement:
+     📄 Files WITH WhileStatement (showing 10):
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/prepare-release.js
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • cli/logging.ts
+       • src/utils/safeName.ts
+       • src/utils/renderNamePattern.ts
+       • src/utils/renderHelpers.ts
+       • src/utils/renderCallArguments.ts
+     📄 Files WITHOUT WhileStatement (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/release-constants.js
+
+   TSVoidKeyword:
+     📄 Files WITH TSVoidKeyword (showing 10):
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/declarations.d.ts
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
+       • src/Bundle.ts
+     📄 Files WITHOUT TSVoidKeyword (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/release-constants.js
+
+   TSLiteralType:
+     📄 Files WITH TSLiteralType (showing 10):
+       • typings/declarations.ts
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
+       • src/watch/watch.ts
+       • src/rollup/types.d.ts
+       • src/ast/bufferParsers.ts
+     📄 Files WITHOUT TSLiteralType (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   SpreadElement:
+     📄 Files WITH SpreadElement (showing 10):
+       • rollup.config.ts
+       • eslint.config.mjs
+       • scripts/update-snapshots.js
+       • scripts/release-helpers.js
+       • scripts/publish-wasm-node-package.js
+       • scripts/prepublish.js
+       • scripts/prepare-release.js
+       • scripts/helpers.js
+       • scripts/generate-node-types.js
+       • scripts/generate-node-index.js
+     📄 Files WITHOUT SpreadElement (showing 10):
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-constants.js
+       • scripts/postpublish.js
+       • scripts/lint-native-js.js
+
+   SequenceExpression:
+     📄 Files WITH SequenceExpression (showing 10):
+       • src/utils/renderHelpers.ts
+       • src/ast/utils/PathTracker.ts
+       • test/cli/samples/no-conflict/_expected.js
+       • test/cli/samples/module-name/_expected.js
+       • test/form/samples/wrap-simplified-expressions/main.js
+       • test/form/samples/unused-inner-functions-and-classes/stuff.js
+       • test/form/samples/treeshake-sequence-expressions/main.js
+       • test/form/samples/treeshake-sequence-expressions/_expected.js
+       • test/form/samples/tree-shake-if-statements/main.js
+       • test/form/samples/tree-shake-if-statements/_expected.js
+     📄 Files WITHOUT SequenceExpression (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   ImportNamespaceSpecifier:
+     📄 Files WITH ImportNamespaceSpecifier (showing 10):
+       • typings/declarations.ts
+       • src/Module.ts
+       • src/rollup/types.d.ts
+       • src/ast/bufferParsers.ts
+       • src/utils/bufferToAst.ts
+       • test/typescript/index.ts
+       • cli/run/watch-cli.ts
+       • cli/run/loadConfigFile.ts
+       • browser/src/fs.ts
+       • src/ast/variables/Variable.ts
+     📄 Files WITHOUT ImportNamespaceSpecifier (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSTypeAliasDeclaration:
+     📄 Files WITH TSTypeAliasDeclaration (showing 10):
+       • wasm/bindings_wasm.d.ts
+       • typings/declarations.ts
+       • src/ModuleLoader.ts
+       • src/Chunk.ts
+       • build-plugins/replace-browser-modules.ts
+       • src/rollup/types.d.ts
+       • src/ast/values.ts
+       • src/ast/NodeInteractions.ts
+       • src/finalisers/index.ts
+       • src/utils/timers.ts
+     📄 Files WITHOUT TSTypeAliasDeclaration (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+
+   TSNullKeyword:
+     📄 Files WITH TSNullKeyword (showing 10):
+       • native.d.ts
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
+       • test/types.d.ts
+       • build-plugins/get-banner.ts
+       • src/watch/watch.ts
+       • src/watch/fileWatcher.ts
+     📄 Files WITHOUT TSNullKeyword (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+
+   TSNumberKeyword:
+     📄 Files WITH TSNumberKeyword (showing 10):
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/declarations.d.ts
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/ExternalModule.ts
+       • src/Chunk.ts
+       • test/types.d.ts
+       • src/rollup/types.d.ts
+       • src/ast/bufferParsers.ts
+     📄 Files WITHOUT TSNumberKeyword (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/release-constants.js
+
+   ChainExpression:
+     📄 Files WITH ChainExpression (showing 10):
+       • native.js
+       • scripts/generate-buffer-to-ast.js
+       • scripts/generate-buffer-parsers.js
+       • scripts/generate-ast-macros.js
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/Chunk.ts
+       • test/testHelpers.js
+       • cli/logging.ts
+     📄 Files WITHOUT ChainExpression (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+
+   TSAsExpression:
+     📄 Files WITH TSAsExpression (showing 10):
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Chunk.ts
+       • src/Bundle.ts
+       • cli/logging.ts
+       • build-plugins/generate-license-file.ts
+       • src/watch/watch.ts
+       • src/watch/watch-proxy.ts
+       • src/rollup/rollup.ts
+       • src/ast/bufferParsers.ts
+     📄 Files WITHOUT TSAsExpression (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSQualifiedName:
+     📄 Files WITH TSQualifiedName (showing 10):
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • typings/declarations.ts
+       • src/rollup/types.d.ts
+       • src/ast/bufferParsers.ts
+       • src/utils/bufferToAst.ts
+       • test/typescript/index.ts
+       • src/ast/nodes/YieldExpression.ts
+       • src/ast/nodes/WhileStatement.ts
+       • src/ast/nodes/VariableDeclarator.ts
+     📄 Files WITHOUT TSQualifiedName (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/release-constants.js
+
+   ArrayPattern:
+     📄 Files WITH ArrayPattern (showing 10):
+       • native.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/prepare-release.js
+       • scripts/postpublish.js
+       • scripts/lint-native-js.js
+       • scripts/generate-string-constants.js
+       • scripts/generate-rust-constants.js
+       • scripts/generate-node-types.js
+       • scripts/generate-node-index.js
+     📄 Files WITHOUT ArrayPattern (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/release-constants.js
+       • scripts/publish-wasm-node-package.js
+
+   AssignmentPattern:
+     📄 Files WITH AssignmentPattern (showing 10):
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • test/testHelpers.js
+       • cli/logging.ts
+       • build-plugins/copy-types.ts
+       • scripts/perf-report/index.js
+       • src/watch/watch.ts
+       • src/ast/values.ts
+       • src/utils/timers.ts
+       • src/utils/systemJsRendering.ts
+     📄 Files WITHOUT AssignmentPattern (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   ForStatement:
+     📄 Files WITH ForStatement (showing 10):
+       • scripts/perf-report/index.js
+       • src/ast/bufferParsers.ts
+       • src/utils/renderHelpers.ts
+       • src/utils/renderChunks.ts
+       • src/utils/renderCallArguments.ts
+       • src/utils/getStaticDependencies.ts
+       • src/utils/getLogFilter.ts
+       • src/utils/commondir.ts
+       • src/utils/collapseSourcemaps.ts
+       • src/utils/chunkAssignment.ts
+     📄 Files WITHOUT ForStatement (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   ExportAllDeclaration:
+     📄 Files WITH ExportAllDeclaration (showing 10):
+       • src/utils/fs.ts
+       • docs/repl/helpers/importRollup.ts
+       • test/cli/samples/warn-import-export/main.js
+       • test/form/samples/treeshake-deterministic-dynamic-import/sub4.js
+       • test/form/samples/treeshake-deterministic-dynamic-import/sub2.js
+       • test/form/samples/system-reexports/main.js
+       • test/form/samples/system-multiple-export-bindings/main.js
+       • test/form/samples/resolve-external-dynamic-imports/main.js
+       • test/form/samples/reexport-used-external-namespace-as/main.js
+       • test/form/samples/reexport-star-deshadow/reexport.js
+     📄 Files WITHOUT ExportAllDeclaration (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSNonNullExpression:
+     📄 Files WITH TSNonNullExpression (showing 10):
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/ExternalModule.ts
+       • src/Chunk.ts
+       • cli/logging.ts
+       • build-plugins/generate-license-file.ts
+       • build-plugins/external-native-import.ts
+       • build-plugins/add-cli-entry.ts
+       • src/watch/watch.ts
+       • src/rollup/rollup.ts
+     📄 Files WITHOUT TSNonNullExpression (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSFunctionType:
+     📄 Files WITH TSFunctionType (showing 10):
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • typings/declarations.ts
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Chunk.ts
+       • test/types.d.ts
+       • src/watch/watch.ts
+       • src/watch/WatchEmitter.ts
+       • src/rollup/types.d.ts
+     📄 Files WITHOUT TSFunctionType (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/release-constants.js
+
+   TSTypeLiteral:
+     📄 Files WITH TSTypeLiteral (showing 10):
+       • wasm/bindings_wasm.d.ts
+       • scripts/declarations.d.ts
+       • typings/declarations.ts
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Chunk.ts
+       • test/types.d.ts
+       • src/watch/watch.ts
+       • src/rollup/types.d.ts
+       • src/rollup/rollup.ts
+     📄 Files WITHOUT TSTypeLiteral (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+
+   TSTypeOperator:
+     📄 Files WITH TSTypeOperator (showing 10):
+       • rollup.config.ts
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/Chunk.ts
+       • src/Bundle.ts
+       • cli/logging.ts
+       • build-plugins/generate-license-file.ts
+       • src/watch/watch.ts
+       • src/watch/watch-proxy.ts
+     📄 Files WITHOUT TSTypeOperator (showing 10):
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+
+   Super:
+     📄 Files WITH Super (showing 10):
+       • test/misc/sanity-checks.js
+       • src/ast/variables/Variable.ts
+       • src/ast/variables/UndefinedVariable.ts
+       • src/ast/variables/ThisVariable.ts
+       • src/ast/variables/SyntheticNamedExportVariable.ts
+       • src/ast/variables/ParameterVariable.ts
+       • src/ast/variables/NamespaceVariable.ts
+       • src/ast/variables/LocalVariable.ts
+       • src/ast/variables/GlobalVariable.ts
+       • src/ast/variables/ExternalVariable.ts
+     📄 Files WITHOUT Super (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSInterfaceDeclaration:
+     📄 Files WITH TSInterfaceDeclaration (showing 10):
+       • wasm/bindings_wasm.d.ts
+       • scripts/declarations.d.ts
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Chunk.ts
+       • test/types.d.ts
+       • docs/types.d.ts
+       • build-plugins/generate-license-file.ts
+       • src/rollup/types.d.ts
+       • src/ast/values.ts
+     📄 Files WITHOUT TSInterfaceDeclaration (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+
+   TSInterfaceBody:
+     📄 Files WITH TSInterfaceBody (showing 10):
+       • wasm/bindings_wasm.d.ts
+       • scripts/declarations.d.ts
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Chunk.ts
+       • test/types.d.ts
+       • docs/types.d.ts
+       • build-plugins/generate-license-file.ts
+       • src/rollup/types.d.ts
+       • src/ast/values.ts
+     📄 Files WITHOUT TSInterfaceBody (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+
+   MetaProperty:
+     📄 Files WITH MetaProperty (showing 10):
+       • rollup.config.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/publish-wasm-node-package.js
+       • scripts/prepublish.js
+       • scripts/prepare-release.js
+       • scripts/lint-native-js.js
+       • scripts/generate-string-constants.js
+       • scripts/generate-rust-constants.js
+     📄 Files WITHOUT MetaProperty (showing 10):
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/release-helpers.js
+       • scripts/release-constants.js
+       • scripts/postpublish.js
+       • scripts/helpers.js
+
+   TSUndefinedKeyword:
+     📄 Files WITH TSUndefinedKeyword (showing 10):
+       • native.d.ts
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Chunk.ts
+       • test/types.d.ts
+       • cli/logging.ts
+       • build-plugins/replace-browser-modules.ts
+       • src/watch/fsevents-importer.ts
+       • src/rollup/types.d.ts
+       • src/finalisers/umd.ts
+     📄 Files WITHOUT TSUndefinedKeyword (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+
+   TSAnyKeyword:
+     📄 Files WITH TSAnyKeyword (showing 10):
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Bundle.ts
+       • test/types.d.ts
+       • src/watch/watch.ts
+       • src/watch/fsevents-importer.ts
+       • src/watch/WatchEmitter.ts
+       • src/rollup/types.d.ts
+       • src/rollup/rollup.ts
+       • src/ast/bufferParsers.ts
+     📄 Files WITHOUT TSAnyKeyword (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   RestElement:
+     📄 Files WITH RestElement (showing 10):
+       • scripts/publish-wasm-node-package.js
+       • src/Module.ts
+       • src/Graph.ts
+       • test/testHelpers.js
+       • cli/logging.ts
+       • src/watch/WatchEmitter.ts
+       • src/rollup/types.d.ts
+       • src/utils/timers.ts
+       • src/utils/getLogFilter.ts
+       • src/utils/PluginDriver.ts
+     📄 Files WITHOUT RestElement (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   ForInStatement:
+     📄 Files WITH ForInStatement (showing 10):
+       • src/Graph.ts
+       • src/watch/watch-proxy.ts
+       • test/typescript/index.ts
+       • test/form/samples/system-reexports/_expected.js
+       • test/form/samples/supports-es6-shim/_expected.js
+       • test/form/samples/supports-core-js/_expected.js
+       • test/form/samples/supports-es5-shim/_expected.js
+       • test/form/samples/side-effects-break-statements/main.js
+       • test/form/samples/side-effect-k/foo.js
+       • test/form/samples/removes-unused-babel-helpers/main.js
+     📄 Files WITHOUT ForInStatement (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   ContinueStatement:
+     📄 Files WITH ContinueStatement (showing 10):
+       • src/Module.ts
+       • src/Chunk.ts
+       • test/testHelpers.js
+       • src/watch/watch.ts
+       • src/watch/watch-proxy.ts
+       • src/finalisers/es.ts
+       • src/utils/logger.ts
+       • src/utils/getStaticDependencies.ts
+       • src/utils/getOriginalLocation.ts
+       • src/utils/getLogFilter.ts
+     📄 Files WITHOUT ContinueStatement (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSNamedTupleMember:
+     📄 Files WITH TSNamedTupleMember (showing 10):
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/ExternalModule.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
+       • src/Bundle.ts
+       • src/ast/values.ts
+       • src/finalisers/system.ts
+       • src/utils/systemJsRendering.ts
+       • src/utils/generateCodeSnippets.ts
+     📄 Files WITHOUT TSNamedTupleMember (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSUnknownKeyword:
+     📄 Files WITH TSUnknownKeyword (showing 10):
+       • rollup.config.ts
+       • typings/declarations.ts
+       • src/ModuleLoader.ts
+       • cli/logging.ts
+       • build-plugins/generate-license-file.ts
+       • src/watch/WatchEmitter.ts
+       • src/rollup/types.d.ts
+       • src/rollup/rollup.ts
+       • src/utils/timers.ts
+       • src/utils/logs.ts
+     📄 Files WITHOUT TSUnknownKeyword (showing 10):
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+
+   ImportAttribute:
+     📄 Files WITH ImportAttribute (showing 10):
+       • test/cli/samples/config-import-attributes-key/rollup.config.ts
+       • test/form/samples/import-attributes/removes-static-attributes/main.js
+       • test/form/samples/import-attributes/plugin-attributes-resolveid/main.js
+       • test/form/samples/import-attributes/plugin-attributes-resolveid/_expected.js
+       • test/form/samples/import-attributes/keeps-static-attributes-key-with/main.js
+       • test/form/samples/import-attributes/keeps-static-attributes/main.js
+       • test/form/samples/import-attributes/keeps-static-attributes-key-assert/main.js
+       • test/form/samples/import-attributes/keeps-static-attributes-key-default/main.js
+       • test/form/samples/import-attributes/keeps-static-assertions/main.js
+       • test/form/samples/deprecated/removes-static-attributes/main.js
+     📄 Files WITHOUT ImportAttribute (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   ClassExpression:
+     📄 Files WITH ClassExpression (showing 10):
+       • scripts/perf-report/report-collector.js
+       • src/ast/values.ts
+       • src/utils/blank.ts
+       • src/ast/nodes/shared/ObjectPrototype.ts
+       • src/ast/nodes/shared/Expression.ts
+       • test/form/samples/unused-function-and-class-expressions/main.js
+       • test/form/samples/super-class-no-side-effects/other.js
+       • test/form/samples/side-effects-es6-super-classes/main.js
+       • test/form/samples/side-effects-es6-super-classes/_expected.js
+       • test/form/samples/side-effects-es6-class-expressions/main.js
+     📄 Files WITHOUT ClassExpression (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSTupleType:
+     📄 Files WITH TSTupleType (showing 10):
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/ExternalModule.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
+       • src/Bundle.ts
+       • build-plugins/replace-browser-modules.ts
+       • src/rollup/types.d.ts
+       • src/rollup/rollup.ts
+       • src/ast/values.ts
+     📄 Files WITHOUT TSTupleType (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   DoWhileStatement:
+     📄 Files WITH DoWhileStatement (showing 10):
+       • src/ModuleLoader.ts
+       • src/Graph.ts
+       • src/Chunk.ts
+       • src/utils/renderChunks.ts
+       • src/utils/exportNames.ts
+       • src/utils/base64.ts
+       • src/utils/asyncFlatten.ts
+       • src/utils/FileEmitter.ts
+       • test/leak/index.js
+       • src/ast/variables/ExportDefaultVariable.ts
+     📄 Files WITHOUT DoWhileStatement (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSIndexedAccessType:
+     📄 Files WITH TSIndexedAccessType (showing 10):
+       • src/watch/WatchEmitter.ts
+       • src/rollup/types.d.ts
+       • src/ast/bufferParsers.ts
+       • src/utils/interopHelpers.ts
+       • src/utils/generateCodeSnippets.ts
+       • src/utils/decodedSourcemap.ts
+       • src/utils/bufferToAst.ts
+       • src/utils/PluginDriver.ts
+       • src/utils/FileEmitter.ts
+       • test/typescript/index.ts
+     📄 Files WITHOUT TSIndexedAccessType (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSTypeParameter:
+     📄 Files WITH TSTypeParameter (showing 10):
+       • src/ModuleLoader.ts
+       • src/watch/WatchEmitter.ts
+       • src/rollup/types.d.ts
+       • src/rollup/rollup.ts
+       • src/ast/values.ts
+       • src/utils/renderHelpers.ts
+       • src/utils/iterators.ts
+       • src/utils/hookActions.ts
+       • src/utils/getter.ts
+       • src/utils/getOrCreate.ts
+     📄 Files WITHOUT TSTypeParameter (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSMethodSignature:
+     📄 Files WITH TSMethodSignature (showing 10):
+       • scripts/declarations.d.ts
+       • src/rollup/types.d.ts
+       • src/ast/Entity.ts
+       • src/ast/DeoptimizableEntity.ts
+       • src/utils/generateCodeSnippets.ts
+       • src/ast/utils/PathTracker.ts
+       • docs/repl/stores/rollupOutput.ts
+       • src/ast/nodes/shared/knownGlobals.ts
+       • src/ast/nodes/shared/Pattern.ts
+       • src/ast/nodes/shared/Node.ts
+     📄 Files WITHOUT TSMethodSignature (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSTypeParameterDeclaration:
+     📄 Files WITH TSTypeParameterDeclaration (showing 10):
+       • src/ModuleLoader.ts
+       • src/watch/WatchEmitter.ts
+       • src/rollup/types.d.ts
+       • src/rollup/rollup.ts
+       • src/ast/values.ts
+       • src/utils/renderHelpers.ts
+       • src/utils/iterators.ts
+       • src/utils/hookActions.ts
+       • src/utils/getter.ts
+       • src/utils/getOrCreate.ts
+     📄 Files WITHOUT TSTypeParameterDeclaration (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSParenthesizedType:
+     📄 Files WITH TSParenthesizedType (showing 10):
+       • src/Module.ts
+       • src/Chunk.ts
+       • test/types.d.ts
+       • src/rollup/types.d.ts
+       • src/rollup/rollup.ts
+       • src/ast/values.ts
+       • src/ast/bufferParsers.ts
+       • src/ast/NodeInteractions.ts
+       • src/utils/timers.ts
+       • src/utils/renderHelpers.ts
+     📄 Files WITHOUT TSParenthesizedType (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   LabeledStatement:
+     📄 Files WITH LabeledStatement (showing 10):
+       • src/utils/getOriginalLocation.ts
+       • src/utils/getLogFilter.ts
+       • cli/run/waitForInput.ts
+       • test/form/samples/no-treeshake-include-labels/main.js
+       • test/form/samples/no-treeshake-include-labels/dep2.js
+       • test/form/samples/no-treeshake-include-labels/dep1.js
+       • test/form/samples/no-treeshake-include-labels/_expected.js
+       • test/form/samples/labeled-break-statements/main.js
+       • test/form/samples/labeled-break-statements/_expected.js
+       • test/form/samples/labeled-continue-statements/main.js
+     📄 Files WITHOUT LabeledStatement (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   EmptyStatement:
+     📄 Files WITH EmptyStatement (showing 10):
+       • src/utils/renderNamePattern.ts
+       • src/utils/commondir.ts
+       • test/form/samples/typeof-side-effect/_expected.js
+       • test/form/samples/treeshake-if-statement/_expected.js
+       • test/form/samples/treeshake-deterministic-dynamic-import/main.js
+       • test/form/samples/tree-shake-if-statements/_expected.js
+       • test/form/samples/tree-shake-default-exports/unusedFunction.js
+       • test/form/samples/tdz-common/main.js
+       • test/form/samples/spacing-after-function-with-semicolon/main.js
+       • test/form/samples/pure-comment-line-break/main.js
+     📄 Files WITHOUT EmptyStatement (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSIntersectionType:
+     📄 Files WITH TSIntersectionType (showing 10):
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Chunk.ts
+       • build-plugins/replace-browser-modules.ts
+       • src/rollup/types.d.ts
+       • src/utils/renderChunks.ts
+       • src/utils/logs.ts
+       • src/utils/getAstBuffer.ts
+       • src/utils/collapseSourcemaps.ts
+       • src/utils/bufferToAst.ts
+     📄 Files WITHOUT TSIntersectionType (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSParameterProperty:
+     📄 Files WITH TSParameterProperty (showing 10):
+       • src/ModuleLoader.ts
+       • src/Module.ts
+       • src/Graph.ts
+       • src/ExternalModule.ts
+       • src/ExternalChunk.ts
+       • src/Chunk.ts
+       • src/Bundle.ts
+       • src/utils/Queue.ts
+       • src/utils/PluginDriver.ts
+       • src/utils/FileEmitter.ts
+     📄 Files WITHOUT TSParameterProperty (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSInterfaceHeritage:
+     📄 Files WITH TSInterfaceHeritage (showing 9):
+       • test/types.d.ts
+       • src/rollup/types.d.ts
+       • src/ast/ExecutionContext.ts
+       • src/ast/Entity.ts
+       • src/utils/logs.ts
+       • src/utils/chunkAssignment.ts
+       • docs/repl/stores/options.ts
+       • src/ast/nodes/shared/Pattern.ts
+       • src/ast/nodes/shared/Node.ts
+     📄 Files WITHOUT TSInterfaceHeritage (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   Decorator:
+     📄 Files WITH Decorator (showing 10):
+       • test/form/samples/support-decorators-before-export/main.js
+       • test/form/samples/support-decorators-before-export/_expected.js
+       • test/form/samples/support-decorators-after-export/main.js
+       • test/form/samples/support-decorators-after-export/_expected.js
+       • test/form/samples/decorator-identifiers-deconflict/second.js
+       • test/form/samples/decorator-identifiers-deconflict/first.js
+       • test/form/samples/decorator-identifiers-deconflict/_expected.js
+       • test/form/samples/decorator-tree-shaking-2/main.js
+       • test/form/samples/decorator-tree-shaking-2/_expected.js
+       • test/form/samples/decorator-tree-shaking/main.js
+     📄 Files WITHOUT Decorator (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSTypeQuery:
+     📄 Files WITH TSTypeQuery (showing 10):
+       • src/Module.ts
+       • src/watch/watch.ts
+       • src/watch/watch-proxy.ts
+       • src/watch/fsevents-importer.ts
+       • src/ast/bufferParsers.ts
+       • src/ast/NodeInteractions.ts
+       • src/utils/outputBundle.ts
+       • src/utils/getLogFilterType.d.ts
+       • cli/run/loadConfigFileType.d.ts
+       • cli/run/batchWarnings.ts
+     📄 Files WITHOUT TSTypeQuery (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSEnumMember:
+     📄 Files WITH TSEnumMember (showing 4):
+       • src/rollup/rollup.ts
+       • src/utils/buildPhase.ts
+       • src/ast/nodes/JSXIdentifier.ts
+       • src/ast/nodes/shared/BitFlags.ts
+     📄 Files WITHOUT TSEnumMember (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   StaticBlock:
+     📄 Files WITH StaticBlock (showing 10):
+       • test/form/samples/use-class-name-in-static-block/test2.js
+       • test/form/samples/use-class-name-in-static-block/test1.js
+       • test/form/samples/static-block-render/main.js
+       • test/form/samples/static-block-render/_expected.js
+       • test/form/samples/class-static-initialization-block/main.js
+       • test/form/samples/class-static-initialization-block/_expected.js
+       • test/function/samples/use-class-name-in-static-block/test2.js
+       • test/function/samples/use-class-name-in-static-block/test1.js
+       • test/function/samples/class-static-block-tree-shaking/main.js
+       • test/form/samples/use-class-name-in-static-block/_expected/umd.js
+     📄 Files WITHOUT StaticBlock (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSDeclareFunction:
+     📄 Files WITH TSDeclareFunction (showing 10):
+       • native.d.ts
+       • wasm/bindings_wasm.d.ts
+       • typings/declarations.ts
+       • src/rollup/types.d.ts
+       • src/utils/getOrCreate.ts
+       • src/utils/getLogFilterType.d.ts
+       • src/utils/decodedSourcemap.ts
+       • test/sourcemaps/define.d.ts
+       • test/form/define.d.ts
+       • test/function/define.d.ts
+     📄 Files WITHOUT TSDeclareFunction (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+       • scripts/release-constants.js
+
+   Hashbang:
+     📄 Files WITH Hashbang (showing 10):
+       • scripts/update-snapshots.js
+       • scripts/prepublish.js
+       • scripts/prepare-release.js
+       • scripts/generate-ast-converters.js
+       • scripts/check-release.js
+       • cli/cli.ts
+       • test/cli/samples/stdout-code-splitting/wrapper.js
+       • test/cli/samples/logs/wrapper.js
+       • test/cli/samples/filter-logs/wrapper.js
+       • test/cli/samples/config-mjs-plugins/_expected.js
+     📄 Files WITHOUT Hashbang (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/test-package.js
+       • scripts/test-options.js
+       • scripts/release-helpers.js
+
+   PrivateIdentifier:
+     📄 Files WITH PrivateIdentifier (showing 5):
+       • scripts/perf-report/report-collector.js
+       • test/form/samples/class-static-initialization-block/main.js
+       • test/form/samples/class-static-initialization-block/_expected.js
+       • test/form/samples/class-fields/main.js
+       • test/form/samples/class-fields/_expected.js
+     📄 Files WITHOUT PrivateIdentifier (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSNeverKeyword:
+     📄 Files WITH TSNeverKeyword (showing 10):
+       • src/Module.ts
+       • src/watch/watch.ts
+       • src/rollup/types.d.ts
+       • src/rollup/rollup.ts
+       • src/ast/bufferParsers.ts
+       • src/utils/transform.ts
+       • src/utils/logs.ts
+       • src/utils/logger.ts
+       • src/utils/bufferToAst.ts
+       • src/utils/blank.ts
+     📄 Files WITHOUT TSNeverKeyword (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSClassImplements:
+     📄 Files WITH TSClassImplements (showing 10):
+       • src/watch/WatchEmitter.ts
+       • src/ast/utils/PathTracker.ts
+       • src/ast/nodes/RestElement.ts
+       • src/ast/nodes/Property.ts
+       • src/ast/nodes/ObjectPattern.ts
+       • src/ast/nodes/ObjectExpression.ts
+       • src/ast/nodes/MemberExpression.ts
+       • src/ast/nodes/LogicalExpression.ts
+       • src/ast/nodes/IfStatement.ts
+       • src/ast/nodes/Identifier.ts
+     📄 Files WITHOUT TSClassImplements (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSThisType:
+     📄 Files WITH TSThisType (showing 10):
+       • src/watch/WatchEmitter.ts
+       • src/rollup/types.d.ts
+       • src/ast/scopes/ModuleScope.ts
+       • src/ast/nodes/TemplateElement.ts
+       • src/ast/nodes/SwitchStatement.ts
+       • src/ast/nodes/Literal.ts
+       • src/ast/nodes/ImportExpression.ts
+       • src/ast/nodes/IfStatement.ts
+       • src/ast/nodes/FunctionExpression.ts
+       • src/ast/nodes/FunctionDeclaration.ts
+     📄 Files WITHOUT TSThisType (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TaggedTemplateExpression:
+     📄 Files WITH TaggedTemplateExpression (showing 9):
+       • test/form/samples/side-effects-in-template-literals/main.js
+       • test/form/samples/side-effects-in-template-literals/_expected.js
+       • test/function/samples/tagged-template-deoptimize/main.js
+       • test/function/samples/sequence-expressions-template-tag/main.js
+       • test/function/samples/recursive-parameter-binding/main.js
+       • test/function/samples/cannot-call-internal-namespace/main.js
+       • test/function/samples/cannot-call-external-namespace/main.js
+       • test/function/samples/parameter-defaults/tagged-templates/main.js
+       • test/function/samples/parameter-defaults/function-return/main.js
+     📄 Files WITHOUT TaggedTemplateExpression (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   YieldExpression:
+     📄 Files WITH YieldExpression (showing 9):
+       • src/utils/iterators.ts
+       • src/utils/chunkAssignment.ts
+       • test/form/samples/side-effects-generators/main.js
+       • test/form/samples/side-effects-generators/_expected.js
+       • test/function/samples/prevent-tree-shaking-asi/main.js
+       • test/function/samples/missing-spaces-after-simplification/main.js
+       • test/function/samples/custom-iterator/main.js
+       • test/form/samples/yield-expression/missing-space/main.js
+       • test/form/samples/yield-expression/missing-space/_expected.js
+     📄 Files WITHOUT YieldExpression (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSBigIntKeyword:
+     📄 Files WITH TSBigIntKeyword (showing 2):
+       • src/utils/chunkAssignment.ts
+       • src/ast/nodes/Literal.ts
+     📄 Files WITHOUT TSBigIntKeyword (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSTypePredicate:
+     📄 Files WITH TSTypePredicate (showing 7):
+       • src/Module.ts
+       • src/Chunk.ts
+       • src/utils/parseImportAttributes.ts
+       • src/utils/getOriginalLocation.ts
+       • src/utils/FileEmitter.ts
+       • src/ast/utils/identifyNode.ts
+       • src/ast/nodes/StaticBlock.ts
+     📄 Files WITHOUT TSTypePredicate (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSModuleDeclaration:
+     📄 Files WITH TSModuleDeclaration (showing 10):
+       • scripts/declarations.d.ts
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • docs/declarations.d.ts
+       • src/rollup/types.d.ts
+       • test/sourcemaps/define.d.ts
+       • test/form/define.d.ts
+       • test/function/define.d.ts
+       • test/cli/define.d.ts
+     📄 Files WITHOUT TSModuleDeclaration (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSModuleBlock:
+     📄 Files WITH TSModuleBlock (showing 10):
+       • scripts/declarations.d.ts
+       • typings/package.json.ts
+       • typings/fsevents.ts
+       • typings/declarations.ts
+       • docs/declarations.d.ts
+       • src/rollup/types.d.ts
+       • test/sourcemaps/define.d.ts
+       • test/form/define.d.ts
+       • test/function/define.d.ts
+       • test/cli/define.d.ts
+     📄 Files WITHOUT TSModuleBlock (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSIndexSignature:
+     📄 Files WITH TSIndexSignature (showing 8):
+       • src/rollup/types.d.ts
+       • src/utils/pureFunctions.ts
+       • src/utils/outputBundle.ts
+       • src/utils/FileEmitter.ts
+       • src/ast/utils/PathTracker.ts
+       • src/utils/options/normalizeInputOptions.ts
+       • src/ast/nodes/shared/knownGlobals.ts
+       • src/ast/nodes/shared/Node.ts
+     📄 Files WITHOUT TSIndexSignature (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   DebuggerStatement:
+     📄 Files WITH DebuggerStatement (showing 8):
+       • test/form/samples/preserve-debugger/main.js
+       • test/function/samples/unknown-statement/main.js
+       • test/form/samples/preserve-debugger/_expected/umd.js
+       • test/form/samples/preserve-debugger/_expected/system.js
+       • test/form/samples/preserve-debugger/_expected/iife.js
+       • test/form/samples/preserve-debugger/_expected/es.js
+       • test/form/samples/preserve-debugger/_expected/cjs.js
+       • test/form/samples/preserve-debugger/_expected/amd.js
+     📄 Files WITHOUT DebuggerStatement (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSMappedType:
+     📄 Files WITH TSMappedType (showing 4):
+       • src/watch/WatchEmitter.ts
+       • src/rollup/types.d.ts
+       • src/utils/options/mergeOptions.ts
+       • docs/repl/stores/rollup.ts
+     📄 Files WITHOUT TSMappedType (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSConditionalType:
+     📄 Files WITH TSConditionalType (showing 3):
+       • src/rollup/types.d.ts
+       • src/utils/options/options.ts
+       • docs/repl/stores/rollup.ts
+     📄 Files WITHOUT TSConditionalType (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSEmptyBodyFunctionExpression:
+     📄 Files WITH TSEmptyBodyFunctionExpression (showing 4):
+       • scripts/declarations.d.ts
+       • src/utils/PluginDriver.ts
+       • src/ast/nodes/shared/FunctionBase.ts
+       • src/ast/nodes/shared/CallExpressionBase.ts
+     📄 Files WITHOUT TSEmptyBodyFunctionExpression (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSObjectKeyword:
+     📄 Files WITH TSObjectKeyword (showing 5):
+       • typings/fsevents.ts
+       • src/rollup/types.d.ts
+       • src/utils/getOrCreate.ts
+       • src/utils/options/options.ts
+       • src/utils/options/mergeOptions.ts
+     📄 Files WITHOUT TSObjectKeyword (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSInstantiationExpression:
+     📄 Files WITH TSInstantiationExpression (showing 3):
+       • src/Module.ts
+       • src/utils/chunkAssignment.ts
+       • src/ast/utils/PathTracker.ts
+     📄 Files WITHOUT TSInstantiationExpression (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSEnumDeclaration:
+     📄 Files WITH TSEnumDeclaration (showing 4):
+       • src/rollup/rollup.ts
+       • src/utils/buildPhase.ts
+       • src/ast/nodes/JSXIdentifier.ts
+       • src/ast/nodes/shared/BitFlags.ts
+     📄 Files WITHOUT TSEnumDeclaration (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSEnumBody:
+     📄 Files WITH TSEnumBody (showing 4):
+       • src/rollup/rollup.ts
+       • src/utils/buildPhase.ts
+       • src/ast/nodes/JSXIdentifier.ts
+       • src/ast/nodes/shared/BitFlags.ts
+     📄 Files WITHOUT TSEnumBody (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSInferType:
+     📄 Files WITH TSInferType (showing 1):
+       • src/rollup/types.d.ts
+     📄 Files WITHOUT TSInferType (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSRestType:
+     📄 Files WITH TSRestType (showing 3):
+       • src/rollup/types.d.ts
+       • src/rollup/rollup.ts
+       • src/ast/NodeInteractions.ts
+     📄 Files WITHOUT TSRestType (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSCallSignatureDeclaration:
+     📄 Files WITH TSCallSignatureDeclaration (showing 1):
+       • src/utils/options/options.ts
+     📄 Files WITHOUT TSCallSignatureDeclaration (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSAbstractMethodDefinition:
+     📄 Files WITH TSAbstractMethodDefinition (showing 2):
+       • src/ast/nodes/shared/FunctionBase.ts
+       • src/ast/nodes/shared/CallExpressionBase.ts
+     📄 Files WITHOUT TSAbstractMethodDefinition (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSSymbolKeyword:
+     📄 Files WITH TSSymbolKeyword (showing 1):
+       • src/Module.ts
+     📄 Files WITHOUT TSSymbolKeyword (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSTemplateLiteralType:
+     📄 Files WITH TSTemplateLiteralType (showing 1):
+       • src/utils/renderNamePattern.ts
+     📄 Files WITHOUT TSTemplateLiteralType (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
+
+   TSSatisfiesExpression:
+     📄 Files WITH TSSatisfiesExpression (showing 1):
+       • browser/src/fs.ts
+     📄 Files WITHOUT TSSatisfiesExpression (showing 10):
+       • rollup.config.ts
+       • native.wasm.js
+       • native.js
+       • native.d.ts
+       • eslint.config.mjs
+       • wasm/bindings_wasm_bg.wasm.d.ts
+       • wasm/bindings_wasm.d.ts
+       • scripts/update-snapshots.js
+       • scripts/test-package.js
+       • scripts/test-options.js
 
 ============================================================
 ✅ Analysis complete!
 
 
 Warnings/Errors:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/watch/samples/error/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/cli/samples/jsx/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/custom-ast/_expected.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/function/samples/catch-rust-panic/main.js:
+   Invalid assignment in object literal
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/cli/samples/watch/watch-event-hooks-error/main.js:
+   Expected a semicolon or an implicit semicolon after a statement, but found none
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/docs/repl/examples/08/modules/other.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/docs/repl/examples/08/modules/main.js:
    Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/object-expression-treeshaking/tree-shake-jsx-namespace/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/object-expression-treeshaking/tree-shake-jsx-namespace/_expected.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-react/jsx.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-react-jsx/jsx.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-react-internal/jsx.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-react-global/jsx.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-native-elements/jsx.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-jsx-text/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-jsx-spread-child/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-jsx-self-closing/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-jsx-member-expression/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-jsx-spread-attribute/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-jsx-fragment/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-jsx-closing/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-jsx-expression/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-jsx-empty-expression/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-jsx-child/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-empty-fragment/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-jsx-attributes/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-classic-with-defaults/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/transpiles-automatic-with-defaults/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-react/jsx.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-react/_expected.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-react-internal/jsx.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-react-internal/_expected.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-react-global/jsx.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-react-global/_expected.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-jsx-text/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-jsx-text/_expected.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-native-elements/jsx.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-native-elements/_expected.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-jsx-spread-attribute/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-jsx-spread-attribute/_expected.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-jsx-self-closing/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-jsx-self-closing/_expected.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-jsx-spread-child/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-jsx-spread-child/_expected.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-jsx-member-expression/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-jsx-member-expression/_expected.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-jsx-fragment/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-jsx-fragment/_expected.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-jsx-expression/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-jsx-expression/_expected.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-jsx-empty-expression/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-jsx-empty-expression/_expected.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-jsx-closing/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-jsx-closing/_expected.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-jsx-child/jsx.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-jsx-child/_expected.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-jsx-attributes/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/form/samples/jsx/preserves-jsx-attributes/_expected.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/function/samples/jsx/unnecessary-import-source/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/function/samples/jsx/unknown-mode/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/function/samples/jsx/missing-jsx-export/main.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/function/samples/ast-validations/duplicate-namespace-export/main.js:
+   Duplicated export 'foo'
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/function/samples/ast-validations/duplicate-var-export/main.js:
+   Duplicated export 'x'
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/function/samples/ast-validations/duplicate-function-export/main.js:
+   Duplicated export 'foo'
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/function/samples/ast-validations/double-named-reexport/foo.js:
+   Duplicated export 'foo'
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/function/samples/ast-validations/double-named-export/foo.js:
+   Duplicated export 'foo'
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/rollup/test/function/samples/ast-validations/double-default-export/foo.js:
+   Duplicated default export

@@ -1,11 +1,12 @@
 AST Analysis Report for react
-Generated on: 2025-07-13T03:17:30.283Z
+Generated on: 2025-07-14T01:42:27.112Z
 Repository: sample-repos/react
 ================================================================================
 
 🔍 Analyzing JavaScript/TypeScript files in: /Users/camchenry/workspace/ast-analysis/sample-repos/react
 
 📁 Found 2217 files to analyze...
+
 
 
 ============================================================
@@ -146,21 +147,21 @@ Repository: sample-repos/react
    TSInterfaceHeritage               2 files (  0.1%) -        8 total (0.00%)
    JSXSpreadAttribute                2 files (  0.1%) -        2 total (0.00%)
    TSParameterProperty               2 files (  0.1%) -        5 total (0.00%)
+   TSThisType                        2 files (  0.1%) -        7 total (0.00%)
+   TSClassImplements                 2 files (  0.1%) -        4 total (0.00%)
    JSXFragment                       2 files (  0.1%) -        6 total (0.00%)
    JSXOpeningFragment                2 files (  0.1%) -        6 total (0.00%)
    JSXClosingFragment                2 files (  0.1%) -        6 total (0.00%)
-   TSThisType                        2 files (  0.1%) -        7 total (0.00%)
-   TSClassImplements                 2 files (  0.1%) -        4 total (0.00%)
    TSCallSignatureDeclaration        1 files (  0.0%) -        2 total (0.00%)
    TSImportEqualsDeclaration         1 files (  0.0%) -        6 total (0.00%)
    TSExternalModuleReference         1 files (  0.0%) -        6 total (0.00%)
    TSBigIntKeyword                   1 files (  0.0%) -        4 total (0.00%)
    JSXMemberExpression               1 files (  0.0%) -        4 total (0.00%)
    TSEmptyBodyFunctionExpression     1 files (  0.0%) -        3 total (0.00%)
-   ImportExpression                  1 files (  0.0%) -        1 total (0.00%)
    TSSymbolKeyword                   1 files (  0.0%) -        1 total (0.00%)
    TSMappedType                      1 files (  0.0%) -        1 total (0.00%)
    TSConditionalType                 1 files (  0.0%) -        1 total (0.00%)
+   ImportExpression                  1 files (  0.0%) -        1 total (0.00%)
    EmptyStatement                    1 files (  0.0%) -        1 total (0.00%)
 
 📝 ALL NODE TYPES (BY TOTAL COUNT):
@@ -297,11 +298,3100 @@ Repository: sample-repos/react
    TSEmptyBodyFunctionExpression         3 (0.00%) in 1 files (0.0%)
    TSCallSignatureDeclaration            2 (0.00%) in 1 files (0.0%)
    JSXSpreadAttribute                    2 (0.00%) in 2 files (0.1%)
-   ImportExpression                      1 (0.00%) in 1 files (0.0%)
    TSSymbolKeyword                       1 (0.00%) in 1 files (0.0%)
    TSMappedType                          1 (0.00%) in 1 files (0.0%)
    TSConditionalType                     1 (0.00%) in 1 files (0.0%)
+   ImportExpression                      1 (0.00%) in 1 files (0.0%)
    EmptyStatement                        1 (0.00%) in 1 files (0.0%)
+
+📁 FILE EXAMPLES BY NODE TYPE:
+
+   Identifier:
+     📄 Files WITH Identifier (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+     📄 Files WITHOUT Identifier (showing 10):
+       • scripts/flow/xplat.js
+       • scripts/flow/react-native-host-hooks.js
+       • scripts/flow/react-devtools.js
+       • scripts/flow/environment.js
+       • scripts/error-codes/Types.js
+       • packages/use-subscription/index.js
+       • packages/scheduler/unstable_post_task.js
+       • packages/scheduler/unstable_mock.js
+       • packages/scheduler/index.native.js
+       • packages/scheduler/index.js
+
+   Literal:
+     📄 Files WITH Literal (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+     📄 Files WITHOUT Literal (showing 10):
+       • scripts/flow/xplat.js
+       • scripts/flow/react-native-host-hooks.js
+       • scripts/flow/react-devtools.js
+       • scripts/flow/environment.js
+       • scripts/error-codes/Types.js
+       • packages/shared/shallowEqual.js
+       • packages/shared/reportGlobalError.js
+       • packages/shared/objectIs.js
+       • packages/shared/normalizeConsoleFormat.js
+       • packages/shared/noop.js
+
+   MemberExpression:
+     📄 Files WITH MemberExpression (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+     📄 Files WITHOUT MemberExpression (showing 10):
+       • scripts/release/build-release.js
+       • scripts/release/build-release-locally.js
+       • scripts/jest/jest.js
+       • scripts/jest/dont-run-jest-directly.js
+       • scripts/flow/xplat.js
+       • scripts/flow/react-native-host-hooks.js
+       • scripts/flow/react-devtools.js
+       • scripts/flow/environment.js
+       • scripts/error-codes/Types.js
+       • packages/use-sync-external-store/with-selector.js
+
+   CallExpression:
+     📄 Files WITH CallExpression (showing 10):
+       • dangerfile.js
+       • babel.config-react-compiler.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+       • scripts/tasks/danger.js
+       • scripts/shared/listChangedFiles.js
+       • scripts/shared/evalToString.js
+     📄 Files WITHOUT CallExpression (showing 10):
+       • babel.config.js
+       • babel.config-ts.js
+       • ReactVersions.js
+       • scripts/shared/pathsByLanguageVersion.js
+       • scripts/shared/inlinedHostConfigs.js
+       • scripts/jest/setupGlobal.js
+       • scripts/jest/dont-run-jest-directly.js
+       • scripts/flow/xplat.js
+       • scripts/flow/react-native-host-hooks.js
+       • scripts/flow/react-devtools.js
+
+   Property:
+     📄 Files WITH Property (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/eslint.js
+       • scripts/tasks/danger.js
+       • scripts/shared/pathsByLanguageVersion.js
+     📄 Files WITHOUT Property (showing 10):
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/shared/evalToString.js
+       • scripts/perf-counters/index.js
+       • scripts/jest/setupTests.persistent.js
+       • scripts/jest/setupTests.build.js
+       • scripts/jest/setupGlobal.js
+       • scripts/jest/setupEnvironment.js
+       • scripts/jest/patchSetImmediate.js
+       • scripts/jest/jest.js
+
+   BlockStatement:
+     📄 Files WITH BlockStatement (showing 10):
+       • dangerfile.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+       • scripts/tasks/danger.js
+       • scripts/shared/listChangedFiles.js
+       • scripts/shared/evalToString.js
+       • scripts/rollup/wrappers.js
+     📄 Files WITHOUT BlockStatement (showing 10):
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/shared/pathsByLanguageVersion.js
+       • scripts/shared/inlinedHostConfigs.js
+       • scripts/release/theme.js
+       • scripts/perf-counters/index.js
+       • scripts/jest/setupTests.persistent.js
+       • scripts/jest/setupTests.build.js
+
+   ExpressionStatement:
+     📄 Files WITH ExpressionStatement (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+     📄 Files WITHOUT ExpressionStatement (showing 10):
+       • scripts/flow/xplat.js
+       • scripts/flow/react-native-host-hooks.js
+       • scripts/flow/react-devtools.js
+       • scripts/flow/environment.js
+       • scripts/error-codes/Types.js
+       • packages/shared/shallowEqual.js
+       • packages/shared/reportGlobalError.js
+       • packages/shared/objectIs.js
+       • packages/shared/normalizeConsoleFormat.js
+       • packages/shared/noop.js
+
+   VariableDeclarator:
+     📄 Files WITH VariableDeclarator (showing 10):
+       • dangerfile.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+       • scripts/tasks/danger.js
+       • scripts/shared/pathsByLanguageVersion.js
+     📄 Files WITHOUT VariableDeclarator (showing 10):
+       • babel.config.js
+       • babel.config-ts.js
+       • scripts/shared/inlinedHostConfigs.js
+       • scripts/perf-counters/index.js
+       • scripts/jest/setupTests.persistent.js
+       • scripts/jest/setupTests.build.js
+       • scripts/jest/setupGlobal.js
+       • scripts/jest/patchSetImmediate.js
+       • scripts/jest/jest.js
+       • scripts/jest/dont-run-jest-directly.js
+
+   VariableDeclaration:
+     📄 Files WITH VariableDeclaration (showing 10):
+       • dangerfile.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+       • scripts/tasks/danger.js
+       • scripts/shared/pathsByLanguageVersion.js
+     📄 Files WITHOUT VariableDeclaration (showing 10):
+       • babel.config.js
+       • babel.config-ts.js
+       • scripts/shared/inlinedHostConfigs.js
+       • scripts/perf-counters/index.js
+       • scripts/jest/setupTests.persistent.js
+       • scripts/jest/setupTests.build.js
+       • scripts/jest/setupGlobal.js
+       • scripts/jest/patchSetImmediate.js
+       • scripts/jest/jest.js
+       • scripts/jest/dont-run-jest-directly.js
+
+   ObjectExpression:
+     📄 Files WITH ObjectExpression (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/eslint.js
+       • scripts/tasks/danger.js
+       • scripts/shared/pathsByLanguageVersion.js
+     📄 Files WITHOUT ObjectExpression (showing 10):
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/shared/evalToString.js
+       • scripts/release/publish.js
+       • scripts/release/prepare-release-from-npm.js
+       • scripts/release/check-release-dependencies.js
+       • scripts/perf-counters/index.js
+       • scripts/jest/setupTests.persistent.js
+       • scripts/jest/setupTests.build.js
+       • scripts/jest/setupGlobal.js
+
+   BinaryExpression:
+     📄 Files WITH BinaryExpression (showing 10):
+       • dangerfile.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/danger.js
+       • scripts/shared/listChangedFiles.js
+       • scripts/shared/evalToString.js
+       • scripts/rollup/wrappers.js
+       • scripts/rollup/utils.js
+       • scripts/rollup/sync.js
+     📄 Files WITHOUT BinaryExpression (showing 10):
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/eslint.js
+       • scripts/shared/pathsByLanguageVersion.js
+       • scripts/shared/inlinedHostConfigs.js
+       • scripts/release/theme.js
+       • scripts/release/download-experimental-build.js
+
+   TSTypeReference:
+     📄 Files WITH TSTypeReference (showing 10):
+       • scripts/jest/typescript/jest.d.ts
+       • packages/react-devtools-fusebox/src/frontend.d.ts
+       • packages/eslint-plugin-react-hooks/src/index.ts
+       • packages/eslint-plugin-react-hooks/__tests__/ReactCompilerRuleTypescript-test.ts
+       • packages/eslint-plugin-react-hooks/__tests__/ReactCompilerRule-test.ts
+       • packages/react-dom-bindings/src/events/PluginModuleType.js
+       • packages/eslint-plugin-react-hooks/src/rules/RulesOfHooks.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
+       • packages/eslint-plugin-react-hooks/src/types/hermes-parser.d.ts
+     📄 Files WITHOUT TSTypeReference (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSTypeAnnotation:
+     📄 Files WITH TSTypeAnnotation (showing 10):
+       • scripts/jest/typescript/jest.d.ts
+       • packages/react-devtools-fusebox/src/frontend.d.ts
+       • packages/eslint-plugin-react-hooks/src/index.ts
+       • packages/eslint-plugin-react-hooks/__tests__/ReactCompilerRuleTypescript-test.ts
+       • packages/eslint-plugin-react-hooks/__tests__/ReactCompilerRule-test.ts
+       • packages/react/src/__tests__/ReactTypeScriptClass-test.ts
+       • packages/eslint-plugin-react-hooks/src/rules/RulesOfHooks.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
+       • packages/eslint-plugin-react-hooks/src/types/hermes-parser.d.ts
+     📄 Files WITHOUT TSTypeAnnotation (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   IfStatement:
+     📄 Files WITH IfStatement (showing 10):
+       • dangerfile.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+       • scripts/tasks/danger.js
+       • scripts/shared/listChangedFiles.js
+       • scripts/shared/evalToString.js
+       • scripts/rollup/wrappers.js
+     📄 Files WITHOUT IfStatement (showing 10):
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/shared/pathsByLanguageVersion.js
+       • scripts/shared/inlinedHostConfigs.js
+       • scripts/release/theme.js
+       • scripts/release/download-experimental-build.js
+       • scripts/release/build-release.js
+       • scripts/release/build-release-locally.js
+
+   ReturnStatement:
+     📄 Files WITH ReturnStatement (showing 10):
+       • dangerfile.js
+       • scripts/shared/listChangedFiles.js
+       • scripts/shared/evalToString.js
+       • scripts/rollup/wrappers.js
+       • scripts/rollup/utils.js
+       • scripts/rollup/stats.js
+       • scripts/rollup/packaging.js
+       • scripts/rollup/modules.js
+       • scripts/rollup/generate-inline-fizz-runtime.js
+       • scripts/rollup/forks.js
+     📄 Files WITHOUT ReturnStatement (showing 10):
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+       • scripts/tasks/danger.js
+
+   Unknown:
+     📄 Files WITH Unknown (showing 10):
+       • dangerfile.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/flow-ci.js
+       • scripts/shared/listChangedFiles.js
+       • scripts/rollup/wrappers.js
+       • scripts/rollup/sync.js
+       • scripts/rollup/stats.js
+       • scripts/rollup/packaging.js
+       • scripts/rollup/modules.js
+       • scripts/rollup/generate-inline-fizz-runtime.js
+     📄 Files WITHOUT Unknown (showing 10):
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/eslint.js
+       • scripts/tasks/danger.js
+       • scripts/shared/pathsByLanguageVersion.js
+       • scripts/shared/inlinedHostConfigs.js
+
+   TemplateElement:
+     📄 Files WITH TemplateElement (showing 10):
+       • dangerfile.js
+       • scripts/tasks/flow-ci.js
+       • scripts/rollup/wrappers.js
+       • scripts/rollup/sync.js
+       • scripts/rollup/stats.js
+       • scripts/rollup/packaging.js
+       • scripts/rollup/generate-inline-fizz-runtime.js
+       • scripts/rollup/forks.js
+       • scripts/rollup/bundles.js
+       • scripts/rollup/build.js
+     📄 Files WITHOUT TemplateElement (showing 10):
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/eslint.js
+       • scripts/tasks/danger.js
+       • scripts/shared/pathsByLanguageVersion.js
+
+   AssignmentExpression:
+     📄 Files WITH AssignmentExpression (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/shared/pathsByLanguageVersion.js
+       • scripts/shared/listChangedFiles.js
+       • scripts/shared/inlinedHostConfigs.js
+       • scripts/shared/evalToString.js
+     📄 Files WITHOUT AssignmentExpression (showing 10):
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+       • scripts/tasks/danger.js
+       • scripts/release/publish-using-ci-workflow.js
+       • scripts/release/download-experimental-build.js
+       • scripts/release/check-release-dependencies.js
+       • scripts/release/build-release.js
+       • scripts/release/build-release-locally.js
+
+   ArrayExpression:
+     📄 Files WITH ArrayExpression (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • ReactVersions.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/danger.js
+       • scripts/shared/pathsByLanguageVersion.js
+       • scripts/shared/listChangedFiles.js
+       • scripts/shared/inlinedHostConfigs.js
+     📄 Files WITHOUT ArrayExpression (showing 10):
+       • babel.config-react-compiler.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/eslint.js
+       • scripts/rollup/wrappers.js
+       • scripts/rollup/utils.js
+       • scripts/rollup/sync.js
+       • scripts/rollup/forks.js
+       • scripts/release/theme.js
+       • scripts/release/publish.js
+
+   LogicalExpression:
+     📄 Files WITH LogicalExpression (showing 10):
+       • dangerfile.js
+       • scripts/tasks/flow.js
+       • scripts/shared/listChangedFiles.js
+       • scripts/rollup/stats.js
+       • scripts/rollup/packaging.js
+       • scripts/rollup/modules.js
+       • scripts/rollup/forks.js
+       • scripts/rollup/bundles.js
+       • scripts/rollup/build.js
+       • scripts/rollup/build-all-release-channels.js
+     📄 Files WITHOUT LogicalExpression (showing 10):
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+       • scripts/tasks/danger.js
+       • scripts/shared/pathsByLanguageVersion.js
+
+   TemplateLiteral:
+     📄 Files WITH TemplateLiteral (showing 10):
+       • dangerfile.js
+       • scripts/tasks/flow-ci.js
+       • scripts/rollup/wrappers.js
+       • scripts/rollup/sync.js
+       • scripts/rollup/stats.js
+       • scripts/rollup/packaging.js
+       • scripts/rollup/generate-inline-fizz-runtime.js
+       • scripts/rollup/forks.js
+       • scripts/rollup/bundles.js
+       • scripts/rollup/build.js
+     📄 Files WITHOUT TemplateLiteral (showing 10):
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/eslint.js
+       • scripts/tasks/danger.js
+       • scripts/shared/pathsByLanguageVersion.js
+
+   SwitchCase:
+     📄 Files WITH SwitchCase (showing 10):
+       • scripts/shared/evalToString.js
+       • scripts/rollup/wrappers.js
+       • scripts/rollup/packaging.js
+       • scripts/rollup/forks.js
+       • scripts/rollup/bundles.js
+       • scripts/rollup/build.js
+       • scripts/rollup/build-all-release-channels.js
+       • scripts/release/utils.js
+       • scripts/release/publish-using-ci-workflow.js
+       • scripts/flags/flags.js
+     📄 Files WITHOUT SwitchCase (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   ArrowFunctionExpression:
+     📄 Files WITH ArrowFunctionExpression (showing 10):
+       • dangerfile.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/shared/listChangedFiles.js
+       • scripts/rollup/utils.js
+       • scripts/rollup/stats.js
+       • scripts/rollup/packaging.js
+       • scripts/rollup/modules.js
+       • scripts/rollup/generate-inline-fizz-runtime.js
+       • scripts/rollup/forks.js
+     📄 Files WITHOUT ArrowFunctionExpression (showing 10):
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/eslint.js
+       • scripts/tasks/danger.js
+       • scripts/shared/pathsByLanguageVersion.js
+       • scripts/shared/inlinedHostConfigs.js
+
+   ImportSpecifier:
+     📄 Files WITH ImportSpecifier (showing 10):
+       • packages/internal-test-utils/consoleMock.js
+       • packages/dom-event-testing-library/testHelpers.js
+       • packages/dom-event-testing-library/index.js
+       • packages/dom-event-testing-library/domEvents.js
+       • packages/dom-event-testing-library/domEventSequences.js
+       • packages/use-sync-external-store/src/isServerEnvironment.js
+       • packages/react-native-renderer/src/ReactNativeInjectionShared.js
+       • packages/react-native-renderer/src/ReactNativeInjection.js
+       • packages/react-native-renderer/src/ReactFabricInjection.js
+       • packages/react-devtools-inline/src/hookNames.js
+     📄 Files WITHOUT ImportSpecifier (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   Program:
+     📄 Files WITH Program (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+     📄 Files WITHOUT Program: (all files contain this node type)
+
+   FunctionExpression:
+     📄 Files WITH FunctionExpression (showing 10):
+       • dangerfile.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/danger.js
+       • scripts/rollup/wrappers.js
+       • scripts/rollup/packaging.js
+       • scripts/rollup/bundles.js
+       • scripts/rollup/build.js
+       • scripts/print-warnings/print-warnings.js
+       • scripts/jest/setupTests.js
+       • scripts/jest/preprocessor.js
+     📄 Files WITHOUT FunctionExpression (showing 10):
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+       • scripts/shared/pathsByLanguageVersion.js
+       • scripts/shared/listChangedFiles.js
+
+   FunctionDeclaration:
+     📄 Files WITH FunctionDeclaration (showing 10):
+       • dangerfile.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+       • scripts/shared/evalToString.js
+       • scripts/rollup/wrappers.js
+       • scripts/rollup/utils.js
+       • scripts/rollup/sync.js
+       • scripts/rollup/stats.js
+       • scripts/rollup/packaging.js
+     📄 Files WITHOUT FunctionDeclaration (showing 10):
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/danger.js
+       • scripts/shared/pathsByLanguageVersion.js
+       • scripts/shared/listChangedFiles.js
+       • scripts/shared/inlinedHostConfigs.js
+
+   ThisExpression:
+     📄 Files WITH ThisExpression (showing 10):
+       • scripts/jest/setupTests.js
+       • scripts/jest/patchMessageChannel.js
+       • scripts/jest/ReactJSDOMEnvironment.js
+       • scripts/jest/ReactDOMServerIntegrationEnvironment.js
+       • scripts/flags/flags.js
+       • scripts/babel/transform-object-assign.js
+       • packages/react-dom/static.node.js
+       • packages/react-dom/server.node.js
+       • packages/react-dom/server.edge.js
+       • packages/react-dom/server.bun.js
+     📄 Files WITHOUT ThisExpression (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSPropertySignature:
+     📄 Files WITH TSPropertySignature (showing 10):
+       • scripts/jest/typescript/jest.d.ts
+       • packages/react-devtools-fusebox/src/frontend.d.ts
+       • packages/eslint-plugin-react-hooks/__tests__/ReactCompilerRuleTypescript-test.ts
+       • packages/eslint-plugin-react-hooks/__tests__/ReactCompilerRule-test.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
+       • packages/eslint-plugin-react-hooks/src/types/hermes-parser.d.ts
+       • packages/eslint-plugin-react-hooks/src/types/hermes-eslint.d.ts
+       • packages/eslint-plugin-react-hooks/src/types/estree.d.ts
+       • compiler/packages/snap/src/types.d.ts
+     📄 Files WITHOUT TSPropertySignature (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSTypeParameterInstantiation:
+     📄 Files WITH TSTypeParameterInstantiation (showing 10):
+       • scripts/jest/typescript/jest.d.ts
+       • packages/react-devtools-fusebox/src/frontend.d.ts
+       • packages/eslint-plugin-react-hooks/src/index.ts
+       • packages/eslint-plugin-react-hooks/src/rules/RulesOfHooks.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
+       • packages/eslint-plugin-react-hooks/src/types/hermes-parser.d.ts
+       • packages/eslint-plugin-react-hooks/src/types/hermes-eslint.d.ts
+       • compiler/packages/snap/src/types.d.ts
+       • compiler/packages/snap/src/runner.ts
+     📄 Files WITHOUT TSTypeParameterInstantiation (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   UnaryExpression:
+     📄 Files WITH UnaryExpression (showing 10):
+       • dangerfile.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/eslint.js
+       • scripts/rollup/wrappers.js
+       • scripts/rollup/sync.js
+       • scripts/rollup/stats.js
+       • scripts/rollup/packaging.js
+       • scripts/rollup/forks.js
+       • scripts/rollup/bundles.js
+     📄 Files WITHOUT UnaryExpression (showing 10):
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/danger.js
+       • scripts/shared/pathsByLanguageVersion.js
+       • scripts/shared/listChangedFiles.js
+       • scripts/shared/inlinedHostConfigs.js
+
+   ExportNamedDeclaration:
+     📄 Files WITH ExportNamedDeclaration (showing 10):
+       • scripts/jest/patchSetImmediate.js
+       • scripts/jest/patchMessageChannel.js
+       • packages/use-sync-external-store/with-selector.js
+       • packages/use-sync-external-store/index.js
+       • packages/shared/ReactInstanceMap.js
+       • packages/shared/ReactFlightPropertyAccess.js
+       • packages/react-server-dom-webpack/static.node.unbundled.js
+       • packages/react-server-dom-webpack/static.node.js
+       • packages/react-server-dom-webpack/static.edge.js
+       • packages/react-server-dom-webpack/static.browser.js
+     📄 Files WITHOUT ExportNamedDeclaration (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   NewExpression:
+     📄 Files WITH NewExpression (showing 10):
+       • dangerfile.js
+       • scripts/tasks/flow-ci.js
+       • scripts/shared/listChangedFiles.js
+       • scripts/shared/evalToString.js
+       • scripts/rollup/wrappers.js
+       • scripts/rollup/utils.js
+       • scripts/rollup/stats.js
+       • scripts/rollup/packaging.js
+       • scripts/rollup/modules.js
+       • scripts/rollup/generate-inline-fizz-runtime.js
+     📄 Files WITHOUT NewExpression (showing 10):
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/eslint.js
+       • scripts/tasks/danger.js
+       • scripts/shared/pathsByLanguageVersion.js
+
+   ImportDeclaration:
+     📄 Files WITH ImportDeclaration (showing 10):
+       • packages/shared/ReactSharedInternals.js
+       • packages/shared/ReactDOMSharedInternals.js
+       • packages/react-test-renderer/shallow.js
+       • packages/react-dom/static.node.js
+       • packages/react-dom/server.node.js
+       • packages/react-dom/server.edge.js
+       • packages/react-dom/server.bun.js
+       • packages/react-dom/server.browser.js
+       • packages/react-devtools-extensions/improveImages.mjs
+       • packages/internal-test-utils/consoleMock.js
+     📄 Files WITHOUT ImportDeclaration (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   ParenthesizedExpression:
+     📄 Files WITH ParenthesizedExpression (showing 10):
+       • dangerfile.js
+       • scripts/shared/evalToString.js
+       • scripts/rollup/stats.js
+       • scripts/rollup/packaging.js
+       • scripts/rollup/bundles.js
+       • scripts/rollup/build.js
+       • scripts/rollup/build-all-release-channels.js
+       • scripts/print-warnings/print-warnings.js
+       • scripts/jest/setupTests.js
+       • scripts/jest/setupHostConfigs.js
+     📄 Files WITHOUT ParenthesizedExpression (showing 10):
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+       • scripts/tasks/danger.js
+
+   BreakStatement:
+     📄 Files WITH BreakStatement (showing 10):
+       • scripts/rollup/wrappers.js
+       • scripts/rollup/forks.js
+       • scripts/rollup/build.js
+       • scripts/rollup/build-all-release-channels.js
+       • scripts/release/utils.js
+       • scripts/release/publish-using-ci-workflow.js
+       • scripts/eslint-rules/no-production-logging.js
+       • scripts/eslint-rules/no-primitive-constructors.js
+       • scripts/error-codes/transform-error-messages.js
+       • scripts/error-codes/extract-errors.js
+     📄 Files WITHOUT BreakStatement (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   ForOfStatement:
+     📄 Files WITH ForOfStatement (showing 10):
+       • dangerfile.js
+       • scripts/rollup/packaging.js
+       • scripts/rollup/forks.js
+       • scripts/rollup/build.js
+       • scripts/rollup/build-all-release-channels.js
+       • scripts/release/check-release-dependencies.js
+       • scripts/flags/flags.js
+       • scripts/error-codes/invertObject.js
+       • scripts/babel/transform-test-gate-pragma.js
+       • packages/react-devtools-shared/SourceMapIgnoreListPlugin.js
+     📄 Files WITHOUT ForOfStatement (showing 10):
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+       • scripts/tasks/danger.js
+
+   AwaitExpression:
+     📄 Files WITH AwaitExpression (showing 10):
+       • dangerfile.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+       • scripts/rollup/sync.js
+       • scripts/rollup/packaging.js
+       • scripts/rollup/generate-inline-fizz-runtime.js
+       • scripts/rollup/build.js
+       • scripts/release/utils.js
+       • scripts/release/snapshot-test.js
+     📄 Files WITHOUT AwaitExpression (showing 10):
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/danger.js
+       • scripts/shared/pathsByLanguageVersion.js
+       • scripts/shared/listChangedFiles.js
+       • scripts/shared/inlinedHostConfigs.js
+
+   MethodDefinition:
+     📄 Files WITH MethodDefinition (showing 10):
+       • scripts/jest/patchMessageChannel.js
+       • scripts/jest/ReactJSDOMEnvironment.js
+       • scripts/jest/ReactDOMServerIntegrationEnvironment.js
+       • packages/react-devtools-shared/SourceMapIgnoreListPlugin.js
+       • scripts/jest/spec-equivalence-reporter/equivalenceReporter.js
+       • scripts/bench/benchmarks/pe-class-components/benchmark.js
+       • packages/use-sync-external-store/src/__tests__/useSyncExternalStoreShared-test.js
+       • packages/scheduler/src/__tests__/SchedulerPostTask-test.js
+       • packages/react-devtools-shared/src/errors/PermissionNotGrantedError.js
+       • packages/react-devtools-shared/src/errors/ElementPollingCancellationError.js
+     📄 Files WITHOUT MethodDefinition (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   ExportSpecifier:
+     📄 Files WITH ExportSpecifier (showing 10):
+       • packages/use-sync-external-store/with-selector.js
+       • packages/use-sync-external-store/index.js
+       • packages/react-server-dom-webpack/static.node.unbundled.js
+       • packages/react-server-dom-webpack/static.node.js
+       • packages/react-server-dom-webpack/static.edge.js
+       • packages/react-server-dom-webpack/static.browser.js
+       • packages/react-server-dom-webpack/server.node.unbundled.js
+       • packages/react-server-dom-webpack/server.node.js
+       • packages/react-server-dom-webpack/server.edge.js
+       • packages/react-server-dom-webpack/server.browser.js
+     📄 Files WITHOUT ExportSpecifier (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSUnionType:
+     📄 Files WITH TSUnionType (showing 10):
+       • packages/scheduler/src/SchedulerPriorities.js
+       • packages/react-reconciler/src/ReactWorkTags.js
+       • packages/react-reconciler/src/ReactRootTags.js
+       • packages/react-devtools-fusebox/src/frontend.d.ts
+       • packages/react-dom-bindings/src/events/TopLevelEventTypes.js
+       • packages/react-dom-bindings/src/events/PluginModuleType.js
+       • packages/eslint-plugin-react-hooks/src/rules/RulesOfHooks.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
+       • packages/eslint-plugin-react-hooks/src/types/hermes-parser.d.ts
+     📄 Files WITHOUT TSUnionType (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TaggedTemplateExpression:
+     📄 Files WITH TaggedTemplateExpression (showing 10):
+       • scripts/release/utils.js
+       • scripts/release/snapshot-test.js
+       • scripts/release/publish.js
+       • scripts/release/publish-using-ci-workflow.js
+       • scripts/release/prepare-release-from-npm.js
+       • scripts/release/download-experimental-build.js
+       • packages/dom-event-testing-library/testHelpers.js
+       • scripts/release/shared-commands/print-prerelease-summary.js
+       • scripts/release/shared-commands/parse-params.js
+       • scripts/release/shared-commands/download-build-artifacts.js
+     📄 Files WITHOUT TaggedTemplateExpression (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSStringKeyword:
+     📄 Files WITH TSStringKeyword (showing 10):
+       • scripts/jest/typescript/jest.d.ts
+       • packages/react-devtools-fusebox/src/frontend.d.ts
+       • packages/eslint-plugin-react-hooks/src/index.ts
+       • packages/eslint-plugin-react-hooks/__tests__/ReactCompilerRuleTypescript-test.ts
+       • packages/eslint-plugin-react-hooks/__tests__/ReactCompilerRule-test.ts
+       • packages/react-dom-bindings/src/events/PluginModuleType.js
+       • packages/react/src/__tests__/ReactTypeScriptClass-test.ts
+       • packages/eslint-plugin-react-hooks/src/rules/RulesOfHooks.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
+     📄 Files WITHOUT TSStringKeyword (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   ConditionalExpression:
+     📄 Files WITH ConditionalExpression (showing 10):
+       • dangerfile.js
+       • scripts/tasks/danger.js
+       • scripts/rollup/sync.js
+       • scripts/rollup/stats.js
+       • scripts/rollup/packaging.js
+       • scripts/rollup/forks.js
+       • scripts/rollup/bundles.js
+       • scripts/rollup/build.js
+       • scripts/rollup/build-all-release-channels.js
+       • scripts/release/utils.js
+     📄 Files WITHOUT ConditionalExpression (showing 10):
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+       • scripts/shared/pathsByLanguageVersion.js
+
+   ObjectPattern:
+     📄 Files WITH ObjectPattern (showing 10):
+       • dangerfile.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/eslint.js
+       • scripts/rollup/wrappers.js
+       • scripts/rollup/packaging.js
+       • scripts/rollup/generate-inline-fizz-runtime.js
+       • scripts/rollup/forks.js
+       • scripts/rollup/bundles.js
+       • scripts/rollup/build.js
+       • scripts/rollup/build-all-release-channels.js
+     📄 Files WITHOUT ObjectPattern (showing 10):
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/danger.js
+       • scripts/shared/pathsByLanguageVersion.js
+       • scripts/shared/listChangedFiles.js
+
+   TSQualifiedName:
+     📄 Files WITH TSQualifiedName (showing 10):
+       • packages/eslint-plugin-react-hooks/src/index.ts
+       • packages/eslint-plugin-react-hooks/__tests__/ReactCompilerRuleTypescript-test.ts
+       • packages/eslint-plugin-react-hooks/__tests__/ReactCompilerRule-test.ts
+       • packages/eslint-plugin-react-hooks/src/rules/RulesOfHooks.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
+       • compiler/packages/snap/src/runner.ts
+       • compiler/packages/snap/src/runner-watch.ts
+       • compiler/packages/snap/src/compiler.ts
+       • compiler/packages/eslint-plugin-react-compiler/__tests__/ReactCompilerRuleTypescript-test.ts
+     📄 Files WITHOUT TSQualifiedName (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   SpreadElement:
+     📄 Files WITH SpreadElement (showing 10):
+       • dangerfile.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/eslint.js
+       • scripts/tasks/danger.js
+       • scripts/shared/listChangedFiles.js
+       • scripts/shared/evalToString.js
+       • scripts/rollup/modules.js
+       • scripts/rollup/generate-inline-fizz-runtime.js
+       • scripts/rollup/build.js
+       • scripts/rollup/build-all-release-channels.js
+     📄 Files WITHOUT SpreadElement (showing 10):
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/shared/pathsByLanguageVersion.js
+       • scripts/shared/inlinedHostConfigs.js
+       • scripts/rollup/wrappers.js
+
+   TSLiteralType:
+     📄 Files WITH TSLiteralType (showing 10):
+       • packages/scheduler/src/SchedulerPriorities.js
+       • packages/react-reconciler/src/ReactWorkTags.js
+       • packages/react-reconciler/src/ReactRootTags.js
+       • packages/react-devtools-fusebox/src/frontend.d.ts
+       • packages/react-dom-bindings/src/events/TopLevelEventTypes.js
+       • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
+       • packages/eslint-plugin-react-hooks/src/types/hermes-parser.d.ts
+       • packages/eslint-plugin-react-hooks/src/types/hermes-eslint.d.ts
+       • packages/eslint-plugin-react-hooks/src/types/estree.d.ts
+     📄 Files WITHOUT TSLiteralType (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSVoidKeyword:
+     📄 Files WITH TSVoidKeyword (showing 10):
+       • scripts/jest/typescript/jest.d.ts
+       • packages/react-devtools-fusebox/src/frontend.d.ts
+       • packages/eslint-plugin-react-hooks/src/rules/RulesOfHooks.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
+       • compiler/packages/snap/src/runner.ts
+       • compiler/packages/snap/src/runner-watch.ts
+       • compiler/packages/snap/src/reporter.ts
+       • compiler/packages/snap/src/compiler.ts
+       • compiler/packages/react-mcp-server/src/index.ts
+     📄 Files WITHOUT TSVoidKeyword (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSTypeLiteral:
+     📄 Files WITH TSTypeLiteral (showing 10):
+       • scripts/jest/typescript/jest.d.ts
+       • packages/react-devtools-fusebox/src/frontend.d.ts
+       • packages/eslint-plugin-react-hooks/__tests__/ReactCompilerRuleTypescript-test.ts
+       • packages/eslint-plugin-react-hooks/__tests__/ReactCompilerRule-test.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
+       • packages/eslint-plugin-react-hooks/src/types/hermes-parser.d.ts
+       • packages/eslint-plugin-react-hooks/src/types/hermes-eslint.d.ts
+       • compiler/packages/snap/src/types.d.ts
+       • compiler/packages/snap/src/runner.ts
+     📄 Files WITHOUT TSTypeLiteral (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   PrivateIdentifier:
+     📄 Files WITH PrivateIdentifier (showing 10):
+       • compiler/packages/babel-plugin-react-compiler/src/Validation/ValidateNoRefAccessInRender.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/Stack.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/DisjointSet.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Transform/TransformFire.ts
+       • compiler/packages/babel-plugin-react-compiler/src/SSA/EnterSSA.ts
+       • compiler/packages/babel-plugin-react-compiler/src/ReactiveScopes/RenameVariables.ts
+       • compiler/packages/babel-plugin-react-compiler/src/ReactiveScopes/PromoteUsedTemporaries.ts
+       • compiler/packages/babel-plugin-react-compiler/src/ReactiveScopes/PrintReactiveFunction.ts
+       • compiler/packages/babel-plugin-react-compiler/src/ReactiveScopes/CodegenReactiveFunction.ts
+       • compiler/packages/babel-plugin-react-compiler/src/ReactiveScopes/BuildReactiveFunction.ts
+     📄 Files WITHOUT PrivateIdentifier (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   ArrayPattern:
+     📄 Files WITH ArrayPattern (showing 10):
+       • scripts/rollup/build.js
+       • scripts/release/check-release-dependencies.js
+       • scripts/jest/jest-cli.js
+       • scripts/flags/flags.js
+       • scripts/devtools/prepare-release.js
+       • scripts/bench/stats.js
+       • packages/react-devtools-shared/SourceMapIgnoreListPlugin.js
+       • packages/react-devtools-extensions/webpack.config.js
+       • packages/internal-test-utils/consoleMock.js
+       • compiler/scripts/copyright.js
+     📄 Files WITHOUT ArrayPattern (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSNullKeyword:
+     📄 Files WITH TSNullKeyword (showing 10):
+       • packages/react-devtools-fusebox/src/frontend.d.ts
+       • packages/eslint-plugin-react-hooks/src/rules/RulesOfHooks.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
+       • packages/eslint-plugin-react-hooks/src/types/hermes-eslint.d.ts
+       • compiler/packages/snap/src/runner.ts
+       • compiler/packages/snap/src/runner-worker.ts
+       • compiler/packages/snap/src/runner-watch.ts
+       • compiler/packages/snap/src/reporter.ts
+       • compiler/packages/snap/src/fixture-utils.ts
+     📄 Files WITHOUT TSNullKeyword (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   SequenceExpression:
+     📄 Files WITH SequenceExpression (showing 10):
+       • packages/react-devtools-shared/src/hooks/__tests__/__source__/__compiled__/no-columns/useTheme.js
+       • packages/react-devtools-shared/src/hooks/__tests__/__source__/__compiled__/no-columns/ToDoList.js
+       • packages/react-devtools-shared/src/hooks/__tests__/__source__/__compiled__/no-columns/Example.js
+       • packages/react-devtools-shared/src/hooks/__tests__/__source__/__compiled__/no-columns/ContainingStringSourceMappingURL.js
+       • packages/react-devtools-shared/src/hooks/__tests__/__source__/__compiled__/no-columns/ComponentWithMultipleHooksPerLine.js
+       • packages/react-devtools-shared/src/hooks/__tests__/__source__/__compiled__/no-columns/ComponentWithExternalCustomHooks.js
+       • packages/react-devtools-shared/src/hooks/__tests__/__source__/__compiled__/no-columns/ComponentWithCustomHook.js
+       • packages/react-devtools-shared/src/hooks/__tests__/__source__/__compiled__/no-columns/ComponentUsingHooksIndirectly.js
+       • packages/react-devtools-shared/src/hooks/__tests__/__source__/__compiled__/inline/useTheme.js
+       • packages/react-devtools-shared/src/hooks/__tests__/__source__/__compiled__/inline/ToDoList.js
+     📄 Files WITHOUT SequenceExpression (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSBooleanKeyword:
+     📄 Files WITH TSBooleanKeyword (showing 10):
+       • scripts/jest/typescript/jest.d.ts
+       • packages/react-devtools-fusebox/src/frontend.d.ts
+       • packages/eslint-plugin-react-hooks/src/rules/RulesOfHooks.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
+       • packages/eslint-plugin-react-hooks/src/types/hermes-parser.d.ts
+       • packages/eslint-plugin-react-hooks/src/types/hermes-eslint.d.ts
+       • packages/eslint-plugin-react-hooks/src/types/global.d.ts
+       • compiler/packages/snap/src/types.d.ts
+       • compiler/packages/snap/src/runner.ts
+     📄 Files WITHOUT TSBooleanKeyword (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSTypeAliasDeclaration:
+     📄 Files WITH TSTypeAliasDeclaration (showing 10):
+       • packages/scheduler/src/SchedulerPriorities.js
+       • packages/react-reconciler/src/ReactWorkTags.js
+       • packages/react-reconciler/src/ReactTypeOfMode.js
+       • packages/react-reconciler/src/ReactRootTags.js
+       • packages/react-reconciler/src/ReactHookEffectTags.js
+       • packages/react-devtools-fusebox/src/frontend.d.ts
+       • packages/eslint-plugin-react-hooks/__tests__/ReactCompilerRuleTypescript-test.ts
+       • packages/eslint-plugin-react-hooks/__tests__/ReactCompilerRule-test.ts
+       • packages/react-dom-bindings/src/events/TopLevelEventTypes.js
+       • packages/react-dom-bindings/src/events/PluginModuleType.js
+     📄 Files WITHOUT TSTypeAliasDeclaration (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   ClassBody:
+     📄 Files WITH ClassBody (showing 10):
+       • scripts/jest/patchMessageChannel.js
+       • scripts/jest/ReactJSDOMEnvironment.js
+       • scripts/jest/ReactDOMServerIntegrationEnvironment.js
+       • packages/react-devtools-shared/SourceMapIgnoreListPlugin.js
+       • scripts/jest/spec-equivalence-reporter/equivalenceReporter.js
+       • scripts/bench/benchmarks/pe-class-components/benchmark.js
+       • packages/use-sync-external-store/src/__tests__/useSyncExternalStoreShared-test.js
+       • packages/scheduler/src/__tests__/SchedulerPostTask-test.js
+       • packages/react-devtools-timeline/src/import-worker/InvalidProfileError.js
+       • packages/react-devtools-shared/src/errors/PermissionNotGrantedError.js
+     📄 Files WITHOUT ClassBody (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   JSXIdentifier:
+     📄 Files WITH JSXIdentifier (showing 10):
+       • compiler/apps/playground/components/TabbedWindow.tsx
+       • compiler/apps/playground/components/StoreContext.tsx
+       • compiler/apps/playground/components/Message.tsx
+       • compiler/apps/playground/components/Logo.tsx
+       • compiler/apps/playground/components/Header.tsx
+       • compiler/apps/playground/app/page.tsx
+       • compiler/apps/playground/app/layout.tsx
+       • compiler/apps/playground/app/index.tsx
+       • compiler/apps/playground/components/Editor/Output.tsx
+       • compiler/apps/playground/components/Editor/Input.tsx
+     📄 Files WITHOUT JSXIdentifier (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   ClassDeclaration:
+     📄 Files WITH ClassDeclaration (showing 10):
+       • scripts/jest/ReactJSDOMEnvironment.js
+       • scripts/jest/ReactDOMServerIntegrationEnvironment.js
+       • packages/react-devtools-shared/SourceMapIgnoreListPlugin.js
+       • scripts/jest/spec-equivalence-reporter/equivalenceReporter.js
+       • scripts/bench/benchmarks/pe-class-components/benchmark.js
+       • packages/use-sync-external-store/src/__tests__/useSyncExternalStoreShared-test.js
+       • packages/react-devtools-timeline/src/import-worker/InvalidProfileError.js
+       • packages/react-devtools-shared/src/errors/PermissionNotGrantedError.js
+       • packages/react-devtools-shared/src/errors/ElementPollingCancellationError.js
+       • packages/react-devtools-extensions/src/main/reactPolling.js
+     📄 Files WITHOUT ClassDeclaration (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   ThrowStatement:
+     📄 Files WITH ThrowStatement (showing 10):
+       • dangerfile.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/shared/listChangedFiles.js
+       • scripts/shared/evalToString.js
+       • scripts/rollup/wrappers.js
+       • scripts/rollup/packaging.js
+       • scripts/rollup/forks.js
+       • scripts/rollup/build.js
+       • scripts/rollup/build-all-release-channels.js
+     📄 Files WITHOUT ThrowStatement (showing 10):
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/eslint.js
+       • scripts/tasks/danger.js
+       • scripts/shared/pathsByLanguageVersion.js
+       • scripts/shared/inlinedHostConfigs.js
+
+   SwitchStatement:
+     📄 Files WITH SwitchStatement (showing 10):
+       • scripts/shared/evalToString.js
+       • scripts/rollup/wrappers.js
+       • scripts/rollup/packaging.js
+       • scripts/rollup/forks.js
+       • scripts/rollup/bundles.js
+       • scripts/rollup/build.js
+       • scripts/rollup/build-all-release-channels.js
+       • scripts/release/utils.js
+       • scripts/release/publish-using-ci-workflow.js
+       • scripts/flags/flags.js
+     📄 Files WITHOUT SwitchStatement (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   UpdateExpression:
+     📄 Files WITH UpdateExpression (showing 10):
+       • scripts/shared/evalToString.js
+       • scripts/rollup/packaging.js
+       • scripts/rollup/build.js
+       • scripts/release/utils.js
+       • scripts/release/publish.js
+       • scripts/release/publish-using-ci-workflow.js
+       • scripts/jest/setupTests.js
+       • scripts/eslint-rules/prod-error-codes.js
+       • scripts/error-codes/transform-error-messages.js
+       • scripts/error-codes/extract-errors.js
+     📄 Files WITHOUT UpdateExpression (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSAsExpression:
+     📄 Files WITH TSAsExpression (showing 10):
+       • packages/eslint-plugin-react-hooks/src/rules/RulesOfHooks.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
+       • compiler/packages/snap/src/runner.ts
+       • compiler/packages/snap/src/runner-worker.ts
+       • compiler/packages/react-mcp-server/src/index.ts
+       • compiler/packages/react-compiler-runtime/src/index.ts
+       • compiler/packages/make-read-only-util/src/makeReadOnly.ts
+       • compiler/packages/eslint-plugin-react-compiler/src/index.ts
+       • compiler/packages/snap/src/sprout/shared-runtime.ts
+     📄 Files WITHOUT TSAsExpression (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSNumberKeyword:
+     📄 Files WITH TSNumberKeyword (showing 10):
+       • scripts/jest/typescript/jest.d.ts
+       • packages/react-reconciler/src/ReactTypeOfMode.js
+       • packages/react-reconciler/src/ReactHookEffectTags.js
+       • packages/react-devtools-fusebox/src/frontend.d.ts
+       • packages/react-dom-bindings/src/events/PluginModuleType.js
+       • packages/react-dom-bindings/src/events/EventSystemFlags.js
+       • packages/eslint-plugin-react-hooks/src/rules/RulesOfHooks.ts
+       • compiler/packages/snap/src/runner.ts
+       • compiler/packages/snap/src/runner-worker.ts
+       • compiler/packages/snap/src/runner-watch.ts
+     📄 Files WITHOUT TSNumberKeyword (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   PropertyDefinition:
+     📄 Files WITH PropertyDefinition (showing 10):
+       • packages/use-sync-external-store/src/__tests__/useSyncExternalStoreShared-test.js
+       • packages/react/src/__tests__/ReactTypeScriptClass-test.ts
+       • compiler/packages/babel-plugin-react-compiler/src/CompilerError.ts
+       • packages/react/src/__tests__/testDefinitions/React.d.ts
+       • compiler/packages/snap/src/sprout/shared-runtime.ts
+       • compiler/packages/snap/src/sprout/evaluator.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Validation/ValidatePreservedManualMemoization.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Validation/ValidateNoRefAccessInRender.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Validation/ValidateMemoizedEffectDependencies.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/Stack.ts
+     📄 Files WITHOUT PropertyDefinition (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSAnyKeyword:
+     📄 Files WITH TSAnyKeyword (showing 10):
+       • scripts/jest/typescript/jest.d.ts
+       • packages/react-devtools-fusebox/src/frontend.d.ts
+       • packages/react/src/__tests__/ReactTypeScriptClass-test.ts
+       • packages/eslint-plugin-react-hooks/src/rules/RulesOfHooks.ts
+       • compiler/packages/snap/src/runner.ts
+       • compiler/packages/react-compiler-runtime/src/index.ts
+       • compiler/packages/make-read-only-util/src/makeReadOnly.ts
+       • compiler/packages/babel-plugin-react-compiler/src/CompilerError.ts
+       • packages/react/src/__tests__/testDefinitions/ReactInternalAct.d.ts
+       • packages/react/src/__tests__/testDefinitions/ReactDOMClient.d.ts
+     📄 Files WITHOUT TSAnyKeyword (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   ContinueStatement:
+     📄 Files WITH ContinueStatement (showing 10):
+       • scripts/rollup/build.js
+       • scripts/release/publish.js
+       • scripts/release/publish-using-ci-workflow.js
+       • scripts/flags/flags.js
+       • scripts/error-codes/extract-errors.js
+       • scripts/devtools/publish-release.js
+       • scripts/babel/transform-test-gate-pragma.js
+       • packages/react-devtools-shared/SourceMapIgnoreListPlugin.js
+       • packages/react-devtools-extensions/webpack.config.js
+       • packages/internal-test-utils/simulateBrowserEventDispatch.js
+     📄 Files WITHOUT ContinueStatement (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   ChainExpression:
+     📄 Files WITH ChainExpression (showing 10):
+       • compiler/scripts/anonymize.js
+       • packages/eslint-plugin-react-hooks/__tests__/ReactCompilerRuleTypescript-test.ts
+       • packages/eslint-plugin-react-hooks/__tests__/ReactCompilerRule-test.ts
+       • packages/react-devtools-extensions/src/contentScripts/fileFetcher.js
+       • packages/react-devtools-extensions/src/main/registerEventsLogger.js
+       • packages/react-devtools-extensions/src/background/messageHandlers.js
+       • packages/eslint-plugin-react-hooks/src/rules/RulesOfHooks.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
+       • packages/eslint-plugin-react-hooks/src/code-path-analysis/code-path-analyzer.js
+     📄 Files WITHOUT ChainExpression (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   ExportAllDeclaration:
+     📄 Files WITH ExportAllDeclaration (showing 10):
+       • packages/use-subscription/index.js
+       • packages/scheduler/unstable_post_task.js
+       • packages/scheduler/unstable_mock.js
+       • packages/scheduler/index.native.js
+       • packages/scheduler/index.js
+       • packages/react-test-renderer/index.js
+       • packages/react-suspense-test-utils/index.js
+       • packages/react-server-dom-webpack/client.node.unbundled.js
+       • packages/react-server-dom-webpack/client.node.js
+       • packages/react-server-dom-webpack/client.js
+     📄 Files WITHOUT ExportAllDeclaration (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSNonNullExpression:
+     📄 Files WITH TSNonNullExpression (showing 10):
+       • packages/eslint-plugin-react-hooks/__tests__/ReactCompilerRuleTypescript-test.ts
+       • packages/eslint-plugin-react-hooks/__tests__/ReactCompilerRule-test.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
+       • compiler/packages/snap/src/runner-watch.ts
+       • compiler/packages/make-read-only-util/src/makeReadOnly.ts
+       • compiler/packages/eslint-plugin-react-compiler/__tests__/ReactCompilerRule-test.ts
+       • compiler/packages/snap/src/sprout/evaluator.ts
+       • compiler/packages/react-forgive/client/src/colors.ts
+       • compiler/packages/eslint-plugin-react-compiler/src/rules/ReactCompilerRule.ts
+     📄 Files WITHOUT TSNonNullExpression (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   ImportDefaultSpecifier:
+     📄 Files WITH ImportDefaultSpecifier (showing 10):
+       • packages/react-test-renderer/shallow.js
+       • packages/react-dom/static.node.js
+       • packages/react-dom/server.node.js
+       • packages/react-dom/server.edge.js
+       • packages/react-dom/server.bun.js
+       • packages/react-dom/server.browser.js
+       • packages/react-devtools-extensions/improveImages.mjs
+       • packages/react-noop-renderer/src/ReactNoopPersistent.js
+       • packages/react-noop-renderer/src/ReactNoop.js
+       • packages/react-native-renderer/src/ReactNativeInjectionShared.js
+     📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   JSXAttribute:
+     📄 Files WITH JSXAttribute (showing 10):
+       • compiler/apps/playground/components/TabbedWindow.tsx
+       • compiler/apps/playground/components/StoreContext.tsx
+       • compiler/apps/playground/components/Message.tsx
+       • compiler/apps/playground/components/Logo.tsx
+       • compiler/apps/playground/components/Header.tsx
+       • compiler/apps/playground/app/page.tsx
+       • compiler/apps/playground/app/layout.tsx
+       • compiler/apps/playground/app/index.tsx
+       • compiler/apps/playground/components/Editor/Output.tsx
+       • compiler/apps/playground/components/Editor/Input.tsx
+     📄 Files WITHOUT JSXAttribute (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   ForStatement:
+     📄 Files WITH ForStatement (showing 10):
+       • scripts/shared/evalToString.js
+       • scripts/rollup/packaging.js
+       • scripts/rollup/build.js
+       • scripts/release/utils.js
+       • scripts/release/publish.js
+       • scripts/release/publish-using-ci-workflow.js
+       • scripts/eslint-rules/prod-error-codes.js
+       • scripts/error-codes/transform-error-messages.js
+       • scripts/error-codes/extract-errors.js
+       • scripts/devtools/publish-release.js
+     📄 Files WITHOUT ForStatement (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   YieldExpression:
+     📄 Files WITH YieldExpression (showing 6):
+       • packages/react-server-dom-webpack/src/__tests__/ReactFlightDOMReplyEdge-test.js
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/TestUtils.ts
+       • compiler/packages/babel-plugin-react-compiler/src/TypeInference/InferTypes.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Transform/TransformFire.ts
+       • compiler/packages/babel-plugin-react-compiler/src/ReactiveScopes/visitors.ts
+       • compiler/packages/babel-plugin-react-compiler/src/HIR/visitors.ts
+     📄 Files WITHOUT YieldExpression (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   JSXText:
+     📄 Files WITH JSXText (showing 10):
+       • compiler/apps/playground/components/TabbedWindow.tsx
+       • compiler/apps/playground/components/StoreContext.tsx
+       • compiler/apps/playground/components/Message.tsx
+       • compiler/apps/playground/components/Logo.tsx
+       • compiler/apps/playground/components/Header.tsx
+       • compiler/apps/playground/app/page.tsx
+       • compiler/apps/playground/app/layout.tsx
+       • compiler/apps/playground/app/index.tsx
+       • compiler/apps/playground/components/Editor/Output.tsx
+       • compiler/apps/playground/components/Editor/Input.tsx
+     📄 Files WITHOUT JSXText (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   AssignmentPattern:
+     📄 Files WITH AssignmentPattern (showing 10):
+       • scripts/bench/build.js
+       • packages/react-devtools-extensions/utils.js
+       • packages/react-devtools-extensions/build.js
+       • packages/internal-test-utils/consoleMock.js
+       • packages/dom-event-testing-library/domEvents.js
+       • packages/dom-event-testing-library/domEventSequences.js
+       • scripts/rollup/plugins/closure-plugin.js
+       • scripts/error-codes/__tests__/transform-error-messages.js
+       • packages/react-refresh/src/ReactFreshBabelPlugin.js
+       • packages/eslint-plugin-react-hooks/__tests__/ESLintRulesOfHooks-test.js
+     📄 Files WITHOUT AssignmentPattern (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TryStatement:
+     📄 Files WITH TryStatement (showing 10):
+       • dangerfile.js
+       • scripts/shared/listChangedFiles.js
+       • scripts/rollup/packaging.js
+       • scripts/rollup/forks.js
+       • scripts/rollup/build.js
+       • scripts/release/snapshot-test.js
+       • scripts/release/publish.js
+       • scripts/release/prepare-release-from-npm.js
+       • scripts/release/prepare-release-from-ci.js
+       • scripts/release/download-experimental-build.js
+     📄 Files WITHOUT TryStatement (showing 10):
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+       • scripts/tasks/danger.js
+
+   TSTypeParameter:
+     📄 Files WITH TSTypeParameter (showing 10):
+       • packages/eslint-plugin-react-hooks/src/rules/RulesOfHooks.ts
+       • compiler/packages/make-read-only-util/src/makeReadOnly.ts
+       • compiler/apps/playground/lib/createContext.ts
+       • compiler/packages/snap/src/sprout/shared-runtime.ts
+       • compiler/packages/make-read-only-util/src/__tests__/makeReadOnly-test.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/utils.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/types.d.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/Stack.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/Result.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/DisjointSet.ts
+     📄 Files WITHOUT TSTypeParameter (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSFunctionType:
+     📄 Files WITH TSFunctionType (showing 10):
+       • scripts/jest/typescript/jest.d.ts
+       • packages/react-devtools-fusebox/src/frontend.d.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
+       • compiler/packages/snap/src/runner-watch.ts
+       • compiler/packages/snap/src/compiler.ts
+       • compiler/packages/react-mcp-server/src/index.ts
+       • compiler/packages/react-compiler-runtime/src/index.ts
+       • compiler/packages/make-read-only-util/src/makeReadOnly.ts
+       • compiler/apps/playground/lib/createContext.ts
+       • compiler/apps/playground/components/TabbedWindow.tsx
+     📄 Files WITHOUT TSFunctionType (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   CatchClause:
+     📄 Files WITH CatchClause (showing 10):
+       • dangerfile.js
+       • scripts/shared/listChangedFiles.js
+       • scripts/rollup/packaging.js
+       • scripts/rollup/forks.js
+       • scripts/rollup/build.js
+       • scripts/release/snapshot-test.js
+       • scripts/release/publish.js
+       • scripts/release/prepare-release-from-npm.js
+       • scripts/release/prepare-release-from-ci.js
+       • scripts/release/download-experimental-build.js
+     📄 Files WITHOUT CatchClause (showing 10):
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+       • scripts/tasks/danger.js
+
+   ForInStatement:
+     📄 Files WITH ForInStatement (showing 10):
+       • scripts/rollup/build-all-release-channels.js
+       • scripts/release/check-release-dependencies.js
+       • scripts/devtools/prepare-release.js
+       • packages/react-devtools-shared/babel.config.js
+       • scripts/release/publish-commands/validate-skip-packages.js
+       • scripts/release/prepare-release-from-npm-commands/update-stable-version-numbers.js
+       • packages/react/src/ReactBaseClasses.js
+       • packages/react-native-renderer/src/legacy-events/SyntheticEvent.js
+       • packages/react-dom-bindings/src/shared/ReactDOMUnknownPropertyHook.js
+       • packages/react-dom-bindings/src/shared/ReactDOMInvalidARIAHook.js
+     📄 Files WITHOUT ForInStatement (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSTypeParameterDeclaration:
+     📄 Files WITH TSTypeParameterDeclaration (showing 10):
+       • packages/eslint-plugin-react-hooks/src/rules/RulesOfHooks.ts
+       • compiler/packages/make-read-only-util/src/makeReadOnly.ts
+       • compiler/apps/playground/lib/createContext.ts
+       • compiler/packages/snap/src/sprout/shared-runtime.ts
+       • compiler/packages/make-read-only-util/src/__tests__/makeReadOnly-test.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/utils.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/types.d.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/Stack.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/Result.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/DisjointSet.ts
+     📄 Files WITHOUT TSTypeParameterDeclaration (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   WhileStatement:
+     📄 Files WITH WhileStatement (showing 10):
+       • scripts/rollup/forks.js
+       • scripts/release/publish-using-ci-workflow.js
+       • scripts/jest/setupHostConfigs.js
+       • scripts/flow/createFlowConfigs.js
+       • scripts/eslint-rules/safe-string-coercion.js
+       • scripts/eslint-rules/no-production-logging.js
+       • scripts/error-codes/transform-error-messages.js
+       • scripts/babel/transform-test-gate-pragma.js
+       • scripts/babel/getComments.js
+       • packages/internal-test-utils/simulateBrowserEventDispatch.js
+     📄 Files WITHOUT WhileStatement (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   JSXElement:
+     📄 Files WITH JSXElement (showing 10):
+       • compiler/apps/playground/components/TabbedWindow.tsx
+       • compiler/apps/playground/components/StoreContext.tsx
+       • compiler/apps/playground/components/Message.tsx
+       • compiler/apps/playground/components/Logo.tsx
+       • compiler/apps/playground/components/Header.tsx
+       • compiler/apps/playground/app/page.tsx
+       • compiler/apps/playground/app/layout.tsx
+       • compiler/apps/playground/app/index.tsx
+       • compiler/apps/playground/components/Editor/Output.tsx
+       • compiler/apps/playground/components/Editor/Input.tsx
+     📄 Files WITHOUT JSXElement (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   JSXOpeningElement:
+     📄 Files WITH JSXOpeningElement (showing 10):
+       • compiler/apps/playground/components/TabbedWindow.tsx
+       • compiler/apps/playground/components/StoreContext.tsx
+       • compiler/apps/playground/components/Message.tsx
+       • compiler/apps/playground/components/Logo.tsx
+       • compiler/apps/playground/components/Header.tsx
+       • compiler/apps/playground/app/page.tsx
+       • compiler/apps/playground/app/layout.tsx
+       • compiler/apps/playground/app/index.tsx
+       • compiler/apps/playground/components/Editor/Output.tsx
+       • compiler/apps/playground/components/Editor/Input.tsx
+     📄 Files WITHOUT JSXOpeningElement (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSEnumMember:
+     📄 Files WITH TSEnumMember (showing 10):
+       • compiler/packages/snap/src/runner-watch.ts
+       • compiler/packages/react-compiler-runtime/src/index.ts
+       • compiler/packages/babel-plugin-react-compiler/src/CompilerError.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Validation/ValidatePreservedManualMemoization.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Validation/ValidateHooksUsage.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/RuntimeDiagnosticConstants.ts
+       • compiler/packages/babel-plugin-react-compiler/src/ReactiveScopes/PruneNonEscapingScopes.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Optimization/InstructionReordering.ts
+       • compiler/packages/babel-plugin-react-compiler/src/HIR/PropagateScopeDependenciesHIR.ts
+       • compiler/packages/babel-plugin-react-compiler/src/HIR/HIR.ts
+     📄 Files WITHOUT TSEnumMember (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   JSXExpressionContainer:
+     📄 Files WITH JSXExpressionContainer (showing 10):
+       • compiler/apps/playground/components/TabbedWindow.tsx
+       • compiler/apps/playground/components/StoreContext.tsx
+       • compiler/apps/playground/components/Message.tsx
+       • compiler/apps/playground/components/Header.tsx
+       • compiler/apps/playground/app/page.tsx
+       • compiler/apps/playground/app/layout.tsx
+       • compiler/apps/playground/app/index.tsx
+       • compiler/apps/playground/components/Editor/Output.tsx
+       • compiler/apps/playground/components/Editor/Input.tsx
+       • compiler/apps/playground/components/Editor/EditorImpl.tsx
+     📄 Files WITHOUT JSXExpressionContainer (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   ImportNamespaceSpecifier:
+     📄 Files WITH ImportNamespaceSpecifier (showing 10):
+       • packages/shared/ReactSharedInternals.js
+       • packages/shared/ReactDOMSharedInternals.js
+       • packages/dom-event-testing-library/index.js
+       • packages/dom-event-testing-library/domEventSequences.js
+       • packages/use-sync-external-store/src/useSyncExternalStore.js
+       • packages/react/src/ReactClient.js
+       • packages/use-sync-external-store/src/forks/useSyncExternalStore.forward-to-shim.js
+       • packages/use-sync-external-store/src/forks/useSyncExternalStore.forward-to-built-in.js
+       • packages/react-dom/src/test-utils/ReactTestUtils.js
+       • packages/react-dom/src/shared/ensureCorrectIsomorphicReactVersion.js
+     📄 Files WITHOUT ImportNamespaceSpecifier (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   ExportDefaultDeclaration:
+     📄 Files WITH ExportDefaultDeclaration (showing 10):
+       • packages/shared/noop.js
+       • packages/shared/hasOwnProperty.js
+       • packages/shared/getPrototypeOf.js
+       • packages/shared/formatProdErrorMessage.js
+       • packages/shared/assign.js
+       • packages/shared/ReactVersion.js
+       • packages/shared/ReactSharedInternals.js
+       • packages/shared/ReactDOMSharedInternals.js
+       • packages/react-test-renderer/shallow.js
+       • packages/internal-test-utils/simulateBrowserEventDispatch.js
+     📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSMethodSignature:
+     📄 Files WITH TSMethodSignature (showing 6):
+       • scripts/jest/typescript/jest.d.ts
+       • packages/react-devtools-fusebox/src/frontend.d.ts
+       • compiler/packages/make-read-only-util/src/makeReadOnly.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/Stack.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/Result.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Inference/InferFunctionEffects.ts
+     📄 Files WITHOUT TSMethodSignature (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   JSXClosingElement:
+     📄 Files WITH JSXClosingElement (showing 10):
+       • compiler/apps/playground/components/TabbedWindow.tsx
+       • compiler/apps/playground/components/StoreContext.tsx
+       • compiler/apps/playground/components/Message.tsx
+       • compiler/apps/playground/components/Logo.tsx
+       • compiler/apps/playground/components/Header.tsx
+       • compiler/apps/playground/app/page.tsx
+       • compiler/apps/playground/app/layout.tsx
+       • compiler/apps/playground/app/index.tsx
+       • compiler/apps/playground/components/Editor/Output.tsx
+       • compiler/apps/playground/components/Editor/Input.tsx
+     📄 Files WITHOUT JSXClosingElement (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSUndefinedKeyword:
+     📄 Files WITH TSUndefinedKeyword (showing 10):
+       • packages/eslint-plugin-react-hooks/src/rules/RulesOfHooks.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
+       • compiler/packages/babel-plugin-react-compiler/src/index.ts
+       • compiler/packages/babel-plugin-react-compiler/src/CompilerError.ts
+       • compiler/apps/playground/components/Message.tsx
+       • compiler/packages/react-forgive/client/src/extension.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Validation/ValidateNoRefAccessInRender.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/utils.ts
+       • compiler/packages/babel-plugin-react-compiler/src/TypeInference/InferTypes.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Transform/TransformFire.ts
+     📄 Files WITHOUT TSUndefinedKeyword (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   Hashbang:
+     📄 Files WITH Hashbang (showing 10):
+       • scripts/release/snapshot-test.js
+       • scripts/release/publish.js
+       • scripts/release/prepare-release-from-npm.js
+       • scripts/release/prepare-release-from-ci.js
+       • scripts/release/download-experimental-build.js
+       • scripts/release/build-release.js
+       • scripts/release/build-release-locally.js
+       • scripts/jest/jest.js
+       • scripts/devtools/publish-release.js
+       • scripts/devtools/prepare-release.js
+     📄 Files WITHOUT Hashbang (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSNeverKeyword:
+     📄 Files WITH TSNeverKeyword (showing 10):
+       • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
+       • compiler/packages/babel-plugin-react-compiler/src/CompilerError.ts
+       • compiler/packages/snap/src/sprout/shared-runtime.ts
+       • compiler/packages/react-mcp-server/src/utils/assertExhaustive.ts
+       • compiler/packages/eslint-plugin-react-compiler/src/rules/ReactCompilerRule.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/utils.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/types.d.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/todo.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/Result.ts
+       • compiler/packages/babel-plugin-react-compiler/src/HIR/HIR.ts
+     📄 Files WITHOUT TSNeverKeyword (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   RestElement:
+     📄 Files WITH RestElement (showing 10):
+       • scripts/tasks/linc.js
+       • scripts/tasks/eslint.js
+       • scripts/jest/setupTests.js
+       • scripts/eslint/index.js
+       • packages/internal-test-utils/consoleMock.js
+       • scripts/jest/typescript/jest.d.ts
+       • scripts/jest/spec-equivalence-reporter/setupTests.js
+       • scripts/babel/__tests__/transform-test-gate-pragma-test.js
+       • packages/scheduler/src/__tests__/SchedulerMock-test.js
+       • packages/react-devtools-shared/src/__tests__/transform-react-version-pragma-test.js
+     📄 Files WITHOUT RestElement (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/danger.js
+       • scripts/shared/pathsByLanguageVersion.js
+
+   TSIndexedAccessType:
+     📄 Files WITH TSIndexedAccessType (showing 10):
+       • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
+       • compiler/packages/babel-plugin-react-compiler/src/CompilerError.ts
+       • compiler/apps/playground/components/Logo.tsx
+       • compiler/packages/snap/src/sprout/shared-runtime.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/types.d.ts
+       • compiler/packages/babel-plugin-react-compiler/src/TypeInference/InferTypes.ts
+       • compiler/packages/babel-plugin-react-compiler/src/ReactiveScopes/PropagateEarlyReturns.ts
+       • compiler/packages/babel-plugin-react-compiler/src/ReactiveScopes/CodegenReactiveFunction.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Optimization/InlineJsxTransform.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Optimization/DeadCodeElimination.ts
+     📄 Files WITHOUT TSIndexedAccessType (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSTypeQuery:
+     📄 Files WITH TSTypeQuery (showing 10):
+       • compiler/packages/snap/src/runner.ts
+       • compiler/packages/snap/src/runner-worker.ts
+       • compiler/packages/snap/src/compiler.ts
+       • compiler/packages/react-compiler-runtime/src/index.ts
+       • compiler/packages/babel-plugin-react-compiler/scripts/babel-plugin-annotate-react-code.ts
+       • compiler/packages/snap/src/sprout/shared-runtime-type-provider.ts
+       • compiler/packages/babel-plugin-react-compiler/src/HIR/HIR.ts
+       • compiler/packages/babel-plugin-react-compiler/src/HIR/Environment.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Entrypoint/Options.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Babel/BabelPlugin.ts
+     📄 Files WITHOUT TSTypeQuery (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSIntersectionType:
+     📄 Files WITH TSIntersectionType (showing 10):
+       • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
+       • compiler/packages/snap/src/runner.ts
+       • compiler/packages/make-read-only-util/src/makeReadOnly.ts
+       • compiler/packages/babel-plugin-react-compiler/scripts/babel-plugin-annotate-react-code.ts
+       • compiler/packages/react-mcp-server/src/types/algolia.ts
+       • compiler/packages/react-compiler-healthcheck/src/checks/reactCompiler.ts
+       • compiler/packages/eslint-plugin-react-compiler/src/rules/ReactCompilerRule.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Validation/ValidateNoRefAccessInRender.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/HookDeclaration.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/ComponentDeclaration.ts
+     📄 Files WITHOUT TSIntersectionType (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSTupleType:
+     📄 Files WITH TSTupleType (showing 10):
+       • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
+       • compiler/packages/snap/src/runner.ts
+       • compiler/packages/snap/src/reporter.ts
+       • compiler/packages/snap/src/fixture-utils.ts
+       • compiler/packages/snap/src/compiler.ts
+       • compiler/packages/babel-plugin-react-compiler/src/CompilerError.ts
+       • compiler/packages/react-forgive/client/src/colors.ts
+       • compiler/packages/react-forgive/client/src/autodeps.ts
+       • compiler/packages/babel-plugin-react-compiler/src/__tests__/Logger-test.ts
+       • compiler/packages/babel-plugin-react-compiler/src/ReactiveScopes/PruneInitializationDependencies.ts
+     📄 Files WITHOUT TSTupleType (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSArrayType:
+     📄 Files WITH TSArrayType (showing 10):
+       • packages/react-devtools-fusebox/src/frontend.d.ts
+       • packages/eslint-plugin-react-hooks/__tests__/ReactCompilerRuleTypescript-test.ts
+       • packages/eslint-plugin-react-hooks/__tests__/ReactCompilerRule-test.ts
+       • compiler/packages/react-mcp-server/src/index.ts
+       • compiler/packages/make-read-only-util/src/makeReadOnly.ts
+       • compiler/packages/eslint-plugin-react-compiler/__tests__/ReactCompilerRuleTypescript-test.ts
+       • compiler/packages/eslint-plugin-react-compiler/__tests__/ReactCompilerRule-test.ts
+       • packages/react/src/__tests__/testDefinitions/React.d.ts
+       • compiler/packages/react-mcp-server/src/types/algolia.ts
+       • compiler/packages/react-mcp-server/src/tools/runtimePerf.ts
+     📄 Files WITHOUT TSArrayType (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSUnknownKeyword:
+     📄 Files WITH TSUnknownKeyword (showing 10):
+       • packages/react-devtools-fusebox/src/frontend.d.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
+       • compiler/packages/snap/src/runner-worker.ts
+       • compiler/packages/react-compiler-runtime/src/index.ts
+       • compiler/packages/make-read-only-util/src/makeReadOnly.ts
+       • compiler/packages/babel-plugin-react-compiler/src/CompilerError.ts
+       • compiler/packages/snap/src/sprout/shared-runtime.ts
+       • compiler/packages/snap/src/sprout/evaluator.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/todo.ts
+     📄 Files WITHOUT TSUnknownKeyword (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSDeclareFunction:
+     📄 Files WITH TSDeclareFunction (showing 10):
+       • scripts/jest/typescript/jest.d.ts
+       • packages/react-devtools-fusebox/src/frontend.d.ts
+       • packages/eslint-plugin-react-hooks/src/types/hermes-parser.d.ts
+       • packages/eslint-plugin-react-hooks/src/types/hermes-eslint.d.ts
+       • compiler/packages/snap/src/types.d.ts
+       • compiler/apps/playground/lib/types.d.ts
+       • packages/react/src/__tests__/testDefinitions/ReactInternalAct.d.ts
+       • packages/react/src/__tests__/testDefinitions/ReactDOMClient.d.ts
+       • packages/react/src/__tests__/testDefinitions/ReactDOM.d.ts
+       • packages/react/src/__tests__/testDefinitions/React.d.ts
+     📄 Files WITHOUT TSDeclareFunction (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   Super:
+     📄 Files WITH Super (showing 10):
+       • scripts/jest/ReactJSDOMEnvironment.js
+       • scripts/jest/ReactDOMServerIntegrationEnvironment.js
+       • packages/react-devtools-shared/src/errors/PermissionNotGrantedError.js
+       • packages/react-devtools-shared/src/errors/ElementPollingCancellationError.js
+       • packages/react-devtools-extensions/src/main/reactPolling.js
+       • packages/react/src/__tests__/ReactTypeScriptClass-test.ts
+       • compiler/packages/babel-plugin-react-compiler/src/CompilerError.ts
+       • packages/react-dom/src/__tests__/utils/ReactDOMServerIntegrationTestUtils.js
+       • compiler/packages/snap/src/sprout/evaluator.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Validation/ValidateNoRefAccessInRender.ts
+     📄 Files WITHOUT Super (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSInterfaceDeclaration:
+     📄 Files WITH TSInterfaceDeclaration (showing 10):
+       • scripts/jest/typescript/jest.d.ts
+       • packages/eslint-plugin-react-hooks/src/types/estree.d.ts
+       • compiler/apps/playground/components/Message.tsx
+       • compiler/packages/react-mcp-server/src/types/algolia.ts
+       • compiler/packages/react-forgive/client/src/autodeps.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/Stack.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/Result.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Inference/InferFunctionEffects.ts
+       • compiler/apps/playground/lib/stores/store.ts
+       • compiler/apps/playground/lib/stores/messages.ts
+     📄 Files WITHOUT TSInterfaceDeclaration (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSInterfaceBody:
+     📄 Files WITH TSInterfaceBody (showing 10):
+       • scripts/jest/typescript/jest.d.ts
+       • packages/eslint-plugin-react-hooks/src/types/estree.d.ts
+       • compiler/apps/playground/components/Message.tsx
+       • compiler/packages/react-mcp-server/src/types/algolia.ts
+       • compiler/packages/react-forgive/client/src/autodeps.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/Stack.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/Result.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Inference/InferFunctionEffects.ts
+       • compiler/apps/playground/lib/stores/store.ts
+       • compiler/apps/playground/lib/stores/messages.ts
+     📄 Files WITHOUT TSInterfaceBody (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSTypePredicate:
+     📄 Files WITH TSTypePredicate (showing 10):
+       • packages/eslint-plugin-react-hooks/src/rules/RulesOfHooks.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ReactCompiler.ts
+       • compiler/packages/babel-plugin-react-compiler/src/CompilerError.ts
+       • compiler/packages/babel-plugin-react-compiler/scripts/babel-plugin-annotate-react-code.ts
+       • compiler/packages/eslint-plugin-react-compiler/src/rules/ReactCompilerRule.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Validation/ValidateNoRefAccessInRender.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/utils.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/todo.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/Result.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/HookDeclaration.ts
+     📄 Files WITHOUT TSTypePredicate (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSEnumDeclaration:
+     📄 Files WITH TSEnumDeclaration (showing 10):
+       • compiler/packages/snap/src/runner-watch.ts
+       • compiler/packages/react-compiler-runtime/src/index.ts
+       • compiler/packages/babel-plugin-react-compiler/src/CompilerError.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Validation/ValidatePreservedManualMemoization.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Validation/ValidateHooksUsage.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/RuntimeDiagnosticConstants.ts
+       • compiler/packages/babel-plugin-react-compiler/src/ReactiveScopes/PruneNonEscapingScopes.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Optimization/InstructionReordering.ts
+       • compiler/packages/babel-plugin-react-compiler/src/HIR/PropagateScopeDependenciesHIR.ts
+       • compiler/packages/babel-plugin-react-compiler/src/HIR/HIR.ts
+     📄 Files WITHOUT TSEnumDeclaration (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSEnumBody:
+     📄 Files WITH TSEnumBody (showing 10):
+       • compiler/packages/snap/src/runner-watch.ts
+       • compiler/packages/react-compiler-runtime/src/index.ts
+       • compiler/packages/babel-plugin-react-compiler/src/CompilerError.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Validation/ValidatePreservedManualMemoization.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Validation/ValidateHooksUsage.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/RuntimeDiagnosticConstants.ts
+       • compiler/packages/babel-plugin-react-compiler/src/ReactiveScopes/PruneNonEscapingScopes.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Optimization/InstructionReordering.ts
+       • compiler/packages/babel-plugin-react-compiler/src/HIR/PropagateScopeDependenciesHIR.ts
+       • compiler/packages/babel-plugin-react-compiler/src/HIR/HIR.ts
+     📄 Files WITHOUT TSEnumBody (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSModuleDeclaration:
+     📄 Files WITH TSModuleDeclaration (showing 10):
+       • packages/eslint-plugin-react-hooks/src/types/hermes-parser.d.ts
+       • packages/eslint-plugin-react-hooks/src/types/hermes-eslint.d.ts
+       • packages/eslint-plugin-react-hooks/src/types/estree.d.ts
+       • compiler/packages/snap/src/types.d.ts
+       • compiler/packages/babel-plugin-react-compiler/src/index.ts
+       • compiler/apps/playground/lib/types.d.ts
+       • compiler/apps/playground/components/Message.tsx
+       • packages/react/src/__tests__/testDefinitions/ReactInternalAct.d.ts
+       • packages/react/src/__tests__/testDefinitions/ReactDOMClient.d.ts
+       • packages/react/src/__tests__/testDefinitions/ReactDOM.d.ts
+     📄 Files WITHOUT TSModuleDeclaration (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSModuleBlock:
+     📄 Files WITH TSModuleBlock (showing 10):
+       • packages/eslint-plugin-react-hooks/src/types/hermes-parser.d.ts
+       • packages/eslint-plugin-react-hooks/src/types/hermes-eslint.d.ts
+       • packages/eslint-plugin-react-hooks/src/types/estree.d.ts
+       • compiler/packages/snap/src/types.d.ts
+       • compiler/packages/babel-plugin-react-compiler/src/index.ts
+       • compiler/apps/playground/lib/types.d.ts
+       • compiler/apps/playground/components/Message.tsx
+       • packages/react/src/__tests__/testDefinitions/ReactInternalAct.d.ts
+       • packages/react/src/__tests__/testDefinitions/ReactDOMClient.d.ts
+       • packages/react/src/__tests__/testDefinitions/ReactDOM.d.ts
+     📄 Files WITHOUT TSModuleBlock (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   DoWhileStatement:
+     📄 Files WITH DoWhileStatement (showing 7):
+       • scripts/error-codes/extract-errors.js
+       • scripts/babel/transform-test-gate-pragma.js
+       • packages/react-dom-bindings/src/server/fizz-instruction-set/ReactDOMFizzInstructionSetShared.js
+       • compiler/packages/babel-plugin-react-compiler/src/SSA/EliminateRedundantPhi.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Optimization/DeadCodeElimination.ts
+       • compiler/packages/babel-plugin-react-compiler/src/HIR/CollectHoistablePropertyLoads.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Inference/InferReactivePlaces.ts
+     📄 Files WITHOUT DoWhileStatement (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   LabeledStatement:
+     📄 Files WITH LabeledStatement (showing 9):
+       • packages/scheduler/src/__tests__/SchedulerProfiling-test.js
+       • packages/react-dom-bindings/src/client/ReactDOMSelection.js
+       • compiler/packages/babel-plugin-react-compiler/src/Validation/ValidateStaticComponents.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Validation/ValidateNoFreezingKnownMutableFunctions.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/utils.ts
+       • compiler/packages/babel-plugin-react-compiler/src/SSA/EliminateRedundantPhi.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Inference/InlineImmediatelyInvokedFunctionExpressions.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Inference/InerAliasForUncalledFunctions.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Inference/DropManualMemoization.ts
+     📄 Files WITHOUT LabeledStatement (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSInterfaceHeritage:
+     📄 Files WITH TSInterfaceHeritage (showing 2):
+       • packages/eslint-plugin-react-hooks/src/types/estree.d.ts
+       • compiler/apps/playground/components/Message.tsx
+     📄 Files WITHOUT TSInterfaceHeritage (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSObjectKeyword:
+     📄 Files WITH TSObjectKeyword (showing 3):
+       • compiler/packages/make-read-only-util/src/makeReadOnly.ts
+       • compiler/packages/snap/src/sprout/shared-runtime.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Entrypoint/Imports.ts
+     📄 Files WITHOUT TSObjectKeyword (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSParenthesizedType:
+     📄 Files WITH TSParenthesizedType (showing 5):
+       • compiler/packages/snap/src/sprout/useEffectWrapper.ts
+       • compiler/packages/babel-plugin-react-compiler/src/HIR/HIR.ts
+       • compiler/packages/babel-plugin-react-compiler/src/HIR/AssertValidBlockNesting.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Entrypoint/Program.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Entrypoint/Options.ts
+     📄 Files WITHOUT TSParenthesizedType (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSThisType:
+     📄 Files WITH TSThisType (showing 2):
+       • compiler/packages/babel-plugin-react-compiler/src/Validation/ValidateNoRefAccessInRender.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/Result.ts
+     📄 Files WITHOUT TSThisType (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSImportEqualsDeclaration:
+     📄 Files WITH TSImportEqualsDeclaration (showing 1):
+       • packages/react/src/__tests__/ReactTypeScriptClass-test.ts
+     📄 Files WITHOUT TSImportEqualsDeclaration (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSExternalModuleReference:
+     📄 Files WITH TSExternalModuleReference (showing 1):
+       • packages/react/src/__tests__/ReactTypeScriptClass-test.ts
+     📄 Files WITHOUT TSExternalModuleReference (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSTypeOperator:
+     📄 Files WITH TSTypeOperator (showing 5):
+       • compiler/packages/snap/src/sprout/shared-runtime.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/utils.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/types.d.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/TestUtils.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Entrypoint/Options.ts
+     📄 Files WITHOUT TSTypeOperator (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   JSXFragment:
+     📄 Files WITH JSXFragment (showing 2):
+       • compiler/apps/playground/components/Editor/Output.tsx
+       • compiler/apps/playground/components/Editor/EditorImpl.tsx
+     📄 Files WITHOUT JSXFragment (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   JSXOpeningFragment:
+     📄 Files WITH JSXOpeningFragment (showing 2):
+       • compiler/apps/playground/components/Editor/Output.tsx
+       • compiler/apps/playground/components/Editor/EditorImpl.tsx
+     📄 Files WITHOUT JSXOpeningFragment (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   JSXClosingFragment:
+     📄 Files WITH JSXClosingFragment (showing 2):
+       • compiler/apps/playground/components/Editor/Output.tsx
+       • compiler/apps/playground/components/Editor/EditorImpl.tsx
+     📄 Files WITHOUT JSXClosingFragment (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   ClassExpression:
+     📄 Files WITH ClassExpression (showing 5):
+       • scripts/jest/patchMessageChannel.js
+       • packages/use-sync-external-store/src/__tests__/useSyncExternalStoreShared-test.js
+       • packages/scheduler/src/__tests__/SchedulerPostTask-test.js
+       • packages/react/src/__tests__/ReactCreateElement-test.js
+       • packages/react-native-renderer/src/__mocks__/react-native/Libraries/ReactPrivate/InitializeNativeFabricUIManager.js
+     📄 Files WITHOUT ClassExpression (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSIndexSignature:
+     📄 Files WITH TSIndexSignature (showing 5):
+       • packages/react-devtools-fusebox/src/frontend.d.ts
+       • compiler/packages/react-compiler-runtime/src/index.ts
+       • compiler/packages/snap/src/sprout/shared-runtime.ts
+       • compiler/packages/babel-plugin-react-compiler/src/HIR/TypeSchema.ts
+       • compiler/packages/babel-plugin-react-compiler/src/HIR/BuildHIR.ts
+     📄 Files WITHOUT TSIndexSignature (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSSatisfiesExpression:
+     📄 Files WITH TSSatisfiesExpression (showing 3):
+       • packages/eslint-plugin-react-hooks/src/index.ts
+       • packages/eslint-plugin-react-hooks/src/rules/RulesOfHooks.ts
+       • packages/eslint-plugin-react-hooks/src/rules/ExhaustiveDeps.ts
+     📄 Files WITHOUT TSSatisfiesExpression (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSParameterProperty:
+     📄 Files WITH TSParameterProperty (showing 2):
+       • compiler/packages/react-forgive/client/src/colors.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/Result.ts
+     📄 Files WITHOUT TSParameterProperty (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   MetaProperty:
+     📄 Files WITH MetaProperty (showing 4):
+       • packages/internal-test-utils/ReactJSDOM.js
+       • compiler/packages/react-forgive/scripts/server.mjs
+       • compiler/packages/react-forgive/scripts/client.mjs
+       • compiler/packages/react-forgive/scripts/build.mjs
+     📄 Files WITHOUT MetaProperty (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSBigIntKeyword:
+     📄 Files WITH TSBigIntKeyword (showing 1):
+       • packages/eslint-plugin-react-hooks/src/rules/RulesOfHooks.ts
+     📄 Files WITHOUT TSBigIntKeyword (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   JSXMemberExpression:
+     📄 Files WITH JSXMemberExpression (showing 1):
+       • compiler/apps/playground/components/StoreContext.tsx
+     📄 Files WITHOUT JSXMemberExpression (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSClassImplements:
+     📄 Files WITH TSClassImplements (showing 2):
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/Stack.ts
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/Result.ts
+     📄 Files WITHOUT TSClassImplements (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSEmptyBodyFunctionExpression:
+     📄 Files WITH TSEmptyBodyFunctionExpression (showing 1):
+       • packages/react/src/__tests__/testDefinitions/React.d.ts
+     📄 Files WITHOUT TSEmptyBodyFunctionExpression (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSCallSignatureDeclaration:
+     📄 Files WITH TSCallSignatureDeclaration (showing 1):
+       • scripts/jest/typescript/jest.d.ts
+     📄 Files WITHOUT TSCallSignatureDeclaration (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   JSXSpreadAttribute:
+     📄 Files WITH JSXSpreadAttribute (showing 2):
+       • compiler/apps/playground/components/Logo.tsx
+       • compiler/apps/playground/components/Icons/IconGitHub.tsx
+     📄 Files WITHOUT JSXSpreadAttribute (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSSymbolKeyword:
+     📄 Files WITH TSSymbolKeyword (showing 1):
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/utils.ts
+     📄 Files WITHOUT TSSymbolKeyword (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSMappedType:
+     📄 Files WITH TSMappedType (showing 1):
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/types.d.ts
+     📄 Files WITHOUT TSMappedType (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   TSConditionalType:
+     📄 Files WITH TSConditionalType (showing 1):
+       • compiler/packages/babel-plugin-react-compiler/src/Utils/types.d.ts
+     📄 Files WITHOUT TSConditionalType (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   ImportExpression:
+     📄 Files WITH ImportExpression (showing 1):
+       • compiler/apps/playground/components/Editor/index.tsx
+     📄 Files WITHOUT ImportExpression (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
+
+   EmptyStatement:
+     📄 Files WITH EmptyStatement (showing 1):
+       • packages/react-devtools-shared/src/hooks/__tests__/__source__/__untransformed__/ComponentWithNestedHooks.js
+     📄 Files WITHOUT EmptyStatement (showing 10):
+       • dangerfile.js
+       • babel.config.js
+       • babel.config-ts.js
+       • babel.config-react-compiler.js
+       • ReactVersions.js
+       • scripts/tasks/version-check.js
+       • scripts/tasks/linc.js
+       • scripts/tasks/flow.js
+       • scripts/tasks/flow-ci.js
+       • scripts/tasks/eslint.js
 
 ❌ FAILED FILES:
    /Users/camchenry/workspace/ast-analysis/sample-repos/react/compiler/apps/playground/__tests__/e2e/__snapshots__/page.spec.ts: EISDIR: illegal operation on a directory, read
@@ -405,6 +3495,10 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/use-subscription/src/useSubscription.js:
    Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/scheduler/src/SchedulerProfiling.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/scheduler/src/SchedulerMinHeap.js:
+   Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/shared/__tests__/ReactError-test.internal.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/shared/forks/ReactFeatureFlags.www.js:
@@ -418,10 +3512,6 @@ Warnings/Errors:
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/shared/forks/ReactFeatureFlags.native-oss.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/shared/forks/ReactFeatureFlags.native-fb.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/scheduler/src/SchedulerProfiling.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/scheduler/src/SchedulerMinHeap.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-test-renderer/src/ReactTestRenderer.js:
    Flow is not supported
@@ -953,14 +4043,6 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-turbopack/src/server/ReactFlightDOMServerBrowser.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-turbopack/src/__tests__/ReactFlightTurbopackDOMNode-test.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-turbopack/src/__tests__/ReactFlightTurbopackDOMEdge-test.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-turbopack/src/__tests__/ReactFlightTurbopackDOMBrowser-test.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-turbopack/src/__tests__/ReactFlightTurbopackDOM-test.js:
-   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-turbopack/src/client/ReactFlightDOMClientNode.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-turbopack/src/client/ReactFlightDOMClientEdge.js:
@@ -979,6 +4061,14 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-turbopack/src/client/ReactFlightClientConfigBundlerNode.js:
    Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-turbopack/src/__tests__/ReactFlightTurbopackDOMNode-test.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-turbopack/src/__tests__/ReactFlightTurbopackDOMEdge-test.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-turbopack/src/__tests__/ReactFlightTurbopackDOMBrowser-test.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-turbopack/src/__tests__/ReactFlightTurbopackDOM-test.js:
+   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-parcel/src/shared/ReactFlightImportMetadata.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-parcel/src/server/ReactFlightServerConfigParcelBundler.js:
@@ -1016,10 +4106,6 @@ Warnings/Errors:
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-esm/src/client/ReactFlightClientConfigTargetESMBrowser.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server-dom-esm/src/client/ReactFlightClientConfigBundlerESM.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server/src/flight/ReactFlightCurrentOwner.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server/src/flight/ReactFlightAsyncDispatcher.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server/src/forks/ReactServerStreamConfig.dom-fb.js:
    Flow is not supported
@@ -1066,6 +4152,10 @@ Warnings/Errors:
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server/src/forks/ReactFizzConfig.dom-edge.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server/src/forks/ReactFizzConfig.custom.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server/src/flight/ReactFlightCurrentOwner.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server/src/flight/ReactFlightAsyncDispatcher.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-server/src/__tests__/ReactServer-test.js:
    Unexpected token
@@ -1223,20 +4313,6 @@ Warnings/Errors:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-reconciler/src/__tests__/Activity-test.js:
    Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-native-renderer/src/__tests__/createReactNativeComponentClass-test.internal.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-native-renderer/src/__tests__/ResponderEventPlugin-test.internal.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-native-renderer/src/__tests__/ReactNativeMount-test.internal.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-native-renderer/src/__tests__/ReactNativeEvents-test.internal.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-native-renderer/src/__tests__/ReactFabricFragmentRefs-test.internal.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-native-renderer/src/__tests__/ReactFabricAndNative-test.internal.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-native-renderer/src/__tests__/ReactFabric-test.internal.js:
-   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-native-renderer/src/legacy-events/forEachAccumulated.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-native-renderer/src/legacy-events/accumulateInto.js:
@@ -1259,6 +4335,20 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-native-renderer/src/legacy-events/EventBatching.js:
    Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-native-renderer/src/__tests__/createReactNativeComponentClass-test.internal.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-native-renderer/src/__tests__/ResponderEventPlugin-test.internal.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-native-renderer/src/__tests__/ReactNativeMount-test.internal.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-native-renderer/src/__tests__/ReactNativeEvents-test.internal.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-native-renderer/src/__tests__/ReactFabricFragmentRefs-test.internal.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-native-renderer/src/__tests__/ReactFabricAndNative-test.internal.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-native-renderer/src/__tests__/ReactFabric-test.internal.js:
+   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-markup/src/__tests__/ReactMarkupClient-test.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-is/src/__tests__/ReactIs-test.js:
@@ -1285,6 +4375,52 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/shared/ReactControlledValuePropTypes.js:
    Expected `,` but found `:`
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/server/escapeTextForBrowser.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/server/ReactFlightServerConfigDOM.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/server/ReactFizzConfigDOMLegacy.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/server/ReactFizzConfigDOM.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/server/ReactDOMServerExternalRuntime.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/server/ReactDOMLegacyServerStreamConfig.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/server/ReactDOMFlightServerHostDispatcher.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/isTextInputElement.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/isEventSupported.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/getListener.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/getEventCharCode.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/checkPassiveEvents.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/SyntheticEvent.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/ReactSyntheticEventType.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/ReactDOMEventReplaying.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/ReactDOMEventListener.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/ReactDOMControlledComponent.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/EventRegistry.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/EventListener.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/DOMPluginEventSystem.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/DOMEventProperties.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/DOMEventNames.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/CurrentReplayingEvent.js:
+   Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/client/validateDOMNesting.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/client/setTextContent.js:
@@ -1326,52 +4462,6 @@ Warnings/Errors:
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/client/DOMPropertyOperations.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/client/DOMAccessibilityRoles.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/isTextInputElement.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/isEventSupported.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/getListener.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/getEventCharCode.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/checkPassiveEvents.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/SyntheticEvent.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/ReactSyntheticEventType.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/ReactDOMEventReplaying.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/ReactDOMEventListener.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/ReactDOMControlledComponent.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/EventRegistry.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/EventListener.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/DOMPluginEventSystem.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/DOMEventProperties.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/DOMEventNames.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/CurrentReplayingEvent.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/server/escapeTextForBrowser.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/server/ReactFlightServerConfigDOM.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/server/ReactFizzConfigDOMLegacy.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/server/ReactFizzConfigDOM.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/server/ReactDOMServerExternalRuntime.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/server/ReactDOMLegacyServerStreamConfig.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/server/ReactDOMFlightServerHostDispatcher.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/test-utils/FizzTestUtils.js:
    Flow is not supported
@@ -1720,25 +4810,25 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/content-views/ComponentMeasuresView.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/perf-regression/devtools.js:
-   Expected `,` but found `:`
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/perf-regression/app.js:
-   Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/multi/right.js:
    Expected `,` but found `:`
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/multi/left.js:
    Expected `,` but found `:`
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/multi/devtools.js:
    Expected `,` but found `:`
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/perf-regression/devtools.js:
+   Expected `,` but found `:`
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/perf-regression/app.js:
+   Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/e2e-regression/devtools.js:
    Expected `,` but found `:`
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/e2e-regression/app.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/e2e-regression/app-legacy.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/e2e-apps/ListAppLegacy.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/e2e-apps/ListApp.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/e2e/devtools.js:
+   Expected `,` but found `:`
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/e2e/app.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/index.js:
    Flow is not supported
@@ -1746,19 +4836,11 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/console.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/e2e/devtools.js:
-   Expected `,` but found `:`
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/e2e/app.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/e2e-apps/ListAppLegacy.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/e2e-apps/ListApp.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/shared/types.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/frontend/types.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/errors/UserError.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/errors/UnknownHookError.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/errors/TimeoutError.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/hooks/getHookNameForLocation.js:
    Flow is not supported
@@ -1776,6 +4858,26 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/hooks/ErrorTester.js:
    Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/errors/UserError.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/errors/UnknownHookError.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/errors/TimeoutError.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/utils.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/store.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/index.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/constants.js:
+   Expected `from` but found `{`
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/cache.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/ProfilingCache.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/ProfilerStore.js:
+   Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/config/DevToolsFeatureFlags.extension-oss.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/config/DevToolsFeatureFlags.extension-fb.js:
@@ -1792,19 +4894,7 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/agent.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/utils.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/store.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/index.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/constants.js:
-   Expected `from` but found `{`
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/cache.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/ProfilingCache.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/ProfilerStore.js:
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/frontend/types.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/__tests__/utils.js:
    Flow is not supported
@@ -1860,12 +4950,6 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/__tests__/FastRefreshDevToolsIntegration-test.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-extensions/src/main/index.js:
-   Expected `,` but found `:`
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-extensions/src/main/fetchFileWithCaching.js:
-   Expected `,` but found `:`
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-extensions/src/background/index.js:
-   Expected `,` but found `:`
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-extensions/src/contentScripts/proxy.js:
    Expected a semicolon or an implicit semicolon after a statement, but found none
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-extensions/src/contentScripts/installHook.js:
@@ -1874,6 +4958,12 @@ Warnings/Errors:
    Expected `,` but found `:`
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-extensions/src/contentScripts/backendManager.js:
    Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-extensions/src/main/index.js:
+   Expected `,` but found `:`
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-extensions/src/main/fetchFileWithCaching.js:
+   Expected `,` but found `:`
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-extensions/src/background/index.js:
+   Expected `,` but found `:`
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-extensions/flow-typed/npm/react-test-renderer_v16.x.x.js:
    Expected a semicolon or an implicit semicolon after a statement, but found none
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-debug-tools/src/__tests__/ReactHooksInspectionIntegrationDOM-test.js:
@@ -1884,6 +4974,10 @@ Warnings/Errors:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-debug-tools/src/__tests__/ReactDevToolsHooksIntegration-test.js:
    Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/__tests__/ReactFlightDebugChannel-test.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/__tests__/ReactFlight-test.js:
+   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/forks/ReactFlightClientConfig.markup.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/forks/ReactFlightClientConfig.dom-legacy.js:
@@ -1892,10 +4986,6 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/forks/ReactFlightClientConfig.custom.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/__tests__/ReactFlightDebugChannel-test.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-client/src/__tests__/ReactFlight-test.js:
-   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-cache/src/__tests__/ReactCacheOld-test.internal.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-art/src/__tests__/ReactART-test.js:
@@ -1964,12 +5054,6 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom-bindings/src/events/plugins/BeforeInputEventPlugin.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/client/__tests__/trustedTypes-test.internal.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/client/__tests__/dangerouslySetInnerHTML-test.js:
-   Unexpected token
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/client/__mocks__/ReactFiberErrorDialog.js:
-   Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/events/__tests__/getEventKey-test.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/events/__tests__/SyntheticWheelEvent-test.js:
@@ -1986,21 +5070,27 @@ Warnings/Errors:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/events/__tests__/DOMPluginEventSystem-test.internal.js:
    Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/client/__mocks__/ReactFiberErrorDialog.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/client/__tests__/trustedTypes-test.internal.js:
+   Unexpected token
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-dom/src/client/__tests__/dangerouslySetInnerHTML-test.js:
+   Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/utils/scrollState.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/utils/normalizeWheel.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/utils/clamp.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/resizable/ResizeBarView.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/resizable/ResizableView.js:
-   Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/vertical-scroll-overflow/withVerticalScrollbarLayout.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/vertical-scroll-overflow/VerticalScrollOverflowView.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/vertical-scroll-overflow/VerticalScrollBarView.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/resizable/ResizeBarView.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/view-base/resizable/ResizableView.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-timeline/src/content-views/utils/text.js:
    Flow is not supported
@@ -2066,53 +5156,11 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shell/src/app/DeeplyNestedComponents/index.js:
    Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/frontend/utils/withPermissionsCheck.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/frontend/hooks/useExtensionComponentsPanelVisibility.js:
-   Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/hooks/parseHookNames/parseSourceAndMetadata.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/hooks/parseHookNames/loadSourceAndMetadata.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/hooks/parseHookNames/index.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/utils/index.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/utils/formatWithStyles.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/utils/formatConsoleArguments.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/views/utils.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/shared/ReactSymbols.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/shared/DevToolsServerComponentLogs.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/shared/DevToolsOwnerStack.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/shared/DevToolsConsolePatching.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/shared/DevToolsComponentStackFrame.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/legacy/utils.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/legacy/renderer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/flight/renderer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/flight/DevToolsComponentInfoStack.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/fiber/renderer.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/fiber/DevToolsFiberComponentStack.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/StyleX/utils.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/NativeStyleEditor/types.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/NativeStyleEditor/setupNativeStyleEditor.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/NativeStyleEditor/resolveBoxStyle.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/ContextMenu/useContextMenu.js:
    Flow is not supported
@@ -2160,6 +5208,48 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/views/Button.js:
    Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/views/utils.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/utils/index.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/utils/formatWithStyles.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/utils/formatConsoleArguments.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/shared/ReactSymbols.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/shared/DevToolsServerComponentLogs.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/shared/DevToolsOwnerStack.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/shared/DevToolsConsolePatching.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/shared/DevToolsComponentStackFrame.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/legacy/utils.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/legacy/renderer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/flight/renderer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/flight/DevToolsComponentInfoStack.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/fiber/renderer.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/fiber/DevToolsFiberComponentStack.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/StyleX/utils.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/NativeStyleEditor/types.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/NativeStyleEditor/setupNativeStyleEditor.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/NativeStyleEditor/resolveBoxStyle.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/frontend/utils/withPermissionsCheck.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/frontend/hooks/useExtensionComponentsPanelVisibility.js:
+   Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/__tests__/legacy/storeLegacy-v15-test.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/__tests__/legacy/inspectElement-test.js:
@@ -2187,16 +5277,6 @@ Warnings/Errors:
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/hooks/__tests__/__source__/ComponentWithCustomHook.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/hooks/__tests__/__source__/ComponentUsingHooksIndirectly.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/views/TraceUpdates/index.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/views/TraceUpdates/canvas.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/views/Highlighter/index.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/views/Highlighter/Overlay.js:
-   Flow is not supported
-⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/views/Highlighter/Highlighter.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/views/Settings/SettingsModalContextToggle.js:
    Flow is not supported
@@ -2390,7 +5470,16 @@ Warnings/Errors:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/devtools/views/Components/Badge.js:
    Flow is not supported
-❌ Failed to parse /Users/camchenry/workspace/ast-analysis/sample-repos/react/compiler/apps/playground/__tests__/e2e/__snapshots__/page.spec.ts: EISDIR: illegal operation on a directory, read
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/views/TraceUpdates/index.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/views/TraceUpdates/canvas.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/views/Highlighter/index.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/views/Highlighter/Overlay.js:
+   Flow is not supported
+⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-devtools-shared/src/backend/views/Highlighter/Highlighter.js:
+   Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/compiler/packages/babel-plugin-react-compiler/src/__tests__/e2e/use-state.e2e.js:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/compiler/packages/babel-plugin-react-compiler/src/__tests__/e2e/update-expressions.e2e.js:
@@ -2401,6 +5490,7 @@ Warnings/Errors:
    Unexpected token
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/compiler/packages/babel-plugin-react-compiler/src/__tests__/e2e/constant-prop.e2e.js:
    Unexpected token
+❌ Failed to parse /Users/camchenry/workspace/ast-analysis/sample-repos/react/compiler/apps/playground/__tests__/e2e/__snapshots__/page.spec.ts: EISDIR: illegal operation on a directory, read
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-native-renderer/src/__mocks__/react-native/Libraries/ReactPrivate/getNodeFromPublicInstance.js:
    Flow is not supported
 ⚠️  Parse errors in /Users/camchenry/workspace/ast-analysis/sample-repos/react/packages/react-native-renderer/src/__mocks__/react-native/Libraries/ReactPrivate/getNativeTagFromPublicInstance.js:

@@ -1,11 +1,12 @@
 AST Analysis Report for ant-design
-Generated on: 2025-07-13T03:17:06.573Z
+Generated on: 2025-07-14T01:41:50.876Z
 Repository: sample-repos/ant-design
 ================================================================================
 
 🔍 Analyzing JavaScript/TypeScript files in: /Users/camchenry/workspace/ast-analysis/sample-repos/ant-design
 
-📁 Found 2417 files to analyze...
+📁 Found 2439 files to analyze...
+
 
 
 ============================================================
@@ -13,134 +14,134 @@ Repository: sample-repos/ant-design
 ============================================================
 
 📁 FILE STATISTICS:
-   Total files found: 2417
-   Successfully parsed: 2417
+   Total files found: 2439
+   Successfully parsed: 2439
    Failed to parse: 0
    Total file size: 5.6 MB
 
 🌳 NODE STATISTICS:
-   Total nodes: 811,083
-   Average nodes per file: 336
+   Total nodes: 817,328
+   Average nodes per file: 335
    Average file size: 2.4 KB
 
 📋 ALL NODE TYPES (BY FILE PRESENCE):
-   Program                        2417 files (100.0%) -    2,417 total (0.30%)
-   Identifier                     2411 files ( 99.8%) -  234,323 total (28.89%)
-   Literal                        2404 files ( 99.5%) -   71,882 total (8.86%)
-   ImportDeclaration              2374 files ( 98.2%) -    9,320 total (1.15%)
-   ImportSpecifier                2108 files ( 87.2%) -    8,333 total (1.03%)
-   VariableDeclaration            2000 files ( 82.7%) -   15,642 total (1.93%)
-   VariableDeclarator             2000 files ( 82.7%) -   15,642 total (1.93%)
-   ImportDefaultSpecifier         1915 files ( 79.2%) -    4,219 total (0.52%)
-   TSTypeReference                1907 files ( 78.9%) -   12,020 total (1.48%)
-   TSTypeAnnotation               1897 files ( 78.5%) -   12,471 total (1.54%)
-   ArrowFunctionExpression        1830 files ( 75.7%) -   10,677 total (1.32%)
-   Property                       1816 files ( 75.1%) -   49,843 total (6.15%)
-   ExportDefaultDeclaration       1776 files ( 73.5%) -    1,778 total (0.22%)
-   ObjectExpression               1712 files ( 70.8%) -   16,634 total (2.05%)
-   CallExpression                 1618 files ( 66.9%) -   42,192 total (5.20%)
-   JSXElement                     1452 files ( 60.1%) -   14,488 total (1.79%)
-   JSXOpeningElement              1452 files ( 60.1%) -   14,488 total (1.79%)
-   JSXIdentifier                  1452 files ( 60.1%) -   48,267 total (5.95%)
-   JSXAttribute                   1417 files ( 58.6%) -   22,282 total (2.75%)
-   ParenthesizedExpression        1388 files ( 57.4%) -    3,319 total (0.41%)
-   BlockStatement                 1381 files ( 57.1%) -   10,191 total (1.26%)
-   JSXExpressionContainer         1348 files ( 55.8%) -   13,581 total (1.67%)
-   MemberExpression               1318 files ( 54.5%) -   33,679 total (4.15%)
-   TSQualifiedName                1296 files ( 53.6%) -    2,888 total (0.36%)
-   ArrayExpression                1257 files ( 52.0%) -    4,985 total (0.61%)
-   ExpressionStatement            1206 files ( 49.9%) -   18,764 total (2.31%)
-   JSXText                        1141 files ( 47.2%) -   17,679 total (2.18%)
-   JSXClosingElement              1107 files ( 45.8%) -    8,086 total (1.00%)
-   ReturnStatement                1094 files ( 45.3%) -    2,957 total (0.36%)
-   TSTypeParameterInstantiation    944 files ( 39.1%) -    3,962 total (0.49%)
-   ObjectPattern                   855 files ( 35.4%) -    3,560 total (0.44%)
-   Unknown                         637 files ( 26.4%) -   12,132 total (1.50%)
-   TemplateElement                 627 files ( 25.9%) -   11,994 total (1.48%)
-   BinaryExpression                625 files ( 25.9%) -    3,504 total (0.43%)
-   TSStringKeyword                 625 files ( 25.9%) -    2,705 total (0.33%)
-   TSLiteralType                   623 files ( 25.8%) -    2,202 total (0.27%)
-   TemplateLiteral                 622 files ( 25.7%) -    5,131 total (0.63%)
-   ArrayPattern                    602 files ( 24.9%) -    1,227 total (0.15%)
-   TSPropertySignature             575 files ( 23.8%) -    5,432 total (0.67%)
-   IfStatement                     468 files ( 19.4%) -    1,809 total (0.22%)
-   UnaryExpression                 455 files ( 18.8%) -    1,637 total (0.20%)
-   ExportNamedDeclaration          437 files ( 18.1%) -    1,463 total (0.18%)
-   TSIndexedAccessType             436 files ( 18.0%) -      877 total (0.11%)
-   SpreadElement                   435 files ( 18.0%) -    1,536 total (0.19%)
-   TSInterfaceDeclaration          432 files ( 17.9%) -      757 total (0.09%)
-   TSInterfaceBody                 432 files ( 17.9%) -      757 total (0.09%)
-   TSUnionType                     431 files ( 17.8%) -    1,154 total (0.14%)
-   AssignmentExpression            430 files ( 17.8%) -    1,759 total (0.22%)
-   TSNumberKeyword                 430 files ( 17.8%) -    1,396 total (0.17%)
-   LogicalExpression               395 files ( 16.3%) -    1,848 total (0.23%)
-   ConditionalExpression           362 files ( 15.0%) -      901 total (0.11%)
-   TSAsExpression                  355 files ( 14.7%) -    1,015 total (0.13%)
-   JSXFragment                     342 files ( 14.1%) -      404 total (0.05%)
-   JSXOpeningFragment              342 files ( 14.1%) -      404 total (0.05%)
-   JSXClosingFragment              342 files ( 14.1%) -      404 total (0.05%)
-   ChainExpression                 338 files ( 14.0%) -    1,814 total (0.22%)
-   TSArrayType                     338 files ( 14.0%) -      859 total (0.11%)
-   JSXMemberExpression             329 files ( 13.6%) -    3,411 total (0.42%)
-   TSTypeAliasDeclaration          311 files ( 12.9%) -      628 total (0.08%)
-   JSXSpreadAttribute              308 files ( 12.7%) -      684 total (0.08%)
-   TSBooleanKeyword                297 files ( 12.3%) -      903 total (0.11%)
-   ImportNamespaceSpecifier        292 files ( 12.1%) -      293 total (0.04%)
-   TSTypeLiteral                   270 files ( 11.2%) -      457 total (0.06%)
-   FunctionDeclaration             257 files ( 10.6%) -      452 total (0.06%)
-   TSAnyKeyword                    240 files (  9.9%) -      728 total (0.09%)
-   TSNonNullExpression             234 files (  9.7%) -    1,438 total (0.18%)
-   TSFunctionType                  201 files (  8.3%) -      560 total (0.07%)
-   AssignmentPattern               196 files (  8.1%) -      450 total (0.06%)
-   TSInterfaceHeritage             195 files (  8.1%) -      312 total (0.04%)
-   TSTypeQuery                     158 files (  6.5%) -      333 total (0.04%)
-   RestElement                     158 files (  6.5%) -      211 total (0.03%)
-   TSVoidKeyword                   152 files (  6.3%) -      349 total (0.04%)
-   TSIntersectionType              144 files (  6.0%) -      228 total (0.03%)
-   NewExpression                   134 files (  5.5%) -      320 total (0.04%)
-   TSTypeParameterDeclaration      120 files (  5.0%) -      280 total (0.03%)
-   TSTypeParameter                 120 files (  5.0%) -      328 total (0.04%)
-   AwaitExpression                 103 files (  4.3%) -      861 total (0.11%)
-   TSNullKeyword                   101 files (  4.2%) -      155 total (0.02%)
-   ExportSpecifier                  81 files (  3.4%) -      496 total (0.06%)
-   TSParenthesizedType              79 files (  3.3%) -      146 total (0.02%)
-   TSUndefinedKeyword               75 files (  3.1%) -      107 total (0.01%)
-   ForStatement                     71 files (  2.9%) -       96 total (0.01%)
-   TSTypeOperator                   65 files (  2.7%) -      119 total (0.01%)
-   TSTupleType                      65 files (  2.7%) -       94 total (0.01%)
-   FunctionExpression               51 files (  2.1%) -      118 total (0.01%)
-   TSUnknownKeyword                 44 files (  1.8%) -       73 total (0.01%)
+   Program                        2439 files (100.0%) -    2,439 total (0.30%)
+   Identifier                     2432 files ( 99.7%) -  236,430 total (28.93%)
+   Literal                        2426 files ( 99.5%) -   72,235 total (8.84%)
+   ImportDeclaration              2394 files ( 98.2%) -    9,402 total (1.15%)
+   ImportSpecifier                2122 files ( 87.0%) -    8,388 total (1.03%)
+   VariableDeclaration            2018 files ( 82.7%) -   15,782 total (1.93%)
+   VariableDeclarator             2018 files ( 82.7%) -   15,782 total (1.93%)
+   ImportDefaultSpecifier         1932 files ( 79.2%) -    4,255 total (0.52%)
+   TSTypeReference                1921 files ( 78.8%) -   12,104 total (1.48%)
+   TSTypeAnnotation               1915 files ( 78.5%) -   12,597 total (1.54%)
+   ArrowFunctionExpression        1848 files ( 75.8%) -   10,823 total (1.32%)
+   Property                       1828 files ( 74.9%) -   49,945 total (6.11%)
+   ExportDefaultDeclaration       1788 files ( 73.3%) -    1,790 total (0.22%)
+   ObjectExpression               1723 files ( 70.6%) -   16,695 total (2.04%)
+   CallExpression                 1637 files ( 67.1%) -   42,688 total (5.22%)
+   JSXElement                     1462 files ( 59.9%) -   14,524 total (1.78%)
+   JSXOpeningElement              1462 files ( 59.9%) -   14,524 total (1.78%)
+   JSXIdentifier                  1462 files ( 59.9%) -   48,358 total (5.92%)
+   JSXAttribute                   1424 files ( 58.4%) -   22,314 total (2.73%)
+   BlockStatement                 1397 files ( 57.3%) -   10,389 total (1.27%)
+   ParenthesizedExpression        1396 files ( 57.2%) -    3,349 total (0.41%)
+   JSXExpressionContainer         1354 files ( 55.5%) -   13,617 total (1.67%)
+   MemberExpression               1338 files ( 54.9%) -   34,181 total (4.18%)
+   TSQualifiedName                1304 files ( 53.5%) -    2,903 total (0.36%)
+   ArrayExpression                1265 files ( 51.9%) -    5,005 total (0.61%)
+   ExpressionStatement            1225 files ( 50.2%) -   19,049 total (2.33%)
+   JSXText                        1146 files ( 47.0%) -   17,701 total (2.17%)
+   JSXClosingElement              1112 files ( 45.6%) -    8,103 total (0.99%)
+   ReturnStatement                1103 files ( 45.2%) -    2,993 total (0.37%)
+   TSTypeParameterInstantiation    954 files ( 39.1%) -    3,991 total (0.49%)
+   ObjectPattern                   864 files ( 35.4%) -    3,578 total (0.44%)
+   Unknown                         643 files ( 26.4%) -   12,207 total (1.49%)
+   BinaryExpression                636 files ( 26.1%) -    3,546 total (0.43%)
+   TSStringKeyword                 632 files ( 25.9%) -    2,751 total (0.34%)
+   TemplateElement                 632 files ( 25.9%) -   12,065 total (1.48%)
+   TemplateLiteral                 627 files ( 25.7%) -    5,170 total (0.63%)
+   TSLiteralType                   624 files ( 25.6%) -    2,203 total (0.27%)
+   ArrayPattern                    604 files ( 24.8%) -    1,231 total (0.15%)
+   TSPropertySignature             582 files ( 23.9%) -    5,458 total (0.67%)
+   IfStatement                     481 files ( 19.7%) -    1,860 total (0.23%)
+   UnaryExpression                 463 files ( 19.0%) -    1,665 total (0.20%)
+   ExportNamedDeclaration          445 files ( 18.2%) -    1,482 total (0.18%)
+   AssignmentExpression            443 files ( 18.2%) -    1,833 total (0.22%)
+   SpreadElement                   442 files ( 18.1%) -    1,550 total (0.19%)
+   TSUnionType                     439 files ( 18.0%) -    1,168 total (0.14%)
+   TSIndexedAccessType             437 files ( 17.9%) -      878 total (0.11%)
+   TSInterfaceDeclaration          434 files ( 17.8%) -      759 total (0.09%)
+   TSInterfaceBody                 434 files ( 17.8%) -      759 total (0.09%)
+   TSNumberKeyword                 431 files ( 17.7%) -    1,397 total (0.17%)
+   LogicalExpression               405 files ( 16.6%) -    1,889 total (0.23%)
+   ConditionalExpression           368 files ( 15.1%) -      913 total (0.11%)
+   TSAsExpression                  361 files ( 14.8%) -    1,037 total (0.13%)
+   ChainExpression                 343 files ( 14.1%) -    1,829 total (0.22%)
+   TSArrayType                     342 files ( 14.0%) -      872 total (0.11%)
+   JSXFragment                     342 files ( 14.0%) -      404 total (0.05%)
+   JSXOpeningFragment              342 files ( 14.0%) -      404 total (0.05%)
+   JSXClosingFragment              342 files ( 14.0%) -      404 total (0.05%)
+   JSXMemberExpression             332 files ( 13.6%) -    3,417 total (0.42%)
+   TSTypeAliasDeclaration          315 files ( 12.9%) -      633 total (0.08%)
+   JSXSpreadAttribute              311 files ( 12.8%) -      689 total (0.08%)
+   TSBooleanKeyword                303 files ( 12.4%) -      919 total (0.11%)
+   ImportNamespaceSpecifier        295 files ( 12.1%) -      296 total (0.04%)
+   TSTypeLiteral                   276 files ( 11.3%) -      465 total (0.06%)
+   FunctionDeclaration             266 files ( 10.9%) -      475 total (0.06%)
+   TSAnyKeyword                    249 files ( 10.2%) -      751 total (0.09%)
+   TSNonNullExpression             238 files (  9.8%) -    1,450 total (0.18%)
+   TSFunctionType                  206 files (  8.4%) -      568 total (0.07%)
+   AssignmentPattern               204 files (  8.4%) -      468 total (0.06%)
+   TSInterfaceHeritage             195 files (  8.0%) -      312 total (0.04%)
+   RestElement                     161 files (  6.6%) -      214 total (0.03%)
+   TSTypeQuery                     161 files (  6.6%) -      339 total (0.04%)
+   TSVoidKeyword                   155 files (  6.4%) -      353 total (0.04%)
+   TSIntersectionType              148 files (  6.1%) -      232 total (0.03%)
+   NewExpression                   140 files (  5.7%) -      328 total (0.04%)
+   TSTypeParameterDeclaration      123 files (  5.0%) -      284 total (0.03%)
+   TSTypeParameter                 123 files (  5.0%) -      332 total (0.04%)
+   AwaitExpression                 108 files (  4.4%) -      888 total (0.11%)
+   TSNullKeyword                   102 files (  4.2%) -      156 total (0.02%)
+   ExportSpecifier                  83 files (  3.4%) -      499 total (0.06%)
+   TSParenthesizedType              81 files (  3.3%) -      148 total (0.02%)
+   TSUndefinedKeyword               77 files (  3.2%) -      109 total (0.01%)
+   ForStatement                     72 files (  3.0%) -       97 total (0.01%)
+   TSTypeOperator                   66 files (  2.7%) -      120 total (0.01%)
+   TSTupleType                      66 files (  2.7%) -       95 total (0.01%)
+   FunctionExpression               55 files (  2.3%) -      138 total (0.02%)
+   TSUnknownKeyword                 45 files (  1.8%) -       76 total (0.01%)
    UpdateExpression                 42 files (  1.7%) -       63 total (0.01%)
-   TSObjectKeyword                  23 files (  1.0%) -       47 total (0.01%)
+   TSObjectKeyword                  26 files (  1.1%) -       51 total (0.01%)
    SwitchStatement                  21 files (  0.9%) -       24 total (0.00%)
    SwitchCase                       21 files (  0.9%) -      102 total (0.01%)
    JSXEmptyExpression               21 files (  0.9%) -       44 total (0.01%)
+   ThisExpression                   20 files (  0.8%) -      100 total (0.01%)
    BreakStatement                   20 files (  0.8%) -       50 total (0.01%)
-   TSNamedTupleMember               19 files (  0.8%) -       57 total (0.01%)
-   ThisExpression                   17 files (  0.7%) -       82 total (0.01%)
-   ThrowStatement                   15 files (  0.6%) -       20 total (0.00%)
-   TryStatement                     14 files (  0.6%) -       19 total (0.00%)
-   CatchClause                      14 files (  0.6%) -       19 total (0.00%)
-   TSIndexSignature                 13 files (  0.5%) -       13 total (0.00%)
-   TSTypePredicate                  12 files (  0.5%) -       13 total (0.00%)
+   TSNamedTupleMember               20 files (  0.8%) -       59 total (0.01%)
+   ThrowStatement                   16 files (  0.7%) -       21 total (0.00%)
+   TryStatement                     15 files (  0.6%) -       21 total (0.00%)
+   CatchClause                      15 files (  0.6%) -       20 total (0.00%)
+   TSIndexSignature                 14 files (  0.6%) -       14 total (0.00%)
+   TSTypePredicate                  14 files (  0.6%) -       15 total (0.00%)
    TaggedTemplateExpression         12 files (  0.5%) -       30 total (0.00%)
-   ForOfStatement                   10 files (  0.4%) -       14 total (0.00%)
    TSTemplateLiteralType            10 files (  0.4%) -       11 total (0.00%)
-   TSMappedType                      9 files (  0.4%) -       12 total (0.00%)
-   ClassBody                         7 files (  0.3%) -        7 total (0.00%)
+   TSMappedType                     10 files (  0.4%) -       13 total (0.00%)
+   ForOfStatement                   10 files (  0.4%) -       14 total (0.00%)
+   ClassBody                         9 files (  0.4%) -        9 total (0.00%)
+   ClassDeclaration                  8 files (  0.3%) -        8 total (0.00%)
+   MethodDefinition                  8 files (  0.3%) -       26 total (0.00%)
+   PropertyDefinition                7 files (  0.3%) -       17 total (0.00%)
    TSConditionalType                 6 files (  0.2%) -       15 total (0.00%)
    TSInferType                       6 files (  0.2%) -       11 total (0.00%)
-   ClassDeclaration                  6 files (  0.2%) -        6 total (0.00%)
-   MethodDefinition                  6 files (  0.2%) -       21 total (0.00%)
-   PropertyDefinition                5 files (  0.2%) -       13 total (0.00%)
-   ContinueStatement                 4 files (  0.2%) -        9 total (0.00%)
+   ExportAllDeclaration              5 files (  0.2%) -        8 total (0.00%)
    TSMethodSignature                 4 files (  0.2%) -        5 total (0.00%)
-   ExportAllDeclaration              4 files (  0.2%) -        7 total (0.00%)
+   ContinueStatement                 4 files (  0.2%) -        9 total (0.00%)
    TSNeverKeyword                    4 files (  0.2%) -        7 total (0.00%)
-   ImportExpression                  3 files (  0.1%) -       11 total (0.00%)
    TSModuleDeclaration               3 files (  0.1%) -       11 total (0.00%)
    TSModuleBlock                     3 files (  0.1%) -        5 total (0.00%)
    TSDeclareFunction                 3 files (  0.1%) -        6 total (0.00%)
+   ImportExpression                  3 files (  0.1%) -       11 total (0.00%)
    TSCallSignatureDeclaration        2 files (  0.1%) -        2 total (0.00%)
    WhileStatement                    2 files (  0.1%) -        2 total (0.00%)
    TSBigIntKeyword                   1 files (  0.0%) -        1 total (0.00%)
@@ -148,121 +149,121 @@ Repository: sample-repos/ant-design
    ClassExpression                   1 files (  0.0%) -        1 total (0.00%)
 
 📝 ALL NODE TYPES (BY TOTAL COUNT):
-   Identifier                      234,323 (28.89%) in 2411 files (99.8%)
-   Literal                          71,882 (8.86%) in 2404 files (99.5%)
-   Property                         49,843 (6.15%) in 1816 files (75.1%)
-   JSXIdentifier                    48,267 (5.95%) in 1452 files (60.1%)
-   CallExpression                   42,192 (5.20%) in 1618 files (66.9%)
-   MemberExpression                 33,679 (4.15%) in 1318 files (54.5%)
-   JSXAttribute                     22,282 (2.75%) in 1417 files (58.6%)
-   ExpressionStatement              18,764 (2.31%) in 1206 files (49.9%)
-   JSXText                          17,679 (2.18%) in 1141 files (47.2%)
-   ObjectExpression                 16,634 (2.05%) in 1712 files (70.8%)
-   VariableDeclaration              15,642 (1.93%) in 2000 files (82.7%)
-   VariableDeclarator               15,642 (1.93%) in 2000 files (82.7%)
-   JSXElement                       14,488 (1.79%) in 1452 files (60.1%)
-   JSXOpeningElement                14,488 (1.79%) in 1452 files (60.1%)
-   JSXExpressionContainer           13,581 (1.67%) in 1348 files (55.8%)
-   TSTypeAnnotation                 12,471 (1.54%) in 1897 files (78.5%)
-   Unknown                          12,132 (1.50%) in 637 files (26.4%)
-   TSTypeReference                  12,020 (1.48%) in 1907 files (78.9%)
-   TemplateElement                  11,994 (1.48%) in 627 files (25.9%)
-   ArrowFunctionExpression          10,677 (1.32%) in 1830 files (75.7%)
-   BlockStatement                   10,191 (1.26%) in 1381 files (57.1%)
-   ImportDeclaration                 9,320 (1.15%) in 2374 files (98.2%)
-   ImportSpecifier                   8,333 (1.03%) in 2108 files (87.2%)
-   JSXClosingElement                 8,086 (1.00%) in 1107 files (45.8%)
-   TSPropertySignature               5,432 (0.67%) in 575 files (23.8%)
-   TemplateLiteral                   5,131 (0.63%) in 622 files (25.7%)
-   ArrayExpression                   4,985 (0.61%) in 1257 files (52.0%)
-   ImportDefaultSpecifier            4,219 (0.52%) in 1915 files (79.2%)
-   TSTypeParameterInstantiation      3,962 (0.49%) in 944 files (39.1%)
-   ObjectPattern                     3,560 (0.44%) in 855 files (35.4%)
-   BinaryExpression                  3,504 (0.43%) in 625 files (25.9%)
-   JSXMemberExpression               3,411 (0.42%) in 329 files (13.6%)
-   ParenthesizedExpression           3,319 (0.41%) in 1388 files (57.4%)
-   ReturnStatement                   2,957 (0.36%) in 1094 files (45.3%)
-   TSQualifiedName                   2,888 (0.36%) in 1296 files (53.6%)
-   TSStringKeyword                   2,705 (0.33%) in 625 files (25.9%)
-   Program                           2,417 (0.30%) in 2417 files (100.0%)
-   TSLiteralType                     2,202 (0.27%) in 623 files (25.8%)
-   LogicalExpression                 1,848 (0.23%) in 395 files (16.3%)
-   ChainExpression                   1,814 (0.22%) in 338 files (14.0%)
-   IfStatement                       1,809 (0.22%) in 468 files (19.4%)
-   ExportDefaultDeclaration          1,778 (0.22%) in 1776 files (73.5%)
-   AssignmentExpression              1,759 (0.22%) in 430 files (17.8%)
-   UnaryExpression                   1,637 (0.20%) in 455 files (18.8%)
-   SpreadElement                     1,536 (0.19%) in 435 files (18.0%)
-   ExportNamedDeclaration            1,463 (0.18%) in 437 files (18.1%)
-   TSNonNullExpression               1,438 (0.18%) in 234 files (9.7%)
-   TSNumberKeyword                   1,396 (0.17%) in 430 files (17.8%)
-   ArrayPattern                      1,227 (0.15%) in 602 files (24.9%)
-   TSUnionType                       1,154 (0.14%) in 431 files (17.8%)
-   TSAsExpression                    1,015 (0.13%) in 355 files (14.7%)
-   TSBooleanKeyword                    903 (0.11%) in 297 files (12.3%)
-   ConditionalExpression               901 (0.11%) in 362 files (15.0%)
-   TSIndexedAccessType                 877 (0.11%) in 436 files (18.0%)
-   AwaitExpression                     861 (0.11%) in 103 files (4.3%)
-   TSArrayType                         859 (0.11%) in 338 files (14.0%)
-   TSInterfaceDeclaration              757 (0.09%) in 432 files (17.9%)
-   TSInterfaceBody                     757 (0.09%) in 432 files (17.9%)
-   TSAnyKeyword                        728 (0.09%) in 240 files (9.9%)
-   JSXSpreadAttribute                  684 (0.08%) in 308 files (12.7%)
-   TSTypeAliasDeclaration              628 (0.08%) in 311 files (12.9%)
-   TSFunctionType                      560 (0.07%) in 201 files (8.3%)
-   ExportSpecifier                     496 (0.06%) in 81 files (3.4%)
-   TSTypeLiteral                       457 (0.06%) in 270 files (11.2%)
-   FunctionDeclaration                 452 (0.06%) in 257 files (10.6%)
-   AssignmentPattern                   450 (0.06%) in 196 files (8.1%)
-   JSXFragment                         404 (0.05%) in 342 files (14.1%)
-   JSXOpeningFragment                  404 (0.05%) in 342 files (14.1%)
-   JSXClosingFragment                  404 (0.05%) in 342 files (14.1%)
-   TSVoidKeyword                       349 (0.04%) in 152 files (6.3%)
-   TSTypeQuery                         333 (0.04%) in 158 files (6.5%)
-   TSTypeParameter                     328 (0.04%) in 120 files (5.0%)
-   NewExpression                       320 (0.04%) in 134 files (5.5%)
-   TSInterfaceHeritage                 312 (0.04%) in 195 files (8.1%)
-   ImportNamespaceSpecifier            293 (0.04%) in 292 files (12.1%)
-   TSTypeParameterDeclaration          280 (0.03%) in 120 files (5.0%)
-   TSIntersectionType                  228 (0.03%) in 144 files (6.0%)
-   RestElement                         211 (0.03%) in 158 files (6.5%)
-   TSNullKeyword                       155 (0.02%) in 101 files (4.2%)
-   TSParenthesizedType                 146 (0.02%) in 79 files (3.3%)
-   TSTypeOperator                      119 (0.01%) in 65 files (2.7%)
-   FunctionExpression                  118 (0.01%) in 51 files (2.1%)
-   TSUndefinedKeyword                  107 (0.01%) in 75 files (3.1%)
+   Identifier                      236,430 (28.93%) in 2432 files (99.7%)
+   Literal                          72,235 (8.84%) in 2426 files (99.5%)
+   Property                         49,945 (6.11%) in 1828 files (74.9%)
+   JSXIdentifier                    48,358 (5.92%) in 1462 files (59.9%)
+   CallExpression                   42,688 (5.22%) in 1637 files (67.1%)
+   MemberExpression                 34,181 (4.18%) in 1338 files (54.9%)
+   JSXAttribute                     22,314 (2.73%) in 1424 files (58.4%)
+   ExpressionStatement              19,049 (2.33%) in 1225 files (50.2%)
+   JSXText                          17,701 (2.17%) in 1146 files (47.0%)
+   ObjectExpression                 16,695 (2.04%) in 1723 files (70.6%)
+   VariableDeclaration              15,782 (1.93%) in 2018 files (82.7%)
+   VariableDeclarator               15,782 (1.93%) in 2018 files (82.7%)
+   JSXElement                       14,524 (1.78%) in 1462 files (59.9%)
+   JSXOpeningElement                14,524 (1.78%) in 1462 files (59.9%)
+   JSXExpressionContainer           13,617 (1.67%) in 1354 files (55.5%)
+   TSTypeAnnotation                 12,597 (1.54%) in 1915 files (78.5%)
+   Unknown                          12,207 (1.49%) in 643 files (26.4%)
+   TSTypeReference                  12,104 (1.48%) in 1921 files (78.8%)
+   TemplateElement                  12,065 (1.48%) in 632 files (25.9%)
+   ArrowFunctionExpression          10,823 (1.32%) in 1848 files (75.8%)
+   BlockStatement                   10,389 (1.27%) in 1397 files (57.3%)
+   ImportDeclaration                 9,402 (1.15%) in 2394 files (98.2%)
+   ImportSpecifier                   8,388 (1.03%) in 2122 files (87.0%)
+   JSXClosingElement                 8,103 (0.99%) in 1112 files (45.6%)
+   TSPropertySignature               5,458 (0.67%) in 582 files (23.9%)
+   TemplateLiteral                   5,170 (0.63%) in 627 files (25.7%)
+   ArrayExpression                   5,005 (0.61%) in 1265 files (51.9%)
+   ImportDefaultSpecifier            4,255 (0.52%) in 1932 files (79.2%)
+   TSTypeParameterInstantiation      3,991 (0.49%) in 954 files (39.1%)
+   ObjectPattern                     3,578 (0.44%) in 864 files (35.4%)
+   BinaryExpression                  3,546 (0.43%) in 636 files (26.1%)
+   JSXMemberExpression               3,417 (0.42%) in 332 files (13.6%)
+   ParenthesizedExpression           3,349 (0.41%) in 1396 files (57.2%)
+   ReturnStatement                   2,993 (0.37%) in 1103 files (45.2%)
+   TSQualifiedName                   2,903 (0.36%) in 1304 files (53.5%)
+   TSStringKeyword                   2,751 (0.34%) in 632 files (25.9%)
+   Program                           2,439 (0.30%) in 2439 files (100.0%)
+   TSLiteralType                     2,203 (0.27%) in 624 files (25.6%)
+   LogicalExpression                 1,889 (0.23%) in 405 files (16.6%)
+   IfStatement                       1,860 (0.23%) in 481 files (19.7%)
+   AssignmentExpression              1,833 (0.22%) in 443 files (18.2%)
+   ChainExpression                   1,829 (0.22%) in 343 files (14.1%)
+   ExportDefaultDeclaration          1,790 (0.22%) in 1788 files (73.3%)
+   UnaryExpression                   1,665 (0.20%) in 463 files (19.0%)
+   SpreadElement                     1,550 (0.19%) in 442 files (18.1%)
+   ExportNamedDeclaration            1,482 (0.18%) in 445 files (18.2%)
+   TSNonNullExpression               1,450 (0.18%) in 238 files (9.8%)
+   TSNumberKeyword                   1,397 (0.17%) in 431 files (17.7%)
+   ArrayPattern                      1,231 (0.15%) in 604 files (24.8%)
+   TSUnionType                       1,168 (0.14%) in 439 files (18.0%)
+   TSAsExpression                    1,037 (0.13%) in 361 files (14.8%)
+   TSBooleanKeyword                    919 (0.11%) in 303 files (12.4%)
+   ConditionalExpression               913 (0.11%) in 368 files (15.1%)
+   AwaitExpression                     888 (0.11%) in 108 files (4.4%)
+   TSIndexedAccessType                 878 (0.11%) in 437 files (17.9%)
+   TSArrayType                         872 (0.11%) in 342 files (14.0%)
+   TSInterfaceDeclaration              759 (0.09%) in 434 files (17.8%)
+   TSInterfaceBody                     759 (0.09%) in 434 files (17.8%)
+   TSAnyKeyword                        751 (0.09%) in 249 files (10.2%)
+   JSXSpreadAttribute                  689 (0.08%) in 311 files (12.8%)
+   TSTypeAliasDeclaration              633 (0.08%) in 315 files (12.9%)
+   TSFunctionType                      568 (0.07%) in 206 files (8.4%)
+   ExportSpecifier                     499 (0.06%) in 83 files (3.4%)
+   FunctionDeclaration                 475 (0.06%) in 266 files (10.9%)
+   AssignmentPattern                   468 (0.06%) in 204 files (8.4%)
+   TSTypeLiteral                       465 (0.06%) in 276 files (11.3%)
+   JSXFragment                         404 (0.05%) in 342 files (14.0%)
+   JSXOpeningFragment                  404 (0.05%) in 342 files (14.0%)
+   JSXClosingFragment                  404 (0.05%) in 342 files (14.0%)
+   TSVoidKeyword                       353 (0.04%) in 155 files (6.4%)
+   TSTypeQuery                         339 (0.04%) in 161 files (6.6%)
+   TSTypeParameter                     332 (0.04%) in 123 files (5.0%)
+   NewExpression                       328 (0.04%) in 140 files (5.7%)
+   TSInterfaceHeritage                 312 (0.04%) in 195 files (8.0%)
+   ImportNamespaceSpecifier            296 (0.04%) in 295 files (12.1%)
+   TSTypeParameterDeclaration          284 (0.03%) in 123 files (5.0%)
+   TSIntersectionType                  232 (0.03%) in 148 files (6.1%)
+   RestElement                         214 (0.03%) in 161 files (6.6%)
+   TSNullKeyword                       156 (0.02%) in 102 files (4.2%)
+   TSParenthesizedType                 148 (0.02%) in 81 files (3.3%)
+   FunctionExpression                  138 (0.02%) in 55 files (2.3%)
+   TSTypeOperator                      120 (0.01%) in 66 files (2.7%)
+   TSUndefinedKeyword                  109 (0.01%) in 77 files (3.2%)
    SwitchCase                          102 (0.01%) in 21 files (0.9%)
-   ForStatement                         96 (0.01%) in 71 files (2.9%)
-   TSTupleType                          94 (0.01%) in 65 files (2.7%)
-   ThisExpression                       82 (0.01%) in 17 files (0.7%)
-   TSUnknownKeyword                     73 (0.01%) in 44 files (1.8%)
+   ThisExpression                      100 (0.01%) in 20 files (0.8%)
+   ForStatement                         97 (0.01%) in 72 files (3.0%)
+   TSTupleType                          95 (0.01%) in 66 files (2.7%)
+   TSUnknownKeyword                     76 (0.01%) in 45 files (1.8%)
    UpdateExpression                     63 (0.01%) in 42 files (1.7%)
-   TSNamedTupleMember                   57 (0.01%) in 19 files (0.8%)
+   TSNamedTupleMember                   59 (0.01%) in 20 files (0.8%)
+   TSObjectKeyword                      51 (0.01%) in 26 files (1.1%)
    BreakStatement                       50 (0.01%) in 20 files (0.8%)
-   TSObjectKeyword                      47 (0.01%) in 23 files (1.0%)
    JSXEmptyExpression                   44 (0.01%) in 21 files (0.9%)
    TaggedTemplateExpression             30 (0.00%) in 12 files (0.5%)
+   MethodDefinition                     26 (0.00%) in 8 files (0.3%)
    SwitchStatement                      24 (0.00%) in 21 files (0.9%)
-   MethodDefinition                     21 (0.00%) in 6 files (0.2%)
-   ThrowStatement                       20 (0.00%) in 15 files (0.6%)
-   TryStatement                         19 (0.00%) in 14 files (0.6%)
-   CatchClause                          19 (0.00%) in 14 files (0.6%)
+   TryStatement                         21 (0.00%) in 15 files (0.6%)
+   ThrowStatement                       21 (0.00%) in 16 files (0.7%)
+   CatchClause                          20 (0.00%) in 15 files (0.6%)
+   PropertyDefinition                   17 (0.00%) in 7 files (0.3%)
+   TSTypePredicate                      15 (0.00%) in 14 files (0.6%)
    TSConditionalType                    15 (0.00%) in 6 files (0.2%)
+   TSIndexSignature                     14 (0.00%) in 14 files (0.6%)
    ForOfStatement                       14 (0.00%) in 10 files (0.4%)
-   TSIndexSignature                     13 (0.00%) in 13 files (0.5%)
-   TSTypePredicate                      13 (0.00%) in 12 files (0.5%)
-   PropertyDefinition                   13 (0.00%) in 5 files (0.2%)
-   TSMappedType                         12 (0.00%) in 9 files (0.4%)
-   ImportExpression                     11 (0.00%) in 3 files (0.1%)
+   TSMappedType                         13 (0.00%) in 10 files (0.4%)
    TSModuleDeclaration                  11 (0.00%) in 3 files (0.1%)
    TSTemplateLiteralType                11 (0.00%) in 10 files (0.4%)
+   ImportExpression                     11 (0.00%) in 3 files (0.1%)
    TSInferType                          11 (0.00%) in 6 files (0.2%)
    ContinueStatement                     9 (0.00%) in 4 files (0.2%)
-   ExportAllDeclaration                  7 (0.00%) in 4 files (0.2%)
+   ClassBody                             9 (0.00%) in 9 files (0.4%)
+   ExportAllDeclaration                  8 (0.00%) in 5 files (0.2%)
+   ClassDeclaration                      8 (0.00%) in 8 files (0.3%)
    TSNeverKeyword                        7 (0.00%) in 4 files (0.2%)
-   ClassBody                             7 (0.00%) in 7 files (0.3%)
    TSDeclareFunction                     6 (0.00%) in 3 files (0.1%)
-   ClassDeclaration                      6 (0.00%) in 6 files (0.2%)
    TSModuleBlock                         5 (0.00%) in 3 files (0.1%)
    TSMethodSignature                     5 (0.00%) in 4 files (0.2%)
    TSRestType                            3 (0.00%) in 1 files (0.0%)
@@ -270,6 +271,2813 @@ Repository: sample-repos/ant-design
    WhileStatement                        2 (0.00%) in 2 files (0.1%)
    TSBigIntKeyword                       1 (0.00%) in 1 files (0.0%)
    ClassExpression                       1 (0.00%) in 1 files (0.0%)
+
+📁 FILE EXAMPLES BY NODE TYPE:
+
+   Identifier:
+     📄 Files WITH Identifier (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+       • alias/cssinjs.js
+     📄 Files WITHOUT Identifier (showing 7):
+       • typings/index.d.ts
+       • tests/dekko/index.test.ts
+       • components/statistic/interface.ts
+       • components/qrcode/interface.ts
+       • components/qrcode/style/index.ts
+       • components/row/style/index.ts
+       • components/col/style/index.ts
+
+   Literal:
+     📄 Files WITH Literal (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/custom-typings.d.ts
+       • alias/cssinjs.js
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+     📄 Files WITHOUT Literal (showing 10):
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/cssType.d.ts
+       • components/transfer/interface.ts
+       • components/statistic/interface.ts
+       • components/modal/destroyFns.ts
+       • components/_util/extendsObject.ts
+       • components/row/style/index.ts
+       • components/col/style/index.ts
+       • components/theme/interface/maps/style.ts
+
+   Property:
+     📄 Files WITH Property (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • eslint.config.mjs
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • scripts/set-node-options.ts
+       • scripts/print-changelog.ts
+       • scripts/prepare-examples.ts
+       • scripts/pre-publish.ts
+     📄 Files WITHOUT Property (showing 10):
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+       • alias/cssinjs.js
+       • tests/index.test.ts
+       • tests/changelog.test.ts
+
+   JSXIdentifier:
+     📄 Files WITH JSXIdentifier (showing 10):
+       • tests/utils.tsx
+       • scripts/check-cssinjs.tsx
+       • tests/shared/rtlTest.tsx
+       • tests/shared/rootPropsTest.tsx
+       • tests/shared/mountTest.tsx
+       • tests/shared/imageTest.tsx
+       • tests/shared/focusTest.tsx
+       • tests/shared/demoTest.tsx
+       • tests/shared/accessibilityTest.tsx
+       • components/upload/Upload.tsx
+     📄 Files WITHOUT JSXIdentifier (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   CallExpression:
+     📄 Files WITH CallExpression (showing 10):
+       • webpack.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • alias/cssinjs.js
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
+     📄 Files WITHOUT CallExpression (showing 10):
+       • jest-puppeteer.config.js
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+       • components/index.ts
+       • tests/__mocks__/rc-virtual-list.ts
+       • tests/__mocks__/copy-to-clipboard.ts
+       • tests/dekko/index.test.ts
+       • components/version/index.tsx
+
+   MemberExpression:
+     📄 Files WITH MemberExpression (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • alias/cssinjs.js
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+     📄 Files WITHOUT MemberExpression (showing 10):
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+       • components/index.ts
+       • tests/__mocks__/rc-virtual-list.ts
+       • tests/dekko/index.test.ts
+       • components/version/index.tsx
+       • components/upload/interface.ts
+       • components/tour/interface.ts
+
+   JSXAttribute:
+     📄 Files WITH JSXAttribute (showing 10):
+       • scripts/check-cssinjs.tsx
+       • tests/shared/rtlTest.tsx
+       • tests/shared/rootPropsTest.tsx
+       • tests/shared/imageTest.tsx
+       • tests/shared/focusTest.tsx
+       • tests/shared/demoTest.tsx
+       • components/upload/Upload.tsx
+       • components/upload/Dragger.tsx
+       • components/typography/Typography.tsx
+       • components/typography/Title.tsx
+     📄 Files WITHOUT JSXAttribute (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   ExpressionStatement:
+     📄 Files WITH ExpressionStatement (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • alias/cssinjs.js
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
+     📄 Files WITHOUT ExpressionStatement (showing 10):
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+       • components/index.ts
+       • tests/__mocks__/rc-virtual-list.ts
+       • tests/shared/demoTestContext.ts
+       • tests/dekko/index.test.ts
+       • components/version/index.tsx
+
+   JSXText:
+     📄 Files WITH JSXText (showing 10):
+       • scripts/check-cssinjs.tsx
+       • tests/shared/rtlTest.tsx
+       • tests/shared/rootPropsTest.tsx
+       • tests/shared/imageTest.tsx
+       • tests/shared/focusTest.tsx
+       • tests/shared/demoTest.tsx
+       • components/upload/Upload.tsx
+       • components/typography/Typography.tsx
+       • components/typography/Editable.tsx
+       • components/watermark/index.tsx
+     📄 Files WITHOUT JSXText (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   ObjectExpression:
+     📄 Files WITH ObjectExpression (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index-with-locales.js
+       • eslint.config.mjs
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
+       • scripts/set-node-options.ts
+       • scripts/print-changelog.ts
+     📄 Files WITHOUT ObjectExpression (showing 10):
+       • index.js
+       • index-style-only.js
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+       • alias/cssinjs.js
+       • tests/changelog.test.ts
+       • components/index.ts
+       • scripts/generate-version.ts
+
+   VariableDeclaration:
+     📄 Files WITH VariableDeclaration (showing 10):
+       • webpack.config.js
+       • index-with-locales.js
+       • index-style-only.js
+       • typings/custom-typings.d.ts
+       • alias/cssinjs.js
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
+     📄 Files WITHOUT VariableDeclaration (showing 10):
+       • jest-puppeteer.config.js
+       • index.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/cssType.d.ts
+       • components/index.ts
+       • scripts/generate-version.ts
+       • tests/__mocks__/rc-virtual-list.ts
+       • tests/dekko/lib-es.test.ts
+
+   VariableDeclarator:
+     📄 Files WITH VariableDeclarator (showing 10):
+       • webpack.config.js
+       • index-with-locales.js
+       • index-style-only.js
+       • typings/custom-typings.d.ts
+       • alias/cssinjs.js
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
+     📄 Files WITHOUT VariableDeclarator (showing 10):
+       • jest-puppeteer.config.js
+       • index.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/cssType.d.ts
+       • components/index.ts
+       • scripts/generate-version.ts
+       • tests/__mocks__/rc-virtual-list.ts
+       • tests/dekko/lib-es.test.ts
+
+   JSXElement:
+     📄 Files WITH JSXElement (showing 10):
+       • tests/utils.tsx
+       • scripts/check-cssinjs.tsx
+       • tests/shared/rtlTest.tsx
+       • tests/shared/rootPropsTest.tsx
+       • tests/shared/mountTest.tsx
+       • tests/shared/imageTest.tsx
+       • tests/shared/focusTest.tsx
+       • tests/shared/demoTest.tsx
+       • tests/shared/accessibilityTest.tsx
+       • components/upload/Upload.tsx
+     📄 Files WITHOUT JSXElement (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   JSXOpeningElement:
+     📄 Files WITH JSXOpeningElement (showing 10):
+       • tests/utils.tsx
+       • scripts/check-cssinjs.tsx
+       • tests/shared/rtlTest.tsx
+       • tests/shared/rootPropsTest.tsx
+       • tests/shared/mountTest.tsx
+       • tests/shared/imageTest.tsx
+       • tests/shared/focusTest.tsx
+       • tests/shared/demoTest.tsx
+       • tests/shared/accessibilityTest.tsx
+       • components/upload/Upload.tsx
+     📄 Files WITHOUT JSXOpeningElement (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   JSXExpressionContainer:
+     📄 Files WITH JSXExpressionContainer (showing 10):
+       • scripts/check-cssinjs.tsx
+       • tests/shared/rootPropsTest.tsx
+       • tests/shared/imageTest.tsx
+       • tests/shared/focusTest.tsx
+       • tests/shared/demoTest.tsx
+       • components/upload/Upload.tsx
+       • components/upload/Dragger.tsx
+       • components/typography/Typography.tsx
+       • components/typography/Title.tsx
+       • components/typography/Text.tsx
+     📄 Files WITHOUT JSXExpressionContainer (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   TSTypeAnnotation:
+     📄 Files WITH TSTypeAnnotation (showing 10):
+       • typings/jest.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
+       • scripts/set-node-options.ts
+       • scripts/print-changelog.ts
+       • scripts/prepare-examples.ts
+     📄 Files WITHOUT TSTypeAnnotation (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/index.d.ts
+       • alias/cssinjs.js
+       • tests/changelog.test.ts
+       • components/index.ts
+
+   Unknown:
+     📄 Files WITH Unknown (showing 10):
+       • index-with-locales.js
+       • index-style-only.js
+       • typings/cssType.d.ts
+       • tests/setup.ts
+       • scripts/set-node-options.ts
+       • scripts/print-changelog.ts
+       • scripts/prepare-examples.ts
+       • scripts/pre-publish.ts
+       • scripts/post-publish.ts
+       • scripts/generate-version.ts
+     📄 Files WITHOUT Unknown (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • alias/cssinjs.js
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+
+   TSTypeReference:
+     📄 Files WITH TSTypeReference (showing 10):
+       • typings/jest.d.ts
+       • typings/custom-typings.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
+       • scripts/print-changelog.ts
+       • scripts/prepare-examples.ts
+       • scripts/pre-publish.ts
+       • scripts/post-publish.ts
+     📄 Files WITHOUT TSTypeReference (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/index.d.ts
+       • typings/cssType.d.ts
+       • alias/cssinjs.js
+       • tests/changelog.test.ts
+
+   TemplateElement:
+     📄 Files WITH TemplateElement (showing 10):
+       • typings/cssType.d.ts
+       • scripts/set-node-options.ts
+       • scripts/print-changelog.ts
+       • scripts/prepare-examples.ts
+       • scripts/pre-publish.ts
+       • scripts/post-publish.ts
+       • scripts/generate-version.ts
+       • scripts/generate-token-meta.ts
+       • scripts/generate-llms.ts
+       • scripts/generate-cssinjs.ts
+     📄 Files WITHOUT TemplateElement (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • alias/cssinjs.js
+
+   ArrowFunctionExpression:
+     📄 Files WITH ArrowFunctionExpression (showing 10):
+       • webpack.config.js
+       • index-with-locales.js
+       • index-style-only.js
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
+       • scripts/print-changelog.ts
+       • scripts/prepare-examples.ts
+     📄 Files WITHOUT ArrowFunctionExpression (showing 10):
+       • jest-puppeteer.config.js
+       • index.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+       • alias/cssinjs.js
+       • components/index.ts
+       • scripts/set-node-options.ts
+
+   BlockStatement:
+     📄 Files WITH BlockStatement (showing 10):
+       • webpack.config.js
+       • index-with-locales.js
+       • index-style-only.js
+       • alias/cssinjs.js
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
+       • scripts/set-node-options.ts
+     📄 Files WITHOUT BlockStatement (showing 10):
+       • jest-puppeteer.config.js
+       • index.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+       • components/index.ts
+       • scripts/generate-version.ts
+       • tests/__mocks__/rc-virtual-list.ts
+
+   ImportDeclaration:
+     📄 Files WITH ImportDeclaration (showing 10):
+       • eslint.config.mjs
+       • typings/custom-typings.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
+       • scripts/set-node-options.ts
+       • scripts/print-changelog.ts
+       • scripts/prepare-examples.ts
+     📄 Files WITHOUT ImportDeclaration (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/cssType.d.ts
+       • alias/cssinjs.js
+       • components/index.ts
+
+   ImportSpecifier:
+     📄 Files WITH ImportSpecifier (showing 10):
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
+       • scripts/print-changelog.ts
+       • scripts/pre-publish.ts
+       • scripts/post-publish.ts
+       • scripts/generate-version.ts
+       • scripts/generate-token-meta.ts
+       • scripts/generate-llms.ts
+     📄 Files WITHOUT ImportSpecifier (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   JSXClosingElement:
+     📄 Files WITH JSXClosingElement (showing 10):
+       • scripts/check-cssinjs.tsx
+       • tests/shared/rtlTest.tsx
+       • tests/shared/rootPropsTest.tsx
+       • tests/shared/imageTest.tsx
+       • tests/shared/focusTest.tsx
+       • tests/shared/demoTest.tsx
+       • components/upload/Upload.tsx
+       • components/typography/Typography.tsx
+       • components/typography/Editable.tsx
+       • components/watermark/index.tsx
+     📄 Files WITHOUT JSXClosingElement (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   TSPropertySignature:
+     📄 Files WITH TSPropertySignature (showing 10):
+       • tests/utils.tsx
+       • scripts/print-changelog.ts
+       • scripts/generate-token-meta.ts
+       • scripts/generate-llms.ts
+       • scripts/generate-cssinjs.ts
+       • scripts/generate-component-changelog.ts
+       • tests/__mocks__/copy-to-clipboard.ts
+       • tests/shared/rootPropsTest.tsx
+       • tests/shared/imageTest.tsx
+       • tests/shared/demoTestContext.ts
+     📄 Files WITHOUT TSPropertySignature (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   TemplateLiteral:
+     📄 Files WITH TemplateLiteral (showing 10):
+       • scripts/set-node-options.ts
+       • scripts/print-changelog.ts
+       • scripts/prepare-examples.ts
+       • scripts/pre-publish.ts
+       • scripts/post-publish.ts
+       • scripts/generate-version.ts
+       • scripts/generate-token-meta.ts
+       • scripts/generate-llms.ts
+       • scripts/generate-cssinjs.ts
+       • scripts/generate-component-changelog.ts
+     📄 Files WITHOUT TemplateLiteral (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   ArrayExpression:
+     📄 Files WITH ArrayExpression (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • eslint.config.mjs
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • scripts/print-changelog.ts
+       • scripts/prepare-examples.ts
+       • scripts/pre-publish.ts
+       • scripts/post-publish.ts
+     📄 Files WITHOUT ArrayExpression (showing 10):
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+       • alias/cssinjs.js
+       • tests/index.test.ts
+       • tests/changelog.test.ts
+
+   ImportDefaultSpecifier:
+     📄 Files WITH ImportDefaultSpecifier (showing 10):
+       • eslint.config.mjs
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/changelog.test.ts
+       • scripts/set-node-options.ts
+       • scripts/print-changelog.ts
+       • scripts/prepare-examples.ts
+       • scripts/pre-publish.ts
+       • scripts/post-publish.ts
+     📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+       • alias/cssinjs.js
+
+   TSTypeParameterInstantiation:
+     📄 Files WITH TSTypeParameterInstantiation (showing 10):
+       • typings/custom-typings.d.ts
+       • tests/utils.tsx
+       • tests/setup.ts
+       • tests/index.test.ts
+       • scripts/print-changelog.ts
+       • scripts/pre-publish.ts
+       • scripts/generate-token-meta.ts
+       • scripts/generate-llms.ts
+       • scripts/generate-component-changelog.ts
+       • scripts/generate-authors.ts
+     📄 Files WITHOUT TSTypeParameterInstantiation (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/cssType.d.ts
+       • alias/cssinjs.js
+
+   ObjectPattern:
+     📄 Files WITH ObjectPattern (showing 10):
+       • webpack.config.js
+       • tests/setupAfterEnv.ts
+       • scripts/print-changelog.ts
+       • scripts/pre-publish.ts
+       • scripts/post-publish.ts
+       • scripts/generate-llms.ts
+       • scripts/generate-cssinjs.ts
+       • scripts/generate-authors.ts
+       • scripts/check-site.ts
+       • scripts/check-repo.ts
+     📄 Files WITHOUT ObjectPattern (showing 10):
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+       • alias/cssinjs.js
+
+   BinaryExpression:
+     📄 Files WITH BinaryExpression (showing 10):
+       • webpack.config.js
+       • index-style-only.js
+       • alias/cssinjs.js
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
+       • tests/changelog.test.ts
+       • scripts/set-node-options.ts
+       • scripts/print-changelog.ts
+     📄 Files WITHOUT BinaryExpression (showing 10):
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+       • components/index.ts
+       • scripts/generate-version.ts
+
+   JSXMemberExpression:
+     📄 Files WITH JSXMemberExpression (showing 10):
+       • tests/shared/rootPropsTest.tsx
+       • tests/shared/imageTest.tsx
+       • tests/shared/demoTest.tsx
+       • components/watermark/index.tsx
+       • components/tour/index.tsx
+       • components/tooltip/index.tsx
+       • components/splitter/Splitter.tsx
+       • components/space/Compact.tsx
+       • components/modal/Modal.tsx
+       • components/menu/menu.tsx
+     📄 Files WITHOUT JSXMemberExpression (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   ParenthesizedExpression:
+     📄 Files WITH ParenthesizedExpression (showing 10):
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • scripts/set-node-options.ts
+       • scripts/print-changelog.ts
+       • scripts/pre-publish.ts
+       • scripts/post-publish.ts
+       • scripts/generate-token-meta.ts
+       • scripts/generate-llms.ts
+       • scripts/generate-cssinjs.ts
+     📄 Files WITHOUT ParenthesizedExpression (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   ReturnStatement:
+     📄 Files WITH ReturnStatement (showing 10):
+       • webpack.config.js
+       • index-style-only.js
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • scripts/print-changelog.ts
+       • scripts/prepare-examples.ts
+       • scripts/pre-publish.ts
+       • scripts/post-publish.ts
+       • scripts/generate-token-meta.ts
+     📄 Files WITHOUT ReturnStatement (showing 10):
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+       • alias/cssinjs.js
+       • tests/index.test.ts
+
+   TSQualifiedName:
+     📄 Files WITH TSQualifiedName (showing 10):
+       • typings/custom-typings.d.ts
+       • tests/utils.tsx
+       • scripts/print-changelog.ts
+       • scripts/generate-cssinjs.ts
+       • scripts/check-site.ts
+       • tests/shared/rtlTest.tsx
+       • tests/shared/rootPropsTest.tsx
+       • tests/shared/mountTest.tsx
+       • tests/shared/imageTest.tsx
+       • tests/shared/focusTest.tsx
+     📄 Files WITHOUT TSQualifiedName (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/cssType.d.ts
+       • alias/cssinjs.js
+
+   TSStringKeyword:
+     📄 Files WITH TSStringKeyword (showing 10):
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+       • scripts/set-node-options.ts
+       • scripts/print-changelog.ts
+       • scripts/prepare-examples.ts
+       • scripts/pre-publish.ts
+       • scripts/post-publish.ts
+       • scripts/generate-token-meta.ts
+       • scripts/generate-llms.ts
+       • scripts/generate-cssinjs.ts
+     📄 Files WITHOUT TSStringKeyword (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • alias/cssinjs.js
+       • tests/utils.tsx
+
+   Program:
+     📄 Files WITH Program (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+     📄 Files WITHOUT Program: (all files contain this node type)
+
+   TSLiteralType:
+     📄 Files WITH TSLiteralType (showing 10):
+       • scripts/pre-publish.ts
+       • tests/shared/demoTest.tsx
+       • components/upload/interface.ts
+       • components/upload/Upload.tsx
+       • components/typography/Title.tsx
+       • components/typography/Text.tsx
+       • components/typography/Paragraph.tsx
+       • components/typography/Link.tsx
+       • components/typography/Editable.tsx
+       • components/tree-select/index.tsx
+     📄 Files WITHOUT TSLiteralType (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   LogicalExpression:
+     📄 Files WITH LogicalExpression (showing 10):
+       • webpack.config.js
+       • index-style-only.js
+       • alias/cssinjs.js
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/changelog.test.ts
+       • scripts/print-changelog.ts
+       • scripts/prepare-examples.ts
+       • scripts/pre-publish.ts
+       • scripts/post-publish.ts
+     📄 Files WITHOUT LogicalExpression (showing 10):
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/index.test.ts
+
+   IfStatement:
+     📄 Files WITH IfStatement (showing 10):
+       • webpack.config.js
+       • index-style-only.js
+       • alias/cssinjs.js
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
+       • scripts/set-node-options.ts
+       • scripts/print-changelog.ts
+       • scripts/prepare-examples.ts
+     📄 Files WITHOUT IfStatement (showing 10):
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+       • tests/changelog.test.ts
+       • components/index.ts
+
+   AssignmentExpression:
+     📄 Files WITH AssignmentExpression (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • alias/cssinjs.js
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
+     📄 Files WITHOUT AssignmentExpression (showing 10):
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+       • tests/changelog.test.ts
+       • components/index.ts
+       • scripts/generate-version.ts
+       • scripts/collect-token-statistic.ts
+       • scripts/check-repo.ts
+
+   ChainExpression:
+     📄 Files WITH ChainExpression (showing 10):
+       • index-style-only.js
+       • scripts/print-changelog.ts
+       • scripts/prepare-examples.ts
+       • scripts/pre-publish.ts
+       • scripts/generate-token-meta.ts
+       • scripts/generate-llms.ts
+       • scripts/generate-cssinjs.ts
+       • scripts/check-site.ts
+       • scripts/check-repo.ts
+       • tests/shared/rootPropsTest.tsx
+     📄 Files WITHOUT ChainExpression (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+       • alias/cssinjs.js
+
+   ExportDefaultDeclaration:
+     📄 Files WITH ExportDefaultDeclaration (showing 10):
+       • eslint.config.mjs
+       • typings/custom-typings.d.ts
+       • scripts/check-repo.ts
+       • tests/__mocks__/rc-virtual-list.ts
+       • tests/__mocks__/copy-to-clipboard.ts
+       • tests/shared/rtlTest.tsx
+       • tests/shared/rootPropsTest.tsx
+       • tests/shared/mountTest.tsx
+       • tests/shared/imageTest.tsx
+       • tests/shared/focusTest.tsx
+     📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/cssType.d.ts
+       • alias/cssinjs.js
+       • tests/utils.tsx
+
+   UnaryExpression:
+     📄 Files WITH UnaryExpression (showing 10):
+       • webpack.config.js
+       • alias/cssinjs.js
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • scripts/print-changelog.ts
+       • scripts/prepare-examples.ts
+       • scripts/pre-publish.ts
+       • scripts/post-publish.ts
+       • scripts/generate-token-meta.ts
+       • scripts/generate-llms.ts
+     📄 Files WITHOUT UnaryExpression (showing 10):
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+       • tests/utils.tsx
+
+   SpreadElement:
+     📄 Files WITH SpreadElement (showing 10):
+       • webpack.config.js
+       • eslint.config.mjs
+       • tests/utils.tsx
+       • tests/setup.ts
+       • scripts/prepare-examples.ts
+       • scripts/generate-llms.ts
+       • scripts/generate-component-changelog.ts
+       • scripts/collect-token-statistic.ts
+       • tests/shared/rootPropsTest.tsx
+       • tests/shared/imageTest.tsx
+     📄 Files WITHOUT SpreadElement (showing 10):
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+       • alias/cssinjs.js
+       • tests/setupAfterEnv.ts
+
+   ExportNamedDeclaration:
+     📄 Files WITH ExportNamedDeclaration (showing 10):
+       • typings/custom-typings.d.ts
+       • tests/utils.tsx
+       • tests/setup.ts
+       • components/index.ts
+       • scripts/generate-cssinjs.ts
+       • tests/shared/rootPropsTest.tsx
+       • tests/shared/imageTest.tsx
+       • tests/shared/excludeWarning.ts
+       • tests/shared/demoTestContext.ts
+       • tests/shared/demoTest.tsx
+     📄 Files WITHOUT ExportNamedDeclaration (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/cssType.d.ts
+       • alias/cssinjs.js
+
+   TSNonNullExpression:
+     📄 Files WITH TSNonNullExpression (showing 10):
+       • scripts/print-changelog.ts
+       • scripts/post-publish.ts
+       • scripts/generate-component-changelog.ts
+       • tests/shared/rootPropsTest.tsx
+       • tests/shared/imageTest.tsx
+       • tests/shared/focusTest.tsx
+       • tests/shared/demoTest.tsx
+       • components/upload/utils.ts
+       • components/watermark/useWatermark.ts
+       • components/watermark/useSingletonCache.ts
+     📄 Files WITHOUT TSNonNullExpression (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   TSNumberKeyword:
+     📄 Files WITH TSNumberKeyword (showing 10):
+       • typings/cssType.d.ts
+       • scripts/pre-publish.ts
+       • tests/shared/rootPropsTest.tsx
+       • components/upload/interface.ts
+       • components/upload/Upload.tsx
+       • components/upload/Dragger.tsx
+       • components/typography/Title.tsx
+       • components/typography/Editable.tsx
+       • components/tree-select/index.tsx
+       • components/watermark/useWatermark.ts
+     📄 Files WITHOUT TSNumberKeyword (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • alias/cssinjs.js
+
+   ArrayPattern:
+     📄 Files WITH ArrayPattern (showing 10):
+       • scripts/generate-token-meta.ts
+       • scripts/generate-component-changelog.ts
+       • scripts/check-site.ts
+       • scripts/check-cssinjs.tsx
+       • tests/shared/rootPropsTest.tsx
+       • tests/shared/imageTest.tsx
+       • components/upload/Upload.tsx
+       • components/typography/Typography.tsx
+       • components/typography/Editable.tsx
+       • components/tree-select/index.tsx
+     📄 Files WITHOUT ArrayPattern (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   TSUnionType:
+     📄 Files WITH TSUnionType (showing 10):
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+       • tests/utils.tsx
+       • tests/setup.ts
+       • scripts/print-changelog.ts
+       • scripts/pre-publish.ts
+       • scripts/generate-component-changelog.ts
+       • scripts/check-site.ts
+       • tests/shared/rootPropsTest.tsx
+       • tests/shared/imageTest.tsx
+     📄 Files WITHOUT TSUnionType (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • alias/cssinjs.js
+       • tests/setupAfterEnv.ts
+
+   TSAsExpression:
+     📄 Files WITH TSAsExpression (showing 10):
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • scripts/print-changelog.ts
+       • scripts/prepare-examples.ts
+       • scripts/post-publish.ts
+       • scripts/generate-token-meta.ts
+       • tests/shared/imageTest.tsx
+       • tests/shared/accessibilityTest.tsx
+       • components/upload/utils.ts
+     📄 Files WITHOUT TSAsExpression (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   TSBooleanKeyword:
+     📄 Files WITH TSBooleanKeyword (showing 10):
+       • typings/custom-typings.d.ts
+       • tests/shared/imageTest.tsx
+       • tests/shared/excludeWarning.ts
+       • tests/shared/demoTestContext.ts
+       • tests/shared/demoTest.tsx
+       • tests/shared/accessibilityTest.tsx
+       • components/upload/utils.ts
+       • components/upload/interface.ts
+       • components/upload/Upload.tsx
+       • components/typography/Text.tsx
+     📄 Files WITHOUT TSBooleanKeyword (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/cssType.d.ts
+       • alias/cssinjs.js
+
+   ConditionalExpression:
+     📄 Files WITH ConditionalExpression (showing 10):
+       • tests/setupAfterEnv.ts
+       • tests/changelog.test.ts
+       • scripts/print-changelog.ts
+       • scripts/prepare-examples.ts
+       • scripts/pre-publish.ts
+       • scripts/post-publish.ts
+       • scripts/generate-component-changelog.ts
+       • tests/shared/rootPropsTest.tsx
+       • tests/shared/imageTest.tsx
+       • tests/shared/demoTest.tsx
+     📄 Files WITHOUT ConditionalExpression (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   AwaitExpression:
+     📄 Files WITH AwaitExpression (showing 10):
+       • tests/utils.tsx
+       • scripts/print-changelog.ts
+       • scripts/pre-publish.ts
+       • scripts/post-publish.ts
+       • scripts/generate-token-meta.ts
+       • scripts/generate-llms.ts
+       • scripts/generate-cssinjs.ts
+       • scripts/generate-authors.ts
+       • scripts/collect-token-statistic.ts
+       • scripts/check-site.ts
+     📄 Files WITHOUT AwaitExpression (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   TSIndexedAccessType:
+     📄 Files WITH TSIndexedAccessType (showing 10):
+       • tests/setup.ts
+       • components/upload/interface.ts
+       • components/upload/Upload.tsx
+       • components/typography/Title.tsx
+       • components/typography/Editable.tsx
+       • components/tree-select/index.tsx
+       • components/watermark/useClips.ts
+       • components/watermark/index.tsx
+       • components/tour/panelRender.tsx
+       • components/tour/interface.ts
+     📄 Files WITHOUT TSIndexedAccessType (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   TSArrayType:
+     📄 Files WITH TSArrayType (showing 10):
+       • typings/custom-typings.d.ts
+       • scripts/set-node-options.ts
+       • scripts/print-changelog.ts
+       • scripts/prepare-examples.ts
+       • scripts/pre-publish.ts
+       • scripts/generate-token-meta.ts
+       • scripts/generate-llms.ts
+       • scripts/generate-component-changelog.ts
+       • scripts/check-version-md.ts
+       • scripts/check-cssinjs.tsx
+     📄 Files WITHOUT TSArrayType (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/cssType.d.ts
+       • alias/cssinjs.js
+
+   TSInterfaceDeclaration:
+     📄 Files WITH TSInterfaceDeclaration (showing 10):
+       • typings/jest.d.ts
+       • typings/cssType.d.ts
+       • scripts/print-changelog.ts
+       • scripts/generate-token-meta.ts
+       • scripts/generate-cssinjs.ts
+       • tests/shared/rootPropsTest.tsx
+       • tests/shared/imageTest.tsx
+       • components/upload/interface.ts
+       • components/upload/Upload.tsx
+       • components/typography/Typography.tsx
+     📄 Files WITHOUT TSInterfaceDeclaration (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • alias/cssinjs.js
+       • tests/utils.tsx
+
+   TSInterfaceBody:
+     📄 Files WITH TSInterfaceBody (showing 10):
+       • typings/jest.d.ts
+       • typings/cssType.d.ts
+       • scripts/print-changelog.ts
+       • scripts/generate-token-meta.ts
+       • scripts/generate-cssinjs.ts
+       • tests/shared/rootPropsTest.tsx
+       • tests/shared/imageTest.tsx
+       • components/upload/interface.ts
+       • components/upload/Upload.tsx
+       • components/typography/Typography.tsx
+     📄 Files WITHOUT TSInterfaceBody (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • alias/cssinjs.js
+       • tests/utils.tsx
+
+   TSAnyKeyword:
+     📄 Files WITH TSAnyKeyword (showing 10):
+       • typings/custom-typings.d.ts
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • tests/index.test.ts
+       • scripts/prepare-examples.ts
+       • scripts/generate-token-meta.ts
+       • scripts/collect-token-statistic.ts
+       • scripts/check-repo.ts
+       • scripts/check-cssinjs.tsx
+     📄 Files WITHOUT TSAnyKeyword (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/cssType.d.ts
+       • alias/cssinjs.js
+
+   JSXSpreadAttribute:
+     📄 Files WITH JSXSpreadAttribute (showing 10):
+       • tests/shared/rootPropsTest.tsx
+       • components/upload/Upload.tsx
+       • components/upload/Dragger.tsx
+       • components/typography/Typography.tsx
+       • components/typography/Title.tsx
+       • components/typography/Text.tsx
+       • components/typography/Paragraph.tsx
+       • components/typography/Link.tsx
+       • components/tree-select/index.tsx
+       • components/tree/Tree.tsx
+     📄 Files WITHOUT JSXSpreadAttribute (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   TSTypeAliasDeclaration:
+     📄 Files WITH TSTypeAliasDeclaration (showing 10):
+       • tests/setup.ts
+       • scripts/generate-cssinjs.ts
+       • tests/shared/imageTest.tsx
+       • tests/shared/demoTest.tsx
+       • tests/shared/accessibilityTest.tsx
+       • components/upload/interface.ts
+       • components/upload/index.tsx
+       • components/upload/Dragger.tsx
+       • components/typography/index.tsx
+       • components/tree-select/index.tsx
+     📄 Files WITHOUT TSTypeAliasDeclaration (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   TSFunctionType:
+     📄 Files WITH TSFunctionType (showing 10):
+       • tests/utils.tsx
+       • scripts/print-changelog.ts
+       • scripts/generate-cssinjs.ts
+       • tests/__mocks__/copy-to-clipboard.ts
+       • tests/shared/rootPropsTest.tsx
+       • tests/shared/excludeWarning.ts
+       • tests/shared/accessibilityTest.tsx
+       • components/upload/interface.ts
+       • components/upload/Upload.tsx
+       • components/typography/Typography.tsx
+     📄 Files WITHOUT TSFunctionType (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   ExportSpecifier:
+     📄 Files WITH ExportSpecifier (showing 10):
+       • tests/utils.tsx
+       • components/index.ts
+       • tests/shared/demoTest.tsx
+       • components/upload/index.tsx
+       • components/upload/Upload.tsx
+       • components/tree-select/index.tsx
+       • components/tree/index.tsx
+       • components/transfer/index.tsx
+       • components/timeline/index.tsx
+       • components/tooltip/index.tsx
+     📄 Files WITHOUT ExportSpecifier (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   FunctionDeclaration:
+     📄 Files WITH FunctionDeclaration (showing 10):
+       • webpack.config.js
+       • index-style-only.js
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • scripts/print-changelog.ts
+       • scripts/prepare-examples.ts
+       • scripts/pre-publish.ts
+       • scripts/post-publish.ts
+       • scripts/generate-token-meta.ts
+     📄 Files WITHOUT FunctionDeclaration (showing 10):
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+       • alias/cssinjs.js
+       • tests/index.test.ts
+
+   AssignmentPattern:
+     📄 Files WITH AssignmentPattern (showing 10):
+       • tests/utils.tsx
+       • scripts/prepare-examples.ts
+       • scripts/pre-publish.ts
+       • scripts/generate-cssinjs.ts
+       • scripts/check-repo.ts
+       • tests/__mocks__/copy-to-clipboard.ts
+       • tests/shared/rtlTest.tsx
+       • tests/shared/imageTest.tsx
+       • tests/shared/focusTest.tsx
+       • tests/shared/excludeWarning.ts
+     📄 Files WITHOUT AssignmentPattern (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   TSTypeLiteral:
+     📄 Files WITH TSTypeLiteral (showing 10):
+       • typings/custom-typings.d.ts
+       • tests/utils.tsx
+       • scripts/generate-llms.ts
+       • scripts/generate-component-changelog.ts
+       • tests/__mocks__/copy-to-clipboard.ts
+       • tests/shared/imageTest.tsx
+       • tests/shared/demoTestContext.ts
+       • tests/shared/demoTest.tsx
+       • tests/shared/accessibilityTest.tsx
+       • components/upload/interface.ts
+     📄 Files WITHOUT TSTypeLiteral (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/cssType.d.ts
+       • alias/cssinjs.js
+
+   JSXFragment:
+     📄 Files WITH JSXFragment (showing 10):
+       • components/tour/panelRender.tsx
+       • components/transfer/list.tsx
+       • components/transfer/ListBody.tsx
+       • components/tag/index.tsx
+       • components/space/Item.tsx
+       • components/segmented/index.tsx
+       • components/select/useIcons.tsx
+       • components/qr-code/QrcodeStatus.tsx
+       • components/modal/shared.tsx
+       • components/modal/ConfirmDialog.tsx
+     📄 Files WITHOUT JSXFragment (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   JSXOpeningFragment:
+     📄 Files WITH JSXOpeningFragment (showing 10):
+       • components/tour/panelRender.tsx
+       • components/transfer/list.tsx
+       • components/transfer/ListBody.tsx
+       • components/tag/index.tsx
+       • components/space/Item.tsx
+       • components/segmented/index.tsx
+       • components/select/useIcons.tsx
+       • components/qr-code/QrcodeStatus.tsx
+       • components/modal/shared.tsx
+       • components/modal/ConfirmDialog.tsx
+     📄 Files WITHOUT JSXOpeningFragment (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   JSXClosingFragment:
+     📄 Files WITH JSXClosingFragment (showing 10):
+       • components/tour/panelRender.tsx
+       • components/transfer/list.tsx
+       • components/transfer/ListBody.tsx
+       • components/tag/index.tsx
+       • components/space/Item.tsx
+       • components/segmented/index.tsx
+       • components/select/useIcons.tsx
+       • components/qr-code/QrcodeStatus.tsx
+       • components/modal/shared.tsx
+       • components/modal/ConfirmDialog.tsx
+     📄 Files WITHOUT JSXClosingFragment (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   TSVoidKeyword:
+     📄 Files WITH TSVoidKeyword (showing 10):
+       • typings/custom-typings.d.ts
+       • scripts/generate-cssinjs.ts
+       • tests/__mocks__/copy-to-clipboard.ts
+       • tests/shared/rootPropsTest.tsx
+       • tests/shared/excludeWarning.ts
+       • components/upload/interface.ts
+       • components/upload/Upload.tsx
+       • components/typography/Typography.tsx
+       • components/typography/Editable.tsx
+       • components/tree-select/index.tsx
+     📄 Files WITHOUT TSVoidKeyword (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/cssType.d.ts
+       • alias/cssinjs.js
+
+   TSTypeQuery:
+     📄 Files WITH TSTypeQuery (showing 10):
+       • tests/setup.ts
+       • scripts/post-publish.ts
+       • scripts/generate-token-meta.ts
+       • tests/shared/imageTest.tsx
+       • tests/shared/accessibilityTest.tsx
+       • components/upload/index.tsx
+       • components/typography/index.tsx
+       • components/typography/Title.tsx
+       • components/tree-select/index.tsx
+       • components/watermark/index.tsx
+     📄 Files WITHOUT TSTypeQuery (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   TSTypeParameter:
+     📄 Files WITH TSTypeParameter (showing 10):
+       • typings/jest.d.ts
+       • tests/utils.tsx
+       • tests/setup.ts
+       • tests/shared/accessibilityTest.tsx
+       • components/upload/interface.ts
+       • components/upload/index.tsx
+       • components/upload/Upload.tsx
+       • components/upload/Dragger.tsx
+       • components/typography/Typography.tsx
+       • components/tree-select/index.tsx
+     📄 Files WITHOUT TSTypeParameter (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+       • alias/cssinjs.js
+
+   NewExpression:
+     📄 Files WITH NewExpression (showing 10):
+       • webpack.config.js
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+       • tests/setup.ts
+       • scripts/print-changelog.ts
+       • scripts/pre-publish.ts
+       • scripts/generate-token-meta.ts
+       • scripts/generate-component-changelog.ts
+       • scripts/generate-authors.ts
+       • scripts/collect-token-statistic.ts
+     📄 Files WITHOUT NewExpression (showing 10):
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+       • alias/cssinjs.js
+
+   TSInterfaceHeritage:
+     📄 Files WITH TSInterfaceHeritage (showing 10):
+       • components/upload/interface.ts
+       • components/typography/Typography.tsx
+       • components/typography/Title.tsx
+       • components/typography/Text.tsx
+       • components/typography/Paragraph.tsx
+       • components/typography/Link.tsx
+       • components/tree-select/index.tsx
+       • components/tree/Tree.tsx
+       • components/tree/DirectoryTree.tsx
+       • components/tour/interface.ts
+     📄 Files WITHOUT TSInterfaceHeritage (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   ImportNamespaceSpecifier:
+     📄 Files WITH ImportNamespaceSpecifier (showing 10):
+       • typings/custom-typings.d.ts
+       • tests/shared/demoTestContext.ts
+       • tests/shared/demoTest.tsx
+       • components/upload/interface.ts
+       • components/upload/Upload.tsx
+       • components/upload/Dragger.tsx
+       • components/typography/Typography.tsx
+       • components/typography/Title.tsx
+       • components/typography/Text.tsx
+       • components/typography/Paragraph.tsx
+     📄 Files WITHOUT ImportNamespaceSpecifier (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/cssType.d.ts
+       • alias/cssinjs.js
+
+   TSTypeParameterDeclaration:
+     📄 Files WITH TSTypeParameterDeclaration (showing 10):
+       • typings/jest.d.ts
+       • tests/utils.tsx
+       • tests/setup.ts
+       • tests/shared/accessibilityTest.tsx
+       • components/upload/interface.ts
+       • components/upload/index.tsx
+       • components/upload/Upload.tsx
+       • components/upload/Dragger.tsx
+       • components/typography/Typography.tsx
+       • components/tree-select/index.tsx
+     📄 Files WITHOUT TSTypeParameterDeclaration (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+       • alias/cssinjs.js
+
+   TSIntersectionType:
+     📄 Files WITH TSIntersectionType (showing 10):
+       • tests/setup.ts
+       • tests/__mocks__/copy-to-clipboard.ts
+       • tests/shared/rootPropsTest.tsx
+       • tests/shared/demoTestContext.ts
+       • components/upload/index.tsx
+       • components/upload/Dragger.tsx
+       • components/typography/index.tsx
+       • components/tree-select/index.tsx
+       • components/tree/index.tsx
+       • components/tree/DirectoryTree.tsx
+     📄 Files WITHOUT TSIntersectionType (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   RestElement:
+     📄 Files WITH RestElement (showing 10):
+       • tests/setup.ts
+       • scripts/generate-component-changelog.ts
+       • tests/shared/excludeWarning.ts
+       • tests/shared/accessibilityTest.tsx
+       • components/upload/Dragger.tsx
+       • components/typography/Typography.tsx
+       • components/typography/Title.tsx
+       • components/typography/Text.tsx
+       • components/typography/Link.tsx
+       • components/tree-select/index.tsx
+     📄 Files WITHOUT RestElement (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   TSNullKeyword:
+     📄 Files WITH TSNullKeyword (showing 10):
+       • tests/utils.tsx
+       • components/upload/Upload.tsx
+       • components/watermark/useSingletonCache.ts
+       • components/watermark/index.tsx
+       • components/watermark/context.ts
+       • components/transfer/index.tsx
+       • components/table/interface.ts
+       • components/table/InternalTable.tsx
+       • components/table/Column.ts
+       • components/splitter/interface.ts
+     📄 Files WITHOUT TSNullKeyword (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   TSParenthesizedType:
+     📄 Files WITH TSParenthesizedType (showing 10):
+       • scripts/generate-component-changelog.ts
+       • tests/__mocks__/copy-to-clipboard.ts
+       • tests/shared/demoTestContext.ts
+       • components/upload/utils.ts
+       • components/upload/interface.ts
+       • components/typography/Title.tsx
+       • components/tree/index.tsx
+       • components/tree/Tree.tsx
+       • components/tree/DirectoryTree.tsx
+       • components/transfer/index.tsx
+     📄 Files WITHOUT TSParenthesizedType (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   FunctionExpression:
+     📄 Files WITH FunctionExpression (showing 10):
+       • tests/setup.ts
+       • scripts/print-changelog.ts
+       • scripts/post-publish.ts
+       • scripts/collect-token-statistic.ts
+       • scripts/check-cssinjs.tsx
+       • tests/shared/imageTest.tsx
+       • tests/shared/accessibilityTest.tsx
+       • components/transfer/list.tsx
+       • components/modal/index.tsx
+       • components/color-picker/color.ts
+     📄 Files WITHOUT FunctionExpression (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   TSTypeOperator:
+     📄 Files WITH TSTypeOperator (showing 10):
+       • tests/setup.ts
+       • scripts/print-changelog.ts
+       • scripts/post-publish.ts
+       • components/typography/Typography.tsx
+       • components/typography/Title.tsx
+       • components/typography/Text.tsx
+       • components/typography/Paragraph.tsx
+       • components/typography/Link.tsx
+       • components/watermark/utils.ts
+       • components/theme/useToken.ts
+     📄 Files WITHOUT TSTypeOperator (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   TSUndefinedKeyword:
+     📄 Files WITH TSUndefinedKeyword (showing 10):
+       • typings/cssType.d.ts
+       • scripts/print-changelog.ts
+       • tests/shared/demoTestContext.ts
+       • components/transfer/ListItem.tsx
+       • components/tabs/index.tsx
+       • components/table/InternalTable.tsx
+       • components/splitter/Splitter.tsx
+       • components/splitter/SplitBar.tsx
+       • components/spin/usePercent.ts
+       • components/spin/index.tsx
+     📄 Files WITHOUT TSUndefinedKeyword (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • alias/cssinjs.js
+
+   SwitchCase:
+     📄 Files WITH SwitchCase (showing 10):
+       • components/tree/Tree.tsx
+       • components/table/InternalTable.tsx
+       • components/notification/util.ts
+       • components/notification/index.tsx
+       • components/modal/ConfirmDialog.tsx
+       • components/message/index.tsx
+       • components/list/index.tsx
+       • components/config-provider/defaultRenderEmpty.tsx
+       • components/button/button-group.tsx
+       • components/auto-complete/AutoComplete.tsx
+     📄 Files WITHOUT SwitchCase (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   ThisExpression:
+     📄 Files WITH ThisExpression (showing 10):
+       • scripts/print-changelog.ts
+       • tests/shared/imageTest.tsx
+       • tests/shared/accessibilityTest.tsx
+       • components/popconfirm/index.tsx
+       • components/modal/confirm.tsx
+       • components/color-picker/color.ts
+       • components/alert/ErrorBoundary.tsx
+       • components/_util/responsiveObserver.ts
+       • components/upload/__tests__/uploadlist.test.tsx
+       • components/typography/__tests__/index.test.tsx
+     📄 Files WITHOUT ThisExpression (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   ForStatement:
+     📄 Files WITH ForStatement (showing 10):
+       • tests/utils.tsx
+       • scripts/print-changelog.ts
+       • scripts/prepare-examples.ts
+       • scripts/post-publish.ts
+       • scripts/generate-component-changelog.ts
+       • scripts/generate-authors.ts
+       • scripts/check-version-md.ts
+       • components/watermark/index.tsx
+       • components/splitter/Splitter.tsx
+       • components/spin/usePercent.ts
+     📄 Files WITHOUT ForStatement (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   TSTupleType:
+     📄 Files WITH TSTupleType (showing 10):
+       • tests/shared/imageTest.tsx
+       • components/watermark/useWatermark.ts
+       • components/watermark/useSingletonCache.ts
+       • components/watermark/useClips.ts
+       • components/watermark/index.tsx
+       • components/tooltip/index.tsx
+       • components/theme/useToken.ts
+       • components/time-picker/index.tsx
+       • components/splitter/SplitBar.tsx
+       • components/spin/usePercent.ts
+     📄 Files WITHOUT TSTupleType (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   TSUnknownKeyword:
+     📄 Files WITH TSUnknownKeyword (showing 10):
+       • scripts/print-changelog.ts
+       • tests/shared/imageTest.tsx
+       • components/upload/interface.ts
+       • components/watermark/useWatermark.ts
+       • components/tree/index.tsx
+       • components/tree/DirectoryTree.tsx
+       • components/table/Table.tsx
+       • components/select/index.tsx
+       • components/progress/Circle.tsx
+       • components/notification/index.tsx
+     📄 Files WITHOUT TSUnknownKeyword (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   UpdateExpression:
+     📄 Files WITH UpdateExpression (showing 10):
+       • scripts/print-changelog.ts
+       • scripts/prepare-examples.ts
+       • scripts/generate-authors.ts
+       • components/progress/Steps.tsx
+       • components/modal/confirm.tsx
+       • components/grid/row.tsx
+       • components/calendar/Header.tsx
+       • scripts/visual-regression/upload.js
+       • components/tree/demo/search.tsx
+       • components/tree/demo/draggable.tsx
+     📄 Files WITHOUT UpdateExpression (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   TSNamedTupleMember:
+     📄 Files WITH TSNamedTupleMember (showing 10):
+       • tests/shared/imageTest.tsx
+       • components/watermark/useWatermark.ts
+       • components/watermark/useClips.ts
+       • components/watermark/index.tsx
+       • components/theme/useToken.ts
+       • components/splitter/SplitBar.tsx
+       • components/spin/usePercent.ts
+       • components/slider/useRafLock.ts
+       • components/pagination/useShowSizeChanger.ts
+       • components/button/button.tsx
+     📄 Files WITHOUT TSNamedTupleMember (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   TSObjectKeyword:
+     📄 Files WITH TSObjectKeyword (showing 10):
+       • tests/__mocks__/copy-to-clipboard.ts
+       • tests/shared/rootPropsTest.tsx
+       • tests/shared/demoTest.tsx
+       • components/statistic/Timer.tsx
+       • components/config-provider/context.ts
+       • components/button/DefaultLoadingIcon.tsx
+       • components/alert/ErrorBoundary.tsx
+       • components/_util/type.ts
+       • components/upload/UploadList/index.tsx
+       • components/transfer/demo/table-transfer.tsx
+     📄 Files WITHOUT TSObjectKeyword (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   BreakStatement:
+     📄 Files WITH BreakStatement (showing 10):
+       • scripts/post-publish.ts
+       • scripts/generate-component-changelog.ts
+       • scripts/check-version-md.ts
+       • components/tree/Tree.tsx
+       • components/notification/util.ts
+       • components/notification/index.tsx
+       • components/modal/confirm.tsx
+       • components/modal/ConfirmDialog.tsx
+       • components/message/index.tsx
+       • components/list/index.tsx
+     📄 Files WITHOUT BreakStatement (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   JSXEmptyExpression:
+     📄 Files WITH JSXEmptyExpression (showing 10):
+       • components/transfer/list.tsx
+       • components/splitter/Splitter.tsx
+       • components/splitter/SplitBar.tsx
+       • components/radio/radio.tsx
+       • components/checkbox/Checkbox.tsx
+       • components/upload/UploadList/index.tsx
+       • components/upload/demo/drag-sorting.tsx
+       • components/typography/Base/Ellipsis.tsx
+       • components/select/demo/option-label-center.tsx
+       • components/select/demo/debug.tsx
+     📄 Files WITHOUT JSXEmptyExpression (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   TaggedTemplateExpression:
+     📄 Files WITH TaggedTemplateExpression (showing 10):
+       • components/tabs/demo/card-top.tsx
+       • components/table/demo/summary.tsx
+       • components/table/demo/grouping-columns.tsx
+       • components/table/demo/fixed-header.tsx
+       • components/table/demo/fixed-gapped-columns.tsx
+       • components/table/demo/fixed-columns.tsx
+       • components/table/demo/fixed-columns-header.tsx
+       • components/form/demo/custom-feedback-icons.tsx
+       • components/calendar/demo/lunar.tsx
+       • components/button/demo/linear-gradient.tsx
+     📄 Files WITHOUT TaggedTemplateExpression (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   MethodDefinition:
+     📄 Files WITH MethodDefinition (showing 8):
+       • tests/shared/accessibilityTest.tsx
+       • components/color-picker/color.ts
+       • components/alert/ErrorBoundary.tsx
+       • components/typography/__tests__/ellipsis.test.tsx
+       • components/flex/__tests__/index.test.tsx
+       • components/_util/hooks/useUniqueMemo.ts
+       • components/_util/__tests__/type.test.tsx
+       • tests/__mocks__/rc-util/lib/Portal.tsx
+     📄 Files WITHOUT MethodDefinition (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   SwitchStatement:
+     📄 Files WITH SwitchStatement (showing 10):
+       • components/tree/Tree.tsx
+       • components/table/InternalTable.tsx
+       • components/notification/util.ts
+       • components/notification/index.tsx
+       • components/modal/ConfirmDialog.tsx
+       • components/message/index.tsx
+       • components/list/index.tsx
+       • components/config-provider/defaultRenderEmpty.tsx
+       • components/button/button-group.tsx
+       • components/auto-complete/AutoComplete.tsx
+     📄 Files WITHOUT SwitchStatement (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   TryStatement:
+     📄 Files WITH TryStatement (showing 10):
+       • scripts/print-changelog.ts
+       • scripts/pre-publish.ts
+       • tests/shared/accessibilityTest.tsx
+       • components/upload/Upload.tsx
+       • scripts/visual-regression/upload.js
+       • scripts/visual-regression/reportAdapter.ts
+       • scripts/visual-regression/build.ts
+       • components/upload/demo/upload-with-aliyun-oss.tsx
+       • components/typography/hooks/useCopyClick.ts
+       • components/table/demo/edit-row.tsx
+     📄 Files WITHOUT TryStatement (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   ThrowStatement:
+     📄 Files WITH ThrowStatement (showing 10):
+       • scripts/pre-publish.ts
+       • scripts/generate-component-changelog.ts
+       • tests/shared/accessibilityTest.tsx
+       • components/_util/responsiveObserver.ts
+       • scripts/visual-regression/upload.js
+       • scripts/visual-regression/reportAdapter.ts
+       • scripts/visual-regression/local.ts
+       • scripts/visual-regression/build.ts
+       • components/upload/__tests__/uploadlist.test.tsx
+       • components/upload/__tests__/upload.test.tsx
+     📄 Files WITHOUT ThrowStatement (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   CatchClause:
+     📄 Files WITH CatchClause (showing 10):
+       • scripts/print-changelog.ts
+       • scripts/pre-publish.ts
+       • tests/shared/accessibilityTest.tsx
+       • components/upload/Upload.tsx
+       • scripts/visual-regression/upload.js
+       • scripts/visual-regression/reportAdapter.ts
+       • scripts/visual-regression/build.ts
+       • components/upload/demo/upload-with-aliyun-oss.tsx
+       • components/typography/hooks/useCopyClick.ts
+       • components/table/demo/edit-row.tsx
+     📄 Files WITHOUT CatchClause (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   PropertyDefinition:
+     📄 Files WITH PropertyDefinition (showing 7):
+       • tests/shared/accessibilityTest.tsx
+       • components/color-picker/color.ts
+       • components/alert/ErrorBoundary.tsx
+       • components/typography/__tests__/ellipsis.test.tsx
+       • components/_util/hooks/useUniqueMemo.ts
+       • components/_util/__tests__/wave.test.tsx
+       • tests/__mocks__/rc-util/lib/Portal.tsx
+     📄 Files WITHOUT PropertyDefinition (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   TSTypePredicate:
+     📄 Files WITH TSTypePredicate (showing 10):
+       • tests/utils.tsx
+       • tests/shared/rootPropsTest.tsx
+       • components/transfer/list.tsx
+       • components/segmented/index.tsx
+       • components/mentions/index.tsx
+       • components/config-provider/index.tsx
+       • components/button/buttonHelpers.tsx
+       • components/_util/getScroll.ts
+       • components/_util/gapSize.ts
+       • components/_util/colors.ts
+     📄 Files WITHOUT TSTypePredicate (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   TSConditionalType:
+     📄 Files WITH TSConditionalType (showing 6):
+       • components/menu/index.tsx
+       • components/menu/MenuItem.tsx
+       • components/config-provider/context.ts
+       • components/_util/type.ts
+       • components/table/demo/reset-filter.tsx
+       • components/date-picker/demo/components.tsx
+     📄 Files WITHOUT TSConditionalType (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   TSIndexSignature:
+     📄 Files WITH TSIndexSignature (showing 10):
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+       • tests/shared/accessibilityTest.tsx
+       • components/upload/interface.ts
+       • components/tree/Tree.tsx
+       • components/transfer/index.tsx
+       • components/slider/index.tsx
+       • components/mentions/index.tsx
+       • components/input/Input.tsx
+       • components/color-picker/interface.ts
+     📄 Files WITHOUT TSIndexSignature (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • alias/cssinjs.js
+       • tests/utils.tsx
+
+   ForOfStatement:
+     📄 Files WITH ForOfStatement (showing 10):
+       • scripts/generate-llms.ts
+       • scripts/check-site.ts
+       • scripts/check-cssinjs.tsx
+       • components/splitter/SplitBar.tsx
+       • components/_util/responsiveObserver.ts
+       • scripts/visual-regression/upload.js
+       • scripts/visual-regression/reportAdapter.ts
+       • scripts/visual-regression/build.ts
+       • components/table/demo/ajax.tsx
+       • components/select/demo/search-box.tsx
+     📄 Files WITHOUT ForOfStatement (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   TSMappedType:
+     📄 Files WITH TSMappedType (showing 10):
+       • tests/setup.ts
+       • components/theme/useToken.ts
+       • components/theme/context.ts
+       • components/image/index.tsx
+       • components/grid/row.tsx
+       • components/descriptions/Item.ts
+       • components/config-provider/context.ts
+       • components/theme/interface/presetColors.ts
+       • components/form/FormItem/index.tsx
+       • components/button/style/token.ts
+     📄 Files WITHOUT TSMappedType (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   TSModuleDeclaration:
+     📄 Files WITH TSModuleDeclaration (showing 3):
+       • typings/jest.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+     📄 Files WITHOUT TSModuleDeclaration (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/index.d.ts
+       • alias/cssinjs.js
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+
+   TSTemplateLiteralType:
+     📄 Files WITH TSTemplateLiteralType (showing 10):
+       • typings/cssType.d.ts
+       • components/input/Input.tsx
+       • components/color-picker/interface.ts
+       • components/button/button.tsx
+       • components/breadcrumb/Breadcrumb.tsx
+       • components/_util/colors.ts
+       • components/_util/aria-data-attrs.ts
+       • components/theme/interface/presetColors.ts
+       • components/button/style/token.ts
+       • components/_util/hooks/useMergeSemantic/index.ts
+     📄 Files WITHOUT TSTemplateLiteralType (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • alias/cssinjs.js
+
+   ImportExpression:
+     📄 Files WITH ImportExpression (showing 3):
+       • scripts/generate-cssinjs.ts
+       • scripts/visual-regression/build.ts
+       • components/_util/__tests__/warning.test.tsx
+     📄 Files WITHOUT ImportExpression (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   TSInferType:
+     📄 Files WITH TSInferType (showing 6):
+       • components/menu/index.tsx
+       • components/menu/MenuItem.tsx
+       • components/config-provider/context.ts
+       • components/_util/type.ts
+       • components/table/demo/reset-filter.tsx
+       • components/date-picker/demo/components.tsx
+     📄 Files WITHOUT TSInferType (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   ContinueStatement:
+     📄 Files WITH ContinueStatement (showing 4):
+       • scripts/print-changelog.ts
+       • scripts/generate-llms.ts
+       • scripts/generate-component-changelog.ts
+       • components/grid/row.tsx
+     📄 Files WITHOUT ContinueStatement (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   ClassBody:
+     📄 Files WITH ClassBody (showing 9):
+       • tests/shared/accessibilityTest.tsx
+       • components/color-picker/color.ts
+       • components/alert/ErrorBoundary.tsx
+       • components/typography/__tests__/ellipsis.test.tsx
+       • components/flex/__tests__/index.test.tsx
+       • components/_util/hooks/useUniqueMemo.ts
+       • components/_util/__tests__/wave.test.tsx
+       • components/_util/__tests__/type.test.tsx
+       • tests/__mocks__/rc-util/lib/Portal.tsx
+     📄 Files WITHOUT ClassBody (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   ExportAllDeclaration:
+     📄 Files WITH ExportAllDeclaration (showing 5):
+       • tests/utils.tsx
+       • components/qrcode/interface.ts
+       • components/button/index.tsx
+       • components/qrcode/style/index.ts
+       • components/theme/interface/maps/index.ts
+     📄 Files WITHOUT ExportAllDeclaration (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   ClassDeclaration:
+     📄 Files WITH ClassDeclaration (showing 8):
+       • tests/shared/accessibilityTest.tsx
+       • components/color-picker/color.ts
+       • components/alert/ErrorBoundary.tsx
+       • components/flex/__tests__/index.test.tsx
+       • components/_util/hooks/useUniqueMemo.ts
+       • components/_util/__tests__/wave.test.tsx
+       • components/_util/__tests__/type.test.tsx
+       • tests/__mocks__/rc-util/lib/Portal.tsx
+     📄 Files WITHOUT ClassDeclaration (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   TSNeverKeyword:
+     📄 Files WITH TSNeverKeyword (showing 4):
+       • components/menu/MenuItem.tsx
+       • components/_util/type.ts
+       • components/table/demo/reset-filter.tsx
+       • components/date-picker/demo/components.tsx
+     📄 Files WITHOUT TSNeverKeyword (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   TSDeclareFunction:
+     📄 Files WITH TSDeclareFunction (showing 3):
+       • typings/custom-typings.d.ts
+       • components/_util/extendsObject.ts
+       • components/grid/hooks/useBreakpoint.tsx
+     📄 Files WITHOUT TSDeclareFunction (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/cssType.d.ts
+       • alias/cssinjs.js
+
+   TSModuleBlock:
+     📄 Files WITH TSModuleBlock (showing 3):
+       • typings/jest.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+     📄 Files WITHOUT TSModuleBlock (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/index.d.ts
+       • alias/cssinjs.js
+       • tests/utils.tsx
+       • tests/setupAfterEnv.ts
+
+   TSMethodSignature:
+     📄 Files WITH TSMethodSignature (showing 4):
+       • typings/jest.d.ts
+       • components/notification/interface.ts
+       • components/message/interface.ts
+       • components/modal/useModal/index.tsx
+     📄 Files WITHOUT TSMethodSignature (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+       • alias/cssinjs.js
+
+   TSRestType:
+     📄 Files WITH TSRestType (showing 1):
+       • components/breadcrumb/useItemRender.tsx
+     📄 Files WITHOUT TSRestType (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   TSCallSignatureDeclaration:
+     📄 Files WITH TSCallSignatureDeclaration (showing 2):
+       • components/upload/index.tsx
+       • components/message/interface.ts
+     📄 Files WITHOUT TSCallSignatureDeclaration (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   WhileStatement:
+     📄 Files WITH WhileStatement (showing 2):
+       • components/modal/index.tsx
+       • components/badge/SingleNumber.tsx
+     📄 Files WITHOUT WhileStatement (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   TSBigIntKeyword:
+     📄 Files WITH TSBigIntKeyword (showing 1):
+       • components/table/interface.ts
+     📄 Files WITHOUT TSBigIntKeyword (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
+
+   ClassExpression:
+     📄 Files WITH ClassExpression (showing 1):
+       • components/typography/__tests__/ellipsis.test.tsx
+     📄 Files WITHOUT ClassExpression (showing 10):
+       • webpack.config.js
+       • jest-puppeteer.config.js
+       • index.js
+       • index-with-locales.js
+       • index-style-only.js
+       • eslint.config.mjs
+       • typings/jest.d.ts
+       • typings/index.d.ts
+       • typings/custom-typings.d.ts
+       • typings/cssType.d.ts
 
 ============================================================
 ✅ Analysis complete!

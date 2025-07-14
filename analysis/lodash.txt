@@ -1,11 +1,12 @@
 AST Analysis Report for lodash
-Generated on: 2025-07-13T03:17:13.879Z
+Generated on: 2025-07-14T01:42:00.403Z
 Repository: sample-repos/lodash
 ================================================================================
 
 🔍 Analyzing JavaScript/TypeScript files in: /Users/camchenry/workspace/ast-analysis/sample-repos/lodash
 
-📁 Found 24 files to analyze...
+📁 Found 46 files to analyze...
+
 
 
 ============================================================
@@ -13,107 +14,1034 @@ Repository: sample-repos/lodash
 ============================================================
 
 📁 FILE STATISTICS:
-   Total files found: 24
-   Successfully parsed: 24
+   Total files found: 46
+   Successfully parsed: 46
    Failed to parse: 0
-   Total file size: 1.7 MB
+   Total file size: 2.9 MB
 
 🌳 NODE STATISTICS:
-   Total nodes: 153,348
-   Average nodes per file: 6,390
-   Average file size: 72.3 KB
+   Total nodes: 367,484
+   Average nodes per file: 7,989
+   Average file size: 64.6 KB
 
 📋 ALL NODE TYPES (BY FILE PRESENCE):
-   Program                          24 files (100.0%) -       24 total (0.02%)
-   ExpressionStatement              24 files (100.0%) -    6,566 total (4.28%)
-   MemberExpression                 24 files (100.0%) -   16,536 total (10.78%)
-   Identifier                       24 files (100.0%) -   59,201 total (38.61%)
-   Literal                          23 files ( 95.8%) -   14,379 total (9.38%)
-   CallExpression                   22 files ( 91.7%) -    8,597 total (5.61%)
-   VariableDeclaration              22 files ( 91.7%) -    3,816 total (2.49%)
-   VariableDeclarator               22 files ( 91.7%) -    4,900 total (3.20%)
-   BlockStatement                   21 files ( 87.5%) -    5,299 total (3.46%)
-   ObjectExpression                 20 files ( 83.3%) -    1,108 total (0.72%)
-   AssignmentExpression             20 files ( 83.3%) -    4,426 total (2.89%)
-   Property                         18 files ( 75.0%) -    4,075 total (2.66%)
-   FunctionDeclaration              18 files ( 75.0%) -      666 total (0.43%)
-   ArrayExpression                  16 files ( 66.7%) -      850 total (0.55%)
-   IfStatement                      16 files ( 66.7%) -    2,828 total (1.84%)
-   ReturnStatement                  16 files ( 66.7%) -    2,700 total (1.76%)
-   BinaryExpression                 15 files ( 62.5%) -    4,355 total (2.84%)
-   UnaryExpression                  14 files ( 58.3%) -    1,594 total (1.04%)
-   LogicalExpression                14 files ( 58.3%) -    1,774 total (1.16%)
-   ParenthesizedExpression          13 files ( 54.2%) -      806 total (0.53%)
-   Unknown                          12 files ( 50.0%) -      524 total (0.34%)
-   ConditionalExpression            12 files ( 50.0%) -    1,024 total (0.67%)
-   FunctionExpression               11 files ( 45.8%) -    2,143 total (1.40%)
-   ThisExpression                   11 files ( 45.8%) -    3,102 total (2.02%)
-   NewExpression                    10 files ( 41.7%) -      210 total (0.14%)
-   ThrowStatement                    8 files ( 33.3%) -       40 total (0.03%)
-   SwitchStatement                   7 files ( 29.2%) -       27 total (0.02%)
-   SwitchCase                        7 files ( 29.2%) -      142 total (0.09%)
-   UpdateExpression                  7 files ( 29.2%) -      530 total (0.35%)
-   ForInStatement                    7 files ( 29.2%) -       89 total (0.06%)
-   TryStatement                      6 files ( 25.0%) -      101 total (0.07%)
-   CatchClause                       6 files ( 25.0%) -      101 total (0.07%)
-   WhileStatement                    6 files ( 25.0%) -      174 total (0.11%)
-   ForStatement                      6 files ( 25.0%) -      320 total (0.21%)
-   ArrowFunctionExpression           6 files ( 25.0%) -       10 total (0.01%)
-   EmptyStatement                    5 files ( 20.8%) -       33 total (0.02%)
-   BreakStatement                    5 files ( 20.8%) -       72 total (0.05%)
-   SequenceExpression                5 files ( 20.8%) -       98 total (0.06%)
-   ContinueStatement                 4 files ( 16.7%) -       44 total (0.03%)
-   DoWhileStatement                  2 files (  8.3%) -        6 total (0.00%)
-   TemplateLiteral                   2 files (  8.3%) -        6 total (0.00%)
-   TemplateElement                   2 files (  8.3%) -       12 total (0.01%)
-   LabeledStatement                  1 files (  4.2%) -        4 total (0.00%)
-   WithStatement                     1 files (  4.2%) -       36 total (0.02%)
+   Program                          46 files (100.0%) -       46 total (0.01%)
+   ExpressionStatement              46 files (100.0%) -   22,266 total (6.06%)
+   MemberExpression                 46 files (100.0%) -   41,209 total (11.21%)
+   Identifier                       46 files (100.0%) -  134,709 total (36.66%)
+   Literal                          45 files ( 97.8%) -   45,812 total (12.47%)
+   CallExpression                   44 files ( 95.7%) -   31,686 total (8.62%)
+   VariableDeclaration              43 files ( 93.5%) -    7,673 total (2.09%)
+   VariableDeclarator               43 files ( 93.5%) -   10,132 total (2.76%)
+   BlockStatement                   42 files ( 91.3%) -   11,515 total (3.13%)
+   AssignmentExpression             41 files ( 89.1%) -    6,103 total (1.66%)
+   ObjectExpression                 39 files ( 84.8%) -    4,727 total (1.29%)
+   BinaryExpression                 35 files ( 76.1%) -    6,649 total (1.81%)
+   Property                         35 files ( 76.1%) -    8,964 total (2.44%)
+   ParenthesizedExpression          34 files ( 73.9%) -    1,406 total (0.38%)
+   ReturnStatement                  34 files ( 73.9%) -    3,806 total (1.04%)
+   FunctionExpression               32 files ( 69.6%) -    7,096 total (1.93%)
+   ArrayExpression                  30 files ( 65.2%) -    5,153 total (1.40%)
+   UnaryExpression                  30 files ( 65.2%) -    2,682 total (0.73%)
+   IfStatement                      30 files ( 65.2%) -    3,379 total (0.92%)
+   LogicalExpression                29 files ( 63.0%) -    2,074 total (0.56%)
+   ConditionalExpression            27 files ( 58.7%) -    1,522 total (0.41%)
+   ThisExpression                   27 files ( 58.7%) -    3,700 total (1.01%)
+   FunctionDeclaration              26 files ( 56.5%) -      840 total (0.23%)
+   NewExpression                    26 files ( 56.5%) -    1,157 total (0.31%)
+   UpdateExpression                 21 files ( 45.7%) -      670 total (0.18%)
+   Unknown                          20 files ( 43.5%) -      854 total (0.23%)
+   WhileStatement                   13 files ( 28.3%) -      188 total (0.05%)
+   TryStatement                     11 files ( 23.9%) -      193 total (0.05%)
+   CatchClause                      11 files ( 23.9%) -      193 total (0.05%)
+   SwitchStatement                  11 files ( 23.9%) -       43 total (0.01%)
+   SwitchCase                       11 files ( 23.9%) -      223 total (0.06%)
+   ThrowStatement                   11 files ( 23.9%) -       51 total (0.01%)
+   EmptyStatement                    8 files ( 17.4%) -       38 total (0.01%)
+   BreakStatement                    8 files ( 17.4%) -       92 total (0.03%)
+   ForStatement                      8 files ( 17.4%) -      322 total (0.09%)
+   SequenceExpression                7 files ( 15.2%) -      102 total (0.03%)
+   ForInStatement                    7 files ( 15.2%) -       89 total (0.02%)
+   ArrowFunctionExpression           6 files ( 13.0%) -       10 total (0.00%)
+   ContinueStatement                 4 files (  8.7%) -       44 total (0.01%)
+   DoWhileStatement                  2 files (  4.3%) -        6 total (0.00%)
+   Hashbang                          2 files (  4.3%) -        2 total (0.00%)
+   TemplateLiteral                   2 files (  4.3%) -        6 total (0.00%)
+   TemplateElement                   2 files (  4.3%) -       12 total (0.00%)
+   LabeledStatement                  1 files (  2.2%) -        4 total (0.00%)
+   WithStatement                     1 files (  2.2%) -       36 total (0.01%)
 
 📝 ALL NODE TYPES (BY TOTAL COUNT):
-   Identifier                       59,201 (38.61%) in 24 files (100.0%)
-   MemberExpression                 16,536 (10.78%) in 24 files (100.0%)
-   Literal                          14,379 (9.38%) in 23 files (95.8%)
-   CallExpression                    8,597 (5.61%) in 22 files (91.7%)
-   ExpressionStatement               6,566 (4.28%) in 24 files (100.0%)
-   BlockStatement                    5,299 (3.46%) in 21 files (87.5%)
-   VariableDeclarator                4,900 (3.20%) in 22 files (91.7%)
-   AssignmentExpression              4,426 (2.89%) in 20 files (83.3%)
-   BinaryExpression                  4,355 (2.84%) in 15 files (62.5%)
-   Property                          4,075 (2.66%) in 18 files (75.0%)
-   VariableDeclaration               3,816 (2.49%) in 22 files (91.7%)
-   ThisExpression                    3,102 (2.02%) in 11 files (45.8%)
-   IfStatement                       2,828 (1.84%) in 16 files (66.7%)
-   ReturnStatement                   2,700 (1.76%) in 16 files (66.7%)
-   FunctionExpression                2,143 (1.40%) in 11 files (45.8%)
-   LogicalExpression                 1,774 (1.16%) in 14 files (58.3%)
-   UnaryExpression                   1,594 (1.04%) in 14 files (58.3%)
-   ObjectExpression                  1,108 (0.72%) in 20 files (83.3%)
-   ConditionalExpression             1,024 (0.67%) in 12 files (50.0%)
-   ArrayExpression                     850 (0.55%) in 16 files (66.7%)
-   ParenthesizedExpression             806 (0.53%) in 13 files (54.2%)
-   FunctionDeclaration                 666 (0.43%) in 18 files (75.0%)
-   UpdateExpression                    530 (0.35%) in 7 files (29.2%)
-   Unknown                             524 (0.34%) in 12 files (50.0%)
-   ForStatement                        320 (0.21%) in 6 files (25.0%)
-   NewExpression                       210 (0.14%) in 10 files (41.7%)
-   WhileStatement                      174 (0.11%) in 6 files (25.0%)
-   SwitchCase                          142 (0.09%) in 7 files (29.2%)
-   TryStatement                        101 (0.07%) in 6 files (25.0%)
-   CatchClause                         101 (0.07%) in 6 files (25.0%)
-   SequenceExpression                   98 (0.06%) in 5 files (20.8%)
-   ForInStatement                       89 (0.06%) in 7 files (29.2%)
-   BreakStatement                       72 (0.05%) in 5 files (20.8%)
-   ContinueStatement                    44 (0.03%) in 4 files (16.7%)
-   ThrowStatement                       40 (0.03%) in 8 files (33.3%)
-   WithStatement                        36 (0.02%) in 1 files (4.2%)
-   EmptyStatement                       33 (0.02%) in 5 files (20.8%)
-   SwitchStatement                      27 (0.02%) in 7 files (29.2%)
-   Program                              24 (0.02%) in 24 files (100.0%)
-   TemplateElement                      12 (0.01%) in 2 files (8.3%)
-   ArrowFunctionExpression              10 (0.01%) in 6 files (25.0%)
-   DoWhileStatement                      6 (0.00%) in 2 files (8.3%)
-   TemplateLiteral                       6 (0.00%) in 2 files (8.3%)
-   LabeledStatement                      4 (0.00%) in 1 files (4.2%)
+   Identifier                      134,709 (36.66%) in 46 files (100.0%)
+   Literal                          45,812 (12.47%) in 45 files (97.8%)
+   MemberExpression                 41,209 (11.21%) in 46 files (100.0%)
+   CallExpression                   31,686 (8.62%) in 44 files (95.7%)
+   ExpressionStatement              22,266 (6.06%) in 46 files (100.0%)
+   BlockStatement                   11,515 (3.13%) in 42 files (91.3%)
+   VariableDeclarator               10,132 (2.76%) in 43 files (93.5%)
+   Property                          8,964 (2.44%) in 35 files (76.1%)
+   VariableDeclaration               7,673 (2.09%) in 43 files (93.5%)
+   FunctionExpression                7,096 (1.93%) in 32 files (69.6%)
+   BinaryExpression                  6,649 (1.81%) in 35 files (76.1%)
+   AssignmentExpression              6,103 (1.66%) in 41 files (89.1%)
+   ArrayExpression                   5,153 (1.40%) in 30 files (65.2%)
+   ObjectExpression                  4,727 (1.29%) in 39 files (84.8%)
+   ReturnStatement                   3,806 (1.04%) in 34 files (73.9%)
+   ThisExpression                    3,700 (1.01%) in 27 files (58.7%)
+   IfStatement                       3,379 (0.92%) in 30 files (65.2%)
+   UnaryExpression                   2,682 (0.73%) in 30 files (65.2%)
+   LogicalExpression                 2,074 (0.56%) in 29 files (63.0%)
+   ConditionalExpression             1,522 (0.41%) in 27 files (58.7%)
+   ParenthesizedExpression           1,406 (0.38%) in 34 files (73.9%)
+   NewExpression                     1,157 (0.31%) in 26 files (56.5%)
+   Unknown                             854 (0.23%) in 20 files (43.5%)
+   FunctionDeclaration                 840 (0.23%) in 26 files (56.5%)
+   UpdateExpression                    670 (0.18%) in 21 files (45.7%)
+   ForStatement                        322 (0.09%) in 8 files (17.4%)
+   SwitchCase                          223 (0.06%) in 11 files (23.9%)
+   TryStatement                        193 (0.05%) in 11 files (23.9%)
+   CatchClause                         193 (0.05%) in 11 files (23.9%)
+   WhileStatement                      188 (0.05%) in 13 files (28.3%)
+   SequenceExpression                  102 (0.03%) in 7 files (15.2%)
+   BreakStatement                       92 (0.03%) in 8 files (17.4%)
+   ForInStatement                       89 (0.02%) in 7 files (15.2%)
+   ThrowStatement                       51 (0.01%) in 11 files (23.9%)
+   Program                              46 (0.01%) in 46 files (100.0%)
+   ContinueStatement                    44 (0.01%) in 4 files (8.7%)
+   SwitchStatement                      43 (0.01%) in 11 files (23.9%)
+   EmptyStatement                       38 (0.01%) in 8 files (17.4%)
+   WithStatement                        36 (0.01%) in 1 files (2.2%)
+   TemplateElement                      12 (0.00%) in 2 files (4.3%)
+   ArrowFunctionExpression              10 (0.00%) in 6 files (13.0%)
+   DoWhileStatement                      6 (0.00%) in 2 files (4.3%)
+   TemplateLiteral                       6 (0.00%) in 2 files (4.3%)
+   LabeledStatement                      4 (0.00%) in 1 files (2.2%)
+   Hashbang                              2 (0.00%) in 2 files (4.3%)
+
+📁 FILE EXAMPLES BY NODE TYPE:
+
+   Identifier:
+     📄 Files WITH Identifier (showing 10):
+       • lodash.js
+       • test/test.js
+       • test/test-fp.js
+       • test/saucelabs.js
+       • test/remove.js
+       • perf/perf.js
+       • fp/placeholder.js
+       • fp/_mapping.js
+       • fp/_convertBrowser.js
+       • fp/_baseConvert.js
+     📄 Files WITHOUT Identifier: (all files contain this node type)
+
+   Literal:
+     📄 Files WITH Literal (showing 10):
+       • lodash.js
+       • test/test.js
+       • test/test-fp.js
+       • test/saucelabs.js
+       • test/remove.js
+       • perf/perf.js
+       • fp/_mapping.js
+       • fp/_convertBrowser.js
+       • fp/_baseConvert.js
+       • vendor/underscore/underscore.js
+     📄 Files WITHOUT Literal (showing 1):
+       • fp/placeholder.js
+
+   MemberExpression:
+     📄 Files WITH MemberExpression (showing 10):
+       • lodash.js
+       • test/test.js
+       • test/test-fp.js
+       • test/saucelabs.js
+       • test/remove.js
+       • perf/perf.js
+       • fp/placeholder.js
+       • fp/_mapping.js
+       • fp/_convertBrowser.js
+       • fp/_baseConvert.js
+     📄 Files WITHOUT MemberExpression: (all files contain this node type)
+
+   CallExpression:
+     📄 Files WITH CallExpression (showing 10):
+       • lodash.js
+       • test/test.js
+       • test/test-fp.js
+       • test/saucelabs.js
+       • test/remove.js
+       • perf/perf.js
+       • fp/_mapping.js
+       • fp/_convertBrowser.js
+       • fp/_baseConvert.js
+       • vendor/underscore/underscore.js
+     📄 Files WITHOUT CallExpression (showing 2):
+       • fp/placeholder.js
+       • lib/common/uglify.options.js
+
+   ExpressionStatement:
+     📄 Files WITH ExpressionStatement (showing 10):
+       • lodash.js
+       • test/test.js
+       • test/test-fp.js
+       • test/saucelabs.js
+       • test/remove.js
+       • perf/perf.js
+       • fp/placeholder.js
+       • fp/_mapping.js
+       • fp/_convertBrowser.js
+       • fp/_baseConvert.js
+     📄 Files WITHOUT ExpressionStatement: (all files contain this node type)
+
+   BlockStatement:
+     📄 Files WITH BlockStatement (showing 10):
+       • lodash.js
+       • test/test.js
+       • test/test-fp.js
+       • test/saucelabs.js
+       • test/remove.js
+       • perf/perf.js
+       • fp/_mapping.js
+       • fp/_convertBrowser.js
+       • fp/_baseConvert.js
+       • vendor/underscore/underscore.js
+     📄 Files WITHOUT BlockStatement (showing 4):
+       • fp/placeholder.js
+       • lib/common/uglify.options.js
+       • lib/common/mapping.js
+       • vendor/backbone/test/setup/dom-setup.js
+
+   VariableDeclarator:
+     📄 Files WITH VariableDeclarator (showing 10):
+       • lodash.js
+       • test/test.js
+       • test/test-fp.js
+       • test/saucelabs.js
+       • test/remove.js
+       • perf/perf.js
+       • fp/_mapping.js
+       • fp/_convertBrowser.js
+       • fp/_baseConvert.js
+       • vendor/underscore/underscore.js
+     📄 Files WITHOUT VariableDeclarator (showing 3):
+       • fp/placeholder.js
+       • lib/common/uglify.options.js
+       • vendor/backbone/test/setup/dom-setup.js
+
+   Property:
+     📄 Files WITH Property (showing 10):
+       • lodash.js
+       • test/test.js
+       • test/test-fp.js
+       • test/saucelabs.js
+       • perf/perf.js
+       • fp/_mapping.js
+       • fp/_baseConvert.js
+       • vendor/underscore/underscore.js
+       • vendor/underscore/underscore-min.js
+       • vendor/json-js/json2.js
+     📄 Files WITHOUT Property (showing 10):
+       • test/remove.js
+       • fp/placeholder.js
+       • fp/_convertBrowser.js
+       • lib/main/build-modules.js
+       • lib/main/build-dist.js
+       • lib/common/minify.js
+       • lib/common/mapping.js
+       • vendor/underscore/test/cross-document.js
+       • vendor/underscore/test/chaining.js
+       • vendor/backbone/test/noconflict.js
+
+   VariableDeclaration:
+     📄 Files WITH VariableDeclaration (showing 10):
+       • lodash.js
+       • test/test.js
+       • test/test-fp.js
+       • test/saucelabs.js
+       • test/remove.js
+       • perf/perf.js
+       • fp/_mapping.js
+       • fp/_convertBrowser.js
+       • fp/_baseConvert.js
+       • vendor/underscore/underscore.js
+     📄 Files WITHOUT VariableDeclaration (showing 3):
+       • fp/placeholder.js
+       • lib/common/uglify.options.js
+       • vendor/backbone/test/setup/dom-setup.js
+
+   FunctionExpression:
+     📄 Files WITH FunctionExpression (showing 10):
+       • lodash.js
+       • test/test.js
+       • test/test-fp.js
+       • test/saucelabs.js
+       • test/remove.js
+       • perf/perf.js
+       • fp/_mapping.js
+       • fp/_baseConvert.js
+       • vendor/underscore/underscore.js
+       • vendor/underscore/underscore-min.js
+     📄 Files WITHOUT FunctionExpression (showing 10):
+       • fp/placeholder.js
+       • fp/_convertBrowser.js
+       • lib/main/build-modules.js
+       • lib/main/build-doc.js
+       • lib/main/build-dist.js
+       • lib/fp/build-modules.js
+       • lib/fp/build-doc.js
+       • lib/fp/build-dist.js
+       • lib/common/util.js
+       • lib/common/uglify.options.js
+
+   BinaryExpression:
+     📄 Files WITH BinaryExpression (showing 10):
+       • lodash.js
+       • test/test.js
+       • test/test-fp.js
+       • test/saucelabs.js
+       • test/remove.js
+       • perf/perf.js
+       • fp/_convertBrowser.js
+       • fp/_baseConvert.js
+       • vendor/underscore/underscore.js
+       • vendor/underscore/underscore-min.js
+     📄 Files WITHOUT BinaryExpression (showing 10):
+       • fp/placeholder.js
+       • fp/_mapping.js
+       • lib/main/build-modules.js
+       • lib/main/build-dist.js
+       • lib/fp/build-dist.js
+       • lib/common/uglify.options.js
+       • lib/common/minify.js
+       • lib/common/mapping.js
+       • lib/common/file.js
+       • vendor/backbone/test/noconflict.js
+
+   AssignmentExpression:
+     📄 Files WITH AssignmentExpression (showing 10):
+       • lodash.js
+       • test/test.js
+       • test/test-fp.js
+       • test/saucelabs.js
+       • test/remove.js
+       • perf/perf.js
+       • fp/placeholder.js
+       • fp/_mapping.js
+       • fp/_convertBrowser.js
+       • fp/_baseConvert.js
+     📄 Files WITHOUT AssignmentExpression (showing 5):
+       • lib/main/build-modules.js
+       • lib/main/build-doc.js
+       • lib/main/build-dist.js
+       • lib/fp/build-dist.js
+       • vendor/backbone/test/setup/dom-setup.js
+
+   ArrayExpression:
+     📄 Files WITH ArrayExpression (showing 10):
+       • lodash.js
+       • test/test.js
+       • test/test-fp.js
+       • test/saucelabs.js
+       • perf/perf.js
+       • fp/_mapping.js
+       • fp/_baseConvert.js
+       • vendor/underscore/underscore.js
+       • vendor/underscore/underscore-min.js
+       • vendor/json-js/json2.js
+     📄 Files WITHOUT ArrayExpression (showing 10):
+       • test/remove.js
+       • fp/placeholder.js
+       • fp/_convertBrowser.js
+       • test/asset/worker.js
+       • perf/asset/perf-ui.js
+       • lib/common/util.js
+       • lib/common/uglify.options.js
+       • lib/common/minify.js
+       • lib/common/mapping.js
+       • lib/common/file.js
+
+   ObjectExpression:
+     📄 Files WITH ObjectExpression (showing 10):
+       • lodash.js
+       • test/test.js
+       • test/test-fp.js
+       • test/saucelabs.js
+       • perf/perf.js
+       • fp/placeholder.js
+       • fp/_mapping.js
+       • fp/_baseConvert.js
+       • vendor/underscore/underscore.js
+       • vendor/underscore/underscore-min.js
+     📄 Files WITHOUT ObjectExpression (showing 7):
+       • test/remove.js
+       • fp/_convertBrowser.js
+       • lib/main/build-modules.js
+       • lib/main/build-dist.js
+       • lib/common/mapping.js
+       • vendor/backbone/test/noconflict.js
+       • vendor/backbone/test/setup/dom-setup.js
+
+   ReturnStatement:
+     📄 Files WITH ReturnStatement (showing 10):
+       • lodash.js
+       • test/test.js
+       • test/test-fp.js
+       • test/saucelabs.js
+       • test/remove.js
+       • perf/perf.js
+       • fp/_mapping.js
+       • fp/_convertBrowser.js
+       • fp/_baseConvert.js
+       • vendor/underscore/underscore.js
+     📄 Files WITHOUT ReturnStatement (showing 10):
+       • fp/placeholder.js
+       • test/asset/worker.js
+       • lib/main/build-site.js
+       • lib/main/build-modules.js
+       • lib/main/build-dist.js
+       • lib/fp/build-dist.js
+       • lib/common/uglify.options.js
+       • lib/common/minify.js
+       • lib/common/mapping.js
+       • vendor/backbone/test/noconflict.js
+
+   ThisExpression:
+     📄 Files WITH ThisExpression (showing 10):
+       • lodash.js
+       • test/test.js
+       • test/test-fp.js
+       • test/saucelabs.js
+       • perf/perf.js
+       • fp/_baseConvert.js
+       • vendor/underscore/underscore.js
+       • vendor/underscore/underscore-min.js
+       • vendor/json-js/json2.js
+       • vendor/backbone/backbone.js
+     📄 Files WITHOUT ThisExpression (showing 10):
+       • test/remove.js
+       • fp/placeholder.js
+       • fp/_mapping.js
+       • fp/_convertBrowser.js
+       • test/asset/worker.js
+       • lib/main/build-modules.js
+       • lib/main/build-doc.js
+       • lib/main/build-dist.js
+       • lib/fp/build-modules.js
+       • lib/fp/build-doc.js
+
+   IfStatement:
+     📄 Files WITH IfStatement (showing 10):
+       • lodash.js
+       • test/test.js
+       • test/test-fp.js
+       • test/saucelabs.js
+       • perf/perf.js
+       • fp/_mapping.js
+       • fp/_convertBrowser.js
+       • fp/_baseConvert.js
+       • vendor/underscore/underscore.js
+       • vendor/underscore/underscore-min.js
+     📄 Files WITHOUT IfStatement (showing 10):
+       • test/remove.js
+       • fp/placeholder.js
+       • lib/main/build-modules.js
+       • lib/main/build-doc.js
+       • lib/main/build-dist.js
+       • lib/fp/build-dist.js
+       • lib/common/uglify.options.js
+       • lib/common/mapping.js
+       • lib/common/file.js
+       • vendor/underscore/test/chaining.js
+
+   UnaryExpression:
+     📄 Files WITH UnaryExpression (showing 10):
+       • lodash.js
+       • test/test.js
+       • test/test-fp.js
+       • test/saucelabs.js
+       • test/remove.js
+       • perf/perf.js
+       • fp/_convertBrowser.js
+       • fp/_baseConvert.js
+       • vendor/underscore/underscore.js
+       • vendor/underscore/underscore-min.js
+     📄 Files WITHOUT UnaryExpression (showing 10):
+       • fp/placeholder.js
+       • fp/_mapping.js
+       • test/asset/worker.js
+       • lib/main/build-modules.js
+       • lib/main/build-doc.js
+       • lib/main/build-dist.js
+       • lib/fp/build-doc.js
+       • lib/fp/build-dist.js
+       • lib/common/uglify.options.js
+       • lib/common/mapping.js
+
+   LogicalExpression:
+     📄 Files WITH LogicalExpression (showing 10):
+       • lodash.js
+       • test/test.js
+       • test/test-fp.js
+       • test/saucelabs.js
+       • test/remove.js
+       • perf/perf.js
+       • fp/_convertBrowser.js
+       • fp/_baseConvert.js
+       • vendor/underscore/underscore.js
+       • vendor/underscore/underscore-min.js
+     📄 Files WITHOUT LogicalExpression (showing 10):
+       • fp/placeholder.js
+       • fp/_mapping.js
+       • lib/main/build-modules.js
+       • lib/main/build-doc.js
+       • lib/main/build-dist.js
+       • lib/fp/build-modules.js
+       • lib/fp/build-dist.js
+       • lib/common/uglify.options.js
+       • lib/common/mapping.js
+       • lib/common/file.js
+
+   ConditionalExpression:
+     📄 Files WITH ConditionalExpression (showing 10):
+       • lodash.js
+       • test/test.js
+       • test/test-fp.js
+       • test/saucelabs.js
+       • test/remove.js
+       • perf/perf.js
+       • fp/_baseConvert.js
+       • vendor/underscore/underscore.js
+       • vendor/underscore/underscore-min.js
+       • vendor/json-js/json2.js
+     📄 Files WITHOUT ConditionalExpression (showing 10):
+       • fp/placeholder.js
+       • fp/_mapping.js
+       • fp/_convertBrowser.js
+       • lib/main/build-site.js
+       • lib/main/build-modules.js
+       • lib/main/build-dist.js
+       • lib/fp/build-modules.js
+       • lib/fp/build-dist.js
+       • lib/common/uglify.options.js
+       • lib/common/minify.js
+
+   ParenthesizedExpression:
+     📄 Files WITH ParenthesizedExpression (showing 10):
+       • lodash.js
+       • test/test.js
+       • test/test-fp.js
+       • test/saucelabs.js
+       • test/remove.js
+       • perf/perf.js
+       • fp/_mapping.js
+       • fp/_baseConvert.js
+       • vendor/underscore/underscore.js
+       • vendor/underscore/underscore-min.js
+     📄 Files WITHOUT ParenthesizedExpression (showing 10):
+       • fp/placeholder.js
+       • fp/_convertBrowser.js
+       • lib/main/build-modules.js
+       • lib/main/build-dist.js
+       • lib/fp/build-modules.js
+       • lib/fp/build-doc.js
+       • lib/fp/build-dist.js
+       • lib/common/uglify.options.js
+       • lib/common/minify.js
+       • lib/common/mapping.js
+
+   NewExpression:
+     📄 Files WITH NewExpression (showing 10):
+       • lodash.js
+       • test/test.js
+       • test/test-fp.js
+       • test/saucelabs.js
+       • fp/_baseConvert.js
+       • vendor/underscore/underscore.js
+       • vendor/underscore/underscore-min.js
+       • vendor/json-js/json2.js
+       • vendor/backbone/backbone.js
+       • test/asset/test-ui.js
+     📄 Files WITHOUT NewExpression (showing 10):
+       • test/remove.js
+       • perf/perf.js
+       • fp/placeholder.js
+       • fp/_mapping.js
+       • fp/_convertBrowser.js
+       • test/asset/worker.js
+       • perf/asset/perf-ui.js
+       • lib/main/build-site.js
+       • lib/main/build-modules.js
+       • lib/main/build-doc.js
+
+   Unknown:
+     📄 Files WITH Unknown (showing 10):
+       • lodash.js
+       • test/test.js
+       • test/saucelabs.js
+       • test/remove.js
+       • perf/perf.js
+       • vendor/underscore/underscore.js
+       • vendor/underscore/underscore-min.js
+       • vendor/json-js/json2.js
+       • vendor/backbone/backbone.js
+       • test/asset/test-ui.js
+     📄 Files WITHOUT Unknown (showing 10):
+       • test/test-fp.js
+       • fp/placeholder.js
+       • fp/_mapping.js
+       • fp/_convertBrowser.js
+       • fp/_baseConvert.js
+       • test/asset/worker.js
+       • lib/main/build-modules.js
+       • lib/main/build-dist.js
+       • lib/fp/build-modules.js
+       • lib/fp/build-doc.js
+
+   FunctionDeclaration:
+     📄 Files WITH FunctionDeclaration (showing 10):
+       • lodash.js
+       • test/test.js
+       • test/test-fp.js
+       • test/saucelabs.js
+       • perf/perf.js
+       • fp/_convertBrowser.js
+       • fp/_baseConvert.js
+       • vendor/underscore/underscore-min.js
+       • vendor/json-js/json2.js
+       • test/asset/test-ui.js
+     📄 Files WITHOUT FunctionDeclaration (showing 10):
+       • test/remove.js
+       • fp/placeholder.js
+       • fp/_mapping.js
+       • vendor/underscore/underscore.js
+       • vendor/backbone/backbone.js
+       • test/asset/worker.js
+       • lib/common/uglify.options.js
+       • lib/common/mapping.js
+       • vendor/underscore/test/cross-document.js
+       • vendor/underscore/test/chaining.js
+
+   UpdateExpression:
+     📄 Files WITH UpdateExpression (showing 10):
+       • lodash.js
+       • test/test.js
+       • test/test-fp.js
+       • test/saucelabs.js
+       • perf/perf.js
+       • fp/_baseConvert.js
+       • vendor/underscore/underscore.js
+       • vendor/underscore/underscore-min.js
+       • vendor/backbone/backbone.js
+       • vendor/underscore/test/utility.js
+     📄 Files WITHOUT UpdateExpression (showing 10):
+       • test/remove.js
+       • fp/placeholder.js
+       • fp/_mapping.js
+       • fp/_convertBrowser.js
+       • vendor/json-js/json2.js
+       • test/asset/worker.js
+       • test/asset/test-ui.js
+       • perf/asset/perf-ui.js
+       • lib/main/build-site.js
+       • lib/main/build-modules.js
+
+   ForStatement:
+     📄 Files WITH ForStatement (showing 8):
+       • perf/perf.js
+       • vendor/underscore/underscore.js
+       • vendor/underscore/underscore-min.js
+       • vendor/json-js/json2.js
+       • vendor/backbone/backbone.js
+       • vendor/underscore/test/arrays.js
+       • vendor/firebug-lite/src/firebug-lite-debug.js
+       • vendor/backbone/test/collection.js
+     📄 Files WITHOUT ForStatement (showing 10):
+       • lodash.js
+       • test/test.js
+       • test/test-fp.js
+       • test/saucelabs.js
+       • test/remove.js
+       • fp/placeholder.js
+       • fp/_mapping.js
+       • fp/_convertBrowser.js
+       • fp/_baseConvert.js
+       • test/asset/worker.js
+
+   SwitchCase:
+     📄 Files WITH SwitchCase (showing 10):
+       • lodash.js
+       • test/test.js
+       • test/saucelabs.js
+       • vendor/underscore/underscore.js
+       • vendor/underscore/underscore-min.js
+       • vendor/json-js/json2.js
+       • vendor/backbone/backbone.js
+       • test/asset/test-ui.js
+       • perf/asset/perf-ui.js
+       • vendor/firebug-lite/src/firebug-lite-debug.js
+     📄 Files WITHOUT SwitchCase (showing 10):
+       • test/test-fp.js
+       • test/remove.js
+       • perf/perf.js
+       • fp/placeholder.js
+       • fp/_mapping.js
+       • fp/_convertBrowser.js
+       • fp/_baseConvert.js
+       • test/asset/worker.js
+       • lib/main/build-site.js
+       • lib/main/build-modules.js
+
+   TryStatement:
+     📄 Files WITH TryStatement (showing 10):
+       • lodash.js
+       • test/test.js
+       • perf/perf.js
+       • vendor/underscore/underscore.js
+       • vendor/underscore/underscore-min.js
+       • vendor/backbone/backbone.js
+       • test/asset/worker.js
+       • vendor/underscore/test/utility.js
+       • vendor/underscore/test/objects.js
+       • vendor/underscore/test/collections.js
+     📄 Files WITHOUT TryStatement (showing 10):
+       • test/test-fp.js
+       • test/saucelabs.js
+       • test/remove.js
+       • fp/placeholder.js
+       • fp/_mapping.js
+       • fp/_convertBrowser.js
+       • fp/_baseConvert.js
+       • vendor/json-js/json2.js
+       • test/asset/test-ui.js
+       • perf/asset/perf-ui.js
+
+   CatchClause:
+     📄 Files WITH CatchClause (showing 10):
+       • lodash.js
+       • test/test.js
+       • perf/perf.js
+       • vendor/underscore/underscore.js
+       • vendor/underscore/underscore-min.js
+       • vendor/backbone/backbone.js
+       • test/asset/worker.js
+       • vendor/underscore/test/utility.js
+       • vendor/underscore/test/objects.js
+       • vendor/underscore/test/collections.js
+     📄 Files WITHOUT CatchClause (showing 10):
+       • test/test-fp.js
+       • test/saucelabs.js
+       • test/remove.js
+       • fp/placeholder.js
+       • fp/_mapping.js
+       • fp/_convertBrowser.js
+       • fp/_baseConvert.js
+       • vendor/json-js/json2.js
+       • test/asset/test-ui.js
+       • perf/asset/perf-ui.js
+
+   WhileStatement:
+     📄 Files WITH WhileStatement (showing 10):
+       • lodash.js
+       • test/test.js
+       • test/test-fp.js
+       • test/saucelabs.js
+       • fp/_baseConvert.js
+       • vendor/underscore/underscore.js
+       • vendor/backbone/backbone.js
+       • lib/main/build-site.js
+       • vendor/underscore/test/utility.js
+       • vendor/underscore/test/functions.js
+     📄 Files WITHOUT WhileStatement (showing 10):
+       • test/remove.js
+       • perf/perf.js
+       • fp/placeholder.js
+       • fp/_mapping.js
+       • fp/_convertBrowser.js
+       • vendor/underscore/underscore-min.js
+       • vendor/json-js/json2.js
+       • test/asset/worker.js
+       • test/asset/test-ui.js
+       • perf/asset/perf-ui.js
+
+   SequenceExpression:
+     📄 Files WITH SequenceExpression (showing 7):
+       • lodash.js
+       • test/test.js
+       • test/test-fp.js
+       • perf/perf.js
+       • vendor/underscore/underscore.js
+       • vendor/underscore/underscore-min.js
+       • vendor/firebug-lite/src/firebug-lite-debug.js
+     📄 Files WITHOUT SequenceExpression (showing 10):
+       • test/saucelabs.js
+       • test/remove.js
+       • fp/placeholder.js
+       • fp/_mapping.js
+       • fp/_convertBrowser.js
+       • fp/_baseConvert.js
+       • vendor/json-js/json2.js
+       • vendor/backbone/backbone.js
+       • test/asset/worker.js
+       • test/asset/test-ui.js
+
+   BreakStatement:
+     📄 Files WITH BreakStatement (showing 8):
+       • lodash.js
+       • test/test.js
+       • vendor/underscore/underscore.js
+       • vendor/backbone/backbone.js
+       • test/asset/test-ui.js
+       • perf/asset/perf-ui.js
+       • vendor/firebug-lite/src/firebug-lite-debug.js
+       • vendor/backbone/test/model.js
+     📄 Files WITHOUT BreakStatement (showing 10):
+       • test/test-fp.js
+       • test/saucelabs.js
+       • test/remove.js
+       • perf/perf.js
+       • fp/placeholder.js
+       • fp/_mapping.js
+       • fp/_convertBrowser.js
+       • fp/_baseConvert.js
+       • vendor/underscore/underscore-min.js
+       • vendor/json-js/json2.js
+
+   ForInStatement:
+     📄 Files WITH ForInStatement (showing 7):
+       • lodash.js
+       • fp/_mapping.js
+       • vendor/underscore/underscore.js
+       • vendor/underscore/underscore-min.js
+       • vendor/json-js/json2.js
+       • vendor/backbone/backbone.js
+       • vendor/firebug-lite/src/firebug-lite-debug.js
+     📄 Files WITHOUT ForInStatement (showing 10):
+       • test/test.js
+       • test/test-fp.js
+       • test/saucelabs.js
+       • test/remove.js
+       • perf/perf.js
+       • fp/placeholder.js
+       • fp/_convertBrowser.js
+       • fp/_baseConvert.js
+       • test/asset/worker.js
+       • test/asset/test-ui.js
+
+   ThrowStatement:
+     📄 Files WITH ThrowStatement (showing 10):
+       • lodash.js
+       • test/test.js
+       • fp/_baseConvert.js
+       • vendor/underscore/underscore.js
+       • vendor/underscore/underscore-min.js
+       • vendor/json-js/json2.js
+       • vendor/backbone/backbone.js
+       • lib/common/util.js
+       • vendor/firebug-lite/src/firebug-lite-debug.js
+       • vendor/backbone/test/model.js
+     📄 Files WITHOUT ThrowStatement (showing 10):
+       • test/test-fp.js
+       • test/saucelabs.js
+       • test/remove.js
+       • perf/perf.js
+       • fp/placeholder.js
+       • fp/_mapping.js
+       • fp/_convertBrowser.js
+       • test/asset/worker.js
+       • test/asset/test-ui.js
+       • perf/asset/perf-ui.js
+
+   Program:
+     📄 Files WITH Program (showing 10):
+       • lodash.js
+       • test/test.js
+       • test/test-fp.js
+       • test/saucelabs.js
+       • test/remove.js
+       • perf/perf.js
+       • fp/placeholder.js
+       • fp/_mapping.js
+       • fp/_convertBrowser.js
+       • fp/_baseConvert.js
+     📄 Files WITHOUT Program: (all files contain this node type)
+
+   ContinueStatement:
+     📄 Files WITH ContinueStatement (showing 4):
+       • lodash.js
+       • vendor/underscore/underscore.js
+       • vendor/backbone/backbone.js
+       • vendor/firebug-lite/src/firebug-lite-debug.js
+     📄 Files WITHOUT ContinueStatement (showing 10):
+       • test/test.js
+       • test/test-fp.js
+       • test/saucelabs.js
+       • test/remove.js
+       • perf/perf.js
+       • fp/placeholder.js
+       • fp/_mapping.js
+       • fp/_convertBrowser.js
+       • fp/_baseConvert.js
+       • vendor/underscore/underscore-min.js
+
+   SwitchStatement:
+     📄 Files WITH SwitchStatement (showing 10):
+       • lodash.js
+       • test/test.js
+       • test/saucelabs.js
+       • vendor/underscore/underscore.js
+       • vendor/underscore/underscore-min.js
+       • vendor/json-js/json2.js
+       • vendor/backbone/backbone.js
+       • test/asset/test-ui.js
+       • perf/asset/perf-ui.js
+       • vendor/firebug-lite/src/firebug-lite-debug.js
+     📄 Files WITHOUT SwitchStatement (showing 10):
+       • test/test-fp.js
+       • test/remove.js
+       • perf/perf.js
+       • fp/placeholder.js
+       • fp/_mapping.js
+       • fp/_convertBrowser.js
+       • fp/_baseConvert.js
+       • test/asset/worker.js
+       • lib/main/build-site.js
+       • lib/main/build-modules.js
+
+   EmptyStatement:
+     📄 Files WITH EmptyStatement (showing 8):
+       • lodash.js
+       • test/test.js
+       • test/test-fp.js
+       • perf/perf.js
+       • vendor/underscore/underscore-min.js
+       • test/asset/test-ui.js
+       • perf/asset/perf-ui.js
+       • vendor/firebug-lite/src/firebug-lite-debug.js
+     📄 Files WITHOUT EmptyStatement (showing 10):
+       • test/saucelabs.js
+       • test/remove.js
+       • fp/placeholder.js
+       • fp/_mapping.js
+       • fp/_convertBrowser.js
+       • fp/_baseConvert.js
+       • vendor/underscore/underscore.js
+       • vendor/json-js/json2.js
+       • vendor/backbone/backbone.js
+       • test/asset/worker.js
+
+   WithStatement:
+     📄 Files WITH WithStatement (showing 1):
+       • vendor/firebug-lite/src/firebug-lite-debug.js
+     📄 Files WITHOUT WithStatement (showing 10):
+       • lodash.js
+       • test/test.js
+       • test/test-fp.js
+       • test/saucelabs.js
+       • test/remove.js
+       • perf/perf.js
+       • fp/placeholder.js
+       • fp/_mapping.js
+       • fp/_convertBrowser.js
+       • fp/_baseConvert.js
+
+   TemplateElement:
+     📄 Files WITH TemplateElement (showing 2):
+       • lib/main/build-site.js
+       • lib/main/build-doc.js
+     📄 Files WITHOUT TemplateElement (showing 10):
+       • lodash.js
+       • test/test.js
+       • test/test-fp.js
+       • test/saucelabs.js
+       • test/remove.js
+       • perf/perf.js
+       • fp/placeholder.js
+       • fp/_mapping.js
+       • fp/_convertBrowser.js
+       • fp/_baseConvert.js
+
+   ArrowFunctionExpression:
+     📄 Files WITH ArrowFunctionExpression (showing 6):
+       • lib/main/build-site.js
+       • lib/main/build-modules.js
+       • lib/fp/build-modules.js
+       • lib/fp/build-doc.js
+       • lib/common/util.js
+       • lib/common/file.js
+     📄 Files WITHOUT ArrowFunctionExpression (showing 10):
+       • lodash.js
+       • test/test.js
+       • test/test-fp.js
+       • test/saucelabs.js
+       • test/remove.js
+       • perf/perf.js
+       • fp/placeholder.js
+       • fp/_mapping.js
+       • fp/_convertBrowser.js
+       • fp/_baseConvert.js
+
+   DoWhileStatement:
+     📄 Files WITH DoWhileStatement (showing 2):
+       • lodash.js
+       • vendor/firebug-lite/src/firebug-lite-debug.js
+     📄 Files WITHOUT DoWhileStatement (showing 10):
+       • test/test.js
+       • test/test-fp.js
+       • test/saucelabs.js
+       • test/remove.js
+       • perf/perf.js
+       • fp/placeholder.js
+       • fp/_mapping.js
+       • fp/_convertBrowser.js
+       • fp/_baseConvert.js
+       • vendor/underscore/underscore.js
+
+   TemplateLiteral:
+     📄 Files WITH TemplateLiteral (showing 2):
+       • lib/main/build-site.js
+       • lib/main/build-doc.js
+     📄 Files WITHOUT TemplateLiteral (showing 10):
+       • lodash.js
+       • test/test.js
+       • test/test-fp.js
+       • test/saucelabs.js
+       • test/remove.js
+       • perf/perf.js
+       • fp/placeholder.js
+       • fp/_mapping.js
+       • fp/_convertBrowser.js
+       • fp/_baseConvert.js
+
+   LabeledStatement:
+     📄 Files WITH LabeledStatement (showing 1):
+       • lodash.js
+     📄 Files WITHOUT LabeledStatement (showing 10):
+       • test/test.js
+       • test/test-fp.js
+       • test/saucelabs.js
+       • test/remove.js
+       • perf/perf.js
+       • fp/placeholder.js
+       • fp/_mapping.js
+       • fp/_convertBrowser.js
+       • fp/_baseConvert.js
+       • vendor/underscore/underscore.js
+
+   Hashbang:
+     📄 Files WITH Hashbang (showing 2):
+       • test/saucelabs.js
+       • test/remove.js
+     📄 Files WITHOUT Hashbang (showing 10):
+       • lodash.js
+       • test/test.js
+       • test/test-fp.js
+       • perf/perf.js
+       • fp/placeholder.js
+       • fp/_mapping.js
+       • fp/_convertBrowser.js
+       • fp/_baseConvert.js
+       • vendor/underscore/underscore.js
+       • vendor/underscore/underscore-min.js
 
 ============================================================
 ✅ Analysis complete!

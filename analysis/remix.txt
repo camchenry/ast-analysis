@@ -1,11 +1,12 @@
 AST Analysis Report for remix
-Generated on: 2025-07-13T03:17:30.763Z
+Generated on: 2025-07-14T01:42:27.589Z
 Repository: sample-repos/remix
 ================================================================================
 
 🔍 Analyzing JavaScript/TypeScript files in: /Users/camchenry/workspace/ast-analysis/sample-repos/remix
 
 📁 Found 580 files to analyze...
+
 
 
 ============================================================
@@ -300,6 +301,3092 @@ Repository: sample-repos/remix
    ExportAllDeclaration                  1 (0.00%) in 1 files (0.2%)
    TSClassImplements                     1 (0.00%) in 1 files (0.2%)
    DoWhileStatement                      1 (0.00%) in 1 files (0.2%)
+
+📁 FILE EXAMPLES BY NODE TYPE:
+
+   Identifier:
+     📄 Files WITH Identifier (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+     📄 Files WITHOUT Identifier (showing 10):
+       • packages/remix-node/install.d.ts
+       • templates/classic-remix-compiler/remix/remix.env.d.ts
+       • templates/classic-remix-compiler/fly/remix.env.d.ts
+       • templates/classic-remix-compiler/express/remix.env.d.ts
+       • templates/classic-remix-compiler/cloudflare-pages/remix.env.d.ts
+       • templates/classic-remix-compiler/arc/remix.env.d.ts
+       • scripts/playground/template/remix.env.d.ts
+       • integration/helpers/vite-cloudflare-template/env.d.ts
+       • integration/helpers/vite-6-template/env.d.ts
+       • integration/helpers/node-template/remix.env.d.ts
+
+   CallExpression:
+     📄 Files WITH CallExpression (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • jest.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+       • scripts/publish.js
+       • scripts/publish-private.js
+     📄 Files WITHOUT CallExpression (showing 10):
+       • prettier.config.js
+       • babel.config.js
+       • scripts/unist.d.ts
+       • scripts/prompt-confirm.d.ts
+       • integration/playwright.config.ts
+       • templates/spa/tailwind.config.ts
+       • templates/spa/postcss.config.js
+       • templates/remix-javascript/tailwind.config.js
+       • templates/remix-javascript/postcss.config.js
+       • templates/remix/tailwind.config.ts
+
+   Literal:
+     📄 Files WITH Literal (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+     📄 Files WITHOUT Literal (showing 10):
+       • prettier.config.js
+       • templates/spa/postcss.config.js
+       • templates/remix-javascript/postcss.config.js
+       • templates/remix/postcss.config.js
+       • templates/express/postcss.config.js
+       • templates/cloudflare-workers/worker-configuration.d.ts
+       • templates/cloudflare-workers/postcss.config.js
+       • templates/cloudflare/postcss.config.js
+       • packages/remix-server-runtime/future.ts
+       • packages/remix-node/install.d.ts
+
+   MemberExpression:
+     📄 Files WITH MemberExpression (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+     📄 Files WITHOUT MemberExpression (showing 10):
+       • scripts/unist.d.ts
+       • scripts/prompt-confirm.d.ts
+       • templates/spa/vite.config.ts
+       • templates/spa/tailwind.config.ts
+       • templates/spa/postcss.config.js
+       • templates/remix-tutorial/vite.config.ts
+       • templates/remix-javascript/vite.config.js
+       • templates/remix-javascript/tailwind.config.js
+       • templates/remix-javascript/postcss.config.js
+       • templates/remix/vite.config.ts
+
+   ExpressionStatement:
+     📄 Files WITH ExpressionStatement (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+     📄 Files WITHOUT ExpressionStatement (showing 10):
+       • scripts/unist.d.ts
+       • scripts/prompt-confirm.d.ts
+       • integration/playwright.config.ts
+       • templates/spa/vite.config.ts
+       • templates/spa/tailwind.config.ts
+       • templates/spa/postcss.config.js
+       • templates/remix-tutorial/vite.config.ts
+       • templates/remix-javascript/vite.config.js
+       • templates/remix-javascript/tailwind.config.js
+       • templates/remix-javascript/postcss.config.js
+
+   Property:
+     📄 Files WITH Property (showing 10):
+       • rollup.utils.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+       • scripts/publish.js
+       • scripts/publish-private.js
+     📄 Files WITHOUT Property (showing 10):
+       • rollup.config.js
+       • prettier.config.js
+       • scripts/unist.d.ts
+       • scripts/prompt-confirm.d.ts
+       • scripts/patchup-version.mjs
+       • scripts/find-release-from-changeset.js
+       • scripts/clean-build.mjs
+       • templates/cloudflare-workers/worker-configuration.d.ts
+       • templates/cloudflare/load-context.ts
+       • packages/remix-testing/index.ts
+
+   VariableDeclarator:
+     📄 Files WITH VariableDeclarator (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+       • scripts/publish.js
+       • scripts/publish-private.js
+       • scripts/patchup-version.mjs
+     📄 Files WITHOUT VariableDeclarator (showing 10):
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/unist.d.ts
+       • scripts/prompt-confirm.d.ts
+       • docs/prettier.config.js
+       • templates/spa/vite.config.ts
+       • templates/spa/tailwind.config.ts
+       • templates/spa/postcss.config.js
+       • templates/remix-tutorial/vite.config.ts
+
+   VariableDeclaration:
+     📄 Files WITH VariableDeclaration (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+       • scripts/publish.js
+       • scripts/publish-private.js
+       • scripts/patchup-version.mjs
+     📄 Files WITHOUT VariableDeclaration (showing 10):
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/unist.d.ts
+       • scripts/prompt-confirm.d.ts
+       • docs/prettier.config.js
+       • templates/spa/vite.config.ts
+       • templates/spa/tailwind.config.ts
+       • templates/spa/postcss.config.js
+       • templates/remix-tutorial/vite.config.ts
+
+   BlockStatement:
+     📄 Files WITH BlockStatement (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+       • scripts/publish.js
+       • scripts/publish-private.js
+       • scripts/patchup-version.mjs
+     📄 Files WITHOUT BlockStatement (showing 10):
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/unist.d.ts
+       • scripts/prompt-confirm.d.ts
+       • jest/jest.config.shared.js
+       • integration/playwright.config.ts
+       • docs/prettier.config.js
+       • templates/spa/vite.config.ts
+       • templates/spa/tailwind.config.ts
+
+   AwaitExpression:
+     📄 Files WITH AwaitExpression (showing 10):
+       • rollup.utils.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+       • scripts/publish-private.js
+       • scripts/patchup-version.mjs
+       • scripts/markdown-references.mjs
+       • scripts/copy-build-to-dist.mjs
+     📄 Files WITHOUT AwaitExpression (showing 10):
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/unist.d.ts
+       • scripts/publish.js
+       • scripts/prompt-confirm.d.ts
+       • scripts/find-release-from-changeset.js
+       • scripts/build.mjs
+       • jest/transform.js
+
+   Unknown:
+     📄 Files WITH Unknown (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+       • scripts/publish.js
+       • scripts/publish-private.js
+       • scripts/patchup-version.mjs
+     📄 Files WITHOUT Unknown (showing 10):
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/unist.d.ts
+       • scripts/prompt-confirm.d.ts
+       • scripts/markdown-references.mjs
+       • jest/transform.js
+       • jest/jest.config.shared.js
+       • jest/buildRemix.js
+       • integration/playwright.config.ts
+
+   TemplateElement:
+     📄 Files WITH TemplateElement (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/run-migration-on-examples.js
+       • scripts/release.js
+       • scripts/publish.js
+       • scripts/publish-private.js
+       • scripts/patchup-version.mjs
+       • scripts/find-release-from-changeset.js
+     📄 Files WITHOUT TemplateElement (showing 10):
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/unist.d.ts
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/prompt-confirm.d.ts
+       • scripts/markdown-references.mjs
+       • jest/transform.js
+       • jest/jest.config.shared.js
+       • jest/buildRemix.js
+
+   TSTypeAnnotation:
+     📄 Files WITH TSTypeAnnotation (showing 10):
+       • scripts/unist.d.ts
+       • scripts/prompt-confirm.d.ts
+       • integration/vite-spa-mode-test.ts
+       • integration/vite-server-fs-allow-test.ts
+       • integration/vite-server-bundles-test.ts
+       • integration/vite-route-exports-modified-offscreen-test.ts
+       • integration/vite-route-config-test.ts
+       • integration/vite-route-added-test.ts
+       • integration/vite-presets-test.ts
+       • integration/vite-plugin-order-validation-test.ts
+     📄 Files WITHOUT TSTypeAnnotation (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+
+   ObjectExpression:
+     📄 Files WITH ObjectExpression (showing 10):
+       • rollup.utils.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/utils.js
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+       • scripts/publish.js
+       • scripts/publish-private.js
+     📄 Files WITHOUT ObjectExpression (showing 10):
+       • rollup.config.js
+       • scripts/version.js
+       • scripts/unist.d.ts
+       • scripts/prompt-confirm.d.ts
+       • scripts/find-release-from-changeset.js
+       • scripts/clean-build.mjs
+       • templates/cloudflare-workers/worker-configuration.d.ts
+       • templates/cloudflare-workers/load-context.ts
+       • templates/cloudflare/load-context.ts
+       • packages/remix-testing/index.ts
+
+   TSTypeReference:
+     📄 Files WITH TSTypeReference (showing 10):
+       • scripts/unist.d.ts
+       • scripts/prompt-confirm.d.ts
+       • integration/vite-spa-mode-test.ts
+       • integration/vite-server-bundles-test.ts
+       • integration/vite-route-exports-modified-offscreen-test.ts
+       • integration/vite-route-config-test.ts
+       • integration/vite-route-added-test.ts
+       • integration/vite-plugin-order-validation-test.ts
+       • integration/vite-loader-context-test.ts
+       • integration/vite-hmr-hdr-test.ts
+     📄 Files WITHOUT TSTypeReference (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+
+   ArrowFunctionExpression:
+     📄 Files WITH ArrowFunctionExpression (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+       • scripts/publish.js
+       • scripts/publish-private.js
+       • scripts/patchup-version.mjs
+     📄 Files WITHOUT ArrowFunctionExpression (showing 10):
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/unist.d.ts
+       • scripts/prompt-confirm.d.ts
+       • scripts/markdown-references.mjs
+       • scripts/clean-build.mjs
+       • jest/jest.config.shared.js
+       • integration/playwright.config.ts
+       • docs/prettier.config.js
+
+   TemplateLiteral:
+     📄 Files WITH TemplateLiteral (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/run-migration-on-examples.js
+       • scripts/release.js
+       • scripts/publish.js
+       • scripts/publish-private.js
+       • scripts/patchup-version.mjs
+       • scripts/find-release-from-changeset.js
+     📄 Files WITHOUT TemplateLiteral (showing 10):
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/unist.d.ts
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/prompt-confirm.d.ts
+       • scripts/markdown-references.mjs
+       • jest/transform.js
+       • jest/jest.config.shared.js
+       • jest/buildRemix.js
+
+   ImportSpecifier:
+     📄 Files WITH ImportSpecifier (showing 10):
+       • scripts/unist.d.ts
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/patchup-version.mjs
+       • scripts/markdown-references.mjs
+       • scripts/compile-release-notes.mjs
+       • scripts/close-v2-issues.mjs
+       • scripts/build.mjs
+       • jest/buildRemix.js
+       • integration/vite-unused-route-exports-test.ts
+       • integration/vite-spa-mode-test.ts
+     📄 Files WITHOUT ImportSpecifier (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/run-migration-on-examples.js
+       • scripts/release.js
+       • scripts/publish.js
+
+   JSXIdentifier:
+     📄 Files WITH JSXIdentifier (showing 10):
+       • packages/remix-testing/create-remix-stub.tsx
+       • packages/remix-react/single-fetch.tsx
+       • packages/remix-react/server.tsx
+       • packages/remix-react/scroll-restoration.tsx
+       • packages/remix-react/routes.tsx
+       • packages/remix-react/fallback.tsx
+       • packages/remix-react/errorBoundaries.tsx
+       • packages/remix-react/components.tsx
+       • packages/remix-react/browser.tsx
+       • templates/spa/app/root.tsx
+     📄 Files WITHOUT JSXIdentifier (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   ImportDeclaration:
+     📄 Files WITH ImportDeclaration (showing 10):
+       • scripts/unist.d.ts
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/patchup-version.mjs
+       • scripts/markdown-references.mjs
+       • scripts/copy-build-to-dist.mjs
+       • scripts/compile-release-notes.mjs
+       • scripts/close-v2-issues.mjs
+       • scripts/clean-build.mjs
+       • scripts/build.mjs
+       • jest/buildRemix.js
+     📄 Files WITHOUT ImportDeclaration (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/run-migration-on-examples.js
+       • scripts/release.js
+       • scripts/publish.js
+
+   ReturnStatement:
+     📄 Files WITH ReturnStatement (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+       • scripts/publish.js
+       • scripts/publish-private.js
+       • scripts/find-release-from-changeset.js
+     📄 Files WITHOUT ReturnStatement (showing 10):
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/unist.d.ts
+       • scripts/prompt-confirm.d.ts
+       • scripts/patchup-version.mjs
+       • scripts/markdown-references.mjs
+       • jest/transform.js
+       • jest/jest.config.shared.js
+       • integration/vite-unused-route-exports-test.ts
+
+   AssignmentExpression:
+     📄 Files WITH AssignmentExpression (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+       • scripts/publish-private.js
+     📄 Files WITHOUT AssignmentExpression (showing 10):
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/publish.js
+       • scripts/prompt-confirm.d.ts
+       • scripts/markdown-references.mjs
+       • scripts/find-release-from-changeset.js
+       • scripts/close-v2-issues.mjs
+       • scripts/clean-build.mjs
+       • scripts/build.mjs
+       • jest/buildRemix.js
+
+   ArrayExpression:
+     📄 Files WITH ArrayExpression (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+       • scripts/publish.js
+       • scripts/publish-private.js
+       • scripts/patchup-version.mjs
+     📄 Files WITHOUT ArrayExpression (showing 10):
+       • prettier.config.js
+       • scripts/version.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/prompt-confirm.d.ts
+       • scripts/find-release-from-changeset.js
+       • integration/vite-unused-route-exports-test.ts
+       • integration/vite-route-config-test.ts
+       • integration/vite-plugin-order-validation-test.ts
+       • integration/vite-dot-client-test.ts
+
+   TSStringKeyword:
+     📄 Files WITH TSStringKeyword (showing 10):
+       • scripts/unist.d.ts
+       • scripts/prompt-confirm.d.ts
+       • integration/vite-spa-mode-test.ts
+       • integration/vite-server-fs-allow-test.ts
+       • integration/vite-server-bundles-test.ts
+       • integration/vite-route-exports-modified-offscreen-test.ts
+       • integration/vite-route-config-test.ts
+       • integration/vite-route-added-test.ts
+       • integration/vite-presets-test.ts
+       • integration/vite-plugin-order-validation-test.ts
+     📄 Files WITHOUT TSStringKeyword (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+
+   BinaryExpression:
+     📄 Files WITH BinaryExpression (showing 10):
+       • rollup.utils.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+       • scripts/publish.js
+       • scripts/publish-private.js
+       • scripts/patchup-version.mjs
+     📄 Files WITHOUT BinaryExpression (showing 10):
+       • rollup.config.js
+       • prettier.config.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/prompt-confirm.d.ts
+       • scripts/markdown-references.mjs
+       • scripts/clean-build.mjs
+       • jest/transform.js
+       • jest/jest.config.shared.js
+       • jest/buildRemix.js
+
+   TSPropertySignature:
+     📄 Files WITH TSPropertySignature (showing 10):
+       • scripts/unist.d.ts
+       • integration/vite-route-config-test.ts
+       • integration/vite-hmr-hdr-test.ts
+       • integration/vite-css-test.ts
+       • integration/vite-cloudflare-test.ts
+       • integration/vite-basename-test.ts
+       • integration/prefetch-test.ts
+       • integration/postcss-test.ts
+       • integration/hmr-test.ts
+       • integration/defer-test.ts
+     📄 Files WITHOUT TSPropertySignature (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+
+   NewExpression:
+     📄 Files WITH NewExpression (showing 10):
+       • rollup.utils.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/patchup-version.mjs
+       • scripts/find-release-from-changeset.js
+       • scripts/compile-release-notes.mjs
+       • scripts/close-v2-issues.mjs
+       • scripts/build.mjs
+       • jest/buildRemix.js
+       • integration/vite-spa-mode-test.ts
+     📄 Files WITHOUT NewExpression (showing 10):
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/release.js
+       • scripts/publish.js
+       • scripts/publish-private.js
+
+   IfStatement:
+     📄 Files WITH IfStatement (showing 10):
+       • rollup.utils.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+       • scripts/publish.js
+       • scripts/publish-private.js
+       • scripts/patchup-version.mjs
+       • scripts/find-release-from-changeset.js
+     📄 Files WITHOUT IfStatement (showing 10):
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/unist.d.ts
+       • scripts/prompt-confirm.d.ts
+       • scripts/markdown-references.mjs
+       • jest/transform.js
+       • jest/jest.config.shared.js
+       • jest/buildRemix.js
+
+   ObjectPattern:
+     📄 Files WITH ObjectPattern (showing 10):
+       • rollup.utils.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/run-migration-on-examples.js
+       • scripts/release.js
+       • scripts/publish.js
+       • scripts/publish-private.js
+       • scripts/compile-release-notes.mjs
+       • scripts/close-v2-issues.mjs
+       • jest/transform.js
+     📄 Files WITHOUT ObjectPattern (showing 10):
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/unist.d.ts
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/prompt-confirm.d.ts
+       • scripts/patchup-version.mjs
+       • scripts/markdown-references.mjs
+       • scripts/find-release-from-changeset.js
+
+   TSTypeParameterInstantiation:
+     📄 Files WITH TSTypeParameterInstantiation (showing 10):
+       • scripts/prompt-confirm.d.ts
+       • integration/vite-server-bundles-test.ts
+       • integration/vite-route-config-test.ts
+       • integration/vite-plugin-order-validation-test.ts
+       • integration/vite-fs-routes-test.ts
+       • integration/vite-dot-server-test.ts
+       • integration/vite-basename-test.ts
+       • integration/single-fetch-test.ts
+       • integration/route-collisions-test.ts
+       • integration/hmr-test.ts
+     📄 Files WITHOUT TSTypeParameterInstantiation (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TaggedTemplateExpression:
+     📄 Files WITH TaggedTemplateExpression (showing 10):
+       • integration/vite-unused-route-exports-test.ts
+       • integration/vite-spa-mode-test.ts
+       • integration/vite-server-fs-allow-test.ts
+       • integration/vite-server-bundles-test.ts
+       • integration/vite-route-exports-modified-offscreen-test.ts
+       • integration/vite-route-config-test.ts
+       • integration/vite-route-added-test.ts
+       • integration/vite-presets-test.ts
+       • integration/vite-plugin-order-validation-test.ts
+       • integration/vite-node-env-test.ts
+     📄 Files WITHOUT TaggedTemplateExpression (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   JSXText:
+     📄 Files WITH JSXText (showing 10):
+       • packages/remix-testing/create-remix-stub.tsx
+       • packages/remix-react/single-fetch.tsx
+       • packages/remix-react/server.tsx
+       • packages/remix-react/routes.tsx
+       • packages/remix-react/fallback.tsx
+       • packages/remix-react/errorBoundaries.tsx
+       • packages/remix-react/components.tsx
+       • packages/remix-react/browser.tsx
+       • templates/spa/app/root.tsx
+       • templates/spa/app/entry.client.tsx
+     📄 Files WITHOUT JSXText (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   JSXAttribute:
+     📄 Files WITH JSXAttribute (showing 10):
+       • packages/remix-testing/create-remix-stub.tsx
+       • packages/remix-react/single-fetch.tsx
+       • packages/remix-react/server.tsx
+       • packages/remix-react/scroll-restoration.tsx
+       • packages/remix-react/routes.tsx
+       • packages/remix-react/fallback.tsx
+       • packages/remix-react/errorBoundaries.tsx
+       • packages/remix-react/components.tsx
+       • packages/remix-react/browser.tsx
+       • templates/spa/app/root.tsx
+     📄 Files WITHOUT JSXAttribute (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   ExportNamedDeclaration:
+     📄 Files WITH ExportNamedDeclaration (showing 10):
+       • scripts/unist.d.ts
+       • templates/cloudflare-workers/load-context.ts
+       • scripts/deployment-test/_shared.mjs
+       • packages/remix-testing/index.ts
+       • packages/remix-testing/create-remix-stub.tsx
+       • packages/remix-server-runtime/warnings.ts
+       • packages/remix-server-runtime/typecheck.ts
+       • packages/remix-server-runtime/single-fetch.ts
+       • packages/remix-server-runtime/sessions.ts
+       • packages/remix-server-runtime/serverHandoff.ts
+     📄 Files WITHOUT ExportNamedDeclaration (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+
+   JSXElement:
+     📄 Files WITH JSXElement (showing 10):
+       • packages/remix-testing/create-remix-stub.tsx
+       • packages/remix-react/single-fetch.tsx
+       • packages/remix-react/server.tsx
+       • packages/remix-react/scroll-restoration.tsx
+       • packages/remix-react/routes.tsx
+       • packages/remix-react/fallback.tsx
+       • packages/remix-react/errorBoundaries.tsx
+       • packages/remix-react/components.tsx
+       • packages/remix-react/browser.tsx
+       • templates/spa/app/root.tsx
+     📄 Files WITHOUT JSXElement (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   JSXOpeningElement:
+     📄 Files WITH JSXOpeningElement (showing 10):
+       • packages/remix-testing/create-remix-stub.tsx
+       • packages/remix-react/single-fetch.tsx
+       • packages/remix-react/server.tsx
+       • packages/remix-react/scroll-restoration.tsx
+       • packages/remix-react/routes.tsx
+       • packages/remix-react/fallback.tsx
+       • packages/remix-react/errorBoundaries.tsx
+       • packages/remix-react/components.tsx
+       • packages/remix-react/browser.tsx
+       • templates/spa/app/root.tsx
+     📄 Files WITHOUT JSXOpeningElement (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   LogicalExpression:
+     📄 Files WITH LogicalExpression (showing 10):
+       • rollup.utils.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+       • scripts/patchup-version.mjs
+       • scripts/find-release-from-changeset.js
+       • scripts/copy-build-to-dist.mjs
+       • scripts/compile-release-notes.mjs
+       • scripts/close-v2-issues.mjs
+       • scripts/build.mjs
+     📄 Files WITHOUT LogicalExpression (showing 10):
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/publish.js
+       • scripts/publish-private.js
+       • scripts/prompt-confirm.d.ts
+
+   FunctionDeclaration:
+     📄 Files WITH FunctionDeclaration (showing 10):
+       • rollup.utils.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+       • scripts/publish.js
+       • scripts/publish-private.js
+       • scripts/patchup-version.mjs
+       • scripts/markdown-references.mjs
+       • scripts/find-release-from-changeset.js
+     📄 Files WITHOUT FunctionDeclaration (showing 10):
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/prompt-confirm.d.ts
+       • jest/transform.js
+       • jest/jest.config.shared.js
+       • integration/vite-unused-route-exports-test.ts
+
+   UnaryExpression:
+     📄 Files WITH UnaryExpression (showing 10):
+       • rollup.utils.js
+       • scripts/utils.js
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+       • scripts/patchup-version.mjs
+       • scripts/find-release-from-changeset.js
+       • scripts/copy-build-to-dist.mjs
+       • scripts/compile-release-notes.mjs
+       • scripts/close-v2-issues.mjs
+     📄 Files WITHOUT UnaryExpression (showing 10):
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/unist.d.ts
+       • scripts/publish.js
+       • scripts/publish-private.js
+       • scripts/prompt-confirm.d.ts
+       • scripts/markdown-references.mjs
+
+   ParenthesizedExpression:
+     📄 Files WITH ParenthesizedExpression (showing 10):
+       • babel.config.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+       • scripts/copy-build-to-dist.mjs
+       • scripts/compile-release-notes.mjs
+       • scripts/clean-build.mjs
+       • scripts/build.mjs
+       • jest/transform.js
+       • integration/vite-route-config-test.ts
+       • integration/vite-hmr-hdr-test.ts
+     📄 Files WITHOUT ParenthesizedExpression (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/publish.js
+       • scripts/publish-private.js
+
+   Program:
+     📄 Files WITH Program (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+     📄 Files WITHOUT Program: (all files contain this node type)
+
+   ThisExpression:
+     📄 Files WITH ThisExpression (showing 10):
+       • scripts/utils.js
+       • packages/remix-server-runtime/single-fetch.ts
+       • packages/remix-server-runtime/jsonify.ts
+       • packages/remix-react/errorBoundaries.tsx
+       • packages/remix-node/stream.ts
+       • packages/create-remix/prompts-text.ts
+       • packages/create-remix/prompts-select.ts
+       • packages/create-remix/prompts-prompt-base.ts
+       • packages/create-remix/prompts-multi-select.ts
+       • packages/create-remix/prompts-confirm.ts
+     📄 Files WITHOUT ThisExpression (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+
+   ExportSpecifier:
+     📄 Files WITH ExportSpecifier (showing 10):
+       • packages/remix-testing/index.ts
+       • packages/remix-server-runtime/reexport.ts
+       • packages/remix-server-runtime/interface.ts
+       • packages/remix-server-runtime/index.ts
+       • packages/remix-server-runtime/cookies.ts
+       • packages/remix-routes-option-adapter/index.ts
+       • packages/remix-route-config/routes.ts
+       • packages/remix-route-config/index.ts
+       • packages/remix-react/index.tsx
+       • packages/remix-react/components.tsx
+     📄 Files WITHOUT ExportSpecifier (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSLiteralType:
+     📄 Files WITH TSLiteralType (showing 10):
+       • scripts/unist.d.ts
+       • integration/vite-hmr-hdr-test.ts
+       • integration/prefetch-test.ts
+       • templates/spa/vite.config.ts
+       • templates/remix/vite.config.ts
+       • templates/express/vite.config.ts
+       • templates/cloudflare-workers/vite.config.ts
+       • templates/cloudflare-workers/load-context.ts
+       • templates/cloudflare/vite.config.ts
+       • templates/cloudflare/load-context.ts
+     📄 Files WITHOUT TSLiteralType (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+
+   SpreadElement:
+     📄 Files WITH SpreadElement (showing 10):
+       • babel.config.js
+       • scripts/utils.js
+       • scripts/patchup-version.mjs
+       • scripts/copy-build-to-dist.mjs
+       • scripts/compile-release-notes.mjs
+       • scripts/build.mjs
+       • jest/transform.js
+       • jest/jest.config.shared.js
+       • integration/vite-server-fs-allow-test.ts
+       • integration/vite-server-bundles-test.ts
+     📄 Files WITHOUT SpreadElement (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • scripts/version.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+       • scripts/publish.js
+
+   ConditionalExpression:
+     📄 Files WITH ConditionalExpression (showing 10):
+       • rollup.utils.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/utils.js
+       • scripts/release.js
+       • scripts/publish.js
+       • scripts/publish-private.js
+       • scripts/copy-build-to-dist.mjs
+       • scripts/compile-release-notes.mjs
+       • scripts/close-v2-issues.mjs
+     📄 Files WITHOUT ConditionalExpression (showing 10):
+       • rollup.config.js
+       • prettier.config.js
+       • scripts/version.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/prompt-confirm.d.ts
+       • scripts/patchup-version.mjs
+       • scripts/markdown-references.mjs
+       • scripts/find-release-from-changeset.js
+
+   JSXClosingElement:
+     📄 Files WITH JSXClosingElement (showing 10):
+       • packages/remix-testing/create-remix-stub.tsx
+       • packages/remix-react/single-fetch.tsx
+       • packages/remix-react/server.tsx
+       • packages/remix-react/routes.tsx
+       • packages/remix-react/fallback.tsx
+       • packages/remix-react/errorBoundaries.tsx
+       • packages/remix-react/components.tsx
+       • packages/remix-react/browser.tsx
+       • templates/spa/app/root.tsx
+       • templates/spa/app/entry.client.tsx
+     📄 Files WITHOUT JSXClosingElement (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSUnionType:
+     📄 Files WITH TSUnionType (showing 10):
+       • scripts/unist.d.ts
+       • integration/vite-route-config-test.ts
+       • integration/vanilla-extract-test.ts
+       • integration/single-fetch-test.ts
+       • integration/deno-compiler-test.ts
+       • integration/css-side-effect-imports-test.ts
+       • integration/css-modules-test.ts
+       • integration/cf-compiler-test.ts
+       • templates/cloudflare-workers/load-context.ts
+       • packages/remix-testing/create-remix-stub.tsx
+     📄 Files WITHOUT TSUnionType (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+
+   TSTypeLiteral:
+     📄 Files WITH TSTypeLiteral (showing 10):
+       • integration/vite-route-config-test.ts
+       • integration/vite-hmr-hdr-test.ts
+       • integration/vite-css-test.ts
+       • integration/vite-cloudflare-test.ts
+       • integration/vite-basename-test.ts
+       • integration/prefetch-test.ts
+       • integration/postcss-test.ts
+       • integration/hmr-test.ts
+       • integration/defer-test.ts
+       • integration/client-data-test.ts
+     📄 Files WITHOUT TSTypeLiteral (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   FunctionExpression:
+     📄 Files WITH FunctionExpression (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • scripts/utils.js
+       • templates/cloudflare-workers/server.ts
+       • scripts/playground/new.js
+       • scripts/deployment-test/_shared.mjs
+       • packages/remix-testing/rollup.config.js
+       • packages/remix-testing/create-remix-stub.tsx
+       • packages/remix-server-runtime/single-fetch.ts
+       • packages/remix-server-runtime/sessions.ts
+     📄 Files WITHOUT FunctionExpression (showing 10):
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+       • scripts/publish.js
+       • scripts/publish-private.js
+
+   TSArrayType:
+     📄 Files WITH TSArrayType (showing 10):
+       • scripts/unist.d.ts
+       • integration/vite-spa-mode-test.ts
+       • integration/vite-server-fs-allow-test.ts
+       • integration/vite-server-bundles-test.ts
+       • integration/vite-route-exports-modified-offscreen-test.ts
+       • integration/vite-route-added-test.ts
+       • integration/vite-node-env-test.ts
+       • integration/vite-loader-context-test.ts
+       • integration/vite-fs-routes-test.ts
+       • integration/vite-dotenv-test.ts
+     📄 Files WITHOUT TSArrayType (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+
+   ImportDefaultSpecifier:
+     📄 Files WITH ImportDefaultSpecifier (showing 10):
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/patchup-version.mjs
+       • scripts/markdown-references.mjs
+       • scripts/copy-build-to-dist.mjs
+       • scripts/compile-release-notes.mjs
+       • scripts/clean-build.mjs
+       • integration/vite-spa-mode-test.ts
+       • integration/vite-server-fs-allow-test.ts
+       • integration/vite-server-bundles-test.ts
+       • integration/vite-route-exports-modified-offscreen-test.ts
+     📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/release.js
+
+   JSXExpressionContainer:
+     📄 Files WITH JSXExpressionContainer (showing 10):
+       • packages/remix-testing/create-remix-stub.tsx
+       • packages/remix-react/single-fetch.tsx
+       • packages/remix-react/server.tsx
+       • packages/remix-react/scroll-restoration.tsx
+       • packages/remix-react/routes.tsx
+       • packages/remix-react/fallback.tsx
+       • packages/remix-react/errorBoundaries.tsx
+       • packages/remix-react/components.tsx
+       • packages/remix-react/browser.tsx
+       • templates/spa/app/root.tsx
+     📄 Files WITHOUT JSXExpressionContainer (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSAsExpression:
+     📄 Files WITH TSAsExpression (showing 10):
+       • integration/tailwind-test.ts
+       • integration/navigation-state-test.ts
+       • integration/fog-of-war-test.ts
+       • integration/error-sanitization-test.ts
+       • integration/error-data-request-test.ts
+       • integration/error-boundary-test.ts
+       • integration/catch-boundary-test.ts
+       • integration/catch-boundary-data-test.ts
+       • templates/cloudflare-workers/server.ts
+       • packages/remix-server-runtime/sessions.ts
+     📄 Files WITHOUT TSAsExpression (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSUnknownKeyword:
+     📄 Files WITH TSUnknownKeyword (showing 10):
+       • integration/vite-server-fs-allow-test.ts
+       • integration/vite-node-env-test.ts
+       • integration/vite-dotenv-test.ts
+       • integration/vite-dev-test.ts
+       • integration/vite-build-test.ts
+       • integration/vite-basename-test.ts
+       • integration/single-fetch-test.ts
+       • packages/remix-server-runtime/single-fetch.ts
+       • packages/remix-server-runtime/server.ts
+       • packages/remix-server-runtime/serialize.ts
+     📄 Files WITHOUT TSUnknownKeyword (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSNumberKeyword:
+     📄 Files WITH TSNumberKeyword (showing 10):
+       • scripts/unist.d.ts
+       • integration/vite-server-fs-allow-test.ts
+       • integration/vite-server-bundles-test.ts
+       • integration/vite-route-exports-modified-offscreen-test.ts
+       • integration/vite-route-added-test.ts
+       • integration/vite-node-env-test.ts
+       • integration/vite-loader-context-test.ts
+       • integration/vite-hmr-hdr-test.ts
+       • integration/vite-dotenv-test.ts
+       • integration/vite-dev-test.ts
+     📄 Files WITHOUT TSNumberKeyword (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+
+   ThrowStatement:
+     📄 Files WITH ThrowStatement (showing 10):
+       • scripts/release.js
+       • scripts/find-release-from-changeset.js
+       • integration/vite-dev-test.ts
+       • integration/vite-dev-custom-entry-test.ts
+       • integration/hmr-test.ts
+       • integration/defer-test.ts
+       • integration/css-modules-test.ts
+       • scripts/playground/new.js
+       • scripts/deployment-test/fly.mjs
+       • scripts/deployment-test/deno-deploy.mjs
+     📄 Files WITHOUT ThrowStatement (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSBooleanKeyword:
+     📄 Files WITH TSBooleanKeyword (showing 10):
+       • integration/vite-basename-test.ts
+       • integration/hmr-test.ts
+       • integration/client-data-test.ts
+       • packages/remix-server-runtime/warnings.ts
+       • packages/remix-server-runtime/single-fetch.ts
+       • packages/remix-server-runtime/sessions.ts
+       • packages/remix-server-runtime/serverHandoff.ts
+       • packages/remix-server-runtime/serialize.ts
+       • packages/remix-server-runtime/routes.ts
+       • packages/remix-server-runtime/routeModules.ts
+     📄 Files WITHOUT TSBooleanKeyword (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSTypeAliasDeclaration:
+     📄 Files WITH TSTypeAliasDeclaration (showing 10):
+       • scripts/unist.d.ts
+       • templates/cloudflare-workers/load-context.ts
+       • templates/cloudflare/load-context.ts
+       • packages/remix-testing/create-remix-stub.tsx
+       • packages/remix-server-runtime/typecheck.ts
+       • packages/remix-server-runtime/single-fetch.ts
+       • packages/remix-server-runtime/sessions.ts
+       • packages/remix-server-runtime/serverHandoff.ts
+       • packages/remix-server-runtime/server.ts
+       • packages/remix-server-runtime/serialize.ts
+     📄 Files WITHOUT TSTypeAliasDeclaration (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+
+   TSAnyKeyword:
+     📄 Files WITH TSAnyKeyword (showing 10):
+       • scripts/prompt-confirm.d.ts
+       • integration/vite-route-config-test.ts
+       • integration/vite-presets-test.ts
+       • integration/fog-of-war-test.ts
+       • integration/error-sanitization-test.ts
+       • integration/error-data-request-test.ts
+       • integration/error-boundary-test.ts
+       • integration/defer-test.ts
+       • templates/cloudflare-workers/server.ts
+       • packages/remix-server-runtime/single-fetch.ts
+     📄 Files WITHOUT TSAnyKeyword (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   ChainExpression:
+     📄 Files WITH ChainExpression (showing 10):
+       • scripts/utils.js
+       • integration/vite-spa-mode-test.ts
+       • integration/vite-server-bundles-test.ts
+       • integration/vite-route-config-test.ts
+       • integration/single-fetch-test.ts
+       • integration/prefetch-test.ts
+       • integration/fog-of-war-test.ts
+       • integration/css-modules-test.ts
+       • packages/remix-testing/create-remix-stub.tsx
+       • packages/remix-server-runtime/single-fetch.ts
+     📄 Files WITHOUT ChainExpression (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+
+   TSTypeParameter:
+     📄 Files WITH TSTypeParameter (showing 10):
+       • packages/remix-server-runtime/typecheck.ts
+       • packages/remix-server-runtime/single-fetch.ts
+       • packages/remix-server-runtime/sessions.ts
+       • packages/remix-server-runtime/serverHandoff.ts
+       • packages/remix-server-runtime/serialize.ts
+       • packages/remix-server-runtime/routes.ts
+       • packages/remix-server-runtime/routeModules.ts
+       • packages/remix-server-runtime/routeMatching.ts
+       • packages/remix-server-runtime/responses.ts
+       • packages/remix-server-runtime/links.ts
+     📄 Files WITHOUT TSTypeParameter (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSFunctionType:
+     📄 Files WITH TSFunctionType (showing 10):
+       • integration/vite-server-fs-allow-test.ts
+       • integration/vite-server-bundles-test.ts
+       • integration/vite-route-exports-modified-offscreen-test.ts
+       • integration/vite-route-added-test.ts
+       • integration/vite-node-env-test.ts
+       • integration/vite-loader-context-test.ts
+       • integration/vite-dotenv-test.ts
+       • integration/vite-dev-test.ts
+       • integration/vite-dev-custom-entry-test.ts
+       • integration/vite-css-test.ts
+     📄 Files WITHOUT TSFunctionType (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSQualifiedName:
+     📄 Files WITH TSQualifiedName (showing 10):
+       • integration/single-fetch-test.ts
+       • integration/resource-routes-test.ts
+       • integration/fog-of-war-test.ts
+       • packages/remix-react/errorBoundaries.tsx
+       • packages/remix-react/components.tsx
+       • packages/remix-react/browser.tsx
+       • packages/remix-dev/dependencies.ts
+       • packages/remix-dev/config.ts
+       • packages/remix-dev/colors.ts
+       • packages/remix-express/server.ts
+     📄 Files WITHOUT TSQualifiedName (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSUndefinedKeyword:
+     📄 Files WITH TSUndefinedKeyword (showing 10):
+       • integration/vite-route-config-test.ts
+       • packages/remix-server-runtime/single-fetch.ts
+       • packages/remix-server-runtime/sessions.ts
+       • packages/remix-server-runtime/serverHandoff.ts
+       • packages/remix-server-runtime/server.ts
+       • packages/remix-server-runtime/serialize.ts
+       • packages/remix-server-runtime/routeModules.ts
+       • packages/remix-server-runtime/links.ts
+       • packages/remix-server-runtime/jsonify.ts
+       • packages/remix-server-runtime/invariant.ts
+     📄 Files WITHOUT TSUndefinedKeyword (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSIndexedAccessType:
+     📄 Files WITH TSIndexedAccessType (showing 10):
+       • integration/vite-hmr-hdr-test.ts
+       • integration/tailwind-test.ts
+       • integration/prefetch-test.ts
+       • templates/cloudflare-workers/load-context.ts
+       • packages/remix-server-runtime/single-fetch.ts
+       • packages/remix-server-runtime/sessions.ts
+       • packages/remix-server-runtime/server.ts
+       • packages/remix-server-runtime/serialize.ts
+       • packages/remix-server-runtime/routeModules.ts
+       • packages/remix-server-runtime/jsonify.ts
+     📄 Files WITHOUT TSIndexedAccessType (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   AssignmentPattern:
+     📄 Files WITH AssignmentPattern (showing 10):
+       • rollup.utils.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/release.js
+       • integration/hmr-test.ts
+       • integration/error-boundary-test.ts
+       • integration/defer-test.ts
+       • scripts/playground/new.js
+       • scripts/deployment-test/_shared.mjs
+       • packages/remix-testing/create-remix-stub.tsx
+     📄 Files WITHOUT AssignmentPattern (showing 10):
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/publish-private.js
+       • scripts/prompt-confirm.d.ts
+
+   ExportDefaultDeclaration:
+     📄 Files WITH ExportDefaultDeclaration (showing 10):
+       • jest/buildRemix.js
+       • integration/playwright.config.ts
+       • templates/spa/vite.config.ts
+       • templates/spa/tailwind.config.ts
+       • templates/spa/postcss.config.js
+       • templates/remix-tutorial/vite.config.ts
+       • templates/remix-javascript/vite.config.js
+       • templates/remix-javascript/tailwind.config.js
+       • templates/remix-javascript/postcss.config.js
+       • templates/remix/vite.config.ts
+     📄 Files WITHOUT ExportDefaultDeclaration (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   ImportNamespaceSpecifier:
+     📄 Files WITH ImportNamespaceSpecifier (showing 10):
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/patchup-version.mjs
+       • scripts/compile-release-notes.mjs
+       • jest/buildRemix.js
+       • integration/vite-unused-route-exports-test.ts
+       • integration/vite-presets-test.ts
+       • integration/vite-dot-server-test.ts
+       • integration/vite-dot-client-test.ts
+       • integration/vite-build-test.ts
+       • integration/upload-test.ts
+     📄 Files WITHOUT ImportNamespaceSpecifier (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/release.js
+
+   TSTypeParameterDeclaration:
+     📄 Files WITH TSTypeParameterDeclaration (showing 10):
+       • packages/remix-server-runtime/typecheck.ts
+       • packages/remix-server-runtime/single-fetch.ts
+       • packages/remix-server-runtime/sessions.ts
+       • packages/remix-server-runtime/serverHandoff.ts
+       • packages/remix-server-runtime/serialize.ts
+       • packages/remix-server-runtime/routes.ts
+       • packages/remix-server-runtime/routeModules.ts
+       • packages/remix-server-runtime/routeMatching.ts
+       • packages/remix-server-runtime/responses.ts
+       • packages/remix-server-runtime/links.ts
+     📄 Files WITHOUT TSTypeParameterDeclaration (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSVoidKeyword:
+     📄 Files WITH TSVoidKeyword (showing 10):
+       • integration/vite-server-fs-allow-test.ts
+       • integration/vite-server-bundles-test.ts
+       • integration/vite-route-exports-modified-offscreen-test.ts
+       • integration/vite-route-added-test.ts
+       • integration/vite-node-env-test.ts
+       • integration/vite-loader-context-test.ts
+       • integration/vite-dotenv-test.ts
+       • integration/vite-css-test.ts
+       • integration/vite-build-test.ts
+       • integration/vite-basename-test.ts
+     📄 Files WITHOUT TSVoidKeyword (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   ForOfStatement:
+     📄 Files WITH ForOfStatement (showing 10):
+       • rollup.utils.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/publish.js
+       • scripts/publish-private.js
+       • scripts/patchup-version.mjs
+       • scripts/markdown-references.mjs
+       • scripts/copy-build-to-dist.mjs
+       • scripts/compile-release-notes.mjs
+       • scripts/close-v2-issues.mjs
+     📄 Files WITHOUT ForOfStatement (showing 10):
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/release.js
+       • scripts/prompt-confirm.d.ts
+       • scripts/find-release-from-changeset.js
+
+   TryStatement:
+     📄 Files WITH TryStatement (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+       • scripts/copy-build-to-dist.mjs
+       • scripts/clean-build.mjs
+       • integration/vite-route-config-test.ts
+       • integration/hmr-test.ts
+       • integration/error-sanitization-test.ts
+     📄 Files WITHOUT TryStatement (showing 10):
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/publish.js
+       • scripts/publish-private.js
+       • scripts/prompt-confirm.d.ts
+       • scripts/patchup-version.mjs
+
+   TSInterfaceDeclaration:
+     📄 Files WITH TSInterfaceDeclaration (showing 10):
+       • scripts/unist.d.ts
+       • templates/spa/vite.config.ts
+       • templates/remix/vite.config.ts
+       • templates/express/vite.config.ts
+       • templates/cloudflare-workers/worker-configuration.d.ts
+       • templates/cloudflare-workers/vite.config.ts
+       • templates/cloudflare-workers/load-context.ts
+       • templates/cloudflare/vite.config.ts
+       • templates/cloudflare/load-context.ts
+       • packages/remix-testing/create-remix-stub.tsx
+     📄 Files WITHOUT TSInterfaceDeclaration (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+
+   TSInterfaceBody:
+     📄 Files WITH TSInterfaceBody (showing 10):
+       • scripts/unist.d.ts
+       • templates/spa/vite.config.ts
+       • templates/remix/vite.config.ts
+       • templates/express/vite.config.ts
+       • templates/cloudflare-workers/worker-configuration.d.ts
+       • templates/cloudflare-workers/vite.config.ts
+       • templates/cloudflare-workers/load-context.ts
+       • templates/cloudflare/vite.config.ts
+       • templates/cloudflare/load-context.ts
+       • packages/remix-testing/create-remix-stub.tsx
+     📄 Files WITHOUT TSInterfaceBody (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+
+   CatchClause:
+     📄 Files WITH CatchClause (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • scripts/utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+       • scripts/copy-build-to-dist.mjs
+       • scripts/clean-build.mjs
+       • integration/vite-route-config-test.ts
+       • integration/hmr-test.ts
+       • integration/error-sanitization-test.ts
+     📄 Files WITHOUT CatchClause (showing 10):
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/publish.js
+       • scripts/publish-private.js
+       • scripts/prompt-confirm.d.ts
+       • scripts/patchup-version.mjs
+
+   MethodDefinition:
+     📄 Files WITH MethodDefinition (showing 10):
+       • scripts/prompt-confirm.d.ts
+       • packages/remix-server-runtime/single-fetch.ts
+       • packages/remix-server-runtime/jsonify.ts
+       • packages/remix-react/errorBoundaries.tsx
+       • packages/remix-node/stream.ts
+       • packages/remix-dev/config.ts
+       • packages/remix-deno/server.ts
+       • packages/remix/index.ts
+       • packages/create-remix/prompts-text.ts
+       • packages/create-remix/prompts-select.ts
+     📄 Files WITHOUT MethodDefinition (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSNonNullExpression:
+     📄 Files WITH TSNonNullExpression (showing 10):
+       • integration/single-fetch-test.ts
+       • integration/hmr-test.ts
+       • integration/flat-routes-test.ts
+       • integration/compiler-test.ts
+       • packages/remix-testing/create-remix-stub.tsx
+       • packages/remix-server-runtime/single-fetch.ts
+       • packages/remix-server-runtime/server.ts
+       • packages/remix-server-runtime/serialize.ts
+       • packages/remix-server-runtime/routes.ts
+       • packages/remix-server-runtime/jsonify.ts
+     📄 Files WITHOUT TSNonNullExpression (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSNullKeyword:
+     📄 Files WITH TSNullKeyword (showing 10):
+       • integration/vanilla-extract-test.ts
+       • integration/css-side-effect-imports-test.ts
+       • integration/css-modules-test.ts
+       • packages/remix-server-runtime/single-fetch.ts
+       • packages/remix-server-runtime/sessions.ts
+       • packages/remix-server-runtime/routeModules.ts
+       • packages/remix-server-runtime/routeMatching.ts
+       • packages/remix-server-runtime/links.ts
+       • packages/remix-server-runtime/jsonify.ts
+       • packages/remix-server-runtime/invariant.ts
+     📄 Files WITHOUT TSNullKeyword (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSConditionalType:
+     📄 Files WITH TSConditionalType (showing 10):
+       • packages/remix-server-runtime/typecheck.ts
+       • packages/remix-server-runtime/single-fetch.ts
+       • packages/remix-server-runtime/sessions.ts
+       • packages/remix-server-runtime/serverHandoff.ts
+       • packages/remix-server-runtime/serialize.ts
+       • packages/remix-server-runtime/routeModules.ts
+       • packages/remix-server-runtime/jsonify.ts
+       • packages/remix-react/routeModules.ts
+       • packages/remix-dev/config.ts
+       • packages/create-remix/prompt.ts
+     📄 Files WITHOUT TSConditionalType (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSTypeQuery:
+     📄 Files WITH TSTypeQuery (showing 10):
+       • integration/vite-plugin-order-validation-test.ts
+       • integration/tailwind-test.ts
+       • integration/single-fetch-test.ts
+       • integration/resource-routes-test.ts
+       • integration/fog-of-war-test.ts
+       • templates/cloudflare-workers/load-context.ts
+       • packages/remix-server-runtime/responses.ts
+       • packages/remix-route-config/routes.ts
+       • packages/remix-react/single-fetch.tsx
+       • packages/remix-react/routes.tsx
+     📄 Files WITHOUT TSTypeQuery (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   ArrayPattern:
+     📄 Files WITH ArrayPattern (showing 10):
+       • scripts/utils.js
+       • scripts/copy-build-to-dist.mjs
+       • integration/vite-build-test.ts
+       • integration/loader-test.ts
+       • integration/css-modules-test.ts
+       • integration/compiler-mjs-cjs-output-test.ts
+       • scripts/deployment-test/fly.mjs
+       • scripts/deployment-test/deno-deploy.mjs
+       • scripts/deployment-test/cf-workers.mjs
+       • scripts/deployment-test/cf-pages.mjs
+     📄 Files WITHOUT ArrayPattern (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+
+   PropertyDefinition:
+     📄 Files WITH PropertyDefinition (showing 10):
+       • packages/remix-server-runtime/jsonify.ts
+       • packages/remix-node/stream.ts
+       • packages/create-remix/prompts-text.ts
+       • packages/create-remix/prompts-select.ts
+       • packages/create-remix/prompts-prompt-base.ts
+       • packages/create-remix/prompts-multi-select.ts
+       • packages/create-remix/prompts-confirm.ts
+       • integration/helpers/playwright-fixture.ts
+       • packages/remix-node/upload/fileUploadHandler.ts
+       • packages/remix-dev/config/flat-routes.ts
+     📄 Files WITHOUT PropertyDefinition (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSTypeOperator:
+     📄 Files WITH TSTypeOperator (showing 10):
+       • packages/remix-server-runtime/single-fetch.ts
+       • packages/remix-server-runtime/sessions.ts
+       • packages/remix-server-runtime/serverHandoff.ts
+       • packages/remix-server-runtime/serialize.ts
+       • packages/remix-server-runtime/routeModules.ts
+       • packages/remix-server-runtime/responses.ts
+       • packages/remix-server-runtime/jsonify.ts
+       • packages/remix-route-config/routes.ts
+       • packages/remix-react/routeModules.ts
+       • packages/remix-react/links.ts
+     📄 Files WITHOUT TSTypeOperator (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSIntersectionType:
+     📄 Files WITH TSIntersectionType (showing 10):
+       • templates/cloudflare-workers/load-context.ts
+       • packages/remix-server-runtime/single-fetch.ts
+       • packages/remix-server-runtime/sessions.ts
+       • packages/remix-server-runtime/server.ts
+       • packages/remix-server-runtime/serialize.ts
+       • packages/remix-server-runtime/routeModules.ts
+       • packages/remix-server-runtime/responses.ts
+       • packages/remix-server-runtime/links.ts
+       • packages/remix-server-runtime/jsonify.ts
+       • packages/remix-server-runtime/formData.ts
+     📄 Files WITHOUT TSIntersectionType (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSModuleDeclaration:
+     📄 Files WITH TSModuleDeclaration (showing 10):
+       • scripts/prompt-confirm.d.ts
+       • integration/defer-test.ts
+       • templates/spa/vite.config.ts
+       • templates/remix/vite.config.ts
+       • templates/express/vite.config.ts
+       • templates/cloudflare-workers/vite.config.ts
+       • templates/cloudflare-workers/load-context.ts
+       • templates/cloudflare/vite.config.ts
+       • templates/cloudflare/load-context.ts
+       • packages/remix-react/fog-of-war.ts
+     📄 Files WITHOUT TSModuleDeclaration (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSModuleBlock:
+     📄 Files WITH TSModuleBlock (showing 10):
+       • scripts/prompt-confirm.d.ts
+       • integration/defer-test.ts
+       • templates/spa/vite.config.ts
+       • templates/remix/vite.config.ts
+       • templates/express/vite.config.ts
+       • templates/cloudflare-workers/vite.config.ts
+       • templates/cloudflare-workers/load-context.ts
+       • templates/cloudflare/vite.config.ts
+       • templates/cloudflare/load-context.ts
+       • packages/remix-react/fog-of-war.ts
+     📄 Files WITHOUT TSModuleBlock (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSNeverKeyword:
+     📄 Files WITH TSNeverKeyword (showing 10):
+       • packages/remix-server-runtime/serverHandoff.ts
+       • packages/remix-server-runtime/serialize.ts
+       • packages/remix-server-runtime/responses.ts
+       • packages/remix-server-runtime/links.ts
+       • packages/remix-server-runtime/jsonify.ts
+       • packages/remix-react/links.ts
+       • packages/remix-dev/config.ts
+       • packages/create-remix/prompt.ts
+       • packages/remix-dev/vite/plugin.ts
+       • packages/remix-dev/vite/build.ts
+     📄 Files WITHOUT TSNeverKeyword (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   RestElement:
+     📄 Files WITH RestElement (showing 10):
+       • scripts/utils.js
+       • scripts/compile-release-notes.mjs
+       • integration/vite-build-test.ts
+       • integration/single-fetch-test.ts
+       • integration/error-sanitization-test.ts
+       • packages/remix-server-runtime/single-fetch.ts
+       • packages/remix-server-runtime/serialize.ts
+       • packages/remix-server-runtime/jsonify.ts
+       • packages/remix-server-runtime/formData.ts
+       • packages/remix-server-runtime/cookies.ts
+     📄 Files WITHOUT RestElement (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+
+   TSParenthesizedType:
+     📄 Files WITH TSParenthesizedType (showing 10):
+       • integration/vite-dev-test.ts
+       • integration/vite-dev-custom-entry-test.ts
+       • integration/hmr-test.ts
+       • packages/remix-server-runtime/typecheck.ts
+       • packages/remix-server-runtime/sessions.ts
+       • packages/remix-server-runtime/server.ts
+       • packages/remix-server-runtime/routeModules.ts
+       • packages/remix-server-runtime/links.ts
+       • packages/remix-server-runtime/jsonify.ts
+       • packages/remix-react/routeModules.ts
+     📄 Files WITHOUT TSParenthesizedType (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSTupleType:
+     📄 Files WITH TSTupleType (showing 10):
+       • integration/single-fetch-test.ts
+       • packages/remix-server-runtime/typecheck.ts
+       • packages/remix-server-runtime/single-fetch.ts
+       • packages/remix-server-runtime/serialize.ts
+       • packages/remix-server-runtime/jsonify.ts
+       • packages/remix-react/single-fetch.tsx
+       • packages/remix-react/data.ts
+       • packages/remix-react/components.tsx
+       • packages/remix-react/browser.tsx
+       • packages/remix-dev/config.ts
+     📄 Files WITHOUT TSTupleType (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   BreakStatement:
+     📄 Files WITH BreakStatement (showing 10):
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+       • packages/remix-server-runtime/formData.ts
+       • packages/remix-react/data.ts
+       • packages/remix-node/stream.ts
+       • packages/create-remix/copy-template.ts
+       • packages/remix-dev/config/flat-routes.ts
+       • packages/remix-dev/cli/run.ts
+       • packages/remix-dev/compiler/server/write.ts
+       • packages/remix-dev/compiler/plugins/mdx.ts
+     📄 Files WITHOUT BreakStatement (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/publish.js
+
+   TSMethodSignature:
+     📄 Files WITH TSMethodSignature (showing 10):
+       • packages/remix-server-runtime/sessions.ts
+       • packages/remix-server-runtime/responses.ts
+       • packages/remix-server-runtime/jsonify.ts
+       • packages/remix-server-runtime/entry.ts
+       • packages/remix-server-runtime/cookies.ts
+       • packages/remix-react/entry.ts
+       • packages/create-remix/prompts-prompt-base.ts
+       • packages/create-remix/prompt.ts
+       • packages/create-remix/copy-template.ts
+       • packages/remix-server-runtime/upload/memoryUploadHandler.ts
+     📄 Files WITHOUT TSMethodSignature (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   ImportExpression:
+     📄 Files WITH ImportExpression (showing 10):
+       • integration/vite-presets-test.ts
+       • templates/express/server.js
+       • packages/remix-react/routeModules.ts
+       • packages/remix-react/browser.tsx
+       • packages/remix-serve/cli.ts
+       • packages/remix-dev/config.ts
+       • packages/create-remix/loading-indicator.ts
+       • integration/helpers/create-fixture.ts
+       • templates/classic-remix-compiler/express/server.js
+       • scripts/playground/template/server.js
+     📄 Files WITHOUT ImportExpression (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSInterfaceHeritage:
+     📄 Files WITH TSInterfaceHeritage (showing 10):
+       • scripts/unist.d.ts
+       • templates/cloudflare-workers/load-context.ts
+       • packages/remix-testing/create-remix-stub.tsx
+       • packages/remix-server-runtime/routes.ts
+       • packages/remix-server-runtime/routeModules.ts
+       • packages/remix-server-runtime/links.ts
+       • packages/remix-server-runtime/jsonify.ts
+       • packages/remix-react/routes.tsx
+       • packages/remix-react/links.ts
+       • packages/remix-react/entry.ts
+     📄 Files WITHOUT TSInterfaceHeritage (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/release.js
+
+   ContinueStatement:
+     📄 Files WITH ContinueStatement (showing 10):
+       • rollup.utils.js
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/patchup-version.mjs
+       • scripts/copy-build-to-dist.mjs
+       • scripts/compile-release-notes.mjs
+       • integration/defer-test.ts
+       • packages/remix-server-runtime/cookies.ts
+       • packages/remix-react/data.ts
+       • packages/create-remix/index.ts
+       • packages/remix-dev/devServer_unstable/hmr.ts
+     📄 Files WITHOUT ContinueStatement (showing 10):
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/release.js
+       • scripts/publish.js
+
+   TSTypePredicate:
+     📄 Files WITH TSTypePredicate (showing 10):
+       • packages/remix-server-runtime/sessions.ts
+       • packages/remix-server-runtime/responses.ts
+       • packages/remix-server-runtime/mode.ts
+       • packages/remix-server-runtime/invariant.ts
+       • packages/remix-server-runtime/cookies.ts
+       • packages/remix-react/links.ts
+       • packages/remix-react/invariant.ts
+       • packages/remix-react/fog-of-war.ts
+       • packages/remix-react/data.ts
+       • packages/remix-react/components.tsx
+     📄 Files WITHOUT TSTypePredicate (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   SwitchCase:
+     📄 Files WITH SwitchCase (showing 7):
+       • scripts/release.js
+       • packages/create-remix/index.ts
+       • packages/remix-dev/vite/plugin.ts
+       • packages/remix-dev/config/format.ts
+       • packages/remix-dev/config/flat-routes.ts
+       • packages/remix-dev/cli/run.ts
+       • packages/remix-dev/compiler/plugins/mdx.ts
+     📄 Files WITHOUT SwitchCase (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   JSXMemberExpression:
+     📄 Files WITH JSXMemberExpression (showing 9):
+       • packages/remix-testing/create-remix-stub.tsx
+       • packages/remix-react/single-fetch.tsx
+       • packages/remix-react/server.tsx
+       • packages/remix-react/routes.tsx
+       • packages/remix-react/components.tsx
+       • packages/remix-react/browser.tsx
+       • packages/remix-react/__tests__/scroll-restoration-test.tsx
+       • packages/remix-react/__tests__/deferred-scripts-test.tsx
+       • packages/remix-react/__tests__/components-test.tsx
+     📄 Files WITHOUT JSXMemberExpression (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSIndexSignature:
+     📄 Files WITH TSIndexSignature (showing 10):
+       • packages/remix-server-runtime/warnings.ts
+       • packages/remix-server-runtime/single-fetch.ts
+       • packages/remix-server-runtime/sessions.ts
+       • packages/remix-server-runtime/routes.ts
+       • packages/remix-server-runtime/routeModules.ts
+       • packages/remix-server-runtime/markup.ts
+       • packages/remix-server-runtime/data.ts
+       • packages/remix-react/warnings.ts
+       • packages/remix-react/routes.tsx
+       • packages/remix-react/routeModules.ts
+     📄 Files WITHOUT TSIndexSignature (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   UpdateExpression:
+     📄 Files WITH UpdateExpression (showing 10):
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/compile-release-notes.mjs
+       • integration/single-fetch-test.ts
+       • integration/hmr-test.ts
+       • packages/remix-server-runtime/cookies.ts
+       • packages/remix-react/components.tsx
+       • packages/remix-deno/crypto.ts
+       • packages/remix-cloudflare/crypto.ts
+       • packages/create-remix/prompts-text.ts
+       • packages/create-remix/loading-indicator.ts
+     📄 Files WITHOUT UpdateExpression (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/release.js
+
+   TSInferType:
+     📄 Files WITH TSInferType (showing 4):
+       • packages/remix-server-runtime/single-fetch.ts
+       • packages/remix-server-runtime/serialize.ts
+       • packages/remix-server-runtime/jsonify.ts
+       • packages/create-remix/prompt.ts
+     📄 Files WITHOUT TSInferType (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSBigIntKeyword:
+     📄 Files WITH TSBigIntKeyword (showing 3):
+       • packages/remix-server-runtime/single-fetch.ts
+       • packages/remix-server-runtime/links.ts
+       • packages/remix-react/links.ts
+     📄 Files WITHOUT TSBigIntKeyword (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSMappedType:
+     📄 Files WITH TSMappedType (showing 9):
+       • packages/remix-server-runtime/single-fetch.ts
+       • packages/remix-server-runtime/sessions.ts
+       • packages/remix-server-runtime/serialize.ts
+       • packages/remix-server-runtime/routeModules.ts
+       • packages/remix-server-runtime/jsonify.ts
+       • packages/remix-react/routeModules.ts
+       • packages/remix-react/links.ts
+       • packages/create-remix/prompt.ts
+       • packages/remix-react/__tests__/components-test.tsx
+     📄 Files WITHOUT TSMappedType (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   JSXFragment:
+     📄 Files WITH JSXFragment (showing 7):
+       • packages/remix-react/single-fetch.tsx
+       • packages/remix-react/server.tsx
+       • packages/remix-react/components.tsx
+       • packages/remix-react/browser.tsx
+       • packages/remix-react/__tests__/scroll-restoration-test.tsx
+       • packages/remix-react/__tests__/components-test.tsx
+       • packages/remix-react/__tests__/integration/meta-test.tsx
+     📄 Files WITHOUT JSXFragment (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   JSXOpeningFragment:
+     📄 Files WITH JSXOpeningFragment (showing 7):
+       • packages/remix-react/single-fetch.tsx
+       • packages/remix-react/server.tsx
+       • packages/remix-react/components.tsx
+       • packages/remix-react/browser.tsx
+       • packages/remix-react/__tests__/scroll-restoration-test.tsx
+       • packages/remix-react/__tests__/components-test.tsx
+       • packages/remix-react/__tests__/integration/meta-test.tsx
+     📄 Files WITHOUT JSXOpeningFragment (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   JSXClosingFragment:
+     📄 Files WITH JSXClosingFragment (showing 7):
+       • packages/remix-react/single-fetch.tsx
+       • packages/remix-react/server.tsx
+       • packages/remix-react/components.tsx
+       • packages/remix-react/browser.tsx
+       • packages/remix-react/__tests__/scroll-restoration-test.tsx
+       • packages/remix-react/__tests__/components-test.tsx
+       • packages/remix-react/__tests__/integration/meta-test.tsx
+     📄 Files WITHOUT JSXClosingFragment (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   JSXSpreadAttribute:
+     📄 Files WITH JSXSpreadAttribute (showing 3):
+       • packages/remix-react/scroll-restoration.tsx
+       • packages/remix-react/components.tsx
+       • packages/remix-react/__tests__/components-test.tsx
+     📄 Files WITHOUT JSXSpreadAttribute (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   ClassDeclaration:
+     📄 Files WITH ClassDeclaration (showing 10):
+       • scripts/prompt-confirm.d.ts
+       • packages/remix-server-runtime/single-fetch.ts
+       • packages/remix-server-runtime/jsonify.ts
+       • packages/remix-react/errorBoundaries.tsx
+       • packages/remix-node/stream.ts
+       • packages/remix-dev/config.ts
+       • packages/remix-deno/server.ts
+       • packages/remix/index.ts
+       • packages/create-remix/prompts-text.ts
+       • packages/create-remix/prompts-select.ts
+     📄 Files WITHOUT ClassDeclaration (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   ClassBody:
+     📄 Files WITH ClassBody (showing 10):
+       • scripts/prompt-confirm.d.ts
+       • packages/remix-server-runtime/single-fetch.ts
+       • packages/remix-server-runtime/jsonify.ts
+       • packages/remix-react/errorBoundaries.tsx
+       • packages/remix-node/stream.ts
+       • packages/remix-dev/config.ts
+       • packages/remix-deno/server.ts
+       • packages/remix/index.ts
+       • packages/create-remix/prompts-text.ts
+       • packages/create-remix/prompts-select.ts
+     📄 Files WITHOUT ClassBody (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSSymbolKeyword:
+     📄 Files WITH TSSymbolKeyword (showing 8):
+       • packages/remix-server-runtime/single-fetch.ts
+       • packages/remix-server-runtime/serialize.ts
+       • packages/remix-server-runtime/routeModules.ts
+       • packages/remix-server-runtime/responses.ts
+       • packages/remix-server-runtime/links.ts
+       • packages/remix-server-runtime/jsonify.ts
+       • packages/remix-react/routeModules.ts
+       • packages/remix-react/links.ts
+     📄 Files WITHOUT TSSymbolKeyword (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   WhileStatement:
+     📄 Files WITH WhileStatement (showing 10):
+       • scripts/remove-prerelease-changelogs.mjs
+       • integration/hmr-test.ts
+       • packages/remix-server-runtime/cookies.ts
+       • packages/remix-react/fog-of-war.ts
+       • packages/remix-react/data.ts
+       • packages/remix-node/stream.ts
+       • packages/create-remix/copy-template.ts
+       • packages/remix-node/sessions/fileStorage.ts
+       • packages/remix-dev/vite/build.ts
+       • packages/remix-dev/config/flat-routes.ts
+     📄 Files WITHOUT WhileStatement (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/release.js
+
+   TSSatisfiesExpression:
+     📄 Files WITH TSSatisfiesExpression (showing 10):
+       • templates/spa/tailwind.config.ts
+       • templates/remix/tailwind.config.ts
+       • templates/express/tailwind.config.ts
+       • templates/cloudflare-workers/tailwind.config.ts
+       • templates/cloudflare-workers/server.ts
+       • templates/cloudflare/tailwind.config.ts
+       • packages/remix-route-config/routes.ts
+       • integration/helpers/vite.ts
+       • packages/remix-dev/vite/plugin.ts
+       • packages/remix-dev/compiler/plugins/cssImports.ts
+     📄 Files WITHOUT TSSatisfiesExpression (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   Super:
+     📄 Files WITH Super (showing 10):
+       • packages/remix-react/errorBoundaries.tsx
+       • packages/remix-deno/server.ts
+       • packages/remix/index.ts
+       • packages/create-remix/prompts-text.ts
+       • packages/create-remix/prompts-select.ts
+       • packages/create-remix/prompts-prompt-base.ts
+       • packages/create-remix/prompts-multi-select.ts
+       • packages/create-remix/prompts-confirm.ts
+       • packages/create-remix/copy-template.ts
+       • packages/remix-server-runtime/upload/errors.ts
+     📄 Files WITHOUT Super (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   MetaProperty:
+     📄 Files WITH MetaProperty (showing 10):
+       • scripts/remove-prerelease-changelogs.mjs
+       • scripts/patchup-version.mjs
+       • scripts/compile-release-notes.mjs
+       • integration/upload-test.ts
+       • scripts/deployment-test/_shared.mjs
+       • packages/remix-react/routeModules.ts
+       • packages/remix-react/components.tsx
+       • packages/remix-react/browser.tsx
+       • integration/helpers/vite.ts
+       • integration/helpers/create-fixture.ts
+     📄 Files WITHOUT MetaProperty (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/release.js
+
+   TSCallSignatureDeclaration:
+     📄 Files WITH TSCallSignatureDeclaration (showing 4):
+       • packages/remix-server-runtime/routeModules.ts
+       • packages/remix-server-runtime/build.ts
+       • packages/remix-react/routeModules.ts
+       • packages/remix-dev/config/routes.ts
+     📄 Files WITHOUT TSCallSignatureDeclaration (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSDeclareFunction:
+     📄 Files WITH TSDeclareFunction (showing 4):
+       • packages/remix-server-runtime/invariant.ts
+       • packages/remix-route-config/routes.ts
+       • packages/remix-react/invariant.ts
+       • packages/remix-dev/invariant.ts
+     📄 Files WITHOUT TSDeclareFunction (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   ForInStatement:
+     📄 Files WITH ForInStatement (showing 8):
+       • packages/create-remix/index.ts
+       • scripts/playground/template/server.js
+       • packages/remix-react/__tests__/exports-test.tsx
+       • packages/remix-dev/vite/build.ts
+       • packages/remix-dev/config/routes.ts
+       • packages/remix-dev/compiler/manifest.ts
+       • packages/remix-dev/vite/static/refresh-utils.cjs
+       • packages/remix-dev/compiler/utils/routeExports.ts
+     📄 Files WITHOUT ForInStatement (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   SwitchStatement:
+     📄 Files WITH SwitchStatement (showing 7):
+       • scripts/release.js
+       • packages/create-remix/index.ts
+       • packages/remix-dev/vite/plugin.ts
+       • packages/remix-dev/config/format.ts
+       • packages/remix-dev/config/flat-routes.ts
+       • packages/remix-dev/cli/run.ts
+       • packages/remix-dev/compiler/plugins/mdx.ts
+     📄 Files WITHOUT SwitchStatement (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSEmptyBodyFunctionExpression:
+     📄 Files WITH TSEmptyBodyFunctionExpression (showing 3):
+       • scripts/prompt-confirm.d.ts
+       • packages/remix-dev/config.ts
+       • packages/remix-node/upload/fileUploadHandler.ts
+     📄 Files WITHOUT TSEmptyBodyFunctionExpression (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   ForStatement:
+     📄 Files WITH ForStatement (showing 6):
+       • packages/remix-react/components.tsx
+       • packages/remix-deno/crypto.ts
+       • packages/remix-cloudflare/crypto.ts
+       • packages/remix-node/upload/fileUploadHandler.ts
+       • packages/remix-dev/config/flat-routes.ts
+       • packages/remix-deno/sessions/fileStorage.ts
+     📄 Files WITHOUT ForStatement (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSParameterProperty:
+     📄 Files WITH TSParameterProperty (showing 3):
+       • packages/remix-server-runtime/single-fetch.ts
+       • packages/remix-server-runtime/upload/errors.ts
+       • packages/remix-node/upload/fileUploadHandler.ts
+     📄 Files WITHOUT TSParameterProperty (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSImportType:
+     📄 Files WITH TSImportType (showing 5):
+       • packages/remix-dev/vite/vite.ts
+       • packages/remix-dev/vite/index.ts
+       • packages/remix-dev/vite/babel.ts
+       • packages/remix-dev/__tests__/init-test.ts
+       • packages/remix-dev/compiler/plugins/mdx.ts
+     📄 Files WITHOUT TSImportType (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSTemplateLiteralType:
+     📄 Files WITH TSTemplateLiteralType (showing 5):
+       • packages/remix-server-runtime/sessions.ts
+       • packages/create-remix/loading-indicator.ts
+       • packages/create-remix/copy-template.ts
+       • packages/remix-react/__tests__/components-test.tsx
+       • packages/remix-dev/compiler/plugins/cssSideEffectImports.ts
+     📄 Files WITHOUT TSTemplateLiteralType (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSEnumMember:
+     📄 Files WITH TSEnumMember (showing 2):
+       • packages/remix-server-runtime/mode.ts
+       • packages/remix-dev/config/serverModes.ts
+     📄 Files WITHOUT TSEnumMember (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSNamedTupleMember:
+     📄 Files WITH TSNamedTupleMember (showing 1):
+       • packages/create-remix/copy-template.ts
+     📄 Files WITHOUT TSNamedTupleMember (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSRestType:
+     📄 Files WITH TSRestType (showing 2):
+       • packages/remix-server-runtime/single-fetch.ts
+       • packages/remix-server-runtime/jsonify.ts
+     📄 Files WITHOUT TSRestType (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   PrivateIdentifier:
+     📄 Files WITH PrivateIdentifier (showing 1):
+       • packages/remix-dev/config/flat-routes.ts
+     📄 Files WITHOUT PrivateIdentifier (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSEnumDeclaration:
+     📄 Files WITH TSEnumDeclaration (showing 2):
+       • packages/remix-server-runtime/mode.ts
+       • packages/remix-dev/config/serverModes.ts
+     📄 Files WITHOUT TSEnumDeclaration (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSEnumBody:
+     📄 Files WITH TSEnumBody (showing 2):
+       • packages/remix-server-runtime/mode.ts
+       • packages/remix-dev/config/serverModes.ts
+     📄 Files WITHOUT TSEnumBody (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSExportAssignment:
+     📄 Files WITH TSExportAssignment (showing 1):
+       • scripts/prompt-confirm.d.ts
+     📄 Files WITHOUT TSExportAssignment (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   Hashbang:
+     📄 Files WITH Hashbang (showing 1):
+       • scripts/playground/new.js
+     📄 Files WITHOUT Hashbang (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   YieldExpression:
+     📄 Files WITH YieldExpression (showing 1):
+       • packages/remix-react/data.ts
+     📄 Files WITHOUT YieldExpression (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   JSXEmptyExpression:
+     📄 Files WITH JSXEmptyExpression (showing 1):
+       • packages/remix-react/browser.tsx
+     📄 Files WITHOUT JSXEmptyExpression (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   ExportAllDeclaration:
+     📄 Files WITH ExportAllDeclaration (showing 1):
+       • packages/remix-dev/index.ts
+     📄 Files WITHOUT ExportAllDeclaration (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   TSClassImplements:
+     📄 Files WITH TSClassImplements (showing 1):
+       • packages/remix-node/upload/fileUploadHandler.ts
+     📄 Files WITHOUT TSClassImplements (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
+
+   DoWhileStatement:
+     📄 Files WITH DoWhileStatement (showing 1):
+       • packages/remix-dev/vite/remove-exports.ts
+     📄 Files WITHOUT DoWhileStatement (showing 10):
+       • rollup.utils.js
+       • rollup.config.js
+       • prettier.config.js
+       • jest.config.js
+       • babel.config.js
+       • scripts/version.js
+       • scripts/utils.js
+       • scripts/unist.d.ts
+       • scripts/run-migration-on-examples.js
+       • scripts/remove-prerelease-changelogs.mjs
 
 ============================================================
 ✅ Analysis complete!
