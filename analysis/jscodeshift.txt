@@ -1,5 +1,5 @@
 AST Analysis Report for jscodeshift
-Generated on: 2025-07-14T02:07:24.739Z
+Generated on: 2025-07-14T02:34:32.872Z
 Repository: sample-repos/jscodeshift
 ================================================================================
 
@@ -20,33 +20,32 @@ Repository: sample-repos/jscodeshift
    Total file size: 175.2 KB
 
 🌳 NODE STATISTICS:
-   Total nodes: 22,607
-   Average nodes per file: 377
+   Total nodes: 22,449
+   Average nodes per file: 374
    Average file size: 2.9 KB
 
 📋 ALL NODE TYPES (BY FILE PRESENCE):
    Program                            60 files (100.0%) -            60 total ( 0.27%)
-   Identifier                         59 files ( 98.3%) -         8,351 total (36.94%)
-   Literal                            55 files ( 91.7%) -         2,154 total ( 9.53%)
-   VariableDeclaration                54 files ( 90.0%) -           675 total ( 2.99%)
-   VariableDeclarator                 54 files ( 90.0%) -           680 total ( 3.01%)
-   CallExpression                     50 files ( 83.3%) -         2,605 total (11.52%)
-   ExpressionStatement                49 files ( 81.7%) -         1,129 total ( 4.99%)
-   MemberExpression                   49 files ( 81.7%) -         2,677 total (11.84%)
-   BlockStatement                     48 files ( 80.0%) -           760 total ( 3.36%)
-   AssignmentExpression               41 files ( 68.3%) -           228 total ( 1.01%)
-   ObjectExpression                   40 files ( 66.7%) -           294 total ( 1.30%)
-   FunctionExpression                 38 files ( 63.3%) -           295 total ( 1.30%)
-   Property                           36 files ( 60.0%) -           542 total ( 2.40%)
-   ReturnStatement                    36 files ( 60.0%) -           236 total ( 1.04%)
-   BinaryExpression                   33 files ( 55.0%) -           233 total ( 1.03%)
+   Identifier                         59 files ( 98.3%) -         8,351 total (37.20%)
+   Literal                            55 files ( 91.7%) -         2,154 total ( 9.60%)
+   VariableDeclaration                54 files ( 90.0%) -           675 total ( 3.01%)
+   VariableDeclarator                 54 files ( 90.0%) -           680 total ( 3.03%)
+   CallExpression                     50 files ( 83.3%) -         2,605 total (11.60%)
+   ExpressionStatement                49 files ( 81.7%) -         1,129 total ( 5.03%)
+   MemberExpression                   49 files ( 81.7%) -         2,677 total (11.92%)
+   BlockStatement                     48 files ( 80.0%) -           760 total ( 3.39%)
+   AssignmentExpression               41 files ( 68.3%) -           228 total ( 1.02%)
+   ObjectExpression                   40 files ( 66.7%) -           294 total ( 1.31%)
+   FunctionExpression                 38 files ( 63.3%) -           295 total ( 1.31%)
+   Property                           36 files ( 60.0%) -           542 total ( 2.41%)
+   ReturnStatement                    36 files ( 60.0%) -           236 total ( 1.05%)
+   BinaryExpression                   33 files ( 55.0%) -           233 total ( 1.04%)
    ArrowFunctionExpression            32 files ( 53.3%) -           223 total ( 0.99%)
-   ArrayExpression                    30 files ( 50.0%) -           342 total ( 1.51%)
+   ArrayExpression                    30 files ( 50.0%) -           342 total ( 1.52%)
    FunctionDeclaration                24 files ( 40.0%) -            92 total ( 0.41%)
-   IfStatement                        20 files ( 33.3%) -           174 total ( 0.77%)
+   IfStatement                        20 files ( 33.3%) -           174 total ( 0.78%)
    UnaryExpression                    19 files ( 31.7%) -           112 total ( 0.50%)
-   LogicalExpression                  15 files ( 25.0%) -           100 total ( 0.44%)
-   Unknown                            15 files ( 25.0%) -           158 total ( 0.70%)
+   LogicalExpression                  15 files ( 25.0%) -           100 total ( 0.45%)
    ConditionalExpression              14 files ( 23.3%) -            45 total ( 0.20%)
    NewExpression                      11 files ( 18.3%) -            24 total ( 0.11%)
    TemplateLiteral                    10 files ( 16.7%) -            54 total ( 0.24%)
@@ -85,27 +84,26 @@ Repository: sample-repos/jscodeshift
    TaggedTemplateExpression            1 files (  1.7%) -            14 total ( 0.06%)
 
 📝 ALL NODE TYPES (BY TOTAL COUNT):
-   Identifier                             8,351 (36.94%) in     59 files ( 98.3%)
-   MemberExpression                       2,677 (11.84%) in     49 files ( 81.7%)
-   CallExpression                         2,605 (11.52%) in     50 files ( 83.3%)
-   Literal                                2,154 ( 9.53%) in     55 files ( 91.7%)
-   ExpressionStatement                    1,129 ( 4.99%) in     49 files ( 81.7%)
-   BlockStatement                           760 ( 3.36%) in     48 files ( 80.0%)
-   VariableDeclarator                       680 ( 3.01%) in     54 files ( 90.0%)
-   VariableDeclaration                      675 ( 2.99%) in     54 files ( 90.0%)
-   Property                                 542 ( 2.40%) in     36 files ( 60.0%)
-   ArrayExpression                          342 ( 1.51%) in     30 files ( 50.0%)
-   FunctionExpression                       295 ( 1.30%) in     38 files ( 63.3%)
-   ObjectExpression                         294 ( 1.30%) in     40 files ( 66.7%)
-   ReturnStatement                          236 ( 1.04%) in     36 files ( 60.0%)
-   BinaryExpression                         233 ( 1.03%) in     33 files ( 55.0%)
-   AssignmentExpression                     228 ( 1.01%) in     41 files ( 68.3%)
+   Identifier                             8,351 (37.20%) in     59 files ( 98.3%)
+   MemberExpression                       2,677 (11.92%) in     49 files ( 81.7%)
+   CallExpression                         2,605 (11.60%) in     50 files ( 83.3%)
+   Literal                                2,154 ( 9.60%) in     55 files ( 91.7%)
+   ExpressionStatement                    1,129 ( 5.03%) in     49 files ( 81.7%)
+   BlockStatement                           760 ( 3.39%) in     48 files ( 80.0%)
+   VariableDeclarator                       680 ( 3.03%) in     54 files ( 90.0%)
+   VariableDeclaration                      675 ( 3.01%) in     54 files ( 90.0%)
+   Property                                 542 ( 2.41%) in     36 files ( 60.0%)
+   ArrayExpression                          342 ( 1.52%) in     30 files ( 50.0%)
+   FunctionExpression                       295 ( 1.31%) in     38 files ( 63.3%)
+   ObjectExpression                         294 ( 1.31%) in     40 files ( 66.7%)
+   ReturnStatement                          236 ( 1.05%) in     36 files ( 60.0%)
+   BinaryExpression                         233 ( 1.04%) in     33 files ( 55.0%)
+   AssignmentExpression                     228 ( 1.02%) in     41 files ( 68.3%)
    ArrowFunctionExpression                  223 ( 0.99%) in     32 files ( 53.3%)
-   IfStatement                              174 ( 0.77%) in     20 files ( 33.3%)
-   Unknown                                  158 ( 0.70%) in     15 files ( 25.0%)
+   IfStatement                              174 ( 0.78%) in     20 files ( 33.3%)
    UnaryExpression                          112 ( 0.50%) in     19 files ( 31.7%)
    TemplateElement                          110 ( 0.49%) in     10 files ( 16.7%)
-   LogicalExpression                        100 ( 0.44%) in     15 files ( 25.0%)
+   LogicalExpression                        100 ( 0.45%) in     15 files ( 25.0%)
    FunctionDeclaration                       92 ( 0.41%) in     24 files ( 40.0%)
    ThisExpression                            65 ( 0.29%) in      8 files ( 13.3%)
    Program                                   60 ( 0.27%) in     60 files (100.0%)
@@ -124,8 +122,8 @@ Repository: sample-repos/jscodeshift
    TryStatement                               7 ( 0.03%) in      6 files ( 10.0%)
    CatchClause                                7 ( 0.03%) in      6 files ( 10.0%)
    ImportDeclaration                          6 ( 0.03%) in      4 files (  6.7%)
-   WhileStatement                             5 ( 0.02%) in      5 files (  8.3%)
    ImportSpecifier                            5 ( 0.02%) in      4 files (  6.7%)
+   WhileStatement                             5 ( 0.02%) in      5 files (  8.3%)
    ForOfStatement                             5 ( 0.02%) in      4 files (  6.7%)
    ObjectPattern                              5 ( 0.02%) in      4 files (  6.7%)
    ExportNamedDeclaration                     5 ( 0.02%) in      5 files (  8.3%)
@@ -149,15 +147,15 @@ Repository: sample-repos/jscodeshift
    Identifier:
      📄 Files WITH Identifier (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/testUtils.js
-       • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
      📄 Files WITHOUT Identifier (showing 1):
        • website/src/env.d.ts
 
@@ -167,41 +165,41 @@ Repository: sample-repos/jscodeshift
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • src/testUtils.js
-       • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
-       • src/core.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
+       • parser/babel5Compat.js
      📄 Files WITHOUT MemberExpression (showing 10):
        • website/astro.config.mjs
+       • website/src/env.d.ts
        • sample/__testfixtures__/reverse-identifiers.output.js
        • sample/__testfixtures__/reverse-identifiers.input.js
-       • website/src/env.d.ts
        • src/__testfixtures__/test-sync-transform.output.js
        • src/__testfixtures__/test-sync-transform.input.js
        • src/__testfixtures__/test-async-transform.output.js
        • src/__testfixtures__/test-async-transform.input.js
+       • website/src/content/config.ts
        • sample/__testfixtures__/typescript/reverse-identifiers.output.ts
-       • sample/__testfixtures__/typescript/reverse-identifiers.input.ts
 
    CallExpression:
      📄 Files WITH CallExpression (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/testUtils.js
-       • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
+       • parser/tsx.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
+       • parser/babel5Compat.js
      📄 Files WITHOUT CallExpression (showing 10):
        • parser/tsOptions.js
+       • website/src/env.d.ts
        • sample/__testfixtures__/reverse-identifiers.output.js
        • sample/__testfixtures__/reverse-identifiers.input.js
-       • website/src/env.d.ts
        • src/__testfixtures__/test-sync-transform.output.js
        • src/__testfixtures__/test-sync-transform.input.js
        • src/__testfixtures__/test-async-transform.output.js
@@ -212,15 +210,15 @@ Repository: sample-repos/jscodeshift
    Literal:
      📄 Files WITH Literal (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/testUtils.js
-       • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
      📄 Files WITHOUT Literal (showing 5):
        • website/src/env.d.ts
        • src/__testfixtures__/test-sync-transform.output.js
@@ -234,36 +232,36 @@ Repository: sample-repos/jscodeshift
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • src/testUtils.js
-       • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
-       • src/core.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
+       • parser/babel5Compat.js
      📄 Files WITHOUT ExpressionStatement (showing 10):
        • website/astro.config.mjs
+       • website/src/env.d.ts
        • sample/__testfixtures__/reverse-identifiers.output.js
        • sample/__testfixtures__/reverse-identifiers.input.js
-       • website/src/env.d.ts
        • src/__testfixtures__/test-sync-transform.output.js
        • src/__testfixtures__/test-sync-transform.input.js
        • src/__testfixtures__/test-async-transform.output.js
        • src/__testfixtures__/test-async-transform.input.js
+       • website/src/content/config.ts
        • sample/__testfixtures__/typescript/reverse-identifiers.output.ts
-       • sample/__testfixtures__/typescript/reverse-identifiers.input.ts
 
    BlockStatement:
      📄 Files WITH BlockStatement (showing 10):
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
+       • parser/tsx.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
+       • parser/babel5Compat.js
        • src/testUtils.js
        • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
-       • src/core.js
-       • src/argsParser.js
      📄 Files WITHOUT BlockStatement (showing 10):
        • index.js
        • website/astro.config.mjs
@@ -274,25 +272,25 @@ Repository: sample-repos/jscodeshift
        • src/__testfixtures__/test-sync-transform.input.js
        • src/__testfixtures__/test-async-transform.output.js
        • src/__testfixtures__/test-async-transform.input.js
-       • sample/__testfixtures__/typescript/reverse-identifiers.output.ts
+       • website/src/content/config.ts
 
    VariableDeclarator:
      📄 Files WITH VariableDeclarator (showing 10):
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
+       • parser/tsx.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
+       • parser/babel5Compat.js
        • src/testUtils.js
        • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/core.js
-       • src/argsParser.js
-       • src/Worker.js
      📄 Files WITHOUT VariableDeclarator (showing 6):
        • index.js
        • website/astro.config.mjs
-       • src/getParser.js
        • parser/tsOptions.js
+       • src/getParser.js
        • website/src/env.d.ts
        • src/collections/index.js
 
@@ -301,33 +299,33 @@ Repository: sample-repos/jscodeshift
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
+       • parser/tsx.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
+       • parser/babel5Compat.js
        • src/testUtils.js
        • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/core.js
-       • src/argsParser.js
-       • src/Worker.js
      📄 Files WITHOUT VariableDeclaration (showing 6):
        • index.js
        • website/astro.config.mjs
-       • src/getParser.js
        • parser/tsOptions.js
+       • src/getParser.js
        • website/src/env.d.ts
        • src/collections/index.js
 
    Property:
      📄 Files WITH Property (showing 10):
-       • utils/testUtils.js
        • website/astro.config.mjs
+       • utils/testUtils.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
+       • parser/babel5Compat.js
        • src/testUtils.js
        • src/template.js
-       • src/ignoreFiles.js
-       • src/core.js
-       • src/argsParser.js
-       • src/Worker.js
-       • src/Runner.js
-       • parser/tsx.js
      📄 Files WITHOUT Property (showing 10):
        • index.js
        • utils/requirePackage.js
@@ -335,104 +333,104 @@ Repository: sample-repos/jscodeshift
        • src/matchNode.js
        • src/getParser.js
        • src/Collection.js
+       • website/src/env.d.ts
        • sample/__testfixtures__/reverse-identifiers.output.js
        • sample/__testfixtures__/reverse-identifiers.input.js
-       • website/src/env.d.ts
-       • src/utils/union.js
+       • parser/__tests__/tsx-test.js
 
    ArrayExpression:
      📄 Files WITH ArrayExpression (showing 10):
        • website/astro.config.mjs
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/babylon.js
+       • parser/babel5Compat.js
        • src/template.js
        • src/ignoreFiles.js
        • src/core.js
        • src/argsParser.js
        • src/Worker.js
-       • src/Runner.js
-       • src/Collection.js
-       • parser/tsx.js
-       • parser/tsOptions.js
      📄 Files WITHOUT ArrayExpression (showing 10):
        • index.js
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
+       • parser/ts.js
+       • parser/flow.js
        • src/testUtils.js
        • src/matchNode.js
        • src/getParser.js
-       • parser/ts.js
-       • parser/flow.js
-       • sample/__tests__/reverse-identifiers-test.js
+       • website/src/env.d.ts
 
    FunctionExpression:
      📄 Files WITH FunctionExpression (showing 10):
        • utils/requirePackage.js
+       • parser/tsx.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
+       • parser/babel5Compat.js
        • src/template.js
        • src/matchNode.js
        • src/ignoreFiles.js
        • src/getParser.js
-       • src/core.js
-       • src/argsParser.js
-       • src/Worker.js
-       • src/Runner.js
-       • src/Collection.js
      📄 Files WITHOUT FunctionExpression (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/testUtils.js
        • parser/tsOptions.js
-       • sample/__tests__/reverse-identifiers-test.js
+       • src/testUtils.js
        • website/src/env.d.ts
-       • src/collections/index.js
+       • sample/__tests__/reverse-identifiers-test.js
        • src/__tests__/testUtils-test.js
+       • src/__tests__/template-test.js
 
    ObjectExpression:
      📄 Files WITH ObjectExpression (showing 10):
+       • website/astro.config.mjs
        • utils/testUtils.js
        • utils/requirePackage.js
-       • website/astro.config.mjs
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
+       • parser/babel5Compat.js
        • src/testUtils.js
-       • src/template.js
-       • src/ignoreFiles.js
-       • src/core.js
-       • src/argsParser.js
-       • src/Worker.js
-       • src/Runner.js
      📄 Files WITHOUT ObjectExpression (showing 10):
        • index.js
        • sample/reverse-identifiers.js
        • src/matchNode.js
        • src/getParser.js
+       • website/src/env.d.ts
        • sample/__testfixtures__/reverse-identifiers.output.js
        • sample/__testfixtures__/reverse-identifiers.input.js
-       • website/src/env.d.ts
+       • parser/__tests__/tsx-test.js
        • src/utils/union.js
        • src/utils/once.js
-       • src/utils/intersection.js
 
    ReturnStatement:
      📄 Files WITH ReturnStatement (showing 10):
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
+       • parser/tsx.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
+       • parser/babel5Compat.js
        • src/testUtils.js
        • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
-       • src/core.js
-       • src/argsParser.js
      📄 Files WITHOUT ReturnStatement (showing 10):
        • index.js
        • website/astro.config.mjs
        • parser/tsOptions.js
+       • website/src/env.d.ts
        • sample/__tests__/reverse-identifiers-test.js
        • sample/__testfixtures__/reverse-identifiers.output.js
        • sample/__testfixtures__/reverse-identifiers.input.js
-       • website/src/env.d.ts
-       • src/collections/index.js
+       • parser/__tests__/tsx-test.js
        • src/__tests__/core-test.js
        • src/__tests__/argsParser-test.js
 
@@ -450,15 +448,15 @@ Repository: sample-repos/jscodeshift
        • src/Runner.js
      📄 Files WITHOUT BinaryExpression (showing 10):
        • index.js
-       • sample/reverse-identifiers.js
        • website/astro.config.mjs
-       • src/getParser.js
+       • sample/reverse-identifiers.js
        • parser/tsx.js
        • parser/tsOptions.js
        • parser/ts.js
        • parser/flow.js
        • parser/babylon.js
        • parser/babel5Compat.js
+       • src/getParser.js
 
    AssignmentExpression:
      📄 Files WITH AssignmentExpression (showing 10):
@@ -466,23 +464,23 @@ Repository: sample-repos/jscodeshift
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • src/testUtils.js
-       • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
-       • src/core.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
+       • parser/babel5Compat.js
      📄 Files WITHOUT AssignmentExpression (showing 10):
        • website/astro.config.mjs
+       • website/src/env.d.ts
        • sample/__tests__/reverse-identifiers-test.js
        • sample/__testfixtures__/reverse-identifiers.output.js
        • sample/__testfixtures__/reverse-identifiers.input.js
-       • website/src/env.d.ts
+       • parser/__tests__/tsx-test.js
        • src/__tests__/testUtils-test.js
        • src/__tests__/core-test.js
        • src/__tests__/Worker-test.js
        • src/__testfixtures__/test-sync-transform.output.js
-       • src/__testfixtures__/test-sync-transform.input.js
 
    ArrowFunctionExpression:
      📄 Files WITH ArrowFunctionExpression (showing 10):
@@ -495,18 +493,18 @@ Repository: sample-repos/jscodeshift
        • src/Collection.js
        • bin/jscodeshift.js
        • sample/__tests__/reverse-identifiers-test.js
-       • src/collections/VariableDeclarator.js
+       • src/__tests__/testUtils-test.js
      📄 Files WITHOUT ArrowFunctionExpression (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • utils/requirePackage.js
-       • website/astro.config.mjs
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
-       • src/core.js
        • parser/tsx.js
        • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
+       • parser/babel5Compat.js
 
    IfStatement:
      📄 Files WITH IfStatement (showing 10):
@@ -522,39 +520,15 @@ Repository: sample-repos/jscodeshift
        • src/Collection.js
      📄 Files WITHOUT IfStatement (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/getParser.js
        • parser/tsx.js
        • parser/tsOptions.js
        • parser/ts.js
        • parser/flow.js
        • parser/babylon.js
-
-   Unknown:
-     📄 Files WITH Unknown (showing 10):
-       • src/testUtils.js
-       • src/template.js
-       • src/ignoreFiles.js
-       • src/argsParser.js
-       • src/Worker.js
-       • src/Runner.js
-       • src/Collection.js
-       • bin/jscodeshift.js
-       • sample/__tests__/reverse-identifiers-test.js
-       • src/collections/VariableDeclarator.js
-     📄 Files WITHOUT Unknown (showing 10):
-       • index.js
-       • utils/testUtils.js
-       • utils/requirePackage.js
-       • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/matchNode.js
-       • src/getParser.js
-       • src/core.js
-       • parser/tsx.js
-       • parser/tsOptions.js
+       • parser/babel5Compat.js
 
    UnaryExpression:
      📄 Files WITH UnaryExpression (showing 10):
@@ -570,15 +544,15 @@ Repository: sample-repos/jscodeshift
        • bin/jscodeshift.js
      📄 Files WITHOUT UnaryExpression (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/getParser.js
        • parser/tsx.js
        • parser/tsOptions.js
        • parser/ts.js
        • parser/flow.js
+       • parser/babylon.js
 
    TemplateElement:
      📄 Files WITH TemplateElement (showing 10):
@@ -594,15 +568,15 @@ Repository: sample-repos/jscodeshift
        • bin/__tests__/jscodeshift-test.js
      📄 Files WITHOUT TemplateElement (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
-       • src/core.js
-       • src/Worker.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
 
    LogicalExpression:
      📄 Files WITH LogicalExpression (showing 10):
@@ -618,15 +592,15 @@ Repository: sample-repos/jscodeshift
        • bin/jscodeshift.js
      📄 Files WITHOUT LogicalExpression (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/getParser.js
        • parser/tsx.js
        • parser/tsOptions.js
        • parser/ts.js
        • parser/flow.js
+       • parser/babylon.js
 
    FunctionDeclaration:
      📄 Files WITH FunctionDeclaration (showing 10):
@@ -642,50 +616,50 @@ Repository: sample-repos/jscodeshift
        • src/Runner.js
      📄 Files WITHOUT FunctionDeclaration (showing 10):
        • index.js
-       • utils/requirePackage.js
        • website/astro.config.mjs
-       • src/getParser.js
+       • utils/requirePackage.js
        • parser/tsx.js
        • parser/tsOptions.js
        • parser/ts.js
        • parser/flow.js
        • parser/babylon.js
        • parser/babel5Compat.js
+       • src/getParser.js
 
    ThisExpression:
      📄 Files WITH ThisExpression (showing 8):
        • src/template.js
        • src/Collection.js
        • src/utils/once.js
+       • src/__tests__/Collection-test.js
        • src/collections/VariableDeclarator.js
        • src/collections/Node.js
        • src/collections/JSXElement.js
        • src/collections/ImportDeclaration.js
-       • src/__tests__/Collection-test.js
      📄 Files WITHOUT ThisExpression (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/testUtils.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
-       • src/core.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
 
    Program:
      📄 Files WITH Program (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/testUtils.js
-       • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
      📄 Files WITHOUT Program: (all files contain this node type)
 
    TemplateLiteral:
@@ -702,15 +676,15 @@ Repository: sample-repos/jscodeshift
        • bin/__tests__/jscodeshift-test.js
      📄 Files WITHOUT TemplateLiteral (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
-       • src/core.js
-       • src/Worker.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
 
    ConditionalExpression:
      📄 Files WITH ConditionalExpression (showing 10):
@@ -726,15 +700,15 @@ Repository: sample-repos/jscodeshift
        • bin/jscodeshift.js
      📄 Files WITHOUT ConditionalExpression (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/matchNode.js
-       • src/getParser.js
        • parser/tsx.js
        • parser/tsOptions.js
        • parser/ts.js
        • parser/flow.js
+       • parser/babylon.js
+       • parser/babel5Compat.js
 
    NewExpression:
      📄 Files WITH NewExpression (showing 10):
@@ -750,15 +724,15 @@ Repository: sample-repos/jscodeshift
        • src/__testfixtures__/test-async-transform.js
      📄 Files WITHOUT NewExpression (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/testUtils.js
-       • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
 
    ParenthesizedExpression:
      📄 Files WITH ParenthesizedExpression (showing 8):
@@ -772,15 +746,15 @@ Repository: sample-repos/jscodeshift
        • src/collections/JSXElement.js
      📄 Files WITHOUT ParenthesizedExpression (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/template.js
-       • src/ignoreFiles.js
-       • src/getParser.js
-       • src/argsParser.js
-       • src/Worker.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
 
    MethodDefinition:
      📄 Files WITH MethodDefinition (showing 3):
@@ -789,15 +763,15 @@ Repository: sample-repos/jscodeshift
        • sample/__testfixtures__/reverse-identifiers.input.js
      📄 Files WITHOUT MethodDefinition (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/testUtils.js
-       • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
 
    UpdateExpression:
      📄 Files WITH UpdateExpression (showing 9):
@@ -807,35 +781,35 @@ Repository: sample-repos/jscodeshift
        • src/Collection.js
        • src/utils/union.js
        • src/utils/intersection.js
-       • src/collections/JSXElement.js
        • src/__tests__/core-test.js
+       • src/collections/JSXElement.js
        • bin/__tests__/jscodeshift-test.js
      📄 Files WITHOUT UpdateExpression (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/testUtils.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
-       • src/core.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
 
    TaggedTemplateExpression:
      📄 Files WITH TaggedTemplateExpression (showing 1):
        • src/__tests__/template-test.js
      📄 Files WITHOUT TaggedTemplateExpression (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/testUtils.js
-       • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
 
    SwitchCase:
      📄 Files WITH SwitchCase (showing 3):
@@ -844,15 +818,15 @@ Repository: sample-repos/jscodeshift
        • src/Runner.js
      📄 Files WITHOUT SwitchCase (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/core.js
-       • src/argsParser.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
 
    ForStatement:
      📄 Files WITH ForStatement (showing 7):
@@ -865,15 +839,15 @@ Repository: sample-repos/jscodeshift
        • bin/__tests__/jscodeshift-test.js
      📄 Files WITHOUT ForStatement (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/testUtils.js
-       • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
 
    ThrowStatement:
      📄 Files WITH ThrowStatement (showing 5):
@@ -884,15 +858,15 @@ Repository: sample-repos/jscodeshift
        • src/__tests__/Collection-test.js
      📄 Files WITHOUT ThrowStatement (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/testUtils.js
-       • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
 
    ForInStatement:
      📄 Files WITH ForInStatement (showing 6):
@@ -904,34 +878,34 @@ Repository: sample-repos/jscodeshift
        • src/utils/__tests__/intersection-test.js
      📄 Files WITHOUT ForInStatement (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/testUtils.js
-       • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
 
    AssignmentPattern:
      📄 Files WITH AssignmentPattern (showing 5):
        • utils/testUtils.js
-       • src/testUtils.js
-       • src/argsParser.js
        • parser/flow.js
        • parser/babylon.js
+       • src/testUtils.js
+       • src/argsParser.js
      📄 Files WITHOUT AssignmentPattern (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/babel5Compat.js
        • src/template.js
        • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
-       • src/core.js
-       • src/Worker.js
 
    TryStatement:
      📄 Files WITH TryStatement (showing 6):
@@ -943,15 +917,15 @@ Repository: sample-repos/jscodeshift
        • src/__tests__/argsParser-test.js
      📄 Files WITHOUT TryStatement (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/testUtils.js
-       • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
-       • src/core.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
+       • parser/babel5Compat.js
 
    CatchClause:
      📄 Files WITH CatchClause (showing 6):
@@ -963,33 +937,51 @@ Repository: sample-repos/jscodeshift
        • src/__tests__/argsParser-test.js
      📄 Files WITHOUT CatchClause (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/testUtils.js
-       • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
-       • src/core.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
+       • parser/babel5Compat.js
 
    ImportDeclaration:
      📄 Files WITH ImportDeclaration (showing 4):
        • website/astro.config.mjs
+       • website/src/content/config.ts
        • sample/__testfixtures__/typescript/reverse-identifiers.output.ts
        • sample/__testfixtures__/typescript/reverse-identifiers.input.ts
-       • website/src/content/config.ts
      📄 Files WITHOUT ImportDeclaration (showing 10):
        • index.js
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • src/testUtils.js
-       • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
-       • src/core.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
+       • parser/babel5Compat.js
+
+   ImportSpecifier:
+     📄 Files WITH ImportSpecifier (showing 4):
+       • website/astro.config.mjs
+       • website/src/content/config.ts
+       • sample/__testfixtures__/typescript/reverse-identifiers.output.ts
+       • sample/__testfixtures__/typescript/reverse-identifiers.input.ts
+     📄 Files WITHOUT ImportSpecifier (showing 10):
+       • index.js
+       • utils/testUtils.js
+       • utils/requirePackage.js
+       • sample/reverse-identifiers.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
+       • parser/babel5Compat.js
 
    WhileStatement:
      📄 Files WITH WhileStatement (showing 5):
@@ -1000,33 +992,15 @@ Repository: sample-repos/jscodeshift
        • src/collections/JSXElement.js
      📄 Files WITHOUT WhileStatement (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/testUtils.js
-       • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
-       • src/core.js
-
-   ImportSpecifier:
-     📄 Files WITH ImportSpecifier (showing 4):
-       • website/astro.config.mjs
-       • sample/__testfixtures__/typescript/reverse-identifiers.output.ts
-       • sample/__testfixtures__/typescript/reverse-identifiers.input.ts
-       • website/src/content/config.ts
-     📄 Files WITHOUT ImportSpecifier (showing 10):
-       • index.js
-       • utils/testUtils.js
-       • utils/requirePackage.js
-       • sample/reverse-identifiers.js
-       • src/testUtils.js
-       • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
-       • src/core.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
+       • parser/babel5Compat.js
 
    ForOfStatement:
      📄 Files WITH ForOfStatement (showing 4):
@@ -1036,15 +1010,15 @@ Repository: sample-repos/jscodeshift
        • src/__tests__/template-test.js
      📄 Files WITHOUT ForOfStatement (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/testUtils.js
-       • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
 
    ObjectPattern:
      📄 Files WITH ObjectPattern (showing 4):
@@ -1054,15 +1028,15 @@ Repository: sample-repos/jscodeshift
        • src/__tests__/argsParser-test.js
      📄 Files WITHOUT ObjectPattern (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/testUtils.js
-       • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
 
    ExportNamedDeclaration:
      📄 Files WITH ExportNamedDeclaration (showing 5):
@@ -1073,30 +1047,30 @@ Repository: sample-repos/jscodeshift
        • website/src/content/config.ts
      📄 Files WITHOUT ExportNamedDeclaration (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/testUtils.js
-       • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
 
    BreakStatement:
      📄 Files WITH BreakStatement (showing 1):
        • src/Runner.js
      📄 Files WITHOUT BreakStatement (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/testUtils.js
-       • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
 
    SwitchStatement:
      📄 Files WITH SwitchStatement (showing 3):
@@ -1105,15 +1079,15 @@ Repository: sample-repos/jscodeshift
        • src/Runner.js
      📄 Files WITHOUT SwitchStatement (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/core.js
-       • src/argsParser.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
 
    ClassDeclaration:
      📄 Files WITH ClassDeclaration (showing 3):
@@ -1122,15 +1096,15 @@ Repository: sample-repos/jscodeshift
        • sample/__testfixtures__/reverse-identifiers.input.js
      📄 Files WITHOUT ClassDeclaration (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/testUtils.js
-       • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
 
    ClassBody:
      📄 Files WITH ClassBody (showing 3):
@@ -1139,15 +1113,15 @@ Repository: sample-repos/jscodeshift
        • sample/__testfixtures__/reverse-identifiers.input.js
      📄 Files WITHOUT ClassBody (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/testUtils.js
-       • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
 
    AwaitExpression:
      📄 Files WITH AwaitExpression (showing 2):
@@ -1155,15 +1129,15 @@ Repository: sample-repos/jscodeshift
        • src/__tests__/testUtils-test.js
      📄 Files WITHOUT AwaitExpression (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/testUtils.js
-       • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
 
    EmptyStatement:
      📄 Files WITH EmptyStatement (showing 2):
@@ -1171,15 +1145,15 @@ Repository: sample-repos/jscodeshift
        • bin/__tests__/jscodeshift-test.js
      📄 Files WITHOUT EmptyStatement (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/testUtils.js
-       • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
 
    Decorator:
      📄 Files WITH Decorator (showing 2):
@@ -1187,15 +1161,15 @@ Repository: sample-repos/jscodeshift
        • sample/__testfixtures__/reverse-identifiers.input.js
      📄 Files WITHOUT Decorator (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/testUtils.js
-       • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
 
    TSTypeAnnotation:
      📄 Files WITH TSTypeAnnotation (showing 2):
@@ -1203,15 +1177,15 @@ Repository: sample-repos/jscodeshift
        • sample/__testfixtures__/typescript/reverse-identifiers.input.ts
      📄 Files WITHOUT TSTypeAnnotation (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/testUtils.js
-       • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
 
    TSStringKeyword:
      📄 Files WITH TSStringKeyword (showing 2):
@@ -1219,15 +1193,15 @@ Repository: sample-repos/jscodeshift
        • sample/__testfixtures__/typescript/reverse-identifiers.input.ts
      📄 Files WITHOUT TSStringKeyword (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/testUtils.js
-       • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
 
    ImportDefaultSpecifier:
      📄 Files WITH ImportDefaultSpecifier (showing 1):
@@ -1237,12 +1211,12 @@ Repository: sample-repos/jscodeshift
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • src/testUtils.js
-       • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
-       • src/core.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
+       • parser/babel5Compat.js
 
    ExportDefaultDeclaration:
      📄 Files WITH ExportDefaultDeclaration (showing 1):
@@ -1252,57 +1226,57 @@ Repository: sample-repos/jscodeshift
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • src/testUtils.js
-       • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
-       • src/core.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
+       • parser/babel5Compat.js
 
    SpreadElement:
      📄 Files WITH SpreadElement (showing 1):
        • src/Worker.js
      📄 Files WITHOUT SpreadElement (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/testUtils.js
-       • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
 
    Hashbang:
      📄 Files WITH Hashbang (showing 1):
        • bin/jscodeshift.js
      📄 Files WITHOUT Hashbang (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/testUtils.js
-       • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
 
    RestElement:
      📄 Files WITH RestElement (showing 1):
        • src/utils/once.js
      📄 Files WITHOUT RestElement (showing 10):
        • index.js
+       • website/astro.config.mjs
        • utils/testUtils.js
        • utils/requirePackage.js
        • sample/reverse-identifiers.js
-       • website/astro.config.mjs
-       • src/testUtils.js
-       • src/template.js
-       • src/matchNode.js
-       • src/ignoreFiles.js
-       • src/getParser.js
+       • parser/tsx.js
+       • parser/tsOptions.js
+       • parser/ts.js
+       • parser/flow.js
+       • parser/babylon.js
 
 ============================================================
 ✅ Analysis complete!

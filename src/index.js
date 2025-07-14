@@ -4,50 +4,24 @@ import { readFileSync, statSync } from "fs";
 import { join } from "path";
 import { glob } from "glob";
 import { parseSync } from "oxc-parser";
+import { walk } from "oxc-walker";
 
 /**
- * Recursively count all AST nodes and their types
+ * Count all AST nodes and their types using oxc-walker
  */
-function countNodes(node, counts = {}, total = { count: 0 }) {
-  if (!node || typeof node !== "object") {
-    return counts;
-  }
+function countNodes(ast) {
+  const counts = {};
+  let totalCount = 0;
 
-  // Count this node
-  total.count++;
-
-  // Get the node type
-  const nodeType = node.type || "Unknown";
-  counts[nodeType] = (counts[nodeType] || 0) + 1;
-
-  // Recursively count child nodes
-  for (const key in node) {
-    if (
-      key === "type" ||
-      key === "start" ||
-      key === "end" ||
-      key === "loc" ||
-      key === "range"
-    ) {
-      continue; // Skip metadata properties
+  walk(ast, {
+    enter(node) {
+      totalCount++;
+      const nodeType = node.type || "Unknown";
+      counts[nodeType] = (counts[nodeType] || 0) + 1;
     }
+  });
 
-    const value = node[key];
-
-    if (Array.isArray(value)) {
-      // Handle arrays of nodes
-      for (const item of value) {
-        if (item && typeof item === "object") {
-          countNodes(item, counts, total);
-        }
-      }
-    } else if (value && typeof value === "object") {
-      // Handle single child nodes
-      countNodes(value, counts, total);
-    }
-  }
-
-  return counts;
+  return { counts, totalCount };
 }
 
 /**
@@ -68,15 +42,13 @@ function analyzeFile(filePath) {
     }
 
     // Count nodes in the AST
-    const nodeCounts = {};
-    const totalCount = { count: 0 };
-    countNodes(result.program, nodeCounts, totalCount);
+    const { counts: nodeCounts, totalCount } = countNodes(result.program);
 
     return {
       filePath,
       success: true,
       nodeCounts,
-      totalNodes: totalCount.count,
+      totalNodes: totalCount,
       parseErrors: result.errors?.length || 0,
     };
   } catch (error) {

@@ -1,5 +1,5 @@
 AST Analysis Report for esbuild
-Generated on: 2025-07-14T02:07:20.067Z
+Generated on: 2025-07-14T02:34:27.753Z
 Repository: sample-repos/esbuild
 ================================================================================
 
@@ -20,58 +20,57 @@ Repository: sample-repos/esbuild
    Total file size: 1.5 MB
 
 🌳 NODE STATISTICS:
-   Total nodes: 189,399
-   Average nodes per file: 4,405
+   Total nodes: 184,841
+   Average nodes per file: 4,299
    Average file size: 35.0 KB
 
 📋 ALL NODE TYPES (BY FILE PRESENCE):
    Program                            43 files (100.0%) -            43 total ( 0.02%)
-   Literal                            43 files (100.0%) -        17,962 total ( 9.48%)
-   Identifier                         42 files ( 97.7%) -        64,323 total (33.96%)
-   VariableDeclaration                40 files ( 93.0%) -         4,666 total ( 2.46%)
-   VariableDeclarator                 40 files ( 93.0%) -         5,442 total ( 2.87%)
-   CallExpression                     39 files ( 90.7%) -        14,198 total ( 7.50%)
-   ExpressionStatement                39 files ( 90.7%) -         8,021 total ( 4.23%)
-   MemberExpression                   39 files ( 90.7%) -        13,057 total ( 6.89%)
-   BlockStatement                     37 files ( 86.0%) -         4,175 total ( 2.20%)
-   BinaryExpression                   37 files ( 86.0%) -         1,770 total ( 0.93%)
-   ArrayExpression                    36 files ( 83.7%) -         2,209 total ( 1.17%)
-   IfStatement                        36 files ( 83.7%) -           973 total ( 0.51%)
-   AssignmentExpression               36 files ( 83.7%) -         2,118 total ( 1.12%)
-   ArrowFunctionExpression            36 files ( 83.7%) -         3,946 total ( 2.08%)
-   Property                           35 files ( 81.4%) -         8,500 total ( 4.49%)
-   Unknown                            35 files ( 81.4%) -         4,558 total ( 2.41%)
-   UnaryExpression                    35 files ( 81.4%) -           924 total ( 0.49%)
-   TemplateLiteral                    34 files ( 79.1%) -         3,287 total ( 1.74%)
-   TemplateElement                    34 files ( 79.1%) -         4,134 total ( 2.18%)
-   ObjectExpression                   33 files ( 76.7%) -         3,377 total ( 1.78%)
-   ReturnStatement                    33 files ( 76.7%) -         1,183 total ( 0.62%)
-   ObjectPattern                      32 files ( 74.4%) -           751 total ( 0.40%)
-   NewExpression                      31 files ( 72.1%) -           792 total ( 0.42%)
+   Literal                            43 files (100.0%) -        17,962 total ( 9.72%)
+   Identifier                         42 files ( 97.7%) -        64,323 total (34.80%)
+   VariableDeclaration                40 files ( 93.0%) -         4,666 total ( 2.52%)
+   VariableDeclarator                 40 files ( 93.0%) -         5,442 total ( 2.94%)
+   CallExpression                     39 files ( 90.7%) -        14,198 total ( 7.68%)
+   ExpressionStatement                39 files ( 90.7%) -         8,021 total ( 4.34%)
+   MemberExpression                   39 files ( 90.7%) -        13,057 total ( 7.06%)
+   BlockStatement                     37 files ( 86.0%) -         4,175 total ( 2.26%)
+   BinaryExpression                   37 files ( 86.0%) -         1,770 total ( 0.96%)
+   ArrayExpression                    36 files ( 83.7%) -         2,209 total ( 1.20%)
+   IfStatement                        36 files ( 83.7%) -           973 total ( 0.53%)
+   AssignmentExpression               36 files ( 83.7%) -         2,118 total ( 1.15%)
+   ArrowFunctionExpression            36 files ( 83.7%) -         3,946 total ( 2.13%)
+   Property                           35 files ( 81.4%) -         8,500 total ( 4.60%)
+   UnaryExpression                    35 files ( 81.4%) -           924 total ( 0.50%)
+   TemplateLiteral                    34 files ( 79.1%) -         3,287 total ( 1.78%)
+   TemplateElement                    34 files ( 79.1%) -         4,134 total ( 2.24%)
+   ObjectExpression                   33 files ( 76.7%) -         3,377 total ( 1.83%)
+   ReturnStatement                    33 files ( 76.7%) -         1,183 total ( 0.64%)
+   ObjectPattern                      32 files ( 74.4%) -           751 total ( 0.41%)
+   NewExpression                      31 files ( 72.1%) -           792 total ( 0.43%)
    LogicalExpression                  31 files ( 72.1%) -           352 total ( 0.19%)
    ThrowStatement                     27 files ( 62.8%) -           257 total ( 0.14%)
    FunctionDeclaration                27 files ( 62.8%) -           181 total ( 0.10%)
    ParenthesizedExpression            27 files ( 62.8%) -           582 total ( 0.31%)
    TryStatement                       26 files ( 60.5%) -           245 total ( 0.13%)
    CatchClause                        25 files ( 58.1%) -           192 total ( 0.10%)
-   AwaitExpression                    25 files ( 58.1%) -         1,586 total ( 0.84%)
-   ForOfStatement                     24 files ( 55.8%) -           122 total ( 0.06%)
+   AwaitExpression                    25 files ( 58.1%) -         1,586 total ( 0.86%)
+   ForOfStatement                     24 files ( 55.8%) -           122 total ( 0.07%)
    ConditionalExpression              23 files ( 53.5%) -           205 total ( 0.11%)
-   TSTypeAnnotation                   19 files ( 44.2%) -         3,238 total ( 1.71%)
+   TSTypeAnnotation                   19 files ( 44.2%) -         3,238 total ( 1.75%)
    UpdateExpression                   18 files ( 41.9%) -           115 total ( 0.06%)
-   TSTypeReference                    18 files ( 41.9%) -         1,399 total ( 0.74%)
+   TSTypeReference                    18 files ( 41.9%) -         1,399 total ( 0.76%)
    TSTypeParameterInstantiation       17 files ( 39.5%) -           262 total ( 0.14%)
    TSStringKeyword                    17 files ( 39.5%) -           524 total ( 0.28%)
    TSVoidKeyword                      17 files ( 39.5%) -           246 total ( 0.13%)
-   FunctionExpression                 16 files ( 37.2%) -         1,313 total ( 0.69%)
+   FunctionExpression                 16 files ( 37.2%) -         1,313 total ( 0.71%)
    ImportDeclaration                  16 files ( 37.2%) -            41 total ( 0.02%)
    SpreadElement                      15 files ( 34.9%) -            81 total ( 0.04%)
    TSNumberKeyword                    15 files ( 34.9%) -           302 total ( 0.16%)
-   ExportNamedDeclaration             15 files ( 34.9%) -           179 total ( 0.09%)
+   ExportNamedDeclaration             15 files ( 34.9%) -           179 total ( 0.10%)
    ArrayPattern                       14 files ( 32.6%) -            53 total ( 0.03%)
    TSTypeLiteral                      14 files ( 32.6%) -           138 total ( 0.07%)
    TSArrayType                        14 files ( 32.6%) -           237 total ( 0.13%)
-   TSPropertySignature                14 files ( 32.6%) -           595 total ( 0.31%)
+   TSPropertySignature                14 files ( 32.6%) -           595 total ( 0.32%)
    TSAsExpression                     13 files ( 30.2%) -            98 total ( 0.05%)
    TSAnyKeyword                       13 files ( 30.2%) -           201 total ( 0.11%)
    TSUnionType                        13 files ( 30.2%) -           284 total ( 0.15%)
@@ -83,13 +82,13 @@ Repository: sample-repos/esbuild
    WhileStatement                     11 files ( 25.6%) -            23 total ( 0.01%)
    TSNonNullExpression                11 files ( 25.6%) -           202 total ( 0.11%)
    TSNullKeyword                      11 files ( 25.6%) -           119 total ( 0.06%)
-   TSFunctionType                     10 files ( 23.3%) -           326 total ( 0.17%)
+   TSFunctionType                     10 files ( 23.3%) -           326 total ( 0.18%)
    TSInterfaceDeclaration             10 files ( 23.3%) -            88 total ( 0.05%)
    TSInterfaceBody                    10 files ( 23.3%) -            88 total ( 0.05%)
    SwitchStatement                     9 files ( 20.9%) -            11 total ( 0.01%)
    SwitchCase                          9 files ( 20.9%) -            37 total ( 0.02%)
    ImportNamespaceSpecifier            9 files ( 20.9%) -            30 total ( 0.02%)
-   TSUndefinedKeyword                  9 files ( 20.9%) -           477 total ( 0.25%)
+   TSUndefinedKeyword                  9 files ( 20.9%) -           477 total ( 0.26%)
    ImportSpecifier                     9 files ( 20.9%) -            44 total ( 0.02%)
    TSQualifiedName                     8 files ( 18.6%) -           278 total ( 0.15%)
    TSImportEqualsDeclaration           8 files ( 18.6%) -            30 total ( 0.02%)
@@ -97,11 +96,11 @@ Repository: sample-repos/esbuild
    AssignmentPattern                   7 files ( 16.3%) -            27 total ( 0.01%)
    TSTypeQuery                         7 files ( 16.3%) -           199 total ( 0.11%)
    TSParenthesizedType                 7 files ( 16.3%) -            49 total ( 0.03%)
-   SequenceExpression                  6 files ( 14.0%) -           366 total ( 0.19%)
-   ThisExpression                      6 files ( 14.0%) -           614 total ( 0.32%)
+   SequenceExpression                  6 files ( 14.0%) -           366 total ( 0.20%)
+   ThisExpression                      6 files ( 14.0%) -           614 total ( 0.33%)
    TSLiteralType                       6 files ( 14.0%) -           138 total ( 0.07%)
    TSTypeParameterDeclaration          6 files ( 14.0%) -            23 total ( 0.01%)
-   TSTypeParameter                     6 files ( 14.0%) -            28 total ( 0.01%)
+   TSTypeParameter                     6 files ( 14.0%) -            28 total ( 0.02%)
    TSTypeAliasDeclaration              6 files ( 14.0%) -            25 total ( 0.01%)
    TSTupleType                         6 files ( 14.0%) -             7 total ( 0.00%)
    ImportExpression                    5 files ( 11.6%) -            12 total ( 0.01%)
@@ -109,10 +108,10 @@ Repository: sample-repos/esbuild
    TSTypeOperator                      4 files (  9.3%) -            17 total ( 0.01%)
    MetaProperty                        3 files (  7.0%) -             3 total ( 0.00%)
    ClassDeclaration                    3 files (  7.0%) -           275 total ( 0.15%)
-   ClassBody                           3 files (  7.0%) -           363 total ( 0.19%)
+   ClassBody                           3 files (  7.0%) -           363 total ( 0.20%)
    TSUnknownKeyword                    3 files (  7.0%) -            32 total ( 0.02%)
    PropertyDefinition                  3 files (  7.0%) -           116 total ( 0.06%)
-   MethodDefinition                    3 files (  7.0%) -           455 total ( 0.24%)
+   MethodDefinition                    3 files (  7.0%) -           455 total ( 0.25%)
    TSIndexedAccessType                 3 files (  7.0%) -            36 total ( 0.02%)
    RestElement                         3 files (  7.0%) -            43 total ( 0.02%)
    ChainExpression                     3 files (  7.0%) -             4 total ( 0.00%)
@@ -146,43 +145,42 @@ Repository: sample-repos/esbuild
    TSEnumMember                        1 files (  2.3%) -             7 total ( 0.00%)
 
 📝 ALL NODE TYPES (BY TOTAL COUNT):
-   Identifier                            64,323 (33.96%) in     42 files ( 97.7%)
-   Literal                               17,962 ( 9.48%) in     43 files (100.0%)
-   CallExpression                        14,198 ( 7.50%) in     39 files ( 90.7%)
-   MemberExpression                      13,057 ( 6.89%) in     39 files ( 90.7%)
-   Property                               8,500 ( 4.49%) in     35 files ( 81.4%)
-   ExpressionStatement                    8,021 ( 4.23%) in     39 files ( 90.7%)
-   VariableDeclarator                     5,442 ( 2.87%) in     40 files ( 93.0%)
-   VariableDeclaration                    4,666 ( 2.46%) in     40 files ( 93.0%)
-   Unknown                                4,558 ( 2.41%) in     35 files ( 81.4%)
-   BlockStatement                         4,175 ( 2.20%) in     37 files ( 86.0%)
-   TemplateElement                        4,134 ( 2.18%) in     34 files ( 79.1%)
-   ArrowFunctionExpression                3,946 ( 2.08%) in     36 files ( 83.7%)
-   ObjectExpression                       3,377 ( 1.78%) in     33 files ( 76.7%)
-   TemplateLiteral                        3,287 ( 1.74%) in     34 files ( 79.1%)
-   TSTypeAnnotation                       3,238 ( 1.71%) in     19 files ( 44.2%)
-   ArrayExpression                        2,209 ( 1.17%) in     36 files ( 83.7%)
-   AssignmentExpression                   2,118 ( 1.12%) in     36 files ( 83.7%)
-   BinaryExpression                       1,770 ( 0.93%) in     37 files ( 86.0%)
-   AwaitExpression                        1,586 ( 0.84%) in     25 files ( 58.1%)
-   TSTypeReference                        1,399 ( 0.74%) in     18 files ( 41.9%)
-   FunctionExpression                     1,313 ( 0.69%) in     16 files ( 37.2%)
-   ReturnStatement                        1,183 ( 0.62%) in     33 files ( 76.7%)
-   IfStatement                              973 ( 0.51%) in     36 files ( 83.7%)
-   UnaryExpression                          924 ( 0.49%) in     35 files ( 81.4%)
-   NewExpression                            792 ( 0.42%) in     31 files ( 72.1%)
-   ObjectPattern                            751 ( 0.40%) in     32 files ( 74.4%)
-   ThisExpression                           614 ( 0.32%) in      6 files ( 14.0%)
-   TSPropertySignature                      595 ( 0.31%) in     14 files ( 32.6%)
+   Identifier                            64,323 (34.80%) in     42 files ( 97.7%)
+   Literal                               17,962 ( 9.72%) in     43 files (100.0%)
+   CallExpression                        14,198 ( 7.68%) in     39 files ( 90.7%)
+   MemberExpression                      13,057 ( 7.06%) in     39 files ( 90.7%)
+   Property                               8,500 ( 4.60%) in     35 files ( 81.4%)
+   ExpressionStatement                    8,021 ( 4.34%) in     39 files ( 90.7%)
+   VariableDeclarator                     5,442 ( 2.94%) in     40 files ( 93.0%)
+   VariableDeclaration                    4,666 ( 2.52%) in     40 files ( 93.0%)
+   BlockStatement                         4,175 ( 2.26%) in     37 files ( 86.0%)
+   TemplateElement                        4,134 ( 2.24%) in     34 files ( 79.1%)
+   ArrowFunctionExpression                3,946 ( 2.13%) in     36 files ( 83.7%)
+   ObjectExpression                       3,377 ( 1.83%) in     33 files ( 76.7%)
+   TemplateLiteral                        3,287 ( 1.78%) in     34 files ( 79.1%)
+   TSTypeAnnotation                       3,238 ( 1.75%) in     19 files ( 44.2%)
+   ArrayExpression                        2,209 ( 1.20%) in     36 files ( 83.7%)
+   AssignmentExpression                   2,118 ( 1.15%) in     36 files ( 83.7%)
+   BinaryExpression                       1,770 ( 0.96%) in     37 files ( 86.0%)
+   AwaitExpression                        1,586 ( 0.86%) in     25 files ( 58.1%)
+   TSTypeReference                        1,399 ( 0.76%) in     18 files ( 41.9%)
+   FunctionExpression                     1,313 ( 0.71%) in     16 files ( 37.2%)
+   ReturnStatement                        1,183 ( 0.64%) in     33 files ( 76.7%)
+   IfStatement                              973 ( 0.53%) in     36 files ( 83.7%)
+   UnaryExpression                          924 ( 0.50%) in     35 files ( 81.4%)
+   NewExpression                            792 ( 0.43%) in     31 files ( 72.1%)
+   ObjectPattern                            751 ( 0.41%) in     32 files ( 74.4%)
+   ThisExpression                           614 ( 0.33%) in      6 files ( 14.0%)
+   TSPropertySignature                      595 ( 0.32%) in     14 files ( 32.6%)
    ParenthesizedExpression                  582 ( 0.31%) in     27 files ( 62.8%)
    TSStringKeyword                          524 ( 0.28%) in     17 files ( 39.5%)
-   TSUndefinedKeyword                       477 ( 0.25%) in      9 files ( 20.9%)
+   TSUndefinedKeyword                       477 ( 0.26%) in      9 files ( 20.9%)
    Decorator                                471 ( 0.25%) in      1 files (  2.3%)
-   MethodDefinition                         455 ( 0.24%) in      3 files (  7.0%)
-   SequenceExpression                       366 ( 0.19%) in      6 files ( 14.0%)
-   ClassBody                                363 ( 0.19%) in      3 files (  7.0%)
+   MethodDefinition                         455 ( 0.25%) in      3 files (  7.0%)
+   SequenceExpression                       366 ( 0.20%) in      6 files ( 14.0%)
+   ClassBody                                363 ( 0.20%) in      3 files (  7.0%)
    LogicalExpression                        352 ( 0.19%) in     31 files ( 72.1%)
-   TSFunctionType                           326 ( 0.17%) in     10 files ( 23.3%)
+   TSFunctionType                           326 ( 0.18%) in     10 files ( 23.3%)
    TSNumberKeyword                          302 ( 0.16%) in     15 files ( 34.9%)
    TSUnionType                              284 ( 0.15%) in     13 files ( 30.2%)
    TSQualifiedName                          278 ( 0.15%) in      8 files ( 18.6%)
@@ -199,10 +197,10 @@ Repository: sample-repos/esbuild
    TSTypeQuery                              199 ( 0.11%) in      7 files ( 16.3%)
    CatchClause                              192 ( 0.10%) in     25 files ( 58.1%)
    FunctionDeclaration                      181 ( 0.10%) in     27 files ( 62.8%)
-   ExportNamedDeclaration                   179 ( 0.09%) in     15 files ( 34.9%)
+   ExportNamedDeclaration                   179 ( 0.10%) in     15 files ( 34.9%)
    TSTypeLiteral                            138 ( 0.07%) in     14 files ( 32.6%)
    TSLiteralType                            138 ( 0.07%) in      6 files ( 14.0%)
-   ForOfStatement                           122 ( 0.06%) in     24 files ( 55.8%)
+   ForOfStatement                           122 ( 0.07%) in     24 files ( 55.8%)
    TSNullKeyword                            119 ( 0.06%) in     11 files ( 25.6%)
    PropertyDefinition                       116 ( 0.06%) in      3 files (  7.0%)
    UpdateExpression                         115 ( 0.06%) in     18 files ( 41.9%)
@@ -231,7 +229,7 @@ Repository: sample-repos/esbuild
    ImportNamespaceSpecifier                  30 ( 0.02%) in      9 files ( 20.9%)
    TSImportEqualsDeclaration                 30 ( 0.02%) in      8 files ( 18.6%)
    TSExternalModuleReference                 30 ( 0.02%) in      8 files ( 18.6%)
-   TSTypeParameter                           28 ( 0.01%) in      6 files ( 14.0%)
+   TSTypeParameter                           28 ( 0.02%) in      6 files ( 14.0%)
    AssignmentPattern                         27 ( 0.01%) in      7 files ( 16.3%)
    TSTypeAliasDeclaration                    25 ( 0.01%) in      6 files ( 14.0%)
    ContinueStatement                         23 ( 0.01%) in     11 files ( 25.6%)
@@ -404,28 +402,6 @@ Repository: sample-repos/esbuild
        • scripts/plugin-tests.js
      📄 Files WITHOUT VariableDeclaration (showing 3):
        • require/yarnpnp/in.mjs
-       • require/yarnpnp/foo/index.js
-       • require/yarnpnp/bar/index.js
-
-   Unknown:
-     📄 Files WITH Unknown (showing 10):
-       • scripts/wasm-tests.js
-       • scripts/verify-source-map.js
-       • scripts/uglify-tests.js
-       • scripts/ts-type-tests.js
-       • scripts/test262.js
-       • scripts/test262-async.js
-       • scripts/test-yarnpnp.js
-       • scripts/terser-tests.js
-       • scripts/register-test.js
-       • scripts/plugin-tests.js
-     📄 Files WITHOUT Unknown (showing 8):
-       • scripts/parse-ts-files.js
-       • require/yarnpnp/in.mjs
-       • lib/shared/types.ts
-       • lib/npm/node-shim.ts
-       • lib/deno/external.d.ts
-       • compat-table/src/types.d.ts
        • require/yarnpnp/foo/index.js
        • require/yarnpnp/bar/index.js
 
@@ -876,10 +852,10 @@ Repository: sample-repos/esbuild
        • scripts/register-test.js
        • scripts/node-unref-tests.js
        • scripts/gen-unicode-table.js
+       • scripts/browser/browser-tests.js
        • require/yarnpnp/in.mjs
        • lib/shared/types.ts
        • lib/npm/node-shim.ts
-       • lib/npm/browser.ts
 
    TSStringKeyword:
      📄 Files WITH TSStringKeyword (showing 10):
@@ -1496,10 +1472,10 @@ Repository: sample-repos/esbuild
        • scripts/terser-tests.js
        • scripts/node-unref-tests.js
        • scripts/gen-unicode-table.js
+       • scripts/browser/browser-tests.js
        • require/yarnpnp/in.mjs
        • lib/shared/worker.ts
        • lib/shared/types.ts
-       • lib/npm/node.ts
 
    TSNullKeyword:
      📄 Files WITH TSNullKeyword (showing 10):
@@ -1563,8 +1539,8 @@ Repository: sample-repos/esbuild
        • scripts/parse-ts-files.js
        • scripts/node-unref-tests.js
        • scripts/esbuild.js
+       • scripts/browser/browser-tests.js
        • require/yarnpnp/in.mjs
-       • lib/shared/worker.ts
 
    TSAsExpression:
      📄 Files WITH TSAsExpression (showing 10):
@@ -1751,8 +1727,8 @@ Repository: sample-repos/esbuild
        • scripts/destructuring-fuzzer.js
        • scripts/decorator-tests.ts
        • scripts/decorator-tests.js
+       • scripts/browser/browser-tests.js
        • lib/shared/common.ts
-       • lib/npm/node.ts
      📄 Files WITHOUT ArrayPattern (showing 10):
        • scripts/wasm-tests.js
        • scripts/verify-source-map.js

@@ -1,5 +1,5 @@
 AST Analysis Report for tsup
-Generated on: 2025-07-14T02:08:16.136Z
+Generated on: 2025-07-14T02:35:26.609Z
 Repository: sample-repos/tsup
 ================================================================================
 
@@ -20,62 +20,61 @@ Repository: sample-repos/tsup
    Total file size: 172.4 KB
 
 🌳 NODE STATISTICS:
-   Total nodes: 21,756
-   Average nodes per file: 453
+   Total nodes: 21,204
+   Average nodes per file: 442
    Average file size: 3.6 KB
 
 📋 ALL NODE TYPES (BY FILE PRESENCE):
-   Program                            48 files (100.0%) -            48 total ( 0.22%)
-   Identifier                         48 files (100.0%) -         7,173 total (32.97%)
-   Literal                            48 files (100.0%) -         1,957 total ( 9.00%)
-   ImportDeclaration                  47 files ( 97.9%) -           207 total ( 0.95%)
-   CallExpression                     47 files ( 97.9%) -         1,529 total ( 7.03%)
-   ImportSpecifier                    46 files ( 95.8%) -           242 total ( 1.11%)
-   MemberExpression                   45 files ( 93.8%) -         1,533 total ( 7.05%)
-   BlockStatement                     42 files ( 87.5%) -           519 total ( 2.39%)
-   VariableDeclaration                42 files ( 87.5%) -           471 total ( 2.16%)
-   VariableDeclarator                 42 files ( 87.5%) -           471 total ( 2.16%)
-   ArrowFunctionExpression            42 files ( 87.5%) -           240 total ( 1.10%)
-   ExpressionStatement                41 files ( 85.4%) -           563 total ( 2.59%)
-   ObjectExpression                   41 files ( 85.4%) -           470 total ( 2.16%)
-   Property                           41 files ( 85.4%) -         1,166 total ( 5.36%)
-   Unknown                            39 files ( 81.3%) -           552 total ( 2.54%)
-   TSTypeAnnotation                   35 files ( 72.9%) -           453 total ( 2.08%)
-   TemplateElement                    33 files ( 68.8%) -           462 total ( 2.12%)
-   ExportNamedDeclaration             33 files ( 68.8%) -            97 total ( 0.45%)
-   TSTypeReference                    33 files ( 68.8%) -           256 total ( 1.18%)
-   TemplateLiteral                    32 files ( 66.7%) -           346 total ( 1.59%)
-   ArrayExpression                    31 files ( 64.6%) -           224 total ( 1.03%)
-   ReturnStatement                    31 files ( 64.6%) -           208 total ( 0.96%)
-   ObjectPattern                      30 files ( 62.5%) -           121 total ( 0.56%)
-   AwaitExpression                    29 files ( 60.4%) -           247 total ( 1.14%)
-   IfStatement                        29 files ( 60.4%) -           195 total ( 0.90%)
-   BinaryExpression                   27 files ( 56.3%) -           158 total ( 0.73%)
-   UnaryExpression                    26 files ( 54.2%) -           103 total ( 0.47%)
-   LogicalExpression                  26 files ( 54.2%) -           130 total ( 0.60%)
-   ImportDefaultSpecifier             25 files ( 52.1%) -            48 total ( 0.22%)
-   TSStringKeyword                    25 files ( 52.1%) -           204 total ( 0.94%)
+   Program                            48 files (100.0%) -            48 total ( 0.23%)
+   Identifier                         48 files (100.0%) -         7,173 total (33.83%)
+   Literal                            48 files (100.0%) -         1,957 total ( 9.23%)
+   ImportDeclaration                  47 files ( 97.9%) -           207 total ( 0.98%)
+   CallExpression                     47 files ( 97.9%) -         1,529 total ( 7.21%)
+   ImportSpecifier                    46 files ( 95.8%) -           242 total ( 1.14%)
+   MemberExpression                   45 files ( 93.8%) -         1,533 total ( 7.23%)
+   BlockStatement                     42 files ( 87.5%) -           519 total ( 2.45%)
+   VariableDeclaration                42 files ( 87.5%) -           471 total ( 2.22%)
+   VariableDeclarator                 42 files ( 87.5%) -           471 total ( 2.22%)
+   ArrowFunctionExpression            42 files ( 87.5%) -           240 total ( 1.13%)
+   ExpressionStatement                41 files ( 85.4%) -           563 total ( 2.66%)
+   ObjectExpression                   41 files ( 85.4%) -           470 total ( 2.22%)
+   Property                           41 files ( 85.4%) -         1,166 total ( 5.50%)
+   TSTypeAnnotation                   35 files ( 72.9%) -           453 total ( 2.14%)
+   TemplateElement                    33 files ( 68.8%) -           462 total ( 2.18%)
+   ExportNamedDeclaration             33 files ( 68.8%) -            97 total ( 0.46%)
+   TSTypeReference                    33 files ( 68.8%) -           256 total ( 1.21%)
+   TemplateLiteral                    32 files ( 66.7%) -           346 total ( 1.63%)
+   ArrayExpression                    31 files ( 64.6%) -           224 total ( 1.06%)
+   ReturnStatement                    31 files ( 64.6%) -           208 total ( 0.98%)
+   ObjectPattern                      30 files ( 62.5%) -           121 total ( 0.57%)
+   AwaitExpression                    29 files ( 60.4%) -           247 total ( 1.16%)
+   IfStatement                        29 files ( 60.4%) -           195 total ( 0.92%)
+   BinaryExpression                   27 files ( 56.3%) -           158 total ( 0.75%)
+   UnaryExpression                    26 files ( 54.2%) -           103 total ( 0.49%)
+   LogicalExpression                  26 files ( 54.2%) -           130 total ( 0.61%)
+   ImportDefaultSpecifier             25 files ( 52.1%) -            48 total ( 0.23%)
+   TSStringKeyword                    25 files ( 52.1%) -           204 total ( 0.96%)
    FunctionExpression                 23 files ( 47.9%) -            45 total ( 0.21%)
-   AssignmentExpression               21 files ( 43.8%) -            94 total ( 0.43%)
-   ConditionalExpression              19 files ( 39.6%) -            74 total ( 0.34%)
+   AssignmentExpression               21 files ( 43.8%) -            94 total ( 0.44%)
+   ConditionalExpression              19 files ( 39.6%) -            74 total ( 0.35%)
    TSTypeLiteral                      18 files ( 37.5%) -            43 total ( 0.20%)
-   TSPropertySignature                18 files ( 37.5%) -           160 total ( 0.74%)
-   TSTypeParameterInstantiation       18 files ( 37.5%) -            53 total ( 0.24%)
-   TSArrayType                        17 files ( 35.4%) -            57 total ( 0.26%)
+   TSPropertySignature                18 files ( 37.5%) -           160 total ( 0.75%)
+   TSTypeParameterInstantiation       18 files ( 37.5%) -            53 total ( 0.25%)
+   TSArrayType                        17 files ( 35.4%) -            57 total ( 0.27%)
    NewExpression                      16 files ( 33.3%) -            47 total ( 0.22%)
-   SpreadElement                      16 files ( 33.3%) -            69 total ( 0.32%)
-   FunctionDeclaration                15 files ( 31.3%) -            48 total ( 0.22%)
-   TSUnionType                        14 files ( 29.2%) -            78 total ( 0.36%)
+   SpreadElement                      16 files ( 33.3%) -            69 total ( 0.33%)
+   FunctionDeclaration                15 files ( 31.3%) -            48 total ( 0.23%)
+   TSUnionType                        14 files ( 29.2%) -            78 total ( 0.37%)
    ChainExpression                    12 files ( 25.0%) -            34 total ( 0.16%)
    ThrowStatement                     12 files ( 25.0%) -            23 total ( 0.11%)
    ParenthesizedExpression            12 files ( 25.0%) -            22 total ( 0.10%)
    TSAnyKeyword                       12 files ( 25.0%) -            20 total ( 0.09%)
    TSBooleanKeyword                   11 files ( 22.9%) -            43 total ( 0.20%)
-   TSLiteralType                      11 files ( 22.9%) -            68 total ( 0.31%)
+   TSLiteralType                      11 files ( 22.9%) -            68 total ( 0.32%)
    TryStatement                       10 files ( 20.8%) -            11 total ( 0.05%)
    CatchClause                        10 files ( 20.8%) -            11 total ( 0.05%)
    TSTypeAliasDeclaration              9 files ( 18.8%) -            34 total ( 0.16%)
-   TSTypeQuery                         9 files ( 18.8%) -            14 total ( 0.06%)
+   TSTypeQuery                         9 files ( 18.8%) -            14 total ( 0.07%)
    TSUndefinedKeyword                  9 files ( 18.8%) -            20 total ( 0.09%)
    ThisExpression                      9 files ( 18.8%) -            41 total ( 0.19%)
    AssignmentPattern                   8 files ( 16.7%) -             9 total ( 0.04%)
@@ -124,45 +123,44 @@ Repository: sample-repos/tsup
    Super                               1 files (  2.1%) -             1 total ( 0.00%)
 
 📝 ALL NODE TYPES (BY TOTAL COUNT):
-   Identifier                             7,173 (32.97%) in     48 files (100.0%)
-   Literal                                1,957 ( 9.00%) in     48 files (100.0%)
-   MemberExpression                       1,533 ( 7.05%) in     45 files ( 93.8%)
-   CallExpression                         1,529 ( 7.03%) in     47 files ( 97.9%)
-   Property                               1,166 ( 5.36%) in     41 files ( 85.4%)
-   ExpressionStatement                      563 ( 2.59%) in     41 files ( 85.4%)
-   Unknown                                  552 ( 2.54%) in     39 files ( 81.3%)
-   BlockStatement                           519 ( 2.39%) in     42 files ( 87.5%)
-   VariableDeclaration                      471 ( 2.16%) in     42 files ( 87.5%)
-   VariableDeclarator                       471 ( 2.16%) in     42 files ( 87.5%)
-   ObjectExpression                         470 ( 2.16%) in     41 files ( 85.4%)
-   TemplateElement                          462 ( 2.12%) in     33 files ( 68.8%)
-   TSTypeAnnotation                         453 ( 2.08%) in     35 files ( 72.9%)
-   TemplateLiteral                          346 ( 1.59%) in     32 files ( 66.7%)
-   TSTypeReference                          256 ( 1.18%) in     33 files ( 68.8%)
-   AwaitExpression                          247 ( 1.14%) in     29 files ( 60.4%)
-   ImportSpecifier                          242 ( 1.11%) in     46 files ( 95.8%)
-   ArrowFunctionExpression                  240 ( 1.10%) in     42 files ( 87.5%)
-   ArrayExpression                          224 ( 1.03%) in     31 files ( 64.6%)
-   ReturnStatement                          208 ( 0.96%) in     31 files ( 64.6%)
-   ImportDeclaration                        207 ( 0.95%) in     47 files ( 97.9%)
-   TSStringKeyword                          204 ( 0.94%) in     25 files ( 52.1%)
-   IfStatement                              195 ( 0.90%) in     29 files ( 60.4%)
-   TSPropertySignature                      160 ( 0.74%) in     18 files ( 37.5%)
-   BinaryExpression                         158 ( 0.73%) in     27 files ( 56.3%)
-   LogicalExpression                        130 ( 0.60%) in     26 files ( 54.2%)
-   ObjectPattern                            121 ( 0.56%) in     30 files ( 62.5%)
-   UnaryExpression                          103 ( 0.47%) in     26 files ( 54.2%)
-   ExportNamedDeclaration                    97 ( 0.45%) in     33 files ( 68.8%)
-   AssignmentExpression                      94 ( 0.43%) in     21 files ( 43.8%)
-   TSUnionType                               78 ( 0.36%) in     14 files ( 29.2%)
-   ConditionalExpression                     74 ( 0.34%) in     19 files ( 39.6%)
-   SpreadElement                             69 ( 0.32%) in     16 files ( 33.3%)
-   TSLiteralType                             68 ( 0.31%) in     11 files ( 22.9%)
-   TSArrayType                               57 ( 0.26%) in     17 files ( 35.4%)
-   TSTypeParameterInstantiation              53 ( 0.24%) in     18 files ( 37.5%)
-   Program                                   48 ( 0.22%) in     48 files (100.0%)
-   ImportDefaultSpecifier                    48 ( 0.22%) in     25 files ( 52.1%)
-   FunctionDeclaration                       48 ( 0.22%) in     15 files ( 31.3%)
+   Identifier                             7,173 (33.83%) in     48 files (100.0%)
+   Literal                                1,957 ( 9.23%) in     48 files (100.0%)
+   MemberExpression                       1,533 ( 7.23%) in     45 files ( 93.8%)
+   CallExpression                         1,529 ( 7.21%) in     47 files ( 97.9%)
+   Property                               1,166 ( 5.50%) in     41 files ( 85.4%)
+   ExpressionStatement                      563 ( 2.66%) in     41 files ( 85.4%)
+   BlockStatement                           519 ( 2.45%) in     42 files ( 87.5%)
+   VariableDeclaration                      471 ( 2.22%) in     42 files ( 87.5%)
+   VariableDeclarator                       471 ( 2.22%) in     42 files ( 87.5%)
+   ObjectExpression                         470 ( 2.22%) in     41 files ( 85.4%)
+   TemplateElement                          462 ( 2.18%) in     33 files ( 68.8%)
+   TSTypeAnnotation                         453 ( 2.14%) in     35 files ( 72.9%)
+   TemplateLiteral                          346 ( 1.63%) in     32 files ( 66.7%)
+   TSTypeReference                          256 ( 1.21%) in     33 files ( 68.8%)
+   AwaitExpression                          247 ( 1.16%) in     29 files ( 60.4%)
+   ImportSpecifier                          242 ( 1.14%) in     46 files ( 95.8%)
+   ArrowFunctionExpression                  240 ( 1.13%) in     42 files ( 87.5%)
+   ArrayExpression                          224 ( 1.06%) in     31 files ( 64.6%)
+   ReturnStatement                          208 ( 0.98%) in     31 files ( 64.6%)
+   ImportDeclaration                        207 ( 0.98%) in     47 files ( 97.9%)
+   TSStringKeyword                          204 ( 0.96%) in     25 files ( 52.1%)
+   IfStatement                              195 ( 0.92%) in     29 files ( 60.4%)
+   TSPropertySignature                      160 ( 0.75%) in     18 files ( 37.5%)
+   BinaryExpression                         158 ( 0.75%) in     27 files ( 56.3%)
+   LogicalExpression                        130 ( 0.61%) in     26 files ( 54.2%)
+   ObjectPattern                            121 ( 0.57%) in     30 files ( 62.5%)
+   UnaryExpression                          103 ( 0.49%) in     26 files ( 54.2%)
+   ExportNamedDeclaration                    97 ( 0.46%) in     33 files ( 68.8%)
+   AssignmentExpression                      94 ( 0.44%) in     21 files ( 43.8%)
+   TSUnionType                               78 ( 0.37%) in     14 files ( 29.2%)
+   ConditionalExpression                     74 ( 0.35%) in     19 files ( 39.6%)
+   SpreadElement                             69 ( 0.33%) in     16 files ( 33.3%)
+   TSLiteralType                             68 ( 0.32%) in     11 files ( 22.9%)
+   TSArrayType                               57 ( 0.27%) in     17 files ( 35.4%)
+   TSTypeParameterInstantiation              53 ( 0.25%) in     18 files ( 37.5%)
+   Program                                   48 ( 0.23%) in     48 files (100.0%)
+   ImportDefaultSpecifier                    48 ( 0.23%) in     25 files ( 52.1%)
+   FunctionDeclaration                       48 ( 0.23%) in     15 files ( 31.3%)
    NewExpression                             47 ( 0.22%) in     16 files ( 33.3%)
    FunctionExpression                        45 ( 0.21%) in     23 files ( 47.9%)
    TSTypeLiteral                             43 ( 0.20%) in     18 files ( 37.5%)
@@ -179,7 +177,7 @@ Repository: sample-repos/tsup
    TSVoidKeyword                             17 ( 0.08%) in      6 files ( 12.5%)
    TSNumberKeyword                           15 ( 0.07%) in      7 files ( 14.6%)
    ForOfStatement                            15 ( 0.07%) in      8 files ( 16.7%)
-   TSTypeQuery                               14 ( 0.06%) in      9 files ( 18.8%)
+   TSTypeQuery                               14 ( 0.07%) in      9 files ( 18.8%)
    TSAsExpression                            13 ( 0.06%) in      6 files ( 12.5%)
    TSSatisfiesExpression                     11 ( 0.05%) in      3 files (  6.3%)
    TryStatement                              11 ( 0.05%) in     10 files ( 20.8%)
@@ -297,11 +295,11 @@ Repository: sample-repos/tsup
        • test/experimental-dts.test.ts
        • test/example.test.ts
      📄 Files WITHOUT Property (showing 7):
+       • assets/esm_shims.js
+       • assets/cjs_shims.js
        • src/options.ts
        • src/errors.ts
        • src/cli-default.ts
-       • assets/esm_shims.js
-       • assets/cjs_shims.js
        • src/lib/report-size.ts
        • src/lib/public-dir.ts
 
@@ -319,35 +317,12 @@ Repository: sample-repos/tsup
        • test/dts.test.ts
      📄 Files WITHOUT ExpressionStatement (showing 7):
        • tsup.config.ts
-       • src/options.ts
        • assets/esm_shims.js
        • assets/cjs_shims.js
+       • src/options.ts
        • src/plugins/tree-shaking.ts
        • src/plugins/cjs-splitting.ts
        • src/plugins/cjs-interop.ts
-
-   Unknown:
-     📄 Files WITH Unknown (showing 10):
-       • vitest-global.ts
-       • test/utils.ts
-       • test/tsconfig.test.ts
-       • test/svelte.test.ts
-       • test/shims.test.ts
-       • test/index.test.ts
-       • test/graphql.test.ts
-       • test/experimental-dts.test.ts
-       • test/example.test.ts
-       • test/dts.test.ts
-     📄 Files WITHOUT Unknown (showing 9):
-       • tsup.config.ts
-       • src/run.ts
-       • src/fs.ts
-       • src/cli-node.ts
-       • src/cli-main.ts
-       • src/cli-default.ts
-       • assets/esm_shims.js
-       • src/plugins/size-reporter.ts
-       • src/esbuild/swc.test.ts
 
    BlockStatement:
      📄 Files WITH BlockStatement (showing 10):
@@ -363,11 +338,11 @@ Repository: sample-repos/tsup
        • test/dts.test.ts
      📄 Files WITHOUT BlockStatement (showing 6):
        • tsup.config.ts
+       • assets/esm_shims.js
+       • assets/cjs_shims.js
        • src/options.ts
        • src/cli-node.ts
        • src/cli-default.ts
-       • assets/esm_shims.js
-       • assets/cjs_shims.js
 
    VariableDeclaration:
      📄 Files WITH VariableDeclaration (showing 10):
@@ -422,11 +397,11 @@ Repository: sample-repos/tsup
        • test/experimental-dts.test.ts
        • test/example.test.ts
      📄 Files WITHOUT ObjectExpression (showing 7):
+       • assets/esm_shims.js
+       • assets/cjs_shims.js
        • src/options.ts
        • src/errors.ts
        • src/cli-default.ts
-       • assets/esm_shims.js
-       • assets/cjs_shims.js
        • src/lib/report-size.ts
        • src/lib/public-dir.ts
 
@@ -445,12 +420,12 @@ Repository: sample-repos/tsup
      📄 Files WITHOUT TemplateElement (showing 10):
        • tsup.config.ts
        • test/utils.ts
+       • assets/esm_shims.js
        • src/run.ts
        • src/fs.ts
        • src/cli-node.ts
        • src/cli-main.ts
        • src/cli-default.ts
-       • assets/esm_shims.js
        • src/plugins/tree-shaking.ts
        • src/plugins/terser.ts
 
@@ -476,7 +451,7 @@ Repository: sample-repos/tsup
        • test/experimental-dts.test.ts
        • test/example.test.ts
        • test/css.test.ts
-       • src/cli-node.ts
+       • assets/esm_shims.js
 
    TemplateLiteral:
      📄 Files WITH TemplateLiteral (showing 10):
@@ -493,13 +468,13 @@ Repository: sample-repos/tsup
      📄 Files WITHOUT TemplateLiteral (showing 10):
        • tsup.config.ts
        • test/utils.ts
+       • assets/esm_shims.js
        • src/run.ts
        • src/options.ts
        • src/fs.ts
        • src/cli-node.ts
        • src/cli-main.ts
        • src/cli-default.ts
-       • assets/esm_shims.js
        • src/plugins/tree-shaking.ts
 
    TSTypeReference:
@@ -523,8 +498,8 @@ Repository: sample-repos/tsup
        • test/example.test.ts
        • test/dts.test.ts
        • test/css.test.ts
-       • src/run.ts
-       • src/errors.ts
+       • assets/esm_shims.js
+       • assets/cjs_shims.js
 
    AwaitExpression:
      📄 Files WITH AwaitExpression (showing 10):
@@ -540,6 +515,8 @@ Repository: sample-repos/tsup
        • test/dts.test.ts
      📄 Files WITHOUT AwaitExpression (showing 10):
        • tsup.config.ts
+       • assets/esm_shims.js
+       • assets/cjs_shims.js
        • src/tsc.ts
        • src/run.ts
        • src/options.ts
@@ -547,8 +524,6 @@ Repository: sample-repos/tsup
        • src/exports.ts
        • src/errors.ts
        • src/cli-node.ts
-       • src/cli-default.ts
-       • assets/esm_shims.js
 
    ImportSpecifier:
      📄 Files WITH ImportSpecifier (showing 10):
@@ -563,8 +538,8 @@ Repository: sample-repos/tsup
        • test/experimental-dts.test.ts
        • test/example.test.ts
      📄 Files WITHOUT ImportSpecifier (showing 2):
-       • src/fs.ts
        • assets/cjs_shims.js
+       • src/fs.ts
 
    ArrowFunctionExpression:
      📄 Files WITH ArrowFunctionExpression (showing 10):
@@ -600,14 +575,14 @@ Repository: sample-repos/tsup
        • test/dts.test.ts
      📄 Files WITHOUT ArrayExpression (showing 10):
        • tsup.config.ts
+       • assets/esm_shims.js
+       • assets/cjs_shims.js
        • src/options.ts
        • src/fs.ts
        • src/errors.ts
        • src/cli-node.ts
        • src/cli-main.ts
        • src/cli-default.ts
-       • assets/esm_shims.js
-       • assets/cjs_shims.js
        • src/plugins/terser.ts
 
    ReturnStatement:
@@ -725,6 +700,7 @@ Repository: sample-repos/tsup
      📄 Files WITH BinaryExpression (showing 10):
        • test/utils.ts
        • test/index.test.ts
+       • assets/cjs_shims.js
        • src/utils.ts
        • src/tsc.ts
        • src/rollup.ts
@@ -732,7 +708,6 @@ Repository: sample-repos/tsup
        • src/log.ts
        • src/load.ts
        • src/index.ts
-       • src/fs.ts
      📄 Files WITHOUT BinaryExpression (showing 10):
        • vitest-global.ts
        • tsup.config.ts
@@ -748,6 +723,7 @@ Repository: sample-repos/tsup
    LogicalExpression:
      📄 Files WITH LogicalExpression (showing 10):
        • test/utils.ts
+       • assets/cjs_shims.js
        • src/utils.ts
        • src/tsc.ts
        • src/run.ts
@@ -756,7 +732,6 @@ Repository: sample-repos/tsup
        • src/log.ts
        • src/load.ts
        • src/index.ts
-       • src/errors.ts
      📄 Files WITHOUT LogicalExpression (showing 10):
        • vitest-global.ts
        • tsup.config.ts
@@ -785,18 +760,19 @@ Repository: sample-repos/tsup
        • vitest-global.ts
        • tsup.config.ts
        • test/example.test.ts
+       • assets/esm_shims.js
+       • assets/cjs_shims.js
        • src/options.ts
        • src/log.ts
        • src/fs.ts
        • src/exports.ts
        • src/errors.ts
-       • src/cli-node.ts
-       • src/cli-default.ts
 
    UnaryExpression:
      📄 Files WITH UnaryExpression (showing 10):
        • test/utils.ts
        • test/index.test.ts
+       • assets/cjs_shims.js
        • src/utils.ts
        • src/tsc.ts
        • src/rollup.ts
@@ -804,7 +780,6 @@ Repository: sample-repos/tsup
        • src/log.ts
        • src/index.ts
        • src/fs.ts
-       • src/exports.ts
      📄 Files WITHOUT UnaryExpression (showing 10):
        • vitest-global.ts
        • tsup.config.ts
@@ -820,6 +795,8 @@ Repository: sample-repos/tsup
    ExportNamedDeclaration:
      📄 Files WITH ExportNamedDeclaration (showing 10):
        • test/utils.ts
+       • assets/esm_shims.js
+       • assets/cjs_shims.js
        • src/utils.ts
        • src/tsc.ts
        • src/run.ts
@@ -827,8 +804,6 @@ Repository: sample-repos/tsup
        • src/options.ts
        • src/log.ts
        • src/load.ts
-       • src/index.ts
-       • src/fs.ts
      📄 Files WITHOUT ExportNamedDeclaration (showing 10):
        • vitest-global.ts
        • tsup.config.ts
@@ -891,6 +866,7 @@ Repository: sample-repos/tsup
 
    ConditionalExpression:
      📄 Files WITH ConditionalExpression (showing 10):
+       • assets/cjs_shims.js
        • src/utils.ts
        • src/tsc.ts
        • src/rollup.ts
@@ -900,7 +876,6 @@ Repository: sample-repos/tsup
        • src/index.ts
        • src/exports.ts
        • src/cli-main.ts
-       • assets/cjs_shims.js
      📄 Files WITHOUT ConditionalExpression (showing 10):
        • vitest-global.ts
        • tsup.config.ts
@@ -1029,12 +1004,12 @@ Repository: sample-repos/tsup
        • test/utils.ts
        • test/index.test.ts
        • test/dts.test.ts
+       • assets/esm_shims.js
        • src/utils.ts
        • src/tsc.ts
        • src/rollup.ts
        • src/plugin.ts
        • src/log.ts
-       • src/load.ts
      📄 Files WITHOUT ImportDefaultSpecifier (showing 10):
        • tsup.config.ts
        • test/tsconfig.test.ts
@@ -1044,8 +1019,8 @@ Repository: sample-repos/tsup
        • test/experimental-dts.test.ts
        • test/example.test.ts
        • test/css.test.ts
+       • assets/cjs_shims.js
        • src/run.ts
-       • src/options.ts
 
    FunctionDeclaration:
      📄 Files WITH FunctionDeclaration (showing 10):
@@ -1075,6 +1050,7 @@ Repository: sample-repos/tsup
      📄 Files WITH NewExpression (showing 10):
        • test/utils.ts
        • test/index.test.ts
+       • assets/cjs_shims.js
        • src/utils.ts
        • src/tsc.ts
        • src/rollup.ts
@@ -1082,7 +1058,6 @@ Repository: sample-repos/tsup
        • src/load.ts
        • src/index.ts
        • src/exports.ts
-       • src/errors.ts
      📄 Files WITHOUT NewExpression (showing 10):
        • vitest-global.ts
        • tsup.config.ts
@@ -1264,11 +1239,11 @@ Repository: sample-repos/tsup
    ParenthesizedExpression:
      📄 Files WITH ParenthesizedExpression (showing 10):
        • test/utils.ts
+       • assets/cjs_shims.js
        • src/utils.ts
        • src/rollup.ts
        • src/log.ts
        • src/index.ts
-       • assets/cjs_shims.js
        • src/plugins/terser.ts
        • src/lib/report-size.ts
        • src/esbuild/postcss.ts
